@@ -1,0 +1,19 @@
+{
+  "id": "enlightenment",
+  "name": "Enlightenment Intellectual Network",
+  "description": "Key figures of the 18th century Enlightenment and their intellectual relationships, including French philosophes, Scottish Enlightenment thinkers, German Aufklärung philosophers, and the American founders.",
+  "lastUpdated": "2026-01-18",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 214,
+  "edgeCount": 116,
+  "customRelationshipTypes": [
+    {
+      "type": "patronized",
+      "description": "Patron supported or hosted the target individual",
+      "directed": true
+    }
+  ]
+}

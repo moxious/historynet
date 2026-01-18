@@ -4,6 +4,22 @@ This document provides instructions for AI agents and developers working on the 
 
 ---
 
+## Live Application & Testing
+
+> **Production URL**: https://moxious.github.io/historynet/
+> 
+> **GitHub Repository**: https://github.com/moxious/historynet
+
+The application is automatically deployed to GitHub Pages when changes are pushed to `main`. Use the production URL to test features at runtime using browser tools (MCP browser extension, etc.).
+
+### Example URLs for Testing
+- **Home**: `https://moxious.github.io/historynet/#/`
+- **Disney Dataset**: `https://moxious.github.io/historynet/#/?dataset=disney-characters`
+- **Rosicrucian Dataset**: `https://moxious.github.io/historynet/#/?dataset=rosicrucian-network`
+- **Deep Link to Node**: `https://moxious.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node`
+
+---
+
 ## Project Overview
 
 **HistoryNet** is a React/Vite SPA for visualizing and exploring historical social networks. The application displays graph data representing historical figures (persons), their works (objects), locations, and organizations (entities), along with the relationships between them.

@@ -14,7 +14,7 @@ This document outlines the major milestones for implementing HistoryNet. Each mi
 | M4 | Infobox Panel | Node/edge detail display | ✅ Complete |
 | M5 | Filtering System | Date and text filters with URL sync | ✅ Complete |
 | M6 | Search & Polish | Search highlighting and UX refinement | ✅ Complete |
-| M7 | Deployment | GitHub Pages deployment pipeline | 🔄 Ready (pending first push) |
+| M7 | Deployment | GitHub Pages deployment pipeline | ✅ Complete |
 | M8 | Timeline View | Vertical timeline visualization | 🔲 Not Started |
 
 **MVP = Milestones 1-7**

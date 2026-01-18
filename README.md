@@ -1,10 +1,10 @@
 # HistoryNet
 
-[![Deploy to GitHub Pages](https://github.com/davidallen/historynet/actions/workflows/deploy.yml/badge.svg)](https://github.com/davidallen/historynet/actions/workflows/deploy.yml)
+> **Live Application**: https://moxious.github.io/historynet/
+
+[![Deploy to GitHub Pages](https://github.com/moxious/historynet/actions/workflows/deploy.yml/badge.svg)](https://github.com/moxious/historynet/actions/workflows/deploy.yml)
 
 An interactive visualization tool for exploring historical social networks. HistoryNet renders knowledge bases as force-directed graphs, allowing users to discover connections between historical figures, their works, locations, and organizations.
-
-**[Live Demo](https://davidallen.github.io/historynet/)**
 
 ## Features
 
@@ -26,7 +26,7 @@ An interactive visualization tool for exploring historical social networks. Hist
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/historynet.git
+   git clone https://github.com/moxious/historynet.git
    cd historynet
    ```
 
@@ -128,9 +128,9 @@ To enable GitHub Pages for your fork:
 ### URL Structure
 
 URLs use hash routing for GitHub Pages compatibility:
-- `https://username.github.io/historynet/#/` - Home
-- `https://username.github.io/historynet/#/?dataset=disney-characters` - Load specific dataset
-- `https://username.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node` - Deep link to node
+- `https://moxious.github.io/historynet/#/` - Home
+- `https://moxious.github.io/historynet/#/?dataset=disney-characters` - Load specific dataset
+- `https://moxious.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node` - Deep link to node
 
 ## Documentation
 

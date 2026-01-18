@@ -226,11 +226,11 @@ This document tracks individual tasks for implementing HistoryNet. Tasks are gro
 - [x] Deploy to GitHub Pages branch
 
 ### Verification
-- [ ] Enable GitHub Pages in repository settings (manual step required)
-- [ ] Verify deployment succeeds (requires push to main)
-- [ ] Test live URL loads correctly (requires push to main)
-- [ ] Test deep linking (URL with filters) works (requires push to main)
-- [ ] Test dataset switching works on live site (requires push to main)
+- [~] Enable GitHub Pages in repository settings - **IMPORTANT**: Must select "GitHub Actions" as source, not "Deploy from a branch"
+- [ ] Verify deployment succeeds
+- [ ] Test live URL loads correctly: https://moxious.github.io/historynet/
+- [ ] Test deep linking (URL with filters) works
+- [ ] Test dataset switching works on live site
 
 ### Documentation
 - [x] Add live demo URL to README
@@ -515,7 +515,7 @@ Design decisions:
   - Set chunkSizeWarningLimit to 600KB
   
 - Switched from BrowserRouter to HashRouter for GitHub Pages compatibility:
-  - URLs now use hash format: https://username.github.io/historynet/#/?dataset=xyz
+  - URLs now use hash format: https://moxious.github.io/historynet/#/?dataset=xyz
   - Deep linking works correctly with GitHub Pages static hosting
   
 - Created GitHub Actions workflow (.github/workflows/deploy.yml):
@@ -531,16 +531,27 @@ Design decisions:
   - CSS bundle: ~31KB
   - Datasets correctly copied to dist/
   
-- Updated README.md with:
+- Updated README.md and AGENTS.md with:
   - GitHub Actions deployment status badge
-  - Live demo link
+  - Live demo link: https://moxious.github.io/historynet/
   - Deployment documentation section
   - URL structure examples for hash routing
 
-Remaining verification tasks require:
-1. Push to main branch to trigger first deployment
-2. Enable GitHub Pages in repository settings (Settings → Pages → Source: GitHub Actions)
-3. Manual testing on live URL once deployed
+[2026-01-18] @claude: Fixed dataset loading for GitHub Pages deployment
+- Issue: Datasets returning 404 because dataLoader used absolute path '/datasets/...'
+- Fix: Updated src/utils/dataLoader.ts to use import.meta.env.BASE_URL
+  - getDatasetsBasePath() now constructs path from Vite's BASE_URL
+  - Local dev: '/datasets/...'
+  - GitHub Pages: '/historynet/datasets/...'
+
+[2026-01-18] @claude: Diagnosed GitHub Pages configuration issue
+- Issue: Site was serving source files (index.html with /src/main.tsx) instead of built dist/
+- Cause: GitHub Pages was configured for "Deploy from a branch" instead of "GitHub Actions"
+- Fix: User must change Settings → Pages → Source to "GitHub Actions"
+- Evidence: package.json was publicly accessible at the deploy URL (shouldn't be!)
+
+Production URL: https://moxious.github.io/historynet/
+GitHub Repository: https://github.com/moxious/historynet
 ```
 
 ---
