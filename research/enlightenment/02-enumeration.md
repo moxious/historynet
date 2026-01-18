@@ -267,6 +267,14 @@ The German Enlightenment, centered in Prussia and university towns.
 - **Connections**: Wolff (follower), Kant used his *Metaphysica* as teaching text
 - **Notes**: Early death limited his output
 
+### Johann Wolfgang von Goethe (1749-1832)
+- **Role**: Writer, poet, natural philosopher, statesman
+- **Location**: Frankfurt (birth), Leipzig, Strasbourg, Weimar (from 1775)
+- **Significance**: Germany's greatest literary figure. Early works (*Sorrows of Young Werther*, *Götz von Berlichingen*) sparked Sturm und Drang movement. Transitional figure between Enlightenment and Romanticism.
+- **Key Works**: *The Sorrows of Young Werther* (1774), *Faust* (Part I 1808), scientific writings
+- **Connections**: Herder (met 1770, lifelong friendship), wider German intellectual world
+- **Notes**: Primarily included for Herder connection; literary stature transcends "Enlightenment" category
+
 ---
 
 ## British Empiricists and Political Thinkers
@@ -451,6 +459,14 @@ Natural philosophers and mathematicians whose work intersected with Enlightenmen
 - **Connections**: Voltaire (intellectual partner and lover), Maupertuis, Clairaut
 - **Notes**: Rare female intellectual accepted by philosophes; died in childbirth
 
+### Joseph-Louis Lagrange (1736-1813)
+- **Role**: Mathematician, astronomer
+- **Location**: Turin, Berlin (1766-1787), Paris (1787-1813)
+- **Significance**: One of the greatest mathematicians of the 18th century. Developed calculus of variations, Lagrangian mechanics. Succeeded Euler at Berlin Academy.
+- **Key Works**: *Mécanique analytique* (1788), papers on number theory and celestial mechanics
+- **Connections**: Euler (predecessor at Berlin), d'Alembert (correspondent, helped his career), Frederick the Great (patron)
+- **Notes**: Bridge between mid-century mathematical physics and 19th-century developments
+
 ---
 
 ## Salon Hostesses and Cultural Figures
@@ -520,14 +536,14 @@ Rulers who patronized and corresponded with philosophes.
 | Foundational Figures | 3 |
 | French Philosophes | 14 |
 | Scottish Enlightenment | 8 |
-| German Aufklärung | 6 |
+| German Aufklärung | 7 |
 | British Empiricists & Political Thinkers | 9 |
 | Physiocrats & Economists | 3 |
 | American Enlightenment | 4 |
-| Scientific-Mathematical Circle | 5 |
+| Scientific-Mathematical Circle | 6 |
 | Salon Hostesses | 4 |
 | Enlightened Despots & Patrons | 2 |
-| **Total** | **58** |
+| **Total** | **60** |
 
 ---
 

@@ -1,6 +1,6 @@
 # AI/LLM Research Network - Research Progress
 
-**Status**: In Progress
+**Status**: In Progress (Phase 5 next)
 **Started**: 2026-01-18
 **Last Updated**: 2026-01-18
 **Researcher**: AI Agent (Claude)
@@ -29,10 +29,10 @@
 - [x] Document in 03-relationships.md
 
 ### Phase 4: Objects, Locations, Entities
-- [ ] Identify key works (papers, models)
-- [ ] Identify significant locations
-- [ ] Identify relevant entities (labs, companies)
-- [ ] Document in 04-objects.md, 05-locations.md, 06-entities.md
+- [x] Identify key works (papers, models)
+- [x] Identify significant locations
+- [x] Identify relevant entities (labs, companies)
+- [x] Document in 04-objects.md, 05-locations.md, 06-entities.md
 
 ### Phase 5: Review and Gap Analysis
 - [ ] Review completeness
@@ -53,9 +53,9 @@
 |--------|-------|
 | People enumerated | 91 |
 | Relationships documented | 121 |
-| Objects identified | 0 |
-| Locations identified | 0 |
-| Entities identified | 0 |
+| Objects identified | 65 |
+| Locations identified | 49 |
+| Entities identified | 41 |
 
 ## Notes
 
@@ -68,3 +68,7 @@
 - Phase 2 completed 2026-01-18
 - Phase 3 completed 2026-01-18
 - Custom relationship types added: co_founded, recruited, departed_from, co_authored, employed
+- Phase 4 completed 2026-01-18
+- Objects include: foundational papers (Transformer, AlexNet, GAN, etc.), model families (GPT, Claude, LLaMA, Gemini), key systems (ChatGPT, AlphaGo, AlphaFold), textbooks and courses
+- Locations span major AI hubs: SF Bay Area, London, Paris, Toronto/Montreal corridor, plus universities
+- Entities include: major labs (OpenAI, Anthropic, DeepMind, Meta AI, xAI), startups (Mistral, Cohere, Sakana), academic institutes (MILA, Vector, Stanford HAI), conferences (NeurIPS, ICML, ICLR)
