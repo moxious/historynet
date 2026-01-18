@@ -63,6 +63,8 @@ Application rebranded from "HistoryNet" to "Scenius" with new tagline "Mapping c
 ### M14 - Timeline Improvements ✅
 300px left margin for filter panel clearance, improved year label readability, initial zoom focus on first item, node-type legend matching graph view, verified infobox behavior parity. Gap collapse feature researched but deferred.
 
+See `HISTORY.md` for detailed task lists and implementation notes for all completed milestones.
+
 ---
 
 ## Future: M12 - User Feedback
@@ -120,61 +122,6 @@ interface FeedbackSubmission {
   contactEmail?: string;
 }
 ```
-
----
-
-## Completed: M13 - Scenius Rebrand & Theme System ✅
-
-**Goal**: Rebrand the application from "HistoryNet" to "Scenius" and introduce a light/dark theme system with URL persistence for shareability.
-
-**Status**: Complete (2026-01-18)
-
-**Concept**: The name "Scenius" comes from Brian Eno's concept describing the collective intelligence of creative communities. Unlike the myth of the "lone genius," scenius recognizes that great creative work emerges from fertile scenes—groups of people encouraging, competing with, and reacting to each other. This perfectly captures what the application visualizes: the networks of influence, collaboration, and connection between historical figures.
-
-**Key Principles** (from the scenius concept):
-- Mutual appreciation among peers drives creative risk-taking
-- Rapid exchange of ideas within a shared language
-- Success of one empowers the entire community
-- Local tolerance for experimentation and transgression
-
-**Deliverables**:
-
-### Application Rebrand
-- Update application title from "HistoryNet" to "Scenius"
-- Update Header component with new branding
-- Create new favicon (derived from brain/lightbulb emoji concept, symbolizing collective intelligence)
-- Update HTML meta tags (title, description, og:title, etc.)
-- Update README.md with new name and branding explanation
-- Update all documentation references (AGENTS.md, PRD.md, etc.)
-- Consider tagline: "Visualizing creative communities" or "Mapping collective genius"
-
-### Theme System Architecture
-- Create `ThemeContext` for managing light/dark mode state
-- Define CSS custom properties (variables) for all theme-aware colors
-- Implement `useTheme` hook for components to access theme state
-- Add `theme` parameter to URL scheme (`?theme=light` or `?theme=dark`)
-- Ensure theme state syncs with URL like other app state (dataset, filters, selection)
-- Light mode as default; dark mode as alternate
-
-### Theme Switcher UI
-- Create `ThemeToggle` component for Header/top bar
-- Design toggle with sun/moon icons or similar visual metaphor
-- Position alongside existing controls (dataset selector, view picker)
-- Ensure accessible keyboard navigation and ARIA labels
-
-### CSS Theme Implementation
-- Define light mode color palette (warm, inviting, intellectual)
-- Define dark mode color palette (contrasting, easy on eyes)
-- Update all component CSS to use theme variables
-- Ensure graph visualization colors work in both themes
-- Ensure timeline visualization colors work in both themes
-- Test readability and contrast in both modes (WCAG guidelines)
-
-### Favicon Design
-- Design favicon inspired by brain or lightbulb emoji
-- Concept: interconnected minds / collective illumination
-- Create multiple sizes for various contexts (16x16, 32x32, 192x192, etc.)
-- Support both light and dark favicon variants if needed
 
 ---
 
@@ -443,8 +390,6 @@ M9-M11, M13, M14 (Polish Complete) ✅
 Note: M12, M15, and M16 can be worked on in parallel as they have no dependencies on each other. However:
 - If M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
 - M16 is particularly high-value as it improves data quality for all future dataset development and catches errors before deployment.
-
-M13 (Scenius Rebrand & Theme System) was completed on 2026-01-18.
 
 ---
 
