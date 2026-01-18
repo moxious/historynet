@@ -48,11 +48,17 @@ function DatasetSelector({
 
   // Load all dataset manifests on mount
   useEffect(() => {
+    // REACT: track mounted state to prevent state updates after unmount (R4)
+    let isMounted = true;
+
     async function loadAllManifests() {
       setLoadingManifests(true);
       const results: DatasetOption[] = [];
 
       for (const id of AVAILABLE_DATASETS) {
+        // REACT: bail early if component unmounted during async loop (R4)
+        if (!isMounted) return;
+
         try {
           const manifest: DatasetManifest = await loadManifest(id);
           results.push({
@@ -76,11 +82,19 @@ function DatasetSelector({
         }
       }
 
-      setDatasets(results);
-      setLoadingManifests(false);
+      // REACT: only update state if still mounted (R4)
+      if (isMounted) {
+        setDatasets(results);
+        setLoadingManifests(false);
+      }
     }
 
     loadAllManifests();
+
+    // REACT: cleanup sets mounted flag to false (R4)
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   // Close dropdown when clicking outside

@@ -257,8 +257,9 @@ function PropertyValue({ value }: { value: unknown }): JSX.Element {
     }
     return (
       <ul className="edge-infobox__list">
+        {/* REACT: Use value-based key when possible, fallback to index for objects (R9) */}
         {value.map((item, index) => (
-          <li key={index}>
+          <li key={typeof item === 'string' || typeof item === 'number' ? `${item}` : `item-${index}`}>
             <PropertyValue value={item} />
           </li>
         ))}

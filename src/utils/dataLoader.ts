@@ -32,10 +32,11 @@ export class DatasetLoadError extends Error {
 
 /**
  * Fetch JSON data with error handling
+ * REACT: Accepts optional AbortSignal for request cancellation (R4/R7)
  */
-async function fetchJson<T>(url: string, description: string): Promise<T> {
+async function fetchJson<T>(url: string, description: string, signal?: AbortSignal): Promise<T> {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url, { signal });
 
     if (!response.ok) {
       throw new DatasetLoadError(
@@ -46,6 +47,11 @@ async function fetchJson<T>(url: string, description: string): Promise<T> {
 
     return await response.json();
   } catch (error) {
+    // Re-throw abort errors as-is so they can be handled specifically
+    if (error instanceof Error && error.name === 'AbortError') {
+      throw error;
+    }
+
     if (error instanceof DatasetLoadError) {
       throw error;
     }
@@ -67,10 +73,11 @@ function getDatasetPath(datasetId: string, filename: string): string {
 
 /**
  * Load the manifest for a dataset
+ * REACT: Accepts optional AbortSignal for request cancellation (R4/R7)
  */
-export async function loadManifest(datasetId: string): Promise<DatasetManifest> {
+export async function loadManifest(datasetId: string, signal?: AbortSignal): Promise<DatasetManifest> {
   const url = getDatasetPath(datasetId, 'manifest.json');
-  const manifest = await fetchJson<DatasetManifest>(url, `manifest for ${datasetId}`);
+  const manifest = await fetchJson<DatasetManifest>(url, `manifest for ${datasetId}`, signal);
 
   // Validate required fields
   if (!manifest.id || !manifest.name || !manifest.description || !manifest.lastUpdated) {
@@ -85,10 +92,11 @@ export async function loadManifest(datasetId: string): Promise<DatasetManifest> 
 
 /**
  * Load nodes for a dataset
+ * REACT: Accepts optional AbortSignal for request cancellation (R4/R7)
  */
-export async function loadNodes(datasetId: string): Promise<GraphNode[]> {
+export async function loadNodes(datasetId: string, signal?: AbortSignal): Promise<GraphNode[]> {
   const url = getDatasetPath(datasetId, 'nodes.json');
-  const nodes = await fetchJson<GraphNode[]>(url, `nodes for ${datasetId}`);
+  const nodes = await fetchJson<GraphNode[]>(url, `nodes for ${datasetId}`, signal);
 
   // Validate that we got an array
   if (!Array.isArray(nodes)) {
@@ -110,10 +118,11 @@ export async function loadNodes(datasetId: string): Promise<GraphNode[]> {
 
 /**
  * Load edges for a dataset
+ * REACT: Accepts optional AbortSignal for request cancellation (R4/R7)
  */
-export async function loadEdges(datasetId: string): Promise<GraphEdge[]> {
+export async function loadEdges(datasetId: string, signal?: AbortSignal): Promise<GraphEdge[]> {
   const url = getDatasetPath(datasetId, 'edges.json');
-  const edges = await fetchJson<GraphEdge[]>(url, `edges for ${datasetId}`);
+  const edges = await fetchJson<GraphEdge[]>(url, `edges for ${datasetId}`, signal);
 
   // Validate that we got an array
   if (!Array.isArray(edges)) {
@@ -135,23 +144,28 @@ export async function loadEdges(datasetId: string): Promise<GraphEdge[]> {
 
 /**
  * Load graph data (nodes and edges) for a dataset
+ * REACT: Accepts optional AbortSignal for request cancellation (R4/R7)
  */
-export async function loadGraphData(datasetId: string): Promise<GraphData> {
+export async function loadGraphData(datasetId: string, signal?: AbortSignal): Promise<GraphData> {
   // Load nodes and edges in parallel
-  const [nodes, edges] = await Promise.all([loadNodes(datasetId), loadEdges(datasetId)]);
+  const [nodes, edges] = await Promise.all([
+    loadNodes(datasetId, signal),
+    loadEdges(datasetId, signal),
+  ]);
 
   return { nodes, edges };
 }
 
 /**
  * Load a complete dataset (manifest + data)
+ * REACT: Accepts optional AbortSignal for request cancellation (R4/R7)
  */
-export async function loadDataset(datasetId: string): Promise<Dataset> {
+export async function loadDataset(datasetId: string, signal?: AbortSignal): Promise<Dataset> {
   // Load manifest first to validate the dataset exists
-  const manifest = await loadManifest(datasetId);
+  const manifest = await loadManifest(datasetId, signal);
 
   // Then load graph data
-  const data = await loadGraphData(datasetId);
+  const data = await loadGraphData(datasetId, signal);
 
   return { manifest, data };
 }

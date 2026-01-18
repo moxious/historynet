@@ -82,6 +82,20 @@ function FilterPanel({
     }
   }, [filters.nameFilter, filters.relationshipFilter, localNameFilter, localRelationshipFilter]);
 
+  // REACT: Sync local date state when filters change externally (R14)
+  // This replaces the previous inline state sync that violated React rules
+  useEffect(() => {
+    const isStartFocused = document.activeElement?.id === 'filter-date-start';
+    const isEndFocused = document.activeElement?.id === 'filter-date-end';
+
+    if (!isStartFocused) {
+      setLocalDateStart(filters.dateStart !== null ? String(filters.dateStart) : '');
+    }
+    if (!isEndFocused) {
+      setLocalDateEnd(filters.dateEnd !== null ? String(filters.dateEnd) : '');
+    }
+  }, [filters.dateStart, filters.dateEnd]);
+
   // Check if there are active filters
   const hasFilters = hasActiveFilters(filters);
 
@@ -148,18 +162,6 @@ function FilterPanel({
     },
     []
   );
-
-  // Sync local date state when filters change externally
-  // (e.g., from URL navigation)
-  const externalDateStart = filters.dateStart !== null ? String(filters.dateStart) : '';
-  const externalDateEnd = filters.dateEnd !== null ? String(filters.dateEnd) : '';
-
-  if (localDateStart !== externalDateStart && document.activeElement?.id !== 'filter-date-start') {
-    setLocalDateStart(externalDateStart);
-  }
-  if (localDateEnd !== externalDateEnd && document.activeElement?.id !== 'filter-date-end') {
-    setLocalDateEnd(externalDateEnd);
-  }
 
   return (
     <div className={`filter-panel ${isCollapsed ? 'filter-panel--collapsed' : ''}`}>

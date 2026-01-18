@@ -138,8 +138,9 @@ function ExternalLinksSection({ links }: { links: ExternalLink[] }) {
     <section className="node-infobox__section">
       <h3 className="node-infobox__section-title">External Links</h3>
       <ul className="node-infobox__external-links">
-        {links.map((link, index) => (
-          <li key={index}>
+        {/* REACT: Use URL as stable unique key (R9) */}
+        {links.map((link) => (
+          <li key={link.url}>
             <a
               href={link.url}
               target="_blank"
@@ -215,8 +216,9 @@ function PropertyValue({
     }
     return (
       <ul className="node-infobox__list">
+        {/* REACT: Use value-based key when possible, fallback to index for objects (R9) */}
         {value.map((item, index) => (
-          <li key={index}>
+          <li key={typeof item === 'string' || typeof item === 'number' ? `${item}` : `item-${index}`}>
             <PropertyValue
               value={item}
               getNode={getNode}
