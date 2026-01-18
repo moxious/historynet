@@ -1,6 +1,9 @@
 /**
- * Central export point for all HistoryNet types
+ * Central export point for all Scenius types
  */
+
+// Theme types
+export type { Theme, ThemeContextValue } from './theme';
 
 // Node types
 export type {

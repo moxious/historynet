@@ -41,3 +41,5 @@ export {
   type TickGranularity,
   type TickInfo,
 } from './timelineSegments';
+
+export { sanitizeUrl, isValidImageUrl } from './urlSanitizer';

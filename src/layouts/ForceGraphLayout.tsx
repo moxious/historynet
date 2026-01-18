@@ -270,11 +270,16 @@ export function ForceGraphLayout({
       });
 
     // Add node shapes
+    // Get theme-aware colors from CSS custom properties
+    const computedStyle = getComputedStyle(document.documentElement);
+    const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
+    const graphTextColor = computedStyle.getPropertyValue('--color-graph-text').trim() || '#374151';
+
     nodeElements
       .append('path')
       .attr('d', (d) => getNodeShape(d.type, NODE_SIZE))
       .attr('fill', (d) => getNodeColor(d.type))
-      .attr('stroke', '#fff')
+      .attr('stroke', nodeStrokeColor)
       .attr('stroke-width', 2)
       .attr('class', 'node-shape');
 
@@ -289,7 +294,7 @@ export function ForceGraphLayout({
       .attr('dy', NODE_SIZE / 2 + 14)
       .text((d) => d.title)
       .attr('font-size', '11px')
-      .attr('fill', '#374151')
+      .attr('fill', graphTextColor)
       .attr('pointer-events', 'none');
 
     // Update positions on simulation tick
@@ -336,6 +341,11 @@ export function ForceGraphLayout({
 
     const svg = d3.select(svgRef.current);
 
+    // Get theme-aware colors from CSS custom properties
+    const computedStyle = getComputedStyle(document.documentElement);
+    const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
+    const selectedStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke-selected').trim() || '#1e293b';
+
     // Update node selection state
     svg.selectAll('.graph-node').each(function () {
       const el = d3.select(this);
@@ -343,7 +353,7 @@ export function ForceGraphLayout({
       const isSelected = nodeId === selectedNodeId;
 
       el.select('.node-shape')
-        .attr('stroke', isSelected ? '#1e293b' : '#fff')
+        .attr('stroke', isSelected ? selectedStrokeColor : nodeStrokeColor)
         .attr('stroke-width', isSelected ? 3 : 2);
 
       el.classed('selected', isSelected);

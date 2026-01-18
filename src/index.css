@@ -1,23 +1,141 @@
-:root {
-  /* Colors */
+/* ============================================
+   Scenius Theme System
+   ============================================
+   
+   Theme variables are organized by category.
+   Light mode is the default. Dark mode overrides via [data-theme="dark"].
+   
+   URL parameter: ?theme=light or ?theme=dark
+   ============================================ */
+
+:root,
+[data-theme="light"] {
+  /* ----------------------------------------
+     Core Colors - Light Mode
+     Warm, inviting palette for readability
+     ---------------------------------------- */
   --color-primary: #4a90d9;
   --color-primary-dark: #357abd;
+  --color-primary-light: #6ba3e0;
   --color-secondary: #6c757d;
   --color-success: #28a745;
   --color-danger: #dc3545;
   --color-warning: #ffc107;
+
+  /* Backgrounds */
   --color-background: #f8f9fa;
   --color-surface: #ffffff;
+  --color-surface-hover: #f1f3f5;
+  --color-surface-active: #e9ecef;
+
+  /* Text */
   --color-text: #212529;
   --color-text-muted: #6c757d;
+  --color-text-inverse: #ffffff;
+
+  /* Borders & Dividers */
   --color-border: #dee2e6;
+  --color-border-light: #e9ecef;
+  --color-border-focus: #4a90d9;
 
-  /* Node type colors */
-  --color-node-person: #4a90d9;
-  --color-node-object: #28a745;
-  --color-node-location: #dc3545;
-  --color-node-entity: #ffc107;
+  /* Node type colors (vibrant for visibility) */
+  --color-node-person: #3b82f6;
+  --color-node-object: #10b981;
+  --color-node-location: #f59e0b;
+  --color-node-entity: #8b5cf6;
 
+  /* Edge relationship colors */
+  --color-edge-intellectual: #6366f1;
+  --color-edge-collaborative: #22c55e;
+  --color-edge-creative: #f97316;
+  --color-edge-location: #8b5cf6;
+  --color-edge-organizational: #ec4899;
+  --color-edge-personal: #ef4444;
+  --color-edge-default: #94a3b8;
+
+  /* Graph-specific colors */
+  --color-graph-background: #f8f9fa;
+  --color-graph-text: #374151;
+  --color-graph-node-stroke: #ffffff;
+  --color-graph-node-stroke-selected: #1e293b;
+  --color-search-highlight: #f59e0b;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-focus: 0 0 0 3px rgba(74, 144, 217, 0.15);
+
+  /* Input focus ring */
+  --focus-ring-color: rgba(74, 144, 217, 0.2);
+}
+
+[data-theme="dark"] {
+  /* ----------------------------------------
+     Core Colors - Dark Mode
+     Easy on the eyes, high contrast where needed
+     ---------------------------------------- */
+  --color-primary: #60a5fa;
+  --color-primary-dark: #3b82f6;
+  --color-primary-light: #93c5fd;
+  --color-secondary: #9ca3af;
+  --color-success: #34d399;
+  --color-danger: #f87171;
+  --color-warning: #fbbf24;
+
+  /* Backgrounds */
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+  --color-surface-hover: #334155;
+  --color-surface-active: #475569;
+
+  /* Text */
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  --color-text-inverse: #0f172a;
+
+  /* Borders & Dividers */
+  --color-border: #334155;
+  --color-border-light: #1e293b;
+  --color-border-focus: #60a5fa;
+
+  /* Node type colors (slightly brighter for dark background) */
+  --color-node-person: #60a5fa;
+  --color-node-object: #34d399;
+  --color-node-location: #fbbf24;
+  --color-node-entity: #a78bfa;
+
+  /* Edge relationship colors */
+  --color-edge-intellectual: #818cf8;
+  --color-edge-collaborative: #4ade80;
+  --color-edge-creative: #fb923c;
+  --color-edge-location: #a78bfa;
+  --color-edge-organizational: #f472b6;
+  --color-edge-personal: #f87171;
+  --color-edge-default: #64748b;
+
+  /* Graph-specific colors */
+  --color-graph-background: #0f172a;
+  --color-graph-text: #e2e8f0;
+  --color-graph-node-stroke: #334155;
+  --color-graph-node-stroke-selected: #f1f5f9;
+  --color-search-highlight: #fbbf24;
+
+  /* Shadows (more pronounced for dark mode) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+  --shadow-focus: 0 0 0 3px rgba(96, 165, 250, 0.25);
+
+  /* Input focus ring */
+  --focus-ring-color: rgba(96, 165, 250, 0.3);
+}
+
+/* ============================================
+   Theme-Independent Variables
+   ============================================ */
+
+:root {
   /* Spacing */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
@@ -40,16 +158,16 @@
   --header-height: 60px;
   --infobox-width: 320px;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-
   /* Border radius */
   --border-radius: 6px;
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+  --transition-slow: 300ms ease;
 }
 
 *,

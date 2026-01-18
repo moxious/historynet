@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to HistoryNet are documented in this file.
+All notable changes to Scenius (formerly HistoryNet) are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
@@ -8,9 +8,46 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+- **Protestant Reformation Dataset** - New historical network with 180 nodes (65 people, 44 objects, 43 locations, 28 entities) and 101 relationships covering the 16th century Reformation (c. 1483-1564). Includes Luther, Calvin, Zwingli, Erasmus, and their networks across Lutheran, Reformed, Radical, and English reform movements.
+
 ### Planned
 - M12: User Feedback - feedback form with Vercel serverless functions
-- M13: Scenius Rebrand & Theme System - application rebrand with light/dark themes
+
+---
+
+## [1.6.0] - 2026-01-18
+
+### Added
+- **M13: Scenius Rebrand & Theme System** - Application rebranding and theme support
+
+### Changed
+- **Application renamed** from "HistoryNet" to "Scenius" - reflecting Brian Eno's concept of collective creative intelligence
+- **New tagline**: "Mapping collective genius"
+- **New favicon**: SVG favicon with interconnected nodes design symbolizing collective intelligence
+
+### Added
+- **Light/Dark Theme System**
+  - Theme toggle in header with sun/moon icons
+  - URL parameter support (`?theme=dark` or `?theme=light`)
+  - localStorage fallback for theme persistence
+  - Theme state shareable via URL
+  
+- **CSS Custom Properties**
+  - Comprehensive light mode color palette (warm, inviting)
+  - Dark mode color palette (slate tones, easy on eyes)
+  - Theme-aware graph visualization colors
+  - Theme-aware timeline visualization colors
+  
+- **ThemeContext** for React state management
+  - `useTheme` hook for accessing theme state
+  - Automatic sync between URL, localStorage, and DOM
+
+### Documentation
+- Updated README.md with new name and scenius concept explanation
+- Updated AGENTS.md with Scenius branding
+- Updated PRD.md with theme system requirements (F8)
+- Added theme URL examples to documentation
 
 ---
 

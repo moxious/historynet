@@ -3,3 +3,4 @@
  */
 
 export { GraphProvider, useGraph } from './GraphContext';
+export { ThemeProvider, useTheme } from './ThemeContext';

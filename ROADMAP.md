@@ -16,9 +16,10 @@ This document outlines the milestone structure and future direction for HistoryN
 | M10 | UX Improvements | ✅ Complete |
 | M11 | Graph Interaction Polish | ✅ Complete |
 | M12 | User Feedback | 🔲 Future |
-| M13 | Scenius Rebrand & Theme System | 🔲 Future |
+| M13 | Scenius Rebrand & Theme System | ✅ Complete |
 | M14 | Timeline Improvements | ✅ Complete |
 | M15 | Stable Resource URLs | 🔲 Future |
+| M16 | Network Verification | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -43,7 +44,7 @@ See `HISTORY.md` for detailed implementation history and completion notes.
 
 ---
 
-## Completed: M9-M11, M14
+## Completed: M9-M11, M13, M14
 
 The following milestones have been completed. See `HISTORY.md` for detailed task lists and implementation notes.
 
@@ -55,6 +56,9 @@ Debounced filter inputs, simplified labels, InfoboxPanel hidden when no selectio
 
 ### M11 - Graph Interaction Polish ✅
 Memoized click handlers to prevent graph re-layout, physics tuning (reduced repulsion, added soft gravity), zoom/pan hint for discoverability, removed ID fields from infobox.
+
+### M13 - Scenius Rebrand & Theme System ✅
+Application rebranded from "HistoryNet" to "Scenius" with new tagline "Mapping collective genius". Full light/dark theme system with URL parameter support (`?theme=dark`), localStorage persistence, and theme-aware visualizations. New SVG favicon with interconnected nodes design.
 
 ### M14 - Timeline Improvements ✅
 300px left margin for filter panel clearance, improved year label readability, initial zoom focus on first item, node-type legend matching graph view, verified infobox behavior parity. Gap collapse feature researched but deferred.
@@ -119,9 +123,11 @@ interface FeedbackSubmission {
 
 ---
 
-## Future: M13 - Scenius Rebrand & Theme System
+## Completed: M13 - Scenius Rebrand & Theme System ✅
 
 **Goal**: Rebrand the application from "HistoryNet" to "Scenius" and introduce a light/dark theme system with URL persistence for shareability.
+
+**Status**: Complete (2026-01-18)
 
 **Concept**: The name "Scenius" comes from Brian Eno's concept describing the collective intelligence of creative communities. Unlike the myth of the "lone genius," scenius recognizes that great creative work emerges from fertile scenes—groups of people encouraging, competing with, and reacting to each other. This perfectly captures what the application visualizes: the networks of influence, collaboration, and connection between historical figures.
 
@@ -240,6 +246,168 @@ Note: Dynamic meta tags in an SPA require either server-side rendering or a prer
 
 ---
 
+## Future: M16 - Network Verification
+
+**Goal**: Implement build-time CLI validation tools that verify all datasets conform to the graph schema before deployment. Invalid or malformed datasets should fail the build, preventing broken data from reaching production.
+
+**Architecture**: TypeScript CLI scripts executed via npm, integrated into the GitHub Actions workflow after the build step. Validation runs against the JSON files in `public/datasets/`.
+
+**Key Principle**: This is **build-time only** validation. No validation code should be shipped to the runtime bundle. The CLI tools live in a separate `scripts/` directory and are excluded from the production build.
+
+**Deliverables**:
+
+### CLI Tool Architecture
+
+Create validation scripts in `scripts/validate-datasets/`:
+
+```
+scripts/
+└── validate-datasets/
+    ├── index.ts           # Main entry point
+    ├── validators/
+    │   ├── json-syntax.ts    # JSON parsing validation
+    │   ├── manifest.ts       # Manifest schema validation
+    │   ├── nodes.ts          # Node schema validation
+    │   ├── edges.ts          # Edge schema validation
+    │   └── cross-references.ts # Referential integrity
+    ├── types.ts           # Validation types and interfaces
+    └── reporter.ts        # Output formatting (errors, warnings, summary)
+```
+
+### JSON Syntax Validation
+- Verify all JSON files parse without errors
+- Report specific parsing errors with line numbers when possible
+- Validate file encoding (UTF-8)
+
+### Manifest Validation
+- Required fields: `id`, `name`
+- Recommended fields warning: `description`, `lastUpdated`, `version`
+- Verify `id` matches directory name
+- Validate `customRelationshipTypes` structure if present
+
+### Node Validation
+- **Required fields**: `id`, `type`, `title`
+- **Type validation**: `type` must be one of `"person"`, `"object"`, `"location"`, `"entity"`
+- **ID format**: Warning if ID doesn't follow `{type}-{slug}` pattern
+- **Date validation**: If `dateStart` or `dateEnd` present, validate ISO 8601 or year-only format
+- **URL validation**: If `imageUrl` or `externalLinks` present, validate URL format
+- **Type-specific fields**: Warn if type-specific recommended fields missing (e.g., `biography` for persons, `objectType` for objects)
+- **Duplicate detection**: Error if multiple nodes share the same ID
+
+### Edge Validation
+- **Required fields**: `id`, `source`, `target`, `relationship`
+- **Relationship type**: Validate against known types or documented custom types in manifest
+- **Date validation**: Same rules as nodes
+- **Evidence warning**: Warning if edge lacks `evidence`, `evidenceNodeId`, or `evidenceUrl`
+- **Duplicate detection**: Error if multiple edges share the same ID
+
+### Cross-Reference Validation
+- **Referential integrity**: Every `source` and `target` in edges must exist in nodes
+- **Orphan detection**: Warning for nodes with no connected edges (configurable)
+- **Evidence node validation**: If `evidenceNodeId` specified, verify it exists in nodes
+- **Internal link validation**: Validate any node ID references in custom fields
+
+### npm Scripts
+
+Add to `package.json`:
+
+```json
+{
+  "scripts": {
+    "validate:datasets": "npx tsx scripts/validate-datasets/index.ts",
+    "validate:datasets:strict": "npx tsx scripts/validate-datasets/index.ts --strict"
+  }
+}
+```
+
+Options:
+- `--strict`: Treat warnings as errors
+- `--dataset <id>`: Validate only a specific dataset
+- `--quiet`: Only output errors and final summary
+- `--json`: Output results as JSON (for CI parsing)
+
+### Output Format
+
+Human-readable output with severity levels:
+
+```
+🔍 Validating datasets...
+
+📁 disney-characters/
+  ✅ manifest.json - valid
+  ✅ nodes.json - valid (47 nodes)
+  ⚠️  edges.json - 3 warnings
+     └─ edge-001: missing evidence field
+     └─ edge-015: missing evidence field
+     └─ edge-023: missing evidence field
+  ✅ Cross-references valid
+
+📁 enlightenment/
+  ✅ manifest.json - valid
+  ❌ nodes.json - 1 error
+     └─ person-voltaire-2: duplicate node ID (line 45)
+  ⏭️  Skipping further validation due to errors
+
+📊 Summary:
+   Datasets: 4 checked, 3 passed, 1 failed
+   Errors: 1
+   Warnings: 3
+
+❌ Validation failed
+```
+
+### GitHub Actions Integration
+
+Update `.github/workflows/deploy.yml` to add validation step:
+
+```yaml
+- name: Validate datasets
+  run: npm run validate:datasets
+
+- name: Build for production
+  run: npm run build
+```
+
+Validation runs **before** build to fail fast. Build artifacts are not created if datasets are invalid.
+
+### Error Categories
+
+| Category | Severity | Build Impact |
+|----------|----------|--------------|
+| JSON parse error | Error | ❌ Fails build |
+| Missing required field | Error | ❌ Fails build |
+| Invalid node type | Error | ❌ Fails build |
+| Duplicate ID | Error | ❌ Fails build |
+| Broken reference (source/target) | Error | ❌ Fails build |
+| Invalid date format | Error | ❌ Fails build |
+| Missing recommended field | Warning | ⚠️ Logged only |
+| Missing evidence | Warning | ⚠️ Logged only |
+| Orphan node | Warning | ⚠️ Logged only |
+| Non-standard ID format | Warning | ⚠️ Logged only |
+
+### Development Dependencies
+
+Add to `devDependencies`:
+- `tsx` - TypeScript execution (already likely present)
+- `zod` - Schema validation (recommended for type-safe validation)
+
+### Tasks
+
+1. [ ] Create `scripts/validate-datasets/` directory structure
+2. [ ] Implement JSON syntax validator
+3. [ ] Implement manifest schema validator
+4. [ ] Implement node schema validator with type-specific rules
+5. [ ] Implement edge schema validator
+6. [ ] Implement cross-reference validator
+7. [ ] Implement reporter with colored output and summary
+8. [ ] Add CLI argument parsing (--strict, --dataset, --quiet, --json)
+9. [ ] Add npm scripts to package.json
+10. [ ] Update GitHub Actions workflow to run validation before build
+11. [ ] Add validation documentation to AGENTS.md
+12. [ ] Test against all existing datasets, fix any discovered issues
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -251,8 +419,9 @@ These are potential features that may become milestones:
 | Comparative View | Overlay multiple datasets |
 | Embed Mode | Embeddable visualizations for blogs/papers |
 | Bibliography Export | Citation generation from evidence data |
-| Dataset Validation CLI | Automated schema validation for new datasets |
 | Semantic Search | Natural language queries ("philosophers who influenced Kant") |
+
+> **Note**: "Dataset Validation CLI" was promoted to **M16 - Network Verification**.
 
 ---
 
@@ -262,16 +431,20 @@ These are potential features that may become milestones:
 M1-M8 (MVP Complete) ✅
     │
     ▼
-M9-M11, M14 (Polish Complete) ✅
+M9-M11, M13, M14 (Polish Complete) ✅
     │
     ├──────────────────┬──────────────────┐
     ▼                  ▼                  ▼
-   M12               M13                M15
-   (User Feedback)   (Scenius Rebrand)  (Stable URLs)
-   [Vercel req'd]    [independent]      [independent]
+   M12                M15                M16
+   (User Feedback)   (Stable URLs)      (Network Verification)
+   [Vercel req'd]    [independent]      [independent, high value]
 ```
 
-Note: M12, M13, and M15 can be worked on in parallel as they have no dependencies on each other. However, if M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
+Note: M12, M15, and M16 can be worked on in parallel as they have no dependencies on each other. However:
+- If M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
+- M16 is particularly high-value as it improves data quality for all future dataset development and catches errors before deployment.
+
+M13 (Scenius Rebrand & Theme System) was completed on 2026-01-18.
 
 ---
 

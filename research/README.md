@@ -25,6 +25,61 @@ Each network is stored in its own subdirectory with a standardized structure. Se
 | [rosicrucian/](./rosicrucian/) | In Progress | 42 | Relationship mapping |
 | [enlightenment/](./enlightenment/) | In Progress | 0 | Scoping (Phase 1 complete) |
 | [ambient-music/](./ambient-music/) | In Progress | 57 | Enumeration (Phase 2 complete) |
+| [protestant-reformation/](./protestant-reformation/) | In Progress | 71 | Enumeration (Phase 2 complete) |
+| [renaissance-humanism/](./renaissance-humanism/) | In Progress | 79 | Enumeration (Phase 2 complete) |
+
+### Renaissance Humanism Network (c. 1304-1600)
+
+**Folder**: `renaissance-humanism/`
+
+**Status**: Phase 2 (Enumeration) complete, ready for Phase 3 (Relationship Mapping)
+
+**Scope**: The intellectual network of Renaissance Humanism, spanning from early Italian humanism through Northern Christian humanism, including:
+- Early Italian Humanists (Petrarch, Boccaccio, Salutati, Bruni): 10 figures
+- Florentine Platonic Academy (Ficino, Pico della Mirandola, Poliziano): 7 figures
+- Florentine Civic Humanists (Machiavelli, Guicciardini): 6 figures
+- Roman Humanism (Valla, Biondo, papal court): 7 figures
+- Venetian and Paduan Humanism (Bembo, Aldus Manutius): 6 figures
+- Northern/Christian Humanists (Erasmus, More, Colet): 12 figures
+- German Humanists (Reuchlin, Celtis, Pirckheimer): 9 figures
+- Spanish Humanists (Nebrija, Vives): 4 figures
+- French Humanists (Budé, Lefèvre d'Étaples): 5 figures
+- Humanist Educators (Guarino, Vittorino da Feltre): 4 figures
+- Greek Scholars and Émigrés: 5 figures
+- Additional Significant Figures: 4 figures
+
+**Seed Figures**: Petrarch, Erasmus, Thomas More, Marsilio Ficino, Pico della Mirandola, Leon Battista Alberti, Niccolò Machiavelli
+
+**Total Enumerated**: 79 individuals
+
+See `renaissance-humanism/progress.md` for detailed status.
+
+---
+
+### Protestant Reformation Network (c. 1483-1564)
+
+**Folder**: `protestant-reformation/`
+
+**Status**: Phase 2 (Enumeration) complete, ready for Phase 3 (Relationship Mapping)
+
+**Scope**: The intellectual and personal network of the Protestant Reformation, including:
+- Lutheran/Wittenberg Circle (Luther's collaborators): 11 figures
+- Swiss Reformed (Zwingli, Calvin, their successors): 10 figures
+- Strasbourg Reformers (Bucer's circle): 4 figures
+- English Reformation (Cranmer, Tyndale, English reformers): 12 figures
+- Christian Humanists (Erasmus and his network): 5 figures
+- Radical Reformation (Anabaptists): 6 figures
+- French Reformed/Huguenots: 4 figures
+- Political Patrons and Catholic Opponents: 9 figures
+- Scottish Reformation: 3 figures
+
+**Seed Figures**: Martin Luther, John Calvin, Huldrych Zwingli, Erasmus, William Tyndale, Thomas Cranmer, Philip Melanchthon
+
+**Total Enumerated**: 71 individuals
+
+See `protestant-reformation/progress.md` for detailed status.
+
+---
 
 ### Ambient Music Network (c. 1920-1995)
 

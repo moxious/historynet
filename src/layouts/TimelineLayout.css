@@ -63,18 +63,18 @@
 }
 
 .timeline-event:hover .timeline-event-marker {
-  stroke: #1e293b;
+  stroke: var(--color-graph-node-stroke-selected);
   stroke-width: 3;
   filter: brightness(1.1);
 }
 
 .timeline-event.selected .timeline-event-marker {
-  stroke: #1e293b;
+  stroke: var(--color-graph-node-stroke-selected);
   stroke-width: 3;
 }
 
 .timeline-event.search-match .timeline-event-marker {
-  stroke: #fbbf24;
+  stroke: var(--color-search-highlight);
   stroke-width: 3;
 }
 
@@ -95,9 +95,9 @@
   flex-direction: column;
   gap: 2px;
   padding: 4px 8px;
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--color-surface);
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-sm);
   font-family: var(--font-family-sans, system-ui, sans-serif);
   transition: opacity 0.2s, background-color 0.15s, box-shadow 0.15s;
   max-width: 100%;
@@ -106,14 +106,14 @@
 }
 
 .timeline-event-label:hover {
-  background: rgba(255, 255, 255, 1);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-md);
 }
 
 .timeline-event.selected .timeline-event-label {
-  background: rgba(241, 245, 249, 1);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  border: 1px solid #94a3b8;
+  background: var(--color-surface-active);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
 }
 
 .timeline-event-label--left {
@@ -129,7 +129,7 @@
 .timeline-event-title {
   font-size: 12px;
   font-weight: 600;
-  color: #1e293b;
+  color: var(--color-text);
   line-height: 1.3;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -139,7 +139,7 @@
 
 .timeline-event-meta {
   font-size: 10px;
-  color: #64748b;
+  color: var(--color-text-muted);
   font-weight: 400;
 }
 
@@ -160,13 +160,13 @@
 }
 
 .timeline-undated-event:hover .timeline-event-marker {
-  stroke: #1e293b;
+  stroke: var(--color-graph-node-stroke-selected);
   stroke-width: 3;
   filter: brightness(1.1);
 }
 
 .timeline-undated-event.selected .timeline-event-marker {
-  stroke: #1e293b;
+  stroke: var(--color-graph-node-stroke-selected);
   stroke-width: 3;
 }
 

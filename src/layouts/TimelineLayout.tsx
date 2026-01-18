@@ -422,6 +422,10 @@ export function TimelineLayout({
     // Create time axis
     const axisGroup = g.append('g').attr('class', 'timeline-axis');
 
+    // Get theme colors for axis and grid (at render time)
+    const axisComputedStyle = getComputedStyle(document.documentElement);
+    const axisBorderColor = axisComputedStyle.getPropertyValue('--color-border').trim() || '#94a3b8';
+
     // Draw axis line segments (static, doesn't change with zoom)
     for (const segment of segmentedScale.segments) {
       axisGroup
@@ -431,7 +435,7 @@ export function TimelineLayout({
         .attr('x2', AXIS_X)
         .attr('y1', (segment.yStart ?? 50) - 10)
         .attr('y2', (segment.yEnd ?? 50) + 10)
-        .attr('stroke', '#94a3b8')
+        .attr('stroke', axisBorderColor)
         .attr('stroke-width', 3);
     }
 
@@ -441,6 +445,13 @@ export function TimelineLayout({
     // Function to render ticks at the current granularity
     const renderTicks = (granularity: TickGranularity) => {
       tickGroup.selectAll('*').remove();
+
+      // Get theme colors for ticks
+      const tickStyle = getComputedStyle(document.documentElement);
+      const gridMajorColor = tickStyle.getPropertyValue('--color-border').trim() || '#cbd5e1';
+      const gridMinorColor = tickStyle.getPropertyValue('--color-border-light').trim() || '#e2e8f0';
+      const tickTextColor = tickStyle.getPropertyValue('--color-text').trim() || '#0f172a';
+      const tickTextMutedColor = tickStyle.getPropertyValue('--color-text-muted').trim() || '#64748b';
 
       for (const segment of segmentedScale.segments) {
         const ticks = generateTicks(segment.yearStart, segment.yearEnd, granularity);
@@ -460,7 +471,7 @@ export function TimelineLayout({
               .attr('x2', AXIS_X + (LANE_WIDTH * MAX_LANES))
               .attr('y1', y)
               .attr('y2', y)
-              .attr('stroke', tick.isMajor ? '#cbd5e1' : '#e2e8f0')
+              .attr('stroke', tick.isMajor ? gridMajorColor : gridMinorColor)
               .attr('stroke-width', tick.isMajor ? 1.5 : 0.5)
               .attr('stroke-dasharray', tick.isMajor ? 'none' : '2,4');
           }
@@ -477,7 +488,7 @@ export function TimelineLayout({
               .attr('dominant-baseline', 'middle')
               .attr('font-size', tick.isMajor ? '12px' : '10px')
               .attr('font-weight', tick.isMajor ? '600' : '400')
-              .attr('fill', tick.isMajor ? '#0f172a' : '#64748b')
+              .attr('fill', tick.isMajor ? tickTextColor : tickTextMutedColor)
               .text(tick.label);
           }
         }
@@ -491,6 +502,7 @@ export function TimelineLayout({
 
     // Draw break indicators between segments
     const breaks = segmentedScale.getSegmentBreaks();
+    const breakTextMuted = axisComputedStyle.getPropertyValue('--color-text-muted').trim() || '#64748b';
     for (const breakInfo of breaks) {
       const breakY = breakInfo.y;
       const gapYears = breakInfo.gapYears;
@@ -511,7 +523,7 @@ export function TimelineLayout({
         .attr('class', 'timeline-break-zigzag')
         .attr('d', zigzagPath)
         .attr('fill', 'none')
-        .attr('stroke', '#94a3b8')
+        .attr('stroke', axisBorderColor)
         .attr('stroke-width', 2);
 
       // Add gap label showing years skipped
@@ -525,7 +537,7 @@ export function TimelineLayout({
           .attr('dominant-baseline', 'hanging')
           .attr('font-size', '10px')
           .attr('font-style', 'italic')
-          .attr('fill', '#64748b')
+          .attr('fill', breakTextMuted)
           .text(`~${gapYears} yrs`);
       }
     }
@@ -569,13 +581,20 @@ export function TimelineLayout({
         }
       });
 
+    // Get theme-aware colors from CSS custom properties
+    const computedStyle = getComputedStyle(document.documentElement);
+    const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
+    const graphTextColor = computedStyle.getPropertyValue('--color-graph-text').trim() || '#374151';
+    const borderColor = computedStyle.getPropertyValue('--color-border').trim() || '#cbd5e1';
+    const textMutedColor = computedStyle.getPropertyValue('--color-text-muted').trim() || '#64748b';
+
     // Add event markers on the axis
     eventElements
       .append('circle')
       .attr('class', 'timeline-event-marker')
       .attr('r', EVENT_MARKER_SIZE / 2)
       .attr('fill', (d) => getEventColor(d.type, d.nodeType))
-      .attr('stroke', '#fff')
+      .attr('stroke', nodeStrokeColor)
       .attr('stroke-width', 2);
 
     // Add connector lines from marker to label (extended to reach outer lanes)
@@ -591,7 +610,7 @@ export function TimelineLayout({
         return baseOffset + (assignment?.xOffset ?? 0);
       })
       .attr('y2', 0)
-      .attr('stroke', '#cbd5e1')
+      .attr('stroke', borderColor)
       .attr('stroke-width', 1);
 
     // Add labels using foreignObject for text wrapping (positioned by lane)
@@ -628,7 +647,7 @@ export function TimelineLayout({
     eventElements
       .filter((d) => d.type === 'death')
       .select('.timeline-event-marker')
-      .attr('fill', '#fff')
+      .attr('fill', computedStyle.getPropertyValue('--color-surface').trim() || '#fff')
       .attr('stroke', (d) => getEventColor(d.type, d.nodeType))
       .attr('stroke-width', 3);
 
@@ -643,7 +662,7 @@ export function TimelineLayout({
         .attr('x2', contentWidth)
         .attr('y1', undatedY - 20)
         .attr('y2', undatedY - 20)
-        .attr('stroke', '#cbd5e1')
+        .attr('stroke', borderColor)
         .attr('stroke-width', 1)
         .attr('stroke-dasharray', '8,4');
 
@@ -655,7 +674,7 @@ export function TimelineLayout({
         .attr('text-anchor', 'middle')
         .attr('font-size', '12px')
         .attr('font-weight', '600')
-        .attr('fill', '#64748b')
+        .attr('fill', textMutedColor)
         .text('Undated');
 
       // Position undated nodes in a row below the separator
@@ -683,7 +702,7 @@ export function TimelineLayout({
         .attr('class', 'timeline-event-marker')
         .attr('r', EVENT_MARKER_SIZE / 2)
         .attr('fill', (d) => getNodeColor(d.type))
-        .attr('stroke', '#fff')
+        .attr('stroke', nodeStrokeColor)
         .attr('stroke-width', 2);
 
       undatedElements
@@ -693,7 +712,7 @@ export function TimelineLayout({
         .attr('y', 20)
         .attr('text-anchor', 'middle')
         .attr('font-size', '10px')
-        .attr('fill', '#475569')
+        .attr('fill', graphTextColor)
         .text((d) => d.title.length > 15 ? d.title.slice(0, 12) + '...' : d.title);
     }
 
@@ -829,6 +848,11 @@ export function TimelineLayout({
 
     const svg = d3.select(svgRef.current);
 
+    // Get theme-aware colors from CSS custom properties
+    const computedStyle = getComputedStyle(document.documentElement);
+    const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
+    const selectedStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke-selected').trim() || '#1e293b';
+
     // Update event selection state
     svg.selectAll('.timeline-event').each(function () {
       const el = d3.select(this);
@@ -836,7 +860,7 @@ export function TimelineLayout({
       const isSelected = nodeId === selectedNodeId;
 
       el.select('.timeline-event-marker')
-        .attr('stroke', isSelected ? '#1e293b' : '#fff')
+        .attr('stroke', isSelected ? selectedStrokeColor : nodeStrokeColor)
         .attr('stroke-width', isSelected ? 3 : 2);
 
       el.classed('selected', isSelected);
@@ -849,7 +873,7 @@ export function TimelineLayout({
       const isSelected = nodeId === selectedNodeId;
 
       el.select('.timeline-event-marker')
-        .attr('stroke', isSelected ? '#1e293b' : '#fff')
+        .attr('stroke', isSelected ? selectedStrokeColor : nodeStrokeColor)
         .attr('stroke-width', isSelected ? 3 : 2);
 
       el.classed('selected', isSelected);

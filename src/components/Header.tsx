@@ -1,6 +1,7 @@
 import { useGraph } from '@contexts';
 import SearchBox from './SearchBox';
 import DatasetSelector from './DatasetSelector';
+import ThemeToggle from './ThemeToggle';
 import './Header.css';
 
 function Header() {
@@ -16,8 +17,8 @@ function Header() {
   return (
     <header className="header">
       <div className="header__brand">
-        <h1 className="header__title">HistoryNet</h1>
-        <span className="header__tagline">Historical Network Explorer</span>
+        <h1 className="header__title">Scenius</h1>
+        <span className="header__tagline">Mapping collective genius</span>
       </div>
       <div className="header__controls">
         <div className="header__dataset-group">
@@ -34,6 +35,7 @@ function Header() {
           placeholder="Highlight nodes..."
           resultCount={searchTerm ? searchMatchCount : undefined}
         />
+        <ThemeToggle />
       </div>
     </header>
   );

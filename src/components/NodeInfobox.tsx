@@ -23,6 +23,7 @@ import {
   isLocationNode,
   isEntityNode,
 } from '@types';
+import { sanitizeUrl, isValidImageUrl } from '@utils';
 
 interface NodeInfoboxProps {
   /** The node to display */
@@ -142,7 +143,8 @@ function ExternalLinksSection({ links }: { links: ExternalLink[] }) {
         {links.map((link) => (
           <li key={link.url}>
             <a
-              href={link.url}
+              // SECURITY: sanitized URL (F4/F6)
+              href={sanitizeUrl(link.url)}
               target="_blank"
               rel="noopener noreferrer"
               className="node-infobox__external-link"
@@ -548,7 +550,8 @@ function NodeInfobox({ node, onNodeLinkClick, getNode }: NodeInfoboxProps) {
       <div className="node-infobox__header">
         <span className={getTypeBadgeClass(node.type)}>{node.type}</span>
 
-        {node.imageUrl && (
+        {/* SECURITY: validate image URL (F4/F6) */}
+        {node.imageUrl && isValidImageUrl(node.imageUrl) && (
           <div className="node-infobox__image-container">
             <img
               src={node.imageUrl}

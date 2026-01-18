@@ -11,6 +11,7 @@
 
 import type { GraphEdge, GraphNode } from '@types';
 import { getEdgeLabel, hasEvidence } from '@types';
+import { sanitizeUrl } from '@utils';
 
 interface EdgeInfoboxProps {
   /** The edge to display */
@@ -202,7 +203,8 @@ function EvidenceSection({
         <div className="edge-infobox__evidence-url">
           <span className="edge-infobox__evidence-label">Reference:</span>
           <a
-            href={edge.evidenceUrl}
+            // SECURITY: sanitized URL (F4/F6)
+            href={sanitizeUrl(edge.evidenceUrl)}
             target="_blank"
             rel="noopener noreferrer"
             className="edge-infobox__external-link"

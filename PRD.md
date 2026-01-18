@@ -1,8 +1,10 @@
-# HistoryNet - Product Requirements Document
+# Scenius - Product Requirements Document
 
 ## Overview
 
-**HistoryNet** is a React/Vite single-page application (SPA) for exploring, visualizing, and filtering social networks of historical figures. The application presents historical relationships as an interactive graph, where nodes represent people, objects, locations, and entities, and edges represent the relationships between them.
+**Scenius** is a React/Vite single-page application (SPA) for exploring, visualizing, and filtering social networks of historical figures. The application presents historical relationships as an interactive graph, where nodes represent people, objects, locations, and entities, and edges represent the relationships between them.
+
+The name "Scenius" (coined by Brian Eno) captures the concept of collective creative intelligence—the idea that great work emerges from communities rather than lone geniuses. This perfectly describes what the application visualizes: networks of influence, collaboration, and creative exchange.
 
 The application is designed to be **dataset-agnostic**—it serves as a viewer for static JSON "knowledge bases" that can be swapped out to explore different historical networks, such as intellectual milieus or developments in Western philosophy.
 
@@ -134,9 +136,22 @@ All application state should be captured in URL parameters.
 - **Dataset**: Which knowledge base is loaded
 - **View Mode**: Graph view vs timeline view (when implemented)
 - **Filters**: All active filter values
+- **Theme**: Light or dark mode (`?theme=light` or `?theme=dark`)
 - **Selected Node/Edge**: Optionally, which item is selected in the infobox
 - Users can copy/paste URLs to share exact application states
 - Deep linking: opening a URL restores the complete application state
+
+### F8: Theme System
+
+A light/dark theme toggle for user preference.
+
+**Requirements:**
+- Toggle between light and dark modes
+- Theme preference captured in URL parameters for sharing
+- Theme falls back to localStorage when URL has no theme parameter
+- Light mode is the default
+- All components and visualizations work in both themes
+- Sufficient color contrast in both modes (WCAG AA compliance)
 
 ---
 

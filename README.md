@@ -1,16 +1,24 @@
-# HistoryNet
+# Scenius
 
 > **Live Application**: https://moxious.github.io/historynet/
 
 [![Deploy to GitHub Pages](https://github.com/moxious/historynet/actions/workflows/deploy.yml/badge.svg)](https://github.com/moxious/historynet/actions/workflows/deploy.yml)
 
-An interactive visualization tool for exploring historical social networks. HistoryNet renders knowledge bases as force-directed graphs, allowing users to discover connections between historical figures, their works, locations, and organizations.
+*Mapping collective genius*
+
+An interactive visualization tool for exploring historical social networks. Scenius renders knowledge bases as force-directed graphs, allowing users to discover connections between historical figures, their works, locations, and organizations.
+
+## About the Name
+
+"Scenius" is a term coined by Brian Eno to describe the collective intelligence of creative communities. Unlike the myth of the "lone genius," scenius recognizes that great creative work emerges from fertile scenes—groups of people encouraging, competing with, and reacting to each other. This perfectly captures what the application visualizes: the networks of influence, collaboration, and connection between historical figures.
 
 ## Features
 
 - **Interactive Graph Visualization**: Explore networks using a force-directed graph powered by D3.js
+- **Timeline View**: See historical events chronologically with automatic lane assignment
 - **Multiple Node Types**: Support for Persons, Objects, Locations, and Entities (POLE model)
 - **Detailed Information Panel**: Click any node or edge to view comprehensive metadata
+- **Light/Dark Theme**: Toggle between themes with URL persistence for sharing
 - **Filtering**: Filter by date ranges and text matching
 - **Shareable URLs**: All view and filter state is captured in URLs for easy sharing
 - **Multiple Datasets**: Switch between different historical knowledge bases
@@ -103,7 +111,7 @@ See [GRAPH_SCHEMA.md](./GRAPH_SCHEMA.md) for the complete schema specification.
 
 ## Deployment
 
-HistoryNet is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
+Scenius is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
 
 ### Manual Deployment
 
@@ -131,6 +139,8 @@ URLs use hash routing for GitHub Pages compatibility:
 - `https://moxious.github.io/historynet/#/` - Home
 - `https://moxious.github.io/historynet/#/?dataset=disney-characters` - Load specific dataset
 - `https://moxious.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node` - Deep link to node
+- `https://moxious.github.io/historynet/#/?theme=dark` - Dark mode
+- `https://moxious.github.io/historynet/#/?dataset=disney-characters&theme=dark` - Dataset with dark mode
 
 ## Documentation
 

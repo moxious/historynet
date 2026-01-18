@@ -1,6 +1,6 @@
-# HistoryNet - Agent Collaboration Guidelines
+# Scenius - Agent Collaboration Guidelines
 
-This document provides instructions for AI agents and developers working on the HistoryNet project. It describes the repository structure, how work is coordinated, and guidelines for contributing.
+This document provides instructions for AI agents and developers working on the Scenius project. It describes the repository structure, how work is coordinated, and guidelines for contributing.
 
 ---
 
@@ -17,12 +17,15 @@ The application is automatically deployed to GitHub Pages when changes are pushe
 - **Disney Dataset**: `https://moxious.github.io/historynet/#/?dataset=disney-characters`
 - **Rosicrucian Dataset**: `https://moxious.github.io/historynet/#/?dataset=rosicrucian-network`
 - **Deep Link to Node**: `https://moxious.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node`
+- **Dark Mode**: `https://moxious.github.io/historynet/#/?theme=dark`
 
 ---
 
 ## Project Overview
 
-**HistoryNet** is a React/Vite SPA for visualizing and exploring historical social networks. The application displays graph data representing historical figures (persons), their works (objects), locations, and organizations (entities), along with the relationships between them.
+**Scenius** (formerly HistoryNet) is a React/Vite SPA for visualizing and exploring historical social networks. The application displays graph data representing historical figures (persons), their works (objects), locations, and organizations (entities), along with the relationships between them.
+
+The name "Scenius" comes from Brian Eno's concept describing the collective intelligence of creative communities—the idea that great creative work emerges from groups of people encouraging, competing with, and reacting to each other.
 
 The application is:
 - **Read-only**: Users view but cannot edit data
