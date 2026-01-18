@@ -39,12 +39,17 @@ historynet/
 ├── PRD.md                 # Product Requirements Document
 ├── GRAPH_SCHEMA.md        # Node/edge schema specification
 ├── AGENTS.md              # This file - collaboration guidelines
-├── MILESTONES.md          # High-level implementation milestones
-├── PROGRESS.md            # Detailed task tracking with checkboxes
-├── README.md              # User-facing documentation (created during bootstrap)
+├── ROADMAP.md             # Future direction and milestone overview
+├── PROGRESS.md            # Active task tracking with checkboxes
+├── CHANGELOG.md           # What shipped when
+├── README.md              # User-facing documentation
+│
+├── docs/
+│   └── MVP_HISTORY.md     # Archived M1-M8 task lists and completion notes
 │
 ├── src/                   # Application source code
 │   ├── components/        # React components
+│   ├── contexts/          # React context providers
 │   ├── hooks/             # Custom React hooks
 │   ├── layouts/           # Visualization layouts (graph, timeline)
 │   ├── types/             # TypeScript type definitions
@@ -53,10 +58,10 @@ historynet/
 │
 ├── public/
 │   └── datasets/          # JSON knowledge bases (final output)
-│       └── disney-characters/
-│           ├── manifest.json
-│           ├── nodes.json
-│           └── edges.json
+│       ├── disney-characters/
+│       ├── enlightenment/
+│       ├── rosicrucian-network/
+│       └── ai-llm-research/
 │
 ├── research/              # Research products for dataset creation
 │   ├── README.md          # Overview of research projects
@@ -79,17 +84,20 @@ historynet/
 |------|---------|----------------|
 | `PRD.md` | Product requirements and feature specifications | When requirements change |
 | `GRAPH_SCHEMA.md` | Schema for nodes and edges in datasets | When schema evolves |
-| `MILESTONES.md` | High-level milestones and their decomposition into tasks | When adding new milestones |
-| `PROGRESS.md` | Granular task tracking with checkboxes | After completing any task |
+| `ROADMAP.md` | Future direction and milestone overview | When adding new milestones |
+| `PROGRESS.md` | Active task tracking with checkboxes | After completing any task |
+| `CHANGELOG.md` | Record of what shipped | After completing a milestone |
+| `docs/MVP_HISTORY.md` | Archived M1-M8 details (historical reference) | Rarely - only for corrections |
 | `research/RESEARCHING_NETWORKS.md` | Meta-process for researching new historical networks | When research methodology evolves |
 
 ### Reading Order for New Agents
 
 1. **Start with `PRD.md`** to understand what we're building
 2. **Read `GRAPH_SCHEMA.md`** to understand the data model
-3. **Check `MILESTONES.md`** to see the implementation roadmap
-4. **Consult `PROGRESS.md`** to find tasks to work on
-5. **For dataset research**: Read `research/RESEARCHING_NETWORKS.md` for the research methodology
+3. **Check `ROADMAP.md`** to see completed work and future direction
+4. **Consult `PROGRESS.md`** to find active tasks to work on
+5. **For historical context**: Check `docs/MVP_HISTORY.md` if debugging or understanding past decisions
+6. **For dataset research**: Read `research/RESEARCHING_NETWORKS.md` for the research methodology
 
 ---
 
@@ -137,6 +145,7 @@ Since agents may not have direct communication:
 - Add notes to `PROGRESS.md` when making significant decisions
 - Update `PRD.md` if requirements need clarification
 - Document any blockers or issues discovered
+- Record completed milestones in `CHANGELOG.md`
 
 ### Branching Strategy (for human developers)
 
@@ -257,3 +266,8 @@ A task is complete when:
 4. ✅ Feature works in the browser
 5. ✅ `PROGRESS.md` is updated
 6. ✅ Any new decisions are documented
+
+A milestone is complete when:
+1. ✅ All tasks checked off in `PROGRESS.md`
+2. ✅ Entry added to `CHANGELOG.md`
+3. ✅ `ROADMAP.md` updated with completion status
