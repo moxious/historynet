@@ -15,6 +15,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M9 | Application Verification | ✅ Complete |
 | M10 | UX Improvements | 🔲 Active |
 | M11 | Advanced Visualization | 🔲 Future |
+| M12 | User Feedback | 🔲 Future |
 
 ---
 
@@ -80,6 +81,62 @@ See `HISTORY.md` for detailed implementation history.
 
 ---
 
+## Future: M12 - User Feedback
+
+**Goal**: Allow users to submit feedback about graph data (missing nodes, incorrect information, suggested changes) without requiring a GitHub account. Feedback is captured as GitHub issues for dataset maintainers to review.
+
+**Architecture Decision**: Migrate from GitHub Pages to Vercel to enable serverless API functions. This consolidates hosting and backend on a single platform.
+
+**Deliverables**:
+
+### Platform Migration
+- Migrate deployment from GitHub Pages to Vercel
+- Configure Vercel project with GitHub integration
+- Set up environment variables for GitHub PAT
+- Update documentation with new deployment URL
+
+### Frontend Feedback Form
+- Feedback form component (modal or slide-out panel)
+- Context-aware: captures current dataset, selected node/edge, current URL
+- Feedback types: missing node, missing edge, incorrect data, remove item, general
+- Fields for description, suggested change, evidence URLs
+- Optional contact email for follow-up
+- Form validation and user-friendly error handling
+
+### Serverless API Endpoint
+- `/api/submit-feedback` endpoint (Vercel serverless function)
+- Input validation and sanitization
+- GitHub issue creation via GitHub API
+- Structured issue body with all feedback details
+- Appropriate labels applied automatically
+- Rate limiting to prevent abuse
+- Return issue URL to user on success
+
+### Security & Anti-Abuse
+- Rate limiting by IP address
+- Input sanitization (prevent injection)
+- Honeypot field for bot detection
+- Optional: CAPTCHA integration if abuse occurs
+
+**Schema** (feedback submission):
+```typescript
+interface FeedbackSubmission {
+  feedbackType: 'missing_node' | 'missing_edge' | 'incorrect_data' | 'remove_item' | 'general';
+  dataset: string;
+  selectedNodeId?: string;
+  selectedEdgeId?: string;
+  currentUrl?: string;
+  title: string;
+  description: string;
+  suggestedChange?: string;
+  evidenceUrls?: string[];
+  evidenceText?: string;
+  contactEmail?: string;
+}
+```
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -103,6 +160,10 @@ M1-M8 (Complete)
     │
     ▼
    M9 (Verification) ──► M10, M11 (can parallelize)
+                              │
+                              ▼
+                         M12 (User Feedback)
+                         [requires Vercel migration]
 ```
 
 ---

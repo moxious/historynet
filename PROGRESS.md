@@ -138,6 +138,68 @@ All MVP and initial post-MVP milestones are complete. See `HISTORY.md` for detai
 
 ---
 
+## M12: User Feedback
+
+**Goal**: Enable users to submit feedback about graph data without requiring a GitHub account. Migrate to Vercel for serverless function support.
+
+### Platform Migration (Vercel)
+
+- [ ] **FB1** - Create Vercel project and link to GitHub repository
+- [ ] **FB2** - Configure Vercel build settings for Vite (framework preset)
+- [ ] **FB3** - Create GitHub bot account or PAT for issue creation
+- [ ] **FB4** - Add `GITHUB_PAT` environment variable in Vercel dashboard
+- [ ] **FB5** - Test deployment on Vercel (frontend only, before API)
+- [ ] **FB6** - Update AGENTS.md and README.md with new Vercel deployment URL
+- [ ] **FB7** - Decide: keep GitHub Pages redirect or remove entirely
+- [ ] **FB8** - Remove or repurpose `.github/workflows/deploy.yml`
+
+### Feedback Form (Frontend)
+
+- [ ] **FB9** - Create `FeedbackSubmission` TypeScript interface in `src/types/`
+- [ ] **FB10** - Create `FeedbackForm` component with form fields:
+  - Feedback type dropdown (missing node, missing edge, incorrect data, remove item, general)
+  - Title (required)
+  - Description (required, textarea)
+  - Suggested change (optional, textarea)
+  - Evidence URLs (optional, multi-line input)
+  - Evidence text/citations (optional, textarea)
+  - Contact email (optional)
+- [ ] **FB11** - Add form validation (required fields, email format, URL format)
+- [ ] **FB12** - Auto-populate context fields (dataset, selected node/edge, current URL)
+- [ ] **FB13** - Create `FeedbackButton` component to trigger form (placed in Header or InfoboxPanel)
+- [ ] **FB14** - Style feedback form modal/panel with CSS
+- [ ] **FB15** - Add loading state during submission
+- [ ] **FB16** - Add success state showing created issue URL
+- [ ] **FB17** - Add error state with user-friendly messages
+
+### Serverless API Endpoint
+
+- [ ] **FB18** - Create `api/submit-feedback.ts` serverless function
+- [ ] **FB19** - Implement request validation (method, content-type, required fields)
+- [ ] **FB20** - Implement input sanitization (strip HTML, validate URLs)
+- [ ] **FB21** - Format feedback into GitHub issue body (markdown)
+- [ ] **FB22** - Call GitHub API to create issue with appropriate labels
+- [ ] **FB23** - Return issue URL on success, error details on failure
+- [ ] **FB24** - Add rate limiting (e.g., 5 submissions per IP per hour)
+- [ ] **FB25** - Add honeypot field for basic bot detection
+
+### Integration & Testing
+
+- [ ] **FB26** - Connect frontend form to API endpoint
+- [ ] **FB27** - Test end-to-end: form submission → GitHub issue created
+- [ ] **FB28** - Test error handling: API down, rate limited, validation failures
+- [ ] **FB29** - Test with different feedback types and datasets
+- [ ] **FB30** - Verify issue formatting is readable and useful for maintainers
+
+### Documentation & Polish
+
+- [ ] **FB31** - Add user-facing help text explaining what feedback is used for
+- [ ] **FB32** - Document API endpoint in codebase (inline comments or separate doc)
+- [ ] **FB33** - Update ROADMAP.md Live Demo URL if domain changes
+- [ ] **FB34** - Add entry to CHANGELOG.md when milestone complete
+
+---
+
 ## Notes & Decisions
 
 _Add notes about implementation decisions, blockers, or clarifications here._
