@@ -60,7 +60,7 @@ function SearchBox({
     if (value === '') {
       setLocalValue('');
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [value]);
 
   // Handle keyboard shortcut (Cmd/Ctrl+K)

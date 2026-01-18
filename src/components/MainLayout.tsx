@@ -20,6 +20,7 @@ function MainLayout() {
     clearFilters,
     filterStats,
     dateRange,
+    nodeTypeCounts,
     searchTerm,
     currentLayout,
     setCurrentLayout,
@@ -168,6 +169,7 @@ function MainLayout() {
               onClearFilters={clearFilters}
               stats={filterStats ?? undefined}
               dateRange={dateRange ?? undefined}
+              nodeTypeCounts={nodeTypeCounts ?? undefined}
               isCollapsed={isFilterCollapsed}
               onToggleCollapse={handleToggleFilterCollapse}
             />

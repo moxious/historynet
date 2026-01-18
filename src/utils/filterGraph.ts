@@ -2,7 +2,7 @@
  * Graph filtering utility functions
  */
 
-import type { GraphData, GraphNode, GraphEdge } from '@types';
+import type { GraphData, GraphNode, GraphEdge, NodeType } from '@types';
 import type { FilterState, FilterStats } from '../types/filters';
 
 /**
@@ -122,6 +122,18 @@ export function nodeMatchesNameFilter(node: GraphNode, filter: string): boolean 
 }
 
 /**
+ * Check if a node's type matches the allowed types filter
+ * null = all types allowed
+ */
+export function nodeMatchesTypeFilter(
+  node: GraphNode,
+  allowedTypes: NodeType[] | null
+): boolean {
+  if (allowedTypes === null) return true; // null = all types allowed
+  return allowedTypes.includes(node.type);
+}
+
+/**
  * Check if an edge's relationship matches the relationship filter
  * Case-insensitive substring match on relationship type and label
  */
@@ -149,17 +161,19 @@ export function edgeMatchesRelationshipFilter(edge: GraphEdge, filter: string): 
  * Returns a new GraphData object with filtered nodes and edges
  *
  * Filtering rules:
- * 1. Nodes are filtered by date range and name filter
+ * 1. Nodes are filtered by type, date range, and name filter
  * 2. Edges are filtered by date range and relationship filter
  * 3. Edges connected to filtered-out nodes are also removed
  */
 export function filterGraphData(data: GraphData, filters: FilterState): GraphData {
-  const { dateStart, dateEnd, nameFilter, relationshipFilter } = filters;
+  const { dateStart, dateEnd, nameFilter, relationshipFilter, nodeTypes } = filters;
 
-  // Step 1: Filter nodes
+  // Step 1: Filter nodes (type filter applied first)
   const filteredNodes = data.nodes.filter((node) => {
     return (
-      nodeMatchesDateRange(node, dateStart, dateEnd) && nodeMatchesNameFilter(node, nameFilter)
+      nodeMatchesTypeFilter(node, nodeTypes) &&
+      nodeMatchesDateRange(node, dateStart, dateEnd) &&
+      nodeMatchesNameFilter(node, nameFilter)
     );
   });
 
@@ -235,4 +249,23 @@ export function getGraphDateRange(data: GraphData): {
   }
 
   return { minYear, maxYear };
+}
+
+/**
+ * Get counts of nodes by type from unfiltered graph data
+ * Used to show type counts in the filter UI
+ */
+export function getNodeTypeCounts(data: GraphData): Record<NodeType, number> {
+  const counts: Record<NodeType, number> = {
+    person: 0,
+    object: 0,
+    location: 0,
+    entity: 0,
+  };
+  
+  for (const node of data.nodes) {
+    counts[node.type]++;
+  }
+  
+  return counts;
 }

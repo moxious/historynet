@@ -2,6 +2,8 @@
  * Filter type definitions for HistoryNet
  */
 
+import type { NodeType } from './node';
+
 /**
  * State representing all active filters
  */
@@ -14,6 +16,8 @@ export interface FilterState {
   nameFilter: string;
   /** Text filter for edge relationships (case-insensitive substring match) */
   relationshipFilter: string;
+  /** Selected node types to display (null = all types selected) */
+  nodeTypes: NodeType[] | null;
 }
 
 /**
@@ -24,6 +28,7 @@ export const DEFAULT_FILTER_STATE: FilterState = {
   dateEnd: null,
   nameFilter: '',
   relationshipFilter: '',
+  nodeTypes: null, // null means "all types selected"
 };
 
 /**
@@ -34,7 +39,8 @@ export function hasActiveFilters(filters: FilterState): boolean {
     filters.dateStart !== null ||
     filters.dateEnd !== null ||
     filters.nameFilter.trim() !== '' ||
-    filters.relationshipFilter.trim() !== ''
+    filters.relationshipFilter.trim() !== '' ||
+    filters.nodeTypes !== null // explicit type selection = active filter
   );
 }
 

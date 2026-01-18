@@ -2,10 +2,11 @@
  * FilterPanel component for filtering graph nodes and edges
  */
 
-import { useState, useCallback, useEffect, type ChangeEvent } from 'react';
-import type { FilterState, FilterStats } from '@types';
+import { useState, useCallback, useEffect, useMemo, type ChangeEvent } from 'react';
+import type { FilterState, FilterStats, NodeType } from '@types';
 import { hasActiveFilters } from '@types';
 import { useDebounce } from '@hooks';
+import CheckboxFilterGroup, { type CheckboxOption } from './CheckboxFilterGroup';
 import './FilterPanel.css';
 
 /** Debounce delay in milliseconds */
@@ -22,6 +23,8 @@ interface FilterPanelProps {
   stats?: FilterStats;
   /** Date range available in the data */
   dateRange?: { minYear: number | null; maxYear: number | null };
+  /** Node type counts from unfiltered data */
+  nodeTypeCounts?: Record<NodeType, number>;
   /** Whether the panel is collapsed */
   isCollapsed?: boolean;
   /** Callback when collapse state changes */
@@ -29,7 +32,7 @@ interface FilterPanelProps {
 }
 
 /**
- * FilterPanel - UI for filtering graph by date range and text
+ * FilterPanel - UI for filtering graph by node type, date range, and text
  */
 function FilterPanel({
   filters,
@@ -37,6 +40,7 @@ function FilterPanel({
   onClearFilters,
   stats,
   dateRange,
+  nodeTypeCounts,
   isCollapsed = false,
   onToggleCollapse,
 }: FilterPanelProps) {
@@ -83,7 +87,7 @@ function FilterPanel({
     if (filters.relationshipFilter === '') {
       setLocalRelationshipFilter('');
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [filters.nameFilter, filters.relationshipFilter]);
 
   // REACT: Sync local date state when filters change externally (R14)
@@ -102,6 +106,27 @@ function FilterPanel({
 
   // Check if there are active filters
   const hasFilters = hasActiveFilters(filters);
+
+  // Build node type options with counts
+  // REACT: memoize to prevent recreating on every render (R3)
+  const nodeTypeOptions: CheckboxOption<NodeType>[] = useMemo(
+    () => [
+      { value: 'person', label: 'Person', count: nodeTypeCounts?.person ?? 0 },
+      { value: 'object', label: 'Object', count: nodeTypeCounts?.object ?? 0 },
+      { value: 'location', label: 'Location', count: nodeTypeCounts?.location ?? 0 },
+      { value: 'entity', label: 'Entity', count: nodeTypeCounts?.entity ?? 0 },
+    ],
+    [nodeTypeCounts]
+  );
+
+  // Handle node type filter change
+  // REACT: memoized callback (R12)
+  const handleNodeTypesChange = useCallback(
+    (nodeTypes: NodeType[] | null) => {
+      onFiltersChange({ nodeTypes });
+    },
+    [onFiltersChange]
+  );
 
   // Handle date start change
   const handleDateStartChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
@@ -208,6 +233,17 @@ function FilterPanel({
       {/* Filter content */}
       {!isCollapsed && (
         <div className="filter-panel__content">
+          {/* Node Types Section - First filter */}
+          <div className="filter-panel__section">
+            <CheckboxFilterGroup
+              label="Node Types"
+              options={nodeTypeOptions}
+              selected={filters.nodeTypes}
+              onChange={handleNodeTypesChange}
+              showSelectAll={true}
+            />
+          </div>
+
           {/* Date Range Section */}
           <div className="filter-panel__section">
             <label className="filter-panel__section-label">Date Range</label>

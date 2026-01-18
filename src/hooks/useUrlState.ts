@@ -5,7 +5,38 @@
 
 import { useCallback, useMemo, useRef } from 'react';
 import { useSearchParams, type SetURLSearchParams } from 'react-router-dom';
-import type { FilterState } from '@types';
+import type { FilterState, NodeType } from '@types';
+
+/** Valid node types for validation */
+const VALID_NODE_TYPES: NodeType[] = ['person', 'object', 'location', 'entity'];
+
+/**
+ * Parse nodeTypes from URL string (comma-separated)
+ * Returns null if empty/missing (meaning "all types")
+ */
+function parseNodeTypes(value: string | null): NodeType[] | null {
+  if (!value || !value.trim()) return null;
+  
+  const types = value.split(',')
+    .map(t => t.trim().toLowerCase())
+    .filter((t): t is NodeType => VALID_NODE_TYPES.includes(t as NodeType));
+  
+  // If all types selected, return null (default state)
+  if (types.length === VALID_NODE_TYPES.length) return null;
+  
+  return types.length > 0 ? types : null;
+}
+
+/**
+ * Serialize nodeTypes to URL string (comma-separated)
+ * Returns null if all types selected (to omit from URL)
+ */
+function serializeNodeTypes(types: NodeType[] | null): string | null {
+  if (types === null) return null;
+  if (types.length === 0) return null;
+  if (types.length === VALID_NODE_TYPES.length) return null;
+  return types.join(',');
+}
 
 /** URL parameter keys */
 const URL_PARAMS = {
@@ -18,6 +49,7 @@ const URL_PARAMS = {
   DATE_END: 'dateEnd',
   NAME_FILTER: 'name',
   RELATIONSHIP_FILTER: 'relationship',
+  NODE_TYPES: 'nodeTypes',
 } as const;
 
 interface UseUrlStateReturn {
@@ -152,6 +184,7 @@ export function useUrlState(): UseUrlStateReturn {
   const dateEndStr = searchParams.get(URL_PARAMS.DATE_END);
   const nameFilterStr = searchParams.get(URL_PARAMS.NAME_FILTER) ?? '';
   const relationshipFilterStr = searchParams.get(URL_PARAMS.RELATIONSHIP_FILTER) ?? '';
+  const nodeTypesStr = searchParams.get(URL_PARAMS.NODE_TYPES);
 
   const filters: FilterState = useMemo(() => {
     return {
@@ -159,8 +192,9 @@ export function useUrlState(): UseUrlStateReturn {
       dateEnd: dateEndStr ? parseInt(dateEndStr, 10) : null,
       nameFilter: nameFilterStr,
       relationshipFilter: relationshipFilterStr,
+      nodeTypes: parseNodeTypes(nodeTypesStr),
     };
-  }, [dateStartStr, dateEndStr, nameFilterStr, relationshipFilterStr]);
+  }, [dateStartStr, dateEndStr, nameFilterStr, relationshipFilterStr, nodeTypesStr]);
 
   // Set filters in URL
   const setFilters = useCallback(
@@ -196,6 +230,14 @@ export function useUrlState(): UseUrlStateReturn {
           newParams.delete(URL_PARAMS.RELATIONSHIP_FILTER);
         }
 
+        // Handle nodeTypes (null = all types, omit from URL)
+        const nodeTypesValue = serializeNodeTypes(merged.nodeTypes);
+        if (nodeTypesValue) {
+          newParams.set(URL_PARAMS.NODE_TYPES, nodeTypesValue);
+        } else {
+          newParams.delete(URL_PARAMS.NODE_TYPES);
+        }
+
         return newParams;
       });
     },
@@ -210,6 +252,7 @@ export function useUrlState(): UseUrlStateReturn {
       newParams.delete(URL_PARAMS.DATE_END);
       newParams.delete(URL_PARAMS.NAME_FILTER);
       newParams.delete(URL_PARAMS.RELATIONSHIP_FILTER);
+      newParams.delete(URL_PARAMS.NODE_TYPES);
       return newParams;
     });
   }, [stableSetSearchParams]);
@@ -301,6 +344,11 @@ export function buildShareableUrl(params: {
     }
     if (params.filters.relationshipFilter.trim()) {
       searchParams.set(URL_PARAMS.RELATIONSHIP_FILTER, params.filters.relationshipFilter);
+    }
+    // Add nodeTypes if explicitly set (not null = all)
+    const nodeTypesValue = serializeNodeTypes(params.filters.nodeTypes);
+    if (nodeTypesValue) {
+      searchParams.set(URL_PARAMS.NODE_TYPES, nodeTypesValue);
     }
   }
 

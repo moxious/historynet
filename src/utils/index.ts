@@ -20,10 +20,12 @@ export {
   nodeMatchesDateRange,
   edgeMatchesDateRange,
   nodeMatchesNameFilter,
+  nodeMatchesTypeFilter,
   edgeMatchesRelationshipFilter,
   filterGraphData,
   getFilterStats,
   getGraphDateRange,
+  getNodeTypeCounts,
 } from './filterGraph';
 
 export { getNodeColor, getEdgeColor } from './graphColors';

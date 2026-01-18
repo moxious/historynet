@@ -17,8 +17,9 @@ import type {
   DataError,
   FilterState,
   FilterStats,
+  NodeType,
 } from '@types';
-import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange } from '@utils';
+import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange, getNodeTypeCounts } from '@utils';
 
 interface GraphContextValue {
   // Dataset state
@@ -53,6 +54,7 @@ interface GraphContextValue {
   clearFilters: () => void;
   filterStats: FilterStats | null;
   dateRange: { minYear: number | null; maxYear: number | null } | null;
+  nodeTypeCounts: Record<NodeType, number> | null;
   hasActiveFilters: boolean;
 
   // Search state
@@ -239,13 +241,20 @@ export function GraphProvider({ children }: GraphProviderProps) {
     return getGraphDateRange(graphData);
   }, [graphData]);
 
+  // Calculate node type counts from unfiltered data
+  const nodeTypeCounts = useMemo(() => {
+    if (!graphData) return null;
+    return getNodeTypeCounts(graphData);
+  }, [graphData]);
+
   // Check if there are active filters
   const hasActiveFilters = useMemo(() => {
     return (
       filters.dateStart !== null ||
       filters.dateEnd !== null ||
       filters.nameFilter.trim() !== '' ||
-      filters.relationshipFilter.trim() !== ''
+      filters.relationshipFilter.trim() !== '' ||
+      filters.nodeTypes !== null // explicit type selection = active filter
     );
   }, [filters]);
 
@@ -283,6 +292,7 @@ export function GraphProvider({ children }: GraphProviderProps) {
     clearFilters,
     filterStats,
     dateRange,
+    nodeTypeCounts,
     hasActiveFilters,
     searchTerm,
     setSearchTerm,
