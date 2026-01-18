@@ -122,6 +122,7 @@ The following relationship types are predefined but the schema is **extensible**
 | `related_to` | No | Family or personal relationship |
 | `opposed` | No | Intellectual or personal opposition |
 | `succeeded` | Yes | Source succeeded target in a role |
+| `patronized` | Yes | Source acted as patron (financial/political supporter) of target |
 
 #### Person ↔ Object
 
@@ -141,6 +142,7 @@ The following relationship types are predefined but the schema is **extensible**
 | `died_in` | Yes | Person died at location |
 | `lived_in` | Yes | Person resided at location |
 | `worked_at` | Yes | Person worked at location (e.g., university) |
+| `studied_at` | Yes | Person studied at an institution/location |
 | `visited` | Yes | Person visited location |
 
 #### Person ↔ Entity
@@ -150,6 +152,7 @@ The following relationship types are predefined but the schema is **extensible**
 | `founded` | Yes | Person founded the entity |
 | `member_of` | Yes | Person was a member of the entity |
 | `led` | Yes | Person led/directed the entity |
+| `co_founded` | No | Person co-founded the entity with others |
 | `associated_with` | No | General association with entity |
 
 #### Object ↔ Object
