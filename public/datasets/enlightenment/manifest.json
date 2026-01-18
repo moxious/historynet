@@ -7,8 +7,8 @@
   "author": "HistoryNet Contributors",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
-  "nodeCount": 214,
-  "edgeCount": 116,
+  "nodeCount": 204,
+  "edgeCount": 101,
   "customRelationshipTypes": [
     {
       "type": "patronized",

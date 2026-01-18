@@ -1,0 +1,889 @@
+[
+  {
+    "id": "edge-locke-newton-corresponded",
+    "source": "person-john-locke",
+    "target": "person-isaac-newton",
+    "relationship": "corresponded_with",
+    "dateStart": "1689",
+    "dateEnd": "1704",
+    "evidence": "Locke and Newton developed a close friendship after the Glorious Revolution. They corresponded extensively on theological matters, particularly regarding Newton's anti-Trinitarian views.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-voltaire-influenced",
+    "source": "person-john-locke",
+    "target": "person-voltaire",
+    "relationship": "influenced",
+    "evidence": "Voltaire spent 1726-1729 in England and became Locke's greatest French popularizer. His Letters on the English devoted multiple letters to explaining Locke's empiricism and political thought.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-hume-influenced",
+    "source": "person-john-locke",
+    "target": "person-david-hume",
+    "relationship": "influenced",
+    "evidence": "Hume's Treatise of Human Nature explicitly engages with Locke's Essay Concerning Human Understanding. Hume extended Locke's empiricism to its skeptical conclusions.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-rousseau-influenced",
+    "source": "person-john-locke",
+    "target": "person-rousseau",
+    "relationship": "influenced",
+    "evidence": "Rousseau's Emile drew heavily on Locke's Some Thoughts Concerning Education. Rousseau's social contract theory engaged directly with Locke's Two Treatises.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-montesquieu-influenced",
+    "source": "person-john-locke",
+    "target": "person-montesquieu",
+    "relationship": "influenced",
+    "evidence": "Montesquieu visited England in 1729-1731 and studied British institutions. His theory of separation of powers was influenced by his reading of Locke.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-condillac-influenced",
+    "source": "person-john-locke",
+    "target": "person-condillac",
+    "relationship": "influenced",
+    "evidence": "Condillac's entire philosophical project was an extension of Locke's empiricism. His Essay on the Origin of Human Knowledge developed Locke's ideas into systematic sensationalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-voltaire-influenced",
+    "source": "person-isaac-newton",
+    "target": "person-voltaire",
+    "relationship": "influenced",
+    "evidence": "Voltaire, with Émilie du Châtelet, was the primary popularizer of Newtonian physics in France. His Elements of the Philosophy of Newton introduced Newton's ideas to French audiences.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-dalembert-influenced",
+    "source": "person-isaac-newton",
+    "target": "person-dalembert",
+    "relationship": "influenced",
+    "evidence": "D'Alembert's mathematical physics built directly on Newton's mechanics. His Traité de dynamique applied and extended Newtonian principles.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-kant-influenced",
+    "source": "person-isaac-newton",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant's early work accepted Newtonian physics and sought to provide its metaphysical foundations. His Critique of Pure Reason addressed how Newtonian science is possible.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-wolff-influenced",
+    "source": "person-leibniz",
+    "target": "person-christian-wolff",
+    "relationship": "influenced",
+    "evidence": "Wolff systematized and popularized Leibniz's philosophy for German universities. His rationalist system dominated German academic philosophy until Kant's critical turn.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-newton-opposed",
+    "source": "person-leibniz",
+    "target": "person-isaac-newton",
+    "relationship": "opposed",
+    "dateStart": "1711",
+    "dateEnd": "1716",
+    "evidence": "The Newton-Leibniz calculus priority dispute was one of the most famous scientific controversies. The Royal Society's investigation sided with Newton.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-dalembert-collaborated",
+    "source": "person-diderot",
+    "target": "person-dalembert",
+    "relationship": "collaborated_with",
+    "dateStart": "1745",
+    "dateEnd": "1758",
+    "evidence": "Co-editors of the Encyclopédie (1751-1772). D'Alembert wrote the famous Preliminary Discourse. He withdrew from active editing in 1758 after controversy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-rousseau-knows",
+    "source": "person-diderot",
+    "target": "person-rousseau",
+    "relationship": "knows",
+    "dateStart": "1742",
+    "dateEnd": "1757",
+    "evidence": "Early close friendship; Rousseau contributed music articles to Encyclopédie. Break occurred ~1757 over philosophical differences and personal conflicts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-rousseau-opposed",
+    "source": "person-diderot",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1757",
+    "dateEnd": "1778",
+    "evidence": "Break occurred ~1757 over Rousseau's rejection of theater in Letter to d'Alembert and personal conflicts. Diderot alluded critically to Rousseau in published works.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-voltaire-corresponded",
+    "source": "person-diderot",
+    "target": "person-voltaire",
+    "relationship": "corresponded_with",
+    "evidence": "Modest but respectful correspondence. Met only once in person (1778, shortly before Voltaire's death). Both were central to Encyclopédie project.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-voltaire-dalembert-corresponded",
+    "source": "person-voltaire",
+    "target": "person-dalembert",
+    "relationship": "corresponded_with",
+    "dateStart": "1746",
+    "dateEnd": "1778",
+    "evidence": "Extensive correspondence—529 letters documented between them, making d'Alembert one of Voltaire's most frequent correspondents.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-dholbach-collaborated",
+    "source": "person-diderot",
+    "target": "person-dholbach",
+    "relationship": "collaborated_with",
+    "dateStart": "1750",
+    "dateEnd": "1784",
+    "evidence": "Diderot was a regular at d'Holbach's salon, attending twice-weekly dinners for decades. They collaborated on materialist and atheist publications.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-jaucourt-collaborated",
+    "source": "person-diderot",
+    "target": "person-jaucourt",
+    "relationship": "collaborated_with",
+    "evidence": "Jaucourt was the most prolific Encyclopédie contributor (~17,288 articles, 25% of text), working under Diderot's editorship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-condorcet-influenced",
+    "source": "person-dalembert",
+    "target": "person-condorcet",
+    "relationship": "influenced",
+    "dateStart": "1760",
+    "dateEnd": "1783",
+    "evidence": "D'Alembert, as Permanent Secretary of the Académie française, mentored Condorcet. Condorcet frequented Julie de Lespinasse's salon where d'Alembert presided.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-duchatelet-collaborated",
+    "source": "person-voltaire",
+    "target": "person-emilie-du-chatelet",
+    "relationship": "collaborated_with",
+    "dateStart": "1733",
+    "dateEnd": "1749",
+    "evidence": "Intellectual partnership and romantic relationship. They collaborated at Cirey on Newtonian physics; du Châtelet's translation of Newton's Principia was supported by Voltaire.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-frederick-corresponded",
+    "source": "person-voltaire",
+    "target": "person-frederick-great",
+    "relationship": "corresponded_with",
+    "dateStart": "1736",
+    "dateEnd": "1778",
+    "evidence": "Extensive correspondence beginning before Frederick's accession. Voltaire stayed at Frederick's court 1750-1753. Over 800 letters between them.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-catherine-corresponded",
+    "source": "person-voltaire",
+    "target": "person-catherine-great",
+    "relationship": "corresponded_with",
+    "dateStart": "1763",
+    "dateEnd": "1778",
+    "evidence": "Regular correspondence; Catherine sought Voltaire's approval and advice on reforms. She called him 'my master' and purchased his library after his death.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-rousseau-opposed",
+    "source": "person-voltaire",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1755",
+    "dateEnd": "1778",
+    "evidence": "Famous antagonism. After Rousseau's Discourse on Inequality, Voltaire mocked his primitivism. They exchanged hostile pamphlets.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-franklin-knows",
+    "source": "person-voltaire",
+    "target": "person-benjamin-franklin",
+    "relationship": "knows",
+    "dateStart": "1778",
+    "evidence": "Famous meeting at the Académie des Sciences in April 1778, where they publicly embraced to great acclaim. Symbolized the union of American and French Enlightenment.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-helvetius-knows",
+    "source": "person-dholbach",
+    "target": "person-helvetius",
+    "relationship": "knows",
+    "dateStart": "1750",
+    "dateEnd": "1771",
+    "evidence": "Both hosted important philosophical salons. Helvétius attended d'Holbach's dinners; they shared materialist and utilitarian views.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-hume-knows",
+    "source": "person-dholbach",
+    "target": "person-david-hume",
+    "relationship": "knows",
+    "dateStart": "1763",
+    "dateEnd": "1766",
+    "evidence": "Hume visited d'Holbach's salon during his Paris years. Famous anecdote: Hume expressed skepticism about atheists' existence; d'Holbach replied he was dining with seventeen of them.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-rousseau-opposed",
+    "source": "person-dholbach",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1750",
+    "evidence": "Rousseau attended d'Holbach's salon but became estranged. He later accused the 'coterie holbachique' of conspiring against him.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-lamettrie-influenced",
+    "source": "person-la-mettrie",
+    "target": "person-dholbach",
+    "relationship": "influenced",
+    "evidence": "D'Holbach's materialism in The System of Nature developed La Mettrie's earlier mechanical materialism into a comprehensive philosophical system.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-montesquieu-madison-influenced",
+    "source": "person-montesquieu",
+    "target": "person-james-madison",
+    "relationship": "influenced",
+    "evidence": "The Spirit of the Laws directly influenced Madison's constitutional theory, particularly the separation of powers doctrine. The Federalist Papers cite Montesquieu extensively.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-turgot-studied",
+    "source": "person-condorcet",
+    "target": "person-turgot",
+    "relationship": "studied_under",
+    "dateStart": "1770",
+    "dateEnd": "1781",
+    "evidence": "Turgot was Condorcet's mentor and patron. Condorcet wrote Turgot's biography after his death and continued his work on progress and economics.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-smith-knows",
+    "source": "person-turgot",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "dateStart": "1765",
+    "dateEnd": "1766",
+    "evidence": "Smith met Turgot in Paris during his tour as tutor to the Duke of Buccleuch. They discussed economics; Smith acknowledged French economists' influence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-quesnay-knows",
+    "source": "person-turgot",
+    "target": "person-francois-quesnay",
+    "relationship": "knows",
+    "evidence": "Turgot was closely associated with the Physiocrats, though he developed his own economic theory. He knew Quesnay through court circles and the Encyclopédie project.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-rousseau-knows",
+    "source": "person-condillac",
+    "target": "person-rousseau",
+    "relationship": "knows",
+    "evidence": "Condillac tutored Rousseau's nephew and moved in overlapping Parisian intellectual circles. Both contributed to the Encyclopédie.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-morellet-smith-collaborated",
+    "source": "person-morellet",
+    "target": "person-adam-smith",
+    "relationship": "collaborated_with",
+    "evidence": "Morellet translated Adam Smith's Wealth of Nations into French, helping disseminate classical economics in France.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-damilaville-voltaire-corresponded",
+    "source": "person-damilaville",
+    "target": "person-voltaire",
+    "relationship": "corresponded_with",
+    "evidence": "Damilaville served as intermediary for the philosophes' correspondence, using his position in the tax administration to help circulate letters and clandestine texts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-smith-knows",
+    "source": "person-david-hume",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "dateStart": "1752",
+    "dateEnd": "1776",
+    "evidence": "Close friendship, arguably the central relationship of the Scottish Enlightenment. Smith was with Hume during his final illness. Hume named Smith his literary executor.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-smith-taught",
+    "source": "person-hutcheson",
+    "target": "person-adam-smith",
+    "relationship": "taught",
+    "dateStart": "1737",
+    "dateEnd": "1740",
+    "evidence": "Smith studied under Hutcheson at Glasgow University. Smith later described Hutcheson as 'the never to be forgotten Hutcheson.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-hume-influenced",
+    "source": "person-hutcheson",
+    "target": "person-david-hume",
+    "relationship": "influenced",
+    "evidence": "Though they never met, Hume engaged extensively with Hutcheson's moral philosophy. Hutcheson read and commented on Hume's Treatise in draft.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-kant-influenced",
+    "source": "person-david-hume",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant famously wrote that Hume 'awakened me from my dogmatic slumber.' Hume's skepticism about causation provoked Kant's critical philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-rousseau-opposed",
+    "source": "person-david-hume",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1766",
+    "evidence": "Hume offered refuge to the persecuted Rousseau in England. The relationship rapidly deteriorated into a famous public quarrel. Hume published their correspondence to vindicate himself.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-hume-opposed",
+    "source": "person-thomas-reid",
+    "target": "person-david-hume",
+    "relationship": "opposed",
+    "evidence": "Reid's Inquiry into the Human Mind was written explicitly against Hume's skepticism. Reid founded Common Sense philosophy as an alternative.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-smith-succeeded",
+    "source": "person-thomas-reid",
+    "target": "person-adam-smith",
+    "relationship": "succeeded",
+    "dateStart": "1764",
+    "evidence": "Reid succeeded Adam Smith as Professor of Moral Philosophy at Glasgow when Smith left to tutor the Duke of Buccleuch.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-hume-patronized",
+    "source": "person-lord-kames",
+    "target": "person-david-hume",
+    "relationship": "patronized",
+    "evidence": "Kames was an early patron and encourager of Hume, providing intellectual support and social connections.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-smith-patronized",
+    "source": "person-lord-kames",
+    "target": "person-adam-smith",
+    "relationship": "patronized",
+    "evidence": "Kames employed the young Smith and provided patronage that helped launch his career. Smith delivered his first public lectures under Kames's sponsorship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-hume-knows",
+    "source": "person-adam-ferguson",
+    "target": "person-david-hume",
+    "relationship": "knows",
+    "evidence": "Both were central members of Edinburgh's intellectual clubs (Select Society, Poker Club). They socialized regularly and discussed philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-smith-knows",
+    "source": "person-adam-ferguson",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "evidence": "Ferguson and Smith were colleagues and friends in Edinburgh's intellectual circles. Both contributed to Scottish debates on commercial society.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-hume-knows",
+    "source": "person-william-robertson",
+    "target": "person-david-hume",
+    "relationship": "knows",
+    "evidence": "Robertson and Hume were close friends and fellow historians in Edinburgh. Robertson led the 'Moderate Party' in the Church of Scotland.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-smith-studied",
+    "source": "person-dugald-stewart",
+    "target": "person-adam-smith",
+    "relationship": "studied_under",
+    "evidence": "Stewart was Smith's student and later biographer. His Account of the Life and Writings of Adam Smith is a primary source for Smith's life.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-reid-studied",
+    "source": "person-dugald-stewart",
+    "target": "person-thomas-reid",
+    "relationship": "studied_under",
+    "evidence": "Stewart studied under Reid at Glasgow and became the primary transmitter of Scottish Common Sense philosophy to the 19th century.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-dalembert-corresponded",
+    "source": "person-david-hume",
+    "target": "person-dalembert",
+    "relationship": "corresponded_with",
+    "dateStart": "1763",
+    "dateEnd": "1766",
+    "evidence": "During Hume's Paris years as secretary to the British embassy, he became close with d'Alembert. They corresponded on philosophy and the Rousseau affair.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-voltaire-knows",
+    "source": "person-adam-smith",
+    "target": "person-voltaire",
+    "relationship": "knows",
+    "dateStart": "1765",
+    "evidence": "Smith met Voltaire at Ferney during his French tour with the Duke of Buccleuch. Though the meeting was brief, Smith later expressed admiration for Voltaire.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-smith-quesnay-knows",
+    "source": "person-adam-smith",
+    "target": "person-francois-quesnay",
+    "relationship": "knows",
+    "dateStart": "1765",
+    "dateEnd": "1766",
+    "evidence": "Smith met Quesnay and the Physiocrats in Paris. He praised Quesnay highly and reportedly intended to dedicate Wealth of Nations to him.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-mendelssohn-corresponded",
+    "source": "person-immanuel-kant",
+    "target": "person-moses-mendelssohn",
+    "relationship": "corresponded_with",
+    "dateStart": "1763",
+    "dateEnd": "1786",
+    "evidence": "Mendelssohn won the Berlin Academy prize in 1763 over Kant. They corresponded and met when Mendelssohn visited Königsberg in 1777. Both answered 'What is Enlightenment?' in 1784.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolff-kant-influenced",
+    "source": "person-christian-wolff",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant was trained in the Leibniz-Wolffian tradition; his early pre-critical works are Wolffian. The Critique of Pure Reason was partly a response to Wolffian rationalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-baumgarten-kant-influenced",
+    "source": "person-baumgarten",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant used Baumgarten's Metaphysica as his teaching text for decades. Kant's aesthetic theory in the third Critique engaged with Baumgarten's founding of aesthetics.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-herder-taught",
+    "source": "person-immanuel-kant",
+    "target": "person-johann-herder",
+    "relationship": "taught",
+    "dateStart": "1762",
+    "dateEnd": "1764",
+    "evidence": "Herder studied under Kant at Königsberg. Though Herder later moved toward Romanticism, Kant's influence remained formative.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-kant-influenced",
+    "source": "person-rousseau",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant famously said Rousseau taught him to respect humanity. Rousseau's influence is visible in Kant's moral philosophy, particularly regarding human dignity.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-lessing-knows",
+    "source": "person-moses-mendelssohn",
+    "target": "person-gotthold-lessing",
+    "relationship": "knows",
+    "dateStart": "1754",
+    "dateEnd": "1781",
+    "evidence": "Close friendship central to the German Enlightenment. Lessing based the character of Nathan in Nathan the Wise on Mendelssohn. They collaborated on aesthetic criticism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-herder-influenced",
+    "source": "person-gotthold-lessing",
+    "target": "person-johann-herder",
+    "relationship": "influenced",
+    "evidence": "Lessing's aesthetic theories and his Laocoon influenced Herder's development, though Herder moved toward more historicist views.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-frederick-wolff-patronized",
+    "source": "person-frederick-great",
+    "target": "person-christian-wolff",
+    "relationship": "patronized",
+    "dateStart": "1740",
+    "dateEnd": "1754",
+    "evidence": "Frederick recalled Wolff from exile upon his accession (1740). Wolff had been expelled from Halle by Frederick William I in 1723.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-lamettrie-patronized",
+    "source": "person-frederick-great",
+    "target": "person-la-mettrie",
+    "relationship": "patronized",
+    "dateStart": "1748",
+    "dateEnd": "1751",
+    "evidence": "Frederick offered refuge to La Mettrie after L'Homme Machine made him unwelcome elsewhere. La Mettrie spent his final years at Frederick's court.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-euler-patronized",
+    "source": "person-frederick-great",
+    "target": "person-leonhard-euler",
+    "relationship": "patronized",
+    "dateStart": "1741",
+    "dateEnd": "1766",
+    "evidence": "Frederick brought Euler to the Berlin Academy, where he worked for 25 years. Their relationship deteriorated over Frederick's preference for French culture.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-herder-goethe-knows",
+    "source": "person-johann-herder",
+    "target": "person-goethe",
+    "relationship": "knows",
+    "dateStart": "1770",
+    "dateEnd": "1803",
+    "evidence": "Herder and Goethe met in Strasbourg (1770) and later both lived in Weimar. Herder influenced the young Goethe's literary development.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-berkeley-influenced",
+    "source": "person-john-locke",
+    "target": "person-george-berkeley",
+    "relationship": "influenced",
+    "evidence": "Berkeley's Principles of Human Knowledge engages directly with Locke's Essay, accepting empiricism but rejecting Locke's distinction between primary and secondary qualities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-hume-influenced",
+    "source": "person-george-berkeley",
+    "target": "person-david-hume",
+    "relationship": "influenced",
+    "evidence": "Hume's skepticism about the external world developed Berkeley's critique of Locke further. Hume's Treatise engages with Berkeley's arguments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shaftesbury-hutcheson-influenced",
+    "source": "person-shaftesbury",
+    "target": "person-hutcheson",
+    "relationship": "influenced",
+    "evidence": "Hutcheson's moral sense theory directly developed Shaftesbury's Characteristics. Hutcheson acknowledged this debt explicitly.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-shaftesbury-taught",
+    "source": "person-john-locke",
+    "target": "person-shaftesbury",
+    "relationship": "taught",
+    "evidence": "Locke supervised the education of the 3rd Earl of Shaftesbury (grandson of Locke's patron). Shaftesbury later critiqued Locke's rejection of innate ideas.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mandeville-hutcheson-opposed",
+    "source": "person-mandeville",
+    "target": "person-hutcheson",
+    "relationship": "opposed",
+    "evidence": "Hutcheson's moral philosophy was partly developed in opposition to Mandeville's cynical Fable of the Bees. Hutcheson insisted on genuine benevolence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mandeville-smith-influenced",
+    "source": "person-mandeville",
+    "target": "person-adam-smith",
+    "relationship": "influenced",
+    "evidence": "Smith engaged critically with Mandeville's economic ideas, particularly unintended consequences. The 'invisible hand' shows Mandeville's influence, though Smith rejected his moral cynicism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-montesquieu-influenced",
+    "source": "person-montesquieu",
+    "target": "person-edmund-burke",
+    "relationship": "influenced",
+    "evidence": "Burke's political philosophy drew on Montesquieu's historical approach to institutions. Both emphasized tradition and gradual reform over abstract rationalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-paine-opposed",
+    "source": "person-edmund-burke",
+    "target": "person-thomas-paine",
+    "relationship": "opposed",
+    "dateStart": "1790",
+    "dateEnd": "1791",
+    "evidence": "Paine's Rights of Man was written as a direct response to Burke's Reflections on the Revolution in France. This was the defining debate on the French Revolution.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-voltaire-influenced",
+    "source": "person-cesare-beccaria",
+    "target": "person-voltaire",
+    "relationship": "influenced",
+    "evidence": "Voltaire wrote a commentary on Beccaria's On Crimes and Punishments, praising and popularizing its arguments for criminal justice reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-bentham-influenced",
+    "source": "person-cesare-beccaria",
+    "target": "person-jeremy-bentham",
+    "relationship": "influenced",
+    "evidence": "Bentham's utilitarian approach to criminal law reform was directly influenced by Beccaria's On Crimes and Punishments. Bentham acknowledged this influence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-bentham-influenced",
+    "source": "person-helvetius",
+    "target": "person-jeremy-bentham",
+    "relationship": "influenced",
+    "evidence": "Bentham credited Helvétius's De l'esprit with inspiring his utilitarian philosophy. The principle of utility derived from Helvétius.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-franklin-corresponded",
+    "source": "person-joseph-priestley",
+    "target": "person-benjamin-franklin",
+    "relationship": "corresponded_with",
+    "evidence": "Extensive scientific correspondence on electricity and other subjects. Franklin encouraged Priestley's electrical research and helped arrange publication of his History of Electricity.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-bentham-influenced",
+    "source": "person-joseph-priestley",
+    "target": "person-jeremy-bentham",
+    "relationship": "influenced",
+    "evidence": "Priestley was among the first to formulate 'the greatest happiness of the greatest number' principle that Bentham developed into systematic utilitarianism.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-franklin-paine-patronized",
+    "source": "person-benjamin-franklin",
+    "target": "person-thomas-paine",
+    "relationship": "patronized",
+    "dateStart": "1774",
+    "dateEnd": "1790",
+    "evidence": "Franklin was Paine's patron and mentor. He encouraged Paine's emigration to America (1774), provided letters of introduction, and supported his revolutionary writing.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-jefferson-knows",
+    "source": "person-benjamin-franklin",
+    "target": "person-thomas-jefferson",
+    "relationship": "knows",
+    "dateStart": "1776",
+    "dateEnd": "1790",
+    "evidence": "Collaborated on drafting the Declaration of Independence (1776). Franklin introduced Jefferson to Parisian salons when Jefferson arrived as minister to France (1784).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-condorcet-corresponded",
+    "source": "person-thomas-jefferson",
+    "target": "person-condorcet",
+    "relationship": "corresponded_with",
+    "dateStart": "1785",
+    "dateEnd": "1794",
+    "evidence": "Jefferson met Condorcet in Parisian salons during his ministry to France. They corresponded on political theory.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-madison-collaborated",
+    "source": "person-thomas-jefferson",
+    "target": "person-james-madison",
+    "relationship": "collaborated_with",
+    "dateStart": "1776",
+    "dateEnd": "1826",
+    "evidence": "Lifelong friendship and political collaboration. Their correspondence is one of the most important in American political thought.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-madison-hume-influenced",
+    "source": "person-david-hume",
+    "target": "person-james-madison",
+    "relationship": "influenced",
+    "evidence": "Madison's Federalist No. 10 argument about faction and extended republics drew on Hume's essay 'Idea of a Perfect Commonwealth.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-franklin-collaborated",
+    "source": "person-john-adams",
+    "target": "person-benjamin-franklin",
+    "relationship": "collaborated_with",
+    "dateStart": "1775",
+    "dateEnd": "1785",
+    "evidence": "Served together in Continental Congress and on diplomatic missions. Collaborated on Treaty of Paris negotiations (1782-1783).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-jefferson-corresponded",
+    "source": "person-john-adams",
+    "target": "person-thomas-jefferson",
+    "relationship": "corresponded_with",
+    "dateStart": "1775",
+    "dateEnd": "1826",
+    "evidence": "Collaborators in Revolution, political rivals (1790s), reconciled correspondents (1812-1826). Both died on July 4, 1826.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-helvetius-knows",
+    "source": "person-benjamin-franklin",
+    "target": "person-madame-helvetius",
+    "relationship": "knows",
+    "dateStart": "1778",
+    "dateEnd": "1785",
+    "evidence": "Close friendship during Franklin's Paris years. Franklin famously proposed marriage to her. Her salon at Auteuil was his frequent resort.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-euler-corresponded",
+    "source": "person-dalembert",
+    "target": "person-leonhard-euler",
+    "relationship": "corresponded_with",
+    "evidence": "Extensive mathematical correspondence but also rivalry. They debated priority on various mathematical topics and disagreed on the vibrating string problem.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-laplace-taught",
+    "source": "person-dalembert",
+    "target": "person-laplace",
+    "relationship": "taught",
+    "evidence": "D'Alembert was Laplace's patron and mentor at the Académie des Sciences. He recognized Laplace's mathematical genius and supported his career.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-lagrange-corresponded",
+    "source": "person-dalembert",
+    "target": "person-lagrange",
+    "relationship": "corresponded_with",
+    "evidence": "Important mathematical correspondence. D'Alembert recognized Lagrange's ability and helped him succeed Euler at the Berlin Academy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-priestley-knows",
+    "source": "person-lavoisier",
+    "target": "person-joseph-priestley",
+    "relationship": "knows",
+    "evidence": "Both independently discovered oxygen's role in combustion (1774-1777). They met in Paris and exchanged scientific ideas, though they developed competing interpretations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-condorcet-knows",
+    "source": "person-lavoisier",
+    "target": "person-condorcet",
+    "relationship": "knows",
+    "evidence": "Both were members of the Académie des Sciences. Condorcet, as Permanent Secretary, worked closely with Lavoisier on Academy business.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-laplace-lavoisier-collaborated",
+    "source": "person-laplace",
+    "target": "person-lavoisier",
+    "relationship": "collaborated_with",
+    "evidence": "Collaborated on heat experiments in the 1780s using their jointly invented ice calorimeter. Their work on heat capacity was foundational.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-diderot-knows",
+    "source": "person-buffon",
+    "target": "person-diderot",
+    "relationship": "knows",
+    "evidence": "Both were prominent figures in Parisian intellectual life. Diderot praised Buffon's Histoire naturelle and shared interests in natural history's philosophical implications.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-geoffrin-diderot-patronized",
+    "source": "person-madame-geoffrin",
+    "target": "person-diderot",
+    "relationship": "patronized",
+    "evidence": "Geoffrin financially supported the Encyclopédie project. Diderot attended her Wednesday salon for philosophes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-geoffrin-dalembert-patronized",
+    "source": "person-madame-geoffrin",
+    "target": "person-dalembert",
+    "relationship": "patronized",
+    "evidence": "D'Alembert was a regular at Geoffrin's salon. She supported philosophes generally and connected them with influential aristocrats.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-geoffrin-montesquieu-knows",
+    "source": "person-madame-geoffrin",
+    "target": "person-montesquieu",
+    "relationship": "knows",
+    "evidence": "Montesquieu attended Geoffrin's salon before his death in 1755. The salon was a meeting place for philosophes across generations.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-lespinasse-dalembert-knows",
+    "source": "person-julie-de-lespinasse",
+    "target": "person-dalembert",
+    "relationship": "knows",
+    "dateStart": "1764",
+    "dateEnd": "1776",
+    "evidence": "Very close relationship. D'Alembert lived in her house for years. Her salon became a key meeting place for philosophes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lespinasse-condorcet-knows",
+    "source": "person-julie-de-lespinasse",
+    "target": "person-condorcet",
+    "relationship": "knows",
+    "evidence": "Condorcet was a regular at her salon. She introduced him to influential figures and provided a venue for philosophical discussion.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lespinasse-turgot-knows",
+    "source": "person-julie-de-lespinasse",
+    "target": "person-turgot",
+    "relationship": "knows",
+    "evidence": "Turgot attended her salon and met other philosophes there, including Condorcet.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deffand-voltaire-corresponded",
+    "source": "person-madame-du-deffand",
+    "target": "person-voltaire",
+    "relationship": "corresponded_with",
+    "evidence": "Regular correspondence spanning decades. Voltaire valued her literary judgment and wit.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deffand-montesquieu-knows",
+    "source": "person-madame-du-deffand",
+    "target": "person-montesquieu",
+    "relationship": "knows",
+    "evidence": "Montesquieu frequented her salon in the 1720s-1750s. She was an early and fashionable hostess.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-catherine-diderot-patronized",
+    "source": "person-catherine-great",
+    "target": "person-diderot",
+    "relationship": "patronized",
+    "dateStart": "1765",
+    "dateEnd": "1784",
+    "evidence": "Catherine purchased Diderot's library in 1765, allowing him to keep it during his lifetime. Diderot visited her court in 1773-1774 for extensive conversations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-catherine-dalembert-corresponded",
+    "source": "person-catherine-great",
+    "target": "person-dalembert",
+    "relationship": "corresponded_with",
+    "evidence": "Catherine invited d'Alembert to Russia (he declined). They corresponded on Enlightenment themes; she sought to cultivate her image as an enlightened ruler.",
+    "strength": "moderate"
+  }
+]
