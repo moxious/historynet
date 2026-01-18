@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { useGraph } from '@contexts';
 import type { GraphNode, GraphEdge } from '@types';
 import { ForceGraphLayout, TimelineLayout } from '@layouts';
@@ -40,6 +40,22 @@ function MainLayout() {
   const handleEdgeClick = useCallback((edge: GraphEdge) => {
     selectEdge(edge.id);
   }, [selectEdge]);
+
+  // DEBUG: Track callback stability
+  const prevCallbacksRef = useRef<{ selectNode: typeof selectNode; selectEdge: typeof selectEdge; handleNodeClick: typeof handleNodeClick; handleEdgeClick: typeof handleEdgeClick } | null>(null);
+  useEffect(() => {
+    if (prevCallbacksRef.current) {
+      const changes: string[] = [];
+      if (prevCallbacksRef.current.selectNode !== selectNode) changes.push('selectNode');
+      if (prevCallbacksRef.current.selectEdge !== selectEdge) changes.push('selectEdge');
+      if (prevCallbacksRef.current.handleNodeClick !== handleNodeClick) changes.push('handleNodeClick');
+      if (prevCallbacksRef.current.handleEdgeClick !== handleEdgeClick) changes.push('handleEdgeClick');
+      if (changes.length > 0) {
+        console.log('[MainLayout] Callback references changed:', changes);
+      }
+    }
+    prevCallbacksRef.current = { selectNode, selectEdge, handleNodeClick, handleEdgeClick };
+  }, [selectNode, selectEdge, handleNodeClick, handleEdgeClick]);
 
   // Loading state
   if (loadingState === 'loading') {

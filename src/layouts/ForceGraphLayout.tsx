@@ -126,12 +126,30 @@ export function ForceGraphLayout({
     return () => resizeObserver.disconnect();
   }, []);
 
+  // DEBUG: Track previous dependency values to identify what triggers re-renders
+  const prevDepsRef = useRef<{ data: typeof data; dimensions: typeof dimensions; onNodeClick: typeof onNodeClick; onEdgeClick: typeof onEdgeClick } | null>(null);
+
   // Initialize and update the graph
   useEffect(() => {
+    // DEBUG: Log what dependency changed
+    if (prevDepsRef.current) {
+      const changes: string[] = [];
+      if (prevDepsRef.current.data !== data) changes.push('data');
+      if (prevDepsRef.current.dimensions !== dimensions) changes.push('dimensions');
+      if (prevDepsRef.current.onNodeClick !== onNodeClick) changes.push('onNodeClick');
+      if (prevDepsRef.current.onEdgeClick !== onEdgeClick) changes.push('onEdgeClick');
+      console.log('[ForceGraphLayout] Main useEffect triggered. Changed deps:', changes.length > 0 ? changes : 'NONE (initial render or dimensions check)');
+    } else {
+      console.log('[ForceGraphLayout] Main useEffect triggered. First render.');
+    }
+    prevDepsRef.current = { data, dimensions, onNodeClick, onEdgeClick };
+
     if (!svgRef.current || dimensions.width === 0 || dimensions.height === 0) return;
 
     const svg = d3.select(svgRef.current);
     const { width, height } = dimensions;
+
+    console.log('[ForceGraphLayout] Rebuilding graph from scratch...');
 
     // Clear previous content
     svg.selectAll('*').remove();

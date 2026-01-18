@@ -68,6 +68,16 @@ interface NodeEventMap {
   primaryEvent?: TimelineEvent; // First event for non-person nodes
 }
 
+/**
+ * Lane assignment for an event in the swim-lane layout
+ */
+interface LaneAssignment {
+  /** Which lane the event is in (0 = closest to axis) */
+  laneIndex: number;
+  /** Horizontal offset from axis based on lane */
+  xOffset: number;
+}
+
 // Layout constants
 const EVENT_MARKER_SIZE = 10;
 const LABEL_WIDTH = 220;
@@ -79,7 +89,12 @@ const UNDATED_SECTION_HEIGHT = 150;
 const ZOOM_MIN = 0.3;
 const ZOOM_MAX = 8; // Increased for finer granularity
 const INITIAL_ZOOM_SCALE = 0.8;
-const EVENT_VERTICAL_SPACING = 24; // Minimum vertical spacing between stacked events
+
+// Swim-lane layout constants
+const LABEL_HEIGHT = 55; // Approximate height of label card with padding
+const LANE_GAP = 10; // Gap between lanes
+const LANE_WIDTH = LABEL_WIDTH + LANE_GAP; // Each lane is label width + gap
+const MAX_LANES = 3; // Cap lanes to prevent excessive width
 
 // Timeline segmentation settings
 const GAP_THRESHOLD = 40;
@@ -112,38 +127,77 @@ function getEventColor(type: EventType, nodeType: NodeType): string {
 }
 
 /**
- * Resolve collisions between events by pushing overlapping events apart.
- * This is a post-processing step after initial Y positioning to handle
- * edge cases where density-aware scaling still results in overlaps.
+ * Assign events to swim lanes to prevent overlap.
+ * Events on the same side that don't vertically overlap share a lane.
+ * Overlapping events are pushed to the next lane (further from axis).
+ * 
+ * This approach allows events that are close in time but don't overlap
+ * to share Lane 0, while truly overlapping events get placed in outer lanes.
  * 
  * @param events Array of events with y positions assigned
- * @param minSpacing Minimum vertical spacing between events
+ * @param labelHeight Height of event labels (for overlap detection)
+ * @returns Map of event ID to lane assignment
  */
-function resolveCollisions(events: TimelineEvent[], minSpacing: number): void {
-  if (events.length <= 1) return;
+function assignLanes(
+  events: TimelineEvent[],
+  labelHeight: number
+): Map<string, LaneAssignment> {
+  const assignments = new Map<string, LaneAssignment>();
 
-  // Separate events by side (left/right) since they can overlap on the axis
-  // but their labels are on opposite sides
+  if (events.length === 0) return assignments;
+
+  // Separate and sort by Y position
   const leftEvents = events.filter(e => e.isLeft).sort((a, b) => (a.y ?? 0) - (b.y ?? 0));
   const rightEvents = events.filter(e => !e.isLeft).sort((a, b) => (a.y ?? 0) - (b.y ?? 0));
 
-  // Resolve collisions within each side
   for (const sideEvents of [leftEvents, rightEvents]) {
-    for (let i = 1; i < sideEvents.length; i++) {
-      const prev = sideEvents[i - 1];
-      const curr = sideEvents[i];
-      const prevY = prev.y ?? 0;
-      const currY = curr.y ?? 0;
-      
-      // Check for overlap (need minSpacing between events on same side)
-      const overlap = prevY + minSpacing - currY;
-      
-      if (overlap > 0) {
-        // Push current event down to resolve overlap
-        curr.y = currY + overlap;
+    if (sideEvents.length === 0) continue;
+    
+    const isLeft = sideEvents[0].isLeft ?? true;
+    const lanes: TimelineEvent[][] = [];
+
+    for (const event of sideEvents) {
+      let placed = false;
+      const eventY = event.y ?? 0;
+
+      // Try to fit in existing lane (prefer lane 0, closest to axis)
+      for (let i = 0; i < lanes.length; i++) {
+        const lastInLane = lanes[i][lanes[i].length - 1];
+        const lastY = lastInLane.y ?? 0;
+
+        // Check if event fits after last event in this lane
+        if (eventY >= lastY + labelHeight) {
+          lanes[i].push(event);
+          assignments.set(event.id, {
+            laneIndex: i,
+            xOffset: i * LANE_WIDTH * (isLeft ? -1 : 1),
+          });
+          placed = true;
+          break;
+        }
+      }
+
+      // Create new lane if needed (up to MAX_LANES)
+      if (!placed) {
+        const newLaneIndex = Math.min(lanes.length, MAX_LANES - 1);
+        
+        if (newLaneIndex === lanes.length) {
+          // Create a new lane
+          lanes.push([event]);
+        } else {
+          // At max lanes, append to last lane (will overlap, but capped)
+          lanes[newLaneIndex].push(event);
+        }
+        
+        assignments.set(event.id, {
+          laneIndex: newLaneIndex,
+          xOffset: newLaneIndex * LANE_WIDTH * (isLeft ? -1 : 1),
+        });
       }
     }
   }
+
+  return assignments;
 }
 
 /**
@@ -257,15 +311,15 @@ export function TimelineLayout({
       eventsByYear.set(event.year, yearEvents);
     }
 
-    // Assign stack offsets for events at the same year
-    // Alternate left/right WITHIN each year to reduce vertical space by 50%
-    // Events stack in pairs: [left, right] at y=0, [left, right] at y=spacing, etc.
+    // Assign left/right sides for events at the same year
+    // Alternate left/right WITHIN each year to distribute events on both sides
+    // The swim-lane algorithm will handle vertical overlap via horizontal lanes
     for (const yearEvents of eventsByYear.values()) {
       yearEvents.forEach((event, stackIndex) => {
         // Alternate left/right within the year (not globally)
         event.isLeft = stackIndex % 2 === 0;
-        // Stack in pairs vertically - each pair shares a row
-        event.stackOffset = Math.floor(stackIndex / 2) * EVENT_VERTICAL_SPACING;
+        // No stackOffset needed - swim lanes handle overlap horizontally
+        event.stackOffset = 0;
       });
     }
 
@@ -327,8 +381,8 @@ export function TimelineLayout({
     // Clear previous content
     svg.selectAll('*').remove();
 
-    // Calculate content dimensions - single column layout
-    const contentWidth = AXIS_X + LABEL_WIDTH + LABEL_OFFSET + 100;
+    // Calculate content dimensions - account for multiple swim lanes on each side
+    const contentWidth = AXIS_X + (LANE_WIDTH * MAX_LANES) + 100;
 
     // Create segmented scale that compresses large gaps in the timeline
     // Pass eventsPerYear for density-aware height allocation
@@ -339,7 +393,7 @@ export function TimelineLayout({
       topPadding: 50,
       bottomPadding: UNDATED_SECTION_HEIGHT + 50,
       eventsPerYear,
-      pixelsPerEvent: EVENT_VERTICAL_SPACING,
+      pixelsPerEvent: LABEL_HEIGHT, // Use label height for density calculations
     });
     
     // Store ref for use in reset view
@@ -397,13 +451,13 @@ export function TimelineLayout({
 
           const y = yScale(tick.value);
 
-          // Draw tick line (grid line)
+          // Draw tick line (grid line) - extend to cover all swim lanes
           if (tick.isMajor || granularity === 'decade' || granularity === 'year') {
             tickGroup
               .append('line')
               .attr('class', tick.isMajor ? 'timeline-grid-major' : 'timeline-grid-minor')
-              .attr('x1', AXIS_X - LABEL_WIDTH - LABEL_OFFSET)
-              .attr('x2', AXIS_X + LABEL_WIDTH + LABEL_OFFSET)
+              .attr('x1', AXIS_X - (LANE_WIDTH * MAX_LANES))
+              .attr('x2', AXIS_X + (LANE_WIDTH * MAX_LANES))
               .attr('y1', y)
               .attr('y2', y)
               .attr('stroke', tick.isMajor ? '#cbd5e1' : '#e2e8f0')
@@ -486,8 +540,8 @@ export function TimelineLayout({
       event.y = yScale(event.year) + (event.stackOffset ?? 0);
     }
 
-    // Resolve any remaining collisions between events on the same side
-    resolveCollisions(events, EVENT_VERTICAL_SPACING);
+    // Assign events to swim lanes to prevent label overlap
+    const laneAssignments = assignLanes(events, LABEL_HEIGHT);
 
     // Create a map of event positions for edge drawing
     const eventPositions = new Map<string, { x: number; y: number }>();
@@ -524,27 +578,44 @@ export function TimelineLayout({
       .attr('stroke', '#fff')
       .attr('stroke-width', 2);
 
-    // Add connector lines from marker to label
+    // Add connector lines from marker to label (extended to reach outer lanes)
     eventElements
       .append('line')
       .attr('class', 'timeline-event-connector')
       .attr('x1', 0)
       .attr('y1', 0)
-      .attr('x2', (d) => (d.isLeft ? -LABEL_OFFSET : LABEL_OFFSET))
+      .attr('x2', (d) => {
+        const assignment = laneAssignments.get(d.id);
+        const baseOffset = d.isLeft ? -LABEL_OFFSET : LABEL_OFFSET;
+        // Extend connector to reach label in outer lanes
+        return baseOffset + (assignment?.xOffset ?? 0);
+      })
       .attr('y2', 0)
       .attr('stroke', '#cbd5e1')
       .attr('stroke-width', 1);
 
-    // Add labels using foreignObject for text wrapping
+    // Add labels using foreignObject for text wrapping (positioned by lane)
     eventElements
       .append('foreignObject')
       .attr('class', 'timeline-event-label-container')
-      .attr('x', (d) => (d.isLeft ? -LABEL_WIDTH - LABEL_OFFSET : LABEL_OFFSET))
+      .attr('x', (d) => {
+        const assignment = laneAssignments.get(d.id);
+        const baseX = d.isLeft ? -LABEL_WIDTH - LABEL_OFFSET : LABEL_OFFSET;
+        // Apply lane offset to position label in correct lane
+        return baseX + (assignment?.xOffset ?? 0);
+      })
       .attr('y', -20)
       .attr('width', LABEL_WIDTH)
       .attr('height', 50)
       .append('xhtml:div')
       .attr('class', (d) => `timeline-event-label ${d.isLeft ? 'timeline-event-label--left' : 'timeline-event-label--right'}`)
+      .on('click', (event, d) => {
+        // Handle clicks on the label card to open info box
+        event.stopPropagation();
+        if (onNodeClick) {
+          onNodeClick(d.originalNode);
+        }
+      })
       .html((d) => {
         const eventLabel = getEventTypeLabel(d.type);
         const yearStr = d.year.toString();
@@ -848,7 +919,7 @@ export function TimelineLayout({
 
     // Use the stored segmented scale
     const segmentedScale = segmentedScaleRef.current;
-    const contentWidth = AXIS_X + LABEL_WIDTH + LABEL_OFFSET + 100;
+    const contentWidth = AXIS_X + (LANE_WIDTH * MAX_LANES) + 100;
 
     // Focus on the densest segment
     const densestSegment = segmentedScale.getDensestSegment();

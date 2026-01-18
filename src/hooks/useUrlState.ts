@@ -3,8 +3,8 @@
  * Uses React Router's useSearchParams
  */
 
-import { useCallback, useMemo } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useCallback, useMemo, useRef } from 'react';
+import { useSearchParams, type SetURLSearchParams } from 'react-router-dom';
 import type { FilterState } from '@types';
 
 /** URL parameter keys */
@@ -57,26 +57,40 @@ interface UseUrlStateReturn {
 export function useUrlState(): UseUrlStateReturn {
   const [searchParams, setSearchParams] = useSearchParams();
 
+  // REACT: Stabilize setSearchParams with a ref to prevent callback instability (R12)
+  // React Router's setSearchParams can return a new reference when URL changes,
+  // which causes all dependent callbacks to recreate and trigger unnecessary re-renders
+  const setSearchParamsRef = useRef<SetURLSearchParams>(setSearchParams);
+  setSearchParamsRef.current = setSearchParams;
+
+  // Stable wrapper that never changes reference
+  const stableSetSearchParams = useCallback<SetURLSearchParams>(
+    (nextInit, navigateOpts) => {
+      setSearchParamsRef.current(nextInit, navigateOpts);
+    },
+    []
+  );
+
   // Get dataset ID from URL
   const datasetId = searchParams.get(URL_PARAMS.DATASET);
 
   // Set dataset ID in URL
   const setDatasetId = useCallback(
     (id: string) => {
-      setSearchParams((prev) => {
+      stableSetSearchParams((prev) => {
         const newParams = new URLSearchParams(prev);
         newParams.set(URL_PARAMS.DATASET, id);
         return newParams;
       });
     },
-    [setSearchParams]
+    [stableSetSearchParams]
   );
 
   // Set dataset ID and clear selection in a single atomic URL update
   // This avoids race conditions when switching datasets
   const setDatasetIdAndClearSelection = useCallback(
     (id: string) => {
-      setSearchParams((prev) => {
+      stableSetSearchParams((prev) => {
         const newParams = new URLSearchParams(prev);
         newParams.set(URL_PARAMS.DATASET, id);
         newParams.delete(URL_PARAMS.SELECTED);
@@ -84,7 +98,7 @@ export function useUrlState(): UseUrlStateReturn {
         return newParams;
       });
     },
-    [setSearchParams]
+    [stableSetSearchParams]
   );
 
   // Get selected item from URL
@@ -96,25 +110,25 @@ export function useUrlState(): UseUrlStateReturn {
   // Set selected item in URL
   const setSelected = useCallback(
     (type: 'node' | 'edge', id: string) => {
-      setSearchParams((prev) => {
+      stableSetSearchParams((prev) => {
         const newParams = new URLSearchParams(prev);
         newParams.set(URL_PARAMS.SELECTED, id);
         newParams.set(URL_PARAMS.SELECTED_TYPE, type);
         return newParams;
       });
     },
-    [setSearchParams]
+    [stableSetSearchParams]
   );
 
   // Clear selection from URL
   const clearSelected = useCallback(() => {
-    setSearchParams((prev) => {
+    stableSetSearchParams((prev) => {
       const newParams = new URLSearchParams(prev);
       newParams.delete(URL_PARAMS.SELECTED);
       newParams.delete(URL_PARAMS.SELECTED_TYPE);
       return newParams;
     });
-  }, [setSearchParams]);
+  }, [stableSetSearchParams]);
 
   // Get layout from URL
   const layout = searchParams.get(URL_PARAMS.LAYOUT);
@@ -122,34 +136,36 @@ export function useUrlState(): UseUrlStateReturn {
   // Set layout in URL
   const setLayout = useCallback(
     (newLayout: string) => {
-      setSearchParams((prev) => {
+      stableSetSearchParams((prev) => {
         const newParams = new URLSearchParams(prev);
         newParams.set(URL_PARAMS.LAYOUT, newLayout);
         return newParams;
       });
     },
-    [setSearchParams]
+    [stableSetSearchParams]
   );
 
   // Get filters from URL
-  const filters: FilterState = useMemo(() => {
-    const dateStartStr = searchParams.get(URL_PARAMS.DATE_START);
-    const dateEndStr = searchParams.get(URL_PARAMS.DATE_END);
-    const nameFilter = searchParams.get(URL_PARAMS.NAME_FILTER) ?? '';
-    const relationshipFilter = searchParams.get(URL_PARAMS.RELATIONSHIP_FILTER) ?? '';
+  // Extract individual values first, then memoize based on those values
+  // This prevents filters object from changing when only selection params change
+  const dateStartStr = searchParams.get(URL_PARAMS.DATE_START);
+  const dateEndStr = searchParams.get(URL_PARAMS.DATE_END);
+  const nameFilterStr = searchParams.get(URL_PARAMS.NAME_FILTER) ?? '';
+  const relationshipFilterStr = searchParams.get(URL_PARAMS.RELATIONSHIP_FILTER) ?? '';
 
+  const filters: FilterState = useMemo(() => {
     return {
       dateStart: dateStartStr ? parseInt(dateStartStr, 10) : null,
       dateEnd: dateEndStr ? parseInt(dateEndStr, 10) : null,
-      nameFilter,
-      relationshipFilter,
+      nameFilter: nameFilterStr,
+      relationshipFilter: relationshipFilterStr,
     };
-  }, [searchParams]);
+  }, [dateStartStr, dateEndStr, nameFilterStr, relationshipFilterStr]);
 
   // Set filters in URL
   const setFilters = useCallback(
     (newFilters: Partial<FilterState>) => {
-      setSearchParams((prev) => {
+      stableSetSearchParams((prev) => {
         const newParams = new URLSearchParams(prev);
 
         // Merge with existing filters
@@ -183,12 +199,12 @@ export function useUrlState(): UseUrlStateReturn {
         return newParams;
       });
     },
-    [setSearchParams, filters]
+    [stableSetSearchParams, filters]
   );
 
   // Clear all filters from URL
   const clearFilters = useCallback(() => {
-    setSearchParams((prev) => {
+    stableSetSearchParams((prev) => {
       const newParams = new URLSearchParams(prev);
       newParams.delete(URL_PARAMS.DATE_START);
       newParams.delete(URL_PARAMS.DATE_END);
@@ -196,7 +212,7 @@ export function useUrlState(): UseUrlStateReturn {
       newParams.delete(URL_PARAMS.RELATIONSHIP_FILTER);
       return newParams;
     });
-  }, [setSearchParams]);
+  }, [stableSetSearchParams]);
 
   // Get all parameters as an object
   const getAllParams = useCallback((): Record<string, string> => {
@@ -209,8 +225,8 @@ export function useUrlState(): UseUrlStateReturn {
 
   // Clear all URL parameters
   const clearAll = useCallback(() => {
-    setSearchParams(new URLSearchParams());
-  }, [setSearchParams]);
+    stableSetSearchParams(new URLSearchParams());
+  }, [stableSetSearchParams]);
 
   return useMemo(
     () => ({

@@ -2,7 +2,7 @@
  * React Context for sharing graph state across components
  */
 
-import { createContext, useContext, useEffect, useMemo, useState, useCallback, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState, useCallback, useRef, type ReactNode } from 'react';
 import { useGraphData } from '@hooks/useGraphData';
 import { useSelectedItem, getSelectedItem } from '@hooks/useSelectedItem';
 import { useUrlState } from '@hooks/useUrlState';
@@ -154,20 +154,43 @@ export function GraphProvider({ children }: GraphProviderProps) {
   }, [urlSelectedId, urlSelectedType, graphData, getNode, getEdge, selectNodeBase, selectEdgeBase]);
 
   // Wrapped selection functions that also update URL
-  const selectNode = (id: string) => {
-    selectNodeBase(id);
-    setUrlSelected('node', id);
-  };
+  // REACT: memoized to prevent graph re-layout on selection change (R12)
+  const selectNode = useCallback(
+    (id: string) => {
+      selectNodeBase(id);
+      setUrlSelected('node', id);
+    },
+    [selectNodeBase, setUrlSelected]
+  );
 
-  const selectEdge = (id: string) => {
-    selectEdgeBase(id);
-    setUrlSelected('edge', id);
-  };
+  const selectEdge = useCallback(
+    (id: string) => {
+      selectEdgeBase(id);
+      setUrlSelected('edge', id);
+    },
+    [selectEdgeBase, setUrlSelected]
+  );
 
-  const clearSelection = () => {
+  const clearSelection = useCallback(() => {
     clearSelectionBase();
     clearUrlSelected();
-  };
+  }, [clearSelectionBase, clearUrlSelected]);
+
+  // DEBUG: Track if selectNode/selectEdge references are stable
+  const prevSelectFnsRef = useRef<{ selectNode: typeof selectNode; selectEdge: typeof selectEdge; selectNodeBase: typeof selectNodeBase; setUrlSelected: typeof setUrlSelected } | null>(null);
+  useEffect(() => {
+    if (prevSelectFnsRef.current) {
+      const changes: string[] = [];
+      if (prevSelectFnsRef.current.selectNode !== selectNode) changes.push('selectNode');
+      if (prevSelectFnsRef.current.selectEdge !== selectEdge) changes.push('selectEdge');
+      if (prevSelectFnsRef.current.selectNodeBase !== selectNodeBase) changes.push('selectNodeBase');
+      if (prevSelectFnsRef.current.setUrlSelected !== setUrlSelected) changes.push('setUrlSelected');
+      if (changes.length > 0) {
+        console.log('[GraphContext] Selection function references changed:', changes);
+      }
+    }
+    prevSelectFnsRef.current = { selectNode, selectEdge, selectNodeBase, setUrlSelected };
+  }, [selectNode, selectEdge, selectNodeBase, setUrlSelected]);
 
   // Get the selected item (node or edge object)
   const selectedItem =
@@ -177,21 +200,26 @@ export function GraphProvider({ children }: GraphProviderProps) {
 
   // Switch dataset (also updates URL)
   // Uses atomic URL update to avoid race condition between setDatasetId and clearSelection
-  const switchDataset = (newDatasetId: string) => {
-    if (isValidDatasetId(newDatasetId)) {
-      setDatasetIdAndClearSelection(newDatasetId); // Single atomic URL update
-      clearSelectionBase(); // Clear local state only (URL already cleared above)
-    } else {
-      console.error(`Cannot switch to invalid dataset: ${newDatasetId}`);
-    }
-  };
+  // REACT: memoized for stable reference (R12)
+  const switchDataset = useCallback(
+    (newDatasetId: string) => {
+      if (isValidDatasetId(newDatasetId)) {
+        setDatasetIdAndClearSelection(newDatasetId); // Single atomic URL update
+        clearSelectionBase(); // Clear local state only (URL already cleared above)
+      } else {
+        console.error(`Cannot switch to invalid dataset: ${newDatasetId}`);
+      }
+    },
+    [setDatasetIdAndClearSelection, clearSelectionBase]
+  );
 
   // Reload current dataset
-  const reloadDataset = () => {
+  // REACT: memoized for stable reference (R12)
+  const reloadDataset = useCallback(() => {
     if (effectiveDatasetId) {
       load(effectiveDatasetId);
     }
-  };
+  }, [effectiveDatasetId, load]);
 
   // Calculate filtered data based on current filters
   const filteredData = useMemo(() => {
