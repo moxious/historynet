@@ -32,7 +32,12 @@ export {
   detectSegments,
   findDensestSegment,
   createSegmentedScale,
+  getTickGranularity,
+  generateTicks,
+  dateToDecimalYear,
   type TimelineSegment,
   type SegmentedScale,
   type SegmentConfig,
+  type TickGranularity,
+  type TickInfo,
 } from './timelineSegments';
