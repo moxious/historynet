@@ -4,8 +4,17 @@
 
 import type { DatasetManifest, GraphNode, GraphEdge, GraphData, Dataset } from '@types';
 
-/** Base path for datasets */
-const DATASETS_BASE_PATH = '/datasets';
+/**
+ * Get the base path for datasets
+ * Uses Vite's BASE_URL to handle deployment to subdirectories (e.g., GitHub Pages)
+ * - Local dev: BASE_URL = '/' → datasets at '/datasets/...'
+ * - GitHub Pages: BASE_URL = '/historynet/' → datasets at '/historynet/datasets/...'
+ */
+function getDatasetsBasePath(): string {
+  const base = import.meta.env.BASE_URL || '/';
+  // Ensure base ends with / and combine with 'datasets'
+  return `${base.endsWith('/') ? base : base + '/'}datasets`;
+}
 
 /**
  * Error thrown when dataset loading fails
@@ -53,7 +62,7 @@ async function fetchJson<T>(url: string, description: string): Promise<T> {
  * Build the URL path to a dataset file
  */
 function getDatasetPath(datasetId: string, filename: string): string {
-  return `${DATASETS_BASE_PATH}/${datasetId}/${filename}`;
+  return `${getDatasetsBasePath()}/${datasetId}/${filename}`;
 }
 
 /**

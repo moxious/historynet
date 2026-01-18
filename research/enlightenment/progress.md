@@ -2,7 +2,7 @@
 
 **Status**: In Progress
 **Started**: 2026-01-18
-**Last Updated**: 2026-01-18 (Phase 3 complete)
+**Last Updated**: 2026-01-18 (Phase 4 complete)
 **Researcher**: AI Agent (Claude)
 
 ## Phase Completion
@@ -29,9 +29,9 @@
 - [x] Document in 03-relationships.md
 
 ### Phase 4: Objects, Locations, Entities
-- [ ] Identify key works (04-objects.md)
-- [ ] Identify significant locations (05-locations.md)
-- [ ] Identify relevant entities (06-entities.md)
+- [x] Identify key works (04-objects.md)
+- [x] Identify significant locations (05-locations.md)
+- [x] Identify relevant entities (06-entities.md)
 
 ### Phase 5: Review and Gap Analysis
 - [ ] Review completeness
@@ -51,9 +51,9 @@
 |--------|-------|
 | People enumerated | 58 |
 | Relationships documented | ~116 |
-| Objects identified | 0 |
-| Locations identified | 0 |
-| Entities identified | 0 |
+| Objects identified | 83 |
+| Locations identified | 41 |
+| Entities identified | 30 |
 
 ## Notes
 
@@ -73,4 +73,26 @@
   - All relationships include evidence citations from scholarly secondary sources
   - 3 relationships marked as speculative: Voltaire's role in Rousseau exposure, Smith meeting Voltaire, Smith's intended dedication to Quesnay
   - Identified cross-cutting patterns: Encyclopédie as network hub, "quarrel" pattern (Diderot-Rousseau, Hume-Rousseau, etc.), mentorship chains
-  - Ready for Phase 4: Objects, Locations, and Entities
+- **Phase 4 Notes**:
+  - **Objects (83)**: Key works organized by region/tradition
+    - Foundational Works (Pre-1720): 9 works including Principia, Essay Concerning Human Understanding, Two Treatises
+    - French Enlightenment: 21 works including Encyclopédie, Candide, Spirit of the Laws, Social Contract
+    - British/Scottish: 19 works including Treatise of Human Nature, Wealth of Nations, Theory of Moral Sentiments
+    - German: 15 works including three Critiques, Nathan the Wise, What is Enlightenment?
+    - American: 10 works including Declaration of Independence, Federalist Papers, Common Sense
+    - Scientific: 5 works; Correspondence collections: 3
+  - **Locations (41)**: Geographic nodes of the network
+    - Major cities: 12 (Paris, Edinburgh, London, Berlin, etc.)
+    - Universities: 6 (Edinburgh, Glasgow, Halle, Königsberg, etc.)
+    - Academies: 6 (Académie française, Académie des Sciences, Berlin Academy, Royal Society, etc.)
+    - Salons: 5 (Geoffrin, d'Holbach, Lespinasse, du Deffand, Helvétius)
+    - Courts/Residences: 5 (Sans-Souci, Versailles, Ferney, Cirey, Winter Palace)
+    - Publishing centers: 3; Scottish clubs: 3; Coffee houses: 1
+  - **Entities (30)**: Organizations and movements
+    - Major project: Encyclopédie
+    - Schools of thought: 10 (Philosophes, Scottish Enlightenment, Aufklärung, Haskalah, Physiocracy, British Empiricism, Rationalism, Utilitarianism, Common Sense Philosophy, Radical Enlightenment)
+    - Formal academies: 5
+    - Informal circles: 3 (d'Holbach's circle, Edinburgh literati, American founders)
+    - Journals: 3; Reform movements: 3; Religious currents: 3; Political entities: 2
+  - All nodes include proposed IDs ready for JSON conversion
+  - Ready for Phase 5: Review and Gap Analysis
