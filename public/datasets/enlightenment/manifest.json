@@ -9,11 +9,5 @@
   "defaultDataset": false,
   "nodeCount": 204,
   "edgeCount": 101,
-  "customRelationshipTypes": [
-    {
-      "type": "patronized",
-      "description": "Patron supported or hosted the target individual",
-      "directed": true
-    }
-  ]
+  "customRelationshipTypes": []
 }

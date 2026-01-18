@@ -11,23 +11,8 @@
   "edgeCount": 194,
   "customRelationshipTypes": [
     {
-      "type": "patronized",
-      "description": "Patron financially or politically supported the target individual",
-      "directed": true
-    },
-    {
       "type": "patronized_by",
-      "description": "Individual was supported by patron",
-      "directed": true
-    },
-    {
-      "type": "edited",
-      "description": "Person edited or prepared edition of work",
-      "directed": true
-    },
-    {
-      "type": "translated",
-      "description": "Person translated the work",
+      "description": "Individual was supported by patron (inverse of patronized)",
       "directed": true
     }
   ]

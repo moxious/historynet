@@ -24,11 +24,6 @@
       "type": "invented",
       "description": "Source invented or created the target (instrument, technique)",
       "directed": true
-    },
-    {
-      "type": "co_founded",
-      "description": "Both parties co-founded an organization or group together",
-      "directed": false
     }
   ],
   "changelog": [

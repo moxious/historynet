@@ -28,11 +28,6 @@
   ],
   "customRelationshipTypes": [
     {
-      "type": "patronized",
-      "description": "Person acted as patron or provided financial/political support",
-      "directed": true
-    },
-    {
       "type": "secretary_to",
       "description": "Served as secretary or assistant",
       "directed": true
@@ -50,6 +45,11 @@
     {
       "type": "published",
       "description": "Person arranged publication of the work",
+      "directed": true
+    },
+    {
+      "type": "participated_in",
+      "description": "Person participated in an event or organization",
       "directed": true
     }
   ],

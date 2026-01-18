@@ -9,16 +9,5 @@
   "defaultDataset": false,
   "nodeCount": 180,
   "edgeCount": 293,
-  "customRelationshipTypes": [
-    {
-      "type": "patron_of",
-      "description": "Political patron who protected or supported a reformer",
-      "directed": true
-    },
-    {
-      "type": "succeeded",
-      "description": "Source succeeded target in a church or political role",
-      "directed": true
-    }
-  ]
+  "customRelationshipTypes": []
 }

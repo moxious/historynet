@@ -188,6 +188,7 @@ export const STANDARD_RELATIONSHIP_TYPES = [
   'related_to',
   'opposed',
   'succeeded',
+  'patronized',
   // Person ↔ Object
   'authored',
   'translated',
@@ -199,11 +200,13 @@ export const STANDARD_RELATIONSHIP_TYPES = [
   'died_in',
   'lived_in',
   'worked_at',
+  'studied_at',
   'visited',
   // Person ↔ Entity
   'founded',
   'member_of',
   'led',
+  'co_founded',
   'associated_with',
   // Object ↔ Object
   'references',

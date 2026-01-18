@@ -13,11 +13,6 @@
   "geographicScope": "International (US, UK, France, Canada primarily)",
   "customRelationshipTypes": [
     {
-      "type": "co_founded",
-      "description": "Person co-founded an entity/organization with others",
-      "directed": true
-    },
-    {
       "type": "co_authored",
       "description": "Co-authored a significant research paper",
       "directed": false
@@ -30,11 +25,6 @@
     {
       "type": "departed_from",
       "description": "Person left an organization",
-      "directed": true
-    },
-    {
-      "type": "worked_at",
-      "description": "Person worked at an organization/location",
       "directed": true
     }
   ],

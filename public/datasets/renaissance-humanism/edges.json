@@ -831,373 +831,435 @@
     "id": "edge-petrarch-authored-epistolae",
     "source": "person-francesco-petrarca",
     "target": "object-epistolae-familiares",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "24 books of letters composed 1345-1366, consciously modeled on Cicero's correspondence. Manuscript tradition documented in critical editions."
   },
   {
     "id": "edge-petrarch-authored-deviris",
     "source": "person-francesco-petrarca",
     "target": "object-de-viris-illustribus",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Biographical collection begun c. 1337, expanded through 1350s. Critical edition by G. Martellotti (1964)."
   },
   {
     "id": "edge-boccaccio-authored-decameron",
     "source": "person-giovanni-boccaccio",
     "target": "object-decameron",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Composed c. 1349-1353. Autograph manuscript (Hamilton 90, Berlin) survives. Critical edition by V. Branca (1976)."
   },
   {
     "id": "edge-boccaccio-authored-genealogia",
     "source": "person-giovanni-boccaccio",
     "target": "object-genealogia-deorum",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Mythological encyclopedia composed 1350-1374. Boccaccio's final autograph survives."
   },
   {
     "id": "edge-valla-authored-elegantiae",
     "source": "person-lorenzo-valla",
     "target": "object-elegantiae",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Six books on Latin usage completed c. 1449. Over 60 printed editions by 1536 attest its influence."
   },
   {
     "id": "edge-valla-authored-donation",
     "source": "person-lorenzo-valla",
     "target": "object-donation-constantine",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "De falso credita et ementita Constantini donatione declamatio written 1440 at court of Alfonso V of Naples."
   },
   {
     "id": "edge-valla-authored-annotations",
     "source": "person-lorenzo-valla",
     "target": "object-valla-annotations-nt",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Collatio Novi Testamenti completed c. 1453. Rediscovered by Erasmus at Parc Abbey (1504) and published 1505."
   },
   {
     "id": "edge-chrysoloras-authored-erotemata",
     "source": "person-manuel-chrysoloras",
     "target": "object-erotemata",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Greek grammar composed c. 1397-1400 for his Florence students. First printed 1471; became standard text for Greek study."
   },
   {
     "id": "edge-ficino-authored-plato",
     "source": "person-marsilio-ficino",
     "target": "object-ficino-plato",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Complete Latin Plato published 1484, first such translation since antiquity. Commissioned by Cosimo de' Medici (1462)."
   },
   {
     "id": "edge-ficino-authored-theologia",
     "source": "person-marsilio-ficino",
     "target": "object-theologia-platonica",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "18 books composed 1469-1474, published 1482. Systematic exposition of Platonic philosophy."
   },
   {
     "id": "edge-ficino-authored-deamore",
     "source": "person-marsilio-ficino",
     "target": "object-de-amore-ficino",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Commentary on Plato's Symposium composed 1469. Foundational text for Renaissance Neoplatonic love theory."
   },
   {
     "id": "edge-ficino-authored-hermeticum",
     "source": "person-marsilio-ficino",
     "target": "object-corpus-hermeticum",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Translated 1463 at Cosimo's request, prioritized over Plato. First printed 1471."
   },
   {
     "id": "edge-ficino-authored-plotinus",
     "source": "person-marsilio-ficino",
     "target": "object-ficino-plotinus",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Complete Enneads published 1492, first Latin translation. Work begun c. 1484."
   },
   {
     "id": "edge-pico-authored-oration",
     "source": "person-giovanni-pico",
     "target": "object-oration-dignity-man",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Composed 1486 as introduction to his 900 Theses. Never delivered due to papal condemnation; published posthumously 1496."
   },
   {
     "id": "edge-pico-authored-theses",
     "source": "person-giovanni-pico",
     "target": "object-900-theses",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Conclusiones nongentae published Rome December 1486. 13 propositions condemned by Pope Innocent VIII (1487)."
   },
   {
     "id": "edge-pico-authored-deente",
     "source": "person-giovanni-pico",
     "target": "object-de-ente-et-uno",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Short treatise composed 1491 to reconcile Plato and Aristotle. Published posthumously 1496."
   },
   {
     "id": "edge-bruni-authored-laudatio",
     "source": "person-leonardo-bruni",
     "target": "object-laudatio-florentinae",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Panegyric of Florence composed c. 1403-1404, modeled on Aelius Aristides' Panathenaic oration."
   },
   {
     "id": "edge-bruni-authored-history",
     "source": "person-leonardo-bruni",
     "target": "object-bruni-history-florence",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Historiarum Florentini populi libri XII composed 1415-1444. First humanist civic history."
   },
   {
     "id": "edge-bruni-authored-ethics",
     "source": "person-leonardo-bruni",
     "target": "object-bruni-aristotle-ethics",
-    "relationship": "translated"
+    "relationship": "translated",
+    "evidence": "New translation from Greek completed 1416-1417, replacing medieval version. Widely copied and printed."
   },
   {
     "id": "edge-bruni-authored-politics",
     "source": "person-leonardo-bruni",
     "target": "object-bruni-aristotle-politics",
-    "relationship": "translated"
+    "relationship": "translated",
+    "evidence": "New translation completed 1438, with important preface on translation method."
   },
   {
     "id": "edge-machiavelli-authored-principe",
     "source": "person-niccolo-machiavelli",
     "target": "object-il-principe",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Composed 1513, circulated in manuscript, published posthumously 1532. Dedicated to Lorenzo de' Medici."
   },
   {
     "id": "edge-machiavelli-authored-discorsi",
     "source": "person-niccolo-machiavelli",
     "target": "object-discorsi-livy",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Discourses on first decade of Livy composed c. 1513-1517. Published posthumously 1531."
   },
   {
     "id": "edge-machiavelli-authored-istorie",
     "source": "person-niccolo-machiavelli",
     "target": "object-istorie-fiorentine",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Commissioned by Cardinal Giulio de' Medici (1520), presented to him 1525. Published 1532."
   },
   {
     "id": "edge-guicciardini-authored-storia",
     "source": "person-francesco-guicciardini",
     "target": "object-storia-italia",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "20 books covering Italian affairs 1490-1534, composed 1537-1540. First printed 1561."
   },
   {
     "id": "edge-guicciardini-authored-ricordi",
     "source": "person-francesco-guicciardini",
     "target": "object-ricordi",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Personal maxims revised in multiple redactions (B, C). Critical edition by Spongano (1951)."
   },
   {
     "id": "edge-castiglione-authored-courtier",
     "source": "person-baldassare-castiglione",
     "target": "object-book-courtier",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Il Libro del Cortegiano composed c. 1508-1516, revised through 1528. Set at court of Urbino c. 1506."
   },
   {
     "id": "edge-palmieri-authored-vitacivile",
     "source": "person-matteo-palmieri",
     "target": "object-della-vita-civile",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Dialogue on civic life composed c. 1435-1440 in Ciceronian tradition."
   },
   {
     "id": "edge-manetti-authored-dignitate",
     "source": "person-giannozzo-manetti",
     "target": "object-de-dignitate-manetti",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "De Dignitate et Excellentia Hominis composed 1452-1453, responding to Innocent III's De Miseria Humanae Conditionis."
   },
   {
     "id": "edge-vergerio-authored-ingenuis",
     "source": "person-pier-paolo-vergerio",
     "target": "object-de-ingenuis-moribus",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Educational treatise composed c. 1402-1403, dedicated to Ubertino da Carrara. First humanist treatise on education."
   },
   {
     "id": "edge-bguarino-authored-deordine",
     "source": "person-battista-guarino",
     "target": "object-de-ordine-docendi",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Treatise on teaching method composed c. 1459, codifying his father Guarino da Verona's educational practices."
   },
   {
     "id": "edge-agricola-authored-inventione",
     "source": "person-rudolf-agricola",
     "target": "object-de-inventione-dialectica",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Composed 1479, published posthumously 1515. Highly influential on humanist logic and rhetoric."
   },
   {
     "id": "edge-vives-authored-tradendis",
     "source": "person-juan-luis-vives",
     "target": "object-de-tradendis",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Published 1531 as part of De Disciplinis. Comprehensive humanist educational program."
   },
   {
     "id": "edge-erasmus-authored-copia",
     "source": "person-desiderius-erasmus",
     "target": "object-de-copia",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Composed for John Colet's St. Paul's School, published 1512. Over 150 editions by 1600."
   },
   {
     "id": "edge-erasmus-authored-novum",
     "source": "person-desiderius-erasmus",
     "target": "object-novum-instrumentum",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Greek-Latin New Testament published Basel 1516 by Froben. First printed Greek NT. Revised in 5 editions (1516-1535)."
   },
   {
     "id": "edge-erasmus-authored-enchiridion",
     "source": "person-desiderius-erasmus",
     "target": "object-enchiridion",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Enchiridion militis Christiani (Handbook of the Christian Soldier) first published 1503. Over 20 editions by 1521."
   },
   {
     "id": "edge-erasmus-authored-folly",
     "source": "person-desiderius-erasmus",
     "target": "object-praise-of-folly",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Moriae Encomium composed 1509 at Thomas More's house in London. Dedicated to More; title puns on his name."
   },
   {
     "id": "edge-erasmus-authored-colloquia",
     "source": "person-desiderius-erasmus",
     "target": "object-colloquia",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Expanded from 1518 schoolbook into satirical dialogues by 1526. Over 100 editions in Erasmus's lifetime."
   },
   {
     "id": "edge-erasmus-authored-adages",
     "source": "person-desiderius-erasmus",
     "target": "object-adages",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "First edition 1500 (818 proverbs), greatly expanded Aldine edition 1508 (3,260), final edition 1536 (4,151 adages)."
   },
   {
     "id": "edge-erasmus-authored-letters",
     "source": "person-desiderius-erasmus",
     "target": "object-erasmus-letters",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Over 3,000 letters survive. Erasmus began publishing his own correspondence 1521. Modern critical edition by P.S. Allen (1906-1958)."
   },
   {
     "id": "edge-lefevre-authored-bible",
     "source": "person-jacques-lefevre-detaples",
     "target": "object-french-bible-lefevre",
-    "relationship": "translated"
+    "relationship": "translated",
+    "evidence": "New Testament translated 1523, Old Testament 1528. First complete French Bible from original languages."
   },
   {
     "id": "edge-reuchlin-authored-rudimentis",
     "source": "person-johannes-reuchlin",
     "target": "object-de-rudimentis-hebraicis",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Published 1506, first Hebrew grammar and lexicon by a Christian scholar. Modeled on David Kimhi's works."
   },
   {
     "id": "edge-reuchlin-authored-cabalistica",
     "source": "person-johannes-reuchlin",
     "target": "object-de-arte-cabalistica",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Published 1517, dialogue on Kabbalah dedicated to Pope Leo X. Major text of Christian Kabbalah."
   },
   {
     "id": "edge-more-authored-utopia",
     "source": "person-thomas-more",
     "target": "object-utopia",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Latin text published Louvain 1516 by Thierry Martens, with preface by Erasmus. Influential political and social satire."
   },
   {
     "id": "edge-sannazaro-authored-arcadia",
     "source": "person-jacopo-sannazaro",
     "target": "object-arcadia",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Pastoral romance composed 1480s-1504, published Naples 1504. Founded European pastoral romance tradition."
   },
   {
     "id": "edge-poliziano-authored-stanze",
     "source": "person-angelo-poliziano",
     "target": "object-stanze-giostra",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Unfinished vernacular poem begun 1475 to celebrate Giuliano de' Medici's joust victory."
   },
   {
     "id": "edge-poliziano-authored-miscellanea",
     "source": "person-angelo-poliziano",
     "target": "object-miscellanea",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "First centuria (100 chapters) published 1489. Pioneering work of historical-critical philology."
   },
   {
     "id": "edge-montaigne-authored-essais",
     "source": "person-michel-de-montaigne",
     "target": "object-essais",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Published in three books (1580, 1588, posthumous 1595 edition). Founded the modern essay genre."
   },
   {
     "id": "edge-laboetie-authored-servitude",
     "source": "person-etienne-de-la-boetie",
     "target": "object-servitude-volontaire",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Discours de la servitude volontaire composed c. 1548-1553 in youth, circulated in manuscript, first published 1574."
   },
   {
     "id": "edge-chalcondyles-authored-homer",
     "source": "person-demetrius-chalcondyles",
     "target": "object-homer-editio-princeps",
-    "relationship": "edited"
+    "relationship": "edited",
+    "evidence": "First printed edition of Homer (Iliad and Odyssey), Florence 1488, sponsored by Lorenzo de' Medici."
   },
   {
     "id": "edge-estienne-authored-thesaurus",
     "source": "person-robert-estienne",
     "target": "object-thesaurus-linguae-latinae",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Published 1531, expanded editions 1536 and 1543. Standard Latin dictionary for centuries."
   },
   {
     "id": "edge-bude-authored-commentarii",
     "source": "person-guillaume-bude",
     "target": "object-commentarii-graecae",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Commentarii linguae Graecae published 1529. Major Greek lexicographical work."
   },
   {
     "id": "edge-alberti-authored-pictura",
     "source": "person-leon-battista-alberti",
     "target": "object-de-pictura",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Latin version 1435, Italian vernacular (Della pittura) 1436. First systematic Renaissance treatise on painting."
   },
   {
     "id": "edge-alberti-authored-aedificatoria",
     "source": "person-leon-battista-alberti",
     "target": "object-de-re-aedificatoria",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Architectural treatise composed c. 1443-1452, presented to Pope Nicholas V. First printed 1485."
   },
   {
     "id": "edge-alberti-authored-statua",
     "source": "person-leon-battista-alberti",
     "target": "object-de-statua",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Short treatise on sculpture, date uncertain (c. 1450). Discusses proportions and methods."
   },
   {
     "id": "edge-alberti-authored-famiglia",
     "source": "person-leon-battista-alberti",
     "target": "object-della-famiglia",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Dialogue on family and household management in four books, composed c. 1433-1441."
   },
   {
     "id": "edge-biondo-authored-roma",
     "source": "person-flavio-biondo",
     "target": "object-roma-instaurata",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Topographical study of ancient Rome composed 1444-1446. Pioneer work of Roman archaeology."
   },
   {
     "id": "edge-biondo-authored-italia",
     "source": "person-flavio-biondo",
     "target": "object-italia-illustrata",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Historical geography of Italy composed 1448-1453. First systematic regional survey since antiquity."
   },
   {
     "id": "edge-rhenanus-authored-rerum",
     "source": "person-beatus-rhenanus",
     "target": "object-rerum-germanicarum",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Rerum Germanicarum libri tres published 1531. First critical history of Germany using primary sources."
   },
   {
     "id": "edge-pius-authored-commentarii",
     "source": "person-enea-silvio-piccolomini",
     "target": "object-pius-commentarii",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Autobiography composed 1462-1464 while pope. First papal autobiography. Published Rome 1584."
   },
   {
     "id": "edge-cisneros-patronized-polyglot",
     "source": "person-cardinal-cisneros",
     "target": "object-complutensian-polyglot",
-    "relationship": "patronized"
+    "relationship": "patronized",
+    "evidence": "Cardinal Cisneros founded University of Alcalá (1499) and funded the Polyglot Bible project from 1502 until his death in 1517."
   },
   {
     "id": "edge-nebrija-authored-polyglot",
     "source": "person-antonio-nebrija",
     "target": "object-complutensian-polyglot",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Nebrija worked on the Latin text of the Polyglot until disagreements over method led to his departure c. 1514."
   },
   {
     "id": "edge-nunez-authored-polyglot",
     "source": "person-hernan-nunez",
     "target": "object-complutensian-polyglot",
-    "relationship": "authored"
+    "relationship": "authored",
+    "evidence": "Hernán Núñez (El Pinciano) worked on the Greek text of the Complutensian Polyglot at Alcalá."
   },
   {
     "id": "edge-ficino-member-platonic",
