@@ -1,0 +1,173 @@
+[
+  {
+    "id": "edge-mickey-minnie-relationship",
+    "source": "person-mickey-mouse",
+    "target": "person-minnie-mouse",
+    "relationship": "related_to",
+    "label": "Romantic Partner",
+    "dateStart": "1928",
+    "evidence": "Mickey and Minnie have been portrayed as a romantic couple since their debut in Steamboat Willie (1928)"
+  },
+  {
+    "id": "edge-mickey-donald-friends",
+    "source": "person-mickey-mouse",
+    "target": "person-donald-duck",
+    "relationship": "knows",
+    "label": "Best Friends",
+    "dateStart": "1934",
+    "evidence": "Mickey and Donald have appeared together in numerous cartoons and are established as close friends"
+  },
+  {
+    "id": "edge-mickey-goofy-friends",
+    "source": "person-mickey-mouse",
+    "target": "person-goofy",
+    "relationship": "knows",
+    "label": "Best Friends",
+    "dateStart": "1932",
+    "evidence": "Mickey and Goofy form part of the classic Disney trio with Donald Duck"
+  },
+  {
+    "id": "edge-mickey-pluto-owner",
+    "source": "person-mickey-mouse",
+    "target": "person-pluto",
+    "relationship": "related_to",
+    "label": "Owner",
+    "dateStart": "1930",
+    "evidence": "Pluto is Mickey's pet dog, first appearing in The Chain Gang (1930)"
+  },
+  {
+    "id": "edge-donald-daisy-relationship",
+    "source": "person-donald-duck",
+    "target": "person-daisy-duck",
+    "relationship": "related_to",
+    "label": "Romantic Partner",
+    "dateStart": "1940",
+    "evidence": "Daisy was introduced as Donald's girlfriend in Mr. Duck Steps Out (1940)"
+  },
+  {
+    "id": "edge-walt-created-mickey",
+    "source": "person-walt-disney",
+    "target": "person-mickey-mouse",
+    "relationship": "founded",
+    "label": "Created",
+    "dateStart": "1928",
+    "evidence": "Walt Disney co-created Mickey Mouse with Ub Iwerks in 1928"
+  },
+  {
+    "id": "edge-ub-created-mickey",
+    "source": "person-ub-iwerks",
+    "target": "person-mickey-mouse",
+    "relationship": "founded",
+    "label": "Created",
+    "dateStart": "1928",
+    "evidence": "Ub Iwerks designed Mickey Mouse's appearance and animated Steamboat Willie"
+  },
+  {
+    "id": "edge-walt-collaborated-ub",
+    "source": "person-walt-disney",
+    "target": "person-ub-iwerks",
+    "relationship": "collaborated_with",
+    "label": "Business Partners",
+    "dateStart": "1920",
+    "dateEnd": "1930",
+    "evidence": "Walt Disney and Ub Iwerks worked together at the Laugh-O-Gram Studio and later founded Disney Brothers Cartoon Studio"
+  },
+  {
+    "id": "edge-walt-founded-company",
+    "source": "person-walt-disney",
+    "target": "entity-disney-company",
+    "relationship": "founded",
+    "dateStart": "1923",
+    "evidence": "Walt Disney co-founded Disney Brothers Cartoon Studio (later The Walt Disney Company) with his brother Roy in 1923"
+  },
+  {
+    "id": "edge-walt-worked-studio",
+    "source": "person-walt-disney",
+    "target": "location-disney-studios",
+    "relationship": "worked_at",
+    "dateStart": "1923",
+    "dateEnd": "1966",
+    "evidence": "Walt Disney worked at his studio in Burbank until his death in 1966"
+  },
+  {
+    "id": "edge-mickey-steamboat",
+    "source": "person-mickey-mouse",
+    "target": "object-steamboat-willie",
+    "relationship": "referenced_in",
+    "label": "Debut Appearance",
+    "dateStart": "1928",
+    "evidence": "Steamboat Willie marked Mickey Mouse's first public appearance"
+  },
+  {
+    "id": "edge-mickey-fantasia",
+    "source": "person-mickey-mouse",
+    "target": "object-fantasia",
+    "relationship": "referenced_in",
+    "label": "Stars In",
+    "dateStart": "1940",
+    "evidence": "Mickey Mouse appears as the Sorcerer's Apprentice in the Fantasia segment"
+  },
+  {
+    "id": "edge-mickey-member-six",
+    "source": "person-mickey-mouse",
+    "target": "entity-sensational-six",
+    "relationship": "member_of",
+    "evidence": "Mickey is the de facto leader of the Sensational Six"
+  },
+  {
+    "id": "edge-minnie-member-six",
+    "source": "person-minnie-mouse",
+    "target": "entity-sensational-six",
+    "relationship": "member_of",
+    "evidence": "Minnie is a core member of the Sensational Six"
+  },
+  {
+    "id": "edge-donald-member-six",
+    "source": "person-donald-duck",
+    "target": "entity-sensational-six",
+    "relationship": "member_of",
+    "evidence": "Donald is a core member of the Sensational Six"
+  },
+  {
+    "id": "edge-goofy-member-six",
+    "source": "person-goofy",
+    "target": "entity-sensational-six",
+    "relationship": "member_of",
+    "evidence": "Goofy is a core member of the Sensational Six"
+  },
+  {
+    "id": "edge-pluto-member-six",
+    "source": "person-pluto",
+    "target": "entity-sensational-six",
+    "relationship": "member_of",
+    "evidence": "Pluto is a core member of the Sensational Six"
+  },
+  {
+    "id": "edge-disneyland-company",
+    "source": "location-disneyland",
+    "target": "entity-disney-company",
+    "relationship": "associated_with",
+    "label": "Owned By",
+    "dateStart": "1955",
+    "evidence": "Disneyland was conceived and built by Walt Disney and is owned by The Walt Disney Company"
+  },
+  {
+    "id": "edge-walt-visited-disneyland",
+    "source": "person-walt-disney",
+    "target": "location-disneyland",
+    "relationship": "visited",
+    "label": "Created & Visited",
+    "dateStart": "1955",
+    "dateEnd": "1966",
+    "evidence": "Walt Disney personally oversaw the creation of Disneyland and was a frequent visitor"
+  },
+  {
+    "id": "edge-mickey-club-show",
+    "source": "person-mickey-mouse",
+    "target": "object-mickey-mouse-club",
+    "relationship": "referenced_in",
+    "label": "Featured In",
+    "dateStart": "1955",
+    "evidence": "The Mickey Mouse Club was named after and featured Mickey Mouse as its mascot"
+  }
+]

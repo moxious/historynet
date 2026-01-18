@@ -1,0 +1,170 @@
+[
+  {
+    "id": "person-mickey-mouse",
+    "type": "person",
+    "title": "Mickey Mouse",
+    "shortDescription": "The iconic Disney mascot and beloved cartoon character",
+    "dateStart": "1928",
+    "biography": "Mickey Mouse is a cartoon character created by Walt Disney and Ub Iwerks. He first appeared in the short film Steamboat Willie in 1928 and has since become one of the most recognizable characters in the world.",
+    "alternateNames": ["Steamboat Willie"],
+    "occupations": ["Leader", "Adventurer"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Mickey_Mouse.png"
+  },
+  {
+    "id": "person-minnie-mouse",
+    "type": "person",
+    "title": "Minnie Mouse",
+    "shortDescription": "Mickey's longtime companion and sweetheart",
+    "dateStart": "1928",
+    "biography": "Minnie Mouse is a cartoon character created by Walt Disney. She is Mickey Mouse's girlfriend and has been a prominent figure in Disney media since her debut in Steamboat Willie.",
+    "occupations": ["Adventurer"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Minnie_Mouse.png"
+  },
+  {
+    "id": "person-donald-duck",
+    "type": "person",
+    "title": "Donald Duck",
+    "shortDescription": "Hot-tempered duck and Mickey's best friend",
+    "dateStart": "1934",
+    "biography": "Donald Fauntleroy Duck is a cartoon character created by Walt Disney. Known for his semi-intelligible speech and his mischievous and temperamental personality.",
+    "alternateNames": ["Donald Fauntleroy Duck"],
+    "occupations": ["Sailor", "Adventurer"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Donald_Duck.svg"
+  },
+  {
+    "id": "person-goofy",
+    "type": "person",
+    "title": "Goofy",
+    "shortDescription": "Mickey's tall, clumsy, and good-natured friend",
+    "dateStart": "1932",
+    "biography": "Goofy is a tall, anthropomorphic dog created by Walt Disney Productions. He is one of Mickey Mouse's best friends and is characterized by his clumsiness and dim-witted nature.",
+    "alternateNames": ["Dippy Dawg", "George Geef", "Goofy Goof"],
+    "occupations": ["Various jobs", "Father"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a6/Goofy.svg"
+  },
+  {
+    "id": "person-pluto",
+    "type": "person",
+    "title": "Pluto",
+    "shortDescription": "Mickey's loyal pet dog",
+    "dateStart": "1930",
+    "biography": "Pluto is a cartoon character created by Walt Disney. He is Mickey Mouse's pet dog and is one of the few Disney characters who is not anthropomorphized.",
+    "occupations": ["Pet", "Companion"]
+  },
+  {
+    "id": "person-walt-disney",
+    "type": "person",
+    "title": "Walt Disney",
+    "shortDescription": "American animator, film producer, and entrepreneur",
+    "dateStart": "1901",
+    "dateEnd": "1966",
+    "biography": "Walter Elias Disney was an American animator, film producer, and entrepreneur. A pioneer of the American animation industry, he introduced several developments in the production of cartoons.",
+    "occupations": ["Animator", "Film Producer", "Entrepreneur"],
+    "birthPlace": "Chicago, Illinois",
+    "deathPlace": "Burbank, California",
+    "nationality": "American",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Walt_Disney_1946.JPG"
+  },
+  {
+    "id": "person-ub-iwerks",
+    "type": "person",
+    "title": "Ub Iwerks",
+    "shortDescription": "American animator and co-creator of Mickey Mouse",
+    "dateStart": "1901",
+    "dateEnd": "1971",
+    "biography": "Ubbe Ert Iwwerks, known as Ub Iwerks, was an American animator, cartoonist and special effects technician. He was known for his pioneering work and co-created Mickey Mouse with Walt Disney.",
+    "alternateNames": ["Ubbe Ert Iwwerks"],
+    "occupations": ["Animator", "Special Effects Technician"],
+    "nationality": "American"
+  },
+  {
+    "id": "object-steamboat-willie",
+    "type": "object",
+    "title": "Steamboat Willie",
+    "shortDescription": "1928 animated short film featuring Mickey Mouse's debut",
+    "dateStart": "1928-11-18",
+    "objectType": "animated short film",
+    "creators": ["person-walt-disney", "person-ub-iwerks"],
+    "language": "English",
+    "subject": "Comedy, Music"
+  },
+  {
+    "id": "object-fantasia",
+    "type": "object",
+    "title": "Fantasia",
+    "shortDescription": "1940 animated musical anthology film",
+    "dateStart": "1940-11-13",
+    "objectType": "animated feature film",
+    "creators": ["person-walt-disney"],
+    "language": "English",
+    "subject": "Classical Music, Animation"
+  },
+  {
+    "id": "location-disneyland",
+    "type": "location",
+    "title": "Disneyland",
+    "shortDescription": "Theme park in Anaheim, California",
+    "dateStart": "1955-07-17",
+    "locationType": "theme park",
+    "country": "United States",
+    "coordinates": {
+      "lat": 33.8121,
+      "lng": -117.9190
+    }
+  },
+  {
+    "id": "location-disney-studios",
+    "type": "location",
+    "title": "Walt Disney Studios",
+    "shortDescription": "Film and television production company headquarters",
+    "dateStart": "1923",
+    "locationType": "studio",
+    "country": "United States",
+    "parentLocation": "Burbank, California"
+  },
+  {
+    "id": "entity-disney-company",
+    "type": "entity",
+    "title": "The Walt Disney Company",
+    "shortDescription": "American multinational entertainment conglomerate",
+    "dateStart": "1923-10-16",
+    "entityType": "corporation",
+    "foundedBy": ["person-walt-disney"],
+    "headquarters": "location-disney-studios"
+  },
+  {
+    "id": "entity-sensational-six",
+    "type": "entity",
+    "title": "The Sensational Six",
+    "shortDescription": "Core group of Disney cartoon characters",
+    "dateStart": "1930s",
+    "entityType": "character group",
+    "members": [
+      "person-mickey-mouse",
+      "person-minnie-mouse",
+      "person-donald-duck",
+      "person-goofy",
+      "person-pluto"
+    ]
+  },
+  {
+    "id": "person-daisy-duck",
+    "type": "person",
+    "title": "Daisy Duck",
+    "shortDescription": "Donald Duck's girlfriend",
+    "dateStart": "1940",
+    "biography": "Daisy Duck is Donald Duck's girlfriend. She is an anthropomorphic white duck who has purple eyeshadow, long eyelashes, and a signature purple outfit.",
+    "occupations": ["Socialite"]
+  },
+  {
+    "id": "object-mickey-mouse-club",
+    "type": "object",
+    "title": "The Mickey Mouse Club",
+    "shortDescription": "American variety television show",
+    "dateStart": "1955",
+    "dateEnd": "1959",
+    "objectType": "television show",
+    "creators": ["person-walt-disney"],
+    "subject": "Children's Entertainment"
+  }
+]

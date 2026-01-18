@@ -1,0 +1,675 @@
+/**
+ * InfoboxPanel Styles
+ *
+ * Styles for the right-side panel displaying node/edge details,
+ * including NodeInfobox and EdgeInfobox components.
+ */
+
+/* ============================================
+   InfoboxPanel Container
+   ============================================ */
+
+.infobox-panel {
+  width: var(--infobox-width);
+  flex-shrink: 0;
+  background-color: var(--color-surface);
+  border-left: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: slideInRight 0.2s ease-out;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.infobox-panel--empty {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Panel Header */
+.infobox-panel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-md);
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.infobox-panel__title {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  margin-right: var(--spacing-sm);
+}
+
+.infobox-panel__close-button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+}
+
+.infobox-panel__close-button:hover {
+  background-color: var(--color-border);
+  color: var(--color-text);
+}
+
+.infobox-panel__close-button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Panel Content */
+.infobox-panel__content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-md);
+}
+
+/* Placeholder State */
+.infobox-panel__placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.infobox-panel__placeholder-icon {
+  margin-bottom: var(--spacing-md);
+  opacity: 0.5;
+}
+
+.infobox-panel__placeholder-title {
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  margin: 0 0 var(--spacing-xs) 0;
+  color: var(--color-text);
+}
+
+.infobox-panel__placeholder-hint {
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+
+/* ============================================
+   NodeInfobox Styles
+   ============================================ */
+
+.node-infobox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* Header with type badge */
+.node-infobox__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.node-infobox__type-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  width: fit-content;
+}
+
+.node-infobox__type-badge--person {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+}
+
+.node-infobox__type-badge--object {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+
+.node-infobox__type-badge--location {
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #d97706;
+}
+
+.node-infobox__type-badge--entity {
+  background-color: rgba(139, 92, 246, 0.15);
+  color: #8b5cf6;
+}
+
+/* Image */
+.node-infobox__image-container {
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  background-color: var(--color-background);
+}
+
+.node-infobox__image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+}
+
+/* Description */
+.node-infobox__description {
+  margin: 0;
+  color: var(--color-text);
+  line-height: 1.6;
+  font-size: var(--font-size-sm);
+}
+
+/* Sections */
+.node-infobox__section {
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.node-infobox__section:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+.node-infobox__section-title {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+/* Fields */
+.node-infobox__field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.node-infobox__field--full {
+  margin-bottom: var(--spacing-md);
+}
+
+.node-infobox__label {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.node-infobox__value {
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+}
+
+.node-infobox__value--empty {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.node-infobox__id {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  background-color: var(--color-background);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  word-break: break-all;
+}
+
+/* Biography */
+.node-infobox__biography {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  color: var(--color-text);
+  white-space: pre-wrap;
+}
+
+/* Lists */
+.node-infobox__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.node-infobox__list li {
+  font-size: var(--font-size-sm);
+}
+
+/* External Links */
+.node-infobox__external-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.node-infobox__external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  transition: color 0.2s;
+}
+
+.node-infobox__external-link:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+.node-infobox__external-icon {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* Node Link Button */
+.node-infobox__node-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-background);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+  font-family: inherit;
+}
+
+.node-infobox__node-link:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+.node-infobox__node-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Nested Objects */
+.node-infobox__nested {
+  padding-left: var(--spacing-sm);
+  border-left: 2px solid var(--color-border);
+  font-size: var(--font-size-sm);
+}
+
+.node-infobox__nested-item {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.node-infobox__nested-key {
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.node-infobox__nested-value {
+  color: var(--color-text);
+}
+
+/* ============================================
+   EdgeInfobox Styles
+   ============================================ */
+
+.edge-infobox {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+/* Header */
+.edge-infobox__header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.edge-infobox__relationship-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  color: white;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  width: fit-content;
+}
+
+.edge-infobox__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Connection Visualization */
+.edge-infobox__connection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background-color: var(--color-background);
+  border-radius: var(--border-radius);
+}
+
+.edge-infobox__connection-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+  width: 100%;
+}
+
+.edge-infobox__connection-label {
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.edge-infobox__connection-arrow {
+  color: var(--color-text-muted);
+  transform: rotate(90deg);
+}
+
+/* Node Link (in edge context) */
+.edge-infobox__node-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  font-family: inherit;
+}
+
+.edge-infobox__node-link:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(74, 144, 217, 0.2);
+  transform: translateY(-1px);
+}
+
+.edge-infobox__node-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.edge-infobox__node-link--person {
+  border-left: 3px solid #3b82f6;
+}
+
+.edge-infobox__node-link--object {
+  border-left: 3px solid #10b981;
+}
+
+.edge-infobox__node-link--location {
+  border-left: 3px solid #f59e0b;
+}
+
+.edge-infobox__node-link--entity {
+  border-left: 3px solid #8b5cf6;
+}
+
+.edge-infobox__node-link-title {
+  font-weight: 500;
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+}
+
+.edge-infobox__node-link-type {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Sections */
+.edge-infobox__section {
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.edge-infobox__section-title {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+/* Fields */
+.edge-infobox__field {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: var(--spacing-sm);
+}
+
+.edge-infobox__field-label {
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.edge-infobox__field-value {
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+}
+
+.edge-infobox__value--empty {
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.edge-infobox__id {
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+  background-color: var(--color-background);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  color: var(--color-text-muted);
+  word-break: break-all;
+}
+
+/* Strength Badge */
+.edge-infobox__strength-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+}
+
+/* Evidence Section */
+.edge-infobox__evidence {
+  padding: var(--spacing-md);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%);
+  border-radius: var(--border-radius);
+  border-left: 3px solid var(--color-primary);
+}
+
+.edge-infobox__evidence--none {
+  background: rgba(239, 68, 68, 0.08);
+  border-left-color: #ef4444;
+}
+
+.edge-infobox__evidence-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-text);
+}
+
+.edge-infobox__evidence--none .edge-infobox__evidence-header {
+  color: #ef4444;
+  margin-bottom: 0;
+}
+
+.edge-infobox__evidence-text {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.edge-infobox__evidence-node,
+.edge-infobox__evidence-url {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.edge-infobox__evidence-label {
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* External Link (in edge context) */
+.edge-infobox__external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  transition: color 0.2s;
+}
+
+.edge-infobox__external-link:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+.edge-infobox__external-icon {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* Lists */
+.edge-infobox__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.edge-infobox__list li {
+  font-size: var(--font-size-sm);
+}
+
+/* Nested Objects */
+.edge-infobox__nested {
+  padding-left: var(--spacing-sm);
+  border-left: 2px solid var(--color-border);
+  font-size: var(--font-size-sm);
+}
+
+.edge-infobox__nested-item {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.edge-infobox__nested-key {
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.edge-infobox__nested-value {
+  color: var(--color-text);
+}
+
+/* ============================================
+   Responsive Styles
+   ============================================ */
+
+@media (max-width: 768px) {
+  .infobox-panel {
+    width: 100%;
+    height: 40%;
+    border-left: none;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .edge-infobox__connection {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .edge-infobox__connection-arrow {
+    transform: none;
+  }
+
+  .edge-infobox__node-link {
+    max-width: 140px;
+  }
+}

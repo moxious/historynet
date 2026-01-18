@@ -1,0 +1,117 @@
+/* SearchBox styles */
+
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  background-color: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  min-width: 220px;
+  max-width: 320px;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.search-box:hover {
+  border-color: var(--color-secondary);
+}
+
+.search-box--focused {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(74, 144, 217, 0.15);
+  background-color: var(--color-surface);
+}
+
+.search-box__icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-muted);
+}
+
+.search-box--focused .search-box__icon {
+  color: var(--color-primary);
+}
+
+.search-box__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  min-width: 0;
+  padding: var(--spacing-xs) 0;
+}
+
+.search-box__input::placeholder {
+  color: var(--color-text-muted);
+  opacity: 0.7;
+}
+
+.search-box__clear {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: var(--color-border);
+  border-radius: 50%;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.search-box__clear:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-surface);
+}
+
+.search-box__clear:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.search-box__shortcut {
+  flex-shrink: 0;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-family-mono);
+  color: var(--color-text-muted);
+  background-color: var(--color-border);
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  opacity: 0.7;
+}
+
+.search-box__results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .search-box {
+    min-width: 160px;
+    max-width: 200px;
+  }
+
+  .search-box__shortcut {
+    display: none;
+  }
+}

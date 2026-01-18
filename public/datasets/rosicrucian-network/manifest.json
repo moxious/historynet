@@ -1,0 +1,64 @@
+{
+  "id": "rosicrucian-network",
+  "name": "Rosicrucian-Paracelsian Network",
+  "description": "Intellectual network of the early 17th century centered on the Rosicrucian manifestos, German Christian theosophy (Jacob Boehme), Paracelsian medicine, and the Prague court of Rudolf II. Spans c. 1540-1660 and includes the Tübingen Circle, English Rosicrucians, and political patrons of the 'Rosicrucian hope.'",
+  "lastUpdated": "2026-01-18",
+  "version": "1.0.0",
+  "author": "HistoryNet Research",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 96,
+  "edgeCount": 97,
+  "timePeriod": {
+    "start": "1493",
+    "end": "1692"
+  },
+  "geographicFocus": [
+    "Germany",
+    "Bohemia",
+    "England"
+  ],
+  "themes": [
+    "Rosicrucianism",
+    "Paracelsianism",
+    "Christian theosophy",
+    "Alchemy",
+    "Hermeticism",
+    "Early modern science"
+  ],
+  "customRelationshipTypes": [
+    {
+      "type": "patronized",
+      "description": "Person acted as patron or provided financial/political support",
+      "directed": true
+    },
+    {
+      "type": "secretary_to",
+      "description": "Served as secretary or assistant",
+      "directed": true
+    },
+    {
+      "type": "defended",
+      "description": "Publicly defended the ideas or reputation of target",
+      "directed": true
+    },
+    {
+      "type": "criticized",
+      "description": "Published criticism or attacks against target's ideas",
+      "directed": true
+    },
+    {
+      "type": "published",
+      "description": "Person arranged publication of the work",
+      "directed": true
+    }
+  ],
+  "sources": [
+    "Britannica Encyclopedia",
+    "Stanford Encyclopedia of Philosophy",
+    "Encyclopedia.com",
+    "Brill academic publications",
+    "Cambridge University Press",
+    "Frances Yates, The Rosicrucian Enlightenment"
+  ]
+}

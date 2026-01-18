@@ -1,0 +1,285 @@
+/**
+ * FilterPanel component for filtering graph nodes and edges
+ */
+
+import { useState, useCallback, type ChangeEvent } from 'react';
+import type { FilterState, FilterStats } from '@types';
+import { hasActiveFilters } from '@types';
+import './FilterPanel.css';
+
+interface FilterPanelProps {
+  /** Current filter state */
+  filters: FilterState;
+  /** Callback to update filters */
+  onFiltersChange: (filters: Partial<FilterState>) => void;
+  /** Callback to clear all filters */
+  onClearFilters: () => void;
+  /** Filter statistics (nodes/edges before and after filtering) */
+  stats?: FilterStats;
+  /** Date range available in the data */
+  dateRange?: { minYear: number | null; maxYear: number | null };
+  /** Whether the panel is collapsed */
+  isCollapsed?: boolean;
+  /** Callback when collapse state changes */
+  onToggleCollapse?: () => void;
+}
+
+/**
+ * FilterPanel - UI for filtering graph by date range and text
+ */
+function FilterPanel({
+  filters,
+  onFiltersChange,
+  onClearFilters,
+  stats,
+  dateRange,
+  isCollapsed = false,
+  onToggleCollapse,
+}: FilterPanelProps) {
+  // Local state for input values (to allow typing before committing)
+  const [localDateStart, setLocalDateStart] = useState<string>(
+    filters.dateStart !== null ? String(filters.dateStart) : ''
+  );
+  const [localDateEnd, setLocalDateEnd] = useState<string>(
+    filters.dateEnd !== null ? String(filters.dateEnd) : ''
+  );
+
+  // Check if there are active filters
+  const hasFilters = hasActiveFilters(filters);
+
+  // Handle date start change
+  const handleDateStartChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
+    setLocalDateStart(e.target.value);
+  }, []);
+
+  const handleDateStartBlur = useCallback(() => {
+    const value = localDateStart.trim();
+    if (value === '') {
+      onFiltersChange({ dateStart: null });
+    } else {
+      const year = parseInt(value, 10);
+      if (!isNaN(year)) {
+        onFiltersChange({ dateStart: year });
+      }
+    }
+  }, [localDateStart, onFiltersChange]);
+
+  // Handle date end change
+  const handleDateEndChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
+    setLocalDateEnd(e.target.value);
+  }, []);
+
+  const handleDateEndBlur = useCallback(() => {
+    const value = localDateEnd.trim();
+    if (value === '') {
+      onFiltersChange({ dateEnd: null });
+    } else {
+      const year = parseInt(value, 10);
+      if (!isNaN(year)) {
+        onFiltersChange({ dateEnd: year });
+      }
+    }
+  }, [localDateEnd, onFiltersChange]);
+
+  // Handle name filter change
+  const handleNameFilterChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      onFiltersChange({ nameFilter: e.target.value });
+    },
+    [onFiltersChange]
+  );
+
+  // Handle relationship filter change
+  const handleRelationshipFilterChange = useCallback(
+    (e: ChangeEvent<HTMLInputElement>) => {
+      onFiltersChange({ relationshipFilter: e.target.value });
+    },
+    [onFiltersChange]
+  );
+
+  // Handle clear filters
+  const handleClearFilters = useCallback(() => {
+    setLocalDateStart('');
+    setLocalDateEnd('');
+    onClearFilters();
+  }, [onClearFilters]);
+
+  // Handle Enter key on date inputs
+  const handleDateKeyDown = useCallback(
+    (e: React.KeyboardEvent<HTMLInputElement>, onBlur: () => void) => {
+      if (e.key === 'Enter') {
+        onBlur();
+        e.currentTarget.blur();
+      }
+    },
+    []
+  );
+
+  // Sync local date state when filters change externally
+  // (e.g., from URL navigation)
+  const externalDateStart = filters.dateStart !== null ? String(filters.dateStart) : '';
+  const externalDateEnd = filters.dateEnd !== null ? String(filters.dateEnd) : '';
+
+  if (localDateStart !== externalDateStart && document.activeElement?.id !== 'filter-date-start') {
+    setLocalDateStart(externalDateStart);
+  }
+  if (localDateEnd !== externalDateEnd && document.activeElement?.id !== 'filter-date-end') {
+    setLocalDateEnd(externalDateEnd);
+  }
+
+  return (
+    <div className={`filter-panel ${isCollapsed ? 'filter-panel--collapsed' : ''}`}>
+      {/* Toggle button */}
+      <button
+        className="filter-panel__toggle"
+        onClick={onToggleCollapse}
+        aria-expanded={!isCollapsed}
+        aria-label={isCollapsed ? 'Expand filters' : 'Collapse filters'}
+        title={isCollapsed ? 'Expand filters' : 'Collapse filters'}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          width="16"
+          height="16"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          className="filter-panel__toggle-icon"
+        >
+          <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46" />
+        </svg>
+        {!isCollapsed && <span>Filters</span>}
+        {hasFilters && <span className="filter-panel__active-badge" aria-label="Filters active" />}
+      </button>
+
+      {/* Filter content */}
+      {!isCollapsed && (
+        <div className="filter-panel__content">
+          {/* Date Range Section */}
+          <div className="filter-panel__section">
+            <label className="filter-panel__section-label">Date Range</label>
+            {dateRange && (dateRange.minYear !== null || dateRange.maxYear !== null) && (
+              <div className="filter-panel__date-hint">
+                Data spans {dateRange.minYear ?? '?'} - {dateRange.maxYear ?? '?'}
+              </div>
+            )}
+            <div className="filter-panel__date-inputs">
+              <div className="filter-panel__input-group">
+                <label htmlFor="filter-date-start" className="filter-panel__input-label">
+                  No earlier than
+                </label>
+                <input
+                  id="filter-date-start"
+                  type="number"
+                  className="filter-panel__input filter-panel__input--year"
+                  placeholder="Year"
+                  value={localDateStart}
+                  onChange={handleDateStartChange}
+                  onBlur={handleDateStartBlur}
+                  onKeyDown={(e) => handleDateKeyDown(e, handleDateStartBlur)}
+                  aria-describedby="date-start-hint"
+                />
+              </div>
+              <div className="filter-panel__input-group">
+                <label htmlFor="filter-date-end" className="filter-panel__input-label">
+                  No later than
+                </label>
+                <input
+                  id="filter-date-end"
+                  type="number"
+                  className="filter-panel__input filter-panel__input--year"
+                  placeholder="Year"
+                  value={localDateEnd}
+                  onChange={handleDateEndChange}
+                  onBlur={handleDateEndBlur}
+                  onKeyDown={(e) => handleDateKeyDown(e, handleDateEndBlur)}
+                  aria-describedby="date-end-hint"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Name Filter Section */}
+          <div className="filter-panel__section">
+            <div className="filter-panel__input-group">
+              <label htmlFor="filter-name" className="filter-panel__section-label">
+                Filter by Name
+              </label>
+              <input
+                id="filter-name"
+                type="text"
+                className="filter-panel__input"
+                placeholder="Search node names..."
+                value={filters.nameFilter}
+                onChange={handleNameFilterChange}
+                aria-describedby="name-filter-hint"
+              />
+            </div>
+          </div>
+
+          {/* Relationship Filter Section */}
+          <div className="filter-panel__section">
+            <div className="filter-panel__input-group">
+              <label htmlFor="filter-relationship" className="filter-panel__section-label">
+                Filter by Relationship
+              </label>
+              <input
+                id="filter-relationship"
+                type="text"
+                className="filter-panel__input"
+                placeholder="Search relationships..."
+                value={filters.relationshipFilter}
+                onChange={handleRelationshipFilterChange}
+                aria-describedby="relationship-filter-hint"
+              />
+            </div>
+          </div>
+
+          {/* Filter Stats */}
+          {stats && (
+            <div className="filter-panel__stats">
+              <div className="filter-panel__stat">
+                <span className="filter-panel__stat-label">Nodes:</span>
+                <span className="filter-panel__stat-value">
+                  {stats.filteredNodes}
+                  {stats.filteredNodes !== stats.totalNodes && (
+                    <span className="filter-panel__stat-total"> / {stats.totalNodes}</span>
+                  )}
+                </span>
+              </div>
+              <div className="filter-panel__stat">
+                <span className="filter-panel__stat-label">Edges:</span>
+                <span className="filter-panel__stat-value">
+                  {stats.filteredEdges}
+                  {stats.filteredEdges !== stats.totalEdges && (
+                    <span className="filter-panel__stat-total"> / {stats.totalEdges}</span>
+                  )}
+                </span>
+              </div>
+            </div>
+          )}
+
+          {/* Clear Filters Button */}
+          {hasFilters && (
+            <button className="filter-panel__clear-btn" onClick={handleClearFilters}>
+              <svg
+                viewBox="0 0 24 24"
+                width="14"
+                height="14"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+              Clear Filters
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default FilterPanel;

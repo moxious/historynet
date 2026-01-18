@@ -1,0 +1,175 @@
+/**
+ * Styles for ForceGraphLayout component
+ */
+
+.force-graph-layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--color-background);
+}
+
+.force-graph-layout svg {
+  display: block;
+  cursor: grab;
+}
+
+.force-graph-layout svg:active {
+  cursor: grabbing;
+}
+
+/* Edges */
+.graph-edge {
+  cursor: pointer;
+  transition: stroke-opacity 0.15s, stroke-width 0.15s;
+}
+
+.graph-edge:hover {
+  stroke-opacity: 1;
+  stroke-width: 3;
+}
+
+.graph-edge.selected {
+  stroke-opacity: 1;
+  stroke-width: 3;
+}
+
+/* Nodes */
+.graph-node {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.graph-node .node-shape {
+  transition: stroke 0.15s, stroke-width 0.15s, filter 0.2s;
+}
+
+.graph-node:hover .node-shape {
+  stroke: #1e293b;
+  stroke-width: 3;
+  filter: brightness(1.1);
+}
+
+.graph-node.selected .node-shape {
+  stroke: #1e293b;
+  stroke-width: 3;
+}
+
+.graph-node.search-match .node-shape {
+  stroke: #fbbf24;
+  stroke-width: 3;
+}
+
+/* Labels */
+.graph-label {
+  font-family: var(--font-family-sans, system-ui, sans-serif);
+  font-weight: 500;
+  text-shadow:
+    1px 1px 2px rgba(255, 255, 255, 0.9),
+    -1px -1px 2px rgba(255, 255, 255, 0.9),
+    1px -1px 2px rgba(255, 255, 255, 0.9),
+    -1px 1px 2px rgba(255, 255, 255, 0.9);
+  transition: opacity 0.2s;
+}
+
+/* Zoom Controls */
+.force-graph-layout__controls {
+  position: absolute;
+  top: var(--spacing-md, 16px);
+  right: var(--spacing-md, 16px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs, 4px);
+  z-index: 10;
+}
+
+.force-graph-layout__control-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  cursor: pointer;
+  color: var(--color-text, #1f2937);
+  transition:
+    background-color 0.15s,
+    border-color 0.15s,
+    color 0.15s,
+    box-shadow 0.15s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.force-graph-layout__control-btn:hover {
+  background-color: var(--color-primary, #3b82f6);
+  border-color: var(--color-primary, #3b82f6);
+  color: white;
+}
+
+.force-graph-layout__control-btn:active {
+  transform: scale(0.95);
+}
+
+.force-graph-layout__control-btn:focus-visible {
+  outline: 2px solid var(--color-primary, #3b82f6);
+  outline-offset: 2px;
+}
+
+/* Legend */
+.force-graph-layout__legend {
+  position: absolute;
+  bottom: var(--spacing-md, 16px);
+  left: var(--spacing-md, 16px);
+  padding: var(--spacing-sm, 8px) var(--spacing-md, 12px);
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  font-size: var(--font-size-xs, 11px);
+}
+
+.force-graph-layout__legend-title {
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs, 4px);
+  color: var(--color-text-muted, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.force-graph-layout__legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 6px);
+  padding: 2px 0;
+  color: var(--color-text, #1f2937);
+}
+
+.force-graph-layout__legend-item svg {
+  flex-shrink: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .force-graph-layout__legend {
+    bottom: auto;
+    top: var(--spacing-md, 16px);
+    left: var(--spacing-md, 16px);
+    font-size: 10px;
+  }
+
+  .force-graph-layout__controls {
+    flex-direction: row;
+    top: auto;
+    bottom: var(--spacing-md, 16px);
+    right: var(--spacing-md, 16px);
+  }
+
+  .force-graph-layout__control-btn {
+    width: 32px;
+    height: 32px;
+  }
+}
