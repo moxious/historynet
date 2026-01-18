@@ -743,7 +743,12 @@
     "dateStart": "1689",
     "objectType": "treatise",
     "creators": ["person-john-locke"],
-    "language": "Latin"
+    "language": "Latin",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/A_Letter_Concerning_Toleration"},
+      {"label": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/56575"},
+      {"label": "Online Library of Liberty", "url": "https://oll.libertyfund.org/title/goldie-a-letter-concerning-toleration-and-other-writings"}
+    ]
   },
   {
     "id": "object-opticks",
@@ -798,7 +803,12 @@
     "objectType": "treatise",
     "creators": ["person-leibniz"],
     "language": "French",
-    "subject": "Metaphysics"
+    "subject": "Metaphysics",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Monadology"},
+      {"label": "Jonathan Bennett (PDF)", "url": "https://www.earlymoderntexts.com/assets/pdfs/leibniz1714b.pdf"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/monadologyothers00leib"}
+    ]
   },
   {
     "id": "object-persian-letters",
@@ -967,7 +977,11 @@
     "objectType": "treatise",
     "creators": ["person-francois-quesnay"],
     "language": "French",
-    "subject": "Economics"
+    "subject": "Economics",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tableau_%C3%A9conomique"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/tableaueconomiqu00ques"}
+    ]
   },
   {
     "id": "object-candide",
@@ -1032,7 +1046,11 @@
     "objectType": "treatise",
     "creators": ["person-turgot"],
     "language": "French",
-    "subject": "Economics"
+    "subject": "Economics",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Reflections_on_the_Formation_and_Distribution_of_Riches"},
+      {"label": "Online Library of Liberty", "url": "https://oll.libertyfund.org/title/turgot-reflections-on-the-formation-and-distribution-of-riches"}
+    ]
   },
   {
     "id": "object-system-nature",

@@ -869,7 +869,11 @@
     "dateStart": "1517",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-martin-luther"]
+    "creators": ["person-martin-luther"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses"},
+      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/theses/"}
+    ]
   },
   {
     "id": "object-address-christian-nobility",
@@ -879,7 +883,11 @@
     "dateStart": "1520",
     "objectType": "treatise",
     "language": "German",
-    "creators": ["person-martin-luther"]
+    "creators": ["person-martin-luther"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/To_the_Christian_Nobility_of_the_German_Nation"},
+      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/nobility/"}
+    ]
   },
   {
     "id": "object-babylonian-captivity",
@@ -889,7 +897,11 @@
     "dateStart": "1520",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-martin-luther"]
+    "creators": ["person-martin-luther"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Babylonian_Captivity_of_the_Church"},
+      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/babylonian/"}
+    ]
   },
   {
     "id": "object-freedom-christian",
@@ -899,7 +911,11 @@
     "dateStart": "1520",
     "objectType": "treatise",
     "language": "German",
-    "creators": ["person-martin-luther"]
+    "creators": ["person-martin-luther"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Freedom_of_a_Christian"},
+      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/freedom/"}
+    ]
   },
   {
     "id": "object-bondage-of-will",
@@ -910,7 +926,11 @@
     "dateStart": "1525",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-martin-luther"]
+    "creators": ["person-martin-luther"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Bondage_of_the_Will"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/bondageofwilltra00luth"}
+    ]
   },
   {
     "id": "object-free-will-erasmus",
@@ -921,7 +941,11 @@
     "dateStart": "1524",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-erasmus-of-rotterdam"]
+    "creators": ["person-erasmus-of-rotterdam"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_libero_arbitrio_diatribe_sive_collatio"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/erasmuslutherdi00eras"}
+    ]
   },
   {
     "id": "object-institutes",
@@ -933,7 +957,12 @@
     "dateEnd": "1559",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-john-calvin"]
+    "creators": ["person-john-calvin"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Institutes_of_the_Christian_Religion"},
+      {"label": "CCEL", "url": "https://www.ccel.org/ccel/calvin/institutes"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/institutesofchri01calv"}
+    ]
   },
   {
     "id": "object-sixty-seven-articles",
@@ -943,7 +972,11 @@
     "dateStart": "1523",
     "objectType": "treatise",
     "language": "German",
-    "creators": ["person-huldrych-zwingli"]
+    "creators": ["person-huldrych-zwingli"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sixty-seven_Articles"},
+      {"label": "Zwingli.org", "url": "https://www.zwingli.org/en/works/67-articles/"}
+    ]
   },
   {
     "id": "object-true-false-religion",
@@ -953,7 +986,11 @@
     "dateStart": "1525",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-huldrych-zwingli"]
+    "creators": ["person-huldrych-zwingli"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Huldrych_Zwingli"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/latinselectworks00zwin"}
+    ]
   },
   {
     "id": "object-loci-communes",
@@ -963,7 +1000,11 @@
     "dateStart": "1521",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-philip-melanchthon"]
+    "creators": ["person-philip-melanchthon"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Loci_Communes"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/locicommunes00melagoog"}
+    ]
   },
   {
     "id": "object-obedience-christian-man",
@@ -973,7 +1014,11 @@
     "dateStart": "1528",
     "objectType": "treatise",
     "language": "English",
-    "creators": ["person-william-tyndale"]
+    "creators": ["person-william-tyndale"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Obedience_of_a_Christian_Man"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/obedienceofchris00tynd"}
+    ]
   },
   {
     "id": "object-luther-bible",

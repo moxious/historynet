@@ -995,7 +995,11 @@
     "objectType": "paper",
     "creators": ["person-claude-shannon"],
     "language": "English",
-    "shortDescription": "The paper that established information theory as a mathematical discipline"
+    "shortDescription": "The paper that established information theory as a mathematical discipline",
+    "externalLinks": [
+      {"label": "Bell Labs (PDF)", "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication"}
+    ]
   },
   {
     "id": "object-math-theory-communication-book",
@@ -1015,7 +1019,11 @@
     "objectType": "paper",
     "creators": ["person-alan-turing"],
     "language": "English",
-    "shortDescription": "The paper that defined the Turing machine and modern computation"
+    "shortDescription": "The paper that defined the Turing machine and modern computation",
+    "externalLinks": [
+      {"label": "London Math Society (PDF)", "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem"}
+    ]
   },
   {
     "id": "object-computing-machinery-turing",
@@ -1025,7 +1033,11 @@
     "objectType": "paper",
     "creators": ["person-alan-turing"],
     "language": "English",
-    "shortDescription": "The paper that proposed the Turing Test for machine intelligence"
+    "shortDescription": "The paper that proposed the Turing Test for machine intelligence",
+    "externalLinks": [
+      {"label": "Oxford Academic (Mind)", "url": "https://academic.oup.com/mind/article/LIX/236/433/986238"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"}
+    ]
   },
   {
     "id": "object-logical-calculus-mcculloch-pitts",
@@ -1035,7 +1047,11 @@
     "objectType": "paper",
     "creators": ["person-warren-mcculloch", "person-walter-pitts"],
     "language": "English",
-    "shortDescription": "The first mathematical model of neural networks"
+    "shortDescription": "The first mathematical model of neural networks",
+    "externalLinks": [
+      {"label": "Springer (PDF)", "url": "https://link.springer.com/article/10.1007/BF02478259"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity"}
+    ]
   },
   {
     "id": "object-frogs-eye-lettvin",
@@ -1045,7 +1061,11 @@
     "objectType": "paper",
     "creators": ["person-jerome-lettvin", "person-humberto-maturana", "person-warren-mcculloch", "person-walter-pitts"],
     "language": "English",
-    "shortDescription": "Foundational paper showing perception involves active construction"
+    "shortDescription": "Foundational paper showing perception involves active construction",
+    "externalLinks": [
+      {"label": "MIT (PDF)", "url": "https://hearingbrain.org/docs/letvin_frogs_eye.pdf"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/What_the_Frog%27s_Eye_Tells_the_Frog%27s_Brain"}
+    ]
   },
   {
     "id": "object-neurodynamics-rosenblatt",
@@ -1115,7 +1135,11 @@
     "objectType": "paper",
     "creators": ["person-arturo-rosenblueth", "person-norbert-wiener", "person-julian-bigelow"],
     "language": "English",
-    "shortDescription": "Rehabilitated teleological explanation in science through feedback"
+    "shortDescription": "Rehabilitated teleological explanation in science through feedback",
+    "externalLinks": [
+      {"label": "Philosophy of Science (JSTOR)", "url": "https://www.jstor.org/stable/184878"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Behavior,_Purpose_and_Teleology"}
+    ]
   },
   {
     "id": "object-human-use-wiener",
@@ -1255,7 +1279,11 @@
     "objectType": "paper",
     "creators": ["person-i-j-good"],
     "language": "English",
-    "shortDescription": "First articulation of 'intelligence explosion' (AI singularity)"
+    "shortDescription": "First articulation of 'intelligence explosion' (AI singularity)",
+    "externalLinks": [
+      {"label": "Advances in Computers (PDF)", "url": "https://exhibits.stanford.edu/feigenbaum/catalog/gzsj0drf2321"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/I._J._Good"}
+    ]
   },
   {
     "id": "object-dartmouth-proposal",
@@ -1275,7 +1303,11 @@
     "objectType": "paper",
     "creators": ["person-j-c-r-licklider"],
     "language": "English",
-    "shortDescription": "Foundational vision for interactive computing"
+    "shortDescription": "Foundational vision for interactive computing",
+    "externalLinks": [
+      {"label": "IRE Transactions (PDF)", "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Man-Computer_Symbiosis"}
+    ]
   },
   {
     "id": "object-programs-common-sense-mccarthy",
@@ -1285,7 +1317,11 @@
     "objectType": "paper",
     "creators": ["person-john-mccarthy"],
     "language": "English",
-    "shortDescription": "Proposed the Advice Taker for commonsense reasoning"
+    "shortDescription": "Proposed the Advice Taker for commonsense reasoning",
+    "externalLinks": [
+      {"label": "Stanford (PDF)", "url": "http://www-formal.stanford.edu/jmc/mcc59.pdf"},
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Commonsense_reasoning"}
+    ]
   },
   {
     "id": "object-society-mind-minsky",

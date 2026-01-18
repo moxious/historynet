@@ -1016,7 +1016,11 @@
     "shortDescription": "Valla's proof through philological analysis that the Donation of Constantine was a forgery",
     "dateStart": "1440",
     "language": "Latin",
-    "creators": ["person-lorenzo-valla"]
+    "creators": ["person-lorenzo-valla"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/treatiseofloren00vall"}
+    ]
   },
   {
     "id": "object-erotemata",
@@ -1046,7 +1050,11 @@
     "shortDescription": "Ficino's major philosophical work on the immortality of the soul and Platonic-Christian synthesis",
     "dateStart": "1482",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"]
+    "creators": ["person-marsilio-ficino"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Theologia_Platonica"},
+      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674003453"}
+    ]
   },
   {
     "id": "object-de-amore-ficino",
@@ -1056,7 +1064,11 @@
     "shortDescription": "Ficino's commentary on Plato's Symposium developing theory of Platonic love",
     "dateStart": "1484",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"]
+    "creators": ["person-marsilio-ficino"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Commentarium_in_Convivium_Platonis_de_Amore"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/marsilioficinoco0000fici"}
+    ]
   },
   {
     "id": "object-corpus-hermeticum",
@@ -1076,7 +1088,11 @@
     "shortDescription": "Pico's 'Manifesto of the Renaissance' celebrating human potential and freedom",
     "dateStart": "1486",
     "language": "Latin",
-    "creators": ["person-giovanni-pico"]
+    "creators": ["person-giovanni-pico"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Oration_on_the_Dignity_of_Man"},
+      {"label": "Brown University (Latin)", "url": "https://www.brown.edu/Departments/Italian_Studies/pico/"}
+    ]
   },
   {
     "id": "object-900-theses",
@@ -1086,7 +1102,11 @@
     "shortDescription": "Pico's ambitious attempt to synthesize all philosophical and religious traditions",
     "dateStart": "1486",
     "language": "Latin",
-    "creators": ["person-giovanni-pico"]
+    "creators": ["person-giovanni-pico"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/900_Theses"},
+      {"label": "JSTOR", "url": "https://www.jstor.org/stable/2860197"}
+    ]
   },
   {
     "id": "object-de-ente-et-uno",
@@ -1096,7 +1116,11 @@
     "shortDescription": "Pico's treatise attempting to reconcile Plato and Aristotle",
     "dateStart": "1491",
     "language": "Latin",
-    "creators": ["person-giovanni-pico"]
+    "creators": ["person-giovanni-pico"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/beingonepicodell00pico"}
+    ]
   },
   {
     "id": "object-ficino-plotinus",
@@ -1116,7 +1140,11 @@
     "shortDescription": "Bruni's praise of Florence linking classical republicanism to Florentine liberty",
     "dateStart": "1403",
     "language": "Latin",
-    "creators": ["person-leonardo-bruni"]
+    "creators": ["person-leonardo-bruni"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Laudatio_Florentinae_urbis"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/humanistandpoli00grifgoog"}
+    ]
   },
   {
     "id": "object-bruni-history-florence",
@@ -1137,7 +1165,12 @@
     "shortDescription": "Machiavelli's foundational text of modern political philosophy",
     "dateStart": "1513",
     "language": "Italian",
-    "creators": ["person-niccolo-machiavelli"]
+    "creators": ["person-niccolo-machiavelli"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Prince"},
+      {"label": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/1232"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/princemachiawell00machuoft"}
+    ]
   },
   {
     "id": "object-discorsi-livy",
@@ -1147,7 +1180,11 @@
     "shortDescription": "Machiavelli's major work on republican political theory",
     "dateStart": "1517",
     "language": "Italian",
-    "creators": ["person-niccolo-machiavelli"]
+    "creators": ["person-niccolo-machiavelli"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Discourses_on_Livy"},
+      {"label": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/10827"}
+    ]
   },
   {
     "id": "object-istorie-fiorentine",
@@ -1178,7 +1215,11 @@
     "shortDescription": "Guicciardini's collection of political and personal maxims",
     "dateStart": "1530",
     "language": "Italian",
-    "creators": ["person-francesco-guicciardini"]
+    "creators": ["person-francesco-guicciardini"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ricordi_(Guicciardini)"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/maxims00guicuoft"}
+    ]
   },
   {
     "id": "object-book-courtier",
@@ -1188,7 +1229,11 @@
     "shortDescription": "Castiglione's definitive guide to Renaissance court culture",
     "dateStart": "1528",
     "language": "Italian",
-    "creators": ["person-baldassare-castiglione"]
+    "creators": ["person-baldassare-castiglione"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Book_of_the_Courtier"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/bookofcourtier00castuoft"}
+    ]
   },
   {
     "id": "object-della-vita-civile",
@@ -1198,7 +1243,11 @@
     "shortDescription": "Palmieri's dialogue on civic virtue in Bruni's civic humanist tradition",
     "dateStart": "1435",
     "language": "Italian",
-    "creators": ["person-matteo-palmieri"]
+    "creators": ["person-matteo-palmieri"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Matteo_Palmieri"},
+      {"label": "ACMRS Press", "url": "https://acmrs.org/publications/catalog/della-vita-civile"}
+    ]
   },
   {
     "id": "object-de-dignitate-manetti",
@@ -1208,7 +1257,11 @@
     "shortDescription": "Manetti's early statement of humanist view of human dignity",
     "dateStart": "1452",
     "language": "Latin",
-    "creators": ["person-giannozzo-manetti"]
+    "creators": ["person-giannozzo-manetti"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Giannozzo_Manetti"},
+      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674031326"}
+    ]
   },
   {
     "id": "object-de-ingenuis-moribus",
@@ -1218,7 +1271,11 @@
     "shortDescription": "Vergerio's first humanist treatise on education",
     "dateStart": "1402",
     "language": "Latin",
-    "creators": ["person-pier-paolo-vergerio"]
+    "creators": ["person-pier-paolo-vergerio"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pier_Paolo_Vergerio"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/humanistducatio00woodgoog"}
+    ]
   },
   {
     "id": "object-de-ordine-docendi",
@@ -1228,7 +1285,11 @@
     "shortDescription": "Battista Guarino's influential guide to humanist educational methods",
     "dateStart": "1459",
     "language": "Latin",
-    "creators": ["person-battista-guarino"]
+    "creators": ["person-battista-guarino"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Battista_Guarino"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/humanistducatio00woodgoog"}
+    ]
   },
   {
     "id": "object-de-inventione-dialectica",
@@ -1238,7 +1299,11 @@
     "shortDescription": "Agricola's reformed logic emphasizing rhetoric over scholastic dialectic",
     "dateStart": "1479",
     "language": "Latin",
-    "creators": ["person-rudolf-agricola"]
+    "creators": ["person-rudolf-agricola"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_inventione_dialectica"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/bub_gb_hHOJAIZSwW0C"}
+    ]
   },
   {
     "id": "object-de-tradendis",
@@ -1248,7 +1313,11 @@
     "shortDescription": "Vives's comprehensive educational treatise",
     "dateStart": "1531",
     "language": "Latin",
-    "creators": ["person-juan-luis-vives"]
+    "creators": ["person-juan-luis-vives"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Juan_Luis_Vives"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/vivesoneducation00vive"}
+    ]
   },
   {
     "id": "object-de-copia",
@@ -1258,7 +1327,11 @@
     "shortDescription": "Erasmus's textbook on rhetorical variation widely used for centuries",
     "dateStart": "1512",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": ["person-desiderius-erasmus"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_Copia"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/onerasemussdecop00erasuoft"}
+    ]
   },
   {
     "id": "object-novum-instrumentum",
@@ -1278,7 +1351,11 @@
     "shortDescription": "Valla's philological notes comparing Greek NT to Vulgate, published by Erasmus",
     "dateStart": "1449",
     "language": "Latin",
-    "creators": ["person-lorenzo-valla"]
+    "creators": ["person-lorenzo-valla"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lorenzo_Valla"},
+      {"label": "Brill", "url": "https://brill.com/display/title/12987"}
+    ]
   },
   {
     "id": "object-enchiridion",
@@ -1288,7 +1365,11 @@
     "shortDescription": "Erasmus's handbook advocating inner piety over ritual observance",
     "dateStart": "1503",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": ["person-desiderius-erasmus"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Enchiridion_militis_Christiani"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/enchiridionmilli00eras"}
+    ]
   },
   {
     "id": "object-complutensian-polyglot",
@@ -1329,7 +1410,11 @@
     "shortDescription": "Reuchlin's major text of Christian Kabbalah",
     "dateStart": "1517",
     "language": "Latin",
-    "creators": ["person-johannes-reuchlin"]
+    "creators": ["person-johannes-reuchlin"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_Arte_Cabalistica"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/onartofcabala00reuc"}
+    ]
   },
   {
     "id": "object-praise-of-folly",
@@ -1410,7 +1495,11 @@
     "shortDescription": "La Boétie's early critique of tyranny and voluntary submission",
     "dateStart": "1549",
     "language": "French",
-    "creators": ["person-etienne-de-la-boetie"]
+    "creators": ["person-etienne-de-la-boetie"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Discourse_on_Voluntary_Servitude"},
+      {"label": "Online Library of Liberty", "url": "https://oll.libertyfund.org/titles/boetie-the-discourse-of-voluntary-servitude"}
+    ]
   },
   {
     "id": "object-adages",
@@ -1480,7 +1569,11 @@
     "shortDescription": "Alberti's first modern treatise on painting explaining perspective",
     "dateStart": "1435",
     "language": "Latin",
-    "creators": ["person-leon-battista-alberti"]
+    "creators": ["person-leon-battista-alberti"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_pictura"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/dellapittura00albe"}
+    ]
   },
   {
     "id": "object-de-re-aedificatoria",
@@ -1490,7 +1583,11 @@
     "shortDescription": "Alberti's first modern architectural treatise",
     "dateStart": "1452",
     "language": "Latin",
-    "creators": ["person-leon-battista-alberti"]
+    "creators": ["person-leon-battista-alberti"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_re_aedificatoria"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/tenbooks00albe"}
+    ]
   },
   {
     "id": "object-de-statua",
@@ -1500,7 +1597,11 @@
     "shortDescription": "Alberti's treatise on sculpture including proportions",
     "dateStart": "1464",
     "language": "Latin",
-    "creators": ["person-leon-battista-alberti"]
+    "creators": ["person-leon-battista-alberti"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Leon_Battista_Alberti"},
+      {"label": "Internet Archive", "url": "https://archive.org/details/onsculpture00albe"}
+    ]
   },
   {
     "id": "object-della-famiglia",
@@ -1521,7 +1622,11 @@
     "shortDescription": "Biondo's pioneering description of ancient Roman monuments",
     "dateStart": "1446",
     "language": "Latin",
-    "creators": ["person-flavio-biondo"]
+    "creators": ["person-flavio-biondo"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Flavio_Biondo"},
+      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674017528"}
+    ]
   },
   {
     "id": "object-italia-illustrata",
@@ -1531,7 +1636,11 @@
     "shortDescription": "Biondo's historical geography of Italy",
     "dateStart": "1453",
     "language": "Latin",
-    "creators": ["person-flavio-biondo"]
+    "creators": ["person-flavio-biondo"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Italia_illustrata"},
+      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674054844"}
+    ]
   },
   {
     "id": "object-rerum-germanicarum",
