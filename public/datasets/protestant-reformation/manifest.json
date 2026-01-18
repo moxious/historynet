@@ -1,0 +1,24 @@
+{
+  "id": "protestant-reformation",
+  "name": "Protestant Reformation Network",
+  "description": "Key figures of the 16th century Protestant Reformation (c. 1483-1564), including Lutheran, Reformed, Radical, and English reformers, their relationships, major works, significant locations, and church movements.",
+  "lastUpdated": "2026-01-18",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 180,
+  "edgeCount": 101,
+  "customRelationshipTypes": [
+    {
+      "type": "patron_of",
+      "description": "Political patron who protected or supported a reformer",
+      "directed": true
+    },
+    {
+      "type": "succeeded",
+      "description": "Source succeeded target in a church or political role",
+      "directed": true
+    }
+  ]
+}
