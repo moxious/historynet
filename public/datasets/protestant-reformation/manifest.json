@@ -8,7 +8,7 @@
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 180,
-  "edgeCount": 101,
+  "edgeCount": 293,
   "customRelationshipTypes": [
     {
       "type": "patron_of",

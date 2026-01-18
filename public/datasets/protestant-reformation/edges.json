@@ -962,5 +962,1811 @@
     "relationship": "knows",
     "evidence": "John Foxe chronicled the martyrdoms of Cranmer, Ridley, and Latimer in his Actes and Monuments (1563).",
     "strength": "strong"
+  },
+
+  {
+    "id": "edge-luther-authored-95theses",
+    "source": "person-martin-luther",
+    "target": "object-ninety-five-theses",
+    "relationship": "authored",
+    "dateStart": "1517",
+    "evidence": "Luther's academic disputation challenging indulgences, posted October 31, 1517",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-address",
+    "source": "person-martin-luther",
+    "target": "object-address-christian-nobility",
+    "relationship": "authored",
+    "dateStart": "1520",
+    "evidence": "First of Luther's 1520 Reformation treatises; 4,000 copies sold in first week",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-babylonian",
+    "source": "person-martin-luther",
+    "target": "object-babylonian-captivity",
+    "relationship": "authored",
+    "dateStart": "1520",
+    "evidence": "Luther's most radical theological work of 1520, attacking sacramental system",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-freedom",
+    "source": "person-martin-luther",
+    "target": "object-freedom-christian",
+    "relationship": "authored",
+    "dateStart": "1520",
+    "evidence": "Luther's clearest statement of justification by faith alone (November 1520)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-bondage",
+    "source": "person-martin-luther",
+    "target": "object-bondage-of-will",
+    "relationship": "authored",
+    "dateStart": "1525",
+    "evidence": "Luther's response to Erasmus; he later called it one of his best works",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-small-catechism",
+    "source": "person-martin-luther",
+    "target": "object-small-catechism",
+    "relationship": "authored",
+    "dateStart": "1529",
+    "evidence": "Luther's instruction for ordinary Christians (1529)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-large-catechism",
+    "source": "person-martin-luther",
+    "target": "object-large-catechism",
+    "relationship": "authored",
+    "dateStart": "1529",
+    "evidence": "Extended catechetical instruction for pastors (1529)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-hymns",
+    "source": "person-martin-luther",
+    "target": "object-luther-hymns",
+    "relationship": "authored",
+    "dateStart": "1523",
+    "dateEnd": "1545",
+    "evidence": "Luther wrote ~37 hymns establishing German Protestant hymnody",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-translated-bible",
+    "source": "person-martin-luther",
+    "target": "object-luther-bible",
+    "relationship": "translated",
+    "dateStart": "1522",
+    "dateEnd": "1534",
+    "evidence": "Translated NT at Wartburg in 11 weeks; led Bible translation committee",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-authored-correspondence",
+    "source": "person-martin-luther",
+    "target": "object-luther-correspondence",
+    "relationship": "authored",
+    "dateStart": "1507",
+    "dateEnd": "1546",
+    "evidence": "Thousands of letters documenting Luther's relationships and Reformation spread",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-edited-lutherbible",
+    "source": "person-philip-melanchthon",
+    "target": "object-luther-bible",
+    "relationship": "edited",
+    "dateStart": "1522",
+    "dateEnd": "1534",
+    "evidence": "Assisted Luther with Greek; member of Wittenberg translation circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bugenhagen-edited-lutherbible",
+    "source": "person-johannes-bugenhagen",
+    "target": "object-luther-bible",
+    "relationship": "edited",
+    "evidence": "Member of Wittenberg Bible translation committee",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-jonas-edited-lutherbible",
+    "source": "person-justus-jonas",
+    "target": "object-luther-bible",
+    "relationship": "edited",
+    "evidence": "Member of Wittenberg Bible translation committee",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-cruciger-edited-lutherbible",
+    "source": "person-caspar-cruciger",
+    "target": "object-luther-bible",
+    "relationship": "edited",
+    "evidence": "Collaborated with Luther on Bible translation",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-erasmus-authored-freewill",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "object-free-will-erasmus",
+    "relationship": "authored",
+    "dateStart": "1524",
+    "evidence": "Erasmus's critique of Luther on human will (September 1524)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-authored-gnt",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "object-novum-instrumentum",
+    "relationship": "authored",
+    "dateStart": "1516",
+    "evidence": "First published Greek NT, enabling vernacular translations",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-authored-folly",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "object-praise-of-folly",
+    "relationship": "authored",
+    "dateStart": "1511",
+    "evidence": "Written at Thomas More's home; satirical critique of church corruption",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-authored-enchiridion",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "object-enchiridion",
+    "relationship": "authored",
+    "dateStart": "1503",
+    "evidence": "Erasmus's program for lay Christian life (1503)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-authored-correspondence",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "object-erasmus-correspondence",
+    "relationship": "authored",
+    "dateStart": "1489",
+    "dateEnd": "1536",
+    "evidence": "Over 3,000 letters documenting humanist network",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-authored-institutes",
+    "source": "person-john-calvin",
+    "target": "object-institutes",
+    "relationship": "authored",
+    "dateStart": "1536",
+    "dateEnd": "1559",
+    "evidence": "Definitive Reformed theological work; grew from 6 to 80 chapters",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-authored-catechism",
+    "source": "person-john-calvin",
+    "target": "object-genevan-catechism",
+    "relationship": "authored",
+    "dateStart": "1542",
+    "evidence": "Calvin's catechism for Genevan church (1542)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-authored-67articles",
+    "source": "person-huldrych-zwingli",
+    "target": "object-sixty-seven-articles",
+    "relationship": "authored",
+    "dateStart": "1523",
+    "evidence": "Platform for First Zurich Disputation (January 1523)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-authored-truefalse",
+    "source": "person-huldrych-zwingli",
+    "target": "object-true-false-religion",
+    "relationship": "authored",
+    "dateStart": "1525",
+    "evidence": "Zwingli's most comprehensive theological work (1525)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-translated-zurichbible",
+    "source": "person-huldrych-zwingli",
+    "target": "object-zurich-bible",
+    "relationship": "translated",
+    "dateEnd": "1531",
+    "evidence": "Supervised Zurich Bible translation until his death (1531)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jud-translated-zurichbible",
+    "source": "person-leo-jud",
+    "target": "object-zurich-bible",
+    "relationship": "translated",
+    "dateStart": "1524",
+    "dateEnd": "1531",
+    "evidence": "Primary translator of Zurich Bible; led project after Zwingli's death",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-authored-loci",
+    "source": "person-philip-melanchthon",
+    "target": "object-loci-communes",
+    "relationship": "authored",
+    "dateStart": "1521",
+    "evidence": "First systematic Lutheran theology; Luther called it worthy of canon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-authored-augsburg",
+    "source": "person-philip-melanchthon",
+    "target": "object-augsburg-confession",
+    "relationship": "authored",
+    "dateStart": "1530",
+    "evidence": "Primary confession of Lutheran churches, presented June 25, 1530",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-authored-apology",
+    "source": "person-philip-melanchthon",
+    "target": "object-apology-augsburg",
+    "relationship": "authored",
+    "dateStart": "1531",
+    "evidence": "Defense and expansion of Augsburg Confession (1531)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-translated-nt",
+    "source": "person-william-tyndale",
+    "target": "object-tyndale-nt",
+    "relationship": "translated",
+    "dateStart": "1526",
+    "evidence": "First printed English NT from Greek; ~80% appears in KJV",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-translated-pentateuch",
+    "source": "person-william-tyndale",
+    "target": "object-tyndale-pentateuch",
+    "relationship": "translated",
+    "dateStart": "1530",
+    "evidence": "First printed English OT books from Hebrew (1530)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-authored-obedience",
+    "source": "person-william-tyndale",
+    "target": "object-obedience-christian-man",
+    "relationship": "authored",
+    "dateStart": "1528",
+    "evidence": "Argument for royal supremacy; reportedly shown to Henry VIII by Anne Boleyn",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-coverdale-translated-bible",
+    "source": "person-miles-coverdale",
+    "target": "object-coverdale-bible",
+    "relationship": "translated",
+    "dateStart": "1535",
+    "evidence": "First complete printed English Bible (1535)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-coverdale-edited-greatbible",
+    "source": "person-miles-coverdale",
+    "target": "object-great-bible",
+    "relationship": "edited",
+    "dateStart": "1539",
+    "evidence": "First officially authorized English Bible; Coverdale edited",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-authored-bcp1549",
+    "source": "person-thomas-cranmer",
+    "target": "object-bcp-1549",
+    "relationship": "authored",
+    "dateStart": "1549",
+    "evidence": "First vernacular prayer book for Church of England (1549)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-authored-bcp1552",
+    "source": "person-thomas-cranmer",
+    "target": "object-bcp-1552",
+    "relationship": "authored",
+    "dateStart": "1552",
+    "evidence": "Revised prayer book with more Protestant theology (1552)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-authored-strasbourg-liturgy",
+    "source": "person-martin-bucer",
+    "target": "object-strasbourg-liturgy",
+    "relationship": "authored",
+    "dateStart": "1524",
+    "evidence": "Reformed liturgy that influenced Calvin and Cranmer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-authored-tetrapolitan",
+    "source": "person-martin-bucer",
+    "target": "object-tetrapolitan-confession",
+    "relationship": "authored",
+    "dateStart": "1530",
+    "evidence": "Co-authored confession of four South German cities at Augsburg (1530)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-capito-authored-tetrapolitan",
+    "source": "person-wolfgang-capito",
+    "target": "object-tetrapolitan-confession",
+    "relationship": "authored",
+    "dateStart": "1530",
+    "evidence": "Co-authored Tetrapolitan Confession with Bucer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-olivetan-translated-bible",
+    "source": "person-pierre-robert-olivetan",
+    "target": "object-olivetan-bible",
+    "relationship": "translated",
+    "dateStart": "1535",
+    "evidence": "First French Bible from original languages; commissioned by Waldensians",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-authored-1sthelvetic",
+    "source": "person-heinrich-bullinger",
+    "target": "object-first-helvetic-confession",
+    "relationship": "authored",
+    "dateStart": "1536",
+    "evidence": "First common confession of Swiss Reformed churches (1536)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jud-authored-1sthelvetic",
+    "source": "person-leo-jud",
+    "target": "object-first-helvetic-confession",
+    "relationship": "authored",
+    "dateStart": "1536",
+    "evidence": "Co-authored First Helvetic Confession with Bullinger",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-authored-2ndhelvetic",
+    "source": "person-heinrich-bullinger",
+    "target": "object-second-helvetic-confession",
+    "relationship": "authored",
+    "dateStart": "1566",
+    "evidence": "Most widely adopted Reformed confession of 16th century (1566)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-authored-correspondence",
+    "source": "person-heinrich-bullinger",
+    "target": "object-bullinger-correspondence",
+    "relationship": "authored",
+    "dateStart": "1524",
+    "dateEnd": "1575",
+    "evidence": "~12,000 letters documenting Reformed network across Europe",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sattler-authored-schleitheim",
+    "source": "person-michael-sattler",
+    "target": "object-schleitheim-confession",
+    "relationship": "authored",
+    "dateStart": "1527",
+    "evidence": "Foundational Anabaptist statement; Sattler executed three months later",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-authored-scotsconfession",
+    "source": "person-john-knox",
+    "target": "object-scots-confession",
+    "relationship": "authored",
+    "dateStart": "1560",
+    "evidence": "Foundational confession of Church of Scotland (1560)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-authored-firstblast",
+    "source": "person-john-knox",
+    "target": "object-first-blast",
+    "relationship": "authored",
+    "dateStart": "1558",
+    "evidence": "Argument against female rulers; angered Elizabeth I",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parker-authored-39articles",
+    "source": "person-matthew-parker",
+    "target": "object-thirty-nine-articles",
+    "relationship": "authored",
+    "dateStart": "1563",
+    "evidence": "Based on Cranmer's Forty-Two Articles, finalized 1563",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-foxe-authored-martyrs",
+    "source": "person-john-foxe",
+    "target": "object-book-of-martyrs",
+    "relationship": "authored",
+    "dateStart": "1563",
+    "evidence": "Comprehensive martyrology shaping English Protestant identity",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-marot-authored-psalter",
+    "source": "person-clement-marot",
+    "target": "object-genevan-psalter",
+    "relationship": "authored",
+    "dateStart": "1539",
+    "dateEnd": "1544",
+    "evidence": "Marot translated 49 Psalms in French verse",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beza-authored-psalter",
+    "source": "person-theodore-beza",
+    "target": "object-genevan-psalter",
+    "relationship": "authored",
+    "dateStart": "1551",
+    "dateEnd": "1562",
+    "evidence": "Beza completed the remaining Psalms after Marot's death",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-luther-born-eisleben",
+    "source": "person-martin-luther",
+    "target": "location-eisleben",
+    "relationship": "born_in",
+    "dateStart": "1483",
+    "evidence": "Luther born November 10, 1483 in Eisleben",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-died-eisleben",
+    "source": "person-martin-luther",
+    "target": "location-eisleben",
+    "relationship": "died_in",
+    "dateStart": "1546",
+    "evidence": "Luther died February 18, 1546 while visiting Eisleben",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-studied-erfurt",
+    "source": "person-martin-luther",
+    "target": "location-erfurt",
+    "relationship": "studied_at",
+    "dateStart": "1501",
+    "dateEnd": "1505",
+    "evidence": "University studies 1501-1505; entered Augustinian monastery 1505",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-worked-wittenberg",
+    "source": "person-martin-luther",
+    "target": "location-wittenberg",
+    "relationship": "worked_at",
+    "dateStart": "1511",
+    "dateEnd": "1546",
+    "evidence": "Luther's base 1511-1546; taught at university",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-worked-wittenbergu",
+    "source": "person-martin-luther",
+    "target": "location-wittenberg-university",
+    "relationship": "worked_at",
+    "dateStart": "1508",
+    "dateEnd": "1546",
+    "evidence": "Professor of theology at University of Wittenberg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-lived-wartburg",
+    "source": "person-martin-luther",
+    "target": "location-wartburg",
+    "relationship": "lived_in",
+    "dateStart": "1521",
+    "dateEnd": "1522",
+    "evidence": "Hidden at Wartburg Castle May 1521-March 1522 as 'Junker Jörg'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-visited-worms",
+    "source": "person-martin-luther",
+    "target": "location-worms",
+    "relationship": "visited",
+    "dateStart": "1521",
+    "evidence": "Appeared before Diet of Worms April 17-18, 1521",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-visited-augsburg",
+    "source": "person-martin-luther",
+    "target": "location-augsburg",
+    "relationship": "visited",
+    "dateStart": "1518",
+    "evidence": "Met Cardinal Cajetan October 1518",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-visited-marburg",
+    "source": "person-martin-luther",
+    "target": "location-marburg",
+    "relationship": "visited",
+    "dateStart": "1529",
+    "evidence": "Attended Marburg Colloquy October 1-4, 1529",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-visited-rome",
+    "source": "person-martin-luther",
+    "target": "location-rome",
+    "relationship": "visited",
+    "dateStart": "1510",
+    "dateEnd": "1511",
+    "evidence": "Visited Rome 1510-1511; reportedly scandalized",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-worked-wittenberg",
+    "source": "person-philip-melanchthon",
+    "target": "location-wittenberg",
+    "relationship": "worked_at",
+    "dateStart": "1518",
+    "dateEnd": "1560",
+    "evidence": "Joined Wittenberg faculty 1518; worked there until death 1560",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-died-wittenberg",
+    "source": "person-philip-melanchthon",
+    "target": "location-wittenberg",
+    "relationship": "died_in",
+    "dateStart": "1560",
+    "evidence": "Buried in Castle Church alongside Luther",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bugenhagen-worked-wittenberg",
+    "source": "person-johannes-bugenhagen",
+    "target": "location-wittenberg",
+    "relationship": "worked_at",
+    "dateStart": "1521",
+    "dateEnd": "1558",
+    "evidence": "Luther's pastor at Wittenberg; died there 1558",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranach-worked-wittenberg",
+    "source": "person-lucas-cranach",
+    "target": "location-wittenberg",
+    "relationship": "worked_at",
+    "dateStart": "1505",
+    "dateEnd": "1550",
+    "evidence": "Court painter at Wittenberg; burgomaster of the city",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-spalatin-worked-wittenberg",
+    "source": "person-georg-spalatin",
+    "target": "location-wittenberg",
+    "relationship": "worked_at",
+    "dateStart": "1508",
+    "dateEnd": "1525",
+    "evidence": "Secretary and chaplain to Frederick the Wise at Wittenberg court",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-worked-zurich",
+    "source": "person-huldrych-zwingli",
+    "target": "location-zurich",
+    "relationship": "worked_at",
+    "dateStart": "1519",
+    "dateEnd": "1531",
+    "evidence": "Led Zurich Reformation from 1519",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-worked-grossmunster",
+    "source": "person-huldrych-zwingli",
+    "target": "location-grossmunster",
+    "relationship": "worked_at",
+    "dateStart": "1519",
+    "dateEnd": "1531",
+    "evidence": "People's priest at Grossmünster from 1519",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-died-kappel",
+    "source": "person-huldrych-zwingli",
+    "target": "location-kappel",
+    "relationship": "died_in",
+    "dateStart": "1531",
+    "evidence": "Killed at Battle of Kappel October 11, 1531",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-studied-basel",
+    "source": "person-huldrych-zwingli",
+    "target": "location-basel-university",
+    "relationship": "studied_at",
+    "evidence": "Studied under Thomas Wyttenbach at Basel",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-worked-zurich",
+    "source": "person-heinrich-bullinger",
+    "target": "location-zurich",
+    "relationship": "worked_at",
+    "dateStart": "1531",
+    "dateEnd": "1575",
+    "evidence": "Antistes of Zurich for 44 years (1531-1575)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-worked-grossmunster",
+    "source": "person-heinrich-bullinger",
+    "target": "location-grossmunster",
+    "relationship": "worked_at",
+    "dateStart": "1531",
+    "dateEnd": "1575",
+    "evidence": "Succeeded Zwingli at Grossmünster",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jud-studied-basel",
+    "source": "person-leo-jud",
+    "target": "location-basel-university",
+    "relationship": "studied_at",
+    "evidence": "Studied under Wyttenbach alongside Zwingli",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jud-worked-zurich",
+    "source": "person-leo-jud",
+    "target": "location-zurich",
+    "relationship": "worked_at",
+    "dateStart": "1522",
+    "dateEnd": "1542",
+    "evidence": "Pastor at St. Peter's in Zurich from 1522",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oecolampadius-worked-basel",
+    "source": "person-johannes-oecolampadius",
+    "target": "location-basel",
+    "relationship": "worked_at",
+    "dateStart": "1522",
+    "dateEnd": "1531",
+    "evidence": "Led Basel Reformation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-worked-geneva",
+    "source": "person-john-calvin",
+    "target": "location-geneva",
+    "relationship": "worked_at",
+    "dateStart": "1536",
+    "dateEnd": "1564",
+    "evidence": "Led Genevan Reformation 1536-1538, 1541-1564",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-worked-stpierre",
+    "source": "person-john-calvin",
+    "target": "location-st-pierre-geneva",
+    "relationship": "worked_at",
+    "dateStart": "1541",
+    "dateEnd": "1564",
+    "evidence": "Preached regularly at St. Pierre Cathedral",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-lived-strasbourg",
+    "source": "person-john-calvin",
+    "target": "location-strasbourg",
+    "relationship": "lived_in",
+    "dateStart": "1538",
+    "dateEnd": "1541",
+    "evidence": "Exile in Strasbourg 1538-1541; mentored by Bucer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-studied-paris",
+    "source": "person-john-calvin",
+    "target": "location-sorbonne",
+    "relationship": "studied_at",
+    "dateStart": "1523",
+    "dateEnd": "1528",
+    "evidence": "Studied at University of Paris in 1520s",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-died-geneva",
+    "source": "person-john-calvin",
+    "target": "location-geneva",
+    "relationship": "died_in",
+    "dateStart": "1564",
+    "evidence": "Died in Geneva May 27, 1564",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beza-worked-geneva",
+    "source": "person-theodore-beza",
+    "target": "location-geneva",
+    "relationship": "worked_at",
+    "dateStart": "1549",
+    "dateEnd": "1605",
+    "evidence": "Calvin's successor; led Geneva 1564-1605",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beza-worked-academy",
+    "source": "person-theodore-beza",
+    "target": "location-geneva-academy",
+    "relationship": "worked_at",
+    "dateStart": "1559",
+    "dateEnd": "1599",
+    "evidence": "First rector of Geneva Academy (1559)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-farel-worked-geneva",
+    "source": "person-guillaume-farel",
+    "target": "location-geneva",
+    "relationship": "worked_at",
+    "dateStart": "1532",
+    "dateEnd": "1538",
+    "evidence": "Introduced Reformation to Geneva 1530s; recruited Calvin",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-viret-worked-lausanne",
+    "source": "person-pierre-viret",
+    "target": "location-lausanne",
+    "relationship": "worked_at",
+    "dateStart": "1536",
+    "dateEnd": "1559",
+    "evidence": "Led Reformation in Lausanne",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-worked-strasbourg",
+    "source": "person-martin-bucer",
+    "target": "location-strasbourg",
+    "relationship": "worked_at",
+    "dateStart": "1523",
+    "dateEnd": "1549",
+    "evidence": "Led Strasbourg Reformation with Capito",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-died-cambridge",
+    "source": "person-martin-bucer",
+    "target": "location-cambridge",
+    "relationship": "died_in",
+    "dateStart": "1551",
+    "evidence": "Died at Cambridge 1551 after leaving Strasbourg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-worked-cambridge",
+    "source": "person-martin-bucer",
+    "target": "location-cambridge-university",
+    "relationship": "worked_at",
+    "dateStart": "1549",
+    "dateEnd": "1551",
+    "evidence": "Regius Professor at Cambridge 1549-1551",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-capito-worked-strasbourg",
+    "source": "person-wolfgang-capito",
+    "target": "location-strasbourg",
+    "relationship": "worked_at",
+    "dateStart": "1523",
+    "dateEnd": "1541",
+    "evidence": "Co-led Strasbourg Reformation with Bucer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-lived-basel",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "location-basel",
+    "relationship": "lived_in",
+    "dateStart": "1521",
+    "dateEnd": "1536",
+    "evidence": "Resided in Basel 1521-1529, 1535-1536; died there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-died-basel",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "location-basel",
+    "relationship": "died_in",
+    "dateStart": "1536",
+    "evidence": "Died in Basel 1536",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-worked-cambridge",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "location-cambridge-university",
+    "relationship": "worked_at",
+    "dateStart": "1511",
+    "dateEnd": "1514",
+    "evidence": "Taught Greek at Cambridge 1511-1514",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-worked-antwerp",
+    "source": "person-william-tyndale",
+    "target": "location-antwerp",
+    "relationship": "worked_at",
+    "dateStart": "1528",
+    "dateEnd": "1535",
+    "evidence": "Worked in exile in Antwerp on Bible translation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-died-vilvoorde",
+    "source": "person-william-tyndale",
+    "target": "location-vilvoorde",
+    "relationship": "died_in",
+    "dateStart": "1536",
+    "evidence": "Executed at Vilvoorde October 6, 1536",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-worked-canterbury",
+    "source": "person-thomas-cranmer",
+    "target": "location-canterbury",
+    "relationship": "worked_at",
+    "dateStart": "1533",
+    "dateEnd": "1556",
+    "evidence": "Archbishop of Canterbury 1533-1556",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-died-oxford",
+    "source": "person-thomas-cranmer",
+    "target": "location-oxford",
+    "relationship": "died_in",
+    "dateStart": "1556",
+    "evidence": "Burned at Oxford March 21, 1556",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-latimer-died-oxford",
+    "source": "person-hugh-latimer",
+    "target": "location-oxford",
+    "relationship": "died_in",
+    "dateStart": "1555",
+    "evidence": "Burned at Oxford October 16, 1555",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ridley-died-oxford",
+    "source": "person-nicholas-ridley",
+    "target": "location-oxford",
+    "relationship": "died_in",
+    "dateStart": "1555",
+    "evidence": "Burned with Latimer at Oxford October 16, 1555",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ridley-worked-london",
+    "source": "person-nicholas-ridley",
+    "target": "location-london",
+    "relationship": "worked_at",
+    "dateStart": "1550",
+    "dateEnd": "1553",
+    "evidence": "Bishop of London under Edward VI",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-worked-edinburgh",
+    "source": "person-john-knox",
+    "target": "location-edinburgh",
+    "relationship": "worked_at",
+    "dateStart": "1560",
+    "dateEnd": "1572",
+    "evidence": "Minister of St. Giles from 1560",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-worked-stgiles",
+    "source": "person-john-knox",
+    "target": "location-st-giles-edinburgh",
+    "relationship": "worked_at",
+    "dateStart": "1560",
+    "dateEnd": "1572",
+    "evidence": "Knox's church; mother church of Scottish Presbyterianism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-lived-geneva",
+    "source": "person-john-knox",
+    "target": "location-geneva",
+    "relationship": "lived_in",
+    "dateStart": "1554",
+    "dateEnd": "1559",
+    "evidence": "Exile in Geneva 1554-1555, 1556-1559; called it 'the most perfect school of Christ'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-died-edinburgh",
+    "source": "person-john-knox",
+    "target": "location-edinburgh",
+    "relationship": "died_in",
+    "dateStart": "1572",
+    "evidence": "Died in Edinburgh November 24, 1572",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hamilton-studied-marburg",
+    "source": "person-patrick-hamilton",
+    "target": "location-marburg-university",
+    "relationship": "studied_at",
+    "dateStart": "1527",
+    "evidence": "Studied at first Protestant university; absorbed Lutheran theology",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hamilton-died-standrews",
+    "source": "person-patrick-hamilton",
+    "target": "location-st-andrews",
+    "relationship": "died_in",
+    "dateStart": "1528",
+    "evidence": "Scotland's first Protestant martyr, burned 1528",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wishart-died-standrews",
+    "source": "person-george-wishart",
+    "target": "location-st-andrews",
+    "relationship": "died_in",
+    "dateStart": "1546",
+    "evidence": "Executed by Cardinal Beaton 1546",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-muntzer-worked-muhlhausen",
+    "source": "person-thomas-muntzer",
+    "target": "location-muhlhausen",
+    "relationship": "worked_at",
+    "dateStart": "1524",
+    "dateEnd": "1525",
+    "evidence": "Center of his radical reform 1524-1525",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-muntzer-visited-frankenhausen",
+    "source": "person-thomas-muntzer",
+    "target": "location-frankenhausen",
+    "relationship": "visited",
+    "dateStart": "1525",
+    "evidence": "Captured after Battle of Frankenhausen May 15, 1525",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grebel-lived-zurich",
+    "source": "person-conrad-grebel",
+    "target": "location-zurich",
+    "relationship": "lived_in",
+    "dateStart": "1498",
+    "dateEnd": "1525",
+    "evidence": "Born in Zurich; co-founded Swiss Brethren there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-manz-died-zurich",
+    "source": "person-felix-manz",
+    "target": "location-zurich",
+    "relationship": "died_in",
+    "dateStart": "1527",
+    "evidence": "First Swiss Anabaptist executed, drowned in Limmat January 5, 1527",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sattler-visited-schleitheim",
+    "source": "person-michael-sattler",
+    "target": "location-schleitheim",
+    "relationship": "visited",
+    "dateStart": "1527",
+    "evidence": "Led meeting where Schleitheim Confession adopted February 24, 1527",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lefevre-worked-meaux",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "location-meaux",
+    "relationship": "worked_at",
+    "dateStart": "1521",
+    "dateEnd": "1525",
+    "evidence": "Part of Briçonnet's reform circle at Meaux",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-briconnet-worked-meaux",
+    "source": "person-guillaume-briconnet",
+    "target": "location-meaux",
+    "relationship": "worked_at",
+    "dateStart": "1516",
+    "dateEnd": "1534",
+    "evidence": "Bishop of Meaux; led Meaux Circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hooper-lived-zurich",
+    "source": "person-john-hooper",
+    "target": "location-zurich",
+    "relationship": "lived_in",
+    "dateStart": "1547",
+    "dateEnd": "1549",
+    "evidence": "Exile in Zurich 1547-1549; influenced by Bullinger",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hooper-died-gloucester",
+    "source": "person-john-hooper",
+    "target": "location-oxford",
+    "relationship": "died_in",
+    "dateStart": "1555",
+    "evidence": "Burned at Gloucester February 9, 1555",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bilney-worked-cambridge",
+    "source": "person-thomas-bilney",
+    "target": "location-cambridge",
+    "relationship": "worked_at",
+    "dateStart": "1520",
+    "dateEnd": "1531",
+    "evidence": "Cambridge reformer who converted Latimer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bilney-visited-whitehorse",
+    "source": "person-thomas-bilney",
+    "target": "location-white-horse-tavern",
+    "relationship": "visited",
+    "dateStart": "1520",
+    "dateEnd": "1530",
+    "evidence": "Member of White Horse group",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-barnes-visited-whitehorse",
+    "source": "person-robert-barnes",
+    "target": "location-white-horse-tavern",
+    "relationship": "visited",
+    "dateStart": "1520",
+    "dateEnd": "1530",
+    "evidence": "Member of 'Little Germany' group at Cambridge",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-latimer-visited-whitehorse",
+    "source": "person-hugh-latimer",
+    "target": "location-white-horse-tavern",
+    "relationship": "visited",
+    "dateStart": "1520",
+    "dateEnd": "1530",
+    "evidence": "Part of Cambridge reform group",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-coverdale-visited-whitehorse",
+    "source": "person-miles-coverdale",
+    "target": "location-white-horse-tavern",
+    "relationship": "visited",
+    "dateStart": "1520",
+    "dateEnd": "1530",
+    "evidence": "Part of Cambridge proto-Protestant circle",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-parker-visited-whitehorse",
+    "source": "person-matthew-parker",
+    "target": "location-white-horse-tavern",
+    "relationship": "visited",
+    "dateStart": "1520",
+    "dateEnd": "1530",
+    "evidence": "Part of Cambridge White Horse group in youth",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-frederickwise-founded-wittenbergu",
+    "source": "person-frederick-the-wise",
+    "target": "location-wittenberg-university",
+    "relationship": "founded",
+    "dateStart": "1502",
+    "evidence": "Founded University of Wittenberg 1502",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-philiphesse-founded-marburgu",
+    "source": "person-philip-of-hesse",
+    "target": "location-marburg-university",
+    "relationship": "founded",
+    "dateStart": "1527",
+    "evidence": "Founded first Protestant university 1527",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-founded-genevaacademy",
+    "source": "person-john-calvin",
+    "target": "location-geneva-academy",
+    "relationship": "founded",
+    "dateStart": "1559",
+    "evidence": "Founded Geneva Academy 1559; Beza first rector",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eck-worked-ingolstadt",
+    "source": "person-johann-eck",
+    "target": "location-ingolstadt",
+    "relationship": "worked_at",
+    "dateStart": "1510",
+    "dateEnd": "1543",
+    "evidence": "Home of Johann Eck, Luther's chief Catholic opponent",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-charlesv-visited-worms",
+    "source": "person-charles-v",
+    "target": "location-worms",
+    "relationship": "visited",
+    "dateStart": "1521",
+    "evidence": "Presided over Diet of Worms 1521",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-charlesv-visited-augsburg",
+    "source": "person-charles-v",
+    "target": "location-augsburg",
+    "relationship": "visited",
+    "dateStart": "1530",
+    "evidence": "Presided over Diet of Augsburg 1530",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-luther-member-augustinian",
+    "source": "person-martin-luther",
+    "target": "entity-augustinian-order",
+    "relationship": "member_of",
+    "dateStart": "1505",
+    "dateEnd": "1525",
+    "evidence": "Entered Augustinian friary at Erfurt 1505; ordained 1507",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-founded-lutheranref",
+    "source": "person-martin-luther",
+    "target": "entity-lutheran-reformation",
+    "relationship": "founded",
+    "dateStart": "1517",
+    "evidence": "Initial Protestant movement sparked by 95 Theses (1517)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-assoc-lutheranref",
+    "source": "person-philip-melanchthon",
+    "target": "entity-lutheran-reformation",
+    "relationship": "associated_with",
+    "dateStart": "1518",
+    "dateEnd": "1560",
+    "evidence": "Systematized Lutheran theology; 'Preceptor of Germany'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bugenhagen-assoc-lutheranref",
+    "source": "person-johannes-bugenhagen",
+    "target": "entity-lutheran-reformation",
+    "relationship": "associated_with",
+    "dateStart": "1521",
+    "dateEnd": "1558",
+    "evidence": "Organized Lutheran churches across northern Germany and Denmark",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-founded-zurichchurch",
+    "source": "person-huldrych-zwingli",
+    "target": "entity-zurich-church",
+    "relationship": "founded",
+    "dateStart": "1519",
+    "evidence": "Founded Reformed Church of Zurich from 1519",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-founded-swissreformed",
+    "source": "person-huldrych-zwingli",
+    "target": "entity-swiss-reformed",
+    "relationship": "founded",
+    "dateStart": "1519",
+    "evidence": "Co-founder of Swiss Reformed movement",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-led-zurichchurch",
+    "source": "person-heinrich-bullinger",
+    "target": "entity-zurich-church",
+    "relationship": "led",
+    "dateStart": "1531",
+    "dateEnd": "1575",
+    "evidence": "Antistes of Zurich for 44 years (1531-1575)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-assoc-swissreformed",
+    "source": "person-heinrich-bullinger",
+    "target": "entity-swiss-reformed",
+    "relationship": "associated_with",
+    "dateStart": "1531",
+    "dateEnd": "1575",
+    "evidence": "Led Swiss Reformed movement after Zwingli",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-founded-genevachurch",
+    "source": "person-john-calvin",
+    "target": "entity-geneva-church",
+    "relationship": "founded",
+    "dateStart": "1541",
+    "evidence": "Established Genevan Reformed Church with Farel",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-led-companyofpastors",
+    "source": "person-john-calvin",
+    "target": "entity-company-of-pastors",
+    "relationship": "led",
+    "dateStart": "1541",
+    "dateEnd": "1564",
+    "evidence": "Moderator of Company of Pastors 1541-1564",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-founded-consistory",
+    "source": "person-john-calvin",
+    "target": "entity-geneva-consistory",
+    "relationship": "founded",
+    "dateStart": "1541",
+    "evidence": "Created Geneva Consistory in Ecclesiastical Ordinances (1541)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-assoc-swissreformed",
+    "source": "person-john-calvin",
+    "target": "entity-swiss-reformed",
+    "relationship": "associated_with",
+    "dateStart": "1536",
+    "dateEnd": "1564",
+    "evidence": "Systematized Reformed theology; wrote Institutes",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beza-led-companyofpastors",
+    "source": "person-theodore-beza",
+    "target": "entity-company-of-pastors",
+    "relationship": "led",
+    "dateStart": "1564",
+    "dateEnd": "1605",
+    "evidence": "Succeeded Calvin as moderator 1564",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beza-led-genevachurch",
+    "source": "person-theodore-beza",
+    "target": "entity-geneva-church",
+    "relationship": "led",
+    "dateStart": "1564",
+    "dateEnd": "1605",
+    "evidence": "Led Genevan church 1564-1605",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-farel-founded-genevachurch",
+    "source": "person-guillaume-farel",
+    "target": "entity-geneva-church",
+    "relationship": "founded",
+    "dateStart": "1532",
+    "evidence": "Introduced Reformation to Geneva; recruited Calvin",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-farel-member-companyofpastors",
+    "source": "person-guillaume-farel",
+    "target": "entity-company-of-pastors",
+    "relationship": "member_of",
+    "dateStart": "1541",
+    "evidence": "Founding member of Company of Pastors",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-viret-member-companyofpastors",
+    "source": "person-pierre-viret",
+    "target": "entity-company-of-pastors",
+    "relationship": "member_of",
+    "dateStart": "1541",
+    "evidence": "Part of Geneva 'triumvirate' with Calvin and Farel",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-knox-founded-kirk",
+    "source": "person-john-knox",
+    "target": "entity-church-of-scotland",
+    "relationship": "founded",
+    "dateStart": "1560",
+    "evidence": "Established Church of Scotland 1560",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-founded-coe",
+    "source": "person-thomas-cranmer",
+    "target": "entity-church-of-england",
+    "relationship": "founded",
+    "dateStart": "1534",
+    "evidence": "Architect of English Reformation liturgy and doctrine",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henry-founded-coe",
+    "source": "person-henry-viii",
+    "target": "entity-church-of-england",
+    "relationship": "founded",
+    "dateStart": "1534",
+    "evidence": "Established royal supremacy 1534",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cromwell-assoc-englishref",
+    "source": "person-thomas-cromwell",
+    "target": "entity-english-reformation",
+    "relationship": "associated_with",
+    "dateStart": "1532",
+    "dateEnd": "1540",
+    "evidence": "Engineered legal structure; dissolved monasteries",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-assoc-englishref",
+    "source": "person-thomas-cranmer",
+    "target": "entity-english-reformation",
+    "relationship": "associated_with",
+    "dateStart": "1533",
+    "dateEnd": "1556",
+    "evidence": "Archbishop who shaped English Reformation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parker-led-coe",
+    "source": "person-matthew-parker",
+    "target": "entity-church-of-england",
+    "relationship": "led",
+    "dateStart": "1559",
+    "dateEnd": "1575",
+    "evidence": "First Elizabethan Archbishop; consolidated settlement",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grebel-founded-brethren",
+    "source": "person-conrad-grebel",
+    "target": "entity-swiss-brethren",
+    "relationship": "founded",
+    "dateStart": "1525",
+    "evidence": "Co-founded Swiss Brethren January 21, 1525",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-manz-founded-brethren",
+    "source": "person-felix-manz",
+    "target": "entity-swiss-brethren",
+    "relationship": "founded",
+    "dateStart": "1525",
+    "evidence": "Co-founded Swiss Brethren with Grebel",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-blaurock-member-brethren",
+    "source": "person-george-blaurock",
+    "target": "entity-swiss-brethren",
+    "relationship": "member_of",
+    "dateStart": "1525",
+    "evidence": "Baptized at founding; became missionary",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sattler-assoc-brethren",
+    "source": "person-michael-sattler",
+    "target": "entity-swiss-brethren",
+    "relationship": "associated_with",
+    "dateStart": "1525",
+    "dateEnd": "1527",
+    "evidence": "Author of foundational Schleitheim Confession",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hubmaier-assoc-radical",
+    "source": "person-balthasar-hubmaier",
+    "target": "entity-radical-reformation",
+    "relationship": "associated_with",
+    "dateStart": "1525",
+    "dateEnd": "1528",
+    "evidence": "Most theologically trained Anabaptist leader",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-menno-founded-mennonites",
+    "source": "person-menno-simons",
+    "target": "entity-mennonites",
+    "relationship": "founded",
+    "dateStart": "1536",
+    "evidence": "Reorganized Dutch Anabaptists; movement named after him",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-muntzer-assoc-radical",
+    "source": "person-thomas-muntzer",
+    "target": "entity-radical-reformation",
+    "relationship": "associated_with",
+    "dateStart": "1521",
+    "dateEnd": "1525",
+    "evidence": "Radical reformer; led peasant forces",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-assoc-humanism",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "entity-christian-humanism",
+    "relationship": "associated_with",
+    "dateStart": "1500",
+    "dateEnd": "1536",
+    "evidence": "'Prince of Humanists'; embodied movement",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-colet-assoc-humanism",
+    "source": "person-john-colet",
+    "target": "entity-christian-humanism",
+    "relationship": "associated_with",
+    "dateStart": "1496",
+    "dateEnd": "1519",
+    "evidence": "Encouraged Erasmus's biblical scholarship",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-more-assoc-humanism",
+    "source": "person-thomas-more",
+    "target": "entity-christian-humanism",
+    "relationship": "associated_with",
+    "dateStart": "1499",
+    "dateEnd": "1535",
+    "evidence": "Close friend of Erasmus; author of Utopia",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reuchlin-assoc-humanism",
+    "source": "person-johannes-reuchlin",
+    "target": "entity-christian-humanism",
+    "relationship": "associated_with",
+    "dateStart": "1490",
+    "dateEnd": "1522",
+    "evidence": "Foremost German Hebraist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lefevre-assoc-humanism",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "entity-christian-humanism",
+    "relationship": "associated_with",
+    "dateStart": "1490",
+    "dateEnd": "1536",
+    "evidence": "Pioneer of French biblical humanism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-briconnet-founded-meaux",
+    "source": "person-guillaume-briconnet",
+    "target": "entity-meaux-circle",
+    "relationship": "founded",
+    "dateStart": "1521",
+    "evidence": "Bishop who led Meaux Circle reform effort",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lefevre-member-meaux",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "entity-meaux-circle",
+    "relationship": "member_of",
+    "dateStart": "1521",
+    "dateEnd": "1525",
+    "evidence": "Key member of Briçonnet's circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-farel-member-meaux",
+    "source": "person-guillaume-farel",
+    "target": "entity-meaux-circle",
+    "relationship": "member_of",
+    "dateStart": "1521",
+    "dateEnd": "1523",
+    "evidence": "Early member before moving to more radical reform",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-john-founded-schmalkaldic",
+    "source": "person-john-the-steadfast",
+    "target": "entity-schmalkaldic-league",
+    "relationship": "founded",
+    "dateStart": "1531",
+    "evidence": "Co-founded Schmalkaldic League 1531",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-philiphesse-founded-schmalkaldic",
+    "source": "person-philip-of-hesse",
+    "target": "entity-schmalkaldic-league",
+    "relationship": "founded",
+    "dateStart": "1531",
+    "evidence": "Co-founded and led Schmalkaldic League",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-johnfrederick-led-schmalkaldic",
+    "source": "person-john-frederick-i",
+    "target": "entity-schmalkaldic-league",
+    "relationship": "led",
+    "dateStart": "1532",
+    "dateEnd": "1547",
+    "evidence": "Led League in Schmalkaldic War 1546-47",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tetzel-member-dominican",
+    "source": "person-cardinal-thomas-cajetan",
+    "target": "entity-dominican-order",
+    "relationship": "member_of",
+    "evidence": "Dominican cardinal and Thomist theologian",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-luther-assoc-dietworms",
+    "source": "person-martin-luther",
+    "target": "entity-diet-of-worms",
+    "relationship": "associated_with",
+    "dateStart": "1521",
+    "evidence": "Appeared April 17-18, 1521; 'Here I stand'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-charlesv-assoc-dietworms",
+    "source": "person-charles-v",
+    "target": "entity-diet-of-worms",
+    "relationship": "associated_with",
+    "dateStart": "1521",
+    "evidence": "Presided over Diet; issued Edict of Worms",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-assoc-dietaugsburg",
+    "source": "person-philip-melanchthon",
+    "target": "entity-diet-of-augsburg",
+    "relationship": "associated_with",
+    "dateStart": "1530",
+    "evidence": "Presented Augsburg Confession June 25, 1530",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-charlesv-assoc-dietaugsburg",
+    "source": "person-charles-v",
+    "target": "entity-diet-of-augsburg",
+    "relationship": "associated_with",
+    "dateStart": "1530",
+    "evidence": "Presided over Diet of Augsburg 1530",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eck-assoc-dietaugsburg",
+    "source": "person-johann-eck",
+    "target": "entity-diet-of-augsburg",
+    "relationship": "associated_with",
+    "dateStart": "1530",
+    "evidence": "Wrote Confutatio against Augsburg Confession",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-assoc-marburgcolloquy",
+    "source": "person-martin-luther",
+    "target": "entity-marburg-colloquy",
+    "relationship": "associated_with",
+    "dateStart": "1529",
+    "evidence": "Debated Zwingli on Eucharist October 1-4, 1529",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-assoc-marburgcolloquy",
+    "source": "person-huldrych-zwingli",
+    "target": "entity-marburg-colloquy",
+    "relationship": "associated_with",
+    "dateStart": "1529",
+    "evidence": "Defended symbolic view against Luther",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-assoc-marburgcolloquy",
+    "source": "person-philip-melanchthon",
+    "target": "entity-marburg-colloquy",
+    "relationship": "associated_with",
+    "dateStart": "1529",
+    "evidence": "Participated alongside Luther at Marburg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-assoc-marburgcolloquy",
+    "source": "person-martin-bucer",
+    "target": "entity-marburg-colloquy",
+    "relationship": "associated_with",
+    "dateStart": "1529",
+    "evidence": "Attempted to mediate at Marburg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oecolampadius-assoc-marburgcolloquy",
+    "source": "person-johannes-oecolampadius",
+    "target": "entity-marburg-colloquy",
+    "relationship": "associated_with",
+    "dateStart": "1529",
+    "evidence": "Allied with Zwingli at Marburg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-philiphesse-assoc-marburgcolloquy",
+    "source": "person-philip-of-hesse",
+    "target": "entity-marburg-colloquy",
+    "relationship": "associated_with",
+    "dateStart": "1529",
+    "evidence": "Organized and hosted colloquy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-assoc-zurichdisputation",
+    "source": "person-huldrych-zwingli",
+    "target": "entity-zurich-disputation-1523",
+    "relationship": "associated_with",
+    "dateStart": "1523",
+    "evidence": "Defended 67 Articles; won council support",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-assoc-leipzigdebate",
+    "source": "person-martin-luther",
+    "target": "entity-leipzig-debate",
+    "relationship": "associated_with",
+    "dateStart": "1519",
+    "evidence": "Debated Eck; admitted sympathy with Hus",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-karlstadt-assoc-leipzigdebate",
+    "source": "person-andreas-karlstadt",
+    "target": "entity-leipzig-debate",
+    "relationship": "associated_with",
+    "dateStart": "1519",
+    "evidence": "Debated alongside Luther against Eck",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eck-assoc-leipzigdebate",
+    "source": "person-johann-eck",
+    "target": "entity-leipzig-debate",
+    "relationship": "associated_with",
+    "dateStart": "1519",
+    "evidence": "Luther's chief opponent; claimed victory",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-bondage-responds-freewill",
+    "source": "object-bondage-of-will",
+    "target": "object-free-will-erasmus",
+    "relationship": "responds_to",
+    "dateStart": "1525",
+    "evidence": "Luther's Bondage of the Will directly responds to Erasmus's De libero arbitrio",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-apology-continues-augsburg",
+    "source": "object-apology-augsburg",
+    "target": "object-augsburg-confession",
+    "relationship": "continuation_of",
+    "dateStart": "1531",
+    "evidence": "Melanchthon's defense and expansion of Augsburg Confession",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-coverdale-continues-tyndale",
+    "source": "object-coverdale-bible",
+    "target": "object-tyndale-nt",
+    "relationship": "continuation_of",
+    "dateStart": "1535",
+    "evidence": "Coverdale used Tyndale's work where available",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-great-continues-coverdale",
+    "source": "object-great-bible",
+    "target": "object-coverdale-bible",
+    "relationship": "continuation_of",
+    "dateStart": "1539",
+    "evidence": "Great Bible based on Coverdale's work, revised",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bcp52-revises-bcp49",
+    "source": "object-bcp-1552",
+    "target": "object-bcp-1549",
+    "relationship": "continuation_of",
+    "dateStart": "1552",
+    "evidence": "1552 Prayer Book revised 1549 with more Protestant theology",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lutherbible-uses-erasmusgnt",
+    "source": "object-luther-bible",
+    "target": "object-novum-instrumentum",
+    "relationship": "references",
+    "dateStart": "1522",
+    "evidence": "Luther used Erasmus's Greek NT for his German translation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndalent-uses-erasmusgnt",
+    "source": "object-tyndale-nt",
+    "target": "object-novum-instrumentum",
+    "relationship": "references",
+    "dateStart": "1526",
+    "evidence": "Tyndale translated from Erasmus's Greek text",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-genevabible-uses-tyndale",
+    "source": "object-geneva-bible",
+    "target": "object-tyndale-nt",
+    "relationship": "continuation_of",
+    "dateStart": "1560",
+    "evidence": "Geneva Bible built on Tyndale's translation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-39articles-continues-bcp",
+    "source": "object-thirty-nine-articles",
+    "target": "object-bcp-1552",
+    "relationship": "continuation_of",
+    "dateStart": "1563",
+    "evidence": "Based on Cranmer's Forty-Two Articles from same era as 1552 Prayer Book",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-2ndhelvetic-continues-1sthelvetic",
+    "source": "object-second-helvetic-confession",
+    "target": "object-first-helvetic-confession",
+    "relationship": "continuation_of",
+    "dateStart": "1566",
+    "evidence": "Second Helvetic Confession built on Reformed tradition of First",
+    "strength": "moderate"
   }
 ]
