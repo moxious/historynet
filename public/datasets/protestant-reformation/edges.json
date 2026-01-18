@@ -1,0 +1,966 @@
+[
+  {
+    "id": "edge-luther-katharina-spouse",
+    "source": "person-martin-luther",
+    "target": "person-katharina-von-bora",
+    "relationship": "related_to",
+    "label": "Married",
+    "dateStart": "1525",
+    "dateEnd": "1546",
+    "evidence": "Martin Luther and Katharina von Bora were married on June 13, 1525, in Wittenberg. Johannes Bugenhagen performed the ceremony. The marriage produced six children.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reuchlin-melanchthon-relative",
+    "source": "person-johannes-reuchlin",
+    "target": "person-philip-melanchthon",
+    "relationship": "related_to",
+    "label": "Great-uncle",
+    "evidence": "Reuchlin was Melanchthon's great-uncle. He supported young Melanchthon's education and gave him the Greek surname 'Melanchthon.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-gwalther-relative",
+    "source": "person-huldrych-zwingli",
+    "target": "person-rudolf-gwalther",
+    "relationship": "related_to",
+    "label": "Father-in-law",
+    "evidence": "Rudolf Gwalther married Zwingli's daughter Regula, making him Zwingli's son-in-law.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-olivetan-cousins",
+    "source": "person-john-calvin",
+    "target": "person-pierre-robert-olivetan",
+    "relationship": "related_to",
+    "label": "Cousins",
+    "evidence": "Calvin and Olivétan were cousins. Olivétan may have introduced Calvin to Reformed ideas. Calvin wrote the Latin preface to Olivétan's 1535 French Bible.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-katharina-zell-matthew-zell-spouse",
+    "source": "person-katharina-schutz-zell",
+    "target": "person-matthew-zell",
+    "relationship": "related_to",
+    "label": "Married",
+    "dateStart": "1523",
+    "dateEnd": "1548",
+    "evidence": "Katharina married priest Matthew Zell in 1523, one of the first clerical marriages in Strasbourg.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dentiere-froment-spouse",
+    "source": "person-marie-dentiere",
+    "target": "person-antoine-froment",
+    "relationship": "related_to",
+    "label": "Married",
+    "dateStart": "1528",
+    "evidence": "Marie Dentière married Antoine Froment, fellow Geneva reformer, after the death of her first husband.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-john-brothers",
+    "source": "person-frederick-the-wise",
+    "target": "person-john-the-steadfast",
+    "relationship": "related_to",
+    "label": "Brothers",
+    "evidence": "John the Steadfast was Frederick the Wise's brother and successor as Elector of Saxony.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-john-john-frederick-fatherson",
+    "source": "person-john-the-steadfast",
+    "target": "person-john-frederick-i",
+    "relationship": "related_to",
+    "label": "Father and son",
+    "evidence": "John Frederick I was the son and successor of John the Steadfast as Elector of Saxony.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-luther-influenced",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-martin-luther",
+    "relationship": "influenced",
+    "dateStart": "1516",
+    "dateEnd": "1524",
+    "evidence": "Luther studied Erasmus's Greek New Testament (1516) and drew on humanist philological methods. The relationship broke over the free will controversy in 1524.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-zwingli-influenced",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-huldrych-zwingli",
+    "relationship": "influenced",
+    "dateStart": "1516",
+    "dateEnd": "1522",
+    "evidence": "Zwingli was deeply influenced by Erasmus's biblical humanism and studied his Greek New Testament. They corresponded and may have met at Basel.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-hamilton-taught",
+    "source": "person-philip-melanchthon",
+    "target": "person-patrick-hamilton",
+    "relationship": "taught",
+    "dateStart": "1527",
+    "evidence": "Patrick Hamilton studied at the University of Marburg and absorbed Lutheran theology, likely attending lectures by Melanchthon-influenced faculty.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-luther-barnes-influenced",
+    "source": "person-martin-luther",
+    "target": "person-robert-barnes",
+    "relationship": "influenced",
+    "dateStart": "1530",
+    "evidence": "Robert Barnes visited Wittenberg multiple times, became friends with Luther, and was influenced by Lutheran theology.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-calvin-taught",
+    "source": "person-martin-bucer",
+    "target": "person-john-calvin",
+    "relationship": "taught",
+    "dateStart": "1538",
+    "dateEnd": "1541",
+    "evidence": "Calvin spent his Strasbourg exile (1538-1541) under Bucer's mentorship. Bucer influenced Calvin's ecclesiology and pastoral practice.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-capito-olivetan-taught",
+    "source": "person-wolfgang-capito",
+    "target": "person-pierre-robert-olivetan",
+    "relationship": "taught",
+    "evidence": "Olivétan studied Hebrew under Capito in Strasbourg, equipping him for his translation of the Old Testament into French.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bilney-latimer-influenced",
+    "source": "person-thomas-bilney",
+    "target": "person-hugh-latimer",
+    "relationship": "influenced",
+    "dateStart": "1524",
+    "evidence": "Thomas Bilney converted Hugh Latimer to evangelical views at Cambridge, reportedly by asking Latimer to hear his confession.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wishart-knox-taught",
+    "source": "person-george-wishart",
+    "target": "person-john-knox",
+    "relationship": "taught",
+    "dateStart": "1545",
+    "dateEnd": "1546",
+    "evidence": "John Knox served as George Wishart's bodyguard and disciple in 1545-1546. Wishart's execution was formative for Knox's career.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hamilton-wishart-influenced",
+    "source": "person-patrick-hamilton",
+    "target": "person-george-wishart",
+    "relationship": "influenced",
+    "evidence": "Hamilton's martyrdom (1528) inspired subsequent Scottish reformers including Wishart. His 'Patrick's Places' circulated as a summary of Protestant doctrine.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-calvin-knox-influenced",
+    "source": "person-john-calvin",
+    "target": "person-john-knox",
+    "relationship": "influenced",
+    "dateStart": "1554",
+    "dateEnd": "1559",
+    "evidence": "Knox spent time in Geneva and was profoundly influenced by Calvin's Reformed theology and church organization. Knox called Geneva 'the most perfect school of Christ.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-bullinger-succeeded",
+    "source": "person-huldrych-zwingli",
+    "target": "person-heinrich-bullinger",
+    "relationship": "succeeded",
+    "dateStart": "1531",
+    "evidence": "Heinrich Bullinger succeeded Zwingli as Antistes of Zurich after Zwingli's death at the Battle of Kappel (October 11, 1531).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-beza-succeeded",
+    "source": "person-john-calvin",
+    "target": "person-theodore-beza",
+    "relationship": "succeeded",
+    "dateStart": "1564",
+    "evidence": "Theodore Beza succeeded Calvin as moderator of the Company of Pastors in Geneva after Calvin's death (May 27, 1564).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-gwalther-succeeded",
+    "source": "person-heinrich-bullinger",
+    "target": "person-rudolf-gwalther",
+    "relationship": "succeeded",
+    "dateStart": "1575",
+    "evidence": "Rudolf Gwalther succeeded Bullinger as Antistes of Zurich upon Bullinger's death in 1575.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-john-succeeded",
+    "source": "person-frederick-the-wise",
+    "target": "person-john-the-steadfast",
+    "relationship": "succeeded",
+    "dateStart": "1525",
+    "evidence": "John the Steadfast succeeded his brother Frederick the Wise as Elector of Saxony in 1525.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-john-johnfrederick-succeeded",
+    "source": "person-john-the-steadfast",
+    "target": "person-john-frederick-i",
+    "relationship": "succeeded",
+    "dateStart": "1532",
+    "evidence": "John Frederick I succeeded his father John the Steadfast as Elector of Saxony in 1532.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-melanchthon-collaborated",
+    "source": "person-martin-luther",
+    "target": "person-philip-melanchthon",
+    "relationship": "collaborated_with",
+    "dateStart": "1518",
+    "dateEnd": "1546",
+    "evidence": "Luther and Melanchthon were the two central figures of Wittenberg theology for nearly 30 years. Melanchthon systematized Lutheran theology and drafted the Augsburg Confession.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-bugenhagen-collaborated",
+    "source": "person-martin-luther",
+    "target": "person-johannes-bugenhagen",
+    "relationship": "collaborated_with",
+    "dateStart": "1521",
+    "dateEnd": "1546",
+    "evidence": "Bugenhagen was Luther's pastor and confessor. He married Luther and Katharina, baptized their children, and preached Luther's funeral sermon.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-jonas-collaborated",
+    "source": "person-martin-luther",
+    "target": "person-justus-jonas",
+    "relationship": "collaborated_with",
+    "dateStart": "1521",
+    "dateEnd": "1546",
+    "evidence": "Justus Jonas translated Luther's and Melanchthon's Latin works into German. He was present at Luther's death in Eisleben (1546).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-spalatin-collaborated",
+    "source": "person-martin-luther",
+    "target": "person-georg-spalatin",
+    "relationship": "collaborated_with",
+    "dateStart": "1514",
+    "dateEnd": "1545",
+    "evidence": "Spalatin was the crucial intermediary between Luther and Elector Frederick the Wise, explaining Luther's theology to the elector and helping secure Luther's protection.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-cranach-collaborated",
+    "source": "person-martin-luther",
+    "target": "person-lucas-cranach",
+    "relationship": "collaborated_with",
+    "dateStart": "1520",
+    "dateEnd": "1546",
+    "evidence": "Lucas Cranach the Elder was Luther's close friend and collaborator. He created the visual imagery of the Reformation through portraits, woodcuts, and altarpieces.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-bugenhagen-collaborated",
+    "source": "person-philip-melanchthon",
+    "target": "person-johannes-bugenhagen",
+    "relationship": "collaborated_with",
+    "dateStart": "1521",
+    "dateEnd": "1558",
+    "evidence": "Melanchthon and Bugenhagen were colleagues at Wittenberg, both part of the inner circle around Luther.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-melanchthon-cruciger-collaborated",
+    "source": "person-philip-melanchthon",
+    "target": "person-caspar-cruciger",
+    "relationship": "collaborated_with",
+    "evidence": "Cruciger was a Wittenberg faculty member who collaborated with Melanchthon and Luther on the Bible translation.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-zwingli-jud-collaborated",
+    "source": "person-huldrych-zwingli",
+    "target": "person-leo-jud",
+    "relationship": "collaborated_with",
+    "dateStart": "1519",
+    "dateEnd": "1531",
+    "evidence": "Leo Jud and Zwingli were close friends from their student days. Jud came to Zurich in 1522 and collaborated closely with Zwingli on the Reformation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-oecolampadius-collaborated",
+    "source": "person-huldrych-zwingli",
+    "target": "person-johannes-oecolampadius",
+    "relationship": "collaborated_with",
+    "dateStart": "1520",
+    "dateEnd": "1531",
+    "evidence": "Zwingli and Oecolampadius were allies on the symbolic understanding of the Eucharist against Luther. They worked together at the Marburg Colloquy (1529).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-jud-collaborated",
+    "source": "person-heinrich-bullinger",
+    "target": "person-leo-jud",
+    "relationship": "collaborated_with",
+    "dateStart": "1531",
+    "dateEnd": "1542",
+    "evidence": "After Zwingli's death, Bullinger and Leo Jud continued to lead the Zurich Reformation together until Jud's death in 1542.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-megander-collaborated",
+    "source": "person-heinrich-bullinger",
+    "target": "person-kaspar-megander",
+    "relationship": "collaborated_with",
+    "evidence": "Megander was a defender of Zwinglian theology who worked with Bullinger in defending the Swiss Reformed position.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-calvin-farel-collaborated",
+    "source": "person-john-calvin",
+    "target": "person-guillaume-farel",
+    "relationship": "collaborated_with",
+    "dateStart": "1536",
+    "dateEnd": "1565",
+    "evidence": "Farel persuaded Calvin to stay in Geneva in 1536. They were expelled together in 1538 and Calvin returned in 1541. They remained colleagues throughout.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-viret-collaborated",
+    "source": "person-john-calvin",
+    "target": "person-pierre-viret",
+    "relationship": "collaborated_with",
+    "dateStart": "1536",
+    "dateEnd": "1564",
+    "evidence": "Pierre Viret was Calvin's close colleague, working with him and Farel in early Geneva. Part of the 'triumvirate' of Geneva's reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-beza-collaborated",
+    "source": "person-john-calvin",
+    "target": "person-theodore-beza",
+    "relationship": "collaborated_with",
+    "dateStart": "1549",
+    "dateEnd": "1564",
+    "evidence": "Beza joined Calvin in Geneva and became rector of the Geneva Academy (1559). He was Calvin's closest associate in his final years.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-farel-viret-collaborated",
+    "source": "person-guillaume-farel",
+    "target": "person-pierre-viret",
+    "relationship": "collaborated_with",
+    "dateStart": "1530",
+    "dateEnd": "1565",
+    "evidence": "Farel and Viret worked together in the French-speaking Swiss Reformation, part of the 'triumvirate' with Calvin.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-farel-froment-collaborated",
+    "source": "person-guillaume-farel",
+    "target": "person-antoine-froment",
+    "relationship": "collaborated_with",
+    "evidence": "Froment worked alongside Farel in introducing the Reformation to Geneva in the early 1530s.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bucer-capito-collaborated",
+    "source": "person-martin-bucer",
+    "target": "person-wolfgang-capito",
+    "relationship": "collaborated_with",
+    "dateStart": "1523",
+    "dateEnd": "1541",
+    "evidence": "Bucer and Capito were the two leading reformers in Strasbourg. They co-authored the Tetrapolitan Confession (1530).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-matthew-zell-collaborated",
+    "source": "person-martin-bucer",
+    "target": "person-matthew-zell",
+    "relationship": "collaborated_with",
+    "dateStart": "1520",
+    "dateEnd": "1548",
+    "evidence": "Matthew Zell was one of the first Strasbourg priests to preach Protestant ideas. Bucer joined him in leading the Strasbourg Reformation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bucer-katharina-zell-knows",
+    "source": "person-martin-bucer",
+    "target": "person-katharina-schutz-zell",
+    "relationship": "knows",
+    "evidence": "Katharina Schütz Zell was an active participant in the Strasbourg reform circle.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-cranmer-ridley-collaborated",
+    "source": "person-thomas-cranmer",
+    "target": "person-nicholas-ridley",
+    "relationship": "collaborated_with",
+    "dateStart": "1530",
+    "dateEnd": "1555",
+    "evidence": "Nicholas Ridley served as Cranmer's chaplain and collaborated closely with him on liturgical and doctrinal reform. They were martyred together.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-latimer-collaborated",
+    "source": "person-thomas-cranmer",
+    "target": "person-hugh-latimer",
+    "relationship": "collaborated_with",
+    "dateStart": "1530",
+    "dateEnd": "1555",
+    "evidence": "Latimer was one of Cranmer's colleagues in the English Reformation. Both were Oxford Martyrs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-cromwell-collaborated",
+    "source": "person-thomas-cranmer",
+    "target": "person-thomas-cromwell",
+    "relationship": "collaborated_with",
+    "dateStart": "1532",
+    "dateEnd": "1540",
+    "evidence": "Cranmer and Cromwell were the two chief architects of Henry VIII's religious and political reformation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ridley-latimer-collaborated",
+    "source": "person-nicholas-ridley",
+    "target": "person-hugh-latimer",
+    "relationship": "collaborated_with",
+    "dateStart": "1540",
+    "dateEnd": "1555",
+    "evidence": "Ridley and Latimer were fellow reformers under Edward VI and were burned at the stake together at Oxford on October 16, 1555.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-frith-collaborated",
+    "source": "person-william-tyndale",
+    "target": "person-john-frith",
+    "relationship": "collaborated_with",
+    "dateStart": "1520",
+    "dateEnd": "1533",
+    "evidence": "John Frith was Tyndale's associate and assistant in exile. Frith was burned at Smithfield in 1533.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tyndale-coverdale-collaborated",
+    "source": "person-william-tyndale",
+    "target": "person-miles-coverdale",
+    "relationship": "collaborated_with",
+    "dateStart": "1520",
+    "dateEnd": "1535",
+    "evidence": "Coverdale worked with Tyndale on Bible translation and used Tyndale's work extensively in producing the first complete printed English Bible (1535).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-coverdale-cromwell-collaborated",
+    "source": "person-miles-coverdale",
+    "target": "person-thomas-cromwell",
+    "relationship": "collaborated_with",
+    "dateStart": "1535",
+    "dateEnd": "1540",
+    "evidence": "Cromwell patronized and protected Coverdale's Bible translation work, securing royal license for the Great Bible (1539).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranmer-bucer-collaborated",
+    "source": "person-thomas-cranmer",
+    "target": "person-martin-bucer",
+    "relationship": "collaborated_with",
+    "dateStart": "1549",
+    "dateEnd": "1551",
+    "evidence": "Bucer came to England in 1549 at Cranmer's invitation. He was appointed Regius Professor at Cambridge and influenced the 1552 Book of Common Prayer through his Censura.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grebel-manz-collaborated",
+    "source": "person-conrad-grebel",
+    "target": "person-felix-manz",
+    "relationship": "collaborated_with",
+    "dateStart": "1523",
+    "dateEnd": "1526",
+    "evidence": "Conrad Grebel and Felix Manz were co-founders of the Swiss Brethren (Anabaptists). They performed the first adult rebaptism on January 21, 1525.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grebel-blaurock-collaborated",
+    "source": "person-conrad-grebel",
+    "target": "person-george-blaurock",
+    "relationship": "collaborated_with",
+    "dateStart": "1525",
+    "dateEnd": "1526",
+    "evidence": "George Blaurock was baptized by Grebel at the founding of the Swiss Brethren (January 21, 1525) and became a missionary for the movement.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-manz-blaurock-collaborated",
+    "source": "person-felix-manz",
+    "target": "person-george-blaurock",
+    "relationship": "collaborated_with",
+    "dateStart": "1525",
+    "dateEnd": "1527",
+    "evidence": "Manz and Blaurock were fellow Anabaptist leaders in the early Swiss Brethren movement, arrested and released together multiple times.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-more-collaborated",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-thomas-more",
+    "relationship": "collaborated_with",
+    "dateStart": "1499",
+    "dateEnd": "1535",
+    "evidence": "Erasmus and More were close friends from 1499. Erasmus wrote The Praise of Folly (1509) at More's home. Their correspondence lasted decades.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-colet-collaborated",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-john-colet",
+    "relationship": "collaborated_with",
+    "dateStart": "1499",
+    "dateEnd": "1519",
+    "evidence": "Erasmus met Colet at Oxford in 1499. Colet's lectures on Paul inspired Erasmus to pursue biblical scholarship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-more-colet-knows",
+    "source": "person-thomas-more",
+    "target": "person-john-colet",
+    "relationship": "knows",
+    "evidence": "More and Colet were part of the same English humanist circle with Erasmus.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-lefevre-briconnet-collaborated",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "person-guillaume-briconnet",
+    "relationship": "collaborated_with",
+    "dateStart": "1521",
+    "dateEnd": "1525",
+    "evidence": "Lefèvre d'Étaples was part of Bishop Briçonnet's reform circle at Meaux, attempting evangelical reform within the Catholic Church.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lefevre-farel-influenced",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "person-guillaume-farel",
+    "relationship": "influenced",
+    "evidence": "Farel was initially part of Lefèvre's Meaux Circle before moving toward more radical reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-marguerite-lefevre-patron",
+    "source": "person-marguerite-of-navarre",
+    "target": "person-jacques-lefevre-detaples",
+    "relationship": "patron_of",
+    "dateStart": "1520",
+    "dateEnd": "1536",
+    "evidence": "Marguerite protected Lefèvre and other reformers, using her influence as sister of King Francis I. Lefèvre spent his final years at her court.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-marguerite-marot-patron",
+    "source": "person-marguerite-of-navarre",
+    "target": "person-clement-marot",
+    "relationship": "patron_of",
+    "evidence": "Marot was a court poet under Marguerite's patronage. She protected him when his Protestant sympathies brought danger.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-reuchlin-corresponded",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-johannes-reuchlin",
+    "relationship": "corresponded_with",
+    "dateStart": "1510",
+    "dateEnd": "1522",
+    "evidence": "Erasmus and Reuchlin corresponded as fellow humanist scholars. Erasmus supported Reuchlin during the 'Reuchlin Affair' controversy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-capito-corresponded",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-wolfgang-capito",
+    "relationship": "corresponded_with",
+    "evidence": "Capito and Erasmus met at Basel and corresponded. They later became estranged as Capito moved toward Protestant reform.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-erasmus-spalatin-corresponded",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-georg-spalatin",
+    "relationship": "corresponded_with",
+    "evidence": "Spalatin corresponded with Erasmus and other humanists as part of his role at the Saxon court.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-calvin-melanchthon-corresponded",
+    "source": "person-john-calvin",
+    "target": "person-philip-melanchthon",
+    "relationship": "corresponded_with",
+    "dateStart": "1540",
+    "dateEnd": "1560",
+    "evidence": "Calvin and Melanchthon maintained a friendly correspondence despite Lutheran-Reformed tensions. They addressed each other warmly and sought common ground.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-calvin-corresponded",
+    "source": "person-heinrich-bullinger",
+    "target": "person-john-calvin",
+    "relationship": "corresponded_with",
+    "dateStart": "1540",
+    "dateEnd": "1564",
+    "evidence": "Bullinger and Calvin corresponded extensively and reached agreement in the Consensus Tigurinus (1549) on the Eucharist.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-cranmer-corresponded",
+    "source": "person-heinrich-bullinger",
+    "target": "person-thomas-cranmer",
+    "relationship": "corresponded_with",
+    "dateStart": "1530",
+    "dateEnd": "1556",
+    "evidence": "Bullinger corresponded with Cranmer and influenced the English Reformation. Many English exiles under Mary I fled to Zurich.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bullinger-hooper-corresponded",
+    "source": "person-heinrich-bullinger",
+    "target": "person-john-hooper",
+    "relationship": "corresponded_with",
+    "dateStart": "1540",
+    "dateEnd": "1555",
+    "evidence": "Hooper lived in Zurich during his exile (1547-1549) and was influenced by Bullinger's more radical Reformed views.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-knox-beza-corresponded",
+    "source": "person-john-knox",
+    "target": "person-theodore-beza",
+    "relationship": "corresponded_with",
+    "dateStart": "1550",
+    "dateEnd": "1572",
+    "evidence": "Knox and Beza corresponded during Knox's Geneva exile and afterward as Knox led the Scottish Reformation.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-frederick-luther-patron",
+    "source": "person-frederick-the-wise",
+    "target": "person-martin-luther",
+    "relationship": "patron_of",
+    "dateStart": "1517",
+    "dateEnd": "1525",
+    "evidence": "Frederick the Wise protected Luther from papal and imperial action. He arranged Luther's 'kidnapping' to Wartburg Castle for his safety.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-spalatin-patron",
+    "source": "person-frederick-the-wise",
+    "target": "person-georg-spalatin",
+    "relationship": "patron_of",
+    "dateStart": "1508",
+    "dateEnd": "1525",
+    "evidence": "Spalatin served Frederick the Wise as secretary, chaplain, and court historian.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-cranach-patron",
+    "source": "person-frederick-the-wise",
+    "target": "person-lucas-cranach",
+    "relationship": "patron_of",
+    "dateStart": "1505",
+    "dateEnd": "1525",
+    "evidence": "Lucas Cranach the Elder was court painter to Frederick the Wise and his successors.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-john-luther-patron",
+    "source": "person-john-the-steadfast",
+    "target": "person-martin-luther",
+    "relationship": "patron_of",
+    "dateStart": "1525",
+    "dateEnd": "1532",
+    "evidence": "John the Steadfast continued his brother's protection of Luther and openly embraced Lutheranism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-johnfrederick-luther-patron",
+    "source": "person-john-frederick-i",
+    "target": "person-martin-luther",
+    "relationship": "patron_of",
+    "dateStart": "1532",
+    "dateEnd": "1546",
+    "evidence": "John Frederick I continued Saxon patronage of Luther and the Reformation, leading the Schmalkaldic League.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-philip-luther-patron",
+    "source": "person-philip-of-hesse",
+    "target": "person-martin-luther",
+    "relationship": "patron_of",
+    "dateStart": "1524",
+    "dateEnd": "1546",
+    "evidence": "Philip of Hesse was one of the most active Protestant princes, co-founding the Schmalkaldic League with Saxony.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henry-cranmer-patron",
+    "source": "person-henry-viii",
+    "target": "person-thomas-cranmer",
+    "relationship": "patron_of",
+    "dateStart": "1532",
+    "dateEnd": "1547",
+    "evidence": "Henry VIII appointed Cranmer Archbishop of Canterbury (1533) and relied on him to annul his marriage to Catherine of Aragon.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henry-cromwell-patron",
+    "source": "person-henry-viii",
+    "target": "person-thomas-cromwell",
+    "relationship": "patron_of",
+    "dateStart": "1530",
+    "dateEnd": "1540",
+    "evidence": "Henry VIII relied on Thomas Cromwell as chief minister to engineer the break with Rome and dissolve the monasteries.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cromwell-barnes-patron",
+    "source": "person-thomas-cromwell",
+    "target": "person-robert-barnes",
+    "relationship": "patron_of",
+    "evidence": "Cromwell patronized Barnes and used him as a diplomatic intermediary with Lutheran Germany.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cromwell-coverdale-patron",
+    "source": "person-thomas-cromwell",
+    "target": "person-miles-coverdale",
+    "relationship": "patron_of",
+    "dateStart": "1535",
+    "dateEnd": "1540",
+    "evidence": "Cromwell supported Coverdale's Bible translation work and secured official approval for the Great Bible (1539).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-erasmus-opposed",
+    "source": "person-martin-luther",
+    "target": "person-erasmus-of-rotterdam",
+    "relationship": "opposed",
+    "dateStart": "1524",
+    "dateEnd": "1536",
+    "evidence": "The Luther-Erasmus controversy over free will (1524-1525) was one of the defining intellectual battles of the Reformation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-zwingli-opposed",
+    "source": "person-martin-luther",
+    "target": "person-huldrych-zwingli",
+    "relationship": "opposed",
+    "dateStart": "1520",
+    "dateEnd": "1531",
+    "evidence": "Luther and Zwingli disagreed fundamentally on the Lord's Supper. At the Marburg Colloquy (1529), they could not reconcile on the Eucharist.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-karlstadt-opposed",
+    "source": "person-martin-luther",
+    "target": "person-andreas-karlstadt",
+    "relationship": "opposed",
+    "dateStart": "1521",
+    "dateEnd": "1525",
+    "evidence": "Karlstadt was initially Luther's colleague but led radical reforms during Luther's Wartburg exile. Luther returned to reverse Karlstadt's changes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-muntzer-opposed",
+    "source": "person-martin-luther",
+    "target": "person-thomas-muntzer",
+    "relationship": "opposed",
+    "dateStart": "1521",
+    "dateEnd": "1525",
+    "evidence": "Luther rejected Müntzer's emphasis on direct revelation and social revolution, calling him a 'murderous prophet.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-eck-opposed",
+    "source": "person-martin-luther",
+    "target": "person-johann-eck",
+    "relationship": "opposed",
+    "dateStart": "1518",
+    "dateEnd": "1543",
+    "evidence": "Johann Eck was Luther's chief Catholic opponent. At the Leipzig Debate (1519), Eck maneuvered Luther into admitting sympathy with Hus.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-cajetan-opposed",
+    "source": "person-martin-luther",
+    "target": "person-cardinal-thomas-cajetan",
+    "relationship": "opposed",
+    "dateStart": "1518",
+    "evidence": "Cardinal Cajetan interrogated Luther at Augsburg (October 1518) on behalf of the pope, demanding recantation. Luther refused.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-grebel-opposed",
+    "source": "person-huldrych-zwingli",
+    "target": "person-conrad-grebel",
+    "relationship": "opposed",
+    "dateStart": "1523",
+    "dateEnd": "1526",
+    "evidence": "Grebel was Zwingli's student who broke with him over infant baptism and the pace of reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zwingli-manz-opposed",
+    "source": "person-huldrych-zwingli",
+    "target": "person-felix-manz",
+    "relationship": "opposed",
+    "dateStart": "1523",
+    "dateEnd": "1527",
+    "evidence": "Felix Manz was executed by the Zurich council (with Zwingli's approval) by drowning on January 5, 1527—the first Swiss Anabaptist martyr.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-luther-agricola-opposed",
+    "source": "person-martin-luther",
+    "target": "person-johann-agricola",
+    "relationship": "opposed",
+    "dateStart": "1537",
+    "dateEnd": "1540",
+    "evidence": "The Antinomian Controversy pitted Luther against his former student Agricola over the role of the law in Christian life.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-more-luther-opposed",
+    "source": "person-thomas-more",
+    "target": "person-martin-luther",
+    "relationship": "opposed",
+    "dateStart": "1523",
+    "dateEnd": "1535",
+    "evidence": "Thomas More wrote polemics against Luther under a pseudonym (Responsio ad Lutherum, 1523) defending Catholic doctrine and papal authority.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-more-tyndale-opposed",
+    "source": "person-thomas-more",
+    "target": "person-william-tyndale",
+    "relationship": "opposed",
+    "dateStart": "1528",
+    "dateEnd": "1535",
+    "evidence": "More wrote multiple polemical works against Tyndale's Bible translation and theology, including the massive Confutation of Tyndale's Answer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-oecolampadius-opposed",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-johannes-oecolampadius",
+    "relationship": "opposed",
+    "dateStart": "1529",
+    "evidence": "Erasmus became estranged from Oecolampadius when Basel adopted the Reformation (1529). Erasmus left Basel for Freiburg.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-cranmer-hooper-opposed",
+    "source": "person-thomas-cranmer",
+    "target": "person-john-hooper",
+    "relationship": "opposed",
+    "dateStart": "1550",
+    "dateEnd": "1551",
+    "evidence": "Hooper initially refused consecration as bishop because he objected to wearing vestments. Cranmer insisted on traditional vestments.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-luther-tyndale-influenced",
+    "source": "person-martin-luther",
+    "target": "person-william-tyndale",
+    "relationship": "influenced",
+    "evidence": "Tyndale's English New Testament (1526) was significantly influenced by Luther's German translation. Tyndale may have studied in Wittenberg.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-erasmus-bilney-influenced",
+    "source": "person-erasmus-of-rotterdam",
+    "target": "person-thomas-bilney",
+    "relationship": "influenced",
+    "evidence": "Bilney was converted to evangelical faith by reading Erasmus's Greek New Testament, specifically the Latin translation of 1 Timothy 1:15.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cranach-katharina-knows",
+    "source": "person-lucas-cranach",
+    "target": "person-katharina-von-bora",
+    "relationship": "knows",
+    "dateStart": "1523",
+    "evidence": "Lucas Cranach sheltered Katharina and other escaped nuns at his Wittenberg home in 1523 after their escape from the convent.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bugenhagen-luther-knows",
+    "source": "person-johannes-bugenhagen",
+    "target": "person-martin-luther",
+    "relationship": "knows",
+    "dateStart": "1525",
+    "evidence": "Johannes Bugenhagen performed the marriage ceremony of Luther and Katharina von Bora on June 13, 1525, and preached Luther's funeral sermon.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-calvin-marot-collaborated",
+    "source": "person-john-calvin",
+    "target": "person-clement-marot",
+    "relationship": "collaborated_with",
+    "dateStart": "1541",
+    "dateEnd": "1543",
+    "evidence": "Calvin collaborated with Marot on the Genevan Psalter. Marot's metrical French translations of the Psalms became the foundation of Huguenot worship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-philip-bucer-knows",
+    "source": "person-philip-of-hesse",
+    "target": "person-martin-bucer",
+    "relationship": "knows",
+    "dateStart": "1520",
+    "dateEnd": "1540",
+    "evidence": "Bucer served as a theological adviser to Philip of Hesse and participated in the Marburg Colloquy (1529).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-philip-zwingli-knows",
+    "source": "person-philip-of-hesse",
+    "target": "person-huldrych-zwingli",
+    "relationship": "knows",
+    "dateStart": "1529",
+    "evidence": "Philip organized and hosted the Marburg Colloquy (October 1529), inviting both Luther and Zwingli to attempt to reconcile their differences.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-charles-luther-opposed",
+    "source": "person-charles-v",
+    "target": "person-martin-luther",
+    "relationship": "opposed",
+    "dateStart": "1521",
+    "dateEnd": "1546",
+    "evidence": "Charles V presided over the Diet of Worms (1521) where Luther was condemned. He spent decades trying to suppress Protestantism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jonas-luther-knows",
+    "source": "person-justus-jonas",
+    "target": "person-martin-luther",
+    "relationship": "knows",
+    "dateStart": "1521",
+    "dateEnd": "1546",
+    "evidence": "Justus Jonas was present at Luther's death in Eisleben on February 18, 1546, and recorded his final moments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-foxe-cranmer-knows",
+    "source": "person-john-foxe",
+    "target": "person-thomas-cranmer",
+    "relationship": "knows",
+    "evidence": "John Foxe chronicled the martyrdoms of Cranmer, Ridley, and Latimer in his Actes and Monuments (1563).",
+    "strength": "strong"
+  }
+]
