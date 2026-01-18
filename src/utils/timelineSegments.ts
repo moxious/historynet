@@ -56,14 +56,19 @@ export interface SegmentConfig {
   topPadding?: number;
   /** Bottom padding in pixels (default: 50) */
   bottomPadding?: number;
+  /** Map of year to event count for density-aware height allocation */
+  eventsPerYear?: Map<number, number>;
+  /** Pixels per event when calculating density-based height (default: 24) */
+  pixelsPerEvent?: number;
 }
 
-const DEFAULT_CONFIG: Required<SegmentConfig> = {
+const DEFAULT_CONFIG: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> } = {
   gapThreshold: 40,
   minSegmentHeight: 100,
   breakIndicatorHeight: 30,
   topPadding: 50,
   bottomPadding: 50,
+  pixelsPerEvent: 24,
 };
 
 /**
@@ -130,6 +135,45 @@ export function findDensestSegment(segments: TimelineSegment[]): TimelineSegment
 }
 
 /**
+ * Calculate the minimum height required for a segment based on event density.
+ * This ensures years with many events have enough vertical space for stacked events.
+ * 
+ * @param segment The timeline segment
+ * @param eventsPerYear Map of year to event count
+ * @param pixelsPerEvent Pixels required per event for stacking
+ * @returns Minimum height in pixels based on the densest year in the segment
+ */
+function getSegmentDensityHeight(
+  segment: TimelineSegment,
+  eventsPerYear: Map<number, number> | undefined,
+  pixelsPerEvent: number
+): number {
+  if (!eventsPerYear || eventsPerYear.size === 0) {
+    return 0;
+  }
+
+  // Find the maximum events in any single year within this segment
+  let maxEventsInYear = 0;
+  for (let year = segment.yearStart; year <= segment.yearEnd; year++) {
+    const eventCount = eventsPerYear.get(year) ?? 0;
+    maxEventsInYear = Math.max(maxEventsInYear, eventCount);
+  }
+
+  // Calculate minimum height: we need space for max events stacked,
+  // multiplied by the number of years (proportionally)
+  // But we use a simpler heuristic: ensure the densest year has enough space
+  // and scale based on year span
+  const yearSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
+  
+  // Height needed for the densest year's events (stacked in pairs left/right)
+  const densestYearHeight = Math.ceil(maxEventsInYear / 2) * pixelsPerEvent;
+  
+  // Scale by number of years to give proportional space
+  // Use at least densestYearHeight * (1 + log2(yearSpan)) to allow spreading
+  return densestYearHeight * Math.max(1, Math.ceil(Math.log2(yearSpan + 1)));
+}
+
+/**
  * Create a segmented scale for timeline positioning
  * 
  * @param years Array of years with data
@@ -156,11 +200,11 @@ export function createSegmentedScale(
   if (segments.length === 1) {
     // Single segment - use simple linear scale (no breaks needed)
     const seg = segments[0];
-    return createSingleSegmentScale(seg, totalHeight, cfg);
+    return createSingleSegmentScale(seg, totalHeight, cfg, config.eventsPerYear, cfg.pixelsPerEvent);
   }
 
   // Multiple segments - create piecewise scale
-  return createPiecewiseScale(segments, totalHeight, cfg);
+  return createPiecewiseScale(segments, totalHeight, cfg, config.eventsPerYear, cfg.pixelsPerEvent);
 }
 
 /**
@@ -170,7 +214,7 @@ function createFallbackScale(
   minYear: number,
   maxYear: number,
   totalHeight: number,
-  cfg: Required<SegmentConfig>
+  cfg: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> }
 ): SegmentedScale {
   const usableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding;
   const yearSpan = maxYear - minYear;
@@ -206,9 +250,16 @@ function createFallbackScale(
 function createSingleSegmentScale(
   segment: TimelineSegment,
   totalHeight: number,
-  cfg: Required<SegmentConfig>
+  cfg: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> },
+  eventsPerYear?: Map<number, number>,
+  pixelsPerEvent: number = 24
 ): SegmentedScale {
-  const usableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding;
+  // Calculate density-based minimum height
+  const densityHeight = getSegmentDensityHeight(segment, eventsPerYear, pixelsPerEvent);
+  
+  // Use the larger of: available height or density-required height
+  const baseUsableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding;
+  const usableHeight = Math.max(baseUsableHeight, densityHeight);
   const yearSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
 
   const positionedSegment: TimelineSegment = {
@@ -240,11 +291,13 @@ function createSingleSegmentScale(
 function createPiecewiseScale(
   segments: TimelineSegment[],
   totalHeight: number,
-  cfg: Required<SegmentConfig>
+  cfg: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> },
+  eventsPerYear?: Map<number, number>,
+  pixelsPerEvent: number = 24
 ): SegmentedScale {
   const breakCount = segments.length - 1;
   const totalBreakHeight = breakCount * cfg.breakIndicatorHeight;
-  const usableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding - totalBreakHeight;
+  const baseUsableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding - totalBreakHeight;
 
   // Calculate total year span across all segments
   const totalYearSpan = segments.reduce(
@@ -252,25 +305,26 @@ function createPiecewiseScale(
     0
   );
 
-  // Allocate height to each segment proportionally, with minimum
+  // Allocate height to each segment proportionally, considering both year span AND event density
   const segmentHeights: number[] = [];
   let allocatedHeight = 0;
 
   for (const segment of segments) {
     const segmentSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
-    const proportionalHeight = (segmentSpan / totalYearSpan) * usableHeight;
-    const height = Math.max(proportionalHeight, cfg.minSegmentHeight);
+    const proportionalHeight = (segmentSpan / totalYearSpan) * baseUsableHeight;
+    
+    // Calculate density-based minimum for this segment
+    const densityHeight = getSegmentDensityHeight(segment, eventsPerYear, pixelsPerEvent);
+    
+    // Use the maximum of: proportional height, density height, or config minimum
+    const height = Math.max(proportionalHeight, densityHeight, cfg.minSegmentHeight);
     segmentHeights.push(height);
     allocatedHeight += height;
   }
 
-  // If we exceeded available height due to minimums, scale down
-  if (allocatedHeight > usableHeight) {
-    const scaleFactor = usableHeight / allocatedHeight;
-    for (let i = 0; i < segmentHeights.length; i++) {
-      segmentHeights[i] *= scaleFactor;
-    }
-  }
+  // Note: We DON'T scale down if we exceed available height - we allow the timeline
+  // to be taller than the viewport to accommodate dense years. This is intentional
+  // as the user can scroll/pan to navigate.
 
   // Assign Y positions to segments
   const positionedSegments: TimelineSegment[] = [];

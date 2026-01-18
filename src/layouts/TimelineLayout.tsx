@@ -112,6 +112,41 @@ function getEventColor(type: EventType, nodeType: NodeType): string {
 }
 
 /**
+ * Resolve collisions between events by pushing overlapping events apart.
+ * This is a post-processing step after initial Y positioning to handle
+ * edge cases where density-aware scaling still results in overlaps.
+ * 
+ * @param events Array of events with y positions assigned
+ * @param minSpacing Minimum vertical spacing between events
+ */
+function resolveCollisions(events: TimelineEvent[], minSpacing: number): void {
+  if (events.length <= 1) return;
+
+  // Separate events by side (left/right) since they can overlap on the axis
+  // but their labels are on opposite sides
+  const leftEvents = events.filter(e => e.isLeft).sort((a, b) => (a.y ?? 0) - (b.y ?? 0));
+  const rightEvents = events.filter(e => !e.isLeft).sort((a, b) => (a.y ?? 0) - (b.y ?? 0));
+
+  // Resolve collisions within each side
+  for (const sideEvents of [leftEvents, rightEvents]) {
+    for (let i = 1; i < sideEvents.length; i++) {
+      const prev = sideEvents[i - 1];
+      const curr = sideEvents[i];
+      const prevY = prev.y ?? 0;
+      const currY = curr.y ?? 0;
+      
+      // Check for overlap (need minSpacing between events on same side)
+      const overlap = prevY + minSpacing - currY;
+      
+      if (overlap > 0) {
+        // Push current event down to resolve overlap
+        curr.y = currY + overlap;
+      }
+    }
+  }
+}
+
+/**
  * TimelineLayout component
  * Renders events on a single-column vertical timeline with alternating labels
  */
@@ -132,7 +167,7 @@ export function TimelineLayout({
   const [currentGranularity, setCurrentGranularity] = useState<TickGranularity>('decade');
 
   // Process nodes into discrete events
-  const { events, timelineEdges, yearRange, undatedNodes, datedYears, nodeEventMap } = useMemo(() => {
+  const { events, timelineEdges, yearRange, undatedNodes, datedYears, nodeEventMap, eventsPerYear } = useMemo(() => {
     const allEvents: TimelineEvent[] = [];
     const undated: GraphNode[] = [];
     let minYear = Infinity;
@@ -223,12 +258,14 @@ export function TimelineLayout({
     }
 
     // Assign stack offsets for events at the same year
-    let globalIndex = 0;
+    // Alternate left/right WITHIN each year to reduce vertical space by 50%
+    // Events stack in pairs: [left, right] at y=0, [left, right] at y=spacing, etc.
     for (const yearEvents of eventsByYear.values()) {
       yearEvents.forEach((event, stackIndex) => {
-        event.isLeft = globalIndex % 2 === 0;
-        event.stackOffset = stackIndex * EVENT_VERTICAL_SPACING;
-        globalIndex++;
+        // Alternate left/right within the year (not globally)
+        event.isLeft = stackIndex % 2 === 0;
+        // Stack in pairs vertically - each pair shares a row
+        event.stackOffset = Math.floor(stackIndex / 2) * EVENT_VERTICAL_SPACING;
       });
     }
 
@@ -243,6 +280,12 @@ export function TimelineLayout({
     // Collect all years for segmentation
     const datedYears = allEvents.map((e) => e.year);
 
+    // Build events per year map for density-aware scale allocation
+    const eventsPerYear = new Map<number, number>();
+    for (const event of allEvents) {
+      eventsPerYear.set(event.year, (eventsPerYear.get(event.year) ?? 0) + 1);
+    }
+
     return {
       events: allEvents,
       timelineEdges: edges,
@@ -251,6 +294,7 @@ export function TimelineLayout({
       undatedNodes: undated,
       datedYears,
       nodeEventMap: nodeToEvents,
+      eventsPerYear,
     };
   }, [data]);
 
@@ -287,12 +331,15 @@ export function TimelineLayout({
     const contentWidth = AXIS_X + LABEL_WIDTH + LABEL_OFFSET + 100;
 
     // Create segmented scale that compresses large gaps in the timeline
+    // Pass eventsPerYear for density-aware height allocation
     const segmentedScale = createSegmentedScale(datedYears, height * 3, {
       gapThreshold: GAP_THRESHOLD,
       minSegmentHeight: MIN_SEGMENT_HEIGHT,
       breakIndicatorHeight: BREAK_INDICATOR_HEIGHT,
       topPadding: 50,
       bottomPadding: UNDATED_SECTION_HEIGHT + 50,
+      eventsPerYear,
+      pixelsPerEvent: EVENT_VERTICAL_SPACING,
     });
     
     // Store ref for use in reset view
@@ -365,14 +412,15 @@ export function TimelineLayout({
           }
 
           // Draw label (only for labeled ticks)
+          // Position labels to the left of the axis to avoid overlapping event markers
           if (tick.label) {
             tickGroup
               .append('text')
               .attr('class', 'timeline-tick-label')
-              .attr('x', AXIS_X)
-              .attr('y', y - 8)
-              .attr('text-anchor', 'middle')
-              .attr('dominant-baseline', 'auto')
+              .attr('x', AXIS_X - 15)
+              .attr('y', y)
+              .attr('text-anchor', 'end')
+              .attr('dominant-baseline', 'middle')
               .attr('font-size', tick.isMajor ? '12px' : '10px')
               .attr('font-weight', tick.isMajor ? '600' : '400')
               .attr('fill', tick.isMajor ? '#0f172a' : '#64748b')
@@ -429,7 +477,8 @@ export function TimelineLayout({
     }
 
     // Create groups for edges and events
-    const edgeGroup = g.append('g').attr('class', 'timeline-edges');
+    // Note: edge group is populated by a separate useEffect to avoid re-rendering on selection
+    g.append('g').attr('class', 'timeline-edges');
     const eventGroup = g.append('g').attr('class', 'timeline-events');
 
     // Position events on the timeline
@@ -437,54 +486,17 @@ export function TimelineLayout({
       event.y = yScale(event.year) + (event.stackOffset ?? 0);
     }
 
+    // Resolve any remaining collisions between events on the same side
+    resolveCollisions(events, EVENT_VERTICAL_SPACING);
+
     // Create a map of event positions for edge drawing
     const eventPositions = new Map<string, { x: number; y: number }>();
     for (const event of events) {
       eventPositions.set(event.id, { x: AXIS_X, y: event.y ?? 0 });
     }
 
-    // Draw edges only for selected node
-    if (selectedNodeId) {
-      const relevantEdges = timelineEdges.filter(
-        (e) => e.sourceNodeId === selectedNodeId || e.targetNodeId === selectedNodeId
-      );
-
-      for (const edge of relevantEdges) {
-        const sourceEvents = nodeEventMap.get(edge.sourceNodeId);
-        const targetEvents = nodeEventMap.get(edge.targetNodeId);
-        
-        if (!sourceEvents || !targetEvents) continue;
-        
-        // Get the primary event for each node (birth for persons, or the only event)
-        const sourceEvent = sourceEvents.primaryEvent;
-        const targetEvent = targetEvents.primaryEvent;
-        
-        if (!sourceEvent || !targetEvent) continue;
-        
-        const sourceY = sourceEvent.y ?? 0;
-        const targetY = targetEvent.y ?? 0;
-        
-        // Draw curved edge
-        const controlX = AXIS_X + (sourceEvent.isLeft ? -80 : 80);
-        
-        edgeGroup
-          .append('path')
-          .attr('class', 'timeline-edge')
-          .attr('d', `M ${AXIS_X} ${sourceY} Q ${controlX} ${(sourceY + targetY) / 2} ${AXIS_X} ${targetY}`)
-          .attr('fill', 'none')
-          .attr('stroke', getEdgeColor(edge.relationship))
-          .attr('stroke-width', 2)
-          .attr('stroke-opacity', 0.6)
-          .attr('data-id', edge.id)
-          .on('click', (event) => {
-            event.stopPropagation();
-            const originalEdge = data.edges.find((e) => e.id === edge.id);
-            if (originalEdge && onEdgeClick) {
-              onEdgeClick(originalEdge);
-            }
-          });
-      }
-    }
+    // Note: Edge rendering is handled by a separate useEffect to avoid
+    // re-rendering the entire timeline when selection changes.
 
     // Draw events with alternating labels
     const eventElements = eventGroup
@@ -666,6 +678,10 @@ export function TimelineLayout({
     return () => {
       // No cleanup needed
     };
+    // Note: selectedNodeId and selectedEdgeId are intentionally NOT in dependencies
+    // because selection highlighting and edge rendering are handled by separate useEffects.
+    // Including them here would cause the timeline to re-render on every selection,
+    // resetting zoom/pan state.
   }, [
     data,
     dimensions,
@@ -675,10 +691,66 @@ export function TimelineLayout({
     undatedNodes,
     datedYears,
     nodeEventMap,
-    selectedNodeId,
+    eventsPerYear,
     onNodeClick,
     onEdgeClick,
   ]);
+
+  // Update edges when selection changes (without re-rendering the whole timeline)
+  useEffect(() => {
+    if (!svgRef.current) return;
+
+    const svg = d3.select(svgRef.current);
+    const edgeGroup = svg.select<SVGGElement>('.timeline-edges');
+    
+    if (edgeGroup.empty()) return;
+    
+    // Clear existing edges
+    edgeGroup.selectAll('*').remove();
+
+    // Draw edges only for selected node
+    if (selectedNodeId) {
+      const relevantEdges = timelineEdges.filter(
+        (e) => e.sourceNodeId === selectedNodeId || e.targetNodeId === selectedNodeId
+      );
+
+      for (const edge of relevantEdges) {
+        const sourceEvents = nodeEventMap.get(edge.sourceNodeId);
+        const targetEvents = nodeEventMap.get(edge.targetNodeId);
+        
+        if (!sourceEvents || !targetEvents) continue;
+        
+        // Get the primary event for each node (birth for persons, or the only event)
+        const sourceEvent = sourceEvents.primaryEvent;
+        const targetEvent = targetEvents.primaryEvent;
+        
+        if (!sourceEvent || !targetEvent) continue;
+        
+        const sourceY = sourceEvent.y ?? 0;
+        const targetY = targetEvent.y ?? 0;
+        
+        // Draw curved edge
+        const controlX = AXIS_X + (sourceEvent.isLeft ? -80 : 80);
+        
+        edgeGroup
+          .append('path')
+          .attr('class', 'timeline-edge')
+          .attr('d', `M ${AXIS_X} ${sourceY} Q ${controlX} ${(sourceY + targetY) / 2} ${AXIS_X} ${targetY}`)
+          .attr('fill', 'none')
+          .attr('stroke', getEdgeColor(edge.relationship))
+          .attr('stroke-width', 2)
+          .attr('stroke-opacity', 0.6)
+          .attr('data-id', edge.id)
+          .on('click', (clickEvent) => {
+            clickEvent.stopPropagation();
+            const originalEdge = data.edges.find((e) => e.id === edge.id);
+            if (originalEdge && onEdgeClick) {
+              onEdgeClick(originalEdge);
+            }
+          });
+      }
+    }
+  }, [selectedNodeId, timelineEdges, nodeEventMap, data.edges, onEdgeClick]);
 
   // Update selection highlighting
   useEffect(() => {
