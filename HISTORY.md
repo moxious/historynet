@@ -1,6 +1,6 @@
-# HistoryNet - MVP Development History
+# HistoryNet - Development History
 
-This document archives the detailed task lists and completion notes from the MVP development phase (Milestones 1-8). It is preserved for historical reference and deep debugging, but is not required reading for ongoing development.
+This document archives completed milestone task lists and completion notes. It serves as a permanent record of development history while keeping `ROADMAP.md` and `PROGRESS.md` focused on current and future work.
 
 **For current work, see:**
 - `PROGRESS.md` - Active task tracking
@@ -446,7 +446,6 @@ This document archives the detailed task lists and completion notes from the MVP
 
 - MainLayout integration:
   - Passes filteredData to ForceGraphLayout instead of graphData
-  - FilterPanel receives all necessary props from context
 
 Design decisions:
 - Date filtering is inclusive (nodes/edges overlap with range)

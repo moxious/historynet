@@ -136,7 +136,7 @@ URLs use hash routing for GitHub Pages compatibility:
 
 - [PRD.md](./PRD.md) - Product Requirements Document
 - [GRAPH_SCHEMA.md](./GRAPH_SCHEMA.md) - Node and edge schema specification
-- [MILESTONES.md](./MILESTONES.md) - Implementation roadmap
+- [ROADMAP.md](./ROADMAP.md) - Implementation roadmap
 - [PROGRESS.md](./PROGRESS.md) - Task tracking
 - [AGENTS.md](./AGENTS.md) - Agent collaboration guidelines
 

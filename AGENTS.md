@@ -44,8 +44,7 @@ historynet/
 ├── CHANGELOG.md           # What shipped when
 ├── README.md              # User-facing documentation
 │
-├── docs/
-│   └── MVP_HISTORY.md     # Archived M1-M8 task lists and completion notes
+├── HISTORY.md             # Archived milestone task lists and completion notes
 │
 ├── src/                   # Application source code
 │   ├── components/        # React components
@@ -87,8 +86,23 @@ historynet/
 | `ROADMAP.md` | Future direction and milestone overview | When adding new milestones |
 | `PROGRESS.md` | Active task tracking with checkboxes | After completing any task |
 | `CHANGELOG.md` | Record of what shipped | After completing a milestone |
-| `docs/MVP_HISTORY.md` | Archived M1-M8 details (historical reference) | Rarely - only for corrections |
+| `HISTORY.md` | Archived milestone details and completion notes | When archiving completed milestones |
 | `research/RESEARCHING_NETWORKS.md` | Meta-process for researching new historical networks | When research methodology evolves |
+
+### Periodic Cleanup: Moving Completed Work to HISTORY.md
+
+To keep `ROADMAP.md` and `PROGRESS.md` focused on current/future work without losing the record of past accomplishments, periodically move completed milestone content to `HISTORY.md`:
+
+1. **When to clean up**: When `PROGRESS.md` or `ROADMAP.md` becomes cluttered with old completed milestones
+2. **What to move**: 
+   - Completed task lists from `PROGRESS.md`
+   - Completion notes and implementation details
+   - Archived milestone sections from `ROADMAP.md`
+3. **How to move**:
+   - Copy the completed milestone section to `HISTORY.md`
+   - Replace the detailed content in `PROGRESS.md` with a summary row in the "Completed Milestones" table
+   - Keep a brief reference in `ROADMAP.md` pointing to `HISTORY.md`
+4. **Preserve**: Always keep the task checkboxes and completion notes—this is the permanent record of what was built and when
 
 ### Reading Order for New Agents
 
@@ -96,7 +110,7 @@ historynet/
 2. **Read `GRAPH_SCHEMA.md`** to understand the data model
 3. **Check `ROADMAP.md`** to see completed work and future direction
 4. **Consult `PROGRESS.md`** to find active tasks to work on
-5. **For historical context**: Check `docs/MVP_HISTORY.md` if debugging or understanding past decisions
+5. **For historical context**: Check `HISTORY.md` if debugging or understanding past decisions
 6. **For dataset research**: Read `research/RESEARCHING_NETWORKS.md` for the research methodology
 
 ---

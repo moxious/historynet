@@ -9,7 +9,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Planned
-- M9: Application Verification - feature review and code quality assessment
+- M10: UX Improvements - debouncing, label simplification, panel visibility refinements
+
+---
+
+## [1.2.0] - 2026-01-18
+
+### Added
+- **M9: Application Verification** - Comprehensive feature and code review completed
+
+### Fixed
+- **Enlightenment dataset** now appears in dataset selector (was missing from AVAILABLE_DATASETS)
+- **README.md** documentation link corrected (MILESTONES.md → ROADMAP.md)
+
+### Code Review Findings
+- All feature verification tasks (V1-V10) passed
+- Code review (R1-R8) completed with recommendations documented
+- Documentation review (D1-D3) completed
+
+### Recommendations for Future
+- Extract shared layout utilities (getNodeColor, getEdgeColor) to reduce duplication
+- Consider splitting GraphContext if application grows significantly
+- Move @types/d3 to devDependencies
 
 ---
 

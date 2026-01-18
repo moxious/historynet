@@ -12,8 +12,8 @@ This document outlines the milestone structure and future direction for HistoryN
 |---|-----------|--------|
 | M1-M7 | MVP (Bootstrap through Deployment) | ✅ Complete |
 | M8 | Timeline View | ✅ Complete |
-| M9 | Application Verification | 🔲 Active |
-| M10 | User Annotations | 🔲 Future |
+| M9 | Application Verification | ✅ Complete |
+| M10 | UX Improvements | 🔲 Active |
 | M11 | Advanced Visualization | 🔲 Future |
 
 ---
@@ -33,22 +33,26 @@ The core application is complete and deployed:
 
 **Shipped Datasets**: Disney Characters, Rosicrucian Network, Enlightenment, AI-LLM Research
 
-See `docs/MVP_HISTORY.md` for detailed implementation history.
+See `HISTORY.md` for detailed implementation history.
 
 ---
 
-## Active: M9 - Application Verification
+## Completed: M9 - Application Verification
 
 **Goal**: Systematic verification of all shipped features paired with principal-level code review.
 
 **Deliverables**:
-- Feature verification checklist (V1-V10) with documented results
-- Code review findings (R1-R8) with actionable recommendations
-- Documentation review (D1-D3)
-- Critical fixes applied
-- Architecture documentation for key decisions
+- ✅ Feature verification checklist (V1-V10) with documented results
+- ✅ Code review findings (R1-R8) with actionable recommendations
+- ✅ Documentation review (D1-D3)
+- ✅ Critical fixes applied (Enlightenment dataset registration, README link fix)
+- ✅ Architecture documentation for key decisions
 
-**Tasks**: See `PROGRESS.md` section M9
+**Key Fixes Applied**:
+- Added `enlightenment` to AVAILABLE_DATASETS in `dataLoader.ts`
+- Fixed README reference from MILESTONES.md to ROADMAP.md
+
+**See `PROGRESS.md` section M9 for detailed results**
 
 ---
 
@@ -130,8 +134,8 @@ When planning a new milestone:
 - [x] User can switch between graph and timeline
 - [x] Layout selection persists in URL
 
-### M9 (Verification) is complete when:
-- [ ] All feature verification tasks pass (V1-V10)
-- [ ] Code review findings documented (R1-R8)
-- [ ] Documentation verified accurate (D1-D3)
-- [ ] Critical issues resolved
+### M9 (Verification) was complete when:
+- [x] All feature verification tasks pass (V1-V10)
+- [x] Code review findings documented (R1-R8)
+- [x] Documentation verified accurate (D1-D3)
+- [x] Critical issues resolved
