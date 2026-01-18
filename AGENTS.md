@@ -72,6 +72,13 @@ historynet/
 │       ├── progress.md    # Research phase tracking
 │       └── *.md           # Research documents (see meta-process)
 │
+├── scripts/               # Build-time scripts (not shipped to production)
+│   └── validate-datasets/ # Dataset validation CLI tool
+│       ├── index.ts       # Main entry point
+│       ├── types.ts       # Validation types and interfaces
+│       ├── reporter.ts    # Output formatting
+│       └── validators/    # Individual validators
+│
 ├── .github/
 │   └── workflows/         # GitHub Actions for deployment
 │
@@ -227,7 +234,41 @@ For agents creating historical datasets:
 
 ### Dataset Validation
 
-Before submitting a new dataset:
+**Run the validation CLI before submitting any dataset changes:**
+
+```bash
+# Validate all datasets
+npm run validate:datasets
+
+# Validate a specific dataset
+npm run validate:datasets -- --dataset disney-characters
+
+# Strict mode (treats warnings as errors)
+npm run validate:datasets:strict
+
+# JSON output (for CI/parsing)
+npm run validate:datasets -- --json --quiet
+```
+
+The validation tool checks:
+
+| Check | Severity | Description |
+|-------|----------|-------------|
+| JSON syntax | Error | Files must be valid JSON |
+| Required fields | Error | `id`, `type`, `title` for nodes; `id`, `source`, `target`, `relationship` for edges |
+| Node types | Error | Must be `person`, `object`, `location`, or `entity` |
+| Date formats | Error | ISO 8601 (YYYY-MM-DD) or year-only (YYYY) |
+| URL formats | Error | Valid HTTP/HTTPS URLs for `imageUrl`, `evidenceUrl`, external links |
+| Duplicate IDs | Error | Node and edge IDs must be unique |
+| Broken references | Error | Edge `source`/`target` must exist in nodes |
+| Missing evidence | Warning | Edges should have `evidence`, `evidenceNodeId`, or `evidenceUrl` |
+| Missing recommended fields | Warning | Type-specific fields like `biography`, `objectType` |
+| Non-standard IDs | Warning | IDs should follow `{type}-{slug}` pattern |
+| Unknown relationship types | Warning | Consider adding to `manifest.customRelationshipTypes` |
+
+**Validation runs automatically in CI** - the GitHub Actions workflow runs `npm run validate:datasets` before building. Invalid datasets will fail the deployment.
+
+Manual checklist for dataset review:
 - [ ] All required fields present
 - [ ] All edge source/target IDs exist in nodes
 - [ ] No orphan nodes (unless intentional)

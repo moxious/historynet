@@ -11,6 +11,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - **Protestant Reformation Dataset** - New historical network with 180 nodes (65 people, 44 objects, 43 locations, 28 entities) and 101 relationships covering the 16th century Reformation (c. 1483-1564). Includes Luther, Calvin, Zwingli, Erasmus, and their networks across Lutheran, Reformed, Radical, and English reform movements.
 
+- **M16: Network Verification** - Build-time CLI validation tools for dataset integrity
+  - Validates JSON syntax, encoding, and structure
+  - Checks manifest.json required/recommended fields
+  - Validates nodes (required fields, valid types, date formats, URL formats)
+  - Validates edges (required fields, relationship types, evidence)
+  - Cross-reference validation (broken references, orphan detection)
+  - CLI with options: `--strict`, `--dataset`, `--quiet`, `--json`
+  - npm scripts: `validate:datasets`, `validate:datasets:strict`
+  - Integrated into GitHub Actions - runs before build
+  - Fixed data issues in ai-llm-research (missing location-new-york node) and ambient-music (empty dateEnd fields)
+
 ### Planned
 - M12: User Feedback - feedback form with Vercel serverless functions
 

@@ -35,6 +35,7 @@ All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for d
 | M13 | Scenius Rebrand & Theme System | 2026-01-18 |
 | M14 | Timeline Improvements | 2026-01-18 |
 | M15 | Stable Resource URLs | 2026-01-18 |
+| M16 | Network Verification | 2026-01-18 |
 
 **Key decisions made during MVP:**
 - React Context for state management (sufficient for app scale)

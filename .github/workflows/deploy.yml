@@ -42,6 +42,9 @@ jobs:
       - name: Run type check
         run: npx tsc --noEmit
 
+      - name: Validate datasets
+        run: npm run validate:datasets
+
       - name: Build for production
         run: npm run build
 

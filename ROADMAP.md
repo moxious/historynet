@@ -19,7 +19,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M13 | Scenius Rebrand & Theme System | ✅ Complete |
 | M14 | Timeline Improvements | ✅ Complete |
 | M15 | Stable Resource URLs | ✅ Complete |
-| M16 | Network Verification | 🔲 Future |
+| M16 | Network Verification | ✅ Complete |
 | M17 | Dataset Search & Filter | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
@@ -194,7 +194,7 @@ Note: Dynamic meta tags in an SPA require either server-side rendering or a prer
 
 ---
 
-## Future: M16 - Network Verification
+## Completed: M16 - Network Verification ✅
 
 **Goal**: Implement build-time CLI validation tools that verify all datasets conform to the graph schema before deployment. Invalid or malformed datasets should fail the build, preventing broken data from reaching production.
 
@@ -341,18 +341,18 @@ Add to `devDependencies`:
 
 ### Tasks
 
-1. [ ] Create `scripts/validate-datasets/` directory structure
-2. [ ] Implement JSON syntax validator
-3. [ ] Implement manifest schema validator
-4. [ ] Implement node schema validator with type-specific rules
-5. [ ] Implement edge schema validator
-6. [ ] Implement cross-reference validator
-7. [ ] Implement reporter with colored output and summary
-8. [ ] Add CLI argument parsing (--strict, --dataset, --quiet, --json)
-9. [ ] Add npm scripts to package.json
-10. [ ] Update GitHub Actions workflow to run validation before build
-11. [ ] Add validation documentation to AGENTS.md
-12. [ ] Test against all existing datasets, fix any discovered issues
+1. [x] Create `scripts/validate-datasets/` directory structure
+2. [x] Implement JSON syntax validator
+3. [x] Implement manifest schema validator
+4. [x] Implement node schema validator with type-specific rules
+5. [x] Implement edge schema validator
+6. [x] Implement cross-reference validator
+7. [x] Implement reporter with colored output and summary
+8. [x] Add CLI argument parsing (--strict, --dataset, --quiet, --json)
+9. [x] Add npm scripts to package.json
+10. [x] Update GitHub Actions workflow to run validation before build
+11. [x] Add validation documentation to AGENTS.md
+12. [x] Test against all existing datasets, fix any discovered issues
 
 ---
 
@@ -452,9 +452,9 @@ M9-M11, M13, M14 (Polish Complete) ✅
     │
     ├──────────────────┬──────────────────┬──────────────────┐
     ▼                  ▼                  ▼                  ▼
-   M12                M15                M16                M17
+   M12                M15 ✅             M16 ✅             M17
    (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)
-   [Vercel req'd]    [independent]      [independent]      [independent]
+   [Vercel req'd]    [Complete]         [Complete]         [independent]
 ```
 
 Note: M12, M15, M16, and M17 can be worked on in parallel as they have no dependencies on each other. However:
