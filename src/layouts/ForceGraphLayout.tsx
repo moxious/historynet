@@ -170,7 +170,10 @@ export function ForceGraphLayout({
       }
     }
 
-    // Create force simulation
+    // Create force simulation with tuned parameters (GI6-GI11)
+    // - Reduced charge strength (-250 vs -400) to prevent nodes from flying apart
+    // - Added forceX/forceY with weak gravity (0.05) to keep disconnected nodes visible
+    // - Kept link distance at 120 for readable connections
     const simulation = d3
       .forceSimulation<SimulationNode>(nodes)
       .force(
@@ -180,9 +183,12 @@ export function ForceGraphLayout({
           .id((d) => d.id)
           .distance(120)
       )
-      .force('charge', d3.forceManyBody().strength(-400))
+      .force('charge', d3.forceManyBody().strength(-250))
       .force('center', d3.forceCenter(width / 2, height / 2))
-      .force('collision', d3.forceCollide().radius(NODE_SIZE * 0.8));
+      .force('collision', d3.forceCollide().radius(NODE_SIZE * 0.8))
+      // Soft gravity to keep disconnected nodes from drifting too far
+      .force('x', d3.forceX(width / 2).strength(0.05))
+      .force('y', d3.forceY(height / 2).strength(0.05));
 
     simulationRef.current = simulation;
 
