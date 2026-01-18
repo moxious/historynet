@@ -165,6 +165,8 @@
     "type": "person",
     "title": "Alec Radford",
     "shortDescription": "Research scientist at OpenAI; primary author of GPT-1, GPT-2, CLIP, DALL-E",
+    "dateStart": "1993",
+    "nationality": "American",
     "occupations": ["AI researcher"],
     "biography": "Alec Radford is a research scientist at OpenAI since its early days. Primary author on GPT-1, GPT-2, CLIP, and DALL-E papers. Rarely gives interviews but considered one of most impactful researchers in the field."
   },
@@ -173,7 +175,10 @@
     "type": "person",
     "title": "Mira Murati",
     "shortDescription": "Former CTO of OpenAI (2022-2024); oversaw ChatGPT and DALL-E development",
+    "dateStart": "1988-12-16",
+    "nationality": "Albanian-American",
     "occupations": ["engineer", "executive"],
+    "birthPlace": "Vlorë, Albania",
     "biography": "Mira Murati served as CTO of OpenAI from May 2022 to September 2024. Oversaw ChatGPT and DALL-E development. Served as interim CEO during November 2023 crisis. Departed in September 2024."
   },
   {
@@ -231,8 +236,10 @@
     "type": "person",
     "title": "Daniela Amodei",
     "shortDescription": "Co-founder and President of Anthropic; former OpenAI policy lead",
+    "dateStart": "1987-08-14",
     "nationality": "American",
     "occupations": ["executive"],
+    "birthPlace": "San Francisco, California",
     "biography": "Daniela Amodei co-founded Anthropic with her brother Dario, serving as President. BA in English Literature. Previously led safety and policy at OpenAI."
   },
   {
@@ -240,6 +247,8 @@
     "type": "person",
     "title": "Jared Kaplan",
     "shortDescription": "Co-founder and Chief Science Officer at Anthropic; scaling laws researcher",
+    "dateStart": "1983",
+    "nationality": "American",
     "occupations": ["AI researcher", "physicist"],
     "biography": "Jared Kaplan is co-founder and Chief Science Officer at Anthropic. Key researcher on neural scaling laws. Physics PhD. Former Johns Hopkins professor. Scaling laws work foundational to LLM development."
   },
@@ -256,6 +265,8 @@
     "type": "person",
     "title": "Tom Brown",
     "shortDescription": "Co-founder of Anthropic; lead author of GPT-3 paper",
+    "dateStart": "1987-04-01",
+    "nationality": "American",
     "occupations": ["AI researcher"],
     "biography": "Tom Brown co-founded Anthropic and serves as Chief Compute Officer. Lead author of the GPT-3 paper ('Language Models are Few-Shot Learners'), one of the most cited AI papers."
   },
@@ -272,8 +283,10 @@
     "type": "person",
     "title": "Chris Olah",
     "shortDescription": "Co-founder of Anthropic; pioneer of neural network interpretability; founded Distill.pub",
+    "dateStart": "1992",
+    "nationality": "Canadian",
     "occupations": ["AI researcher"],
-    "biography": "Chris Olah co-founded Anthropic focusing on interpretability research. Pioneer of neural network visualization and interpretability. Self-taught researcher. Founded Distill.pub. Previously at Google Brain and OpenAI."
+    "biography": "Chris Olah co-founded Anthropic focusing on interpretability research. Pioneer of neural network visualization and interpretability. Self-taught researcher. Founded Distill.pub. Previously at Google Brain and OpenAI. Thiel Fellow in 2012."
   },
   {
     "id": "person-niki-parmar",
@@ -302,8 +315,10 @@
     "type": "person",
     "title": "Shane Legg",
     "shortDescription": "Co-founder and Chief AGI Scientist at Google DeepMind; co-coined 'AGI'",
-    "nationality": "New Zealand",
+    "dateStart": "1973",
+    "nationality": "New Zealander",
     "occupations": ["AI researcher"],
+    "birthPlace": "New Zealand",
     "biography": "Shane Legg co-founded DeepMind with Hassabis and Suleyman. Chief AGI Scientist. Theoretical work on artificial general intelligence. PhD under Marcus Hutter. Co-coined the term 'AGI'."
   },
   {
@@ -322,7 +337,10 @@
     "type": "person",
     "title": "John Jumper",
     "shortDescription": "Director at Google DeepMind; led AlphaFold2; Nobel Prize in Chemistry (2024)",
+    "dateStart": "1985",
+    "nationality": "American",
     "occupations": ["AI researcher", "computational biologist"],
+    "birthPlace": "Little Rock, Arkansas",
     "biography": "John Jumper is a Director at Google DeepMind and led AlphaFold2 development, solving protein structure prediction. PhD in chemistry from University of Chicago. Won Nobel Prize in Chemistry (2024) with Hassabis."
   },
   {
@@ -330,6 +348,7 @@
     "type": "person",
     "title": "David Silver",
     "shortDescription": "Principal Research Scientist at Google DeepMind; led AlphaGo, AlphaZero, AlphaStar",
+    "dateStart": "1976-09-26",
     "nationality": "British",
     "occupations": ["AI researcher", "professor"],
     "biography": "David Silver is Principal Research Scientist at DeepMind and led AlphaGo, AlphaZero, and AlphaStar projects. UCL professor. PhD under Richard Sutton. Key architect of game-playing AI systems."
@@ -356,6 +375,8 @@
     "type": "person",
     "title": "Oriol Vinyals",
     "shortDescription": "VP of Research at Google DeepMind; Gemini co-lead; AlphaStar researcher",
+    "dateStart": "1983",
+    "nationality": "Spanish",
     "occupations": ["AI researcher", "executive"],
     "biography": "Oriol Vinyals is VP of Research at Google DeepMind and Gemini co-lead. Key researcher on sequence-to-sequence learning, AlphaStar. Formerly at Google Brain."
   },
@@ -393,6 +414,7 @@
     "type": "person",
     "title": "Quoc V. Le",
     "shortDescription": "Research scientist at Google Brain/DeepMind; AutoML pioneer",
+    "dateStart": "1982",
     "nationality": "Vietnamese-American",
     "occupations": ["AI researcher"],
     "biography": "Quoc V. Le is a research scientist at Google Brain/DeepMind. Key researcher in AutoML and neural architecture search. Student of Andrew Ng at Stanford."
@@ -402,6 +424,8 @@
     "type": "person",
     "title": "Samy Bengio",
     "shortDescription": "Senior Director at Apple AI; former Google Brain researcher; brother of Yoshua Bengio",
+    "dateStart": "1965",
+    "nationality": "Canadian",
     "occupations": ["AI researcher", "executive"],
     "biography": "Samy Bengio is Senior Director at Apple AI. Former Google Brain researcher. Brother of Yoshua Bengio. Led machine learning research at Google. Joined Apple in 2021."
   },
@@ -410,7 +434,10 @@
     "type": "person",
     "title": "Noam Shazeer",
     "shortDescription": "Co-author of Transformer paper; VP at Google co-leading Gemini; founded Character.AI",
+    "dateStart": "1976",
+    "nationality": "American",
     "occupations": ["AI researcher", "entrepreneur"],
+    "birthPlace": "Philadelphia, Pennsylvania",
     "biography": "Noam Shazeer is co-author of 'Attention Is All You Need' (Transformer paper). Left Google to found Character.AI (2021), then returned to Google (2024) as VP of Engineering co-leading Gemini. Created Meena chatbot."
   },
   {
@@ -418,7 +445,10 @@
     "type": "person",
     "title": "Ashish Vaswani",
     "shortDescription": "Co-inventor of Transformer architecture; co-founder of Essential AI and Adept",
+    "dateStart": "1986",
+    "nationality": "Indian-American",
     "occupations": ["AI researcher", "entrepreneur"],
+    "birthPlace": "India",
     "biography": "Ashish Vaswani is co-inventor of the Transformer architecture ('Attention Is All You Need'). Former Google Brain. Co-founded Adept, then Essential AI. Transformers are foundation of all modern LLMs."
   },
   {
@@ -442,7 +472,10 @@
     "type": "person",
     "title": "Aidan Gomez",
     "shortDescription": "Co-inventor of Transformer; co-founder and CEO of Cohere",
+    "dateStart": "1996",
+    "nationality": "Canadian",
     "occupations": ["AI researcher", "entrepreneur"],
+    "birthPlace": "Toronto, Ontario, Canada",
     "biography": "Aidan Gomez is co-inventor of the Transformer architecture (was an intern at Google at the time). Co-founded Cohere in 2019, serving as CEO. Major enterprise LLM provider."
   },
   {
@@ -469,6 +502,8 @@
     "type": "person",
     "title": "Ruslan Salakhutdinov",
     "shortDescription": "Professor at Carnegie Mellon; former Apple AI Director; deep generative models pioneer",
+    "dateStart": "1980",
+    "nationality": "Canadian",
     "occupations": ["AI researcher", "professor"],
     "biography": "Ruslan Salakhutdinov is Professor at Carnegie Mellon and former Apple AI Director. PhD under Geoffrey Hinton. Pioneer of deep generative models and Boltzmann machines."
   },
@@ -477,6 +512,8 @@
     "type": "person",
     "title": "Yee-Whye Teh",
     "shortDescription": "Professor at Oxford; Research Scientist at Google DeepMind; Bayesian nonparametrics expert",
+    "dateStart": "1977",
+    "nationality": "Malaysian-British",
     "occupations": ["AI researcher", "professor"],
     "biography": "Yee-Whye Teh is Professor at Oxford and Research Scientist at Google DeepMind. PhD under Geoffrey Hinton. Expert in Bayesian nonparametrics and deep learning theory."
   },
@@ -519,6 +556,7 @@
     "type": "person",
     "title": "Kyunghyun Cho",
     "shortDescription": "Professor at NYU; co-inventor of GRU architecture",
+    "dateStart": "1985",
     "nationality": "South Korean",
     "occupations": ["AI researcher", "professor"],
     "biography": "Kyunghyun Cho is Professor at NYU and Senior Director at Genentech. Co-inventor of the GRU (Gated Recurrent Unit) architecture with Bengio. Former MILA postdoc."
@@ -536,7 +574,10 @@
     "type": "person",
     "title": "Doina Precup",
     "shortDescription": "Professor at McGill; Research Team Lead at Google DeepMind Montreal; RL theorist",
+    "dateStart": "1971-01-28",
+    "nationality": "Romanian-Canadian",
     "occupations": ["AI researcher", "professor"],
+    "birthPlace": "Cluj-Napoca, Romania",
     "biography": "Doina Precup is Professor at McGill and Research Team Lead at Google DeepMind Montreal. Expert in reinforcement learning theory and temporal abstraction. MILA member."
   },
   {
@@ -555,8 +596,10 @@
     "type": "person",
     "title": "Pieter Abbeel",
     "shortDescription": "Professor at UC Berkeley; co-founder of Covariant; pioneer of robot learning",
+    "dateStart": "1977",
     "nationality": "Belgian-American",
     "occupations": ["AI researcher", "professor", "entrepreneur"],
+    "birthPlace": "Antwerp, Belgium",
     "biography": "Pieter Abbeel is Professor at UC Berkeley and co-founder of Covariant (robotics). First PhD student of Andrew Ng at Stanford. Pioneer of robot learning and deep reinforcement learning. BAIR director."
   },
   {
@@ -564,7 +607,10 @@
     "type": "person",
     "title": "Daphne Koller",
     "shortDescription": "Co-founder of Coursera; CEO of Insitro; probabilistic graphical models expert",
+    "dateStart": "1968-08-27",
+    "nationality": "Israeli-American",
     "occupations": ["AI researcher", "professor", "entrepreneur"],
+    "birthPlace": "Jerusalem, Israel",
     "biography": "Daphne Koller is co-founder of Coursera and CEO of Insitro. Stanford professor. Expert in probabilistic graphical models. Pioneer of MOOCs. Now applying ML to drug discovery."
   },
   {
@@ -572,6 +618,7 @@
     "type": "person",
     "title": "Timnit Gebru",
     "shortDescription": "Founder of DAIR Institute; AI ethics pioneer",
+    "dateStart": "1983-05-13",
     "nationality": "Ethiopian-American",
     "occupations": ["AI researcher"],
     "biography": "Timnit Gebru is founder of DAIR Institute. PhD under Fei-Fei Li at Stanford. Pioneer of AI ethics. Co-author of Gender Shades (facial recognition bias study). Controversially fired from Google in 2020. Leading voice on AI ethics."
@@ -589,8 +636,10 @@
     "type": "person",
     "title": "Richard Socher",
     "shortDescription": "Founder of you.com; former Salesforce Chief Scientist; deep learning NLP pioneer",
+    "dateStart": "1983-08",
     "nationality": "German-American",
     "occupations": ["AI researcher", "entrepreneur"],
+    "birthPlace": "Dresden, Germany",
     "biography": "Richard Socher is founder and CEO of you.com and former Salesforce Chief Scientist. PhD at Stanford (Manning, Ng). Pioneer of deep learning for NLP and recursive neural networks."
   },
   {
@@ -598,7 +647,10 @@
     "type": "person",
     "title": "Joelle Pineau",
     "shortDescription": "VP of AI Research at Meta; Professor at McGill/MILA; RL and healthcare AI expert",
+    "dateStart": "1974",
+    "nationality": "Canadian",
     "occupations": ["AI researcher", "professor", "executive"],
+    "birthPlace": "Ottawa, Ontario, Canada",
     "biography": "Joelle Pineau is VP of AI Research at Meta and Professor at McGill. MILA core member. Expert in reinforcement learning and healthcare AI. Strong advocate for reproducible research."
   },
   {
@@ -622,6 +674,7 @@
     "type": "person",
     "title": "Guillaume Lample",
     "shortDescription": "Chief Scientist at Mistral AI; former Meta researcher; co-author of LLaMA",
+    "dateStart": "1990-10-08",
     "nationality": "French",
     "occupations": ["AI researcher"],
     "biography": "Guillaume Lample is Chief Scientist at Mistral AI and former Meta FAIR researcher. Co-author of LLaMA. Expert in unsupervised machine translation. École Polytechnique alumnus. Co-founded Mistral with Mensch and Lacroix."
@@ -664,8 +717,10 @@
     "type": "person",
     "title": "Arthur Mensch",
     "shortDescription": "Co-founder and CEO of Mistral AI; former DeepMind researcher",
+    "dateStart": "1992-07-17",
     "nationality": "French",
     "occupations": ["AI researcher", "entrepreneur"],
+    "birthPlace": "Sèvres, France",
     "biography": "Arthur Mensch is co-founder and CEO of Mistral AI. Former Google DeepMind researcher. École Polytechnique alumnus. Leads major European AI company."
   },
   {
@@ -705,6 +760,7 @@
     "type": "person",
     "title": "Clément Delangue",
     "shortDescription": "Co-founder and CEO of Hugging Face",
+    "dateStart": "1988-06-14",
     "nationality": "French",
     "occupations": ["entrepreneur", "executive"],
     "biography": "Clément Delangue is co-founder and CEO of Hugging Face. Built dominant platform for AI model sharing. Former product manager. Made AI models accessible to developers worldwide."
@@ -784,7 +840,10 @@
     "type": "person",
     "title": "Richard Sutton",
     "shortDescription": "Professor at University of Alberta; father of reinforcement learning; inventor of TD learning",
+    "dateStart": "1957",
+    "nationality": "American-Canadian",
     "occupations": ["AI researcher", "professor"],
+    "birthPlace": "Ohio, United States",
     "biography": "Richard Sutton is Professor at University of Alberta and 'father of reinforcement learning'. Inventor of temporal difference learning. Co-authored foundational RL textbook with Barto. Trained David Silver. His 'Bitter Lesson' essay highly influential in AI philosophy.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton"}
@@ -795,6 +854,8 @@
     "type": "person",
     "title": "Michael I. Jordan",
     "shortDescription": "Professor at UC Berkeley; pioneer of probabilistic graphical models; trained many leading researchers",
+    "dateStart": "1956-02-25",
+    "nationality": "American",
     "occupations": ["AI researcher", "professor"],
     "biography": "Michael I. Jordan is Professor at UC Berkeley. Pioneer of probabilistic graphical models and variational inference. Trained many leading researchers including Yoshua Bengio (postdoc) and Zoubin Ghahramani. One of most influential ML researchers.",
     "externalLinks": [
@@ -1575,6 +1636,7 @@
     "type": "person",
     "title": "Max Welling",
     "shortDescription": "Co-inventor of VAEs; professor at University of Amsterdam; VP at Microsoft Research",
+    "dateStart": "1968-10-22",
     "nationality": "Dutch",
     "occupations": ["AI researcher", "professor"],
     "biography": "Max Welling co-invented Variational Auto-Encoders (VAEs) with Diederik Kingma in 2013. Professor at University of Amsterdam and VP at Microsoft Research. Pioneer of probabilistic deep learning and generative models. Former VP of Technology at Qualcomm AI Research.",
