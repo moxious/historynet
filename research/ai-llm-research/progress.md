@@ -50,15 +50,32 @@
 - [x] Validate against schema
 - [x] Place in public/datasets/
 
+### Phase R: Revisions (2026-01-18)
+Targeted additions based on review feedback:
+
+**High Priority:**
+- [x] Add Tomas Mikolov (Word2Vec creator) and fix Word2Vec authorship
+- [x] Add Jacob Devlin and BERT authorship edges
+- [x] Add Inflection AI entity and connect to Suleyman
+- [x] Verify SSI entity includes Jan Leike as co-founder (already correct)
+
+**Medium Priority:**
+- [x] Add Max Welling (VAE co-author) and VAE paper object
+- [x] Add Character.AI entity with Shazeer connection
+- [x] Add PPO and TRPO papers as objects with Schulman edges
+- [x] Add Claude 3 and LLaMA 3 as model objects
+
 ## Statistics
 
 | Metric | Count |
 |--------|-------|
-| People enumerated | 91 |
-| Relationships documented | 121 |
-| Objects identified | 65 |
+| People enumerated | 94 |
+| Relationships documented | 139 |
+| Objects identified | 70 |
 | Locations identified | 49 |
-| Entities identified | 41 |
+| Entities identified | 43 |
+
+*Updated after Phase R additions (2026-01-18)*
 
 ## Notes
 
@@ -82,3 +99,5 @@
 - Phase 6 completed 2026-01-18: Conversion agent generated JSON dataset
 - Final dataset: 90 people, 34 objects, 14 locations, 22 entities = 160 nodes total, 145 relationships
 - Dataset placed in public/datasets/ai-llm-research/
+- Phase R completed 2026-01-18: Added Mikolov, Devlin, Welling; fixed Word2Vec/BERT authorship; added VAE, PPO, TRPO papers; added Claude 3, LLaMA 3 models; added Inflection AI, Character.AI entities
+- Updated dataset: 93 people, 39 objects, 14 locations, 24 entities = 170 nodes total, 163 relationships

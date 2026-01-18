@@ -1079,6 +1079,7 @@
     "objectType": "AI model",
     "shortDescription": "Bidirectional Transformer that revolutionized NLP",
     "dateStart": "2018-10",
+    "creators": ["person-jacob-devlin"],
     "subject": "natural language processing",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1810.04805"}
@@ -1091,7 +1092,7 @@
     "objectType": "AI model",
     "shortDescription": "Efficient word embeddings; 'king - man + woman = queen'",
     "dateStart": "2013-01",
-    "creators": ["person-greg-corrado", "person-jeff-dean"],
+    "creators": ["person-tomas-mikolov", "person-greg-corrado", "person-jeff-dean"],
     "subject": "natural language processing",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1301.3781"}
@@ -1527,5 +1528,128 @@
     "title": "Montreal School of Deep Learning",
     "entityType": "intellectual movement",
     "shortDescription": "Network of researchers associated with MILA and Yoshua Bengio"
+  },
+  {
+    "id": "person-tomas-mikolov",
+    "type": "person",
+    "title": "Tomas Mikolov",
+    "shortDescription": "Creator of Word2Vec; pioneer of efficient word embeddings",
+    "dateStart": "1981",
+    "nationality": "Czech-American",
+    "occupations": ["AI researcher"],
+    "birthPlace": "Brno, Czech Republic",
+    "biography": "Tomas Mikolov created Word2Vec at Google (2013), which demonstrated semantic word arithmetic ('king - man + woman = queen') and made neural word embeddings practical. Previously worked at Johns Hopkins, Google, and Facebook AI Research. His efficient training methods revolutionized NLP.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tomas_Mikolov"}
+    ]
+  },
+  {
+    "id": "person-jacob-devlin",
+    "type": "person",
+    "title": "Jacob Devlin",
+    "shortDescription": "Lead author of BERT; revolutionized NLP through bidirectional pre-training",
+    "nationality": "American",
+    "occupations": ["AI researcher"],
+    "biography": "Jacob Devlin led the development of BERT (Bidirectional Encoder Representations from Transformers) at Google AI in 2018. BERT introduced masked language modeling and dominated NLP benchmarks, becoming the most influential NLP paper since the Transformer. Now works at Google DeepMind."
+  },
+  {
+    "id": "person-max-welling",
+    "type": "person",
+    "title": "Max Welling",
+    "shortDescription": "Co-inventor of VAEs; professor at University of Amsterdam; VP at Microsoft Research",
+    "nationality": "Dutch",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Max Welling co-invented Variational Auto-Encoders (VAEs) with Diederik Kingma in 2013. Professor at University of Amsterdam and VP at Microsoft Research. Pioneer of probabilistic deep learning and generative models. Former VP of Technology at Qualcomm AI Research.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Max_Welling"}
+    ]
+  },
+  {
+    "id": "object-vae-paper",
+    "type": "object",
+    "title": "Auto-Encoding Variational Bayes",
+    "objectType": "research paper",
+    "shortDescription": "The foundational 2013 paper introducing Variational Auto-Encoders (VAEs)",
+    "dateStart": "2013-12",
+    "creators": ["person-durk-kingma", "person-max-welling"],
+    "language": "English",
+    "subject": "generative models, variational inference",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1312.6114"}
+    ]
+  },
+  {
+    "id": "object-ppo-paper",
+    "type": "object",
+    "title": "Proximal Policy Optimization Algorithms",
+    "objectType": "research paper",
+    "shortDescription": "The 2017 paper introducing PPO; foundational to RLHF in ChatGPT",
+    "dateStart": "2017-07",
+    "creators": ["person-john-schulman"],
+    "language": "English",
+    "subject": "reinforcement learning, policy optimization",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1707.06347"}
+    ]
+  },
+  {
+    "id": "object-trpo-paper",
+    "type": "object",
+    "title": "Trust Region Policy Optimization",
+    "objectType": "research paper",
+    "shortDescription": "The 2015 paper introducing TRPO; precursor to PPO",
+    "dateStart": "2015-02",
+    "creators": ["person-john-schulman"],
+    "language": "English",
+    "subject": "reinforcement learning, policy optimization",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1502.05477"}
+    ]
+  },
+  {
+    "id": "object-claude3",
+    "type": "object",
+    "title": "Claude 3",
+    "objectType": "AI model",
+    "shortDescription": "Anthropic's third generation model family including Haiku, Sonnet, and Opus",
+    "dateStart": "2024-03",
+    "subject": "conversational AI, multimodal AI",
+    "externalLinks": [
+      {"label": "Anthropic", "url": "https://www.anthropic.com/news/claude-3-family"}
+    ]
+  },
+  {
+    "id": "object-llama3",
+    "type": "object",
+    "title": "LLaMA 3",
+    "objectType": "AI model",
+    "shortDescription": "Meta's third generation open-weight LLM family with improved capabilities",
+    "dateStart": "2024-04",
+    "creators": ["person-hugo-touvron"],
+    "subject": "language models",
+    "externalLinks": [
+      {"label": "Meta AI", "url": "https://ai.meta.com/blog/meta-llama-3/"}
+    ]
+  },
+  {
+    "id": "entity-inflection",
+    "type": "entity",
+    "title": "Inflection AI",
+    "entityType": "AI company",
+    "shortDescription": "DeepMind co-founder's venture; creator of Pi chatbot; largely acquired by Microsoft",
+    "dateStart": "2022",
+    "dateEnd": "2024",
+    "foundedBy": ["person-mustafa-suleyman"],
+    "headquarters": "location-palo-alto"
+  },
+  {
+    "id": "entity-character-ai",
+    "type": "entity",
+    "title": "Character.AI",
+    "entityType": "AI company",
+    "shortDescription": "Conversational AI platform founded by Transformer paper author; team returned to Google",
+    "dateStart": "2021",
+    "foundedBy": ["person-noam-shazeer"],
+    "headquarters": "location-san-francisco"
   }
 ]

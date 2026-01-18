@@ -893,3 +893,32 @@ Enterprise AI company founded by transformer paper author.
 - Hardware-focused engineers (NVIDIA AI team, TPU designers)
 - Pure business/investor figures
 - AI policy figures without technical contributions
+
+---
+
+## Phase R Additions (2026-01-18)
+
+### Tomas Mikolov (1981-)
+- **Role**: AI researcher; creator of Word2Vec
+- **Birth**: 1981, Brno, Czech Republic
+- **Location**: San Francisco area (formerly)
+- **Significance**: Created Word2Vec at Google (2013), demonstrating semantic word arithmetic ('king - man + woman = queen'). Made neural word embeddings practical for industry use.
+- **Key Works**: Word2Vec (2013), fastText (2016)
+- **Connections**: Worked at Google (2012-2014), then Facebook AI Research (2014-2019). Collaborated with Jeff Dean and Greg Corrado on Word2Vec paper.
+- **Notes**: His efficient training methods (Skip-gram, CBOW) enabled practical NLP applications at scale.
+
+### Jacob Devlin
+- **Role**: AI researcher; lead author of BERT
+- **Location**: Mountain View, California
+- **Significance**: Led development of BERT (2018), which dominated NLP benchmarks and introduced masked language modeling pre-training.
+- **Key Works**: BERT (2018)
+- **Connections**: Works at Google/Google DeepMind. BERT built on Transformer architecture from Vaswani et al.
+- **Notes**: BERT was the most influential NLP paper between the Transformer and GPT-3.
+
+### Max Welling
+- **Role**: Professor at University of Amsterdam; VP at Microsoft Research; co-inventor of VAEs
+- **Location**: Amsterdam, Netherlands
+- **Significance**: Co-invented Variational Auto-Encoders with Kingma (2013). Pioneer of probabilistic deep learning.
+- **Key Works**: VAE paper (2013), extensive probabilistic ML research
+- **Connections**: Kingma's PhD advisor; former VP at Qualcomm AI Research; now at Microsoft Research.
+- **Notes**: VAEs were foundational for later generative models including aspects of DALL-E and Stable Diffusion.

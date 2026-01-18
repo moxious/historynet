@@ -910,3 +910,85 @@ In addition to standard types from GRAPH_SCHEMA.md, this network uses:
 - ACM and Nobel Prize official sources
 - University faculty pages
 - LinkedIn and The Org
+
+---
+
+## Phase R Additions (2026-01-18)
+
+### New Paper Authorship
+
+#### Tomas Mikolov → Word2Vec (Lead Author)
+- **Type**: authored
+- **Evidence**: "Mikolov was lead author on 'Efficient Estimation of Word Representations in Vector Space' (Word2Vec) at Google in 2013."
+- **Source**: arXiv:1301.3781
+- **Dates**: 2013
+- **Strength**: strong
+
+#### Jacob Devlin → BERT (Lead Author)
+- **Type**: authored
+- **Evidence**: "Devlin was lead author on 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding' at Google AI in 2018."
+- **Source**: arXiv:1810.04805
+- **Dates**: 2018
+- **Strength**: strong
+
+#### Max Welling ↔ Durk Kingma (VAE Co-authors)
+- **Type**: co_authored
+- **Evidence**: "Welling and Kingma co-authored 'Auto-Encoding Variational Bayes' introducing VAEs. Kingma was Welling's PhD student."
+- **Source**: arXiv:1312.6114
+- **Dates**: 2013
+- **Strength**: strong
+
+#### John Schulman → PPO and TRPO (Lead Author)
+- **Type**: authored
+- **Evidence**: "Schulman was lead author on both TRPO (2015) and PPO (2017), foundational papers for RLHF."
+- **Source**: arXiv:1502.05477, arXiv:1707.06347
+- **Dates**: 2015, 2017
+- **Strength**: strong
+
+### New Company Relationships
+
+#### Mustafa Suleyman → Inflection AI (Founder)
+- **Type**: co_founded
+- **Evidence**: "Suleyman co-founded Inflection AI in 2022 with Reid Hoffman after leaving DeepMind. Built Pi chatbot."
+- **Source**: Wikipedia; news coverage
+- **Dates**: 2022 (departed 2024 to Microsoft)
+- **Strength**: strong
+
+#### Noam Shazeer → Character.AI (Founder)
+- **Type**: co_founded
+- **Evidence**: "Shazeer left Google to co-found Character.AI with Daniel De Freitas in 2021. Built popular chatbot platform."
+- **Source**: Wikipedia; news coverage
+- **Dates**: 2021 (returned to Google 2024)
+- **Strength**: strong
+
+### New Academic Lineage
+
+#### Max Welling → Durk Kingma (PhD Advisor)
+- **Type**: taught
+- **Evidence**: "Kingma completed his PhD at University of Amsterdam under Max Welling. Together they invented VAEs."
+- **Source**: University records; VAE paper
+- **Dates**: 2010-2017
+- **Strength**: strong
+
+### New Employment
+
+#### Tomas Mikolov → Google (Researcher)
+- **Type**: worked_at
+- **Evidence**: "Mikolov worked at Google where he developed Word2Vec (2012-2014)."
+- **Source**: Wikipedia; Word2Vec paper
+- **Dates**: 2012-2014
+- **Strength**: strong
+
+#### Tomas Mikolov → Meta AI (Researcher)
+- **Type**: worked_at
+- **Evidence**: "Mikolov joined Facebook AI Research after Google, working on fastText and other NLP projects."
+- **Source**: Wikipedia; fastText paper
+- **Dates**: 2014-2019
+- **Strength**: strong
+
+#### Jacob Devlin → Google DeepMind (Researcher)
+- **Type**: worked_at
+- **Evidence**: "Devlin developed BERT at Google AI and continues to work at Google DeepMind."
+- **Source**: Google Research
+- **Dates**: 2018-present
+- **Strength**: strong

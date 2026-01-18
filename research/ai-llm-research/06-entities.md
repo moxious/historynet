@@ -604,3 +604,18 @@
 3. **Smaller startups**: Many AI startups not enumerated
 4. **Government entities**: DARPA, EU AI efforts not covered
 5. **Investment firms**: VCs significant in AI not documented
+
+---
+
+## Phase R Notes (2026-01-18)
+
+**Inflection AI** and **Character.AI** were already documented in this file but not included in the final JSON dataset. Phase R added them to `nodes.json` with appropriate edges.
+
+**SSI (Safe Superintelligence Inc.)** was verified to already include Jan Leike as co-founder in the dataset. Daniel Gross is also a co-founder but not yet in the persons enumeration.
+
+**Key relationship additions:**
+- Suleyman co-founded Inflection AI (2022), departed for Microsoft (2024)
+- Shazeer co-founded Character.AI (2021), returned to Google (2024)
+- Welling taught Kingma (PhD advisor relationship)
+- Mikolov worked at Google (Word2Vec) then Meta AI (fastText)
+- Devlin works at Google DeepMind (BERT development)

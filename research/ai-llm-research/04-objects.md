@@ -653,3 +653,53 @@
 3. **Datasets**: ImageNet, Common Crawl, The Pile, etc. could be separate category
 4. **Benchmarks**: GLUE, SuperGLUE, MMLU, etc. not documented
 5. **Hardware**: TPUs, H100s have been transformative but excluded per scope
+
+---
+
+## Phase R Additions (2026-01-18)
+
+### Auto-Encoding Variational Bayes (VAE Paper, 2013)
+- **Type**: Research paper
+- **ID**: `object-vae-paper`
+- **Date**: December 2013
+- **Authors**: Diederik P. Kingma, Max Welling
+- **Description**: Introduced Variational Auto-Encoders, enabling probabilistic latent space modeling with efficient inference.
+- **Significance**: Foundation for many generative models; key technique underlying aspects of DALL-E and Stable Diffusion.
+- **Citation**: arXiv:1312.6114
+
+### Proximal Policy Optimization Algorithms (PPO, 2017)
+- **Type**: Research paper
+- **ID**: `object-ppo-paper`
+- **Date**: July 2017
+- **Authors**: John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, Oleg Klimov
+- **Organization**: OpenAI
+- **Description**: Introduced PPO algorithm for stable policy gradient RL with trust region constraints.
+- **Significance**: Foundational to RLHF used in ChatGPT and Claude. Most widely used deep RL algorithm.
+- **Citation**: arXiv:1707.06347
+
+### Trust Region Policy Optimization (TRPO, 2015)
+- **Type**: Research paper
+- **ID**: `object-trpo-paper`
+- **Date**: February 2015
+- **Authors**: John Schulman, Sergey Levine, Philipp Moritz, Michael Jordan, Pieter Abbeel
+- **Organization**: UC Berkeley
+- **Description**: Introduced trust region methods to deep RL, enabling more stable training.
+- **Significance**: Precursor to PPO; established trust region approach that made deep RL practical.
+- **Citation**: arXiv:1502.05477
+
+### Claude 3 Family (2024)
+- **Type**: Model family
+- **ID**: `object-claude3`
+- **Date**: March 2024
+- **Organization**: Anthropic
+- **Description**: Third generation Claude models in three tiers: Haiku (fast), Sonnet (balanced), Opus (powerful). First Claude models with vision capabilities.
+- **Significance**: Opus competed with GPT-4 on benchmarks; established Anthropic as leading AI lab.
+
+### LLaMA 3 (2024)
+- **Type**: Model family
+- **ID**: `object-llama3`
+- **Date**: April 2024
+- **Organization**: Meta AI
+- **Authors**: Hugo Touvron et al.
+- **Description**: Third generation LLaMA with 8B and 70B parameter variants, significantly improved over LLaMA 2.
+- **Significance**: Closed gap with GPT-4 class models in open-weight space; continued Meta's open AI leadership.

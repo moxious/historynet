@@ -1330,5 +1330,161 @@
     "dateStart": "2022",
     "evidence": "Stability AI commercialized and scaled Stable Diffusion (based on LMU Munich research).",
     "strength": "moderate"
+  },
+  {
+    "id": "edge-mikolov-authored-word2vec",
+    "source": "person-tomas-mikolov",
+    "target": "object-word2vec",
+    "relationship": "authored",
+    "dateStart": "2013",
+    "evidence": "Mikolov was lead author on 'Efficient Estimation of Word Representations in Vector Space' (Word2Vec), which introduced Skip-gram and CBOW models.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-devlin-authored-bert",
+    "source": "person-jacob-devlin",
+    "target": "object-bert",
+    "relationship": "authored",
+    "dateStart": "2018",
+    "evidence": "Devlin was lead author on 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding', which revolutionized NLP.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-welling-authored-vae",
+    "source": "person-max-welling",
+    "target": "object-vae-paper",
+    "relationship": "authored",
+    "dateStart": "2013",
+    "evidence": "Welling co-authored 'Auto-Encoding Variational Bayes' with Kingma, introducing VAEs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kingma-authored-vae",
+    "source": "person-durk-kingma",
+    "target": "object-vae-paper",
+    "relationship": "authored",
+    "dateStart": "2013",
+    "evidence": "Kingma was first author on the VAE paper, developed during his PhD at University of Amsterdam under Max Welling.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulman-authored-ppo",
+    "source": "person-john-schulman",
+    "target": "object-ppo-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Schulman was lead author on 'Proximal Policy Optimization Algorithms', the algorithm fundamental to RLHF used in ChatGPT.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulman-authored-trpo",
+    "source": "person-john-schulman",
+    "target": "object-trpo-paper",
+    "relationship": "authored",
+    "dateStart": "2015",
+    "evidence": "Schulman was lead author on 'Trust Region Policy Optimization', which introduced trust region methods to deep RL.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-cofounded-inflection",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-inflection",
+    "relationship": "co_founded",
+    "dateStart": "2022",
+    "evidence": "Suleyman co-founded Inflection AI in 2022 after leaving DeepMind. Reid Hoffman was co-founder.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shazeer-cofounded-character-ai",
+    "source": "person-noam-shazeer",
+    "target": "entity-character-ai",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Shazeer left Google to co-found Character.AI with Daniel De Freitas in 2021.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shazeer-departed-character-ai",
+    "source": "person-noam-shazeer",
+    "target": "entity-character-ai",
+    "relationship": "departed_from",
+    "dateStart": "2024",
+    "evidence": "Shazeer returned to Google in 2024 as VP of Engineering co-leading Gemini after Google's acquisition deal with Character.AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-departed-inflection",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-inflection",
+    "relationship": "departed_from",
+    "dateStart": "2024",
+    "evidence": "Suleyman and most of Inflection's team joined Microsoft in March 2024. Suleyman became EVP and CEO of Microsoft AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude3",
+    "source": "entity-anthropic",
+    "target": "object-claude3",
+    "relationship": "authored",
+    "dateStart": "2024",
+    "evidence": "Anthropic released Claude 3 family (Haiku, Sonnet, Opus) in March 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama3",
+    "source": "entity-meta-ai",
+    "target": "object-llama3",
+    "relationship": "authored",
+    "dateStart": "2024",
+    "evidence": "Meta AI released LLaMA 3 in April 2024 with 8B and 70B parameter variants.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama3",
+    "source": "person-hugo-touvron",
+    "target": "object-llama3",
+    "relationship": "authored",
+    "dateStart": "2024",
+    "evidence": "Touvron continued to lead LLaMA development for the third generation release.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mikolov-workedat-google",
+    "source": "person-tomas-mikolov",
+    "target": "entity-google-brain",
+    "relationship": "worked_at",
+    "dateStart": "2012",
+    "dateEnd": "2014",
+    "evidence": "Mikolov worked at Google where he developed Word2Vec (2013).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mikolov-workedat-meta",
+    "source": "person-tomas-mikolov",
+    "target": "entity-meta-ai",
+    "relationship": "worked_at",
+    "dateStart": "2014",
+    "dateEnd": "2019",
+    "evidence": "Mikolov joined Facebook AI Research after Google, working on fastText and other NLP projects.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-devlin-workedat-deepmind",
+    "source": "person-jacob-devlin",
+    "target": "entity-google-deepmind",
+    "relationship": "worked_at",
+    "dateStart": "2018",
+    "evidence": "Devlin developed BERT at Google AI and continues to work at Google DeepMind.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-welling-taught-kingma",
+    "source": "person-max-welling",
+    "target": "person-durk-kingma",
+    "relationship": "taught",
+    "dateStart": "2010",
+    "dateEnd": "2017",
+    "evidence": "Kingma did his PhD at University of Amsterdam under Max Welling, where they co-invented VAEs.",
+    "strength": "strong"
   }
 ]
