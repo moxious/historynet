@@ -24,6 +24,30 @@ Each network is stored in its own subdirectory with a standardized structure. Se
 |---------|--------|--------|-------|
 | [rosicrucian/](./rosicrucian/) | In Progress | 42 | Relationship mapping |
 | [enlightenment/](./enlightenment/) | In Progress | 0 | Scoping (Phase 1 complete) |
+| [ambient-music/](./ambient-music/) | In Progress | 57 | Enumeration (Phase 2 complete) |
+
+### Ambient Music Network (c. 1920-1995)
+
+**Folder**: `ambient-music/`
+
+**Status**: Phase 2 (Enumeration) complete, ready for Phase 3 (Relationship Mapping)
+
+**Scope**: The development and practice of ambient music, centered on Brian Eno, including:
+- Precursors and conceptual foundations (Satie, Cage, musique concrète)
+- Instrument makers and technologists (Moog, Buchla, Theremin)
+- Krautrock and German electronic school (Tangerine Dream, Cluster)
+- British art school and experimental scene (Eno's collaborators)
+- Minimalist composers (Reich, Riley, Glass)
+- Studio as instrument practitioners (dub pioneers)
+- Japanese ambient pioneers (Hosono, Yoshimura)
+
+**Focus**: "Artists' artists" - those most influential in the development of the form, not the most commercially popular. Includes equipment makers and technological enablers.
+
+**Seed Figures**: Brian Eno, Robert Moog, John Cage, Pierre Schaeffer, Karlheinz Stockhausen
+
+See `ambient-music/progress.md` for detailed status.
+
+---
 
 ### Enlightenment Intellectual Network (c. 1685-1804)
 

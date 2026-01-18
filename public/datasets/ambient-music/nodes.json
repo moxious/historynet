@@ -1,0 +1,1894 @@
+[
+  {
+    "id": "person-erik-satie",
+    "type": "person",
+    "title": "Erik Satie",
+    "shortDescription": "Composer who invented 'furniture music' - the conceptual precursor to ambient",
+    "dateStart": "1866",
+    "dateEnd": "1925",
+    "biography": "French composer who invented 'musique d'ameublement' (furniture music) in the 1910s-1920s—music designed to be background rather than foreground, to 'soften daily noise' rather than demand attention. Brian Eno explicitly cited Satie's furniture music as a direct precursor to ambient music. His concept of music that 'mingles with the sound of knives and forks at dinner' anticipated ambient's core philosophy.",
+    "occupations": ["Composer"],
+    "birthPlace": "Honfleur, France",
+    "nationality": "French"
+  },
+  {
+    "id": "person-luigi-russolo",
+    "type": "person",
+    "title": "Luigi Russolo",
+    "shortDescription": "Futurist who proposed music should embrace all sounds",
+    "dateStart": "1885",
+    "dateEnd": "1947",
+    "biography": "Italian Futurist painter and composer who authored 'The Art of Noises' manifesto (1913), proposing that music should expand to include all sounds including industrial and environmental noise. Invented noise-generating instruments called 'intonarumori.' His ideas about incorporating environmental and mechanical sounds presaged musique concrète and ambient's expanded sonic palette.",
+    "occupations": ["Composer", "Painter", "Futurist"],
+    "birthPlace": "Portogruaro, Italy",
+    "nationality": "Italian"
+  },
+  {
+    "id": "person-john-cage",
+    "type": "person",
+    "title": "John Cage",
+    "shortDescription": "Composer who redefined music to include environmental sound and silence",
+    "dateStart": "1912",
+    "dateEnd": "1992",
+    "biography": "American composer, music theorist, and philosopher who was a central conceptual precursor to ambient music. His work 4'33\" (1952) redefined music to include environmental sound and silence. His work on indeterminacy, chance operations, and attention to ambient noise directly influenced Brian Eno's thinking. Cage taught that silence isn't empty—it's filled with ambient sound.",
+    "occupations": ["Composer", "Music theorist", "Philosopher"],
+    "birthPlace": "Los Angeles, California, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-morton-feldman",
+    "type": "person",
+    "title": "Morton Feldman",
+    "shortDescription": "Composer known for extremely quiet dynamics and long-duration works",
+    "dateStart": "1926",
+    "dateEnd": "1987",
+    "biography": "American composer and member of the New York School with John Cage. Known for extremely quiet dynamics, sustained tones, and long-duration works that hover at the threshold of hearing. His exploration of silence, drone-like textures, and extended duration directly informed ambient aesthetics.",
+    "occupations": ["Composer"],
+    "birthPlace": "New York City, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-pierre-schaeffer",
+    "type": "person",
+    "title": "Pierre Schaeffer",
+    "shortDescription": "Founder of musique concrète and pioneer of tape manipulation",
+    "dateStart": "1910",
+    "dateEnd": "1995",
+    "biography": "French composer, engineer, and theorist who founded musique concrète in 1948. Pioneered composition with recorded and manipulated sounds rather than traditional notation. His techniques—tape manipulation, splicing, speed variation, looping—became foundational to ambient and all electronic music. Established GRM (Groupe de Recherches Musicales) in 1958.",
+    "occupations": ["Composer", "Engineer", "Theorist"],
+    "birthPlace": "Nancy, France",
+    "nationality": "French"
+  },
+  {
+    "id": "person-pierre-henry",
+    "type": "person",
+    "title": "Pierre Henry",
+    "shortDescription": "Co-founder of musique concrète with Pierre Schaeffer",
+    "dateStart": "1927",
+    "dateEnd": "2017",
+    "biography": "French composer and co-founder of musique concrète with Pierre Schaeffer. Extended concrete music into film, theater, and multimedia. Pioneered combining electronic and concrete sounds, creating 'sound herbals' (catalogs of any sound as raw material).",
+    "occupations": ["Composer"],
+    "birthPlace": "Paris, France",
+    "nationality": "French"
+  },
+  {
+    "id": "person-francois-bayle",
+    "type": "person",
+    "title": "François Bayle",
+    "shortDescription": "Director of GRM who invented the Acousmonium spatial speaker system",
+    "dateStart": "1932",
+    "dateEnd": "",
+    "biography": "French composer and administrator who studied with Schaeffer, Messiaen, and Stockhausen. Directed GRM from 1966-1997, institutionalizing electroacoustic music. Invented the 'Acousmonium'—a spatial speaker orchestra for projecting acousmatic music in concert spaces. His work on spatial sound directly relates to ambient's environmental qualities.",
+    "occupations": ["Composer", "Administrator"],
+    "birthPlace": "Tamatave, Madagascar",
+    "nationality": "French"
+  },
+  {
+    "id": "person-karlheinz-stockhausen",
+    "type": "person",
+    "title": "Karlheinz Stockhausen",
+    "shortDescription": "Pioneer of electronic music composition at WDR Cologne",
+    "dateStart": "1928",
+    "dateEnd": "2007",
+    "biography": "German composer and pioneer of electronic music. Worked at both Paris GRM (1952) and Cologne WDR studio. His experiments with tape manipulation, spatialization, and pure electronic synthesis influenced generations of electronic and ambient artists. The Beatles included him on the Sgt. Pepper cover.",
+    "occupations": ["Composer"],
+    "birthPlace": "Mödrath, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-la-monte-young",
+    "type": "person",
+    "title": "La Monte Young",
+    "shortDescription": "Pioneer of drone music and sustained tones, often called the first minimalist",
+    "dateStart": "1935",
+    "dateEnd": "",
+    "biography": "American composer often called 'the first minimalist composer.' Pioneer of drone music and sustained tones. His work with extremely long durations, microtonal systems, and unchanging sounds directly influenced ambient's emphasis on stasis and sustained texture. Founded the Theatre of Eternal Music.",
+    "occupations": ["Composer", "Performer"],
+    "birthPlace": "Bern, Idaho, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-pauline-oliveros",
+    "type": "person",
+    "title": "Pauline Oliveros",
+    "shortDescription": "Founder of Deep Listening practice emphasizing environmental sound awareness",
+    "dateStart": "1932",
+    "dateEnd": "2016",
+    "biography": "American composer, accordionist, and theorist. Founding member of the San Francisco Tape Music Center. Developed 'Deep Listening'—a practice emphasizing attention to environmental and internal sound. Created the Expanded Instrument System for live electronic processing. Her philosophy of sonic awareness parallels and informs ambient aesthetics.",
+    "occupations": ["Composer", "Accordionist", "Theorist"],
+    "birthPlace": "Houston, Texas, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-tony-conrad",
+    "type": "person",
+    "title": "Tony Conrad",
+    "shortDescription": "Pioneer of drone-based minimalism with Theatre of Eternal Music",
+    "dateStart": "1940",
+    "dateEnd": "2016",
+    "biography": "American composer, filmmaker, and violinist. Member of La Monte Young's Theatre of Eternal Music (aka the Dream Syndicate). Pioneer of drone-based minimalism using sustained violin tones. His work on extended duration and harmonic stasis influenced both minimalism and ambient.",
+    "occupations": ["Composer", "Filmmaker", "Violinist"],
+    "birthPlace": "Concord, New Hampshire, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-david-tudor",
+    "type": "person",
+    "title": "David Tudor",
+    "shortDescription": "Premiere performer of Cage's works who became electronic composer",
+    "dateStart": "1926",
+    "dateEnd": "1996",
+    "biography": "American pianist, composer, and electronic musician. Premiere performer of John Cage's works including 4'33\". Later became electronic composer, creating complex live electronic systems with feedback and homemade circuits. Bridge figure between concert avant-garde and electronic music.",
+    "occupations": ["Pianist", "Composer", "Electronic musician"],
+    "birthPlace": "Philadelphia, Pennsylvania, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-delia-derbyshire",
+    "type": "person",
+    "title": "Delia Derbyshire",
+    "shortDescription": "BBC Radiophonic Workshop pioneer who realized the Doctor Who theme",
+    "dateStart": "1937",
+    "dateEnd": "2001",
+    "biography": "British composer and electronic musician who realized the Doctor Who theme (1963), demonstrating electronic music's potential to mass audiences. Pioneered tape manipulation techniques at the BBC Radiophonic Workshop. Her textural, atmospheric work presaged ambient aesthetics.",
+    "occupations": ["Composer", "Electronic musician"],
+    "birthPlace": "Coventry, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-raymond-scott",
+    "type": "person",
+    "title": "Raymond Scott",
+    "shortDescription": "Inventor who pioneered electronic music for functional contexts",
+    "dateStart": "1908",
+    "dateEnd": "1994",
+    "biography": "American composer, inventor, and engineer. Built early electronic instruments including the Electronium, an automated composition machine. Pioneered electronic music for commercial and functional contexts (Motown 'baby calming' music). His approach to functional electronic music anticipates ambient's environmental applications.",
+    "occupations": ["Composer", "Inventor", "Engineer"],
+    "birthPlace": "Brooklyn, New York, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-leon-theremin",
+    "type": "person",
+    "title": "Leon Theremin",
+    "shortDescription": "Inventor of the theremin, the first electronic instrument",
+    "dateStart": "1896",
+    "dateEnd": "1993",
+    "biography": "Russian inventor and physicist who invented the theremin (1920), the first electronic instrument playable without physical contact. Demonstrated that electronic circuits could produce musically controllable sound. His instrument's ethereal qualities presage ambient timbres.",
+    "occupations": ["Inventor", "Physicist"],
+    "birthPlace": "Saint Petersburg, Russia",
+    "nationality": "Russian"
+  },
+  {
+    "id": "person-clara-rockmore",
+    "type": "person",
+    "title": "Clara Rockmore",
+    "shortDescription": "Greatest theremin virtuoso who developed the instrument's range",
+    "dateStart": "1911",
+    "dateEnd": "1998",
+    "biography": "Lithuanian-American musician and greatest theremin virtuoso. Collaborated with Theremin to improve the instrument—extended range from 3 to 5 octaves, improved responsiveness. Demonstrated that electronic instruments could achieve classical expressiveness.",
+    "occupations": ["Performer"],
+    "birthPlace": "Vilnius, Lithuania",
+    "nationality": "American"
+  },
+  {
+    "id": "person-maurice-martenot",
+    "type": "person",
+    "title": "Maurice Martenot",
+    "shortDescription": "Inventor of the ondes Martenot electronic instrument",
+    "dateStart": "1898",
+    "dateEnd": "1980",
+    "biography": "French inventor and cellist who created the ondes Martenot (1928), an early electronic instrument capable of expressive pitch manipulation. Used by many classical composers including Messiaen and Varèse. Its continuous pitch control and timbral flexibility influenced electronic instrument design.",
+    "occupations": ["Inventor", "Cellist"],
+    "birthPlace": "Paris, France",
+    "nationality": "French"
+  },
+  {
+    "id": "person-robert-moog",
+    "type": "person",
+    "title": "Robert Moog",
+    "shortDescription": "Inventor of the Moog synthesizer, the most influential electronic instrument",
+    "dateStart": "1934",
+    "dateEnd": "2005",
+    "biography": "American engineer and inventor who created the Moog synthesizer (1964-65), the most influential electronic instrument in music history. Made voltage-controlled synthesis practical and musical. The Minimoog (1970) brought synthesis to performance contexts. Nearly every ambient and electronic artist owes a debt to his work.",
+    "occupations": ["Engineer", "Inventor"],
+    "birthPlace": "New York City, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-herb-deutsch",
+    "type": "person",
+    "title": "Herb Deutsch",
+    "shortDescription": "Composer who collaborated with Moog on early synthesizer development",
+    "dateStart": "1932",
+    "dateEnd": "2022",
+    "biography": "American composer and educator who collaborated with Robert Moog in developing the first Moog synthesizer. Provided composer's perspective on interface design, helping shape the instrument's musicality.",
+    "occupations": ["Composer", "Educator"],
+    "birthPlace": "New York, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-don-buchla",
+    "type": "person",
+    "title": "Don Buchla",
+    "shortDescription": "Inventor of the Buchla synthesizer with experimental interfaces",
+    "dateStart": "1937",
+    "dateEnd": "2016",
+    "biography": "American engineer and inventor who created the Buchla synthesizer system (1963-66), independently and simultaneously with Moog. Emphasized experimental interfaces (touch plates, pressure sensitivity) over traditional keyboards. His instruments were favored by avant-garde and experimental composers.",
+    "occupations": ["Engineer", "Inventor"],
+    "birthPlace": "South Gate, California, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-peter-zinovieff",
+    "type": "person",
+    "title": "Peter Zinovieff",
+    "shortDescription": "Co-founder of EMS who developed the VCS3 synthesizer",
+    "dateStart": "1933",
+    "dateEnd": "2021",
+    "biography": "British inventor and composer who co-founded EMS (Electronic Music Studios) in 1969. Developed VCS3 (1969), Synthi A, and Synthi 100—affordable, portable British synthesizers used by Pink Floyd, Brian Eno, Roxy Music, and many ambient/progressive artists.",
+    "occupations": ["Inventor", "Composer"],
+    "birthPlace": "London, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-david-cockerell",
+    "type": "person",
+    "title": "David Cockerell",
+    "shortDescription": "Engineer who designed the VCS3 circuitry",
+    "dateStart": "1943",
+    "dateEnd": "",
+    "biography": "British engineer and chief engineer at EMS, who designed the circuitry for VCS3 and other EMS instruments. Later worked at Akai developing samplers. Technical genius behind British synthesizer innovation.",
+    "occupations": ["Engineer"],
+    "birthPlace": "England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-tristram-cary",
+    "type": "person",
+    "title": "Tristram Cary",
+    "shortDescription": "Pioneer of British electronic music and EMS co-founder",
+    "dateStart": "1925",
+    "dateEnd": "2008",
+    "biography": "British composer, inventor, and pioneer of British electronic music. Co-founder of EMS. Created electronic music for Doctor Who, The Ladykillers, and other films. Built his own electronic instruments before founding EMS.",
+    "occupations": ["Composer", "Inventor"],
+    "birthPlace": "Oxford, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-suzanne-ciani",
+    "type": "person",
+    "title": "Suzanne Ciani",
+    "shortDescription": "Pioneer of Buchla synthesizer performance",
+    "dateStart": "1946",
+    "dateEnd": "",
+    "biography": "American composer and synthesist, pioneer of Buchla synthesizer performance. Created innovative electronic music for commercials (Coca-Cola) and albums. Her solo work bridges electronic experimentation and accessible ambient/new age.",
+    "occupations": ["Composer", "Synthesist"],
+    "birthPlace": "Indianapolis, Indiana, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-edgar-froese",
+    "type": "person",
+    "title": "Edgar Froese",
+    "shortDescription": "Founder of Tangerine Dream, definitive Berlin School band",
+    "dateStart": "1944",
+    "dateEnd": "2015",
+    "biography": "German musician and founder of Tangerine Dream (1967), the most influential Berlin School/kosmische band. Led the group through dozens of albums and film scores. Pioneered long-form sequencer-based electronic music that directly influenced ambient.",
+    "occupations": ["Musician", "Composer"],
+    "birthPlace": "Tilsit, East Prussia",
+    "nationality": "German"
+  },
+  {
+    "id": "person-klaus-schulze",
+    "type": "person",
+    "title": "Klaus Schulze",
+    "shortDescription": "Pioneer of long-form electronic ambient music",
+    "dateStart": "1947",
+    "dateEnd": "2022",
+    "biography": "German musician and composer. Founding member of Tangerine Dream (drums on Electronic Meditation), then Ash Ra Tempel, then prolific solo career. Pioneer of long-form electronic ambient music. Albums like Irrlicht (1972) and Timewind (1975) are foundational ambient works.",
+    "occupations": ["Musician", "Composer"],
+    "birthPlace": "Berlin, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-conrad-schnitzler",
+    "type": "person",
+    "title": "Conrad Schnitzler",
+    "shortDescription": "Co-founder of Zodiak Free Arts Lab, Tangerine Dream, and Kluster",
+    "dateStart": "1937",
+    "dateEnd": "2011",
+    "biography": "German musician and artist. Co-founded Zodiak Free Arts Lab (1968), crucial Berlin experimental venue. Founding member of both Tangerine Dream (played on Electronic Meditation) and Kluster/Cluster. A radical experimentalist who influenced the entire German electronic scene.",
+    "occupations": ["Musician", "Artist"],
+    "birthPlace": "Düsseldorf, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-hans-joachim-roedelius",
+    "type": "person",
+    "title": "Hans-Joachim Roedelius",
+    "shortDescription": "Co-founder of Cluster and Harmonia, collaborator with Eno",
+    "dateStart": "1934",
+    "dateEnd": "",
+    "biography": "German musician and composer. Co-founder of Kluster/Cluster (with Schnitzler and Moebius) and Harmonia (with Moebius and Rother). His melodic, pastoral approach to electronic music deeply influenced Eno and ambient aesthetics. Their collaborations (Cluster & Eno, After the Heat) are landmark ambient albums.",
+    "occupations": ["Musician", "Composer"],
+    "birthPlace": "Berlin, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-dieter-moebius",
+    "type": "person",
+    "title": "Dieter Moebius",
+    "shortDescription": "Co-founder of Cluster and Harmonia",
+    "dateStart": "1944",
+    "dateEnd": "2015",
+    "biography": "German musician and composer. Co-founder of Kluster/Cluster and Harmonia. With Roedelius, developed the textural, atmospheric approach that defined Cluster's sound. His more abrasive, experimental tendencies balanced Roedelius's melodicism.",
+    "occupations": ["Musician", "Composer"],
+    "birthPlace": "Switzerland",
+    "nationality": "German"
+  },
+  {
+    "id": "person-michael-rother",
+    "type": "person",
+    "title": "Michael Rother",
+    "shortDescription": "Co-founder of Neu! and Harmonia, inventor of motorik style",
+    "dateStart": "1950",
+    "dateEnd": "",
+    "biography": "German guitarist and musician. Briefly in Kraftwerk (1971), then co-founded Neu! with Klaus Dinger, creating the 'motorik' beat that influenced punk, post-punk, and electronic music. Formed Harmonia with Cluster members, collaborated with Eno. His shimmering guitar textures became ambient touchstones.",
+    "occupations": ["Guitarist", "Musician"],
+    "birthPlace": "Hamburg, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-klaus-dinger",
+    "type": "person",
+    "title": "Klaus Dinger",
+    "shortDescription": "Co-founder of Neu! who invented the motorik beat",
+    "dateStart": "1946",
+    "dateEnd": "2008",
+    "biography": "German drummer and musician. Co-founder of Neu! with Michael Rother. Invented the 'motorik' beat—a relentless, mechanical 4/4 rhythm that became foundational to Krautrock and later influenced punk, post-punk, and electronic dance music.",
+    "occupations": ["Drummer", "Musician"],
+    "birthPlace": "Düsseldorf, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-manuel-gottsching",
+    "type": "person",
+    "title": "Manuel Göttsching",
+    "shortDescription": "Founder of Ash Ra Tempel, creator of proto-techno E2-E4",
+    "dateStart": "1952",
+    "dateEnd": "2022",
+    "biography": "German guitarist and composer. Founder of Ash Ra Tempel, pioneer of Berlin School electronic music. His solo album E2-E4 (1981, released 1984) is considered proto-techno and directly influenced house and ambient techno. New Age of Earth (1976) is a landmark ambient album.",
+    "occupations": ["Guitarist", "Composer"],
+    "birthPlace": "Berlin, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-ralf-hutter",
+    "type": "person",
+    "title": "Ralf Hütter",
+    "shortDescription": "Co-founder and leader of Kraftwerk",
+    "dateStart": "1946",
+    "dateEnd": "",
+    "biography": "German musician and co-founder and leader of Kraftwerk since 1970. While Kraftwerk's influence is more on electronic pop and dance music than ambient, their innovations in sequencer-based composition, machine aesthetics, and electronic timbre influenced all subsequent electronic music.",
+    "occupations": ["Musician"],
+    "birthPlace": "Krefeld, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-florian-schneider",
+    "type": "person",
+    "title": "Florian Schneider",
+    "shortDescription": "Co-founder of Kraftwerk, pioneer of vocoder use",
+    "dateStart": "1947",
+    "dateEnd": "2020",
+    "biography": "German musician and co-founder of Kraftwerk with Ralf Hütter. Pioneered electronic vocoder and speech synthesis use. His experimental approach to sound helped define Kraftwerk's machine aesthetic.",
+    "occupations": ["Musician"],
+    "birthPlace": "Düsseldorf, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-conny-plank",
+    "type": "person",
+    "title": "Conny Plank",
+    "shortDescription": "The most important producer in German electronic music",
+    "dateStart": "1940",
+    "dateEnd": "1987",
+    "biography": "German producer and engineer. The most important producer in German electronic music. Produced Kraftwerk, Cluster, Neu!, Harmonia, and facilitated their collaborations with Eno. His studio (in a converted farmhouse) became ambient's crucible. Treated the studio as creative instrument—tape manipulation, spatial effects, custom mixing desk.",
+    "occupations": ["Producer", "Engineer"],
+    "birthPlace": "Hütschenhausen, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-christopher-franke",
+    "type": "person",
+    "title": "Christopher Franke",
+    "shortDescription": "Tangerine Dream member who pioneered sequencer programming",
+    "dateStart": "1953",
+    "dateEnd": "",
+    "biography": "German musician and composer. Member of Tangerine Dream 1970-1988, during their most influential period. Pioneered sequencer programming and helped develop their signature sound. Later composed film/TV scores in Hollywood.",
+    "occupations": ["Musician", "Composer"],
+    "birthPlace": "Berlin, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-peter-baumann",
+    "type": "person",
+    "title": "Peter Baumann",
+    "shortDescription": "Tangerine Dream member who founded Private Music label",
+    "dateStart": "1953",
+    "dateEnd": "",
+    "biography": "German musician and entrepreneur. Member of Tangerine Dream 1971-1977, contributing to their classic period. Later founded Private Music label, important new age/ambient imprint that released Tangerine Dream, Yanni, and others.",
+    "occupations": ["Musician", "Entrepreneur"],
+    "birthPlace": "Berlin, Germany",
+    "nationality": "German"
+  },
+  {
+    "id": "person-brian-eno",
+    "type": "person",
+    "title": "Brian Eno",
+    "shortDescription": "Coined 'ambient music' and defined the genre with Music for Airports",
+    "dateStart": "1948",
+    "dateEnd": "",
+    "biography": "British musician, composer, producer, and theorist. CENTRAL FIGURE of ambient music. Coined the term 'ambient music' with Music for Airports (1978). Developed generative music concepts, Oblique Strategies, and 'studio as instrument' approach. Collaborations span Roxy Music, David Bowie, Talking Heads, U2, Cluster, and many more. His theoretical writings articulated ambient's philosophy.",
+    "occupations": ["Musician", "Composer", "Producer", "Theorist"],
+    "birthPlace": "Woodbridge, Suffolk, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-robert-fripp",
+    "type": "person",
+    "title": "Robert Fripp",
+    "shortDescription": "King Crimson leader who developed Frippertronics with Eno",
+    "dateStart": "1946",
+    "dateEnd": "",
+    "biography": "British guitarist and composer. Leader of King Crimson, pioneer of progressive rock. Collaborated with Eno on foundational ambient albums (No Pussyfooting) and Evening Star. Co-developed 'Frippertronics'—tape loop system creating evolving ambient textures that influenced ambient production techniques.",
+    "occupations": ["Guitarist", "Composer"],
+    "birthPlace": "Wimborne Minster, Dorset, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-harold-budd",
+    "type": "person",
+    "title": "Harold Budd",
+    "shortDescription": "Minimalist composer whose piano work defined ambient piano aesthetic",
+    "dateStart": "1936",
+    "dateEnd": "2020",
+    "biography": "American minimalist composer whose ethereal piano work became definitive ambient sound. Collaborated extensively with Eno—The Pavilion of Dreams (produced by Eno), Ambient 2: The Plateaux of Mirror, The Pearl. His spacious, reverb-drenched piano style defined a strand of ambient.",
+    "occupations": ["Composer", "Pianist"],
+    "birthPlace": "Los Angeles, California, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-daniel-lanois",
+    "type": "person",
+    "title": "Daniel Lanois",
+    "shortDescription": "Key Eno collaborator who shaped ambient's production sound",
+    "dateStart": "1951",
+    "dateEnd": "",
+    "biography": "Canadian producer and musician. Key Eno collaborator from early 1980s. Co-produced ambient landmarks: Apollo: Atmospheres & Soundtracks, The Pearl, Ambient 4: On Land. His pedal steel guitar and atmospheric production shaped ambient's sound. Later produced U2, Peter Gabriel, Bob Dylan.",
+    "occupations": ["Producer", "Musician"],
+    "birthPlace": "Hull, Quebec, Canada",
+    "nationality": "Canadian"
+  },
+  {
+    "id": "person-roger-eno",
+    "type": "person",
+    "title": "Roger Eno",
+    "shortDescription": "Brian Eno's brother, collaborator on Apollo",
+    "dateStart": "1959",
+    "dateEnd": "",
+    "biography": "British composer and musician. Brian Eno's younger brother. Collaborated on Apollo: Atmospheres & Soundtracks. Developed own career in ambient/classical crossover, often more melodic and accessible than Brian's work.",
+    "occupations": ["Composer", "Musician"],
+    "birthPlace": "Woodbridge, Suffolk, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-laraaji",
+    "type": "person",
+    "title": "Laraaji",
+    "alternateNames": ["Edward Larry Gordon"],
+    "shortDescription": "Discovered by Eno busking, created Ambient 3: Day of Radiance",
+    "dateStart": "1943",
+    "dateEnd": "",
+    "biography": "American musician and performer. Discovered by Eno busking in Washington Square Park (1979). Created Ambient 3: Day of Radiance (1980), bringing acoustic zither/dulcimer into ambient context. Demonstrates ambient's potential beyond purely electronic sources.",
+    "occupations": ["Musician", "Performer"],
+    "birthPlace": "Philadelphia, Pennsylvania, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-gavin-bryars",
+    "type": "person",
+    "title": "Gavin Bryars",
+    "shortDescription": "Minimalist composer released on Eno's Obscure Records",
+    "dateStart": "1943",
+    "dateEnd": "",
+    "biography": "British minimalist composer, released on Eno's Obscure Records label. The Sinking of the Titanic and Jesus' Blood Never Failed Me Yet are ambient-adjacent classics using loops and sustained textures.",
+    "occupations": ["Composer"],
+    "birthPlace": "Goole, Yorkshire, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-michael-nyman",
+    "type": "person",
+    "title": "Michael Nyman",
+    "shortDescription": "Minimalist composer who coined the term 'minimalism' in music",
+    "dateStart": "1944",
+    "dateEnd": "",
+    "biography": "British minimalist composer and musicologist. Coined term 'minimalism' in music criticism. Released on Eno's Obscure Records. Later famous for film scores (The Piano). His rhythmic minimalism influenced ambient's structural approach.",
+    "occupations": ["Composer", "Musicologist"],
+    "birthPlace": "London, England",
+    "nationality": "British"
+  },
+  {
+    "id": "person-jon-hassell",
+    "type": "person",
+    "title": "Jon Hassell",
+    "shortDescription": "Developed 'Fourth World' concept fusing ambient and world music",
+    "dateStart": "1937",
+    "dateEnd": "2021",
+    "biography": "American trumpeter and composer. Developed 'Fourth World' concept—fusing electronics, ambient texture, and non-Western music. Collaborated with Eno on Fourth World Vol. 1: Possible Musics (1980). His processed trumpet became influential ambient timbre.",
+    "occupations": ["Trumpeter", "Composer"],
+    "birthPlace": "Memphis, Tennessee, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-terry-riley",
+    "type": "person",
+    "title": "Terry Riley",
+    "shortDescription": "Pioneer minimalist whose repetitive structures influenced ambient",
+    "dateStart": "1935",
+    "dateEnd": "",
+    "biography": "American composer and pioneer minimalist. In C (1964) revolutionized composition with modular, repetitive structure. A Rainbow in Curved Air (1969) combined drones, loops, and improvisation—directly influential on ambient. Studied Indian music; introduced raga concepts to Western experimental music.",
+    "occupations": ["Composer", "Performer"],
+    "birthPlace": "Colfax, California, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-steve-reich",
+    "type": "person",
+    "title": "Steve Reich",
+    "shortDescription": "Pioneer of process music and phasing technique",
+    "dateStart": "1936",
+    "dateEnd": "",
+    "biography": "American composer and pioneer of process music and phasing technique. It's Gonna Rain and Come Out (tape loop pieces) directly influenced ambient production. Later works like Music for 18 Musicians showed how repetition and gradual change could create immersive environments.",
+    "occupations": ["Composer"],
+    "birthPlace": "New York City, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-philip-glass",
+    "type": "person",
+    "title": "Philip Glass",
+    "shortDescription": "Minimalist pioneer known for repetitive, cyclical structures",
+    "dateStart": "1937",
+    "dateEnd": "",
+    "biography": "American minimalist composer known for repetitive, cyclical structures. His work with Ravi Shankar introduced Indian rhythmic concepts. While more rhythmically active than typical ambient, his approach to gradual change and sustained attention influenced ambient aesthetics.",
+    "occupations": ["Composer"],
+    "birthPlace": "Baltimore, Maryland, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-charlemagne-palestine",
+    "type": "person",
+    "title": "Charlemagne Palestine",
+    "shortDescription": "Drone/minimalist composer known for sustained overtone work",
+    "dateStart": "1947",
+    "dateEnd": "",
+    "biography": "American composer and performer known for drone and sustained tones on piano and organ. His overtone-based work and extremely long performances connect to ambient's durational and textural concerns.",
+    "occupations": ["Composer", "Performer"],
+    "birthPlace": "New York City, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-king-tubby",
+    "type": "person",
+    "title": "King Tubby",
+    "alternateNames": ["Osbourne Ruddock"],
+    "shortDescription": "Pioneer of dub who invented the remix and studio-as-instrument approach",
+    "dateStart": "1941",
+    "dateEnd": "1989",
+    "biography": "Jamaican sound engineer and producer. Pioneer of dub music—the first form to treat the mixing board as creative instrument. His techniques—stripping tracks to bass and drums, adding reverb and delay, creating spatial depth—directly influenced ambient production. Invented the remix.",
+    "occupations": ["Sound engineer", "Producer"],
+    "birthPlace": "Kingston, Jamaica",
+    "nationality": "Jamaican"
+  },
+  {
+    "id": "person-lee-scratch-perry",
+    "type": "person",
+    "title": "Lee \"Scratch\" Perry",
+    "shortDescription": "Visionary dub producer at Black Ark studio",
+    "dateStart": "1936",
+    "dateEnd": "2021",
+    "biography": "Jamaican producer and artist. Visionary producer who pushed dub into experimental territory at his Black Ark studio. Used found sounds, tape manipulation, echo, and unconventional techniques. His spatial, textural production directly influenced ambient, trip-hop, and electronic music.",
+    "occupations": ["Producer", "Artist"],
+    "birthPlace": "Kendal, Jamaica",
+    "nationality": "Jamaican"
+  },
+  {
+    "id": "person-haruomi-hosono",
+    "type": "person",
+    "title": "Haruomi Hosono",
+    "shortDescription": "YMO co-founder who created Japanese environmental music",
+    "dateStart": "1947",
+    "dateEnd": "",
+    "biography": "Japanese musician, composer, and producer. Co-founder of Yellow Magic Orchestra (techno-pop pioneers). Also created kankyō ongaku (environmental music) for retail spaces (Muji). Bridges pop electronic music and ambient/functional music traditions.",
+    "occupations": ["Musician", "Composer", "Producer"],
+    "birthPlace": "Tokyo, Japan",
+    "nationality": "Japanese"
+  },
+  {
+    "id": "person-hiroshi-yoshimura",
+    "type": "person",
+    "title": "Hiroshi Yoshimura",
+    "shortDescription": "Central figure of Japanese kankyō ongaku (environmental music)",
+    "dateStart": "1940",
+    "dateEnd": "2003",
+    "biography": "Japanese composer and central figure of kankyō ongaku (Japanese environmental music). Created minimalist ambient works for architecture and public spaces. Music for Nine Post Cards and Green are defining ambient albums discovered by Western audiences decades later.",
+    "occupations": ["Composer"],
+    "birthPlace": "Tokyo, Japan",
+    "nationality": "Japanese"
+  },
+  {
+    "id": "person-ryuichi-sakamoto",
+    "type": "person",
+    "title": "Ryuichi Sakamoto",
+    "shortDescription": "YMO co-founder and acclaimed film composer",
+    "dateStart": "1952",
+    "dateEnd": "2023",
+    "biography": "Japanese composer and musician. Co-founder of Yellow Magic Orchestra. Later career includes acclaimed ambient/electronic solo work and film scores (Merry Christmas, Mr. Lawrence; The Last Emperor; The Revenant). Bridge between Japanese electronic music and international ambient/film music.",
+    "occupations": ["Composer", "Musician"],
+    "birthPlace": "Tokyo, Japan",
+    "nationality": "Japanese"
+  },
+  {
+    "id": "person-wendy-carlos",
+    "type": "person",
+    "title": "Wendy Carlos",
+    "shortDescription": "Switched-On Bach brought synthesizers to mass audiences",
+    "dateStart": "1939",
+    "dateEnd": "",
+    "biography": "American composer and synthesist. Switched-On Bach (1968) was first synthesizer album to reach mass audiences—demonstrating Moog's musical potential. Collaborated with Moog on instrument development. Later film scores (A Clockwork Orange, TRON) further spread electronic sound.",
+    "occupations": ["Composer", "Synthesist"],
+    "birthPlace": "Pawtucket, Rhode Island, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "object-satie-furniture-music",
+    "type": "object",
+    "title": "Musique d'ameublement (Furniture Music)",
+    "objectType": "composition",
+    "shortDescription": "First explicit conception of music as environmental background sound",
+    "dateStart": "1917",
+    "dateEnd": "1920",
+    "creators": ["person-erik-satie"]
+  },
+  {
+    "id": "object-russolo-art-of-noises",
+    "type": "object",
+    "title": "The Art of Noises (L'arte dei Rumori)",
+    "objectType": "manifesto",
+    "shortDescription": "Futurist manifesto proposing music should embrace all sounds",
+    "dateStart": "1913",
+    "creators": ["person-luigi-russolo"]
+  },
+  {
+    "id": "object-cage-433",
+    "type": "object",
+    "title": "4'33\"",
+    "objectType": "composition",
+    "shortDescription": "Revolutionary work consisting of silence, forcing audience to hear environment",
+    "dateStart": "1952",
+    "creators": ["person-john-cage"]
+  },
+  {
+    "id": "object-schaeffer-etude-chemins-de-fer",
+    "type": "object",
+    "title": "Étude aux chemins de fer",
+    "objectType": "recording",
+    "shortDescription": "First musique concrète work, composed from train sounds",
+    "dateStart": "1948",
+    "creators": ["person-pierre-schaeffer"]
+  },
+  {
+    "id": "object-schaeffer-henry-symphonie",
+    "type": "object",
+    "title": "Symphonie pour un homme seul",
+    "objectType": "recording",
+    "shortDescription": "First major musique concrète composition",
+    "dateStart": "1950",
+    "creators": ["person-pierre-schaeffer", "person-pierre-henry"]
+  },
+  {
+    "id": "object-stockhausen-gesang",
+    "type": "object",
+    "title": "Gesang der Jünglinge",
+    "objectType": "recording",
+    "shortDescription": "Landmark electronic composition combining synthesis with voice",
+    "dateStart": "1956",
+    "creators": ["person-karlheinz-stockhausen"]
+  },
+  {
+    "id": "object-riley-in-c",
+    "type": "object",
+    "title": "In C",
+    "objectType": "composition",
+    "shortDescription": "Foundational minimalist work with modular, repetitive structure",
+    "dateStart": "1964",
+    "creators": ["person-terry-riley"]
+  },
+  {
+    "id": "object-riley-rainbow",
+    "type": "object",
+    "title": "A Rainbow in Curved Air",
+    "objectType": "album",
+    "shortDescription": "Landmark ambient-adjacent album combining drones, loops, and improvisation",
+    "dateStart": "1969",
+    "creators": ["person-terry-riley"]
+  },
+  {
+    "id": "object-reich-its-gonna-rain",
+    "type": "object",
+    "title": "It's Gonna Rain",
+    "objectType": "recording",
+    "shortDescription": "Pioneering phasing piece using tape loops",
+    "dateStart": "1965",
+    "creators": ["person-steve-reich"]
+  },
+  {
+    "id": "object-reich-music-for-18",
+    "type": "object",
+    "title": "Music for 18 Musicians",
+    "objectType": "album",
+    "shortDescription": "Major minimalist work demonstrating immersive, environmental quality",
+    "dateStart": "1976",
+    "creators": ["person-steve-reich"]
+  },
+  {
+    "id": "object-young-well-tuned-piano",
+    "type": "object",
+    "title": "The Well-Tuned Piano",
+    "objectType": "performance",
+    "shortDescription": "Epic-length just intonation work exploring drones and overtones",
+    "dateStart": "1964",
+    "creators": ["person-la-monte-young"]
+  },
+  {
+    "id": "object-young-dream-house",
+    "type": "object",
+    "title": "Dream House",
+    "objectType": "installation",
+    "shortDescription": "Continuous sound and light environment lasting decades",
+    "dateStart": "1969",
+    "creators": ["person-la-monte-young"]
+  },
+  {
+    "id": "object-td-phaedra",
+    "type": "object",
+    "title": "Phaedra",
+    "objectType": "album",
+    "shortDescription": "Definitive Berlin School album pioneering sequencer-based electronic music",
+    "dateStart": "1974",
+    "creators": ["person-edgar-froese", "person-christopher-franke", "person-peter-baumann"]
+  },
+  {
+    "id": "object-td-rubycon",
+    "type": "object",
+    "title": "Rubycon",
+    "objectType": "album",
+    "shortDescription": "Peak of Tangerine Dream's ambient-electronic period",
+    "dateStart": "1975",
+    "creators": ["person-edgar-froese", "person-christopher-franke", "person-peter-baumann"]
+  },
+  {
+    "id": "object-td-electronic-meditation",
+    "type": "object",
+    "title": "Electronic Meditation",
+    "objectType": "album",
+    "shortDescription": "Tangerine Dream debut featuring founding members",
+    "dateStart": "1970",
+    "creators": ["person-edgar-froese", "person-klaus-schulze", "person-conrad-schnitzler"]
+  },
+  {
+    "id": "object-schulze-irrlicht",
+    "type": "object",
+    "title": "Irrlicht",
+    "objectType": "album",
+    "shortDescription": "Foundational ambient album using heavily processed orchestra",
+    "dateStart": "1972",
+    "creators": ["person-klaus-schulze"]
+  },
+  {
+    "id": "object-schulze-timewind",
+    "type": "object",
+    "title": "Timewind",
+    "objectType": "album",
+    "shortDescription": "Classic Berlin School album exploring cosmic themes",
+    "dateStart": "1975",
+    "creators": ["person-klaus-schulze"]
+  },
+  {
+    "id": "object-cluster-zuckerzeit",
+    "type": "object",
+    "title": "Zuckerzeit",
+    "objectType": "album",
+    "shortDescription": "Influential Cluster album combining electronic textures with pop",
+    "dateStart": "1974",
+    "creators": ["person-hans-joachim-roedelius", "person-dieter-moebius"]
+  },
+  {
+    "id": "object-cluster-sowiesoso",
+    "type": "object",
+    "title": "Sowiesoso",
+    "objectType": "album",
+    "shortDescription": "Pastoral, melodic electronic album influential on Eno",
+    "dateStart": "1976",
+    "creators": ["person-hans-joachim-roedelius", "person-dieter-moebius"]
+  },
+  {
+    "id": "object-cluster-eno",
+    "type": "object",
+    "title": "Cluster & Eno",
+    "objectType": "album",
+    "shortDescription": "First Eno-Cluster collaboration, landmark ambient album",
+    "dateStart": "1977",
+    "creators": ["person-hans-joachim-roedelius", "person-dieter-moebius", "person-brian-eno"]
+  },
+  {
+    "id": "object-after-the-heat",
+    "type": "object",
+    "title": "After the Heat",
+    "objectType": "album",
+    "shortDescription": "Second Cluster-Eno collaboration with vocals",
+    "dateStart": "1978",
+    "creators": ["person-hans-joachim-roedelius", "person-dieter-moebius", "person-brian-eno"]
+  },
+  {
+    "id": "object-harmonia-musik",
+    "type": "object",
+    "title": "Musik von Harmonia",
+    "objectType": "album",
+    "shortDescription": "Supergroup album Eno called 'the world's most important rock band'",
+    "dateStart": "1974",
+    "creators": ["person-hans-joachim-roedelius", "person-dieter-moebius", "person-michael-rother"]
+  },
+  {
+    "id": "object-harmonia-tracks-traces",
+    "type": "object",
+    "title": "Tracks and Traces",
+    "objectType": "album",
+    "shortDescription": "Eno's 1976 sessions with Harmonia released decades later",
+    "dateStart": "1997",
+    "creators": ["person-hans-joachim-roedelius", "person-dieter-moebius", "person-michael-rother", "person-brian-eno"]
+  },
+  {
+    "id": "object-neu-1",
+    "type": "object",
+    "title": "Neu!",
+    "objectType": "album",
+    "shortDescription": "Debut featuring 'Hallogallo', the definitive motorik track",
+    "dateStart": "1972",
+    "creators": ["person-michael-rother", "person-klaus-dinger"]
+  },
+  {
+    "id": "object-neu-75",
+    "type": "object",
+    "title": "Neu! 75",
+    "objectType": "album",
+    "shortDescription": "Final Neu! album balancing motorik and ambient experimentation",
+    "dateStart": "1975",
+    "creators": ["person-michael-rother", "person-klaus-dinger"]
+  },
+  {
+    "id": "object-gottsching-e2e4",
+    "type": "object",
+    "title": "E2-E4",
+    "objectType": "album",
+    "shortDescription": "Proto-techno and proto-ambient house landmark",
+    "dateStart": "1984",
+    "creators": ["person-manuel-gottsching"]
+  },
+  {
+    "id": "object-gottsching-new-age",
+    "type": "object",
+    "title": "New Age of Earth",
+    "objectType": "album",
+    "shortDescription": "Landmark ambient/Berlin School album",
+    "dateStart": "1976",
+    "creators": ["person-manuel-gottsching"]
+  },
+  {
+    "id": "object-kraftwerk-autobahn",
+    "type": "object",
+    "title": "Autobahn",
+    "objectType": "album",
+    "shortDescription": "Breakthrough Kraftwerk album evoking travel as ambient experience",
+    "dateStart": "1974",
+    "creators": ["person-ralf-hutter", "person-florian-schneider"]
+  },
+  {
+    "id": "object-fripp-eno-no-pussyfooting",
+    "type": "object",
+    "title": "(No Pussyfooting)",
+    "objectType": "album",
+    "shortDescription": "First Eno ambient release using Frippertronics tape loops",
+    "dateStart": "1973",
+    "creators": ["person-brian-eno", "person-robert-fripp"]
+  },
+  {
+    "id": "object-fripp-eno-evening-star",
+    "type": "object",
+    "title": "Evening Star",
+    "objectType": "album",
+    "shortDescription": "Second Fripp/Eno collaboration, more varied than debut",
+    "dateStart": "1975",
+    "creators": ["person-brian-eno", "person-robert-fripp"]
+  },
+  {
+    "id": "object-eno-discreet-music",
+    "type": "object",
+    "title": "Discreet Music",
+    "objectType": "album",
+    "shortDescription": "First explicitly ambient Eno solo album",
+    "dateStart": "1975",
+    "creators": ["person-brian-eno"]
+  },
+  {
+    "id": "object-eno-another-green-world",
+    "type": "object",
+    "title": "Another Green World",
+    "objectType": "album",
+    "shortDescription": "Transitional album with many proto-ambient instrumental tracks",
+    "dateStart": "1975",
+    "creators": ["person-brian-eno"]
+  },
+  {
+    "id": "object-eno-music-for-airports",
+    "type": "object",
+    "title": "Ambient 1: Music for Airports",
+    "objectType": "album",
+    "shortDescription": "THE definitive ambient album where Eno coined the term",
+    "dateStart": "1978",
+    "creators": ["person-brian-eno"]
+  },
+  {
+    "id": "object-eno-budd-plateaux",
+    "type": "object",
+    "title": "Ambient 2: The Plateaux of Mirror",
+    "objectType": "album",
+    "shortDescription": "Budd's treated piano defined the ambient piano aesthetic",
+    "dateStart": "1980",
+    "creators": ["person-brian-eno", "person-harold-budd"]
+  },
+  {
+    "id": "object-laraaji-day-of-radiance",
+    "type": "object",
+    "title": "Ambient 3: Day of Radiance",
+    "objectType": "album",
+    "shortDescription": "Acoustic zither demonstrating ambient beyond electronics",
+    "dateStart": "1980",
+    "creators": ["person-laraaji"]
+  },
+  {
+    "id": "object-eno-on-land",
+    "type": "object",
+    "title": "Ambient 4: On Land",
+    "objectType": "album",
+    "shortDescription": "Darker, more abstract ambient evoking specific places",
+    "dateStart": "1982",
+    "creators": ["person-brian-eno"]
+  },
+  {
+    "id": "object-apollo",
+    "type": "object",
+    "title": "Apollo: Atmospheres & Soundtracks",
+    "objectType": "album",
+    "shortDescription": "Peak ambient collaboration with Lanois and Roger Eno",
+    "dateStart": "1983",
+    "creators": ["person-brian-eno", "person-daniel-lanois", "person-roger-eno"]
+  },
+  {
+    "id": "object-eno-budd-pearl",
+    "type": "object",
+    "title": "The Pearl",
+    "objectType": "album",
+    "shortDescription": "Perfection of treated piano ambient aesthetic",
+    "dateStart": "1984",
+    "creators": ["person-brian-eno", "person-harold-budd"]
+  },
+  {
+    "id": "object-budd-pavilion",
+    "type": "object",
+    "title": "The Pavilion of Dreams",
+    "objectType": "album",
+    "shortDescription": "Budd's first album for Eno's label establishing his signature style",
+    "dateStart": "1978",
+    "creators": ["person-harold-budd"]
+  },
+  {
+    "id": "object-hassell-eno-fourth-world",
+    "type": "object",
+    "title": "Fourth World Vol. 1: Possible Musics",
+    "objectType": "album",
+    "shortDescription": "Pioneering fusion of ambient and world music",
+    "dateStart": "1980",
+    "creators": ["person-jon-hassell", "person-brian-eno"]
+  },
+  {
+    "id": "object-bryars-titanic",
+    "type": "object",
+    "title": "The Sinking of the Titanic",
+    "objectType": "album",
+    "shortDescription": "Ambient-adjacent minimalist using loops and sustained textures",
+    "dateStart": "1975",
+    "creators": ["person-gavin-bryars"]
+  },
+  {
+    "id": "object-bryars-jesus-blood",
+    "type": "object",
+    "title": "Jesus' Blood Never Failed Me Yet",
+    "objectType": "album",
+    "shortDescription": "Loop-based ambient/process music landmark",
+    "dateStart": "1975",
+    "creators": ["person-gavin-bryars"]
+  },
+  {
+    "id": "object-nyman-decay",
+    "type": "object",
+    "title": "Decay Music",
+    "objectType": "album",
+    "shortDescription": "Minimalist album exploring piano sustain and decay",
+    "dateStart": "1976",
+    "creators": ["person-michael-nyman"]
+  },
+  {
+    "id": "object-yoshimura-postcards",
+    "type": "object",
+    "title": "Music for Nine Post Cards",
+    "objectType": "album",
+    "shortDescription": "Defining kankyō ongaku album for architectural contexts",
+    "dateStart": "1982",
+    "creators": ["person-hiroshi-yoshimura"]
+  },
+  {
+    "id": "object-yoshimura-green",
+    "type": "object",
+    "title": "Green",
+    "objectType": "album",
+    "shortDescription": "Sparse ambient work rediscovered by Western audiences",
+    "dateStart": "1986",
+    "creators": ["person-hiroshi-yoshimura"]
+  },
+  {
+    "id": "object-hosono-watering",
+    "type": "object",
+    "title": "Watering a Flower",
+    "objectType": "album",
+    "shortDescription": "Hosono's environmental music for Muji stores",
+    "dateStart": "1984",
+    "creators": ["person-haruomi-hosono"]
+  },
+  {
+    "id": "object-sakamoto-async",
+    "type": "object",
+    "title": "async",
+    "objectType": "album",
+    "shortDescription": "Late-career ambient meditation on time and mortality",
+    "dateStart": "2017",
+    "creators": ["person-ryuichi-sakamoto"]
+  },
+  {
+    "id": "object-carlos-switched-on",
+    "type": "object",
+    "title": "Switched-On Bach",
+    "objectType": "album",
+    "shortDescription": "First synthesizer album to reach mass audiences",
+    "dateStart": "1968",
+    "creators": ["person-wendy-carlos"]
+  },
+  {
+    "id": "object-perry-super-ape",
+    "type": "object",
+    "title": "Super Ape",
+    "objectType": "album",
+    "shortDescription": "Definitive Black Ark dub production",
+    "dateStart": "1976",
+    "creators": ["person-lee-scratch-perry"]
+  },
+  {
+    "id": "object-tubby-dub-roots",
+    "type": "object",
+    "title": "Dub from the Roots",
+    "objectType": "album",
+    "shortDescription": "Representative King Tubby dub work",
+    "dateStart": "1974",
+    "creators": ["person-king-tubby"]
+  },
+  {
+    "id": "object-cage-silence",
+    "type": "object",
+    "title": "Silence",
+    "objectType": "book",
+    "shortDescription": "Cage's collected lectures articulating his philosophy",
+    "dateStart": "1961",
+    "creators": ["person-john-cage"]
+  },
+  {
+    "id": "object-eno-ambient-manifesto",
+    "type": "object",
+    "title": "Music for Airports Liner Notes",
+    "objectType": "essay",
+    "shortDescription": "Eno's manifesto defining ambient music",
+    "dateStart": "1978",
+    "creators": ["person-brian-eno"]
+  },
+  {
+    "id": "object-schaeffer-traite",
+    "type": "object",
+    "title": "Traité des objets musicaux",
+    "objectType": "book",
+    "shortDescription": "Foundational treatise on sound objects and musique concrète",
+    "dateStart": "1966",
+    "creators": ["person-pierre-schaeffer"]
+  },
+  {
+    "id": "object-nyman-experimental-music",
+    "type": "object",
+    "title": "Experimental Music: Cage and Beyond",
+    "objectType": "book",
+    "shortDescription": "Critical history that coined 'minimalism' in music",
+    "dateStart": "1974",
+    "creators": ["person-michael-nyman"]
+  },
+  {
+    "id": "object-moog-modular",
+    "type": "object",
+    "title": "Moog Modular Synthesizer",
+    "objectType": "instrument",
+    "shortDescription": "First practical voltage-controlled synthesizer",
+    "dateStart": "1965",
+    "creators": ["person-robert-moog"]
+  },
+  {
+    "id": "object-minimoog",
+    "type": "object",
+    "title": "Minimoog",
+    "objectType": "instrument",
+    "shortDescription": "First portable synthesizer enabling live performance",
+    "dateStart": "1970",
+    "creators": ["person-robert-moog"]
+  },
+  {
+    "id": "object-buchla-100",
+    "type": "object",
+    "title": "Buchla 100 Series",
+    "objectType": "instrument",
+    "shortDescription": "Alternative West Coast synthesizer with experimental interfaces",
+    "dateStart": "1966",
+    "creators": ["person-don-buchla"]
+  },
+  {
+    "id": "object-buchla-easel",
+    "type": "object",
+    "title": "Buchla Music Easel",
+    "objectType": "instrument",
+    "shortDescription": "Compact, self-contained Buchla system",
+    "dateStart": "1972",
+    "creators": ["person-don-buchla"]
+  },
+  {
+    "id": "object-ems-vcs3",
+    "type": "object",
+    "title": "VCS3 (Putney)",
+    "objectType": "instrument",
+    "shortDescription": "Affordable British synthesizer used by Eno and Pink Floyd",
+    "dateStart": "1969",
+    "creators": ["person-peter-zinovieff", "person-david-cockerell"]
+  },
+  {
+    "id": "object-ems-synthi-aks",
+    "type": "object",
+    "title": "Synthi AKS",
+    "objectType": "instrument",
+    "shortDescription": "Iconic portable briefcase synthesizer",
+    "dateStart": "1972",
+    "creators": ["person-peter-zinovieff", "person-david-cockerell"]
+  },
+  {
+    "id": "object-theremin",
+    "type": "object",
+    "title": "Theremin",
+    "objectType": "instrument",
+    "shortDescription": "First electronic instrument playable without contact",
+    "dateStart": "1920",
+    "creators": ["person-leon-theremin"]
+  },
+  {
+    "id": "object-ondes-martenot",
+    "type": "object",
+    "title": "Ondes Martenot",
+    "objectType": "instrument",
+    "shortDescription": "Early electronic instrument with expressive pitch control",
+    "dateStart": "1928",
+    "creators": ["person-maurice-martenot"]
+  },
+  {
+    "id": "object-intonarumori",
+    "type": "object",
+    "title": "Intonarumori",
+    "objectType": "instrument",
+    "shortDescription": "Futurist noise machines expanding music's sonic palette",
+    "dateStart": "1913",
+    "creators": ["person-luigi-russolo"]
+  },
+  {
+    "id": "object-frippertronics",
+    "type": "object",
+    "title": "Frippertronics System",
+    "objectType": "technique",
+    "shortDescription": "Tape loop system creating ambient textures",
+    "dateStart": "1972",
+    "creators": ["person-robert-fripp", "person-brian-eno"]
+  },
+  {
+    "id": "object-acousmonium",
+    "type": "object",
+    "title": "Acousmonium",
+    "objectType": "equipment",
+    "shortDescription": "Spatial speaker orchestra for immersive sound",
+    "dateStart": "1974",
+    "creators": ["person-francois-bayle"]
+  },
+  {
+    "id": "object-electronium",
+    "type": "object",
+    "title": "Electronium",
+    "objectType": "instrument",
+    "shortDescription": "Automated composition machine anticipating generative music",
+    "dateStart": "1970",
+    "creators": ["person-raymond-scott"]
+  },
+  {
+    "id": "loc-berlin",
+    "type": "location",
+    "title": "Berlin",
+    "locationType": "city",
+    "shortDescription": "Capital of Berlin School electronic music",
+    "country": "Germany"
+  },
+  {
+    "id": "loc-dusseldorf",
+    "type": "location",
+    "title": "Düsseldorf",
+    "locationType": "city",
+    "shortDescription": "Home of Kraftwerk and Neu!",
+    "country": "Germany"
+  },
+  {
+    "id": "loc-cologne",
+    "type": "location",
+    "title": "Cologne",
+    "locationType": "city",
+    "shortDescription": "Site of WDR electronic music studio",
+    "country": "Germany"
+  },
+  {
+    "id": "loc-forst",
+    "type": "location",
+    "title": "Forst",
+    "locationType": "town",
+    "shortDescription": "Cluster's studio location, site of Eno's 1976 visit",
+    "country": "Germany"
+  },
+  {
+    "id": "loc-paris",
+    "type": "location",
+    "title": "Paris",
+    "locationType": "city",
+    "shortDescription": "Birthplace of musique concrète and furniture music",
+    "country": "France"
+  },
+  {
+    "id": "loc-london",
+    "type": "location",
+    "title": "London",
+    "locationType": "city",
+    "shortDescription": "Home of BBC Radiophonic Workshop and British experimental scene",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "loc-new-york",
+    "type": "location",
+    "title": "New York City",
+    "locationType": "city",
+    "shortDescription": "Center of American avant-garde and minimalism",
+    "country": "United States"
+  },
+  {
+    "id": "loc-san-francisco",
+    "type": "location",
+    "title": "San Francisco Bay Area",
+    "locationType": "metropolitan area",
+    "shortDescription": "Home of San Francisco Tape Music Center and West Coast scene",
+    "country": "United States"
+  },
+  {
+    "id": "loc-kingston",
+    "type": "location",
+    "title": "Kingston",
+    "locationType": "city",
+    "shortDescription": "Birthplace of dub music",
+    "country": "Jamaica"
+  },
+  {
+    "id": "loc-tokyo",
+    "type": "location",
+    "title": "Tokyo",
+    "locationType": "city",
+    "shortDescription": "Center of Japanese electronic and environmental music",
+    "country": "Japan"
+  },
+  {
+    "id": "loc-milan",
+    "type": "location",
+    "title": "Milan",
+    "locationType": "city",
+    "shortDescription": "Base of Italian Futurism",
+    "country": "Italy"
+  },
+  {
+    "id": "loc-hamilton",
+    "type": "location",
+    "title": "Hamilton, Ontario",
+    "locationType": "city",
+    "shortDescription": "Location of Daniel Lanois's Grant Avenue Studio",
+    "country": "Canada"
+  },
+  {
+    "id": "loc-conny-studio",
+    "type": "location",
+    "title": "Conny Plank's Studio",
+    "locationType": "studio",
+    "shortDescription": "Crucible of German electronic music and Eno collaborations",
+    "country": "Germany",
+    "parentLocation": "loc-cologne"
+  },
+  {
+    "id": "loc-grm",
+    "type": "location",
+    "title": "GRM (Groupe de Recherches Musicales)",
+    "locationType": "studio",
+    "shortDescription": "Birthplace of musique concrète",
+    "country": "France",
+    "parentLocation": "loc-paris"
+  },
+  {
+    "id": "loc-wdr-studio",
+    "type": "location",
+    "title": "WDR Studio for Electronic Music",
+    "locationType": "studio",
+    "shortDescription": "Pioneering electronic music studio where Stockhausen worked",
+    "country": "Germany",
+    "parentLocation": "loc-cologne"
+  },
+  {
+    "id": "loc-bbc-radiophonic",
+    "type": "location",
+    "title": "BBC Radiophonic Workshop",
+    "locationType": "studio",
+    "shortDescription": "BBC department creating electronic sound for TV and radio",
+    "country": "United Kingdom",
+    "parentLocation": "loc-london",
+    "dateStart": "1958",
+    "dateEnd": "1998"
+  },
+  {
+    "id": "loc-king-tubby-studio",
+    "type": "location",
+    "title": "King Tubby's Studio",
+    "locationType": "studio",
+    "shortDescription": "Birthplace of dub mixing techniques",
+    "country": "Jamaica",
+    "parentLocation": "loc-kingston"
+  },
+  {
+    "id": "loc-black-ark",
+    "type": "location",
+    "title": "Black Ark Studio",
+    "locationType": "studio",
+    "shortDescription": "Lee Scratch Perry's legendary experimental dub studio",
+    "country": "Jamaica",
+    "parentLocation": "loc-kingston",
+    "dateStart": "1973",
+    "dateEnd": "1979"
+  },
+  {
+    "id": "loc-kling-klang",
+    "type": "location",
+    "title": "Kling Klang Studio",
+    "locationType": "studio",
+    "shortDescription": "Kraftwerk's private studio",
+    "country": "Germany",
+    "parentLocation": "loc-dusseldorf"
+  },
+  {
+    "id": "loc-grant-avenue",
+    "type": "location",
+    "title": "Grant Avenue Studio",
+    "locationType": "studio",
+    "shortDescription": "Daniel Lanois's studio where ambient production aesthetic developed",
+    "country": "Canada",
+    "parentLocation": "loc-hamilton"
+  },
+  {
+    "id": "loc-ems-studio",
+    "type": "location",
+    "title": "EMS Studio",
+    "locationType": "studio",
+    "shortDescription": "Home studio where EMS synthesizers were developed",
+    "country": "United Kingdom",
+    "parentLocation": "loc-london"
+  },
+  {
+    "id": "loc-hansa",
+    "type": "location",
+    "title": "Hansa Studio",
+    "locationType": "studio",
+    "shortDescription": "Berlin studio where Bowie recorded with Eno",
+    "country": "Germany",
+    "parentLocation": "loc-berlin"
+  },
+  {
+    "id": "loc-sftmc",
+    "type": "location",
+    "title": "San Francisco Tape Music Center",
+    "locationType": "institution",
+    "shortDescription": "West Coast experimental music collective",
+    "country": "United States",
+    "parentLocation": "loc-san-francisco",
+    "dateStart": "1962",
+    "dateEnd": "1966"
+  },
+  {
+    "id": "loc-mills",
+    "type": "location",
+    "title": "Mills College",
+    "locationType": "university",
+    "shortDescription": "Major American experimental music education site",
+    "country": "United States",
+    "parentLocation": "loc-san-francisco"
+  },
+  {
+    "id": "loc-darmstadt",
+    "type": "location",
+    "title": "Darmstadt Summer Courses",
+    "locationType": "institution",
+    "shortDescription": "International summer courses where avant-garde traditions met",
+    "country": "Germany"
+  },
+  {
+    "id": "loc-zodiak",
+    "type": "location",
+    "title": "Zodiak Free Arts Lab",
+    "locationType": "venue",
+    "shortDescription": "Crucial Berlin experimental venue co-founded by Schnitzler",
+    "country": "Germany",
+    "parentLocation": "loc-berlin",
+    "dateStart": "1968",
+    "dateEnd": "1969"
+  },
+  {
+    "id": "loc-british-art-schools",
+    "type": "location",
+    "title": "Ipswich/Winchester Art Schools",
+    "locationType": "institution",
+    "shortDescription": "Art schools where Eno studied cybernetics and systems thinking",
+    "country": "United Kingdom"
+  },
+  {
+    "id": "loc-dusseldorf-academy",
+    "type": "location",
+    "title": "Düsseldorf Art Academy",
+    "locationType": "university",
+    "shortDescription": "Where Joseph Beuys taught and Schnitzler studied",
+    "country": "Germany",
+    "parentLocation": "loc-dusseldorf"
+  },
+  {
+    "id": "loc-kitchen",
+    "type": "location",
+    "title": "The Kitchen",
+    "locationType": "venue",
+    "shortDescription": "New York avant-garde performance space",
+    "country": "United States",
+    "parentLocation": "loc-new-york",
+    "dateStart": "1971"
+  },
+  {
+    "id": "loc-washington-square",
+    "type": "location",
+    "title": "Washington Square Park",
+    "locationType": "venue",
+    "shortDescription": "Where Eno discovered Laraaji busking",
+    "country": "United States",
+    "parentLocation": "loc-new-york"
+  },
+  {
+    "id": "loc-dream-house-install",
+    "type": "location",
+    "title": "Dream House Installation",
+    "locationType": "venue",
+    "shortDescription": "La Monte Young's continuous sound and light environment",
+    "country": "United States",
+    "parentLocation": "loc-new-york",
+    "dateStart": "1969"
+  },
+  {
+    "id": "loc-young-loft",
+    "type": "location",
+    "title": "La Monte Young's Loft",
+    "locationType": "venue",
+    "shortDescription": "Site of Theatre of Eternal Music performances",
+    "country": "United States",
+    "parentLocation": "loc-new-york"
+  },
+  {
+    "id": "entity-tangerine-dream",
+    "type": "entity",
+    "title": "Tangerine Dream",
+    "entityType": "band",
+    "shortDescription": "Definitive Berlin School electronic band",
+    "dateStart": "1967",
+    "foundedBy": ["person-edgar-froese"],
+    "headquarters": "loc-berlin"
+  },
+  {
+    "id": "entity-cluster",
+    "type": "entity",
+    "title": "Cluster",
+    "entityType": "band",
+    "shortDescription": "Pioneered textural, atmospheric electronic music",
+    "dateStart": "1971",
+    "foundedBy": ["person-hans-joachim-roedelius", "person-dieter-moebius"],
+    "headquarters": "loc-forst"
+  },
+  {
+    "id": "entity-harmonia",
+    "type": "entity",
+    "title": "Harmonia",
+    "entityType": "band",
+    "shortDescription": "Supergroup combining Cluster and Michael Rother",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "foundedBy": ["person-hans-joachim-roedelius", "person-dieter-moebius", "person-michael-rother"],
+    "headquarters": "loc-forst"
+  },
+  {
+    "id": "entity-neu",
+    "type": "entity",
+    "title": "Neu!",
+    "entityType": "band",
+    "shortDescription": "Invented the motorik beat",
+    "dateStart": "1971",
+    "dateEnd": "1975",
+    "foundedBy": ["person-michael-rother", "person-klaus-dinger"],
+    "headquarters": "loc-dusseldorf"
+  },
+  {
+    "id": "entity-kraftwerk",
+    "type": "entity",
+    "title": "Kraftwerk",
+    "entityType": "band",
+    "shortDescription": "Most influential electronic band",
+    "dateStart": "1970",
+    "foundedBy": ["person-ralf-hutter", "person-florian-schneider"],
+    "headquarters": "loc-dusseldorf"
+  },
+  {
+    "id": "entity-ash-ra-tempel",
+    "type": "entity",
+    "title": "Ash Ra Tempel",
+    "entityType": "band",
+    "shortDescription": "Key Berlin School band founded by Göttsching",
+    "dateStart": "1970",
+    "foundedBy": ["person-manuel-gottsching"],
+    "headquarters": "loc-berlin"
+  },
+  {
+    "id": "entity-theatre-eternal-music",
+    "type": "entity",
+    "title": "Theatre of Eternal Music",
+    "entityType": "ensemble",
+    "shortDescription": "Pioneering drone ensemble",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "foundedBy": ["person-la-monte-young"],
+    "headquarters": "loc-new-york"
+  },
+  {
+    "id": "entity-roxy-music",
+    "type": "entity",
+    "title": "Roxy Music",
+    "entityType": "band",
+    "shortDescription": "Art rock band where Eno developed his approach",
+    "dateStart": "1971",
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-king-crimson",
+    "type": "entity",
+    "title": "King Crimson",
+    "entityType": "band",
+    "shortDescription": "Progressive rock band led by Robert Fripp",
+    "dateStart": "1968",
+    "foundedBy": ["person-robert-fripp"],
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-ymo",
+    "type": "entity",
+    "title": "Yellow Magic Orchestra",
+    "entityType": "band",
+    "shortDescription": "Japanese electronic pop pioneers",
+    "dateStart": "1978",
+    "foundedBy": ["person-haruomi-hosono", "person-ryuichi-sakamoto"],
+    "headquarters": "loc-tokyo"
+  },
+  {
+    "id": "entity-new-york-school",
+    "type": "entity",
+    "title": "New York School",
+    "entityType": "movement",
+    "shortDescription": "Avant-garde composer group centered on Cage",
+    "dateStart": "1950",
+    "headquarters": "loc-new-york"
+  },
+  {
+    "id": "entity-deep-listening-band",
+    "type": "entity",
+    "title": "Deep Listening Band",
+    "entityType": "ensemble",
+    "shortDescription": "Ensemble practicing Oliveros's Deep Listening philosophy",
+    "dateStart": "1988",
+    "foundedBy": ["person-pauline-oliveros"]
+  },
+  {
+    "id": "entity-can",
+    "type": "entity",
+    "title": "Can",
+    "entityType": "band",
+    "shortDescription": "Influential Krautrock band with Stockhausen-trained members",
+    "dateStart": "1968",
+    "headquarters": "loc-cologne"
+  },
+  {
+    "id": "entity-faust",
+    "type": "entity",
+    "title": "Faust",
+    "entityType": "band",
+    "shortDescription": "Experimental Krautrock band",
+    "dateStart": "1971",
+    "headquarters": "loc-cologne"
+  },
+  {
+    "id": "entity-obscure-records",
+    "type": "entity",
+    "title": "Obscure Records",
+    "entityType": "label",
+    "shortDescription": "Eno's label for experimental and ambient-adjacent work",
+    "dateStart": "1975",
+    "dateEnd": "1978",
+    "foundedBy": ["person-brian-eno"],
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-ohr",
+    "type": "entity",
+    "title": "Ohr Records",
+    "entityType": "label",
+    "shortDescription": "Major German label for Krautrock and kosmische musik",
+    "dateStart": "1970",
+    "dateEnd": "1973"
+  },
+  {
+    "id": "entity-brain",
+    "type": "entity",
+    "title": "Brain Records",
+    "entityType": "label",
+    "shortDescription": "Successor to Ohr for German electronic music",
+    "dateStart": "1972",
+    "dateEnd": "1979"
+  },
+  {
+    "id": "entity-virgin-german",
+    "type": "entity",
+    "title": "Virgin Records",
+    "entityType": "label",
+    "shortDescription": "Brought German electronic music to international audience",
+    "dateStart": "1972",
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-private-music",
+    "type": "entity",
+    "title": "Private Music",
+    "entityType": "label",
+    "shortDescription": "Label founded by ex-Tangerine Dream member Peter Baumann",
+    "dateStart": "1984",
+    "dateEnd": "1996",
+    "foundedBy": ["person-peter-baumann"]
+  },
+  {
+    "id": "entity-eg-records",
+    "type": "entity",
+    "title": "EG Records",
+    "entityType": "label",
+    "shortDescription": "Primary home for British ambient",
+    "dateStart": "1973",
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-editions-eg",
+    "type": "entity",
+    "title": "Editions EG",
+    "entityType": "label",
+    "shortDescription": "EG sub-label for ambient and experimental releases",
+    "dateStart": "1981",
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-grm-editions",
+    "type": "entity",
+    "title": "GRM Editions",
+    "entityType": "label",
+    "shortDescription": "Label releasing musique concrète and electroacoustic works",
+    "headquarters": "loc-paris"
+  },
+  {
+    "id": "entity-ambient-movement",
+    "type": "entity",
+    "title": "Ambient Music",
+    "entityType": "movement",
+    "shortDescription": "THE movement this network documents",
+    "dateStart": "1978",
+    "foundedBy": ["person-brian-eno"],
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-musique-concrete",
+    "type": "entity",
+    "title": "Musique Concrète",
+    "entityType": "movement",
+    "shortDescription": "Foundational movement composing with recorded sounds",
+    "dateStart": "1948",
+    "foundedBy": ["person-pierre-schaeffer"],
+    "headquarters": "loc-paris"
+  },
+  {
+    "id": "entity-minimalism",
+    "type": "entity",
+    "title": "Minimalism",
+    "entityType": "movement",
+    "shortDescription": "Movement using repetition and gradual change",
+    "dateStart": "1960",
+    "foundedBy": ["person-la-monte-young", "person-terry-riley"],
+    "headquarters": "loc-new-york"
+  },
+  {
+    "id": "entity-berlin-school",
+    "type": "entity",
+    "title": "Berlin School",
+    "entityType": "movement",
+    "shortDescription": "German electronic movement with sequencer-based long-form music",
+    "dateStart": "1970",
+    "headquarters": "loc-berlin"
+  },
+  {
+    "id": "entity-krautrock",
+    "type": "entity",
+    "title": "Krautrock",
+    "entityType": "movement",
+    "shortDescription": "German experimental rock movement",
+    "dateStart": "1968",
+    "dateEnd": "1977"
+  },
+  {
+    "id": "entity-kankyo-ongaku",
+    "type": "entity",
+    "title": "Kankyō Ongaku",
+    "entityType": "movement",
+    "shortDescription": "Japanese environmental music movement",
+    "dateStart": "1980",
+    "headquarters": "loc-tokyo"
+  },
+  {
+    "id": "entity-dub",
+    "type": "entity",
+    "title": "Dub",
+    "entityType": "movement",
+    "shortDescription": "First genre treating mixing board as creative instrument",
+    "dateStart": "1968",
+    "foundedBy": ["person-king-tubby", "person-lee-scratch-perry"],
+    "headquarters": "loc-kingston"
+  },
+  {
+    "id": "entity-futurism",
+    "type": "entity",
+    "title": "Futurism",
+    "entityType": "movement",
+    "shortDescription": "Early 20th century movement embracing machine sounds",
+    "dateStart": "1909",
+    "headquarters": "loc-milan"
+  },
+  {
+    "id": "entity-ems",
+    "type": "entity",
+    "title": "EMS (Electronic Music Studios)",
+    "entityType": "organization",
+    "shortDescription": "British synthesizer manufacturer",
+    "dateStart": "1969",
+    "foundedBy": ["person-peter-zinovieff", "person-david-cockerell", "person-tristram-cary"],
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-moog-music",
+    "type": "entity",
+    "title": "Moog Music",
+    "entityType": "organization",
+    "shortDescription": "Most influential synthesizer manufacturer",
+    "dateStart": "1953",
+    "foundedBy": ["person-robert-moog"],
+    "headquarters": "loc-new-york"
+  },
+  {
+    "id": "entity-buchla",
+    "type": "entity",
+    "title": "Buchla and Associates",
+    "entityType": "organization",
+    "shortDescription": "West Coast synthesizer manufacturer",
+    "dateStart": "1963",
+    "foundedBy": ["person-don-buchla"],
+    "headquarters": "loc-san-francisco"
+  },
+  {
+    "id": "entity-grm-org",
+    "type": "entity",
+    "title": "GRM (Research Organization)",
+    "entityType": "organization",
+    "shortDescription": "First electroacoustic music research institution",
+    "dateStart": "1958",
+    "foundedBy": ["person-pierre-schaeffer"],
+    "headquarters": "loc-paris"
+  },
+  {
+    "id": "entity-sftmc-org",
+    "type": "entity",
+    "title": "San Francisco Tape Music Center",
+    "entityType": "organization",
+    "shortDescription": "Collective supporting experimental electronic music",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "foundedBy": ["person-pauline-oliveros"],
+    "headquarters": "loc-san-francisco"
+  }
+]

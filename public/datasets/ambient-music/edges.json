@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "edge-theremin-rockmore-taught",
+    "source": "person-leon-theremin",
+    "target": "person-clara-rockmore",
+    "relationship": "taught",
+    "dateStart": "1920",
+    "dateEnd": "1930",
+    "evidence": "Rockmore studied with Theremin after meeting him in New York; they collaborated on improving the instrument's range and responsiveness.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-satie-cage-influenced",
+    "source": "person-erik-satie",
+    "target": "person-john-cage",
+    "relationship": "influenced",
+    "evidence": "Cage frequently cited Satie as a major influence, particularly his furniture music concept. Cage organized Satie festivals and performed his work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-young-influenced",
+    "source": "person-john-cage",
+    "target": "person-la-monte-young",
+    "relationship": "influenced",
+    "evidence": "Young encountered Cage's ideas through the Darmstadt summer courses and correspondence; Cage's chance operations influenced Young's early work.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-schaeffer-bayle-taught",
+    "source": "person-pierre-schaeffer",
+    "target": "person-francois-bayle",
+    "relationship": "taught",
+    "dateStart": "1958",
+    "dateEnd": "1966",
+    "evidence": "Bayle studied at GRM under Schaeffer, eventually succeeding him as director in 1966.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-bayle-taught",
+    "source": "person-karlheinz-stockhausen",
+    "target": "person-francois-bayle",
+    "relationship": "taught",
+    "evidence": "Bayle studied with Stockhausen in addition to his work at GRM.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buchla-ciani-taught",
+    "source": "person-don-buchla",
+    "target": "person-suzanne-ciani",
+    "relationship": "taught",
+    "evidence": "Ciani developed close working relationship with Buchla, becoming primary demonstrator and advocate for his instruments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-carlos-moog-collaborated",
+    "source": "person-wendy-carlos",
+    "target": "person-robert-moog",
+    "relationship": "collaborated_with",
+    "dateStart": "1964",
+    "dateEnd": "1970",
+    "evidence": "Carlos worked extensively with Moog developing the synthesizer, providing feedback that shaped instrument design. Their collaboration produced Switched-On Bach.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deutsch-moog-collaborated",
+    "source": "person-herb-deutsch",
+    "target": "person-robert-moog",
+    "relationship": "collaborated_with",
+    "dateStart": "1963",
+    "dateEnd": "1965",
+    "evidence": "Deutsch collaborated with Moog on the initial development of the Moog synthesizer, providing the composer's perspective on interface design.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-hassell-taught",
+    "source": "person-la-monte-young",
+    "target": "person-jon-hassell",
+    "relationship": "taught",
+    "dateStart": "1967",
+    "dateEnd": "1968",
+    "evidence": "Hassell performed with La Monte Young's Theatre of Eternal Music and studied his ideas about sustained tones and just intonation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-young-collaborated",
+    "source": "person-terry-riley",
+    "target": "person-la-monte-young",
+    "relationship": "collaborated_with",
+    "evidence": "Riley and Young were close collaborators in San Francisco and New York, developing ideas about repetition, drones, and extended duration together.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reich-glass-collaborated",
+    "source": "person-steve-reich",
+    "target": "person-philip-glass",
+    "relationship": "collaborated_with",
+    "dateStart": "1966",
+    "dateEnd": "1970",
+    "evidence": "Reich and Glass performed in each other's ensembles during the formative period of minimalism in New York.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-conrad-collaborated",
+    "source": "person-la-monte-young",
+    "target": "person-tony-conrad",
+    "relationship": "collaborated_with",
+    "dateStart": "1962",
+    "dateEnd": "1965",
+    "evidence": "Conrad was member of La Monte Young's Theatre of Eternal Music, performing extended drone works on violin.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-russolo-cage-influenced",
+    "source": "person-luigi-russolo",
+    "target": "person-john-cage",
+    "relationship": "influenced",
+    "evidence": "Russolo's Art of Noises manifesto directly influenced Cage's expansion of music to include all sounds.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-feldman-influenced",
+    "source": "person-john-cage",
+    "target": "person-morton-feldman",
+    "relationship": "influenced",
+    "evidence": "Feldman and Cage were close friends and mutual influences; Feldman's quiet dynamics and duration experiments developed in dialogue with Cage's ideas.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-eno-influenced",
+    "source": "person-john-cage",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Eno frequently cites Cage as fundamental influence. Cage's ideas about ambient sound, silence, and environmental music directly shaped Eno's ambient philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-tudor-collaborated",
+    "source": "person-john-cage",
+    "target": "person-david-tudor",
+    "relationship": "collaborated_with",
+    "dateStart": "1950",
+    "dateEnd": "1992",
+    "evidence": "Tudor was premiere performer of Cage's works, including the first performance of 4'33\". They collaborated throughout their careers.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-oliveros-influenced",
+    "source": "person-john-cage",
+    "target": "person-pauline-oliveros",
+    "relationship": "influenced",
+    "evidence": "Oliveros acknowledged Cage's influence on her thinking about listening and environmental sound, though she developed distinct approaches.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-satie-eno-influenced",
+    "source": "person-erik-satie",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Eno explicitly cited Satie's furniture music as direct precursor to ambient music in liner notes for Music for Airports.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-henry-collaborated",
+    "source": "person-pierre-schaeffer",
+    "target": "person-pierre-henry",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Schaeffer and Henry co-founded musique concrète, collaborating on foundational works including Symphonie pour un homme seul.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-stockhausen-influenced",
+    "source": "person-pierre-schaeffer",
+    "target": "person-karlheinz-stockhausen",
+    "relationship": "influenced",
+    "dateStart": "1952",
+    "evidence": "Stockhausen worked at Schaeffer's GRM studio in Paris in 1952, learning musique concrète techniques before developing his own electronic music approach.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-eno-influenced",
+    "source": "person-pierre-schaeffer",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Eno's tape manipulation techniques and treatment of recorded sound as compositional material derive from musique concrète tradition initiated by Schaeffer.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-young-eno-influenced",
+    "source": "person-la-monte-young",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Young's drone work and exploration of extended duration directly influenced Eno's ambient concepts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-riley-influenced",
+    "source": "person-la-monte-young",
+    "target": "person-terry-riley",
+    "relationship": "influenced",
+    "evidence": "Young and Riley developed minimalist ideas together in San Francisco; Young's drone concepts influenced Riley's repetitive structures.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-td-influenced",
+    "source": "person-terry-riley",
+    "target": "person-edgar-froese",
+    "relationship": "influenced",
+    "evidence": "A Rainbow in Curved Air directly influenced German electronic musicians including Tangerine Dream's keyboard-based improvisations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-eno-influenced",
+    "source": "person-terry-riley",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Riley's tape loop and repetition techniques directly influenced Eno's early ambient work.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-reich-eno-influenced",
+    "source": "person-steve-reich",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Reich's phasing and process music techniques influenced Eno's approach to gradual change in ambient works.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-froese-schulze-cofounded",
+    "source": "person-edgar-froese",
+    "target": "person-klaus-schulze",
+    "relationship": "co_founded",
+    "dateStart": "1967",
+    "dateEnd": "1970",
+    "evidence": "Schulze was founding member of Tangerine Dream, playing drums on Electronic Meditation before departing.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-froese-schnitzler-cofounded",
+    "source": "person-edgar-froese",
+    "target": "person-conrad-schnitzler",
+    "relationship": "co_founded",
+    "dateStart": "1967",
+    "dateEnd": "1969",
+    "evidence": "Schnitzler was founding member of Tangerine Dream, appearing on Electronic Meditation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-froese-franke-collaborated",
+    "source": "person-edgar-froese",
+    "target": "person-christopher-franke",
+    "relationship": "collaborated_with",
+    "dateStart": "1970",
+    "dateEnd": "1988",
+    "evidence": "Franke was member of Tangerine Dream during their most influential period, helping develop their sequencer-based sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-froese-baumann-collaborated",
+    "source": "person-edgar-froese",
+    "target": "person-peter-baumann",
+    "relationship": "collaborated_with",
+    "dateStart": "1971",
+    "dateEnd": "1977",
+    "evidence": "Baumann was key member during TD's classic Phaedra and Rubycon period.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roedelius-moebius-cofounded",
+    "source": "person-hans-joachim-roedelius",
+    "target": "person-dieter-moebius",
+    "relationship": "co_founded",
+    "dateStart": "1969",
+    "evidence": "Roedelius and Moebius co-founded Kluster (later Cluster) with Conrad Schnitzler, continuing as duo after Schnitzler's departure.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roedelius-schnitzler-cofounded",
+    "source": "person-hans-joachim-roedelius",
+    "target": "person-conrad-schnitzler",
+    "relationship": "co_founded",
+    "dateStart": "1969",
+    "dateEnd": "1971",
+    "evidence": "The three co-founded Kluster; Schnitzler departed 1971 to pursue solo work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moebius-schnitzler-cofounded",
+    "source": "person-dieter-moebius",
+    "target": "person-conrad-schnitzler",
+    "relationship": "co_founded",
+    "dateStart": "1969",
+    "dateEnd": "1971",
+    "evidence": "Co-founding members of Kluster.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roedelius-rother-cofounded",
+    "source": "person-hans-joachim-roedelius",
+    "target": "person-michael-rother",
+    "relationship": "co_founded",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Roedelius, Moebius, and Rother formed Harmonia, combining Cluster's textures with Rother's guitar work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moebius-rother-cofounded",
+    "source": "person-dieter-moebius",
+    "target": "person-michael-rother",
+    "relationship": "co_founded",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Co-founding members of Harmonia.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rother-dinger-cofounded",
+    "source": "person-michael-rother",
+    "target": "person-klaus-dinger",
+    "relationship": "co_founded",
+    "dateStart": "1971",
+    "dateEnd": "1975",
+    "evidence": "Rother and Dinger co-founded Neu! after both briefly played with Kraftwerk, inventing the motorik sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gottsching-schulze-cofounded",
+    "source": "person-manuel-gottsching",
+    "target": "person-klaus-schulze",
+    "relationship": "co_founded",
+    "dateStart": "1970",
+    "dateEnd": "1971",
+    "evidence": "Schulze was founding drummer of Ash Ra Tempel with Göttsching before departing for solo career.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutter-schneider-cofounded",
+    "source": "person-ralf-hutter",
+    "target": "person-florian-schneider",
+    "relationship": "co_founded",
+    "dateStart": "1970",
+    "evidence": "Co-founded Kraftwerk, leading the group together for decades.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-kraftwerk-influenced",
+    "source": "person-karlheinz-stockhausen",
+    "target": "person-ralf-hutter",
+    "relationship": "influenced",
+    "evidence": "Stockhausen's electronic experiments at WDR Cologne influenced Kraftwerk's approach to electronic composition.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-td-influenced",
+    "source": "person-karlheinz-stockhausen",
+    "target": "person-edgar-froese",
+    "relationship": "influenced",
+    "evidence": "Stockhausen's spatial and electronic experiments influenced Tangerine Dream's approach to synthesizers and immersive sound.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-plank-kraftwerk-produced",
+    "source": "person-conny-plank",
+    "target": "person-ralf-hutter",
+    "relationship": "produced",
+    "dateStart": "1970",
+    "dateEnd": "1973",
+    "evidence": "Plank produced Kraftwerk's first three albums before they built their own Kling Klang studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plank-cluster-produced",
+    "source": "person-conny-plank",
+    "target": "person-hans-joachim-roedelius",
+    "relationship": "produced",
+    "dateStart": "1974",
+    "dateEnd": "1979",
+    "evidence": "Plank produced key Cluster albums including Zuckerzeit and Sowiesoso, shaping their sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plank-neu-produced",
+    "source": "person-conny-plank",
+    "target": "person-michael-rother",
+    "relationship": "produced",
+    "dateStart": "1972",
+    "dateEnd": "1975",
+    "evidence": "Plank produced all three Neu! albums, crucial to their distinctive sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plank-harmonia-produced",
+    "source": "person-conny-plank",
+    "target": "person-dieter-moebius",
+    "relationship": "produced",
+    "dateStart": "1974",
+    "dateEnd": "1975",
+    "evidence": "Plank produced both Harmonia albums.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plank-eno-collaborated",
+    "source": "person-conny-plank",
+    "target": "person-brian-eno",
+    "relationship": "collaborated_with",
+    "dateStart": "1976",
+    "dateEnd": "1978",
+    "evidence": "Plank facilitated Eno's collaborations with German artists, co-producing Cluster & Eno albums at his studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-fripp-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-robert-fripp",
+    "relationship": "collaborated_with",
+    "dateStart": "1972",
+    "dateEnd": "1975",
+    "evidence": "Eno and Fripp created foundational ambient works (No Pussyfooting) (1973) and Evening Star (1975) using tape loop techniques (Frippertronics).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-budd-produced",
+    "source": "person-brian-eno",
+    "target": "person-harold-budd",
+    "relationship": "produced",
+    "dateStart": "1978",
+    "dateEnd": "1984",
+    "evidence": "Eno produced The Pavilion of Dreams (1978), Ambient 2: The Plateaux of Mirror (1980), and The Pearl (1984), defining Budd's mature sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-budd-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-harold-budd",
+    "relationship": "collaborated_with",
+    "dateStart": "1980",
+    "dateEnd": "1984",
+    "evidence": "Beyond production, Plateaux of Mirror and The Pearl are credited as collaborations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-laraaji-produced",
+    "source": "person-brian-eno",
+    "target": "person-laraaji",
+    "relationship": "produced",
+    "dateStart": "1979",
+    "dateEnd": "1980",
+    "evidence": "Eno discovered Laraaji busking in Washington Square Park and produced Ambient 3: Day of Radiance (1980).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-lanois-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-daniel-lanois",
+    "relationship": "collaborated_with",
+    "dateStart": "1983",
+    "evidence": "Lanois became Eno's primary collaborator from early 1980s, co-producing Apollo, The Pearl, and many subsequent works.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-rogereno-related",
+    "source": "person-brian-eno",
+    "target": "person-roger-eno",
+    "relationship": "related_to",
+    "evidence": "Brothers; collaborated on Apollo: Atmospheres & Soundtracks (1983) and later works.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-rogereno-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-roger-eno",
+    "relationship": "collaborated_with",
+    "dateStart": "1983",
+    "evidence": "Collaborated on Apollo and subsequent albums including Mixing Colours (2020).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-roedelius-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-hans-joachim-roedelius",
+    "relationship": "collaborated_with",
+    "dateStart": "1977",
+    "dateEnd": "1978",
+    "evidence": "Eno collaborated with Cluster on Cluster & Eno (1977) and After the Heat (1978), visiting their studio in Forst.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-moebius-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-dieter-moebius",
+    "relationship": "collaborated_with",
+    "dateStart": "1977",
+    "dateEnd": "1978",
+    "evidence": "Co-created Cluster & Eno and After the Heat albums.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-harmonia-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-michael-rother",
+    "relationship": "collaborated_with",
+    "dateStart": "1976",
+    "evidence": "Eno visited Harmonia's studio in Forst (1976), recording sessions released decades later as Tracks and Traces (1997/2009).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-bryars-produced",
+    "source": "person-brian-eno",
+    "target": "person-gavin-bryars",
+    "relationship": "produced",
+    "dateStart": "1975",
+    "evidence": "Eno released Bryars' The Sinking of the Titanic and Jesus' Blood Never Failed Me Yet on his Obscure Records label.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-nyman-produced",
+    "source": "person-brian-eno",
+    "target": "person-michael-nyman",
+    "relationship": "produced",
+    "dateStart": "1976",
+    "evidence": "Eno released Nyman's Decay Music on Obscure Records.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-hassell-collaborated",
+    "source": "person-brian-eno",
+    "target": "person-jon-hassell",
+    "relationship": "collaborated_with",
+    "dateStart": "1980",
+    "evidence": "Collaborated on Fourth World Vol. 1: Possible Musics (1980), pioneering fusion of ambient and world music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bryars-nyman-knows",
+    "source": "person-gavin-bryars",
+    "target": "person-michael-nyman",
+    "relationship": "knows",
+    "evidence": "Bryars and Nyman were part of the same experimental music scene in London; both released on Obscure Records.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-tubby-perry-influenced",
+    "source": "person-king-tubby",
+    "target": "person-lee-scratch-perry",
+    "relationship": "influenced",
+    "evidence": "Both pioneered dub independently but were aware of each other's work in Kingston's studio scene; King Tubby's mixing innovations influenced the broader approach.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-tubby-eno-influenced",
+    "source": "person-king-tubby",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Eno cited dub as influence on his studio-as-instrument approach, particularly the emphasis on spatial manipulation and remix.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-perry-eno-influenced",
+    "source": "person-lee-scratch-perry",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Perry's experimental production techniques at Black Ark studio influenced Eno's approach to found sound and unconventional studio methods.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-theremin-moog-influenced",
+    "source": "person-leon-theremin",
+    "target": "person-robert-moog",
+    "relationship": "influenced",
+    "evidence": "Moog began building theremins as a teenager, inspired by Theremin's instrument. This sparked his interest in electronic instruments that led to the synthesizer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moog-td-influenced",
+    "source": "person-robert-moog",
+    "target": "person-edgar-froese",
+    "relationship": "influenced",
+    "evidence": "Tangerine Dream were major users of Moog synthesizers; the Minimoog defined much of their sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moog-schulze-influenced",
+    "source": "person-robert-moog",
+    "target": "person-klaus-schulze",
+    "relationship": "influenced",
+    "evidence": "Schulze was prolific user of Moog synthesizers throughout his career.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zinovieff-cockerell-cofounded",
+    "source": "person-peter-zinovieff",
+    "target": "person-david-cockerell",
+    "relationship": "co_founded",
+    "dateStart": "1969",
+    "evidence": "Co-founded EMS (Electronic Music Studios), with Cockerell designing the VCS3 circuitry.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zinovieff-cary-cofounded",
+    "source": "person-peter-zinovieff",
+    "target": "person-tristram-cary",
+    "relationship": "co_founded",
+    "dateStart": "1969",
+    "evidence": "Cary was co-founder of EMS.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cockerell-cary-cofounded",
+    "source": "person-david-cockerell",
+    "target": "person-tristram-cary",
+    "relationship": "co_founded",
+    "dateStart": "1969",
+    "evidence": "Co-founders of EMS.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zinovieff-eno-influenced",
+    "source": "person-peter-zinovieff",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Eno extensively used EMS synthesizers (VCS3, Synthi AKS) during Roxy Music and early solo career; the instruments shaped his sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-derbyshire-zinovieff-knows",
+    "source": "person-delia-derbyshire",
+    "target": "person-peter-zinovieff",
+    "relationship": "knows",
+    "evidence": "Derbyshire used EMS equipment and was part of the British electronic music scene connected to EMS.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-buchla-ciani-collaborated",
+    "source": "person-don-buchla",
+    "target": "person-suzanne-ciani",
+    "relationship": "collaborated_with",
+    "evidence": "Ciani became primary Buchla demonstrator and advocate; worked closely with Buchla on instrument development and demonstration.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buchla-oliveros-influenced",
+    "source": "person-don-buchla",
+    "target": "person-pauline-oliveros",
+    "relationship": "influenced",
+    "evidence": "Buchla instruments were developed in dialogue with SFTMC composers including Oliveros.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-scott-moog-corresponded",
+    "source": "person-raymond-scott",
+    "target": "person-robert-moog",
+    "relationship": "corresponded_with",
+    "evidence": "Scott and Moog exchanged ideas about electronic instrument design; both were working on similar problems independently.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-derbyshire-cary-knows",
+    "source": "person-delia-derbyshire",
+    "target": "person-tristram-cary",
+    "relationship": "knows",
+    "evidence": "Both worked on Doctor Who music; Cary contributed to the series while Derbyshire created the famous theme realization.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-derbyshire-eno-influenced",
+    "source": "person-delia-derbyshire",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Derbyshire's tape manipulation work and atmospheric compositions at the Radiophonic Workshop prefigured and influenced British ambient/electronic music including Eno's approach.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hosono-sakamoto-cofounded",
+    "source": "person-haruomi-hosono",
+    "target": "person-ryuichi-sakamoto",
+    "relationship": "co_founded",
+    "dateStart": "1978",
+    "evidence": "Co-founded Yellow Magic Orchestra with Yukihiro Takahashi.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hosono-yoshimura-knows",
+    "source": "person-haruomi-hosono",
+    "target": "person-hiroshi-yoshimura",
+    "relationship": "knows",
+    "evidence": "Both part of the Japanese kankyō ongaku (environmental music) scene in the 1980s; contemporaries working in similar directions.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-eno-yoshimura-influenced",
+    "source": "person-brian-eno",
+    "target": "person-hiroshi-yoshimura",
+    "relationship": "influenced",
+    "evidence": "Yoshimura's environmental music was influenced by Eno's ambient music concepts, though developed distinctly for Japanese contexts.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-feldman-cage-collaborated",
+    "source": "person-morton-feldman",
+    "target": "person-john-cage",
+    "relationship": "collaborated_with",
+    "evidence": "Close friends and mutual influences; both members of the New York School of composers.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feldman-eno-influenced",
+    "source": "person-morton-feldman",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Feldman's extremely quiet dynamics and long-duration works influenced Eno's ambient aesthetic.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-td-eno-influenced",
+    "source": "person-edgar-froese",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "TD's sequencer-based long-form electronic music influenced Eno's ambient approach.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-kraftwerk-eno-influenced",
+    "source": "person-ralf-hutter",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Kraftwerk's electronic methods and aesthetics influenced broader electronic music including Eno's work.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-schulze-eno-influenced",
+    "source": "person-klaus-schulze",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Schulze's long-form electronic works paralleled and influenced ambient aesthetics.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-plank-eno-influenced",
+    "source": "person-conny-plank",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Plank's production approach—treating the studio as creative instrument—paralleled and influenced Eno's methods.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-carlos-td-influenced",
+    "source": "person-wendy-carlos",
+    "target": "person-edgar-froese",
+    "relationship": "influenced",
+    "evidence": "Switched-On Bach demonstrated synthesizer's musical potential, influencing German electronic musicians.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hassell-riley-collaborated",
+    "source": "person-jon-hassell",
+    "target": "person-terry-riley",
+    "relationship": "collaborated_with",
+    "evidence": "Hassell performed with Terry Riley in the late 1960s-1970s.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-palestine-young-knows",
+    "source": "person-charlemagne-palestine",
+    "target": "person-la-monte-young",
+    "relationship": "knows",
+    "evidence": "Contemporaries in New York minimalist/drone scene; both explored sustained tones and overtones.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-palestine-conrad-knows",
+    "source": "person-charlemagne-palestine",
+    "target": "person-tony-conrad",
+    "relationship": "knows",
+    "evidence": "Part of the same New York experimental scene exploring drones and sustained sounds.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-feldman-budd-influenced",
+    "source": "person-morton-feldman",
+    "target": "person-harold-budd",
+    "relationship": "influenced",
+    "evidence": "Budd's quiet, sustained approach shares aesthetic with Feldman; influence acknowledged but extent debated.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-eno-member-roxy",
+    "source": "person-brian-eno",
+    "target": "entity-roxy-music",
+    "relationship": "member_of",
+    "dateStart": "1971",
+    "dateEnd": "1973",
+    "evidence": "Eno was founding member and synthesist for Roxy Music, developing his approach before going solo.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fripp-led-kingcrimson",
+    "source": "person-robert-fripp",
+    "target": "entity-king-crimson",
+    "relationship": "led",
+    "dateStart": "1968",
+    "evidence": "Fripp has been the only constant member and leader of King Crimson throughout its existence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulze-member-td",
+    "source": "person-klaus-schulze",
+    "target": "entity-tangerine-dream",
+    "relationship": "member_of",
+    "dateStart": "1969",
+    "dateEnd": "1970",
+    "evidence": "Schulze was founding drummer of Tangerine Dream, playing on Electronic Meditation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schnitzler-member-td",
+    "source": "person-conrad-schnitzler",
+    "target": "entity-tangerine-dream",
+    "relationship": "member_of",
+    "dateStart": "1969",
+    "dateEnd": "1969",
+    "evidence": "Schnitzler was founding member of Tangerine Dream, playing on Electronic Meditation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franke-member-td",
+    "source": "person-christopher-franke",
+    "target": "entity-tangerine-dream",
+    "relationship": "member_of",
+    "dateStart": "1970",
+    "dateEnd": "1988",
+    "evidence": "Franke was member during TD's most influential period.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-baumann-member-td",
+    "source": "person-peter-baumann",
+    "target": "entity-tangerine-dream",
+    "relationship": "member_of",
+    "dateStart": "1971",
+    "dateEnd": "1977",
+    "evidence": "Baumann was key member during TD's classic Phaedra and Rubycon period.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulze-member-ashratempel",
+    "source": "person-klaus-schulze",
+    "target": "entity-ash-ra-tempel",
+    "relationship": "member_of",
+    "dateStart": "1970",
+    "dateEnd": "1971",
+    "evidence": "Schulze was founding drummer of Ash Ra Tempel before departing for solo career.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schnitzler-member-cluster",
+    "source": "person-conrad-schnitzler",
+    "target": "entity-cluster",
+    "relationship": "member_of",
+    "dateStart": "1969",
+    "dateEnd": "1971",
+    "evidence": "Schnitzler was founding member of Kluster (later Cluster) before departing.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roedelius-member-cluster",
+    "source": "person-hans-joachim-roedelius",
+    "target": "entity-cluster",
+    "relationship": "member_of",
+    "dateStart": "1969",
+    "evidence": "Roedelius co-founded and remained member of Cluster.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moebius-member-cluster",
+    "source": "person-dieter-moebius",
+    "target": "entity-cluster",
+    "relationship": "member_of",
+    "dateStart": "1969",
+    "evidence": "Moebius co-founded and remained member of Cluster.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roedelius-member-harmonia",
+    "source": "person-hans-joachim-roedelius",
+    "target": "entity-harmonia",
+    "relationship": "member_of",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Roedelius was co-founder and member of Harmonia.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moebius-member-harmonia",
+    "source": "person-dieter-moebius",
+    "target": "entity-harmonia",
+    "relationship": "member_of",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Moebius was co-founder and member of Harmonia.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rother-member-harmonia",
+    "source": "person-michael-rother",
+    "target": "entity-harmonia",
+    "relationship": "member_of",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Rother was co-founder and member of Harmonia.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rother-member-neu",
+    "source": "person-michael-rother",
+    "target": "entity-neu",
+    "relationship": "member_of",
+    "dateStart": "1971",
+    "dateEnd": "1975",
+    "evidence": "Rother co-founded and was member of Neu!.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dinger-member-neu",
+    "source": "person-klaus-dinger",
+    "target": "entity-neu",
+    "relationship": "member_of",
+    "dateStart": "1971",
+    "dateEnd": "1975",
+    "evidence": "Dinger co-founded and was member of Neu!.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutter-member-kraftwerk",
+    "source": "person-ralf-hutter",
+    "target": "entity-kraftwerk",
+    "relationship": "member_of",
+    "dateStart": "1970",
+    "evidence": "Hütter co-founded and has led Kraftwerk.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schneider-member-kraftwerk",
+    "source": "person-florian-schneider",
+    "target": "entity-kraftwerk",
+    "relationship": "member_of",
+    "dateStart": "1970",
+    "dateEnd": "2008",
+    "evidence": "Schneider co-founded Kraftwerk and was member until 2008.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-member-theatre",
+    "source": "person-la-monte-young",
+    "target": "entity-theatre-eternal-music",
+    "relationship": "founded",
+    "dateStart": "1962",
+    "evidence": "Young founded the Theatre of Eternal Music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-conrad-member-theatre",
+    "source": "person-tony-conrad",
+    "target": "entity-theatre-eternal-music",
+    "relationship": "member_of",
+    "dateStart": "1962",
+    "dateEnd": "1965",
+    "evidence": "Conrad was key member of the Theatre of Eternal Music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hosono-member-ymo",
+    "source": "person-haruomi-hosono",
+    "target": "entity-ymo",
+    "relationship": "member_of",
+    "dateStart": "1978",
+    "evidence": "Hosono co-founded and was member of Yellow Magic Orchestra.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sakamoto-member-ymo",
+    "source": "person-ryuichi-sakamoto",
+    "target": "entity-ymo",
+    "relationship": "member_of",
+    "dateStart": "1978",
+    "evidence": "Sakamoto co-founded and was member of Yellow Magic Orchestra.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-founded-obscure",
+    "source": "person-brian-eno",
+    "target": "entity-obscure-records",
+    "relationship": "founded",
+    "dateStart": "1975",
+    "evidence": "Eno founded Obscure Records to release experimental and ambient-adjacent work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-baumann-founded-private",
+    "source": "person-peter-baumann",
+    "target": "entity-private-music",
+    "relationship": "founded",
+    "dateStart": "1984",
+    "evidence": "Baumann founded Private Music after leaving Tangerine Dream.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-founded-grm",
+    "source": "person-pierre-schaeffer",
+    "target": "entity-grm-org",
+    "relationship": "founded",
+    "dateStart": "1958",
+    "evidence": "Schaeffer founded GRM (Groupe de Recherches Musicales).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bayle-led-grm",
+    "source": "person-francois-bayle",
+    "target": "entity-grm-org",
+    "relationship": "led",
+    "dateStart": "1966",
+    "dateEnd": "1997",
+    "evidence": "Bayle directed GRM for over 30 years.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oliveros-founded-sftmc",
+    "source": "person-pauline-oliveros",
+    "target": "entity-sftmc-org",
+    "relationship": "founded",
+    "dateStart": "1962",
+    "evidence": "Oliveros was co-founder of San Francisco Tape Music Center.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moog-founded-moog",
+    "source": "person-robert-moog",
+    "target": "entity-moog-music",
+    "relationship": "founded",
+    "dateStart": "1953",
+    "evidence": "Moog founded his company (initially R.A. Moog Co.).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buchla-founded-buchla",
+    "source": "person-don-buchla",
+    "target": "entity-buchla",
+    "relationship": "founded",
+    "dateStart": "1963",
+    "evidence": "Buchla founded Buchla and Associates.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zinovieff-founded-ems",
+    "source": "person-peter-zinovieff",
+    "target": "entity-ems",
+    "relationship": "founded",
+    "dateStart": "1969",
+    "evidence": "Zinovieff co-founded EMS (Electronic Music Studios).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cockerell-founded-ems",
+    "source": "person-david-cockerell",
+    "target": "entity-ems",
+    "relationship": "founded",
+    "dateStart": "1969",
+    "evidence": "Cockerell co-founded EMS and designed VCS3 circuitry.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cary-founded-ems",
+    "source": "person-tristram-cary",
+    "target": "entity-ems",
+    "relationship": "founded",
+    "dateStart": "1969",
+    "evidence": "Cary co-founded EMS.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schnitzler-founded-zodiak",
+    "source": "person-conrad-schnitzler",
+    "target": "loc-zodiak",
+    "relationship": "founded",
+    "dateStart": "1968",
+    "evidence": "Schnitzler co-founded the Zodiak Free Arts Lab in Berlin.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-founded-ambient",
+    "source": "person-brian-eno",
+    "target": "entity-ambient-movement",
+    "relationship": "founded",
+    "dateStart": "1978",
+    "evidence": "Eno coined the term 'ambient music' and defined the movement with Music for Airports.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-founded-concrete",
+    "source": "person-pierre-schaeffer",
+    "target": "entity-musique-concrete",
+    "relationship": "founded",
+    "dateStart": "1948",
+    "evidence": "Schaeffer founded musique concrète with his first études.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-founded-minimalism",
+    "source": "person-la-monte-young",
+    "target": "entity-minimalism",
+    "relationship": "founded",
+    "evidence": "Young is often credited as the first minimalist composer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-founded-minimalism",
+    "source": "person-terry-riley",
+    "target": "entity-minimalism",
+    "relationship": "founded",
+    "evidence": "Riley's In C was foundational to the minimalist movement.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tubby-founded-dub",
+    "source": "person-king-tubby",
+    "target": "entity-dub",
+    "relationship": "founded",
+    "dateStart": "1968",
+    "evidence": "King Tubby pioneered dub music and mixing techniques.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-perry-founded-dub",
+    "source": "person-lee-scratch-perry",
+    "target": "entity-dub",
+    "relationship": "founded",
+    "evidence": "Lee Scratch Perry was a co-pioneer of dub music.",
+    "strength": "strong"
+  }
+]

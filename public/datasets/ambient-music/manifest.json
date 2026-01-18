@@ -1,0 +1,29 @@
+{
+  "id": "ambient-music",
+  "name": "Ambient Music Network",
+  "description": "The origins and development of ambient music, centered on Brian Eno's 1978 coining of the term. Traces the convergent influences from Erik Satie's furniture music, John Cage's environmental sound philosophy, German kosmische musik, French musique concrète, American minimalism, and Jamaican dub production techniques.",
+  "lastUpdated": "2026-01-18",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 189,
+  "edgeCount": 127,
+  "customRelationshipTypes": [
+    {
+      "type": "produced",
+      "description": "Source produced recordings or works for target",
+      "directed": true
+    },
+    {
+      "type": "invented",
+      "description": "Source invented or created the target (instrument, technique)",
+      "directed": true
+    },
+    {
+      "type": "co_founded",
+      "description": "Both parties co-founded an organization or group together",
+      "directed": false
+    }
+  ]
+}
