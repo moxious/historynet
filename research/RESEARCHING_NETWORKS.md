@@ -155,6 +155,13 @@ research/
 - In evidence field, cite WHO is speculating (e.g., "Frances Yates argues in *The Rosicrucian Enlightenment* that...")
 - Speculation still requires a citation—no unsourced speculation
 
+**Connectedness**:
+- In general, connected nodes are good, because they have context and relevance
+- Where possible, while respecting evidentiary standard, try to ensure that all nodes are
+connected; if they're relevant enough to include in the research, they're probably connected
+to something.
+- If a node should be completely disconnected, make sure to note in its metadata why.
+
 **Output**: `03-relationships.md` with:
 - Relationships organized by category or subgroup
 - Consistent format: persons, type, evidence, source, dates
@@ -250,6 +257,21 @@ research/
 - `public/datasets/{network-id}/manifest.json`
 - `public/datasets/{network-id}/nodes.json`
 - `public/datasets/{network-id}/edges.json`
+
+---
+
+### Phase R: Re-review and Amendment
+
+**Goal**: Take feedback about an already completed network and make changes to it on the
+basis of that feedback.  This phase requires that the user provide some detail on what they're
+interested in.
+
+**Tasks**:
+- [ ] Read the user's feedback, and locate what they're talking about in the JSON network
+- [ ] Determine whether the user has either substantiated what they're saying, or if their
+claims can be substantiated from sources online
+- [ ] Keep a log in the research notes of the feedback that was provided, and its disposition
+- [ ] Provide a rationale for what was changed and why on the basis of the user feedback.
 
 ---
 
