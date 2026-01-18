@@ -1208,7 +1208,7 @@
     "dateEnd": "1625",
     "shortDescription": "The wave of responses and excitement following the Rosicrucian manifestos.",
     "biography": "The wave of responses, publications, and excitement that followed the appearance of the Rosicrucian manifestos. Hundreds of pamphlets were published either defending, attacking, or attempting to contact the brotherhood. Demonstrates the widespread hunger for reformation and esoteric knowledge in early 17th century Europe.",
-    "members": ["person-michael-maier", "person-robert-fludd", "person-andreas-libavius", "person-adam-haslmayr", "person-daniel-mogling"]
+    "members": ["person-michael-maier", "person-robert-fludd", "person-andreas-libavius", "person-adam-haslmayr", "person-daniel-mogling", "person-daniel-cramer"]
   },
   {
     "id": "entity-hermeticism",
@@ -1241,7 +1241,7 @@
     "shortDescription": "First Protestant university in Germany; became a major center for Paracelsian chemical medicine.",
     "biography": "First Protestant university in Germany, founded in 1527. Under patronage of Moritz of Hesse-Kassel, became a major center for Paracelsian chemical medicine. Site of first university chemistry professorship (1609) and chemical laboratory, establishing laboratory work as part of university education.",
     "headquarters": "loc-marburg",
-    "members": ["person-johannes-hartmann", "person-heinrich-petraeus", "person-raphael-eglin"]
+    "members": ["person-johannes-hartmann", "person-heinrich-petraeus", "person-raphael-eglin", "person-daniel-cramer"]
   },
   {
     "id": "entity-marburg-laboratory",
@@ -1346,5 +1346,41 @@
     "biography": "The first university professorship explicitly dedicated to chemical/iatrochemical medicine, created at Marburg in 1609 under Moritz of Hesse-Kassel's patronage. A milestone in academic legitimation of Paracelsian medicine.",
     "headquarters": "loc-marburg",
     "members": ["person-johannes-hartmann"]
+  },
+
+  {
+    "id": "person-daniel-cramer",
+    "type": "person",
+    "title": "Daniel Cramer",
+    "alternateNames": ["Daniel Candidus"],
+    "dateStart": "1568",
+    "dateEnd": "1637",
+    "shortDescription": "German Lutheran theologian and author of one of the earliest Rosicrucian emblem books, The True Society of Jesus and the Rosy Cross.",
+    "biography": "Daniel Cramer was a German Lutheran theologian born on January 20, 1568 in Reetz (Recz), Brandenburg. He held academic positions including professor at the University of Marburg, where he also wrote metaphysical works. Later he became archdeacon in Stettin (now Szczecin, Poland). In 1617, Lucas Jennis of Frankfurt published his emblem book Societas Jesu et Rosae Crucis Vera (The True Society of Jesus and the Rosy Cross), one of the earliest emblem books associated with Rosicrucian thought. The work contains 40 emblems organized in four decades, each featuring the mystical heart in various spiritual states—chained, crowned, nailed to a cross, with wings, under attack by the devil—depicting stages of spiritual transformation. Later editions appeared as Emblemata sacra (1624, expanded to 50 emblems) and Emblematum sacrorum (1627). He also published Octaginta emblemata moralia nova (1630).",
+    "birthPlace": "Reetz",
+    "deathPlace": "Stettin",
+    "nationality": "German",
+    "occupations": ["theologian", "professor", "author"],
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_Cramer"}
+    ]
+  },
+  {
+    "id": "object-rosicrucian-emblems-cramer",
+    "type": "object",
+    "title": "The Rosicrucian Emblems of Daniel Cramer",
+    "alternateNames": ["Societas Jesu et Rosae Crucis Vera", "The True Society of Jesus and the Rosy Cross", "Emblemata sacra"],
+    "dateStart": "1617",
+    "shortDescription": "One of the earliest Rosicrucian emblem books, featuring 40 emblems depicting the mystical heart in various spiritual states.",
+    "objectType": "emblem book",
+    "creators": ["person-daniel-cramer"],
+    "dateCreated": "1617",
+    "language": "Latin",
+    "subject": "Rosicrucianism, Christian mysticism, spiritual transformation",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_Cramer"},
+      {"label": "Rose Obscurities Edition", "url": "https://roseobscurities.com/products/the-rosicrucian-emblems-of-daniel-cramer-translated-by-tair-edited-by-adam-mclean"}
+    ],
+    "notes": "Contains 40 emblems in four decades, each with a title, scripture verse, and Latin explanation. The emblems depict the mystical heart in various conditions symbolizing spiritual transformation. Expanded to 50 emblems in the 1624 edition (Emblemata sacra)."
   }
 ]

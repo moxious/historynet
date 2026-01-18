@@ -991,5 +991,55 @@
     "dateEnd": "1620",
     "evidence": "Petraeus worked at the University of Marburg, presiding over academic disputations.",
     "strength": "strong"
+  },
+
+  {
+    "id": "edge-cramer-authored-emblems",
+    "source": "person-daniel-cramer",
+    "target": "object-rosicrucian-emblems-cramer",
+    "relationship": "authored",
+    "dateStart": "1617",
+    "evidence": "Cramer wrote Societas Jesu et Rosae Crucis Vera, published by Lucas Jennis of Frankfurt in 1617.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cramer-worked-marburg",
+    "source": "person-daniel-cramer",
+    "target": "loc-marburg",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "evidence": "Cramer held an academic position as professor at the University of Marburg, where he also wrote metaphysical works.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Daniel_Cramer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jennis-published-cramer",
+    "source": "entity-lucas-jennis",
+    "target": "object-rosicrucian-emblems-cramer",
+    "relationship": "published",
+    "label": "Publisher",
+    "dateStart": "1617",
+    "evidence": "Lucas Jennis of Frankfurt published Cramer's Rosicrucian emblem book in 1617.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cramer-contemporary-maier",
+    "source": "person-daniel-cramer",
+    "target": "person-michael-maier",
+    "relationship": "associated_with",
+    "label": "Contemporary emblem authors",
+    "dateStart": "1617",
+    "evidence": "Both Cramer and Maier published Rosicrucian-themed emblem books in 1617 through Frankfurt publishers. Maier's Atalanta Fugiens and Cramer's Societas Jesu et Rosae Crucis Vera represent the flowering of Rosicrucian emblematic literature.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-cramer-part-rosicrucian-furor",
+    "source": "person-daniel-cramer",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Published during furor",
+    "dateStart": "1617",
+    "evidence": "Cramer's 1617 emblem book was part of the wave of Rosicrucian publications that followed the manifestos.",
+    "strength": "strong"
   }
 ]
