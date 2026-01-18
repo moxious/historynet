@@ -11,7 +11,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Planned
 - M12: User Feedback - feedback form with Vercel serverless functions
 - M13: Scenius Rebrand & Theme System - application rebrand with light/dark themes
-- M14: Timeline Improvements - layout fixes, year label readability, gap handling
+
+---
+
+## [1.5.0] - 2026-01-18
+
+### Added
+- **M14: Timeline Improvements** - Major usability enhancements to the timeline visualization
+
+### Improved
+- **Layout positioning**: Timeline content now respects filter panel width with 300px left margin
+- **Year label readability**: Century labels increased to 16px (was 12px), decade labels to 13px (was 10px) with improved font weights and contrast
+- **Initial zoom & focus**: Timeline now opens with content clearly visible and focused on the first chronological item
+- **Legend consistency**: Timeline legend now matches graph view exactly with Person, Object, Location, Entity types and shapes
+
+### Fixed
+- Timeline content no longer overlaps with the filter panel when expanded
+- Initial view no longer requires zooming to see content
+
+### Verified
+- Infobox behavior parity: Timeline uses the same shared InfoboxPanel as graph view
+- Selection state preserved when switching between graph and timeline views
+- Escape key and X button work correctly to close infobox in timeline view
+
+### Research (Documented)
+- Timeline gap handling: Evaluated vis-timeline, react-chrono, TimelineJS alternatives
+- Decision: Stay with D3 for full control; defer gap collapse feature to future milestone
 
 ---
 

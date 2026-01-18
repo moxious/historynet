@@ -17,94 +17,47 @@ This document outlines the milestone structure and future direction for HistoryN
 | M11 | Graph Interaction Polish | ✅ Complete |
 | M12 | User Feedback | 🔲 Future |
 | M13 | Scenius Rebrand & Theme System | 🔲 Future |
-| M14 | Timeline Improvements | 🔲 Future |
+| M14 | Timeline Improvements | ✅ Complete |
 | M15 | Stable Resource URLs | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
 ---
 
-## Completed: MVP + Timeline (M1-M8)
+## Completed: MVP + Post-MVP Polish (M1-M11, M14)
 
-The core application is complete and deployed:
+The core application is complete, polished, and deployed:
 
-- **Graph Visualization**: Force-directed D3 layout with zoom/pan, type-based node shapes, relationship-colored edges
-- **Timeline Visualization**: Vertical timeline with date positioning, lifespan markers, automatic lane assignment
-- **Infobox Panel**: Node/edge detail display with type-specific fields, images, internal links, evidence
-- **Filtering**: Date range and text filters with URL sync
-- **Search**: Instant highlighting with keyboard shortcut (Cmd/Ctrl+K)
+- **Graph Visualization**: Force-directed D3 layout with zoom/pan, type-based node shapes, relationship-colored edges, tuned physics
+- **Timeline Visualization**: Vertical timeline with date positioning, lifespan markers, automatic lane assignment, improved readability
+- **Infobox Panel**: Node/edge detail display with type-specific fields, images, internal links, evidence, natural language edge descriptions
+- **Filtering**: Date range and text filters with URL sync, debounced inputs, collapsible panel
+- **Search**: Instant highlighting with keyboard shortcut (Cmd/Ctrl+K), clear visual distinction from filtering
 - **Dataset Switching**: Dropdown with metadata display
 - **URL State**: Deep linking for all view state
 - **Deployment**: GitHub Pages via GitHub Actions
 
 **Shipped Datasets**: Disney Characters, Rosicrucian Network, Enlightenment, AI-LLM Research
 
-See `HISTORY.md` for detailed implementation history.
+See `HISTORY.md` for detailed implementation history and completion notes.
 
 ---
 
-## Completed: M9 - Application Verification
+## Completed: M9-M11, M14
 
-**Goal**: Systematic verification of all shipped features paired with principal-level code review.
+The following milestones have been completed. See `HISTORY.md` for detailed task lists and implementation notes.
 
-**Deliverables**:
-- ✅ Feature verification checklist (V1-V10) with documented results
-- ✅ Code review findings (R1-R8) with actionable recommendations
-- ✅ Documentation review (D1-D3)
-- ✅ Critical fixes applied (Enlightenment dataset registration, README link fix)
-- ✅ Architecture documentation for key decisions
+### M9 - Application Verification ✅
+Systematic verification of all shipped features with principal-level code review. Key fixes: Enlightenment dataset registration, README link correction.
 
-**Key Fixes Applied**:
-- Added `enlightenment` to AVAILABLE_DATASETS in `dataLoader.ts`
-- Fixed README reference from MILESTONES.md to ROADMAP.md
+### M10 - UX Improvements ✅
+Debounced filter inputs, simplified labels, InfoboxPanel hidden when no selection, filter panel collapsed by default, edge infobox natural language descriptions, search vs filter clarification.
 
-**See `PROGRESS.md` section M9 for detailed results**
+### M11 - Graph Interaction Polish ✅
+Memoized click handlers to prevent graph re-layout, physics tuning (reduced repulsion, added soft gravity), zoom/pan hint for discoverability, removed ID fields from infobox.
 
----
-
-## Completed: M10 - UX Improvements
-
-**Goal**: Improve application responsiveness and usability based on user feedback.
-
-**Deliverables**:
-- ✅ Debounced filter inputs (300ms) to prevent UI jitter during typing
-- ✅ Simplified filter labels ("Name" instead of "Filter by Name")
-- ✅ InfoboxPanel hidden when no selection (cleaner default state)
-- ✅ Filter panel collapsed by default with chevron indicator
-- ✅ Edge infobox shows natural sentence description
-- ✅ Search vs Filter distinction clarified with tooltips and visual indicators
-- ✅ Graph no longer re-layouts when clicking edges
-- ✅ Code quality: shared utilities extracted, @types/d3 in devDependencies
-
-**See `PROGRESS.md` section M10 for detailed implementation notes**
-
----
-
-## Completed: M11 - Graph Interaction Polish
-
-**Goal**: Refine graph component behavior and discoverability based on user testing feedback. Focus on interaction predictability, physics tuning, and UX clarity.
-
-**Deliverables**:
-
-### Node Click Behavior ✅
-- Memoized `handleNodeClick` and `handleEdgeClick` callbacks in MainLayout to prevent unnecessary graph re-layouts
-- Node clicks now only update selection state without retriggering force simulation
-
-### Physics Tuning ✅
-- Reduced charge repulsion from -400 to -250 to prevent nodes from flying apart
-- Added soft gravity forces (forceX/forceY with 0.05 strength) to keep disconnected nodes visible
-- Graph now stays more compact while maintaining readable node separation
-
-### Interaction Discoverability ✅
-- Added "Scroll to zoom • Drag to pan" hint below the layout switcher
-- Styled as unobtrusive pill with icons for visual clarity
-- Helps users discover interactive capabilities
-
-### Infobox Simplification ✅
-- Removed ID field from NodeInfobox and EdgeInfobox components
-- IDs remain in data model for URL state and internal references but are hidden from UI
-
-**See `PROGRESS.md` section M11 for detailed task completion**
+### M14 - Timeline Improvements ✅
+300px left margin for filter panel clearance, improved year label readability, initial zoom focus on first item, node-type legend matching graph view, verified infobox behavior parity. Gap collapse feature researched but deferred.
 
 ---
 
@@ -219,51 +172,6 @@ interface FeedbackSubmission {
 
 ---
 
-## Future: M14 - Timeline Improvements
-
-**Goal**: Address usability issues with the timeline visualization component based on user testing feedback. Focus on positioning, readability, initial zoom, temporal gaps, legend consistency, and infobox behavior parity with the graph view.
-
-**Context**: User testing revealed several friction points in the timeline view that make it less useful than the graph view for exploration.
-
-**Deliverables**:
-
-### Layout & Positioning
-- Fix timeline hard-aligned left positioning that causes overlap with filter panel
-- Ensure timeline content is fully visible when filter panel is open/collapsed
-- Timeline should respect the same layout constraints as the graph view
-
-### Year Label Readability
-- Increase size of year labels on the timeline axis
-- Labels should be readable at the default zoom level without requiring zoom-in
-- Consider font weight and contrast for improved legibility
-
-### Initial Zoom & Focus
-- Adjust default zoom level so nodes are clearly visible on load
-- Prioritize visibility of the first chronological item in the timeline
-- User should see meaningful content immediately without needing to zoom/pan
-
-### Timeline Gap Handling (Investigation Required)
-- Research alternative vertical timeline libraries/frameworks for comparison
-- If continuing with D3: investigate implementing timeline "cutouts" or discontinuities
-- Goal: collapse large empty periods (50-100+ years) to reduce whitespace
-- Visual indicator when timeline has been compressed (e.g., "// 75 years //")
-- Preserve accurate date positioning while improving information density
-
-### Legend Consistency with Graph View
-- Replace current birth/death/lifespan legend with node-type legend
-- Timeline legend should match graph legend exactly (same colors, same shapes, same types)
-- Node colors in timeline must use the same color scheme as graph nodes (`graphColors.ts`)
-- Birth/death/lifespan information belongs in the infobox detail panel, not the legend
-
-### Infobox Behavior Parity
-- Audit timeline's integration with InfoboxPanel
-- Ensure timeline uses the exact same InfoboxPanel component as graph view
-- When no item is selected on timeline, infobox should be hidden (not show placeholder text)
-- Verify node click behavior opens infobox correctly
-- Ensure Escape key and X button hide infobox in timeline view
-
----
-
 ## Future: M15 - Stable Resource URLs
 
 **Goal**: Give every node and edge across all datasets a permanent, shareable URL (permalink) that loads a standalone detail page. This enables external citation, bookmarking, and serves as the foundation for per-item user feedback in future milestones.
@@ -351,25 +259,19 @@ These are potential features that may become milestones:
 ## Milestone Dependencies
 
 ```
-M1-M8 (Complete)
+M1-M8 (MVP Complete) ✅
     │
     ▼
-   M9 (Verification) ✅
+M9-M11, M14 (Polish Complete) ✅
     │
-    ▼
-   M10 (UX Improvements) ✅
-    │
-    ▼
-   M11 (Graph Interaction Polish) ✅
-    │
-    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼                  ▼                  ▼
-   M12               M13                M14                M15
-   (User Feedback)   (Scenius Rebrand)  (Timeline)         (Stable URLs)
-   [Vercel req'd]    [independent]      [independent]      [independent]
+    ├──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼
+   M12               M13                M15
+   (User Feedback)   (Scenius Rebrand)  (Stable URLs)
+   [Vercel req'd]    [independent]      [independent]
 ```
 
-Note: M12, M13, M14, and M15 can be worked on in parallel as they have no dependencies on each other. However, if M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
+Note: M12, M13, and M15 can be worked on in parallel as they have no dependencies on each other. However, if M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
 
 ---
 
@@ -386,7 +288,7 @@ When planning a new milestone:
 
 ## Success Criteria Reference
 
-### MVP was complete when:
+### MVP (M1-M8) was complete when:
 - [x] Application loads Disney dataset by default
 - [x] Force-directed graph renders all nodes and edges
 - [x] Clicking nodes/edges shows details in infobox
@@ -394,14 +296,18 @@ When planning a new milestone:
 - [x] URL captures complete application state
 - [x] Shared URLs restore exact application state
 - [x] Application is live on GitHub Pages
-
-### M8 (Timeline) was complete when:
 - [x] Timeline view renders nodes by date
 - [x] User can switch between graph and timeline
 - [x] Layout selection persists in URL
 
-### M9 (Verification) was complete when:
-- [x] All feature verification tasks pass (V1-V10)
-- [x] Code review findings documented (R1-R8)
-- [x] Documentation verified accurate (D1-D3)
-- [x] Critical issues resolved
+### Post-MVP Polish (M9-M11, M14) was complete when:
+- [x] All features verified working (V1-V10 checklist)
+- [x] Code review findings documented and addressed
+- [x] Debounced inputs prevent UI jitter
+- [x] Graph doesn't re-layout on node/edge clicks
+- [x] Zoom/pan discoverability hint added
+- [x] Timeline doesn't overlap filter panel
+- [x] Timeline labels readable at default zoom
+- [x] Legend consistent between graph and timeline
+
+See `HISTORY.md` for detailed completion criteria for each milestone.
