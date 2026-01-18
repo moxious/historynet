@@ -10,3 +10,5 @@ export { useLayout } from './useLayout';
 export type { LayoutType } from './useLayout';
 export { useFilters } from './useFilters';
 export { useDebounce } from './useDebounce';
+export { useResourceParams, buildNodeUrl, buildEdgeUrl, buildGraphViewUrl, buildFullNodeUrl, buildFullEdgeUrl } from './useResourceParams';
+export type { ResourceParams } from './useResourceParams';

@@ -16,6 +16,51 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.7.0] - 2026-01-18
+
+### Added
+- **M15: Stable Resource URLs** - Permanent, shareable permalinks for every node and edge
+
+### Features
+- **Node Detail Pages**: Standalone pages at `/#/{dataset}/node/{nodeId}`
+  - Full node information (title, type, dates, description, biography, etc.)
+  - Type-specific fields for persons, objects, locations, entities
+  - External links with security-sanitized URLs
+  - "View in Graph" navigation back to graph view
+  - Breadcrumb navigation (Dataset > Type > Title)
+
+- **Edge Detail Pages**: Standalone pages at `/#/{dataset}/from/{sourceId}/to/{targetId}`
+  - Shows all relationships between two nodes
+  - Source/target node summary cards with clickable links
+  - Relationship details (type, dates, evidence, strength)
+  - Natural language descriptions ("Mickey Mouse related to Minnie Mouse")
+
+- **Share Functionality**
+  - Permalink button copies stable URL to clipboard
+  - Share button uses Web Share API (with fallback to clipboard)
+  - Visual feedback with "Copied!" confirmation
+  - Integrated into both InfoboxPanel (graph view) and detail pages
+
+- **Dynamic Meta Tags** (via react-helmet-async)
+  - Page titles update dynamically (e.g., "Voltaire | Enlightenment | Scenius")
+  - Open Graph tags for social sharing
+  - Meta descriptions from node/edge content
+  - Note: Client-side only; SSR needed for full social media crawler support
+
+- **Error Handling**
+  - NotFoundPage for invalid nodes, edges, or datasets
+  - Specific error messages (e.g., "Node not found in dataset")
+  - Navigation options back to home or dataset view
+
+### Technical Details
+- New `src/pages/` folder for page components
+- `useResourceParams` hook for route parameter extraction
+- URL helper functions for building stable URLs
+- HashRouter compatible (works with GitHub Pages)
+- Responsive design for mobile devices
+
+---
+
 ## [1.6.0] - 2026-01-18
 
 ### Added

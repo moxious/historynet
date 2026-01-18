@@ -7,13 +7,16 @@
  * Features:
  * - Escape key to close the panel
  * - Accessible with proper ARIA labels
+ * - Permalink and Share buttons for stable resource URLs
  */
 
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { useGraph } from '@contexts';
 import type { GraphNode, GraphEdge } from '@types';
+import { buildFullNodeUrl, buildFullEdgeUrl } from '@hooks/useResourceParams';
 import NodeInfobox from './NodeInfobox';
 import EdgeInfobox from './EdgeInfobox';
+import ShareButtons from './ShareButtons';
 import './InfoboxPanel.css';
 
 /**
@@ -40,7 +43,7 @@ interface InfoboxPanelProps {
 }
 
 function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
-  const { selectedItem, clearSelection, selectNode, getNode, graphData } = useGraph();
+  const { selectedItem, clearSelection, selectNode, getNode, graphData, currentDatasetId } = useGraph();
 
   // Handle Escape key to close the panel
   useEffect(() => {
@@ -69,6 +72,21 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
     // Don't change the graph view/filter
     selectNode(nodeId);
   };
+
+  // Build stable URL for current selection (for permalink/share)
+  const stableUrl = useMemo(() => {
+    if (!selectedItem || !currentDatasetId) return '';
+    
+    if (isNode(selectedItem)) {
+      return buildFullNodeUrl(currentDatasetId, selectedItem.id);
+    }
+    
+    if (isEdge(selectedItem)) {
+      return buildFullEdgeUrl(currentDatasetId, selectedItem.source, selectedItem.target);
+    }
+    
+    return '';
+  }, [selectedItem, currentDatasetId]);
 
   // If nothing selected, hide the panel completely
   if (!selectedItem) {
@@ -109,6 +127,19 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
           </svg>
         </button>
       </div>
+
+      {/* Share buttons for stable resource URLs (M15) */}
+      {stableUrl && (
+        <div className="infobox-panel__share">
+          <ShareButtons
+            url={stableUrl}
+            title={getTitle()}
+            description={isNode(selectedItem) ? selectedItem.shortDescription : undefined}
+            variant="inline"
+            size="small"
+          />
+        </div>
+      )}
 
       <div className="infobox-panel__content">
         {isNode(selectedItem) && (

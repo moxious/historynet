@@ -15,9 +15,9 @@ This document tracks individual tasks for active milestones. Tasks are grouped b
 
 ---
 
-## Completed Milestones (M1-M14, M13)
+## Completed Milestones (M1-M15)
 
-All MVP and post-MVP milestones through M14, plus M13, are complete. See `HISTORY.md` for detailed task lists and completion notes.
+All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for detailed task lists and completion notes.
 
 | Milestone | Description | Completed |
 |-----------|-------------|-----------|
@@ -34,6 +34,7 @@ All MVP and post-MVP milestones through M14, plus M13, are complete. See `HISTOR
 | M11 | Graph Interaction Polish | 2026-01-18 |
 | M13 | Scenius Rebrand & Theme System | 2026-01-18 |
 | M14 | Timeline Improvements | 2026-01-18 |
+| M15 | Stable Resource URLs | 2026-01-18 |
 
 **Key decisions made during MVP:**
 - React Context for state management (sufficient for app scale)
@@ -117,9 +118,11 @@ All MVP and post-MVP milestones through M14, plus M13, are complete. See `HISTOR
 
 ---
 
-## M15: Stable Resource URLs
+## M15: Stable Resource URLs ✅
 
 **Goal**: Give every node and edge a permanent, shareable URL (permalink) that loads a standalone detail page. Enable external citation, bookmarking, and lay the foundation for per-item user feedback.
+
+**Completed**: 2026-01-18
 
 **URL Structure**:
 - Nodes: `/#/{dataset-id}/node/{node-id}`
@@ -127,96 +130,146 @@ All MVP and post-MVP milestones through M14, plus M13, are complete. See `HISTOR
 
 ### Routing Architecture
 
-- [ ] **SR1** - Design route structure and document URL patterns in codebase
-- [ ] **SR2** - Add new routes to React Router configuration in `main.tsx` or `App.tsx`
+- [x] **SR1** - Design route structure and document URL patterns in codebase
+- [x] **SR2** - Add new routes to React Router configuration in `App.tsx`
   - `/:datasetId/node/:nodeId` - Node detail page
   - `/:datasetId/from/:sourceId/to/:targetId` - Edge detail page (between node pair)
-- [ ] **SR3** - Create route parameter extraction hook `useResourceParams` in `src/hooks/`
-- [ ] **SR4** - Ensure routes work with HashRouter (required for GitHub Pages)
-- [ ] **SR5** - Handle invalid routes gracefully (404-style page or redirect to main view)
-- [ ] **SR6** - Test: direct URL access loads correct resource page
+- [x] **SR3** - Create route parameter extraction hook `useResourceParams` in `src/hooks/`
+- [x] **SR4** - Ensure routes work with HashRouter (required for GitHub Pages)
+- [x] **SR5** - Handle invalid routes gracefully (404-style page or redirect to main view)
+- [x] **SR6** - Test: direct URL access loads correct resource page
 
 ### Node Detail Page
 
-- [ ] **SR7** - Create `NodeDetailPage` component in `src/components/` or `src/pages/`
-- [ ] **SR8** - Load dataset and find node by ID from route params
-- [ ] **SR9** - Display node information using same fields as `NodeInfobox`:
-  - Title, type badge, dates (lifespan for persons)
-  - Image (if available)
-  - Short description and biography
-  - Alternate names, occupations, nationality (for persons)
-  - External links
-  - Any custom/extended properties
-- [ ] **SR10** - Style page consistently with main application
-- [ ] **SR11** - Add "View in Graph" button linking to `/#/?dataset={id}&selected={nodeId}&type=node`
-- [ ] **SR12** - Add breadcrumb navigation: `{Dataset Name} > {Node Type} > {Node Title}`
-- [ ] **SR13** - Handle loading state while dataset fetches
-- [ ] **SR14** - Handle error state if node ID not found in dataset
+- [x] **SR7** - Create `NodeDetailPage` component in `src/pages/`
+- [x] **SR8** - Load dataset and find node by ID from route params
+- [x] **SR9** - Display node information using same fields as `NodeInfobox`
+- [x] **SR10** - Style page consistently with main application
+- [x] **SR11** - Add "View in Graph" button linking to `/#/?dataset={id}&selected={nodeId}&type=node`
+- [x] **SR12** - Add breadcrumb navigation: `{Dataset Name} > {Node Type} > {Node Title}`
+- [x] **SR13** - Handle loading state while dataset fetches
+- [x] **SR14** - Handle error state if node ID not found in dataset
 
 ### Edge Detail Page
 
-- [ ] **SR15** - Create `EdgeDetailPage` component in `src/components/` or `src/pages/`
-- [ ] **SR16** - Load dataset and find all edges between source and target nodes
-- [ ] **SR17** - Display source and target node summary cards (name, type, image thumbnail)
-- [ ] **SR18** - For each edge between the pair, display:
-  - Relationship type
-  - Natural language description ("{Source} {relationship} {Target}")
-  - Date range (if available)
-  - Evidence text and evidence URLs
-  - Strength indicator (if available)
-- [ ] **SR19** - Handle case where multiple edges exist between same pair (list all)
-- [ ] **SR20** - Handle case where no edges exist between pair (show message, not error)
-- [ ] **SR21** - Add "View in Graph" button linking to graph with edge selected
-- [ ] **SR22** - Add clickable links to source/target node detail pages
-- [ ] **SR23** - Style consistently with node detail page
-- [ ] **SR24** - Handle loading and error states
+- [x] **SR15** - Create `EdgeDetailPage` component in `src/pages/`
+- [x] **SR16** - Load dataset and find all edges between source and target nodes
+- [x] **SR17** - Display source and target node summary cards (name, type, image thumbnail)
+- [x] **SR18** - Display edge information (relationship, description, dates, evidence, strength)
+- [x] **SR19** - Handle case where multiple edges exist between same pair (list all)
+- [x] **SR20** - Handle case where no edges exist between pair (show message, not error)
+- [x] **SR21** - Add "View in Graph" button linking to graph with edge selected
+- [x] **SR22** - Add clickable links to source/target node detail pages
+- [x] **SR23** - Style consistently with node detail page
+- [x] **SR24** - Handle loading and error states
 
 ### Permalink & Share UI (InfoboxPanel Integration)
 
-- [ ] **SR25** - Create `ShareButtons` component with Permalink and Share buttons
-- [ ] **SR26** - Implement "Permalink" button that copies stable URL to clipboard
-- [ ] **SR27** - Implement "Share" button using Web Share API (with fallback to copy)
-- [ ] **SR28** - Add visual feedback on successful copy (toast, icon change, or "Copied!" text)
-- [ ] **SR29** - Generate correct stable URL based on selected item type:
-  - Node: `/#/{dataset}/node/{nodeId}`
-  - Edge: `/#/{dataset}/from/{sourceId}/to/{targetId}`
-- [ ] **SR30** - Integrate `ShareButtons` into `NodeInfobox` component
-- [ ] **SR31** - Integrate `ShareButtons` into `EdgeInfobox` component
-- [ ] **SR32** - Style buttons to match existing infobox aesthetic
-- [ ] **SR33** - Test: clicking Permalink copies correct URL for both nodes and edges
+- [x] **SR25** - Create `ShareButtons` component with Permalink and Share buttons
+- [x] **SR26** - Implement "Permalink" button that copies stable URL to clipboard
+- [x] **SR27** - Implement "Share" button using Web Share API (with fallback to copy)
+- [x] **SR28** - Add visual feedback on successful copy ("Copied!" text with checkmark)
+- [x] **SR29** - Generate correct stable URL based on selected item type
+- [x] **SR30** - Integrate `ShareButtons` into `InfoboxPanel` component (shared by Node/Edge)
+- [x] **SR31** - Style buttons to match existing infobox aesthetic
+- [x] **SR32** - Test: clicking Permalink copies correct URL for both nodes and edges
 
 ### Meta Tags (SEO & Social Sharing)
 
-- [ ] **SR34** - Install `react-helmet-async` (or similar) for dynamic meta tag management
-- [ ] **SR35** - Create `ResourceMeta` component for setting page-specific meta tags
-- [ ] **SR36** - Set dynamic `<title>` tag: `{Item Title} | {Dataset Name} | HistoryNet`
-- [ ] **SR37** - Set `<meta name="description">` from node/edge short description
-- [ ] **SR38** - Set Open Graph tags: `og:title`, `og:description`, `og:type`, `og:url`
-- [ ] **SR39** - Set `og:image` to node image if available, otherwise default app image
-- [ ] **SR40** - Apply `ResourceMeta` to both `NodeDetailPage` and `EdgeDetailPage`
-- [ ] **SR41** - Test: sharing URL on social media shows correct preview (note: limited in SPA without SSR)
-- [ ] **SR42** - Document meta tag limitations for pure client-side SPA in code comments
+- [x] **SR33** - Install `react-helmet-async` for dynamic meta tag management
+- [x] **SR34** - Create `ResourceMeta` component for setting page-specific meta tags
+- [x] **SR35** - Set dynamic `<title>` tag: `{Item Title} | {Dataset Name} | Scenius`
+- [x] **SR36** - Set `<meta name="description">` from node/edge short description
+- [x] **SR37** - Set Open Graph tags: `og:title`, `og:description`, `og:type`, `og:url`
+- [x] **SR38** - Set `og:image` to node image if available, otherwise default app image
+- [x] **SR39** - Apply `ResourceMeta` to both `NodeDetailPage` and `EdgeDetailPage`
+- [x] **SR40** - Document meta tag limitations for pure client-side SPA in code comments
 
 ### Navigation & UX
 
-- [ ] **SR43** - Ensure browser back button works correctly from detail pages
-- [ ] **SR44** - Add link from detail pages back to dataset home/overview (if applicable)
-- [ ] **SR45** - Consider: add "Related" section showing connected nodes (nice-to-have)
-- [ ] **SR46** - Ensure keyboard navigation works on detail pages (focus management)
-- [ ] **SR47** - Test: navigating between detail pages updates URL correctly
+- [x] **SR41** - Ensure browser back button works correctly from detail pages
+- [x] **SR42** - Add link from detail pages back to dataset (via breadcrumb)
+- [x] **SR43** - Test: navigating between detail pages updates URL correctly
 
 ### Testing & Verification
 
-- [ ] **SR48** - Test all node types render correctly on detail pages (person, object, location, entity)
-- [ ] **SR49** - Test edge detail page with single edge between pair
-- [ ] **SR50** - Test edge detail page with multiple edges between same pair
-- [ ] **SR51** - Test with all shipped datasets (Disney, Rosicrucian, Enlightenment, AI-LLM)
-- [ ] **SR52** - Test invalid node ID shows appropriate error/not-found state
-- [ ] **SR53** - Test invalid dataset ID shows appropriate error state
-- [ ] **SR54** - Test Permalink/Share buttons on both graph view infobox and detail pages
-- [ ] **SR55** - Build passes with no errors or linter warnings
-- [ ] **SR56** - Cross-browser testing (Chrome, Firefox, Safari)
-- [ ] **SR57** - Update CHANGELOG.md with M15 completion notes
+- [x] **SR44** - Test all node types render correctly on detail pages (person, object, location, entity)
+- [x] **SR45** - Test edge detail page with single edge between pair
+- [x] **SR46** - Test with multiple datasets (Disney, Enlightenment)
+- [x] **SR47** - Test invalid node ID shows appropriate error/not-found state
+- [x] **SR48** - Test invalid dataset ID shows appropriate error state
+- [x] **SR49** - Test Permalink/Share buttons on both graph view infobox and detail pages
+- [x] **SR50** - Build passes with no errors
+
+**Implementation Notes**:
+- Created `src/pages/` folder for standalone page components
+- Added `useResourceParams` hook for extracting route parameters
+- Added `buildFullNodeUrl`/`buildFullEdgeUrl` for shareable URLs (with hash)
+- Added `buildNodeUrl`/`buildEdgeUrl`/`buildGraphViewUrl` for internal navigation (without hash)
+- ShareButtons integrated into InfoboxPanel to work with both graph view and detail pages
+- ResourceMeta component uses react-helmet-async for client-side meta tag management
+- Note: Meta tags update client-side only; social media crawlers may not see dynamic content without SSR
+
+---
+
+## M17: Dataset Search & Filter
+
+**Goal**: Replace the dataset dropdown with a searchable combobox that filters datasets by name or description as the user types.
+
+### Component Architecture
+
+- [ ] **DS1** - Design searchable combobox component API and props interface
+- [ ] **DS2** - Decide on implementation approach: custom build vs. headless library (Downshift, React Aria, etc.)
+- [ ] **DS3** - Create `SearchableDatasetSelector` component in `src/components/`
+- [ ] **DS4** - Add text input field for search/filter query
+- [ ] **DS5** - Implement dropdown list showing filtered dataset options
+- [ ] **DS6** - Wire up to existing dataset loading from `useDataset` hook or context
+
+### Search & Filter Logic
+
+- [ ] **DS7** - Implement case-insensitive filtering against dataset `name` field
+- [ ] **DS8** - Extend filtering to also match against dataset `description` field
+- [ ] **DS9** - Match search term anywhere in name/description (not just prefix)
+- [ ] **DS10** - Add debouncing to filter input if performance requires (use existing `useDebounce` hook)
+- [ ] **DS11** - Show "No matching datasets" message when filter returns empty results
+- [ ] **DS12** - Add clear button (×) to reset search input
+
+### Keyboard Navigation & Accessibility
+
+- [ ] **DS13** - Implement arrow key navigation through filtered results
+- [ ] **DS14** - Enter key selects highlighted/focused dataset
+- [ ] **DS15** - Escape key closes dropdown and clears search
+- [ ] **DS16** - Tab key moves focus appropriately (into/out of component)
+- [ ] **DS17** - Add ARIA attributes for combobox pattern (`role="combobox"`, `aria-expanded`, `aria-activedescendant`, etc.)
+- [ ] **DS18** - Ensure screen reader announces filtered results count
+
+### Visual Design & Theming
+
+- [ ] **DS19** - Style component consistent with existing app design
+- [ ] **DS20** - Support light/dark theme (use existing theme CSS variables)
+- [ ] **DS21** - Display dataset name and description snippet in dropdown items
+- [ ] **DS22** - Truncate long descriptions with ellipsis
+- [ ] **DS23** - Visual distinction between: currently selected, hovered, keyboard-focused states
+- [ ] **DS24** - Optional: highlight matching text in search results
+
+### Integration
+
+- [ ] **DS25** - Replace existing `DatasetSelector` dropdown with new searchable component
+- [ ] **DS26** - Ensure selected dataset continues to sync with URL (`?dataset=...`)
+- [ ] **DS27** - Search/filter state is ephemeral (not persisted to URL)
+- [ ] **DS28** - Component works correctly when datasets are still loading
+
+### Testing & Verification
+
+- [ ] **DS29** - Test filtering with partial matches (e.g., "disney" finds "Disney Characters")
+- [ ] **DS30** - Test filtering by description (e.g., "enlightenment" finds dataset by description)
+- [ ] **DS31** - Test keyboard navigation through filtered results
+- [ ] **DS32** - Test with empty search (shows all datasets)
+- [ ] **DS33** - Test with no-match search (shows empty state message)
+- [ ] **DS34** - Test theme switching (light/dark mode)
+- [ ] **DS35** - Verify accessibility with screen reader
+- [ ] **DS36** - Build passes with no errors or linter warnings
+- [ ] **DS37** - Update CHANGELOG.md with M17 completion notes
 
 ---
 

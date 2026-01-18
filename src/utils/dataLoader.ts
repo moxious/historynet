@@ -198,7 +198,7 @@ export function validateEdgeReferences(
  * List of known/available dataset IDs
  * In a real application, this might be loaded from a config file
  */
-export const AVAILABLE_DATASETS = ['disney-characters', 'rosicrucian-network', 'enlightenment', 'ai-llm-research', 'ambient-music'];
+export const AVAILABLE_DATASETS = ['disney-characters', 'rosicrucian-network', 'enlightenment', 'ai-llm-research', 'ambient-music', 'cybernetics-information-theory', 'protestant-reformation'];
 
 /**
  * Default dataset ID to load when none is specified

@@ -18,8 +18,9 @@ This document outlines the milestone structure and future direction for HistoryN
 | M12 | User Feedback | 🔲 Future |
 | M13 | Scenius Rebrand & Theme System | ✅ Complete |
 | M14 | Timeline Improvements | ✅ Complete |
-| M15 | Stable Resource URLs | 🔲 Future |
+| M15 | Stable Resource URLs | ✅ Complete |
 | M16 | Network Verification | 🔲 Future |
+| M17 | Dataset Search & Filter | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -355,6 +356,75 @@ Add to `devDependencies`:
 
 ---
 
+## Future: M17 - Dataset Search & Filter
+
+**Goal**: Replace the current dataset dropdown with a searchable combobox that allows users to quickly find datasets by typing keywords. As the number of available datasets grows, the simple dropdown becomes unwieldy—users should be able to type a word or two to filter the list by dataset name or description.
+
+**Context**: The current `DatasetSelector` component displays all available datasets in a plain dropdown. With only 4 datasets this works well, but as more historical networks are added, users need a faster way to locate the dataset they want without scrolling through a long list.
+
+**Deliverables**:
+
+### Searchable Combobox Component
+
+- Transform the dataset dropdown into a searchable combobox (text input + filtered dropdown)
+- On focus or click, show the full list of datasets
+- On typing, filter the visible datasets in real-time
+- Match against both `name` and `description` fields from dataset manifests
+- Case-insensitive matching
+- Highlight matching text in results (optional enhancement)
+
+### Search Behavior
+
+- **Instant filtering**: Filter results as the user types (debounced if needed for performance)
+- **Match anywhere**: Search term can match anywhere in name or description (not just prefix)
+- **Empty state**: Show "No matching datasets" message when filter returns no results
+- **Clear button**: Allow users to clear the search input and see all datasets again
+
+### Keyboard Navigation
+
+- Arrow keys navigate through filtered results
+- Enter selects the highlighted dataset
+- Escape closes the dropdown and clears search
+- Tab moves focus appropriately
+- Maintain accessibility (ARIA attributes for combobox pattern)
+
+### Visual Design
+
+- Consistent styling with existing application theme (light/dark mode support)
+- Dataset items show name and description snippet (as current dropdown does)
+- Visual distinction between currently selected dataset and hovered/highlighted item
+- Smooth transitions when filtering
+
+### URL State Integration
+
+- Selected dataset continues to sync with URL (`?dataset=...`)
+- Search/filter state is ephemeral (not persisted to URL)
+
+**Technical Notes**:
+
+Consider using an established combobox/autocomplete pattern or library:
+- Native HTML `<datalist>` (limited styling)
+- Headless UI (Downshift, React Aria, Radix)
+- Custom implementation following ARIA combobox pattern
+
+The component should gracefully handle:
+- Empty datasets array (show helpful message)
+- Very long dataset descriptions (truncate in dropdown, show full on hover or in tooltip)
+- Rapid typing (debounce the filter if needed)
+
+**Schema** (no changes required—uses existing manifest metadata):
+```typescript
+// From existing DatasetManifest
+interface DatasetManifest {
+  id: string;
+  name: string;
+  description?: string;
+  // ... other fields
+}
+```
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -380,16 +450,17 @@ M1-M8 (MVP Complete) ✅
     ▼
 M9-M11, M13, M14 (Polish Complete) ✅
     │
-    ├──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼
-   M12                M15                M16
-   (User Feedback)   (Stable URLs)      (Network Verification)
-   [Vercel req'd]    [independent]      [independent, high value]
+    ├──────────────────┬──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼                  ▼
+   M12                M15                M16                M17
+   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)
+   [Vercel req'd]    [independent]      [independent]      [independent]
 ```
 
-Note: M12, M15, and M16 can be worked on in parallel as they have no dependencies on each other. However:
+Note: M12, M15, M16, and M17 can be worked on in parallel as they have no dependencies on each other. However:
 - If M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
 - M16 is particularly high-value as it improves data quality for all future dataset development and catches errors before deployment.
+- M17 becomes more valuable as more datasets are added—currently lower priority with only 4 datasets, but will become essential as the collection grows.
 
 ---
 

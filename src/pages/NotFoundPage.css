@@ -1,0 +1,81 @@
+/**
+ * NotFoundPage styles
+ */
+
+.not-found-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.not-found-page__content {
+  text-align: center;
+  max-width: 400px;
+}
+
+.not-found-page__icon {
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.not-found-page__icon svg {
+  display: inline-block;
+}
+
+.not-found-page__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  color: var(--text-primary);
+}
+
+.not-found-page__message {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin: 0 0 2rem;
+  line-height: 1.5;
+}
+
+.not-found-page__actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.not-found-page__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.625rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.not-found-page__button--primary {
+  background-color: var(--accent-primary);
+  color: white;
+}
+
+.not-found-page__button--primary:hover {
+  background-color: var(--accent-primary-hover, #4f46e5);
+}
+
+.not-found-page__button--secondary {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.not-found-page__button--secondary:hover {
+  background-color: var(--bg-tertiary, var(--bg-secondary));
+  border-color: var(--border-hover, var(--border-color));
+}
