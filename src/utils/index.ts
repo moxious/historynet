@@ -27,3 +27,12 @@ export {
 } from './filterGraph';
 
 export { getNodeColor, getEdgeColor } from './graphColors';
+
+export {
+  detectSegments,
+  findDensestSegment,
+  createSegmentedScale,
+  type TimelineSegment,
+  type SegmentedScale,
+  type SegmentConfig,
+} from './timelineSegments';

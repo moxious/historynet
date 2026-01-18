@@ -8,7 +8,8 @@ import * as d3 from 'd3';
 import type { GraphNode, NodeType, PersonNode } from '@types';
 import type { LayoutComponentProps } from './types';
 import { isPersonNode } from '@types';
-import { getNodeColor, getEdgeColor, parseYear } from '@utils';
+import { getNodeColor, getEdgeColor, parseYear, createSegmentedScale } from '@utils';
+import type { SegmentedScale } from '@utils';
 import './TimelineLayout.css';
 
 /**
@@ -46,12 +47,16 @@ const LANE_WIDTH = 180;
 // Left margin accounts for filter panel (max 280px) + spacing
 const LEFT_MARGIN = 300;
 const AXIS_WIDTH = 80;
-const MIN_YEAR_HEIGHT = 30; // Minimum pixels per year
 const UNDATED_SECTION_HEIGHT = 150;
 const ZOOM_MIN = 0.3;
 const ZOOM_MAX = 5;
 // Initial zoom scale - show content at readable size
 const INITIAL_ZOOM_SCALE = 0.8;
+
+// Timeline segmentation settings
+const GAP_THRESHOLD = 40; // Years without data to trigger a timeline cut
+const MIN_SEGMENT_HEIGHT = 100; // Minimum pixels per segment
+const BREAK_INDICATOR_HEIGHT = 30; // Height for break visualization between segments
 
 /**
  * TimelineLayout component
@@ -72,7 +77,7 @@ export function TimelineLayout({
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
   // Process nodes and calculate timeline positions
-  const { timelineNodes, timelineEdges, yearRange, undatedNodes } = useMemo(() => {
+  const { timelineNodes, timelineEdges, yearRange, undatedNodes, datedYears } = useMemo(() => {
     const datedNodes: TimelineNode[] = [];
     const undated: TimelineNode[] = [];
     let minYear = Infinity;
@@ -131,12 +136,18 @@ export function TimelineLayout({
       }
     }
 
+    // Collect all years for segmentation (using start years)
+    const datedYears = datedNodes
+      .map((n) => n.year)
+      .filter((y): y is number => y !== null);
+
     return {
       timelineNodes: datedNodes,
       timelineEdges: edges,
       yearRange:
         minYear !== Infinity ? { min: minYear, max: maxYear } : { min: 1600, max: 2000 },
       undatedNodes: undated,
+      datedYears,
     };
   }, [data]);
 
@@ -173,6 +184,9 @@ export function TimelineLayout({
     return assigned;
   }, [timelineNodes, yearRange]);
 
+  // Create segmented scale that compresses large gaps in the timeline
+  const segmentedScaleRef = useRef<SegmentedScale | null>(null);
+
   // Handle container resize
   useEffect(() => {
     const container = containerRef.current;
@@ -200,17 +214,32 @@ export function TimelineLayout({
     svg.selectAll('*').remove();
 
     // Calculate content dimensions
-    const yearSpan = yearRange.max - yearRange.min + 1;
-    const contentHeight = Math.max(yearSpan * MIN_YEAR_HEIGHT, height);
     const laneCount = Math.max(...assignedNodes.map((n) => n.lane ?? 0), 0) + 1;
     // Content width includes left margin for filter panel
     const contentWidth = LEFT_MARGIN + AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
 
-    // Create scales
-    const yScale = d3
-      .scaleLinear()
-      .domain([yearRange.min, yearRange.max])
-      .range([50, contentHeight - UNDATED_SECTION_HEIGHT - 50]);
+    // Create segmented scale that compresses large gaps in the timeline
+    // This improves usability when there are temporal outliers (e.g., one node in 1378, rest in 1489+)
+    const segmentedScale = createSegmentedScale(datedYears, height * 3, {
+      gapThreshold: GAP_THRESHOLD,
+      minSegmentHeight: MIN_SEGMENT_HEIGHT,
+      breakIndicatorHeight: BREAK_INDICATOR_HEIGHT,
+      topPadding: 50,
+      bottomPadding: UNDATED_SECTION_HEIGHT + 50,
+    });
+    
+    // Store ref for use in reset view
+    segmentedScaleRef.current = segmentedScale;
+
+    // Calculate content height from segments
+    const lastSegment = segmentedScale.segments[segmentedScale.segments.length - 1];
+    const contentHeight = Math.max(
+      (lastSegment?.yEnd ?? 50) + UNDATED_SECTION_HEIGHT + 50,
+      height
+    );
+    
+    // Use segmented scale's toY function for positioning
+    const yScale = segmentedScale.toY;
 
     // Create container group for zoom/pan
     const g = svg.append('g').attr('class', 'timeline-container');
@@ -225,55 +254,110 @@ export function TimelineLayout({
     // Create time axis
     const axisGroup = g.append('g').attr('class', 'timeline-axis');
 
-    // Draw decade markers
-    const startDecade = Math.floor(yearRange.min / 10) * 10;
-    const endDecade = Math.ceil(yearRange.max / 10) * 10;
-
     // Calculate axis x position (after left margin)
     const axisX = LEFT_MARGIN + AXIS_WIDTH;
 
-    for (let year = startDecade; year <= endDecade; year += 10) {
-      if (year >= yearRange.min && year <= yearRange.max) {
-        const y = yScale(year);
-        const isCentury = year % 100 === 0;
+    // Draw decade markers within each segment (not in gaps)
+    for (const segment of segmentedScale.segments) {
+      const startDecade = Math.floor(segment.yearStart / 10) * 10;
+      const endDecade = Math.ceil(segment.yearEnd / 10) * 10;
 
-        // Draw horizontal grid line
-        axisGroup
-          .append('line')
-          .attr('class', isCentury ? 'timeline-grid-century' : 'timeline-grid-decade')
-          .attr('x1', axisX - 5)
-          .attr('x2', contentWidth)
-          .attr('y1', y)
-          .attr('y2', y)
-          .attr('stroke', isCentury ? '#cbd5e1' : '#e2e8f0')
-          .attr('stroke-width', isCentury ? 1.5 : 0.5)
-          .attr('stroke-dasharray', isCentury ? 'none' : '2,4');
+      for (let year = startDecade; year <= endDecade; year += 10) {
+        if (year >= segment.yearStart && year <= segment.yearEnd) {
+          const y = yScale(year);
+          const isCentury = year % 100 === 0;
 
-        // Draw year label (TL6-TL10: Increased font size for readability)
-        axisGroup
-          .append('text')
-          .attr('class', 'timeline-year-label')
-          .attr('x', axisX - 10)
-          .attr('y', y)
-          .attr('text-anchor', 'end')
-          .attr('dominant-baseline', 'middle')
-          .attr('font-size', isCentury ? '16px' : '13px')
-          .attr('font-weight', isCentury ? '700' : '500')
-          .attr('fill', isCentury ? '#0f172a' : '#475569')
-          .text(year);
+          // Draw horizontal grid line
+          axisGroup
+            .append('line')
+            .attr('class', isCentury ? 'timeline-grid-century' : 'timeline-grid-decade')
+            .attr('x1', axisX - 5)
+            .attr('x2', contentWidth)
+            .attr('y1', y)
+            .attr('y2', y)
+            .attr('stroke', isCentury ? '#cbd5e1' : '#e2e8f0')
+            .attr('stroke-width', isCentury ? 1.5 : 0.5)
+            .attr('stroke-dasharray', isCentury ? 'none' : '2,4');
+
+          // Draw year label
+          axisGroup
+            .append('text')
+            .attr('class', 'timeline-year-label')
+            .attr('x', axisX - 10)
+            .attr('y', y)
+            .attr('text-anchor', 'end')
+            .attr('dominant-baseline', 'middle')
+            .attr('font-size', isCentury ? '16px' : '13px')
+            .attr('font-weight', isCentury ? '700' : '500')
+            .attr('fill', isCentury ? '#0f172a' : '#475569')
+            .text(year);
+        }
       }
+
+      // Draw axis line segment
+      axisGroup
+        .append('line')
+        .attr('class', 'timeline-axis-line')
+        .attr('x1', axisX)
+        .attr('x2', axisX)
+        .attr('y1', (segment.yStart ?? 50) - 10)
+        .attr('y2', (segment.yEnd ?? 50) + 10)
+        .attr('stroke', '#94a3b8')
+        .attr('stroke-width', 2);
     }
 
-    // Draw axis line
-    axisGroup
-      .append('line')
-      .attr('class', 'timeline-axis-line')
-      .attr('x1', axisX)
-      .attr('x2', axisX)
-      .attr('y1', yScale(yearRange.min) - 20)
-      .attr('y2', yScale(yearRange.max) + 20)
-      .attr('stroke', '#94a3b8')
-      .attr('stroke-width', 2);
+    // Draw break indicators between segments
+    const breaks = segmentedScale.getSegmentBreaks();
+    for (const breakInfo of breaks) {
+      const breakY = breakInfo.y;
+      const gapYears = breakInfo.gapYears;
+
+      // Create break indicator group
+      const breakGroup = axisGroup.append('g').attr('class', 'timeline-break-indicator');
+
+      // Draw zig-zag pattern on the axis
+      const zigzagPath = `
+        M ${axisX - 8} ${breakY - 8}
+        L ${axisX + 8} ${breakY - 4}
+        L ${axisX - 8} ${breakY}
+        L ${axisX + 8} ${breakY + 4}
+        L ${axisX - 8} ${breakY + 8}
+      `;
+      breakGroup
+        .append('path')
+        .attr('class', 'timeline-break-zigzag')
+        .attr('d', zigzagPath)
+        .attr('fill', 'none')
+        .attr('stroke', '#94a3b8')
+        .attr('stroke-width', 2);
+
+      // Draw dashed line across the timeline
+      breakGroup
+        .append('line')
+        .attr('class', 'timeline-break-line')
+        .attr('x1', axisX + 20)
+        .attr('x2', contentWidth)
+        .attr('y1', breakY)
+        .attr('y2', breakY)
+        .attr('stroke', '#cbd5e1')
+        .attr('stroke-width', 1)
+        .attr('stroke-dasharray', '6,4');
+
+      // Add gap label showing years skipped
+      if (gapYears > 10) {
+        breakGroup
+          .append('text')
+          .attr('class', 'timeline-break-label')
+          .attr('x', axisX - 20)
+          .attr('y', breakY)
+          .attr('text-anchor', 'end')
+          .attr('dominant-baseline', 'middle')
+          .attr('font-size', '11px')
+          .attr('font-style', 'italic')
+          .attr('fill', '#64748b')
+          .text(`~${gapYears} yrs`);
+      }
+    }
 
     // Create groups for edges and nodes
     const edgeGroup = g.append('g').attr('class', 'timeline-edges');
@@ -473,23 +557,24 @@ export function TimelineLayout({
     zoomRef.current = zoom;
     svg.call(zoom);
 
-    // Initial zoom to show content at readable size (TL11-TL15)
-    // Focus on the first chronological item while keeping content visible
-    const firstNodeY = assignedNodes.length > 0 
-      ? yScale(assignedNodes[0].year ?? yearRange.min) 
-      : 50;
+    // Initial zoom to show content at readable size
+    // Focus on the densest segment (most data points) rather than first chronological item
+    const densestSegment = segmentedScale.getDensestSegment();
+    const densestMidY = (densestSegment.yStart ?? 50) + 
+      ((densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50)) / 2;
     
     // Calculate scale that shows nodes at readable size
+    const segmentHeight = (densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50);
     const idealScale = Math.min(
       (width * 0.8) / (contentWidth - LEFT_MARGIN),  // Fit width (excluding filter margin)
-      height / Math.min(contentHeight * 0.7, 600),   // Limit vertical to ~600px view
+      height / Math.max(segmentHeight + 100, 300),   // Fit the densest segment in view
       INITIAL_ZOOM_SCALE                              // Max reasonable scale
     );
     const actualScale = Math.max(idealScale, ZOOM_MIN);
     
-    // Position to show first items, offset for left margin
+    // Position to center on the densest segment
     const initialX = -LEFT_MARGIN * actualScale + 20;
-    const initialY = -Math.max(firstNodeY - 100, 0) * actualScale;
+    const initialY = -(densestMidY - height / (2 * actualScale)) * actualScale;
     
     svg.call(
       zoom.transform,
@@ -507,6 +592,7 @@ export function TimelineLayout({
     timelineEdges,
     yearRange,
     undatedNodes,
+    datedYears,
     onNodeClick,
     onEdgeClick,
     selectedEdgeId,
@@ -588,37 +674,32 @@ export function TimelineLayout({
   }, []);
 
   const handleResetView = useCallback(() => {
-    if (!svgRef.current || !zoomRef.current) return;
+    if (!svgRef.current || !zoomRef.current || !segmentedScaleRef.current) return;
     const svg = d3.select(svgRef.current);
     const { width, height } = dimensions;
 
-    // Calculate content dimensions
-    const yearSpan = yearRange.max - yearRange.min + 1;
-    const contentHeight = Math.max(yearSpan * MIN_YEAR_HEIGHT, height);
+    // Use the stored segmented scale
+    const segmentedScale = segmentedScaleRef.current;
     const laneCount = Math.max(...assignedNodes.map((n) => n.lane ?? 0), 0) + 1;
     const contentWidth = LEFT_MARGIN + AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
 
-    // Calculate yScale for positioning
-    const yScale = d3
-      .scaleLinear()
-      .domain([yearRange.min, yearRange.max])
-      .range([50, contentHeight - UNDATED_SECTION_HEIGHT - 50]);
-
-    const firstNodeY = assignedNodes.length > 0 
-      ? yScale(assignedNodes[0].year ?? yearRange.min) 
-      : 50;
+    // Focus on the densest segment
+    const densestSegment = segmentedScale.getDensestSegment();
+    const densestMidY = (densestSegment.yStart ?? 50) + 
+      ((densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50)) / 2;
 
     // Calculate scale that shows nodes at readable size
+    const segmentHeight = (densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50);
     const idealScale = Math.min(
       (width * 0.8) / (contentWidth - LEFT_MARGIN),
-      height / Math.min(contentHeight * 0.7, 600),
+      height / Math.max(segmentHeight + 100, 300),
       INITIAL_ZOOM_SCALE
     );
     const actualScale = Math.max(idealScale, ZOOM_MIN);
     
-    // Position to show first items
+    // Position to center on the densest segment
     const initialX = -LEFT_MARGIN * actualScale + 20;
-    const initialY = -Math.max(firstNodeY - 100, 0) * actualScale;
+    const initialY = -(densestMidY - height / (2 * actualScale)) * actualScale;
 
     svg
       .transition()
@@ -627,7 +708,7 @@ export function TimelineLayout({
         zoomRef.current.transform,
         d3.zoomIdentity.translate(initialX, initialY).scale(actualScale)
       );
-  }, [dimensions, yearRange, assignedNodes]);
+  }, [dimensions, assignedNodes]);
 
   return (
     <div ref={containerRef} className={`timeline-layout ${className}`}>

@@ -113,6 +113,26 @@
   pointer-events: none;
 }
 
+/* Timeline break indicators (gap compression) */
+.timeline-break-indicator {
+  pointer-events: none;
+}
+
+.timeline-break-zigzag {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.timeline-break-line {
+  opacity: 0.6;
+}
+
+.timeline-break-label {
+  font-family: var(--font-family-sans, system-ui, sans-serif);
+  user-select: none;
+  pointer-events: none;
+}
+
 /* Zoom Controls */
 .timeline-layout__controls {
   position: absolute;
