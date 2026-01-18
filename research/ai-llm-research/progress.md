@@ -65,6 +65,25 @@ Targeted additions based on review feedback:
 - [x] Add PPO and TRPO papers as objects with Schulman edges
 - [x] Add Claude 3 and LLaMA 3 as model objects
 
+### Phase R: Corrections (2026-01-18) - User Feedback Round 2
+
+**Feedback received and disposition:**
+
+1. **Mira Murati's CTO timeline** - CORRECTED
+   - *Issue*: Node stated CTO from 2018-2024, but Fortune.com confirms she was promoted to CTO in May 2022
+   - *Change*: Updated shortDescription from "(2018-2024)" to "(2022-2024)" and biography from "from 2018 to September 2024" to "from May 2022 to September 2024"
+   - *Rationale*: User-provided source (Fortune.com) is reliable; the 2022 date aligns with ChatGPT development timeline
+
+2. **Pamela Vagata's status** - CORRECTED
+   - *Issue*: Node described her as "OpenAI co-founder" but authoritative sources (OpenAI Wikipedia, news outlets) do not include her in the founding team
+   - *Change*: Updated shortDescription from "Co-founder of OpenAI; early infrastructure work" to "Early OpenAI engineer; infrastructure contributor" and biography to "early engineer" rather than "co-founder"
+   - *Rationale*: Cannot verify co-founder claim; changing to verifiable role (early engineer). Note: OpenAI entity's foundedBy list correctly excludes her.
+
+3. **Niki Parmar's Anthropic join date** - CORRECTED
+   - *Issue*: Node said she joined Anthropic in 2025, but her own announcement and Analytics India Magazine coverage confirm December 2024
+   - *Change*: Updated shortDescription from "joined Anthropic (2025)" to "joined Anthropic (Dec 2024)" and biography from "in 2025" to "in December 2024"
+   - *Rationale*: Multiple sources confirm December 2024; precision matters for recent events
+
 ## Statistics
 
 | Metric | Count |

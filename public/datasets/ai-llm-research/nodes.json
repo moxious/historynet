@@ -156,9 +156,9 @@
     "id": "person-pamela-vagata",
     "type": "person",
     "title": "Pamela Vagata",
-    "shortDescription": "Co-founder of OpenAI; early infrastructure work",
+    "shortDescription": "Early OpenAI engineer; infrastructure contributor",
     "occupations": ["engineer"],
-    "biography": "Pamela Vagata is a co-founder of OpenAI. Previously worked at Stripe."
+    "biography": "Pamela Vagata was an early engineer at OpenAI working on infrastructure. Previously worked at Stripe."
   },
   {
     "id": "person-alec-radford",
@@ -172,9 +172,9 @@
     "id": "person-mira-murati",
     "type": "person",
     "title": "Mira Murati",
-    "shortDescription": "Former CTO of OpenAI (2018-2024); oversaw ChatGPT and DALL-E development",
+    "shortDescription": "Former CTO of OpenAI (2022-2024); oversaw ChatGPT and DALL-E development",
     "occupations": ["engineer", "executive"],
-    "biography": "Mira Murati served as CTO of OpenAI from 2018 to September 2024. Oversaw ChatGPT and DALL-E development. Served as interim CEO during November 2023 crisis. Departed in September 2024."
+    "biography": "Mira Murati served as CTO of OpenAI from May 2022 to September 2024. Oversaw ChatGPT and DALL-E development. Served as interim CEO during November 2023 crisis. Departed in September 2024."
   },
   {
     "id": "person-aditya-ramesh",
@@ -279,9 +279,9 @@
     "id": "person-niki-parmar",
     "type": "person",
     "title": "Niki Parmar",
-    "shortDescription": "Co-author of Transformer paper; co-founder of Adept and Essential AI; joined Anthropic (2025)",
+    "shortDescription": "Co-author of Transformer paper; co-founder of Adept and Essential AI; joined Anthropic (Dec 2024)",
     "occupations": ["AI researcher"],
-    "biography": "Niki Parmar is co-author of 'Attention Is All You Need' (Transformer paper). Co-founded Adept with Vaswani, then Essential AI. Joined Anthropic in 2025."
+    "biography": "Niki Parmar is co-author of 'Attention Is All You Need' (Transformer paper). Co-founded Adept with Vaswani, then Essential AI. Joined Anthropic in December 2024."
   },
   {
     "id": "person-demis-hassabis",
