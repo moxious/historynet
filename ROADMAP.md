@@ -18,6 +18,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M12 | User Feedback | 🔲 Future |
 | M13 | Scenius Rebrand & Theme System | 🔲 Future |
 | M14 | Timeline Improvements | 🔲 Future |
+| M15 | Stable Resource URLs | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -112,6 +113,8 @@ See `HISTORY.md` for detailed implementation history.
 **Goal**: Allow users to submit feedback about graph data (missing nodes, incorrect information, suggested changes) without requiring a GitHub account. Feedback is captured as GitHub issues for dataset maintainers to review.
 
 **Architecture Decision**: Migrate from GitHub Pages to Vercel to enable serverless API functions. This consolidates hosting and backend on a single platform.
+
+**Note**: If M15 (Stable Resource URLs) is completed before this milestone, feedback forms should be integrated into the stable resource pages as well as the main graph view. Each node/edge page becomes a natural place for item-specific feedback.
 
 **Deliverables**:
 
@@ -261,6 +264,74 @@ interface FeedbackSubmission {
 
 ---
 
+## Future: M15 - Stable Resource URLs
+
+**Goal**: Give every node and edge across all datasets a permanent, shareable URL (permalink) that loads a standalone detail page. This enables external citation, bookmarking, and serves as the foundation for per-item user feedback in future milestones.
+
+**Context**: Currently, items can be deep-linked via query parameters (e.g., `?dataset=disney&selected=person-mickey-mouse&type=node`), but these URLs are tied to the graph view. Stable resource URLs provide a cleaner, more "resource-like" URL structure that treats each node and edge as a first-class addressable resource.
+
+**Deliverables**:
+
+### URL Routing Architecture
+
+New path-based routes (using HashRouter for GitHub Pages compatibility):
+
+**Node URLs**:
+```
+/#/{dataset-id}/node/{node-id}
+```
+Examples:
+- `/#/disney-characters/node/person-mickey-mouse`
+- `/#/enlightenment/node/person-voltaire`
+- `/#/rosicrucian-network/node/object-fama-fraternitatis`
+
+**Edge URLs** (by source/target pair):
+```
+/#/{dataset-id}/from/{source-id}/to/{target-id}
+```
+Examples:
+- `/#/disney-characters/from/person-mickey-mouse/to/person-minnie-mouse`
+- `/#/enlightenment/from/person-voltaire/to/person-frederick-great`
+
+Note: Edge URLs show **all edges** between the source and target nodes on a single page, since multiple relationships may exist between the same pair of entities.
+
+### Standalone Resource Pages
+
+- **Node Detail Page**: Renders the same content as the infobox panel (title, type, dates, description, biography, image, external links, etc.) but as a full standalone page
+- **Edge Detail Page**: Renders edge information (relationship type, evidence, dates) plus summary cards for both source and target nodes. Shows all edges between the pair if multiple exist.
+- **No graph visualization** on these pages—they are pure detail views
+- Consistent styling with the main application
+- Clear navigation back to the graph view ("View in Graph" button)
+
+### Permalink & Share UI
+
+- Add "Permalink" button/icon to the InfoboxPanel that copies the stable URL to clipboard
+- Add "Share" button/icon that opens native share dialog (if available) or copies URL
+- Visual feedback on copy (e.g., "Copied!" toast or icon change)
+- Both buttons should be visible for both nodes and edges
+
+### Meta Tags for SEO & Social Sharing
+
+Each stable page should have dynamic meta tags:
+
+- `<title>`: `{Node Title} | {Dataset Name} | HistoryNet`
+- `<meta name="description">`: Short description from the node/edge
+- `<meta property="og:title">`: Same as title
+- `<meta property="og:description">`: Short description
+- `<meta property="og:type">`: `article` or `website`
+- `<meta property="og:url">`: Canonical URL of the page
+- `<meta property="og:image">`: Node image if available, or default app image
+
+Note: Dynamic meta tags in an SPA require either server-side rendering or a prerendering strategy. For GitHub Pages, consider using `react-helmet` or similar for client-side updates (works for users, limited for crawlers), or document that full SEO requires the Vercel migration in M12.
+
+### Navigation & Back Links
+
+- "View in Graph" button that navigates to `/#/?dataset={id}&selected={node-id}&type=node`
+- Breadcrumb or header showing: `Dataset Name > Node Type > Node Title`
+- If arriving from a graph deep link, browser back button should work correctly
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -289,15 +360,16 @@ M1-M8 (Complete)
    M10 (UX Improvements) ✅
     │
     ▼
-   M11 (Graph Interaction Polish) ◄── CURRENT
+   M11 (Graph Interaction Polish) ✅
     │
-    ├────────────────────────────┬────────────────────────────┐
-    ▼                            ▼                            ▼
-   M12 (User Feedback)         M13 (Scenius Rebrand)        M14 (Timeline Improvements)
-   [requires Vercel migration]  [independent]               [independent]
+    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼                  ▼                  ▼
+   M12               M13                M14                M15
+   (User Feedback)   (Scenius Rebrand)  (Timeline)         (Stable URLs)
+   [Vercel req'd]    [independent]      [independent]      [independent]
 ```
 
-Note: M12, M13, and M14 can be worked on in parallel as they have no dependencies on each other.
+Note: M12, M13, M14, and M15 can be worked on in parallel as they have no dependencies on each other. However, if M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
 
 ---
 

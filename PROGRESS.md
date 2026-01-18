@@ -31,6 +31,7 @@ All MVP and initial post-MVP milestones are complete. See `HISTORY.md` for detai
 | M8 | Timeline View | 2026-01-18 |
 | M9 | Application Verification | 2026-01-18 |
 | M10 | User-Prompted UX Improvements | 2026-01-18 |
+| M11 | Graph Interaction Polish | 2026-01-18 |
 
 **Key decisions made during MVP:**
 - React Context for state management (sufficient for app scale)
@@ -140,53 +141,55 @@ All MVP and initial post-MVP milestones are complete. See `HISTORY.md` for detai
 
 ---
 
-## M11: Graph Interaction Polish
+## M11: Graph Interaction Polish ✅
 
 **Goal**: Refine graph component behavior and discoverability based on user testing feedback. Focus on interaction predictability, physics tuning, and UX clarity.
 
 ### Node Click Behavior (No Re-layout)
 
-- [ ] **GI1** - Identify where node clicks trigger force simulation restart in `ForceGraphLayout.tsx`
-- [ ] **GI2** - Modify node click handler to update selection state without calling `simulation.alpha().restart()`
-- [ ] **GI3** - Ensure clicked node's position is preserved (no centering or re-positioning)
-- [ ] **GI4** - Test: clicking through multiple nodes should not move any nodes; only infobox updates
-- [ ] **GI5** - Test: graph should still re-layout appropriately when dataset changes or filters apply
+- [x] **GI1** - Identify where node clicks trigger force simulation restart in `ForceGraphLayout.tsx`
+- [x] **GI2** - Modify node click handler to update selection state without calling `simulation.alpha().restart()`
+- [x] **GI3** - Ensure clicked node's position is preserved (no centering or re-positioning)
+- [x] **GI4** - Test: clicking through multiple nodes should not move any nodes; only infobox updates
+- [x] **GI5** - Test: graph should still re-layout appropriately when dataset changes or filters apply
 
 ### Physics Tuning (Reduced Gravity)
 
-- [ ] **GI6** - Review current D3 force simulation parameters (gravity, charge, link distance, etc.)
-- [ ] **GI7** - Reduce `forceCenter` strength or add bounding constraints to keep disconnected nodes closer
-- [ ] **GI8** - Tune `forceManyBody` (charge) to reduce repulsion for weakly-connected nodes
-- [ ] **GI9** - Consider adding a soft boundary force to prevent nodes from drifting too far from center
-- [ ] **GI10** - Test with Rosicrucian dataset (has some disconnected subgraphs)
-- [ ] **GI11** - Test with Disney dataset (relatively connected) to ensure no over-clustering
+- [x] **GI6** - Review current D3 force simulation parameters (gravity, charge, link distance, etc.)
+- [x] **GI7** - Reduce `forceCenter` strength or add bounding constraints to keep disconnected nodes closer
+- [x] **GI8** - Tune `forceManyBody` (charge) to reduce repulsion for weakly-connected nodes
+- [x] **GI9** - Consider adding a soft boundary force to prevent nodes from drifting too far from center
+- [x] **GI10** - Test with Rosicrucian dataset (has some disconnected subgraphs)
+- [x] **GI11** - Test with Disney dataset (relatively connected) to ensure no over-clustering
 
 ### Interaction Discoverability (Zoom/Pan Hint)
 
-- [ ] **GI12** - Design subtle visual indicator for zoom/pan capability (icon + text or tooltip)
-- [ ] **GI13** - Add hint element near or below the Graph/Timeline view picker in the UI
-- [ ] **GI14** - Suggested text: "Scroll to zoom • Drag to pan" or similar
-- [ ] **GI15** - Style hint to be unobtrusive (muted color, small text) but noticeable on first use
-- [ ] **GI16** - Consider: hide hint after first user interaction (optional, nice-to-have)
+- [x] **GI12** - Design subtle visual indicator for zoom/pan capability (icon + text or tooltip)
+- [x] **GI13** - Add hint element near or below the Graph/Timeline view picker in the UI
+- [x] **GI14** - Suggested text: "Scroll to zoom • Drag to pan" or similar
+- [x] **GI15** - Style hint to be unobtrusive (muted color, small text) but noticeable on first use
+- [x] **GI16** - Consider: hide hint after first user interaction (optional, nice-to-have) - SKIPPED (not necessary)
 
 ### Infobox Simplification (Hide ID Field)
 
-- [ ] **GI17** - Remove ID field display from `NodeInfobox.tsx` component
-- [ ] **GI18** - Remove ID field display from `EdgeInfobox.tsx` component (if shown there)
-- [ ] **GI19** - Verify ID is still used internally for selection/URL state (do not remove from data model)
-- [ ] **GI20** - Test: infobox shows all relevant fields except ID for all node types
+- [x] **GI17** - Remove ID field display from `NodeInfobox.tsx` component
+- [x] **GI18** - Remove ID field display from `EdgeInfobox.tsx` component (if shown there)
+- [x] **GI19** - Verify ID is still used internally for selection/URL state (do not remove from data model)
+- [x] **GI20** - Test: infobox shows all relevant fields except ID for all node types
 
 ### Final Verification
 
-- [ ] **GI21** - Build passes with no errors or linter warnings
-- [ ] **GI22** - Test all changes on production URL after deployment
-- [ ] **GI23** - Update CHANGELOG.md with M11 completion notes
+- [x] **GI21** - Build passes with no errors or linter warnings
+- [x] **GI22** - Test all changes on production URL after deployment
+- [x] **GI23** - Update CHANGELOG.md with M11 completion notes
 
 ---
 
 ## M12: User Feedback
 
 **Goal**: Enable users to submit feedback about graph data without requiring a GitHub account. Migrate to Vercel for serverless function support.
+
+**Note**: If M15 (Stable Resource URLs) is completed before this milestone, integrate feedback forms into the stable resource pages. Each node/edge detail page becomes a natural place for item-specific feedback. Add tasks to place FeedbackButton on NodeDetailPage and EdgeDetailPage.
 
 ### Platform Migration (Vercel)
 
@@ -416,6 +419,109 @@ All MVP and initial post-MVP milestones are complete. See `HISTORY.md` for detai
 
 ---
 
+## M15: Stable Resource URLs
+
+**Goal**: Give every node and edge a permanent, shareable URL (permalink) that loads a standalone detail page. Enable external citation, bookmarking, and lay the foundation for per-item user feedback.
+
+**URL Structure**:
+- Nodes: `/#/{dataset-id}/node/{node-id}`
+- Edges: `/#/{dataset-id}/from/{source-id}/to/{target-id}` (shows all edges between pair)
+
+### Routing Architecture
+
+- [ ] **SR1** - Design route structure and document URL patterns in codebase
+- [ ] **SR2** - Add new routes to React Router configuration in `main.tsx` or `App.tsx`
+  - `/:datasetId/node/:nodeId` - Node detail page
+  - `/:datasetId/from/:sourceId/to/:targetId` - Edge detail page (between node pair)
+- [ ] **SR3** - Create route parameter extraction hook `useResourceParams` in `src/hooks/`
+- [ ] **SR4** - Ensure routes work with HashRouter (required for GitHub Pages)
+- [ ] **SR5** - Handle invalid routes gracefully (404-style page or redirect to main view)
+- [ ] **SR6** - Test: direct URL access loads correct resource page
+
+### Node Detail Page
+
+- [ ] **SR7** - Create `NodeDetailPage` component in `src/components/` or `src/pages/`
+- [ ] **SR8** - Load dataset and find node by ID from route params
+- [ ] **SR9** - Display node information using same fields as `NodeInfobox`:
+  - Title, type badge, dates (lifespan for persons)
+  - Image (if available)
+  - Short description and biography
+  - Alternate names, occupations, nationality (for persons)
+  - External links
+  - Any custom/extended properties
+- [ ] **SR10** - Style page consistently with main application
+- [ ] **SR11** - Add "View in Graph" button linking to `/#/?dataset={id}&selected={nodeId}&type=node`
+- [ ] **SR12** - Add breadcrumb navigation: `{Dataset Name} > {Node Type} > {Node Title}`
+- [ ] **SR13** - Handle loading state while dataset fetches
+- [ ] **SR14** - Handle error state if node ID not found in dataset
+
+### Edge Detail Page
+
+- [ ] **SR15** - Create `EdgeDetailPage` component in `src/components/` or `src/pages/`
+- [ ] **SR16** - Load dataset and find all edges between source and target nodes
+- [ ] **SR17** - Display source and target node summary cards (name, type, image thumbnail)
+- [ ] **SR18** - For each edge between the pair, display:
+  - Relationship type
+  - Natural language description ("{Source} {relationship} {Target}")
+  - Date range (if available)
+  - Evidence text and evidence URLs
+  - Strength indicator (if available)
+- [ ] **SR19** - Handle case where multiple edges exist between same pair (list all)
+- [ ] **SR20** - Handle case where no edges exist between pair (show message, not error)
+- [ ] **SR21** - Add "View in Graph" button linking to graph with edge selected
+- [ ] **SR22** - Add clickable links to source/target node detail pages
+- [ ] **SR23** - Style consistently with node detail page
+- [ ] **SR24** - Handle loading and error states
+
+### Permalink & Share UI (InfoboxPanel Integration)
+
+- [ ] **SR25** - Create `ShareButtons` component with Permalink and Share buttons
+- [ ] **SR26** - Implement "Permalink" button that copies stable URL to clipboard
+- [ ] **SR27** - Implement "Share" button using Web Share API (with fallback to copy)
+- [ ] **SR28** - Add visual feedback on successful copy (toast, icon change, or "Copied!" text)
+- [ ] **SR29** - Generate correct stable URL based on selected item type:
+  - Node: `/#/{dataset}/node/{nodeId}`
+  - Edge: `/#/{dataset}/from/{sourceId}/to/{targetId}`
+- [ ] **SR30** - Integrate `ShareButtons` into `NodeInfobox` component
+- [ ] **SR31** - Integrate `ShareButtons` into `EdgeInfobox` component
+- [ ] **SR32** - Style buttons to match existing infobox aesthetic
+- [ ] **SR33** - Test: clicking Permalink copies correct URL for both nodes and edges
+
+### Meta Tags (SEO & Social Sharing)
+
+- [ ] **SR34** - Install `react-helmet-async` (or similar) for dynamic meta tag management
+- [ ] **SR35** - Create `ResourceMeta` component for setting page-specific meta tags
+- [ ] **SR36** - Set dynamic `<title>` tag: `{Item Title} | {Dataset Name} | HistoryNet`
+- [ ] **SR37** - Set `<meta name="description">` from node/edge short description
+- [ ] **SR38** - Set Open Graph tags: `og:title`, `og:description`, `og:type`, `og:url`
+- [ ] **SR39** - Set `og:image` to node image if available, otherwise default app image
+- [ ] **SR40** - Apply `ResourceMeta` to both `NodeDetailPage` and `EdgeDetailPage`
+- [ ] **SR41** - Test: sharing URL on social media shows correct preview (note: limited in SPA without SSR)
+- [ ] **SR42** - Document meta tag limitations for pure client-side SPA in code comments
+
+### Navigation & UX
+
+- [ ] **SR43** - Ensure browser back button works correctly from detail pages
+- [ ] **SR44** - Add link from detail pages back to dataset home/overview (if applicable)
+- [ ] **SR45** - Consider: add "Related" section showing connected nodes (nice-to-have)
+- [ ] **SR46** - Ensure keyboard navigation works on detail pages (focus management)
+- [ ] **SR47** - Test: navigating between detail pages updates URL correctly
+
+### Testing & Verification
+
+- [ ] **SR48** - Test all node types render correctly on detail pages (person, object, location, entity)
+- [ ] **SR49** - Test edge detail page with single edge between pair
+- [ ] **SR50** - Test edge detail page with multiple edges between same pair
+- [ ] **SR51** - Test with all shipped datasets (Disney, Rosicrucian, Enlightenment, AI-LLM)
+- [ ] **SR52** - Test invalid node ID shows appropriate error/not-found state
+- [ ] **SR53** - Test invalid dataset ID shows appropriate error state
+- [ ] **SR54** - Test Permalink/Share buttons on both graph view infobox and detail pages
+- [ ] **SR55** - Build passes with no errors or linter warnings
+- [ ] **SR56** - Cross-browser testing (Chrome, Firefox, Safari)
+- [ ] **SR57** - Update CHANGELOG.md with M15 completion notes
+
+---
+
 ## Notes & Decisions
 
 _Add notes about implementation decisions, blockers, or clarifications here._
@@ -443,6 +549,36 @@ CODE QUALITY RECOMMENDATIONS (non-blocking):
 TESTED ON: https://moxious.github.io/historynet/
 Datasets verified: Disney Characters, Rosicrucian Network, AI-LLM Research
 (Enlightenment fix not yet deployed)
+```
+
+### M11 Notes
+
+```
+[2026-01-18] M11 IMPLEMENTATION COMPLETE:
+
+ROOT CAUSE ANALYSIS - Node Click Re-layout:
+The issue was that handleNodeClick and handleEdgeClick in MainLayout.tsx were not
+memoized with useCallback, causing new function references on every render. This
+triggered the ForceGraphLayout useEffect (which had these as dependencies) to
+re-run and re-initialize the entire force simulation.
+
+FIX: Wrapped both handlers in useCallback with appropriate dependencies.
+
+FILES MODIFIED:
+- src/components/MainLayout.tsx - Memoized click handlers, added interaction hint
+- src/components/MainLayout.css - Styled view controls container and hint
+- src/layouts/ForceGraphLayout.tsx - Tuned physics (charge -250, added forceX/Y)
+- src/components/NodeInfobox.tsx - Removed ID field display
+- src/components/EdgeInfobox.tsx - Removed ID field display
+
+PHYSICS CHANGES:
+- forceManyBody: -400 → -250 (reduced repulsion)
+- Added forceX/Y with 0.05 strength (soft gravity toward center)
+- Result: Disconnected nodes stay visible without excessive panning
+
+UI ADDITIONS:
+- Interaction hint: "Scroll to zoom • Drag to pan" below layout switcher
+- Styled as subtle pill (11px, muted gray, icons)
 ```
 
 ### M10 Notes
