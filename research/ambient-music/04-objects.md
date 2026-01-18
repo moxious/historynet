@@ -9,10 +9,10 @@
 
 | Category | Count |
 |----------|-------|
-| Albums/Recordings | 52 |
+| Albums/Recordings | 60 |
 | Instruments/Equipment | 12 |
 | Publications/Writings | 8 |
-| **Total** | **72** |
+| **Total** | **80** |
 
 ---
 
@@ -426,6 +426,22 @@
 - **Significance**: Late-career ambient album; meditation on time, space, and mortality. Critically acclaimed return to experimental work.
 - **Connections**: Ryuichi Sakamoto (authored)
 
+#### 51. Through the Looking Glass
+- **ID**: `object-takada-looking-glass`
+- **Creator**: Midori Takada
+- **Date**: 1983
+- **Type**: Album
+- **Significance**: Foundational ambient-percussion work combining minimalist repetition with world percussion influences. Rediscovered and reissued in 2017, bringing Takada international recognition decades after release.
+- **Connections**: Midori Takada (authored)
+
+#### 52. Still Way (Wave Notation 2)
+- **ID**: `object-ashikawa-still-way`
+- **Creator**: Satoshi Ashikawa
+- **Date**: 1982
+- **Type**: Album
+- **Significance**: Defining work of Japanese kankyō ongaku aesthetic. Spare synthesizer and piano pieces designed for environmental listening. Part of Ashikawa's Wave Notation series on his Sound Process label.
+- **Connections**: Satoshi Ashikawa (authored)
+
 ---
 
 ## V. Electronic Music Popularization
@@ -437,6 +453,22 @@
 - **Type**: Album
 - **Significance**: First synthesizer album to achieve mass success, demonstrating Moog's musical potential. Three Grammy Awards.
 - **Connections**: Wendy Carlos (authored), Robert Moog (collaborated—instrument development)
+
+#### 49. Silver Apples of the Moon
+- **ID**: `object-subotnick-silver-apples`
+- **Creator**: Morton Subotnick
+- **Date**: 1967
+- **Type**: Album
+- **Significance**: First electronic work commissioned by a record label (Nonesuch). Created on the Buchla synthesizer at San Francisco Tape Music Center. Pioneering long-form electronic composition that influenced the Berlin School and ambient.
+- **Connections**: Morton Subotnick (authored), Don Buchla (instrument)
+
+#### 50. Canaxis 5
+- **ID**: `object-czukay-canaxis`
+- **Creator**: Holger Czukay (with Rolf Dammers)
+- **Date**: 1969
+- **Type**: Album
+- **Significance**: Pioneering work combining tape manipulation, ethnographic recordings, and experimental techniques. Anticipates sampling and world music fusion. Crucial early bridge to ambient and "fourth world" aesthetics.
+- **Connections**: Holger Czukay (authored)
 
 ---
 
@@ -460,7 +492,43 @@
 
 ---
 
-## VII. Key Publications/Writings
+## VII. Second Generation Albums (1990-1995)
+
+#### 53. Selected Ambient Works 85-92
+- **ID**: `object-aphex-saw-85-92`
+- **Creator**: Aphex Twin (Richard D. James)
+- **Date**: 1992
+- **Type**: Album
+- **Significance**: Landmark album crystallizing ambient as a recognized genre in the 1990s. Warm analog textures with subtle rhythms, bridging ambient and electronic dance music. Released on R&S Records.
+- **Connections**: Richard D. James (authored), Brian Eno (influenced_by)
+
+#### 54. Selected Ambient Works Volume II
+- **ID**: `object-aphex-saw-ii`
+- **Creator**: Aphex Twin (Richard D. James)
+- **Date**: 1994
+- **Type**: Album
+- **Significance**: Darker, more abstract ambient work. Double album with untitled tracks, often cited as one of the greatest ambient albums. Influenced by lucid dreaming and synaesthesia according to James.
+- **Connections**: Richard D. James (authored)
+
+#### 55. The Orb's Adventures Beyond the Ultraworld
+- **ID**: `object-orb-ultraworld`
+- **Creator**: The Orb (Alex Paterson, et al.)
+- **Date**: 1991
+- **Type**: Album
+- **Significance**: Landmark double album pioneering "ambient house." Combined ambient textures with dub, samples, and subtle beats. Brought ambient to dance music audiences and mainstream attention.
+- **Connections**: Alex Paterson (authored), Lee "Scratch" Perry (influenced_by)
+
+#### 56. Chill Out
+- **ID**: `object-klf-chill-out`
+- **Creator**: The KLF (Bill Drummond & Jimmy Cauty)
+- **Date**: 1990
+- **Type**: Album
+- **Significance**: Landmark conceptual ambient album—continuous 45-minute piece depicting imaginary journey through American South. Uses samples, field recordings, ambient textures. Directly applies Eno's ambient philosophy to conceptual form.
+- **Connections**: Bill Drummond (authored), Jimmy Cauty (authored), Brian Eno (influenced_by)
+
+---
+
+## VIII. Key Publications/Writings
 
 #### 51. Silence
 - **ID**: `object-cage-silence`

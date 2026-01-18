@@ -27,14 +27,14 @@
 
 | Category | Count |
 |----------|-------|
-| Influence relationships | 52 |
-| Collaboration relationships | 48 |
-| Teacher-student relationships | 14 |
+| Influence relationships | 60 |
+| Collaboration relationships | 53 |
+| Teacher-student relationships | 16 |
 | Production relationships | 18 |
-| Co-founder relationships | 16 |
+| Co-founder relationships | 20 |
 | Family relationships | 1 |
 | Other relationships | 8 |
-| **Total** | **157** |
+| **Total** | **176** |
 
 ---
 
@@ -946,14 +946,21 @@
 
 ## XV. Maurice Martenot/Ondes Martenot Connections
 
-### 120. Maurice Martenot → Olivier Messiaen
+### 120. Maurice Martenot → Jeanne Loriod
+- **Type**: `taught`
+- **Dates**: 1940s-1950s
+- **Evidence**: Loriod studied with Martenot and became the foremost performer of the ondes Martenot. She taught at the Paris Conservatoire for 45 years.
+- **Source**: Conservatoire de Paris documentation; ondes Martenot performance history
+- **Strength**: strong
+
+### 121. Maurice Martenot → Olivier Messiaen
 - **Type**: `collaborated_with`
 - **Evidence**: Messiaen composed extensively for the ondes Martenot, including the *Turangalîla-Symphonie*.
 - **Source**: Messiaen scholarship
 - **Strength**: strong
 - **Notes**: Messiaen not in enumeration
 
-### 121. Maurice Martenot → Edgard Varèse
+### 122. Maurice Martenot → Edgard Varèse
 - **Type**: `knows`
 - **Evidence**: Varèse composed for the ondes Martenot (*Ecuatorial*), engaging with Martenot's instrument.
 - **Source**: Varèse scholarship
@@ -1115,6 +1122,145 @@ These relationships connect different subgroups, serving as bridges in the netwo
 1. Satie meeting Cage (Satie died before Cage became active)
 2. Direct Russolo → Schaeffer influence (conceptual only, no personal connection)
 3. Leon Theremin → Brian Eno (no documented connection despite theremin use)
+
+---
+
+---
+
+## XXI. Morton Subotnick / West Coast Connections
+
+### 139. Morton Subotnick ↔ Pauline Oliveros
+- **Type**: `co_founded`
+- **Dates**: 1962
+- **Evidence**: Subotnick and Oliveros (along with Ramon Sender) co-founded the San Francisco Tape Music Center in 1962.
+- **Source**: SFTMC documentation; *Analog Days* by Pinch & Trocco
+- **Strength**: strong
+
+### 140. Morton Subotnick ↔ Don Buchla
+- **Type**: `collaborated_with`
+- **Dates**: 1963-1966
+- **Evidence**: Subotnick commissioned Buchla to build the first Buchla synthesizer for the San Francisco Tape Music Center. They developed the instrument together.
+- **Source**: *Analog Days*; SFTMC documentation
+- **Strength**: strong
+
+### 141. Don Buchla → Morton Subotnick
+- **Type**: `influenced`
+- **Evidence**: Buchla's instrument design directly enabled Subotnick's groundbreaking electronic works including *Silver Apples of the Moon*.
+- **Source**: Instrument and album histories
+- **Strength**: strong
+
+---
+
+## XXII. Holger Czukay / Can Connections
+
+### 142. Karlheinz Stockhausen → Holger Czukay
+- **Type**: `taught`
+- **Dates**: 1963-1966
+- **Evidence**: Czukay studied with Stockhausen at the Cologne Courses for New Music, absorbing avant-garde techniques that influenced Can's experimental approach.
+- **Source**: Can biographies; David Stubbs, *Future Days*
+- **Strength**: strong
+
+### 143. Holger Czukay → Brian Eno
+- **Type**: `influenced`
+- **Evidence**: Czukay's tape manipulation, sampling techniques, and world music fusion on *Canaxis 5* (1969) anticipated and influenced ambient production methods. Eno was aware of Can's work.
+- **Source**: Eno interviews acknowledging Krautrock influence; general scholarship
+- **Strength**: moderate
+
+### 144. Holger Czukay ↔ entity-can
+- **Type**: `co_founded`
+- **Dates**: 1968
+- **Evidence**: Czukay was co-founder and bassist of Can.
+- **Source**: Can discography and histories
+- **Strength**: strong
+
+---
+
+## XXIII. Japanese Ambient Expansion
+
+### 145. Satoshi Ashikawa ↔ Hiroshi Yoshimura
+- **Type**: `collaborated_with`
+- **Evidence**: Ashikawa's Sound Process label released Yoshimura's *Music for Nine Post Cards* (1982). They were central figures in the kankyō ongaku movement.
+- **Source**: *Kankyō Ongaku* compilation documentation (Light in the Attic, 2019)
+- **Strength**: strong
+
+### 146. Satoshi Ashikawa ↔ Midori Takada
+- **Type**: `knows`
+- **Evidence**: Both were part of the early 1980s Japanese ambient/environmental music scene and contemporaries. Both featured on kankyō ongaku compilations.
+- **Source**: Japanese ambient music scholarship; compilation liner notes
+- **Strength**: moderate
+
+### 147. Midori Takada ↔ Hiroshi Yoshimura
+- **Type**: `knows`
+- **Evidence**: Contemporaries in the Japanese environmental music scene of the early 1980s.
+- **Source**: Japanese music documentation
+- **Strength**: moderate
+
+### 148. Haruomi Hosono → Satoshi Ashikawa
+- **Type**: `knows`
+- **Evidence**: Both part of the Japanese kankyō ongaku movement. Hosono's work for Muji paralleled the Sound Process aesthetic.
+- **Source**: *Kankyō Ongaku* compilation documentation
+- **Strength**: moderate
+
+### 149. Brian Eno → Satoshi Ashikawa
+- **Type**: `influenced`
+- **Evidence**: Ashikawa's environmental music concept was directly influenced by Eno's ambient philosophy, adapted for Japanese contexts.
+- **Source**: Japanese ambient music scholarship
+- **Strength**: strong
+
+### 150. Brian Eno → Midori Takada
+- **Type**: `influenced`
+- **Evidence**: Takada's *Through the Looking Glass* reflects ambient aesthetics of repetition and environmental sound, influenced by Western minimalism and ambient.
+- **Source**: Reissue documentation; interviews
+- **Strength**: moderate
+
+---
+
+## XXIV. Second Generation (1990-1995)
+
+### 151. Brian Eno → Richard D. James (Aphex Twin)
+- **Type**: `influenced`
+- **Evidence**: Aphex Twin's *Selected Ambient Works* series directly continues and develops Eno's ambient tradition. James has acknowledged ambient precursors.
+- **Source**: Interviews; critical scholarship
+- **Strength**: strong
+
+### 152. Brian Eno → Alex Paterson (The Orb)
+- **Type**: `influenced`
+- **Evidence**: The Orb's ambient house directly builds on Eno's ambient concepts. Paterson worked at EG Records (Eno's label) as A&R, giving him direct exposure to Eno's work.
+- **Source**: The Orb interviews; EG Records history
+- **Strength**: strong
+
+### 153. Brian Eno → Bill Drummond & Jimmy Cauty (The KLF)
+- **Type**: `influenced`
+- **Evidence**: *Chill Out* directly applies Eno's ambient philosophy—music for imaginary environments—to a conceptual road trip album.
+- **Source**: KLF documentation; critical analysis
+- **Strength**: strong
+
+### 154. Lee "Scratch" Perry ↔ Alex Paterson (The Orb)
+- **Type**: `collaborated_with`
+- **Dates**: 1995
+- **Evidence**: Perry collaborated with The Orb on *Orbus Terrarum* (1995), bringing dub production into ambient house.
+- **Source**: Album credits
+- **Strength**: strong
+
+### 155. Jimmy Cauty ↔ Alex Paterson
+- **Type**: `co_founded`
+- **Dates**: 1988-1990
+- **Evidence**: Cauty and Paterson co-founded The Orb in 1988, collaborating on early tracks including "A Huge Ever Growing Pulsating Brain That Rules from the Centre of the Ultraworld." Cauty left to focus on The KLF.
+- **Source**: The Orb history; interviews
+- **Strength**: strong
+
+### 156. Bill Drummond ↔ Jimmy Cauty
+- **Type**: `co_founded`
+- **Dates**: 1987
+- **Evidence**: Drummond and Cauty founded The KLF (as The Justified Ancients of Mu Mu).
+- **Source**: KLF documentation
+- **Strength**: strong
+
+### 157. Richard D. James ↔ Alex Paterson
+- **Type**: `knows`
+- **Evidence**: Both were key figures in the early 1990s UK electronic/ambient scene, releasing on Warp and associated labels. Part of same musical milieu.
+- **Source**: UK electronic music histories
+- **Strength**: moderate
 
 ---
 

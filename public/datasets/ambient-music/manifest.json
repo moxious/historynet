@@ -1,14 +1,19 @@
 {
   "id": "ambient-music",
   "name": "Ambient Music Network",
-  "description": "The origins and development of ambient music, centered on Brian Eno's 1978 coining of the term. Traces the convergent influences from Erik Satie's furniture music, John Cage's environmental sound philosophy, German kosmische musik, French musique concrète, American minimalism, and Jamaican dub production techniques.",
+  "description": "The origins and development of ambient music, centered on Brian Eno's 1978 coining of the term. Traces the convergent influences from Erik Satie's furniture music, John Cage's environmental sound philosophy, German kosmische musik, French musique concrète, American minimalism, Jamaican dub production techniques, and Japanese kankyō ongaku—through to the Second Generation crystallization in the early 1990s.",
   "lastUpdated": "2026-01-18",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "HistoryNet Contributors",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
-  "nodeCount": 189,
-  "edgeCount": 127,
+  "nodeCount": 209,
+  "edgeCount": 153,
+  "temporalScope": {
+    "start": "1866",
+    "end": "1995",
+    "note": "From Erik Satie's birth through the Second Generation ambient revival"
+  },
   "customRelationshipTypes": [
     {
       "type": "produced",
@@ -24,6 +29,21 @@
       "type": "co_founded",
       "description": "Both parties co-founded an organization or group together",
       "directed": false
+    }
+  ],
+  "changelog": [
+    {
+      "version": "1.1.0",
+      "date": "2026-01-18",
+      "changes": [
+        "Added Second Generation (1990-1995): Aphex Twin, The Orb, The KLF",
+        "Added connectivity fix for Maurice Martenot via Jeanne Loriod",
+        "Added Morton Subotnick (West Coast scene, SFTMC co-founder)",
+        "Added Holger Czukay (Stockhausen student, Can co-founder)",
+        "Expanded Japanese ambient: Midori Takada, Satoshi Ashikawa",
+        "Added Sound Process label entity",
+        "Added 8 new seminal albums"
+      ]
     }
   ]
 }

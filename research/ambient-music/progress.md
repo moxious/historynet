@@ -47,15 +47,27 @@
 - [x] Create manifest.json
 - [x] Validate against GRAPH_SCHEMA.md
 
+### Phase R: Re-review and Amendment (2026-01-18)
+- [x] Receive and document user feedback
+- [x] Substantiate feedback claims from sources
+- [x] Expand "Second Generation" (1990-1995) with Aphex Twin, The Orb, The KLF
+- [x] Fill connectivity gaps (Jeanne Loriod, Morton Subotnick, Holger Czukay)
+- [x] Deepen Japanese subgraph (Midori Takada, Satoshi Ashikawa)
+- [x] Update research documents (enumeration, relationships, objects)
+- [x] Update JSON dataset (nodes.json, edges.json, manifest.json)
+- [x] Log disposition in 07-review-notes.md
+
 ## Statistics
 
-| Metric | Count |
-|--------|-------|
-| People enumerated | 57 |
-| Relationships documented | 157 |
-| Objects identified | 72 |
-| Locations identified | 32 |
-| Entities identified | 35 |
+| Metric | Count (v1.0) | Count (v1.1) |
+|--------|--------------|--------------|
+| People enumerated | 57 | 65 |
+| Relationships documented | 157 | 176 |
+| Objects identified | 72 | 80 |
+| Locations identified | 32 | 32 |
+| Entities identified | 35 | 38 |
+| JSON nodes | 189 | 209 |
+| JSON edges | 127 | 153 |
 
 ## Notes
 
@@ -121,3 +133,25 @@
   - External relationships (Bowie, Subotnick, etc.) excluded from edges; noted in biographies
   - Entity membership edges included to strengthen network connectivity
 - **Ready for**: Integration into application (add to dataLoader.ts AVAILABLE_DATASETS)
+
+### Phase R Notes (2026-01-18)
+- **Feedback addressed**: User review identified three areas for expansion
+- **Additions made**:
+  1. **Second Generation (1990-1995)**: Richard D. James (Aphex Twin), Alex Paterson (The Orb), Bill Drummond & Jimmy Cauty (The KLF)
+     - Added 4 new persons, 4 landmark albums (SAW 85-92, SAW II, Adventures Beyond the Ultraworld, Chill Out)
+     - Added 2 new entities (The Orb, The KLF)
+  2. **Connectivity fixes**:
+     - Jeanne Loriod: Resolves Maurice Martenot's orphan status (taught by Martenot)
+     - Morton Subotnick: Fills West Coast gap (SFTMC co-founder with Oliveros, commissioned first Buchla)
+     - Holger Czukay: Adds Can connection (Stockhausen student, sampling pioneer via Canaxis 5)
+  3. **Japanese expansion**:
+     - Midori Takada: Through the Looking Glass (1983) ambient-percussion classic
+     - Satoshi Ashikawa: Sound Process label founder, Still Way (1982), kankyō ongaku theorist
+     - Added Sound Process label entity
+- **Impact on network structure**:
+  - Maurice Martenot now connected (via Loriod)
+  - West Coast scene connected to Eno network via Subotnick→Buchla→Ciani chain
+  - Japanese ambient subgraph strengthened with Ashikawa as hub (Sound Process label)
+  - Second Generation shows influence flow from Eno to 1990s artists
+  - Dub connection reinforced (Perry ↔ The Orb collaboration)
+- **Version**: Updated to 1.1.0 with changelog in manifest.json

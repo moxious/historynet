@@ -9,15 +9,16 @@
 
 | Subgroup | Count |
 |----------|-------|
-| Precursors & Conceptual Foundations | 14 |
-| Instrument Makers & Technologists | 10 |
-| Krautrock & German Electronic School | 14 |
+| Precursors & Conceptual Foundations | 15 |
+| Instrument Makers & Technologists | 11 |
+| Krautrock & German Electronic School | 15 |
 | British Art School & Experimental Scene | 9 |
 | Minimalist Composers | 4 |
 | Studio as Instrument Practitioners | 2 |
-| Japanese Ambient Pioneers | 3 |
+| Japanese Ambient Pioneers | 5 |
 | Early Synthesizer Popularizers | 1 |
-| **Total** | **57** |
+| Second Generation (1990-1995) | 3 |
+| **Total** | **65** |
 
 ---
 
@@ -135,6 +136,14 @@
 - **Connections**: Robert Moog (exchanged ideas), Motown (worked with Berry Gordy)
 - **Notes**: Unusual bridge between pop music world and electronic experimentation.
 
+### Morton Subotnick (1933-)
+- **Role**: Composer, educator
+- **Location**: San Francisco, then New York, USA
+- **Significance**: Co-founded the San Francisco Tape Music Center (1962) with Pauline Oliveros and Ramon Sender. Commissioned Don Buchla to build the first Buchla synthesizer for the center. *Silver Apples of the Moon* (1967) was the first electronic work commissioned by a record label (Nonesuch). Pioneer of live electronic music performance.
+- **Key Works**: *Silver Apples of the Moon* (1967), *The Wild Bull* (1968), *Touch* (1969)
+- **Connections**: Pauline Oliveros (SFTMC co-founder), Don Buchla (commissioned first synthesizer), Ramon Sender (SFTMC co-founder)
+- **Notes**: Critical missing link for West Coast experimental scene. Still active and teaching.
+
 ---
 
 ## Instrument Makers & Technologists
@@ -160,8 +169,16 @@
 - **Location**: Paris, France
 - **Significance**: Invented the ondes Martenot (1928), an early electronic instrument capable of expressive pitch manipulation. Used by many classical composers (Messiaen, Varèse). Its continuous pitch control and timbral flexibility influenced electronic instrument design.
 - **Key Works/Inventions**: Ondes Martenot (1928)
-- **Connections**: Olivier Messiaen (composed for ondes), Radiohead (modern users)
+- **Connections**: Olivier Messiaen (composed for ondes), Jeanne Loriod (student, greatest performer), Radiohead (modern users)
 - **Notes**: Instrument still used; Jonny Greenwood is notable modern player.
+
+### Jeanne Loriod (1928-2001)
+- **Role**: Performer, educator
+- **Location**: Paris, France
+- **Significance**: Preeminent ondes Martenot performer and sister-in-law of Olivier Messiaen. Studied with Maurice Martenot and became the instrument's greatest advocate. Premiered hundreds of works for the instrument including Messiaen's *Turangalîla-Symphonie* and *Trois petites liturgies*. Taught at the Paris Conservatoire for 45 years, training most professional ondists.
+- **Key Works**: Premiere performances of major ondes Martenot repertoire
+- **Connections**: Maurice Martenot (teacher), Olivier Messiaen (brother-in-law, performed his works)
+- **Notes**: Provides critical person-to-person link for Maurice Martenot in the network.
 
 ### Robert Moog (1934-2005)
 - **Role**: Engineer, inventor
@@ -327,6 +344,14 @@
 - **Connections**: Edgar Froese, Christopher Franke
 - **Notes**: Private Music helped commercialize ambient/new age in 1980s-90s.
 
+### Holger Czukay (1938-2017)
+- **Role**: Musician, composer, producer
+- **Location**: Cologne, Germany
+- **Significance**: Co-founder of Can, one of the most influential Krautrock bands. Studied with Karlheinz Stockhausen (1963-1966), bringing avant-garde techniques to rock contexts. Solo work pioneered sampling and world music fusion—*Canaxis 5* (1969, with Rolf Dammers) is a crucial early bridge to ambient and world music. His "radio wave surfing" technique anticipated sampling.
+- **Key Works**: *Canaxis 5* (1969), *Movies* (1979); With Can: *Tago Mago* (1971), *Ege Bamyasi* (1972)
+- **Connections**: Karlheinz Stockhausen (teacher), Can (co-founder), Irmin Schmidt (Can), Jaki Liebezeit (Can), Brian Eno (influence/contemporary)
+- **Notes**: His bass playing and tape manipulation techniques in Can influenced ambient production. Collaborated with many artists including David Sylvian and Jah Wobble.
+
 ---
 
 ## British Art School & Experimental Scene
@@ -487,6 +512,22 @@
 - **Connections**: Haruomi Hosono (YMO), David Bowie (acted with/composed for)
 - **Notes**: Academy Award winner; continued releasing ambient work until death.
 
+### Midori Takada (1951-)
+- **Role**: Percussionist, composer
+- **Location**: Tokyo, Japan
+- **Significance**: Classically trained percussionist whose album *Through the Looking Glass* (1983) is a foundational ambient-percussion work. Combines minimalist repetition with world percussion influences. Album was rediscovered and reissued in 2017, bringing her work to international attention decades after release.
+- **Key Works**: *Through the Looking Glass* (1983), *Lunar Cruise* (1990)
+- **Connections**: Satoshi Ashikawa (contemporary), Japanese kankyō ongaku scene
+- **Notes**: Her work demonstrates ambient's potential through acoustic/percussion means rather than electronics. Still performing.
+
+### Satoshi Ashikawa (1953-1983)
+- **Role**: Composer, label founder, theorist
+- **Location**: Tokyo, Japan
+- **Significance**: Central theorist and practitioner of kankyō ongaku (Japanese environmental music). Founded the Sound Process label, the primary imprint for Japanese ambient music. His album *Still Way (Wave Notation 2)* (1982) exemplifies the movement's aesthetic. Wrote theoretical texts defining the concept of environmental music for Japanese contexts.
+- **Key Works**: *Still Way (Wave Notation 2)* (1982), Sound Process label catalog
+- **Connections**: Hiroshi Yoshimura (released on Sound Process), Midori Takada (contemporary), Japanese kankyō ongaku movement
+- **Notes**: Died young at age 30, but his theoretical and curatorial work was foundational to Japanese ambient. Sound Process releases included Yoshimura's *Music for Nine Post Cards*.
+
 ---
 
 ## Early Synthesizer Popularizers
@@ -501,16 +542,46 @@
 
 ---
 
+## Second Generation (1990-1995)
+
+### Richard D. James / Aphex Twin (1971-)
+- **Role**: Musician, producer
+- **Location**: Cornwall, then London, UK
+- **Significance**: Key figure in crystallizing ambient as a recognized genre in the early 1990s. *Selected Ambient Works 85-92* (1992) combined warm analog textures with subtle rhythms, while *Selected Ambient Works Volume II* (1994) explored darker, more abstract ambient territories. Pioneered the "intelligent dance music" (IDM) concept alongside ambient techno.
+- **Key Works**: *Selected Ambient Works 85-92* (1992), *Selected Ambient Works Volume II* (1994)
+- **Connections**: Brian Eno (influence), Warp Records, The Orb (contemporary)
+- **Notes**: Works under numerous aliases (Aphex Twin, AFX, Polygon Window, etc.). SAW Vol II is often cited as one of the greatest ambient albums.
+
+### Alex Paterson / The Orb (1959-)
+- **Role**: Musician, DJ, producer
+- **Location**: London, UK
+- **Significance**: Pioneer of "ambient house" with The Orb. *The Orb's Adventures Beyond the Ultraworld* (1991) was a landmark double album combining ambient textures with dub, samples, and subtle beats. Helped bring ambient to dance music audiences. The Orb's performances and releases bridged chill-out rooms and album-length ambient composition.
+- **Key Works**: With The Orb: *Adventures Beyond the Ultraworld* (1991), *U.F.Orb* (1992), "Little Fluffy Clouds" (1990)
+- **Connections**: Brian Eno (influence), Lee "Scratch" Perry (collaborated on *Orbus Terrarum*), Jimmy Cauty (early Orb collaborator), KLF (connection)
+- **Notes**: Founded The Orb with Jimmy Cauty (briefly). A/R at EG Records where Eno released. Key figure in UK rave/chill-out scene.
+
+### Bill Drummond (1953-) & Jimmy Cauty (1956-) / The KLF
+- **Role**: Musicians, provocateurs
+- **Location**: London, UK
+- **Significance**: *Chill Out* (1990) is a landmark conceptual ambient album—a continuous 45-minute piece depicting an imaginary journey through the American South using samples, field recordings, and ambient textures. As The KLF, they achieved massive commercial success while maintaining artistic provocation. Deleted their catalog and burned £1 million in 1994.
+- **Key Works**: *Chill Out* (1990), "3 A.M. Eternal", *The White Room* (1991)
+- **Connections**: Alex Paterson (Cauty co-founded The Orb briefly), Brian Eno (influence)
+- **Notes**: *Chill Out* was recorded as The KLF but released as credited under "The KLF." Conceptually aligned with Eno's ambient philosophy—environmental music for imaginary spaces.
+
+---
+
 ## Research Gaps
 
-1. **Ondes Martenot performers**: Could include Jeanne Loriod and other notable players
-2. **Can members**: Holger Czukay, Jaki Liebezeit—influential but more rock-oriented
+1. ~~**Ondes Martenot performers**: Could include Jeanne Loriod and other notable players~~ ✅ Added Jeanne Loriod
+2. ~~**Can members**: Holger Czukay, Jaki Liebezeit—influential but more rock-oriented~~ ✅ Added Holger Czukay
 3. **Frédéric Chopin/Debussy**: Earlier precursors to textural, atmospheric piano music
-4. **Post-1995 figures**: The Orb, Aphex Twin, Stars of the Lid cut off by temporal boundary
+4. ~~**Post-1995 figures**: The Orb, Aphex Twin, Stars of the Lid cut off by temporal boundary~~ ✅ Added Second Generation (1990-1995): Aphex Twin, The Orb, The KLF
 5. **German cosmic couriers**: Could expand to include more Ohr/Kosmische Musik label artists
 6. **West African/Global precursors**: Traditional music influences on minimalism
 7. **Visual artists**: Connections to video/installation art (Bill Viola, etc.)
 8. **Journalists/critics**: Those who shaped understanding (David Toop, etc.)
+9. ~~**West Coast experimental scene**: Morton Subotnick as missing link~~ ✅ Added Morton Subotnick
+10. ~~**Japanese kankyō ongaku expansion**: Midori Takada, Satoshi Ashikawa~~ ✅ Added both
 
 ---
 

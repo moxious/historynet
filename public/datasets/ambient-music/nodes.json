@@ -1888,7 +1888,219 @@
     "shortDescription": "Collective supporting experimental electronic music",
     "dateStart": "1962",
     "dateEnd": "1966",
-    "foundedBy": ["person-pauline-oliveros"],
+    "foundedBy": ["person-pauline-oliveros", "person-morton-subotnick"],
     "headquarters": "loc-san-francisco"
+  },
+  {
+    "id": "person-morton-subotnick",
+    "type": "person",
+    "title": "Morton Subotnick",
+    "shortDescription": "Commissioned first Buchla synthesizer, pioneered electronic composition",
+    "dateStart": "1933",
+    "dateEnd": "",
+    "biography": "American composer and educator who co-founded the San Francisco Tape Music Center (1962) with Pauline Oliveros and Ramon Sender. Commissioned Don Buchla to build the first Buchla synthesizer for the center. Silver Apples of the Moon (1967) was the first electronic work commissioned by a record label (Nonesuch). Pioneer of live electronic music performance.",
+    "occupations": ["Composer", "Educator"],
+    "birthPlace": "Los Angeles, California, USA",
+    "nationality": "American"
+  },
+  {
+    "id": "person-jeanne-loriod",
+    "type": "person",
+    "title": "Jeanne Loriod",
+    "shortDescription": "Preeminent ondes Martenot performer and educator",
+    "dateStart": "1928",
+    "dateEnd": "2001",
+    "biography": "French musician and preeminent ondes Martenot performer. Studied with Maurice Martenot and became the instrument's greatest advocate. Sister-in-law of Olivier Messiaen, she premiered hundreds of works for the instrument including Messiaen's Turangalîla-Symphonie and Trois petites liturgies. Taught at the Paris Conservatoire for 45 years, training most professional ondists.",
+    "occupations": ["Performer", "Educator"],
+    "birthPlace": "Houilles, France",
+    "nationality": "French"
+  },
+  {
+    "id": "person-holger-czukay",
+    "type": "person",
+    "title": "Holger Czukay",
+    "shortDescription": "Can co-founder, Stockhausen student, sampling pioneer",
+    "dateStart": "1938",
+    "dateEnd": "2017",
+    "biography": "German musician, composer, and producer. Co-founder of Can, one of the most influential Krautrock bands. Studied with Karlheinz Stockhausen (1963-1966), bringing avant-garde techniques to rock contexts. Solo work pioneered sampling and world music fusion—Canaxis 5 (1969) is a crucial early bridge to ambient and world music. His 'radio wave surfing' technique anticipated sampling.",
+    "occupations": ["Musician", "Composer", "Producer"],
+    "birthPlace": "Danzig, Germany (now Gdańsk, Poland)",
+    "nationality": "German"
+  },
+  {
+    "id": "person-midori-takada",
+    "type": "person",
+    "title": "Midori Takada",
+    "shortDescription": "Percussionist whose Through the Looking Glass is ambient-percussion classic",
+    "dateStart": "1951",
+    "dateEnd": "",
+    "biography": "Japanese percussionist and composer whose album Through the Looking Glass (1983) is a foundational ambient-percussion work. Combines minimalist repetition with world percussion influences. Album was rediscovered and reissued in 2017, bringing her work to international attention decades after release.",
+    "occupations": ["Percussionist", "Composer"],
+    "birthPlace": "Tokyo, Japan",
+    "nationality": "Japanese"
+  },
+  {
+    "id": "person-satoshi-ashikawa",
+    "type": "person",
+    "title": "Satoshi Ashikawa",
+    "shortDescription": "Founder of Sound Process label, theorist of Japanese environmental music",
+    "dateStart": "1953",
+    "dateEnd": "1983",
+    "biography": "Japanese composer, label founder, and theorist. Central theorist and practitioner of kankyō ongaku (Japanese environmental music). Founded the Sound Process label, the primary imprint for Japanese ambient music. His album Still Way (Wave Notation 2) (1982) exemplifies the movement's aesthetic. Wrote theoretical texts defining environmental music for Japanese contexts. Died young at age 30.",
+    "occupations": ["Composer", "Label founder", "Theorist"],
+    "birthPlace": "Japan",
+    "nationality": "Japanese"
+  },
+  {
+    "id": "person-richard-d-james",
+    "type": "person",
+    "title": "Richard D. James (Aphex Twin)",
+    "alternateNames": ["Aphex Twin", "AFX", "Polygon Window"],
+    "shortDescription": "Key figure in crystallizing ambient as a genre in the 1990s",
+    "dateStart": "1971",
+    "dateEnd": "",
+    "biography": "British musician and producer, key figure in crystallizing ambient as a recognized genre in the early 1990s. Selected Ambient Works 85-92 (1992) combined warm analog textures with subtle rhythms, while Selected Ambient Works Volume II (1994) explored darker, more abstract ambient territories. Pioneered the 'intelligent dance music' (IDM) concept alongside ambient techno.",
+    "occupations": ["Musician", "Producer"],
+    "birthPlace": "Limerick, Ireland (raised in Cornwall, UK)",
+    "nationality": "British"
+  },
+  {
+    "id": "person-alex-paterson",
+    "type": "person",
+    "title": "Alex Paterson (The Orb)",
+    "shortDescription": "Pioneer of ambient house with The Orb",
+    "dateStart": "1959",
+    "dateEnd": "",
+    "biography": "British musician, DJ, and producer. Pioneer of 'ambient house' with The Orb. Adventures Beyond the Ultraworld (1991) was a landmark double album combining ambient textures with dub, samples, and subtle beats. Helped bring ambient to dance music audiences. Worked at EG Records (Eno's label) as A&R before founding The Orb.",
+    "occupations": ["Musician", "DJ", "Producer"],
+    "birthPlace": "Battersea, London, UK",
+    "nationality": "British"
+  },
+  {
+    "id": "person-bill-drummond",
+    "type": "person",
+    "title": "Bill Drummond",
+    "shortDescription": "Co-founder of The KLF, conceptual artist",
+    "dateStart": "1953",
+    "dateEnd": "",
+    "biography": "British musician and artist. Co-founded The KLF with Jimmy Cauty. Chill Out (1990) is a landmark conceptual ambient album depicting an imaginary journey through the American South. As The KLF, achieved massive commercial success while maintaining artistic provocation. Deleted their catalog and famously burned £1 million in 1994.",
+    "occupations": ["Musician", "Artist"],
+    "birthPlace": "South Africa (raised in Scotland)",
+    "nationality": "British"
+  },
+  {
+    "id": "person-jimmy-cauty",
+    "type": "person",
+    "title": "Jimmy Cauty",
+    "shortDescription": "Co-founder of The KLF and briefly The Orb",
+    "dateStart": "1956",
+    "dateEnd": "",
+    "biography": "British musician and artist. Co-founded The KLF with Bill Drummond and briefly co-founded The Orb with Alex Paterson. Chill Out (1990) is a landmark conceptual ambient album. Multi-talented figure bridging ambient, dance music, and conceptual art.",
+    "occupations": ["Musician", "Artist"],
+    "birthPlace": "Devonport, Devon, UK",
+    "nationality": "British"
+  },
+  {
+    "id": "object-subotnick-silver-apples",
+    "type": "object",
+    "title": "Silver Apples of the Moon",
+    "objectType": "album",
+    "shortDescription": "First electronic work commissioned by a record label",
+    "dateStart": "1967",
+    "creators": ["person-morton-subotnick"]
+  },
+  {
+    "id": "object-czukay-canaxis",
+    "type": "object",
+    "title": "Canaxis 5",
+    "objectType": "album",
+    "shortDescription": "Pioneering work combining tape manipulation and ethnographic recordings",
+    "dateStart": "1969",
+    "creators": ["person-holger-czukay"]
+  },
+  {
+    "id": "object-takada-looking-glass",
+    "type": "object",
+    "title": "Through the Looking Glass",
+    "objectType": "album",
+    "shortDescription": "Foundational ambient-percussion work",
+    "dateStart": "1983",
+    "creators": ["person-midori-takada"]
+  },
+  {
+    "id": "object-ashikawa-still-way",
+    "type": "object",
+    "title": "Still Way (Wave Notation 2)",
+    "objectType": "album",
+    "shortDescription": "Defining work of Japanese kankyō ongaku aesthetic",
+    "dateStart": "1982",
+    "creators": ["person-satoshi-ashikawa"]
+  },
+  {
+    "id": "object-aphex-saw-85-92",
+    "type": "object",
+    "title": "Selected Ambient Works 85-92",
+    "objectType": "album",
+    "shortDescription": "Landmark album crystallizing ambient as a 1990s genre",
+    "dateStart": "1992",
+    "creators": ["person-richard-d-james"]
+  },
+  {
+    "id": "object-aphex-saw-ii",
+    "type": "object",
+    "title": "Selected Ambient Works Volume II",
+    "objectType": "album",
+    "shortDescription": "Darker, more abstract ambient masterwork",
+    "dateStart": "1994",
+    "creators": ["person-richard-d-james"]
+  },
+  {
+    "id": "object-orb-ultraworld",
+    "type": "object",
+    "title": "The Orb's Adventures Beyond the Ultraworld",
+    "objectType": "album",
+    "shortDescription": "Landmark double album pioneering ambient house",
+    "dateStart": "1991",
+    "creators": ["person-alex-paterson"]
+  },
+  {
+    "id": "object-klf-chill-out",
+    "type": "object",
+    "title": "Chill Out",
+    "objectType": "album",
+    "shortDescription": "Landmark conceptual ambient album",
+    "dateStart": "1990",
+    "creators": ["person-bill-drummond", "person-jimmy-cauty"]
+  },
+  {
+    "id": "entity-the-orb",
+    "type": "entity",
+    "title": "The Orb",
+    "entityType": "band",
+    "shortDescription": "Pioneers of ambient house",
+    "dateStart": "1988",
+    "foundedBy": ["person-alex-paterson", "person-jimmy-cauty"],
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-klf",
+    "type": "entity",
+    "title": "The KLF",
+    "entityType": "band",
+    "shortDescription": "Conceptual ambient and dance music duo",
+    "dateStart": "1987",
+    "dateEnd": "1992",
+    "foundedBy": ["person-bill-drummond", "person-jimmy-cauty"],
+    "headquarters": "loc-london"
+  },
+  {
+    "id": "entity-sound-process",
+    "type": "entity",
+    "title": "Sound Process",
+    "entityType": "label",
+    "shortDescription": "Primary label for Japanese kankyō ongaku",
+    "dateStart": "1982",
+    "foundedBy": ["person-satoshi-ashikawa"],
+    "headquarters": "loc-tokyo"
   }
 ]

@@ -1137,5 +1137,231 @@
     "relationship": "founded",
     "evidence": "Lee Scratch Perry was a co-pioneer of dub music.",
     "strength": "strong"
+  },
+  {
+    "id": "edge-martenot-loriod-taught",
+    "source": "person-maurice-martenot",
+    "target": "person-jeanne-loriod",
+    "relationship": "taught",
+    "evidence": "Loriod studied with Martenot and became the foremost performer of the ondes Martenot. She taught at the Paris Conservatoire for 45 years.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-subotnick-oliveros-cofounded",
+    "source": "person-morton-subotnick",
+    "target": "person-pauline-oliveros",
+    "relationship": "co_founded",
+    "dateStart": "1962",
+    "evidence": "Subotnick and Oliveros (along with Ramon Sender) co-founded the San Francisco Tape Music Center in 1962.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-subotnick-buchla-collaborated",
+    "source": "person-morton-subotnick",
+    "target": "person-don-buchla",
+    "relationship": "collaborated_with",
+    "dateStart": "1963",
+    "dateEnd": "1966",
+    "evidence": "Subotnick commissioned Buchla to build the first Buchla synthesizer for the San Francisco Tape Music Center. They developed the instrument together.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-subotnick-member-sftmc",
+    "source": "person-morton-subotnick",
+    "target": "entity-sftmc-org",
+    "relationship": "founded",
+    "dateStart": "1962",
+    "evidence": "Subotnick co-founded the San Francisco Tape Music Center.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-czukay-taught",
+    "source": "person-karlheinz-stockhausen",
+    "target": "person-holger-czukay",
+    "relationship": "taught",
+    "dateStart": "1963",
+    "dateEnd": "1966",
+    "evidence": "Czukay studied with Stockhausen at the Cologne Courses for New Music, absorbing avant-garde techniques that influenced Can's experimental approach.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-czukay-eno-influenced",
+    "source": "person-holger-czukay",
+    "target": "person-brian-eno",
+    "relationship": "influenced",
+    "evidence": "Czukay's tape manipulation, sampling techniques, and world music fusion on Canaxis 5 (1969) anticipated and influenced ambient production methods.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-czukay-member-can",
+    "source": "person-holger-czukay",
+    "target": "entity-can",
+    "relationship": "member_of",
+    "dateStart": "1968",
+    "dateEnd": "1977",
+    "evidence": "Czukay was co-founder and bassist of Can.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashikawa-yoshimura-collaborated",
+    "source": "person-satoshi-ashikawa",
+    "target": "person-hiroshi-yoshimura",
+    "relationship": "collaborated_with",
+    "evidence": "Ashikawa's Sound Process label released Yoshimura's Music for Nine Post Cards (1982). They were central figures in the kankyō ongaku movement.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashikawa-takada-knows",
+    "source": "person-satoshi-ashikawa",
+    "target": "person-midori-takada",
+    "relationship": "knows",
+    "evidence": "Both were part of the early 1980s Japanese ambient/environmental music scene and contemporaries.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-takada-yoshimura-knows",
+    "source": "person-midori-takada",
+    "target": "person-hiroshi-yoshimura",
+    "relationship": "knows",
+    "evidence": "Contemporaries in the Japanese environmental music scene of the early 1980s.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hosono-ashikawa-knows",
+    "source": "person-haruomi-hosono",
+    "target": "person-satoshi-ashikawa",
+    "relationship": "knows",
+    "evidence": "Both part of the Japanese kankyō ongaku movement. Hosono's work for Muji paralleled the Sound Process aesthetic.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-eno-ashikawa-influenced",
+    "source": "person-brian-eno",
+    "target": "person-satoshi-ashikawa",
+    "relationship": "influenced",
+    "evidence": "Ashikawa's environmental music concept was directly influenced by Eno's ambient philosophy, adapted for Japanese contexts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-takada-influenced",
+    "source": "person-brian-eno",
+    "target": "person-midori-takada",
+    "relationship": "influenced",
+    "evidence": "Takada's Through the Looking Glass reflects ambient aesthetics of repetition and environmental sound, influenced by Western minimalism and ambient.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-eno-james-influenced",
+    "source": "person-brian-eno",
+    "target": "person-richard-d-james",
+    "relationship": "influenced",
+    "evidence": "Aphex Twin's Selected Ambient Works series directly continues and develops Eno's ambient tradition.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-paterson-influenced",
+    "source": "person-brian-eno",
+    "target": "person-alex-paterson",
+    "relationship": "influenced",
+    "evidence": "The Orb's ambient house directly builds on Eno's ambient concepts. Paterson worked at EG Records (Eno's label) as A&R, giving him direct exposure to Eno's work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-drummond-influenced",
+    "source": "person-brian-eno",
+    "target": "person-bill-drummond",
+    "relationship": "influenced",
+    "evidence": "Chill Out directly applies Eno's ambient philosophy—music for imaginary environments—to a conceptual road trip album.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-cauty-influenced",
+    "source": "person-brian-eno",
+    "target": "person-jimmy-cauty",
+    "relationship": "influenced",
+    "evidence": "Chill Out directly applies Eno's ambient philosophy to conceptual album format.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-perry-paterson-collaborated",
+    "source": "person-lee-scratch-perry",
+    "target": "person-alex-paterson",
+    "relationship": "collaborated_with",
+    "dateStart": "1995",
+    "evidence": "Perry collaborated with The Orb on Orbus Terrarum (1995), bringing dub production into ambient house.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cauty-paterson-cofounded",
+    "source": "person-jimmy-cauty",
+    "target": "person-alex-paterson",
+    "relationship": "co_founded",
+    "dateStart": "1988",
+    "dateEnd": "1990",
+    "evidence": "Cauty and Paterson co-founded The Orb in 1988, collaborating on early tracks. Cauty left to focus on The KLF.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-drummond-cauty-cofounded",
+    "source": "person-bill-drummond",
+    "target": "person-jimmy-cauty",
+    "relationship": "co_founded",
+    "dateStart": "1987",
+    "evidence": "Drummond and Cauty founded The KLF (as The Justified Ancients of Mu Mu).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-james-paterson-knows",
+    "source": "person-richard-d-james",
+    "target": "person-alex-paterson",
+    "relationship": "knows",
+    "evidence": "Both were key figures in the early 1990s UK electronic/ambient scene, part of same musical milieu.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-paterson-member-orb",
+    "source": "person-alex-paterson",
+    "target": "entity-the-orb",
+    "relationship": "founded",
+    "dateStart": "1988",
+    "evidence": "Paterson founded The Orb with Jimmy Cauty.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cauty-member-orb",
+    "source": "person-jimmy-cauty",
+    "target": "entity-the-orb",
+    "relationship": "founded",
+    "dateStart": "1988",
+    "dateEnd": "1990",
+    "evidence": "Cauty co-founded The Orb before leaving to focus on The KLF.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-drummond-member-klf",
+    "source": "person-bill-drummond",
+    "target": "entity-klf",
+    "relationship": "founded",
+    "dateStart": "1987",
+    "evidence": "Drummond co-founded The KLF.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cauty-member-klf",
+    "source": "person-jimmy-cauty",
+    "target": "entity-klf",
+    "relationship": "founded",
+    "dateStart": "1987",
+    "evidence": "Cauty co-founded The KLF.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashikawa-founded-soundprocess",
+    "source": "person-satoshi-ashikawa",
+    "target": "entity-sound-process",
+    "relationship": "founded",
+    "dateStart": "1982",
+    "evidence": "Ashikawa founded the Sound Process label, the primary imprint for Japanese kankyō ongaku.",
+    "strength": "strong"
   }
 ]

@@ -272,6 +272,76 @@ Before generating JSON files:
 
 ---
 
+---
+
+## Phase R: Re-review and Amendment Log
+
+### Amendment Session: 2026-01-18
+
+**Feedback Source**: User review  
+**Amendment Type**: Network expansion based on specific feedback
+
+#### Feedback Received
+
+1. **Expand the "Second Generation" (1990–1995)**
+   - The temporal boundary ends at 1995 but key figures from the early '90s ambient revival are missing
+   - Requested additions:
+     - **Aphex Twin** (Richard D. James): Selected Ambient Works 85-92 (1992) and Volume II (1994)
+     - **The Orb**: Adventures Beyond the Ultraworld (1991)
+     - **The KLF**: Chill Out (1990)
+
+2. **Fill Connectivity Gaps (Orphan Prevention)**
+   - **Maurice Martenot**: Lacks person-to-person links
+     - Requested addition: **Jeanne Loriod** (most famous Martenot virtuoso)
+   - **Morton Subotnick**: Missing West Coast link
+     - Commissioned first Buchla synthesizer, co-founded SFTMC with Pauline Oliveros
+   - **Holger Czukay**: Stockhausen student, Can member
+     - Solo work (Canaxis 5, 1969) bridges ambient and world music fusion
+
+3. **Deepen the Japanese Subgraph**
+   - Kankyō ongaku movement is sparse
+   - Requested additions:
+     - **Midori Takada**: Through the Looking Glass (1983)
+     - **Satoshi Ashikawa**: Sound Process label founder, Still Way (1982), primary theorist of Japanese environmental music
+
+#### Disposition of Feedback
+
+| Request | Substantiated? | Action | Notes |
+|---------|---------------|--------|-------|
+| Aphex Twin | ✅ Yes | Added | SAW 85-92 and Volume II are seminal ambient works |
+| The Orb | ✅ Yes | Added | Alex Paterson; Adventures Beyond the Ultraworld pioneered ambient house |
+| The KLF | ✅ Yes | Added | Bill Drummond & Jimmy Cauty; Chill Out is landmark conceptual ambient |
+| Jeanne Loriod | ✅ Yes | Added | Sister-in-law of Messiaen, definitive ondes Martenot performer |
+| Morton Subotnick | ✅ Yes | Added | Critical West Coast figure, Silver Apples of the Moon |
+| Holger Czukay | ✅ Yes | Added | Stockhausen student, Can co-founder, Canaxis 5 |
+| Midori Takada | ✅ Yes | Added | Through the Looking Glass rediscovered as ambient classic |
+| Satoshi Ashikawa | ✅ Yes | Added | Sound Process label founder, Still Way, kankyō ongaku theorist |
+
+#### Rationale for Changes
+
+All requested additions are well-substantiated:
+
+1. **Second Generation justification**: The original temporal scope (pre-1995) was designed to capture ambient's formation, but the early 1990s "ambient revival" is critical to understanding how ambient became a recognized genre. These artists crystallized ambient into a commercial and critical phenomenon.
+
+2. **Maurice Martenot connectivity**: Jeanne Loriod (1928-2001) was the preeminent ondes Martenot performer, premiered hundreds of works for the instrument, and taught at the Paris Conservatoire. She provides the missing person-to-person link for Martenot.
+
+3. **Morton Subotnick connectivity**: Adding Subotnick fills a significant gap in the West Coast experimental scene. His commissioning of the first Buchla and co-founding of SFTMC are well-documented. Silver Apples of the Moon (1967) was the first electronic work commissioned by a record label.
+
+4. **Holger Czukay**: His connection to Stockhausen (studied 1963-1966) and role in Can are thoroughly documented. Canaxis 5 (1969) pioneered sampling and world music fusion techniques later adopted by ambient artists.
+
+5. **Japanese expansion**: Midori Takada and Satoshi Ashikawa are central to the kankyō ongaku movement. Ashikawa founded the Sound Process label and wrote theoretical texts on environmental music. Both have seen recent Western rediscovery through Light in the Attic reissues.
+
+#### Statistics After Amendment
+
+| Metric | Before | After | Change |
+|--------|--------|-------|--------|
+| People enumerated | 57 | 65 | +8 |
+| Relationships | ~140 | ~165 | +25 |
+| Objects | 72 | 80 | +8 |
+| Entities | 35 | 38 | +3 |
+
+---
+
 ## Summary
 
 **Overall Status**: Ready for conversion with minor adjustments
