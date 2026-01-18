@@ -14,8 +14,10 @@ This document outlines the milestone structure and future direction for HistoryN
 | M8 | Timeline View | ✅ Complete |
 | M9 | Application Verification | ✅ Complete |
 | M10 | UX Improvements | ✅ Complete |
-| M11 | Advanced Visualization | 🔲 Future |
+| M11 | Graph Interaction Polish | 🔲 Planned |
 | M12 | User Feedback | 🔲 Future |
+| M13 | Scenius Rebrand & Theme System | 🔲 Future |
+| M14 | Timeline Improvements | 🔲 Future |
 
 ---
 
@@ -75,15 +77,33 @@ See `HISTORY.md` for detailed implementation history.
 
 ---
 
-## Future: M11 - Advanced Visualization
+## Current: M11 - Graph Interaction Polish
 
-**Goal**: Enhanced visualization capabilities for large graphs.
+**Goal**: Refine graph component behavior and discoverability based on user testing feedback. Focus on interaction predictability, physics tuning, and UX clarity.
 
-**Potential Deliverables**:
-- Node clustering for graphs with 500+ nodes
-- Minimap navigation
-- Additional layout modes (hierarchical, radial)
-- WebGL rendering option for performance
+**Context**: User feedback identified several undesirable behaviors in the graph visualization that hurt the exploration experience.
+
+**Deliverables**:
+
+### Node Click Behavior
+- Prevent graph from re-laying out when clicking nodes
+- Node click should only open/update the infobox, preserving current node positions
+- Graph re-centering/re-springing on every click is disorienting during exploration
+
+### Physics Tuning
+- Reduce force simulation gravity so disconnected nodes stay closer to the main graph
+- Currently, orphan/weakly-connected nodes get flung far outside the viewport
+- Goal: Keep the full graph viewable without excessive panning
+
+### Interaction Discoverability
+- Add visual indicator near the Graph/Timeline view picker showing zoom/pan is available
+- Users may not realize the graph is interactive beyond clicking nodes
+- Subtle hint (icon + text like "Scroll to zoom, drag to pan")
+
+### Infobox Simplification
+- Remove the "ID" field from node/edge detail views in the sidebar
+- IDs are auto-generated slugs (e.g., `person-aristotle`) not meaningful to users
+- Keep ID in data model but hide from UI display
 
 ---
 
@@ -143,6 +163,104 @@ interface FeedbackSubmission {
 
 ---
 
+## Future: M13 - Scenius Rebrand & Theme System
+
+**Goal**: Rebrand the application from "HistoryNet" to "Scenius" and introduce a light/dark theme system with URL persistence for shareability.
+
+**Concept**: The name "Scenius" comes from Brian Eno's concept describing the collective intelligence of creative communities. Unlike the myth of the "lone genius," scenius recognizes that great creative work emerges from fertile scenes—groups of people encouraging, competing with, and reacting to each other. This perfectly captures what the application visualizes: the networks of influence, collaboration, and connection between historical figures.
+
+**Key Principles** (from the scenius concept):
+- Mutual appreciation among peers drives creative risk-taking
+- Rapid exchange of ideas within a shared language
+- Success of one empowers the entire community
+- Local tolerance for experimentation and transgression
+
+**Deliverables**:
+
+### Application Rebrand
+- Update application title from "HistoryNet" to "Scenius"
+- Update Header component with new branding
+- Create new favicon (derived from brain/lightbulb emoji concept, symbolizing collective intelligence)
+- Update HTML meta tags (title, description, og:title, etc.)
+- Update README.md with new name and branding explanation
+- Update all documentation references (AGENTS.md, PRD.md, etc.)
+- Consider tagline: "Visualizing creative communities" or "Mapping collective genius"
+
+### Theme System Architecture
+- Create `ThemeContext` for managing light/dark mode state
+- Define CSS custom properties (variables) for all theme-aware colors
+- Implement `useTheme` hook for components to access theme state
+- Add `theme` parameter to URL scheme (`?theme=light` or `?theme=dark`)
+- Ensure theme state syncs with URL like other app state (dataset, filters, selection)
+- Light mode as default; dark mode as alternate
+
+### Theme Switcher UI
+- Create `ThemeToggle` component for Header/top bar
+- Design toggle with sun/moon icons or similar visual metaphor
+- Position alongside existing controls (dataset selector, view picker)
+- Ensure accessible keyboard navigation and ARIA labels
+
+### CSS Theme Implementation
+- Define light mode color palette (warm, inviting, intellectual)
+- Define dark mode color palette (contrasting, easy on eyes)
+- Update all component CSS to use theme variables
+- Ensure graph visualization colors work in both themes
+- Ensure timeline visualization colors work in both themes
+- Test readability and contrast in both modes (WCAG guidelines)
+
+### Favicon Design
+- Design favicon inspired by brain or lightbulb emoji
+- Concept: interconnected minds / collective illumination
+- Create multiple sizes for various contexts (16x16, 32x32, 192x192, etc.)
+- Support both light and dark favicon variants if needed
+
+---
+
+## Future: M14 - Timeline Improvements
+
+**Goal**: Address usability issues with the timeline visualization component based on user testing feedback. Focus on positioning, readability, initial zoom, temporal gaps, legend consistency, and infobox behavior parity with the graph view.
+
+**Context**: User testing revealed several friction points in the timeline view that make it less useful than the graph view for exploration.
+
+**Deliverables**:
+
+### Layout & Positioning
+- Fix timeline hard-aligned left positioning that causes overlap with filter panel
+- Ensure timeline content is fully visible when filter panel is open/collapsed
+- Timeline should respect the same layout constraints as the graph view
+
+### Year Label Readability
+- Increase size of year labels on the timeline axis
+- Labels should be readable at the default zoom level without requiring zoom-in
+- Consider font weight and contrast for improved legibility
+
+### Initial Zoom & Focus
+- Adjust default zoom level so nodes are clearly visible on load
+- Prioritize visibility of the first chronological item in the timeline
+- User should see meaningful content immediately without needing to zoom/pan
+
+### Timeline Gap Handling (Investigation Required)
+- Research alternative vertical timeline libraries/frameworks for comparison
+- If continuing with D3: investigate implementing timeline "cutouts" or discontinuities
+- Goal: collapse large empty periods (50-100+ years) to reduce whitespace
+- Visual indicator when timeline has been compressed (e.g., "// 75 years //")
+- Preserve accurate date positioning while improving information density
+
+### Legend Consistency with Graph View
+- Replace current birth/death/lifespan legend with node-type legend
+- Timeline legend should match graph legend exactly (same colors, same shapes, same types)
+- Node colors in timeline must use the same color scheme as graph nodes (`graphColors.ts`)
+- Birth/death/lifespan information belongs in the infobox detail panel, not the legend
+
+### Infobox Behavior Parity
+- Audit timeline's integration with InfoboxPanel
+- Ensure timeline uses the exact same InfoboxPanel component as graph view
+- When no item is selected on timeline, infobox should be hidden (not show placeholder text)
+- Verify node click behavior opens infobox correctly
+- Ensure Escape key and X button hide infobox in timeline view
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -165,12 +283,21 @@ These are potential features that may become milestones:
 M1-M8 (Complete)
     │
     ▼
-   M9 (Verification) ──► M10, M11 (can parallelize)
-                              │
-                              ▼
-                         M12 (User Feedback)
-                         [requires Vercel migration]
+   M9 (Verification) ✅
+    │
+    ▼
+   M10 (UX Improvements) ✅
+    │
+    ▼
+   M11 (Graph Interaction Polish) ◄── CURRENT
+    │
+    ├────────────────────────────┬────────────────────────────┐
+    ▼                            ▼                            ▼
+   M12 (User Feedback)         M13 (Scenius Rebrand)        M14 (Timeline Improvements)
+   [requires Vercel migration]  [independent]               [independent]
 ```
+
+Note: M12, M13, and M14 can be worked on in parallel as they have no dependencies on each other.
 
 ---
 
