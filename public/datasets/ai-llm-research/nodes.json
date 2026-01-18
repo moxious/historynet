@@ -1195,6 +1195,24 @@
     "subject": "machine learning education"
   },
   {
+    "id": "location-new-york",
+    "type": "location",
+    "title": "New York City, New York",
+    "locationType": "city",
+    "shortDescription": "Major AI hub; home to NYU, Hugging Face headquarters",
+    "country": "United States",
+    "coordinates": {"lat": 40.7128, "lng": -74.0060}
+  },
+  {
+    "id": "location-nyu",
+    "type": "location",
+    "title": "New York University",
+    "locationType": "university",
+    "shortDescription": "Yann LeCun's academic home; major deep learning research center",
+    "country": "United States",
+    "parentLocation": "location-new-york"
+  },
+  {
     "id": "location-san-francisco",
     "type": "location",
     "title": "San Francisco, California",

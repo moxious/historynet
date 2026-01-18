@@ -1208,7 +1208,7 @@
   {
     "id": "edge-lecun-workedat-nyu",
     "source": "person-yann-lecun",
-    "target": "location-new-york",
+    "target": "location-nyu",
     "relationship": "worked_at",
     "dateStart": "2003",
     "evidence": "LeCun is Silver Professor at NYU while also serving as Chief AI Scientist at Meta.",
