@@ -32,14 +32,14 @@ function MainLayout() {
     setIsFilterCollapsed((prev) => !prev);
   }, []);
 
-  // Handlers for graph interactions
-  const handleNodeClick = (node: GraphNode) => {
+  // Handlers for graph interactions - memoized to prevent graph re-layout (GI1-GI3)
+  const handleNodeClick = useCallback((node: GraphNode) => {
     selectNode(node.id);
-  };
+  }, [selectNode]);
 
-  const handleEdgeClick = (edge: GraphEdge) => {
+  const handleEdgeClick = useCallback((edge: GraphEdge) => {
     selectEdge(edge.id);
-  };
+  }, [selectEdge]);
 
   // Loading state
   if (loadingState === 'loading') {
@@ -126,11 +126,26 @@ function MainLayout() {
             ) : (
               renderLayout()
             )}
-            <LayoutSwitcher
-              currentLayout={currentLayout}
-              onLayoutChange={setCurrentLayout}
-              className="main-layout__layout-switcher"
-            />
+            <div className="main-layout__view-controls">
+              <LayoutSwitcher
+                currentLayout={currentLayout}
+                onLayoutChange={setCurrentLayout}
+                className="main-layout__layout-switcher"
+              />
+              {/* Interaction hint for discoverability (GI12-GI16) */}
+              <div className="main-layout__interaction-hint" aria-label="Interaction hint">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="11" cy="11" r="8" />
+                  <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                <span>Scroll to zoom</span>
+                <span className="main-layout__interaction-hint-separator">•</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <path d="M5 9l-3 3l3 3M9 5l3-3l3 3M15 19l3 3l-3 3M19 9l3 3l-3 3M2 12h20M12 2v20" />
+                </svg>
+                <span>Drag to pan</span>
+              </div>
+            </div>
             <FilterPanel
               filters={filters}
               onFiltersChange={setFilters}

@@ -584,12 +584,7 @@ function NodeInfobox({ node, onNodeLinkClick, getNode }: NodeInfoboxProps) {
             </span>
           </div>
         )}
-
-        {/* ID */}
-        <div className="node-infobox__field">
-          <span className="node-infobox__label">ID</span>
-          <code className="node-infobox__id">{node.id}</code>
-        </div>
+        {/* ID field removed per GI17 - IDs are internal identifiers not meaningful to users */}
       </section>
 
       {/* Type-Specific Fields */}

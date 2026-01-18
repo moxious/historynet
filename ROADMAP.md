@@ -14,10 +14,12 @@ This document outlines the milestone structure and future direction for HistoryN
 | M8 | Timeline View | ✅ Complete |
 | M9 | Application Verification | ✅ Complete |
 | M10 | UX Improvements | ✅ Complete |
-| M11 | Graph Interaction Polish | 🔲 Planned |
+| M11 | Graph Interaction Polish | ✅ Complete |
 | M12 | User Feedback | 🔲 Future |
 | M13 | Scenius Rebrand & Theme System | 🔲 Future |
 | M14 | Timeline Improvements | 🔲 Future |
+
+> **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
 ---
 
@@ -77,33 +79,31 @@ See `HISTORY.md` for detailed implementation history.
 
 ---
 
-## Current: M11 - Graph Interaction Polish
+## Completed: M11 - Graph Interaction Polish
 
 **Goal**: Refine graph component behavior and discoverability based on user testing feedback. Focus on interaction predictability, physics tuning, and UX clarity.
 
-**Context**: User feedback identified several undesirable behaviors in the graph visualization that hurt the exploration experience.
-
 **Deliverables**:
 
-### Node Click Behavior
-- Prevent graph from re-laying out when clicking nodes
-- Node click should only open/update the infobox, preserving current node positions
-- Graph re-centering/re-springing on every click is disorienting during exploration
+### Node Click Behavior ✅
+- Memoized `handleNodeClick` and `handleEdgeClick` callbacks in MainLayout to prevent unnecessary graph re-layouts
+- Node clicks now only update selection state without retriggering force simulation
 
-### Physics Tuning
-- Reduce force simulation gravity so disconnected nodes stay closer to the main graph
-- Currently, orphan/weakly-connected nodes get flung far outside the viewport
-- Goal: Keep the full graph viewable without excessive panning
+### Physics Tuning ✅
+- Reduced charge repulsion from -400 to -250 to prevent nodes from flying apart
+- Added soft gravity forces (forceX/forceY with 0.05 strength) to keep disconnected nodes visible
+- Graph now stays more compact while maintaining readable node separation
 
-### Interaction Discoverability
-- Add visual indicator near the Graph/Timeline view picker showing zoom/pan is available
-- Users may not realize the graph is interactive beyond clicking nodes
-- Subtle hint (icon + text like "Scroll to zoom, drag to pan")
+### Interaction Discoverability ✅
+- Added "Scroll to zoom • Drag to pan" hint below the layout switcher
+- Styled as unobtrusive pill with icons for visual clarity
+- Helps users discover interactive capabilities
 
-### Infobox Simplification
-- Remove the "ID" field from node/edge detail views in the sidebar
-- IDs are auto-generated slugs (e.g., `person-aristotle`) not meaningful to users
-- Keep ID in data model but hide from UI display
+### Infobox Simplification ✅
+- Removed ID field from NodeInfobox and EdgeInfobox components
+- IDs remain in data model for URL state and internal references but are hidden from UI
+
+**See `PROGRESS.md` section M11 for detailed task completion**
 
 ---
 

@@ -396,12 +396,7 @@ function EdgeInfobox({ edge, onNodeLinkClick, getNode }: EdgeInfoboxProps) {
             {edge.directed === false ? 'Bidirectional' : 'Directed'}
           </span>
         </div>
-
-        {/* ID */}
-        <div className="edge-infobox__field">
-          <span className="edge-infobox__field-label">ID</span>
-          <code className="edge-infobox__id">{edge.id}</code>
-        </div>
+        {/* ID field removed per GI18 - IDs are internal identifiers not meaningful to users */}
       </section>
 
       {/* Evidence Section (prominent) */}

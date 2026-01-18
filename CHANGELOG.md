@@ -9,7 +9,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Planned
-- M11: Advanced Visualization - node clustering, minimap, additional layouts
+- M12: User Feedback - feedback form with Vercel serverless functions
+- M13: Scenius Rebrand & Theme System - application rebrand with light/dark themes
+- M14: Timeline Improvements - layout fixes, year label readability, gap handling
+
+---
+
+## [1.4.0] - 2026-01-18
+
+### Added
+- **M11: Graph Interaction Polish** - Refined graph behavior and discoverability
+
+### Improved
+- **Node click stability**: Clicking nodes no longer causes the graph to re-layout (memoized callbacks)
+- **Physics tuning**: Reduced charge repulsion and added soft gravity to keep disconnected nodes visible
+- **Interaction discoverability**: Added "Scroll to zoom • Drag to pan" hint near layout switcher
+
+### Removed
+- **ID fields**: Removed technical ID display from node and edge infoboxes (IDs are internal identifiers not meaningful to users)
 
 ---
 
