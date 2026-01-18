@@ -94,6 +94,14 @@ These figures responded to the manifestos, defended Rosicrucian ideas, or create
 - **Key Works**: *Answer to the Praiseworthy Brotherhood of Theosophers of Rozenkreuz* (1612)
 - **Connections**: Close ties to Benedictus Figulus and Karl Widemann; lived with them
 
+### Daniel Cramer (1568-1637)
+- **Role**: Lutheran theologian, emblem book author
+- **Location**: Reetz (birth); Marburg (professor); Stettin (archdeacon)
+- **Significance**: Author of one of the earliest Rosicrucian emblem books (1617)
+- **Key Works**: *Societas Jesu et Rosae Crucis Vera* (1617), *Emblemata sacra* (1624), *Octaginta emblemata moralia nova* (1630)
+- **Connections**: Professor at University of Marburg; published by Lucas Jennis (same publisher network as Maier)
+- **Notes**: His emblem book features 40 emblems depicting the mystical heart in various spiritual states, symbolizing the journey of spiritual transformation
+
 ---
 
 ## German Mystical Tradition (Predecessors and Parallels)
@@ -346,14 +354,14 @@ These political figures were associated with hopes for a Protestant reformation 
 |----------|-------|
 | Core Figures | 2 |
 | Tübingen Circle | 6 |
-| German Rosicrucian Respondents | 3 |
+| German Rosicrucian Respondents | 4 |
 | German Mystical Tradition | 4 |
 | Paracelsian Network | 10 |
 | Manuscript Collectors | 3 |
 | Prague Court Circle | 6 |
 | English Rosicrucians | 5 |
 | Political Patrons | 4 |
-| **Total Individuals** | **43** |
+| **Total Individuals** | **44** |
 
 ---
 
