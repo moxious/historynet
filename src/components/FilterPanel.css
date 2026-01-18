@@ -50,6 +50,20 @@
   flex-shrink: 0;
 }
 
+.filter-panel__chevron {
+  flex-shrink: 0;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.filter-panel__chevron--collapsed {
+  transform: rotate(-90deg);
+}
+
+.filter-panel--collapsed .filter-panel__chevron {
+  margin-left: 0;
+}
+
 .filter-panel__active-badge {
   width: 8px;
   height: 8px;
@@ -81,13 +95,30 @@
 }
 
 .filter-panel__section-label {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
   font-size: var(--font-size-xs);
   font-weight: 600;
   color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: var(--spacing-xs);
+}
+
+.filter-panel__label-icon {
+  display: flex;
+  align-items: center;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+}
+
+.filter-panel__hint {
+  display: block;
+  font-size: 10px;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+  opacity: 0.8;
 }
 
 /* Input groups */

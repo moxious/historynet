@@ -70,24 +70,9 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
     selectNode(nodeId);
   };
 
-  // If nothing selected, show placeholder
+  // If nothing selected, hide the panel completely
   if (!selectedItem) {
-    return (
-      <aside className={`infobox-panel infobox-panel--empty ${className}`} aria-label="Details panel">
-        <div className="infobox-panel__placeholder">
-          <div className="infobox-panel__placeholder-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" strokeWidth="1.5">
-              <circle cx="12" cy="12" r="10" />
-              <path d="M12 16v-4m0-4h.01" />
-            </svg>
-          </div>
-          <p className="infobox-panel__placeholder-title">Select an item</p>
-          <p className="infobox-panel__placeholder-hint">
-            Click on a node or edge in the graph to see details
-          </p>
-        </div>
-      </aside>
-    );
+    return null;
   }
 
   // Get the title for the panel header

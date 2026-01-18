@@ -1,15 +1,22 @@
 /**
- * SearchBox - Search input component for filtering/highlighting nodes
+ * SearchBox - Search input component for highlighting nodes
  *
  * Features:
  * - Search-as-you-type with debounced input
  * - Clear button when text is present
  * - Keyboard shortcut support (Cmd/Ctrl+K to focus)
  * - Accessible with proper ARIA labels
+ *
+ * Note: This highlights matching nodes without hiding others.
+ * Use the Filter panel to hide non-matching nodes.
  */
 
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { useDebounce } from '@hooks';
 import './SearchBox.css';
+
+/** Debounce delay in milliseconds */
+const DEBOUNCE_DELAY = 300;
 
 interface SearchBoxProps {
   /** Current search value */
@@ -27,12 +34,30 @@ interface SearchBoxProps {
 function SearchBox({
   value,
   onChange,
-  placeholder = 'Search nodes...',
+  placeholder = 'Highlight nodes...',
   className = '',
   resultCount,
 }: SearchBoxProps) {
   const inputRef = useRef<HTMLInputElement>(null);
   const [isFocused, setIsFocused] = useState(false);
+
+  // Local state for immediate input updates
+  const [localValue, setLocalValue] = useState(value);
+  const debouncedValue = useDebounce(localValue, DEBOUNCE_DELAY);
+
+  // Apply debounced value to parent
+  useEffect(() => {
+    if (debouncedValue !== value) {
+      onChange(debouncedValue);
+    }
+  }, [debouncedValue, value, onChange]);
+
+  // Sync local state when parent value changes (e.g., clear)
+  useEffect(() => {
+    if (value !== localValue && value === '') {
+      setLocalValue('');
+    }
+  }, [value, localValue]);
 
   // Handle keyboard shortcut (Cmd/Ctrl+K)
   useEffect(() => {
@@ -47,7 +72,8 @@ function SearchBox({
       // Escape to blur and clear
       if (e.key === 'Escape' && document.activeElement === inputRef.current) {
         inputRef.current?.blur();
-        if (value) {
+        if (localValue) {
+          setLocalValue('');
           onChange('');
         }
       }
@@ -55,16 +81,14 @@ function SearchBox({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [value, onChange]);
+  }, [localValue, onChange]);
 
-  const handleChange = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      onChange(e.target.value);
-    },
-    [onChange]
-  );
+  const handleChange = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
+    setLocalValue(e.target.value);
+  }, []);
 
   const handleClear = useCallback(() => {
+    setLocalValue('');
     onChange('');
     inputRef.current?.focus();
   }, [onChange]);
@@ -74,7 +98,10 @@ function SearchBox({
   const shortcutHint = isMac ? '⌘K' : 'Ctrl+K';
 
   return (
-    <div className={`search-box ${isFocused ? 'search-box--focused' : ''} ${className}`}>
+    <div
+      className={`search-box ${isFocused ? 'search-box--focused' : ''} ${className}`}
+      title="Highlights matching nodes without hiding others"
+    >
       <div className="search-box__icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
           <circle cx="11" cy="11" r="8" />
@@ -82,20 +109,28 @@ function SearchBox({
         </svg>
       </div>
 
+      {/* Highlight indicator */}
+      <span className="search-box__highlight-indicator" aria-hidden="true" title="Highlight mode">
+        <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+          <circle cx="12" cy="12" r="5" />
+        </svg>
+      </span>
+
       <input
         ref={inputRef}
         type="text"
         className="search-box__input"
-        value={value}
+        value={localValue}
         onChange={handleChange}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         placeholder={placeholder}
-        aria-label="Search nodes in graph"
+        aria-label="Highlight nodes in graph"
         aria-describedby="search-hint"
+        title="Highlights matching nodes without hiding others"
       />
 
-      {value ? (
+      {localValue ? (
         <button
           className="search-box__clear"
           onClick={handleClear}
@@ -114,14 +149,14 @@ function SearchBox({
       )}
 
       {/* Result count indicator */}
-      {value && resultCount !== undefined && (
+      {localValue && resultCount !== undefined && (
         <span className="search-box__results" aria-live="polite">
           {resultCount === 0 ? 'No matches' : `${resultCount} match${resultCount !== 1 ? 'es' : ''}`}
         </span>
       )}
 
       <span id="search-hint" className="visually-hidden">
-        Press {shortcutHint} to focus search. Press Escape to clear.
+        Press {shortcutHint} to focus search. Press Escape to clear. Highlights matching nodes without hiding.
       </span>
     </div>
   );

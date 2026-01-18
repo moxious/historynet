@@ -9,3 +9,4 @@ export { useUrlState, buildShareableUrl } from './useUrlState';
 export { useLayout } from './useLayout';
 export type { LayoutType } from './useLayout';
 export { useFilters } from './useFilters';
+export { useDebounce } from './useDebounce';

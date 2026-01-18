@@ -2,10 +2,14 @@
  * FilterPanel component for filtering graph nodes and edges
  */
 
-import { useState, useCallback, type ChangeEvent } from 'react';
+import { useState, useCallback, useEffect, type ChangeEvent } from 'react';
 import type { FilterState, FilterStats } from '@types';
 import { hasActiveFilters } from '@types';
+import { useDebounce } from '@hooks';
 import './FilterPanel.css';
+
+/** Debounce delay in milliseconds */
+const DEBOUNCE_DELAY = 300;
 
 interface FilterPanelProps {
   /** Current filter state */
@@ -44,6 +48,40 @@ function FilterPanel({
     filters.dateEnd !== null ? String(filters.dateEnd) : ''
   );
 
+  // Local state for debounced text filters
+  const [localNameFilter, setLocalNameFilter] = useState<string>(filters.nameFilter);
+  const [localRelationshipFilter, setLocalRelationshipFilter] = useState<string>(
+    filters.relationshipFilter
+  );
+
+  // Debounce the text filter values
+  const debouncedNameFilter = useDebounce(localNameFilter, DEBOUNCE_DELAY);
+  const debouncedRelationshipFilter = useDebounce(localRelationshipFilter, DEBOUNCE_DELAY);
+
+  // Apply debounced name filter to parent
+  useEffect(() => {
+    if (debouncedNameFilter !== filters.nameFilter) {
+      onFiltersChange({ nameFilter: debouncedNameFilter });
+    }
+  }, [debouncedNameFilter, filters.nameFilter, onFiltersChange]);
+
+  // Apply debounced relationship filter to parent
+  useEffect(() => {
+    if (debouncedRelationshipFilter !== filters.relationshipFilter) {
+      onFiltersChange({ relationshipFilter: debouncedRelationshipFilter });
+    }
+  }, [debouncedRelationshipFilter, filters.relationshipFilter, onFiltersChange]);
+
+  // Sync local state when filters change externally (e.g., clear all)
+  useEffect(() => {
+    if (filters.nameFilter !== localNameFilter && filters.nameFilter === '') {
+      setLocalNameFilter('');
+    }
+    if (filters.relationshipFilter !== localRelationshipFilter && filters.relationshipFilter === '') {
+      setLocalRelationshipFilter('');
+    }
+  }, [filters.nameFilter, filters.relationshipFilter, localNameFilter, localRelationshipFilter]);
+
   // Check if there are active filters
   const hasFilters = hasActiveFilters(filters);
 
@@ -81,26 +119,22 @@ function FilterPanel({
     }
   }, [localDateEnd, onFiltersChange]);
 
-  // Handle name filter change
-  const handleNameFilterChange = useCallback(
-    (e: ChangeEvent<HTMLInputElement>) => {
-      onFiltersChange({ nameFilter: e.target.value });
-    },
-    [onFiltersChange]
-  );
+  // Handle name filter change (debounced via local state)
+  const handleNameFilterChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
+    setLocalNameFilter(e.target.value);
+  }, []);
 
-  // Handle relationship filter change
-  const handleRelationshipFilterChange = useCallback(
-    (e: ChangeEvent<HTMLInputElement>) => {
-      onFiltersChange({ relationshipFilter: e.target.value });
-    },
-    [onFiltersChange]
-  );
+  // Handle relationship filter change (debounced via local state)
+  const handleRelationshipFilterChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
+    setLocalRelationshipFilter(e.target.value);
+  }, []);
 
   // Handle clear filters
   const handleClearFilters = useCallback(() => {
     setLocalDateStart('');
     setLocalDateEnd('');
+    setLocalNameFilter('');
+    setLocalRelationshipFilter('');
     onClearFilters();
   }, [onClearFilters]);
 
@@ -150,6 +184,19 @@ function FilterPanel({
         </svg>
         {!isCollapsed && <span>Filters</span>}
         {hasFilters && <span className="filter-panel__active-badge" aria-label="Filters active" />}
+        {/* Chevron indicator (UX27) */}
+        <svg
+          viewBox="0 0 24 24"
+          width="14"
+          height="14"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          className={`filter-panel__chevron ${isCollapsed ? 'filter-panel__chevron--collapsed' : ''}`}
+          aria-hidden="true"
+        >
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
       </button>
 
       {/* Filter content */}
@@ -203,17 +250,26 @@ function FilterPanel({
           <div className="filter-panel__section">
             <div className="filter-panel__input-group">
               <label htmlFor="filter-name" className="filter-panel__section-label">
-                Filter by Name
+                <span className="filter-panel__label-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" />
+                  </svg>
+                </span>
+                Name
               </label>
               <input
                 id="filter-name"
                 type="text"
                 className="filter-panel__input"
-                placeholder="Search node names..."
-                value={filters.nameFilter}
+                placeholder="Filter by name..."
+                value={localNameFilter}
                 onChange={handleNameFilterChange}
                 aria-describedby="name-filter-hint"
+                title="Hides nodes that don't match"
               />
+              <span id="name-filter-hint" className="filter-panel__hint">
+                Hides non-matching nodes
+              </span>
             </div>
           </div>
 
@@ -221,17 +277,26 @@ function FilterPanel({
           <div className="filter-panel__section">
             <div className="filter-panel__input-group">
               <label htmlFor="filter-relationship" className="filter-panel__section-label">
-                Filter by Relationship
+                <span className="filter-panel__label-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" />
+                  </svg>
+                </span>
+                Relationship
               </label>
               <input
                 id="filter-relationship"
                 type="text"
                 className="filter-panel__input"
-                placeholder="Search relationships..."
-                value={filters.relationshipFilter}
+                placeholder="Filter by relationship..."
+                value={localRelationshipFilter}
                 onChange={handleRelationshipFilterChange}
                 aria-describedby="relationship-filter-hint"
+                title="Hides edges that don't match"
               />
+              <span id="relationship-filter-hint" className="filter-panel__hint">
+                Hides non-matching edges
+              </span>
             </div>
           </div>
 

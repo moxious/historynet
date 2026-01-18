@@ -8,6 +8,7 @@ import * as d3 from 'd3';
 import type { GraphNode, NodeType, PersonNode } from '@types';
 import type { LayoutComponentProps } from './types';
 import { isPersonNode } from '@types';
+import { getNodeColor, getEdgeColor, parseYear } from '@utils';
 import './TimelineLayout.css';
 
 /**
@@ -38,69 +39,6 @@ interface TimelineEdge {
   relationship: string;
   source: TimelineNode;
   target: TimelineNode;
-}
-
-/**
- * Parse year from date string (ISO 8601 or year-only)
- */
-function parseYear(dateStr: string | undefined): number | null {
-  if (!dateStr) return null;
-  // Try to parse as number first (year only)
-  const yearOnly = parseInt(dateStr, 10);
-  if (!isNaN(yearOnly) && dateStr.match(/^-?\d{1,4}$/)) {
-    return yearOnly;
-  }
-  // Try to parse as ISO date
-  const date = new Date(dateStr);
-  if (!isNaN(date.getTime())) {
-    return date.getFullYear();
-  }
-  // Try to extract year from string like "1632-08-29"
-  const match = dateStr.match(/^(-?\d{1,4})/);
-  if (match) {
-    return parseInt(match[1], 10);
-  }
-  return null;
-}
-
-/**
- * Get node color based on type (same as ForceGraphLayout)
- */
-function getNodeColor(type: NodeType): string {
-  switch (type) {
-    case 'person':
-      return '#3b82f6'; // blue
-    case 'object':
-      return '#10b981'; // green
-    case 'location':
-      return '#f59e0b'; // amber
-    case 'entity':
-      return '#8b5cf6'; // purple
-    default:
-      return '#6b7280'; // gray
-  }
-}
-
-/**
- * Get edge color based on relationship type (same as ForceGraphLayout)
- */
-function getEdgeColor(relationship: string): string {
-  if (['influenced', 'influenced_by', 'taught', 'studied_under'].includes(relationship)) {
-    return '#6366f1'; // indigo
-  }
-  if (['collaborated_with', 'corresponded_with', 'knows'].includes(relationship)) {
-    return '#22c55e'; // green
-  }
-  if (['authored', 'translated', 'edited', 'founded'].includes(relationship)) {
-    return '#f97316'; // orange
-  }
-  if (['born_in', 'died_in', 'lived_in', 'worked_at', 'visited'].includes(relationship)) {
-    return '#8b5cf6'; // purple
-  }
-  if (['member_of', 'led', 'associated_with'].includes(relationship)) {
-    return '#ec4899'; // pink
-  }
-  return '#94a3b8'; // slate
 }
 
 const NODE_SIZE = 32;

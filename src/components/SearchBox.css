@@ -36,6 +36,21 @@
   color: var(--color-primary);
 }
 
+.search-box__highlight-indicator {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f59e0b; /* amber - glow color */
+  opacity: 0.6;
+  margin-right: -2px;
+}
+
+.search-box--focused .search-box__highlight-indicator {
+  color: #f59e0b;
+  opacity: 1;
+}
+
 .search-box__input {
   flex: 1;
   border: none;

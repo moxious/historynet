@@ -25,8 +25,8 @@ function MainLayout() {
     setCurrentLayout,
   } = useGraph();
 
-  // Filter panel collapse state
-  const [isFilterCollapsed, setIsFilterCollapsed] = useState(false);
+  // Filter panel collapse state - collapsed by default (UX26)
+  const [isFilterCollapsed, setIsFilterCollapsed] = useState(true);
 
   const handleToggleFilterCollapse = useCallback(() => {
     setIsFilterCollapsed((prev) => !prev);

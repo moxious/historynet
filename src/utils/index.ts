@@ -25,3 +25,5 @@ export {
   getFilterStats,
   getGraphDateRange,
 } from './filterGraph';
+
+export { getNodeColor, getEdgeColor } from './graphColors';

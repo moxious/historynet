@@ -20,15 +20,18 @@ function Header() {
         <span className="header__tagline">Historical Network Explorer</span>
       </div>
       <div className="header__controls">
-        <DatasetSelector
-          currentDatasetId={currentDatasetId}
-          onSelect={switchDataset}
-          isLoading={loadingState === 'loading'}
-        />
+        <div className="header__dataset-group">
+          <span className="header__dataset-label">Dataset:</span>
+          <DatasetSelector
+            currentDatasetId={currentDatasetId}
+            onSelect={switchDataset}
+            isLoading={loadingState === 'loading'}
+          />
+        </div>
         <SearchBox
           value={searchTerm}
           onChange={setSearchTerm}
-          placeholder="Search nodes..."
+          placeholder="Highlight nodes..."
           resultCount={searchTerm ? searchMatchCount : undefined}
         />
       </div>

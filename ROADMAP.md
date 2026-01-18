@@ -13,7 +13,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M1-M7 | MVP (Bootstrap through Deployment) | ✅ Complete |
 | M8 | Timeline View | ✅ Complete |
 | M9 | Application Verification | ✅ Complete |
-| M10 | UX Improvements | 🔲 Active |
+| M10 | UX Improvements | ✅ Complete |
 | M11 | Advanced Visualization | 🔲 Future |
 | M12 | User Feedback | 🔲 Future |
 
@@ -57,15 +57,21 @@ See `HISTORY.md` for detailed implementation history.
 
 ---
 
-## Future: M10 - User Annotations
+## Completed: M10 - UX Improvements
 
-**Goal**: Allow users to add notes and feedback to nodes and edges.
+**Goal**: Improve application responsiveness and usability based on user feedback.
 
-**Potential Deliverables**:
-- Note attachment to nodes/edges
-- Local storage persistence
-- Export annotations as JSON
-- Annotation visibility toggle
+**Deliverables**:
+- ✅ Debounced filter inputs (300ms) to prevent UI jitter during typing
+- ✅ Simplified filter labels ("Name" instead of "Filter by Name")
+- ✅ InfoboxPanel hidden when no selection (cleaner default state)
+- ✅ Filter panel collapsed by default with chevron indicator
+- ✅ Edge infobox shows natural sentence description
+- ✅ Search vs Filter distinction clarified with tooltips and visual indicators
+- ✅ Graph no longer re-layouts when clicking edges
+- ✅ Code quality: shared utilities extracted, @types/d3 in devDependencies
+
+**See `PROGRESS.md` section M10 for detailed implementation notes**
 
 ---
 

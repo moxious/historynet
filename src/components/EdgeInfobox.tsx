@@ -104,6 +104,8 @@ function getStrengthColor(strength: string): string {
 
 /**
  * Render a clickable node link
+ * Color-coded left border indicates node type (UX22)
+ * Type label removed for cleaner display (UX23)
  */
 function NodeLink({
   nodeId,
@@ -122,12 +124,9 @@ function NodeLink({
     <button
       className={`edge-infobox__node-link ${nodeType ? `edge-infobox__node-link--${nodeType}` : ''}`}
       onClick={() => onClick(nodeId)}
-      title={`View ${displayLabel}`}
+      title={`View ${displayLabel}${nodeType ? ` (${nodeType})` : ''}`}
     >
       <span className="edge-infobox__node-link-title">{displayLabel}</span>
-      {nodeType && (
-        <span className="edge-infobox__node-link-type">{nodeType}</span>
-      )}
     </button>
   );
 }
@@ -294,6 +293,19 @@ function getCustomProperties(edge: GraphEdge): [string, unknown][] {
   return Object.entries(edge).filter(([key]) => !KNOWN_EDGE_FIELDS.has(key));
 }
 
+/**
+ * Format edge description as a natural sentence (UX24)
+ */
+function formatEdgeDescription(edge: GraphEdge, getNode: (id: string) => GraphNode | undefined): string {
+  const sourceName = getNode(edge.source)?.title ?? edge.source;
+  const targetName = getNode(edge.target)?.title ?? edge.target;
+
+  // Convert relationship to readable format (e.g., "influenced_by" -> "was influenced by")
+  const relationship = edge.relationship.replace(/_/g, ' ');
+
+  return `${sourceName} ${relationship} ${targetName}`;
+}
+
 function EdgeInfobox({ edge, onNodeLinkClick, getNode }: EdgeInfoboxProps) {
   const customProperties = getCustomProperties(edge);
   const displayLabel = getEdgeLabel(edge);
@@ -309,6 +321,11 @@ function EdgeInfobox({ edge, onNodeLinkClick, getNode }: EdgeInfoboxProps) {
           <span className="edge-infobox__label">{edge.label}</span>
         )}
       </div>
+
+      {/* Natural sentence description */}
+      <p className="edge-infobox__description">
+        {formatEdgeDescription(edge, getNode)}
+      </p>
 
       {/* Connection visualization */}
       <div className="edge-infobox__connection">

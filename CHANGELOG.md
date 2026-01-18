@@ -9,7 +9,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Planned
-- M10: UX Improvements - debouncing, label simplification, panel visibility refinements
+- M11: Advanced Visualization - node clustering, minimap, additional layouts
+
+---
+
+## [1.3.0] - 2026-01-18
+
+### Added
+- **M10: UX Improvements** - Enhanced application responsiveness and usability
+
+### Improved
+- **Debounced inputs**: 300ms delay on filter and search inputs reduces UI jitter during typing
+- **InfoboxPanel visibility**: Panel now hides completely when nothing is selected (cleaner default)
+- **Filter panel**: Collapsed by default with chevron indicator showing expand/collapse state
+- **Edge descriptions**: Natural sentence format like "Mickey Mouse knows Minnie Mouse"
+- **Search vs Filter clarity**: Visual indicators and tooltips distinguish highlighting from filtering
+- **Graph stability**: Clicking edges no longer causes the graph to re-layout
+
+### Changed
+- Filter labels simplified ("Name" instead of "Filter by Name")
+- "Dataset:" prefix added to dataset selector in header
+- SearchBox placeholder changed to "Highlight nodes..." for clarity
+
+### Code Quality
+- Extracted `getNodeColor()` and `getEdgeColor()` to shared `src/utils/graphColors.ts`
+- Removed duplicate `parseYear()` from TimelineLayout (now uses `filterGraph.ts` version)
+- Moved `@types/d3` from dependencies to devDependencies
 
 ---
 

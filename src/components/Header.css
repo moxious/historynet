@@ -33,3 +33,22 @@
   align-items: center;
   gap: var(--spacing-md);
 }
+
+.header__dataset-group {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.header__dataset-label {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+/* Hide dataset label on small screens */
+@media (max-width: 768px) {
+  .header__dataset-label {
+    display: none;
+  }
+}

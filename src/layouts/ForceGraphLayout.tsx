@@ -6,6 +6,7 @@ import { useEffect, useRef, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
+import { getNodeColor, getEdgeColor } from '@utils';
 import './ForceGraphLayout.css';
 
 /**
@@ -36,24 +37,6 @@ interface SimulationLink extends d3.SimulationLinkDatum<SimulationNode> {
   relationship: string;
   label?: string;
   evidence?: string;
-}
-
-/**
- * Get node color based on type
- */
-function getNodeColor(type: NodeType): string {
-  switch (type) {
-    case 'person':
-      return '#3b82f6'; // blue
-    case 'object':
-      return '#10b981'; // green
-    case 'location':
-      return '#f59e0b'; // amber
-    case 'entity':
-      return '#8b5cf6'; // purple
-    default:
-      return '#6b7280'; // gray
-  }
 }
 
 /**
@@ -102,32 +85,6 @@ function getNodeShape(type: NodeType, size: number): string {
     default:
       return `M 0 ${-r} A ${r} ${r} 0 1 1 0 ${r} A ${r} ${r} 0 1 1 0 ${-r}`;
   }
-}
-
-/**
- * Get edge color based on relationship type
- */
-function getEdgeColor(relationship: string): string {
-  // Group relationships by category
-  if (['influenced', 'influenced_by', 'taught', 'studied_under'].includes(relationship)) {
-    return '#6366f1'; // indigo - intellectual relationships
-  }
-  if (['collaborated_with', 'corresponded_with', 'knows'].includes(relationship)) {
-    return '#22c55e'; // green - collaborative relationships
-  }
-  if (['authored', 'translated', 'edited', 'founded'].includes(relationship)) {
-    return '#f97316'; // orange - creative relationships
-  }
-  if (['born_in', 'died_in', 'lived_in', 'worked_at', 'visited'].includes(relationship)) {
-    return '#8b5cf6'; // purple - location relationships
-  }
-  if (['member_of', 'led', 'associated_with'].includes(relationship)) {
-    return '#ec4899'; // pink - organizational relationships
-  }
-  if (['related_to', 'opposed', 'succeeded'].includes(relationship)) {
-    return '#ef4444'; // red - personal relationships
-  }
-  return '#94a3b8'; // slate - default
 }
 
 const NODE_SIZE = 40;
@@ -250,11 +207,9 @@ export function ForceGraphLayout({
       .on('mouseenter', function () {
         d3.select(this).attr('stroke-opacity', 1).attr('stroke-width', 3);
       })
-      .on('mouseleave', function (_event, d) {
-        const isSelected = selectedEdgeId === d.id;
-        d3.select(this)
-          .attr('stroke-opacity', isSelected ? 1 : 0.6)
-          .attr('stroke-width', isSelected ? 3 : 2);
+      .on('mouseleave', function () {
+        // Reset to default style; selection highlighting effect will re-apply if selected
+        d3.select(this).attr('stroke-opacity', 0.6).attr('stroke-width', 2);
       });
 
     // Create node groups
@@ -346,7 +301,10 @@ export function ForceGraphLayout({
     return () => {
       simulation.stop();
     };
-  }, [data, dimensions, onNodeClick, onEdgeClick, selectedEdgeId]);
+    // Note: selectedEdgeId and selectedNodeId are intentionally NOT in dependencies
+    // because selection highlighting is handled by a separate useEffect.
+    // Including them here would cause the graph to re-layout on every selection.
+  }, [data, dimensions, onNodeClick, onEdgeClick]);
 
   // Update selection highlighting
   useEffect(() => {
