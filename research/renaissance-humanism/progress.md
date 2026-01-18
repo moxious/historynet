@@ -1,6 +1,6 @@
 # Renaissance Humanism - Research Progress
 
-**Status**: Ready for Conversion
+**Status**: Complete
 **Started**: 2026-01-18
 **Last Updated**: 2026-01-18
 **Researcher**: AI Agent (Claude)
@@ -41,21 +41,23 @@
 - [x] Document issues in 07-review-notes.md
 
 ### Phase 6: Conversion to Graph Schema
-- [ ] Generate nodes.json
-- [ ] Generate edges.json
-- [ ] Create manifest.json
-- [ ] Validate against GRAPH_SCHEMA.md
-- [ ] Place in public/datasets/renaissance-humanism/
+- [x] Generate nodes.json (198 nodes)
+- [x] Generate edges.json (194 edges)
+- [x] Create manifest.json
+- [x] Validate against GRAPH_SCHEMA.md
+- [x] Place in public/datasets/renaissance-humanism/
 
 ## Statistics
 
 | Metric | Count |
 |--------|-------|
-| People enumerated | 79 |
-| Relationships documented | 119 |
+| People enumerated | 80 |
+| Relationships documented | 194 |
 | Objects identified | 61 |
 | Locations identified | 35 |
-| Entities identified | 23 |
+| Entities identified | 22 |
+| **Total Nodes** | **198** |
+| **Total Edges** | **194** |
 
 ## Subgroup Breakdown
 

@@ -27,6 +27,7 @@ Each network is stored in its own subdirectory with a standardized structure. Se
 | [ambient-music/](./ambient-music/) | In Progress | 57 | Enumeration (Phase 2 complete) |
 | [protestant-reformation/](./protestant-reformation/) | In Progress | 71 | Enumeration (Phase 2 complete) |
 | [renaissance-humanism/](./renaissance-humanism/) | In Progress | 79 | Enumeration (Phase 2 complete) |
+| [cybernetics-information-theory/](./cybernetics-information-theory/) | In Progress | 82 | Enumeration (Phase 2 complete) |
 
 ### Renaissance Humanism Network (c. 1304-1600)
 
@@ -140,6 +141,33 @@ See `enlightenment/progress.md` for detailed status.
 - Political patrons
 
 See `rosicrucian/progress.md` for detailed status.
+
+---
+
+### Cybernetics & Information Theory Network (c. 1936-1975)
+
+**Folder**: `cybernetics-information-theory/`
+
+**Status**: Phase 2 (Enumeration) complete, ready for Phase 3 (Relationship Mapping)
+
+**Scope**: The intellectual network of cybernetics and information theory—foundational frameworks for understanding feedback, computation, and communication as organizing principles for systems biological, mechanical, and social. Key areas include:
+- Information Theory & Communication Engineering (Shannon, Bell Labs): 9 figures
+- Computing Pioneers (Turing, von Neumann, early AI): 8 figures
+- Macy Conference Core (Wiener, McCulloch, Bateson): 10 figures
+- Neurophysiology & Neural Networks (McCulloch-Pitts, Hebb, Rosenblatt): 5 figures
+- British Cybernetics & Ratio Club (Ashby, Grey Walter, Pask): 7 figures
+- Systems Theory & Management Cybernetics (Beer, Forrester, Bertalanffy): 9 figures
+- Second-Order Cybernetics (von Foerster, Maturana, Varela): 5 figures
+- Artificial Intelligence & Cognitive Science (Minsky, McCarthy, Simon): 12 figures
+- Precursors & Influences (Russell, Church, Cannon, Bush): 10 figures
+
+**Seed Figures**: Norbert Wiener, Claude Shannon, Alan Turing, John von Neumann, Gregory Bateson, W. Ross Ashby, Stafford Beer
+
+**Total Enumerated**: 82 individuals (plus 7 seed figures included in count)
+
+**Key Themes**: Feedback and circular causality; information as measurable quantity; control and communication in animals and machines; computation as model for mind; self-organization and emergence; interdisciplinary systems thinking
+
+See `cybernetics-information-theory/progress.md` for detailed status.
 
 ---
 

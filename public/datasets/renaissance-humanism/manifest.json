@@ -8,7 +8,7 @@
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 198,
-  "edgeCount": 250,
+  "edgeCount": 194,
   "customRelationshipTypes": [
     {
       "type": "patronized",
@@ -21,8 +21,13 @@
       "directed": true
     },
     {
-      "type": "published",
-      "description": "Printer/publisher published works by the target",
+      "type": "edited",
+      "description": "Person edited or prepared edition of work",
+      "directed": true
+    },
+    {
+      "type": "translated",
+      "description": "Person translated the work",
       "directed": true
     }
   ]
