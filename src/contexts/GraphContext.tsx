@@ -298,6 +298,7 @@ export function GraphProvider({ children }: GraphProviderProps) {
  * Hook to access graph context
  * Must be used within a GraphProvider
  */
+// eslint-disable-next-line react-refresh/only-export-components
 export function useGraph(): GraphContextValue {
   const context = useContext(GraphContext);
   if (!context) {

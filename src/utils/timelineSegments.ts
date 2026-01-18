@@ -307,7 +307,6 @@ function createPiecewiseScale(
 
   // Allocate height to each segment proportionally, considering both year span AND event density
   const segmentHeights: number[] = [];
-  let allocatedHeight = 0;
 
   for (const segment of segments) {
     const segmentSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
@@ -319,7 +318,6 @@ function createPiecewiseScale(
     // Use the maximum of: proportional height, density height, or config minimum
     const height = Math.max(proportionalHeight, densityHeight, cfg.minSegmentHeight);
     segmentHeights.push(height);
-    allocatedHeight += height;
   }
 
   // Note: We DON'T scale down if we exceed available height - we allow the timeline
