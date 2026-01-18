@@ -60,6 +60,88 @@ export interface SegmentConfig {
   eventsPerYear?: Map<number, number>;
   /** Pixels per event when calculating density-based height (default: 24) */
   pixelsPerEvent?: number;
+  /** Minimum height per year in pixels (default: 30) */
+  minYearHeight?: number;
+  /** Number of events that can fit in a single row (left + right, default: 2) */
+  eventsPerRow?: number;
+}
+
+/**
+ * Per-year height allocation map for density-aware vertical scaling.
+ * Each year gets vertical pixels proportional to its event count.
+ */
+export interface YearHeightMap {
+  /** Year to cumulative Y start position */
+  yearToYStart: Map<number, number>;
+  /** Year to Y end position (start + height) */
+  yearToYEnd: Map<number, number>;
+  /** Total content height (excluding padding) */
+  totalHeight: number;
+  /** Get the height allocated to a specific year */
+  getYearHeight: (year: number) => number;
+}
+
+/**
+ * Configuration for per-year height map creation
+ */
+export interface YearHeightConfig {
+  /** Minimum height per year in pixels (for empty or sparse years) */
+  minYearHeight: number;
+  /** Pixels per row of events (typically LABEL_HEIGHT) */
+  pixelsPerEventRow: number;
+  /** Number of events that fit side-by-side per row (left + right = 2) */
+  eventsPerRow: number;
+  /** Top padding before first year */
+  topPadding: number;
+}
+
+/**
+ * Create a per-year height allocation map based on event density.
+ * Dense years get more vertical space to accommodate stacked events.
+ * 
+ * @param yearStart First year to include
+ * @param yearEnd Last year to include
+ * @param eventsPerYear Map of year to event count
+ * @param config Height configuration
+ * @returns YearHeightMap with position lookups
+ */
+export function createPerYearHeightMap(
+  yearStart: number,
+  yearEnd: number,
+  eventsPerYear: Map<number, number>,
+  config: YearHeightConfig
+): YearHeightMap {
+  const yearToYStart = new Map<number, number>();
+  const yearToYEnd = new Map<number, number>();
+  const yearHeights = new Map<number, number>();
+
+  let currentY = config.topPadding;
+
+  // Calculate height for each year based on event density
+  for (let year = yearStart; year <= yearEnd; year++) {
+    const eventCount = eventsPerYear.get(year) ?? 0;
+    // Calculate rows needed (events distributed left/right)
+    const rowsNeeded = Math.ceil(eventCount / config.eventsPerRow);
+    // Each year gets at least minYearHeight, or enough for all event rows
+    const yearHeight = Math.max(
+      config.minYearHeight,
+      rowsNeeded * config.pixelsPerEventRow
+    );
+
+    yearHeights.set(year, yearHeight);
+    yearToYStart.set(year, currentY);
+    yearToYEnd.set(year, currentY + yearHeight);
+    currentY += yearHeight;
+  }
+
+  const totalHeight = currentY - config.topPadding;
+
+  return {
+    yearToYStart,
+    yearToYEnd,
+    totalHeight,
+    getYearHeight: (year: number) => yearHeights.get(year) ?? config.minYearHeight,
+  };
 }
 
 const DEFAULT_CONFIG: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> } = {
@@ -69,6 +151,8 @@ const DEFAULT_CONFIG: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsP
   topPadding: 50,
   bottomPadding: 50,
   pixelsPerEvent: 24,
+  minYearHeight: 30,
+  eventsPerRow: 2,
 };
 
 /**
@@ -132,45 +216,6 @@ export function findDensestSegment(segments: TimelineSegment[]): TimelineSegment
   return segments.reduce((densest, segment) => 
     segment.dataPoints > densest.dataPoints ? segment : densest
   );
-}
-
-/**
- * Calculate the minimum height required for a segment based on event density.
- * This ensures years with many events have enough vertical space for stacked events.
- * 
- * @param segment The timeline segment
- * @param eventsPerYear Map of year to event count
- * @param pixelsPerEvent Pixels required per event for stacking
- * @returns Minimum height in pixels based on the densest year in the segment
- */
-function getSegmentDensityHeight(
-  segment: TimelineSegment,
-  eventsPerYear: Map<number, number> | undefined,
-  pixelsPerEvent: number
-): number {
-  if (!eventsPerYear || eventsPerYear.size === 0) {
-    return 0;
-  }
-
-  // Find the maximum events in any single year within this segment
-  let maxEventsInYear = 0;
-  for (let year = segment.yearStart; year <= segment.yearEnd; year++) {
-    const eventCount = eventsPerYear.get(year) ?? 0;
-    maxEventsInYear = Math.max(maxEventsInYear, eventCount);
-  }
-
-  // Calculate minimum height: we need space for max events stacked,
-  // multiplied by the number of years (proportionally)
-  // But we use a simpler heuristic: ensure the densest year has enough space
-  // and scale based on year span
-  const yearSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
-  
-  // Height needed for the densest year's events (stacked in pairs left/right)
-  const densestYearHeight = Math.ceil(maxEventsInYear / 2) * pixelsPerEvent;
-  
-  // Scale by number of years to give proportional space
-  // Use at least densestYearHeight * (1 + log2(yearSpan)) to allow spreading
-  return densestYearHeight * Math.max(1, Math.ceil(Math.log2(yearSpan + 1)));
 }
 
 /**
@@ -245,22 +290,30 @@ function createFallbackScale(
 }
 
 /**
- * Create a scale for a single segment (no gaps)
+ * Create a scale for a single segment (no gaps) using per-year height allocation
  */
 function createSingleSegmentScale(
   segment: TimelineSegment,
-  totalHeight: number,
+  _totalHeight: number, // Not used - height is calculated from per-year allocation
   cfg: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> },
   eventsPerYear?: Map<number, number>,
   pixelsPerEvent: number = 24
 ): SegmentedScale {
-  // Calculate density-based minimum height
-  const densityHeight = getSegmentDensityHeight(segment, eventsPerYear, pixelsPerEvent);
-  
-  // Use the larger of: available height or density-required height
-  const baseUsableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding;
-  const usableHeight = Math.max(baseUsableHeight, densityHeight);
-  const yearSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
+  // Create per-year height map for density-aware vertical spacing
+  const yearHeightMap = createPerYearHeightMap(
+    segment.yearStart,
+    segment.yearEnd,
+    eventsPerYear ?? new Map(),
+    {
+      minYearHeight: cfg.minYearHeight,
+      pixelsPerEventRow: pixelsPerEvent,
+      eventsPerRow: cfg.eventsPerRow,
+      topPadding: cfg.topPadding,
+    }
+  );
+
+  // Total height is the sum of all year heights plus padding
+  const usableHeight = yearHeightMap.totalHeight;
 
   const positionedSegment: TimelineSegment = {
     ...segment,
@@ -268,17 +321,53 @@ function createSingleSegmentScale(
     yEnd: cfg.topPadding + usableHeight,
   };
 
+  // Build toY function using per-year height allocation
+  const toY = (year: number): number => {
+    // Clamp to segment bounds
+    if (year < segment.yearStart) {
+      return cfg.topPadding;
+    }
+    if (year > segment.yearEnd) {
+      return cfg.topPadding + usableHeight;
+    }
+
+    // Get the floor year and interpolate within it for sub-year precision
+    const floorYear = Math.floor(year);
+    const fraction = year - floorYear;
+
+    // Clamp floor year to valid range
+    const clampedFloorYear = Math.max(segment.yearStart, Math.min(segment.yearEnd, floorYear));
+    
+    const yStart = yearHeightMap.yearToYStart.get(clampedFloorYear) ?? cfg.topPadding;
+    const yEnd = yearHeightMap.yearToYEnd.get(clampedFloorYear) ?? yStart;
+
+    // Interpolate within the year's allocated space
+    return yStart + fraction * (yEnd - yStart);
+  };
+
+  // Build fromY function (approximate inverse)
+  const fromY = (y: number): number => {
+    // Search through years to find which one contains this Y position
+    for (let year = segment.yearStart; year <= segment.yearEnd; year++) {
+      const yEnd = yearHeightMap.yearToYEnd.get(year);
+      if (yEnd !== undefined && y <= yEnd) {
+        const yStart = yearHeightMap.yearToYStart.get(year) ?? cfg.topPadding;
+        const yearHeight = yEnd - yStart;
+        if (yearHeight > 0) {
+          const fraction = (y - yStart) / yearHeight;
+          return year + Math.max(0, Math.min(1, fraction));
+        }
+        return year;
+      }
+    }
+    return segment.yearEnd;
+  };
+
   return {
     segments: [positionedSegment],
     gapThreshold: cfg.gapThreshold,
-    toY: (year: number) => {
-      const t = (year - segment.yearStart) / yearSpan;
-      return cfg.topPadding + t * usableHeight;
-    },
-    fromY: (y: number) => {
-      const t = (y - cfg.topPadding) / usableHeight;
-      return segment.yearStart + t * yearSpan;
-    },
+    toY,
+    fromY,
     getSegmentBreaks: () => [],
     getDensestSegment: () => positionedSegment,
     isSingleSegment: true,
@@ -286,59 +375,51 @@ function createSingleSegmentScale(
 }
 
 /**
- * Create a piecewise scale for multiple segments with gaps
+ * Create a piecewise scale for multiple segments with gaps, using per-year height allocation
  */
 function createPiecewiseScale(
   segments: TimelineSegment[],
-  totalHeight: number,
+  _totalHeight: number, // Not used - height is calculated from per-year allocation
   cfg: Required<Omit<SegmentConfig, 'eventsPerYear'>> & { eventsPerYear?: Map<number, number> },
   eventsPerYear?: Map<number, number>,
   pixelsPerEvent: number = 24
 ): SegmentedScale {
-  const breakCount = segments.length - 1;
-  const totalBreakHeight = breakCount * cfg.breakIndicatorHeight;
-  const baseUsableHeight = totalHeight - cfg.topPadding - cfg.bottomPadding - totalBreakHeight;
-
-  // Calculate total year span across all segments
-  const totalYearSpan = segments.reduce(
-    (sum, seg) => sum + Math.max(seg.yearEnd - seg.yearStart, 1),
-    0
-  );
-
-  // Allocate height to each segment proportionally, considering both year span AND event density
-  const segmentHeights: number[] = [];
-
-  for (const segment of segments) {
-    const segmentSpan = Math.max(segment.yearEnd - segment.yearStart, 1);
-    const proportionalHeight = (segmentSpan / totalYearSpan) * baseUsableHeight;
-    
-    // Calculate density-based minimum for this segment
-    const densityHeight = getSegmentDensityHeight(segment, eventsPerYear, pixelsPerEvent);
-    
-    // Use the maximum of: proportional height, density height, or config minimum
-    const height = Math.max(proportionalHeight, densityHeight, cfg.minSegmentHeight);
-    segmentHeights.push(height);
-  }
-
-  // Note: We DON'T scale down if we exceed available height - we allow the timeline
-  // to be taller than the viewport to accommodate dense years. This is intentional
-  // as the user can scroll/pan to navigate.
-
-  // Assign Y positions to segments
-  const positionedSegments: TimelineSegment[] = [];
+  // Create per-year height maps for each segment
+  const segmentYearMaps: YearHeightMap[] = [];
+  
   let currentY = cfg.topPadding;
+
+  // Build positioned segments with per-year height allocation
+  const positionedSegments: TimelineSegment[] = [];
 
   for (let i = 0; i < segments.length; i++) {
     const segment = segments[i];
-    const height = segmentHeights[i];
+    
+    // Create per-year height map for this segment, starting at currentY
+    const yearHeightMap = createPerYearHeightMap(
+      segment.yearStart,
+      segment.yearEnd,
+      eventsPerYear ?? new Map(),
+      {
+        minYearHeight: cfg.minYearHeight,
+        pixelsPerEventRow: pixelsPerEvent,
+        eventsPerRow: cfg.eventsPerRow,
+        topPadding: currentY,
+      }
+    );
+
+    segmentYearMaps.push(yearHeightMap);
+
+    // Ensure minimum segment height
+    const segmentHeight = Math.max(yearHeightMap.totalHeight, cfg.minSegmentHeight);
 
     positionedSegments.push({
       ...segment,
       yStart: currentY,
-      yEnd: currentY + height,
+      yEnd: currentY + segmentHeight,
     });
 
-    currentY += height;
+    currentY += segmentHeight;
     
     // Add break space after each segment except the last
     if (i < segments.length - 1) {
@@ -346,20 +427,32 @@ function createPiecewiseScale(
     }
   }
 
-  // Build the toY function
+  // Build the toY function using per-year height allocation
   const toY = (year: number): number => {
     // Find which segment this year belongs to
-    for (const seg of positionedSegments) {
+    for (let i = 0; i < positionedSegments.length; i++) {
+      const seg = positionedSegments[i];
+      const yearMap = segmentYearMaps[i];
+
       if (year <= seg.yearEnd) {
         // Year is in or before this segment
         if (year < seg.yearStart) {
           // Year is before this segment - clamp to segment start
           return seg.yStart!;
         }
-        // Year is within this segment
-        const segmentSpan = Math.max(seg.yearEnd - seg.yearStart, 1);
-        const t = (year - seg.yearStart) / segmentSpan;
-        return seg.yStart! + t * (seg.yEnd! - seg.yStart!);
+
+        // Year is within this segment - use per-year positioning
+        const floorYear = Math.floor(year);
+        const fraction = year - floorYear;
+
+        // Clamp floor year to segment bounds
+        const clampedFloorYear = Math.max(seg.yearStart, Math.min(seg.yearEnd, floorYear));
+        
+        const yStart = yearMap.yearToYStart.get(clampedFloorYear) ?? seg.yStart!;
+        const yEnd = yearMap.yearToYEnd.get(clampedFloorYear) ?? yStart;
+
+        // Interpolate within the year's allocated space
+        return yStart + fraction * (yEnd - yStart);
       }
     }
     // Year is after all segments - return end of last segment
@@ -369,14 +462,29 @@ function createPiecewiseScale(
 
   // Build the fromY function (approximate inverse)
   const fromY = (y: number): number => {
-    for (const seg of positionedSegments) {
+    for (let i = 0; i < positionedSegments.length; i++) {
+      const seg = positionedSegments[i];
+      const yearMap = segmentYearMaps[i];
+
       if (y <= seg.yEnd!) {
         if (y < seg.yStart!) {
           return seg.yearStart;
         }
-        const t = (y - seg.yStart!) / (seg.yEnd! - seg.yStart!);
-        const segmentSpan = seg.yearEnd - seg.yearStart;
-        return seg.yearStart + t * segmentSpan;
+
+        // Search through years in this segment
+        for (let year = seg.yearStart; year <= seg.yearEnd; year++) {
+          const yEnd = yearMap.yearToYEnd.get(year);
+          if (yEnd !== undefined && y <= yEnd) {
+            const yStart = yearMap.yearToYStart.get(year) ?? seg.yStart!;
+            const yearHeight = yEnd - yStart;
+            if (yearHeight > 0) {
+              const fraction = (y - yStart) / yearHeight;
+              return year + Math.max(0, Math.min(1, fraction));
+            }
+            return year;
+          }
+        }
+        return seg.yearEnd;
       }
     }
     const lastSeg = positionedSegments[positionedSegments.length - 1];

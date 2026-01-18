@@ -53,11 +53,15 @@ function SearchBox({
   }, [debouncedValue, value, onChange]);
 
   // Sync local state when parent value changes (e.g., clear)
+  // REACT: Only depend on parent value, not local state (R2 - stale closure fix)
+  // Including localValue would cause reset on every keystroke because the effect
+  // runs before debounce fires while value is still ''
   useEffect(() => {
-    if (value !== localValue && value === '') {
+    if (value === '') {
       setLocalValue('');
     }
-  }, [value, localValue]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [value]);
 
   // Handle keyboard shortcut (Cmd/Ctrl+K)
   useEffect(() => {

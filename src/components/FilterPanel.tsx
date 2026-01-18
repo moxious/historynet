@@ -73,14 +73,18 @@ function FilterPanel({
   }, [debouncedRelationshipFilter, filters.relationshipFilter, onFiltersChange]);
 
   // Sync local state when filters change externally (e.g., clear all)
+  // REACT: Only depend on parent filter values, not local state (R2 - stale closure fix)
+  // Including localNameFilter/localRelationshipFilter would cause reset on every keystroke
+  // because the effect runs before debounce fires while filters.nameFilter is still ''
   useEffect(() => {
-    if (filters.nameFilter !== localNameFilter && filters.nameFilter === '') {
+    if (filters.nameFilter === '') {
       setLocalNameFilter('');
     }
-    if (filters.relationshipFilter !== localRelationshipFilter && filters.relationshipFilter === '') {
+    if (filters.relationshipFilter === '') {
       setLocalRelationshipFilter('');
     }
-  }, [filters.nameFilter, filters.relationshipFilter, localNameFilter, localRelationshipFilter]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [filters.nameFilter, filters.relationshipFilter]);
 
   // REACT: Sync local date state when filters change externally (R14)
   // This replaces the previous inline state sync that violated React rules

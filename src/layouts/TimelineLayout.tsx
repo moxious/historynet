@@ -85,6 +85,7 @@ const LABEL_OFFSET = 20; // Distance from axis to label
 // Left margin accounts for filter panel (max 280px) + spacing + left labels
 const LEFT_MARGIN = 300;
 const AXIS_X = LEFT_MARGIN + LABEL_WIDTH + LABEL_OFFSET + 20;
+const TICK_LABEL_X = LEFT_MARGIN - 40; // Tick labels positioned left of all swim lanes
 const UNDATED_SECTION_HEIGHT = 150;
 const ZOOM_MIN = 0.3;
 const ZOOM_MAX = 8; // Increased for finer granularity
@@ -94,7 +95,8 @@ const INITIAL_ZOOM_SCALE = 0.8;
 const LABEL_HEIGHT = 55; // Approximate height of label card with padding
 const LANE_GAP = 10; // Gap between lanes
 const LANE_WIDTH = LABEL_WIDTH + LANE_GAP; // Each lane is label width + gap
-const MAX_LANES = 3; // Cap lanes to prevent excessive width
+const MAX_LANES = 2; // Cap lanes to prevent excessive width - prefer vertical expansion
+const MIN_LABEL_SPACING = 14; // Minimum pixels between tick labels to prevent overlap
 
 // Timeline segmentation settings
 const GAP_THRESHOLD = 40;
@@ -453,6 +455,9 @@ export function TimelineLayout({
       const tickTextColor = tickStyle.getPropertyValue('--color-text').trim() || '#0f172a';
       const tickTextMutedColor = tickStyle.getPropertyValue('--color-text-muted').trim() || '#64748b';
 
+      // Track last label Y position for smart culling to prevent overlap
+      let lastLabelY = -Infinity;
+
       for (const segment of segmentedScale.segments) {
         const ticks = generateTicks(segment.yearStart, segment.yearEnd, granularity);
 
@@ -462,12 +467,12 @@ export function TimelineLayout({
 
           const y = yScale(tick.value);
 
-          // Draw tick line (grid line) - extend to cover all swim lanes
+          // Draw tick line (grid line) - extend from label column to cover all swim lanes
           if (tick.isMajor || granularity === 'decade' || granularity === 'year') {
             tickGroup
               .append('line')
               .attr('class', tick.isMajor ? 'timeline-grid-major' : 'timeline-grid-minor')
-              .attr('x1', AXIS_X - (LANE_WIDTH * MAX_LANES))
+              .attr('x1', TICK_LABEL_X + 10)
               .attr('x2', AXIS_X + (LANE_WIDTH * MAX_LANES))
               .attr('y1', y)
               .attr('y2', y)
@@ -476,13 +481,15 @@ export function TimelineLayout({
               .attr('stroke-dasharray', tick.isMajor ? 'none' : '2,4');
           }
 
-          // Draw label (only for labeled ticks)
-          // Position labels to the left of the axis to avoid overlapping event markers
-          if (tick.label) {
+          // Draw label only if there's enough space since the last label (smart culling)
+          // Position labels in dedicated left column to avoid overlapping event markers
+          const shouldDrawLabel = tick.label && (y - lastLabelY) >= MIN_LABEL_SPACING;
+          
+          if (shouldDrawLabel) {
             tickGroup
               .append('text')
               .attr('class', 'timeline-tick-label')
-              .attr('x', AXIS_X - 15)
+              .attr('x', TICK_LABEL_X)
               .attr('y', y)
               .attr('text-anchor', 'end')
               .attr('dominant-baseline', 'middle')
@@ -490,6 +497,7 @@ export function TimelineLayout({
               .attr('font-weight', tick.isMajor ? '600' : '400')
               .attr('fill', tick.isMajor ? tickTextColor : tickTextMutedColor)
               .text(tick.label);
+            lastLabelY = y;
           }
         }
       }
