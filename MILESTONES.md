@@ -157,7 +157,7 @@ This document outlines the major milestones for implementing HistoryNet. Each mi
 These milestones are anticipated but not yet decomposed into tasks:
 
 ### M9: Historical Datasets
-- Enlightenment Philosophers dataset
+- ✅ Enlightenment Philosophers dataset (complete - see `public/datasets/enlightenment/`)
 - Vienna Circle dataset
 - Dataset validation tooling
 
@@ -192,13 +192,15 @@ Milestones should be completed in order. Tasks within a milestone may be paralle
 ## Success Criteria
 
 ### MVP (M1-M7) is complete when:
-- [ ] Application loads Disney dataset by default
-- [ ] Force-directed graph renders all nodes and edges
-- [ ] Clicking nodes/edges shows details in infobox
-- [ ] Filters narrow the visible graph
-- [ ] URL captures complete application state
-- [ ] Shared URLs restore exact application state
-- [ ] Application is live on GitHub Pages
+- [x] Application loads Disney dataset by default
+- [x] Force-directed graph renders all nodes and edges
+- [x] Clicking nodes/edges shows details in infobox
+- [x] Filters narrow the visible graph
+- [x] URL captures complete application state
+- [x] Shared URLs restore exact application state
+- [x] Application is live on GitHub Pages
+
+**✅ MVP COMPLETE** - Live at https://moxious.github.io/historynet/
 
 ### Post-MVP (M8) is complete when:
 - [ ] Timeline view renders nodes by date
