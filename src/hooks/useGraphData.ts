@@ -2,7 +2,7 @@
  * Hook for managing graph data state
  */
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useRef } from 'react';
 import type {
   GraphData,
   Dataset,
@@ -46,16 +46,24 @@ export function useGraphData(): UseGraphDataReturn {
   const [loadingState, setLoadingState] = useState<LoadingState>('idle');
   const [error, setError] = useState<DataError | null>(null);
 
+  // REACT: Track AbortController to cancel previous requests (R7)
+  const abortControllerRef = useRef<AbortController | null>(null);
+
   // Convenience accessor for graph data
   const graphData = dataset?.data ?? null;
 
   // Load a dataset
   const load = useCallback(async (datasetId: string) => {
+    // REACT: Abort previous request to prevent race condition (R7)
+    abortControllerRef.current?.abort();
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
+
     setLoadingState('loading');
     setError(null);
 
     try {
-      const loadedDataset = await loadDataset(datasetId);
+      const loadedDataset = await loadDataset(datasetId, controller.signal);
 
       // Validate edge references
       const validation = validateEdgeReferences(loadedDataset.data);
@@ -66,6 +74,11 @@ export function useGraphData(): UseGraphDataReturn {
       setDataset(loadedDataset);
       setLoadingState('success');
     } catch (err) {
+      // REACT: Ignore abort errors - these are expected when switching datasets rapidly (R4)
+      if (err instanceof Error && err.name === 'AbortError') {
+        return;
+      }
+
       const dataError: DataError =
         err instanceof DatasetLoadError
           ? {
