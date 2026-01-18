@@ -248,6 +248,15 @@
   word-break: break-all;
 }
 
+/* Layout switcher positioning */
+.main-layout__layout-switcher {
+  position: absolute;
+  top: var(--spacing-md, 16px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+}
+
 /* Responsive: stack on smaller screens */
 @media (max-width: 768px) {
   .main-layout {

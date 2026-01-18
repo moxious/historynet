@@ -2,10 +2,11 @@
  * React Context for sharing graph state across components
  */
 
-import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useMemo, useState, useCallback, type ReactNode } from 'react';
 import { useGraphData } from '@hooks/useGraphData';
 import { useSelectedItem, getSelectedItem } from '@hooks/useSelectedItem';
 import { useUrlState } from '@hooks/useUrlState';
+import type { LayoutType } from '@hooks/useLayout';
 import type {
   Dataset,
   GraphData,
@@ -58,6 +59,10 @@ interface GraphContextValue {
   searchTerm: string;
   setSearchTerm: (term: string) => void;
   searchMatchCount: number;
+
+  // Layout state
+  currentLayout: LayoutType;
+  setCurrentLayout: (layout: LayoutType) => void;
 }
 
 const GraphContext = createContext<GraphContextValue | null>(null);
@@ -100,7 +105,20 @@ export function GraphProvider({ children }: GraphProviderProps) {
     filters,
     setFilters,
     clearFilters,
+    layout: urlLayout,
+    setLayout: setUrlLayout,
   } = useUrlState();
+
+  // Layout state - initialized from URL or defaults to 'force-graph'
+  const currentLayout: LayoutType = (urlLayout as LayoutType) || 'force-graph';
+
+  // Set layout and sync to URL
+  const setCurrentLayout = useCallback(
+    (layout: LayoutType) => {
+      setUrlLayout(layout);
+    },
+    [setUrlLayout]
+  );
 
   // Determine effective dataset ID
   const effectiveDatasetId = urlDatasetId || DEFAULT_DATASET_ID;
@@ -239,6 +257,8 @@ export function GraphProvider({ children }: GraphProviderProps) {
     searchTerm,
     setSearchTerm,
     searchMatchCount,
+    currentLayout,
+    setCurrentLayout,
   };
 
   return <GraphContext.Provider value={value}>{children}</GraphContext.Provider>;

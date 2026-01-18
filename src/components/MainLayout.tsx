@@ -1,9 +1,10 @@
 import { useState, useCallback } from 'react';
 import { useGraph } from '@contexts';
 import type { GraphNode, GraphEdge } from '@types';
-import { ForceGraphLayout } from '@layouts';
+import { ForceGraphLayout, TimelineLayout } from '@layouts';
 import InfoboxPanel from './InfoboxPanel';
 import FilterPanel from './FilterPanel';
+import LayoutSwitcher from './LayoutSwitcher';
 import './MainLayout.css';
 
 function MainLayout() {
@@ -20,6 +21,8 @@ function MainLayout() {
     filterStats,
     dateRange,
     searchTerm,
+    currentLayout,
+    setCurrentLayout,
   } = useGraph();
 
   // Filter panel collapse state
@@ -71,6 +74,28 @@ function MainLayout() {
   // Check if we have empty results after filtering
   const hasEmptyResults = filteredData && filteredData.nodes.length === 0;
 
+  // Render the appropriate layout based on currentLayout
+  const renderLayout = () => {
+    if (!filteredData || hasEmptyResults) return null;
+
+    const layoutProps = {
+      data: filteredData,
+      onNodeClick: handleNodeClick,
+      onEdgeClick: handleEdgeClick,
+      selectedNodeId: selection?.type === 'node' ? selection.id : null,
+      selectedEdgeId: selection?.type === 'edge' ? selection.id : null,
+      searchTerm,
+    };
+
+    switch (currentLayout) {
+      case 'timeline':
+        return <TimelineLayout {...layoutProps} />;
+      case 'force-graph':
+      default:
+        return <ForceGraphLayout {...layoutProps} />;
+    }
+  };
+
   return (
     <main className="main-layout">
       <section className="main-layout__graph" aria-label="Graph visualization">
@@ -99,15 +124,13 @@ function MainLayout() {
                 </button>
               </div>
             ) : (
-              <ForceGraphLayout
-                data={filteredData}
-                onNodeClick={handleNodeClick}
-                onEdgeClick={handleEdgeClick}
-                selectedNodeId={selection?.type === 'node' ? selection.id : null}
-                selectedEdgeId={selection?.type === 'edge' ? selection.id : null}
-                searchTerm={searchTerm}
-              />
+              renderLayout()
             )}
+            <LayoutSwitcher
+              currentLayout={currentLayout}
+              onLayoutChange={setCurrentLayout}
+              className="main-layout__layout-switcher"
+            />
             <FilterPanel
               filters={filters}
               onFiltersChange={setFilters}

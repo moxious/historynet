@@ -15,7 +15,7 @@ This document outlines the major milestones for implementing HistoryNet. Each mi
 | M5 | Filtering System | Date and text filters with URL sync | ✅ Complete |
 | M6 | Search & Polish | Search highlighting and UX refinement | ✅ Complete |
 | M7 | Deployment | GitHub Pages deployment pipeline | ✅ Complete |
-| M8 | Timeline View | Vertical timeline visualization | 🔲 Not Started |
+| M8 | Timeline View | Vertical timeline visualization | ✅ Complete |
 
 **MVP = Milestones 1-7**
 
@@ -203,6 +203,8 @@ Milestones should be completed in order. Tasks within a milestone may be paralle
 **✅ MVP COMPLETE** - Live at https://moxious.github.io/historynet/
 
 ### Post-MVP (M8) is complete when:
-- [ ] Timeline view renders nodes by date
-- [ ] User can switch between graph and timeline
-- [ ] Layout selection persists in URL
+- [x] Timeline view renders nodes by date
+- [x] User can switch between graph and timeline
+- [x] Layout selection persists in URL
+
+**✅ M8 COMPLETE** - Timeline view live at https://moxious.github.io/historynet/#/?layout=timeline
