@@ -1,0 +1,1693 @@
+[
+  {
+    "id": "edge-wiener-mcculloch-collab",
+    "source": "person-norbert-wiener",
+    "target": "person-warren-mcculloch",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1964",
+    "evidence": "Co-organized Macy Conferences; collaborated on foundational cybernetics concepts",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-pitts-collab",
+    "source": "person-norbert-wiener",
+    "target": "person-walter-pitts",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1952",
+    "evidence": "Pitts worked in Wiener's group at MIT; co-authored papers on statistical mechanics of neural nets",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mcculloch-pitts-collab",
+    "source": "person-warren-mcculloch",
+    "target": "person-walter-pitts",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1969",
+    "evidence": "Co-authored 'A Logical Calculus of the Ideas Immanent in Nervous Activity' (1943); lifelong collaboration",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mcculloch-pitts-taught",
+    "source": "person-warren-mcculloch",
+    "target": "person-walter-pitts",
+    "relationship": "taught",
+    "dateStart": "1943",
+    "evidence": "McCulloch became Pitts's mentor after meeting him in Chicago; brought him into academic circles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-rosenblueth-collab",
+    "source": "person-norbert-wiener",
+    "target": "person-arturo-rosenblueth",
+    "relationship": "collaborated_with",
+    "dateStart": "1930",
+    "dateEnd": "1970",
+    "evidence": "Co-authored 'Behavior, Purpose and Teleology' (1943); decade-long intellectual partnership",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-bigelow-collab",
+    "source": "person-norbert-wiener",
+    "target": "person-julian-bigelow",
+    "relationship": "collaborated_with",
+    "dateStart": "1940",
+    "dateEnd": "1945",
+    "evidence": "Collaborated on anti-aircraft fire control during WWII; led to feedback concepts",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rosenblueth-bigelow-collab",
+    "source": "person-arturo-rosenblueth",
+    "target": "person-julian-bigelow",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "evidence": "Co-authored 'Behavior, Purpose and Teleology'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rosenblueth-cannon-studied",
+    "source": "person-arturo-rosenblueth",
+    "target": "person-walter-cannon",
+    "relationship": "studied_under",
+    "dateStart": "1930",
+    "evidence": "Rosenblueth worked with Cannon at Harvard; introduced physiological concepts of homeostasis",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-vonneumann-knows",
+    "source": "person-norbert-wiener",
+    "target": "person-john-von-neumann",
+    "relationship": "knows",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Both core Macy participants; met regularly at Macy Conferences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-bateson-collab",
+    "source": "person-norbert-wiener",
+    "target": "person-gregory-bateson",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Core Macy Conference participants; discussed applications to social sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-mead-knows",
+    "source": "person-norbert-wiener",
+    "target": "person-margaret-mead",
+    "relationship": "knows",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Met at Macy Conferences; Mead applied cybernetic concepts to anthropology",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-wiener-shannon-knows",
+    "source": "person-norbert-wiener",
+    "target": "person-claude-shannon",
+    "relationship": "knows",
+    "dateStart": "1940",
+    "dateEnd": "1950",
+    "evidence": "Both at MIT; Shannon's information theory complemented Wiener's cybernetics",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-wiener-bush-studied",
+    "source": "person-norbert-wiener",
+    "target": "person-vannevar-bush",
+    "relationship": "knows",
+    "dateStart": "1920",
+    "dateEnd": "1960",
+    "evidence": "Wiener worked on Bush's differential analyzer projects at MIT",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-shannon-hamming-collab",
+    "source": "person-claude-shannon",
+    "target": "person-richard-hamming",
+    "relationship": "collaborated_with",
+    "dateStart": "1945",
+    "dateEnd": "1960",
+    "evidence": "Colleagues at Bell Labs; both worked on coding theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shannon-tukey-collab",
+    "source": "person-claude-shannon",
+    "target": "person-john-tukey",
+    "relationship": "collaborated_with",
+    "dateStart": "1948",
+    "evidence": "Tukey coined 'bit' in Shannon's presence; both at Bell Labs",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shannon-pierce-collab",
+    "source": "person-claude-shannon",
+    "target": "person-john-pierce",
+    "relationship": "collaborated_with",
+    "dateStart": "1940",
+    "dateEnd": "1960",
+    "evidence": "Bell Labs colleagues; Pierce helped popularize information theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shannon-weaver-collab",
+    "source": "person-claude-shannon",
+    "target": "person-warren-weaver",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "evidence": "Weaver wrote popular introduction to Shannon's 'Mathematical Theory of Communication'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shannon-bode-collab",
+    "source": "person-claude-shannon",
+    "target": "person-hendrik-bode",
+    "relationship": "collaborated_with",
+    "dateStart": "1940",
+    "evidence": "Wartime work on data smoothing; Bode's feedback analysis complemented Shannon",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-nyquist-shannon-influenced",
+    "source": "person-harry-nyquist",
+    "target": "person-claude-shannon",
+    "relationship": "influenced",
+    "evidence": "Shannon explicitly built on Nyquist's sampling theorem",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartley-shannon-influenced",
+    "source": "person-ralph-hartley",
+    "target": "person-claude-shannon",
+    "relationship": "influenced",
+    "evidence": "Shannon explicitly built on Hartley's 1928 'Transmission of Information'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shannon-bush-studied",
+    "source": "person-claude-shannon",
+    "target": "person-vannevar-bush",
+    "relationship": "studied_under",
+    "dateStart": "1936",
+    "dateEnd": "1940",
+    "evidence": "Bush supervised Shannon's master's thesis on switching circuits",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shannon-minsky-knows",
+    "source": "person-claude-shannon",
+    "target": "person-marvin-minsky",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Both attended Dartmouth Conference; later MIT colleagues",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-shannon-mccarthy-knows",
+    "source": "person-claude-shannon",
+    "target": "person-john-mccarthy",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Both attended Dartmouth Conference",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-shannon-rochester-collab",
+    "source": "person-claude-shannon",
+    "target": "person-nathaniel-rochester",
+    "relationship": "collaborated_with",
+    "dateStart": "1956",
+    "evidence": "Co-organized Dartmouth Conference",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-nyquist-bode-collab",
+    "source": "person-harry-nyquist",
+    "target": "person-hendrik-bode",
+    "relationship": "collaborated_with",
+    "dateStart": "1920",
+    "dateEnd": "1950",
+    "evidence": "Both at Bell Labs; Nyquist stability criterion used by Bode",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-nyquist-hartley-collab",
+    "source": "person-harry-nyquist",
+    "target": "person-ralph-hartley",
+    "relationship": "collaborated_with",
+    "dateStart": "1920",
+    "dateEnd": "1930",
+    "evidence": "Bell Labs colleagues working on transmission theory",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-fano-shannon-studied",
+    "source": "person-robert-fano",
+    "target": "person-claude-shannon",
+    "relationship": "studied_under",
+    "dateStart": "1945",
+    "evidence": "Fano studied information theory under Shannon's influence at MIT",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fano-huffman-taught",
+    "source": "person-robert-fano",
+    "target": "person-david-huffman",
+    "relationship": "taught",
+    "dateStart": "1951",
+    "dateEnd": "1952",
+    "evidence": "Huffman developed Huffman coding as assignment in Fano's MIT class",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turing-newman-studied",
+    "source": "person-alan-turing",
+    "target": "person-max-newman",
+    "relationship": "studied_under",
+    "dateStart": "1930",
+    "evidence": "Newman taught Turing at Cambridge; introduced him to Hilbert's problems",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turing-newman-collab",
+    "source": "person-alan-turing",
+    "target": "person-max-newman",
+    "relationship": "collaborated_with",
+    "dateStart": "1942",
+    "dateEnd": "1954",
+    "evidence": "Worked together at Bletchley Park; Newman recruited Turing",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turing-church-studied",
+    "source": "person-alan-turing",
+    "target": "person-alonzo-church",
+    "relationship": "studied_under",
+    "dateStart": "1936",
+    "dateEnd": "1938",
+    "evidence": "Church was Turing's PhD supervisor at Princeton",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turing-good-collab",
+    "source": "person-alan-turing",
+    "target": "person-i-j-good",
+    "relationship": "collaborated_with",
+    "dateStart": "1941",
+    "dateEnd": "1945",
+    "evidence": "Good worked under Turing at Bletchley Park on codebreaking",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turing-vonneumann-knows",
+    "source": "person-alan-turing",
+    "target": "person-john-von-neumann",
+    "relationship": "knows",
+    "dateStart": "1936",
+    "dateEnd": "1938",
+    "evidence": "Met at Princeton; von Neumann offered Turing a position",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turing-flowers-collab",
+    "source": "person-alan-turing",
+    "target": "person-tommy-flowers",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1945",
+    "evidence": "Flowers built Colossus based on ideas from Turing's circle",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-turing-ashby-knows",
+    "source": "person-alan-turing",
+    "target": "person-ross-ashby",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Both members of Ratio Club; discussed machine intelligence",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-turing-greywalter-knows",
+    "source": "person-alan-turing",
+    "target": "person-grey-walter",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Both Ratio Club members; discussed robotics and brain models",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-newman-flowers-collab",
+    "source": "person-max-newman",
+    "target": "person-tommy-flowers",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1945",
+    "evidence": "Newman headed group that used Flowers's Colossus",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newman-good-collab",
+    "source": "person-max-newman",
+    "target": "person-i-j-good",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1945",
+    "evidence": "Good worked in Newman's section at Bletchley",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-flowers-good-collab",
+    "source": "person-tommy-flowers",
+    "target": "person-i-j-good",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1945",
+    "evidence": "Both involved in Colossus development at Bletchley",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-vonneumann-mauchly-collab",
+    "source": "person-john-von-neumann",
+    "target": "person-john-mauchly",
+    "relationship": "collaborated_with",
+    "dateStart": "1944",
+    "dateEnd": "1946",
+    "evidence": "Von Neumann contributed to ENIAC/EDVAC design at Moore School",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonneumann-eckert-collab",
+    "source": "person-john-von-neumann",
+    "target": "person-presper-eckert",
+    "relationship": "collaborated_with",
+    "dateStart": "1944",
+    "dateEnd": "1946",
+    "evidence": "Collaborated on stored-program concept for EDVAC",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonneumann-goldstine-collab",
+    "source": "person-john-von-neumann",
+    "target": "person-herman-goldstine",
+    "relationship": "collaborated_with",
+    "dateStart": "1944",
+    "dateEnd": "1957",
+    "evidence": "Goldstine brought von Neumann to ENIAC; collaborated at IAS",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonneumann-bigelow-collab",
+    "source": "person-john-von-neumann",
+    "target": "person-julian-bigelow",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1957",
+    "evidence": "Bigelow was chief engineer for IAS computer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonneumann-morgenstern-collab",
+    "source": "person-john-von-neumann",
+    "target": "person-oskar-morgenstern",
+    "relationship": "collaborated_with",
+    "dateStart": "1944",
+    "evidence": "Co-authored 'Theory of Games and Economic Behavior'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonneumann-godel-knows",
+    "source": "person-john-von-neumann",
+    "target": "person-kurt-godel",
+    "relationship": "knows",
+    "dateStart": "1930",
+    "dateEnd": "1957",
+    "evidence": "Both at IAS Princeton; interacted on logic and computation",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mauchly-eckert-collab",
+    "source": "person-john-mauchly",
+    "target": "person-presper-eckert",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1950",
+    "evidence": "Co-designed ENIAC; co-founded Eckert-Mauchly Computer Corporation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mauchly-goldstine-collab",
+    "source": "person-john-mauchly",
+    "target": "person-herman-goldstine",
+    "relationship": "collaborated_with",
+    "dateStart": "1943",
+    "dateEnd": "1946",
+    "evidence": "Both involved in ENIAC project",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wilkes-vonneumann-influenced",
+    "source": "person-john-von-neumann",
+    "target": "person-maurice-wilkes",
+    "relationship": "influenced",
+    "dateStart": "1946",
+    "evidence": "Wilkes attended Moore School lectures; EDSAC based on EDVAC report",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wilkes-turing-knows",
+    "source": "person-maurice-wilkes",
+    "target": "person-alan-turing",
+    "relationship": "knows",
+    "dateStart": "1940",
+    "dateEnd": "1954",
+    "evidence": "Both in British computing; Wilkes at Cambridge, Turing at Manchester",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-newman-wilkes-knows",
+    "source": "person-max-newman",
+    "target": "person-maurice-wilkes",
+    "relationship": "knows",
+    "dateStart": "1940",
+    "dateEnd": "1950",
+    "evidence": "Both leaders of British computing at Cambridge and Manchester",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mcculloch-fremontsmith-collab",
+    "source": "person-warren-mcculloch",
+    "target": "person-frank-fremont-smith",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "McCulloch chaired conferences; Fremont-Smith enabled through Macy Foundation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mcculloch-frank-collab",
+    "source": "person-warren-mcculloch",
+    "target": "person-lawrence-frank",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Frank helped organize conferences and bridge natural/social sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fremontsmith-frank-collab",
+    "source": "person-frank-fremont-smith",
+    "target": "person-lawrence-frank",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Both Macy Foundation; organized conference series together",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonfoerster-mcculloch-collab",
+    "source": "person-heinz-von-foerster",
+    "target": "person-warren-mcculloch",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "dateEnd": "1953",
+    "evidence": "Von Foerster edited Macy proceedings; McCulloch chaired",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bateson-mead-related",
+    "source": "person-gregory-bateson",
+    "target": "person-margaret-mead",
+    "relationship": "related_to",
+    "dateStart": "1936",
+    "dateEnd": "1950",
+    "evidence": "Married from 1936-1950; continued collaborating after divorce",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bateson-mead-collab",
+    "source": "person-gregory-bateson",
+    "target": "person-margaret-mead",
+    "relationship": "collaborated_with",
+    "dateStart": "1936",
+    "dateEnd": "1978",
+    "evidence": "Joint fieldwork; Macy Conference participation; ongoing intellectual partnership",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bateson-mcculloch-collab",
+    "source": "person-gregory-bateson",
+    "target": "person-warren-mcculloch",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1969",
+    "evidence": "Core Macy participants; discussed mental systems",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mead-mcculloch-knows",
+    "source": "person-margaret-mead",
+    "target": "person-warren-mcculloch",
+    "relationship": "knows",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Macy Conference participant",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mead-vonfoerster-knows",
+    "source": "person-margaret-mead",
+    "target": "person-heinz-von-foerster",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1953",
+    "evidence": "Both at Macy Conferences",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-gerard-mcculloch-collab",
+    "source": "person-ralph-gerard",
+    "target": "person-warren-mcculloch",
+    "relationship": "collaborated_with",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Both neurophysiologists at Macy Conferences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gerard-bertalanffy-collab",
+    "source": "person-ralph-gerard",
+    "target": "person-ludwig-von-bertalanffy",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "evidence": "Co-founded Society for General Systems Research",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kluver-mcculloch-knows",
+    "source": "person-heinrich-kluver",
+    "target": "person-warren-mcculloch",
+    "relationship": "knows",
+    "dateStart": "1946",
+    "dateEnd": "1953",
+    "evidence": "Both at University of Chicago and Macy Conferences",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-lewin-mcculloch-knows",
+    "source": "person-kurt-lewin",
+    "target": "person-warren-mcculloch",
+    "relationship": "knows",
+    "dateStart": "1946",
+    "dateEnd": "1947",
+    "evidence": "Lewin attended early Macy meetings before his death in 1947",
+    "strength": "weak"
+  },
+  {
+    "id": "edge-mcculloch-lettvin-collab",
+    "source": "person-warren-mcculloch",
+    "target": "person-jerome-lettvin",
+    "relationship": "collaborated_with",
+    "dateStart": "1950",
+    "dateEnd": "1960",
+    "evidence": "Both at MIT; co-authored 'What the Frog's Eye Tells the Frog's Brain' (1959)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pitts-lettvin-collab",
+    "source": "person-walter-pitts",
+    "target": "person-jerome-lettvin",
+    "relationship": "collaborated_with",
+    "dateStart": "1950",
+    "evidence": "Co-authored frog's eye paper with McCulloch and Maturana",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lettvin-maturana-collab",
+    "source": "person-jerome-lettvin",
+    "target": "person-humberto-maturana",
+    "relationship": "collaborated_with",
+    "dateStart": "1959",
+    "evidence": "Co-authored 'What the Frog's Eye Tells the Frog's Brain'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mcculloch-maturana-collab",
+    "source": "person-warren-mcculloch",
+    "target": "person-humberto-maturana",
+    "relationship": "collaborated_with",
+    "dateStart": "1959",
+    "evidence": "Co-authored frog's eye paper; Maturana worked at MIT",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mcculloch-rosenblatt-influenced",
+    "source": "person-warren-mcculloch",
+    "target": "person-frank-rosenblatt",
+    "relationship": "influenced",
+    "dateStart": "1943",
+    "dateEnd": "1958",
+    "evidence": "McCulloch-Pitts paper directly inspired Rosenblatt's perceptron",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pitts-rosenblatt-influenced",
+    "source": "person-walter-pitts",
+    "target": "person-frank-rosenblatt",
+    "relationship": "influenced",
+    "dateStart": "1943",
+    "dateEnd": "1958",
+    "evidence": "McCulloch-Pitts logical calculus foundational to perceptron",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hebb-mcculloch-influenced",
+    "source": "person-donald-hebb",
+    "target": "person-warren-mcculloch",
+    "relationship": "influenced",
+    "dateStart": "1949",
+    "evidence": "Hebb's 'Organization of Behavior' influenced neural network thinking",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hebb-rosenblatt-influenced",
+    "source": "person-donald-hebb",
+    "target": "person-frank-rosenblatt",
+    "relationship": "influenced",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Hebbian learning rules influenced perceptron learning",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hebb-minsky-influenced",
+    "source": "person-donald-hebb",
+    "target": "person-marvin-minsky",
+    "relationship": "influenced",
+    "dateStart": "1949",
+    "dateEnd": "1960",
+    "evidence": "Hebb's work on neural learning influenced early AI",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-minsky-rosenblatt-opposed",
+    "source": "person-marvin-minsky",
+    "target": "person-frank-rosenblatt",
+    "relationship": "opposed",
+    "dateStart": "1969",
+    "evidence": "Minsky and Papert's 'Perceptrons' criticized Rosenblatt's neural network approach",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-papert-rosenblatt-opposed",
+    "source": "person-seymour-papert",
+    "target": "person-frank-rosenblatt",
+    "relationship": "opposed",
+    "dateStart": "1969",
+    "evidence": "Co-authored 'Perceptrons' critique",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-minsky-papert-collab",
+    "source": "person-marvin-minsky",
+    "target": "person-seymour-papert",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "dateEnd": "1980",
+    "evidence": "Co-founded MIT AI Lab; co-authored 'Perceptrons'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bates-ashby-collab",
+    "source": "person-john-bates",
+    "target": "person-ross-ashby",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "evidence": "Bates founded Ratio Club; Ashby was core member",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bates-greywalter-collab",
+    "source": "person-john-bates",
+    "target": "person-grey-walter",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Both founding Ratio Club members",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bates-turing-collab",
+    "source": "person-john-bates",
+    "target": "person-alan-turing",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Both Ratio Club members; discussed machine intelligence",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashby-greywalter-collab",
+    "source": "person-ross-ashby",
+    "target": "person-grey-walter",
+    "relationship": "collaborated_with",
+    "dateStart": "1940",
+    "dateEnd": "1970",
+    "evidence": "Both at British neurological institutes; Ratio Club; parallel work on brain models",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-barlow-turing-knows",
+    "source": "person-horace-barlow",
+    "target": "person-alan-turing",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Ratio Club members",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-barlow-ashby-knows",
+    "source": "person-horace-barlow",
+    "target": "person-ross-ashby",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Ratio Club members",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-uttley-turing-collab",
+    "source": "person-albert-uttley",
+    "target": "person-alan-turing",
+    "relationship": "collaborated_with",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Both at NPL and Ratio Club",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-uttley-ashby-knows",
+    "source": "person-albert-uttley",
+    "target": "person-ross-ashby",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Ratio Club members",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mackay-turing-knows",
+    "source": "person-donald-mackay",
+    "target": "person-alan-turing",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Ratio Club members; discussed information and brain",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mackay-ashby-knows",
+    "source": "person-donald-mackay",
+    "target": "person-ross-ashby",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Ratio Club members",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-woodward-turing-knows",
+    "source": "person-philip-woodward",
+    "target": "person-alan-turing",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1954",
+    "evidence": "Ratio Club members",
+    "strength": "weak"
+  },
+  {
+    "id": "edge-rushton-barlow-collab",
+    "source": "person-william-rushton",
+    "target": "person-horace-barlow",
+    "relationship": "collaborated_with",
+    "dateStart": "1950",
+    "dateEnd": "1970",
+    "evidence": "Both Cambridge visual physiologists",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-good-turing-collab",
+    "source": "person-i-j-good",
+    "target": "person-alan-turing",
+    "relationship": "collaborated_with",
+    "dateStart": "1941",
+    "dateEnd": "1954",
+    "evidence": "Bletchley Park; later Ratio Club member",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashby-beer-influenced",
+    "source": "person-ross-ashby",
+    "target": "person-stafford-beer",
+    "relationship": "influenced",
+    "dateStart": "1950",
+    "dateEnd": "1970",
+    "evidence": "Ashby's work foundational to Beer's management cybernetics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashby-pask-influenced",
+    "source": "person-ross-ashby",
+    "target": "person-gordon-pask",
+    "relationship": "influenced",
+    "dateStart": "1950",
+    "dateEnd": "1970",
+    "evidence": "Ashby influenced Pask's conversation theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashby-vonfoerster-collab",
+    "source": "person-ross-ashby",
+    "target": "person-heinz-von-foerster",
+    "relationship": "collaborated_with",
+    "dateStart": "1961",
+    "dateEnd": "1972",
+    "evidence": "Ashby joined von Foerster's BCL at Illinois",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pask-beer-collab",
+    "source": "person-gordon-pask",
+    "target": "person-stafford-beer",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "dateEnd": "1990",
+    "evidence": "Both British cyberneticians; worked on organizational cybernetics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pask-vonfoerster-collab",
+    "source": "person-gordon-pask",
+    "target": "person-heinz-von-foerster",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "dateEnd": "1990",
+    "evidence": "Both second-order cyberneticians; met at conferences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bertalanffy-boulding-collab",
+    "source": "person-ludwig-von-bertalanffy",
+    "target": "person-kenneth-boulding",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "evidence": "Co-founded Society for General Systems Research",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bertalanffy-gerard-collab",
+    "source": "person-ludwig-von-bertalanffy",
+    "target": "person-ralph-gerard",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "evidence": "Co-founded Society for General Systems Research",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bertalanffy-rapoport-collab",
+    "source": "person-ludwig-von-bertalanffy",
+    "target": "person-anatol-rapoport",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "evidence": "Co-founded Society for General Systems Research",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boulding-gerard-collab",
+    "source": "person-kenneth-boulding",
+    "target": "person-ralph-gerard",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "dateEnd": "1970",
+    "evidence": "Society for General Systems Research; both at Michigan",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boulding-rapoport-collab",
+    "source": "person-kenneth-boulding",
+    "target": "person-anatol-rapoport",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "dateEnd": "1970",
+    "evidence": "Both at Michigan; General Systems yearbook",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rapoport-gerard-collab",
+    "source": "person-anatol-rapoport",
+    "target": "person-ralph-gerard",
+    "relationship": "collaborated_with",
+    "dateStart": "1954",
+    "dateEnd": "1970",
+    "evidence": "Society for General Systems Research",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-forrester-meadows-taught",
+    "source": "person-jay-forrester",
+    "target": "person-donella-meadows",
+    "relationship": "taught",
+    "dateStart": "1960",
+    "dateEnd": "1970",
+    "evidence": "Meadows was Forrester's student at MIT",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-forrester-wiener-knows",
+    "source": "person-jay-forrester",
+    "target": "person-norbert-wiener",
+    "relationship": "knows",
+    "dateStart": "1950",
+    "evidence": "Both at MIT; Forrester's system dynamics influenced by cybernetics",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-beer-maturana-collab",
+    "source": "person-stafford-beer",
+    "target": "person-humberto-maturana",
+    "relationship": "collaborated_with",
+    "dateStart": "1970",
+    "dateEnd": "1973",
+    "evidence": "Maturana consulted on Cybersyn project in Chile",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beer-espejo-collab",
+    "source": "person-stafford-beer",
+    "target": "person-raul-espejo",
+    "relationship": "collaborated_with",
+    "dateStart": "1970",
+    "dateEnd": "1973",
+    "evidence": "Espejo was key team member on Cybersyn",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ackoff-churchman-collab",
+    "source": "person-russell-ackoff",
+    "target": "person-c-west-churchman",
+    "relationship": "collaborated_with",
+    "dateStart": "1950",
+    "dateEnd": "1990",
+    "evidence": "Both at Penn/Berkeley; operations research and systems",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ackoff-beer-knows",
+    "source": "person-russell-ackoff",
+    "target": "person-stafford-beer",
+    "relationship": "knows",
+    "dateStart": "1960",
+    "dateEnd": "1990",
+    "evidence": "Both management/systems theorists; met at conferences",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-checkland-ackoff-influenced",
+    "source": "person-russell-ackoff",
+    "target": "person-peter-checkland",
+    "relationship": "influenced",
+    "dateStart": "1970",
+    "dateEnd": "1980",
+    "evidence": "Checkland developed soft systems partly in response to Ackoff",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-checkland-beer-influenced",
+    "source": "person-stafford-beer",
+    "target": "person-peter-checkland",
+    "relationship": "influenced",
+    "dateStart": "1970",
+    "dateEnd": "1980",
+    "evidence": "Checkland's soft systems contrasted with Beer's VSM",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-vonfoerster-maturana-collab",
+    "source": "person-heinz-von-foerster",
+    "target": "person-humberto-maturana",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "dateEnd": "1970",
+    "evidence": "Maturana visited BCL; developed autopoiesis concept there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonfoerster-varela-collab",
+    "source": "person-heinz-von-foerster",
+    "target": "person-francisco-varela",
+    "relationship": "collaborated_with",
+    "dateStart": "1970",
+    "evidence": "Varela visited BCL; developed autopoiesis with Maturana",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonfoerster-glasersfeld-collab",
+    "source": "person-heinz-von-foerster",
+    "target": "person-ernst-von-glasersfeld",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "dateEnd": "1990",
+    "evidence": "Von Glasersfeld worked at BCL; developed radical constructivism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vonfoerster-bateson-knows",
+    "source": "person-heinz-von-foerster",
+    "target": "person-gregory-bateson",
+    "relationship": "knows",
+    "dateStart": "1949",
+    "dateEnd": "1980",
+    "evidence": "Met at Macy Conferences; Bateson's ideas influenced second-order cybernetics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maturana-varela-collab",
+    "source": "person-humberto-maturana",
+    "target": "person-francisco-varela",
+    "relationship": "collaborated_with",
+    "dateStart": "1970",
+    "dateEnd": "2001",
+    "evidence": "Co-developed autopoiesis concept; co-authored key works",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maturana-varela-taught",
+    "source": "person-humberto-maturana",
+    "target": "person-francisco-varela",
+    "relationship": "taught",
+    "dateStart": "1960",
+    "dateEnd": "1970",
+    "evidence": "Varela was Maturana's student in Chile",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-varela-vonfoerster-influenced",
+    "source": "person-heinz-von-foerster",
+    "target": "person-francisco-varela",
+    "relationship": "influenced",
+    "dateStart": "1970",
+    "evidence": "Von Foerster's second-order cybernetics influenced Varela",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-glasersfeld-piaget-influenced",
+    "source": "person-ernst-von-glasersfeld",
+    "target": "person-seymour-papert",
+    "relationship": "knows",
+    "dateStart": "1960",
+    "evidence": "Both influenced by Piaget's constructivism",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-glanville-pask-studied",
+    "source": "person-ranulph-glanville",
+    "target": "person-gordon-pask",
+    "relationship": "studied_under",
+    "dateStart": "1970",
+    "dateEnd": "1990",
+    "evidence": "Glanville was Pask's student; extended conversation theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-glanville-vonfoerster-influenced",
+    "source": "person-heinz-von-foerster",
+    "target": "person-ranulph-glanville",
+    "relationship": "influenced",
+    "dateStart": "1970",
+    "dateEnd": "2000",
+    "evidence": "Glanville developed second-order cybernetics for design",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mccarthy-minsky-collab",
+    "source": "person-john-mccarthy",
+    "target": "person-marvin-minsky",
+    "relationship": "collaborated_with",
+    "dateStart": "1956",
+    "dateEnd": "2011",
+    "evidence": "Co-organized Dartmouth Conference; lifelong colleagues",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mccarthy-rochester-collab",
+    "source": "person-john-mccarthy",
+    "target": "person-nathaniel-rochester",
+    "relationship": "collaborated_with",
+    "dateStart": "1956",
+    "evidence": "Rochester co-organized Dartmouth Conference",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-minsky-rochester-collab",
+    "source": "person-marvin-minsky",
+    "target": "person-nathaniel-rochester",
+    "relationship": "collaborated_with",
+    "dateStart": "1956",
+    "evidence": "Both at Dartmouth Conference",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-solomonoff-mccarthy-knows",
+    "source": "person-ray-solomonoff",
+    "target": "person-john-mccarthy",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Attended Dartmouth Conference",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-selfridge-mccarthy-knows",
+    "source": "person-oliver-selfridge",
+    "target": "person-john-mccarthy",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Attended Dartmouth Conference",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-selfridge-minsky-knows",
+    "source": "person-oliver-selfridge",
+    "target": "person-marvin-minsky",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Attended Dartmouth Conference; both at MIT",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-newell-simon-collab",
+    "source": "person-allen-newell",
+    "target": "person-herbert-simon",
+    "relationship": "collaborated_with",
+    "dateStart": "1956",
+    "dateEnd": "1992",
+    "evidence": "Created Logic Theorist and GPS; lifelong partnership",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-simon-mccarthy-knows",
+    "source": "person-herbert-simon",
+    "target": "person-john-mccarthy",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Both at Dartmouth Conference",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-simon-minsky-knows",
+    "source": "person-herbert-simon",
+    "target": "person-marvin-minsky",
+    "relationship": "knows",
+    "dateStart": "1956",
+    "evidence": "Both at Dartmouth Conference",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mccarthy-minsky-founded",
+    "source": "person-john-mccarthy",
+    "target": "person-marvin-minsky",
+    "relationship": "collaborated_with",
+    "dateStart": "1958",
+    "dateEnd": "1962",
+    "evidence": "Founded MIT AI Lab together before McCarthy left for Stanford",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-licklider-engelbart-influenced",
+    "source": "person-j-c-r-licklider",
+    "target": "person-douglas-engelbart",
+    "relationship": "influenced",
+    "dateStart": "1960",
+    "evidence": "Licklider funded Engelbart's augmentation research through ARPA",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-licklider-mccarthy-collab",
+    "source": "person-j-c-r-licklider",
+    "target": "person-john-mccarthy",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "evidence": "Licklider funded McCarthy's AI research",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-licklider-minsky-collab",
+    "source": "person-j-c-r-licklider",
+    "target": "person-marvin-minsky",
+    "relationship": "collaborated_with",
+    "dateStart": "1960",
+    "evidence": "Funded MIT AI Lab",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-engelbart-bush-influenced",
+    "source": "person-vannevar-bush",
+    "target": "person-douglas-engelbart",
+    "relationship": "influenced",
+    "dateStart": "1945",
+    "dateEnd": "1960",
+    "evidence": "Bush's 'As We May Think' inspired Engelbart's augmentation vision",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-samuel-mccarthy-knows",
+    "source": "person-arthur-samuel",
+    "target": "person-john-mccarthy",
+    "relationship": "knows",
+    "dateStart": "1950",
+    "dateEnd": "1960",
+    "evidence": "Both at IBM then Stanford",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-samuel-shannon-knows",
+    "source": "person-arthur-samuel",
+    "target": "person-claude-shannon",
+    "relationship": "knows",
+    "dateStart": "1950",
+    "evidence": "Both worked on game-playing programs at Bell Labs/IBM",
+    "strength": "weak"
+  },
+  {
+    "id": "edge-whitehead-russell-collab",
+    "source": "person-alfred-whitehead",
+    "target": "person-bertrand-russell",
+    "relationship": "collaborated_with",
+    "dateStart": "1903",
+    "dateEnd": "1913",
+    "evidence": "Co-authored 'Principia Mathematica'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-russell-pitts-corresponded",
+    "source": "person-bertrand-russell",
+    "target": "person-walter-pitts",
+    "relationship": "corresponded_with",
+    "dateStart": "1938",
+    "evidence": "Young Pitts wrote to Russell correcting his work; Russell responded",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-russell-godel-influenced",
+    "source": "person-bertrand-russell",
+    "target": "person-kurt-godel",
+    "relationship": "influenced",
+    "dateStart": "1910",
+    "dateEnd": "1931",
+    "evidence": "Russell's logicism was target of Gödel's incompleteness theorems",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-godel-turing-influenced",
+    "source": "person-kurt-godel",
+    "target": "person-alan-turing",
+    "relationship": "influenced",
+    "dateStart": "1931",
+    "dateEnd": "1936",
+    "evidence": "Gödel's incompleteness influenced Turing's computability work",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-church-turing-taught",
+    "source": "person-alonzo-church",
+    "target": "person-alan-turing",
+    "relationship": "taught",
+    "dateStart": "1936",
+    "dateEnd": "1938",
+    "evidence": "Church supervised Turing's PhD at Princeton",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gibbs-shannon-influenced",
+    "source": "person-josiah-gibbs",
+    "target": "person-claude-shannon",
+    "relationship": "influenced",
+    "dateStart": "1902",
+    "dateEnd": "1948",
+    "evidence": "Shannon explicitly modeled information entropy on Gibbs/Boltzmann",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boltzmann-shannon-influenced",
+    "source": "person-ludwig-boltzmann",
+    "target": "person-claude-shannon",
+    "relationship": "influenced",
+    "dateStart": "1906",
+    "dateEnd": "1948",
+    "evidence": "Boltzmann entropy formula inspired information entropy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boltzmann-wiener-influenced",
+    "source": "person-ludwig-boltzmann",
+    "target": "person-norbert-wiener",
+    "relationship": "influenced",
+    "dateStart": "1906",
+    "dateEnd": "1948",
+    "evidence": "Wiener's cybernetics drew on statistical mechanics",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-peirce-bateson-influenced",
+    "source": "person-charles-peirce",
+    "target": "person-gregory-bateson",
+    "relationship": "influenced",
+    "dateStart": "1914",
+    "dateEnd": "1980",
+    "evidence": "Peirce's semiotics influenced Bateson's communication theory",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-whitehead-bateson-influenced",
+    "source": "person-alfred-whitehead",
+    "target": "person-gregory-bateson",
+    "relationship": "influenced",
+    "dateStart": "1947",
+    "dateEnd": "1980",
+    "evidence": "Whitehead's process philosophy influenced Bateson",
+    "strength": "weak"
+  },
+  {
+    "id": "edge-cannon-wiener-influenced",
+    "source": "person-walter-cannon",
+    "target": "person-norbert-wiener",
+    "relationship": "influenced",
+    "dateStart": "1932",
+    "dateEnd": "1945",
+    "evidence": "Cannon's homeostasis concept influenced cybernetic feedback",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cannon-ashby-influenced",
+    "source": "person-walter-cannon",
+    "target": "person-ross-ashby",
+    "relationship": "influenced",
+    "dateStart": "1932",
+    "dateEnd": "1952",
+    "evidence": "Cannon's homeostasis influenced Ashby's 'ultrastability'",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bush-wiener-knows",
+    "source": "person-vannevar-bush",
+    "target": "person-norbert-wiener",
+    "relationship": "knows",
+    "dateStart": "1920",
+    "dateEnd": "1960",
+    "evidence": "Both at MIT; collaborated on differential analyzer",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-turing-vonneumann-influenced",
+    "source": "person-alan-turing",
+    "target": "person-john-von-neumann",
+    "relationship": "influenced",
+    "evidence": "Von Neumann cited Turing's 1936 paper in computer design",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mcculloch-minsky-influenced",
+    "source": "person-warren-mcculloch",
+    "target": "person-marvin-minsky",
+    "relationship": "influenced",
+    "dateStart": "1943",
+    "dateEnd": "1969",
+    "evidence": "McCulloch-Pitts paper foundational to neural network approaches in AI",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bateson-vonfoerster-influenced",
+    "source": "person-gregory-bateson",
+    "target": "person-heinz-von-foerster",
+    "relationship": "influenced",
+    "dateStart": "1949",
+    "dateEnd": "1980",
+    "evidence": "Bateson's ideas on mental systems influenced second-order cybernetics",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-papert-piaget-studied",
+    "source": "person-seymour-papert",
+    "target": "person-jean-piaget",
+    "relationship": "studied_under",
+    "dateStart": "1958",
+    "dateEnd": "1963",
+    "evidence": "Papert worked with Piaget in Geneva before MIT",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wiener-authored-cybernetics",
+    "source": "person-norbert-wiener",
+    "target": "object-cybernetics-wiener",
+    "relationship": "authored",
+    "dateStart": "1948",
+    "evidence": "Wiener wrote the foundational text of cybernetics"
+  },
+  {
+    "id": "edge-shannon-authored-information",
+    "source": "person-claude-shannon",
+    "target": "object-information-theory-shannon",
+    "relationship": "authored",
+    "dateStart": "1948",
+    "evidence": "Shannon's foundational paper on information theory"
+  },
+  {
+    "id": "edge-turing-authored-computable",
+    "source": "person-alan-turing",
+    "target": "object-computable-numbers-turing",
+    "relationship": "authored",
+    "dateStart": "1936",
+    "evidence": "Turing's foundational paper on computation"
+  },
+  {
+    "id": "edge-turing-authored-computing",
+    "source": "person-alan-turing",
+    "target": "object-computing-machinery-turing",
+    "relationship": "authored",
+    "dateStart": "1950",
+    "evidence": "Turing's paper proposing the Turing Test"
+  },
+  {
+    "id": "edge-mcculloch-authored-logical",
+    "source": "person-warren-mcculloch",
+    "target": "object-logical-calculus-mcculloch-pitts",
+    "relationship": "authored",
+    "dateStart": "1943",
+    "evidence": "Co-authored with Pitts"
+  },
+  {
+    "id": "edge-pitts-authored-logical",
+    "source": "person-walter-pitts",
+    "target": "object-logical-calculus-mcculloch-pitts",
+    "relationship": "authored",
+    "dateStart": "1943",
+    "evidence": "Co-authored with McCulloch"
+  },
+  {
+    "id": "edge-ashby-authored-design",
+    "source": "person-ross-ashby",
+    "target": "object-design-brain-ashby",
+    "relationship": "authored",
+    "dateStart": "1952",
+    "evidence": "Ashby's foundational cybernetics text"
+  },
+  {
+    "id": "edge-ashby-authored-intro",
+    "source": "person-ross-ashby",
+    "target": "object-intro-cybernetics-ashby",
+    "relationship": "authored",
+    "dateStart": "1956",
+    "evidence": "Ashby's textbook on cybernetics"
+  },
+  {
+    "id": "edge-bateson-authored-steps",
+    "source": "person-gregory-bateson",
+    "target": "object-steps-ecology-mind-bateson",
+    "relationship": "authored",
+    "dateStart": "1972",
+    "evidence": "Bateson's collected essays"
+  },
+  {
+    "id": "edge-vonneumann-authored-edvac",
+    "source": "person-john-von-neumann",
+    "target": "object-edvac-report-neumann",
+    "relationship": "authored",
+    "dateStart": "1945",
+    "evidence": "Von Neumann's report on stored-program computing"
+  },
+  {
+    "id": "edge-vonneumann-authored-games",
+    "source": "person-john-von-neumann",
+    "target": "object-game-theory-neumann-morgenstern",
+    "relationship": "authored",
+    "dateStart": "1944",
+    "evidence": "Co-authored with Morgenstern"
+  },
+  {
+    "id": "edge-beer-authored-brain",
+    "source": "person-stafford-beer",
+    "target": "object-brain-firm-beer",
+    "relationship": "authored",
+    "dateStart": "1972",
+    "evidence": "Beer's presentation of the Viable System Model"
+  },
+  {
+    "id": "edge-maturana-authored-autopoiesis",
+    "source": "person-humberto-maturana",
+    "target": "object-autopoiesis-cognition",
+    "relationship": "authored",
+    "dateStart": "1980",
+    "evidence": "Co-authored with Varela"
+  },
+  {
+    "id": "edge-varela-authored-autopoiesis",
+    "source": "person-francisco-varela",
+    "target": "object-autopoiesis-cognition",
+    "relationship": "authored",
+    "dateStart": "1980",
+    "evidence": "Co-authored with Maturana"
+  },
+  {
+    "id": "edge-vonfoerster-authored-observing",
+    "source": "person-heinz-von-foerster",
+    "target": "object-observing-systems-foerster",
+    "relationship": "authored",
+    "dateStart": "1981",
+    "evidence": "Von Foerster's collected papers on second-order cybernetics"
+  },
+  {
+    "id": "edge-minsky-authored-society",
+    "source": "person-marvin-minsky",
+    "target": "object-society-mind-minsky",
+    "relationship": "authored",
+    "dateStart": "1986",
+    "evidence": "Minsky's theory of mind"
+  },
+  {
+    "id": "edge-licklider-authored-symbiosis",
+    "source": "person-j-c-r-licklider",
+    "target": "object-man-computer-symbiosis-licklider",
+    "relationship": "authored",
+    "dateStart": "1960",
+    "evidence": "Licklider's vision for interactive computing"
+  },
+  {
+    "id": "edge-meadows-authored-limits",
+    "source": "person-donella-meadows",
+    "target": "object-limits-growth-meadows",
+    "relationship": "authored",
+    "dateStart": "1972",
+    "evidence": "Lead author of Limits to Growth"
+  },
+  {
+    "id": "edge-wiener-worked-mit",
+    "source": "person-norbert-wiener",
+    "target": "location-mit",
+    "relationship": "worked_at",
+    "dateStart": "1919",
+    "dateEnd": "1964",
+    "evidence": "Wiener spent his entire career at MIT"
+  },
+  {
+    "id": "edge-shannon-worked-bell",
+    "source": "person-claude-shannon",
+    "target": "location-bell-labs",
+    "relationship": "worked_at",
+    "dateStart": "1941",
+    "dateEnd": "1972",
+    "evidence": "Shannon developed information theory at Bell Labs"
+  },
+  {
+    "id": "edge-vonneumann-worked-ias",
+    "source": "person-john-von-neumann",
+    "target": "location-ias-princeton",
+    "relationship": "worked_at",
+    "dateStart": "1933",
+    "dateEnd": "1957",
+    "evidence": "Von Neumann was professor at IAS"
+  },
+  {
+    "id": "edge-turing-worked-bletchley",
+    "source": "person-alan-turing",
+    "target": "location-bletchley-park",
+    "relationship": "worked_at",
+    "dateStart": "1939",
+    "dateEnd": "1945",
+    "evidence": "Turing worked on codebreaking at Bletchley Park"
+  },
+  {
+    "id": "edge-vonfoerster-founded-bcl",
+    "source": "person-heinz-von-foerster",
+    "target": "entity-bcl",
+    "relationship": "founded",
+    "dateStart": "1958",
+    "evidence": "Von Foerster founded the Biological Computer Laboratory"
+  },
+  {
+    "id": "edge-mccarthy-founded-dartmouth",
+    "source": "person-john-mccarthy",
+    "target": "entity-dartmouth-conference",
+    "relationship": "founded",
+    "dateStart": "1956",
+    "evidence": "McCarthy was primary organizer of Dartmouth Conference"
+  },
+  {
+    "id": "edge-mcculloch-founded-macy",
+    "source": "person-warren-mcculloch",
+    "target": "entity-macy-conferences",
+    "relationship": "founded",
+    "dateStart": "1946",
+    "evidence": "McCulloch was chair of Macy Conferences"
+  },
+  {
+    "id": "edge-bates-founded-ratio",
+    "source": "person-john-bates",
+    "target": "entity-ratio-club",
+    "relationship": "founded",
+    "dateStart": "1949",
+    "evidence": "Bates founded the Ratio Club"
+  },
+  {
+    "id": "edge-bertalanffy-founded-sgsr",
+    "source": "person-ludwig-von-bertalanffy",
+    "target": "entity-sgsr",
+    "relationship": "founded",
+    "dateStart": "1954",
+    "evidence": "Von Bertalanffy co-founded Society for General Systems Research"
+  },
+  {
+    "id": "edge-minsky-member-mitai",
+    "source": "person-marvin-minsky",
+    "target": "entity-mit-ai-lab",
+    "relationship": "founded",
+    "dateStart": "1959",
+    "evidence": "Minsky co-founded MIT AI Lab"
+  },
+  {
+    "id": "edge-beer-led-cybersyn",
+    "source": "person-stafford-beer",
+    "target": "entity-cybersyn",
+    "relationship": "led",
+    "dateStart": "1971",
+    "dateEnd": "1973",
+    "evidence": "Beer was leader of Cybersyn project"
+  }
+]

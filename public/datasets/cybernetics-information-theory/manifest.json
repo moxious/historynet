@@ -1,0 +1,43 @@
+{
+  "id": "cybernetics-information-theory",
+  "name": "Cybernetics & Information Theory",
+  "description": "The revolutionary intellectual network that emerged in the 1940s around cybernetics, information theory, and systems thinking. Traces the interconnected developments in feedback systems, communication theory, computation, and their applications from the Macy Conferences through the foundations of artificial intelligence. Includes Norbert Wiener, Claude Shannon, Alan Turing, John von Neumann, and the interdisciplinary communities that forged our modern understanding of information, control, and complex systems.",
+  "lastUpdated": "2026-01-18",
+  "version": "1.0.0",
+  "author": "HistoryNet Research",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 176,
+  "edgeCount": 179,
+  "timePeriod": {
+    "start": "1839",
+    "end": "2021"
+  },
+  "geographicFocus": [
+    "United States",
+    "United Kingdom",
+    "Chile",
+    "Austria"
+  ],
+  "themes": [
+    "Cybernetics",
+    "Information Theory",
+    "Computing",
+    "Artificial Intelligence",
+    "Systems Theory",
+    "Neural Networks",
+    "Cognitive Science"
+  ],
+  "customRelationshipTypes": [],
+  "sources": [
+    "Steve J. Heims, The Cybernetics Group (1991)",
+    "Jimmy Soni & Rob Goodman, A Mind at Play (2017)",
+    "Jack Copeland, Turing: Pioneer of the Information Age (2012)",
+    "Herman Goldstine, The Computer from Pascal to von Neumann (1972)",
+    "Andrew Pickering, The Cybernetic Brain (2010)",
+    "Stanford Encyclopedia of Philosophy",
+    "MacTutor History of Mathematics Archive",
+    "Computer History Museum",
+    "IEEE History Center"
+  ]
+}
