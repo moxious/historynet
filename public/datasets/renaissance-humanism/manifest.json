@@ -1,0 +1,29 @@
+{
+  "id": "renaissance-humanism",
+  "name": "Renaissance Humanism",
+  "description": "Key figures of the Renaissance humanist movement (c.1300-1600), including Italian pioneers like Petrarch and Boccaccio, Florentine Neoplatonists like Ficino and Pico della Mirandola, Northern Christian humanists like Erasmus and Thomas More, and the scholars, patrons, and institutions that shaped European intellectual life.",
+  "lastUpdated": "2026-01-18",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 198,
+  "edgeCount": 250,
+  "customRelationshipTypes": [
+    {
+      "type": "patronized",
+      "description": "Patron financially or politically supported the target individual",
+      "directed": true
+    },
+    {
+      "type": "patronized_by",
+      "description": "Individual was supported by patron",
+      "directed": true
+    },
+    {
+      "type": "published",
+      "description": "Printer/publisher published works by the target",
+      "directed": true
+    }
+  ]
+}
