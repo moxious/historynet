@@ -1,5 +1,6 @@
 /**
  * Styles for TimelineLayout component
+ * Event-based single-column timeline with alternating labels
  */
 
 .timeline-layout {
@@ -24,12 +25,12 @@
   pointer-events: none;
 }
 
-.timeline-grid-decade,
-.timeline-grid-century {
+.timeline-grid-major,
+.timeline-grid-minor {
   pointer-events: none;
 }
 
-.timeline-year-label {
+.timeline-tick-label {
   font-family: var(--font-family-sans, system-ui, sans-serif);
   user-select: none;
   pointer-events: none;
@@ -42,63 +43,91 @@
 }
 
 .timeline-edge:hover {
-  stroke-opacity: 0.8;
-  stroke-width: 2.5;
+  stroke-opacity: 0.9;
+  stroke-width: 3;
 }
 
 .timeline-edge.selected {
-  stroke-opacity: 0.8;
-  stroke-width: 2.5;
+  stroke-opacity: 0.9;
+  stroke-width: 3;
 }
 
-/* Nodes */
-.timeline-node {
+/* Events */
+.timeline-event {
   cursor: pointer;
   transition: opacity 0.2s;
 }
 
-.timeline-node-shape {
+.timeline-event-marker {
   transition: stroke 0.15s, stroke-width 0.15s, filter 0.2s;
 }
 
-.timeline-node:hover .timeline-node-shape {
+.timeline-event:hover .timeline-event-marker {
   stroke: #1e293b;
   stroke-width: 3;
   filter: brightness(1.1);
 }
 
-.timeline-node.selected .timeline-node-shape {
+.timeline-event.selected .timeline-event-marker {
   stroke: #1e293b;
   stroke-width: 3;
 }
 
-.timeline-node.search-match .timeline-node-shape {
+.timeline-event.search-match .timeline-event-marker {
   stroke: #fbbf24;
   stroke-width: 3;
 }
 
-/* Labels */
-.timeline-node-label {
+/* Event connector lines */
+.timeline-event-connector {
+  pointer-events: none;
+  stroke-dasharray: 2,2;
+}
+
+/* Event labels using foreignObject */
+.timeline-event-label-container {
+  pointer-events: none;
+  overflow: visible;
+}
+
+.timeline-event-label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   font-family: var(--font-family-sans, system-ui, sans-serif);
-  font-weight: 500;
-  pointer-events: none;
-  user-select: none;
-  text-shadow:
-    1px 1px 2px rgba(255, 255, 255, 0.9),
-    -1px -1px 2px rgba(255, 255, 255, 0.9),
-    1px -1px 2px rgba(255, 255, 255, 0.9),
-    -1px 1px 2px rgba(255, 255, 255, 0.9);
   transition: opacity 0.2s;
+  max-width: 100%;
 }
 
-/* Lifespan bars */
-.timeline-lifespan {
-  pointer-events: none;
+.timeline-event-label--left {
+  text-align: right;
+  align-items: flex-end;
 }
 
-/* Death markers */
-.timeline-death-marker {
-  pointer-events: none;
+.timeline-event-label--right {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.timeline-event-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 180px;
+}
+
+.timeline-event-meta {
+  font-size: 10px;
+  color: #64748b;
+  font-weight: 400;
 }
 
 /* Undated section */
@@ -108,9 +137,31 @@
 
 .timeline-undated-label {
   font-family: var(--font-family-sans, system-ui, sans-serif);
-  font-style: italic;
   user-select: none;
   pointer-events: none;
+}
+
+.timeline-undated-event {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.timeline-undated-event:hover .timeline-event-marker {
+  stroke: #1e293b;
+  stroke-width: 3;
+  filter: brightness(1.1);
+}
+
+.timeline-undated-event.selected .timeline-event-marker {
+  stroke: #1e293b;
+  stroke-width: 3;
+}
+
+.timeline-undated-node-label {
+  font-family: var(--font-family-sans, system-ui, sans-serif);
+  font-weight: 500;
+  pointer-events: none;
+  user-select: none;
 }
 
 /* Timeline break indicators (gap compression) */
@@ -121,10 +172,6 @@
 .timeline-break-zigzag {
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.timeline-break-line {
-  opacity: 0.6;
 }
 
 .timeline-break-label {
@@ -178,7 +225,7 @@
   outline-offset: 2px;
 }
 
-/* Legend - Consistent with graph view (TL28-TL34) */
+/* Legend */
 .timeline-layout__legend {
   position: absolute;
   bottom: var(--spacing-md, 16px);
@@ -212,6 +259,23 @@
   flex-shrink: 0;
 }
 
+/* Zoom indicator */
+.timeline-layout__zoom-indicator {
+  position: absolute;
+  top: var(--spacing-md, 16px);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 12px;
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 11px;
+  color: var(--color-text-muted, #6b7280);
+  z-index: 10;
+  pointer-events: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .timeline-layout__legend {
@@ -231,5 +295,22 @@
   .timeline-layout__control-btn {
     width: 32px;
     height: 32px;
+  }
+
+  .timeline-event-title {
+    font-size: 11px;
+    max-width: 140px;
+  }
+
+  .timeline-event-label {
+    padding: 3px 6px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .timeline-layout__controls,
+  .timeline-layout__legend {
+    display: none;
   }
 }

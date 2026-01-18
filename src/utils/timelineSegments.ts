@@ -360,3 +360,160 @@ function createPiecewiseScale(
     isSingleSegment: false,
   };
 }
+
+/**
+ * Tick granularity levels for zoom-dependent axis rendering
+ */
+export type TickGranularity = 'decade' | 'year' | 'month' | 'day';
+
+/**
+ * Information about a single axis tick
+ */
+export interface TickInfo {
+  /** Decimal year value for positioning */
+  value: number;
+  /** Display label */
+  label: string;
+  /** Whether this is a major tick (emphasized) */
+  isMajor: boolean;
+  /** The granularity level of this tick */
+  granularity: TickGranularity;
+}
+
+/**
+ * Determine the appropriate tick granularity based on zoom scale
+ * 
+ * @param zoomScale Current zoom scale factor
+ * @returns The granularity to use for axis ticks
+ */
+export function getTickGranularity(zoomScale: number): TickGranularity {
+  if (zoomScale < 0.8) return 'decade';
+  if (zoomScale < 2.0) return 'year';
+  if (zoomScale < 4.0) return 'month';
+  return 'day';
+}
+
+/**
+ * Month names for axis labels
+ */
+const MONTH_NAMES = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+/**
+ * Convert year, month, day to decimal year for precise positioning
+ * 
+ * @param year Full year
+ * @param month Month (1-12), defaults to 1
+ * @param day Day (1-31), defaults to 1
+ * @returns Decimal year (e.g., 1789.5 for July 1789)
+ */
+export function dateToDecimalYear(year: number, month: number = 1, day: number = 1): number {
+  // Clamp month and day to valid ranges
+  const m = Math.max(1, Math.min(12, month));
+  const d = Math.max(1, Math.min(31, day));
+  
+  // Calculate day of year (approximate, ignoring leap years for simplicity)
+  const daysInMonths = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
+  const dayOfYear = daysInMonths[m - 1] + d;
+  
+  return year + (dayOfYear - 1) / 365;
+}
+
+/**
+ * Generate axis ticks for a year range at the specified granularity
+ * 
+ * @param yearStart Start year (inclusive)
+ * @param yearEnd End year (inclusive)
+ * @param granularity Tick granularity level
+ * @returns Array of tick information
+ */
+export function generateTicks(
+  yearStart: number,
+  yearEnd: number,
+  granularity: TickGranularity
+): TickInfo[] {
+  const ticks: TickInfo[] = [];
+  
+  switch (granularity) {
+    case 'decade': {
+      const startDecade = Math.floor(yearStart / 10) * 10;
+      const endDecade = Math.ceil(yearEnd / 10) * 10;
+      
+      for (let year = startDecade; year <= endDecade; year += 10) {
+        if (year >= yearStart && year <= yearEnd) {
+          ticks.push({
+            value: year,
+            label: `${year}`,
+            isMajor: year % 100 === 0,
+            granularity: 'decade',
+          });
+        }
+      }
+      break;
+    }
+    
+    case 'year': {
+      for (let year = Math.floor(yearStart); year <= Math.ceil(yearEnd); year++) {
+        ticks.push({
+          value: year,
+          label: `${year}`,
+          isMajor: year % 10 === 0,
+          granularity: 'year',
+        });
+      }
+      break;
+    }
+    
+    case 'month': {
+      for (let year = Math.floor(yearStart); year <= Math.ceil(yearEnd); year++) {
+        for (let month = 1; month <= 12; month++) {
+          const decimalYear = dateToDecimalYear(year, month, 1);
+          if (decimalYear >= yearStart && decimalYear <= yearEnd) {
+            ticks.push({
+              value: decimalYear,
+              label: month === 1 ? `${year}` : MONTH_NAMES[month - 1],
+              isMajor: month === 1,
+              granularity: 'month',
+            });
+          }
+        }
+      }
+      break;
+    }
+    
+    case 'day': {
+      // For day-level, only generate a reasonable subset to avoid performance issues
+      // Show every day but only label 1st, 10th, 20th
+      const daysPerMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+      
+      for (let year = Math.floor(yearStart); year <= Math.ceil(yearEnd); year++) {
+        for (let month = 1; month <= 12; month++) {
+          const daysInMonth = daysPerMonth[month - 1];
+          for (let day = 1; day <= daysInMonth; day++) {
+            const decimalYear = dateToDecimalYear(year, month, day);
+            if (decimalYear >= yearStart && decimalYear <= yearEnd) {
+              const isFirstOfMonth = day === 1;
+              const isLabelDay = day === 1 || day === 10 || day === 20;
+              
+              let label = '';
+              if (isFirstOfMonth) {
+                label = month === 1 ? `${year}` : MONTH_NAMES[month - 1];
+              } else if (isLabelDay) {
+                label = `${day}`;
+              }
+              
+              ticks.push({
+                value: decimalYear,
+                label,
+                isMajor: isFirstOfMonth,
+                granularity: 'day',
+              });
+            }
+          }
+        }
+      }
+      break;
+    }
+  }
+  
+  return ticks;
+}

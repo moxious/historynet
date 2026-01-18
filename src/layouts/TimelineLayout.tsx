@@ -1,66 +1,119 @@
 /**
  * Timeline layout using D3.js
- * Displays nodes chronologically on a vertical timeline
+ * Displays events chronologically on a single-column vertical timeline
+ * with alternating left/right labels
  */
 
 import { useEffect, useRef, useCallback, useState, useMemo } from 'react';
 import * as d3 from 'd3';
-import type { GraphNode, NodeType, PersonNode } from '@types';
+import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
 import { isPersonNode } from '@types';
-import { getNodeColor, getEdgeColor, parseYear, createSegmentedScale } from '@utils';
-import type { SegmentedScale } from '@utils';
+import { getNodeColor, getEdgeColor, parseYear, createSegmentedScale, getTickGranularity, generateTicks } from '@utils';
+import type { SegmentedScale, TickGranularity } from '@utils';
 import './TimelineLayout.css';
 
 /**
- * Node positioned on the timeline with computed coordinates
+ * Event type for timeline display
  */
-interface TimelineNode {
+type EventType = 'birth' | 'death' | 'created' | 'founded';
+
+/**
+ * A discrete event on the timeline (birth, death, created, founded)
+ */
+interface TimelineEvent {
+  /** Unique ID for the event (nodeId-eventType) */
   id: string;
-  type: NodeType;
+  /** Year of the event */
+  year: number;
+  /** Month (1-12) for sub-year precision, optional */
+  month?: number;
+  /** Day (1-31) for precise dates, optional */
+  day?: number;
+  /** Type of event */
+  type: EventType;
+  /** ID of the node this event belongs to */
+  nodeId: string;
+  /** Node type (person, object, location, entity) */
+  nodeType: NodeType;
+  /** Display title */
   title: string;
+  /** Reference to the original node */
   originalNode: GraphNode;
-  /** Year value for positioning (from dateStart) */
-  year: number | null;
-  /** End year for persons (death date) */
-  yearEnd: number | null;
-  /** Computed x position (lane) */
-  x?: number;
-  /** Computed y position (based on year) */
+  /** Computed Y position */
   y?: number;
-  /** Lane assignment for horizontal spreading */
-  lane?: number;
+  /** Whether label is on the left (true) or right (false) */
+  isLeft?: boolean;
+  /** Stacking offset for events at the same date */
+  stackOffset?: number;
 }
 
 /**
- * Edge on the timeline
+ * Edge connecting events on the timeline
  */
 interface TimelineEdge {
   id: string;
   relationship: string;
-  source: TimelineNode;
-  target: TimelineNode;
+  sourceNodeId: string;
+  targetNodeId: string;
 }
 
-const NODE_SIZE = 32;
-const LANE_WIDTH = 180;
-// Left margin accounts for filter panel (max 280px) + spacing
+/**
+ * Node reference for edge drawing (maps node to its events)
+ */
+interface NodeEventMap {
+  nodeId: string;
+  birthEvent?: TimelineEvent;
+  deathEvent?: TimelineEvent;
+  primaryEvent?: TimelineEvent; // First event for non-person nodes
+}
+
+// Layout constants
+const EVENT_MARKER_SIZE = 10;
+const LABEL_WIDTH = 220;
+const LABEL_OFFSET = 20; // Distance from axis to label
+// Left margin accounts for filter panel (max 280px) + spacing + left labels
 const LEFT_MARGIN = 300;
-const AXIS_WIDTH = 80;
+const AXIS_X = LEFT_MARGIN + LABEL_WIDTH + LABEL_OFFSET + 20;
 const UNDATED_SECTION_HEIGHT = 150;
 const ZOOM_MIN = 0.3;
-const ZOOM_MAX = 5;
-// Initial zoom scale - show content at readable size
+const ZOOM_MAX = 8; // Increased for finer granularity
 const INITIAL_ZOOM_SCALE = 0.8;
+const EVENT_VERTICAL_SPACING = 24; // Minimum vertical spacing between stacked events
 
 // Timeline segmentation settings
-const GAP_THRESHOLD = 40; // Years without data to trigger a timeline cut
-const MIN_SEGMENT_HEIGHT = 100; // Minimum pixels per segment
-const BREAK_INDICATOR_HEIGHT = 30; // Height for break visualization between segments
+const GAP_THRESHOLD = 40;
+const MIN_SEGMENT_HEIGHT = 100;
+const BREAK_INDICATOR_HEIGHT = 30;
+
+/**
+ * Get the event type label for display
+ */
+function getEventTypeLabel(type: EventType): string {
+  switch (type) {
+    case 'birth': return 'Born';
+    case 'death': return 'Died';
+    case 'created': return 'Created';
+    case 'founded': return 'Founded';
+  }
+}
+
+/**
+ * Get event color based on event type
+ */
+function getEventColor(type: EventType, nodeType: NodeType): string {
+  // Use the node's base color but vary by event type
+  const baseColor = getNodeColor(nodeType);
+  if (type === 'death') {
+    // Slightly darker/muted for death events
+    return baseColor;
+  }
+  return baseColor;
+}
 
 /**
  * TimelineLayout component
- * Renders nodes on a vertical timeline with zoom/pan interactions
+ * Renders events on a single-column vertical timeline with alternating labels
  */
 export function TimelineLayout({
   data,
@@ -75,114 +128,131 @@ export function TimelineLayout({
   const svgRef = useRef<SVGSVGElement>(null);
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+  const [currentZoomScale, setCurrentZoomScale] = useState(INITIAL_ZOOM_SCALE);
+  const [currentGranularity, setCurrentGranularity] = useState<TickGranularity>('decade');
 
-  // Process nodes and calculate timeline positions
-  const { timelineNodes, timelineEdges, yearRange, undatedNodes, datedYears } = useMemo(() => {
-    const datedNodes: TimelineNode[] = [];
-    const undated: TimelineNode[] = [];
+  // Process nodes into discrete events
+  const { events, timelineEdges, yearRange, undatedNodes, datedYears, nodeEventMap } = useMemo(() => {
+    const allEvents: TimelineEvent[] = [];
+    const undated: GraphNode[] = [];
     let minYear = Infinity;
     let maxYear = -Infinity;
+    const nodeToEvents = new Map<string, NodeEventMap>();
 
-    // Convert GraphNodes to TimelineNodes
+    // Convert GraphNodes to TimelineEvents
     for (const node of data.nodes) {
-      const year = parseYear(node.dateStart);
-      let yearEnd: number | null = null;
+      const startYear = parseYear(node.dateStart);
+      const endYear = parseYear(node.dateEnd);
+
+      // Track for edges
+      const eventMap: NodeEventMap = { nodeId: node.id };
 
       if (isPersonNode(node)) {
-        yearEnd = parseYear((node as PersonNode).dateEnd);
+        // Person nodes get birth and death events
+        if (startYear !== null) {
+          const birthEvent: TimelineEvent = {
+            id: `${node.id}-birth`,
+            year: startYear,
+            type: 'birth',
+            nodeId: node.id,
+            nodeType: node.type,
+            title: node.title,
+            originalNode: node,
+          };
+          allEvents.push(birthEvent);
+          eventMap.birthEvent = birthEvent;
+          eventMap.primaryEvent = birthEvent;
+          minYear = Math.min(minYear, startYear);
+          maxYear = Math.max(maxYear, startYear);
+        }
+
+        if (endYear !== null) {
+          const deathEvent: TimelineEvent = {
+            id: `${node.id}-death`,
+            year: endYear,
+            type: 'death',
+            nodeId: node.id,
+            nodeType: node.type,
+            title: node.title,
+            originalNode: node,
+          };
+          allEvents.push(deathEvent);
+          eventMap.deathEvent = deathEvent;
+          minYear = Math.min(minYear, endYear);
+          maxYear = Math.max(maxYear, endYear);
+        }
+
+        if (startYear === null && endYear === null) {
+          undated.push(node);
+        }
       } else {
-        yearEnd = parseYear(node.dateEnd);
+        // Object/Location/Entity nodes get a single event
+        if (startYear !== null) {
+          const eventType: EventType = node.type === 'object' ? 'created' : 'founded';
+          const event: TimelineEvent = {
+            id: `${node.id}-${eventType}`,
+            year: startYear,
+            type: eventType,
+            nodeId: node.id,
+            nodeType: node.type,
+            title: node.title,
+            originalNode: node,
+          };
+          allEvents.push(event);
+          eventMap.primaryEvent = event;
+          minYear = Math.min(minYear, startYear);
+          maxYear = Math.max(maxYear, startYear);
+        } else {
+          undated.push(node);
+        }
       }
 
-      const timelineNode: TimelineNode = {
-        id: node.id,
-        type: node.type,
-        title: node.title,
-        originalNode: node,
-        year,
-        yearEnd,
-      };
-
-      if (year !== null) {
-        datedNodes.push(timelineNode);
-        minYear = Math.min(minYear, year);
-        maxYear = Math.max(maxYear, yearEnd ?? year);
-      } else {
-        undated.push(timelineNode);
-      }
+      nodeToEvents.set(node.id, eventMap);
     }
 
-    // Sort dated nodes by year
-    datedNodes.sort((a, b) => (a.year ?? 0) - (b.year ?? 0));
+    // Sort events by year
+    allEvents.sort((a, b) => a.year - b.year);
 
-    // Create node map for edge lookup
-    const nodeMap = new Map<string, TimelineNode>();
-    for (const node of [...datedNodes, ...undated]) {
-      nodeMap.set(node.id, node);
+    // Assign alternating left/right positions and handle stacking
+    // Group events by year for stacking
+    const eventsByYear = new Map<number, TimelineEvent[]>();
+    for (const event of allEvents) {
+      const yearEvents = eventsByYear.get(event.year) ?? [];
+      yearEvents.push(event);
+      eventsByYear.set(event.year, yearEvents);
     }
 
-    // Convert edges
-    const edges: TimelineEdge[] = [];
-    for (const edge of data.edges) {
-      const source = nodeMap.get(edge.source);
-      const target = nodeMap.get(edge.target);
-      if (source && target) {
-        edges.push({
-          id: edge.id,
-          relationship: edge.relationship,
-          source,
-          target,
-        });
-      }
+    // Assign stack offsets for events at the same year
+    let globalIndex = 0;
+    for (const yearEvents of eventsByYear.values()) {
+      yearEvents.forEach((event, stackIndex) => {
+        event.isLeft = globalIndex % 2 === 0;
+        event.stackOffset = stackIndex * EVENT_VERTICAL_SPACING;
+        globalIndex++;
+      });
     }
 
-    // Collect all years for segmentation (using start years)
-    const datedYears = datedNodes
-      .map((n) => n.year)
-      .filter((y): y is number => y !== null);
+    // Convert edges (store node IDs, resolve positions at render time)
+    const edges: TimelineEdge[] = data.edges.map((edge) => ({
+      id: edge.id,
+      relationship: edge.relationship,
+      sourceNodeId: edge.source,
+      targetNodeId: edge.target,
+    }));
+
+    // Collect all years for segmentation
+    const datedYears = allEvents.map((e) => e.year);
 
     return {
-      timelineNodes: datedNodes,
+      events: allEvents,
       timelineEdges: edges,
       yearRange:
         minYear !== Infinity ? { min: minYear, max: maxYear } : { min: 1600, max: 2000 },
       undatedNodes: undated,
       datedYears,
+      nodeEventMap: nodeToEvents,
     };
   }, [data]);
-
-  // Assign lanes to prevent overlapping
-  const assignedNodes = useMemo(() => {
-    if (timelineNodes.length === 0) return [];
-
-    // Calculate lanes for overlapping lifespans
-    const lanes: { end: number }[] = [];
-    const assigned: TimelineNode[] = [];
-
-    for (const node of timelineNodes) {
-      const start = node.year ?? yearRange.min;
-      const end = node.yearEnd ?? node.year ?? yearRange.min;
-
-      // Find first available lane
-      let laneIndex = 0;
-      while (laneIndex < lanes.length && lanes[laneIndex].end >= start - 5) {
-        laneIndex++;
-      }
-
-      if (laneIndex >= lanes.length) {
-        lanes.push({ end });
-      } else {
-        lanes[laneIndex].end = end;
-      }
-
-      assigned.push({
-        ...node,
-        lane: laneIndex,
-      });
-    }
-
-    return assigned;
-  }, [timelineNodes, yearRange]);
 
   // Create segmented scale that compresses large gaps in the timeline
   const segmentedScaleRef = useRef<SegmentedScale | null>(null);
@@ -213,13 +283,10 @@ export function TimelineLayout({
     // Clear previous content
     svg.selectAll('*').remove();
 
-    // Calculate content dimensions
-    const laneCount = Math.max(...assignedNodes.map((n) => n.lane ?? 0), 0) + 1;
-    // Content width includes left margin for filter panel
-    const contentWidth = LEFT_MARGIN + AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
+    // Calculate content dimensions - single column layout
+    const contentWidth = AXIS_X + LABEL_WIDTH + LABEL_OFFSET + 100;
 
     // Create segmented scale that compresses large gaps in the timeline
-    // This improves usability when there are temporal outliers (e.g., one node in 1378, rest in 1489+)
     const segmentedScale = createSegmentedScale(datedYears, height * 3, {
       gapThreshold: GAP_THRESHOLD,
       minSegmentHeight: MIN_SEGMENT_HEIGHT,
@@ -254,57 +321,71 @@ export function TimelineLayout({
     // Create time axis
     const axisGroup = g.append('g').attr('class', 'timeline-axis');
 
-    // Calculate axis x position (after left margin)
-    const axisX = LEFT_MARGIN + AXIS_WIDTH;
-
-    // Draw decade markers within each segment (not in gaps)
+    // Draw axis line segments (static, doesn't change with zoom)
     for (const segment of segmentedScale.segments) {
-      const startDecade = Math.floor(segment.yearStart / 10) * 10;
-      const endDecade = Math.ceil(segment.yearEnd / 10) * 10;
-
-      for (let year = startDecade; year <= endDecade; year += 10) {
-        if (year >= segment.yearStart && year <= segment.yearEnd) {
-          const y = yScale(year);
-          const isCentury = year % 100 === 0;
-
-          // Draw horizontal grid line
-          axisGroup
-            .append('line')
-            .attr('class', isCentury ? 'timeline-grid-century' : 'timeline-grid-decade')
-            .attr('x1', axisX - 5)
-            .attr('x2', contentWidth)
-            .attr('y1', y)
-            .attr('y2', y)
-            .attr('stroke', isCentury ? '#cbd5e1' : '#e2e8f0')
-            .attr('stroke-width', isCentury ? 1.5 : 0.5)
-            .attr('stroke-dasharray', isCentury ? 'none' : '2,4');
-
-          // Draw year label
-          axisGroup
-            .append('text')
-            .attr('class', 'timeline-year-label')
-            .attr('x', axisX - 10)
-            .attr('y', y)
-            .attr('text-anchor', 'end')
-            .attr('dominant-baseline', 'middle')
-            .attr('font-size', isCentury ? '16px' : '13px')
-            .attr('font-weight', isCentury ? '700' : '500')
-            .attr('fill', isCentury ? '#0f172a' : '#475569')
-            .text(year);
-        }
-      }
-
-      // Draw axis line segment
       axisGroup
         .append('line')
         .attr('class', 'timeline-axis-line')
-        .attr('x1', axisX)
-        .attr('x2', axisX)
+        .attr('x1', AXIS_X)
+        .attr('x2', AXIS_X)
         .attr('y1', (segment.yStart ?? 50) - 10)
         .attr('y2', (segment.yEnd ?? 50) + 10)
         .attr('stroke', '#94a3b8')
-        .attr('stroke-width', 2);
+        .attr('stroke-width', 3);
     }
+
+    // Create tick container for dynamic tick updates
+    const tickGroup = axisGroup.append('g').attr('class', 'timeline-ticks');
+
+    // Function to render ticks at the current granularity
+    const renderTicks = (granularity: TickGranularity) => {
+      tickGroup.selectAll('*').remove();
+
+      for (const segment of segmentedScale.segments) {
+        const ticks = generateTicks(segment.yearStart, segment.yearEnd, granularity);
+
+        for (const tick of ticks) {
+          // Skip ticks outside the segment (can happen with month/day granularity)
+          if (tick.value < segment.yearStart || tick.value > segment.yearEnd) continue;
+
+          const y = yScale(tick.value);
+
+          // Draw tick line (grid line)
+          if (tick.isMajor || granularity === 'decade' || granularity === 'year') {
+            tickGroup
+              .append('line')
+              .attr('class', tick.isMajor ? 'timeline-grid-major' : 'timeline-grid-minor')
+              .attr('x1', AXIS_X - LABEL_WIDTH - LABEL_OFFSET)
+              .attr('x2', AXIS_X + LABEL_WIDTH + LABEL_OFFSET)
+              .attr('y1', y)
+              .attr('y2', y)
+              .attr('stroke', tick.isMajor ? '#cbd5e1' : '#e2e8f0')
+              .attr('stroke-width', tick.isMajor ? 1.5 : 0.5)
+              .attr('stroke-dasharray', tick.isMajor ? 'none' : '2,4');
+          }
+
+          // Draw label (only for labeled ticks)
+          if (tick.label) {
+            tickGroup
+              .append('text')
+              .attr('class', 'timeline-tick-label')
+              .attr('x', AXIS_X)
+              .attr('y', y - 8)
+              .attr('text-anchor', 'middle')
+              .attr('dominant-baseline', 'auto')
+              .attr('font-size', tick.isMajor ? '12px' : '10px')
+              .attr('font-weight', tick.isMajor ? '600' : '400')
+              .attr('fill', tick.isMajor ? '#0f172a' : '#64748b')
+              .text(tick.label);
+          }
+        }
+      }
+    };
+
+    // Initial tick render at the default granularity
+    const initialGranularity = getTickGranularity(INITIAL_ZOOM_SCALE);
+    renderTicks(initialGranularity);
+    setCurrentGranularity(initialGranularity);
 
     // Draw break indicators between segments
     const breaks = segmentedScale.getSegmentBreaks();
@@ -317,11 +398,11 @@ export function TimelineLayout({
 
       // Draw zig-zag pattern on the axis
       const zigzagPath = `
-        M ${axisX - 8} ${breakY - 8}
-        L ${axisX + 8} ${breakY - 4}
-        L ${axisX - 8} ${breakY}
-        L ${axisX + 8} ${breakY + 4}
-        L ${axisX - 8} ${breakY + 8}
+        M ${AXIS_X - 8} ${breakY - 8}
+        L ${AXIS_X + 8} ${breakY - 4}
+        L ${AXIS_X - 8} ${breakY}
+        L ${AXIS_X + 8} ${breakY + 4}
+        L ${AXIS_X - 8} ${breakY + 8}
       `;
       breakGroup
         .append('path')
@@ -331,111 +412,90 @@ export function TimelineLayout({
         .attr('stroke', '#94a3b8')
         .attr('stroke-width', 2);
 
-      // Draw dashed line across the timeline
-      breakGroup
-        .append('line')
-        .attr('class', 'timeline-break-line')
-        .attr('x1', axisX + 20)
-        .attr('x2', contentWidth)
-        .attr('y1', breakY)
-        .attr('y2', breakY)
-        .attr('stroke', '#cbd5e1')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '6,4');
-
       // Add gap label showing years skipped
       if (gapYears > 10) {
         breakGroup
           .append('text')
           .attr('class', 'timeline-break-label')
-          .attr('x', axisX - 20)
-          .attr('y', breakY)
-          .attr('text-anchor', 'end')
-          .attr('dominant-baseline', 'middle')
-          .attr('font-size', '11px')
+          .attr('x', AXIS_X)
+          .attr('y', breakY + 20)
+          .attr('text-anchor', 'middle')
+          .attr('dominant-baseline', 'hanging')
+          .attr('font-size', '10px')
           .attr('font-style', 'italic')
           .attr('fill', '#64748b')
           .text(`~${gapYears} yrs`);
       }
     }
 
-    // Create groups for edges and nodes
+    // Create groups for edges and events
     const edgeGroup = g.append('g').attr('class', 'timeline-edges');
-    const nodeGroup = g.append('g').attr('class', 'timeline-nodes');
+    const eventGroup = g.append('g').attr('class', 'timeline-events');
 
-    // Position nodes (after axis, with margin for filter panel)
-    for (const node of assignedNodes) {
-      node.x = axisX + 50 + (node.lane ?? 0) * LANE_WIDTH;
-      node.y = yScale(node.year ?? yearRange.min);
+    // Position events on the timeline
+    for (const event of events) {
+      event.y = yScale(event.year) + (event.stackOffset ?? 0);
     }
 
-    // Draw edges as curved paths
-    edgeGroup
-      .selectAll<SVGPathElement, TimelineEdge>('path')
-      .data(timelineEdges.filter((e) => e.source.year !== null && e.target.year !== null))
-      .enter()
-      .append('path')
-      .attr('class', 'timeline-edge')
-      .attr('d', (d) => {
-        const sourceX = d.source.x ?? 0;
-        const sourceY = d.source.y ?? 0;
-        const targetX = d.target.x ?? 0;
-        const targetY = d.target.y ?? 0;
-        const midX = (sourceX + targetX) / 2;
+    // Create a map of event positions for edge drawing
+    const eventPositions = new Map<string, { x: number; y: number }>();
+    for (const event of events) {
+      eventPositions.set(event.id, { x: AXIS_X, y: event.y ?? 0 });
+    }
 
-        // Bezier curve
-        return `M ${sourceX} ${sourceY} Q ${midX} ${(sourceY + targetY) / 2} ${targetX} ${targetY}`;
-      })
-      .attr('fill', 'none')
-      .attr('stroke', (d) => getEdgeColor(d.relationship))
-      .attr('stroke-width', 1.5)
-      .attr('stroke-opacity', 0.4)
-      .attr('data-id', (d) => d.id)
-      .on('click', (event, d) => {
-        event.stopPropagation();
-        const edge = data.edges.find((e) => e.id === d.id);
-        if (edge && onEdgeClick) {
-          onEdgeClick(edge);
-        }
-      })
-      .on('mouseenter', function () {
-        d3.select(this).attr('stroke-opacity', 0.8).attr('stroke-width', 2.5);
-      })
-      .on('mouseleave', function (_event, d) {
-        const isSelected = selectedEdgeId === d.id;
-        d3.select(this)
-          .attr('stroke-opacity', isSelected ? 0.8 : 0.4)
-          .attr('stroke-width', isSelected ? 2.5 : 1.5);
-      });
+    // Draw edges only for selected node
+    if (selectedNodeId) {
+      const relevantEdges = timelineEdges.filter(
+        (e) => e.sourceNodeId === selectedNodeId || e.targetNodeId === selectedNodeId
+      );
 
-    // Draw lifespan bars for persons
-    nodeGroup
-      .selectAll<SVGRectElement, TimelineNode>('.timeline-lifespan')
-      .data(assignedNodes.filter((n) => n.type === 'person' && n.yearEnd !== null))
-      .enter()
-      .append('rect')
-      .attr('class', 'timeline-lifespan')
-      .attr('x', (d) => (d.x ?? 0) - NODE_SIZE / 4)
-      .attr('y', (d) => yScale(d.year ?? yearRange.min))
-      .attr('width', NODE_SIZE / 2)
-      .attr('height', (d) => {
-        const startY = yScale(d.year ?? yearRange.min);
-        const endY = yScale(d.yearEnd ?? d.year ?? yearRange.min);
-        return Math.max(endY - startY, 4);
-      })
-      .attr('fill', (d) => getNodeColor(d.type))
-      .attr('fill-opacity', 0.2)
-      .attr('rx', 4);
+      for (const edge of relevantEdges) {
+        const sourceEvents = nodeEventMap.get(edge.sourceNodeId);
+        const targetEvents = nodeEventMap.get(edge.targetNodeId);
+        
+        if (!sourceEvents || !targetEvents) continue;
+        
+        // Get the primary event for each node (birth for persons, or the only event)
+        const sourceEvent = sourceEvents.primaryEvent;
+        const targetEvent = targetEvents.primaryEvent;
+        
+        if (!sourceEvent || !targetEvent) continue;
+        
+        const sourceY = sourceEvent.y ?? 0;
+        const targetY = targetEvent.y ?? 0;
+        
+        // Draw curved edge
+        const controlX = AXIS_X + (sourceEvent.isLeft ? -80 : 80);
+        
+        edgeGroup
+          .append('path')
+          .attr('class', 'timeline-edge')
+          .attr('d', `M ${AXIS_X} ${sourceY} Q ${controlX} ${(sourceY + targetY) / 2} ${AXIS_X} ${targetY}`)
+          .attr('fill', 'none')
+          .attr('stroke', getEdgeColor(edge.relationship))
+          .attr('stroke-width', 2)
+          .attr('stroke-opacity', 0.6)
+          .attr('data-id', edge.id)
+          .on('click', (event) => {
+            event.stopPropagation();
+            const originalEdge = data.edges.find((e) => e.id === edge.id);
+            if (originalEdge && onEdgeClick) {
+              onEdgeClick(originalEdge);
+            }
+          });
+      }
+    }
 
-    // Draw nodes
-    const nodeElements = nodeGroup
-      .selectAll<SVGGElement, TimelineNode>('.timeline-node')
-      .data(assignedNodes)
+    // Draw events with alternating labels
+    const eventElements = eventGroup
+      .selectAll<SVGGElement, TimelineEvent>('.timeline-event')
+      .data(events)
       .enter()
       .append('g')
-      .attr('class', 'timeline-node')
-      .attr('transform', (d) => `translate(${d.x ?? 0}, ${d.y ?? 0})`)
+      .attr('class', 'timeline-event')
+      .attr('transform', (d) => `translate(${AXIS_X}, ${d.y ?? 0})`)
       .attr('data-id', (d) => d.id)
+      .attr('data-node-id', (d) => d.nodeId)
       .on('click', (event, d) => {
         event.stopPropagation();
         if (onNodeClick) {
@@ -443,40 +503,51 @@ export function TimelineLayout({
         }
       });
 
-    // Add node circles
-    nodeElements
+    // Add event markers on the axis
+    eventElements
       .append('circle')
-      .attr('class', 'timeline-node-shape')
-      .attr('r', NODE_SIZE / 2)
-      .attr('fill', (d) => getNodeColor(d.type))
+      .attr('class', 'timeline-event-marker')
+      .attr('r', EVENT_MARKER_SIZE / 2)
+      .attr('fill', (d) => getEventColor(d.type, d.nodeType))
       .attr('stroke', '#fff')
       .attr('stroke-width', 2);
 
-    // Add node labels
-    nodeElements
-      .append('text')
-      .attr('class', 'timeline-node-label')
-      .attr('x', NODE_SIZE / 2 + 8)
-      .attr('y', 0)
-      .attr('dominant-baseline', 'middle')
-      .attr('font-size', '11px')
-      .attr('fill', '#1e293b')
-      .text((d) => d.title);
+    // Add connector lines from marker to label
+    eventElements
+      .append('line')
+      .attr('class', 'timeline-event-connector')
+      .attr('x1', 0)
+      .attr('y1', 0)
+      .attr('x2', (d) => (d.isLeft ? -LABEL_OFFSET : LABEL_OFFSET))
+      .attr('y2', 0)
+      .attr('stroke', '#cbd5e1')
+      .attr('stroke-width', 1);
 
-    // Draw death markers for persons
-    nodeGroup
-      .selectAll<SVGCircleElement, TimelineNode>('.timeline-death-marker')
-      .data(assignedNodes.filter((n) => n.type === 'person' && n.yearEnd !== null))
-      .enter()
-      .append('circle')
-      .attr('class', 'timeline-death-marker')
-      .attr('cx', (d) => d.x ?? 0)
-      .attr('cy', (d) => yScale(d.yearEnd ?? yearRange.max))
-      .attr('r', NODE_SIZE / 4)
-      .attr('fill', 'none')
-      .attr('stroke', (d) => getNodeColor(d.type))
-      .attr('stroke-width', 2)
-      .attr('stroke-dasharray', '2,2');
+    // Add labels using foreignObject for text wrapping
+    eventElements
+      .append('foreignObject')
+      .attr('class', 'timeline-event-label-container')
+      .attr('x', (d) => (d.isLeft ? -LABEL_WIDTH - LABEL_OFFSET : LABEL_OFFSET))
+      .attr('y', -20)
+      .attr('width', LABEL_WIDTH)
+      .attr('height', 50)
+      .append('xhtml:div')
+      .attr('class', (d) => `timeline-event-label ${d.isLeft ? 'timeline-event-label--left' : 'timeline-event-label--right'}`)
+      .html((d) => {
+        const eventLabel = getEventTypeLabel(d.type);
+        const yearStr = d.year.toString();
+        // SECURITY: All content is from our data model, not user input
+        return `<span class="timeline-event-title">${d.title}</span>
+                <span class="timeline-event-meta">${eventLabel} ${yearStr}</span>`;
+      });
+
+    // Add special marker for death events (hollow circle)
+    eventElements
+      .filter((d) => d.type === 'death')
+      .select('.timeline-event-marker')
+      .attr('fill', '#fff')
+      .attr('stroke', (d) => getEventColor(d.type, d.nodeType))
+      .attr('stroke-width', 3);
 
     // Draw undated section if there are undated nodes
     if (undatedNodes.length > 0) {
@@ -496,84 +567,94 @@ export function TimelineLayout({
       // Label
       g.append('text')
         .attr('class', 'timeline-undated-label')
-        .attr('x', axisX - 10)
-        .attr('y', undatedY)
-        .attr('text-anchor', 'end')
-        .attr('font-size', '13px')
-        .attr('font-weight', '500')
-        .attr('fill', '#475569')
+        .attr('x', AXIS_X)
+        .attr('y', undatedY - 30)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '12px')
+        .attr('font-weight', '600')
+        .attr('fill', '#64748b')
         .text('Undated');
 
-      // Position undated nodes in a row
+      // Position undated nodes in a row below the separator
       const undatedGroup = g.append('g').attr('class', 'timeline-undated-nodes');
+      const nodeSpacing = 100;
+      const startX = AXIS_X - ((undatedNodes.length - 1) * nodeSpacing) / 2;
 
-      undatedNodes.forEach((node, i) => {
-        node.x = axisX + 50 + i * (NODE_SIZE + 60);
-        node.y = undatedY;
-      });
-
-      const undatedNodeElements = undatedGroup
-        .selectAll<SVGGElement, TimelineNode>('.timeline-node')
+      const undatedElements = undatedGroup
+        .selectAll<SVGGElement, GraphNode>('.timeline-undated-event')
         .data(undatedNodes)
         .enter()
         .append('g')
-        .attr('class', 'timeline-node')
-        .attr('transform', (d) => `translate(${d.x ?? 0}, ${d.y ?? 0})`)
-        .attr('data-id', (d) => d.id)
+        .attr('class', 'timeline-undated-event')
+        .attr('transform', (_, i) => `translate(${startX + i * nodeSpacing}, ${undatedY})`)
+        .attr('data-node-id', (d) => d.id)
         .on('click', (event, d) => {
           event.stopPropagation();
           if (onNodeClick) {
-            onNodeClick(d.originalNode);
+            onNodeClick(d);
           }
         });
 
-      undatedNodeElements
+      undatedElements
         .append('circle')
-        .attr('class', 'timeline-node-shape')
-        .attr('r', NODE_SIZE / 2)
+        .attr('class', 'timeline-event-marker')
+        .attr('r', EVENT_MARKER_SIZE / 2)
         .attr('fill', (d) => getNodeColor(d.type))
         .attr('stroke', '#fff')
         .attr('stroke-width', 2);
 
-      undatedNodeElements
+      undatedElements
         .append('text')
-        .attr('class', 'timeline-node-label')
-        .attr('x', NODE_SIZE / 2 + 8)
-        .attr('y', 0)
-        .attr('dominant-baseline', 'middle')
-        .attr('font-size', '11px')
-        .attr('fill', '#1e293b')
-        .text((d) => d.title);
+        .attr('class', 'timeline-undated-node-label')
+        .attr('x', 0)
+        .attr('y', 20)
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '10px')
+        .attr('fill', '#475569')
+        .text((d) => d.title.length > 15 ? d.title.slice(0, 12) + '...' : d.title);
     }
 
-    // Setup zoom behavior
+    // Setup zoom behavior with dynamic tick updates
+    let lastGranularity = initialGranularity;
+    
     const zoom = d3
       .zoom<SVGSVGElement, unknown>()
       .scaleExtent([ZOOM_MIN, ZOOM_MAX])
       .on('zoom', (event) => {
         g.attr('transform', event.transform.toString());
+        
+        // Update zoom scale state
+        const newScale = event.transform.k;
+        setCurrentZoomScale(newScale);
+        
+        // Check if granularity should change
+        const newGranularity = getTickGranularity(newScale);
+        if (newGranularity !== lastGranularity) {
+          lastGranularity = newGranularity;
+          setCurrentGranularity(newGranularity);
+          renderTicks(newGranularity);
+        }
       });
 
     zoomRef.current = zoom;
     svg.call(zoom);
 
     // Initial zoom to show content at readable size
-    // Focus on the densest segment (most data points) rather than first chronological item
     const densestSegment = segmentedScale.getDensestSegment();
     const densestMidY = (densestSegment.yStart ?? 50) + 
       ((densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50)) / 2;
     
-    // Calculate scale that shows nodes at readable size
+    // Calculate scale that shows events at readable size
     const segmentHeight = (densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50);
     const idealScale = Math.min(
-      (width * 0.8) / (contentWidth - LEFT_MARGIN),  // Fit width (excluding filter margin)
-      height / Math.max(segmentHeight + 100, 300),   // Fit the densest segment in view
-      INITIAL_ZOOM_SCALE                              // Max reasonable scale
+      (width * 0.9) / contentWidth,
+      height / Math.max(segmentHeight + 100, 300),
+      INITIAL_ZOOM_SCALE
     );
     const actualScale = Math.max(idealScale, ZOOM_MIN);
     
     // Position to center on the densest segment
-    const initialX = -LEFT_MARGIN * actualScale + 20;
+    const initialX = (width - contentWidth * actualScale) / 2;
     const initialY = -(densestMidY - height / (2 * actualScale)) * actualScale;
     
     svg.call(
@@ -588,14 +669,15 @@ export function TimelineLayout({
   }, [
     data,
     dimensions,
-    assignedNodes,
+    events,
     timelineEdges,
     yearRange,
     undatedNodes,
     datedYears,
+    nodeEventMap,
+    selectedNodeId,
     onNodeClick,
     onEdgeClick,
-    selectedEdgeId,
   ]);
 
   // Update selection highlighting
@@ -604,13 +686,26 @@ export function TimelineLayout({
 
     const svg = d3.select(svgRef.current);
 
-    // Update node selection state
-    svg.selectAll('.timeline-node').each(function () {
+    // Update event selection state
+    svg.selectAll('.timeline-event').each(function () {
       const el = d3.select(this);
-      const nodeId = el.attr('data-id');
+      const nodeId = el.attr('data-node-id');
       const isSelected = nodeId === selectedNodeId;
 
-      el.select('.timeline-node-shape')
+      el.select('.timeline-event-marker')
+        .attr('stroke', isSelected ? '#1e293b' : '#fff')
+        .attr('stroke-width', isSelected ? 3 : 2);
+
+      el.classed('selected', isSelected);
+    });
+
+    // Update undated nodes selection state
+    svg.selectAll('.timeline-undated-event').each(function () {
+      const el = d3.select(this);
+      const nodeId = el.attr('data-node-id');
+      const isSelected = nodeId === selectedNodeId;
+
+      el.select('.timeline-event-marker')
         .attr('stroke', isSelected ? '#1e293b' : '#fff')
         .attr('stroke-width', isSelected ? 3 : 2);
 
@@ -623,9 +718,9 @@ export function TimelineLayout({
       const edgeId = el.attr('data-id');
       const isSelected = edgeId === selectedEdgeId;
 
-      el.attr('stroke-opacity', isSelected ? 0.8 : 0.4).attr(
+      el.attr('stroke-opacity', isSelected ? 0.9 : 0.6).attr(
         'stroke-width',
-        isSelected ? 2.5 : 1.5
+        isSelected ? 3 : 2
       );
 
       el.classed('selected', isSelected);
@@ -639,22 +734,23 @@ export function TimelineLayout({
     const svg = d3.select(svgRef.current);
     const term = searchTerm?.toLowerCase() ?? '';
 
-    // Highlight nodes matching search
-    svg.selectAll<SVGGElement, TimelineNode>('.timeline-node').each(function (d) {
+    // Highlight events matching search
+    svg.selectAll<SVGGElement, TimelineEvent>('.timeline-event').each(function (d) {
       const el = d3.select(this);
       const isMatch = term && d.title.toLowerCase().includes(term);
 
       el.classed('search-match', !!isMatch);
-      el.select('.timeline-node-shape').attr('filter', isMatch ? 'url(#timeline-glow)' : null);
+      el.select('.timeline-event-marker').attr('filter', isMatch ? 'url(#timeline-glow)' : null);
     });
 
     // Dim non-matching elements when searching
-    svg.selectAll<SVGGElement, TimelineNode>('.timeline-node').attr('opacity', (d) => {
+    svg.selectAll<SVGGElement, TimelineEvent>('.timeline-event').attr('opacity', (d) => {
       if (!term) return 1;
       return d.title.toLowerCase().includes(term) ? 1 : 0.3;
     });
 
-    svg.selectAll<SVGTextElement, TimelineNode>('.timeline-node-label').attr('opacity', (d) => {
+    // Also handle undated nodes
+    svg.selectAll<SVGGElement, GraphNode>('.timeline-undated-event').attr('opacity', (d) => {
       if (!term) return 1;
       return d.title.toLowerCase().includes(term) ? 1 : 0.3;
     });
@@ -680,25 +776,24 @@ export function TimelineLayout({
 
     // Use the stored segmented scale
     const segmentedScale = segmentedScaleRef.current;
-    const laneCount = Math.max(...assignedNodes.map((n) => n.lane ?? 0), 0) + 1;
-    const contentWidth = LEFT_MARGIN + AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
+    const contentWidth = AXIS_X + LABEL_WIDTH + LABEL_OFFSET + 100;
 
     // Focus on the densest segment
     const densestSegment = segmentedScale.getDensestSegment();
     const densestMidY = (densestSegment.yStart ?? 50) + 
       ((densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50)) / 2;
 
-    // Calculate scale that shows nodes at readable size
+    // Calculate scale that shows events at readable size
     const segmentHeight = (densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50);
     const idealScale = Math.min(
-      (width * 0.8) / (contentWidth - LEFT_MARGIN),
+      (width * 0.9) / contentWidth,
       height / Math.max(segmentHeight + 100, 300),
       INITIAL_ZOOM_SCALE
     );
     const actualScale = Math.max(idealScale, ZOOM_MIN);
     
     // Position to center on the densest segment
-    const initialX = -LEFT_MARGIN * actualScale + 20;
+    const initialX = (width - contentWidth * actualScale) / 2;
     const initialY = -(densestMidY - height / (2 * actualScale)) * actualScale;
 
     svg
@@ -708,7 +803,7 @@ export function TimelineLayout({
         zoomRef.current.transform,
         d3.zoomIdentity.translate(initialX, initialY).scale(actualScale)
       );
-  }, [dimensions, assignedNodes]);
+  }, [dimensions]);
 
   return (
     <div ref={containerRef} className={`timeline-layout ${className}`}>
@@ -765,32 +860,43 @@ export function TimelineLayout({
         </button>
       </div>
 
-      {/* Legend - Matches graph view node types (TL28-TL34) */}
+      {/* Zoom indicator showing current granularity */}
+      <div className="timeline-layout__zoom-indicator">
+        {currentZoomScale.toFixed(1)}x &middot; {currentGranularity}s
+      </div>
+
+      {/* Legend - Event types and node colors */}
       <div className="timeline-layout__legend">
-        <div className="timeline-layout__legend-title">Node Types</div>
+        <div className="timeline-layout__legend-title">Event Types</div>
         <div className="timeline-layout__legend-item">
           <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="7" fill="#3b82f6" stroke="#fff" strokeWidth="1" />
+            <circle r="5" fill="#3b82f6" stroke="#fff" strokeWidth="2" />
           </svg>
-          <span>Person</span>
+          <span>Birth (Person)</span>
         </div>
         <div className="timeline-layout__legend-item">
           <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#10b981" stroke="#fff" strokeWidth="1" />
+            <circle r="5" fill="#fff" stroke="#3b82f6" strokeWidth="3" />
           </svg>
-          <span>Object</span>
+          <span>Death (Person)</span>
         </div>
         <div className="timeline-layout__legend-item">
           <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <path d="M 0 -7 L 7 0 L 0 7 L -7 0 Z" fill="#f59e0b" stroke="#fff" strokeWidth="1" />
+            <circle r="5" fill="#10b981" stroke="#fff" strokeWidth="2" />
           </svg>
-          <span>Location</span>
+          <span>Created (Object)</span>
         </div>
         <div className="timeline-layout__legend-item">
           <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <path d="M 0 -7 L 6 -3.5 L 6 3.5 L 0 7 L -6 3.5 L -6 -3.5 Z" fill="#8b5cf6" stroke="#fff" strokeWidth="1" />
+            <circle r="5" fill="#f59e0b" stroke="#fff" strokeWidth="2" />
           </svg>
-          <span>Entity</span>
+          <span>Founded (Location)</span>
+        </div>
+        <div className="timeline-layout__legend-item">
+          <svg width="16" height="16" viewBox="-10 -10 20 20">
+            <circle r="5" fill="#8b5cf6" stroke="#fff" strokeWidth="2" />
+          </svg>
+          <span>Founded (Entity)</span>
         </div>
       </div>
     </div>
