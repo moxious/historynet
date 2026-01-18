@@ -7,8 +7,8 @@
   "author": "HistoryNet AI Agent",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
-  "nodeCount": 246,
-  "edgeCount": 180,
+  "nodeCount": 160,
+  "edgeCount": 145,
   "temporalScope": "2012-present",
   "geographicScope": "International (US, UK, France, Canada primarily)",
   "customRelationshipTypes": [

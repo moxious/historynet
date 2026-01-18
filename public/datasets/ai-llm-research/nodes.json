@@ -1,0 +1,1531 @@
+[
+  {
+    "id": "person-geoffrey-hinton",
+    "type": "person",
+    "title": "Geoffrey Hinton",
+    "shortDescription": "\"Godfather of AI\"; pioneer of deep learning and backpropagation; Turing Award winner (2018); Nobel Prize in Physics (2024)",
+    "dateStart": "1947-12-06",
+    "nationality": "British-Canadian",
+    "occupations": ["computer scientist", "cognitive psychologist"],
+    "birthPlace": "London, England",
+    "biography": "Geoffrey Hinton is a pioneer of neural networks and deep learning, co-inventor of backpropagation, inventor of Boltzmann machines, and trained many key figures including Ilya Sutskever. He co-founded the Vector Institute and won the Turing Award in 2018. He resigned from Google in 2023 to speak freely about AI risks and won the Nobel Prize in Physics in 2024.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"}
+    ]
+  },
+  {
+    "id": "person-yoshua-bengio",
+    "type": "person",
+    "title": "Yoshua Bengio",
+    "shortDescription": "Founder of MILA; pioneer of deep learning; Turing Award winner (2018)",
+    "dateStart": "1964-03-05",
+    "nationality": "Canadian",
+    "occupations": ["computer scientist", "professor"],
+    "birthPlace": "Paris, France",
+    "biography": "Yoshua Bengio is a pioneer of deep learning with foundational work on word embeddings, sequence modeling, and generative models. He founded MILA (Montreal Institute for Learning Algorithms) and co-authored the 'Deep Learning' textbook. Won the Turing Award in 2018 alongside Hinton and LeCun.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yoshua_Bengio"},
+      {"label": "MILA", "url": "https://mila.quebec/en/yoshua-bengio"}
+    ]
+  },
+  {
+    "id": "person-yann-lecun",
+    "type": "person",
+    "title": "Yann LeCun",
+    "shortDescription": "Chief AI Scientist at Meta; pioneer of convolutional neural networks; Turing Award winner (2018)",
+    "dateStart": "1960",
+    "nationality": "French-American",
+    "occupations": ["computer scientist", "professor"],
+    "birthPlace": "Paris, France",
+    "biography": "Yann LeCun is a pioneer of convolutional neural networks and creator of LeNet. He founded Meta AI/FAIR in 2013 and serves as Chief AI Scientist at Meta. Won the Turing Award in 2018. Vocal advocate for open AI research and frequently debates AI safety concerns publicly.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yann_LeCun"}
+    ]
+  },
+  {
+    "id": "person-sam-altman",
+    "type": "person",
+    "title": "Sam Altman",
+    "shortDescription": "CEO of OpenAI; central figure in commercializing LLMs",
+    "dateStart": "1985-04-22",
+    "nationality": "American",
+    "occupations": ["entrepreneur", "CEO"],
+    "birthPlace": "Chicago, Illinois",
+    "biography": "Sam Altman is CEO of OpenAI and a central figure in commercializing LLMs. Former president of Y Combinator. Led OpenAI through GPT-3, ChatGPT, and GPT-4 releases. Briefly fired and reinstated during November 2023 board crisis.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sam_Altman"}
+    ]
+  },
+  {
+    "id": "person-elon-musk",
+    "type": "person",
+    "title": "Elon Musk",
+    "shortDescription": "Co-founder of OpenAI (departed 2018); founder of xAI",
+    "dateStart": "1971-06-28",
+    "nationality": "American",
+    "occupations": ["entrepreneur", "CEO"],
+    "birthPlace": "Pretoria, South Africa",
+    "biography": "Elon Musk co-founded and funded early OpenAI, departing the board in 2018. Later founded xAI in 2023 and developed the Grok chatbot. Influential voice in AI discourse and has sued OpenAI over alleged mission drift."
+  },
+  {
+    "id": "person-ilya-sutskever",
+    "type": "person",
+    "title": "Ilya Sutskever",
+    "shortDescription": "Co-founder and former Chief Scientist of OpenAI; key architect of GPT models; co-author of AlexNet",
+    "dateStart": "1986",
+    "nationality": "Israeli-Canadian",
+    "occupations": ["AI researcher"],
+    "birthPlace": "Nizhny Novgorod, Russia",
+    "biography": "Ilya Sutskever co-founded OpenAI and served as Chief Scientist. PhD under Geoffrey Hinton at University of Toronto. Co-author of AlexNet (2012) and key architect of GPT models. Departed OpenAI in May 2024 to found Safe Superintelligence Inc. (SSI). Was involved in November 2023 board crisis.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ilya_Sutskever"}
+    ]
+  },
+  {
+    "id": "person-greg-brockman",
+    "type": "person",
+    "title": "Greg Brockman",
+    "shortDescription": "Co-founder and President of OpenAI; former CTO of Stripe",
+    "dateStart": "1988",
+    "nationality": "American",
+    "occupations": ["engineer", "entrepreneur"],
+    "biography": "Greg Brockman is co-founder and President of OpenAI. Former CTO of Stripe. Provides technical leadership and oversees engineering infrastructure. Took leave after November 2023 board crisis, later returned."
+  },
+  {
+    "id": "person-andrej-karpathy",
+    "type": "person",
+    "title": "Andrej Karpathy",
+    "shortDescription": "Founding member of OpenAI; former Tesla AI Director; prominent AI educator",
+    "dateStart": "1986-10-23",
+    "nationality": "Slovak-Canadian",
+    "occupations": ["AI researcher", "educator"],
+    "birthPlace": "Bratislava, Slovakia",
+    "biography": "Andrej Karpathy was a founding member of OpenAI and later served as Tesla's AI Director (2017-2022). PhD under Fei-Fei Li at Stanford. Known for educational content including CS231n course. Returned to OpenAI in 2023, then departed again. Prominent AI educator on YouTube."
+  },
+  {
+    "id": "person-john-schulman",
+    "type": "person",
+    "title": "John Schulman",
+    "shortDescription": "Co-founder of OpenAI; creator of PPO algorithm; joined Anthropic",
+    "dateStart": "1988",
+    "nationality": "American",
+    "occupations": ["AI researcher"],
+    "biography": "John Schulman is a co-founder of OpenAI and creator of PPO (Proximal Policy Optimization), the algorithm fundamental to RLHF used in ChatGPT. UC Berkeley PhD. Later departed to join Anthropic."
+  },
+  {
+    "id": "person-wojciech-zaremba",
+    "type": "person",
+    "title": "Wojciech Zaremba",
+    "shortDescription": "Co-founder of OpenAI; research on robotics and Codex",
+    "dateStart": "1988",
+    "nationality": "Polish-American",
+    "occupations": ["AI researcher"],
+    "birthPlace": "Poland",
+    "biography": "Wojciech Zaremba is a co-founder of OpenAI focusing on robotics, Codex (GitHub Copilot foundation), and vision systems. Led robotics efforts at OpenAI before team was dissolved."
+  },
+  {
+    "id": "person-durk-kingma",
+    "type": "person",
+    "title": "Durk Kingma",
+    "shortDescription": "Co-founder of OpenAI; inventor of Adam optimizer and VAEs",
+    "dateStart": "1988",
+    "nationality": "Dutch",
+    "occupations": ["AI researcher"],
+    "birthPlace": "Netherlands",
+    "biography": "Durk Kingma is co-founder of OpenAI and inventor of the Adam optimizer (most widely used in deep learning) and co-inventor of VAEs (Variational Auto-Encoders). PhD from University of Amsterdam. Later moved to Google Brain."
+  },
+  {
+    "id": "person-trevor-blackwell",
+    "type": "person",
+    "title": "Trevor Blackwell",
+    "shortDescription": "Co-founder of OpenAI; Y Combinator partner",
+    "dateStart": "1968",
+    "nationality": "American",
+    "occupations": ["entrepreneur", "engineer"],
+    "biography": "Trevor Blackwell is a co-founder of OpenAI and Y Combinator partner. Founded Anybots (robotics company). Viaweb alumnus with Paul Graham. Less active in day-to-day OpenAI operations."
+  },
+  {
+    "id": "person-vicki-cheung",
+    "type": "person",
+    "title": "Vicki Cheung",
+    "shortDescription": "Co-founder of OpenAI; infrastructure engineer",
+    "occupations": ["engineer"],
+    "biography": "Vicki Cheung is a co-founder of OpenAI focusing on infrastructure engineering. Previously worked at Stripe."
+  },
+  {
+    "id": "person-pamela-vagata",
+    "type": "person",
+    "title": "Pamela Vagata",
+    "shortDescription": "Co-founder of OpenAI; early infrastructure work",
+    "occupations": ["engineer"],
+    "biography": "Pamela Vagata is a co-founder of OpenAI. Previously worked at Stripe."
+  },
+  {
+    "id": "person-alec-radford",
+    "type": "person",
+    "title": "Alec Radford",
+    "shortDescription": "Research scientist at OpenAI; primary author of GPT-1, GPT-2, CLIP, DALL-E",
+    "occupations": ["AI researcher"],
+    "biography": "Alec Radford is a research scientist at OpenAI since its early days. Primary author on GPT-1, GPT-2, CLIP, and DALL-E papers. Rarely gives interviews but considered one of most impactful researchers in the field."
+  },
+  {
+    "id": "person-mira-murati",
+    "type": "person",
+    "title": "Mira Murati",
+    "shortDescription": "Former CTO of OpenAI (2018-2024); oversaw ChatGPT and DALL-E development",
+    "occupations": ["engineer", "executive"],
+    "biography": "Mira Murati served as CTO of OpenAI from 2018 to September 2024. Oversaw ChatGPT and DALL-E development. Served as interim CEO during November 2023 crisis. Departed in September 2024."
+  },
+  {
+    "id": "person-aditya-ramesh",
+    "type": "person",
+    "title": "Aditya Ramesh",
+    "shortDescription": "Research scientist at OpenAI; lead researcher on DALL-E",
+    "occupations": ["AI researcher"],
+    "biography": "Aditya Ramesh is a research scientist at OpenAI and lead researcher on DALL-E, DALL-E 2, and DALL-E 3. Key figure in text-to-image AI."
+  },
+  {
+    "id": "person-mark-chen",
+    "type": "person",
+    "title": "Mark Chen",
+    "shortDescription": "Research scientist at OpenAI; co-lead on DALL-E, Codex, GPT-4V",
+    "occupations": ["AI researcher"],
+    "biography": "Mark Chen is a research scientist at OpenAI and co-lead on DALL-E 2, Codex, and GPT-4V. Led vision aspects of GPT-4 multimodal."
+  },
+  {
+    "id": "person-jan-leike",
+    "type": "person",
+    "title": "Jan Leike",
+    "shortDescription": "Former head of Superalignment at OpenAI; departed citing safety concerns; joined Anthropic",
+    "occupations": ["AI safety researcher"],
+    "biography": "Jan Leike led OpenAI's superalignment effort until departing in May 2024, citing concerns about safety prioritization. Worked with Sutskever on superalignment. Joined Anthropic after departure."
+  },
+  {
+    "id": "person-barret-zoph",
+    "type": "person",
+    "title": "Barret Zoph",
+    "shortDescription": "Former VP of Research at OpenAI; neural architecture search pioneer",
+    "occupations": ["AI researcher", "executive"],
+    "biography": "Barret Zoph served as VP of Research at OpenAI. Pioneer of Neural Architecture Search (NAS). Formerly at Google Brain. Departed OpenAI in 2024."
+  },
+  {
+    "id": "person-lukasz-kaiser",
+    "type": "person",
+    "title": "Łukasz Kaiser",
+    "shortDescription": "Research scientist at OpenAI; co-author of Transformer paper",
+    "occupations": ["AI researcher"],
+    "biography": "Łukasz Kaiser is a research scientist at OpenAI and co-author of 'Attention Is All You Need' (Transformer paper). Joined OpenAI from Google Brain in 2021. Created Tensor2Tensor framework."
+  },
+  {
+    "id": "person-dario-amodei",
+    "type": "person",
+    "title": "Dario Amodei",
+    "shortDescription": "Co-founder and CEO of Anthropic; former VP of Research at OpenAI",
+    "dateStart": "1983",
+    "nationality": "American",
+    "occupations": ["AI researcher", "CEO"],
+    "biography": "Dario Amodei co-founded Anthropic in 2021 after leaving his role as VP of Research at OpenAI. PhD in biophysics from Princeton. Left OpenAI over safety disagreements. Creator of Constitutional AI and Claude models."
+  },
+  {
+    "id": "person-daniela-amodei",
+    "type": "person",
+    "title": "Daniela Amodei",
+    "shortDescription": "Co-founder and President of Anthropic; former OpenAI policy lead",
+    "nationality": "American",
+    "occupations": ["executive"],
+    "biography": "Daniela Amodei co-founded Anthropic with her brother Dario, serving as President. BA in English Literature. Previously led safety and policy at OpenAI."
+  },
+  {
+    "id": "person-jared-kaplan",
+    "type": "person",
+    "title": "Jared Kaplan",
+    "shortDescription": "Co-founder and Chief Science Officer at Anthropic; scaling laws researcher",
+    "occupations": ["AI researcher", "physicist"],
+    "biography": "Jared Kaplan is co-founder and Chief Science Officer at Anthropic. Key researcher on neural scaling laws. Physics PhD. Former Johns Hopkins professor. Scaling laws work foundational to LLM development."
+  },
+  {
+    "id": "person-jack-clark",
+    "type": "person",
+    "title": "Jack Clark",
+    "shortDescription": "Co-founder of Anthropic; Head of Policy; former OpenAI Policy Director",
+    "occupations": ["AI policy researcher"],
+    "biography": "Jack Clark co-founded Anthropic serving as Head of Policy. Previously Policy Director at OpenAI. Co-chairs AI Index at Stanford. Former journalist covering AI."
+  },
+  {
+    "id": "person-tom-brown",
+    "type": "person",
+    "title": "Tom Brown",
+    "shortDescription": "Co-founder of Anthropic; lead author of GPT-3 paper",
+    "occupations": ["AI researcher"],
+    "biography": "Tom Brown co-founded Anthropic and serves as Chief Compute Officer. Lead author of the GPT-3 paper ('Language Models are Few-Shot Learners'), one of the most cited AI papers."
+  },
+  {
+    "id": "person-sam-mccandlish",
+    "type": "person",
+    "title": "Sam McCandlish",
+    "shortDescription": "Co-founder of Anthropic; scaling laws researcher",
+    "occupations": ["AI researcher"],
+    "biography": "Sam McCandlish co-founded Anthropic. Known for research on scaling laws and model capabilities. Former OpenAI researcher."
+  },
+  {
+    "id": "person-chris-olah",
+    "type": "person",
+    "title": "Chris Olah",
+    "shortDescription": "Co-founder of Anthropic; pioneer of neural network interpretability; founded Distill.pub",
+    "occupations": ["AI researcher"],
+    "biography": "Chris Olah co-founded Anthropic focusing on interpretability research. Pioneer of neural network visualization and interpretability. Self-taught researcher. Founded Distill.pub. Previously at Google Brain and OpenAI."
+  },
+  {
+    "id": "person-niki-parmar",
+    "type": "person",
+    "title": "Niki Parmar",
+    "shortDescription": "Co-author of Transformer paper; co-founder of Adept and Essential AI; joined Anthropic (2025)",
+    "occupations": ["AI researcher"],
+    "biography": "Niki Parmar is co-author of 'Attention Is All You Need' (Transformer paper). Co-founded Adept with Vaswani, then Essential AI. Joined Anthropic in 2025."
+  },
+  {
+    "id": "person-demis-hassabis",
+    "type": "person",
+    "title": "Demis Hassabis",
+    "shortDescription": "Co-founder and CEO of DeepMind/Google DeepMind; Nobel Prize in Chemistry (2024) for AlphaFold",
+    "dateStart": "1976-07-27",
+    "nationality": "British",
+    "occupations": ["AI researcher", "CEO", "neuroscientist"],
+    "birthPlace": "London, England",
+    "biography": "Demis Hassabis co-founded DeepMind in 2010 and serves as CEO of Google DeepMind. Led AlphaGo, AlphaFold breakthroughs. Former child chess prodigy and video game designer (Theme Park). PhD in cognitive neuroscience. Won Nobel Prize in Chemistry (2024) for AlphaFold.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Demis_Hassabis"}
+    ]
+  },
+  {
+    "id": "person-shane-legg",
+    "type": "person",
+    "title": "Shane Legg",
+    "shortDescription": "Co-founder and Chief AGI Scientist at Google DeepMind; co-coined 'AGI'",
+    "nationality": "New Zealand",
+    "occupations": ["AI researcher"],
+    "biography": "Shane Legg co-founded DeepMind with Hassabis and Suleyman. Chief AGI Scientist. Theoretical work on artificial general intelligence. PhD under Marcus Hutter. Co-coined the term 'AGI'."
+  },
+  {
+    "id": "person-mustafa-suleyman",
+    "type": "person",
+    "title": "Mustafa Suleyman",
+    "shortDescription": "Co-founder of DeepMind; founded Inflection AI; now CEO of Microsoft AI",
+    "dateStart": "1984",
+    "nationality": "British",
+    "occupations": ["AI researcher", "entrepreneur", "executive"],
+    "birthPlace": "London, England",
+    "biography": "Mustafa Suleyman co-founded DeepMind in 2010. Left to found Inflection AI in 2022 (Pi chatbot). Joined Microsoft as EVP and CEO of Microsoft AI in 2024. Author of 'The Coming Wave' (2023)."
+  },
+  {
+    "id": "person-john-jumper",
+    "type": "person",
+    "title": "John Jumper",
+    "shortDescription": "Director at Google DeepMind; led AlphaFold2; Nobel Prize in Chemistry (2024)",
+    "occupations": ["AI researcher", "computational biologist"],
+    "biography": "John Jumper is a Director at Google DeepMind and led AlphaFold2 development, solving protein structure prediction. PhD in chemistry from University of Chicago. Won Nobel Prize in Chemistry (2024) with Hassabis."
+  },
+  {
+    "id": "person-david-silver",
+    "type": "person",
+    "title": "David Silver",
+    "shortDescription": "Principal Research Scientist at Google DeepMind; led AlphaGo, AlphaZero, AlphaStar",
+    "nationality": "British",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "David Silver is Principal Research Scientist at DeepMind and led AlphaGo, AlphaZero, and AlphaStar projects. UCL professor. PhD under Richard Sutton. Key architect of game-playing AI systems."
+  },
+  {
+    "id": "person-aja-huang",
+    "type": "person",
+    "title": "Aja Huang",
+    "shortDescription": "Research scientist at Google DeepMind; major contributor to AlphaGo",
+    "nationality": "Taiwanese-American",
+    "occupations": ["AI researcher"],
+    "biography": "Aja Huang is a research scientist at DeepMind and major contributor to AlphaGo implementation. Actually played the moves in the historic AlphaGo vs. Lee Sedol match."
+  },
+  {
+    "id": "person-pushmeet-kohli",
+    "type": "person",
+    "title": "Pushmeet Kohli",
+    "shortDescription": "VP of Research at Google DeepMind; leads AI for Science initiatives",
+    "occupations": ["AI researcher", "executive"],
+    "biography": "Pushmeet Kohli is VP of Research at Google DeepMind. Leads AI for Science and responsible AI initiatives. Computer vision research background."
+  },
+  {
+    "id": "person-oriol-vinyals",
+    "type": "person",
+    "title": "Oriol Vinyals",
+    "shortDescription": "VP of Research at Google DeepMind; Gemini co-lead; AlphaStar researcher",
+    "occupations": ["AI researcher", "executive"],
+    "biography": "Oriol Vinyals is VP of Research at Google DeepMind and Gemini co-lead. Key researcher on sequence-to-sequence learning, AlphaStar. Formerly at Google Brain."
+  },
+  {
+    "id": "person-jeff-dean",
+    "type": "person",
+    "title": "Jeff Dean",
+    "shortDescription": "Chief Scientist at Google and Google DeepMind; co-founder of Google Brain",
+    "dateStart": "1968-07-23",
+    "nationality": "American",
+    "occupations": ["computer scientist", "executive"],
+    "biography": "Jeff Dean is Chief Scientist at Google and Google DeepMind. Co-founded Google Brain with Andrew Ng and Greg Corrado. Built foundational Google infrastructure (MapReduce). Google employee #30. One of most influential engineers in history."
+  },
+  {
+    "id": "person-andrew-ng",
+    "type": "person",
+    "title": "Andrew Ng",
+    "shortDescription": "Co-founder of Google Brain and Coursera; founder of DeepLearning.AI; AI educator",
+    "dateStart": "1976",
+    "nationality": "British-American",
+    "occupations": ["AI researcher", "entrepreneur", "educator"],
+    "birthPlace": "London, England",
+    "biography": "Andrew Ng co-founded Google Brain with Jeff Dean. Stanford professor. Co-founded Coursera with Daphne Koller. Former Chief Scientist at Baidu (2014-2017). Founder of DeepLearning.AI. Popularized deep learning through massive open online courses."
+  },
+  {
+    "id": "person-greg-corrado",
+    "type": "person",
+    "title": "Greg Corrado",
+    "shortDescription": "Research scientist at Google; co-founder of Google Brain",
+    "occupations": ["AI researcher"],
+    "biography": "Greg Corrado co-founded Google Brain with Jeff Dean and Andrew Ng. Background in computational neuroscience. Led work on RankBrain and other Google AI applications."
+  },
+  {
+    "id": "person-quoc-le",
+    "type": "person",
+    "title": "Quoc V. Le",
+    "shortDescription": "Research scientist at Google Brain/DeepMind; AutoML pioneer",
+    "nationality": "Vietnamese-American",
+    "occupations": ["AI researcher"],
+    "biography": "Quoc V. Le is a research scientist at Google Brain/DeepMind. Key researcher in AutoML and neural architecture search. Student of Andrew Ng at Stanford."
+  },
+  {
+    "id": "person-samy-bengio",
+    "type": "person",
+    "title": "Samy Bengio",
+    "shortDescription": "Senior Director at Apple AI; former Google Brain researcher; brother of Yoshua Bengio",
+    "occupations": ["AI researcher", "executive"],
+    "biography": "Samy Bengio is Senior Director at Apple AI. Former Google Brain researcher. Brother of Yoshua Bengio. Led machine learning research at Google. Joined Apple in 2021."
+  },
+  {
+    "id": "person-noam-shazeer",
+    "type": "person",
+    "title": "Noam Shazeer",
+    "shortDescription": "Co-author of Transformer paper; VP at Google co-leading Gemini; founded Character.AI",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Noam Shazeer is co-author of 'Attention Is All You Need' (Transformer paper). Left Google to found Character.AI (2021), then returned to Google (2024) as VP of Engineering co-leading Gemini. Created Meena chatbot."
+  },
+  {
+    "id": "person-ashish-vaswani",
+    "type": "person",
+    "title": "Ashish Vaswani",
+    "shortDescription": "Co-inventor of Transformer architecture; co-founder of Essential AI and Adept",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Ashish Vaswani is co-inventor of the Transformer architecture ('Attention Is All You Need'). Former Google Brain. Co-founded Adept, then Essential AI. Transformers are foundation of all modern LLMs."
+  },
+  {
+    "id": "person-jakob-uszkoreit",
+    "type": "person",
+    "title": "Jakob Uszkoreit",
+    "shortDescription": "Co-inventor of Transformer; co-founder of Inceptive",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Jakob Uszkoreit is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Inceptive, a biotech company using AI for RNA drug design."
+  },
+  {
+    "id": "person-llion-jones",
+    "type": "person",
+    "title": "Llion Jones",
+    "shortDescription": "Co-inventor of Transformer; co-founder and CTO of Sakana AI",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Llion Jones is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Sakana AI in Tokyo with David Ha, focusing on nature-inspired AI research."
+  },
+  {
+    "id": "person-aidan-gomez",
+    "type": "person",
+    "title": "Aidan Gomez",
+    "shortDescription": "Co-inventor of Transformer; co-founder and CEO of Cohere",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Aidan Gomez is co-inventor of the Transformer architecture (was an intern at Google at the time). Co-founded Cohere in 2019, serving as CEO. Major enterprise LLM provider."
+  },
+  {
+    "id": "person-illia-polosukhin",
+    "type": "person",
+    "title": "Illia Polosukhin",
+    "shortDescription": "Co-inventor of Transformer; co-founder of NEAR Protocol",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Illia Polosukhin is co-inventor of the Transformer architecture. Former Google researcher. Co-founded NEAR Protocol, pivoting from AI to blockchain/Web3."
+  },
+  {
+    "id": "person-alex-krizhevsky",
+    "type": "person",
+    "title": "Alex Krizhevsky",
+    "shortDescription": "Co-creator of AlexNet; triggered 2012 deep learning revolution",
+    "dateStart": "1986",
+    "nationality": "Ukrainian-Canadian",
+    "occupations": ["AI researcher"],
+    "birthPlace": "Ukraine",
+    "biography": "Alex Krizhevsky co-created AlexNet, which won ImageNet 2012 and triggered the deep learning revolution. PhD under Geoffrey Hinton. Co-founded DNNresearch (acquired by Google) with Hinton and Sutskever."
+  },
+  {
+    "id": "person-ruslan-salakhutdinov",
+    "type": "person",
+    "title": "Ruslan Salakhutdinov",
+    "shortDescription": "Professor at Carnegie Mellon; former Apple AI Director; deep generative models pioneer",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Ruslan Salakhutdinov is Professor at Carnegie Mellon and former Apple AI Director. PhD under Geoffrey Hinton. Pioneer of deep generative models and Boltzmann machines."
+  },
+  {
+    "id": "person-yee-whye-teh",
+    "type": "person",
+    "title": "Yee-Whye Teh",
+    "shortDescription": "Professor at Oxford; Research Scientist at Google DeepMind; Bayesian nonparametrics expert",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Yee-Whye Teh is Professor at Oxford and Research Scientist at Google DeepMind. PhD under Geoffrey Hinton. Expert in Bayesian nonparametrics and deep learning theory."
+  },
+  {
+    "id": "person-george-dahl",
+    "type": "person",
+    "title": "George Dahl",
+    "shortDescription": "Research scientist at Google DeepMind; deep learning for speech and chemistry",
+    "occupations": ["AI researcher"],
+    "biography": "George Dahl is a research scientist at Google DeepMind. PhD under Geoffrey Hinton. Applied deep learning to speech recognition and molecular property prediction."
+  },
+  {
+    "id": "person-nitish-srivastava",
+    "type": "person",
+    "title": "Nitish Srivastava",
+    "shortDescription": "Co-inventor of Dropout regularization technique",
+    "occupations": ["AI researcher"],
+    "biography": "Nitish Srivastava co-invented Dropout regularization technique, used in virtually all modern neural networks. PhD under Hinton and Salakhutdinov at University of Toronto."
+  },
+  {
+    "id": "person-ian-goodfellow",
+    "type": "person",
+    "title": "Ian Goodfellow",
+    "shortDescription": "Inventor of GANs; co-author of Deep Learning textbook",
+    "dateStart": "1985",
+    "nationality": "American",
+    "occupations": ["AI researcher"],
+    "biography": "Ian Goodfellow invented Generative Adversarial Networks (GANs) in 2014. Co-authored the 'Deep Learning' textbook with Bengio and Courville. PhD under Bengio and Courville at Université de Montréal. Worked at Google Brain, OpenAI, Apple."
+  },
+  {
+    "id": "person-aaron-courville",
+    "type": "person",
+    "title": "Aaron Courville",
+    "shortDescription": "Professor at Université de Montréal; MILA core member; co-author of Deep Learning textbook",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Aaron Courville is Professor at Université de Montréal and MILA core member. Co-authored the 'Deep Learning' textbook with Goodfellow and Bengio. Co-supervised Ian Goodfellow's PhD."
+  },
+  {
+    "id": "person-kyunghyun-cho",
+    "type": "person",
+    "title": "Kyunghyun Cho",
+    "shortDescription": "Professor at NYU; co-inventor of GRU architecture",
+    "nationality": "South Korean",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Kyunghyun Cho is Professor at NYU and Senior Director at Genentech. Co-inventor of the GRU (Gated Recurrent Unit) architecture with Bengio. Former MILA postdoc."
+  },
+  {
+    "id": "person-pascal-vincent",
+    "type": "person",
+    "title": "Pascal Vincent",
+    "shortDescription": "Professor at Université de Montréal; Research Scientist at Meta; denoising autoencoders pioneer",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Pascal Vincent is Professor at Université de Montréal and Research Scientist at Meta FAIR. MILA core member. Pioneer of denoising autoencoders and representation learning."
+  },
+  {
+    "id": "person-doina-precup",
+    "type": "person",
+    "title": "Doina Precup",
+    "shortDescription": "Professor at McGill; Research Team Lead at Google DeepMind Montreal; RL theorist",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Doina Precup is Professor at McGill and Research Team Lead at Google DeepMind Montreal. Expert in reinforcement learning theory and temporal abstraction. MILA member."
+  },
+  {
+    "id": "person-fei-fei-li",
+    "type": "person",
+    "title": "Fei-Fei Li",
+    "shortDescription": "Professor at Stanford; creator of ImageNet; Co-director of Stanford HAI",
+    "dateStart": "1976",
+    "nationality": "Chinese-American",
+    "occupations": ["AI researcher", "professor"],
+    "birthPlace": "Beijing, China",
+    "biography": "Fei-Fei Li is Professor at Stanford and Co-director of Stanford HAI. Creator of ImageNet, which enabled the deep learning revolution in computer vision. Trained Andrej Karpathy, Timnit Gebru, and Olga Russakovsky. Founded AI4ALL."
+  },
+  {
+    "id": "person-pieter-abbeel",
+    "type": "person",
+    "title": "Pieter Abbeel",
+    "shortDescription": "Professor at UC Berkeley; co-founder of Covariant; pioneer of robot learning",
+    "nationality": "Belgian-American",
+    "occupations": ["AI researcher", "professor", "entrepreneur"],
+    "biography": "Pieter Abbeel is Professor at UC Berkeley and co-founder of Covariant (robotics). First PhD student of Andrew Ng at Stanford. Pioneer of robot learning and deep reinforcement learning. BAIR director."
+  },
+  {
+    "id": "person-daphne-koller",
+    "type": "person",
+    "title": "Daphne Koller",
+    "shortDescription": "Co-founder of Coursera; CEO of Insitro; probabilistic graphical models expert",
+    "occupations": ["AI researcher", "professor", "entrepreneur"],
+    "biography": "Daphne Koller is co-founder of Coursera and CEO of Insitro. Stanford professor. Expert in probabilistic graphical models. Pioneer of MOOCs. Now applying ML to drug discovery."
+  },
+  {
+    "id": "person-timnit-gebru",
+    "type": "person",
+    "title": "Timnit Gebru",
+    "shortDescription": "Founder of DAIR Institute; AI ethics pioneer",
+    "nationality": "Ethiopian-American",
+    "occupations": ["AI researcher"],
+    "biography": "Timnit Gebru is founder of DAIR Institute. PhD under Fei-Fei Li at Stanford. Pioneer of AI ethics. Co-author of Gender Shades (facial recognition bias study). Controversially fired from Google in 2020. Leading voice on AI ethics."
+  },
+  {
+    "id": "person-olga-russakovsky",
+    "type": "person",
+    "title": "Olga Russakovsky",
+    "shortDescription": "Professor at Princeton; ImageNet co-creator; AI fairness researcher",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Olga Russakovsky is Professor at Princeton. PhD under Fei-Fei Li. Key contributor to ImageNet. Co-founder of AI4ALL. Research focuses on computer vision and AI fairness."
+  },
+  {
+    "id": "person-richard-socher",
+    "type": "person",
+    "title": "Richard Socher",
+    "shortDescription": "Founder of you.com; former Salesforce Chief Scientist; deep learning NLP pioneer",
+    "nationality": "German-American",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Richard Socher is founder and CEO of you.com and former Salesforce Chief Scientist. PhD at Stanford (Manning, Ng). Pioneer of deep learning for NLP and recursive neural networks."
+  },
+  {
+    "id": "person-joelle-pineau",
+    "type": "person",
+    "title": "Joelle Pineau",
+    "shortDescription": "VP of AI Research at Meta; Professor at McGill/MILA; RL and healthcare AI expert",
+    "occupations": ["AI researcher", "professor", "executive"],
+    "biography": "Joelle Pineau is VP of AI Research at Meta and Professor at McGill. MILA core member. Expert in reinforcement learning and healthcare AI. Strong advocate for reproducible research."
+  },
+  {
+    "id": "person-jerome-pesenti",
+    "type": "person",
+    "title": "Jerome Pesenti",
+    "shortDescription": "Former VP of AI at Meta (2018-2022); scaled Meta's AI efforts",
+    "occupations": ["executive"],
+    "biography": "Jerome Pesenti served as VP of AI at Meta from 2018 to 2022, overseeing FAIR expansion. Previously at IBM Watson. Left Meta in 2022."
+  },
+  {
+    "id": "person-hugo-touvron",
+    "type": "person",
+    "title": "Hugo Touvron",
+    "shortDescription": "Research scientist at Meta; lead researcher on LLaMA models",
+    "occupations": ["AI researcher"],
+    "biography": "Hugo Touvron is a research scientist at Meta FAIR in Paris and lead researcher on LLaMA, LLaMA 2, and LLaMA 3 models. Key figure in open-weight LLM movement."
+  },
+  {
+    "id": "person-guillaume-lample",
+    "type": "person",
+    "title": "Guillaume Lample",
+    "shortDescription": "Chief Scientist at Mistral AI; former Meta researcher; co-author of LLaMA",
+    "nationality": "French",
+    "occupations": ["AI researcher"],
+    "biography": "Guillaume Lample is Chief Scientist at Mistral AI and former Meta FAIR researcher. Co-author of LLaMA. Expert in unsupervised machine translation. École Polytechnique alumnus. Co-founded Mistral with Mensch and Lacroix."
+  },
+  {
+    "id": "person-armand-joulin",
+    "type": "person",
+    "title": "Armand Joulin",
+    "shortDescription": "Research scientist at Meta FAIR; fastText creator; efficient NLP expert",
+    "occupations": ["AI researcher"],
+    "biography": "Armand Joulin is a research scientist at Meta FAIR. Creator of fastText. Expert in efficient NLP methods and word embeddings."
+  },
+  {
+    "id": "person-baptiste-roziere",
+    "type": "person",
+    "title": "Baptiste Rozière",
+    "shortDescription": "Research scientist at Meta; lead on Code Llama",
+    "occupations": ["AI researcher"],
+    "biography": "Baptiste Rozière is a research scientist at Meta and lead on Code Llama. Expert in code generation and TransCoder."
+  },
+  {
+    "id": "person-naman-goyal",
+    "type": "person",
+    "title": "Naman Goyal",
+    "shortDescription": "Research scientist at Meta; work on multilingual models and LLaMA",
+    "occupations": ["AI researcher"],
+    "biography": "Naman Goyal is a research scientist at Meta. Contributed to LLaMA development and multilingual NLP research."
+  },
+  {
+    "id": "person-timothee-lacroix",
+    "type": "person",
+    "title": "Timothée Lacroix",
+    "shortDescription": "CTO of Mistral AI; former Meta researcher",
+    "nationality": "French",
+    "occupations": ["AI researcher", "executive"],
+    "biography": "Timothée Lacroix is CTO of Mistral AI and former Meta researcher. École Polytechnique alumnus. Co-founded Mistral with Lample and Mensch."
+  },
+  {
+    "id": "person-arthur-mensch",
+    "type": "person",
+    "title": "Arthur Mensch",
+    "shortDescription": "Co-founder and CEO of Mistral AI; former DeepMind researcher",
+    "nationality": "French",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Arthur Mensch is co-founder and CEO of Mistral AI. Former Google DeepMind researcher. École Polytechnique alumnus. Leads major European AI company."
+  },
+  {
+    "id": "person-igor-babuschkin",
+    "type": "person",
+    "title": "Igor Babuschkin",
+    "shortDescription": "Co-founder and former Chief Engineer at xAI; former DeepMind researcher",
+    "occupations": ["AI researcher"],
+    "biography": "Igor Babuschkin co-founded xAI with Elon Musk and led Grok development. Former DeepMind researcher. Departed xAI in 2025."
+  },
+  {
+    "id": "person-tony-wu",
+    "type": "person",
+    "title": "Yuhuai \"Tony\" Wu",
+    "shortDescription": "Co-founder at xAI; mathematical reasoning researcher",
+    "occupations": ["AI researcher"],
+    "biography": "Yuhuai 'Tony' Wu co-founded xAI. Former DeepMind researcher. Focus on mathematical reasoning in AI."
+  },
+  {
+    "id": "person-christian-szegedy",
+    "type": "person",
+    "title": "Christian Szegedy",
+    "shortDescription": "Co-founder at xAI; creator of Inception/GoogLeNet; adversarial examples pioneer",
+    "occupations": ["AI researcher"],
+    "biography": "Christian Szegedy co-founded xAI. Former Google researcher. Creator of Inception/GoogLeNet (won ImageNet 2014). Pioneer of adversarial examples research."
+  },
+  {
+    "id": "person-jimmy-ba",
+    "type": "person",
+    "title": "Jimmy Ba",
+    "shortDescription": "Professor at University of Toronto; co-inventor of Layer Normalization and Adam optimizer",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Jimmy Ba is Professor at University of Toronto. Co-inventor of Layer Normalization (used in all transformers) and co-author of Adam optimizer paper with Kingma. Works with Hinton."
+  },
+  {
+    "id": "person-clement-delangue",
+    "type": "person",
+    "title": "Clément Delangue",
+    "shortDescription": "Co-founder and CEO of Hugging Face",
+    "nationality": "French",
+    "occupations": ["entrepreneur", "executive"],
+    "biography": "Clément Delangue is co-founder and CEO of Hugging Face. Built dominant platform for AI model sharing. Former product manager. Made AI models accessible to developers worldwide."
+  },
+  {
+    "id": "person-julien-chaumond",
+    "type": "person",
+    "title": "Julien Chaumond",
+    "shortDescription": "Co-founder and CTO of Hugging Face",
+    "nationality": "French",
+    "occupations": ["engineer", "executive"],
+    "biography": "Julien Chaumond is co-founder and CTO of Hugging Face. Technical leadership of Hugging Face platform and infrastructure."
+  },
+  {
+    "id": "person-thomas-wolf",
+    "type": "person",
+    "title": "Thomas Wolf",
+    "shortDescription": "Co-founder and Chief Science Officer of Hugging Face; created Transformers library",
+    "nationality": "French",
+    "occupations": ["AI researcher", "executive"],
+    "biography": "Thomas Wolf is co-founder and Chief Science Officer of Hugging Face. Originally created the Transformers library. Physics PhD background."
+  },
+  {
+    "id": "person-margaret-mitchell",
+    "type": "person",
+    "title": "Margaret Mitchell",
+    "shortDescription": "Chief AI Ethics Scientist at Hugging Face; creator of Model Cards",
+    "occupations": ["AI researcher"],
+    "biography": "Margaret Mitchell is Chief AI Ethics Scientist at Hugging Face. Former Google researcher. Co-authored influential Model Cards paper. Pioneer of AI ethics and model documentation."
+  },
+  {
+    "id": "person-emad-mostaque",
+    "type": "person",
+    "title": "Emad Mostaque",
+    "shortDescription": "Former CEO and Co-founder of Stability AI",
+    "dateStart": "1983-04-17",
+    "nationality": "British",
+    "occupations": ["entrepreneur"],
+    "biography": "Emad Mostaque co-founded Stability AI and brought Stable Diffusion to market. Stepped down as CEO in March 2024 amid controversy over credit attribution and business challenges."
+  },
+  {
+    "id": "person-robin-rombach",
+    "type": "person",
+    "title": "Robin Rombach",
+    "shortDescription": "Lead inventor of Latent Diffusion/Stable Diffusion",
+    "nationality": "German",
+    "occupations": ["AI researcher"],
+    "biography": "Robin Rombach is lead inventor of Latent Diffusion Models and Stable Diffusion. PhD at LMU Munich under Björn Ommer. Joined then departed Stability AI in 2024."
+  },
+  {
+    "id": "person-andreas-blattmann",
+    "type": "person",
+    "title": "Andreas Blattmann",
+    "shortDescription": "Co-inventor of Stable Diffusion; video generation researcher",
+    "nationality": "German",
+    "occupations": ["AI researcher"],
+    "biography": "Andreas Blattmann is co-inventor of Stable Diffusion and key contributor to Stable Video Diffusion. LMU Munich researcher. Departed Stability AI."
+  },
+  {
+    "id": "person-ivan-zhang",
+    "type": "person",
+    "title": "Ivan Zhang",
+    "shortDescription": "Co-founder of Cohere",
+    "occupations": ["entrepreneur"],
+    "biography": "Ivan Zhang co-founded Cohere with Aidan Gomez and Nick Frosst. Toronto-based enterprise LLM company."
+  },
+  {
+    "id": "person-nick-frosst",
+    "type": "person",
+    "title": "Nick Frosst",
+    "shortDescription": "Co-founder of Cohere; former Google Brain researcher; worked with Hinton on capsule networks",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "Nick Frosst co-founded Cohere. Former Google Brain researcher who worked with Geoffrey Hinton on capsule networks. Bridged Hinton's research to commercial applications."
+  },
+  {
+    "id": "person-richard-sutton",
+    "type": "person",
+    "title": "Richard Sutton",
+    "shortDescription": "Professor at University of Alberta; father of reinforcement learning; inventor of TD learning",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Richard Sutton is Professor at University of Alberta and 'father of reinforcement learning'. Inventor of temporal difference learning. Co-authored foundational RL textbook with Barto. Trained David Silver. His 'Bitter Lesson' essay highly influential in AI philosophy.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton"}
+    ]
+  },
+  {
+    "id": "person-michael-jordan",
+    "type": "person",
+    "title": "Michael I. Jordan",
+    "shortDescription": "Professor at UC Berkeley; pioneer of probabilistic graphical models; trained many leading researchers",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Michael I. Jordan is Professor at UC Berkeley. Pioneer of probabilistic graphical models and variational inference. Trained many leading researchers including Yoshua Bengio (postdoc) and Zoubin Ghahramani. One of most influential ML researchers.",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_I._Jordan"}
+    ]
+  },
+  {
+    "id": "person-david-ha",
+    "type": "person",
+    "title": "David Ha",
+    "shortDescription": "Co-founder of Sakana AI; former Google Brain researcher; creative AI research",
+    "occupations": ["AI researcher", "entrepreneur"],
+    "biography": "David Ha co-founded Sakana AI with Llion Jones. Former Google Brain researcher. Known for creative and artistic AI research including World Models and NeuroEvolution."
+  },
+  {
+    "id": "person-percy-liang",
+    "type": "person",
+    "title": "Percy Liang",
+    "shortDescription": "Professor at Stanford; Director of Stanford HAI; AI benchmarking pioneer",
+    "occupations": ["AI researcher", "professor"],
+    "biography": "Percy Liang is Professor at Stanford and leads Stanford HAI with Fei-Fei Li. Creator of HELM benchmark. Important voice on AI evaluation and accountability."
+  },
+  {
+    "id": "object-transformer-paper",
+    "type": "object",
+    "title": "Attention Is All You Need",
+    "objectType": "research paper",
+    "shortDescription": "The foundational 2017 paper introducing the Transformer architecture",
+    "dateStart": "2017-06",
+    "creators": ["person-ashish-vaswani", "person-noam-shazeer", "person-niki-parmar", "person-jakob-uszkoreit", "person-llion-jones", "person-aidan-gomez", "person-lukasz-kaiser", "person-illia-polosukhin"],
+    "language": "English",
+    "subject": "machine learning, natural language processing",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1706.03762"}
+    ]
+  },
+  {
+    "id": "object-alexnet-paper",
+    "type": "object",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "objectType": "research paper",
+    "shortDescription": "AlexNet paper that triggered the 2012 deep learning revolution",
+    "dateStart": "2012-12",
+    "creators": ["person-alex-krizhevsky", "person-ilya-sutskever", "person-geoffrey-hinton"],
+    "language": "English",
+    "subject": "computer vision, deep learning"
+  },
+  {
+    "id": "object-gan-paper",
+    "type": "object",
+    "title": "Generative Adversarial Networks",
+    "objectType": "research paper",
+    "shortDescription": "The 2014 paper introducing GANs",
+    "dateStart": "2014-06",
+    "creators": ["person-ian-goodfellow", "person-yoshua-bengio", "person-aaron-courville"],
+    "language": "English",
+    "subject": "generative models, machine learning",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1406.2661"}
+    ]
+  },
+  {
+    "id": "object-adam-paper",
+    "type": "object",
+    "title": "Adam: A Method for Stochastic Optimization",
+    "objectType": "research paper",
+    "shortDescription": "The 2014 paper introducing the Adam optimizer",
+    "dateStart": "2014-12",
+    "creators": ["person-durk-kingma", "person-jimmy-ba"],
+    "language": "English",
+    "subject": "optimization, machine learning",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1412.6980"}
+    ]
+  },
+  {
+    "id": "object-dropout-paper",
+    "type": "object",
+    "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "objectType": "research paper",
+    "shortDescription": "The foundational Dropout regularization paper",
+    "dateStart": "2014",
+    "creators": ["person-nitish-srivastava", "person-geoffrey-hinton", "person-alex-krizhevsky", "person-ilya-sutskever", "person-ruslan-salakhutdinov"],
+    "language": "English",
+    "subject": "regularization, machine learning"
+  },
+  {
+    "id": "object-gpt1",
+    "type": "object",
+    "title": "GPT-1",
+    "objectType": "AI model",
+    "shortDescription": "First GPT model; established pre-training + fine-tuning paradigm",
+    "dateStart": "2018-06",
+    "creators": ["person-alec-radford", "person-ilya-sutskever"],
+    "subject": "language models"
+  },
+  {
+    "id": "object-gpt2",
+    "type": "object",
+    "title": "GPT-2",
+    "objectType": "AI model",
+    "shortDescription": "Scaled GPT to 1.5B parameters; first 'too dangerous to release' AI",
+    "dateStart": "2019-02",
+    "creators": ["person-alec-radford", "person-dario-amodei", "person-ilya-sutskever"],
+    "subject": "language models"
+  },
+  {
+    "id": "object-gpt3",
+    "type": "object",
+    "title": "GPT-3",
+    "objectType": "AI model",
+    "shortDescription": "175B parameter model demonstrating emergent capabilities; established API business model",
+    "dateStart": "2020-05",
+    "creators": ["person-tom-brown"],
+    "subject": "language models",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/2005.14165"}
+    ]
+  },
+  {
+    "id": "object-gpt4",
+    "type": "object",
+    "title": "GPT-4",
+    "objectType": "AI model",
+    "shortDescription": "Multimodal model accepting text and images; significant capability leap",
+    "dateStart": "2023-03",
+    "subject": "language models, multimodal AI"
+  },
+  {
+    "id": "object-chatgpt",
+    "type": "object",
+    "title": "ChatGPT",
+    "objectType": "AI product",
+    "shortDescription": "Conversational AI that reached 100M users in 2 months",
+    "dateStart": "2022-11-30",
+    "subject": "conversational AI"
+  },
+  {
+    "id": "object-dalle",
+    "type": "object",
+    "title": "DALL-E",
+    "objectType": "AI model",
+    "shortDescription": "First large-scale text-to-image generation system",
+    "dateStart": "2021-01",
+    "creators": ["person-aditya-ramesh", "person-alec-radford", "person-mark-chen", "person-ilya-sutskever"],
+    "subject": "image generation"
+  },
+  {
+    "id": "object-clip",
+    "type": "object",
+    "title": "CLIP",
+    "objectType": "AI model",
+    "shortDescription": "Contrastive Language-Image Pre-training; foundation for multimodal AI",
+    "dateStart": "2021-01",
+    "creators": ["person-alec-radford", "person-aditya-ramesh"],
+    "subject": "multimodal AI",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/2103.00020"}
+    ]
+  },
+  {
+    "id": "object-codex",
+    "type": "object",
+    "title": "Codex / GitHub Copilot",
+    "objectType": "AI model",
+    "shortDescription": "GPT-3 fine-tuned on code; powers GitHub Copilot",
+    "dateStart": "2021-08",
+    "creators": ["person-wojciech-zaremba", "person-mark-chen"],
+    "subject": "code generation"
+  },
+  {
+    "id": "object-claude",
+    "type": "object",
+    "title": "Claude",
+    "objectType": "AI model",
+    "shortDescription": "Anthropic's conversational AI trained with Constitutional AI",
+    "dateStart": "2023-03",
+    "subject": "conversational AI, AI safety"
+  },
+  {
+    "id": "object-constitutional-ai",
+    "type": "object",
+    "title": "Constitutional AI Paper",
+    "objectType": "research paper",
+    "shortDescription": "Training AI to be helpful, harmless, and honest using AI-generated critiques",
+    "dateStart": "2022-12",
+    "subject": "AI safety, alignment",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/2212.08073"}
+    ]
+  },
+  {
+    "id": "object-scaling-laws",
+    "type": "object",
+    "title": "Scaling Laws for Neural Language Models",
+    "objectType": "research paper",
+    "shortDescription": "Established power-law relationships between model size, data, and performance",
+    "dateStart": "2020-01",
+    "creators": ["person-jared-kaplan", "person-sam-mccandlish", "person-tom-brown"],
+    "subject": "scaling laws, machine learning",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/2001.08361"}
+    ]
+  },
+  {
+    "id": "object-llama",
+    "type": "object",
+    "title": "LLaMA",
+    "objectType": "AI model",
+    "shortDescription": "Meta's open-weight LLM family that launched the open-weight movement",
+    "dateStart": "2023-02",
+    "creators": ["person-hugo-touvron", "person-guillaume-lample"],
+    "subject": "language models",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/2302.13971"}
+    ]
+  },
+  {
+    "id": "object-llama2",
+    "type": "object",
+    "title": "LLaMA 2",
+    "objectType": "AI model",
+    "shortDescription": "First major truly open-weight competitive LLM with commercial license",
+    "dateStart": "2023-07",
+    "creators": ["person-hugo-touvron"],
+    "subject": "language models"
+  },
+  {
+    "id": "object-code-llama",
+    "type": "object",
+    "title": "Code Llama",
+    "objectType": "AI model",
+    "shortDescription": "Code-specialized LLaMA variants",
+    "dateStart": "2023-08",
+    "creators": ["person-baptiste-roziere"],
+    "subject": "code generation"
+  },
+  {
+    "id": "object-alphago",
+    "type": "object",
+    "title": "AlphaGo",
+    "objectType": "AI system",
+    "shortDescription": "First AI to defeat a professional Go player",
+    "dateStart": "2016-01",
+    "creators": ["person-david-silver", "person-aja-huang", "person-demis-hassabis"],
+    "subject": "game playing, reinforcement learning"
+  },
+  {
+    "id": "object-alphafold2",
+    "type": "object",
+    "title": "AlphaFold 2",
+    "objectType": "AI system",
+    "shortDescription": "Solved protein structure prediction at atomic accuracy; Nobel Prize 2024",
+    "dateStart": "2020-11",
+    "creators": ["person-john-jumper", "person-demis-hassabis"],
+    "subject": "protein folding, computational biology"
+  },
+  {
+    "id": "object-gemini",
+    "type": "object",
+    "title": "Gemini",
+    "objectType": "AI model",
+    "shortDescription": "Google DeepMind's natively multimodal LLM family",
+    "dateStart": "2023-12",
+    "creators": ["person-demis-hassabis", "person-jeff-dean", "person-oriol-vinyals", "person-noam-shazeer"],
+    "subject": "language models, multimodal AI"
+  },
+  {
+    "id": "object-tensorflow",
+    "type": "object",
+    "title": "TensorFlow",
+    "objectType": "software framework",
+    "shortDescription": "Open-source machine learning framework from Google",
+    "dateStart": "2015-11",
+    "creators": ["person-jeff-dean"],
+    "subject": "machine learning"
+  },
+  {
+    "id": "object-bert",
+    "type": "object",
+    "title": "BERT",
+    "objectType": "AI model",
+    "shortDescription": "Bidirectional Transformer that revolutionized NLP",
+    "dateStart": "2018-10",
+    "subject": "natural language processing",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1810.04805"}
+    ]
+  },
+  {
+    "id": "object-word2vec",
+    "type": "object",
+    "title": "Word2Vec",
+    "objectType": "AI model",
+    "shortDescription": "Efficient word embeddings; 'king - man + woman = queen'",
+    "dateStart": "2013-01",
+    "creators": ["person-greg-corrado", "person-jeff-dean"],
+    "subject": "natural language processing",
+    "externalLinks": [
+      {"label": "arXiv", "url": "https://arxiv.org/abs/1301.3781"}
+    ]
+  },
+  {
+    "id": "object-mistral-7b",
+    "type": "object",
+    "title": "Mistral 7B",
+    "objectType": "AI model",
+    "shortDescription": "Efficient 7B model outperforming LLaMA 2 13B",
+    "dateStart": "2023-09",
+    "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
+    "subject": "language models"
+  },
+  {
+    "id": "object-stable-diffusion",
+    "type": "object",
+    "title": "Stable Diffusion",
+    "objectType": "AI model",
+    "shortDescription": "Open-source latent diffusion model for text-to-image generation",
+    "dateStart": "2022-08",
+    "creators": ["person-robin-rombach", "person-andreas-blattmann"],
+    "subject": "image generation"
+  },
+  {
+    "id": "object-transformers-library",
+    "type": "object",
+    "title": "Hugging Face Transformers Library",
+    "objectType": "software library",
+    "shortDescription": "Open-source library for using pre-trained Transformer models",
+    "dateStart": "2019-10",
+    "creators": ["person-thomas-wolf"],
+    "subject": "machine learning"
+  },
+  {
+    "id": "object-grok",
+    "type": "object",
+    "title": "Grok",
+    "objectType": "AI model",
+    "shortDescription": "xAI's conversational AI integrated with X platform",
+    "dateStart": "2023-11",
+    "creators": ["person-elon-musk", "person-igor-babuschkin"],
+    "subject": "conversational AI"
+  },
+  {
+    "id": "object-deep-learning-book",
+    "type": "object",
+    "title": "Deep Learning Textbook",
+    "objectType": "textbook",
+    "shortDescription": "Definitive textbook on deep learning by Goodfellow, Bengio, and Courville",
+    "dateStart": "2016-11",
+    "creators": ["person-ian-goodfellow", "person-yoshua-bengio", "person-aaron-courville"],
+    "language": "English",
+    "subject": "deep learning",
+    "externalLinks": [
+      {"label": "Book Website", "url": "https://www.deeplearningbook.org/"}
+    ]
+  },
+  {
+    "id": "object-rl-book",
+    "type": "object",
+    "title": "Reinforcement Learning: An Introduction",
+    "objectType": "textbook",
+    "shortDescription": "The canonical RL textbook by Sutton and Barto",
+    "dateStart": "1998",
+    "creators": ["person-richard-sutton"],
+    "language": "English",
+    "subject": "reinforcement learning"
+  },
+  {
+    "id": "object-cs231n",
+    "type": "object",
+    "title": "CS231n: Convolutional Neural Networks for Visual Recognition",
+    "objectType": "course",
+    "shortDescription": "Influential Stanford deep learning course",
+    "dateStart": "2015",
+    "creators": ["person-fei-fei-li", "person-andrej-karpathy"],
+    "subject": "computer vision, deep learning"
+  },
+  {
+    "id": "object-coursera-ml",
+    "type": "object",
+    "title": "Machine Learning (Coursera)",
+    "objectType": "online course",
+    "shortDescription": "First major ML MOOC; millions of enrollees",
+    "dateStart": "2011",
+    "creators": ["person-andrew-ng"],
+    "subject": "machine learning"
+  },
+  {
+    "id": "object-distill",
+    "type": "object",
+    "title": "Distill.pub",
+    "objectType": "publication",
+    "shortDescription": "Online journal for clear ML explanations with interactive visualizations",
+    "dateStart": "2016",
+    "dateEnd": "2021",
+    "creators": ["person-chris-olah"],
+    "subject": "machine learning education"
+  },
+  {
+    "id": "location-san-francisco",
+    "type": "location",
+    "title": "San Francisco, California",
+    "locationType": "city",
+    "shortDescription": "Global center of AI research; home to OpenAI, Anthropic, xAI",
+    "country": "United States",
+    "coordinates": {"lat": 37.7749, "lng": -122.4194}
+  },
+  {
+    "id": "location-mountain-view",
+    "type": "location",
+    "title": "Mountain View, California",
+    "locationType": "city",
+    "shortDescription": "Google/Alphabet headquarters; Google Brain origins",
+    "country": "United States",
+    "coordinates": {"lat": 37.3861, "lng": -122.0839}
+  },
+  {
+    "id": "location-london",
+    "type": "location",
+    "title": "London, United Kingdom",
+    "locationType": "city",
+    "shortDescription": "DeepMind headquarters; major European AI research center",
+    "country": "United Kingdom",
+    "coordinates": {"lat": 51.5074, "lng": -0.1278}
+  },
+  {
+    "id": "location-paris",
+    "type": "location",
+    "title": "Paris, France",
+    "locationType": "city",
+    "shortDescription": "Meta FAIR Paris; Mistral AI headquarters; European AI hub",
+    "country": "France",
+    "coordinates": {"lat": 48.8566, "lng": 2.3522}
+  },
+  {
+    "id": "location-toronto",
+    "type": "location",
+    "title": "Toronto, Canada",
+    "locationType": "city",
+    "shortDescription": "Toronto School of deep learning; Vector Institute; Geoffrey Hinton's base",
+    "country": "Canada",
+    "coordinates": {"lat": 43.6532, "lng": -79.3832}
+  },
+  {
+    "id": "location-montreal",
+    "type": "location",
+    "title": "Montreal, Canada",
+    "locationType": "city",
+    "shortDescription": "MILA headquarters; Yoshua Bengio's base; DeepMind Montreal",
+    "country": "Canada",
+    "coordinates": {"lat": 45.5017, "lng": -73.5673}
+  },
+  {
+    "id": "location-stanford",
+    "type": "location",
+    "title": "Stanford University",
+    "locationType": "university",
+    "shortDescription": "Major AI research center; Stanford AI Lab; Stanford HAI",
+    "country": "United States",
+    "parentLocation": "location-palo-alto"
+  },
+  {
+    "id": "location-utoronto",
+    "type": "location",
+    "title": "University of Toronto",
+    "locationType": "university",
+    "shortDescription": "Hinton's institution; birthplace of 'Toronto School' of deep learning",
+    "country": "Canada",
+    "parentLocation": "location-toronto"
+  },
+  {
+    "id": "location-umontreal",
+    "type": "location",
+    "title": "Université de Montréal",
+    "locationType": "university",
+    "shortDescription": "Yoshua Bengio's institution; MILA host",
+    "country": "Canada",
+    "parentLocation": "location-montreal"
+  },
+  {
+    "id": "location-ucberkeley",
+    "type": "location",
+    "title": "UC Berkeley",
+    "locationType": "university",
+    "shortDescription": "BAIR lab; strong deep RL research",
+    "country": "United States"
+  },
+  {
+    "id": "location-cmu",
+    "type": "location",
+    "title": "Carnegie Mellon University",
+    "locationType": "university",
+    "shortDescription": "Top AI/ML graduate program; first dedicated ML department",
+    "country": "United States",
+    "parentLocation": "location-pittsburgh"
+  },
+  {
+    "id": "location-tokyo",
+    "type": "location",
+    "title": "Tokyo, Japan",
+    "locationType": "city",
+    "shortDescription": "Sakana AI headquarters; Japanese AI industry",
+    "country": "Japan",
+    "coordinates": {"lat": 35.6762, "lng": 139.6503}
+  },
+  {
+    "id": "location-edmonton",
+    "type": "location",
+    "title": "Edmonton, Canada",
+    "locationType": "city",
+    "shortDescription": "University of Alberta RL research; Richard Sutton's base",
+    "country": "Canada"
+  },
+  {
+    "id": "location-ualberta",
+    "type": "location",
+    "title": "University of Alberta",
+    "locationType": "university",
+    "shortDescription": "Reinforcement learning research center; Sutton's institution",
+    "country": "Canada",
+    "parentLocation": "location-edmonton"
+  },
+  {
+    "id": "entity-openai",
+    "type": "entity",
+    "title": "OpenAI",
+    "entityType": "AI research company",
+    "shortDescription": "Creator of GPT models and ChatGPT; most influential AI lab",
+    "dateStart": "2015-12",
+    "foundedBy": ["person-sam-altman", "person-elon-musk", "person-greg-brockman", "person-ilya-sutskever", "person-john-schulman", "person-wojciech-zaremba"],
+    "headquarters": "location-san-francisco"
+  },
+  {
+    "id": "entity-anthropic",
+    "type": "entity",
+    "title": "Anthropic",
+    "entityType": "AI safety company",
+    "shortDescription": "Creator of Claude; AI safety-focused lab founded by OpenAI departures",
+    "dateStart": "2021",
+    "foundedBy": ["person-dario-amodei", "person-daniela-amodei", "person-tom-brown", "person-jared-kaplan", "person-sam-mccandlish", "person-chris-olah", "person-jack-clark"],
+    "headquarters": "location-san-francisco"
+  },
+  {
+    "id": "entity-google-deepmind",
+    "type": "entity",
+    "title": "Google DeepMind",
+    "entityType": "AI research lab",
+    "shortDescription": "Creator of AlphaGo, AlphaFold, Gemini; merged from DeepMind and Google Brain",
+    "dateStart": "2023-04",
+    "foundedBy": ["person-demis-hassabis", "person-jeff-dean"],
+    "headquarters": "location-london"
+  },
+  {
+    "id": "entity-deepmind",
+    "type": "entity",
+    "title": "DeepMind",
+    "entityType": "AI research lab",
+    "shortDescription": "Pioneer AI lab; created AlphaGo, AlphaFold",
+    "dateStart": "2010",
+    "dateEnd": "2023",
+    "foundedBy": ["person-demis-hassabis", "person-shane-legg", "person-mustafa-suleyman"],
+    "headquarters": "location-london"
+  },
+  {
+    "id": "entity-google-brain",
+    "type": "entity",
+    "title": "Google Brain",
+    "entityType": "AI research lab",
+    "shortDescription": "Google's AI research division; merged into Google DeepMind in 2023",
+    "dateStart": "2011",
+    "dateEnd": "2023",
+    "foundedBy": ["person-jeff-dean", "person-andrew-ng", "person-greg-corrado"],
+    "headquarters": "location-mountain-view"
+  },
+  {
+    "id": "entity-meta-ai",
+    "type": "entity",
+    "title": "Meta AI / FAIR",
+    "entityType": "AI research lab",
+    "shortDescription": "Creator of LLaMA; advocate for open AI research",
+    "dateStart": "2013-12",
+    "foundedBy": ["person-yann-lecun"],
+    "headquarters": "location-menlo-park"
+  },
+  {
+    "id": "entity-xai",
+    "type": "entity",
+    "title": "xAI",
+    "entityType": "AI company",
+    "shortDescription": "Elon Musk's AI venture; creator of Grok",
+    "dateStart": "2023-07",
+    "foundedBy": ["person-elon-musk", "person-igor-babuschkin", "person-christian-szegedy"],
+    "headquarters": "location-san-francisco"
+  },
+  {
+    "id": "entity-mistral",
+    "type": "entity",
+    "title": "Mistral AI",
+    "entityType": "AI company",
+    "shortDescription": "Leading European AI company; efficient open-weight models",
+    "dateStart": "2023-04",
+    "foundedBy": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
+    "headquarters": "location-paris"
+  },
+  {
+    "id": "entity-huggingface",
+    "type": "entity",
+    "title": "Hugging Face",
+    "entityType": "AI platform company",
+    "shortDescription": "Central platform for open-source AI; hosts most publicly available models",
+    "dateStart": "2016",
+    "foundedBy": ["person-clement-delangue", "person-julien-chaumond", "person-thomas-wolf"],
+    "headquarters": "location-new-york"
+  },
+  {
+    "id": "entity-stability",
+    "type": "entity",
+    "title": "Stability AI",
+    "entityType": "AI company",
+    "shortDescription": "Company behind Stable Diffusion commercialization",
+    "dateStart": "2019",
+    "foundedBy": ["person-emad-mostaque"],
+    "headquarters": "location-london"
+  },
+  {
+    "id": "entity-cohere",
+    "type": "entity",
+    "title": "Cohere",
+    "entityType": "AI company",
+    "shortDescription": "Enterprise LLM company founded by Transformer paper author",
+    "dateStart": "2019",
+    "foundedBy": ["person-aidan-gomez", "person-ivan-zhang", "person-nick-frosst"],
+    "headquarters": "location-toronto"
+  },
+  {
+    "id": "entity-sakana",
+    "type": "entity",
+    "title": "Sakana AI",
+    "entityType": "AI company",
+    "shortDescription": "Nature-inspired AI research; founded by Transformer paper author",
+    "dateStart": "2023",
+    "foundedBy": ["person-llion-jones", "person-david-ha"],
+    "headquarters": "location-tokyo"
+  },
+  {
+    "id": "entity-mila",
+    "type": "entity",
+    "title": "MILA",
+    "entityType": "research institute",
+    "shortDescription": "Largest academic AI research institute in the world",
+    "dateStart": "1993",
+    "foundedBy": ["person-yoshua-bengio"],
+    "headquarters": "location-montreal"
+  },
+  {
+    "id": "entity-vector-institute",
+    "type": "entity",
+    "title": "Vector Institute",
+    "entityType": "research institute",
+    "shortDescription": "Toronto AI research institute co-founded by Hinton",
+    "dateStart": "2017",
+    "foundedBy": ["person-geoffrey-hinton"],
+    "headquarters": "location-toronto"
+  },
+  {
+    "id": "entity-stanford-hai",
+    "type": "entity",
+    "title": "Stanford HAI",
+    "entityType": "research institute",
+    "shortDescription": "Stanford's Human-Centered AI Institute",
+    "dateStart": "2019",
+    "foundedBy": ["person-fei-fei-li"],
+    "headquarters": "location-stanford"
+  },
+  {
+    "id": "entity-bair",
+    "type": "entity",
+    "title": "BAIR",
+    "entityType": "research lab",
+    "shortDescription": "Berkeley AI Research lab; strong in deep RL",
+    "dateStart": "2014",
+    "headquarters": "location-ucberkeley"
+  },
+  {
+    "id": "entity-neurips",
+    "type": "entity",
+    "title": "NeurIPS",
+    "entityType": "academic conference",
+    "shortDescription": "Premier machine learning conference",
+    "dateStart": "1987"
+  },
+  {
+    "id": "entity-iclr",
+    "type": "entity",
+    "title": "ICLR",
+    "entityType": "academic conference",
+    "shortDescription": "Conference focused on representation learning; founded by Bengio and LeCun",
+    "dateStart": "2013",
+    "foundedBy": ["person-yoshua-bengio", "person-yann-lecun"]
+  },
+  {
+    "id": "entity-ssi",
+    "type": "entity",
+    "title": "Safe Superintelligence Inc.",
+    "entityType": "AI safety company",
+    "shortDescription": "Sutskever's post-OpenAI venture focused on safe superintelligence",
+    "dateStart": "2024-06",
+    "foundedBy": ["person-ilya-sutskever", "person-jan-leike"],
+    "headquarters": "location-san-francisco"
+  },
+  {
+    "id": "entity-dair",
+    "type": "entity",
+    "title": "DAIR Institute",
+    "entityType": "research institute",
+    "shortDescription": "Independent AI ethics research founded by Timnit Gebru",
+    "dateStart": "2021",
+    "foundedBy": ["person-timnit-gebru"]
+  },
+  {
+    "id": "entity-toronto-school",
+    "type": "entity",
+    "title": "Toronto School of Deep Learning",
+    "entityType": "intellectual movement",
+    "shortDescription": "Network of researchers trained by or influenced by Geoffrey Hinton"
+  },
+  {
+    "id": "entity-montreal-school",
+    "type": "entity",
+    "title": "Montreal School of Deep Learning",
+    "entityType": "intellectual movement",
+    "shortDescription": "Network of researchers associated with MILA and Yoshua Bengio"
+  }
+]
