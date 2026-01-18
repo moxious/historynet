@@ -98,6 +98,7 @@ export function GraphProvider({ children }: GraphProviderProps) {
   const {
     datasetId: urlDatasetId,
     setDatasetId: setUrlDatasetId,
+    setDatasetIdAndClearSelection,
     setSelected: setUrlSelected,
     clearSelected: clearUrlSelected,
     selectedId: urlSelectedId,
@@ -175,10 +176,11 @@ export function GraphProvider({ children }: GraphProviderProps) {
       : undefined;
 
   // Switch dataset (also updates URL)
+  // Uses atomic URL update to avoid race condition between setDatasetId and clearSelection
   const switchDataset = (newDatasetId: string) => {
     if (isValidDatasetId(newDatasetId)) {
-      setUrlDatasetId(newDatasetId);
-      clearSelection();
+      setDatasetIdAndClearSelection(newDatasetId); // Single atomic URL update
+      clearSelectionBase(); // Clear local state only (URL already cleared above)
     } else {
       console.error(`Cannot switch to invalid dataset: ${newDatasetId}`);
     }

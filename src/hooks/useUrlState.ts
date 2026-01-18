@@ -25,6 +25,8 @@ interface UseUrlStateReturn {
   datasetId: string | null;
   /** Set dataset ID in URL */
   setDatasetId: (id: string) => void;
+  /** Set dataset ID and clear selection in a single atomic URL update */
+  setDatasetIdAndClearSelection: (id: string) => void;
   /** Currently selected item ID from URL */
   selectedId: string | null;
   /** Type of selected item ('node' or 'edge') */
@@ -64,6 +66,21 @@ export function useUrlState(): UseUrlStateReturn {
       setSearchParams((prev) => {
         const newParams = new URLSearchParams(prev);
         newParams.set(URL_PARAMS.DATASET, id);
+        return newParams;
+      });
+    },
+    [setSearchParams]
+  );
+
+  // Set dataset ID and clear selection in a single atomic URL update
+  // This avoids race conditions when switching datasets
+  const setDatasetIdAndClearSelection = useCallback(
+    (id: string) => {
+      setSearchParams((prev) => {
+        const newParams = new URLSearchParams(prev);
+        newParams.set(URL_PARAMS.DATASET, id);
+        newParams.delete(URL_PARAMS.SELECTED);
+        newParams.delete(URL_PARAMS.SELECTED_TYPE);
         return newParams;
       });
     },
@@ -199,6 +216,7 @@ export function useUrlState(): UseUrlStateReturn {
     () => ({
       datasetId,
       setDatasetId,
+      setDatasetIdAndClearSelection,
       selectedId,
       selectedType,
       setSelected,
@@ -214,6 +232,7 @@ export function useUrlState(): UseUrlStateReturn {
     [
       datasetId,
       setDatasetId,
+      setDatasetIdAndClearSelection,
       selectedId,
       selectedType,
       setSelected,
