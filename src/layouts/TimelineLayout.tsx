@@ -43,11 +43,15 @@ interface TimelineEdge {
 
 const NODE_SIZE = 32;
 const LANE_WIDTH = 180;
+// Left margin accounts for filter panel (max 280px) + spacing
+const LEFT_MARGIN = 300;
 const AXIS_WIDTH = 80;
 const MIN_YEAR_HEIGHT = 30; // Minimum pixels per year
 const UNDATED_SECTION_HEIGHT = 150;
 const ZOOM_MIN = 0.3;
 const ZOOM_MAX = 5;
+// Initial zoom scale - show content at readable size
+const INITIAL_ZOOM_SCALE = 0.8;
 
 /**
  * TimelineLayout component
@@ -199,7 +203,8 @@ export function TimelineLayout({
     const yearSpan = yearRange.max - yearRange.min + 1;
     const contentHeight = Math.max(yearSpan * MIN_YEAR_HEIGHT, height);
     const laneCount = Math.max(...assignedNodes.map((n) => n.lane ?? 0), 0) + 1;
-    const contentWidth = AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
+    // Content width includes left margin for filter panel
+    const contentWidth = LEFT_MARGIN + AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
 
     // Create scales
     const yScale = d3
@@ -224,6 +229,9 @@ export function TimelineLayout({
     const startDecade = Math.floor(yearRange.min / 10) * 10;
     const endDecade = Math.ceil(yearRange.max / 10) * 10;
 
+    // Calculate axis x position (after left margin)
+    const axisX = LEFT_MARGIN + AXIS_WIDTH;
+
     for (let year = startDecade; year <= endDecade; year += 10) {
       if (year >= yearRange.min && year <= yearRange.max) {
         const y = yScale(year);
@@ -233,7 +241,7 @@ export function TimelineLayout({
         axisGroup
           .append('line')
           .attr('class', isCentury ? 'timeline-grid-century' : 'timeline-grid-decade')
-          .attr('x1', AXIS_WIDTH - 5)
+          .attr('x1', axisX - 5)
           .attr('x2', contentWidth)
           .attr('y1', y)
           .attr('y2', y)
@@ -241,17 +249,17 @@ export function TimelineLayout({
           .attr('stroke-width', isCentury ? 1.5 : 0.5)
           .attr('stroke-dasharray', isCentury ? 'none' : '2,4');
 
-        // Draw year label
+        // Draw year label (TL6-TL10: Increased font size for readability)
         axisGroup
           .append('text')
           .attr('class', 'timeline-year-label')
-          .attr('x', AXIS_WIDTH - 10)
+          .attr('x', axisX - 10)
           .attr('y', y)
           .attr('text-anchor', 'end')
           .attr('dominant-baseline', 'middle')
-          .attr('font-size', isCentury ? '12px' : '10px')
-          .attr('font-weight', isCentury ? '600' : '400')
-          .attr('fill', isCentury ? '#1e293b' : '#64748b')
+          .attr('font-size', isCentury ? '16px' : '13px')
+          .attr('font-weight', isCentury ? '700' : '500')
+          .attr('fill', isCentury ? '#0f172a' : '#475569')
           .text(year);
       }
     }
@@ -260,8 +268,8 @@ export function TimelineLayout({
     axisGroup
       .append('line')
       .attr('class', 'timeline-axis-line')
-      .attr('x1', AXIS_WIDTH)
-      .attr('x2', AXIS_WIDTH)
+      .attr('x1', axisX)
+      .attr('x2', axisX)
       .attr('y1', yScale(yearRange.min) - 20)
       .attr('y2', yScale(yearRange.max) + 20)
       .attr('stroke', '#94a3b8')
@@ -271,9 +279,9 @@ export function TimelineLayout({
     const edgeGroup = g.append('g').attr('class', 'timeline-edges');
     const nodeGroup = g.append('g').attr('class', 'timeline-nodes');
 
-    // Position nodes
+    // Position nodes (after axis, with margin for filter panel)
     for (const node of assignedNodes) {
-      node.x = AXIS_WIDTH + 50 + (node.lane ?? 0) * LANE_WIDTH;
+      node.x = axisX + 50 + (node.lane ?? 0) * LANE_WIDTH;
       node.y = yScale(node.year ?? yearRange.min);
     }
 
@@ -393,7 +401,7 @@ export function TimelineLayout({
       // Separator line
       g.append('line')
         .attr('class', 'timeline-undated-separator')
-        .attr('x1', 0)
+        .attr('x1', LEFT_MARGIN)
         .attr('x2', contentWidth)
         .attr('y1', undatedY - 20)
         .attr('y2', undatedY - 20)
@@ -404,19 +412,19 @@ export function TimelineLayout({
       // Label
       g.append('text')
         .attr('class', 'timeline-undated-label')
-        .attr('x', AXIS_WIDTH - 10)
+        .attr('x', axisX - 10)
         .attr('y', undatedY)
         .attr('text-anchor', 'end')
-        .attr('font-size', '11px')
+        .attr('font-size', '13px')
         .attr('font-weight', '500')
-        .attr('fill', '#64748b')
+        .attr('fill', '#475569')
         .text('Undated');
 
       // Position undated nodes in a row
       const undatedGroup = g.append('g').attr('class', 'timeline-undated-nodes');
 
       undatedNodes.forEach((node, i) => {
-        node.x = AXIS_WIDTH + 50 + i * (NODE_SIZE + 60);
+        node.x = axisX + 50 + i * (NODE_SIZE + 60);
         node.y = undatedY;
       });
 
@@ -465,15 +473,27 @@ export function TimelineLayout({
     zoomRef.current = zoom;
     svg.call(zoom);
 
-    // Initial zoom to fit content
-    const initialScale = Math.min(
-      width / contentWidth,
-      height / contentHeight,
-      1
+    // Initial zoom to show content at readable size (TL11-TL15)
+    // Focus on the first chronological item while keeping content visible
+    const firstNodeY = assignedNodes.length > 0 
+      ? yScale(assignedNodes[0].year ?? yearRange.min) 
+      : 50;
+    
+    // Calculate scale that shows nodes at readable size
+    const idealScale = Math.min(
+      (width * 0.8) / (contentWidth - LEFT_MARGIN),  // Fit width (excluding filter margin)
+      height / Math.min(contentHeight * 0.7, 600),   // Limit vertical to ~600px view
+      INITIAL_ZOOM_SCALE                              // Max reasonable scale
     );
+    const actualScale = Math.max(idealScale, ZOOM_MIN);
+    
+    // Position to show first items, offset for left margin
+    const initialX = -LEFT_MARGIN * actualScale + 20;
+    const initialY = -Math.max(firstNodeY - 100, 0) * actualScale;
+    
     svg.call(
       zoom.transform,
-      d3.zoomIdentity.translate(0, 0).scale(Math.max(initialScale, ZOOM_MIN))
+      d3.zoomIdentity.translate(initialX, initialY).scale(actualScale)
     );
 
     // Cleanup
@@ -576,15 +596,36 @@ export function TimelineLayout({
     const yearSpan = yearRange.max - yearRange.min + 1;
     const contentHeight = Math.max(yearSpan * MIN_YEAR_HEIGHT, height);
     const laneCount = Math.max(...assignedNodes.map((n) => n.lane ?? 0), 0) + 1;
-    const contentWidth = AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
+    const contentWidth = LEFT_MARGIN + AXIS_WIDTH + laneCount * LANE_WIDTH + 100;
 
-    const initialScale = Math.min(width / contentWidth, height / contentHeight, 1);
+    // Calculate yScale for positioning
+    const yScale = d3
+      .scaleLinear()
+      .domain([yearRange.min, yearRange.max])
+      .range([50, contentHeight - UNDATED_SECTION_HEIGHT - 50]);
+
+    const firstNodeY = assignedNodes.length > 0 
+      ? yScale(assignedNodes[0].year ?? yearRange.min) 
+      : 50;
+
+    // Calculate scale that shows nodes at readable size
+    const idealScale = Math.min(
+      (width * 0.8) / (contentWidth - LEFT_MARGIN),
+      height / Math.min(contentHeight * 0.7, 600),
+      INITIAL_ZOOM_SCALE
+    );
+    const actualScale = Math.max(idealScale, ZOOM_MIN);
+    
+    // Position to show first items
+    const initialX = -LEFT_MARGIN * actualScale + 20;
+    const initialY = -Math.max(firstNodeY - 100, 0) * actualScale;
+
     svg
       .transition()
       .duration(500)
       .call(
         zoomRef.current.transform,
-        d3.zoomIdentity.translate(0, 0).scale(Math.max(initialScale, ZOOM_MIN))
+        d3.zoomIdentity.translate(initialX, initialY).scale(actualScale)
       );
   }, [dimensions, yearRange, assignedNodes]);
 
@@ -643,23 +684,32 @@ export function TimelineLayout({
         </button>
       </div>
 
-      {/* Legend */}
+      {/* Legend - Matches graph view node types (TL28-TL34) */}
       <div className="timeline-layout__legend">
-        <div className="timeline-layout__legend-title">Timeline</div>
+        <div className="timeline-layout__legend-title">Node Types</div>
         <div className="timeline-layout__legend-item">
-          <div className="timeline-layout__legend-circle" style={{ backgroundColor: '#3b82f6' }} />
-          <span>Birth</span>
+          <svg width="16" height="16" viewBox="-10 -10 20 20">
+            <circle r="7" fill="#3b82f6" stroke="#fff" strokeWidth="1" />
+          </svg>
+          <span>Person</span>
         </div>
         <div className="timeline-layout__legend-item">
-          <div
-            className="timeline-layout__legend-circle timeline-layout__legend-circle--hollow"
-            style={{ borderColor: '#3b82f6' }}
-          />
-          <span>Death</span>
+          <svg width="16" height="16" viewBox="-10 -10 20 20">
+            <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#10b981" stroke="#fff" strokeWidth="1" />
+          </svg>
+          <span>Object</span>
         </div>
         <div className="timeline-layout__legend-item">
-          <div className="timeline-layout__legend-bar" style={{ backgroundColor: '#3b82f6' }} />
-          <span>Lifespan</span>
+          <svg width="16" height="16" viewBox="-10 -10 20 20">
+            <path d="M 0 -7 L 7 0 L 0 7 L -7 0 Z" fill="#f59e0b" stroke="#fff" strokeWidth="1" />
+          </svg>
+          <span>Location</span>
+        </div>
+        <div className="timeline-layout__legend-item">
+          <svg width="16" height="16" viewBox="-10 -10 20 20">
+            <path d="M 0 -7 L 6 -3.5 L 6 3.5 L 0 7 L -6 3.5 L -6 -3.5 Z" fill="#8b5cf6" stroke="#fff" strokeWidth="1" />
+          </svg>
+          <span>Entity</span>
         </div>
       </div>
     </div>
