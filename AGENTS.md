@@ -172,12 +172,14 @@ Since agents may not have direct communication:
 
 ## Technical Guidelines
 
-### Code Style
+### Code
 
 - **TypeScript**: All source code should be TypeScript
 - **Components**: Functional React components with hooks
 - **Naming**: PascalCase for components, camelCase for functions/variables
 - **Files**: One component per file, named to match the component
+- Consult .cursor/rules/frontend-security.mdc for secure coding rules
+- Consult .cursor/rules/react-antipatterns.mdc for code guidelines dealing with React
 
 ### State Management
 
