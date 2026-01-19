@@ -1,0 +1,901 @@
+[
+  {
+    "id": "edge-cosimo-patronized-ficino",
+    "source": "person-cosimo-de-medici",
+    "target": "person-marsilio-ficino",
+    "relationship": "patronized",
+    "dateStart": "1462",
+    "dateEnd": "1464",
+    "evidence": "Cosimo gave Ficino a villa at Careggi and commissioned translations of Hermetic and Platonic texts. Documented in Ficino's letters and biographical accounts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cosimo-founded-academy",
+    "source": "person-cosimo-de-medici",
+    "target": "entity-platonic-academy",
+    "relationship": "founded",
+    "dateStart": "1462",
+    "evidence": "Cosimo established the Academy by providing Ficino with the villa at Careggi and commissioning translations that became its intellectual foundation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-founded-academy",
+    "source": "person-marsilio-ficino",
+    "target": "entity-platonic-academy",
+    "relationship": "founded",
+    "dateStart": "1462",
+    "evidence": "Ficino was the intellectual center of the Academy, hosting discussions and producing the translations that defined its mission.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-piero-patronized-ficino",
+    "source": "person-piero-di-cosimo-de-medici",
+    "target": "person-marsilio-ficino",
+    "relationship": "patronized",
+    "dateStart": "1464",
+    "dateEnd": "1469",
+    "evidence": "After Cosimo's death, Piero continued the family's support of Ficino during his brief rule.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-lorenzo-patronized-ficino",
+    "source": "person-lorenzo-de-medici",
+    "target": "person-marsilio-ficino",
+    "relationship": "patronized",
+    "dateStart": "1469",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo continued Medici patronage of Ficino and was himself a participant in Academy discussions. Documented in Ficino's letters.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-patronized-poliziano",
+    "source": "person-lorenzo-de-medici",
+    "target": "person-angelo-poliziano",
+    "relationship": "patronized",
+    "dateStart": "1473",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo brought Poliziano into his household as tutor to his children and supported his scholarly work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-patronized-pico",
+    "source": "person-lorenzo-de-medici",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "patronized",
+    "dateStart": "1488",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo protected Pico after his condemnation by the Pope and welcomed him into the Academy circle.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-patronized-landino",
+    "source": "person-lorenzo-de-medici",
+    "target": "person-cristoforo-landino",
+    "relationship": "patronized",
+    "dateStart": "1469",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo supported Landino's scholarly work, including his influential commentary on Dante.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ficino-member-academy",
+    "source": "person-marsilio-ficino",
+    "target": "entity-platonic-academy",
+    "relationship": "led",
+    "dateStart": "1462",
+    "dateEnd": "1499",
+    "evidence": "Ficino was the intellectual leader of the Academy until his death, hosting discussions and directing its translation program.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-member-academy",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "entity-platonic-academy",
+    "relationship": "member_of",
+    "dateStart": "1484",
+    "dateEnd": "1494",
+    "evidence": "Pico became a key member of Ficino's circle after arriving in Florence, contributing his unique synthesis of traditions.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-poliziano-member-academy",
+    "source": "person-angelo-poliziano",
+    "target": "entity-platonic-academy",
+    "relationship": "member_of",
+    "dateStart": "1473",
+    "dateEnd": "1494",
+    "evidence": "Poliziano participated in Academy discussions while serving the Medici household.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-landino-member-academy",
+    "source": "person-cristoforo-landino",
+    "target": "entity-platonic-academy",
+    "relationship": "member_of",
+    "dateStart": "1462",
+    "dateEnd": "1498",
+    "evidence": "Landino was an early member of Ficino's circle, applying Neoplatonic ideas to his literary criticism.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-benivieni-member-academy",
+    "source": "person-girolamo-benivieni",
+    "target": "entity-platonic-academy",
+    "relationship": "member_of",
+    "dateStart": "1480",
+    "dateEnd": "1494",
+    "evidence": "Benivieni participated in Academy discussions and wrote poetry influenced by Ficinian love philosophy.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-diacceto-member-academy",
+    "source": "person-francesco-cattani-da-diacceto",
+    "target": "entity-platonic-academy",
+    "relationship": "member_of",
+    "dateStart": "1490",
+    "dateEnd": "1522",
+    "evidence": "Diacceto was Ficino's most devoted pupil and continued the Academy's work after the master's death.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cavalcanti-member-academy",
+    "source": "person-giovanni-cavalcanti",
+    "target": "entity-platonic-academy",
+    "relationship": "member_of",
+    "dateStart": "1470",
+    "dateEnd": "1509",
+    "evidence": "Cavalcanti participated in Academy discussions; Ficino dedicated dialogues to him.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-academy-at-careggi",
+    "source": "entity-platonic-academy",
+    "target": "location-villa-careggi",
+    "relationship": "associated_with",
+    "dateStart": "1462",
+    "dateEnd": "1520",
+    "evidence": "The Academy met at the villa Cosimo provided to Ficino at Careggi.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pletho-inspired-cosimo",
+    "source": "person-gemistus-pletho",
+    "target": "person-cosimo-de-medici",
+    "relationship": "influenced",
+    "dateStart": "1439",
+    "evidence": "Pletho's lectures on Plato at the Council of Florence (1439) inspired Cosimo to establish the Platonic Academy. Documented by later Academy members.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-argyropoulos-taught-ficino",
+    "source": "person-john-argyropoulos",
+    "target": "person-marsilio-ficino",
+    "relationship": "taught",
+    "dateStart": "1456",
+    "dateEnd": "1471",
+    "evidence": "Ficino studied Greek under Argyropoulos in Florence, gaining the skills needed for his translation work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-argyropoulos-taught-poliziano",
+    "source": "person-john-argyropoulos",
+    "target": "person-angelo-poliziano",
+    "relationship": "taught",
+    "dateStart": "1470",
+    "dateEnd": "1475",
+    "evidence": "Poliziano studied under Argyropoulos, developing his mastery of Greek philology.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-argyropoulos-taught-lorenzo",
+    "source": "person-john-argyropoulos",
+    "target": "person-lorenzo-de-medici",
+    "relationship": "taught",
+    "evidence": "Lorenzo studied philosophy under Argyropoulos as part of his humanist education.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ficino-taught-pico",
+    "source": "person-marsilio-ficino",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced",
+    "dateStart": "1484",
+    "dateEnd": "1494",
+    "evidence": "Pico corresponded extensively with Ficino and was influenced by his Neoplatonic synthesis, though bringing his own Kabbalistic interests.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-taught-diacceto",
+    "source": "person-marsilio-ficino",
+    "target": "person-francesco-cattani-da-diacceto",
+    "relationship": "taught",
+    "dateStart": "1490",
+    "dateEnd": "1499",
+    "evidence": "Diacceto was Ficino's most devoted student and became his philosophical successor.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-taught-corsi",
+    "source": "person-marsilio-ficino",
+    "target": "person-giovanni-corsi",
+    "relationship": "taught",
+    "dateStart": "1490",
+    "dateEnd": "1499",
+    "evidence": "Corsi studied with Ficino and later wrote his biography, preserving firsthand knowledge of the Academy.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-poliziano-taught-giovanni-medici",
+    "source": "person-angelo-poliziano",
+    "target": "person-giovanni-de-medici-pope-leo-x",
+    "relationship": "taught",
+    "dateStart": "1483",
+    "dateEnd": "1494",
+    "evidence": "Poliziano served as tutor to Lorenzo's children, including the future Pope Leo X.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-influenced-lorenzo",
+    "source": "person-marsilio-ficino",
+    "target": "person-lorenzo-de-medici",
+    "relationship": "influenced",
+    "dateStart": "1469",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo participated in Academy discussions and his poetry shows Neoplatonic influence from Ficino.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bessarion-influenced-ficino",
+    "source": "person-bessarion",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Bessarion's defense of Platonism against Aristotelian critics shaped the intellectual climate in which Ficino worked.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bessarion-corresponded-ficino",
+    "source": "person-bessarion",
+    "target": "person-marsilio-ficino",
+    "relationship": "corresponded_with",
+    "evidence": "Ficino and Bessarion exchanged letters and shared Greek manuscripts; documented in Ficino's correspondence.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-chrysoloras-influenced-humanism",
+    "source": "person-manuel-chrysoloras",
+    "target": "person-john-argyropoulos",
+    "relationship": "influenced",
+    "evidence": "Chrysoloras's earlier introduction of Greek teaching to Florence (1397) established the tradition Argyropoulos continued.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-chalkokondyles-collaborated-poliziano",
+    "source": "person-demetrios-chalkokondyles",
+    "target": "person-angelo-poliziano",
+    "relationship": "collaborated_with",
+    "evidence": "Both scholars worked on Greek texts in Florence during the same period, collaborating on editions and scholarship.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ficino-translated-hermeticum",
+    "source": "person-marsilio-ficino",
+    "target": "object-corpus-hermeticum",
+    "relationship": "translated",
+    "dateStart": "1463",
+    "evidence": "Ficino translated the Corpus Hermeticum at Cosimo's urgent request, completing it before Plato. Published as De potestate et sapientia Dei.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-translated-plato",
+    "source": "person-marsilio-ficino",
+    "target": "object-platonis-opera-omnia",
+    "relationship": "translated",
+    "dateStart": "1463",
+    "dateEnd": "1484",
+    "evidence": "Ficino's complete Latin translation of Plato, finished in 1484, made Plato fully accessible to the Latin West for the first time.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-authored-theologia",
+    "source": "person-marsilio-ficino",
+    "target": "object-theologia-platonica",
+    "relationship": "authored",
+    "dateStart": "1469",
+    "dateEnd": "1482",
+    "evidence": "Ficino's major philosophical work, arguing for the soul's immortality through Neoplatonic philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-authored-devita",
+    "source": "person-marsilio-ficino",
+    "target": "object-de-vita-libri-tres",
+    "relationship": "authored",
+    "dateStart": "1489",
+    "evidence": "Ficino's controversial work on health, astrology, and natural magic.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-authored-deamore",
+    "source": "person-marsilio-ficino",
+    "target": "object-de-amore",
+    "relationship": "authored",
+    "dateStart": "1469",
+    "evidence": "Ficino's commentary on Plato's Symposium, developing the concept of 'Platonic love' that became hugely influential.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-translated-enneads",
+    "source": "person-marsilio-ficino",
+    "target": "object-enneads",
+    "relationship": "translated",
+    "dateStart": "1486",
+    "dateEnd": "1492",
+    "evidence": "Ficino's translation of Plotinus, published in 1492, made systematic Neoplatonism available in Latin.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-translated-pimander",
+    "source": "person-marsilio-ficino",
+    "target": "object-pimander",
+    "relationship": "translated",
+    "dateStart": "1463",
+    "evidence": "Cosimo prioritized this first treatise of the Hermetica, wanting to read it before he died. Ficino completed it swiftly.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-translated-orphic",
+    "source": "person-marsilio-ficino",
+    "target": "object-orphic-hymns",
+    "relationship": "translated",
+    "evidence": "Ficino translated and used the Orphic Hymns in Academy rituals, seeing them as part of the ancient wisdom tradition.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-pico-authored-oration",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "object-oration-dignity-of-man",
+    "relationship": "authored",
+    "dateStart": "1486",
+    "evidence": "Pico's famous oration intended as the opening speech for his proposed debate on the 900 theses.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-authored-theses",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "object-900-theses",
+    "relationship": "authored",
+    "dateStart": "1486",
+    "evidence": "Pico's compilation of 900 propositions from all major philosophical and religious traditions, condemned by the Pope.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-authored-heptaplus",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "object-heptaplus",
+    "relationship": "authored",
+    "dateStart": "1489",
+    "evidence": "Pico's sevenfold mystical commentary on Genesis, demonstrating his synthesis of Kabbalah and Neoplatonism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-landino-authored-comento",
+    "source": "person-cristoforo-landino",
+    "target": "object-comento-sopra-divina-commedia",
+    "relationship": "authored",
+    "dateStart": "1481",
+    "evidence": "Landino's influential commentary interpreting Dante through a Neoplatonic lens.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plotinus-authored-enneads",
+    "source": "person-plotinus",
+    "target": "object-enneads",
+    "relationship": "authored",
+    "dateStart": "253",
+    "dateEnd": "270",
+    "evidence": "The Enneads are Plotinus's collected philosophical writings, organized by his student Porphyry.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hermes-authored-hermeticum",
+    "source": "person-hermes-trismegistus",
+    "target": "object-corpus-hermeticum",
+    "relationship": "authored",
+    "evidence": "The Hermetic texts were attributed to Hermes Trismegistus; Renaissance scholars believed this literally, modern scholars date them to 2nd-3rd c. CE.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hermes-authored-asclepius",
+    "source": "person-hermes-trismegistus",
+    "target": "object-asclepius",
+    "relationship": "authored",
+    "evidence": "The Asclepius was attributed to Hermes Trismegistus and known throughout the medieval period in Latin.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hermes-authored-pimander",
+    "source": "person-hermes-trismegistus",
+    "target": "object-pimander",
+    "relationship": "authored",
+    "evidence": "The Pimander (Poimandres) is the first treatise attributed to Hermes Trismegistus.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-orpheus-authored-hymns",
+    "source": "person-orpheus",
+    "target": "object-orphic-hymns",
+    "relationship": "authored",
+    "evidence": "The Orphic Hymns were attributed to the legendary Orpheus; Renaissance scholars believed in his ancient authorship.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-plato-influenced-plotinus",
+    "source": "person-plato",
+    "target": "person-plotinus",
+    "relationship": "influenced",
+    "evidence": "Plotinus developed his philosophy as a systematic interpretation of Plato's dialogues.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plotinus-influenced-proclus",
+    "source": "person-plotinus",
+    "target": "person-proclus",
+    "relationship": "influenced",
+    "evidence": "Proclus developed Plotinian Neoplatonism into a more elaborate systematic structure.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plotinus-influenced-iamblichus",
+    "source": "person-plotinus",
+    "target": "person-iamblichus",
+    "relationship": "influenced",
+    "evidence": "Iamblichus studied under Porphyry (Plotinus's student) and developed Neoplatonism in a more religious direction.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-proclus-influenced-dionysius",
+    "source": "person-proclus",
+    "target": "person-pseudo-dionysius",
+    "relationship": "influenced",
+    "evidence": "Pseudo-Dionysius heavily borrowed from Proclus's Neoplatonic philosophy, Christianizing it.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plato-influenced-ficino",
+    "source": "person-plato",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino devoted his life to translating and interpreting Plato, seeing him as a divinely inspired philosopher.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plotinus-influenced-ficino",
+    "source": "person-plotinus",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino translated and commented on Plotinus, adopting his systematic metaphysics of emanation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hermes-influenced-ficino",
+    "source": "person-hermes-trismegistus",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino believed Hermes was an ancient Egyptian sage who had received divine revelation; the Hermetic texts shaped his magical and religious thought.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-proclus-influenced-ficino",
+    "source": "person-proclus",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino translated and studied Proclus's works on Platonic theology.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-iamblichus-influenced-ficino",
+    "source": "person-iamblichus",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Iamblichus's emphasis on theurgy and ritual influenced Ficino's ideas about natural magic in De vita.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-dionysius-influenced-ficino",
+    "source": "person-pseudo-dionysius",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino saw Pseudo-Dionysius as evidence that Platonic philosophy was compatible with Christianity.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-orpheus-influenced-ficino",
+    "source": "person-orpheus",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino placed Orpheus in the prisca theologia and used Orphic hymns in Academy rituals.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-pythagoras-influenced-ficino",
+    "source": "person-pythagoras",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino included Pythagoras in the chain of ancient wisdom and valued Pythagorean number mysticism.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-zoroaster-influenced-ficino",
+    "source": "person-zoroaster",
+    "target": "person-marsilio-ficino",
+    "relationship": "influenced",
+    "evidence": "Ficino placed Zoroaster at the beginning of the prisca theologia as the first sage to receive divine wisdom.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-plato-influenced-pico",
+    "source": "person-plato",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced",
+    "evidence": "Pico's philosophy drew heavily on Platonic ideas, particularly regarding the soul's divine origin.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hermes-influenced-pico",
+    "source": "person-hermes-trismegistus",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced",
+    "evidence": "Pico incorporated Hermetic ideas into his 900 theses and philosophical synthesis.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-pythagoras-influenced-pico",
+    "source": "person-pythagoras",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced",
+    "evidence": "Pico valued Pythagorean number mysticism, which he connected to Kabbalistic letter-number correspondences.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-plato-influenced-pletho",
+    "source": "person-plato",
+    "target": "person-gemistus-pletho",
+    "relationship": "influenced",
+    "evidence": "Pletho was a devoted Platonist who sought to revive ancient Greek religion based on Platonic philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plato-influenced-landino",
+    "source": "person-plato",
+    "target": "person-cristoforo-landino",
+    "relationship": "influenced",
+    "evidence": "Landino interpreted Dante's poetry through Neoplatonic philosophy, seeing the Divine Comedy as an allegory of the soul's ascent.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-pico-collaborated-ficino",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-marsilio-ficino",
+    "relationship": "collaborated_with",
+    "dateStart": "1484",
+    "dateEnd": "1494",
+    "evidence": "Pico and Ficino exchanged extensive correspondence and mutually influenced each other's philosophical development.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-collaborated-poliziano",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-angelo-poliziano",
+    "relationship": "collaborated_with",
+    "dateStart": "1484",
+    "dateEnd": "1494",
+    "evidence": "Pico and Poliziano were close friends who died within weeks of each other in 1494.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-collaborated-poliziano",
+    "source": "person-marsilio-ficino",
+    "target": "person-angelo-poliziano",
+    "relationship": "collaborated_with",
+    "dateStart": "1473",
+    "dateEnd": "1494",
+    "evidence": "Both served the Medici and participated in Academy discussions; Poliziano aided with Greek texts.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-benivieni-collaborated-pico",
+    "source": "person-girolamo-benivieni",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "collaborated_with",
+    "evidence": "Benivieni was a close friend of Pico; Pico wrote a commentary on Benivieni's love poetry.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-influenced-reuchlin",
+    "source": "person-marsilio-ficino",
+    "target": "person-johannes-reuchlin",
+    "relationship": "influenced",
+    "evidence": "Reuchlin visited Italy and was influenced by Ficino's Neoplatonism, later applying it to Hebrew studies.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-pico-influenced-reuchlin",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-johannes-reuchlin",
+    "relationship": "influenced",
+    "evidence": "Reuchlin met Pico in Italy and was inspired to develop Christian Kabbalah, carrying it to Germany.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-influenced-agrippa",
+    "source": "person-marsilio-ficino",
+    "target": "person-cornelius-agrippa",
+    "relationship": "influenced",
+    "evidence": "Agrippa's Three Books of Occult Philosophy heavily draws on Ficino's natural magic and astrology.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-influenced-agrippa",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-cornelius-agrippa",
+    "relationship": "influenced",
+    "evidence": "Agrippa incorporated Pico's Christian Kabbalah and magical philosophy into his occult synthesis.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-influenced-bruno",
+    "source": "person-marsilio-ficino",
+    "target": "person-giordano-bruno",
+    "relationship": "influenced",
+    "evidence": "Bruno developed Ficino's Hermeticism into a radical cosmological philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hermes-influenced-bruno",
+    "source": "person-hermes-trismegistus",
+    "target": "person-giordano-bruno",
+    "relationship": "influenced",
+    "evidence": "Bruno was deeply influenced by Hermetic philosophy, seeing it as ancient Egyptian wisdom.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-influenced-patrizi",
+    "source": "person-marsilio-ficino",
+    "target": "person-francesco-patrizi",
+    "relationship": "influenced",
+    "evidence": "Patrizi continued the Florentine Neoplatonic tradition, defending Plato against Aristotle.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-diacceto-succeeded-ficino",
+    "source": "person-francesco-cattani-da-diacceto",
+    "target": "person-marsilio-ficino",
+    "relationship": "succeeded",
+    "evidence": "Diacceto was recognized as Ficino's philosophical successor and continued teaching Neoplatonism in Florence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-savonarola-opposed-academy",
+    "source": "person-girolamo-savonarola",
+    "target": "entity-platonic-academy",
+    "relationship": "opposed",
+    "dateStart": "1494",
+    "dateEnd": "1498",
+    "evidence": "Savonarola's puritanical regime disrupted the Academy's activities; his followers burned 'vanities' including classical texts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-savonarola-opposed-medici",
+    "source": "person-girolamo-savonarola",
+    "target": "person-lorenzo-de-medici",
+    "relationship": "opposed",
+    "dateStart": "1490",
+    "dateEnd": "1492",
+    "evidence": "Savonarola preached against Medici luxury and rule, though Lorenzo initially tolerated him.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ficino-lived-careggi",
+    "source": "person-marsilio-ficino",
+    "target": "location-villa-careggi",
+    "relationship": "lived_in",
+    "dateStart": "1462",
+    "dateEnd": "1499",
+    "evidence": "Cosimo gave Ficino the villa at Careggi where he lived and worked for most of his life.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-worked-florence",
+    "source": "person-marsilio-ficino",
+    "target": "location-florence",
+    "relationship": "worked_at",
+    "dateStart": "1433",
+    "dateEnd": "1499",
+    "evidence": "Ficino spent his entire career in Florence and its environs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pletho-visited-council",
+    "source": "person-gemistus-pletho",
+    "target": "location-council-of-florence",
+    "relationship": "visited",
+    "dateStart": "1439",
+    "evidence": "Pletho attended the Council of Florence as part of the Byzantine delegation seeking union with Rome.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bessarion-visited-council",
+    "source": "person-bessarion",
+    "target": "location-council-of-florence",
+    "relationship": "visited",
+    "dateStart": "1439",
+    "evidence": "Bessarion attended the Council as a prominent Byzantine churchman and remained in Italy after its conclusion.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cosimo-lived-florence",
+    "source": "person-cosimo-de-medici",
+    "target": "location-florence",
+    "relationship": "lived_in",
+    "evidence": "Cosimo was the de facto ruler of Florence and head of the Medici bank.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-lived-florence",
+    "source": "person-lorenzo-de-medici",
+    "target": "location-florence",
+    "relationship": "lived_in",
+    "evidence": "Lorenzo ruled Florence as its leading citizen during its golden age.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-died-florence",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "location-florence",
+    "relationship": "died_in",
+    "dateStart": "1494",
+    "evidence": "Pico died in Florence on November 17, 1494, possibly poisoned.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-poliziano-died-florence",
+    "source": "person-angelo-poliziano",
+    "target": "location-florence",
+    "relationship": "died_in",
+    "dateStart": "1494",
+    "evidence": "Poliziano died in Florence on September 24, 1494, weeks before Pico.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-medici-family-florence",
+    "source": "person-cosimo-de-medici",
+    "target": "location-florence",
+    "relationship": "led",
+    "dateStart": "1434",
+    "dateEnd": "1464",
+    "evidence": "Cosimo was the effective ruler of Florence from 1434 until his death.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-led-florence",
+    "source": "person-lorenzo-de-medici",
+    "target": "location-florence",
+    "relationship": "led",
+    "dateStart": "1469",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo was the de facto ruler of Florence during its cultural golden age.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-theologia-references-enneads",
+    "source": "object-theologia-platonica",
+    "target": "object-enneads",
+    "relationship": "references",
+    "evidence": "Ficino's Platonic Theology draws extensively on Plotinian metaphysics and the structure of emanation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-theologia-references-hermeticum",
+    "source": "object-theologia-platonica",
+    "target": "object-corpus-hermeticum",
+    "relationship": "references",
+    "evidence": "Ficino incorporates Hermetic ideas about the dignity and divinity of the human soul.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-deamore-references-plato",
+    "source": "object-de-amore",
+    "target": "object-platonis-opera-omnia",
+    "relationship": "references",
+    "evidence": "De Amore is explicitly a commentary on Plato's Symposium.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-devita-references-hermeticum",
+    "source": "object-de-vita-libri-tres",
+    "target": "object-corpus-hermeticum",
+    "relationship": "references",
+    "evidence": "De Vita draws on Hermetic ideas about celestial influences and natural magic.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-oration-references-hermeticum",
+    "source": "object-oration-dignity-of-man",
+    "target": "object-corpus-hermeticum",
+    "relationship": "references",
+    "evidence": "Pico's Oration quotes Hermes Trismegistus on the nature of man as a great miracle.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-theses-references-hermeticum",
+    "source": "object-900-theses",
+    "target": "object-corpus-hermeticum",
+    "relationship": "references",
+    "evidence": "Several of Pico's 900 theses draw on Hermetic philosophy.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-heptaplus-references-theses",
+    "source": "object-heptaplus",
+    "target": "object-900-theses",
+    "relationship": "continuation_of",
+    "evidence": "Heptaplus develops ideas from Pico's Kabbalistic theses into a full mystical commentary on Genesis.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-comento-references-plato",
+    "source": "object-comento-sopra-divina-commedia",
+    "target": "object-platonis-opera-omnia",
+    "relationship": "references",
+    "evidence": "Landino interprets Dante through Neoplatonic philosophy, seeing the journey as the soul's ascent.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-enneads-references-plato",
+    "source": "object-enneads",
+    "target": "object-platonis-opera-omnia",
+    "relationship": "references",
+    "evidence": "Plotinus's Enneads are a systematic interpretation and development of Platonic philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pimander-hermeticum",
+    "source": "object-pimander",
+    "target": "object-corpus-hermeticum",
+    "relationship": "continuation_of",
+    "evidence": "The Pimander is the first and most important treatise within the Corpus Hermeticum.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-asclepius-hermeticum",
+    "source": "object-asclepius",
+    "target": "object-corpus-hermeticum",
+    "relationship": "continuation_of",
+    "evidence": "The Asclepius is part of the broader Hermetic literature, though surviving separately in Latin.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ficino-inspired-hermeticum",
+    "source": "person-marsilio-ficino",
+    "target": "object-corpus-hermeticum",
+    "relationship": "inspired_by",
+    "evidence": "Ficino's encounter with the Hermetica profoundly shaped his philosophical vision of ancient wisdom.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ficino-inspired-enneads",
+    "source": "person-marsilio-ficino",
+    "target": "object-enneads",
+    "relationship": "inspired_by",
+    "evidence": "Plotinus's systematic metaphysics provided the framework for Ficino's own philosophical system.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-inspired-theses",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "object-900-theses",
+    "relationship": "inspired_by",
+    "evidence": "The 900 theses represent Pico's ambitious attempt to synthesize all philosophical traditions.",
+    "strength": "strong"
+  }
+]

@@ -1,0 +1,886 @@
+[
+  {
+    "id": "person-marsilio-ficino",
+    "type": "person",
+    "title": "Marsilio Ficino",
+    "shortDescription": "Renaissance philosopher who founded the Florentine Academy, translated the Corpus Hermeticum and Plato's complete works into Latin, synthesizing Neoplatonism with Christianity.",
+    "dateStart": "1433",
+    "dateEnd": "1499",
+    "birthPlace": "Figline Valdarno, Florence",
+    "deathPlace": "Careggi, Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "philosopher",
+      "translator",
+      "priest",
+      "astrologer"
+    ],
+    "wikipediaTitle": "Marsilio_Ficino",
+    "wikidataId": "Q160239"
+  },
+  {
+    "id": "person-giovanni-pico-della-mirandola",
+    "type": "person",
+    "title": "Giovanni Pico della Mirandola",
+    "shortDescription": "Renaissance philosopher who attempted to synthesize all major philosophical and religious traditions, wrote the famous 'Oration on the Dignity of Man' and developed Christian Kabbalah.",
+    "dateStart": "1463",
+    "dateEnd": "1494",
+    "birthPlace": "Mirandola, Duchy of Ferrara",
+    "deathPlace": "Florence",
+    "nationality": "Italian",
+    "occupations": [
+      "philosopher",
+      "theologian",
+      "humanist"
+    ],
+    "wikipediaTitle": "Giovanni_Pico_della_Mirandola",
+    "wikidataId": "Q189798"
+  },
+  {
+    "id": "person-cosimo-de-medici",
+    "type": "person",
+    "title": "Cosimo de' Medici",
+    "alternateNames": [
+      "Cosimo il Vecchio",
+      "Cosimo the Elder"
+    ],
+    "shortDescription": "Founder of the Medici political dynasty, patron who commissioned Ficino to translate the Corpus Hermeticum and established the Platonic Academy at Careggi.",
+    "dateStart": "1389",
+    "dateEnd": "1464",
+    "birthPlace": "Florence",
+    "deathPlace": "Careggi, Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "banker",
+      "statesman",
+      "patron"
+    ],
+    "wikipediaTitle": "Cosimo_de'_Medici",
+    "wikidataId": "Q167696"
+  },
+  {
+    "id": "person-angelo-poliziano",
+    "type": "person",
+    "title": "Angelo Poliziano",
+    "alternateNames": [
+      "Politian",
+      "Angelo Ambrogini"
+    ],
+    "shortDescription": "Humanist scholar, poet, and philologist; tutor to the Medici children and key member of the Academy circle, known for his critical textual scholarship.",
+    "dateStart": "1454",
+    "dateEnd": "1494",
+    "birthPlace": "Montepulciano, Tuscany",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "philologist",
+      "poet",
+      "humanist",
+      "professor"
+    ],
+    "wikipediaTitle": "Poliziano",
+    "wikidataId": "Q166689"
+  },
+  {
+    "id": "person-cristoforo-landino",
+    "type": "person",
+    "title": "Cristoforo Landino",
+    "shortDescription": "Humanist scholar known for his Neoplatonic commentary on Dante's Divine Comedy, connecting medieval poetry to Platonic philosophy.",
+    "dateStart": "1424",
+    "dateEnd": "1498",
+    "birthPlace": "Florence",
+    "deathPlace": "Borgo alla Collina",
+    "nationality": "Florentine",
+    "occupations": [
+      "humanist",
+      "professor",
+      "commentator"
+    ],
+    "wikipediaTitle": "Cristoforo_Landino",
+    "wikidataId": "Q560436"
+  },
+  {
+    "id": "person-lorenzo-de-medici",
+    "type": "person",
+    "title": "Lorenzo de' Medici",
+    "alternateNames": [
+      "Lorenzo il Magnifico",
+      "Lorenzo the Magnificent"
+    ],
+    "shortDescription": "De facto ruler of Florence during its golden age, continued his grandfather's patronage of the Academy, poet and humanist in his own right.",
+    "dateStart": "1449",
+    "dateEnd": "1492",
+    "birthPlace": "Florence",
+    "deathPlace": "Careggi, Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "statesman",
+      "patron",
+      "poet",
+      "banker"
+    ],
+    "wikipediaTitle": "Lorenzo_de'_Medici",
+    "wikidataId": "Q177854"
+  },
+  {
+    "id": "person-giovanni-cavalcanti",
+    "type": "person",
+    "title": "Giovanni Cavalcanti",
+    "shortDescription": "Florentine humanist and historian, friend of Ficino who participated in Academy discussions; Ficino dedicated dialogues to him.",
+    "dateStart": "1444",
+    "dateEnd": "1509",
+    "birthPlace": "Florence",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "humanist",
+      "historian"
+    ],
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "person-francesco-cattani-da-diacceto",
+    "type": "person",
+    "title": "Francesco Cattani da Diacceto",
+    "shortDescription": "Ficino's most devoted pupil and philosophical successor, continued teaching Neoplatonism in Florence after the master's death.",
+    "dateStart": "1466",
+    "dateEnd": "1522",
+    "birthPlace": "Diacceto, Tuscany",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "philosopher",
+      "professor"
+    ],
+    "wikipediaTitle": "Francesco_Cattani_da_Diacceto",
+    "wikidataId": "Q1440694"
+  },
+  {
+    "id": "person-giovanni-corsi",
+    "type": "person",
+    "title": "Giovanni Corsi",
+    "shortDescription": "Florentine humanist who wrote the first biography of Marsilio Ficino, preserving crucial information about the Academy's activities.",
+    "dateStart": "1472",
+    "dateEnd": "1547",
+    "birthPlace": "Florence",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "humanist",
+      "biographer"
+    ],
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "person-girolamo-benivieni",
+    "type": "person",
+    "title": "Girolamo Benivieni",
+    "shortDescription": "Florentine poet closely associated with both Ficino and Pico, known for his poetry expressing Neoplatonic love philosophy.",
+    "dateStart": "1453",
+    "dateEnd": "1542",
+    "birthPlace": "Florence",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "poet",
+      "humanist"
+    ],
+    "wikipediaTitle": "Girolamo_Benivieni",
+    "wikidataId": "Q3765911"
+  },
+  {
+    "id": "person-piero-di-cosimo-de-medici",
+    "type": "person",
+    "title": "Piero di Cosimo de' Medici",
+    "alternateNames": [
+      "Piero the Gouty"
+    ],
+    "shortDescription": "Medici ruler and patron, continued his father Cosimo's support of Ficino during his brief five-year rule.",
+    "dateStart": "1416",
+    "dateEnd": "1469",
+    "birthPlace": "Florence",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "banker",
+      "patron",
+      "statesman"
+    ],
+    "wikipediaTitle": "Piero_di_Cosimo_de'_Medici",
+    "wikidataId": "Q313587"
+  },
+  {
+    "id": "person-giuliano-de-medici",
+    "type": "person",
+    "title": "Giuliano de' Medici",
+    "shortDescription": "Brother of Lorenzo the Magnificent, killed in the Pazzi conspiracy; patron and friend to Academy members before his death.",
+    "dateStart": "1453",
+    "dateEnd": "1478",
+    "birthPlace": "Florence",
+    "deathPlace": "Florence",
+    "nationality": "Florentine",
+    "occupations": [
+      "patron",
+      "statesman"
+    ],
+    "wikipediaTitle": "Giuliano_de'_Medici",
+    "wikidataId": "Q316650"
+  },
+  {
+    "id": "person-giovanni-de-medici-pope-leo-x",
+    "type": "person",
+    "title": "Giovanni de' Medici (Pope Leo X)",
+    "alternateNames": [
+      "Pope Leo X",
+      "Giovanni di Lorenzo de' Medici"
+    ],
+    "shortDescription": "Son of Lorenzo the Magnificent, became Pope Leo X; educated by Ficino and Poliziano, continued Medici patronage of humanist learning.",
+    "dateStart": "1475",
+    "dateEnd": "1521",
+    "birthPlace": "Florence",
+    "deathPlace": "Rome",
+    "nationality": "Florentine",
+    "occupations": [
+      "pope",
+      "cardinal",
+      "patron"
+    ],
+    "wikipediaTitle": "Pope_Leo_X",
+    "wikidataId": "Q81994"
+  },
+  {
+    "id": "person-piero-de-medici-the-unfortunate",
+    "type": "person",
+    "title": "Piero de' Medici",
+    "alternateNames": [
+      "Piero the Unfortunate",
+      "Piero di Lorenzo de' Medici"
+    ],
+    "shortDescription": "Son of Lorenzo who briefly ruled Florence before exile; educated in the Academy tradition but lost power to Savonarola.",
+    "dateStart": "1472",
+    "dateEnd": "1503",
+    "birthPlace": "Florence",
+    "deathPlace": "Garigliano, Italy",
+    "nationality": "Florentine",
+    "occupations": [
+      "statesman",
+      "banker"
+    ],
+    "wikipediaTitle": "Piero_di_Lorenzo_de'_Medici",
+    "wikidataId": "Q310405"
+  },
+  {
+    "id": "person-gemistus-pletho",
+    "type": "person",
+    "title": "Gemistus Pletho",
+    "alternateNames": [
+      "George Gemistos Plethon",
+      "Georgius Gemistus"
+    ],
+    "shortDescription": "Byzantine philosopher whose lectures at the Council of Florence (1439) inspired Cosimo de' Medici to found the Platonic Academy.",
+    "dateStart": "1355",
+    "dateEnd": "1452",
+    "birthPlace": "Constantinople",
+    "deathPlace": "Mystras, Greece",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "philosopher",
+      "scholar",
+      "statesman"
+    ],
+    "wikipediaTitle": "Gemistus_Pletho",
+    "wikidataId": "Q310318"
+  },
+  {
+    "id": "person-bessarion",
+    "type": "person",
+    "title": "Cardinal Bessarion",
+    "alternateNames": [
+      "Basilios Bessarion",
+      "Johannes Bessarion"
+    ],
+    "shortDescription": "Byzantine scholar and cardinal who defended Platonism against Aristotelian critics, amassed a major collection of Greek manuscripts.",
+    "dateStart": "1403",
+    "dateEnd": "1472",
+    "birthPlace": "Trebizond",
+    "deathPlace": "Ravenna",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "cardinal",
+      "scholar",
+      "diplomat"
+    ],
+    "wikipediaTitle": "Basilios_Bessarion",
+    "wikidataId": "Q352619"
+  },
+  {
+    "id": "person-john-argyropoulos",
+    "type": "person",
+    "title": "John Argyropoulos",
+    "alternateNames": [
+      "Giovanni Argiropulo",
+      "Ioannes Argyropoulos"
+    ],
+    "shortDescription": "Byzantine scholar who taught Greek and Aristotelian philosophy in Florence; Ficino, Poliziano, and Lorenzo de' Medici were among his students.",
+    "dateStart": "1415",
+    "dateEnd": "1487",
+    "birthPlace": "Constantinople",
+    "deathPlace": "Rome",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "philosopher",
+      "professor",
+      "translator"
+    ],
+    "wikipediaTitle": "John_Argyropoulos",
+    "wikidataId": "Q720932"
+  },
+  {
+    "id": "person-manuel-chrysoloras",
+    "type": "person",
+    "title": "Manuel Chrysoloras",
+    "shortDescription": "Byzantine scholar who first brought systematic Greek teaching to Florence (1397); his grammar book and methods shaped Italian humanism.",
+    "dateStart": "1355",
+    "dateEnd": "1415",
+    "birthPlace": "Constantinople",
+    "deathPlace": "Constance, Germany",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "scholar",
+      "diplomat",
+      "professor"
+    ],
+    "wikipediaTitle": "Manuel_Chrysoloras",
+    "wikidataId": "Q380417"
+  },
+  {
+    "id": "person-demetrios-chalkokondyles",
+    "type": "person",
+    "title": "Demetrios Chalkokondyles",
+    "alternateNames": [
+      "Demetrius Chalcondyles"
+    ],
+    "shortDescription": "Byzantine émigré scholar who taught Greek at Florence and later Milan; produced important editions of Homer and other Greek texts.",
+    "dateStart": "1423",
+    "dateEnd": "1511",
+    "birthPlace": "Athens",
+    "deathPlace": "Milan",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "scholar",
+      "professor",
+      "editor"
+    ],
+    "wikipediaTitle": "Demetrios_Chalkokondyles",
+    "wikidataId": "Q561458"
+  },
+  {
+    "id": "person-hermes-trismegistus",
+    "type": "person",
+    "title": "Hermes Trismegistus",
+    "alternateNames": [
+      "Thrice-Great Hermes"
+    ],
+    "shortDescription": "Legendary author of the Hermetic writings; Renaissance scholars believed him an ancient Egyptian sage, contemporary of Moses, who transmitted divine wisdom.",
+    "dateStart": "-3000",
+    "dateEnd": "-1500",
+    "birthPlace": "Egypt (legendary)",
+    "nationality": "Egyptian (legendary)",
+    "occupations": [
+      "sage",
+      "priest",
+      "philosopher"
+    ],
+    "wikipediaTitle": "Hermes_Trismegistus",
+    "wikidataId": "Q502592",
+    "biography": "Hermes Trismegistus was the purported author of the Hermetic Corpus, a collection of mystical-philosophical texts. Renaissance scholars like Ficino believed he was an actual historical figure—an Egyptian priest contemporary with Moses—who had received divine revelation. Modern scholarship has dated these texts to the 2nd-3rd centuries CE, but their perceived antiquity made them enormously influential in Renaissance thought."
+  },
+  {
+    "id": "person-plato",
+    "type": "person",
+    "title": "Plato",
+    "shortDescription": "Ancient Greek philosopher whose complete dialogues Ficino translated into Latin, forming the philosophical foundation of the Academy.",
+    "dateStart": "-428",
+    "dateEnd": "-348",
+    "birthPlace": "Athens",
+    "deathPlace": "Athens",
+    "nationality": "Greek",
+    "occupations": [
+      "philosopher",
+      "mathematician",
+      "founder of the Academy of Athens"
+    ],
+    "wikipediaTitle": "Plato",
+    "wikidataId": "Q859"
+  },
+  {
+    "id": "person-plotinus",
+    "type": "person",
+    "title": "Plotinus",
+    "shortDescription": "Founder of Neoplatonism; his Enneads were translated and commented upon by Ficino, providing the systematic framework for Renaissance Platonism.",
+    "dateStart": "204",
+    "dateEnd": "270",
+    "birthPlace": "Lycopolis, Egypt",
+    "deathPlace": "Campania, Italy",
+    "nationality": "Roman (Egyptian birth)",
+    "occupations": [
+      "philosopher"
+    ],
+    "wikipediaTitle": "Plotinus",
+    "wikidataId": "Q44032"
+  },
+  {
+    "id": "person-proclus",
+    "type": "person",
+    "title": "Proclus",
+    "alternateNames": [
+      "Proclus Diadochus",
+      "Proclus Lycaeus"
+    ],
+    "shortDescription": "Late Neoplatonist whose systematic philosophy influenced Ficino; his works on theology and mathematics were studied at the Academy.",
+    "dateStart": "412",
+    "dateEnd": "485",
+    "birthPlace": "Constantinople",
+    "deathPlace": "Athens",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "philosopher",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Proclus",
+    "wikidataId": "Q188847"
+  },
+  {
+    "id": "person-iamblichus",
+    "type": "person",
+    "title": "Iamblichus",
+    "shortDescription": "Syrian Neoplatonist who emphasized theurgy and religious ritual; his fusion of philosophy and mysticism influenced Ficino's approach.",
+    "dateStart": "245",
+    "dateEnd": "325",
+    "birthPlace": "Chalcis, Syria",
+    "deathPlace": "Syria",
+    "nationality": "Syrian",
+    "occupations": [
+      "philosopher"
+    ],
+    "wikipediaTitle": "Iamblichus",
+    "wikidataId": "Q42247"
+  },
+  {
+    "id": "person-pseudo-dionysius",
+    "type": "person",
+    "title": "Pseudo-Dionysius the Areopagite",
+    "alternateNames": [
+      "Dionysius the Areopagite"
+    ],
+    "shortDescription": "Author of mystical Christian Neoplatonic writings; believed in the Renaissance to be Paul's Athenian convert, bridging pagan and Christian thought.",
+    "dateStart": "450",
+    "dateEnd": "525",
+    "birthPlace": "Unknown (Syria?)",
+    "nationality": "Byzantine Greek",
+    "occupations": [
+      "theologian",
+      "mystic"
+    ],
+    "wikipediaTitle": "Pseudo-Dionysius_the_Areopagite",
+    "wikidataId": "Q179742"
+  },
+  {
+    "id": "person-orpheus",
+    "type": "person",
+    "title": "Orpheus",
+    "shortDescription": "Legendary Greek poet and prophet; the Orphic hymns and texts attributed to him were seen as part of the prisca theologia, the ancient wisdom tradition.",
+    "dateStart": "-1300",
+    "dateEnd": "-1200",
+    "birthPlace": "Thrace (legendary)",
+    "nationality": "Greek (legendary)",
+    "occupations": [
+      "poet",
+      "prophet",
+      "musician"
+    ],
+    "wikipediaTitle": "Orpheus",
+    "wikidataId": "Q43395",
+    "biography": "Orpheus was a legendary Greek poet, prophet, and musician whose hymns and theological writings (Orphica) were believed by Renaissance scholars to preserve ancient wisdom predating even Homer. Ficino translated the Orphic Hymns and placed Orpheus in the prisca theologia—the chain of ancient sages who received divine revelation."
+  },
+  {
+    "id": "person-zoroaster",
+    "type": "person",
+    "title": "Zoroaster",
+    "alternateNames": [
+      "Zarathustra"
+    ],
+    "shortDescription": "Ancient Persian prophet; Renaissance scholars included him in the prisca theologia, the chain of ancient wisdom preceding Plato.",
+    "dateStart": "-1500",
+    "dateEnd": "-1000",
+    "birthPlace": "Persia",
+    "nationality": "Persian",
+    "occupations": [
+      "prophet",
+      "philosopher"
+    ],
+    "wikipediaTitle": "Zoroaster",
+    "wikidataId": "Q4848"
+  },
+  {
+    "id": "person-pythagoras",
+    "type": "person",
+    "title": "Pythagoras",
+    "shortDescription": "Ancient Greek philosopher and mathematician; his mystical number philosophy and doctrine of the soul's immortality were central to Renaissance Platonism.",
+    "dateStart": "-570",
+    "dateEnd": "-495",
+    "birthPlace": "Samos, Greece",
+    "deathPlace": "Metapontum, Italy",
+    "nationality": "Greek",
+    "occupations": [
+      "philosopher",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Pythagoras",
+    "wikidataId": "Q10261"
+  },
+  {
+    "id": "object-corpus-hermeticum",
+    "type": "object",
+    "title": "Corpus Hermeticum",
+    "objectType": "manuscript collection",
+    "shortDescription": "Collection of Greco-Egyptian mystical texts attributed to Hermes Trismegistus; Ficino's 1463 translation sparked the Hermetic revival.",
+    "dateStart": "100",
+    "dateEnd": "300",
+    "language": "Greek (original), Latin (Ficino translation)",
+    "subject": "Hermeticism, cosmology, theology",
+    "wikipediaTitle": "Corpus_Hermeticum",
+    "wikidataId": "Q499851"
+  },
+  {
+    "id": "object-platonis-opera-omnia",
+    "type": "object",
+    "title": "Platonis Opera Omnia (Complete Works of Plato)",
+    "objectType": "translation",
+    "shortDescription": "Ficino's complete Latin translation of Plato's dialogues (completed 1484), making Plato fully accessible to Western readers for the first time.",
+    "dateStart": "1484",
+    "language": "Latin",
+    "subject": "Platonic philosophy",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-theologia-platonica",
+    "type": "object",
+    "title": "Theologia Platonica (Platonic Theology)",
+    "objectType": "treatise",
+    "shortDescription": "Ficino's magnum opus (1482) arguing for the immortality of the soul through Platonic philosophy, synthesizing Neoplatonism with Christianity.",
+    "dateStart": "1482",
+    "language": "Latin",
+    "subject": "philosophy, theology, immortality of the soul",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": "Theologia_Platonica",
+    "wikidataId": "Q60767453"
+  },
+  {
+    "id": "object-de-vita-libri-tres",
+    "type": "object",
+    "title": "De Vita Libri Tres (Three Books on Life)",
+    "objectType": "treatise",
+    "shortDescription": "Ficino's 1489 work on health, longevity, and astral magic; controversial for its magical practices but widely influential.",
+    "dateStart": "1489",
+    "language": "Latin",
+    "subject": "medicine, astrology, magic",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": "Three_Books_on_Life",
+    "wikidataId": "Q5753247"
+  },
+  {
+    "id": "object-de-amore",
+    "type": "object",
+    "title": "De Amore (Commentary on Plato's Symposium)",
+    "objectType": "commentary",
+    "shortDescription": "Ficino's influential commentary on Plato's Symposium, developing the concept of 'Platonic love' that shaped Renaissance art and literature.",
+    "dateStart": "1484",
+    "language": "Latin",
+    "subject": "philosophy of love, Neoplatonism",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": "Commentary_on_Plato%27s_Symposium_on_Love",
+    "wikidataId": "Q5154756"
+  },
+  {
+    "id": "object-oration-dignity-of-man",
+    "type": "object",
+    "title": "Oration on the Dignity of Man",
+    "alternateNames": [
+      "Oratio de hominis dignitate"
+    ],
+    "objectType": "oration",
+    "shortDescription": "Pico's famous 1486 speech (never delivered) proclaiming human freedom to shape one's own nature; often called the 'manifesto of the Renaissance.'",
+    "dateStart": "1486",
+    "language": "Latin",
+    "subject": "human dignity, free will, philosophy",
+    "creators": [
+      "person-giovanni-pico-della-mirandola"
+    ],
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
+    "wikidataId": "Q944027"
+  },
+  {
+    "id": "object-900-theses",
+    "type": "object",
+    "title": "900 Theses (Conclusiones)",
+    "objectType": "theses",
+    "shortDescription": "Pico's 1486 compilation of 900 philosophical propositions from all major traditions, intended for public debate in Rome; condemned by Pope Innocent VIII.",
+    "dateStart": "1486",
+    "language": "Latin",
+    "subject": "philosophy, theology, Kabbalah, magic",
+    "creators": [
+      "person-giovanni-pico-della-mirandola"
+    ],
+    "wikipediaTitle": "900_Theses",
+    "wikidataId": "Q1543820"
+  },
+  {
+    "id": "object-heptaplus",
+    "type": "object",
+    "title": "Heptaplus",
+    "objectType": "commentary",
+    "shortDescription": "Pico's sevenfold mystical interpretation of Genesis (1489), demonstrating his synthesis of biblical exegesis with Neoplatonism and Kabbalah.",
+    "dateStart": "1489",
+    "language": "Latin",
+    "subject": "biblical exegesis, Kabbalah, cosmology",
+    "creators": [
+      "person-giovanni-pico-della-mirandola"
+    ],
+    "wikipediaTitle": "Heptaplus",
+    "wikidataId": "Q5732857"
+  },
+  {
+    "id": "object-enneads",
+    "type": "object",
+    "title": "Enneads",
+    "objectType": "philosophical treatise",
+    "shortDescription": "Plotinus's collected writings, organized by his student Porphyry; Ficino's Latin translation (1492) made systematic Neoplatonism available to the West.",
+    "dateStart": "270",
+    "language": "Greek (original), Latin (Ficino translation)",
+    "subject": "Neoplatonism, metaphysics, the One",
+    "creators": [
+      "person-plotinus"
+    ],
+    "wikipediaTitle": "Enneads",
+    "wikidataId": "Q606879"
+  },
+  {
+    "id": "object-asclepius",
+    "type": "object",
+    "title": "Asclepius",
+    "objectType": "Hermetic dialogue",
+    "shortDescription": "Hermetic dialogue surviving in Latin, describing magical animation of statues and cosmic religion; known to medieval authors before the Hermetic revival.",
+    "dateStart": "200",
+    "dateEnd": "300",
+    "language": "Latin",
+    "subject": "Hermeticism, theurgy, cosmology",
+    "wikipediaTitle": "Asclepius_(treatise)",
+    "wikidataId": "Q787046"
+  },
+  {
+    "id": "object-pimander",
+    "type": "object",
+    "title": "Pimander",
+    "alternateNames": [
+      "Poimandres"
+    ],
+    "objectType": "Hermetic treatise",
+    "shortDescription": "First treatise of the Corpus Hermeticum, describing divine revelation of cosmic creation; Ficino prioritized translating this over Plato at Cosimo's request.",
+    "dateStart": "100",
+    "dateEnd": "200",
+    "language": "Greek (original), Latin (Ficino translation)",
+    "subject": "cosmogony, gnosis, divine revelation",
+    "wikipediaTitle": "Poimandres",
+    "wikidataId": "Q921618"
+  },
+  {
+    "id": "object-comento-sopra-divina-commedia",
+    "type": "object",
+    "title": "Comento sopra la Divina Commedia",
+    "objectType": "commentary",
+    "shortDescription": "Landino's 1481 commentary on Dante's Divine Comedy, interpreting it through a Neoplatonic lens of the soul's ascent to God.",
+    "dateStart": "1481",
+    "language": "Italian",
+    "subject": "Dante, Neoplatonism, allegorical interpretation",
+    "creators": [
+      "person-cristoforo-landino"
+    ],
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-orphic-hymns",
+    "type": "object",
+    "title": "Orphic Hymns",
+    "objectType": "hymn collection",
+    "shortDescription": "Collection of 87 hymns attributed to Orpheus, translated by Ficino; used in Academy rituals and seen as preserving ancient mystical wisdom.",
+    "dateStart": "-500",
+    "dateEnd": "200",
+    "language": "Greek (original), Latin (Ficino translation)",
+    "subject": "Orphism, theology, ritual",
+    "wikipediaTitle": "Orphic_Hymns",
+    "wikidataId": "Q1626866"
+  },
+  {
+    "id": "person-johannes-reuchlin",
+    "type": "person",
+    "title": "Johannes Reuchlin",
+    "shortDescription": "German humanist who brought Christian Kabbalah to Northern Europe, directly influenced by Pico's synthesis; defended Jewish books against burning.",
+    "dateStart": "1455",
+    "dateEnd": "1522",
+    "birthPlace": "Pforzheim, Germany",
+    "deathPlace": "Stuttgart, Germany",
+    "nationality": "German",
+    "occupations": [
+      "humanist",
+      "Hebraist",
+      "jurist"
+    ],
+    "wikipediaTitle": "Johann_Reuchlin",
+    "wikidataId": "Q154537"
+  },
+  {
+    "id": "person-cornelius-agrippa",
+    "type": "person",
+    "title": "Heinrich Cornelius Agrippa",
+    "shortDescription": "German polymath whose 'Three Books of Occult Philosophy' systematized Renaissance magic, heavily drawing on Ficino and Pico.",
+    "dateStart": "1486",
+    "dateEnd": "1535",
+    "birthPlace": "Cologne, Germany",
+    "deathPlace": "Grenoble, France",
+    "nationality": "German",
+    "occupations": [
+      "philosopher",
+      "occultist",
+      "physician",
+      "soldier"
+    ],
+    "wikipediaTitle": "Heinrich_Cornelius_Agrippa",
+    "wikidataId": "Q315466"
+  },
+  {
+    "id": "person-giordano-bruno",
+    "type": "person",
+    "title": "Giordano Bruno",
+    "shortDescription": "Italian philosopher who developed Ficinian Hermeticism into a revolutionary cosmology; burned at the stake for heresy in 1600.",
+    "dateStart": "1548",
+    "dateEnd": "1600",
+    "birthPlace": "Nola, Kingdom of Naples",
+    "deathPlace": "Rome",
+    "nationality": "Italian",
+    "occupations": [
+      "philosopher",
+      "cosmologist",
+      "Dominican friar"
+    ],
+    "wikipediaTitle": "Giordano_Bruno",
+    "wikidataId": "Q36330"
+  },
+  {
+    "id": "person-francesco-patrizi",
+    "type": "person",
+    "title": "Francesco Patrizi",
+    "alternateNames": [
+      "Franciscus Patricius"
+    ],
+    "shortDescription": "Late Renaissance philosopher who continued the Neoplatonic tradition, editing and publishing new Hermetic texts including the Chaldean Oracles.",
+    "dateStart": "1529",
+    "dateEnd": "1597",
+    "birthPlace": "Cres, Venetian Republic",
+    "deathPlace": "Rome",
+    "nationality": "Italian",
+    "occupations": [
+      "philosopher",
+      "professor"
+    ],
+    "wikipediaTitle": "Francesco_Patrizi_(philosopher)",
+    "wikidataId": "Q364945"
+  },
+  {
+    "id": "person-girolamo-savonarola",
+    "type": "person",
+    "title": "Girolamo Savonarola",
+    "shortDescription": "Dominican friar whose apocalyptic preaching briefly overthrew Medici rule in Florence (1494-98); his puritanism disrupted the Academy's activities.",
+    "dateStart": "1452",
+    "dateEnd": "1498",
+    "birthPlace": "Ferrara",
+    "deathPlace": "Florence",
+    "nationality": "Italian",
+    "occupations": [
+      "friar",
+      "preacher",
+      "reformer"
+    ],
+    "wikipediaTitle": "Girolamo_Savonarola",
+    "wikidataId": "Q45027"
+  },
+  {
+    "id": "location-villa-careggi",
+    "type": "location",
+    "title": "Villa Medici at Careggi",
+    "locationType": "villa",
+    "shortDescription": "Country villa outside Florence where Cosimo de' Medici established the Platonic Academy and where Ficino gathered philosophers for discussions.",
+    "country": "Italy",
+    "parentLocation": "Florence",
+    "wikipediaTitle": "Villa_Medici_at_Careggi",
+    "wikidataId": "Q579476",
+    "dateStart": "1462",
+    "dateEnd": "1520"
+  },
+  {
+    "id": "location-florence",
+    "type": "location",
+    "title": "Florence",
+    "locationType": "city",
+    "shortDescription": "City-state that was the center of the Italian Renaissance, home to the Medici family and the Platonic Academy.",
+    "country": "Italy",
+    "wikipediaTitle": "Florence",
+    "wikidataId": "Q2044"
+  },
+  {
+    "id": "entity-platonic-academy",
+    "type": "entity",
+    "title": "Platonic Academy of Florence",
+    "alternateNames": [
+      "Florentine Academy",
+      "Accademia Platonica"
+    ],
+    "entityType": "philosophical academy",
+    "shortDescription": "Informal philosophical society established by Cosimo de' Medici around 1462, centered on Ficino's translations and discussions of Platonic philosophy.",
+    "dateStart": "1462",
+    "dateEnd": "1520",
+    "foundedBy": [
+      "person-cosimo-de-medici",
+      "person-marsilio-ficino"
+    ],
+    "headquarters": "location-villa-careggi",
+    "wikipediaTitle": "Platonic_Academy_(Florence)",
+    "wikidataId": "Q1210631"
+  },
+  {
+    "id": "location-council-of-florence",
+    "type": "location",
+    "title": "Council of Florence",
+    "locationType": "ecumenical council",
+    "shortDescription": "Ecumenical council (1431-1449, in Florence from 1439) that brought Byzantine scholars to Italy, sparking the transfer of Greek learning to the West.",
+    "dateStart": "1431",
+    "dateEnd": "1449",
+    "country": "Italy",
+    "parentLocation": "Florence",
+    "wikipediaTitle": "Council_of_Florence",
+    "wikidataId": "Q83017"
+  }
+]
