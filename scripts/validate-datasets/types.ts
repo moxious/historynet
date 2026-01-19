@@ -128,6 +128,10 @@ export interface DatasetManifest {
   scope?: DatasetScope;
   /** Research status and progress tracking */
   research?: DatasetResearch;
+  /** Emoji displayed as fallback/alongside banner */
+  bannerEmoji?: string;
+  /** Path to banner image relative to public/ */
+  bannerImage?: string;
 }
 
 export interface CustomRelationshipType {

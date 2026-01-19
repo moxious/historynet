@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import type { DatasetManifest, GraphData } from '@types';
-import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
+import { loadDataset, isValidDatasetId, getPublicAssetUrl } from '@utils/dataLoader';
 import { buildExploreUrl, buildNodeUrl, buildFullDatasetUrl } from '@utils/urlBuilder';
 import { useTopConnectedNodes, getTypeLabel, getTypeIcon, TopConnectedByType } from '@hooks/useTopConnectedNodes';
 import NotFoundPage from './NotFoundPage';
@@ -185,68 +185,82 @@ function DatasetOverviewPage() {
 
       {/* Banner Section */}
       <header className="dataset-overview__header">
-        <div className="dataset-overview__banner-emoji" aria-hidden="true">
-          {bannerEmoji}
-        </div>
-        <h1 className="dataset-overview__title">{manifest.name}</h1>
-        <p className="dataset-overview__description">{manifest.description}</p>
+        {/* Banner image or emoji fallback */}
+        {manifest.bannerImage ? (
+          <div className="dataset-overview__banner-image-container">
+            <img
+              src={getPublicAssetUrl(manifest.bannerImage)}
+              alt={`${manifest.name} banner`}
+              className="dataset-overview__banner-image"
+            />
+          </div>
+        ) : (
+          <div className="dataset-overview__banner-emoji" aria-hidden="true">
+            {bannerEmoji}
+          </div>
+        )}
         
-        {/* Metadata */}
-        <div className="dataset-overview__meta">
-          {temporalRange && (
-            <span className="dataset-overview__meta-item">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" />
-                <polyline points="12,6 12,12 16,14" />
-              </svg>
-              {temporalRange}
-            </span>
-          )}
-          {manifest.nodeCount !== undefined && (
-            <span className="dataset-overview__meta-item">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <circle cx="12" cy="12" r="3" />
-                <circle cx="5" cy="6" r="2" />
-                <circle cx="19" cy="6" r="2" />
-                <circle cx="5" cy="18" r="2" />
-                <circle cx="19" cy="18" r="2" />
-                <line x1="9.5" y1="10" x2="6.5" y2="7.5" />
-                <line x1="14.5" y1="10" x2="17.5" y2="7.5" />
-                <line x1="9.5" y1="14" x2="6.5" y2="16.5" />
-                <line x1="14.5" y1="14" x2="17.5" y2="16.5" />
-              </svg>
-              {manifest.nodeCount} nodes
-            </span>
-          )}
-          {manifest.edgeCount !== undefined && (
-            <span className="dataset-overview__meta-item">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                <line x1="5" y1="12" x2="19" y2="12" />
-                <polyline points="12,5 19,12 12,19" />
-              </svg>
-              {manifest.edgeCount} connections
-            </span>
-          )}
-        </div>
+        <div className="dataset-overview__header-content">
+          <h1 className="dataset-overview__title">{manifest.name}</h1>
+          <p className="dataset-overview__description">{manifest.description}</p>
+          
+          {/* Metadata */}
+          <div className="dataset-overview__meta">
+            {temporalRange && (
+              <span className="dataset-overview__meta-item">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12,6 12,12 16,14" />
+                </svg>
+                {temporalRange}
+              </span>
+            )}
+            {manifest.nodeCount !== undefined && (
+              <span className="dataset-overview__meta-item">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="3" />
+                  <circle cx="5" cy="6" r="2" />
+                  <circle cx="19" cy="6" r="2" />
+                  <circle cx="5" cy="18" r="2" />
+                  <circle cx="19" cy="18" r="2" />
+                  <line x1="9.5" y1="10" x2="6.5" y2="7.5" />
+                  <line x1="14.5" y1="10" x2="17.5" y2="7.5" />
+                  <line x1="9.5" y1="14" x2="6.5" y2="16.5" />
+                  <line x1="14.5" y1="14" x2="17.5" y2="16.5" />
+                </svg>
+                {manifest.nodeCount} nodes
+              </span>
+            )}
+            {manifest.edgeCount !== undefined && (
+              <span className="dataset-overview__meta-item">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12,5 19,12 12,19" />
+                </svg>
+                {manifest.edgeCount} connections
+              </span>
+            )}
+          </div>
 
-        {/* Primary CTA */}
-        <Link
-          to={buildExploreUrl(datasetId)}
-          className="dataset-overview__explore-button"
-        >
-          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-            <circle cx="12" cy="12" r="3" />
-            <circle cx="5" cy="6" r="2" />
-            <circle cx="19" cy="6" r="2" />
-            <circle cx="5" cy="18" r="2" />
-            <circle cx="19" cy="18" r="2" />
-            <line x1="9.5" y1="10" x2="6.5" y2="7.5" />
-            <line x1="14.5" y1="10" x2="17.5" y2="7.5" />
-            <line x1="9.5" y1="14" x2="6.5" y2="16.5" />
-            <line x1="14.5" y1="14" x2="17.5" y2="16.5" />
-          </svg>
-          Explore Network
-        </Link>
+          {/* Primary CTA */}
+          <Link
+            to={buildExploreUrl(datasetId)}
+            className="dataset-overview__explore-button"
+          >
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="3" />
+              <circle cx="5" cy="6" r="2" />
+              <circle cx="19" cy="6" r="2" />
+              <circle cx="5" cy="18" r="2" />
+              <circle cx="19" cy="18" r="2" />
+              <line x1="9.5" y1="10" x2="6.5" y2="7.5" />
+              <line x1="14.5" y1="10" x2="17.5" y2="7.5" />
+              <line x1="9.5" y1="14" x2="6.5" y2="16.5" />
+              <line x1="14.5" y1="14" x2="17.5" y2="16.5" />
+            </svg>
+            Explore Network
+          </Link>
+        </div>
       </header>
 
       {/* Most Connected Items */}

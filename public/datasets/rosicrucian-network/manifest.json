@@ -10,11 +10,18 @@
   "defaultDataset": false,
   "nodeCount": 112,
   "edgeCount": 229,
-
   "scope": {
     "startYear": 1493,
     "endYear": 1700,
-    "regions": ["Germany", "Bohemia", "England", "Netherlands", "Prussia", "Switzerland", "Denmark"],
+    "regions": [
+      "Germany",
+      "Bohemia",
+      "England",
+      "Netherlands",
+      "Prussia",
+      "Switzerland",
+      "Denmark"
+    ],
     "themes": [
       "Rosicrucianism",
       "Paracelsianism",
@@ -25,32 +32,92 @@
       "Pansophia",
       "Educational reform"
     ],
-    "seedFigures": ["person-jacob-boehme", "person-jv-andreae", "person-robert-fludd", "person-paracelsus"],
+    "seedFigures": [
+      "person-jacob-boehme",
+      "person-jv-andreae",
+      "person-robert-fludd",
+      "person-paracelsus"
+    ],
     "subgroups": [
-      { "id": "tubingen-circle", "name": "Tübingen Circle", "description": "German academic circle that produced the Rosicrucian manifestos" },
-      { "id": "german-mystics", "name": "German Mystical Tradition", "description": "Christian theosophers and spiritualists" },
-      { "id": "paracelsians", "name": "Paracelsian Network", "description": "Physicians and alchemists in the Paracelsian tradition" },
-      { "id": "prague-court", "name": "Prague Court Circle", "description": "Figures associated with Rudolf II's court" },
-      { "id": "english-rosicrucians", "name": "English Rosicrucians", "description": "English defenders and practitioners of Rosicrucian ideas" },
-      { "id": "hartlib-circle", "name": "Hartlib Circle", "description": "Mid-17th century reform network centered on Samuel Hartlib" },
-      { "id": "political-patrons", "name": "Political Patrons", "description": "Rulers and nobles who patronized esoteric research" },
-      { "id": "manuscript-collectors", "name": "Manuscript Collectors", "description": "Those who preserved Paracelsian and esoteric texts" }
+      {
+        "id": "tubingen-circle",
+        "name": "Tübingen Circle",
+        "description": "German academic circle that produced the Rosicrucian manifestos"
+      },
+      {
+        "id": "german-mystics",
+        "name": "German Mystical Tradition",
+        "description": "Christian theosophers and spiritualists"
+      },
+      {
+        "id": "paracelsians",
+        "name": "Paracelsian Network",
+        "description": "Physicians and alchemists in the Paracelsian tradition"
+      },
+      {
+        "id": "prague-court",
+        "name": "Prague Court Circle",
+        "description": "Figures associated with Rudolf II's court"
+      },
+      {
+        "id": "english-rosicrucians",
+        "name": "English Rosicrucians",
+        "description": "English defenders and practitioners of Rosicrucian ideas"
+      },
+      {
+        "id": "hartlib-circle",
+        "name": "Hartlib Circle",
+        "description": "Mid-17th century reform network centered on Samuel Hartlib"
+      },
+      {
+        "id": "political-patrons",
+        "name": "Political Patrons",
+        "description": "Rulers and nobles who patronized esoteric research"
+      },
+      {
+        "id": "manuscript-collectors",
+        "name": "Manuscript Collectors",
+        "description": "Those who preserved Paracelsian and esoteric texts"
+      }
     ],
     "exclusionNotes": "Excludes later 18th-19th century Rosicrucian revival organizations (AMORC, Golden Dawn, etc.) which represent distinct movements. Focuses on the early modern network (c. 1493-1700) connected to the original manifestos."
   },
-
   "research": {
     "status": "complete",
-    "completedBatches": ["tubingen-circle", "german-mystics", "paracelsians", "prague-court", "english-rosicrucians", "hartlib-circle", "political-patrons", "manuscript-collectors"],
+    "completedBatches": [
+      "tubingen-circle",
+      "german-mystics",
+      "paracelsians",
+      "prague-court",
+      "english-rosicrucians",
+      "hartlib-circle",
+      "political-patrons",
+      "manuscript-collectors"
+    ],
     "pendingBatches": [],
     "gaps": [
-      { "description": "Limited coverage of French Rosicrucian connections", "priority": "low" },
-      { "description": "Scandinavian Paracelsians beyond Severinus underrepresented", "priority": "low" }
+      {
+        "description": "Limited coverage of French Rosicrucian connections",
+        "priority": "low"
+      },
+      {
+        "description": "Scandinavian Paracelsians beyond Severinus underrepresented",
+        "priority": "low"
+      }
     ],
     "excludedFigures": [
-      { "name": "Isaac Newton", "reason": "Alchemical interests well-documented but no direct Rosicrucian connection; would expand scope too far" },
-      { "name": "Giordano Bruno", "reason": "Hermetic philosopher but died before Rosicrucian manifestos; tangential connection" },
-      { "name": "René Descartes", "reason": "Rumors of Rosicrucian investigation but no confirmed involvement" }
+      {
+        "name": "Isaac Newton",
+        "reason": "Alchemical interests well-documented but no direct Rosicrucian connection; would expand scope too far"
+      },
+      {
+        "name": "Giordano Bruno",
+        "reason": "Hermetic philosopher but died before Rosicrucian manifestos; tangential connection"
+      },
+      {
+        "name": "René Descartes",
+        "reason": "Rumors of Rosicrucian investigation but no confirmed involvement"
+      }
     ]
   },
   "customRelationshipTypes": [
@@ -117,5 +184,6 @@
     "Brill academic publications",
     "Cambridge University Press",
     "Frances Yates, The Rosicrucian Enlightenment"
-  ]
+  ],
+  "bannerImage": "img/banners/rosicrucian-network.jpg"
 }

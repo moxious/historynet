@@ -34,5 +34,6 @@
       "directed": true
     }
   ],
-  "notes": "Chinese AI researchers and labs are explicitly excluded from this dataset due to scope decisions. Hardware engineers are also excluded. This network captures the Western AI research ecosystem."
+  "notes": "Chinese AI researchers and labs are explicitly excluded from this dataset due to scope decisions. Hardware engineers are also excluded. This network captures the Western AI research ecosystem.",
+  "bannerImage": "img/banners/ai-llm-research.jpg"
 }

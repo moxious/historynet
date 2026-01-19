@@ -17,6 +17,16 @@ function getDatasetsBasePath(): string {
 }
 
 /**
+ * Get the full URL for a public asset path
+ * Handles BASE_URL for deployment to subdirectories
+ * @param relativePath - Path relative to public/ (e.g., "img/banners/enlightenment.jpg")
+ */
+export function getPublicAssetUrl(relativePath: string): string {
+  const base = import.meta.env.BASE_URL || '/';
+  return `${base.endsWith('/') ? base : base + '/'}${relativePath}`;
+}
+
+/**
  * Error thrown when dataset loading fails
  */
 export class DatasetLoadError extends Error {

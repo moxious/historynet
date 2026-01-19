@@ -154,5 +154,6 @@
       "description": "Individual was supported by patron (inverse of patronized)",
       "directed": true
     }
-  ]
+  ],
+  "bannerImage": "img/banners/renaissance-humanism.jpg"
 }

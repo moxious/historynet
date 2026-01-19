@@ -122,5 +122,6 @@
       "description": "Authority required formal recantation/abjuration",
       "directed": true
     }
-  ]
+  ],
+  "bannerImage": "img/banners/scientific-revolution.jpg"
 }

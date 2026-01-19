@@ -241,6 +241,8 @@ jq --argjson nc "$NODE_COUNT" --argjson ec "$EDGE_COUNT" \
   "id": "network-id",
   "name": "Network Display Name",
   "description": "1-2 paragraph description of the network and its significance.",
+  "bannerImage": "img/banners/network-id.jpg",
+  "bannerEmoji": "📚🔍",
   "lastUpdated": "2026-01-19",
   "version": "1.0.0",
   "author": "HistoryNet Contributors",
@@ -297,6 +299,54 @@ jq --argjson nc "$NODE_COUNT" --argjson ec "$EDGE_COUNT" \
 | `excludedFigures` | object[] | Excluded candidates: `{ name, reason }` |
 
 **Handoff**: manifest.json exists with scope populated, empty nodes.json and edges.json created.
+
+---
+
+### Visual Identity Requirements
+
+Every dataset **must** have both a banner image and banner emoji. These are **required fields** that will cause validation errors if missing.
+
+#### 1. Banner Image (`bannerImage`)
+
+A representative image hosted in `public/img/banners/`:
+
+- **Download from Wikimedia Commons** (prefer public domain)
+- **Name file to match dataset ID** (e.g., `enlightenment.jpg`)
+- **Use JPG for photos/paintings**, PNG for diagrams, SVG for vector graphics
+- **Target size**: at least 400x400px for good quality at 200x200 display
+- **Store the relative path** in manifest: `"bannerImage": "img/banners/enlightenment.jpg"`
+
+#### 2. Banner Emoji (`bannerEmoji`)
+
+One or two emoji that represent the network theme:
+
+- **Used as fallback** if image fails to load
+- **Displayed in some views** alongside the banner
+- **Examples**:
+  - `"💡📖"` (Enlightenment)
+  - `"🌹✝️"` (Rosicrucian)
+  - `"🔬🌟"` (Scientific Revolution)
+  - `"🧠🤖"` (AI/LLM Research)
+
+#### Finding Banner Images
+
+1. Search [Wikimedia Commons](https://commons.wikimedia.org/) for iconic images related to the network
+2. Prefer: historical paintings, diagrams, portraits of key figures
+3. Check licensing: public domain preferred, CC-BY acceptable with attribution
+4. Download to `public/img/banners/{dataset-id}.{ext}`
+5. Update manifest with the path
+
+#### Example manifest.json with Visual Identity
+
+```json
+{
+  "id": "vienna-circle",
+  "name": "Vienna Circle",
+  "bannerImage": "img/banners/vienna-circle.jpg",
+  "bannerEmoji": "🔬📐",
+  ...
+}
+```
 
 ---
 
@@ -428,6 +478,8 @@ If a relationship is debated but worth including:
 | Check | Severity | How to Fix |
 |-------|----------|-----------|
 | Missing required fields | Error | Add the field |
+| Missing bannerImage | Error | Download image from Wikimedia Commons to `public/img/banners/` |
+| Missing bannerEmoji | Error | Add representative emoji(s) |
 | Broken edge references | Error | Fix source/target ID or add missing node |
 | Invalid date format | Error | Use `"YYYY"` or `"YYYY-MM-DD"` |
 | Invalid URL format | Error | Use valid HTTP/HTTPS URL |

@@ -67,6 +67,8 @@ export interface DatasetManifest {
   customRelationshipTypes?: CustomRelationshipType[];
   /** Emoji to display as banner on dataset overview page */
   bannerEmoji?: string;
+  /** Path to banner image (relative to public/, e.g., "img/banners/enlightenment.jpg") */
+  bannerImage?: string;
   /** Structured scope information */
   scope?: DatasetScope;
   /** Legacy temporal scope string (e.g., "2012-2025") */

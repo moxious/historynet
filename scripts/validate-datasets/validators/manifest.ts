@@ -57,6 +57,28 @@ export function validateManifest(
     });
   }
 
+  // Required: bannerImage
+  if (typeof data.bannerImage !== 'string' || data.bannerImage.trim() === '') {
+    issues.push({
+      severity: 'error',
+      file: fileName,
+      message: 'Missing or invalid required field: "bannerImage" (must be a non-empty string path, e.g., "img/banners/dataset-name.jpg")',
+      path: 'bannerImage',
+      code: 'MISSING_REQUIRED_FIELD',
+    });
+  }
+
+  // Required: bannerEmoji
+  if (typeof data.bannerEmoji !== 'string' || data.bannerEmoji.trim() === '') {
+    issues.push({
+      severity: 'error',
+      file: fileName,
+      message: 'Missing or invalid required field: "bannerEmoji" (must be a non-empty string with emoji characters)',
+      path: 'bannerEmoji',
+      code: 'MISSING_REQUIRED_FIELD',
+    });
+  }
+
   // Recommended fields (warnings)
   if (typeof data.description !== 'string' || data.description.trim() === '') {
     issues.push({
