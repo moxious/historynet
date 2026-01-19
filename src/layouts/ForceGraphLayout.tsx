@@ -247,6 +247,7 @@ export function ForceGraphLayout({
       .call(
         d3
           .drag<SVGGElement, SimulationNode>()
+          .clickDistance(4) // Ignore drags < 4px as clicks to prevent click swallowing
           .on('start', (event, d) => {
             if (!event.active) simulation.alphaTarget(0.3).restart();
             d.fx = d.x;

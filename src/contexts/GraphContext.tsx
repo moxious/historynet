@@ -140,7 +140,13 @@ export function GraphProvider({ children }: GraphProviderProps) {
   }, [effectiveDatasetId, dataset, load, setUrlDatasetId]);
 
   // Sync URL selection to local selection state
+  // Guard prevents race condition when click handler already set both local + URL state
   useEffect(() => {
+    // Skip sync if selection already matches URL (prevents race condition flicker)
+    if (selection?.type === urlSelectedType && selection?.id === urlSelectedId) {
+      return;
+    }
+
     if (urlSelectedId && urlSelectedType && graphData) {
       if (urlSelectedType === 'node') {
         const node = getNode(urlSelectedId);
@@ -154,7 +160,7 @@ export function GraphProvider({ children }: GraphProviderProps) {
         }
       }
     }
-  }, [urlSelectedId, urlSelectedType, graphData, getNode, getEdge, selectNodeBase, selectEdgeBase]);
+  }, [urlSelectedId, urlSelectedType, graphData, getNode, getEdge, selectNodeBase, selectEdgeBase, selection]);
 
   // Wrapped selection functions that also update URL
   // REACT: memoized to prevent graph re-layout on selection change (R12)

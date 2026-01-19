@@ -10,6 +10,7 @@
  * - Wikipedia enrichment when available
  */
 
+import { useState, useEffect } from 'react';
 import type {
   GraphNode,
   GraphEdge,
@@ -662,6 +663,14 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
   // Use enriched data with Wikipedia fallback
   const { enrichedData, handleImageError } = useNodeEnrichedData(node);
 
+  // Track image loading state for spinner display
+  const [imageLoading, setImageLoading] = useState(true);
+
+  // Reset image loading state when node changes or image URL changes
+  useEffect(() => {
+    setImageLoading(true);
+  }, [node.id, enrichedData.imageUrl]);
+
   return (
     <div className="node-infobox">
       {/* Header with type badge and image */}
@@ -671,22 +680,31 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
         {/* Image with Wikipedia fallback - SECURITY: validate image URL (F4/F6) */}
         {enrichedData.imageUrl && isValidImageUrl(enrichedData.imageUrl) && (
           <div className="node-infobox__image-container">
+            {/* Show loading spinner while image is loading */}
+            {imageLoading && (
+              <div className="node-infobox__image-loading" aria-label="Loading image..." />
+            )}
             <img
               src={enrichedData.imageUrl}
               alt={node.title}
               className="node-infobox__image"
+              style={{ display: imageLoading ? 'none' : 'block' }}
               loading="lazy"
-              onError={handleImageError}
+              onLoad={() => setImageLoading(false)}
+              onError={() => {
+                setImageLoading(false);
+                handleImageError();
+              }}
             />
             {/* Show Wikipedia attribution for images sourced from Wikipedia */}
-            {enrichedData.imageSource === 'wikipedia' && enrichedData.wikipediaUrl && (
+            {enrichedData.imageSource === 'wikipedia' && enrichedData.wikipediaUrl && !imageLoading && (
               <div className="node-infobox__image-attribution">
                 <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} size="small" />
               </div>
             )}
           </div>
         )}
-        {/* Show loading indicator while fetching Wikipedia data */}
+        {/* Show loading indicator while fetching Wikipedia data (no image URL yet) */}
         {enrichedData.loading && !enrichedData.imageUrl && (
           <div className="node-infobox__image-loading" aria-label="Loading image..." />
         )}
