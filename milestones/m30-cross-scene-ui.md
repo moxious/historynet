@@ -1,4 +1,4 @@
-# M30: Cross-Scene Navigation UI
+# M30: Cross-Scene Discovery UI
 
 **Status**: 🔲 Future
 **Track**: B (Infrastructure & Backend)
@@ -6,107 +6,335 @@
 
 ## Goal
 
-Surface cross-scene relationships in the user interface, enabling discovery and navigation between scenes where the same entity appears.
+Enable users to discover that historical figures appear in multiple intellectual networks, creating "aha!" moments that enrich their understanding of how ideas and people connect across different contexts.
 
-**Problem**: Even with the API from M29, users have no visual indication that a node appears in multiple scenes, and no way to navigate between them.
+**Problem**: Users exploring a figure like Geoffrey Hinton in the AI/LLM network have no way to discover he also appears in Cybernetics or Cognitive Science networks. This hidden richness is invisible.
+
+## Core User Need
+
+The fundamental drive is **serendipitous discovery**, not navigation:
+
+> "I didn't know this person was connected to THAT world too!"
+
+The delight comes from the unexpected revelation that someone you're learning about has a richer, more interconnected life than you realized. Everything in this feature should serve that moment of discovery.
+
+**Delight Formula**: `Surprise × Relevance × Low Friction`
+
+- **Surprise**: The user didn't expect this connection
+- **Relevance**: It appears when they're already interested in that person
+- **Low Friction**: One click, smooth transition, easy return
+
+## Design Principles
+
+| Principle | Application |
+|-----------|-------------|
+| **Progressive Disclosure** | Three-stage reveal: graph hint → infobox teaser → detail page full context |
+| **Don't Compete** | Cross-scene info is secondary; never interrupt the primary exploration task |
+| **Discovery Language** | Use "Explore in other contexts" not "Navigate to dataset" |
+| **Graceful Absence** | No matching identifier = no cross-scene section. Never show empty states. |
+| **Silent Transitions** | Clear filters without explanation; users understand datasets differ |
+| **Non-Blocking Fetch** | Pre-fetch cross-scene data on dataset load; update UI async when ready |
 
 ## Design Decisions
 
 | Decision | Choice | Rationale |
 |----------|--------|-----------|
-| Filter behavior | Clear all filters on cross-scene navigation | Filters are dataset-specific |
-| Visual indicator | Extra ring around multi-scene nodes | Subtle, uses existing color scheme |
-| Conflicting data | Defer to target dataset | Consistency, simplicity |
-| "Explore connections" | Out of scope | MVP focus |
+| Primary discovery location | Node Detail Page | User has expressed deep interest; appropriate for full context |
+| Infobox treatment | Minimal teaser only | Infobox is already dense; don't compete with relationships |
+| Graph indicator | Darker background (20% darker than node type color) | Subtle visual hint without adding extra elements |
+| Tooltip treatment | Extend existing title tooltip | "Geoffrey Hinton · In 3 networks" — integrated, not separate |
+| Filter behavior | Clear node type filters + search term; preserve layout | Users understand datasets differ; layout preference persists |
+| Visual priority | Lower than type/selection/search | Secondary information, peripheral awareness |
+| Missing data | Hide section entirely | No empty states; graceful degradation |
+| Navigation target | Node detail page in target dataset | Stable URLs, full context for continued exploration |
+| Loading states | Skeleton loader in both infobox and detail page | Consistent loading UX |
+| Mobile treatment | Compact teaser (icon + count, tap to navigate) | Space-efficient for bottom sheet |
+| Pre-fetch strategy | Batch request on dataset load, non-blocking | Fast discovery, no blocking render |
 
-## UI Components
+## Three-Stage Progressive Disclosure
 
-### 1. Infobox "Related Scenes" Section
+### Stage 1: Information Scent (Graph/Radial/Timeline View)
 
-When viewing a node that appears in multiple datasets:
-
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-📍 Also appears in:
-
-  Florentine Academy      →
-  Christian Kabbalah      →
-  Renaissance Humanism    →
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-Each item is a link that navigates to that node in the other dataset, preserving the user's current layout preference but clearing filters.
-
-### 2. Graph Node Indicator
-
-Nodes that appear in multiple scenes have a visual indicator:
-- Extra outer ring around the node shape
-- Same color as the node's type color
-- Tooltip on hover: "Appears in N scenes"
-
-## Cross-Scene Link Construction
-
-Links preserve user preferences while navigating:
+**Goal**: Plant curiosity without interrupting exploration.
 
 ```
-Current URL:
-  /#/?dataset=ai-llm-research&selected=person-hinton&type=node&layout=radial
+┌─────────────────────────────────────────┐
+│                                         │
+│      ┌───┐                              │
+│      │ 👤 │ ← Normal node               │
+│      └───┘   (standard background)      │
+│                                         │
+│      ┌───┐                              │
+│      │ 👤 │ ← Multi-scene node          │
+│      └───┘   (20% darker background)    │
+│                                         │
+│   Tooltip on hover:                     │
+│   "Geoffrey Hinton · In 3 networks"     │
+│                                         │
+└─────────────────────────────────────────┘
+```
+
+**Visual treatment**:
+- Background color is 20% darker than the standard node type color
+- Same hue as node type, just darker (not a separate ring element)
+- Does NOT compete with selection state or search highlighting
+- Tooltip extends existing title tooltip: `{name} · In {N} networks`
+
+### Stage 2: Invitation to Explore (Infobox Panel)
+
+**Goal**: Reward the click with a gentle reveal, but don't overwhelm.
+
+**Desktop:**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[... relationships section ...]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 Appears in 2 other networks
+   View full cross-scene connections →
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[... external links section ...]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Mobile (compact):**
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[... relationships section ...]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 In 2 networks                      →
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+(tap entire row to navigate)
+```
+
+**Key decisions**:
+- **Don't list the networks here** — save that for the detail page
+- Single line teaser with link to node detail page
+- Positioned after relationships, before external links
+- Only appears when `appearances.length > 1`
+- **Show skeleton loader** while data is loading
+- **Mobile**: Compact format, tap whole element to navigate
+
+### Stage 3: Full Discovery (Node Detail Page)
+
+**Goal**: Reward deep investment with full discovery context.
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 Explore in Other Networks
+
+This figure connects multiple intellectual communities:
+
+┌─────────────────────────────────────────┐
+│  Florentine Academy                   → │
+│  The philosophical circle around        │
+│  the Medici in 15th-century Florence    │
+├─────────────────────────────────────────┤
+│  Christian Kabbalah                   → │
+│  The synthesis of Jewish mysticism      │
+│  with Renaissance Christian thought     │
+├─────────────────────────────────────────┤
+│  Renaissance Humanism                 → │
+│  The revival of classical learning      │
+│  in Italy and Northern Europe           │
+└─────────────────────────────────────────┘
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Key decisions**:
+- **Include brief context** for each network (from manifest description)
+- Cards/links navigate to that node's detail page in the target dataset
+- Positioned after biography/identity sections, before external links
+- Full visual treatment — this is the payoff moment
+
+## URL Construction (Updated for BrowserRouter)
+
+Cross-scene links navigate to node detail pages (stable permalinks):
+
+```
+Current page:
+  /ai-llm-research/node/person-geoffrey-hinton
 
 Cross-scene link:
-  /#/?dataset=cybernetics&selected=person-hinton-cyb&type=node&layout=radial
-       ↑ Different dataset    ↑ Different nodeId           ↑ Same layout
+  /cybernetics/node/person-hinton-cybernetics
+  ↑ Target dataset   ↑ Node ID in that dataset
 ```
 
-**Preserved**: layout, theme  
-**Cleared**: all filters (they're dataset-specific)
+**Rationale**: Node detail pages are the canonical "deep dive" location. Users clicking cross-scene links want to learn more, not immediately jump into graph exploration.
 
 ## Tasks
 
-### Hook & Data Fetching
+### Phase 1: Data Layer & Hook
 
-- [ ] **UI1** - Create `useCrossSceneAppearances` hook
-- [ ] **UI2** - Fetch from `/api/node-scenes` when node has `wikidataId`
-- [ ] **UI3** - Cache results to avoid redundant fetches
-- [ ] **UI4** - Return `{ appearances, isLoading, isMultiScene }`
+- [ ] **CS-UI-01** Create `useCrossSceneData` context/provider
+  - Fetches cross-scene data for all nodes on dataset load (batch API)
+  - Non-blocking: doesn't delay initial render
+  - Updates UI asynchronously when data arrives
+  - Stores results in session cache (keyed by identifier)
 
-### CrossSceneLinks Component
+- [ ] **CS-UI-02** Create `useCrossSceneAppearances` hook
+  - Accepts node with any of: `wikidataId`, `wikipediaTitle`, or `nodeId`
+  - Returns `{ appearances, isLoading, isMultiScene, error }`
+  - Reads from context cache; triggers fetch only if not cached
+  - Returns `{ appearances: [], isMultiScene: false }` for nodes without identifiers
 
-- [ ] **UI5** - Create `CrossSceneLinks` component
-- [ ] **UI6** - Render "Also appears in:" section in infobox
-- [ ] **UI7** - Only show when `appearances.length > 1`
-- [ ] **UI8** - Exclude current dataset from list
+- [ ] **CS-UI-03** Create `buildCrossSceneNodeUrl` utility
+  - Takes `targetDatasetId` and `targetNodeId`
+  - Returns node detail page URL: `/${datasetId}/node/${nodeId}`
 
-### Link Construction
+- [ ] **CS-UI-04** Implement filter clearing on cross-scene navigation
+  - Clear node type filter checkboxes
+  - Clear search term
+  - Preserve selected layout (force/radial/timeline)
 
-- [ ] **UI9** - Create `buildCrossSceneUrl(targetDatasetId, nodeId, currentLayout)` utility
-- [ ] **UI10** - Preserve layout and theme preferences
-- [ ] **UI11** - Clear filters in generated URL
+### Phase 2: Graph Visual Indicator (Stage 1)
 
-### Graph Visual Indicator
+- [ ] **CS-UI-05** Add multi-scene indicator to `ForceGraphLayout.tsx`
+  - Background color 20% darker than standard node type color
+  - Same hue, just darker (modify existing circle fill, not add elements)
+  - Only applies when `isMultiScene` is true
 
-- [ ] **UI12** - Add multi-scene indicator to `ForceGraphLayout.tsx`
-- [ ] **UI13** - Add multi-scene indicator to `RadialLayout.tsx`
-- [ ] **UI14** - Additional outer ring on nodes with multiple appearances
-- [ ] **UI15** - Same color as node's type color
-- [ ] **UI16** - Tooltip showing appearance count
+- [ ] **CS-UI-06** Add multi-scene indicator to `RadialLayout.tsx`
+  - Same visual treatment as force graph
 
-### Infobox Integration
+- [ ] **CS-UI-07** Add multi-scene indicator to `TimelineLayout.tsx`
+  - Same visual treatment, appropriate for timeline density
 
-- [ ] **UI17** - Add `CrossSceneLinks` section to `NodeInfobox.tsx`
-- [ ] **UI18** - Position after main content, before external links
-- [ ] **UI19** - Handle loading states gracefully
+- [ ] **CS-UI-08** Extend existing tooltip for multi-scene nodes
+  - Format: `{Node Title} · In {N} networks`
+  - Extend existing title tooltip, don't add separate tooltip
+  - Only add suffix when `isMultiScene` is true
 
-### Testing
+- [ ] **CS-UI-09** Ensure visual hierarchy
+  - Selection state takes priority over multi-scene indicator
+  - Search highlighting takes priority over multi-scene indicator
+  - Multi-scene indicator should not increase node size
 
-- [ ] **UI20** - Test with nodes appearing in multiple datasets
-- [ ] **UI21** - Test with nodes appearing in only one dataset
-- [ ] **UI22** - Test layout/theme preservation during navigation
-- [ ] **UI23** - Test filter clearing during navigation
+### Phase 3: Infobox Teaser (Stage 2)
+
+- [ ] **CS-UI-10** Create `CrossSceneTeaser` component
+  - Desktop: "🌐 Appears in N other networks" + "View connections →"
+  - Mobile: Compact format — "🌐 In N networks" (tap whole element to navigate)
+  - Links to current node's detail page (where full section lives)
+
+- [ ] **CS-UI-11** Integrate teaser into `NodeInfobox.tsx`
+  - Position: after Relationships section, before External Links
+  - Show skeleton loader while `isLoading`
+  - Hide entirely if no cross-scene data or error
+
+### Phase 4: Detail Page Full Section (Stage 3)
+
+- [ ] **CS-UI-12** Create `CrossSceneSection` component
+  - Header: "🌐 Explore in Other Networks"
+  - Intro text: "This figure connects multiple intellectual communities:"
+  - List of network cards with context
+  - Show skeleton loader while fetching
+
+- [ ] **CS-UI-13** Create `CrossSceneNetworkCard` component
+  - Network name (from manifest)
+  - Brief description (from manifest, truncated to ~80 chars)
+  - Click navigates to node detail page in that dataset
+  - Excludes current dataset from list
+  - Show even if only 1 other network (don't require 2+)
+
+- [ ] **CS-UI-14** Integrate section into `NodeDetailPage.tsx`
+  - Position: after biography/type-specific fields, before External Links
+  - Show skeleton loader while fetching
+  - Gracefully hide if API fails or no cross-scene data
+
+### Phase 5: Polish & Edge Cases
+
+- [ ] **CS-UI-15** Handle nodes without matching identifiers
+  - Hook returns `{ appearances: [], isMultiScene: false }` immediately
+  - No API call, no UI elements rendered
+  - Applies when node lacks all of: `wikidataId`, `wikipediaTitle`, `nodeId`
+
+- [ ] **CS-UI-16** Handle API errors gracefully
+  - Log error for debugging
+  - Hide cross-scene UI entirely (no error states shown to user)
+
+- [ ] **CS-UI-17** Verify visual hierarchy in all themes
+  - Light mode: 20% darker background visible but subtle
+  - Dark mode: 20% darker background visible but subtle
+
+- [ ] **CS-UI-18** Add analytics event for cross-scene navigation
+  - Track: source dataset, target dataset, node identifier
+  - Helps understand cross-scene discovery patterns
+
+### Phase 6: Testing
+
+- [ ] **CS-UI-19** Test with node appearing in 3+ datasets
+  - All three stages render correctly
+  - Navigation works end-to-end
+  - Tooltip shows correct count
+
+- [ ] **CS-UI-20** Test with node appearing in exactly 2 datasets (current + 1 other)
+  - Shows section with 1 card (the other dataset)
+  - Indicator and teaser still appear
+
+- [ ] **CS-UI-21** Test with node appearing in only 1 dataset
+  - No indicator, no teaser, no section
+  - Clean, no empty states
+
+- [ ] **CS-UI-22** Test with node missing all identifiers
+  - Graceful no-op at all stages
+  - No API call made
+
+- [ ] **CS-UI-23** Test visual hierarchy
+  - Select a multi-scene node: selection state dominates
+  - Search for a multi-scene node: search highlighting dominates
+  - Darker background visible but not distracting
+
+- [ ] **CS-UI-24** Test responsive behavior
+  - Mobile: compact teaser (icon + count) in bottom sheet
+  - Desktop: full teaser with link text in drawer
+  - Detail page section works on both
+
+- [ ] **CS-UI-25** Test filter clearing on cross-scene navigation
+  - Node type filters cleared
+  - Search term cleared
+  - Layout preserved (if was timeline, stays timeline)
+
+- [ ] **CS-UI-26** Test pre-fetch and async rendering
+  - Initial render not blocked by cross-scene data
+  - Indicators appear asynchronously when data arrives
+  - No flicker or layout shift
+
+## Copy Guidelines
+
+Use discovery-oriented language throughout:
+
+| Instead of... | Use... |
+|---------------|--------|
+| "Other datasets" | "Other networks" or "other contexts" |
+| "Navigate to" | "Explore in" |
+| "Links" | "Connections" |
+| "Go to dataset" | "See this figure in..." |
+| "Related datasets" | "Connected worlds" or "intellectual communities" |
 
 ## Key Deliverables
 
-1. **`useCrossSceneAppearances` hook** - Fetches and caches cross-scene data
-2. **`CrossSceneLinks` component** - Renders "Also appears in:" section
-3. **Link construction utility** - `buildCrossSceneUrl()`
-4. **Multi-scene node indicator** - Visual marker in graph layouts
-5. **Infobox integration** - Section in NodeInfobox
+1. **`useCrossSceneData` context/provider** — Batch pre-fetch on dataset load, session caching
+2. **`useCrossSceneAppearances` hook** — Per-node access to cached cross-scene data
+3. **Graph indicators** — 20% darker background for multi-scene nodes in all three layouts
+4. **Extended tooltips** — "{Name} · In N networks" format
+5. **`CrossSceneTeaser` component** — Minimal infobox invitation (desktop + mobile variants)
+6. **`CrossSceneSection` component** — Full discovery experience on detail page
+7. **`CrossSceneNetworkCard` component** — Rich context for each network
+8. **`buildCrossSceneNodeUrl` utility** — URL construction for navigation
+9. **Filter clearing logic** — Clear filters + search on cross-scene navigation
+
+## Success Metrics
+
+- Users who see multi-scene indicators click on those nodes at higher rates
+- Cross-scene navigation events indicate feature is being discovered and used
+- Time on site increases when users discover cross-scene connections
+- Qualitative: users report "I didn't know X was connected to Y" moments
+
+## Out of Scope (Future Enhancements)
+
+- "Explore all connections" meta-view showing a figure across all their networks
+- Cross-scene relationship mapping (how the same relationship appears in different contexts)
+- Automatic wikidataId enrichment for datasets missing identifiers

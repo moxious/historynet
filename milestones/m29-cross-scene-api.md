@@ -6,37 +6,72 @@
 
 ## Goal
 
-Create a build-time index and serverless API endpoint that, given a node's identity (via `wikidataId` or `wikipediaTitle`), returns all datasets containing that entity along with navigation metadata.
+Create a build-time index and serverless API endpoint that, given a node's identity, returns all datasets containing that entity along with navigation metadata.
 
 **Problem**: As the number of datasets grows, users have no way to discover that a figure like Marsilio Ficino appears in multiple scenes (Florentine Academy, Christian Kabbalah, Renaissance Humanism). This milestone enables cross-scene discovery and navigation.
+
+## Identity Matching Rules
+
+Two nodes are considered the **same entity** if **ANY** of the following match:
+
+| Field | Example | Notes |
+|-------|---------|-------|
+| `wikidataId` | `Q154781` | Most reliable, stable Wikidata QID |
+| `wikipediaTitle` | `Marsilio_Ficino` | Case-sensitive, underscores for spaces |
+| `nodeId` | `person-marsilio-ficino` | Exact string match across datasets |
+
+**If none match, the nodes are different entities** — no cross-scene link is created.
 
 ## Architecture Decisions
 
 | Decision | Choice | Rationale |
 |----------|--------|-----------|
 | Index timing | Build-time generation | Avoids runtime overhead, predictable performance |
-| Index storage | Sharded by `wikidataId` prefix | Keeps per-query memory low, scales to many datasets |
-| Join key | `wikidataId` (primary), `wikipediaTitle` (fallback) | Wikidata QIDs are stable identifiers |
+| Index storage | Multiple lookup indexes | Supports matching on wikidataId, wikipediaTitle, or nodeId |
+| Identity matching | ANY of three fields | Maximizes discovery; wikidataId preferred but not required |
 | Build memory | Stream datasets one at a time | Scales to hundreds of datasets without memory issues |
+| API batching | Support multiple identifiers per request | Avoids N+1 query problem for dataset pre-fetch |
 
-## Why Sharding?
+## Index Structure
 
-With a "database" of potentially hundreds of JSON dataset files, we must avoid:
-- Loading all datasets into memory to build an index
-- Loading the entire index into memory to answer one query
+Three parallel indexes for fast lookup by any identifier:
 
-**Sharded approach**: Index files are split by wikidataId range (e.g., `Q0-Q99999.json`, `Q100000-Q199999.json`). A query for `Q154781` loads only the relevant shard.
+```
+public/cross-scene-index/
+├── manifest.json           # Index metadata, dataset list
+├── by-wikidata/
+│   ├── Q0-Q99999.json     # Sharded by QID numeric range
+│   └── Q100000-Q199999.json
+├── by-wikipedia/
+│   └── titles.json        # Keyed by normalized title
+└── by-nodeid/
+    └── nodeids.json       # Keyed by exact nodeId
+```
+
+**Why three indexes?** Different datasets have different identifier coverage. Some have `wikidataId`, some only `wikipediaTitle`, some only consistent `nodeId` patterns. Three indexes ensure maximum cross-scene discovery.
 
 ## API Design
 
 **Endpoint**: `GET /api/node-scenes`
 
-**Query Parameters** (at least one required):
-- `?wikidataId=Q154781` — Primary lookup
-- `?wikipediaTitle=Marsilio_Ficino` — Fallback lookup
-- `?nodeId=person-ficino&dataset=florentine-academy` — Resolve from specific node
+### Single Lookup
 
-**Response**:
+**Query Parameters** (at least one required):
+- `?wikidataId=Q154781` — Lookup by Wikidata QID
+- `?wikipediaTitle=Marsilio_Ficino` — Lookup by Wikipedia title
+- `?nodeId=person-ficino` — Lookup by node ID
+
+### Batch Lookup (for pre-fetching)
+
+**Query Parameters**:
+- `?wikidataIds=Q154781,Q937,Q5879` — Comma-separated Wikidata QIDs
+- `?wikipediaTitles=Marsilio_Ficino,Voltaire` — Comma-separated titles
+- `?nodeIds=person-ficino,person-voltaire` — Comma-separated node IDs
+
+Batch parameters can be combined to look up mixed identifier types in one request.
+
+### Response (Single Lookup)
+
 ```json
 {
   "identity": {
@@ -62,41 +97,67 @@ With a "database" of potentially hundreds of JSON dataset files, we must avoid:
 }
 ```
 
+### Response (Batch Lookup)
+
+```json
+{
+  "results": {
+    "Q154781": {
+      "identity": { ... },
+      "appearances": [ ... ],
+      "totalAppearances": 2
+    },
+    "Q937": {
+      "identity": { ... },
+      "appearances": [ ... ],
+      "totalAppearances": 3
+    }
+  },
+  "notFound": ["Q999999999"]
+}
+```
+
 ## Tasks
 
 ### Index Build Script
 
 - [ ] **CS1** - Create `scripts/build-cross-scene-index/` directory
 - [ ] **CS2** - Implement dataset streaming (one at a time)
-- [ ] **CS3** - Generate sharded index files by wikidataId prefix
+- [ ] **CS3** - Build entity registry: merge nodes matching on any identifier
 - [ ] **CS4** - Add npm script: `npm run build:cross-scene-index`
 
 ### Index Output
 
-- [ ] **CS5** - Create `public/cross-scene-index/` directory
-- [ ] **CS6** - Generate `manifest.json` with shard list and metadata
-- [ ] **CS7** - Generate `Q{start}-Q{end}.json` sharded index files
+- [ ] **CS5** - Create `public/cross-scene-index/` directory structure
+- [ ] **CS6** - Generate `manifest.json` with index metadata and dataset list
+- [ ] **CS7** - Generate `by-wikidata/` sharded index files (Q-prefix ranges)
+- [ ] **CS8** - Generate `by-wikipedia/titles.json` index
+- [ ] **CS9** - Generate `by-nodeid/nodeids.json` index
 
 ### Serverless Endpoint
 
-- [ ] **CS8** - Create `/api/node-scenes.ts` serverless function
-- [ ] **CS9** - Accept `?wikidataId=`, `?wikipediaTitle=`, or `?nodeId=&dataset=`
-- [ ] **CS10** - Load only the relevant shard
-- [ ] **CS11** - Return appearances array
+- [ ] **CS10** - Create `/api/node-scenes.ts` serverless function
+- [ ] **CS11** - Implement single-lookup: `?wikidataId=`, `?wikipediaTitle=`, `?nodeId=`
+- [ ] **CS12** - Implement batch-lookup: `?wikidataIds=`, `?wikipediaTitles=`, `?nodeIds=`
+- [ ] **CS13** - Load only relevant index files (shard selection)
+- [ ] **CS14** - Return appearances array (single) or results map (batch)
+- [ ] **CS15** - Handle not-found cases gracefully (empty appearances, not 404)
 
 ### CI Integration
 
-- [ ] **CS12** - Add index rebuild to deployment workflow
-- [ ] **CS13** - Test index generation with all datasets
-
-### Fallback Lookup
-
-- [ ] **CS14** - Implement `?wikipediaTitle=` search for matching title
-- [ ] **CS15** - Handle case when no matches found
+- [ ] **CS16** - Add index rebuild to deployment workflow
+- [ ] **CS17** - Validate index generation with all datasets
+- [ ] **CS18** - Ensure index is included in Vercel deployment
 
 ## Key Deliverables
 
 1. **Index build script**: `scripts/build-cross-scene-index/`
-2. **Index output**: `public/cross-scene-index/`
-3. **Serverless endpoint**: `/api/node-scenes`
+2. **Index output**: `public/cross-scene-index/` with three lookup paths
+3. **Serverless endpoint**: `/api/node-scenes` with single and batch modes
 4. **CI integration**: Index rebuilt on every deployment
+
+## Notes
+
+- Batch API is critical for M30 performance — allows pre-fetching all nodes in a dataset with one request
+- Index files are static JSON, loaded on-demand by the serverless function
+- Sharding by wikidataId prefix keeps individual shard files small for fast loading
