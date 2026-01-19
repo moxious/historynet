@@ -17,7 +17,8 @@
     ],
     "birthPlace": "Arezzo",
     "nationality": "Italian",
-    "wikipediaTitle": "Petrarch"
+    "wikipediaTitle": "Petrarch",
+    "wikidataId": "Q1401"
   },
   {
     "id": "person-giovanni-boccaccio",
@@ -34,7 +35,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Giovanni_Boccaccio"
+    "wikipediaTitle": "Giovanni_Boccaccio",
+    "wikidataId": "Q1402"
   },
   {
     "id": "person-coluccio-salutati",
@@ -50,7 +52,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Coluccio_Salutati"
+    "wikipediaTitle": "Coluccio_Salutati",
+    "wikidataId": "Q93113"
   },
   {
     "id": "person-leonardo-bruni",
@@ -68,7 +71,8 @@
     ],
     "birthPlace": "Arezzo",
     "nationality": "Italian",
-    "wikipediaTitle": "Leonardo_Bruni"
+    "wikipediaTitle": "Leonardo_Bruni",
+    "wikidataId": "Q314488"
   },
   {
     "id": "person-poggio-bracciolini",
@@ -86,7 +90,8 @@
     ],
     "birthPlace": "Terranuova",
     "nationality": "Italian",
-    "wikipediaTitle": "Poggio_Bracciolini"
+    "wikipediaTitle": "Poggio_Bracciolini",
+    "wikidataId": "Q318254"
   },
   {
     "id": "person-niccolo-niccoli",
@@ -102,7 +107,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Niccolò_Niccoli"
+    "wikipediaTitle": "Niccolò_Niccoli",
+    "wikidataId": "Q730505"
   },
   {
     "id": "person-manuel-chrysoloras",
@@ -119,7 +125,8 @@
     ],
     "birthPlace": "Constantinople",
     "nationality": "Byzantine",
-    "wikipediaTitle": "Manuel_Chrysoloras"
+    "wikipediaTitle": "Manuel_Chrysoloras",
+    "wikidataId": "Q434356"
   },
   {
     "id": "person-pier-paolo-vergerio",
@@ -135,7 +142,8 @@
     ],
     "birthPlace": "Capodistria",
     "nationality": "Italian",
-    "wikipediaTitle": "Pier_Paolo_Vergerio"
+    "wikipediaTitle": "Pier_Paolo_Vergerio",
+    "wikidataId": "Q668134"
   },
   {
     "id": "person-gasparino-barzizza",
@@ -152,7 +160,8 @@
     ],
     "birthPlace": "Bergamo",
     "nationality": "Italian",
-    "wikipediaTitle": "Gasparino_Barzizza"
+    "wikipediaTitle": "Gasparino_Barzizza",
+    "wikidataId": "Q1236187"
   },
   {
     "id": "person-giovanni-aurispa",
@@ -168,7 +177,8 @@
     ],
     "birthPlace": "Sicily",
     "nationality": "Italian",
-    "wikipediaTitle": "Giovanni_Aurispa"
+    "wikipediaTitle": "Giovanni_Aurispa",
+    "wikidataId": "Q770787"
   },
   {
     "id": "person-marsilio-ficino",
@@ -185,7 +195,8 @@
     ],
     "birthPlace": "Figline Valdarno",
     "nationality": "Italian",
-    "wikipediaTitle": "Marsilio_Ficino"
+    "wikipediaTitle": "Marsilio_Ficino",
+    "wikidataId": "Q192374"
   },
   {
     "id": "person-giovanni-pico",
@@ -200,7 +211,8 @@
     ],
     "birthPlace": "Mirandola",
     "nationality": "Italian",
-    "wikipediaTitle": "Giovanni_Pico_della_Mirandola"
+    "wikipediaTitle": "Giovanni_Pico_della_Mirandola",
+    "wikidataId": "Q182128"
   },
   {
     "id": "person-angelo-poliziano",
@@ -220,7 +232,8 @@
     ],
     "birthPlace": "Montepulciano",
     "nationality": "Italian",
-    "wikipediaTitle": "Angelo_Poliziano"
+    "wikipediaTitle": "Angelo_Poliziano",
+    "wikidataId": null
   },
   {
     "id": "person-lorenzo-de-medici",
@@ -240,7 +253,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Lorenzo_de%27_Medici"
+    "wikipediaTitle": "Lorenzo_de%27_Medici",
+    "wikidataId": null
   },
   {
     "id": "person-cristoforo-landino",
@@ -257,7 +271,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Cristoforo_Landino"
+    "wikipediaTitle": "Cristoforo_Landino",
+    "wikidataId": "Q711964"
   },
   {
     "id": "person-francesco-diacceto",
@@ -272,7 +287,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Francesco_Cattani_da_Diacceto"
+    "wikipediaTitle": "Francesco_Cattani_da_Diacceto",
+    "wikidataId": "Q3749759"
   },
   {
     "id": "person-giovanni-nesi",
@@ -288,7 +304,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Giovanni_Nesi"
+    "wikipediaTitle": "Giovanni_Nesi",
+    "wikidataId": "Q125461951"
   },
   {
     "id": "person-leon-battista-alberti",
@@ -306,7 +323,8 @@
     ],
     "birthPlace": "Genoa",
     "nationality": "Italian",
-    "wikipediaTitle": "Leon_Battista_Alberti"
+    "wikipediaTitle": "Leon_Battista_Alberti",
+    "wikidataId": "Q182046"
   },
   {
     "id": "person-niccolo-machiavelli",
@@ -323,7 +341,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Niccolò_Machiavelli"
+    "wikipediaTitle": "Niccolò_Machiavelli",
+    "wikidataId": "Q1399"
   },
   {
     "id": "person-francesco-guicciardini",
@@ -339,7 +358,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Francesco_Guicciardini"
+    "wikipediaTitle": "Francesco_Guicciardini",
+    "wikidataId": "Q44601"
   },
   {
     "id": "person-matteo-palmieri",
@@ -355,7 +375,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Matteo_Palmieri"
+    "wikipediaTitle": "Matteo_Palmieri",
+    "wikidataId": "Q1229872"
   },
   {
     "id": "person-donato-acciaiuoli",
@@ -372,7 +393,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Donato_Acciaiuoli"
+    "wikipediaTitle": "Donato_Acciaiuoli",
+    "wikidataId": null
   },
   {
     "id": "person-giannozzo-manetti",
@@ -388,7 +410,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Giannozzo_Manetti"
+    "wikipediaTitle": "Giannozzo_Manetti",
+    "wikidataId": "Q1234681"
   },
   {
     "id": "person-lorenzo-valla",
@@ -405,7 +428,8 @@
     ],
     "birthPlace": "Rome",
     "nationality": "Italian",
-    "wikipediaTitle": "Lorenzo_Valla"
+    "wikipediaTitle": "Lorenzo_Valla",
+    "wikidataId": "Q214115"
   },
   {
     "id": "person-flavio-biondo",
@@ -421,7 +445,8 @@
     ],
     "birthPlace": "Forlì",
     "nationality": "Italian",
-    "wikipediaTitle": "Flavio_Biondo"
+    "wikipediaTitle": "Flavio_Biondo",
+    "wikidataId": "Q434834"
   },
   {
     "id": "person-pomponio-leto",
@@ -437,7 +462,8 @@
     ],
     "birthPlace": "Rome",
     "nationality": "Italian",
-    "wikipediaTitle": "Giulio_Pomponio_Leto"
+    "wikipediaTitle": "Giulio_Pomponio_Leto",
+    "wikidataId": null
   },
   {
     "id": "person-bartolomeo-platina",
@@ -453,7 +479,8 @@
     ],
     "birthPlace": "Piadena",
     "nationality": "Italian",
-    "wikipediaTitle": "Bartolomeo_Platina"
+    "wikipediaTitle": "Bartolomeo_Platina",
+    "wikidataId": "Q455140"
   },
   {
     "id": "person-giovanni-pontano",
@@ -470,7 +497,8 @@
     ],
     "birthPlace": "Cerreto",
     "nationality": "Italian",
-    "wikipediaTitle": "Giovanni_Pontano"
+    "wikipediaTitle": "Giovanni_Pontano",
+    "wikidataId": "Q714946"
   },
   {
     "id": "person-jacopo-sannazaro",
@@ -485,7 +513,8 @@
     ],
     "birthPlace": "Naples",
     "nationality": "Italian",
-    "wikipediaTitle": "Jacopo_Sannazaro"
+    "wikipediaTitle": "Jacopo_Sannazaro",
+    "wikidataId": "Q510621"
   },
   {
     "id": "person-enea-silvio-piccolomini",
@@ -504,7 +533,8 @@
     ],
     "birthPlace": "Corsignano",
     "nationality": "Italian",
-    "wikipediaTitle": "Pope_Pius_II"
+    "wikipediaTitle": "Pope_Pius_II",
+    "wikidataId": "Q101437"
   },
   {
     "id": "person-pietro-bembo",
@@ -521,7 +551,8 @@
     ],
     "birthPlace": "Venice",
     "nationality": "Italian",
-    "wikipediaTitle": "Pietro_Bembo"
+    "wikipediaTitle": "Pietro_Bembo",
+    "wikidataId": "Q334188"
   },
   {
     "id": "person-aldo-manuzio",
@@ -541,7 +572,8 @@
     ],
     "birthPlace": "Venice",
     "nationality": "Italian",
-    "wikipediaTitle": "Aldus_Manutius"
+    "wikipediaTitle": "Aldus_Manutius",
+    "wikidataId": "Q213220"
   },
   {
     "id": "person-ermolao-barbaro",
@@ -557,7 +589,8 @@
     ],
     "birthPlace": "Venice",
     "nationality": "Italian",
-    "wikipediaTitle": "Ermolao_Barbaro_the_Younger"
+    "wikipediaTitle": "Ermolao_Barbaro_the_Younger",
+    "wikidataId": null
   },
   {
     "id": "person-pietro-pomponazzi",
@@ -572,7 +605,8 @@
     ],
     "birthPlace": "Mantua",
     "nationality": "Italian",
-    "wikipediaTitle": "Pietro_Pomponazzi"
+    "wikipediaTitle": "Pietro_Pomponazzi",
+    "wikidataId": "Q318787"
   },
   {
     "id": "person-niccolo-leonico-tomeo",
@@ -588,7 +622,8 @@
     ],
     "birthPlace": "Venice",
     "nationality": "Italian",
-    "wikipediaTitle": "Niccolò_Leonico_Tomeo"
+    "wikipediaTitle": "Niccolò_Leonico_Tomeo",
+    "wikidataId": null
   },
   {
     "id": "person-giorgio-valla",
@@ -604,7 +639,8 @@
     ],
     "birthPlace": "Piacenza",
     "nationality": "Italian",
-    "wikipediaTitle": "Giorgio_Valla"
+    "wikipediaTitle": "Giorgio_Valla",
+    "wikidataId": "Q1525570"
   },
   {
     "id": "person-desiderius-erasmus",
@@ -624,7 +660,8 @@
     ],
     "birthPlace": "Rotterdam",
     "nationality": "Dutch",
-    "wikipediaTitle": "Erasmus"
+    "wikipediaTitle": "Erasmus",
+    "wikidataId": "Q43499"
   },
   {
     "id": "person-thomas-more",
@@ -641,7 +678,8 @@
     ],
     "birthPlace": "London",
     "nationality": "English",
-    "wikipediaTitle": "Thomas_More"
+    "wikipediaTitle": "Thomas_More",
+    "wikidataId": "Q42544"
   },
   {
     "id": "person-john-colet",
@@ -657,7 +695,8 @@
     ],
     "birthPlace": "London",
     "nationality": "English",
-    "wikipediaTitle": "John_Colet"
+    "wikipediaTitle": "John_Colet",
+    "wikidataId": "Q957527"
   },
   {
     "id": "person-william-grocyn",
@@ -672,7 +711,8 @@
     ],
     "birthPlace": "Oxford",
     "nationality": "English",
-    "wikipediaTitle": "William_Grocyn"
+    "wikipediaTitle": "William_Grocyn",
+    "wikidataId": "Q731879"
   },
   {
     "id": "person-thomas-linacre",
@@ -688,7 +728,8 @@
     ],
     "birthPlace": "Oxford",
     "nationality": "English",
-    "wikipediaTitle": "Thomas_Linacre"
+    "wikipediaTitle": "Thomas_Linacre",
+    "wikidataId": "Q730540"
   },
   {
     "id": "person-john-fisher",
@@ -704,7 +745,8 @@
     ],
     "birthPlace": "Cambridge",
     "nationality": "English",
-    "wikipediaTitle": "John_Fisher_(cardinal)"
+    "wikipediaTitle": "John_Fisher_(cardinal)",
+    "wikidataId": null
   },
   {
     "id": "person-cuthbert-tunstall",
@@ -720,7 +762,8 @@
     ],
     "birthPlace": "England",
     "nationality": "English",
-    "wikipediaTitle": "Cuthbert_Tunstall"
+    "wikipediaTitle": "Cuthbert_Tunstall",
+    "wikidataId": "Q725592"
   },
   {
     "id": "person-juan-luis-vives",
@@ -736,7 +779,8 @@
     ],
     "birthPlace": "Valencia",
     "nationality": "Spanish",
-    "wikipediaTitle": "Juan_Luis_Vives"
+    "wikipediaTitle": "Juan_Luis_Vives",
+    "wikidataId": "Q316357"
   },
   {
     "id": "person-guillaume-bude",
@@ -752,7 +796,8 @@
     ],
     "birthPlace": "Paris",
     "nationality": "French",
-    "wikipediaTitle": "Guillaume_Budé"
+    "wikipediaTitle": "Guillaume_Budé",
+    "wikidataId": "Q353668"
   },
   {
     "id": "person-jacques-lefevre-detaples",
@@ -768,7 +813,8 @@
     ],
     "birthPlace": "Étaples",
     "nationality": "French",
-    "wikipediaTitle": "Jacques_Lefèvre_d%27Étaples"
+    "wikipediaTitle": "Jacques_Lefèvre_d%27Étaples",
+    "wikidataId": null
   },
   {
     "id": "person-robert-estienne",
@@ -787,7 +833,8 @@
     ],
     "birthPlace": "Paris",
     "nationality": "French",
-    "wikipediaTitle": "Robert_Estienne"
+    "wikipediaTitle": "Robert_Estienne",
+    "wikidataId": "Q260921"
   },
   {
     "id": "person-rudolf-agricola",
@@ -803,7 +850,8 @@
     ],
     "birthPlace": "Groningen",
     "nationality": "Dutch/German",
-    "wikipediaTitle": "Rudolf_Agricola"
+    "wikipediaTitle": "Rudolf_Agricola",
+    "wikidataId": null
   },
   {
     "id": "person-johannes-reuchlin",
@@ -819,7 +867,8 @@
     ],
     "birthPlace": "Pforzheim",
     "nationality": "German",
-    "wikipediaTitle": "Johannes_Reuchlin"
+    "wikipediaTitle": "Johannes_Reuchlin",
+    "wikidataId": null
   },
   {
     "id": "person-conrad-celtis",
@@ -835,7 +884,8 @@
     ],
     "birthPlace": "Wipfeld",
     "nationality": "German",
-    "wikipediaTitle": "Conrad_Celtes"
+    "wikipediaTitle": "Conrad_Celtes",
+    "wikidataId": "Q60625"
   },
   {
     "id": "person-willibald-pirckheimer",
@@ -851,7 +901,8 @@
     ],
     "birthPlace": "Nuremberg",
     "nationality": "German",
-    "wikipediaTitle": "Willibald_Pirckheimer"
+    "wikipediaTitle": "Willibald_Pirckheimer",
+    "wikidataId": "Q62663"
   },
   {
     "id": "person-ulrich-von-hutten",
@@ -868,7 +919,8 @@
     ],
     "birthPlace": "Steckelberg",
     "nationality": "German",
-    "wikipediaTitle": "Ulrich_von_Hutten"
+    "wikipediaTitle": "Ulrich_von_Hutten",
+    "wikidataId": "Q77107"
   },
   {
     "id": "person-jakob-wimpfeling",
@@ -884,7 +936,8 @@
     ],
     "birthPlace": "Sélestat",
     "nationality": "German",
-    "wikipediaTitle": "Jakob_Wimpfeling"
+    "wikipediaTitle": "Jakob_Wimpfeling",
+    "wikidataId": "Q71848"
   },
   {
     "id": "person-beatus-rhenanus",
@@ -900,7 +953,8 @@
     ],
     "birthPlace": "Sélestat",
     "nationality": "German",
-    "wikipediaTitle": "Beatus_Rhenanus"
+    "wikipediaTitle": "Beatus_Rhenanus",
+    "wikidataId": "Q646092"
   },
   {
     "id": "person-johann-froben",
@@ -916,7 +970,8 @@
     ],
     "birthPlace": "Basel",
     "nationality": "German/Swiss",
-    "wikipediaTitle": "Johann_Froben"
+    "wikipediaTitle": "Johann_Froben",
+    "wikidataId": "Q116611"
   },
   {
     "id": "person-alexander-hegius",
@@ -931,7 +986,8 @@
     ],
     "birthPlace": "Deventer",
     "nationality": "Dutch",
-    "wikipediaTitle": "Alexander_Hegius"
+    "wikipediaTitle": "Alexander_Hegius",
+    "wikidataId": "Q706796"
   },
   {
     "id": "person-antonio-nebrija",
@@ -947,7 +1003,8 @@
     ],
     "birthPlace": "Lebrija",
     "nationality": "Spanish",
-    "wikipediaTitle": "Antonio_de_Nebrija"
+    "wikipediaTitle": "Antonio_de_Nebrija",
+    "wikidataId": "Q380804"
   },
   {
     "id": "person-cardinal-cisneros",
@@ -967,7 +1024,8 @@
     ],
     "birthPlace": "Torrelaguna",
     "nationality": "Spanish",
-    "wikipediaTitle": "Francisco_Jiménez_de_Cisneros"
+    "wikipediaTitle": "Francisco_Jiménez_de_Cisneros",
+    "wikidataId": "Q342392"
   },
   {
     "id": "person-juan-de-valdes",
@@ -983,7 +1041,8 @@
     ],
     "birthPlace": "Cuenca",
     "nationality": "Spanish",
-    "wikipediaTitle": "Juan_de_Valdés"
+    "wikipediaTitle": "Juan_de_Valdés",
+    "wikidataId": "Q666687"
   },
   {
     "id": "person-hernan-nunez",
@@ -1001,7 +1060,8 @@
     ],
     "birthPlace": "Spain",
     "nationality": "Spanish",
-    "wikipediaTitle": "Hernán_Núñez_de_Toledo"
+    "wikipediaTitle": "Hernán_Núñez_de_Toledo",
+    "wikidataId": null
   },
   {
     "id": "person-michel-de-montaigne",
@@ -1017,7 +1077,8 @@
     ],
     "birthPlace": "Bordeaux region",
     "nationality": "French",
-    "wikipediaTitle": "Michel_de_Montaigne"
+    "wikipediaTitle": "Michel_de_Montaigne",
+    "wikidataId": "Q41568"
   },
   {
     "id": "person-etienne-de-la-boetie",
@@ -1033,7 +1094,8 @@
     ],
     "birthPlace": "Sarlat",
     "nationality": "French",
-    "wikipediaTitle": "Étienne_de_La_Boétie"
+    "wikipediaTitle": "Étienne_de_La_Boétie",
+    "wikidataId": "Q290227"
   },
   {
     "id": "person-marguerite-of-navarre",
@@ -1050,7 +1112,8 @@
     ],
     "birthPlace": "France",
     "nationality": "French",
-    "wikipediaTitle": "Marguerite_de_Navarre"
+    "wikipediaTitle": "Marguerite_de_Navarre",
+    "wikidataId": "Q190058"
   },
   {
     "id": "person-guillaume-postel",
@@ -1066,7 +1129,8 @@
     ],
     "birthPlace": "France",
     "nationality": "French",
-    "wikipediaTitle": "Guillaume_Postel"
+    "wikipediaTitle": "Guillaume_Postel",
+    "wikidataId": "Q948156"
   },
   {
     "id": "person-jean-dorat",
@@ -1082,7 +1146,8 @@
     ],
     "birthPlace": "Limoges",
     "nationality": "French",
-    "wikipediaTitle": "Jean_Dorat"
+    "wikipediaTitle": "Jean_Dorat",
+    "wikidataId": null
   },
   {
     "id": "person-guarino-da-verona",
@@ -1098,7 +1163,8 @@
     ],
     "birthPlace": "Verona",
     "nationality": "Italian",
-    "wikipediaTitle": "Guarino_da_Verona"
+    "wikipediaTitle": "Guarino_da_Verona",
+    "wikidataId": "Q539577"
   },
   {
     "id": "person-vittorino-da-feltre",
@@ -1113,7 +1179,8 @@
     ],
     "birthPlace": "Feltre",
     "nationality": "Italian",
-    "wikipediaTitle": "Vittorino_da_Feltre"
+    "wikipediaTitle": "Vittorino_da_Feltre",
+    "wikidataId": "Q725843"
   },
   {
     "id": "person-battista-guarino",
@@ -1128,7 +1195,8 @@
     ],
     "birthPlace": "Ferrara",
     "nationality": "Italian",
-    "wikipediaTitle": "Battista_Guarino"
+    "wikipediaTitle": "Battista_Guarino",
+    "wikidataId": "Q810966"
   },
   {
     "id": "person-johannes-sturm",
@@ -1143,7 +1211,8 @@
     ],
     "birthPlace": "Strasbourg",
     "nationality": "German",
-    "wikipediaTitle": "Johannes_Sturm"
+    "wikipediaTitle": "Johannes_Sturm",
+    "wikidataId": "Q66382"
   },
   {
     "id": "person-demetrius-chalcondyles",
@@ -1158,7 +1227,8 @@
     ],
     "birthPlace": "Athens",
     "nationality": "Byzantine",
-    "wikipediaTitle": "Demetrius_Chalcondyles"
+    "wikipediaTitle": "Demetrius_Chalcondyles",
+    "wikidataId": null
   },
   {
     "id": "person-johannes-argyropoulos",
@@ -1173,7 +1243,8 @@
     ],
     "birthPlace": "Constantinople",
     "nationality": "Byzantine",
-    "wikipediaTitle": "John_Argyropoulos"
+    "wikipediaTitle": "John_Argyropoulos",
+    "wikidataId": "Q26648"
   },
   {
     "id": "person-george-of-trebizond",
@@ -1189,7 +1260,8 @@
     ],
     "birthPlace": "Crete",
     "nationality": "Byzantine",
-    "wikipediaTitle": "George_of_Trebizond"
+    "wikipediaTitle": "George_of_Trebizond",
+    "wikidataId": "Q533514"
   },
   {
     "id": "person-cardinal-bessarion",
@@ -1205,7 +1277,8 @@
     ],
     "birthPlace": "Trebizond",
     "nationality": "Byzantine",
-    "wikipediaTitle": "Bessarion"
+    "wikipediaTitle": "Bessarion",
+    "wikidataId": "Q299446"
   },
   {
     "id": "person-theodore-gaza",
@@ -1220,7 +1293,8 @@
     ],
     "birthPlace": "Thessalonica",
     "nationality": "Byzantine",
-    "wikipediaTitle": "Theodore_Gaza"
+    "wikipediaTitle": "Theodore_Gaza",
+    "wikidataId": null
   },
   {
     "id": "person-francesco-filelfo",
@@ -1236,7 +1310,8 @@
     ],
     "birthPlace": "Tolentino",
     "nationality": "Italian",
-    "wikipediaTitle": "Francesco_Filelfo"
+    "wikipediaTitle": "Francesco_Filelfo",
+    "wikidataId": "Q4622"
   },
   {
     "id": "person-paolo-giovio",
@@ -1252,7 +1327,8 @@
     ],
     "birthPlace": "Como",
     "nationality": "Italian",
-    "wikipediaTitle": "Paolo_Giovio"
+    "wikipediaTitle": "Paolo_Giovio",
+    "wikidataId": "Q437543"
   },
   {
     "id": "person-pietro-aretino",
@@ -1268,7 +1344,8 @@
     ],
     "birthPlace": "Arezzo",
     "nationality": "Italian",
-    "wikipediaTitle": "Pietro_Aretino"
+    "wikipediaTitle": "Pietro_Aretino",
+    "wikidataId": "Q296272"
   },
   {
     "id": "person-baldassare-castiglione",
@@ -1284,7 +1361,8 @@
     ],
     "birthPlace": "Mantua region",
     "nationality": "Italian",
-    "wikipediaTitle": "Baldassare_Castiglione"
+    "wikipediaTitle": "Baldassare_Castiglione",
+    "wikidataId": "Q211133"
   },
   {
     "id": "person-cosimo-de-medici",
@@ -1301,7 +1379,8 @@
     ],
     "birthPlace": "Florence",
     "nationality": "Italian",
-    "wikipediaTitle": "Cosimo_de%27_Medici"
+    "wikipediaTitle": "Cosimo_de%27_Medici",
+    "wikidataId": null
   },
   {
     "id": "object-epistolae-familiares",
@@ -1315,7 +1394,8 @@
     "creators": [
       "person-francesco-petrarca"
     ],
-    "wikipediaTitle": "Epistolae_familiares"
+    "wikipediaTitle": "Epistolae_familiares",
+    "wikidataId": "Q995950"
   },
   {
     "id": "object-de-viris-illustribus",
@@ -1329,7 +1409,8 @@
     "creators": [
       "person-francesco-petrarca"
     ],
-    "wikipediaTitle": "De_viris_illustribus_(Petrarch)"
+    "wikipediaTitle": "De_viris_illustribus_(Petrarch)",
+    "wikidataId": "Q425606"
   },
   {
     "id": "object-decameron",
@@ -1342,7 +1423,8 @@
     "creators": [
       "person-giovanni-boccaccio"
     ],
-    "wikipediaTitle": "The_Decameron"
+    "wikipediaTitle": "The_Decameron",
+    "wikidataId": "Q16438"
   },
   {
     "id": "object-genealogia-deorum",
@@ -1355,7 +1437,8 @@
     "creators": [
       "person-giovanni-boccaccio"
     ],
-    "wikipediaTitle": "Genealogia_Deorum_Gentilium"
+    "wikipediaTitle": "Genealogia_Deorum_Gentilium",
+    "wikidataId": "Q3759459"
   },
   {
     "id": "object-elegantiae",
@@ -1368,7 +1451,8 @@
     "creators": [
       "person-lorenzo-valla"
     ],
-    "wikipediaTitle": "Elegantiae_linguae_Latinae"
+    "wikipediaTitle": "Elegantiae_linguae_Latinae",
+    "wikidataId": null
   },
   {
     "id": "object-donation-constantine",
@@ -1391,7 +1475,8 @@
         "url": "https://archive.org/details/treatiseofloren00vall"
       }
     ],
-    "wikipediaTitle": "Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine"
+    "wikipediaTitle": "Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine",
+    "wikidataId": null
   },
   {
     "id": "object-erotemata",
@@ -1404,7 +1489,8 @@
     "creators": [
       "person-manuel-chrysoloras"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-ficino-plato",
@@ -1417,7 +1503,8 @@
     "creators": [
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-theologia-platonica",
@@ -1440,7 +1527,8 @@
         "url": "https://www.hup.harvard.edu/books/9780674003453"
       }
     ],
-    "wikipediaTitle": "Theologia_Platonica"
+    "wikipediaTitle": "Theologia_Platonica",
+    "wikidataId": null
   },
   {
     "id": "object-de-amore-ficino",
@@ -1463,7 +1551,8 @@
         "url": "https://archive.org/details/marsilioficinoco0000fici"
       }
     ],
-    "wikipediaTitle": "Commentarium_in_Convivium_Platonis_de_Amore"
+    "wikipediaTitle": "Commentarium_in_Convivium_Platonis_de_Amore",
+    "wikidataId": null
   },
   {
     "id": "object-corpus-hermeticum",
@@ -1476,7 +1565,8 @@
     "creators": [
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": "Hermetica"
+    "wikipediaTitle": "Hermetica",
+    "wikidataId": "Q14941935"
   },
   {
     "id": "object-oration-dignity-man",
@@ -1499,7 +1589,8 @@
         "url": "https://www.brown.edu/Departments/Italian_Studies/pico/"
       }
     ],
-    "wikipediaTitle": "Oration_on_the_Dignity_of_Man"
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
+    "wikidataId": "Q2085760"
   },
   {
     "id": "object-900-theses",
@@ -1522,7 +1613,8 @@
         "url": "https://www.jstor.org/stable/2860197"
       }
     ],
-    "wikipediaTitle": "900_Theses"
+    "wikipediaTitle": "900_Theses",
+    "wikidataId": null
   },
   {
     "id": "object-de-ente-et-uno",
@@ -1545,7 +1637,8 @@
         "url": "https://archive.org/details/beingonepicodell00pico"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-ficino-plotinus",
@@ -1558,7 +1651,8 @@
     "creators": [
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-laudatio-florentinae",
@@ -1581,7 +1675,8 @@
         "url": "https://archive.org/details/humanistandpoli00grifgoog"
       }
     ],
-    "wikipediaTitle": "Laudatio_Florentinae_urbis"
+    "wikipediaTitle": "Laudatio_Florentinae_urbis",
+    "wikidataId": null
   },
   {
     "id": "object-bruni-history-florence",
@@ -1595,7 +1690,8 @@
     "creators": [
       "person-leonardo-bruni"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-il-principe",
@@ -1622,7 +1718,8 @@
         "url": "https://archive.org/details/princemachiawell00machuoft"
       }
     ],
-    "wikipediaTitle": "The_Prince"
+    "wikipediaTitle": "The_Prince",
+    "wikidataId": "Q131719"
   },
   {
     "id": "object-discorsi-livy",
@@ -1645,7 +1742,8 @@
         "url": "https://www.gutenberg.org/ebooks/10827"
       }
     ],
-    "wikipediaTitle": "Discourses_on_Livy"
+    "wikipediaTitle": "Discourses_on_Livy",
+    "wikidataId": "Q924424"
   },
   {
     "id": "object-istorie-fiorentine",
@@ -1658,7 +1756,8 @@
     "creators": [
       "person-niccolo-machiavelli"
     ],
-    "wikipediaTitle": "Florentine_Histories"
+    "wikipediaTitle": "Florentine_Histories",
+    "wikidataId": "Q691766"
   },
   {
     "id": "object-storia-italia",
@@ -1672,7 +1771,8 @@
     "creators": [
       "person-francesco-guicciardini"
     ],
-    "wikipediaTitle": "Storia_d%27Italia_(Guicciardini)"
+    "wikipediaTitle": "Storia_d%27Italia_(Guicciardini)",
+    "wikidataId": null
   },
   {
     "id": "object-ricordi",
@@ -1695,7 +1795,8 @@
         "url": "https://archive.org/details/maxims00guicuoft"
       }
     ],
-    "wikipediaTitle": "Ricordi_(Guicciardini)"
+    "wikipediaTitle": "Ricordi_(Guicciardini)",
+    "wikidataId": null
   },
   {
     "id": "object-book-courtier",
@@ -1718,7 +1819,8 @@
         "url": "https://archive.org/details/bookofcourtier00castuoft"
       }
     ],
-    "wikipediaTitle": "The_Book_of_the_Courtier"
+    "wikipediaTitle": "The_Book_of_the_Courtier",
+    "wikidataId": "Q1517519"
   },
   {
     "id": "object-della-vita-civile",
@@ -1741,7 +1843,8 @@
         "url": "https://acmrs.org/publications/catalog/della-vita-civile"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-dignitate-manetti",
@@ -1764,7 +1867,8 @@
         "url": "https://www.hup.harvard.edu/books/9780674031326"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-ingenuis-moribus",
@@ -1787,7 +1891,8 @@
         "url": "https://archive.org/details/humanistducatio00woodgoog"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-ordine-docendi",
@@ -1810,7 +1915,8 @@
         "url": "https://archive.org/details/humanistducatio00woodgoog"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-inventione-dialectica",
@@ -1833,7 +1939,8 @@
         "url": "https://archive.org/details/bub_gb_hHOJAIZSwW0C"
       }
     ],
-    "wikipediaTitle": "De_inventione_dialectica"
+    "wikipediaTitle": "De_inventione_dialectica",
+    "wikidataId": null
   },
   {
     "id": "object-de-tradendis",
@@ -1856,7 +1963,8 @@
         "url": "https://archive.org/details/vivesoneducation00vive"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-copia",
@@ -1879,7 +1987,8 @@
         "url": "https://archive.org/details/onerasemussdecop00erasuoft"
       }
     ],
-    "wikipediaTitle": "De_Copia"
+    "wikipediaTitle": "De_Copia",
+    "wikidataId": null
   },
   {
     "id": "object-novum-instrumentum",
@@ -1892,7 +2001,8 @@
     "creators": [
       "person-desiderius-erasmus"
     ],
-    "wikipediaTitle": "Novum_Instrumentum_omne"
+    "wikipediaTitle": "Novum_Instrumentum_omne",
+    "wikidataId": "Q1526516"
   },
   {
     "id": "object-valla-annotations-nt",
@@ -1915,7 +2025,8 @@
         "url": "https://brill.com/display/title/12987"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-enchiridion",
@@ -1938,7 +2049,8 @@
         "url": "https://archive.org/details/enchiridionmilli00eras"
       }
     ],
-    "wikipediaTitle": "Handbook_of_a_Christian_Knight"
+    "wikipediaTitle": "Handbook_of_a_Christian_Knight",
+    "wikidataId": null
   },
   {
     "id": "object-complutensian-polyglot",
@@ -1954,7 +2066,8 @@
       "person-antonio-nebrija",
       "person-hernan-nunez"
     ],
-    "wikipediaTitle": "Complutensian_Polyglot_Bible"
+    "wikipediaTitle": "Complutensian_Polyglot_Bible",
+    "wikidataId": "Q1121746"
   },
   {
     "id": "object-french-bible-lefevre",
@@ -1967,7 +2080,8 @@
     "creators": [
       "person-jacques-lefevre-detaples"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-rudimentis-hebraicis",
@@ -1980,7 +2094,8 @@
     "creators": [
       "person-johannes-reuchlin"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-arte-cabalistica",
@@ -2003,7 +2118,8 @@
         "url": "https://archive.org/details/onartofcabala00reuc"
       }
     ],
-    "wikipediaTitle": "De_Arte_Cabalistica"
+    "wikipediaTitle": "De_Arte_Cabalistica",
+    "wikidataId": "Q5244229"
   },
   {
     "id": "object-praise-of-folly",
@@ -2016,7 +2132,8 @@
     "creators": [
       "person-desiderius-erasmus"
     ],
-    "wikipediaTitle": "In_Praise_of_Folly"
+    "wikipediaTitle": "In_Praise_of_Folly",
+    "wikidataId": "Q569869"
   },
   {
     "id": "object-colloquia",
@@ -2029,7 +2146,8 @@
     "creators": [
       "person-desiderius-erasmus"
     ],
-    "wikipediaTitle": "Colloquies"
+    "wikipediaTitle": "Colloquies",
+    "wikidataId": "Q19020085"
   },
   {
     "id": "object-utopia",
@@ -2042,7 +2160,8 @@
     "creators": [
       "person-thomas-more"
     ],
-    "wikipediaTitle": "Utopia_(book)"
+    "wikipediaTitle": "Utopia_(book)",
+    "wikidataId": "Q404158"
   },
   {
     "id": "object-arcadia",
@@ -2055,7 +2174,8 @@
     "creators": [
       "person-jacopo-sannazaro"
     ],
-    "wikipediaTitle": "Arcadia_(Sannazaro)"
+    "wikipediaTitle": "Arcadia_(Sannazaro)",
+    "wikidataId": null
   },
   {
     "id": "object-stanze-giostra",
@@ -2068,7 +2188,8 @@
     "creators": [
       "person-angelo-poliziano"
     ],
-    "wikipediaTitle": "Stanze_per_la_giostra"
+    "wikipediaTitle": "Stanze_per_la_giostra",
+    "wikidataId": null
   },
   {
     "id": "object-miscellanea",
@@ -2081,7 +2202,8 @@
     "creators": [
       "person-angelo-poliziano"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-essais",
@@ -2095,7 +2217,8 @@
     "creators": [
       "person-michel-de-montaigne"
     ],
-    "wikipediaTitle": "Essays_(Montaigne)"
+    "wikipediaTitle": "Essays_(Montaigne)",
+    "wikidataId": "Q624852"
   },
   {
     "id": "object-servitude-volontaire",
@@ -2118,7 +2241,8 @@
         "url": "https://oll.libertyfund.org/titles/boetie-the-discourse-of-voluntary-servitude"
       }
     ],
-    "wikipediaTitle": "Discourse_on_Voluntary_Servitude"
+    "wikipediaTitle": "Discourse_on_Voluntary_Servitude",
+    "wikidataId": "Q3030191"
   },
   {
     "id": "object-adages",
@@ -2131,7 +2255,8 @@
     "creators": [
       "person-desiderius-erasmus"
     ],
-    "wikipediaTitle": "Adagia"
+    "wikipediaTitle": "Adagia",
+    "wikidataId": "Q346677"
   },
   {
     "id": "object-bruni-aristotle-ethics",
@@ -2144,7 +2269,8 @@
     "creators": [
       "person-leonardo-bruni"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-bruni-aristotle-politics",
@@ -2157,7 +2283,8 @@
     "creators": [
       "person-leonardo-bruni"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-homer-editio-princeps",
@@ -2170,7 +2297,8 @@
     "creators": [
       "person-demetrius-chalcondyles"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-thesaurus-linguae-latinae",
@@ -2183,7 +2311,8 @@
     "creators": [
       "person-robert-estienne"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-commentarii-graecae",
@@ -2196,7 +2325,8 @@
     "creators": [
       "person-guillaume-bude"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-pictura",
@@ -2219,7 +2349,8 @@
         "url": "https://archive.org/details/dellapittura00albe"
       }
     ],
-    "wikipediaTitle": "De_pictura"
+    "wikipediaTitle": "De_pictura",
+    "wikidataId": "Q3020472"
   },
   {
     "id": "object-de-re-aedificatoria",
@@ -2242,7 +2373,8 @@
         "url": "https://archive.org/details/tenbooks00albe"
       }
     ],
-    "wikipediaTitle": "De_re_aedificatoria"
+    "wikipediaTitle": "De_re_aedificatoria",
+    "wikidataId": "Q1077624"
   },
   {
     "id": "object-de-statua",
@@ -2265,7 +2397,8 @@
         "url": "https://archive.org/details/onsculpture00albe"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-della-famiglia",
@@ -2279,7 +2412,8 @@
     "creators": [
       "person-leon-battista-alberti"
     ],
-    "wikipediaTitle": "I_Libri_della_Famiglia"
+    "wikipediaTitle": "I_Libri_della_Famiglia",
+    "wikidataId": null
   },
   {
     "id": "object-roma-instaurata",
@@ -2302,7 +2436,8 @@
         "url": "https://www.hup.harvard.edu/books/9780674017528"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-italia-illustrata",
@@ -2325,7 +2460,8 @@
         "url": "https://www.hup.harvard.edu/books/9780674054844"
       }
     ],
-    "wikipediaTitle": "Italia_Illustrata"
+    "wikipediaTitle": "Italia_Illustrata",
+    "wikidataId": null
   },
   {
     "id": "object-rerum-germanicarum",
@@ -2338,7 +2474,8 @@
     "creators": [
       "person-beatus-rhenanus"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-pius-commentarii",
@@ -2352,7 +2489,8 @@
     "creators": [
       "person-enea-silvio-piccolomini"
     ],
-    "wikipediaTitle": "Commentaries_(Pius_II)"
+    "wikipediaTitle": "Commentaries_(Pius_II)",
+    "wikidataId": null
   },
   {
     "id": "object-erasmus-letters",
@@ -2366,7 +2504,8 @@
     "creators": [
       "person-desiderius-erasmus"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-florence",
@@ -2381,7 +2520,8 @@
     },
     "dateStart": "1350",
     "dateEnd": "1550",
-    "wikipediaTitle": "Florence"
+    "wikipediaTitle": "Florence",
+    "wikidataId": "Q2044"
   },
   {
     "id": "location-rome",
@@ -2396,7 +2536,8 @@
     },
     "dateStart": "1420",
     "dateEnd": "1550",
-    "wikipediaTitle": "Rome"
+    "wikipediaTitle": "Rome",
+    "wikidataId": "Q220"
   },
   {
     "id": "location-venice",
@@ -2411,7 +2552,8 @@
     },
     "dateStart": "1450",
     "dateEnd": "1550",
-    "wikipediaTitle": "Venice"
+    "wikipediaTitle": "Venice",
+    "wikidataId": "Q641"
   },
   {
     "id": "location-naples",
@@ -2426,7 +2568,8 @@
     },
     "dateStart": "1440",
     "dateEnd": "1530",
-    "wikipediaTitle": "Naples"
+    "wikipediaTitle": "Naples",
+    "wikidataId": "Q2634"
   },
   {
     "id": "location-ferrara",
@@ -2441,7 +2584,8 @@
     },
     "dateStart": "1420",
     "dateEnd": "1500",
-    "wikipediaTitle": "Ferrara"
+    "wikipediaTitle": "Ferrara",
+    "wikidataId": "Q13362"
   },
   {
     "id": "location-padua",
@@ -2456,7 +2600,8 @@
     },
     "dateStart": "1400",
     "dateEnd": "1550",
-    "wikipediaTitle": "Padua"
+    "wikipediaTitle": "Padua",
+    "wikidataId": "Q617"
   },
   {
     "id": "location-mantua",
@@ -2471,7 +2616,8 @@
     },
     "dateStart": "1423",
     "dateEnd": "1500",
-    "wikipediaTitle": "Mantua"
+    "wikipediaTitle": "Mantua",
+    "wikidataId": "Q6247"
   },
   {
     "id": "location-urbino",
@@ -2486,7 +2632,8 @@
     },
     "dateStart": "1460",
     "dateEnd": "1530",
-    "wikipediaTitle": "Urbino"
+    "wikipediaTitle": "Urbino",
+    "wikidataId": "Q2759"
   },
   {
     "id": "location-milan",
@@ -2501,7 +2648,8 @@
     },
     "dateStart": "1440",
     "dateEnd": "1530",
-    "wikipediaTitle": "Milan"
+    "wikipediaTitle": "Milan",
+    "wikidataId": "Q490"
   },
   {
     "id": "location-studio-fiorentino",
@@ -2513,7 +2661,8 @@
     "parentLocation": "location-florence",
     "dateStart": "1321",
     "dateEnd": "1500",
-    "wikipediaTitle": "University_of_Florence"
+    "wikipediaTitle": "University_of_Florence",
+    "wikidataId": "Q820887"
   },
   {
     "id": "location-university-padua",
@@ -2528,7 +2677,8 @@
       "lng": 11.8768
     },
     "dateStart": "1222",
-    "wikipediaTitle": "University_of_Padua"
+    "wikipediaTitle": "University_of_Padua",
+    "wikidataId": "Q193510"
   },
   {
     "id": "location-university-bologna",
@@ -2542,7 +2692,8 @@
       "lng": 11.3426
     },
     "dateStart": "1088",
-    "wikipediaTitle": "University_of_Bologna"
+    "wikipediaTitle": "University_of_Bologna",
+    "wikidataId": "Q131262"
   },
   {
     "id": "location-university-alcala",
@@ -2556,7 +2707,8 @@
       "lng": -3.364
     },
     "dateStart": "1508",
-    "wikipediaTitle": "University_of_Alcalá"
+    "wikipediaTitle": "University_of_Alcalá",
+    "wikidataId": "Q1243904"
   },
   {
     "id": "location-university-paris",
@@ -2570,7 +2722,8 @@
       "lng": 2.3442
     },
     "dateStart": "1150",
-    "wikipediaTitle": "University_of_Paris"
+    "wikipediaTitle": "University_of_Paris",
+    "wikidataId": "Q209842"
   },
   {
     "id": "location-college-de-france",
@@ -2581,7 +2734,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "dateStart": "1530",
-    "wikipediaTitle": "Collège_de_France"
+    "wikipediaTitle": "Collège_de_France",
+    "wikidataId": "Q202660"
   },
   {
     "id": "location-university-cambridge",
@@ -2596,7 +2750,8 @@
     },
     "dateStart": "1500",
     "dateEnd": "1550",
-    "wikipediaTitle": "University_of_Cambridge"
+    "wikipediaTitle": "University_of_Cambridge",
+    "wikidataId": "Q35794"
   },
   {
     "id": "location-university-oxford",
@@ -2611,7 +2766,8 @@
     },
     "dateStart": "1490",
     "dateEnd": "1550",
-    "wikipediaTitle": "University_of_Oxford"
+    "wikipediaTitle": "University_of_Oxford",
+    "wikidataId": "Q34433"
   },
   {
     "id": "location-university-heidelberg",
@@ -2626,7 +2782,8 @@
     },
     "dateStart": "1480",
     "dateEnd": "1530",
-    "wikipediaTitle": "Heidelberg_University"
+    "wikipediaTitle": "Heidelberg_University",
+    "wikidataId": "Q151510"
   },
   {
     "id": "location-university-vienna",
@@ -2641,7 +2798,8 @@
     },
     "dateStart": "1497",
     "dateEnd": "1520",
-    "wikipediaTitle": "University_of_Vienna"
+    "wikipediaTitle": "University_of_Vienna",
+    "wikidataId": "Q165980"
   },
   {
     "id": "location-st-pauls-school",
@@ -2652,7 +2810,8 @@
     "country": "England",
     "parentLocation": "location-london",
     "dateStart": "1509",
-    "wikipediaTitle": "St_Paul%27s_School,_London"
+    "wikipediaTitle": "St_Paul%27s_School,_London",
+    "wikidataId": null
   },
   {
     "id": "location-deventer-school",
@@ -2667,7 +2826,8 @@
     },
     "dateStart": "1470",
     "dateEnd": "1500",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-strasbourg-gymnasium",
@@ -2681,7 +2841,8 @@
       "lng": 7.7521
     },
     "dateStart": "1538",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-selestat-school",
@@ -2696,7 +2857,8 @@
     },
     "dateStart": "1440",
     "dateEnd": "1520",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-aldine-press",
@@ -2708,7 +2870,8 @@
     "parentLocation": "location-venice",
     "dateStart": "1494",
     "dateEnd": "1515",
-    "wikipediaTitle": "Aldine_Press"
+    "wikipediaTitle": "Aldine_Press",
+    "wikidataId": "Q567488"
   },
   {
     "id": "location-froben-press",
@@ -2724,7 +2887,8 @@
     },
     "dateStart": "1491",
     "dateEnd": "1527",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-estienne-press",
@@ -2736,7 +2900,8 @@
     "parentLocation": "location-paris",
     "dateStart": "1502",
     "dateEnd": "1559",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-villa-careggi",
@@ -2748,7 +2913,8 @@
     "parentLocation": "location-florence",
     "dateStart": "1462",
     "dateEnd": "1492",
-    "wikipediaTitle": "Villa_Medici_at_Careggi"
+    "wikipediaTitle": "Villa_Medici_at_Careggi",
+    "wikidataId": "Q368346"
   },
   {
     "id": "location-vatican",
@@ -2760,7 +2926,8 @@
     "parentLocation": "location-rome",
     "dateStart": "1400",
     "dateEnd": "1550",
-    "wikipediaTitle": "Holy_See"
+    "wikipediaTitle": "Holy_See",
+    "wikidataId": "Q159583"
   },
   {
     "id": "location-court-francis-i",
@@ -2771,7 +2938,8 @@
     "country": "France",
     "dateStart": "1515",
     "dateEnd": "1547",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-english-court",
@@ -2782,7 +2950,8 @@
     "country": "England",
     "dateStart": "1509",
     "dateEnd": "1547",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-basel",
@@ -2797,7 +2966,8 @@
     },
     "dateStart": "1510",
     "dateEnd": "1540",
-    "wikipediaTitle": "Basel"
+    "wikipediaTitle": "Basel",
+    "wikidataId": "Q78"
   },
   {
     "id": "location-nuremberg",
@@ -2812,7 +2982,8 @@
     },
     "dateStart": "1490",
     "dateEnd": "1530",
-    "wikipediaTitle": "Nuremberg"
+    "wikipediaTitle": "Nuremberg",
+    "wikidataId": "Q2090"
   },
   {
     "id": "location-london",
@@ -2827,7 +2998,8 @@
     },
     "dateStart": "1490",
     "dateEnd": "1535",
-    "wikipediaTitle": "London"
+    "wikipediaTitle": "London",
+    "wikidataId": "Q84"
   },
   {
     "id": "location-bruges",
@@ -2842,7 +3014,8 @@
     },
     "dateStart": "1520",
     "dateEnd": "1540",
-    "wikipediaTitle": "Bruges"
+    "wikipediaTitle": "Bruges",
+    "wikidataId": "Q12994"
   },
   {
     "id": "location-rotterdam",
@@ -2856,7 +3029,8 @@
       "lng": 4.4777
     },
     "dateStart": "1466",
-    "wikipediaTitle": "Rotterdam"
+    "wikipediaTitle": "Rotterdam",
+    "wikidataId": "Q34370"
   },
   {
     "id": "location-paris",
@@ -2871,7 +3045,8 @@
     },
     "dateStart": "1450",
     "dateEnd": "1560",
-    "wikipediaTitle": "Paris"
+    "wikipediaTitle": "Paris",
+    "wikidataId": "Q90"
   },
   {
     "id": "entity-platonic-academy",
@@ -2886,7 +3061,8 @@
       "person-cosimo-de-medici",
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": "Florentine_Academy"
+    "wikipediaTitle": "Florentine_Academy",
+    "wikidataId": null
   },
   {
     "id": "entity-roman-academy",
@@ -2900,7 +3076,8 @@
     "foundedBy": [
       "person-pomponio-leto"
     ],
-    "wikipediaTitle": "Roman_Academy"
+    "wikipediaTitle": "Roman_Academy",
+    "wikidataId": null
   },
   {
     "id": "entity-accademia-pontaniana",
@@ -2913,7 +3090,8 @@
     "foundedBy": [
       "person-giovanni-pontano"
     ],
-    "wikipediaTitle": "Accademia_Pontaniana"
+    "wikipediaTitle": "Accademia_Pontaniana",
+    "wikidataId": "Q143886"
   },
   {
     "id": "entity-aldine-academy",
@@ -2927,7 +3105,8 @@
     "foundedBy": [
       "person-aldo-manuzio"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-collegium-poetarum",
@@ -2941,7 +3120,8 @@
     "foundedBy": [
       "person-conrad-celtis"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-german-sodalities",
@@ -2954,7 +3134,8 @@
     "foundedBy": [
       "person-conrad-celtis"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-civic-humanism",
@@ -2965,7 +3146,8 @@
     "headquarters": "location-florence",
     "dateStart": "1400",
     "dateEnd": "1500",
-    "wikipediaTitle": "Civic_humanism"
+    "wikipediaTitle": "Civic_humanism",
+    "wikidataId": "Q5128354"
   },
   {
     "id": "entity-renaissance-neoplatonism",
@@ -2976,7 +3158,8 @@
     "headquarters": "location-florence",
     "dateStart": "1462",
     "dateEnd": "1600",
-    "wikipediaTitle": "Renaissance_Neoplatonism"
+    "wikipediaTitle": "Renaissance_Neoplatonism",
+    "wikidataId": null
   },
   {
     "id": "entity-northern-humanism",
@@ -2986,7 +3169,8 @@
     "shortDescription": "Humanism emphasizing biblical scholarship, church reform, and practical piety",
     "dateStart": "1480",
     "dateEnd": "1540",
-    "wikipediaTitle": "Christian_humanism"
+    "wikipediaTitle": "Christian_humanism",
+    "wikidataId": "Q2327432"
   },
   {
     "id": "entity-philological-humanism",
@@ -2996,7 +3180,8 @@
     "shortDescription": "Focus on precise textual analysis and critical methods for establishing accurate texts",
     "dateStart": "1400",
     "dateEnd": "1550",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-humanist-aristotelianism",
@@ -3007,7 +3192,8 @@
     "headquarters": "location-padua",
     "dateStart": "1450",
     "dateEnd": "1550",
-    "wikipediaTitle": "Renaissance_Aristotelianism"
+    "wikipediaTitle": "Renaissance_Aristotelianism",
+    "wikidataId": null
   },
   {
     "id": "entity-christian-kabbalah",
@@ -3017,7 +3203,8 @@
     "shortDescription": "Movement incorporating Jewish Kabbalistic mysticism into Christian thought",
     "dateStart": "1486",
     "dateEnd": "1550",
-    "wikipediaTitle": "Christian_Kabbalah"
+    "wikipediaTitle": "Christian_Kabbalah",
+    "wikidataId": "Q1084061"
   },
   {
     "id": "entity-aldine-press",
@@ -3031,7 +3218,8 @@
     "foundedBy": [
       "person-aldo-manuzio"
     ],
-    "wikipediaTitle": "Aldine_Press"
+    "wikipediaTitle": "Aldine_Press",
+    "wikidataId": "Q567488"
   },
   {
     "id": "entity-froben-press",
@@ -3045,7 +3233,8 @@
     "foundedBy": [
       "person-johann-froben"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-estienne-press",
@@ -3059,7 +3248,8 @@
     "foundedBy": [
       "person-robert-estienne"
     ],
-    "wikipediaTitle": "Estienne_family"
+    "wikipediaTitle": "Estienne_family",
+    "wikidataId": null
   },
   {
     "id": "entity-casa-giocosa",
@@ -3073,7 +3263,8 @@
     "foundedBy": [
       "person-vittorino-da-feltre"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-guarino-school-ferrara",
@@ -3087,7 +3278,8 @@
     "foundedBy": [
       "person-guarino-da-verona"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-medici-patronage",
@@ -3098,7 +3290,8 @@
     "headquarters": "location-florence",
     "dateStart": "1434",
     "dateEnd": "1494",
-    "wikipediaTitle": "Medici"
+    "wikipediaTitle": "Medici",
+    "wikidataId": null
   },
   {
     "id": "entity-papal-patronage",
@@ -3109,7 +3302,8 @@
     "headquarters": "location-vatican",
     "dateStart": "1400",
     "dateEnd": "1550",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-french-royal-patronage",
@@ -3120,7 +3314,8 @@
     "headquarters": "location-court-francis-i",
     "dateStart": "1515",
     "dateEnd": "1550",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-este-patronage",
@@ -3131,7 +3326,8 @@
     "headquarters": "location-ferrara",
     "dateStart": "1420",
     "dateEnd": "1500",
-    "wikipediaTitle": "House_of_Este"
+    "wikipediaTitle": "House_of_Este",
+    "wikidataId": "Q677173"
   },
   {
     "id": "entity-aragonese-patronage",
@@ -3142,7 +3338,8 @@
     "headquarters": "location-naples",
     "dateStart": "1442",
     "dateEnd": "1504",
-    "wikipediaTitle": "Kingdom_of_Naples"
+    "wikipediaTitle": "Kingdom_of_Naples",
+    "wikidataId": "Q173065"
   },
   {
     "id": "entity-devotio-moderna",
@@ -3152,6 +3349,7 @@
     "shortDescription": "Religious reform movement emphasizing personal piety and education that influenced Northern humanism",
     "dateStart": "1380",
     "dateEnd": "1500",
-    "wikipediaTitle": "Devotio_Moderna"
+    "wikipediaTitle": "Devotio_Moderna",
+    "wikidataId": "Q756170"
   }
 ]

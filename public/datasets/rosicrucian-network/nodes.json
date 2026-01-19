@@ -3,7 +3,10 @@
     "id": "person-jacob-boehme",
     "type": "person",
     "title": "Jacob Boehme",
-    "alternateNames": ["Jakob Böhme", "Jacobus Boehmius"],
+    "alternateNames": [
+      "Jakob Böhme",
+      "Jacobus Boehmius"
+    ],
     "dateStart": "1575",
     "dateEnd": "1624",
     "shortDescription": "German Christian mystic and theosopher whose visionary writings synthesized Lutheran theology with alchemy, Kabbalah, and nature mysticism.",
@@ -11,19 +14,32 @@
     "birthPlace": "loc-gorlitz",
     "deathPlace": "loc-gorlitz",
     "nationality": "German",
-    "occupations": ["shoemaker", "mystic", "theosopher"],
+    "occupations": [
+      "shoemaker",
+      "mystic",
+      "theosopher"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Jacob-B%C3%B6hme.jpg",
     "wikipediaTitle": "Jakob_Böhme",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jakob_B%C3%B6hme"},
-      {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/boehme/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Jakob_B%C3%B6hme"
+      },
+      {
+        "label": "Stanford Encyclopedia",
+        "url": "https://plato.stanford.edu/entries/boehme/"
+      }
+    ],
+    "wikidataId": "Q77017"
   },
   {
     "id": "person-jv-andreae",
     "type": "person",
     "title": "Johann Valentin Andreae",
-    "alternateNames": ["J.V. Andreae"],
+    "alternateNames": [
+      "J.V. Andreae"
+    ],
     "dateStart": "1586",
     "dateEnd": "1654",
     "shortDescription": "Lutheran theologian and likely principal author of the Rosicrucian manifestos, author of the allegorical Chymical Wedding of Christian Rosenkreutz.",
@@ -31,12 +47,20 @@
     "birthPlace": "Herrenberg",
     "deathPlace": "Stuttgart",
     "nationality": "German",
-    "occupations": ["theologian", "author", "reformer"],
+    "occupations": [
+      "theologian",
+      "author",
+      "reformer"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Johann_Valentin_Andreae_aged_42.jpg",
     "wikipediaTitle": "Johann_Valentin_Andreae",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johann_Valentin_Andreae"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johann_Valentin_Andreae"
+      }
+    ],
+    "wikidataId": "Q60854"
   },
   {
     "id": "person-tobias-hess",
@@ -49,17 +73,27 @@
     "birthPlace": "Nuremberg",
     "deathPlace": "loc-tubingen",
     "nationality": "German",
-    "occupations": ["jurist", "physician", "esoteric thinker"],
+    "occupations": [
+      "jurist",
+      "physician",
+      "esoteric thinker"
+    ],
     "wikipediaTitle": "Tobias_Hess",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tobias_Hess"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tobias_Hess"
+      }
+    ],
+    "wikidataId": "Q3530141"
   },
   {
     "id": "person-christoph-besold",
     "type": "person",
     "title": "Christoph Besold",
-    "alternateNames": ["Christopher Besoldus"],
+    "alternateNames": [
+      "Christopher Besoldus"
+    ],
     "dateStart": "1577",
     "dateEnd": "1638",
     "shortDescription": "German jurist and polymath, close colleague of Andreae with a vast library including esoteric texts.",
@@ -67,11 +101,19 @@
     "birthPlace": "Tübingen",
     "deathPlace": "Ingolstadt",
     "nationality": "German",
-    "occupations": ["jurist", "professor", "polymath"],
+    "occupations": [
+      "jurist",
+      "professor",
+      "polymath"
+    ],
     "wikipediaTitle": "Christopher_Besoldus",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christopher_Besoldus"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christopher_Besoldus"
+      }
+    ],
+    "wikidataId": "Q99371"
   },
   {
     "id": "person-johann-arndt",
@@ -83,13 +125,24 @@
     "biography": "Arndt was a Lutheran pastor who served in various German parishes. His major work, Vier Bücher vom wahren Christentum (True Christianity, 1605-1610), became one of the most successful Protestant devotional works of the 17th century. He emphasized that true Christianity involves inner moral transformation and holiness in daily life, drawing on medieval mystical traditions. His practical spirituality deeply influenced Andreae, who published a summary of Arndt's work, and later the Pietist movement.",
     "deathPlace": "Celle",
     "nationality": "German",
-    "occupations": ["theologian", "pastor", "author"],
+    "occupations": [
+      "theologian",
+      "pastor",
+      "author"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Johann_Arndt.jpeg",
     "wikipediaTitle": "Johann_Arndt",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johann_Arndt"},
-      {"label": "Britannica", "url": "https://www.britannica.com/biography/Johann-Arndt"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johann_Arndt"
+      },
+      {
+        "label": "Britannica",
+        "url": "https://www.britannica.com/biography/Johann-Arndt"
+      }
+    ],
+    "wikidataId": "Q61359"
   },
   {
     "id": "person-michael-maier",
@@ -102,28 +155,46 @@
     "birthPlace": "Rendsburg",
     "deathPlace": "Magdeburg",
     "nationality": "German",
-    "occupations": ["physician", "alchemist", "author", "imperial counselor"],
+    "occupations": [
+      "physician",
+      "alchemist",
+      "author",
+      "imperial counselor"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Michael_Maier.jpg",
     "wikipediaTitle": "Michael_Maier",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_Maier"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_Maier"
+      }
+    ],
+    "wikidataId": "Q901303"
   },
   {
     "id": "person-daniel-mogling",
     "type": "person",
     "title": "Daniel Mögling",
-    "alternateNames": ["Theophilus Schweighardt Constantiens"],
+    "alternateNames": [
+      "Theophilus Schweighardt Constantiens"
+    ],
     "dateStart": "1596",
     "dateEnd": "1635",
     "shortDescription": "German alchemist and Rosicrucian author who wrote under the pseudonym Theophilus Schweighardt.",
     "biography": "Mögling was a German alchemist connected to Andreae's intellectual circle. Writing under the pseudonym Theophilus Schweighardt Constantiens, he produced Rosicrucian works including Speculum Sophicum Rhodostauroticum (1618), which contains famous allegorical images of the Rosicrucian temple.",
     "nationality": "German",
-    "occupations": ["alchemist", "author"],
+    "occupations": [
+      "alchemist",
+      "author"
+    ],
     "wikipediaTitle": "Daniel_Mögling",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_M%C3%B6gling"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniel_M%C3%B6gling"
+      }
+    ],
+    "wikidataId": "Q55416434"
   },
   {
     "id": "person-adam-haslmayr",
@@ -134,11 +205,18 @@
     "shortDescription": "First known commentator on the Rosicrucian manifestos, claimed to have seen the Fama in manuscript in 1612.",
     "biography": "Haslmayr was a writer from South Tyrol who claimed to have seen a manuscript of the Fama Fraternitatis in 1612, making him the first to publish a response to the Rosicrucian manifestos. His Answer to the Praiseworthy Brotherhood of Theosophers of Rozenkreuz appeared in 1612. He had close ties to the manuscript collectors Benedictus Figulus and Karl Widemann, and reportedly lived with them for a time.",
     "nationality": "Austrian",
-    "occupations": ["writer", "theosopher"],
+    "occupations": [
+      "writer",
+      "theosopher"
+    ],
     "wikipediaTitle": "Adam_Haslmayr",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Adam_Haslmayr"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adam_Haslmayr"
+      }
+    ],
+    "wikidataId": "Q4679195"
   },
   {
     "id": "person-valentin-weigel",
@@ -149,12 +227,20 @@
     "shortDescription": "Lutheran pastor and mystical writer who was a key precursor to Christian theosophy, emphasizing the 'inner church.'",
     "biography": "Weigel was a Lutheran pastor in Saxony whose mystical writings emphasized inner spiritual religion over institutional forms. Influenced by Rhineland mysticism (Tauler), Paracelsus, and Sebastian Franck, he developed ideas about the 'inner church' and direct spiritual experience. His approximately 6,000 pages of manuscripts were published posthumously and influenced both Johann Arndt and Jacob Boehme.",
     "nationality": "German",
-    "occupations": ["pastor", "mystic", "author"],
+    "occupations": [
+      "pastor",
+      "mystic",
+      "author"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Valentin_Weigel.jpg",
     "wikipediaTitle": "Valentin_Weigel",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Valentin_Weigel"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Valentin_Weigel"
+      }
+    ],
+    "wikidataId": "Q77397"
   },
   {
     "id": "person-sebastian-franck",
@@ -165,11 +251,19 @@
     "shortDescription": "German historian and spiritualist reformer who emphasized the inner Word over Scripture and doctrine.",
     "biography": "Franck was a historian, theologian, and spiritual reformer who has been called an 'antidogmatician' for his emphasis on inner spiritual experience over external religious forms. His Chronica (1531) and other works influenced the development of German mystical thought, particularly through his impact on Valentin Weigel.",
     "nationality": "German",
-    "occupations": ["historian", "theologian", "reformer"],
+    "occupations": [
+      "historian",
+      "theologian",
+      "reformer"
+    ],
     "wikipediaTitle": "Sebastian_Franck",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sebastian_Franck"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sebastian_Franck"
+      }
+    ],
+    "wikidataId": "Q63170"
   },
   {
     "id": "person-caspar-schwenckfeld",
@@ -181,12 +275,19 @@
     "biography": "Schwenckfeld was a Silesian nobleman who became a reformer emphasizing inner spiritual transformation over external forms. Persecuted for his views, he spent much of his later life wandering. His works were collected by Karl Widemann and influenced Valentin Weigel and the broader German mystical tradition.",
     "birthPlace": "Ossig",
     "nationality": "German/Silesian",
-    "occupations": ["reformer", "theologian"],
+    "occupations": [
+      "reformer",
+      "theologian"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Kaspar_Schwenckfeld.jpg",
     "wikipediaTitle": "Caspar_Schwenckfeld",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Caspar_Schwenckfeld"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Caspar_Schwenckfeld"
+      }
+    ],
+    "wikidataId": "Q64137"
   },
   {
     "id": "person-jg-gichtel",
@@ -199,17 +300,27 @@
     "birthPlace": "Regensburg",
     "deathPlace": "Amsterdam",
     "nationality": "German",
-    "occupations": ["mystic", "editor"],
+    "occupations": [
+      "mystic",
+      "editor"
+    ],
     "wikipediaTitle": "Johann_Georg_Gichtel",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johann_Georg_Gichtel"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johann_Georg_Gichtel"
+      }
+    ],
+    "wikidataId": "Q75093"
   },
   {
     "id": "person-paracelsus",
     "type": "person",
     "title": "Paracelsus",
-    "alternateNames": ["Theophrastus von Hohenheim", "Philippus Aureolus Theophrastus Bombastus von Hohenheim"],
+    "alternateNames": [
+      "Theophrastus von Hohenheim",
+      "Philippus Aureolus Theophrastus Bombastus von Hohenheim"
+    ],
     "dateStart": "1493",
     "dateEnd": "1541",
     "shortDescription": "Swiss physician and alchemist who founded iatrochemistry and introduced chemical remedies, foundational figure for Rosicrucian philosophy.",
@@ -217,13 +328,24 @@
     "birthPlace": "Einsiedeln",
     "deathPlace": "Salzburg",
     "nationality": "Swiss-German",
-    "occupations": ["physician", "alchemist", "philosopher"],
+    "occupations": [
+      "physician",
+      "alchemist",
+      "philosopher"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Paracelsus.jpg",
     "wikipediaTitle": "Paracelsus",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Paracelsus"},
-      {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/paracelsus/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Paracelsus"
+      },
+      {
+        "label": "Stanford Encyclopedia",
+        "url": "https://plato.stanford.edu/entries/paracelsus/"
+      }
+    ],
+    "wikidataId": "Q83428"
   },
   {
     "id": "person-adam-bodenstein",
@@ -234,11 +356,19 @@
     "shortDescription": "Translator and publisher who made Paracelsus's works widely available, publishing over 40 Paracelsian titles from 1560.",
     "biography": "Bodenstein was the son of the reformer Andreas Bodenstein von Karlstadt. He studied medicine and became a key figure in disseminating Paracelsian thought by publishing over 40 Paracelsian titles beginning in 1560. His work in Basel made Paracelsian texts accessible to a broad European audience.",
     "nationality": "German",
-    "occupations": ["physician", "translator", "publisher"],
+    "occupations": [
+      "physician",
+      "translator",
+      "publisher"
+    ],
     "wikipediaTitle": "Adam_von_Bodenstein",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Adam_von_Bodenstein"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Adam_von_Bodenstein"
+      }
+    ],
+    "wikidataId": "Q91466"
   },
   {
     "id": "person-heinrich-khunrath",
@@ -249,12 +379,20 @@
     "shortDescription": "Physician and Hermetic philosopher whose Amphitheatrum Sapientiae Aeternae bridged Paracelsian philosophy and spiritual alchemy.",
     "biography": "Khunrath was a German physician and Hermetic philosopher who received his doctorate in 1588 and soon after began traveling. He met John Dee in Bremen on 27 May 1589 as Dee was returning to England, and later met Edward Kelley at Rudolf II's court in Prague. His major work, Amphitheatrum Sapientiae Aeternae (1595), combines Paracelsian alchemy with Christian mysticism and Kabbalistic ideas. Scholars see him as a bridge figure linking Dee's Hermetic magic to later Rosicrucianism.",
     "nationality": "German",
-    "occupations": ["physician", "alchemist", "philosopher"],
+    "occupations": [
+      "physician",
+      "alchemist",
+      "philosopher"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Khunrath.jpg",
     "wikipediaTitle": "Heinrich_Khunrath",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Heinrich_Khunrath"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Heinrich_Khunrath"
+      }
+    ],
+    "wikidataId": "Q73366"
   },
   {
     "id": "person-conrad-khunrath",
@@ -265,28 +403,46 @@
     "shortDescription": "Merchant, alchemist, and physician; brother of Heinrich Khunrath.",
     "biography": "Conrad Khunrath was the older brother of Heinrich Khunrath. He worked as a merchant, alchemist, and physician in Leipzig, Hamburg, and Schleswig, representing practitioners who synthesized alchemy, medicine, and commerce. He wrote Medulla Destillatoria on distillation techniques.",
     "nationality": "German",
-    "occupations": ["merchant", "alchemist", "physician"],
+    "occupations": [
+      "merchant",
+      "alchemist",
+      "physician"
+    ],
     "wikipediaTitle": "Conrad_Khunrath",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Conrad_Khunrath"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Conrad_Khunrath"
+      }
+    ],
+    "wikidataId": "Q1126858"
   },
   {
     "id": "person-oswald-croll",
     "type": "person",
     "title": "Oswald Croll",
-    "alternateNames": ["Oswaldus Crollius"],
+    "alternateNames": [
+      "Oswaldus Crollius"
+    ],
     "dateStart": "1563",
     "dateEnd": "1609",
     "shortDescription": "Professor and physician who was a major proponent of Paracelsian chemical medicine, connected to Rudolf II's court.",
     "biography": "Croll was a professor at Marburg and a practicing physician who became one of the most influential proponents of Paracelsian chemical medicine. His Basilica Chymica (1609) was widely read and helped establish iatrochemistry as a legitimate medical approach. He had connections to Rudolf II's court in Prague.",
     "nationality": "German",
-    "occupations": ["professor", "physician", "alchemist"],
+    "occupations": [
+      "professor",
+      "physician",
+      "alchemist"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Osvaldus_Crollius.jpg",
     "wikipediaTitle": "Oswald_Croll",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Oswald_Croll"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oswald_Croll"
+      }
+    ],
+    "wikidataId": "Q899007"
   },
   {
     "id": "person-andreas-libavius",
@@ -297,28 +453,45 @@
     "shortDescription": "Physician and chemist who wrote the first chemistry textbook but opposed mystical alchemy and criticized the Rosicrucian manifestos.",
     "biography": "Libavius was a German physician and chemist trained in the Aristotelian and Galenic traditions. He accepted practical chemical remedies but rejected mystical or Hermetic elements in alchemy. His Alchymia (1597) is considered the first systematic chemistry textbook. When the Rosicrucian manifestos appeared, he published Analysis Confessionis Fraternitatis de Rosea Cruce (1615), systematically critiquing them on scientific, religious, and political grounds. Robert Fludd responded with defenses of the Brotherhood.",
     "nationality": "German",
-    "occupations": ["physician", "chemist", "author"],
+    "occupations": [
+      "physician",
+      "chemist",
+      "author"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Andreas_Libavius.jpg",
     "wikipediaTitle": "Andreas_Libavius",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andreas_Libavius"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Andreas_Libavius"
+      }
+    ],
+    "wikidataId": "Q31161"
   },
   {
     "id": "person-petrus-severinus",
     "type": "person",
     "title": "Petrus Severinus",
-    "alternateNames": ["Peder Sørensen"],
+    "alternateNames": [
+      "Peder Sørensen"
+    ],
     "dateStart": "1542",
     "dateEnd": "1602",
     "shortDescription": "Danish Paracelsian physician whose theoretical work helped spread Paracelsian ideas throughout Europe.",
     "biography": "Severinus was a Danish physician who became one of the most important theoretical exponents of Paracelsianism. His Idea Medicinae Philosophicae (1571) systematized Paracelsian medical philosophy and was widely influential in Germany, helping to establish what became known as the 'Severinian School' of Paracelsian thought.",
     "nationality": "Danish",
-    "occupations": ["physician", "philosopher"],
+    "occupations": [
+      "physician",
+      "philosopher"
+    ],
     "wikipediaTitle": "Petrus_Severinus",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Petrus_Severinus"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Petrus_Severinus"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "person-daniel-sennert",
@@ -331,12 +504,19 @@
     "birthPlace": "Breslau",
     "deathPlace": "Wittenberg",
     "nationality": "German",
-    "occupations": ["professor", "physician"],
+    "occupations": [
+      "professor",
+      "physician"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Daniel-Sennert.jpg",
     "wikipediaTitle": "Daniel_Sennert",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_Sennert"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniel_Sennert"
+      }
+    ],
+    "wikidataId": "Q75164"
   },
   {
     "id": "person-johannes-hartmann",
@@ -349,11 +529,19 @@
     "birthPlace": "Amberg",
     "deathPlace": "loc-kassel",
     "nationality": "German",
-    "occupations": ["professor", "physician", "chemist"],
+    "occupations": [
+      "professor",
+      "physician",
+      "chemist"
+    ],
     "wikipediaTitle": "Johannes_Hartmann_(chemist)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johannes_Hartmann"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johannes_Hartmann"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "person-benedictus-figulus",
@@ -364,11 +552,19 @@
     "shortDescription": "Alchemist and editor who collected and published Paracelsian works, making unpublished texts available.",
     "biography": "Figulus was a German alchemist born in Uttenhofen who devoted himself to collecting and editing Paracelsian works. His publications including Rosarium novum olympicum (1608) and Pandora magnalium (1608) made unpublished alchemical texts available. He had close ties to Adam Haslmayr and Karl Widemann.",
     "nationality": "German",
-    "occupations": ["alchemist", "editor", "publisher"],
+    "occupations": [
+      "alchemist",
+      "editor",
+      "publisher"
+    ],
     "wikipediaTitle": "Benedictus_Figulus",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Benedictus_Figulus"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Benedictus_Figulus"
+      }
+    ],
+    "wikidataId": "Q109400"
   },
   {
     "id": "person-karl-widemann",
@@ -379,11 +575,18 @@
     "shortDescription": "Physician and manuscript collector who preserved large portions of the Paracelsian corpus; served as secretary to Edward Kelley.",
     "biography": "Widemann was a physician based in Augsburg who spent over 30 years collecting and copying manuscripts, preserving large portions of the Paracelsian corpus as well as works by Schwenckfeld and others. He briefly served as secretary to Edward Kelley at Rudolf II's court in Prague. His collection activities were crucial for preserving esoteric texts.",
     "nationality": "German",
-    "occupations": ["physician", "manuscript collector"],
+    "occupations": [
+      "physician",
+      "manuscript collector"
+    ],
     "wikipediaTitle": "Karl_Widemann",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Karl_Widemann"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Karl_Widemann"
+      }
+    ],
+    "wikidataId": "Q42378114"
   },
   {
     "id": "person-raphael-eglin",
@@ -394,11 +597,19 @@
     "shortDescription": "Swiss theologian and alchemist who compiled alchemical handbooks preserving the social context of recipes.",
     "biography": "Eglin was a Swiss theologian who fled Zürich in 1601 and later became professor at Marburg from 1606. He compiled alchemical handbooks with detailed provenance information, preserving the social context of alchemical recipes. His network included Figulus and other manuscript collectors, and his work contains early references to Rosicrucian ideas.",
     "nationality": "Swiss",
-    "occupations": ["theologian", "alchemist", "professor"],
+    "occupations": [
+      "theologian",
+      "alchemist",
+      "professor"
+    ],
     "wikipediaTitle": "Raphael_Egli",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Raphael_Egli"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Raphael_Egli"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "person-rudolf-ii",
@@ -411,12 +622,19 @@
     "birthPlace": "Vienna",
     "deathPlace": "loc-prague",
     "nationality": "Habsburg",
-    "occupations": ["emperor", "patron"],
+    "occupations": [
+      "emperor",
+      "patron"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Hans_von_Aachen_-_Portrait_of_Emperor_Rudolf_II.jpg",
     "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor"
+      }
+    ],
+    "wikidataId": "Q150586"
   },
   {
     "id": "person-john-dee",
@@ -429,19 +647,33 @@
     "birthPlace": "London",
     "deathPlace": "Mortlake",
     "nationality": "English",
-    "occupations": ["mathematician", "astrologer", "occultist", "advisor"],
+    "occupations": [
+      "mathematician",
+      "astrologer",
+      "occultist",
+      "advisor"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/John_Dee_Ashmolean.jpg",
     "wikipediaTitle": "John_Dee",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Dee"},
-      {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/john-dee/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Dee"
+      },
+      {
+        "label": "Stanford Encyclopedia",
+        "url": "https://plato.stanford.edu/entries/john-dee/"
+      }
+    ],
+    "wikidataId": "Q201484"
   },
   {
     "id": "person-edward-kelley",
     "type": "person",
     "title": "Edward Kelley",
-    "alternateNames": ["Edward Talbot"],
+    "alternateNames": [
+      "Edward Talbot"
+    ],
     "dateStart": "1555",
     "dateEnd": "1597",
     "shortDescription": "English scryer and alchemist who was John Dee's medium for angelic communications and later a prominent alchemist at Rudolf II's court.",
@@ -449,12 +681,19 @@
     "birthPlace": "Worcester",
     "deathPlace": "loc-prague",
     "nationality": "English",
-    "occupations": ["scryer", "alchemist"],
+    "occupations": [
+      "scryer",
+      "alchemist"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/EdwKelley.jpg",
     "wikipediaTitle": "Edward_Kelley",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Edward_Kelley"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Edward_Kelley"
+      }
+    ],
+    "wikidataId": "Q127080"
   },
   {
     "id": "person-tycho-brahe",
@@ -467,12 +706,18 @@
     "birthPlace": "Scania",
     "deathPlace": "loc-prague",
     "nationality": "Danish",
-    "occupations": ["astronomer"],
+    "occupations": [
+      "astronomer"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG",
     "wikipediaTitle": "Tycho_Brahe",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tycho_Brahe"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tycho_Brahe"
+      }
+    ],
+    "wikidataId": "Q36620"
   },
   {
     "id": "person-johannes-kepler",
@@ -485,12 +730,19 @@
     "birthPlace": "Weil der Stadt",
     "deathPlace": "Regensburg",
     "nationality": "German",
-    "occupations": ["astronomer", "mathematician"],
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Johannes_Kepler_1610.jpg",
     "wikipediaTitle": "Johannes_Kepler",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johannes_Kepler"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+      }
+    ],
+    "wikidataId": "Q8963"
   },
   {
     "id": "person-michael-mastlin",
@@ -503,30 +755,46 @@
     "birthPlace": "Göppingen",
     "deathPlace": "loc-tubingen",
     "nationality": "German",
-    "occupations": ["astronomer", "professor"],
+    "occupations": [
+      "astronomer",
+      "professor"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Michael_Maestlin%2C1619.jpg",
     "wikipediaTitle": "Michael_Mästlin",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_M%C3%A4stlin"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Michael_M%C3%A4stlin"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "person-vilem-rozmberk",
     "type": "person",
     "title": "Vilém of Rožmberk",
-    "alternateNames": ["William of Rosenberg"],
+    "alternateNames": [
+      "William of Rosenberg"
+    ],
     "dateStart": "1535",
     "dateEnd": "1592",
     "shortDescription": "Bohemian nobleman who was a major patron of John Dee and Edward Kelley at his castle in Třeboň.",
     "biography": "Vilém of Rožmberk was the head of the powerful Rosenberg family of Bohemian nobles. He hosted John Dee and Edward Kelley at his castle in Třeboň from 1586 to 1589, supporting their alchemical research. Though he died before the Rosicrucian manifestos were published, he was part of the earlier esoteric network that fed into Rosicrucianism.",
     "deathPlace": "loc-trebon",
     "nationality": "Bohemian",
-    "occupations": ["nobleman", "patron"],
+    "occupations": [
+      "nobleman",
+      "patron"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Wilhelm_von_Rosenberg_Altersbild.jpg",
     "wikipediaTitle": "Vilém_of_Rosenberg",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Vil%C3%A9m_of_Rosenberg"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Vil%C3%A9m_of_Rosenberg"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "person-robert-fludd",
@@ -539,18 +807,28 @@
     "birthPlace": "Bearsted",
     "deathPlace": "loc-london",
     "nationality": "English",
-    "occupations": ["physician", "philosopher", "author"],
+    "occupations": [
+      "physician",
+      "philosopher",
+      "author"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Robert_Fludd.jpg",
     "wikipediaTitle": "Robert_Fludd",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Robert_Fludd"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Robert_Fludd"
+      }
+    ],
+    "wikidataId": "Q453697"
   },
   {
     "id": "person-thomas-vaughan",
     "type": "person",
     "title": "Thomas Vaughan",
-    "alternateNames": ["Eugenius Philalethes"],
+    "alternateNames": [
+      "Eugenius Philalethes"
+    ],
     "dateStart": "1621",
     "dateEnd": "1666",
     "shortDescription": "Welsh alchemist who translated the Rosicrucian manifestos into English in 1652 under the pseudonym Eugenius Philalethes.",
@@ -558,11 +836,19 @@
     "birthPlace": "Llansantffraed",
     "deathPlace": "Albury",
     "nationality": "Welsh",
-    "occupations": ["philosopher", "alchemist", "translator"],
+    "occupations": [
+      "philosopher",
+      "alchemist",
+      "translator"
+    ],
     "wikipediaTitle": "Thomas_Vaughan_(philosopher)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Thomas_Vaughan_(philosopher)"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Vaughan_(philosopher)"
+      }
+    ],
+    "wikidataId": "Q3397209"
   },
   {
     "id": "person-elias-ashmole",
@@ -575,12 +861,20 @@
     "birthPlace": "Lichfield",
     "deathPlace": "loc-london",
     "nationality": "English",
-    "occupations": ["antiquarian", "astrologer", "collector"],
+    "occupations": [
+      "antiquarian",
+      "astrologer",
+      "collector"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/AshmoleRiley.jpg",
     "wikipediaTitle": "Elias_Ashmole",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Elias_Ashmole"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elias_Ashmole"
+      }
+    ],
+    "wikidataId": "Q471406"
   },
   {
     "id": "person-william-backhouse",
@@ -593,11 +887,18 @@
     "birthPlace": "Swallowfield",
     "deathPlace": "Swallowfield",
     "nationality": "English",
-    "occupations": ["alchemist", "gentleman"],
+    "occupations": [
+      "alchemist",
+      "gentleman"
+    ],
     "wikipediaTitle": "William_Backhouse",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/William_Backhouse"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/William_Backhouse"
+      }
+    ],
+    "wikidataId": "Q8004902"
   },
   {
     "id": "person-francis-bacon",
@@ -610,19 +911,32 @@
     "birthPlace": "loc-london",
     "deathPlace": "Highgate",
     "nationality": "English",
-    "occupations": ["philosopher", "statesman", "scientist"],
+    "occupations": [
+      "philosopher",
+      "statesman",
+      "scientist"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Francis_Bacon%2C_Viscount_St_Alban_from_NPG_%282%29.jpg",
     "wikipediaTitle": "Francis_Bacon",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Francis_Bacon"},
-      {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/francis-bacon/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Francis_Bacon"
+      },
+      {
+        "label": "Stanford Encyclopedia",
+        "url": "https://plato.stanford.edu/entries/francis-bacon/"
+      }
+    ],
+    "wikidataId": "Q37388"
   },
   {
     "id": "person-frederick-v",
     "type": "person",
     "title": "Frederick V, Elector Palatine",
-    "alternateNames": ["The Winter King"],
+    "alternateNames": [
+      "The Winter King"
+    ],
     "dateStart": "1596",
     "dateEnd": "1632",
     "shortDescription": "Elector Palatine and briefly King of Bohemia whose Protestant court was seen as a locus for Rosicrucian hopes before the disaster at White Mountain.",
@@ -630,18 +944,27 @@
     "birthPlace": "Deinschwang",
     "deathPlace": "Mainz",
     "nationality": "German",
-    "occupations": ["elector", "king"],
+    "occupations": [
+      "elector",
+      "king"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Friedrich_V._%28Pfalz%29.jpg",
     "wikipediaTitle": "Frederick_V_of_the_Palatinate",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Frederick_V_of_the_Palatinate"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Frederick_V_of_the_Palatinate"
+      }
+    ],
+    "wikidataId": "Q57195"
   },
   {
     "id": "person-elizabeth-stuart",
     "type": "person",
     "title": "Elizabeth Stuart",
-    "alternateNames": ["The Winter Queen"],
+    "alternateNames": [
+      "The Winter Queen"
+    ],
     "dateStart": "1596",
     "dateEnd": "1662",
     "shortDescription": "Electress Palatine and Queen of Bohemia who maintained intellectual culture at her exile court in The Hague.",
@@ -649,18 +972,29 @@
     "birthPlace": "Dunfermline",
     "deathPlace": "loc-london",
     "nationality": "Scottish/English",
-    "occupations": ["queen", "electress", "patron"],
+    "occupations": [
+      "queen",
+      "electress",
+      "patron"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Elizabeth_Stuart%2C_Queen_of_Bohemia.jpg",
     "wikipediaTitle": "Elizabeth_Stuart,_Queen_of_Bohemia",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Elizabeth_Stuart,_Queen_of_Bohemia"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_Stuart,_Queen_of_Bohemia"
+      }
+    ],
+    "wikidataId": "Q158252"
   },
   {
     "id": "person-moritz-hesse-kassel",
     "type": "person",
     "title": "Moritz of Hesse-Kassel",
-    "alternateNames": ["Moritz the Learned", "Maurice of Hesse-Kassel"],
+    "alternateNames": [
+      "Moritz the Learned",
+      "Maurice of Hesse-Kassel"
+    ],
     "dateStart": "1572",
     "dateEnd": "1632",
     "shortDescription": "Landgrave of Hesse-Kassel who was a major patron of Paracelsian medicine and established the first chemistry professorship.",
@@ -668,12 +1002,19 @@
     "birthPlace": "loc-kassel",
     "deathPlace": "Eschwege",
     "nationality": "German",
-    "occupations": ["landgrave", "patron"],
+    "occupations": [
+      "landgrave",
+      "patron"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Moritz_Landgraf_von_Hessen_Seite_1_Bild_0001.jpg",
     "wikipediaTitle": "Maurice,_Landgrave_of_Hesse-Kassel",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Maurice,_Landgrave_of_Hesse-Kassel"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Maurice,_Landgrave_of_Hesse-Kassel"
+      }
+    ],
+    "wikidataId": "Q551420"
   },
   {
     "id": "person-salomon-de-caus",
@@ -686,14 +1027,21 @@
     "birthPlace": "Dieppe",
     "deathPlace": "Paris",
     "nationality": "French",
-    "occupations": ["engineer", "architect", "garden designer"],
+    "occupations": [
+      "engineer",
+      "architect",
+      "garden designer"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Salomon-de-Caus04.jpg",
     "wikipediaTitle": "Salomon_de_Caus",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Salomon_de_Caus"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Salomon_de_Caus"
+      }
+    ],
+    "wikidataId": "Q385092"
   },
-
   {
     "id": "object-fama-fraternitatis",
     "type": "object",
@@ -701,14 +1049,21 @@
     "dateStart": "1614",
     "shortDescription": "The first Rosicrucian manifesto announcing the Brotherhood of the Rose Cross and calling for universal reformation.",
     "objectType": "manifesto",
-    "creators": ["person-jv-andreae", "person-tobias-hess"],
+    "creators": [
+      "person-jv-andreae",
+      "person-tobias-hess"
+    ],
     "dateCreated": "1614",
     "language": "German/Latin",
     "subject": "Rosicrucianism, reformation, esotericism",
     "wikipediaTitle": "Fama_Fraternitatis",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fama_Fraternitatis"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fama_Fraternitatis"
+      }
+    ],
+    "wikidataId": "Q3643696"
   },
   {
     "id": "object-confessio-fraternitatis",
@@ -717,14 +1072,21 @@
     "dateStart": "1615",
     "shortDescription": "The second Rosicrucian manifesto defending the Brotherhood and elaborating its philosophical principles.",
     "objectType": "manifesto",
-    "creators": ["person-jv-andreae", "person-tobias-hess"],
+    "creators": [
+      "person-jv-andreae",
+      "person-tobias-hess"
+    ],
     "dateCreated": "1615",
     "language": "Latin",
     "subject": "Rosicrucianism, philosophy",
     "wikipediaTitle": "Confessio_Fraternitatis",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Confessio_Fraternitatis"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Confessio_Fraternitatis"
+      }
+    ],
+    "wikidataId": "Q3643674"
   },
   {
     "id": "object-chymical-wedding",
@@ -733,31 +1095,46 @@
     "dateStart": "1616",
     "shortDescription": "Allegorical romance by Andreae describing a seven-day journey of spiritual transformation through alchemical symbolism.",
     "objectType": "allegorical romance",
-    "creators": ["person-jv-andreae"],
+    "creators": [
+      "person-jv-andreae"
+    ],
     "dateCreated": "1616",
     "language": "German",
     "subject": "Rosicrucianism, alchemy, spiritual transformation",
     "wikipediaTitle": "Chymical_Wedding_of_Christian_Rosenkreutz",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chymical_Wedding_of_Christian_Rosenkreutz"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chymical_Wedding_of_Christian_Rosenkreutz"
+      }
+    ],
+    "wikidataId": "Q2456034"
   },
   {
     "id": "object-aurora",
     "type": "object",
     "title": "Aurora",
-    "alternateNames": ["Morgenröte im Aufgang", "Aurora: The Day-Spring"],
+    "alternateNames": [
+      "Morgenröte im Aufgang",
+      "Aurora: The Day-Spring"
+    ],
     "dateStart": "1612",
     "shortDescription": "Boehme's first mystical work describing his vision of God, nature, and the relationship of good and evil.",
     "objectType": "mystical treatise",
-    "creators": ["person-jacob-boehme"],
+    "creators": [
+      "person-jacob-boehme"
+    ],
     "dateCreated": "1612",
     "language": "German",
     "subject": "Christian mysticism, theosophy",
     "wikipediaTitle": "Aurora_(Boehme)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Aurora_(Boehme)"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Aurora_(Boehme)"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-mysterium-magnum",
@@ -766,32 +1143,46 @@
     "dateStart": "1623",
     "shortDescription": "Boehme's major work presenting a mystical commentary on Genesis, synthesizing nature mysticism with Christian doctrine.",
     "objectType": "biblical commentary",
-    "creators": ["person-jacob-boehme"],
+    "creators": [
+      "person-jacob-boehme"
+    ],
     "dateCreated": "1623",
     "language": "German",
     "subject": "Biblical exegesis, mysticism",
     "wikipediaTitle": "Mysterium_Magnum",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mysterium_Magnum"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mysterium_Magnum"
+      }
+    ],
+    "wikidataId": "Q6948791"
   },
   {
     "id": "object-true-christianity",
     "type": "object",
     "title": "True Christianity",
-    "alternateNames": ["Vier Bücher vom wahren Christentum"],
+    "alternateNames": [
+      "Vier Bücher vom wahren Christentum"
+    ],
     "dateStart": "1605",
     "dateEnd": "1610",
     "shortDescription": "Arndt's influential devotional work emphasizing inner moral transformation, a foundation for later Pietism.",
     "objectType": "devotional",
-    "creators": ["person-johann-arndt"],
+    "creators": [
+      "person-johann-arndt"
+    ],
     "dateCreated": "1605-1610",
     "language": "German",
     "subject": "Christian devotion, practical piety",
     "wikipediaTitle": "True_Christianity_(book)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/True_Christianity_(book)"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/True_Christianity_(book)"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-amphitheatrum",
@@ -800,14 +1191,20 @@
     "dateStart": "1595",
     "shortDescription": "Khunrath's alchemical-mystical work combining Paracelsian philosophy with Christian mysticism and Kabbalah.",
     "objectType": "treatise",
-    "creators": ["person-heinrich-khunrath"],
+    "creators": [
+      "person-heinrich-khunrath"
+    ],
     "dateCreated": "1595",
     "language": "Latin/German",
     "subject": "Alchemy, Hermeticism, Christian mysticism",
     "wikipediaTitle": "Amphitheatrum_Sapientiae_Aeternae",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Amphitheatrum_Sapientiae_Aeternae"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amphitheatrum_Sapientiae_Aeternae"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-atalanta-fugiens",
@@ -816,14 +1213,20 @@
     "dateStart": "1617",
     "shortDescription": "Maier's alchemical emblem book combining 50 emblems with Latin verses and three-voice fugues.",
     "objectType": "emblem book",
-    "creators": ["person-michael-maier"],
+    "creators": [
+      "person-michael-maier"
+    ],
     "dateCreated": "1617",
     "language": "Latin",
     "subject": "Alchemy, emblems, music",
     "wikipediaTitle": "Atalanta_Fugiens",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Atalanta_Fugiens"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Atalanta_Fugiens"
+      }
+    ],
+    "wikidataId": "Q3627850"
   },
   {
     "id": "object-basilica-chymica",
@@ -832,14 +1235,20 @@
     "dateStart": "1609",
     "shortDescription": "Croll's influential work on Paracelsian chemical medicine.",
     "objectType": "medical treatise",
-    "creators": ["person-oswald-croll"],
+    "creators": [
+      "person-oswald-croll"
+    ],
     "dateCreated": "1609",
     "language": "Latin",
     "subject": "Iatrochemistry, Paracelsian medicine",
     "wikipediaTitle": "Basilica_chymica",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Basilica_Chymica"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Basilica_Chymica"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-utriusque-cosmi",
@@ -849,14 +1258,20 @@
     "dateEnd": "1621",
     "shortDescription": "Fludd's comprehensive cosmological work presenting a Hermetic-Neoplatonic worldview.",
     "objectType": "treatise",
-    "creators": ["person-robert-fludd"],
+    "creators": [
+      "person-robert-fludd"
+    ],
     "dateCreated": "1617-1621",
     "language": "Latin",
     "subject": "Cosmology, Hermeticism, macrocosm-microcosm",
     "wikipediaTitle": "Utriusque_Cosmi",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Utriusque_Cosmi_Historia"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Utriusque_Cosmi_Historia"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-apologia-compendiaria",
@@ -865,15 +1280,21 @@
     "dateStart": "1616",
     "shortDescription": "Fludd's concise defense of the Rosicrucian Brotherhood against its critics.",
     "objectType": "treatise",
-    "creators": ["person-robert-fludd"],
+    "creators": [
+      "person-robert-fludd"
+    ],
     "dateCreated": "1616",
     "language": "Latin",
     "subject": "Rosicrucianism, apologetics",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Robert_Fludd"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Robert_Fludd"
+      }
     ],
-    "notes": "No dedicated Wikipedia article for this work; links to author's article"
+    "notes": "No dedicated Wikipedia article for this work; links to author's article",
+    "wikidataId": null
   },
   {
     "id": "object-monas-hieroglyphica",
@@ -882,14 +1303,20 @@
     "dateStart": "1564",
     "shortDescription": "Dee's cryptic treatise presenting a unified Hermetic symbol synthesizing astronomy, alchemy, and mathematics.",
     "objectType": "treatise",
-    "creators": ["person-john-dee"],
+    "creators": [
+      "person-john-dee"
+    ],
     "dateCreated": "1564",
     "language": "Latin",
     "subject": "Hermeticism, symbolism",
     "wikipediaTitle": "Monas_Hieroglyphica",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Monas_Hieroglyphica"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Monas_Hieroglyphica"
+      }
+    ],
+    "wikidataId": "Q908061"
   },
   {
     "id": "object-alchymia",
@@ -898,14 +1325,20 @@
     "dateStart": "1597",
     "shortDescription": "Libavius's systematic chemistry textbook, considered the first of its kind.",
     "objectType": "textbook",
-    "creators": ["person-andreas-libavius"],
+    "creators": [
+      "person-andreas-libavius"
+    ],
     "dateCreated": "1597",
     "language": "Latin",
     "subject": "Chemistry, alchemy",
     "wikipediaTitle": "Alchymia_(Libavius)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Alchymia"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alchymia"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-analysis-confessionis",
@@ -914,15 +1347,21 @@
     "dateStart": "1615",
     "shortDescription": "Libavius's systematic critique of the Rosicrucian manifestos.",
     "objectType": "critique",
-    "creators": ["person-andreas-libavius"],
+    "creators": [
+      "person-andreas-libavius"
+    ],
     "dateCreated": "1615",
     "language": "Latin",
     "subject": "Anti-Rosicrucianism, criticism",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andreas_Libavius"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Andreas_Libavius"
+      }
     ],
-    "notes": "No dedicated Wikipedia article for this work; links to author's article"
+    "notes": "No dedicated Wikipedia article for this work; links to author's article",
+    "wikidataId": null
   },
   {
     "id": "object-theatrum-chemicum-britannicum",
@@ -931,14 +1370,20 @@
     "dateStart": "1652",
     "shortDescription": "Ashmole's anthology of English alchemical poetry, preserving important texts.",
     "objectType": "anthology",
-    "creators": ["person-elias-ashmole"],
+    "creators": [
+      "person-elias-ashmole"
+    ],
     "dateCreated": "1652",
     "language": "English",
     "subject": "Alchemy, poetry",
     "wikipediaTitle": "Theatrum_Chemicum_Britannicum",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Theatrum_Chemicum_Britannicum"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Theatrum_Chemicum_Britannicum"
+      }
+    ],
+    "wikidataId": "Q4356652"
   },
   {
     "id": "object-christianopolis",
@@ -947,14 +1392,20 @@
     "dateStart": "1619",
     "shortDescription": "Andreae's utopian work describing an ideal Christian city-state.",
     "objectType": "utopia",
-    "creators": ["person-jv-andreae"],
+    "creators": [
+      "person-jv-andreae"
+    ],
     "dateCreated": "1619",
     "language": "Latin",
     "subject": "Utopia, Christian society",
     "wikipediaTitle": "Christianopolis",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christianopolis"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Christianopolis"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-idea-medicinae",
@@ -963,30 +1414,42 @@
     "dateStart": "1571",
     "shortDescription": "Severinus's theoretical exposition of Paracelsian medical philosophy.",
     "objectType": "treatise",
-    "creators": ["person-petrus-severinus"],
+    "creators": [
+      "person-petrus-severinus"
+    ],
     "dateCreated": "1571",
     "language": "Latin",
     "subject": "Paracelsian medicine, medical philosophy",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Petrus_Severinus"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Petrus_Severinus"
+      }
     ],
-    "notes": "No dedicated Wikipedia article for this work; links to author's article"
+    "notes": "No dedicated Wikipedia article for this work; links to author's article",
+    "wikidataId": null
   },
-
   {
     "id": "loc-tubingen",
     "type": "location",
     "title": "Tübingen",
     "shortDescription": "University town in Württemberg that was the center of the Tübingen Circle and birthplace of the Rosicrucian manifestos.",
     "locationType": "university/city",
-    "coordinates": {"lat": 48.52, "lng": 9.06},
+    "coordinates": {
+      "lat": 48.52,
+      "lng": 9.06
+    },
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tuebingen_Neckarfront.jpg",
     "wikipediaTitle": "Tübingen",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/T%C3%BCbingen"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/T%C3%BCbingen"
+      }
+    ],
+    "wikidataId": "Q3806"
   },
   {
     "id": "loc-prague",
@@ -994,13 +1457,20 @@
     "title": "Prague",
     "shortDescription": "Capital of Bohemia and seat of Rudolf II's court, a major center for alchemy, astrology, and esoteric thought.",
     "locationType": "court/city",
-    "coordinates": {"lat": 50.08, "lng": 14.43},
+    "coordinates": {
+      "lat": 50.08,
+      "lng": 14.43
+    },
     "country": "Bohemia/Czech Republic",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Prague_Castle_with_Charles_Bridge_01.JPG",
     "wikipediaTitle": "Prague",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Prague"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Prague"
+      }
+    ],
+    "wikidataId": "Q1085"
   },
   {
     "id": "loc-heidelberg",
@@ -1008,13 +1478,20 @@
     "title": "Heidelberg",
     "shortDescription": "Seat of Frederick V's Calvinist court and location of the Hortus Palatinus garden.",
     "locationType": "court/city",
-    "coordinates": {"lat": 49.40, "lng": 8.69},
+    "coordinates": {
+      "lat": 49.40,
+      "lng": 8.69
+    },
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Schloss_Heidelberg_Ottheinrichsbau.JPG",
     "wikipediaTitle": "Heidelberg",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Heidelberg"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Heidelberg"
+      }
+    ],
+    "wikidataId": "Q2966"
   },
   {
     "id": "loc-marburg",
@@ -1022,13 +1499,20 @@
     "title": "Marburg",
     "shortDescription": "University town where the first chemistry professorship was established in 1609 under Hartmann.",
     "locationType": "university/city",
-    "coordinates": {"lat": 50.81, "lng": 8.77},
+    "coordinates": {
+      "lat": 50.81,
+      "lng": 8.77
+    },
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Marburg_asv2022-02_img02.jpg",
     "wikipediaTitle": "Marburg",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Marburg"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Marburg"
+      }
+    ],
+    "wikidataId": "Q3869"
   },
   {
     "id": "loc-gorlitz",
@@ -1036,13 +1520,20 @@
     "title": "Görlitz",
     "shortDescription": "City in Upper Lusatia where Jacob Boehme lived, worked, and had his mystical experiences.",
     "locationType": "city",
-    "coordinates": {"lat": 51.15, "lng": 14.99},
+    "coordinates": {
+      "lat": 51.15,
+      "lng": 14.99
+    },
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/G%C3%B6rlitz-altstadt.jpg",
     "wikipediaTitle": "Görlitz",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/G%C3%B6rlitz"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/G%C3%B6rlitz"
+      }
+    ],
+    "wikidataId": "Q4077"
   },
   {
     "id": "loc-kassel",
@@ -1050,13 +1541,20 @@
     "title": "Kassel",
     "shortDescription": "Seat of Landgrave Moritz of Hesse-Kassel, patron of Paracelsian medicine and site of manifesto publication.",
     "locationType": "court/city",
-    "coordinates": {"lat": 51.32, "lng": 9.50},
+    "coordinates": {
+      "lat": 51.32,
+      "lng": 9.50
+    },
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Herkules_Kassel.jpg",
     "wikipediaTitle": "Kassel",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kassel"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kassel"
+      }
+    ],
+    "wikidataId": "Q2865"
   },
   {
     "id": "loc-london",
@@ -1064,13 +1562,20 @@
     "title": "London",
     "shortDescription": "Center of English intellectual life and home to Robert Fludd, Elias Ashmole, and other English Rosicrucians.",
     "locationType": "city",
-    "coordinates": {"lat": 51.51, "lng": -0.13},
+    "coordinates": {
+      "lat": 51.51,
+      "lng": -0.13
+    },
     "country": "England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/London_from_a_balloon.jpg",
     "wikipediaTitle": "London",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/London"
+      }
+    ],
+    "wikidataId": "Q84"
   },
   {
     "id": "loc-basel",
@@ -1078,13 +1583,20 @@
     "title": "Basel",
     "shortDescription": "Major publishing center and university town with Paracelsian connections.",
     "locationType": "university/city",
-    "coordinates": {"lat": 47.56, "lng": 7.59},
+    "coordinates": {
+      "lat": 47.56,
+      "lng": 7.59
+    },
     "country": "Switzerland",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Basel_-_M%C3%BCnster_vom_Rhein.jpg",
     "wikipediaTitle": "Basel",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Basel"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Basel"
+      }
+    ],
+    "wikidataId": "Q78"
   },
   {
     "id": "loc-augsburg",
@@ -1092,13 +1604,20 @@
     "title": "Augsburg",
     "shortDescription": "Imperial free city where Karl Widemann conducted his manuscript collecting activities.",
     "locationType": "city",
-    "coordinates": {"lat": 48.37, "lng": 10.90},
+    "coordinates": {
+      "lat": 48.37,
+      "lng": 10.90
+    },
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Augsburg_Perlachturm_und_Rathaus.jpg",
     "wikipediaTitle": "Augsburg",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Augsburg"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Augsburg"
+      }
+    ],
+    "wikidataId": "Q2749"
   },
   {
     "id": "loc-the-hague",
@@ -1106,13 +1625,20 @@
     "title": "The Hague",
     "shortDescription": "Dutch city where Frederick V and Elizabeth Stuart maintained their court in exile after 1622.",
     "locationType": "court/city",
-    "coordinates": {"lat": 52.08, "lng": 4.31},
+    "coordinates": {
+      "lat": 52.08,
+      "lng": 4.31
+    },
     "country": "Netherlands",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Binnenhof_at_night.jpg",
     "wikipediaTitle": "The_Hague",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Hague"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Hague"
+      }
+    ],
+    "wikidataId": "Q36600"
   },
   {
     "id": "loc-trebon",
@@ -1120,15 +1646,21 @@
     "title": "Třeboň",
     "shortDescription": "Bohemian town with castle of Vilém of Rožmberk, who hosted John Dee and Edward Kelley.",
     "locationType": "castle/town",
-    "coordinates": {"lat": 49.00, "lng": 14.77},
+    "coordinates": {
+      "lat": 49.00,
+      "lng": 14.77
+    },
     "country": "Bohemia/Czech Republic",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/T%C5%99ebo%C5%88%2C_z%C3%A1mek_%281%29.jpg",
     "wikipediaTitle": "Třeboň",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/T%C5%99ebo%C5%88"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/T%C5%99ebo%C5%88"
+      }
+    ],
+    "wikidataId": "Q773312"
   },
-
   {
     "id": "person-abraham-holzel",
     "type": "person",
@@ -1138,9 +1670,13 @@
     "shortDescription": "Patron and mystical-theological associate of the Tübingen Circle.",
     "biography": "Hölzel was part of the wider Tübingen network of mystical and esoteric thinkers centered around Andreae and Hess. Though less well documented than other members, he participated in the intellectual exchanges that produced the Rosicrucian manifestos.",
     "nationality": "German",
-    "occupations": ["patron", "theologian"],
+    "occupations": [
+      "patron",
+      "theologian"
+    ],
     "wikipediaTitle": null,
-    "notes": "Biographical details sparse; dates approximate based on active period. German Wikipedia article available at de.wikipedia.org/wiki/Abraham_Hölzel"
+    "notes": "Biographical details sparse; dates approximate based on active period. German Wikipedia article available at de.wikipedia.org/wiki/Abraham_Hölzel",
+    "wikidataId": null
   },
   {
     "id": "person-wilhelm-von-wense",
@@ -1151,9 +1687,13 @@
     "shortDescription": "Noble patron connected to the Tübingen esoteric and utopian circles.",
     "biography": "Von Wense was a noble patron who supported esoteric and utopian circles in Germany. He was connected with manuscript exchange networks and the broader milieu from which the Rosicrucian manifestos emerged.",
     "nationality": "German",
-    "occupations": ["nobleman", "patron"],
+    "occupations": [
+      "nobleman",
+      "patron"
+    ],
     "wikipediaTitle": null,
-    "notes": "Biographical details sparse; dates approximate based on active period. English Wikipedia article Wilhelm_von_der_Wense describes a different person (16th century courtier). Italian Wikipedia at it.wikipedia.org/wiki/Wilhelm_von_der_Wense describes this figure."
+    "notes": "Biographical details sparse; dates approximate based on active period. English Wikipedia article Wilhelm_von_der_Wense describes a different person (16th century courtier). Italian Wikipedia at it.wikipedia.org/wiki/Wilhelm_von_der_Wense describes this figure.",
+    "wikidataId": null
   },
   {
     "id": "person-heinrich-petraeus",
@@ -1164,10 +1704,13 @@
     "shortDescription": "Academic disputant at Marburg who was Hartmann's son-in-law and helped merge Paracelsian and Galenic ideas.",
     "biography": "Petraeus was an academic at the University of Marburg who married Johannes Hartmann's daughter. He presided over academic disputations that sought to reconcile Paracelsian chemical medicine with traditional Galenic approaches, contributing to the institutionalization of iatrochemistry.",
     "nationality": "German",
-    "occupations": ["academic", "physician"],
-    "wikipediaTitle": "Heinrich_Petraeus"
+    "occupations": [
+      "academic",
+      "physician"
+    ],
+    "wikipediaTitle": "Heinrich_Petraeus",
+    "wikidataId": "Q5700295"
   },
-
   {
     "id": "entity-tubingen-circle",
     "type": "entity",
@@ -1178,10 +1721,19 @@
     "shortDescription": "The group of scholars at the University of Tübingen responsible for creating the Rosicrucian manifestos.",
     "biography": "The Tübingen Circle was an informal intellectual circle at the University of Tübingen that created the Rosicrucian manifestos. Not a formal organization, it was a network of like-minded reformers united by interest in universal reformation, mystical theology, and Hermetic philosophy. The group produced the Fama Fraternitatis (1614), Confessio Fraternitatis (1615), and Chymical Wedding of Christian Rosenkreutz (1616).",
     "headquarters": "loc-tubingen",
-    "foundedBy": ["person-tobias-hess"],
-    "members": ["person-jv-andreae", "person-tobias-hess", "person-christoph-besold", "person-abraham-holzel", "person-wilhelm-von-wense"],
+    "foundedBy": [
+      "person-tobias-hess"
+    ],
+    "members": [
+      "person-jv-andreae",
+      "person-tobias-hess",
+      "person-christoph-besold",
+      "person-abraham-holzel",
+      "person-wilhelm-von-wense"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within articles on Rosicrucianism and Johann Valentin Andreae"
+    "notes": "No dedicated Wikipedia article; discussed within articles on Rosicrucianism and Johann Valentin Andreae",
+    "wikidataId": null
   },
   {
     "id": "entity-boehme-circle",
@@ -1193,9 +1745,13 @@
     "shortDescription": "Followers and correspondents who gathered around Jacob Boehme despite church opposition.",
     "biography": "The Boehme Circle consisted of followers and correspondents who gathered around Jacob Boehme in Görlitz despite opposition from the Lutheran church. They copied and circulated his manuscripts, preserving them for posterity. The circle continued after Boehme's death through figures like Johann Georg Gichtel in Amsterdam.",
     "headquarters": "loc-gorlitz",
-    "members": ["person-jacob-boehme", "person-jg-gichtel"],
+    "members": [
+      "person-jacob-boehme",
+      "person-jg-gichtel"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within articles on Jacob Boehme"
+    "notes": "No dedicated Wikipedia article; discussed within articles on Jacob Boehme",
+    "wikidataId": null
   },
   {
     "id": "entity-manuscript-collector-network",
@@ -1207,9 +1763,15 @@
     "shortDescription": "A loose network of collectors who preserved and transmitted Paracelsian, alchemical, and mystical texts.",
     "biography": "A loose network of collectors, copyists, and editors who preserved and transmitted Paracelsian, alchemical, and mystical texts. They copied manuscripts, compiled anthologies, and facilitated exchange of rare texts, maintaining the social context and provenance of alchemical recipes.",
     "headquarters": "loc-augsburg",
-    "members": ["person-karl-widemann", "person-benedictus-figulus", "person-adam-haslmayr", "person-raphael-eglin"],
+    "members": [
+      "person-karl-widemann",
+      "person-benedictus-figulus",
+      "person-adam-haslmayr",
+      "person-raphael-eglin"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; informal network of esoteric manuscript collectors"
+    "notes": "No dedicated Wikipedia article; informal network of esoteric manuscript collectors",
+    "wikidataId": null
   },
   {
     "id": "entity-heidelberg-circle",
@@ -1221,9 +1783,14 @@
     "shortDescription": "The intellectual and cultural circle around Frederick V and Elizabeth Stuart at Heidelberg.",
     "biography": "The intellectual and cultural circle around Frederick V, Elector Palatine, and Elizabeth Stuart. A hub for Protestant reform hopes and esoteric interests, associated with the 'Rosicrucian hope' for Protestant reformation. The cultural flowering was cut short by the Thirty Years' War following Frederick's defeat at White Mountain (1620).",
     "headquarters": "loc-heidelberg",
-    "members": ["person-frederick-v", "person-elizabeth-stuart", "person-salomon-de-caus"],
+    "members": [
+      "person-frederick-v",
+      "person-elizabeth-stuart",
+      "person-salomon-de-caus"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within articles on Frederick V of the Palatinate"
+    "notes": "No dedicated Wikipedia article; discussed within articles on Frederick V of the Palatinate",
+    "wikidataId": null
   },
   {
     "id": "entity-hague-exile-court",
@@ -1235,21 +1802,29 @@
     "shortDescription": "The court maintained by Frederick V and Elizabeth Stuart after their exile from the Palatinate.",
     "biography": "The court maintained by Frederick V and Elizabeth Stuart after their exile from the Palatinate. Despite political defeat, it continued to serve as a center for intellectual and cultural exchange, preserving intellectual networks after the collapse of Protestant hopes in Bohemia.",
     "headquarters": "loc-the-hague",
-    "members": ["person-frederick-v", "person-elizabeth-stuart"],
+    "members": [
+      "person-frederick-v",
+      "person-elizabeth-stuart"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within articles on Elizabeth Stuart, Queen of Bohemia"
+    "notes": "No dedicated Wikipedia article; discussed within articles on Elizabeth Stuart, Queen of Bohemia",
+    "wikidataId": null
   },
   {
     "id": "entity-rosicrucian-brotherhood",
     "type": "entity",
     "title": "Rosicrucian Brotherhood",
-    "alternateNames": ["Fraternity of the Rose Cross", "Order of the Rose Cross"],
+    "alternateNames": [
+      "Fraternity of the Rose Cross",
+      "Order of the Rose Cross"
+    ],
     "entityType": "fictional_symbolic",
     "dateStart": "1614",
     "shortDescription": "The secret brotherhood announced in the Fama Fraternitatis; likely a literary device rather than historical organization.",
     "biography": "The secret brotherhood announced in the Fama Fraternitatis (1614). Whether it actually existed or was a literary device remains debated among scholars. The manifestos invited responses but no one successfully contacted the brotherhood. Andreae later dismissed it as a 'ludibrium' (jest). Despite its possibly fictional nature, it became a powerful concept that shaped European esotericism.",
     "notes": "Contested entity - existence debated; likely fictional/symbolic. Include as concept rather than historical organization.",
-    "wikipediaTitle": "Rosicrucianism"
+    "wikipediaTitle": "Rosicrucianism",
+    "wikidataId": "Q194267"
   },
   {
     "id": "entity-christian-rosenkreutz",
@@ -1261,7 +1836,8 @@
     "shortDescription": "The legendary founder of the Rosicrucian Brotherhood as described in the manifestos; almost certainly fictional.",
     "biography": "The legendary founder of the Rosicrucian Brotherhood as described in the Rosicrucian manifestos. Purportedly traveled to the East, learned secret wisdom, and founded a brotherhood in Germany. Almost certainly a symbolic/literary creation rather than a historical person. The Chymical Wedding tells his allegorical initiation story.",
     "notes": "Fictional/allegorical figure. Dates given in manifestos.",
-    "wikipediaTitle": "Christian_Rosenkreuz"
+    "wikipediaTitle": "Christian_Rosenkreuz",
+    "wikidataId": "Q841173"
   },
   {
     "id": "entity-paracelsianism",
@@ -1272,9 +1848,19 @@
     "dateEnd": "1700",
     "shortDescription": "The medical and philosophical movement following Paracelsus's innovations in chemical medicine.",
     "biography": "The movement following Paracelsus's medical and philosophical innovations. Emphasized chemical remedies (iatrochemistry), the tria prima (salt, sulfur, mercury), correspondence between macrocosm and microcosm, and challenged Galenic orthodoxy. Evolved from controversial reform movement to institutionalized academic discipline, providing the scientific/medical dimension of Rosicrucian thought.",
-    "foundedBy": ["person-paracelsus"],
-    "members": ["person-paracelsus", "person-adam-bodenstein", "person-petrus-severinus", "person-oswald-croll", "person-daniel-sennert", "person-johannes-hartmann"],
-    "wikipediaTitle": "Paracelsianism"
+    "foundedBy": [
+      "person-paracelsus"
+    ],
+    "members": [
+      "person-paracelsus",
+      "person-adam-bodenstein",
+      "person-petrus-severinus",
+      "person-oswald-croll",
+      "person-daniel-sennert",
+      "person-johannes-hartmann"
+    ],
+    "wikipediaTitle": "Paracelsianism",
+    "wikidataId": "Q7133818"
   },
   {
     "id": "entity-christian-theosophy",
@@ -1285,8 +1871,14 @@
     "dateEnd": "1700",
     "shortDescription": "German Protestant mystical tradition emphasizing direct spiritual knowledge and synthesis of theology with natural philosophy.",
     "biography": "German Protestant mystical tradition emphasizing direct spiritual knowledge (gnosis), inner transformation, and synthesis of theology with natural philosophy and alchemy. Stressed the 'inner word' and personal spiritual experience over institutional religion. Provided the spiritual/theological dimension of Rosicrucian thought and influenced later Pietism.",
-    "members": ["person-valentin-weigel", "person-johann-arndt", "person-jacob-boehme", "person-jg-gichtel"],
-    "wikipediaTitle": "Christian_theosophy"
+    "members": [
+      "person-valentin-weigel",
+      "person-johann-arndt",
+      "person-jacob-boehme",
+      "person-jg-gichtel"
+    ],
+    "wikipediaTitle": "Christian_theosophy",
+    "wikidataId": "Q55635660"
   },
   {
     "id": "entity-weigelianism",
@@ -1297,10 +1889,15 @@
     "dateEnd": "1650",
     "shortDescription": "The mystical movement inspired by Valentin Weigel's writings on inner spirituality.",
     "biography": "The movement inspired by the posthumously published writings of Valentin Weigel. Emphasized the 'inner church,' direct spiritual illumination, and critiqued institutional Lutheranism. Weigel's works circulated widely in manuscript and print after his death, serving as a precursor to both Christian theosophy and Pietism.",
-    "foundedBy": ["person-valentin-weigel"],
-    "members": ["person-valentin-weigel"],
+    "foundedBy": [
+      "person-valentin-weigel"
+    ],
+    "members": [
+      "person-valentin-weigel"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Valentin Weigel's article"
+    "notes": "No dedicated Wikipedia article; discussed within Valentin Weigel's article",
+    "wikidataId": null
   },
   {
     "id": "entity-schwenckfelder-movement",
@@ -1310,9 +1907,14 @@
     "dateStart": "1530",
     "shortDescription": "Religious movement founded by Caspar Schwenckfeld emphasizing spiritual regeneration and inner faith.",
     "biography": "Religious movement founded by Caspar Schwenckfeld von Ossig. Emphasized spiritual regeneration, inner faith over outward ceremonies, and the 'celestial flesh' of Christ. Persecuted in Germany; survived as distinct community. Part of the broader German spiritualist tradition; Schwenckfeld's works were collected by Karl Widemann.",
-    "foundedBy": ["person-caspar-schwenckfeld"],
-    "members": ["person-caspar-schwenckfeld"],
-    "wikipediaTitle": "Schwenkfelder_Church"
+    "foundedBy": [
+      "person-caspar-schwenckfeld"
+    ],
+    "members": [
+      "person-caspar-schwenckfeld"
+    ],
+    "wikipediaTitle": "Schwenkfelder_Church",
+    "wikidataId": "Q672023"
   },
   {
     "id": "entity-severinian-school",
@@ -1323,10 +1925,17 @@
     "dateEnd": "1650",
     "shortDescription": "The theoretical school of Paracelsian medicine developed by Petrus Severinus.",
     "biography": "The theoretical school of Paracelsian medicine developed by Petrus Severinus in his influential Idea Medicinae Philosophicae (1571). Provided a systematic philosophical foundation for Paracelsian medicine that made it more acceptable to academic physicians, helping bridge the gap between radical reform and academic medicine.",
-    "foundedBy": ["person-petrus-severinus"],
-    "members": ["person-petrus-severinus", "person-oswald-croll", "person-daniel-sennert"],
+    "foundedBy": [
+      "person-petrus-severinus"
+    ],
+    "members": [
+      "person-petrus-severinus",
+      "person-oswald-croll",
+      "person-daniel-sennert"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Petrus Severinus article and Paracelsianism"
+    "notes": "No dedicated Wikipedia article; discussed within Petrus Severinus article and Paracelsianism",
+    "wikidataId": null
   },
   {
     "id": "entity-rosicrucian-furor",
@@ -1337,9 +1946,17 @@
     "dateEnd": "1625",
     "shortDescription": "The wave of responses and excitement following the Rosicrucian manifestos.",
     "biography": "The wave of responses, publications, and excitement that followed the appearance of the Rosicrucian manifestos. Hundreds of pamphlets were published either defending, attacking, or attempting to contact the brotherhood. Demonstrates the widespread hunger for reformation and esoteric knowledge in early 17th century Europe.",
-    "members": ["person-michael-maier", "person-robert-fludd", "person-andreas-libavius", "person-adam-haslmayr", "person-daniel-mogling", "person-daniel-cramer"],
+    "members": [
+      "person-michael-maier",
+      "person-robert-fludd",
+      "person-andreas-libavius",
+      "person-adam-haslmayr",
+      "person-daniel-mogling",
+      "person-daniel-cramer"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Rosicrucianism article"
+    "notes": "No dedicated Wikipedia article; discussed within Rosicrucianism article",
+    "wikidataId": null
   },
   {
     "id": "entity-hermeticism",
@@ -1350,8 +1967,13 @@
     "dateEnd": "1700",
     "shortDescription": "The revival and development of Hermetic philosophy in the Renaissance and early modern period.",
     "biography": "The revival and development of Hermetic philosophy based on the Corpus Hermeticum and related texts. Emphasized unity of religion and philosophy, divine knowledge through mystical experience, and the possibility of spiritual transformation. Provided the broader intellectual framework within which Rosicrucianism emerged.",
-    "members": ["person-john-dee", "person-robert-fludd", "person-heinrich-khunrath"],
-    "wikipediaTitle": "Hermeticism"
+    "members": [
+      "person-john-dee",
+      "person-robert-fludd",
+      "person-heinrich-khunrath"
+    ],
+    "wikipediaTitle": "Hermeticism",
+    "wikidataId": "Q192933"
   },
   {
     "id": "entity-university-tubingen",
@@ -1362,8 +1984,15 @@
     "shortDescription": "Lutheran university that produced many key figures in the Rosicrucian network.",
     "biography": "Lutheran university founded in 1477 that produced many of the key figures in the Rosicrucian network. Known for theology and mathematics/astronomy under Michael Mästlin. The intellectual home of the Tübingen Circle and manifesto authors; trained both Kepler and Andreae.",
     "headquarters": "loc-tubingen",
-    "members": ["person-jv-andreae", "person-tobias-hess", "person-christoph-besold", "person-johannes-kepler", "person-michael-mastlin"],
-    "wikipediaTitle": "University_of_Tübingen"
+    "members": [
+      "person-jv-andreae",
+      "person-tobias-hess",
+      "person-christoph-besold",
+      "person-johannes-kepler",
+      "person-michael-mastlin"
+    ],
+    "wikipediaTitle": "University_of_Tübingen",
+    "wikidataId": "Q153978"
   },
   {
     "id": "entity-university-marburg",
@@ -1374,23 +2003,37 @@
     "shortDescription": "First Protestant university in Germany; became a major center for Paracelsian chemical medicine.",
     "biography": "First Protestant university in Germany, founded in 1527. Under patronage of Moritz of Hesse-Kassel, became a major center for Paracelsian chemical medicine. Site of first university chemistry professorship (1609) and chemical laboratory, establishing laboratory work as part of university education.",
     "headquarters": "loc-marburg",
-    "members": ["person-johannes-hartmann", "person-heinrich-petraeus", "person-raphael-eglin", "person-daniel-cramer"],
-    "wikipediaTitle": "University_of_Marburg"
+    "members": [
+      "person-johannes-hartmann",
+      "person-heinrich-petraeus",
+      "person-raphael-eglin",
+      "person-daniel-cramer"
+    ],
+    "wikipediaTitle": "University_of_Marburg",
+    "wikidataId": null
   },
   {
     "id": "entity-marburg-laboratory",
     "type": "entity",
     "title": "Marburg Chemical Laboratory",
-    "alternateNames": ["Laboratorium Chymicum"],
+    "alternateNames": [
+      "Laboratorium Chymicum"
+    ],
     "entityType": "research_facility",
     "dateStart": "1609",
     "shortDescription": "The first public chemical laboratory at a European university.",
     "biography": "The first public chemical laboratory at a European university, established in 1609 by Johannes Hartmann under patronage of Moritz of Hesse-Kassel. Used for teaching and research in iatrochemistry, it established laboratory work as part of university education and served as a model for later academic chemistry.",
     "headquarters": "loc-marburg",
-    "foundedBy": ["person-johannes-hartmann"],
-    "members": ["person-johannes-hartmann", "person-heinrich-petraeus"],
+    "foundedBy": [
+      "person-johannes-hartmann"
+    ],
+    "members": [
+      "person-johannes-hartmann",
+      "person-heinrich-petraeus"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Johannes Hartmann article"
+    "notes": "No dedicated Wikipedia article; discussed within Johannes Hartmann article",
+    "wikidataId": null
   },
   {
     "id": "entity-court-rudolf-ii",
@@ -1402,9 +2045,19 @@
     "shortDescription": "The court of Rudolf II in Prague, a major center for esoteric patronage.",
     "biography": "The court of Holy Roman Emperor Rudolf II, who made Prague his capital. Functioned as a major institution for esoteric patronage, attracting alchemists, astrologers, artists, and natural philosophers from across Europe. Created the milieu that influenced Rosicrucian currents.",
     "headquarters": "loc-prague",
-    "members": ["person-rudolf-ii", "person-john-dee", "person-edward-kelley", "person-tycho-brahe", "person-johannes-kepler", "person-michael-maier", "person-heinrich-khunrath", "person-oswald-croll"],
+    "members": [
+      "person-rudolf-ii",
+      "person-john-dee",
+      "person-edward-kelley",
+      "person-tycho-brahe",
+      "person-johannes-kepler",
+      "person-michael-maier",
+      "person-heinrich-khunrath",
+      "person-oswald-croll"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Rudolf II, Holy Roman Emperor article"
+    "notes": "No dedicated Wikipedia article; discussed within Rudolf II, Holy Roman Emperor article",
+    "wikidataId": null
   },
   {
     "id": "entity-court-moritz",
@@ -1416,9 +2069,14 @@
     "shortDescription": "The court of Landgrave Moritz, a major patron of Paracelsian medicine.",
     "biography": "The court of Landgrave Moritz of Hesse-Kassel, a major patron of arts, sciences, and esoteric studies. Supported Paracelsian medicine, alchemy, and theater. Under his patronage, Marburg became a center for chemical medicine and the Rosicrucian manifestos were published at Kassel.",
     "headquarters": "loc-kassel",
-    "members": ["person-moritz-hesse-kassel", "person-johannes-hartmann", "person-michael-maier"],
+    "members": [
+      "person-moritz-hesse-kassel",
+      "person-johannes-hartmann",
+      "person-michael-maier"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Maurice, Landgrave of Hesse-Kassel article"
+    "notes": "No dedicated Wikipedia article; discussed within Maurice, Landgrave of Hesse-Kassel article",
+    "wikidataId": null
   },
   {
     "id": "entity-court-frederick-v",
@@ -1430,9 +2088,14 @@
     "shortDescription": "Frederick V's Protestant court at Heidelberg associated with the 'Rosicrucian hope.'",
     "biography": "The court of Frederick V, Elector Palatine, at Heidelberg. Associated with Protestant reform hopes and the 'Rosicrucian hope' for universal reformation. Site of the famous Hortus Palatinus garden. The cultural flowering was cut short by the Thirty Years' War following Frederick's acceptance of the Bohemian crown and defeat at White Mountain.",
     "headquarters": "loc-heidelberg",
-    "members": ["person-frederick-v", "person-elizabeth-stuart", "person-salomon-de-caus"],
+    "members": [
+      "person-frederick-v",
+      "person-elizabeth-stuart",
+      "person-salomon-de-caus"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Frederick V of the Palatinate article"
+    "notes": "No dedicated Wikipedia article; discussed within Frederick V of the Palatinate article",
+    "wikidataId": null
   },
   {
     "id": "entity-rozmberk-court",
@@ -1444,9 +2107,14 @@
     "shortDescription": "The court of Vilém of Rožmberk which hosted John Dee and Edward Kelley.",
     "biography": "The court of Vilém of Rožmberk, one of the wealthiest Bohemian nobles. Hosted John Dee and Edward Kelley at his castle in Třeboň for several years, supporting their alchemical research. Important patronage site for English-Bohemian esoteric exchange.",
     "headquarters": "loc-trebon",
-    "members": ["person-vilem-rozmberk", "person-john-dee", "person-edward-kelley"],
+    "members": [
+      "person-vilem-rozmberk",
+      "person-john-dee",
+      "person-edward-kelley"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Vilém of Rosenberg article"
+    "notes": "No dedicated Wikipedia article; discussed within Vilém of Rosenberg article",
+    "wikidataId": null
   },
   {
     "id": "entity-de-bry-publishing",
@@ -1458,7 +2126,8 @@
     "shortDescription": "Prominent publishing house that issued major Rosicrucian and Hermetic works.",
     "biography": "Prominent publishing house in Frankfurt am Main and Oppenheim that issued major Rosicrucian and Hermetic works, including publications by Robert Fludd and Michael Maier. Known for high-quality illustrated books, it was a major vector for dissemination of Rosicrucian and Hermetic ideas through Europe.",
     "headquarters": "Frankfurt",
-    "wikipediaTitle": "Johann_Theodor_de_Bry"
+    "wikipediaTitle": "Johann_Theodor_de_Bry",
+    "wikidataId": "Q1696381"
   },
   {
     "id": "entity-lucas-jennis",
@@ -1470,19 +2139,26 @@
     "shortDescription": "Publisher of numerous alchemical and Paracelsian works in Frankfurt.",
     "biography": "Publisher in Frankfurt am Main who issued numerous alchemical and Paracelsian works, including illustrated emblem books. An important node in the network of alchemical publishing in early 17th century Germany.",
     "headquarters": "Frankfurt",
-    "wikipediaTitle": "Lucas_Jennis"
+    "wikipediaTitle": "Lucas_Jennis",
+    "wikidataId": "Q1873081"
   },
   {
     "id": "entity-leibarzt",
     "type": "entity",
     "title": "Imperial Court Physician",
-    "alternateNames": ["Leibarzt"],
+    "alternateNames": [
+      "Leibarzt"
+    ],
     "entityType": "position",
     "shortDescription": "Formal position as personal physician to the Holy Roman Emperor.",
     "biography": "Formal position as personal physician to the Holy Roman Emperor. Carried prestige and access to patronage networks, facilitating alchemical research and publication for holders like Michael Maier.",
-    "members": ["person-michael-maier", "person-oswald-croll"],
+    "members": [
+      "person-michael-maier",
+      "person-oswald-croll"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; institutional position at Holy Roman Emperor's court"
+    "notes": "No dedicated Wikipedia article; institutional position at Holy Roman Emperor's court",
+    "wikidataId": null
   },
   {
     "id": "entity-professor-chymiatrie",
@@ -1493,16 +2169,20 @@
     "shortDescription": "The first university professorship dedicated to chemical medicine.",
     "biography": "The first university professorship explicitly dedicated to chemical/iatrochemical medicine, created at Marburg in 1609 under Moritz of Hesse-Kassel's patronage. A milestone in academic legitimation of Paracelsian medicine.",
     "headquarters": "loc-marburg",
-    "members": ["person-johannes-hartmann"],
+    "members": [
+      "person-johannes-hartmann"
+    ],
     "wikipediaTitle": null,
-    "notes": "No dedicated Wikipedia article; discussed within Johannes Hartmann article"
+    "notes": "No dedicated Wikipedia article; discussed within Johannes Hartmann article",
+    "wikidataId": null
   },
-
   {
     "id": "person-daniel-cramer",
     "type": "person",
     "title": "Daniel Cramer",
-    "alternateNames": ["Daniel Candidus"],
+    "alternateNames": [
+      "Daniel Candidus"
+    ],
     "dateStart": "1568",
     "dateEnd": "1637",
     "shortDescription": "German Lutheran theologian and author of one of the earliest Rosicrucian emblem books, The True Society of Jesus and the Rosy Cross.",
@@ -1510,37 +2190,61 @@
     "birthPlace": "Reetz",
     "deathPlace": "Stettin",
     "nationality": "German",
-    "occupations": ["theologian", "professor", "author"],
+    "occupations": [
+      "theologian",
+      "professor",
+      "author"
+    ],
     "wikipediaTitle": "Daniel_Cramer",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_Cramer"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniel_Cramer"
+      }
+    ],
+    "wikidataId": "Q95479"
   },
   {
     "id": "object-rosicrucian-emblems-cramer",
     "type": "object",
     "title": "The Rosicrucian Emblems of Daniel Cramer",
-    "alternateNames": ["Societas Jesu et Rosae Crucis Vera", "The True Society of Jesus and the Rosy Cross", "Emblemata sacra"],
+    "alternateNames": [
+      "Societas Jesu et Rosae Crucis Vera",
+      "The True Society of Jesus and the Rosy Cross",
+      "Emblemata sacra"
+    ],
     "dateStart": "1617",
     "shortDescription": "One of the earliest Rosicrucian emblem books, featuring 40 emblems depicting the mystical heart in various spiritual states.",
     "objectType": "emblem book",
-    "creators": ["person-daniel-cramer"],
+    "creators": [
+      "person-daniel-cramer"
+    ],
     "dateCreated": "1617",
     "language": "Latin",
     "subject": "Rosicrucianism, Christian mysticism, spiritual transformation",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_Cramer"},
-      {"label": "Rose Obscurities Edition", "url": "https://roseobscurities.com/products/the-rosicrucian-emblems-of-daniel-cramer-translated-by-tair-edited-by-adam-mclean"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Daniel_Cramer"
+      },
+      {
+        "label": "Rose Obscurities Edition",
+        "url": "https://roseobscurities.com/products/the-rosicrucian-emblems-of-daniel-cramer-translated-by-tair-edited-by-adam-mclean"
+      }
     ],
-    "notes": "Contains 40 emblems in four decades, each with a title, scripture verse, and Latin explanation. The emblems depict the mystical heart in various conditions symbolizing spiritual transformation. Expanded to 50 emblems in the 1624 edition (Emblemata sacra). No dedicated Wikipedia article; links to author's article."
+    "notes": "Contains 40 emblems in four decades, each with a title, scripture verse, and Latin explanation. The emblems depict the mystical heart in various conditions symbolizing spiritual transformation. Expanded to 50 emblems in the 1624 edition (Emblemata sacra). No dedicated Wikipedia article; links to author's article.",
+    "wikidataId": null
   },
-
   {
     "id": "person-jan-amos-comenius",
     "type": "person",
     "title": "Jan Amos Comenius",
-    "alternateNames": ["John Amos Comenius", "Komenský", "Comenius"],
+    "alternateNames": [
+      "John Amos Comenius",
+      "Komenský",
+      "Comenius"
+    ],
     "dateStart": "1592",
     "dateEnd": "1670",
     "shortDescription": "Czech educator, theologian, and philosopher who developed pansophia (universal wisdom) and was a key intellectual ally of the Hartlib Circle.",
@@ -1548,19 +2252,33 @@
     "birthPlace": "Nivnice, Moravia",
     "deathPlace": "Amsterdam",
     "nationality": "Czech/Moravian",
-    "occupations": ["educator", "theologian", "philosopher", "bishop"],
+    "occupations": [
+      "educator",
+      "theologian",
+      "philosopher",
+      "bishop"
+    ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Johan_amos_comenius_1592-1671.jpg",
     "wikipediaTitle": "John_Amos_Comenius",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Amos_Comenius"},
-      {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/comenius/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Amos_Comenius"
+      },
+      {
+        "label": "Stanford Encyclopedia",
+        "url": "https://plato.stanford.edu/entries/comenius/"
+      }
+    ],
+    "wikidataId": "Q12735"
   },
   {
     "id": "person-samuel-hartlib",
     "type": "person",
     "title": "Samuel Hartlib",
-    "alternateNames": ["Samuel Hartlieb"],
+    "alternateNames": [
+      "Samuel Hartlieb"
+    ],
     "dateStart": "1600",
     "dateEnd": "1662",
     "shortDescription": "German-English intelligencer and reformer who served as the central hub of a vast correspondence network promoting educational, scientific, and religious reform.",
@@ -1568,18 +2286,32 @@
     "birthPlace": "loc-elbing",
     "deathPlace": "loc-london",
     "nationality": "German-English",
-    "occupations": ["intelligencer", "reformer", "publisher"],
+    "occupations": [
+      "intelligencer",
+      "reformer",
+      "publisher"
+    ],
     "wikipediaTitle": "Samuel_Hartlib",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Samuel_Hartlib"},
-      {"label": "Hartlib Papers Project", "url": "https://www.dhi.ac.uk/hartlib/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Samuel_Hartlib"
+      },
+      {
+        "label": "Hartlib Papers Project",
+        "url": "https://www.dhi.ac.uk/hartlib/"
+      }
+    ],
+    "wikidataId": "Q71033"
   },
   {
     "id": "person-john-dury",
     "type": "person",
     "title": "John Dury",
-    "alternateNames": ["John Durie", "Johannes Duraeus"],
+    "alternateNames": [
+      "John Durie",
+      "Johannes Duraeus"
+    ],
     "dateStart": "1596",
     "dateEnd": "1680",
     "shortDescription": "Scottish Protestant minister dedicated to ecumenical unity among Protestants and educational reform, close collaborator of Samuel Hartlib.",
@@ -1587,12 +2319,24 @@
     "birthPlace": "Edinburgh",
     "deathPlace": "loc-kassel",
     "nationality": "Scottish",
-    "occupations": ["minister", "ecumenist", "diplomat", "educational reformer"],
+    "occupations": [
+      "minister",
+      "ecumenist",
+      "diplomat",
+      "educational reformer"
+    ],
     "wikipediaTitle": "John_Dury",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Dury"},
-      {"label": "Britannica", "url": "https://www.britannica.com/biography/John-Dury"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Dury"
+      },
+      {
+        "label": "Britannica",
+        "url": "https://www.britannica.com/biography/John-Dury"
+      }
+    ],
+    "wikidataId": "Q710665"
   },
   {
     "id": "person-john-heydon",
@@ -1605,18 +2349,32 @@
     "birthPlace": "loc-london",
     "deathPlace": "loc-london",
     "nationality": "English",
-    "occupations": ["astrologer", "attorney", "author", "alchemist"],
+    "occupations": [
+      "astrologer",
+      "attorney",
+      "author",
+      "alchemist"
+    ],
     "wikipediaTitle": "John_Heydon_(astrologer)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)"},
-      {"label": "Encyclopedia.com", "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/heydon-john-1629-ca-1668"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)"
+      },
+      {
+        "label": "Encyclopedia.com",
+        "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/heydon-john-1629-ca-1668"
+      }
+    ],
+    "wikidataId": "Q1700457"
   },
   {
     "id": "person-thomas-henshaw",
     "type": "person",
     "title": "Thomas Henshaw",
-    "alternateNames": ["Halophilus"],
+    "alternateNames": [
+      "Halophilus"
+    ],
     "dateStart": "1618",
     "dateEnd": "1700",
     "shortDescription": "English alchemist, diplomat, and founding Fellow of the Royal Society who connected the Hartlib Circle to emerging institutional science.",
@@ -1624,13 +2382,20 @@
     "birthPlace": "loc-london",
     "deathPlace": "Kensington",
     "nationality": "English",
-    "occupations": ["alchemist", "diplomat", "courtier"],
+    "occupations": [
+      "alchemist",
+      "diplomat",
+      "courtier"
+    ],
     "wikipediaTitle": "Thomas_Henshaw_(alchemist)",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)"
+      }
+    ],
+    "wikidataId": "Q7790627"
   },
-
   {
     "id": "entity-hartlib-circle",
     "type": "entity",
@@ -1641,84 +2406,124 @@
     "shortDescription": "A mid-17th century correspondence network of scholars and reformers centered on Samuel Hartlib in London, promoting educational, scientific, and religious reform.",
     "biography": "The Hartlib Circle was a loose network of scholars, reformers, educationalists, theologians, and natural philosophers centered on Samuel Hartlib in London, active roughly 1630-1660. Hartlib served as an 'intelligencer,' relaying information through letters and manuscripts across Western and Central Europe. The network pursued projects in education (promoting pansophia and universal schooling), science and alchemy, agriculture, and Protestant religious reform. Key members included John Dury (Protestant ecumenism), Jan Amos Comenius (pansophic education), Theodore Haak, Robert Boyle, William Petty, Katherine Jones, and Thomas Henshaw. The circle carried forward Rosicrucian ideals of universal reform into practical programs. Many members later joined the Royal Society, which the Hartlib Circle is often seen as prefiguring. Over 25,000 folios of Hartlib's papers survive, providing exceptional documentation of the network's activities.",
     "headquarters": "loc-london",
-    "foundedBy": ["person-samuel-hartlib"],
-    "members": ["person-samuel-hartlib", "person-john-dury", "person-jan-amos-comenius", "person-thomas-henshaw"],
-    "wikipediaTitle": "Hartlib_Circle"
+    "foundedBy": [
+      "person-samuel-hartlib"
+    ],
+    "members": [
+      "person-samuel-hartlib",
+      "person-john-dury",
+      "person-jan-amos-comenius",
+      "person-thomas-henshaw"
+    ],
+    "wikipediaTitle": "Hartlib_Circle",
+    "wikidataId": "Q604837"
   },
-
   {
     "id": "object-pansophiae-prodromus",
     "type": "object",
     "title": "Pansophiae Prodromus",
-    "alternateNames": ["Prodromus Pansophiae", "Forerunner of Pansophy"],
+    "alternateNames": [
+      "Prodromus Pansophiae",
+      "Forerunner of Pansophy"
+    ],
     "dateStart": "1639",
     "shortDescription": "Comenius's foundational treatise outlining his system of pansophia (universal wisdom), published in London with Hartlib's assistance.",
     "objectType": "philosophical treatise",
-    "creators": ["person-jan-amos-comenius"],
+    "creators": [
+      "person-jan-amos-comenius"
+    ],
     "dateCreated": "1639",
     "language": "Latin",
     "subject": "Pansophia, universal wisdom, educational reform, epistemology",
     "wikipediaTitle": "Pansophism",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pansophism"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pansophism"
+      }
     ],
-    "notes": "The title means 'forerunner of Pansophy.' Published in London with Hartlib's involvement, it outlines Comenius's vision for integrating all knowledge—God, Nature, and Art—through senses, reason, and revelation. It served as the blueprint for his later pansophic works and the Hartlib Circle's educational reform agenda."
+    "notes": "The title means 'forerunner of Pansophy.' Published in London with Hartlib's involvement, it outlines Comenius's vision for integrating all knowledge—God, Nature, and Art—through senses, reason, and revelation. It served as the blueprint for his later pansophic works and the Hartlib Circle's educational reform agenda.",
+    "wikidataId": "Q771349"
   },
   {
     "id": "object-via-lucis",
     "type": "object",
     "title": "Via Lucis",
-    "alternateNames": ["The Way of Light"],
+    "alternateNames": [
+      "The Way of Light"
+    ],
     "dateStart": "1641",
     "dateEnd": "1668",
     "shortDescription": "Comenius's proposal for a universal college and universal language to spread knowledge, written during his 1641 visit to England.",
     "objectType": "philosophical treatise",
-    "creators": ["person-jan-amos-comenius"],
+    "creators": [
+      "person-jan-amos-comenius"
+    ],
     "dateCreated": "1641",
     "language": "Latin",
     "subject": "Universal knowledge, universal language, educational reform",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Amos_Comenius"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Amos_Comenius"
+      }
     ],
-    "notes": "Written during Comenius's visit to England at Hartlib's invitation in 1641, but not published until 1668. Dedicated to the Royal Society, it proposed a universal college for gathering and disseminating knowledge and a universal language for communication. No dedicated Wikipedia article; links to author's article."
+    "notes": "Written during Comenius's visit to England at Hartlib's invitation in 1641, but not published until 1668. Dedicated to the Royal Society, it proposed a universal college for gathering and disseminating knowledge and a universal language for communication. No dedicated Wikipedia article; links to author's article.",
+    "wikidataId": null
   },
   {
     "id": "object-didactica-magna",
     "type": "object",
     "title": "Didactica Magna",
-    "alternateNames": ["The Great Didactic"],
+    "alternateNames": [
+      "The Great Didactic"
+    ],
     "dateStart": "1633",
     "dateEnd": "1657",
     "shortDescription": "Comenius's comprehensive theory of universal education, foundational work in pedagogical theory.",
     "objectType": "educational treatise",
-    "creators": ["person-jan-amos-comenius"],
+    "creators": [
+      "person-jan-amos-comenius"
+    ],
     "dateCreated": "1633-1638",
     "language": "Czech/Latin",
     "subject": "Pedagogy, universal education, educational method",
     "wikipediaTitle": "Didactica_Magna",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Didactica_Magna"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Didactica_Magna"
+      }
     ],
-    "notes": "Originally written in Czech, published in Latin in 1657. Proposes education for all regardless of birth, wealth, nation, or gender. Influenced the entire Hartlib Circle's educational agenda."
+    "notes": "Originally written in Czech, published in Latin in 1657. Proposes education for all regardless of birth, wealth, nation, or gender. Influenced the entire Hartlib Circle's educational agenda.",
+    "wikidataId": null
   },
   {
     "id": "object-holy-guide",
     "type": "object",
     "title": "The Holy Guide",
-    "alternateNames": ["The English Physician's Guide"],
+    "alternateNames": [
+      "The English Physician's Guide"
+    ],
     "dateStart": "1662",
     "shortDescription": "Heydon's six-book Rosicrucian treatise fusing mystical medicine with Baconian scientific ideals.",
     "objectType": "Rosicrucian treatise",
-    "creators": ["person-john-heydon"],
+    "creators": [
+      "person-john-heydon"
+    ],
     "dateCreated": "1662",
     "language": "English",
     "subject": "Rosicrucian medicine, alchemy, mysticism, Baconian science",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)"
+      }
     ],
-    "notes": "Full title: The Holy Guide: Leading the Way to the Wonder of the World. Contains six books on God, art, nature, Rosicrucian medicines, and alchemical vocabulary. The preface borrows heavily from Bacon's New Atlantis, equating Salomon's House with a Rosicrucian Temple. No dedicated Wikipedia article; links to author's article."
+    "notes": "Full title: The Holy Guide: Leading the Way to the Wonder of the World. Contains six books on God, art, nature, Rosicrucian medicines, and alchemical vocabulary. The preface borrows heavily from Bacon's New Atlantis, equating Salomon's House with a Rosicrucian Temple. No dedicated Wikipedia article; links to author's article.",
+    "wikidataId": null
   },
   {
     "id": "object-reformed-school",
@@ -1727,15 +2532,22 @@
     "dateStart": "1648",
     "shortDescription": "Educational manifesto by Dury and Hartlib proposing practical reform of schooling.",
     "objectType": "educational treatise",
-    "creators": ["person-john-dury", "person-samuel-hartlib"],
+    "creators": [
+      "person-john-dury",
+      "person-samuel-hartlib"
+    ],
     "dateCreated": "1648",
     "language": "English",
     "subject": "Educational reform, practical schooling",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Dury"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Dury"
+      }
     ],
-    "notes": "No dedicated Wikipedia article; links to author's article"
+    "notes": "No dedicated Wikipedia article; links to author's article",
+    "wikidataId": null
   },
   {
     "id": "object-reformed-librarie-keeper",
@@ -1744,30 +2556,44 @@
     "dateStart": "1650",
     "shortDescription": "Dury's pioneering treatise on library organization and the role of librarians, foundational work in library science.",
     "objectType": "treatise",
-    "creators": ["person-john-dury"],
+    "creators": [
+      "person-john-dury"
+    ],
     "dateCreated": "1650",
     "language": "English",
     "subject": "Library science, information management",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Dury"}
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/John_Dury"
+      }
     ],
-    "notes": "An early work on library organization; part of the Hartlib Circle's vision for organized knowledge management. No dedicated Wikipedia article; links to author's article."
+    "notes": "An early work on library organization; part of the Hartlib Circle's vision for organized knowledge management. No dedicated Wikipedia article; links to author's article.",
+    "wikidataId": null
   },
-
   {
     "id": "loc-elbing",
     "type": "location",
     "title": "Elbing",
-    "alternateNames": ["Elbląg"],
+    "alternateNames": [
+      "Elbląg"
+    ],
     "shortDescription": "Prussian city where Samuel Hartlib was born and where he first met John Dury.",
     "locationType": "city",
-    "coordinates": {"lat": 54.16, "lng": 19.40},
+    "coordinates": {
+      "lat": 54.16,
+      "lng": 19.40
+    },
     "country": "Prussia/Poland",
     "wikipediaTitle": "Elbląg",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Elbl%C4%85g"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Elbl%C4%85g"
+      }
+    ],
+    "wikidataId": "Q104712"
   },
   {
     "id": "loc-amsterdam",
@@ -1775,12 +2601,19 @@
     "title": "Amsterdam",
     "shortDescription": "Dutch city where Comenius spent his final years and where Gichtel edited Boehme's works.",
     "locationType": "city",
-    "coordinates": {"lat": 52.37, "lng": 4.90},
+    "coordinates": {
+      "lat": 52.37,
+      "lng": 4.90
+    },
     "country": "Netherlands",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/KeijsersgrachtReguliersgrachtAmsterdam.jpg",
     "wikipediaTitle": "Amsterdam",
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Amsterdam"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Amsterdam"
+      }
+    ],
+    "wikidataId": "Q727"
   }
 ]

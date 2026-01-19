@@ -14,7 +14,8 @@
     ],
     "birthPlace": "Wrington, Somerset, England",
     "nationality": "English",
-    "wikipediaTitle": "John_Locke"
+    "wikipediaTitle": "John_Locke",
+    "wikidataId": "Q9353"
   },
   {
     "id": "person-isaac-newton",
@@ -30,7 +31,8 @@
     ],
     "birthPlace": "Woolsthorpe, Lincolnshire, England",
     "nationality": "English",
-    "wikipediaTitle": "Isaac_Newton"
+    "wikipediaTitle": "Isaac_Newton",
+    "wikidataId": "Q935"
   },
   {
     "id": "person-leibniz",
@@ -47,7 +49,8 @@
     ],
     "birthPlace": "Leipzig, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Gottfried_Wilhelm_Leibniz"
+    "wikipediaTitle": "Gottfried_Wilhelm_Leibniz",
+    "wikidataId": "Q9047"
   },
   {
     "id": "person-voltaire",
@@ -67,7 +70,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Voltaire"
+    "wikipediaTitle": "Voltaire",
+    "wikidataId": "Q9068"
   },
   {
     "id": "person-diderot",
@@ -85,7 +89,8 @@
     ],
     "birthPlace": "Langres, France",
     "nationality": "French",
-    "wikipediaTitle": "Denis_Diderot"
+    "wikipediaTitle": "Denis_Diderot",
+    "wikidataId": "Q448"
   },
   {
     "id": "person-dalembert",
@@ -102,7 +107,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Jean_le_Rond_d'Alembert"
+    "wikipediaTitle": "Jean_le_Rond_d'Alembert",
+    "wikidataId": "Q153232"
   },
   {
     "id": "person-montesquieu",
@@ -121,7 +127,8 @@
     ],
     "birthPlace": "Château de la Brède, France",
     "nationality": "French",
-    "wikipediaTitle": "Montesquieu"
+    "wikipediaTitle": "Montesquieu",
+    "wikidataId": "Q15975"
   },
   {
     "id": "person-rousseau",
@@ -138,7 +145,8 @@
     ],
     "birthPlace": "Geneva",
     "nationality": "Genevan",
-    "wikipediaTitle": "Jean-Jacques_Rousseau"
+    "wikipediaTitle": "Jean-Jacques_Rousseau",
+    "wikidataId": "Q6527"
   },
   {
     "id": "person-dholbach",
@@ -157,7 +165,8 @@
     ],
     "birthPlace": "Edesheim, Germany",
     "nationality": "French",
-    "wikipediaTitle": "Baron_d'Holbach"
+    "wikipediaTitle": "Baron_d'Holbach",
+    "wikidataId": "Q7104"
   },
   {
     "id": "person-helvetius",
@@ -173,7 +182,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Claude_Adrien_Helvétius"
+    "wikipediaTitle": "Claude_Adrien_Helvétius",
+    "wikidataId": "Q190302"
   },
   {
     "id": "person-condillac",
@@ -189,7 +199,8 @@
     ],
     "birthPlace": "Grenoble, France",
     "nationality": "French",
-    "wikipediaTitle": "Étienne_Bonnot_de_Condillac"
+    "wikipediaTitle": "Étienne_Bonnot_de_Condillac",
+    "wikidataId": "Q272119"
   },
   {
     "id": "person-condorcet",
@@ -206,7 +217,8 @@
     ],
     "birthPlace": "Ribemont, France",
     "nationality": "French",
-    "wikipediaTitle": "Marquis_de_Condorcet"
+    "wikipediaTitle": "Marquis_de_Condorcet",
+    "wikidataId": "Q201477"
   },
   {
     "id": "person-la-mettrie",
@@ -222,7 +234,8 @@
     ],
     "birthPlace": "Saint-Malo, France",
     "nationality": "French",
-    "wikipediaTitle": "Julien_Offray_de_La_Mettrie"
+    "wikipediaTitle": "Julien_Offray_de_La_Mettrie",
+    "wikidataId": "Q7068"
   },
   {
     "id": "person-jaucourt",
@@ -238,7 +251,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Louis_de_Jaucourt"
+    "wikipediaTitle": "Louis_de_Jaucourt",
+    "wikidataId": "Q584990"
   },
   {
     "id": "person-damilaville",
@@ -253,7 +267,8 @@
       "Intermediary"
     ],
     "nationality": "French",
-    "wikipediaTitle": "Étienne_Noël_Damilaville"
+    "wikipediaTitle": "Étienne_Noël_Damilaville",
+    "wikidataId": "Q3592308"
   },
   {
     "id": "person-morellet",
@@ -270,7 +285,8 @@
     ],
     "birthPlace": "Lyon, France",
     "nationality": "French",
-    "wikipediaTitle": "André_Morellet"
+    "wikipediaTitle": "André_Morellet",
+    "wikidataId": "Q178653"
   },
   {
     "id": "person-david-hume",
@@ -287,7 +303,8 @@
     ],
     "birthPlace": "Edinburgh, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "David_Hume"
+    "wikipediaTitle": "David_Hume",
+    "wikidataId": "Q37160"
   },
   {
     "id": "person-adam-smith",
@@ -303,7 +320,8 @@
     ],
     "birthPlace": "Kirkcaldy, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "Adam_Smith"
+    "wikipediaTitle": "Adam_Smith",
+    "wikidataId": "Q9381"
   },
   {
     "id": "person-hutcheson",
@@ -319,7 +337,8 @@
     ],
     "birthPlace": "Drumalig, Ulster, Ireland",
     "nationality": "Irish-Scottish",
-    "wikipediaTitle": "Francis_Hutcheson_(philosopher)"
+    "wikipediaTitle": "Francis_Hutcheson_(philosopher)",
+    "wikidataId": "Q316367"
   },
   {
     "id": "person-thomas-reid",
@@ -334,7 +353,8 @@
     ],
     "birthPlace": "Strachan, Kincardineshire, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "Thomas_Reid"
+    "wikipediaTitle": "Thomas_Reid",
+    "wikidataId": "Q316347"
   },
   {
     "id": "person-adam-ferguson",
@@ -350,7 +370,8 @@
     ],
     "birthPlace": "Logierait, Perthshire, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "Adam_Ferguson"
+    "wikipediaTitle": "Adam_Ferguson",
+    "wikidataId": "Q183094"
   },
   {
     "id": "person-william-robertson",
@@ -367,7 +388,8 @@
     ],
     "birthPlace": "Borthwick, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "William_Robertson_(historian)"
+    "wikipediaTitle": "William_Robertson_(historian)",
+    "wikidataId": "Q1113461"
   },
   {
     "id": "person-lord-kames",
@@ -384,7 +406,8 @@
     ],
     "birthPlace": "Kames, Berwickshire, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "Henry_Home,_Lord_Kames"
+    "wikipediaTitle": "Henry_Home,_Lord_Kames",
+    "wikidataId": "Q1341370"
   },
   {
     "id": "person-dugald-stewart",
@@ -399,7 +422,8 @@
     ],
     "birthPlace": "Edinburgh, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "Dugald_Stewart"
+    "wikipediaTitle": "Dugald_Stewart",
+    "wikidataId": "Q218254"
   },
   {
     "id": "person-immanuel-kant",
@@ -414,7 +438,8 @@
     ],
     "birthPlace": "Königsberg, Prussia",
     "nationality": "Prussian",
-    "wikipediaTitle": "Immanuel_Kant"
+    "wikipediaTitle": "Immanuel_Kant",
+    "wikidataId": "Q9312"
   },
   {
     "id": "person-christian-wolff",
@@ -430,7 +455,8 @@
     ],
     "birthPlace": "Breslau, Silesia",
     "nationality": "German",
-    "wikipediaTitle": "Christian_Wolff_(philosopher)"
+    "wikipediaTitle": "Christian_Wolff_(philosopher)",
+    "wikidataId": "Q76510"
   },
   {
     "id": "person-moses-mendelssohn",
@@ -446,7 +472,8 @@
     ],
     "birthPlace": "Dessau, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Moses_Mendelssohn"
+    "wikipediaTitle": "Moses_Mendelssohn",
+    "wikidataId": "Q76997"
   },
   {
     "id": "person-gotthold-lessing",
@@ -463,7 +490,8 @@
     ],
     "birthPlace": "Kamenz, Saxony",
     "nationality": "German",
-    "wikipediaTitle": "Gotthold_Ephraim_Lessing"
+    "wikipediaTitle": "Gotthold_Ephraim_Lessing",
+    "wikidataId": "Q34628"
   },
   {
     "id": "person-johann-herder",
@@ -480,7 +508,8 @@
     ],
     "birthPlace": "Mohrungen, East Prussia",
     "nationality": "German",
-    "wikipediaTitle": "Johann_Gottfried_Herder"
+    "wikipediaTitle": "Johann_Gottfried_Herder",
+    "wikidataId": "Q155547"
   },
   {
     "id": "person-baumgarten",
@@ -495,7 +524,8 @@
     ],
     "birthPlace": "Berlin, Prussia",
     "nationality": "German",
-    "wikipediaTitle": "Alexander_Gottlieb_Baumgarten"
+    "wikipediaTitle": "Alexander_Gottlieb_Baumgarten",
+    "wikidataId": "Q76517"
   },
   {
     "id": "person-goethe",
@@ -513,7 +543,8 @@
     ],
     "birthPlace": "Frankfurt, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Johann_Wolfgang_von_Goethe"
+    "wikipediaTitle": "Johann_Wolfgang_von_Goethe",
+    "wikidataId": "Q5879"
   },
   {
     "id": "person-george-berkeley",
@@ -529,7 +560,8 @@
     ],
     "birthPlace": "Kilkenny, Ireland",
     "nationality": "Irish",
-    "wikipediaTitle": "George_Berkeley"
+    "wikipediaTitle": "George_Berkeley",
+    "wikidataId": "Q82049"
   },
   {
     "id": "person-shaftesbury",
@@ -545,7 +577,8 @@
     ],
     "birthPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Anthony_Ashley-Cooper,_3rd_Earl_of_Shaftesbury"
+    "wikipediaTitle": "Anthony_Ashley-Cooper,_3rd_Earl_of_Shaftesbury",
+    "wikidataId": "Q335112"
   },
   {
     "id": "person-mandeville",
@@ -561,7 +594,8 @@
     ],
     "birthPlace": "Rotterdam, Netherlands",
     "nationality": "Dutch-English",
-    "wikipediaTitle": "Bernard_Mandeville"
+    "wikipediaTitle": "Bernard_Mandeville",
+    "wikidataId": "Q379912"
   },
   {
     "id": "person-edmund-burke",
@@ -577,7 +611,8 @@
     ],
     "birthPlace": "Dublin, Ireland",
     "nationality": "Irish-British",
-    "wikipediaTitle": "Edmund_Burke"
+    "wikipediaTitle": "Edmund_Burke",
+    "wikidataId": "Q165792"
   },
   {
     "id": "person-joseph-priestley",
@@ -594,7 +629,8 @@
     ],
     "birthPlace": "Birstall, Yorkshire, England",
     "nationality": "English",
-    "wikipediaTitle": "Joseph_Priestley"
+    "wikipediaTitle": "Joseph_Priestley",
+    "wikidataId": "Q159636"
   },
   {
     "id": "person-jeremy-bentham",
@@ -610,7 +646,8 @@
     ],
     "birthPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Jeremy_Bentham"
+    "wikipediaTitle": "Jeremy_Bentham",
+    "wikidataId": "Q60887"
   },
   {
     "id": "person-thomas-paine",
@@ -626,7 +663,8 @@
     ],
     "birthPlace": "Thetford, England",
     "nationality": "English-American",
-    "wikipediaTitle": "Thomas_Paine"
+    "wikipediaTitle": "Thomas_Paine",
+    "wikidataId": "Q126462"
   },
   {
     "id": "person-cesare-beccaria",
@@ -642,7 +680,8 @@
     ],
     "birthPlace": "Milan, Italy",
     "nationality": "Italian",
-    "wikipediaTitle": "Cesare_Beccaria"
+    "wikipediaTitle": "Cesare_Beccaria",
+    "wikidataId": "Q223723"
   },
   {
     "id": "person-francois-quesnay",
@@ -658,7 +697,8 @@
     ],
     "birthPlace": "Méré, France",
     "nationality": "French",
-    "wikipediaTitle": "François_Quesnay"
+    "wikipediaTitle": "François_Quesnay",
+    "wikidataId": "Q13575"
   },
   {
     "id": "person-turgot",
@@ -674,7 +714,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Anne_Robert_Jacques_Turgot"
+    "wikipediaTitle": "Anne_Robert_Jacques_Turgot",
+    "wikidataId": "Q221303"
   },
   {
     "id": "person-mirabeau-elder",
@@ -690,7 +731,8 @@
     ],
     "birthPlace": "Pertuis, France",
     "nationality": "French",
-    "wikipediaTitle": "Victor_de_Riqueti,_marquis_de_Mirabeau"
+    "wikipediaTitle": "Victor_de_Riqueti,_marquis_de_Mirabeau",
+    "wikidataId": "Q947485"
   },
   {
     "id": "person-benjamin-franklin",
@@ -708,7 +750,8 @@
     ],
     "birthPlace": "Boston, Massachusetts",
     "nationality": "American",
-    "wikipediaTitle": "Benjamin_Franklin"
+    "wikipediaTitle": "Benjamin_Franklin",
+    "wikidataId": "Q34969"
   },
   {
     "id": "person-thomas-jefferson",
@@ -725,7 +768,8 @@
     ],
     "birthPlace": "Shadwell, Virginia",
     "nationality": "American",
-    "wikipediaTitle": "Thomas_Jefferson"
+    "wikipediaTitle": "Thomas_Jefferson",
+    "wikidataId": "Q11812"
   },
   {
     "id": "person-james-madison",
@@ -741,7 +785,8 @@
     ],
     "birthPlace": "Port Conway, Virginia",
     "nationality": "American",
-    "wikipediaTitle": "James_Madison"
+    "wikipediaTitle": "James_Madison",
+    "wikidataId": "Q11813"
   },
   {
     "id": "person-john-adams",
@@ -757,7 +802,8 @@
     ],
     "birthPlace": "Braintree, Massachusetts",
     "nationality": "American",
-    "wikipediaTitle": "John_Adams"
+    "wikipediaTitle": "John_Adams",
+    "wikidataId": "Q11806"
   },
   {
     "id": "person-leonhard-euler",
@@ -772,7 +818,8 @@
     ],
     "birthPlace": "Basel, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Leonhard_Euler"
+    "wikipediaTitle": "Leonhard_Euler",
+    "wikidataId": "Q7604"
   },
   {
     "id": "person-laplace",
@@ -788,7 +835,8 @@
     ],
     "birthPlace": "Beaumont-en-Auge, France",
     "nationality": "French",
-    "wikipediaTitle": "Pierre-Simon_Laplace"
+    "wikipediaTitle": "Pierre-Simon_Laplace",
+    "wikidataId": "Q44481"
   },
   {
     "id": "person-lavoisier",
@@ -803,7 +851,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Antoine_Lavoisier"
+    "wikipediaTitle": "Antoine_Lavoisier",
+    "wikidataId": "Q39607"
   },
   {
     "id": "person-buffon",
@@ -818,7 +867,8 @@
     ],
     "birthPlace": "Montbard, France",
     "nationality": "French",
-    "wikipediaTitle": "Georges-Louis_Leclerc,_Comte_de_Buffon"
+    "wikipediaTitle": "Georges-Louis_Leclerc,_Comte_de_Buffon",
+    "wikidataId": "Q229264"
   },
   {
     "id": "person-emilie-du-chatelet",
@@ -835,7 +885,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Émilie_du_Châtelet"
+    "wikipediaTitle": "Émilie_du_Châtelet",
+    "wikidataId": "Q7286"
   },
   {
     "id": "person-lagrange",
@@ -851,7 +902,8 @@
     ],
     "birthPlace": "Turin, Italy",
     "nationality": "Italian-French",
-    "wikipediaTitle": "Joseph-Louis_Lagrange"
+    "wikipediaTitle": "Joseph-Louis_Lagrange",
+    "wikidataId": "Q80222"
   },
   {
     "id": "person-madame-geoffrin",
@@ -869,7 +921,8 @@
     ],
     "birthPlace": "Paris, France",
     "nationality": "French",
-    "wikipediaTitle": "Marie_Thérèse_Rodet_Geoffrin"
+    "wikipediaTitle": "Marie_Thérèse_Rodet_Geoffrin",
+    "wikidataId": "Q269865"
   },
   {
     "id": "person-julie-de-lespinasse",
@@ -884,7 +937,8 @@
     ],
     "birthPlace": "Lyon, France",
     "nationality": "French",
-    "wikipediaTitle": "Julie_de_Lespinasse"
+    "wikipediaTitle": "Julie_de_Lespinasse",
+    "wikidataId": "Q450354"
   },
   {
     "id": "person-madame-du-deffand",
@@ -903,7 +957,8 @@
     ],
     "birthPlace": "Burgundy, France",
     "nationality": "French",
-    "wikipediaTitle": "Marie_Anne_de_Vichy-Chamrond,_marquise_du_Deffand"
+    "wikipediaTitle": "Marie_Anne_de_Vichy-Chamrond,_marquise_du_Deffand",
+    "wikidataId": "Q297785"
   },
   {
     "id": "person-madame-helvetius",
@@ -921,7 +976,8 @@
     ],
     "birthPlace": "Ligniville, Lorraine",
     "nationality": "French",
-    "wikipediaTitle": "Anne-Catherine_de_Ligniville"
+    "wikipediaTitle": "Anne-Catherine_de_Ligniville",
+    "wikidataId": "Q461961"
   },
   {
     "id": "person-frederick-great",
@@ -940,7 +996,8 @@
     ],
     "birthPlace": "Berlin, Prussia",
     "nationality": "Prussian",
-    "wikipediaTitle": "Frederick_the_Great"
+    "wikipediaTitle": "Frederick_the_Great",
+    "wikidataId": "Q33550"
   },
   {
     "id": "person-catherine-great",
@@ -958,7 +1015,8 @@
     ],
     "birthPlace": "Stettin, Prussia",
     "nationality": "German-Russian",
-    "wikipediaTitle": "Catherine_the_Great"
+    "wikipediaTitle": "Catherine_the_Great",
+    "wikidataId": "Q36450"
   },
   {
     "id": "object-principia-mathematica",
@@ -972,7 +1030,8 @@
     ],
     "language": "Latin",
     "subject": "Natural philosophy, Mathematics",
-    "wikipediaTitle": "Philosophiæ_Naturalis_Principia_Mathematica"
+    "wikipediaTitle": "Philosophiæ_Naturalis_Principia_Mathematica",
+    "wikidataId": "Q205921"
   },
   {
     "id": "object-essay-human-understanding",
@@ -986,7 +1045,8 @@
     ],
     "language": "English",
     "subject": "Philosophy, Epistemology",
-    "wikipediaTitle": "An_Essay_Concerning_Human_Understanding"
+    "wikipediaTitle": "An_Essay_Concerning_Human_Understanding",
+    "wikidataId": "Q482438"
   },
   {
     "id": "object-two-treatises",
@@ -1000,7 +1060,8 @@
     ],
     "language": "English",
     "subject": "Political philosophy",
-    "wikipediaTitle": "Two_Treatises_of_Government"
+    "wikipediaTitle": "Two_Treatises_of_Government",
+    "wikidataId": "Q231949"
   },
   {
     "id": "object-letter-toleration",
@@ -1027,7 +1088,8 @@
         "url": "https://oll.libertyfund.org/title/goldie-a-letter-concerning-toleration-and-other-writings"
       }
     ],
-    "wikipediaTitle": "A_Letter_Concerning_Toleration"
+    "wikipediaTitle": "A_Letter_Concerning_Toleration",
+    "wikidataId": "Q914139"
   },
   {
     "id": "object-opticks",
@@ -1041,7 +1103,8 @@
     ],
     "language": "English",
     "subject": "Natural philosophy, Optics",
-    "wikipediaTitle": "Opticks"
+    "wikipediaTitle": "Opticks",
+    "wikidataId": "Q74263"
   },
   {
     "id": "object-theodicy",
@@ -1055,7 +1118,8 @@
     ],
     "language": "French",
     "subject": "Philosophy, Theology",
-    "wikipediaTitle": "Théodicée"
+    "wikipediaTitle": "Théodicée",
+    "wikidataId": "Q2166858"
   },
   {
     "id": "object-characteristics",
@@ -1069,7 +1133,8 @@
     ],
     "language": "English",
     "subject": "Moral philosophy",
-    "wikipediaTitle": "Characteristics_of_Men,_Manners,_Opinions,_Times"
+    "wikipediaTitle": "Characteristics_of_Men,_Manners,_Opinions,_Times",
+    "wikidataId": "Q335112"
   },
   {
     "id": "object-fable-bees",
@@ -1083,7 +1148,8 @@
     ],
     "language": "English",
     "subject": "Philosophy, Economics",
-    "wikipediaTitle": "The_Fable_of_the_Bees"
+    "wikipediaTitle": "The_Fable_of_the_Bees",
+    "wikidataId": "Q1171104"
   },
   {
     "id": "object-monadology",
@@ -1111,7 +1177,8 @@
         "url": "https://archive.org/details/monadologyothers00leib"
       }
     ],
-    "wikipediaTitle": "Monadology"
+    "wikipediaTitle": "Monadology",
+    "wikidataId": "Q1211539"
   },
   {
     "id": "object-persian-letters",
@@ -1124,7 +1191,8 @@
       "person-montesquieu"
     ],
     "language": "French",
-    "wikipediaTitle": "Persian_Letters"
+    "wikipediaTitle": "Persian_Letters",
+    "wikidataId": "Q1050479"
   },
   {
     "id": "object-letters-english",
@@ -1140,7 +1208,8 @@
       "person-voltaire"
     ],
     "language": "French",
-    "wikipediaTitle": "Letters_on_the_English"
+    "wikipediaTitle": "Letters_on_the_English",
+    "wikidataId": "Q2551373"
   },
   {
     "id": "object-elements-newton",
@@ -1155,7 +1224,8 @@
     ],
     "language": "French",
     "subject": "Natural philosophy",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-traite-dynamique",
@@ -1169,7 +1239,8 @@
     ],
     "language": "French",
     "subject": "Mathematical physics",
-    "wikipediaTitle": "Traité_de_Dynamique"
+    "wikipediaTitle": "Traité_de_Dynamique",
+    "wikidataId": null
   },
   {
     "id": "object-essay-origin-knowledge",
@@ -1183,7 +1254,8 @@
     ],
     "language": "French",
     "subject": "Epistemology",
-    "wikipediaTitle": "Essay_on_the_Origin_of_Human_Knowledge"
+    "wikipediaTitle": "Essay_on_the_Origin_of_Human_Knowledge",
+    "wikidataId": null
   },
   {
     "id": "object-natural-history-soul",
@@ -1197,7 +1269,8 @@
     ],
     "language": "French",
     "subject": "Materialist philosophy",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-homme-machine",
@@ -1214,7 +1287,8 @@
     ],
     "language": "French",
     "subject": "Materialist philosophy",
-    "wikipediaTitle": "Man_a_Machine"
+    "wikipediaTitle": "Man_a_Machine",
+    "wikidataId": "Q3203583"
   },
   {
     "id": "object-spirit-laws",
@@ -1231,7 +1305,8 @@
     ],
     "language": "French",
     "subject": "Political philosophy",
-    "wikipediaTitle": "The_Spirit_of_the_Laws"
+    "wikipediaTitle": "The_Spirit_of_the_Laws",
+    "wikidataId": "Q514727"
   },
   {
     "id": "object-histoire-naturelle",
@@ -1246,7 +1321,8 @@
     ],
     "language": "French",
     "subject": "Natural history",
-    "wikipediaTitle": "Histoire_Naturelle"
+    "wikipediaTitle": "Histoire_Naturelle",
+    "wikidataId": "Q3138032"
   },
   {
     "id": "object-encyclopedie",
@@ -1262,7 +1338,8 @@
     ],
     "language": "French",
     "subject": "Arts, Sciences, Trades",
-    "wikipediaTitle": "Encyclopédie"
+    "wikipediaTitle": "Encyclopédie",
+    "wikidataId": "Q447"
   },
   {
     "id": "object-preliminary-discourse",
@@ -1276,7 +1353,8 @@
     ],
     "language": "French",
     "subject": "Philosophy of knowledge",
-    "wikipediaTitle": "Preliminary_Discourse_to_the_Encyclopedia_of_Diderot"
+    "wikipediaTitle": "Preliminary_Discourse_to_the_Encyclopedia_of_Diderot",
+    "wikidataId": "Q3030210"
   },
   {
     "id": "object-treatise-sensations",
@@ -1290,7 +1368,8 @@
     ],
     "language": "French",
     "subject": "Epistemology",
-    "wikipediaTitle": "Treatise_on_Sensations"
+    "wikipediaTitle": "Treatise_on_Sensations",
+    "wikidataId": null
   },
   {
     "id": "object-discourse-inequality",
@@ -1304,7 +1383,8 @@
     ],
     "language": "French",
     "subject": "Political philosophy",
-    "wikipediaTitle": "Discourse_on_Inequality"
+    "wikipediaTitle": "Discourse_on_Inequality",
+    "wikidataId": "Q135598"
   },
   {
     "id": "object-de-lesprit",
@@ -1321,7 +1401,8 @@
     ],
     "language": "French",
     "subject": "Moral philosophy",
-    "wikipediaTitle": "De_l'esprit"
+    "wikipediaTitle": "De_l'esprit",
+    "wikidataId": null
   },
   {
     "id": "object-tableau-economique",
@@ -1345,7 +1426,8 @@
         "url": "https://archive.org/details/tableaueconomiqu00ques"
       }
     ],
-    "wikipediaTitle": "Tableau_économique"
+    "wikipediaTitle": "Tableau_économique",
+    "wikidataId": "Q1747160"
   },
   {
     "id": "object-candide",
@@ -1358,7 +1440,8 @@
       "person-voltaire"
     ],
     "language": "French",
-    "wikipediaTitle": "Candide"
+    "wikipediaTitle": "Candide",
+    "wikidataId": "Q215894"
   },
   {
     "id": "object-christianity-unveiled",
@@ -1372,7 +1455,8 @@
     ],
     "language": "French",
     "subject": "Religious criticism",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-social-contract",
@@ -1389,7 +1473,8 @@
     ],
     "language": "French",
     "subject": "Political philosophy",
-    "wikipediaTitle": "The_Social_Contract"
+    "wikipediaTitle": "The_Social_Contract",
+    "wikidataId": "Q190126"
   },
   {
     "id": "object-emile",
@@ -1403,7 +1488,8 @@
     ],
     "language": "French",
     "subject": "Educational philosophy",
-    "wikipediaTitle": "Emile,_or_On_Education"
+    "wikipediaTitle": "Emile,_or_On_Education",
+    "wikidataId": "Q913599"
   },
   {
     "id": "object-philosophical-dictionary",
@@ -1416,7 +1502,8 @@
       "person-voltaire"
     ],
     "language": "French",
-    "wikipediaTitle": "Dictionnaire_philosophique"
+    "wikipediaTitle": "Dictionnaire_philosophique",
+    "wikidataId": "Q656976"
   },
   {
     "id": "object-reflections-wealth",
@@ -1440,7 +1527,8 @@
         "url": "https://oll.libertyfund.org/title/turgot-reflections-on-the-formation-and-distribution-of-riches"
       }
     ],
-    "wikipediaTitle": "Reflections_on_the_Formation_and_Distribution_of_Riches"
+    "wikipediaTitle": "Reflections_on_the_Formation_and_Distribution_of_Riches",
+    "wikidataId": null
   },
   {
     "id": "object-system-nature",
@@ -1454,7 +1542,8 @@
     ],
     "language": "French",
     "subject": "Philosophy",
-    "wikipediaTitle": "The_System_of_Nature"
+    "wikipediaTitle": "The_System_of_Nature",
+    "wikidataId": "Q1111930"
   },
   {
     "id": "object-sketch-progress",
@@ -1468,7 +1557,8 @@
     ],
     "language": "French",
     "subject": "Philosophy of history",
-    "wikipediaTitle": "Sketch_for_a_Historical_Picture_of_the_Progress_of_the_Human_Mind"
+    "wikipediaTitle": "Sketch_for_a_Historical_Picture_of_the_Progress_of_the_Human_Mind",
+    "wikidataId": "Q7534728"
   },
   {
     "id": "object-principles-human-knowledge",
@@ -1482,7 +1572,8 @@
     ],
     "language": "English",
     "subject": "Philosophy",
-    "wikipediaTitle": "A_Treatise_Concerning_the_Principles_of_Human_Knowledge"
+    "wikipediaTitle": "A_Treatise_Concerning_the_Principles_of_Human_Knowledge",
+    "wikidataId": "Q3267928"
   },
   {
     "id": "object-three-dialogues",
@@ -1496,7 +1587,8 @@
     ],
     "language": "English",
     "subject": "Philosophy",
-    "wikipediaTitle": "Three_Dialogues_between_Hylas_and_Philonous"
+    "wikipediaTitle": "Three_Dialogues_between_Hylas_and_Philonous",
+    "wikidataId": null
   },
   {
     "id": "object-inquiry-beauty-virtue",
@@ -1510,7 +1602,8 @@
     ],
     "language": "English",
     "subject": "Moral philosophy",
-    "wikipediaTitle": "An_Inquiry_into_the_Original_of_Our_Ideas_of_Beauty_and_Virtue"
+    "wikipediaTitle": "An_Inquiry_into_the_Original_of_Our_Ideas_of_Beauty_and_Virtue",
+    "wikidataId": null
   },
   {
     "id": "object-treatise-human-nature",
@@ -1524,7 +1617,8 @@
     ],
     "language": "English",
     "subject": "Philosophy",
-    "wikipediaTitle": "A_Treatise_of_Human_Nature"
+    "wikipediaTitle": "A_Treatise_of_Human_Nature",
+    "wikidataId": "Q2451675"
   },
   {
     "id": "object-enquiry-human-understanding",
@@ -1538,7 +1632,8 @@
     ],
     "language": "English",
     "subject": "Philosophy",
-    "wikipediaTitle": "An_Enquiry_Concerning_Human_Understanding"
+    "wikipediaTitle": "An_Enquiry_Concerning_Human_Understanding",
+    "wikidataId": "Q1306656"
   },
   {
     "id": "object-essays-morality-religion",
@@ -1552,7 +1647,8 @@
     ],
     "language": "English",
     "subject": "Philosophy",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-history-england",
@@ -1567,7 +1663,8 @@
     ],
     "language": "English",
     "subject": "History",
-    "wikipediaTitle": "The_History_of_England_(Hume)"
+    "wikipediaTitle": "The_History_of_England_(Hume)",
+    "wikidataId": "Q7739783"
   },
   {
     "id": "object-sublime-beautiful",
@@ -1581,7 +1678,8 @@
     ],
     "language": "English",
     "subject": "Aesthetics",
-    "wikipediaTitle": "A_Philosophical_Enquiry_into_the_Origin_of_Our_Ideas_of_the_Sublime_and_Beautiful"
+    "wikipediaTitle": "A_Philosophical_Enquiry_into_the_Origin_of_Our_Ideas_of_the_Sublime_and_Beautiful",
+    "wikidataId": "Q947972"
   },
   {
     "id": "object-theory-moral-sentiments",
@@ -1595,7 +1693,8 @@
     ],
     "language": "English",
     "subject": "Moral philosophy",
-    "wikipediaTitle": "The_Theory_of_Moral_Sentiments"
+    "wikipediaTitle": "The_Theory_of_Moral_Sentiments",
+    "wikidataId": "Q1438448"
   },
   {
     "id": "object-history-scotland",
@@ -1609,7 +1708,8 @@
     ],
     "language": "English",
     "subject": "History",
-    "wikipediaTitle": "History_of_Scotland_(Robertson)"
+    "wikipediaTitle": "History_of_Scotland_(Robertson)",
+    "wikidataId": null
   },
   {
     "id": "object-elements-criticism",
@@ -1623,7 +1723,8 @@
     ],
     "language": "English",
     "subject": "Aesthetics",
-    "wikipediaTitle": "Elements_of_Criticism"
+    "wikipediaTitle": "Elements_of_Criticism",
+    "wikidataId": null
   },
   {
     "id": "object-inquiry-common-sense",
@@ -1637,7 +1738,8 @@
     ],
     "language": "English",
     "subject": "Philosophy",
-    "wikipediaTitle": "Inquiry_into_the_Human_Mind"
+    "wikipediaTitle": "Inquiry_into_the_Human_Mind",
+    "wikidataId": null
   },
   {
     "id": "object-essay-civil-society",
@@ -1651,7 +1753,8 @@
     ],
     "language": "English",
     "subject": "Social philosophy",
-    "wikipediaTitle": "An_Essay_on_the_History_of_Civil_Society"
+    "wikipediaTitle": "An_Essay_on_the_History_of_Civil_Society",
+    "wikidataId": "Q4749931"
   },
   {
     "id": "object-wealth-nations",
@@ -1665,7 +1768,8 @@
     ],
     "language": "English",
     "subject": "Economics",
-    "wikipediaTitle": "The_Wealth_of_Nations"
+    "wikipediaTitle": "The_Wealth_of_Nations",
+    "wikidataId": "Q233562"
   },
   {
     "id": "object-dialogues-natural-religion",
@@ -1679,7 +1783,8 @@
     ],
     "language": "English",
     "subject": "Philosophy of religion",
-    "wikipediaTitle": "Dialogues_Concerning_Natural_Religion"
+    "wikipediaTitle": "Dialogues_Concerning_Natural_Religion",
+    "wikidataId": "Q965564"
   },
   {
     "id": "object-reflections-revolution",
@@ -1693,7 +1798,8 @@
     ],
     "language": "English",
     "subject": "Political philosophy",
-    "wikipediaTitle": "Reflections_on_the_Revolution_in_France"
+    "wikipediaTitle": "Reflections_on_the_Revolution_in_France",
+    "wikidataId": "Q2287584"
   },
   {
     "id": "object-principles-morals-legislation",
@@ -1707,7 +1813,8 @@
     ],
     "language": "English",
     "subject": "Philosophy, Jurisprudence",
-    "wikipediaTitle": "An_Introduction_to_the_Principles_of_Morals_and_Legislation"
+    "wikipediaTitle": "An_Introduction_to_the_Principles_of_Morals_and_Legislation",
+    "wikidataId": "Q19041209"
   },
   {
     "id": "object-german-logic",
@@ -1724,7 +1831,8 @@
     ],
     "language": "German",
     "subject": "Philosophy",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-aesthetica",
@@ -1738,7 +1846,8 @@
     ],
     "language": "Latin",
     "subject": "Aesthetics",
-    "wikipediaTitle": "Aesthetica"
+    "wikipediaTitle": "Aesthetica",
+    "wikidataId": "Q3606120"
   },
   {
     "id": "object-metaphysica",
@@ -1752,7 +1861,8 @@
     ],
     "language": "Latin",
     "subject": "Metaphysics",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-laocoon",
@@ -1766,7 +1876,8 @@
     ],
     "language": "German",
     "subject": "Aesthetics",
-    "wikipediaTitle": "Laocoön_(essay)"
+    "wikipediaTitle": "Laocoön_(essay)",
+    "wikidataId": null
   },
   {
     "id": "object-phadon",
@@ -1780,7 +1891,8 @@
     ],
     "language": "German",
     "subject": "Philosophy",
-    "wikipediaTitle": "Phädon"
+    "wikipediaTitle": "Phädon",
+    "wikidataId": null
   },
   {
     "id": "object-treatise-origin-language",
@@ -1794,7 +1906,8 @@
     ],
     "language": "German",
     "subject": "Philosophy of language",
-    "wikipediaTitle": "Treatise_on_the_Origin_of_Language"
+    "wikipediaTitle": "Treatise_on_the_Origin_of_Language",
+    "wikidataId": null
   },
   {
     "id": "object-nathan-wise",
@@ -1807,7 +1920,8 @@
       "person-gotthold-lessing"
     ],
     "language": "German",
-    "wikipediaTitle": "Nathan_the_Wise"
+    "wikipediaTitle": "Nathan_the_Wise",
+    "wikidataId": "Q286611"
   },
   {
     "id": "object-critique-pure-reason",
@@ -1821,7 +1935,8 @@
     ],
     "language": "German",
     "subject": "Philosophy",
-    "wikipediaTitle": "Critique_of_Pure_Reason"
+    "wikipediaTitle": "Critique_of_Pure_Reason",
+    "wikidataId": "Q220002"
   },
   {
     "id": "object-jerusalem",
@@ -1835,7 +1950,8 @@
     ],
     "language": "German",
     "subject": "Political philosophy, Theology",
-    "wikipediaTitle": "Jerusalem_(Mendelssohn)"
+    "wikipediaTitle": "Jerusalem_(Mendelssohn)",
+    "wikidataId": null
   },
   {
     "id": "object-what-is-enlightenment",
@@ -1848,7 +1964,8 @@
       "person-immanuel-kant"
     ],
     "language": "German",
-    "wikipediaTitle": "Answering_the_Question:_What_Is_Enlightenment%3F"
+    "wikipediaTitle": "Answering_the_Question:_What_Is_Enlightenment%3F",
+    "wikidataId": null
   },
   {
     "id": "object-ideas-philosophy-history",
@@ -1863,7 +1980,8 @@
     ],
     "language": "German",
     "subject": "Philosophy of history",
-    "wikipediaTitle": "Outlines_of_a_Philosophy_of_the_History_of_Man"
+    "wikipediaTitle": "Outlines_of_a_Philosophy_of_the_History_of_Man",
+    "wikidataId": null
   },
   {
     "id": "object-critique-practical-reason",
@@ -1877,7 +1995,8 @@
     ],
     "language": "German",
     "subject": "Moral philosophy",
-    "wikipediaTitle": "Critique_of_Practical_Reason"
+    "wikipediaTitle": "Critique_of_Practical_Reason",
+    "wikidataId": "Q870851"
   },
   {
     "id": "object-critique-judgment",
@@ -1891,7 +2010,8 @@
     ],
     "language": "German",
     "subject": "Aesthetics, Philosophy",
-    "wikipediaTitle": "Critique_of_Judgment"
+    "wikipediaTitle": "Critique_of_Judgment",
+    "wikidataId": "Q1056332"
   },
   {
     "id": "object-crimes-punishments",
@@ -1908,7 +2028,8 @@
     ],
     "language": "Italian",
     "subject": "Legal philosophy",
-    "wikipediaTitle": "On_Crimes_and_Punishments"
+    "wikipediaTitle": "On_Crimes_and_Punishments",
+    "wikidataId": "Q2755269"
   },
   {
     "id": "object-experiments-electricity",
@@ -1922,7 +2043,8 @@
     ],
     "language": "English",
     "subject": "Natural philosophy",
-    "wikipediaTitle": "Experiments_and_Observations_on_Electricity"
+    "wikipediaTitle": "Experiments_and_Observations_on_Electricity",
+    "wikidataId": "Q19108828"
   },
   {
     "id": "object-common-sense",
@@ -1936,7 +2058,8 @@
     ],
     "language": "English",
     "subject": "Political philosophy",
-    "wikipediaTitle": "Common_Sense"
+    "wikipediaTitle": "Common_Sense",
+    "wikidataId": "Q843940"
   },
   {
     "id": "object-declaration-independence",
@@ -1950,7 +2073,8 @@
     ],
     "language": "English",
     "subject": "Political philosophy",
-    "wikipediaTitle": "United_States_Declaration_of_Independence"
+    "wikipediaTitle": "United_States_Declaration_of_Independence",
+    "wikidataId": "Q127912"
   },
   {
     "id": "object-virginia-statute",
@@ -1963,7 +2087,8 @@
       "person-thomas-jefferson"
     ],
     "language": "English",
-    "wikipediaTitle": "Virginia_Statute_for_Religious_Freedom"
+    "wikipediaTitle": "Virginia_Statute_for_Religious_Freedom",
+    "wikidataId": "Q4086736"
   },
   {
     "id": "object-notes-virginia",
@@ -1977,7 +2102,8 @@
     ],
     "language": "English",
     "subject": "Natural history, Politics",
-    "wikipediaTitle": "Notes_on_the_State_of_Virginia"
+    "wikipediaTitle": "Notes_on_the_State_of_Virginia",
+    "wikidataId": "Q4261404"
   },
   {
     "id": "object-federalist-papers",
@@ -1992,7 +2118,8 @@
     ],
     "language": "English",
     "subject": "Political philosophy",
-    "wikipediaTitle": "The_Federalist_Papers"
+    "wikipediaTitle": "The_Federalist_Papers",
+    "wikidataId": "Q858036"
   },
   {
     "id": "object-rights-man",
@@ -2006,7 +2133,8 @@
     ],
     "language": "English",
     "subject": "Political philosophy",
-    "wikipediaTitle": "Rights_of_Man"
+    "wikipediaTitle": "Rights_of_Man",
+    "wikidataId": "Q979108"
   },
   {
     "id": "object-age-reason",
@@ -2020,7 +2148,8 @@
     ],
     "language": "English",
     "subject": "Religious criticism",
-    "wikipediaTitle": "The_Age_of_Reason"
+    "wikipediaTitle": "The_Age_of_Reason",
+    "wikidataId": "Q1983019"
   },
   {
     "id": "object-institutions-physique",
@@ -2034,7 +2163,8 @@
     ],
     "language": "French",
     "subject": "Natural philosophy",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-principia-translation",
@@ -2048,7 +2178,8 @@
     ],
     "language": "French",
     "subject": "Natural philosophy",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-elements-chemistry",
@@ -2062,7 +2193,8 @@
     ],
     "language": "French",
     "subject": "Chemistry",
-    "wikipediaTitle": "Traité_Élémentaire_de_Chimie"
+    "wikipediaTitle": "Traité_Élémentaire_de_Chimie",
+    "wikidataId": "Q2163561"
   },
   {
     "id": "object-essay-probability-decisions",
@@ -2076,7 +2208,8 @@
     ],
     "language": "French",
     "subject": "Mathematics, Political science",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-paris",
@@ -2085,7 +2218,8 @@
     "shortDescription": "Capital of the Enlightenment",
     "locationType": "city",
     "country": "France",
-    "wikipediaTitle": "Paris"
+    "wikipediaTitle": "Paris",
+    "wikidataId": "Q90"
   },
   {
     "id": "location-edinburgh",
@@ -2094,7 +2228,8 @@
     "shortDescription": "Athens of the North - center of Scottish Enlightenment",
     "locationType": "city",
     "country": "Scotland",
-    "wikipediaTitle": "Edinburgh"
+    "wikipediaTitle": "Edinburgh",
+    "wikidataId": "Q23436"
   },
   {
     "id": "location-london",
@@ -2103,7 +2238,8 @@
     "shortDescription": "Commercial and intellectual center of Britain",
     "locationType": "city",
     "country": "England",
-    "wikipediaTitle": "London"
+    "wikipediaTitle": "London",
+    "wikidataId": "Q84"
   },
   {
     "id": "location-berlin",
@@ -2112,7 +2248,8 @@
     "shortDescription": "Capital of Prussia and center of German Aufklärung",
     "locationType": "city",
     "country": "Prussia",
-    "wikipediaTitle": "Berlin"
+    "wikipediaTitle": "Berlin",
+    "wikidataId": "Q64"
   },
   {
     "id": "location-geneva",
@@ -2121,7 +2258,8 @@
     "shortDescription": "Calvinist republic and publishing center",
     "locationType": "city-state",
     "country": "Swiss Confederation",
-    "wikipediaTitle": "Geneva"
+    "wikipediaTitle": "Geneva",
+    "wikidataId": "Q71"
   },
   {
     "id": "location-amsterdam",
@@ -2130,7 +2268,8 @@
     "shortDescription": "Major publishing center for controversial works",
     "locationType": "city",
     "country": "Dutch Republic",
-    "wikipediaTitle": "Amsterdam"
+    "wikipediaTitle": "Amsterdam",
+    "wikidataId": "Q727"
   },
   {
     "id": "location-glasgow",
@@ -2139,7 +2278,8 @@
     "shortDescription": "Home to University of Glasgow and Scottish philosophers",
     "locationType": "city",
     "country": "Scotland",
-    "wikipediaTitle": "Glasgow"
+    "wikipediaTitle": "Glasgow",
+    "wikidataId": "Q4093"
   },
   {
     "id": "location-philadelphia",
@@ -2148,7 +2288,8 @@
     "shortDescription": "Center of American Enlightenment",
     "locationType": "city",
     "country": "United States",
-    "wikipediaTitle": "Philadelphia"
+    "wikipediaTitle": "Philadelphia",
+    "wikidataId": "Q1345"
   },
   {
     "id": "location-konigsberg",
@@ -2157,7 +2298,8 @@
     "shortDescription": "Kant's lifelong home",
     "locationType": "city",
     "country": "Prussia",
-    "wikipediaTitle": "Königsberg"
+    "wikipediaTitle": "Königsberg",
+    "wikidataId": "Q4120832"
   },
   {
     "id": "location-vienna",
@@ -2166,7 +2308,8 @@
     "shortDescription": "Center of Habsburg reformism",
     "locationType": "city",
     "country": "Habsburg Empire",
-    "wikipediaTitle": "Vienna"
+    "wikipediaTitle": "Vienna",
+    "wikidataId": "Q1741"
   },
   {
     "id": "location-st-petersburg",
@@ -2175,7 +2318,8 @@
     "shortDescription": "Capital of Russian Empire under Catherine the Great",
     "locationType": "city",
     "country": "Russia",
-    "wikipediaTitle": "Saint_Petersburg"
+    "wikipediaTitle": "Saint_Petersburg",
+    "wikidataId": "Q656"
   },
   {
     "id": "location-milan",
@@ -2184,7 +2328,8 @@
     "shortDescription": "Center of Italian Enlightenment",
     "locationType": "city",
     "country": "Habsburg Italy",
-    "wikipediaTitle": "Milan"
+    "wikipediaTitle": "Milan",
+    "wikidataId": "Q490"
   },
   {
     "id": "location-univ-edinburgh",
@@ -2194,7 +2339,8 @@
     "locationType": "university",
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
-    "wikipediaTitle": "University_of_Edinburgh"
+    "wikipediaTitle": "University_of_Edinburgh",
+    "wikidataId": "Q160302"
   },
   {
     "id": "location-univ-glasgow",
@@ -2204,7 +2350,8 @@
     "locationType": "university",
     "country": "Scotland",
     "parentLocation": "location-glasgow",
-    "wikipediaTitle": "University_of_Glasgow"
+    "wikipediaTitle": "University_of_Glasgow",
+    "wikidataId": "Q192775"
   },
   {
     "id": "location-cambridge",
@@ -2213,7 +2360,8 @@
     "shortDescription": "Newton's academic base",
     "locationType": "university",
     "country": "England",
-    "wikipediaTitle": "University_of_Cambridge"
+    "wikipediaTitle": "University_of_Cambridge",
+    "wikidataId": "Q35794"
   },
   {
     "id": "location-univ-halle",
@@ -2222,7 +2370,8 @@
     "shortDescription": "Center of Wolffian philosophy",
     "locationType": "university",
     "country": "Prussia",
-    "wikipediaTitle": "University_of_Halle"
+    "wikipediaTitle": "University_of_Halle",
+    "wikidataId": null
   },
   {
     "id": "location-univ-konigsberg",
@@ -2232,7 +2381,8 @@
     "locationType": "university",
     "country": "Prussia",
     "parentLocation": "location-konigsberg",
-    "wikipediaTitle": "University_of_Königsberg"
+    "wikipediaTitle": "University_of_Königsberg",
+    "wikidataId": "Q672420"
   },
   {
     "id": "location-sorbonne",
@@ -2242,7 +2392,8 @@
     "locationType": "university",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": "University_of_Paris"
+    "wikipediaTitle": "University_of_Paris",
+    "wikidataId": "Q209842"
   },
   {
     "id": "location-academie-francaise",
@@ -2252,7 +2403,8 @@
     "locationType": "academy",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": "Académie_Française"
+    "wikipediaTitle": "Académie_Française",
+    "wikidataId": "Q161806"
   },
   {
     "id": "location-academie-sciences",
@@ -2262,7 +2414,8 @@
     "locationType": "academy",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": "French_Academy_of_Sciences"
+    "wikipediaTitle": "French_Academy_of_Sciences",
+    "wikidataId": "Q188771"
   },
   {
     "id": "location-berlin-academy",
@@ -2272,7 +2425,8 @@
     "locationType": "academy",
     "country": "Prussia",
     "parentLocation": "location-berlin",
-    "wikipediaTitle": "Prussian_Academy_of_Sciences"
+    "wikipediaTitle": "Prussian_Academy_of_Sciences",
+    "wikidataId": "Q329464"
   },
   {
     "id": "location-royal-society",
@@ -2282,7 +2436,8 @@
     "locationType": "academy",
     "country": "England",
     "parentLocation": "location-london",
-    "wikipediaTitle": "Royal_Society"
+    "wikipediaTitle": "Royal_Society",
+    "wikidataId": "Q123885"
   },
   {
     "id": "location-amer-phil-society",
@@ -2292,7 +2447,8 @@
     "locationType": "academy",
     "country": "United States",
     "parentLocation": "location-philadelphia",
-    "wikipediaTitle": "American_Philosophical_Society"
+    "wikipediaTitle": "American_Philosophical_Society",
+    "wikidataId": "Q466089"
   },
   {
     "id": "location-academie-bordeaux",
@@ -2301,7 +2457,8 @@
     "shortDescription": "Provincial academy where Montesquieu was member",
     "locationType": "academy",
     "country": "France",
-    "wikipediaTitle": "Académie_de_Bordeaux"
+    "wikipediaTitle": "Académie_de_Bordeaux",
+    "wikidataId": "Q17033033"
   },
   {
     "id": "location-salon-geoffrin",
@@ -2311,7 +2468,8 @@
     "locationType": "salon",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-salon-holbach",
@@ -2321,7 +2479,8 @@
     "locationType": "salon",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-salon-lespinasse",
@@ -2331,7 +2490,8 @@
     "locationType": "salon",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-salon-deffand",
@@ -2341,7 +2501,8 @@
     "locationType": "salon",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-salon-helvetius",
@@ -2350,7 +2511,8 @@
     "shortDescription": "Connected French and American Enlightenment",
     "locationType": "salon",
     "country": "France",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-sans-souci",
@@ -2359,7 +2521,8 @@
     "shortDescription": "Frederick the Great's summer residence",
     "locationType": "palace",
     "country": "Prussia",
-    "wikipediaTitle": "Sanssouci"
+    "wikipediaTitle": "Sanssouci",
+    "wikidataId": "Q151330"
   },
   {
     "id": "location-versailles",
@@ -2368,7 +2531,8 @@
     "shortDescription": "French royal court",
     "locationType": "palace",
     "country": "France",
-    "wikipediaTitle": "Palace_of_Versailles"
+    "wikipediaTitle": "Palace_of_Versailles",
+    "wikidataId": "Q2946"
   },
   {
     "id": "location-ferney",
@@ -2377,7 +2541,8 @@
     "shortDescription": "Voltaire's estate in final decades",
     "locationType": "estate",
     "country": "France",
-    "wikipediaTitle": "Ferney-Voltaire"
+    "wikipediaTitle": "Ferney-Voltaire",
+    "wikidataId": "Q233733"
   },
   {
     "id": "location-cirey",
@@ -2386,7 +2551,8 @@
     "shortDescription": "Where Voltaire and du Châtelet collaborated",
     "locationType": "chateau",
     "country": "France",
-    "wikipediaTitle": "Château_de_Cirey"
+    "wikipediaTitle": "Château_de_Cirey",
+    "wikidataId": "Q2240551"
   },
   {
     "id": "location-winter-palace",
@@ -2396,7 +2562,8 @@
     "locationType": "palace",
     "country": "Russia",
     "parentLocation": "location-st-petersburg",
-    "wikipediaTitle": "Winter_Palace"
+    "wikipediaTitle": "Winter_Palace",
+    "wikidataId": "Q182147"
   },
   {
     "id": "location-amsterdam-publishing",
@@ -2406,7 +2573,8 @@
     "locationType": "publishing center",
     "country": "Dutch Republic",
     "parentLocation": "location-amsterdam",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-london-publishing",
@@ -2416,7 +2584,8 @@
     "locationType": "publishing center",
     "country": "England",
     "parentLocation": "location-london",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-geneva-publishing",
@@ -2426,7 +2595,8 @@
     "locationType": "publishing center",
     "country": "Swiss Confederation",
     "parentLocation": "location-geneva",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-select-society",
@@ -2438,7 +2608,8 @@
     "locationType": "club",
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
-    "wikipediaTitle": "Select_Society"
+    "wikipediaTitle": "Select_Society",
+    "wikidataId": null
   },
   {
     "id": "location-poker-club",
@@ -2450,7 +2621,8 @@
     "locationType": "club",
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
-    "wikipediaTitle": "The_Poker_Club"
+    "wikipediaTitle": "The_Poker_Club",
+    "wikidataId": "Q7757623"
   },
   {
     "id": "location-rankenian-club",
@@ -2461,7 +2633,8 @@
     "locationType": "club",
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
-    "wikipediaTitle": "Rankenian_Club"
+    "wikipediaTitle": "Rankenian_Club",
+    "wikidataId": null
   },
   {
     "id": "location-cafe-procope",
@@ -2471,7 +2644,8 @@
     "locationType": "coffee house",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": "Café_Procope"
+    "wikipediaTitle": "Café_Procope",
+    "wikidataId": "Q751293"
   },
   {
     "id": "entity-encyclopedie-project",
@@ -2486,7 +2660,8 @@
       "person-dalembert"
     ],
     "headquarters": "location-paris",
-    "wikipediaTitle": "Encyclopédie"
+    "wikipediaTitle": "Encyclopédie",
+    "wikidataId": "Q447"
   },
   {
     "id": "entity-philosophes",
@@ -2497,7 +2672,8 @@
     "dateEnd": "1789",
     "entityType": "intellectual movement",
     "headquarters": "location-paris",
-    "wikipediaTitle": "Philosophes"
+    "wikipediaTitle": "Philosophes",
+    "wikidataId": "Q1672919"
   },
   {
     "id": "entity-scottish-enlightenment",
@@ -2508,7 +2684,8 @@
     "dateEnd": "1800",
     "entityType": "intellectual movement",
     "headquarters": "location-edinburgh",
-    "wikipediaTitle": "Scottish_Enlightenment"
+    "wikipediaTitle": "Scottish_Enlightenment",
+    "wikidataId": "Q1063038"
   },
   {
     "id": "entity-aufklarung",
@@ -2518,7 +2695,8 @@
     "dateStart": "1700",
     "dateEnd": "1800",
     "entityType": "intellectual movement",
-    "wikipediaTitle": "Aufklärung"
+    "wikipediaTitle": "Aufklärung",
+    "wikidataId": "Q136274201"
   },
   {
     "id": "entity-haskalah",
@@ -2532,7 +2710,8 @@
       "person-moses-mendelssohn"
     ],
     "headquarters": "location-berlin",
-    "wikipediaTitle": "Haskalah"
+    "wikipediaTitle": "Haskalah",
+    "wikidataId": "Q472670"
   },
   {
     "id": "entity-physiocracy",
@@ -2546,7 +2725,8 @@
       "person-francois-quesnay"
     ],
     "headquarters": "location-paris",
-    "wikipediaTitle": "Physiocracy"
+    "wikipediaTitle": "Physiocracy",
+    "wikidataId": "Q183244"
   },
   {
     "id": "entity-british-empiricism",
@@ -2556,7 +2736,8 @@
     "dateStart": "1689",
     "dateEnd": "1780",
     "entityType": "philosophical school",
-    "wikipediaTitle": "Empiricism"
+    "wikipediaTitle": "Empiricism",
+    "wikidataId": "Q83368"
   },
   {
     "id": "entity-continental-rationalism",
@@ -2566,7 +2747,8 @@
     "dateStart": "1640",
     "dateEnd": "1780",
     "entityType": "philosophical school",
-    "wikipediaTitle": "Rationalism"
+    "wikipediaTitle": "Rationalism",
+    "wikidataId": "Q483024"
   },
   {
     "id": "entity-utilitarianism",
@@ -2578,7 +2760,8 @@
     "foundedBy": [
       "person-jeremy-bentham"
     ],
-    "wikipediaTitle": "Utilitarianism"
+    "wikipediaTitle": "Utilitarianism",
+    "wikidataId": "Q160590"
   },
   {
     "id": "entity-common-sense-philosophy",
@@ -2591,7 +2774,8 @@
       "person-thomas-reid"
     ],
     "headquarters": "location-glasgow",
-    "wikipediaTitle": "Scottish_common_sense_realism"
+    "wikipediaTitle": "Scottish_common_sense_realism",
+    "wikidataId": "Q1116026"
   },
   {
     "id": "entity-radical-enlightenment",
@@ -2601,7 +2785,8 @@
     "dateStart": "1680",
     "dateEnd": "1789",
     "entityType": "intellectual tendency",
-    "wikipediaTitle": "Radical_Enlightenment"
+    "wikipediaTitle": "Radical_Enlightenment",
+    "wikidataId": null
   },
   {
     "id": "entity-academie-francaise",
@@ -2611,7 +2796,8 @@
     "dateStart": "1635",
     "entityType": "official academy",
     "headquarters": "location-paris",
-    "wikipediaTitle": "Académie_Française"
+    "wikipediaTitle": "Académie_Française",
+    "wikidataId": "Q161806"
   },
   {
     "id": "entity-academie-sciences",
@@ -2621,7 +2807,8 @@
     "dateStart": "1666",
     "entityType": "scientific academy",
     "headquarters": "location-paris",
-    "wikipediaTitle": "French_Academy_of_Sciences"
+    "wikipediaTitle": "French_Academy_of_Sciences",
+    "wikidataId": "Q188771"
   },
   {
     "id": "entity-berlin-academy",
@@ -2634,7 +2821,8 @@
       "person-leibniz"
     ],
     "headquarters": "location-berlin",
-    "wikipediaTitle": "Prussian_Academy_of_Sciences"
+    "wikipediaTitle": "Prussian_Academy_of_Sciences",
+    "wikidataId": "Q329464"
   },
   {
     "id": "entity-royal-society",
@@ -2644,7 +2832,8 @@
     "dateStart": "1660",
     "entityType": "scientific society",
     "headquarters": "location-london",
-    "wikipediaTitle": "Royal_Society"
+    "wikipediaTitle": "Royal_Society",
+    "wikidataId": "Q123885"
   },
   {
     "id": "entity-amer-phil-society",
@@ -2657,7 +2846,8 @@
       "person-benjamin-franklin"
     ],
     "headquarters": "location-philadelphia",
-    "wikipediaTitle": "American_Philosophical_Society"
+    "wikipediaTitle": "American_Philosophical_Society",
+    "wikidataId": "Q466089"
   },
   {
     "id": "entity-holbach-circle",
@@ -2674,7 +2864,8 @@
       "person-dholbach"
     ],
     "headquarters": "location-salon-holbach",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-edinburgh-literati",
@@ -2685,7 +2876,8 @@
     "dateEnd": "1800",
     "entityType": "intellectual network",
     "headquarters": "location-edinburgh",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-american-founders",
@@ -2696,7 +2888,8 @@
     "dateEnd": "1800",
     "entityType": "political circle",
     "headquarters": "location-philadelphia",
-    "wikipediaTitle": "Founding_Fathers_of_the_United_States"
+    "wikipediaTitle": "Founding_Fathers_of_the_United_States",
+    "wikidataId": "Q186539"
   },
   {
     "id": "entity-journal-savants",
@@ -2706,7 +2899,8 @@
     "dateStart": "1665",
     "entityType": "academic journal",
     "headquarters": "location-paris",
-    "wikipediaTitle": "Journal_des_sçavans"
+    "wikipediaTitle": "Journal_des_sçavans",
+    "wikidataId": "Q927072"
   },
   {
     "id": "entity-ephemerides",
@@ -2717,7 +2911,8 @@
     "dateEnd": "1772",
     "entityType": "journal",
     "headquarters": "location-paris",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-berlinische-monatsschrift",
@@ -2728,7 +2923,8 @@
     "dateEnd": "1796",
     "entityType": "journal",
     "headquarters": "location-berlin",
-    "wikipediaTitle": "Berlinische_Monatsschrift"
+    "wikipediaTitle": "Berlinische_Monatsschrift",
+    "wikidataId": "Q821914"
   },
   {
     "id": "entity-religious-toleration",
@@ -2736,7 +2932,8 @@
     "title": "Religious Toleration Movement",
     "shortDescription": "Central Enlightenment cause",
     "entityType": "reform movement",
-    "wikipediaTitle": "Religious_toleration"
+    "wikipediaTitle": "Religious_toleration",
+    "wikidataId": null
   },
   {
     "id": "entity-criminal-justice-reform",
@@ -2746,7 +2943,8 @@
     "dateStart": "1760",
     "dateEnd": "1800",
     "entityType": "reform movement",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-enlightened-despotism",
@@ -2756,7 +2954,8 @@
     "dateStart": "1740",
     "dateEnd": "1790",
     "entityType": "political phenomenon",
-    "wikipediaTitle": "Enlightened_absolutism"
+    "wikipediaTitle": "Enlightened_absolutism",
+    "wikidataId": "Q219934"
   },
   {
     "id": "entity-deism",
@@ -2766,7 +2965,8 @@
     "dateStart": "1690",
     "dateEnd": "1800",
     "entityType": "religious position",
-    "wikipediaTitle": "Deism"
+    "wikipediaTitle": "Deism",
+    "wikidataId": "Q620629"
   },
   {
     "id": "entity-enlightenment-atheism",
@@ -2776,7 +2976,8 @@
     "dateStart": "1740",
     "dateEnd": "1790",
     "entityType": "philosophical position",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-moderate-enlightenment",
@@ -2784,7 +2985,8 @@
     "title": "Moderate Enlightenment",
     "shortDescription": "Reconciling Christianity with Enlightenment values",
     "entityType": "religious tendency",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-united-states",
@@ -2794,7 +2996,8 @@
     "dateStart": "1776",
     "entityType": "nation-state",
     "headquarters": "location-philadelphia",
-    "wikipediaTitle": "United_States"
+    "wikipediaTitle": "United_States",
+    "wikidataId": "Q30"
   },
   {
     "id": "entity-french-revolution",
@@ -2805,6 +3008,7 @@
     "dateEnd": "1799",
     "entityType": "political transformation",
     "headquarters": "location-paris",
-    "wikipediaTitle": "French_Revolution"
+    "wikipediaTitle": "French_Revolution",
+    "wikidataId": "Q6534"
   }
 ]

@@ -16,7 +16,8 @@
     "birthPlace": "Eisleben, Saxony",
     "deathPlace": "Eisleben, Saxony",
     "nationality": "German",
-    "wikipediaTitle": "Martin_Luther"
+    "wikipediaTitle": "Martin_Luther",
+    "wikidataId": "Q9554"
   },
   {
     "id": "person-john-calvin",
@@ -39,7 +40,8 @@
     "birthPlace": "Noyon, France",
     "deathPlace": "Geneva",
     "nationality": "French",
-    "wikipediaTitle": "John_Calvin"
+    "wikipediaTitle": "John_Calvin",
+    "wikidataId": "Q37577"
   },
   {
     "id": "person-huldrych-zwingli",
@@ -60,7 +62,8 @@
     "birthPlace": "Wildhaus, Switzerland",
     "deathPlace": "Kappel, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Huldrych_Zwingli"
+    "wikipediaTitle": "Huldrych_Zwingli",
+    "wikidataId": "Q123034"
   },
   {
     "id": "person-erasmus-of-rotterdam",
@@ -82,7 +85,8 @@
     "birthPlace": "Rotterdam, Netherlands",
     "deathPlace": "Basel, Switzerland",
     "nationality": "Dutch",
-    "wikipediaTitle": "Erasmus"
+    "wikipediaTitle": "Erasmus",
+    "wikidataId": "Q43499"
   },
   {
     "id": "person-william-tyndale",
@@ -100,7 +104,8 @@
     "birthPlace": "Gloucestershire, England",
     "deathPlace": "Vilvoorde, Belgium",
     "nationality": "English",
-    "wikipediaTitle": "William_Tyndale"
+    "wikipediaTitle": "William_Tyndale",
+    "wikidataId": "Q219639"
   },
   {
     "id": "person-thomas-cranmer",
@@ -118,7 +123,8 @@
     "birthPlace": "Aslockton, England",
     "deathPlace": "Oxford, England",
     "nationality": "English",
-    "wikipediaTitle": "Thomas_Cranmer"
+    "wikipediaTitle": "Thomas_Cranmer",
+    "wikidataId": "Q199894"
   },
   {
     "id": "person-philip-melanchthon",
@@ -139,7 +145,8 @@
     "birthPlace": "Bretten, Germany",
     "deathPlace": "Wittenberg, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Philip_Melanchthon"
+    "wikipediaTitle": "Philip_Melanchthon",
+    "wikidataId": "Q76325"
   },
   {
     "id": "person-johannes-bugenhagen",
@@ -160,7 +167,8 @@
     "birthPlace": "Wollin, Pomerania",
     "deathPlace": "Wittenberg, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Johannes_Bugenhagen"
+    "wikipediaTitle": "Johannes_Bugenhagen",
+    "wikidataId": "Q77260"
   },
   {
     "id": "person-justus-jonas",
@@ -178,7 +186,8 @@
     "birthPlace": "Nordhausen, Germany",
     "deathPlace": "Eisfeld, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Justus_Jonas"
+    "wikipediaTitle": "Justus_Jonas",
+    "wikidataId": "Q38294"
   },
   {
     "id": "person-caspar-cruciger",
@@ -195,7 +204,8 @@
     "birthPlace": "Leipzig, Germany",
     "deathPlace": "Wittenberg, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Caspar_Cruciger_the_Elder"
+    "wikipediaTitle": "Caspar_Cruciger_the_Elder",
+    "wikidataId": null
   },
   {
     "id": "person-georg-spalatin",
@@ -213,7 +223,8 @@
     "birthPlace": "Spalt, Germany",
     "deathPlace": "Altenburg, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Georg_Spalatin"
+    "wikipediaTitle": "Georg_Spalatin",
+    "wikidataId": null
   },
   {
     "id": "person-andreas-karlstadt",
@@ -233,7 +244,8 @@
     "birthPlace": "Karlstadt, Germany",
     "deathPlace": "Basel, Switzerland",
     "nationality": "German",
-    "wikipediaTitle": "Andreas_Karlstadt"
+    "wikipediaTitle": "Andreas_Karlstadt",
+    "wikidataId": "Q60589"
   },
   {
     "id": "person-katharina-von-bora",
@@ -249,7 +261,8 @@
     "birthPlace": "Lippendorf, Germany",
     "deathPlace": "Torgau, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Katharina_von_Bora"
+    "wikipediaTitle": "Katharina_von_Bora",
+    "wikidataId": "Q77239"
   },
   {
     "id": "person-lucas-cranach",
@@ -267,7 +280,8 @@
     "birthPlace": "Kronach, Germany",
     "deathPlace": "Weimar, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Lucas_Cranach_the_Elder"
+    "wikipediaTitle": "Lucas_Cranach_the_Elder",
+    "wikidataId": "Q191748"
   },
   {
     "id": "person-johann-agricola",
@@ -284,7 +298,8 @@
     "birthPlace": "Eisleben, Germany",
     "deathPlace": "Berlin, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Johann_Agricola"
+    "wikipediaTitle": "Johann_Agricola",
+    "wikidataId": null
   },
   {
     "id": "person-thomas-muntzer",
@@ -304,7 +319,8 @@
     "birthPlace": "Stolberg, Germany",
     "deathPlace": "Mühlhausen, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Thomas_Müntzer"
+    "wikipediaTitle": "Thomas_Müntzer",
+    "wikidataId": "Q153981"
   },
   {
     "id": "person-heinrich-bullinger",
@@ -322,7 +338,8 @@
     "birthPlace": "Bremgarten, Switzerland",
     "deathPlace": "Zurich, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Heinrich_Bullinger"
+    "wikipediaTitle": "Heinrich_Bullinger",
+    "wikidataId": "Q123839"
   },
   {
     "id": "person-leo-jud",
@@ -340,7 +357,8 @@
     "birthPlace": "Guémar, Alsace",
     "deathPlace": "Zurich, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Leo_Jud"
+    "wikipediaTitle": "Leo_Jud",
+    "wikidataId": "Q1345599"
   },
   {
     "id": "person-johannes-oecolampadius",
@@ -357,7 +375,8 @@
     "birthPlace": "Weinsberg, Germany",
     "deathPlace": "Basel, Switzerland",
     "nationality": "German",
-    "wikipediaTitle": "Johannes_Oecolampadius"
+    "wikipediaTitle": "Johannes_Oecolampadius",
+    "wikidataId": "Q123450"
   },
   {
     "id": "person-rudolf-gwalther",
@@ -375,7 +394,8 @@
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Zurich, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Rudolf_Gwalther"
+    "wikipediaTitle": "Rudolf_Gwalther",
+    "wikidataId": "Q120138"
   },
   {
     "id": "person-kaspar-megander",
@@ -392,7 +412,8 @@
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Zurich, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Kaspar_Megander"
+    "wikipediaTitle": "Kaspar_Megander",
+    "wikidataId": "Q1735077"
   },
   {
     "id": "person-guillaume-farel",
@@ -409,7 +430,8 @@
     "birthPlace": "Gap, France",
     "deathPlace": "Neuchâtel, Switzerland",
     "nationality": "French",
-    "wikipediaTitle": "William_Farel"
+    "wikipediaTitle": "William_Farel",
+    "wikidataId": "Q435456"
   },
   {
     "id": "person-pierre-viret",
@@ -427,7 +449,8 @@
     "birthPlace": "Orbe, Switzerland",
     "deathPlace": "Orthez, France",
     "nationality": "Swiss",
-    "wikipediaTitle": "Pierre_Viret"
+    "wikipediaTitle": "Pierre_Viret",
+    "wikidataId": "Q123337"
   },
   {
     "id": "person-theodore-beza",
@@ -448,7 +471,8 @@
     "birthPlace": "Vézelay, France",
     "deathPlace": "Geneva, Switzerland",
     "nationality": "French",
-    "wikipediaTitle": "Theodore_Beza"
+    "wikipediaTitle": "Theodore_Beza",
+    "wikidataId": "Q314981"
   },
   {
     "id": "person-pierre-robert-olivetan",
@@ -468,7 +492,8 @@
     "birthPlace": "Noyon, France",
     "deathPlace": "Unknown (possibly Italy)",
     "nationality": "French",
-    "wikipediaTitle": "Olivétan"
+    "wikipediaTitle": "Olivétan",
+    "wikidataId": null
   },
   {
     "id": "person-martin-bucer",
@@ -486,7 +511,8 @@
     "birthPlace": "Schlettstadt, Alsace",
     "deathPlace": "Cambridge, England",
     "nationality": "German",
-    "wikipediaTitle": "Martin_Bucer"
+    "wikipediaTitle": "Martin_Bucer",
+    "wikidataId": "Q318622"
   },
   {
     "id": "person-wolfgang-capito",
@@ -503,7 +529,8 @@
     "birthPlace": "Hagenau, Alsace",
     "deathPlace": "Strasbourg",
     "nationality": "German",
-    "wikipediaTitle": "Wolfgang_Capito"
+    "wikipediaTitle": "Wolfgang_Capito",
+    "wikidataId": "Q1368362"
   },
   {
     "id": "person-katharina-schutz-zell",
@@ -520,7 +547,8 @@
     "birthPlace": "Strasbourg",
     "deathPlace": "Strasbourg",
     "nationality": "German",
-    "wikipediaTitle": "Katharina_Zell"
+    "wikipediaTitle": "Katharina_Zell",
+    "wikidataId": "Q118998"
   },
   {
     "id": "person-matthew-zell",
@@ -537,7 +565,8 @@
     "birthPlace": "Kaysersberg, Alsace",
     "deathPlace": "Strasbourg",
     "nationality": "German",
-    "wikipediaTitle": "Matthew_Zell"
+    "wikipediaTitle": "Matthew_Zell",
+    "wikidataId": "Q85810"
   },
   {
     "id": "person-thomas-cromwell",
@@ -554,7 +583,8 @@
     "birthPlace": "Putney, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Thomas_Cromwell"
+    "wikipediaTitle": "Thomas_Cromwell",
+    "wikidataId": "Q294435"
   },
   {
     "id": "person-hugh-latimer",
@@ -571,7 +601,8 @@
     "birthPlace": "Thurcaston, England",
     "deathPlace": "Oxford, England",
     "nationality": "English",
-    "wikipediaTitle": "Hugh_Latimer"
+    "wikipediaTitle": "Hugh_Latimer",
+    "wikidataId": "Q710046"
   },
   {
     "id": "person-nicholas-ridley",
@@ -588,7 +619,8 @@
     "birthPlace": "South Tynedale, England",
     "deathPlace": "Oxford, England",
     "nationality": "English",
-    "wikipediaTitle": "Nicholas_Ridley_(martyr)"
+    "wikipediaTitle": "Nicholas_Ridley_(martyr)",
+    "wikidataId": "Q741030"
   },
   {
     "id": "person-miles-coverdale",
@@ -605,7 +637,8 @@
     "birthPlace": "York, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Miles_Coverdale"
+    "wikipediaTitle": "Miles_Coverdale",
+    "wikidataId": null
   },
   {
     "id": "person-john-foxe",
@@ -622,7 +655,8 @@
     "birthPlace": "Boston, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "John_Foxe"
+    "wikipediaTitle": "John_Foxe",
+    "wikidataId": "Q380961"
   },
   {
     "id": "person-thomas-bilney",
@@ -639,7 +673,8 @@
     "birthPlace": "Norfolk, England",
     "deathPlace": "Norwich, England",
     "nationality": "English",
-    "wikipediaTitle": "Thomas_Bilney"
+    "wikipediaTitle": "Thomas_Bilney",
+    "wikidataId": "Q1756294"
   },
   {
     "id": "person-robert-barnes",
@@ -656,7 +691,8 @@
     "birthPlace": "King's Lynn, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Robert_Barnes_(martyr)"
+    "wikipediaTitle": "Robert_Barnes_(martyr)",
+    "wikidataId": "Q1237075"
   },
   {
     "id": "person-john-frith",
@@ -672,7 +708,8 @@
     "birthPlace": "Westerham, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "John_Frith"
+    "wikipediaTitle": "John_Frith",
+    "wikidataId": "Q11772588"
   },
   {
     "id": "person-john-hooper",
@@ -689,7 +726,8 @@
     "birthPlace": "Somerset, England",
     "deathPlace": "Gloucester, England",
     "nationality": "English",
-    "wikipediaTitle": "John_Hooper_(bishop)"
+    "wikipediaTitle": "John_Hooper_(bishop)",
+    "wikidataId": "Q647264"
   },
   {
     "id": "person-matthew-parker",
@@ -706,7 +744,8 @@
     "birthPlace": "Norwich, England",
     "deathPlace": "Lambeth, England",
     "nationality": "English",
-    "wikipediaTitle": "Matthew_Parker"
+    "wikipediaTitle": "Matthew_Parker",
+    "wikidataId": "Q711332"
   },
   {
     "id": "person-johannes-reuchlin",
@@ -723,7 +762,8 @@
     "birthPlace": "Pforzheim, Germany",
     "deathPlace": "Stuttgart, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Johann_Reuchlin"
+    "wikipediaTitle": "Johann_Reuchlin",
+    "wikidataId": "Q61067"
   },
   {
     "id": "person-john-colet",
@@ -741,7 +781,8 @@
     "birthPlace": "London, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "John_Colet"
+    "wikipediaTitle": "John_Colet",
+    "wikidataId": "Q957527"
   },
   {
     "id": "person-thomas-more",
@@ -759,7 +800,8 @@
     "birthPlace": "London, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Thomas_More"
+    "wikipediaTitle": "Thomas_More",
+    "wikidataId": "Q42544"
   },
   {
     "id": "person-jacques-lefevre-detaples",
@@ -780,7 +822,8 @@
     "birthPlace": "Étaples, France",
     "deathPlace": "Nérac, France",
     "nationality": "French",
-    "wikipediaTitle": "Jacques_Lefèvre_d%27Étaples"
+    "wikipediaTitle": "Jacques_Lefèvre_d%27Étaples",
+    "wikidataId": null
   },
   {
     "id": "person-guillaume-briconnet",
@@ -796,7 +839,8 @@
     "birthPlace": "Tours, France",
     "deathPlace": "Meaux, France",
     "nationality": "French",
-    "wikipediaTitle": "Guillaume_Briçonnet_(cardinal)"
+    "wikipediaTitle": "Guillaume_Briçonnet_(cardinal)",
+    "wikidataId": "Q967700"
   },
   {
     "id": "person-conrad-grebel",
@@ -812,7 +856,8 @@
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Maienfeld, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Conrad_Grebel"
+    "wikipediaTitle": "Conrad_Grebel",
+    "wikidataId": "Q115638"
   },
   {
     "id": "person-felix-manz",
@@ -828,7 +873,8 @@
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Zurich, Switzerland",
     "nationality": "Swiss",
-    "wikipediaTitle": "Felix_Manz"
+    "wikipediaTitle": "Felix_Manz",
+    "wikidataId": "Q124188"
   },
   {
     "id": "person-george-blaurock",
@@ -845,7 +891,8 @@
     "birthPlace": "Bonaduz, Switzerland",
     "deathPlace": "Klausen, Tyrol",
     "nationality": "Swiss",
-    "wikipediaTitle": "George_Blaurock"
+    "wikipediaTitle": "George_Blaurock",
+    "wikidataId": "Q124175"
   },
   {
     "id": "person-balthasar-hubmaier",
@@ -862,7 +909,8 @@
     "birthPlace": "Friedberg, Germany",
     "deathPlace": "Vienna, Austria",
     "nationality": "German",
-    "wikipediaTitle": "Balthasar_Hubmaier"
+    "wikipediaTitle": "Balthasar_Hubmaier",
+    "wikidataId": "Q62532"
   },
   {
     "id": "person-menno-simons",
@@ -879,7 +927,8 @@
     "birthPlace": "Witmarsum, Netherlands",
     "deathPlace": "Wüstenfelde, Holstein",
     "nationality": "Dutch",
-    "wikipediaTitle": "Menno_Simons"
+    "wikipediaTitle": "Menno_Simons",
+    "wikidataId": "Q335171"
   },
   {
     "id": "person-michael-sattler",
@@ -895,7 +944,8 @@
     "birthPlace": "Stauffen, Germany",
     "deathPlace": "Rottenburg, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Michael_Sattler"
+    "wikipediaTitle": "Michael_Sattler",
+    "wikidataId": "Q142309"
   },
   {
     "id": "person-marguerite-of-navarre",
@@ -916,7 +966,8 @@
     "birthPlace": "Angoulême, France",
     "deathPlace": "Odos, France",
     "nationality": "French",
-    "wikipediaTitle": "Marguerite_de_Navarre"
+    "wikipediaTitle": "Marguerite_de_Navarre",
+    "wikidataId": "Q190058"
   },
   {
     "id": "person-clement-marot",
@@ -933,7 +984,8 @@
     "birthPlace": "Cahors, France",
     "deathPlace": "Turin, Italy",
     "nationality": "French",
-    "wikipediaTitle": "Clément_Marot"
+    "wikipediaTitle": "Clément_Marot",
+    "wikidataId": "Q108926"
   },
   {
     "id": "person-antoine-froment",
@@ -950,7 +1002,8 @@
     "birthPlace": "Mens, France",
     "deathPlace": "Geneva, Switzerland",
     "nationality": "French",
-    "wikipediaTitle": "Antoine_Froment"
+    "wikipediaTitle": "Antoine_Froment",
+    "wikidataId": "Q388199"
   },
   {
     "id": "person-marie-dentiere",
@@ -968,7 +1021,8 @@
     "birthPlace": "Tournai, Belgium",
     "deathPlace": "Geneva, Switzerland",
     "nationality": "Belgian",
-    "wikipediaTitle": "Marie_Dentière"
+    "wikipediaTitle": "Marie_Dentière",
+    "wikidataId": "Q447170"
   },
   {
     "id": "person-frederick-the-wise",
@@ -988,7 +1042,8 @@
     "birthPlace": "Torgau, Germany",
     "deathPlace": "Lochau, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Frederick_III,_Elector_of_Saxony"
+    "wikipediaTitle": "Frederick_III,_Elector_of_Saxony",
+    "wikidataId": "Q77233"
   },
   {
     "id": "person-john-the-steadfast",
@@ -1008,7 +1063,8 @@
     "birthPlace": "Meissen, Germany",
     "deathPlace": "Schweinitz, Germany",
     "nationality": "German",
-    "wikipediaTitle": "John,_Elector_of_Saxony"
+    "wikipediaTitle": "John,_Elector_of_Saxony",
+    "wikidataId": "Q61277"
   },
   {
     "id": "person-john-frederick-i",
@@ -1028,7 +1084,8 @@
     "birthPlace": "Torgau, Germany",
     "deathPlace": "Weimar, Germany",
     "nationality": "German",
-    "wikipediaTitle": "John_Frederick_I,_Elector_of_Saxony"
+    "wikipediaTitle": "John_Frederick_I,_Elector_of_Saxony",
+    "wikidataId": "Q506182"
   },
   {
     "id": "person-philip-of-hesse",
@@ -1048,7 +1105,8 @@
     "birthPlace": "Marburg, Germany",
     "deathPlace": "Kassel, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Philip_I,_Landgrave_of_Hesse"
+    "wikipediaTitle": "Philip_I,_Landgrave_of_Hesse",
+    "wikidataId": "Q169319"
   },
   {
     "id": "person-henry-viii",
@@ -1064,7 +1122,8 @@
     "birthPlace": "Greenwich, England",
     "deathPlace": "London, England",
     "nationality": "English",
-    "wikipediaTitle": "Henry_VIII"
+    "wikipediaTitle": "Henry_VIII",
+    "wikidataId": "Q38370"
   },
   {
     "id": "person-charles-v",
@@ -1081,7 +1140,8 @@
     "birthPlace": "Ghent, Flanders",
     "deathPlace": "Yuste, Spain",
     "nationality": "Spanish/Habsburg",
-    "wikipediaTitle": "Charles_V,_Holy_Roman_Emperor"
+    "wikipediaTitle": "Charles_V,_Holy_Roman_Emperor",
+    "wikidataId": "Q32500"
   },
   {
     "id": "person-johann-eck",
@@ -1098,7 +1158,8 @@
     "birthPlace": "Egg an der Günz, Germany",
     "deathPlace": "Ingolstadt, Germany",
     "nationality": "German",
-    "wikipediaTitle": "Johann_Eck"
+    "wikipediaTitle": "Johann_Eck",
+    "wikidataId": "Q60298"
   },
   {
     "id": "person-cardinal-thomas-cajetan",
@@ -1118,7 +1179,8 @@
     "birthPlace": "Gaeta, Italy",
     "deathPlace": "Rome, Italy",
     "nationality": "Italian",
-    "wikipediaTitle": "Thomas_Cajetan"
+    "wikipediaTitle": "Thomas_Cajetan",
+    "wikidataId": "Q435853"
   },
   {
     "id": "person-john-knox",
@@ -1136,7 +1198,8 @@
     "birthPlace": "Giffordgate, Scotland",
     "deathPlace": "Edinburgh, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "John_Knox"
+    "wikipediaTitle": "John_Knox",
+    "wikidataId": "Q189937"
   },
   {
     "id": "person-george-wishart",
@@ -1153,7 +1216,8 @@
     "birthPlace": "Pitarrow, Scotland",
     "deathPlace": "St. Andrews, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "George_Wishart"
+    "wikipediaTitle": "George_Wishart",
+    "wikidataId": "Q1367426"
   },
   {
     "id": "person-patrick-hamilton",
@@ -1169,7 +1233,8 @@
     "birthPlace": "Scotland",
     "deathPlace": "St. Andrews, Scotland",
     "nationality": "Scottish",
-    "wikipediaTitle": "Patrick_Hamilton_(martyr)"
+    "wikipediaTitle": "Patrick_Hamilton_(martyr)",
+    "wikidataId": "Q708980"
   },
   {
     "id": "object-ninety-five-theses",
@@ -1195,7 +1260,8 @@
         "url": "http://www.projectwittenberg.org/etext/luther/theses/"
       }
     ],
-    "wikipediaTitle": "Ninety-five_Theses"
+    "wikipediaTitle": "Ninety-five_Theses",
+    "wikidataId": "Q157506"
   },
   {
     "id": "object-address-christian-nobility",
@@ -1218,7 +1284,8 @@
         "url": "http://www.projectwittenberg.org/etext/luther/nobility/"
       }
     ],
-    "wikipediaTitle": "To_the_Christian_Nobility_of_the_German_Nation"
+    "wikipediaTitle": "To_the_Christian_Nobility_of_the_German_Nation",
+    "wikidataId": "Q2492149"
   },
   {
     "id": "object-babylonian-captivity",
@@ -1241,7 +1308,8 @@
         "url": "http://www.projectwittenberg.org/etext/luther/babylonian/"
       }
     ],
-    "wikipediaTitle": "On_the_Babylonian_Captivity_of_the_Church"
+    "wikipediaTitle": "On_the_Babylonian_Captivity_of_the_Church",
+    "wikidataId": "Q282497"
   },
   {
     "id": "object-freedom-christian",
@@ -1264,7 +1332,8 @@
         "url": "http://www.projectwittenberg.org/etext/luther/freedom/"
       }
     ],
-    "wikipediaTitle": "On_the_Freedom_of_a_Christian"
+    "wikipediaTitle": "On_the_Freedom_of_a_Christian",
+    "wikidataId": "Q569330"
   },
   {
     "id": "object-bondage-of-will",
@@ -1290,7 +1359,8 @@
         "url": "https://archive.org/details/bondageofwilltra00luth"
       }
     ],
-    "wikipediaTitle": "On_the_Bondage_of_the_Will"
+    "wikipediaTitle": "On_the_Bondage_of_the_Will",
+    "wikidataId": "Q1180745"
   },
   {
     "id": "object-free-will-erasmus",
@@ -1316,7 +1386,8 @@
         "url": "https://archive.org/details/erasmuslutherdi00eras"
       }
     ],
-    "wikipediaTitle": "De_libero_arbitrio_diatribe_sive_collatio"
+    "wikipediaTitle": "De_libero_arbitrio_diatribe_sive_collatio",
+    "wikidataId": "Q846306"
   },
   {
     "id": "object-institutes",
@@ -1347,7 +1418,8 @@
         "url": "https://archive.org/details/institutesofchri01calv"
       }
     ],
-    "wikipediaTitle": "Institutes_of_the_Christian_Religion"
+    "wikipediaTitle": "Institutes_of_the_Christian_Religion",
+    "wikidataId": "Q371558"
   },
   {
     "id": "object-sixty-seven-articles",
@@ -1370,7 +1442,8 @@
         "url": "https://www.zwingli.org/en/works/67-articles/"
       }
     ],
-    "wikipediaTitle": "Sixty-seven_Articles"
+    "wikipediaTitle": "Sixty-seven_Articles",
+    "wikidataId": null
   },
   {
     "id": "object-true-false-religion",
@@ -1393,7 +1466,8 @@
         "url": "https://archive.org/details/latinselectworks00zwin"
       }
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-loci-communes",
@@ -1416,7 +1490,8 @@
         "url": "https://archive.org/details/locicommunes00melagoog"
       }
     ],
-    "wikipediaTitle": "Loci_Communes"
+    "wikipediaTitle": "Loci_Communes",
+    "wikidataId": null
   },
   {
     "id": "object-obedience-christian-man",
@@ -1439,7 +1514,8 @@
         "url": "https://archive.org/details/obedienceofchris00tynd"
       }
     ],
-    "wikipediaTitle": "The_Obedience_of_a_Christian_Man"
+    "wikipediaTitle": "The_Obedience_of_a_Christian_Man",
+    "wikidataId": "Q7754622"
   },
   {
     "id": "object-luther-bible",
@@ -1457,7 +1533,8 @@
       "person-justus-jonas",
       "person-caspar-cruciger"
     ],
-    "wikipediaTitle": "Luther_Bible"
+    "wikipediaTitle": "Luther_Bible",
+    "wikidataId": "Q1571095"
   },
   {
     "id": "object-novum-instrumentum",
@@ -1473,7 +1550,8 @@
     "creators": [
       "person-erasmus-of-rotterdam"
     ],
-    "wikipediaTitle": "Novum_Instrumentum_omne"
+    "wikipediaTitle": "Novum_Instrumentum_omne",
+    "wikidataId": "Q1526516"
   },
   {
     "id": "object-tyndale-nt",
@@ -1486,7 +1564,8 @@
     "creators": [
       "person-william-tyndale"
     ],
-    "wikipediaTitle": "Tyndale_Bible"
+    "wikipediaTitle": "Tyndale_Bible",
+    "wikidataId": "Q2462802"
   },
   {
     "id": "object-tyndale-pentateuch",
@@ -1499,7 +1578,8 @@
     "creators": [
       "person-william-tyndale"
     ],
-    "wikipediaTitle": "Tyndale_Bible"
+    "wikipediaTitle": "Tyndale_Bible",
+    "wikidataId": "Q2462802"
   },
   {
     "id": "object-coverdale-bible",
@@ -1512,7 +1592,8 @@
     "creators": [
       "person-miles-coverdale"
     ],
-    "wikipediaTitle": "Coverdale_Bible"
+    "wikipediaTitle": "Coverdale_Bible",
+    "wikidataId": "Q1138103"
   },
   {
     "id": "object-great-bible",
@@ -1525,7 +1606,8 @@
     "creators": [
       "person-miles-coverdale"
     ],
-    "wikipediaTitle": "Great_Bible"
+    "wikipediaTitle": "Great_Bible",
+    "wikidataId": "Q1544227"
   },
   {
     "id": "object-geneva-bible",
@@ -1535,7 +1617,8 @@
     "dateStart": "1560",
     "objectType": "translation",
     "language": "English",
-    "wikipediaTitle": "Geneva_Bible"
+    "wikipediaTitle": "Geneva_Bible",
+    "wikidataId": "Q1502139"
   },
   {
     "id": "object-olivetan-bible",
@@ -1548,7 +1631,8 @@
     "creators": [
       "person-pierre-robert-olivetan"
     ],
-    "wikipediaTitle": "Olivétan_Bible"
+    "wikipediaTitle": "Olivétan_Bible",
+    "wikidataId": null
   },
   {
     "id": "object-zurich-bible",
@@ -1562,7 +1646,8 @@
       "person-leo-jud",
       "person-huldrych-zwingli"
     ],
-    "wikipediaTitle": "Froschauer_Bible"
+    "wikipediaTitle": "Froschauer_Bible",
+    "wikidataId": null
   },
   {
     "id": "object-augsburg-confession",
@@ -1578,7 +1663,8 @@
     "creators": [
       "person-philip-melanchthon"
     ],
-    "wikipediaTitle": "Augsburg_Confession"
+    "wikipediaTitle": "Augsburg_Confession",
+    "wikidataId": "Q154483"
   },
   {
     "id": "object-apology-augsburg",
@@ -1591,7 +1677,8 @@
     "creators": [
       "person-philip-melanchthon"
     ],
-    "wikipediaTitle": "Apology_of_the_Augsburg_Confession"
+    "wikipediaTitle": "Apology_of_the_Augsburg_Confession",
+    "wikidataId": "Q619586"
   },
   {
     "id": "object-small-catechism",
@@ -1604,7 +1691,8 @@
     "creators": [
       "person-martin-luther"
     ],
-    "wikipediaTitle": "Luther%27s_Small_Catechism"
+    "wikipediaTitle": "Luther%27s_Small_Catechism",
+    "wikidataId": null
   },
   {
     "id": "object-large-catechism",
@@ -1617,7 +1705,8 @@
     "creators": [
       "person-martin-luther"
     ],
-    "wikipediaTitle": "Luther%27s_Large_Catechism"
+    "wikipediaTitle": "Luther%27s_Large_Catechism",
+    "wikidataId": null
   },
   {
     "id": "object-tetrapolitan-confession",
@@ -1631,7 +1720,8 @@
       "person-martin-bucer",
       "person-wolfgang-capito"
     ],
-    "wikipediaTitle": "Tetrapolitan_Confession"
+    "wikipediaTitle": "Tetrapolitan_Confession",
+    "wikidataId": "Q319300"
   },
   {
     "id": "object-first-helvetic-confession",
@@ -1645,7 +1735,8 @@
       "person-heinrich-bullinger",
       "person-leo-jud"
     ],
-    "wikipediaTitle": "First_Helvetic_Confession"
+    "wikipediaTitle": "First_Helvetic_Confession",
+    "wikidataId": null
   },
   {
     "id": "object-second-helvetic-confession",
@@ -1658,7 +1749,8 @@
     "creators": [
       "person-heinrich-bullinger"
     ],
-    "wikipediaTitle": "Second_Helvetic_Confession"
+    "wikipediaTitle": "Second_Helvetic_Confession",
+    "wikidataId": "Q676162"
   },
   {
     "id": "object-genevan-catechism",
@@ -1671,7 +1763,8 @@
     "creators": [
       "person-john-calvin"
     ],
-    "wikipediaTitle": "Genevan_Catechism"
+    "wikipediaTitle": "Genevan_Catechism",
+    "wikidataId": null
   },
   {
     "id": "object-heidelberg-catechism",
@@ -1681,7 +1774,8 @@
     "dateStart": "1563",
     "objectType": "catechism",
     "language": "German",
-    "wikipediaTitle": "Heidelberg_Catechism"
+    "wikipediaTitle": "Heidelberg_Catechism",
+    "wikidataId": "Q327152"
   },
   {
     "id": "object-schleitheim-confession",
@@ -1694,7 +1788,8 @@
     "creators": [
       "person-michael-sattler"
     ],
-    "wikipediaTitle": "Schleitheim_Confession"
+    "wikipediaTitle": "Schleitheim_Confession",
+    "wikidataId": "Q265613"
   },
   {
     "id": "object-scots-confession",
@@ -1707,7 +1802,8 @@
     "creators": [
       "person-john-knox"
     ],
-    "wikipediaTitle": "Scots_Confession"
+    "wikipediaTitle": "Scots_Confession",
+    "wikidataId": "Q1125192"
   },
   {
     "id": "object-thirty-nine-articles",
@@ -1720,7 +1816,8 @@
     "creators": [
       "person-matthew-parker"
     ],
-    "wikipediaTitle": "Thirty-nine_Articles"
+    "wikipediaTitle": "Thirty-nine_Articles",
+    "wikidataId": "Q937617"
   },
   {
     "id": "object-bcp-1549",
@@ -1733,7 +1830,8 @@
     "creators": [
       "person-thomas-cranmer"
     ],
-    "wikipediaTitle": "Book_of_Common_Prayer_(1549)"
+    "wikipediaTitle": "Book_of_Common_Prayer_(1549)",
+    "wikidataId": "Q85748229"
   },
   {
     "id": "object-bcp-1552",
@@ -1746,7 +1844,8 @@
     "creators": [
       "person-thomas-cranmer"
     ],
-    "wikipediaTitle": "Book_of_Common_Prayer_(1552)"
+    "wikipediaTitle": "Book_of_Common_Prayer_(1552)",
+    "wikidataId": "Q111955226"
   },
   {
     "id": "object-strasbourg-liturgy",
@@ -1759,7 +1858,8 @@
     "creators": [
       "person-martin-bucer"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-genevan-psalter",
@@ -1773,7 +1873,8 @@
       "person-clement-marot",
       "person-theodore-beza"
     ],
-    "wikipediaTitle": "Genevan_Psalter"
+    "wikipediaTitle": "Genevan_Psalter",
+    "wikidataId": "Q493726"
   },
   {
     "id": "object-luther-hymns",
@@ -1790,7 +1891,8 @@
     "creators": [
       "person-martin-luther"
     ],
-    "wikipediaTitle": "A_Mighty_Fortress_Is_Our_God"
+    "wikipediaTitle": "A_Mighty_Fortress_Is_Our_God",
+    "wikidataId": "Q855575"
   },
   {
     "id": "object-book-of-martyrs",
@@ -1803,7 +1905,8 @@
     "creators": [
       "person-john-foxe"
     ],
-    "wikipediaTitle": "Foxe%27s_Book_of_Martyrs"
+    "wikipediaTitle": "Foxe%27s_Book_of_Martyrs",
+    "wikidataId": null
   },
   {
     "id": "object-praise-of-folly",
@@ -1819,7 +1922,8 @@
     "creators": [
       "person-erasmus-of-rotterdam"
     ],
-    "wikipediaTitle": "The_Praise_of_Folly"
+    "wikipediaTitle": "The_Praise_of_Folly",
+    "wikidataId": null
   },
   {
     "id": "object-enchiridion",
@@ -1835,7 +1939,8 @@
     "creators": [
       "person-erasmus-of-rotterdam"
     ],
-    "wikipediaTitle": "Enchiridion_militis_Christiani"
+    "wikipediaTitle": "Enchiridion_militis_Christiani",
+    "wikidataId": null
   },
   {
     "id": "object-first-blast",
@@ -1848,7 +1953,8 @@
     "creators": [
       "person-john-knox"
     ],
-    "wikipediaTitle": "The_First_Blast_of_the_Trumpet_Against_the_Monstrous_Regiment_of_Women"
+    "wikipediaTitle": "The_First_Blast_of_the_Trumpet_Against_the_Monstrous_Regiment_of_Women",
+    "wikidataId": "Q7777000"
   },
   {
     "id": "object-erasmus-correspondence",
@@ -1862,7 +1968,8 @@
     "creators": [
       "person-erasmus-of-rotterdam"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-luther-correspondence",
@@ -1876,7 +1983,8 @@
     "creators": [
       "person-martin-luther"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-bullinger-correspondence",
@@ -1890,7 +1998,8 @@
     "creators": [
       "person-heinrich-bullinger"
     ],
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-wittenberg",
@@ -1903,7 +2012,8 @@
       "lat": 51.8667,
       "lng": 12.6500
     },
-    "wikipediaTitle": "Wittenberg"
+    "wikipediaTitle": "Wittenberg",
+    "wikidataId": "Q6837"
   },
   {
     "id": "location-wittenberg-university",
@@ -1914,7 +2024,8 @@
     "country": "Germany",
     "parentLocation": "location-wittenberg",
     "dateStart": "1502",
-    "wikipediaTitle": "University_of_Wittenberg"
+    "wikipediaTitle": "University_of_Wittenberg",
+    "wikidataId": null
   },
   {
     "id": "location-castle-church-wittenberg",
@@ -1924,7 +2035,8 @@
     "locationType": "church",
     "country": "Germany",
     "parentLocation": "location-wittenberg",
-    "wikipediaTitle": "All_Saints%27_Church,_Wittenberg"
+    "wikipediaTitle": "All_Saints%27_Church,_Wittenberg",
+    "wikidataId": null
   },
   {
     "id": "location-worms",
@@ -1937,7 +2049,8 @@
       "lat": 49.6341,
       "lng": 8.3507
     },
-    "wikipediaTitle": "Worms,_Germany"
+    "wikipediaTitle": "Worms,_Germany",
+    "wikidataId": "Q3852"
   },
   {
     "id": "location-augsburg",
@@ -1950,7 +2063,8 @@
       "lat": 48.3705,
       "lng": 10.8978
     },
-    "wikipediaTitle": "Augsburg"
+    "wikipediaTitle": "Augsburg",
+    "wikidataId": "Q2749"
   },
   {
     "id": "location-marburg",
@@ -1963,7 +2077,8 @@
       "lat": 50.8021,
       "lng": 8.7670
     },
-    "wikipediaTitle": "Marburg"
+    "wikipediaTitle": "Marburg",
+    "wikidataId": "Q3869"
   },
   {
     "id": "location-marburg-university",
@@ -1974,7 +2089,8 @@
     "country": "Germany",
     "parentLocation": "location-marburg",
     "dateStart": "1527",
-    "wikipediaTitle": "University_of_Marburg"
+    "wikipediaTitle": "University_of_Marburg",
+    "wikidataId": null
   },
   {
     "id": "location-nuremberg",
@@ -1987,7 +2103,8 @@
       "lat": 49.4521,
       "lng": 11.0767
     },
-    "wikipediaTitle": "Nuremberg"
+    "wikipediaTitle": "Nuremberg",
+    "wikidataId": "Q2090"
   },
   {
     "id": "location-eisleben",
@@ -2000,7 +2117,8 @@
       "lat": 51.5272,
       "lng": 11.5481
     },
-    "wikipediaTitle": "Eisleben"
+    "wikipediaTitle": "Eisleben",
+    "wikidataId": "Q484870"
   },
   {
     "id": "location-wartburg",
@@ -2013,7 +2131,8 @@
       "lat": 50.9667,
       "lng": 10.3067
     },
-    "wikipediaTitle": "Wartburg"
+    "wikipediaTitle": "Wartburg",
+    "wikidataId": "Q151545"
   },
   {
     "id": "location-erfurt",
@@ -2026,7 +2145,8 @@
       "lat": 50.9847,
       "lng": 11.0299
     },
-    "wikipediaTitle": "Erfurt"
+    "wikipediaTitle": "Erfurt",
+    "wikidataId": "Q1729"
   },
   {
     "id": "location-muhlhausen",
@@ -2039,7 +2159,8 @@
       "lat": 51.2087,
       "lng": 10.4528
     },
-    "wikipediaTitle": "Mühlhausen"
+    "wikipediaTitle": "Mühlhausen",
+    "wikidataId": "Q14925"
   },
   {
     "id": "location-zurich",
@@ -2052,7 +2173,8 @@
       "lat": 47.3769,
       "lng": 8.5417
     },
-    "wikipediaTitle": "Zürich"
+    "wikipediaTitle": "Zürich",
+    "wikidataId": null
   },
   {
     "id": "location-grossmunster",
@@ -2062,7 +2184,8 @@
     "locationType": "church",
     "country": "Switzerland",
     "parentLocation": "location-zurich",
-    "wikipediaTitle": "Grossmünster"
+    "wikipediaTitle": "Grossmünster",
+    "wikidataId": "Q684948"
   },
   {
     "id": "location-geneva",
@@ -2075,7 +2198,8 @@
       "lat": 46.2044,
       "lng": 6.1432
     },
-    "wikipediaTitle": "Geneva"
+    "wikipediaTitle": "Geneva",
+    "wikidataId": "Q71"
   },
   {
     "id": "location-st-pierre-geneva",
@@ -2085,7 +2209,8 @@
     "locationType": "church",
     "country": "Switzerland",
     "parentLocation": "location-geneva",
-    "wikipediaTitle": "St._Pierre_Cathedral,_Geneva"
+    "wikipediaTitle": "St._Pierre_Cathedral,_Geneva",
+    "wikidataId": null
   },
   {
     "id": "location-geneva-academy",
@@ -2096,7 +2221,8 @@
     "country": "Switzerland",
     "parentLocation": "location-geneva",
     "dateStart": "1559",
-    "wikipediaTitle": "University_of_Geneva"
+    "wikipediaTitle": "University_of_Geneva",
+    "wikidataId": "Q503473"
   },
   {
     "id": "location-basel",
@@ -2109,7 +2235,8 @@
       "lat": 47.5596,
       "lng": 7.5886
     },
-    "wikipediaTitle": "Basel"
+    "wikipediaTitle": "Basel",
+    "wikidataId": "Q78"
   },
   {
     "id": "location-basel-university",
@@ -2120,7 +2247,8 @@
     "country": "Switzerland",
     "parentLocation": "location-basel",
     "dateStart": "1460",
-    "wikipediaTitle": "University_of_Basel"
+    "wikipediaTitle": "University_of_Basel",
+    "wikidataId": "Q372608"
   },
   {
     "id": "location-bern",
@@ -2133,7 +2261,8 @@
       "lat": 46.9480,
       "lng": 7.4474
     },
-    "wikipediaTitle": "Bern"
+    "wikipediaTitle": "Bern",
+    "wikidataId": "Q70"
   },
   {
     "id": "location-lausanne",
@@ -2146,7 +2275,8 @@
       "lat": 46.5197,
       "lng": 6.6323
     },
-    "wikipediaTitle": "Lausanne"
+    "wikipediaTitle": "Lausanne",
+    "wikidataId": "Q807"
   },
   {
     "id": "location-strasbourg",
@@ -2159,7 +2289,8 @@
       "lat": 48.5734,
       "lng": 7.7521
     },
-    "wikipediaTitle": "Strasbourg"
+    "wikipediaTitle": "Strasbourg",
+    "wikidataId": "Q6602"
   },
   {
     "id": "location-london",
@@ -2172,7 +2303,8 @@
       "lat": 51.5074,
       "lng": 0.1278
     },
-    "wikipediaTitle": "London"
+    "wikipediaTitle": "London",
+    "wikidataId": "Q84"
   },
   {
     "id": "location-canterbury",
@@ -2185,7 +2317,8 @@
       "lat": 51.2802,
       "lng": 1.0789
     },
-    "wikipediaTitle": "Canterbury"
+    "wikipediaTitle": "Canterbury",
+    "wikidataId": "Q29303"
   },
   {
     "id": "location-oxford",
@@ -2198,7 +2331,8 @@
       "lat": 51.7520,
       "lng": -1.2577
     },
-    "wikipediaTitle": "Oxford"
+    "wikipediaTitle": "Oxford",
+    "wikidataId": "Q34217"
   },
   {
     "id": "location-oxford-university",
@@ -2208,7 +2342,8 @@
     "locationType": "university",
     "country": "England",
     "parentLocation": "location-oxford",
-    "wikipediaTitle": "University_of_Oxford"
+    "wikipediaTitle": "University_of_Oxford",
+    "wikidataId": "Q34433"
   },
   {
     "id": "location-cambridge",
@@ -2221,7 +2356,8 @@
       "lat": 52.2053,
       "lng": 0.1218
     },
-    "wikipediaTitle": "Cambridge"
+    "wikipediaTitle": "Cambridge",
+    "wikidataId": "Q350"
   },
   {
     "id": "location-cambridge-university",
@@ -2231,7 +2367,8 @@
     "locationType": "university",
     "country": "England",
     "parentLocation": "location-cambridge",
-    "wikipediaTitle": "University_of_Cambridge"
+    "wikipediaTitle": "University_of_Cambridge",
+    "wikidataId": "Q35794"
   },
   {
     "id": "location-white-horse-tavern",
@@ -2246,7 +2383,8 @@
     "parentLocation": "location-cambridge",
     "dateStart": "1520",
     "dateEnd": "1530",
-    "wikipediaTitle": "White_Horse_Inn,_Cambridge"
+    "wikipediaTitle": "White_Horse_Inn,_Cambridge",
+    "wikidataId": null
   },
   {
     "id": "location-antwerp",
@@ -2259,7 +2397,8 @@
       "lat": 51.2194,
       "lng": 4.4025
     },
-    "wikipediaTitle": "Antwerp"
+    "wikipediaTitle": "Antwerp",
+    "wikidataId": "Q12892"
   },
   {
     "id": "location-vilvoorde",
@@ -2272,7 +2411,8 @@
       "lat": 50.9281,
       "lng": 4.4303
     },
-    "wikipediaTitle": "Vilvoorde"
+    "wikipediaTitle": "Vilvoorde",
+    "wikidataId": "Q318418"
   },
   {
     "id": "location-paris",
@@ -2285,7 +2425,8 @@
       "lat": 48.8566,
       "lng": 2.3522
     },
-    "wikipediaTitle": "Paris"
+    "wikipediaTitle": "Paris",
+    "wikidataId": "Q90"
   },
   {
     "id": "location-sorbonne",
@@ -2295,7 +2436,8 @@
     "locationType": "university",
     "country": "France",
     "parentLocation": "location-paris",
-    "wikipediaTitle": "University_of_Paris"
+    "wikipediaTitle": "University_of_Paris",
+    "wikidataId": "Q209842"
   },
   {
     "id": "location-meaux",
@@ -2308,7 +2450,8 @@
       "lat": 48.9603,
       "lng": 2.8783
     },
-    "wikipediaTitle": "Meaux"
+    "wikipediaTitle": "Meaux",
+    "wikidataId": "Q207620"
   },
   {
     "id": "location-rome",
@@ -2321,7 +2464,8 @@
       "lat": 41.9028,
       "lng": 12.4964
     },
-    "wikipediaTitle": "Rome"
+    "wikipediaTitle": "Rome",
+    "wikidataId": "Q220"
   },
   {
     "id": "location-ingolstadt",
@@ -2334,7 +2478,8 @@
       "lat": 48.7665,
       "lng": 11.4258
     },
-    "wikipediaTitle": "Ingolstadt"
+    "wikipediaTitle": "Ingolstadt",
+    "wikidataId": "Q3004"
   },
   {
     "id": "location-st-andrews",
@@ -2347,7 +2492,8 @@
       "lat": 56.3398,
       "lng": -2.7967
     },
-    "wikipediaTitle": "St_Andrews"
+    "wikipediaTitle": "St_Andrews",
+    "wikidataId": "Q207736"
   },
   {
     "id": "location-st-andrews-university",
@@ -2358,7 +2504,8 @@
     "country": "Scotland",
     "parentLocation": "location-st-andrews",
     "dateStart": "1413",
-    "wikipediaTitle": "University_of_St_Andrews"
+    "wikipediaTitle": "University_of_St_Andrews",
+    "wikidataId": "Q216273"
   },
   {
     "id": "location-edinburgh",
@@ -2371,7 +2518,8 @@
       "lat": 55.9533,
       "lng": -3.1883
     },
-    "wikipediaTitle": "Edinburgh"
+    "wikipediaTitle": "Edinburgh",
+    "wikidataId": "Q23436"
   },
   {
     "id": "location-st-giles-edinburgh",
@@ -2381,7 +2529,8 @@
     "locationType": "church",
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
-    "wikipediaTitle": "St_Giles%27_Cathedral"
+    "wikipediaTitle": "St_Giles%27_Cathedral",
+    "wikidataId": null
   },
   {
     "id": "location-kappel",
@@ -2394,7 +2543,8 @@
       "lat": 47.2333,
       "lng": 8.5333
     },
-    "wikipediaTitle": "Battle_of_Kappel"
+    "wikipediaTitle": "Battle_of_Kappel",
+    "wikidataId": null
   },
   {
     "id": "location-schleitheim",
@@ -2407,7 +2557,8 @@
       "lat": 47.7500,
       "lng": 8.4833
     },
-    "wikipediaTitle": "Schleitheim"
+    "wikipediaTitle": "Schleitheim",
+    "wikidataId": "Q69111"
   },
   {
     "id": "location-frankenhausen",
@@ -2420,7 +2571,8 @@
       "lat": 51.3564,
       "lng": 11.1003
     },
-    "wikipediaTitle": "Battle_of_Frankenhausen"
+    "wikipediaTitle": "Battle_of_Frankenhausen",
+    "wikidataId": "Q703363"
   },
   {
     "id": "entity-lutheran-churches",
@@ -2429,7 +2581,8 @@
     "shortDescription": "Network of state churches that adopted Lutheran confession",
     "entityType": "church_body",
     "dateStart": "1520",
-    "wikipediaTitle": "Lutheranism"
+    "wikipediaTitle": "Lutheranism",
+    "wikidataId": "Q75809"
   },
   {
     "id": "entity-church-of-england",
@@ -2439,7 +2592,8 @@
     "entityType": "church_body",
     "dateStart": "1534",
     "headquarters": "location-canterbury",
-    "wikipediaTitle": "Church_of_England"
+    "wikipediaTitle": "Church_of_England",
+    "wikidataId": "Q82708"
   },
   {
     "id": "entity-zurich-church",
@@ -2449,7 +2603,8 @@
     "entityType": "church_body",
     "dateStart": "1519",
     "headquarters": "location-zurich",
-    "wikipediaTitle": "Reformed_Church_in_Zürich"
+    "wikipediaTitle": "Reformed_Church_in_Zürich",
+    "wikidataId": null
   },
   {
     "id": "entity-geneva-church",
@@ -2459,7 +2614,8 @@
     "entityType": "church_body",
     "dateStart": "1536",
     "headquarters": "location-geneva",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-company-of-pastors",
@@ -2472,7 +2628,8 @@
     "entityType": "organization",
     "dateStart": "1541",
     "headquarters": "location-geneva",
-    "wikipediaTitle": "Venerable_Company_of_Pastors"
+    "wikipediaTitle": "Venerable_Company_of_Pastors",
+    "wikidataId": "Q16950662"
   },
   {
     "id": "entity-geneva-consistory",
@@ -2482,7 +2639,8 @@
     "entityType": "organization",
     "dateStart": "1541",
     "headquarters": "location-geneva",
-    "wikipediaTitle": "Consistory_of_Geneva"
+    "wikipediaTitle": "Consistory_of_Geneva",
+    "wikidataId": null
   },
   {
     "id": "entity-church-of-scotland",
@@ -2492,7 +2650,8 @@
     "entityType": "church_body",
     "dateStart": "1560",
     "headquarters": "location-edinburgh",
-    "wikipediaTitle": "Church_of_Scotland"
+    "wikipediaTitle": "Church_of_Scotland",
+    "wikidataId": "Q922480"
   },
   {
     "id": "entity-lutheran-reformation",
@@ -2502,7 +2661,8 @@
     "entityType": "movement",
     "dateStart": "1517",
     "dateEnd": "1555",
-    "wikipediaTitle": "Reformation"
+    "wikipediaTitle": "Reformation",
+    "wikidataId": "Q12562"
   },
   {
     "id": "entity-swiss-reformed",
@@ -2511,7 +2671,8 @@
     "shortDescription": "Reformed Protestantism originating in Zurich and Geneva",
     "entityType": "movement",
     "dateStart": "1519",
-    "wikipediaTitle": "Swiss_Reformed_Church"
+    "wikipediaTitle": "Swiss_Reformed_Church",
+    "wikidataId": null
   },
   {
     "id": "entity-radical-reformation",
@@ -2520,7 +2681,8 @@
     "shortDescription": "Movements rejecting both Catholic and magisterial Protestant churches",
     "entityType": "movement",
     "dateStart": "1525",
-    "wikipediaTitle": "Radical_Reformation"
+    "wikipediaTitle": "Radical_Reformation",
+    "wikidataId": "Q1786655"
   },
   {
     "id": "entity-swiss-brethren",
@@ -2533,7 +2695,8 @@
     "entityType": "movement",
     "dateStart": "1525",
     "headquarters": "location-zurich",
-    "wikipediaTitle": "Swiss_Brethren"
+    "wikipediaTitle": "Swiss_Brethren",
+    "wikidataId": "Q474889"
   },
   {
     "id": "entity-mennonites",
@@ -2542,7 +2705,8 @@
     "shortDescription": "Peaceful Anabaptist movement named after Menno Simons",
     "entityType": "church_body",
     "dateStart": "1536",
-    "wikipediaTitle": "Mennonites"
+    "wikipediaTitle": "Mennonites",
+    "wikidataId": "Q110223"
   },
   {
     "id": "entity-christian-humanism",
@@ -2552,7 +2716,8 @@
     "entityType": "movement",
     "dateStart": "1490",
     "dateEnd": "1540",
-    "wikipediaTitle": "Christian_humanism"
+    "wikipediaTitle": "Christian_humanism",
+    "wikidataId": "Q2327432"
   },
   {
     "id": "entity-english-reformation",
@@ -2562,7 +2727,8 @@
     "entityType": "movement",
     "dateStart": "1527",
     "dateEnd": "1559",
-    "wikipediaTitle": "English_Reformation"
+    "wikipediaTitle": "English_Reformation",
+    "wikidataId": "Q1645505"
   },
   {
     "id": "entity-meaux-circle",
@@ -2576,7 +2742,8 @@
     "dateStart": "1521",
     "dateEnd": "1525",
     "headquarters": "location-meaux",
-    "wikipediaTitle": "Circle_of_Meaux"
+    "wikipediaTitle": "Circle_of_Meaux",
+    "wikidataId": null
   },
   {
     "id": "entity-schmalkaldic-league",
@@ -2586,7 +2753,8 @@
     "entityType": "political_alliance",
     "dateStart": "1531",
     "dateEnd": "1547",
-    "wikipediaTitle": "Schmalkaldic_League"
+    "wikipediaTitle": "Schmalkaldic_League",
+    "wikidataId": "Q155024"
   },
   {
     "id": "entity-swiss-confederacy",
@@ -2595,7 +2763,8 @@
     "shortDescription": "Federation of Swiss cantons divided by Reformation",
     "entityType": "political_alliance",
     "dateStart": "1291",
-    "wikipediaTitle": "Old_Swiss_Confederacy"
+    "wikipediaTitle": "Old_Swiss_Confederacy",
+    "wikidataId": "Q435583"
   },
   {
     "id": "entity-augustinian-order",
@@ -2604,7 +2773,8 @@
     "shortDescription": "Luther's religious order",
     "entityType": "religious_order",
     "dateStart": "1244",
-    "wikipediaTitle": "Order_of_Saint_Augustine"
+    "wikipediaTitle": "Order_of_Saint_Augustine",
+    "wikidataId": "Q29075"
   },
   {
     "id": "entity-dominican-order",
@@ -2613,7 +2783,8 @@
     "shortDescription": "Order of Tetzel and Cajetan; often Catholic opponents of reform",
     "entityType": "religious_order",
     "dateStart": "1216",
-    "wikipediaTitle": "Dominican_Order"
+    "wikipediaTitle": "Dominican_Order",
+    "wikidataId": "Q131479"
   },
   {
     "id": "entity-diet-of-worms",
@@ -2623,7 +2794,8 @@
     "entityType": "assembly",
     "dateStart": "1521",
     "dateEnd": "1521",
-    "wikipediaTitle": "Diet_of_Worms"
+    "wikipediaTitle": "Diet_of_Worms",
+    "wikidataId": "Q536822"
   },
   {
     "id": "entity-diet-of-augsburg",
@@ -2633,7 +2805,8 @@
     "entityType": "assembly",
     "dateStart": "1530",
     "dateEnd": "1530",
-    "wikipediaTitle": "Diet_of_Augsburg"
+    "wikipediaTitle": "Diet_of_Augsburg",
+    "wikidataId": "Q828750"
   },
   {
     "id": "entity-marburg-colloquy",
@@ -2643,7 +2816,8 @@
     "entityType": "assembly",
     "dateStart": "1529",
     "dateEnd": "1529",
-    "wikipediaTitle": "Marburg_Colloquy"
+    "wikipediaTitle": "Marburg_Colloquy",
+    "wikidataId": "Q672138"
   },
   {
     "id": "entity-zurich-disputation-1523",
@@ -2653,7 +2827,8 @@
     "entityType": "assembly",
     "dateStart": "1523",
     "dateEnd": "1523",
-    "wikipediaTitle": "First_Disputation_of_Zurich"
+    "wikipediaTitle": "First_Disputation_of_Zurich",
+    "wikidataId": null
   },
   {
     "id": "entity-leipzig-debate",
@@ -2663,7 +2838,8 @@
     "entityType": "assembly",
     "dateStart": "1519",
     "dateEnd": "1519",
-    "wikipediaTitle": "Leipzig_Debate"
+    "wikipediaTitle": "Leipzig_Debate",
+    "wikidataId": "Q688998"
   },
   {
     "id": "entity-peace-of-augsburg",
@@ -2673,7 +2849,8 @@
     "entityType": "treaty",
     "dateStart": "1555",
     "dateEnd": "1555",
-    "wikipediaTitle": "Peace_of_Augsburg"
+    "wikipediaTitle": "Peace_of_Augsburg",
+    "wikidataId": "Q154577"
   },
   {
     "id": "entity-froben-press",
@@ -2684,7 +2861,8 @@
     "dateStart": "1491",
     "dateEnd": "1527",
     "headquarters": "location-basel",
-    "wikipediaTitle": "Johann_Froben"
+    "wikipediaTitle": "Johann_Froben",
+    "wikidataId": "Q116611"
   },
   {
     "id": "entity-wittenberg-printers",
@@ -2694,7 +2872,8 @@
     "entityType": "publishing_network",
     "dateStart": "1517",
     "headquarters": "location-wittenberg",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-geneva-printers",
@@ -2704,6 +2883,7 @@
     "entityType": "publishing_network",
     "dateStart": "1540",
     "headquarters": "location-geneva",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   }
 ]

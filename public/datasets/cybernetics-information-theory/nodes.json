@@ -8,10 +8,14 @@
     "shortDescription": "Mathematician and philosopher; founder of cybernetics",
     "wikipediaTitle": "Norbert_Wiener",
     "biography": "The 'father of cybernetics.' His 1948 book Cybernetics: Or Control and Communication in the Animal and the Machine gave the field its name and central concepts. Organized the Macy Conferences with Warren McCulloch. Child prodigy who received his PhD from Harvard at 18. His wartime work on anti-aircraft fire control led to foundational concepts of feedback and prediction. Became increasingly concerned about social implications of automation.",
-    "occupations": ["mathematician", "philosopher"],
+    "occupations": [
+      "mathematician",
+      "philosopher"
+    ],
     "nationality": "American",
     "birthPlace": "Columbia, Missouri",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q178577"
   },
   {
     "id": "person-claude-shannon",
@@ -22,10 +26,14 @@
     "shortDescription": "Mathematician and electrical engineer; founder of information theory",
     "wikipediaTitle": "Claude_Shannon",
     "biography": "His 1948 paper 'A Mathematical Theory of Communication' established information as a measurable quantity and laid the theoretical foundation for digital communication. Also pioneered cryptography and chess-playing computers. His master's thesis demonstrated Boolean algebra could be used to design digital circuits—foundational for computer engineering.",
-    "occupations": ["mathematician", "electrical engineer"],
+    "occupations": [
+      "mathematician",
+      "electrical engineer"
+    ],
     "nationality": "American",
     "birthPlace": "Petoskey, Michigan",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q92760"
   },
   {
     "id": "person-alan-turing",
@@ -36,10 +44,15 @@
     "shortDescription": "Mathematician, logician, and computer scientist; pioneer of theoretical computation",
     "wikipediaTitle": "Alan_Turing",
     "biography": "His 1936 paper 'On Computable Numbers' defined the abstract notion of computation via the Turing machine. Wartime codebreaking work at Bletchley Park was crucial to Allied victory. Proposed the 'Turing Test' for machine intelligence. Work on morphogenesis applied mathematical thinking to biology. Member of the Ratio Club. Prosecuted for homosexuality in 1952; died in 1954.",
-    "occupations": ["mathematician", "logician", "computer scientist"],
+    "occupations": [
+      "mathematician",
+      "logician",
+      "computer scientist"
+    ],
     "nationality": "British",
     "birthPlace": "London",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q7251"
   },
   {
     "id": "person-john-von-neumann",
@@ -50,10 +63,15 @@
     "shortDescription": "Polymath; contributions to quantum mechanics, game theory, and computer architecture",
     "wikipediaTitle": "John_von_Neumann",
     "biography": "Polymath who contributed to quantum mechanics, game theory, and computer architecture. The 'von Neumann architecture' (stored-program computer) became the standard model. Work on self-reproducing automata connected computation to biology. Core participant in Macy Conferences. Died young of cancer, possibly from radiation exposure at Los Alamos.",
-    "occupations": ["mathematician", "physicist", "computer scientist"],
+    "occupations": [
+      "mathematician",
+      "physicist",
+      "computer scientist"
+    ],
     "nationality": "Hungarian-American",
     "birthPlace": "Budapest, Hungary",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q17455"
   },
   {
     "id": "person-gregory-bateson",
@@ -64,10 +82,15 @@
     "shortDescription": "Anthropologist and social scientist who applied cybernetics to communication and ecology",
     "wikipediaTitle": "Gregory_Bateson",
     "biography": "Applied cybernetic concepts to anthropology, communication, psychiatry, and ecology. Developed the 'double bind' theory of schizophrenia. Steps to an Ecology of Mind extended cybernetics into social and mental systems. Core Macy Conference participant. Father was geneticist William Bateson. Married to Margaret Mead 1936-1950.",
-    "occupations": ["anthropologist", "social scientist", "cybernetician"],
+    "occupations": [
+      "anthropologist",
+      "social scientist",
+      "cybernetician"
+    ],
     "nationality": "British-American",
     "birthPlace": "Grantchester, England",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q314252"
   },
   {
     "id": "person-ross-ashby",
@@ -78,10 +101,14 @@
     "shortDescription": "Psychiatrist and cybernetician; developed the Homeostat and Law of Requisite Variety",
     "wikipediaTitle": "W._Ross_Ashby",
     "biography": "Built the Homeostat (1948), demonstrating mechanical adaptation and 'ultrastability.' Formulated the Law of Requisite Variety: 'only variety can destroy variety.' His books Design for a Brain and An Introduction to Cybernetics were foundational texts. Ratio Club founding member. Moved to University of Illinois BCL in 1961.",
-    "occupations": ["psychiatrist", "cybernetician"],
+    "occupations": [
+      "psychiatrist",
+      "cybernetician"
+    ],
     "nationality": "British",
     "birthPlace": "London",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q711172"
   },
   {
     "id": "person-stafford-beer",
@@ -92,10 +119,15 @@
     "shortDescription": "Management theorist who applied cybernetics to organizational design",
     "wikipediaTitle": "Stafford_Beer",
     "biography": "Applied cybernetics to organizational design. Developed the Viable System Model (VSM). Led the Cybersyn project in Allende's Chile—an ambitious attempt to manage a national economy using cybernetic principles. Coined 'POSIWID' (the purpose of a system is what it does). Worked in steel industry before turning to consulting. Cybersyn project ended with 1973 coup.",
-    "occupations": ["management theorist", "operations researcher", "cybernetician"],
+    "occupations": [
+      "management theorist",
+      "operations researcher",
+      "cybernetician"
+    ],
     "nationality": "British",
     "birthPlace": "London",
-    "subgroup": "Founding Figures"
+    "subgroup": "Founding Figures",
+    "wikidataId": "Q796226"
   },
   {
     "id": "person-warren-weaver",
@@ -106,9 +138,13 @@
     "shortDescription": "Mathematician and science administrator; co-authored popular exposition of information theory",
     "wikipediaTitle": "Warren_Weaver",
     "biography": "Co-authored the popular exposition of Shannon's work, The Mathematical Theory of Communication (1949). Pioneered machine translation. Major science funder at Rockefeller Foundation who shaped research directions. His introduction made Shannon's technical work accessible to broader audiences.",
-    "occupations": ["mathematician", "science administrator"],
+    "occupations": [
+      "mathematician",
+      "science administrator"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q510591"
   },
   {
     "id": "person-richard-hamming",
@@ -119,9 +155,12 @@
     "shortDescription": "Mathematician who invented error-correcting codes",
     "wikipediaTitle": "Richard_Hamming",
     "biography": "Invented Hamming codes for error correction, making Shannon's noisy channel coding theorems practical. Part of the 'Young Turks' at Bell Labs with Shannon. Shared office space with Shannon at Bell Labs.",
-    "occupations": ["mathematician"],
+    "occupations": [
+      "mathematician"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q92619"
   },
   {
     "id": "person-john-tukey",
@@ -132,9 +171,13 @@
     "shortDescription": "Statistician who coined 'bit' and co-invented FFT",
     "wikipediaTitle": "John_Tukey",
     "biography": "Coined the term 'bit' (binary digit). Co-invented the Fast Fourier Transform (FFT) with Cooley. Major contributions to statistics and data analysis. Also coined the word 'software.'",
-    "occupations": ["statistician", "mathematician"],
+    "occupations": [
+      "statistician",
+      "mathematician"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q382207"
   },
   {
     "id": "person-john-pierce",
@@ -145,9 +188,13 @@
     "shortDescription": "Engineer who pioneered satellite communications",
     "wikipediaTitle": "John_R._Pierce",
     "biography": "Pioneered satellite communications (Echo, Telstar). Worked with Shannon on pulse-code modulation. Helped popularize information theory. Wrote science fiction under pseudonym J.J. Coupling.",
-    "occupations": ["engineer", "science fiction author"],
+    "occupations": [
+      "engineer",
+      "science fiction author"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q1340677"
   },
   {
     "id": "person-hendrik-bode",
@@ -158,9 +205,13 @@
     "shortDescription": "Control theorist who developed Bode plots",
     "wikipediaTitle": "Hendrik_Wade_Bode",
     "biography": "Developed Bode plots for analyzing feedback systems. Wartime work with Shannon on data smoothing and prediction. Foundational for control theory. Bode plots remain standard tools in control engineering.",
-    "occupations": ["control theorist", "engineer"],
+    "occupations": [
+      "control theorist",
+      "engineer"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q714462"
   },
   {
     "id": "person-harry-nyquist",
@@ -171,9 +222,12 @@
     "shortDescription": "Electrical engineer; Nyquist theorem and stability criterion",
     "wikipediaTitle": "Harry_Nyquist",
     "biography": "Developed Nyquist theorem on sampling rates and Nyquist stability criterion for feedback systems. Precursor work to Shannon's information theory. Swedish-American; worked at Bell Labs 1917-1954.",
-    "occupations": ["electrical engineer"],
+    "occupations": [
+      "electrical engineer"
+    ],
     "nationality": "Swedish-American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q316022"
   },
   {
     "id": "person-ralph-hartley",
@@ -184,9 +238,12 @@
     "shortDescription": "Electronics researcher; Hartley's law on information transmission",
     "wikipediaTitle": "Ralph_Hartley",
     "biography": "Hartley's law (1928) was a precursor to Shannon's information theory, relating channel capacity to bandwidth. Shannon explicitly built on Hartley's work.",
-    "occupations": ["electronics researcher"],
+    "occupations": [
+      "electronics researcher"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q529886"
   },
   {
     "id": "person-david-huffman",
@@ -197,9 +254,12 @@
     "shortDescription": "Computer scientist who invented Huffman coding",
     "wikipediaTitle": "David_A._Huffman",
     "biography": "Invented Huffman coding (1952) for optimal data compression while a graduate student at MIT. Huffman coding remains widely used in data compression.",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q92784"
   },
   {
     "id": "person-robert-fano",
@@ -210,9 +270,13 @@
     "shortDescription": "Computer scientist and information theorist; founded MIT Project MAC",
     "wikipediaTitle": "Robert_Fano",
     "biography": "Pioneer in information theory; developed Shannon-Fano coding. Founded MIT's Project MAC (precursor to AI Lab and LCS). Italian-American; fled fascist Italy.",
-    "occupations": ["computer scientist", "information theorist"],
+    "occupations": [
+      "computer scientist",
+      "information theorist"
+    ],
     "nationality": "Italian-American",
-    "subgroup": "Information Theory"
+    "subgroup": "Information Theory",
+    "wikidataId": "Q93052"
   },
   {
     "id": "person-john-mauchly",
@@ -223,9 +287,13 @@
     "shortDescription": "Physicist and computer engineer; co-designed ENIAC",
     "wikipediaTitle": "John_Mauchly",
     "biography": "Co-designed ENIAC, one of the first general-purpose electronic digital computers. Co-founded first computer company (Eckert-Mauchly). ENIAC controversy over patent attribution with von Neumann.",
-    "occupations": ["physicist", "computer engineer"],
+    "occupations": [
+      "physicist",
+      "computer engineer"
+    ],
     "nationality": "American",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q522162"
   },
   {
     "id": "person-presper-eckert",
@@ -236,9 +304,12 @@
     "shortDescription": "Electrical engineer; chief engineer for ENIAC",
     "wikipediaTitle": "J._Presper_Eckert",
     "biography": "Chief engineer for ENIAC. Co-designed stored-program computers (EDVAC, UNIVAC). Technical genius behind ENIAC's hardware.",
-    "occupations": ["electrical engineer"],
+    "occupations": [
+      "electrical engineer"
+    ],
     "nationality": "American",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q457906"
   },
   {
     "id": "person-herman-goldstine",
@@ -249,9 +320,13 @@
     "shortDescription": "Mathematician who linked military funding to computer development",
     "wikipediaTitle": "Herman_Goldstine",
     "biography": "Military liaison who helped fund ENIAC. Brought von Neumann to the project. Later collaborated with von Neumann at IAS on computer development. Crucial link between military funding and computer development.",
-    "occupations": ["mathematician", "military liaison"],
+    "occupations": [
+      "mathematician",
+      "military liaison"
+    ],
     "nationality": "American",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q93005"
   },
   {
     "id": "person-maurice-wilkes",
@@ -262,9 +337,12 @@
     "shortDescription": "Computer scientist who led development of EDSAC",
     "wikipediaTitle": "Maurice_Wilkes",
     "biography": "Led development of EDSAC (1949), one of first practical stored-program computers. Invented microprogramming. Turing Award recipient (1967).",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "British",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q62857"
   },
   {
     "id": "person-konrad-zuse",
@@ -275,9 +353,13 @@
     "shortDescription": "German engineer who built the Z3, arguably the first programmable computer",
     "wikipediaTitle": "Konrad_Zuse",
     "biography": "Built Z3 (1941), arguably the first programmable computer. Developed Plankalkül, an early programming language. Worked in isolation from Anglo-American developments. Work was largely unknown until after WWII.",
-    "occupations": ["engineer", "computer pioneer"],
+    "occupations": [
+      "engineer",
+      "computer pioneer"
+    ],
     "nationality": "German",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q60093"
   },
   {
     "id": "person-max-newman",
@@ -288,9 +370,12 @@
     "shortDescription": "Mathematician who supervised Turing and led the Colossus project",
     "wikipediaTitle": "Max_Newman",
     "biography": "Supervised Turing's PhD. Led the Colossus project at Bletchley Park. Established Manchester computing group that built early stored-program computers. Bridge between pure mathematics and practical computing.",
-    "occupations": ["mathematician"],
+    "occupations": [
+      "mathematician"
+    ],
     "nationality": "British",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q707155"
   },
   {
     "id": "person-tommy-flowers",
@@ -301,9 +386,12 @@
     "shortDescription": "Engineer who designed and built Colossus",
     "wikipediaTitle": "Tommy_Flowers",
     "biography": "Designed and built Colossus, the first programmable electronic computer, for codebreaking at Bletchley Park. Work remained classified for decades; received little recognition during lifetime.",
-    "occupations": ["engineer"],
+    "occupations": [
+      "engineer"
+    ],
     "nationality": "British",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q954437"
   },
   {
     "id": "person-i-j-good",
@@ -314,9 +402,13 @@
     "shortDescription": "Statistician and cryptographer; anticipated AI singularity",
     "wikipediaTitle": "I._J._Good",
     "biography": "Worked with Turing at Bletchley Park. Developed concepts of Bayesian statistics. Wrote about 'intelligence explosion' (1965), anticipating AI singularity ideas. Born Isidore Jacob Gudak; changed name. Ratio Club member.",
-    "occupations": ["statistician", "cryptographer"],
+    "occupations": [
+      "statistician",
+      "cryptographer"
+    ],
     "nationality": "British",
-    "subgroup": "Computing Pioneers"
+    "subgroup": "Computing Pioneers",
+    "wikidataId": "Q224372"
   },
   {
     "id": "person-warren-mcculloch",
@@ -327,9 +419,13 @@
     "shortDescription": "Neurophysiologist; co-authored foundational neural networks paper",
     "wikipediaTitle": "Warren_Sturgis_McCulloch",
     "biography": "Chair of the Macy Conferences. Co-authored the seminal 1943 paper on neural networks with Walter Pitts. Central organizer of cybernetics as an interdisciplinary field. Philosopher-scientist interested in epistemology. Brought Pitts to Chicago.",
-    "occupations": ["neurophysiologist", "cybernetician"],
+    "occupations": [
+      "neurophysiologist",
+      "cybernetician"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q962174"
   },
   {
     "id": "person-walter-pitts",
@@ -340,9 +436,13 @@
     "shortDescription": "Logician who co-authored foundational neural networks paper",
     "wikipediaTitle": "Walter_Pitts",
     "biography": "Co-authored the foundational 1943 paper showing neural networks could compute any logical function. Self-taught prodigy. Tragic figure; became reclusive and alcoholic. Never completed PhD.",
-    "occupations": ["logician", "computational neuroscientist"],
+    "occupations": [
+      "logician",
+      "computational neuroscientist"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q705010"
   },
   {
     "id": "person-margaret-mead",
@@ -353,9 +453,12 @@
     "shortDescription": "Anthropologist who applied cybernetic thinking to culture",
     "wikipediaTitle": "Margaret_Mead",
     "biography": "Major public intellectual. Applied cybernetic thinking to cultural anthropology. Active Macy Conference participant who helped bridge natural and social sciences. Most famous American anthropologist of her era.",
-    "occupations": ["anthropologist"],
+    "occupations": [
+      "anthropologist"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q180099"
   },
   {
     "id": "person-arturo-rosenblueth",
@@ -366,9 +469,12 @@
     "shortDescription": "Physiologist who co-authored foundational cybernetics paper with Wiener",
     "wikipediaTitle": "Arturo_Rosenblueth",
     "biography": "Close collaborator with Wiener on the foundational paper 'Behavior, Purpose and Teleology' (1943), which introduced teleological thinking into science without vitalism. Mexican; had worked with Walter Cannon at Harvard.",
-    "occupations": ["physiologist"],
+    "occupations": [
+      "physiologist"
+    ],
     "nationality": "Mexican",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q121729"
   },
   {
     "id": "person-julian-bigelow",
@@ -379,9 +485,12 @@
     "shortDescription": "Engineer who collaborated on foundational cybernetics and IAS computer",
     "wikipediaTitle": "Julian_Bigelow",
     "biography": "Collaborated with Wiener and Rosenblueth on foundational cybernetics paper. Chief engineer for von Neumann's IAS computer. Macy Conference core participant.",
-    "occupations": ["engineer"],
+    "occupations": [
+      "engineer"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q328632"
   },
   {
     "id": "person-lawrence-frank",
@@ -392,9 +501,13 @@
     "shortDescription": "Social scientist who helped organize the Macy Conferences",
     "wikipediaTitle": "Lawrence_K._Frank",
     "biography": "Helped organize and fund the Macy Conferences. Bridge between natural sciences and social sciences. Key administrator enabling interdisciplinary work.",
-    "occupations": ["social scientist", "foundation administrator"],
+    "occupations": [
+      "social scientist",
+      "foundation administrator"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q15430706"
   },
   {
     "id": "person-frank-fremont-smith",
@@ -405,9 +518,13 @@
     "shortDescription": "Physician who championed the Macy Conferences",
     "wikipediaTitle": "Frank_Fremont-Smith",
     "biography": "Medical director of Macy Foundation who championed interdisciplinary conferences on cybernetics and other topics. Made the Macy Conferences possible through institutional support.",
-    "occupations": ["physician", "foundation administrator"],
+    "occupations": [
+      "physician",
+      "foundation administrator"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q5486704"
   },
   {
     "id": "person-ralph-gerard",
@@ -418,9 +535,12 @@
     "shortDescription": "Neurophysiologist; co-founded Society for General Systems Research",
     "wikipediaTitle": "Ralph_Waldo_Gerard",
     "biography": "Studied the electrical activity of the nervous system. Co-founded Society for General Systems Research with Bertalanffy and Boulding. Macy Conference core participant.",
-    "occupations": ["neurophysiologist"],
+    "occupations": [
+      "neurophysiologist"
+    ],
     "nationality": "American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": null
   },
   {
     "id": "person-heinrich-kluver",
@@ -431,9 +551,12 @@
     "shortDescription": "Psychologist known for mescaline research and visual perception studies",
     "wikipediaTitle": "Heinrich_Klüver",
     "biography": "Research on mescaline and visual perception. Klüver-Bucy syndrome named after him. Macy Conference participant. German-American.",
-    "occupations": ["psychologist"],
+    "occupations": [
+      "psychologist"
+    ],
     "nationality": "German-American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q74829"
   },
   {
     "id": "person-kurt-lewin",
@@ -444,9 +567,12 @@
     "shortDescription": "Pioneer of social psychology and field theory",
     "wikipediaTitle": "Kurt_Lewin",
     "biography": "Pioneer of social psychology and organizational psychology. Field theory applied cybernetic concepts to social behavior. Died during early Macy Conferences. Influenced group dynamics and organizational development fields.",
-    "occupations": ["psychologist"],
+    "occupations": [
+      "psychologist"
+    ],
     "nationality": "German-American",
-    "subgroup": "Macy Conference Core"
+    "subgroup": "Macy Conference Core",
+    "wikidataId": "Q77106"
   },
   {
     "id": "person-jerome-lettvin",
@@ -457,9 +583,12 @@
     "shortDescription": "Neuroscientist; co-authored 'What the Frog's Eye Tells the Frog's Brain'",
     "wikipediaTitle": "Jerome_Lettvin",
     "biography": "Co-authored 'What the Frog's Eye Tells the Frog's Brain' (1959) with McCulloch, Pitts, and Maturana—foundational for computational neuroscience. Also known for humanistic concerns about technology.",
-    "occupations": ["neuroscientist"],
+    "occupations": [
+      "neuroscientist"
+    ],
     "nationality": "American",
-    "subgroup": "Neurophysiology"
+    "subgroup": "Neurophysiology",
+    "wikidataId": "Q6182818"
   },
   {
     "id": "person-donald-hebb",
@@ -470,9 +599,13 @@
     "shortDescription": "Psychologist who proposed Hebbian learning",
     "wikipediaTitle": "Donald_O._Hebb",
     "biography": "The Organization of Behavior (1949) proposed that 'neurons that fire together wire together' (Hebbian learning). Foundational for neural network theory. Canadian; work bridged psychology and neuroscience.",
-    "occupations": ["psychologist", "neuroscientist"],
+    "occupations": [
+      "psychologist",
+      "neuroscientist"
+    ],
     "nationality": "Canadian",
-    "subgroup": "Neurophysiology"
+    "subgroup": "Neurophysiology",
+    "wikidataId": "Q683246"
   },
   {
     "id": "person-frank-rosenblatt",
@@ -483,9 +616,13 @@
     "shortDescription": "Psychologist who invented the Perceptron",
     "wikipediaTitle": "Frank_Rosenblatt",
     "biography": "Invented the Perceptron (1958), the first implemented learning neural network. Proved perceptron convergence theorem. Died in boating accident at 43. Work was criticized by Minsky and Papert (1969).",
-    "occupations": ["psychologist", "computer scientist"],
+    "occupations": [
+      "psychologist",
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "Neurophysiology"
+    "subgroup": "Neurophysiology",
+    "wikidataId": "Q93018"
   },
   {
     "id": "person-horace-barlow",
@@ -496,9 +633,12 @@
     "shortDescription": "Neuroscientist who applied information theory to neural processing",
     "wikipediaTitle": "Horace_Barlow",
     "biography": "Applied information theory to understanding neural processing. 'Efficient coding hypothesis' proposed brain represents information efficiently. Ratio Club member. Grandson of Charles Darwin.",
-    "occupations": ["neuroscientist"],
+    "occupations": [
+      "neuroscientist"
+    ],
     "nationality": "British",
-    "subgroup": "Neurophysiology"
+    "subgroup": "Neurophysiology",
+    "wikidataId": "Q13570719"
   },
   {
     "id": "person-albert-uttley",
@@ -509,9 +649,13 @@
     "shortDescription": "Physicist who developed early neural network models",
     "wikipediaTitle": "Albert_Uttley",
     "biography": "Developed conditional probability computers and neural network models. Important early work on machine learning. Ratio Club founding member. Worked at NPL where Turing also worked.",
-    "occupations": ["physicist", "computer scientist"],
+    "occupations": [
+      "physicist",
+      "computer scientist"
+    ],
     "nationality": "British",
-    "subgroup": "Neurophysiology"
+    "subgroup": "Neurophysiology",
+    "wikidataId": "Q65048378"
   },
   {
     "id": "person-grey-walter",
@@ -522,9 +666,13 @@
     "shortDescription": "Neurophysiologist who built autonomous tortoise robots",
     "wikipediaTitle": "William_Grey_Walter",
     "biography": "Built Elmer and Elsie, autonomous 'tortoise' robots (1948-49) demonstrating complex behavior from simple circuits. Advanced EEG techniques. American-born, British career. Ratio Club member.",
-    "occupations": ["neurophysiologist", "roboticist"],
+    "occupations": [
+      "neurophysiologist",
+      "roboticist"
+    ],
     "nationality": "British",
-    "subgroup": "British Cybernetics"
+    "subgroup": "British Cybernetics",
+    "wikidataId": "Q1359845"
   },
   {
     "id": "person-gordon-pask",
@@ -535,9 +683,13 @@
     "shortDescription": "Cybernetician who developed Conversation Theory",
     "wikipediaTitle": "Gordon_Pask",
     "biography": "Developed Conversation Theory for understanding learning as interaction. Key figure in second-order cybernetics. Prolific and eclectic thinker. Known for theatrical presentation style and wide-ranging interests.",
-    "occupations": ["cybernetician", "psychologist"],
+    "occupations": [
+      "cybernetician",
+      "psychologist"
+    ],
     "nationality": "British",
-    "subgroup": "British Cybernetics"
+    "subgroup": "British Cybernetics",
+    "wikidataId": "Q370461"
   },
   {
     "id": "person-donald-mackay",
@@ -548,9 +700,13 @@
     "shortDescription": "Physicist who applied information theory to brain science",
     "wikipediaTitle": "Donald_MacCrimmon_MacKay",
     "biography": "Information theory applied to brain and perception. Work on brain-machine analogies. Also wrote on free will and determinism. Ratio Club member. Christian faith informed his philosophical work.",
-    "occupations": ["physicist", "neuroscientist"],
+    "occupations": [
+      "physicist",
+      "neuroscientist"
+    ],
     "nationality": "British",
-    "subgroup": "British Cybernetics"
+    "subgroup": "British Cybernetics",
+    "wikidataId": "Q3036050"
   },
   {
     "id": "person-john-bates",
@@ -561,9 +717,12 @@
     "shortDescription": "Neurologist who founded the Ratio Club",
     "wikipediaTitle": null,
     "biography": "Founded the Ratio Club in 1949, bringing together young British researchers interested in cybernetics and brain science. Less well-known but crucial organizer.",
-    "occupations": ["neurologist"],
+    "occupations": [
+      "neurologist"
+    ],
     "nationality": "British",
-    "subgroup": "British Cybernetics"
+    "subgroup": "British Cybernetics",
+    "wikidataId": null
   },
   {
     "id": "person-william-rushton",
@@ -574,9 +733,12 @@
     "shortDescription": "Physiologist who researched color vision",
     "wikipediaTitle": "William_A._H._Rushton",
     "biography": "Research on color vision and visual physiology. Ratio Club member. Connected visual science to information processing ideas.",
-    "occupations": ["physiologist"],
+    "occupations": [
+      "physiologist"
+    ],
     "nationality": "British",
-    "subgroup": "British Cybernetics"
+    "subgroup": "British Cybernetics",
+    "wikidataId": null
   },
   {
     "id": "person-philip-woodward",
@@ -587,9 +749,12 @@
     "shortDescription": "Radar engineer who developed the ambiguity function",
     "wikipediaTitle": "Philip_M._Woodward",
     "biography": "Developed the ambiguity function in radar theory. Ratio Club member interested in signal processing and information. Applied information theory to radar problems.",
-    "occupations": ["radar engineer"],
+    "occupations": [
+      "radar engineer"
+    ],
     "nationality": "British",
-    "subgroup": "British Cybernetics"
+    "subgroup": "British Cybernetics",
+    "wikidataId": null
   },
   {
     "id": "person-ludwig-von-bertalanffy",
@@ -600,9 +765,13 @@
     "shortDescription": "Biologist who founded General Systems Theory",
     "wikipediaTitle": "Ludwig_von_Bertalanffy",
     "biography": "Founded General Systems Theory (GST). Argued for isomorphic patterns across sciences. Co-founded Society for General Systems Research. Austrian; emigrated during WWII. Distinct from but overlapping with cybernetics.",
-    "occupations": ["biologist", "systems theorist"],
+    "occupations": [
+      "biologist",
+      "systems theorist"
+    ],
     "nationality": "Austrian-American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q84345"
   },
   {
     "id": "person-kenneth-boulding",
@@ -613,9 +782,13 @@
     "shortDescription": "Economist and systems theorist",
     "wikipediaTitle": "Kenneth_E._Boulding",
     "biography": "Extended systems thinking to economics and social sciences. 'General Systems Theory—The Skeleton of Science' (1956) outlined hierarchy of system complexity. British-American. Quaker pacifist. Co-founded Society for General Systems Research.",
-    "occupations": ["economist", "systems theorist"],
+    "occupations": [
+      "economist",
+      "systems theorist"
+    ],
     "nationality": "British-American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q505520"
   },
   {
     "id": "person-anatol-rapoport",
@@ -626,9 +799,13 @@
     "shortDescription": "Mathematical psychologist and game theorist",
     "wikipediaTitle": "Anatol_Rapoport",
     "biography": "Applied game theory to conflict resolution. Developed tit-for-tat strategy. Co-founded Society for General Systems Research and edited General Systems yearbook. Russian-American. Peace researcher.",
-    "occupations": ["mathematical psychologist", "game theorist"],
+    "occupations": [
+      "mathematical psychologist",
+      "game theorist"
+    ],
     "nationality": "Russian-American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q487453"
   },
   {
     "id": "person-jay-forrester",
@@ -639,9 +816,13 @@
     "shortDescription": "Computer engineer who founded System Dynamics",
     "wikipediaTitle": "Jay_Wright_Forrester",
     "biography": "Invented magnetic core memory (basis of computer RAM for decades). Founded System Dynamics for modeling complex systems. Work influenced The Limits to Growth. System Dynamics simulates stocks, flows, and feedback over time.",
-    "occupations": ["computer engineer", "systems theorist"],
+    "occupations": [
+      "computer engineer",
+      "systems theorist"
+    ],
     "nationality": "American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q92763"
   },
   {
     "id": "person-donella-meadows",
@@ -652,9 +833,13 @@
     "shortDescription": "Systems scientist; lead author of The Limits to Growth",
     "wikipediaTitle": "Donella_Meadows",
     "biography": "Lead author of The Limits to Growth (1972), which used system dynamics to model global sustainability. Later wrote influential Thinking in Systems. Major public communicator of systems thinking.",
-    "occupations": ["systems scientist", "environmental scientist"],
+    "occupations": [
+      "systems scientist",
+      "environmental scientist"
+    ],
     "nationality": "American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q271226"
   },
   {
     "id": "person-russell-ackoff",
@@ -665,9 +850,13 @@
     "shortDescription": "Operations researcher and systems theorist",
     "wikipediaTitle": "Russell_L._Ackoff",
     "biography": "Developed purposeful systems concept. Distinguished 'messes' from 'problems.' Advocate for holistic thinking over analysis. Critic of traditional operations research; advocated participatory planning.",
-    "occupations": ["operations researcher", "systems theorist"],
+    "occupations": [
+      "operations researcher",
+      "systems theorist"
+    ],
     "nationality": "American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q1431186"
   },
   {
     "id": "person-c-west-churchman",
@@ -678,9 +867,13 @@
     "shortDescription": "Philosopher of systems thinking",
     "wikipediaTitle": "C._West_Churchman",
     "biography": "Philosophy of systems thinking and operations research. 'The systems approach' to management and design. Applied philosophical pragmatism to management science.",
-    "occupations": ["philosopher", "systems scientist"],
+    "occupations": [
+      "philosopher",
+      "systems scientist"
+    ],
     "nationality": "American",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q959763"
   },
   {
     "id": "person-peter-checkland",
@@ -691,9 +884,12 @@
     "shortDescription": "Systems scientist who developed Soft Systems Methodology",
     "wikipediaTitle": "Peter_Checkland",
     "biography": "Developed Soft Systems Methodology (SSM) for dealing with ill-defined problems in organizations and society. Distinguished 'hard' from 'soft' systems approaches.",
-    "occupations": ["systems scientist"],
+    "occupations": [
+      "systems scientist"
+    ],
     "nationality": "British",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": "Q503806"
   },
   {
     "id": "person-raul-espejo",
@@ -703,9 +899,13 @@
     "shortDescription": "Cybernetician who collaborated on Cybersyn project",
     "wikipediaTitle": "Raúl_Espejo",
     "biography": "Collaborated with Stafford Beer on Cybersyn project. Continued development of Viable System Model. Chilean-British. Active in organizational cybernetics.",
-    "occupations": ["cybernetician", "management scientist"],
+    "occupations": [
+      "cybernetician",
+      "management scientist"
+    ],
     "nationality": "Chilean-British",
-    "subgroup": "Systems Theory"
+    "subgroup": "Systems Theory",
+    "wikidataId": null
   },
   {
     "id": "person-heinz-von-foerster",
@@ -716,9 +916,13 @@
     "shortDescription": "Physicist who founded second-order cybernetics",
     "wikipediaTitle": "Heinz_von_Foerster",
     "biography": "Founded Biological Computer Laboratory (BCL) at Illinois, a major center for cybernetics. Developed second-order cybernetics ('the cybernetics of observing systems'). Secretary and editor of Macy Conference proceedings. Austrian-American. BCL was major intellectual hub 1958-1976.",
-    "occupations": ["physicist", "cybernetician"],
+    "occupations": [
+      "physicist",
+      "cybernetician"
+    ],
     "nationality": "Austrian-American",
-    "subgroup": "Second-Order Cybernetics"
+    "subgroup": "Second-Order Cybernetics",
+    "wikidataId": "Q78688"
   },
   {
     "id": "person-humberto-maturana",
@@ -729,9 +933,13 @@
     "shortDescription": "Biologist who co-developed autopoiesis",
     "wikipediaTitle": "Humberto_Maturana",
     "biography": "Co-developed autopoiesis concept with Varela. 'What the Frog's Eye Tells the Frog's Brain' (1959). The biology of cognition: living systems as cognitive systems. Chilean. Worked with Stafford Beer on Cybersyn project.",
-    "occupations": ["biologist", "neuroscientist"],
+    "occupations": [
+      "biologist",
+      "neuroscientist"
+    ],
     "nationality": "Chilean",
-    "subgroup": "Second-Order Cybernetics"
+    "subgroup": "Second-Order Cybernetics",
+    "wikidataId": "Q376452"
   },
   {
     "id": "person-francisco-varela",
@@ -742,9 +950,14 @@
     "shortDescription": "Biologist who co-developed autopoiesis and embodied cognition",
     "wikipediaTitle": "Francisco_Varela",
     "biography": "Co-developed autopoiesis with Maturana. Later work on embodied cognition and neurophenomenology. Connected Buddhist meditation to cognitive science. Chilean-French. Died young from hepatitis C.",
-    "occupations": ["biologist", "neuroscientist", "philosopher"],
+    "occupations": [
+      "biologist",
+      "neuroscientist",
+      "philosopher"
+    ],
     "nationality": "Chilean-French",
-    "subgroup": "Second-Order Cybernetics"
+    "subgroup": "Second-Order Cybernetics",
+    "wikidataId": "Q923582"
   },
   {
     "id": "person-ernst-von-glasersfeld",
@@ -755,9 +968,13 @@
     "shortDescription": "Philosopher who developed radical constructivism",
     "wikipediaTitle": "Ernst_von_Glasersfeld",
     "biography": "Developed radical constructivism, applying second-order cybernetic ideas to epistemology. Knowledge is constructed, not discovered. Austrian-American. Worked at BCL.",
-    "occupations": ["philosopher", "psychologist"],
+    "occupations": [
+      "philosopher",
+      "psychologist"
+    ],
     "nationality": "Austrian-American",
-    "subgroup": "Second-Order Cybernetics"
+    "subgroup": "Second-Order Cybernetics",
+    "wikidataId": "Q112176"
   },
   {
     "id": "person-ranulph-glanville",
@@ -768,9 +985,13 @@
     "shortDescription": "Cybernetician who applied second-order cybernetics to design",
     "wikipediaTitle": "Ranulph_Glanville",
     "biography": "Applied second-order cybernetics to design and architecture. Extended Pask's work. President of American Society for Cybernetics.",
-    "occupations": ["cybernetician", "design theorist"],
+    "occupations": [
+      "cybernetician",
+      "design theorist"
+    ],
     "nationality": "British",
-    "subgroup": "Second-Order Cybernetics"
+    "subgroup": "Second-Order Cybernetics",
+    "wikidataId": "Q1494101"
   },
   {
     "id": "person-marvin-minsky",
@@ -781,9 +1002,13 @@
     "shortDescription": "Computer scientist; co-founder of MIT AI Lab",
     "wikipediaTitle": "Marvin_Minsky",
     "biography": "Co-founder of MIT AI Lab. Co-organized Dartmouth Conference (1956). Developed frame theory. Perceptrons (1969) with Papert critiqued neural networks. Major figure in symbolic AI tradition.",
-    "occupations": ["computer scientist", "cognitive scientist"],
+    "occupations": [
+      "computer scientist",
+      "cognitive scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q204815"
   },
   {
     "id": "person-john-mccarthy",
@@ -794,9 +1019,12 @@
     "shortDescription": "Computer scientist who coined 'Artificial Intelligence'",
     "wikipediaTitle": "John_McCarthy_(computer_scientist)",
     "biography": "Coined the term 'Artificial Intelligence.' Co-organized Dartmouth Conference. Invented LISP programming language. Developed time-sharing concept. Founded Stanford AI Lab.",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q92739"
   },
   {
     "id": "person-allen-newell",
@@ -807,9 +1035,13 @@
     "shortDescription": "Computer scientist who co-created Logic Theorist",
     "wikipediaTitle": "Allen_Newell",
     "biography": "With Simon, created Logic Theorist (1956), often called first AI program. Developed GPS (General Problem Solver). Unified Theories of Cognition. Turing Award with Simon (1975).",
-    "occupations": ["computer scientist", "cognitive scientist"],
+    "occupations": [
+      "computer scientist",
+      "cognitive scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q439245"
   },
   {
     "id": "person-herbert-simon",
@@ -820,9 +1052,14 @@
     "shortDescription": "Polymath; Nobel Prize winner for bounded rationality",
     "wikipediaTitle": "Herbert_A._Simon",
     "biography": "Bounded rationality concept. With Newell, pioneered AI and cognitive science. Nobel Prize in Economics (1978) for decision-making research. Polymath; Turing Award and Nobel Prize.",
-    "occupations": ["political scientist", "economist", "cognitive scientist"],
+    "occupations": [
+      "political scientist",
+      "economist",
+      "cognitive scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q181529"
   },
   {
     "id": "person-seymour-papert",
@@ -833,9 +1070,14 @@
     "shortDescription": "Computer scientist who developed Logo and constructionist learning",
     "wikipediaTitle": "Seymour_Papert",
     "biography": "Co-founded MIT AI Lab with Minsky. Developed Logo programming language for education. Constructionist learning theory. South African-American. Studied with Piaget in Geneva.",
-    "occupations": ["mathematician", "computer scientist", "educator"],
+    "occupations": [
+      "mathematician",
+      "computer scientist",
+      "educator"
+    ],
     "nationality": "South African-American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q335027"
   },
   {
     "id": "person-oliver-selfridge",
@@ -846,9 +1088,12 @@
     "shortDescription": "Computer scientist who developed the Pandemonium model",
     "wikipediaTitle": "Oliver_Selfridge",
     "biography": "Developed Pandemonium model (1959) for pattern recognition using 'demons.' Early connectionist ideas. Participated in Dartmouth Conference.",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q2651957"
   },
   {
     "id": "person-nathaniel-rochester",
@@ -859,9 +1104,12 @@
     "shortDescription": "Computer scientist; co-organizer of Dartmouth Conference",
     "wikipediaTitle": "Nathaniel_Rochester_(computer_scientist)",
     "biography": "Co-organizer of Dartmouth Conference. Designed IBM 701, first commercial scientific computer. Early neural network simulations. IBM's chief architect for early computers.",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q6969830"
   },
   {
     "id": "person-ray-solomonoff",
@@ -872,9 +1120,12 @@
     "shortDescription": "Computer scientist who developed algorithmic probability",
     "wikipediaTitle": "Ray_Solomonoff",
     "biography": "Developed algorithmic probability and theory of inductive inference. Attended Dartmouth Conference. Pioneer of algorithmic information theory.",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q3123640"
   },
   {
     "id": "person-arthur-samuel",
@@ -885,9 +1136,12 @@
     "shortDescription": "Computer scientist who pioneered machine learning",
     "wikipediaTitle": "Arthur_Samuel_(computer_scientist)",
     "biography": "Pioneer of machine learning. His checkers-playing program (1959) learned to improve through self-play. Coined term 'machine learning.'",
-    "occupations": ["computer scientist"],
+    "occupations": [
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q710266"
   },
   {
     "id": "person-j-c-r-licklider",
@@ -898,9 +1152,13 @@
     "shortDescription": "Psychologist who envisioned interactive computing",
     "wikipediaTitle": "J._C._R._Licklider",
     "biography": "'Man-Computer Symbiosis' (1960) envisioned interactive computing. Funded ARPANET development. Major influence on personal computing vision. Funded much early AI and networking research through ARPA.",
-    "occupations": ["psychologist", "computer scientist"],
+    "occupations": [
+      "psychologist",
+      "computer scientist"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q92778"
   },
   {
     "id": "person-douglas-engelbart",
@@ -911,9 +1169,13 @@
     "shortDescription": "Engineer who invented the computer mouse and hypertext",
     "wikipediaTitle": "Douglas_Engelbart",
     "biography": "Invented the computer mouse. 'Mother of All Demos' (1968) demonstrated hypertext, video conferencing, collaborative editing. Augmenting human intellect. Vision of augmented intelligence rather than artificial intelligence.",
-    "occupations": ["engineer", "inventor"],
+    "occupations": [
+      "engineer",
+      "inventor"
+    ],
     "nationality": "American",
-    "subgroup": "AI & Cognitive Science"
+    "subgroup": "AI & Cognitive Science",
+    "wikidataId": "Q92614"
   },
   {
     "id": "person-alfred-whitehead",
@@ -924,9 +1186,13 @@
     "shortDescription": "Mathematician and philosopher; co-authored Principia Mathematica",
     "wikipediaTitle": "Alfred_North_Whitehead",
     "biography": "Co-authored Principia Mathematica with Russell, foundational for mathematical logic used by cybernetics. Process philosophy influenced systems thinking. McCulloch-Pitts used Principia Mathematica notation.",
-    "occupations": ["mathematician", "philosopher"],
+    "occupations": [
+      "mathematician",
+      "philosopher"
+    ],
     "nationality": "British-American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q183372"
   },
   {
     "id": "person-bertrand-russell",
@@ -937,9 +1203,14 @@
     "shortDescription": "Philosopher and logician; co-authored Principia Mathematica",
     "wikipediaTitle": "Bertrand_Russell",
     "biography": "Co-authored Principia Mathematica. Type theory. Influenced logical foundations of computation. Young Walter Pitts corresponded with Russell. Pitts reportedly corrected Russell's work as teenager.",
-    "occupations": ["philosopher", "logician", "mathematician"],
+    "occupations": [
+      "philosopher",
+      "logician",
+      "mathematician"
+    ],
     "nationality": "British",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q33760"
   },
   {
     "id": "person-alonzo-church",
@@ -950,9 +1221,13 @@
     "shortDescription": "Mathematician who developed lambda calculus",
     "wikipediaTitle": "Alonzo_Church",
     "biography": "Lambda calculus (1936) provided alternative formalization of computation, proved equivalent to Turing machines. Church-Turing thesis. Turing was his doctoral student.",
-    "occupations": ["mathematician", "logician"],
+    "occupations": [
+      "mathematician",
+      "logician"
+    ],
     "nationality": "American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q92741"
   },
   {
     "id": "person-kurt-godel",
@@ -963,9 +1238,13 @@
     "shortDescription": "Mathematician who proved the incompleteness theorems",
     "wikipediaTitle": "Kurt_Gödel",
     "biography": "Incompleteness theorems (1931) showed limits of formal systems. Influenced Turing's work on computability. Austrian-American. Friend of Einstein at IAS.",
-    "occupations": ["mathematician", "logician"],
+    "occupations": [
+      "mathematician",
+      "logician"
+    ],
     "nationality": "Austrian-American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q41390"
   },
   {
     "id": "person-walter-cannon",
@@ -976,9 +1255,12 @@
     "shortDescription": "Physiologist who coined 'homeostasis'",
     "wikipediaTitle": "Walter_Bradford_Cannon",
     "biography": "Coined 'homeostasis' for physiological self-regulation. His work on feedback in biological systems influenced cybernetic thinking. Homeostasis concept central to cybernetics.",
-    "occupations": ["physiologist"],
+    "occupations": [
+      "physiologist"
+    ],
     "nationality": "American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q503192"
   },
   {
     "id": "person-josiah-gibbs",
@@ -989,9 +1271,14 @@
     "shortDescription": "Physicist who developed statistical mechanics and thermodynamic entropy",
     "wikipediaTitle": "Josiah_Willard_Gibbs",
     "biography": "Developed statistical mechanics and thermodynamic entropy. Shannon explicitly modeled information entropy on Gibbs's work. Major but underappreciated American scientist.",
-    "occupations": ["physicist", "chemist", "mathematician"],
+    "occupations": [
+      "physicist",
+      "chemist",
+      "mathematician"
+    ],
     "nationality": "American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q153243"
   },
   {
     "id": "person-ludwig-boltzmann",
@@ -1002,9 +1289,12 @@
     "shortDescription": "Physicist who developed statistical interpretation of entropy",
     "wikipediaTitle": "Ludwig_Boltzmann",
     "biography": "Statistical interpretation of thermodynamic entropy (Boltzmann's constant, S = k log W). Foundation for Shannon's information entropy. Austrian. Tragic suicide; work not fully appreciated in lifetime.",
-    "occupations": ["physicist"],
+    "occupations": [
+      "physicist"
+    ],
     "nationality": "Austrian",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q84296"
   },
   {
     "id": "person-vannevar-bush",
@@ -1015,9 +1305,13 @@
     "shortDescription": "Engineer who built differential analyzers and envisioned hypertext",
     "wikipediaTitle": "Vannevar_Bush",
     "biography": "Built differential analyzers (analog computers). 'As We May Think' (1945) anticipated hypertext and personal computing. Directed wartime science as head of OSRD. Shannon's master's thesis work done under Bush.",
-    "occupations": ["engineer", "science administrator"],
+    "occupations": [
+      "engineer",
+      "science administrator"
+    ],
     "nationality": "American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q299595"
   },
   {
     "id": "person-charles-peirce",
@@ -1028,9 +1322,13 @@
     "shortDescription": "Philosopher and logician; founder of semiotics and pragmatism",
     "wikipediaTitle": "Charles_Sanders_Peirce",
     "biography": "Semiotics (theory of signs). Pragmatism. Logic and philosophy that influenced information and communication theory. American polymath; work rediscovered in 20th century.",
-    "occupations": ["philosopher", "logician"],
+    "occupations": [
+      "philosopher",
+      "logician"
+    ],
     "nationality": "American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q187520"
   },
   {
     "id": "person-oskar-morgenstern",
@@ -1041,9 +1339,12 @@
     "shortDescription": "Economist who co-founded game theory with von Neumann",
     "wikipediaTitle": "Oskar_Morgenstern",
     "biography": "Co-authored Theory of Games and Economic Behavior with von Neumann, founding game theory. Austrian-American.",
-    "occupations": ["economist"],
+    "occupations": [
+      "economist"
+    ],
     "nationality": "Austrian-American",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q94028"
   },
   {
     "id": "person-jean-piaget",
@@ -1054,9 +1355,13 @@
     "shortDescription": "Developmental psychologist who developed constructivist epistemology",
     "wikipediaTitle": "Jean_Piaget",
     "biography": "Swiss developmental psychologist known for his theory of cognitive development. His constructivist epistemology—the idea that knowledge is actively constructed rather than passively received—influenced second-order cybernetics and constructivism. Seymour Papert studied with Piaget in Geneva before joining MIT.",
-    "occupations": ["psychologist", "epistemologist"],
+    "occupations": [
+      "psychologist",
+      "epistemologist"
+    ],
     "nationality": "Swiss",
-    "subgroup": "Precursors"
+    "subgroup": "Precursors",
+    "wikidataId": "Q123190"
   },
   {
     "id": "object-cybernetics-wiener",
@@ -1064,10 +1369,13 @@
     "title": "Cybernetics: Or Control and Communication in the Animal and the Machine",
     "dateStart": "1948",
     "objectType": "book",
-    "creators": ["person-norbert-wiener"],
+    "creators": [
+      "person-norbert-wiener"
+    ],
     "language": "English",
     "shortDescription": "The foundational text that gave cybernetics its name and central concepts",
-    "wikipediaTitle": "Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine"
+    "wikipediaTitle": "Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
+    "wikidataId": "Q16953441"
   },
   {
     "id": "object-information-theory-shannon",
@@ -1075,14 +1383,23 @@
     "title": "A Mathematical Theory of Communication",
     "dateStart": "1948",
     "objectType": "paper",
-    "creators": ["person-claude-shannon"],
+    "creators": [
+      "person-claude-shannon"
+    ],
     "language": "English",
     "shortDescription": "The paper that established information theory as a mathematical discipline",
     "wikipediaTitle": "A_Mathematical_Theory_of_Communication",
     "externalLinks": [
-      {"label": "Bell Labs (PDF)", "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication"}
-    ]
+      {
+        "label": "Bell Labs (PDF)",
+        "url": "https://people.math.harvard.edu/~ctm/home/text/others/shannon/entropy/entropy.pdf"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/A_Mathematical_Theory_of_Communication"
+      }
+    ],
+    "wikidataId": "Q724029"
   },
   {
     "id": "object-math-theory-communication-book",
@@ -1090,10 +1407,14 @@
     "title": "The Mathematical Theory of Communication (book)",
     "dateStart": "1949",
     "objectType": "book",
-    "creators": ["person-claude-shannon", "person-warren-weaver"],
+    "creators": [
+      "person-claude-shannon",
+      "person-warren-weaver"
+    ],
     "language": "English",
     "shortDescription": "Book version with Shannon's paper and Weaver's accessible introduction",
-    "wikipediaTitle": "A_Mathematical_Theory_of_Communication"
+    "wikipediaTitle": "A_Mathematical_Theory_of_Communication",
+    "wikidataId": "Q724029"
   },
   {
     "id": "object-computable-numbers-turing",
@@ -1101,14 +1422,23 @@
     "title": "On Computable Numbers, with an Application to the Entscheidungsproblem",
     "dateStart": "1936",
     "objectType": "paper",
-    "creators": ["person-alan-turing"],
+    "creators": [
+      "person-alan-turing"
+    ],
     "language": "English",
     "shortDescription": "The paper that defined the Turing machine and modern computation",
     "wikipediaTitle": "On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem",
     "externalLinks": [
-      {"label": "London Math Society (PDF)", "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem"}
-    ]
+      {
+        "label": "London Math Society (PDF)",
+        "url": "https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem"
+      }
+    ],
+    "wikidataId": "Q7854954"
   },
   {
     "id": "object-computing-machinery-turing",
@@ -1116,14 +1446,23 @@
     "title": "Computing Machinery and Intelligence",
     "dateStart": "1950",
     "objectType": "paper",
-    "creators": ["person-alan-turing"],
+    "creators": [
+      "person-alan-turing"
+    ],
     "language": "English",
     "shortDescription": "The paper that proposed the Turing Test for machine intelligence",
     "wikipediaTitle": "Computing_Machinery_and_Intelligence",
     "externalLinks": [
-      {"label": "Oxford Academic (Mind)", "url": "https://academic.oup.com/mind/article/LIX/236/433/986238"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"}
-    ]
+      {
+        "label": "Oxford Academic (Mind)",
+        "url": "https://academic.oup.com/mind/article/LIX/236/433/986238"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
+      }
+    ],
+    "wikidataId": "Q772056"
   },
   {
     "id": "object-logical-calculus-mcculloch-pitts",
@@ -1131,14 +1470,24 @@
     "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
     "dateStart": "1943",
     "objectType": "paper",
-    "creators": ["person-warren-mcculloch", "person-walter-pitts"],
+    "creators": [
+      "person-warren-mcculloch",
+      "person-walter-pitts"
+    ],
     "language": "English",
     "shortDescription": "The first mathematical model of neural networks",
     "wikipediaTitle": "A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity",
     "externalLinks": [
-      {"label": "Springer (PDF)", "url": "https://link.springer.com/article/10.1007/BF02478259"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity"}
-    ]
+      {
+        "label": "Springer (PDF)",
+        "url": "https://link.springer.com/article/10.1007/BF02478259"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity"
+      }
+    ],
+    "wikidataId": "Q22337370"
   },
   {
     "id": "object-frogs-eye-lettvin",
@@ -1146,14 +1495,26 @@
     "title": "What the Frog's Eye Tells the Frog's Brain",
     "dateStart": "1959",
     "objectType": "paper",
-    "creators": ["person-jerome-lettvin", "person-humberto-maturana", "person-warren-mcculloch", "person-walter-pitts"],
+    "creators": [
+      "person-jerome-lettvin",
+      "person-humberto-maturana",
+      "person-warren-mcculloch",
+      "person-walter-pitts"
+    ],
     "language": "English",
     "shortDescription": "Foundational paper showing perception involves active construction",
     "wikipediaTitle": "What_the_Frog's_Eye_Tells_the_Frog's_Brain",
     "externalLinks": [
-      {"label": "MIT (PDF)", "url": "https://hearingbrain.org/docs/letvin_frogs_eye.pdf"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/What_the_Frog%27s_Eye_Tells_the_Frog%27s_Brain"}
-    ]
+      {
+        "label": "MIT (PDF)",
+        "url": "https://hearingbrain.org/docs/letvin_frogs_eye.pdf"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/What_the_Frog%27s_Eye_Tells_the_Frog%27s_Brain"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-neurodynamics-rosenblatt",
@@ -1161,10 +1522,13 @@
     "title": "Principles of Neurodynamics",
     "dateStart": "1962",
     "objectType": "book",
-    "creators": ["person-frank-rosenblatt"],
+    "creators": [
+      "person-frank-rosenblatt"
+    ],
     "language": "English",
     "shortDescription": "Full exposition of the perceptron neural network",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-perceptrons-minsky-papert",
@@ -1172,10 +1536,14 @@
     "title": "Perceptrons: An Introduction to Computational Geometry",
     "dateStart": "1969",
     "objectType": "book",
-    "creators": ["person-marvin-minsky", "person-seymour-papert"],
+    "creators": [
+      "person-marvin-minsky",
+      "person-seymour-papert"
+    ],
     "language": "English",
     "shortDescription": "Influential critique of neural network limitations",
-    "wikipediaTitle": "Perceptrons_(book)"
+    "wikipediaTitle": "Perceptrons_(book)",
+    "wikidataId": "Q4359403"
   },
   {
     "id": "object-organization-behavior-hebb",
@@ -1183,10 +1551,13 @@
     "title": "The Organization of Behavior",
     "dateStart": "1949",
     "objectType": "book",
-    "creators": ["person-donald-hebb"],
+    "creators": [
+      "person-donald-hebb"
+    ],
     "language": "English",
     "shortDescription": "Proposed Hebbian learning: 'neurons that fire together wire together'",
-    "wikipediaTitle": "The_Organization_of_Behavior"
+    "wikipediaTitle": "The_Organization_of_Behavior",
+    "wikidataId": null
   },
   {
     "id": "object-design-brain-ashby",
@@ -1194,10 +1565,13 @@
     "title": "Design for a Brain",
     "dateStart": "1952",
     "objectType": "book",
-    "creators": ["person-ross-ashby"],
+    "creators": [
+      "person-ross-ashby"
+    ],
     "language": "English",
     "shortDescription": "Presented the concept of ultrastability in adaptive systems",
-    "wikipediaTitle": "Design_for_a_Brain"
+    "wikipediaTitle": "Design_for_a_Brain",
+    "wikidataId": null
   },
   {
     "id": "object-intro-cybernetics-ashby",
@@ -1205,10 +1579,13 @@
     "title": "An Introduction to Cybernetics",
     "dateStart": "1956",
     "objectType": "book",
-    "creators": ["person-ross-ashby"],
+    "creators": [
+      "person-ross-ashby"
+    ],
     "language": "English",
     "shortDescription": "Standard cybernetics textbook; introduced Law of Requisite Variety",
-    "wikipediaTitle": "An_Introduction_to_Cybernetics"
+    "wikipediaTitle": "An_Introduction_to_Cybernetics",
+    "wikidataId": "Q97359298"
   },
   {
     "id": "object-living-brain-walter",
@@ -1216,10 +1593,13 @@
     "title": "The Living Brain",
     "dateStart": "1953",
     "objectType": "book",
-    "creators": ["person-grey-walter"],
+    "creators": [
+      "person-grey-walter"
+    ],
     "language": "English",
     "shortDescription": "Popular account of EEG research and tortoise robots",
-    "wikipediaTitle": "The_Living_Brain"
+    "wikipediaTitle": "The_Living_Brain",
+    "wikidataId": "Q136953442"
   },
   {
     "id": "object-behavior-purpose-teleology",
@@ -1227,14 +1607,25 @@
     "title": "Behavior, Purpose and Teleology",
     "dateStart": "1943",
     "objectType": "paper",
-    "creators": ["person-arturo-rosenblueth", "person-norbert-wiener", "person-julian-bigelow"],
+    "creators": [
+      "person-arturo-rosenblueth",
+      "person-norbert-wiener",
+      "person-julian-bigelow"
+    ],
     "language": "English",
     "shortDescription": "Rehabilitated teleological explanation in science through feedback",
     "wikipediaTitle": "Behavior,_Purpose_and_Teleology",
     "externalLinks": [
-      {"label": "Philosophy of Science (JSTOR)", "url": "https://www.jstor.org/stable/184878"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Behavior,_Purpose_and_Teleology"}
-    ]
+      {
+        "label": "Philosophy of Science (JSTOR)",
+        "url": "https://www.jstor.org/stable/184878"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Behavior,_Purpose_and_Teleology"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-human-use-wiener",
@@ -1242,10 +1633,13 @@
     "title": "The Human Use of Human Beings",
     "dateStart": "1950",
     "objectType": "book",
-    "creators": ["person-norbert-wiener"],
+    "creators": [
+      "person-norbert-wiener"
+    ],
     "language": "English",
     "shortDescription": "Popular exposition of cybernetics and its social implications",
-    "wikipediaTitle": "The_Human_Use_of_Human_Beings"
+    "wikipediaTitle": "The_Human_Use_of_Human_Beings",
+    "wikidataId": "Q7740888"
   },
   {
     "id": "object-general-system-theory-bertalanffy",
@@ -1253,10 +1647,13 @@
     "title": "General System Theory",
     "dateStart": "1968",
     "objectType": "book",
-    "creators": ["person-ludwig-von-bertalanffy"],
+    "creators": [
+      "person-ludwig-von-bertalanffy"
+    ],
     "language": "English",
     "shortDescription": "Foundational text for systems theory",
-    "wikipediaTitle": "General_System_Theory"
+    "wikipediaTitle": "General_System_Theory",
+    "wikidataId": null
   },
   {
     "id": "object-cybernetics-management-beer",
@@ -1264,10 +1661,13 @@
     "title": "Cybernetics and Management",
     "dateStart": "1959",
     "objectType": "book",
-    "creators": ["person-stafford-beer"],
+    "creators": [
+      "person-stafford-beer"
+    ],
     "language": "English",
     "shortDescription": "First systematic application of cybernetics to management",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-brain-firm-beer",
@@ -1275,10 +1675,13 @@
     "title": "Brain of the Firm",
     "dateStart": "1972",
     "objectType": "book",
-    "creators": ["person-stafford-beer"],
+    "creators": [
+      "person-stafford-beer"
+    ],
     "language": "English",
     "shortDescription": "Presented the Viable System Model (VSM)",
-    "wikipediaTitle": "Brain_of_the_Firm"
+    "wikipediaTitle": "Brain_of_the_Firm",
+    "wikidataId": null
   },
   {
     "id": "object-industrial-dynamics-forrester",
@@ -1286,10 +1689,13 @@
     "title": "Industrial Dynamics",
     "dateStart": "1961",
     "objectType": "book",
-    "creators": ["person-jay-forrester"],
+    "creators": [
+      "person-jay-forrester"
+    ],
     "language": "English",
     "shortDescription": "Founded system dynamics methodology",
-    "wikipediaTitle": "Industrial_Dynamics"
+    "wikipediaTitle": "Industrial_Dynamics",
+    "wikidataId": null
   },
   {
     "id": "object-limits-growth-meadows",
@@ -1297,10 +1703,13 @@
     "title": "The Limits to Growth",
     "dateStart": "1972",
     "objectType": "book",
-    "creators": ["person-donella-meadows"],
+    "creators": [
+      "person-donella-meadows"
+    ],
     "language": "English",
     "shortDescription": "Used system dynamics to model global sustainability",
-    "wikipediaTitle": "The_Limits_to_Growth"
+    "wikipediaTitle": "The_Limits_to_Growth",
+    "wikidataId": "Q277111"
   },
   {
     "id": "object-steps-ecology-mind-bateson",
@@ -1308,10 +1717,13 @@
     "title": "Steps to an Ecology of Mind",
     "dateStart": "1972",
     "objectType": "book",
-    "creators": ["person-gregory-bateson"],
+    "creators": [
+      "person-gregory-bateson"
+    ],
     "language": "English",
     "shortDescription": "Extended cybernetics to mental and social systems",
-    "wikipediaTitle": "Steps_to_an_Ecology_of_Mind"
+    "wikipediaTitle": "Steps_to_an_Ecology_of_Mind",
+    "wikidataId": "Q1970551"
   },
   {
     "id": "object-autopoiesis-cognition",
@@ -1319,10 +1731,14 @@
     "title": "Autopoiesis and Cognition: The Realization of the Living",
     "dateStart": "1980",
     "objectType": "book",
-    "creators": ["person-humberto-maturana", "person-francisco-varela"],
+    "creators": [
+      "person-humberto-maturana",
+      "person-francisco-varela"
+    ],
     "language": "English",
     "shortDescription": "Defined autopoiesis—self-producing systems",
-    "wikipediaTitle": "Autopoiesis_and_Cognition"
+    "wikipediaTitle": "Autopoiesis_and_Cognition",
+    "wikidataId": null
   },
   {
     "id": "object-observing-systems-foerster",
@@ -1330,10 +1746,13 @@
     "title": "Observing Systems",
     "dateStart": "1981",
     "objectType": "book",
-    "creators": ["person-heinz-von-foerster"],
+    "creators": [
+      "person-heinz-von-foerster"
+    ],
     "language": "English",
     "shortDescription": "Collected papers defining second-order cybernetics",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-embodied-mind-varela",
@@ -1341,10 +1760,13 @@
     "title": "The Embodied Mind: Cognitive Science and Human Experience",
     "dateStart": "1991",
     "objectType": "book",
-    "creators": ["person-francisco-varela"],
+    "creators": [
+      "person-francisco-varela"
+    ],
     "language": "English",
     "shortDescription": "Proposed enaction—cognition as embodied action",
-    "wikipediaTitle": "The_Embodied_Mind"
+    "wikipediaTitle": "The_Embodied_Mind",
+    "wikidataId": null
   },
   {
     "id": "object-edvac-report-neumann",
@@ -1352,10 +1774,13 @@
     "title": "First Draft of a Report on the EDVAC",
     "dateStart": "1945",
     "objectType": "report",
-    "creators": ["person-john-von-neumann"],
+    "creators": [
+      "person-john-von-neumann"
+    ],
     "language": "English",
     "shortDescription": "Described the stored-program computer architecture",
-    "wikipediaTitle": "First_Draft_of_a_Report_on_the_EDVAC"
+    "wikipediaTitle": "First_Draft_of_a_Report_on_the_EDVAC",
+    "wikidataId": "Q5452926"
   },
   {
     "id": "object-game-theory-neumann-morgenstern",
@@ -1363,10 +1788,14 @@
     "title": "Theory of Games and Economic Behavior",
     "dateStart": "1944",
     "objectType": "book",
-    "creators": ["person-john-von-neumann", "person-oskar-morgenstern"],
+    "creators": [
+      "person-john-von-neumann",
+      "person-oskar-morgenstern"
+    ],
     "language": "English",
     "shortDescription": "Founded game theory as a mathematical discipline",
-    "wikipediaTitle": "Theory_of_Games_and_Economic_Behavior"
+    "wikipediaTitle": "Theory_of_Games_and_Economic_Behavior",
+    "wikidataId": "Q5226156"
   },
   {
     "id": "object-computer-brain-neumann",
@@ -1374,10 +1803,13 @@
     "title": "The Computer and the Brain",
     "dateStart": "1958",
     "objectType": "book",
-    "creators": ["person-john-von-neumann"],
+    "creators": [
+      "person-john-von-neumann"
+    ],
     "language": "English",
     "shortDescription": "Unfinished lectures comparing computers with the brain",
-    "wikipediaTitle": "The_Computer_and_the_Brain"
+    "wikipediaTitle": "The_Computer_and_the_Brain",
+    "wikidataId": "Q7727248"
   },
   {
     "id": "object-ultraintelligent-machine-good",
@@ -1385,14 +1817,23 @@
     "title": "Speculations Concerning the First Ultraintelligent Machine",
     "dateStart": "1965",
     "objectType": "paper",
-    "creators": ["person-i-j-good"],
+    "creators": [
+      "person-i-j-good"
+    ],
     "language": "English",
     "shortDescription": "First articulation of 'intelligence explosion' (AI singularity)",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Advances in Computers (PDF)", "url": "https://exhibits.stanford.edu/feigenbaum/catalog/gzsj0drf2321"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/I._J._Good"}
-    ]
+      {
+        "label": "Advances in Computers (PDF)",
+        "url": "https://exhibits.stanford.edu/feigenbaum/catalog/gzsj0drf2321"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/I._J._Good"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-dartmouth-proposal",
@@ -1400,10 +1841,16 @@
     "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
     "dateStart": "1955",
     "objectType": "document",
-    "creators": ["person-john-mccarthy", "person-marvin-minsky", "person-nathaniel-rochester", "person-claude-shannon"],
+    "creators": [
+      "person-john-mccarthy",
+      "person-marvin-minsky",
+      "person-nathaniel-rochester",
+      "person-claude-shannon"
+    ],
     "language": "English",
     "shortDescription": "Coined 'artificial intelligence' and launched AI as a field",
-    "wikipediaTitle": "Dartmouth_workshop"
+    "wikipediaTitle": "Dartmouth_workshop",
+    "wikidataId": "Q2453355"
   },
   {
     "id": "object-man-computer-symbiosis-licklider",
@@ -1411,14 +1858,23 @@
     "title": "Man-Computer Symbiosis",
     "dateStart": "1960",
     "objectType": "paper",
-    "creators": ["person-j-c-r-licklider"],
+    "creators": [
+      "person-j-c-r-licklider"
+    ],
     "language": "English",
     "shortDescription": "Foundational vision for interactive computing",
     "wikipediaTitle": "Man-Computer_Symbiosis",
     "externalLinks": [
-      {"label": "IRE Transactions (PDF)", "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Man-Computer_Symbiosis"}
-    ]
+      {
+        "label": "IRE Transactions (PDF)",
+        "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Man-Computer_Symbiosis"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-programs-common-sense-mccarthy",
@@ -1426,14 +1882,23 @@
     "title": "Programs with Common Sense",
     "dateStart": "1959",
     "objectType": "paper",
-    "creators": ["person-john-mccarthy"],
+    "creators": [
+      "person-john-mccarthy"
+    ],
     "language": "English",
     "shortDescription": "Proposed the Advice Taker for commonsense reasoning",
     "wikipediaTitle": null,
     "externalLinks": [
-      {"label": "Stanford (PDF)", "url": "http://www-formal.stanford.edu/jmc/mcc59.pdf"},
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Commonsense_reasoning"}
-    ]
+      {
+        "label": "Stanford (PDF)",
+        "url": "http://www-formal.stanford.edu/jmc/mcc59.pdf"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Commonsense_reasoning"
+      }
+    ],
+    "wikidataId": null
   },
   {
     "id": "object-society-mind-minsky",
@@ -1441,10 +1906,13 @@
     "title": "The Society of Mind",
     "dateStart": "1986",
     "objectType": "book",
-    "creators": ["person-marvin-minsky"],
+    "creators": [
+      "person-marvin-minsky"
+    ],
     "language": "English",
     "shortDescription": "Proposed intelligence arises from many simple agents",
-    "wikipediaTitle": "The_Society_of_Mind"
+    "wikipediaTitle": "The_Society_of_Mind",
+    "wikidataId": "Q2414313"
   },
   {
     "id": "object-unified-theories-newell",
@@ -1452,10 +1920,13 @@
     "title": "Unified Theories of Cognition",
     "dateStart": "1990",
     "objectType": "book",
-    "creators": ["person-allen-newell"],
+    "creators": [
+      "person-allen-newell"
+    ],
     "language": "English",
     "shortDescription": "Argued for unified cognitive architectures",
-    "wikipediaTitle": "Unified_Theories_of_Cognition"
+    "wikipediaTitle": "Unified_Theories_of_Cognition",
+    "wikidataId": "Q7884967"
   },
   {
     "id": "object-macy-proceedings",
@@ -1464,10 +1935,13 @@
     "dateStart": "1950",
     "dateEnd": "1955",
     "objectType": "proceedings",
-    "creators": ["person-heinz-von-foerster"],
+    "creators": [
+      "person-heinz-von-foerster"
+    ],
     "language": "English",
     "shortDescription": "Published proceedings of the Macy Conferences",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-homeostat-ashby",
@@ -1475,9 +1949,12 @@
     "title": "The Homeostat",
     "dateStart": "1948",
     "objectType": "device",
-    "creators": ["person-ross-ashby"],
+    "creators": [
+      "person-ross-ashby"
+    ],
     "shortDescription": "Electromechanical device demonstrating ultrastability",
-    "wikipediaTitle": "Homeostat"
+    "wikipediaTitle": "Homeostat",
+    "wikidataId": "Q1048881"
   },
   {
     "id": "object-tortoise-robots-walter",
@@ -1486,9 +1963,12 @@
     "dateStart": "1948",
     "dateEnd": "1949",
     "objectType": "device",
-    "creators": ["person-grey-walter"],
+    "creators": [
+      "person-grey-walter"
+    ],
     "shortDescription": "Autonomous robots demonstrating emergent behavior",
-    "wikipediaTitle": "Turtle_(robot)"
+    "wikipediaTitle": "Turtle_(robot)",
+    "wikidataId": "Q3532550"
   },
   {
     "id": "object-perceptron-hardware",
@@ -1497,9 +1977,12 @@
     "dateStart": "1957",
     "dateEnd": "1958",
     "objectType": "device",
-    "creators": ["person-frank-rosenblatt"],
+    "creators": [
+      "person-frank-rosenblatt"
+    ],
     "shortDescription": "First hardware neural network that could learn",
-    "wikipediaTitle": "Perceptron"
+    "wikipediaTitle": "Perceptron",
+    "wikidataId": "Q690207"
   },
   {
     "id": "object-eniac",
@@ -1507,9 +1990,13 @@
     "title": "ENIAC",
     "dateStart": "1946",
     "objectType": "device",
-    "creators": ["person-john-mauchly", "person-presper-eckert"],
+    "creators": [
+      "person-john-mauchly",
+      "person-presper-eckert"
+    ],
     "shortDescription": "One of the first general-purpose electronic digital computers",
-    "wikipediaTitle": "ENIAC"
+    "wikipediaTitle": "ENIAC",
+    "wikidataId": "Q169399"
   },
   {
     "id": "object-colossus",
@@ -1518,9 +2005,12 @@
     "dateStart": "1943",
     "dateEnd": "1944",
     "objectType": "device",
-    "creators": ["person-tommy-flowers"],
+    "creators": [
+      "person-tommy-flowers"
+    ],
     "shortDescription": "First programmable electronic digital computer",
-    "wikipediaTitle": "Colossus_computer"
+    "wikipediaTitle": "Colossus_computer",
+    "wikidataId": "Q770597"
   },
   {
     "id": "object-edsac",
@@ -1528,9 +2018,12 @@
     "title": "EDSAC",
     "dateStart": "1949",
     "objectType": "device",
-    "creators": ["person-maurice-wilkes"],
+    "creators": [
+      "person-maurice-wilkes"
+    ],
     "shortDescription": "One of the first practical stored-program computers",
-    "wikipediaTitle": "EDSAC"
+    "wikipediaTitle": "EDSAC",
+    "wikidataId": "Q863565"
   },
   {
     "id": "object-nls-engelbart",
@@ -1538,9 +2031,12 @@
     "title": "NLS/Augment System & Mouse",
     "dateStart": "1968",
     "objectType": "device",
-    "creators": ["person-douglas-engelbart"],
+    "creators": [
+      "person-douglas-engelbart"
+    ],
     "shortDescription": "Demonstrated interactive computing paradigm (Mother of All Demos)",
-    "wikipediaTitle": "NLS_(computer_system)"
+    "wikipediaTitle": "NLS_(computer_system)",
+    "wikidataId": "Q1050365"
   },
   {
     "id": "location-mit",
@@ -1548,9 +2044,13 @@
     "title": "Massachusetts Institute of Technology",
     "locationType": "university",
     "country": "United States",
-    "coordinates": {"lat": 42.3601, "lng": -71.0942},
+    "coordinates": {
+      "lat": 42.3601,
+      "lng": -71.0942
+    },
     "shortDescription": "Major center for cybernetics, information theory, and AI research",
-    "wikipediaTitle": "Massachusetts_Institute_of_Technology"
+    "wikipediaTitle": "Massachusetts_Institute_of_Technology",
+    "wikidataId": "Q49108"
   },
   {
     "id": "location-bell-labs",
@@ -1558,9 +2058,13 @@
     "title": "Bell Labs",
     "locationType": "research_laboratory",
     "country": "United States",
-    "coordinates": {"lat": 40.6831, "lng": -74.4010},
+    "coordinates": {
+      "lat": 40.6831,
+      "lng": -74.4010
+    },
     "shortDescription": "Birthplace of information theory",
-    "wikipediaTitle": "Bell_Labs"
+    "wikipediaTitle": "Bell_Labs",
+    "wikidataId": "Q217365"
   },
   {
     "id": "location-ias-princeton",
@@ -1568,9 +2072,13 @@
     "title": "Institute for Advanced Study",
     "locationType": "research_institute",
     "country": "United States",
-    "coordinates": {"lat": 40.3276, "lng": -74.6692},
+    "coordinates": {
+      "lat": 40.3276,
+      "lng": -74.6692
+    },
     "shortDescription": "Where von Neumann built the IAS computer",
-    "wikipediaTitle": "Institute_for_Advanced_Study"
+    "wikipediaTitle": "Institute_for_Advanced_Study",
+    "wikidataId": "Q635642"
   },
   {
     "id": "location-bcl-illinois",
@@ -1580,9 +2088,13 @@
     "country": "United States",
     "dateStart": "1958",
     "dateEnd": "1976",
-    "coordinates": {"lat": 40.1020, "lng": -88.2272},
+    "coordinates": {
+      "lat": 40.1020,
+      "lng": -88.2272
+    },
     "shortDescription": "Center of second-order cybernetics",
-    "wikipediaTitle": "Biological_Computer_Laboratory"
+    "wikipediaTitle": "Biological_Computer_Laboratory",
+    "wikidataId": "Q164591"
   },
   {
     "id": "location-carnegie-mellon",
@@ -1590,9 +2102,13 @@
     "title": "Carnegie Mellon University",
     "locationType": "university",
     "country": "United States",
-    "coordinates": {"lat": 40.4432, "lng": -79.9428},
+    "coordinates": {
+      "lat": 40.4432,
+      "lng": -79.9428
+    },
     "shortDescription": "Home of the Newell-Simon AI collaboration",
-    "wikipediaTitle": "Carnegie_Mellon_University"
+    "wikipediaTitle": "Carnegie_Mellon_University",
+    "wikidataId": "Q190080"
   },
   {
     "id": "location-stanford",
@@ -1600,9 +2116,13 @@
     "title": "Stanford University",
     "locationType": "university",
     "country": "United States",
-    "coordinates": {"lat": 37.4275, "lng": -122.1697},
+    "coordinates": {
+      "lat": 37.4275,
+      "lng": -122.1697
+    },
     "shortDescription": "Home of Stanford AI Lab",
-    "wikipediaTitle": "Stanford_University"
+    "wikipediaTitle": "Stanford_University",
+    "wikidataId": "Q41506"
   },
   {
     "id": "location-sri",
@@ -1610,9 +2130,13 @@
     "title": "Stanford Research Institute (SRI)",
     "locationType": "research_institute",
     "country": "United States",
-    "coordinates": {"lat": 37.4528, "lng": -122.1810},
+    "coordinates": {
+      "lat": 37.4528,
+      "lng": -122.1810
+    },
     "shortDescription": "Where Engelbart developed the Mother of All Demos",
-    "wikipediaTitle": "SRI_International"
+    "wikipediaTitle": "SRI_International",
+    "wikidataId": "Q604924"
   },
   {
     "id": "location-cambridge",
@@ -1620,9 +2144,13 @@
     "title": "Cambridge University",
     "locationType": "university",
     "country": "United Kingdom",
-    "coordinates": {"lat": 52.2043, "lng": 0.1218},
+    "coordinates": {
+      "lat": 52.2043,
+      "lng": 0.1218
+    },
     "shortDescription": "Where Turing studied and Wilkes built EDSAC",
-    "wikipediaTitle": "University_of_Cambridge"
+    "wikipediaTitle": "University_of_Cambridge",
+    "wikidataId": "Q35794"
   },
   {
     "id": "location-manchester",
@@ -1630,9 +2158,13 @@
     "title": "University of Manchester",
     "locationType": "university",
     "country": "United Kingdom",
-    "coordinates": {"lat": 53.4668, "lng": -2.2339},
+    "coordinates": {
+      "lat": 53.4668,
+      "lng": -2.2339
+    },
     "shortDescription": "Where Turing worked on early computers",
-    "wikipediaTitle": "University_of_Manchester"
+    "wikipediaTitle": "University_of_Manchester",
+    "wikidataId": "Q230899"
   },
   {
     "id": "location-bletchley-park",
@@ -1642,9 +2174,13 @@
     "country": "United Kingdom",
     "dateStart": "1939",
     "dateEnd": "1945",
-    "coordinates": {"lat": 51.9977, "lng": -0.7411},
+    "coordinates": {
+      "lat": 51.9977,
+      "lng": -0.7411
+    },
     "shortDescription": "British WWII codebreaking center; birthplace of Colossus",
-    "wikipediaTitle": "Bletchley_Park"
+    "wikipediaTitle": "Bletchley_Park",
+    "wikidataId": "Q155921"
   },
   {
     "id": "location-npl",
@@ -1652,9 +2188,13 @@
     "title": "National Physical Laboratory",
     "locationType": "research_laboratory",
     "country": "United Kingdom",
-    "coordinates": {"lat": 51.4263, "lng": -0.3466},
+    "coordinates": {
+      "lat": 51.4263,
+      "lng": -0.3466
+    },
     "shortDescription": "Where Turing designed ACE computer",
-    "wikipediaTitle": "National_Physical_Laboratory_(United_Kingdom)"
+    "wikipediaTitle": "National_Physical_Laboratory_(United_Kingdom)",
+    "wikidataId": "Q1967606"
   },
   {
     "id": "location-burden-institute",
@@ -1662,9 +2202,13 @@
     "title": "Burden Neurological Institute",
     "locationType": "research_institute",
     "country": "United Kingdom",
-    "coordinates": {"lat": 51.4629, "lng": -2.6035},
+    "coordinates": {
+      "lat": 51.4629,
+      "lng": -2.6035
+    },
     "shortDescription": "Where Grey Walter built tortoise robots",
-    "wikipediaTitle": "Burden_Neurological_Institute"
+    "wikipediaTitle": "Burden_Neurological_Institute",
+    "wikidataId": null
   },
   {
     "id": "location-barnwood-house",
@@ -1674,9 +2218,13 @@
     "country": "United Kingdom",
     "dateStart": "1860",
     "dateEnd": "1968",
-    "coordinates": {"lat": 51.8642, "lng": -2.1976},
+    "coordinates": {
+      "lat": 51.8642,
+      "lng": -2.1976
+    },
     "shortDescription": "Where Ashby built the Homeostat",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-beekman-hotel",
@@ -1686,9 +2234,13 @@
     "country": "United States",
     "dateStart": "1946",
     "dateEnd": "1953",
-    "coordinates": {"lat": 40.7484, "lng": -73.9883},
+    "coordinates": {
+      "lat": 40.7484,
+      "lng": -73.9883
+    },
     "shortDescription": "Primary venue for the Macy Conferences",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-dartmouth",
@@ -1696,9 +2248,13 @@
     "title": "Dartmouth College",
     "locationType": "university",
     "country": "United States",
-    "coordinates": {"lat": 43.7044, "lng": -72.2887},
+    "coordinates": {
+      "lat": 43.7044,
+      "lng": -72.2887
+    },
     "shortDescription": "Site of the 1956 conference that launched AI",
-    "wikipediaTitle": "Dartmouth_College"
+    "wikipediaTitle": "Dartmouth_College",
+    "wikidataId": "Q49116"
   },
   {
     "id": "location-ratio-club-london",
@@ -1708,9 +2264,13 @@
     "country": "United Kingdom",
     "dateStart": "1949",
     "dateEnd": "1958",
-    "coordinates": {"lat": 51.5074, "lng": -0.1278},
+    "coordinates": {
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
     "shortDescription": "London venues for British cybernetics dining club",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-chile",
@@ -1718,9 +2278,13 @@
     "title": "University of Chile",
     "locationType": "university",
     "country": "Chile",
-    "coordinates": {"lat": -33.4417, "lng": -70.6541},
+    "coordinates": {
+      "lat": -33.4417,
+      "lng": -70.6541
+    },
     "shortDescription": "Where autopoiesis was developed",
-    "wikipediaTitle": "University_of_Chile"
+    "wikipediaTitle": "University_of_Chile",
+    "wikidataId": "Q232141"
   },
   {
     "id": "location-opsroom-chile",
@@ -1730,9 +2294,13 @@
     "country": "Chile",
     "dateStart": "1972",
     "dateEnd": "1973",
-    "coordinates": {"lat": -33.4432, "lng": -70.6541},
+    "coordinates": {
+      "lat": -33.4432,
+      "lng": -70.6541
+    },
     "shortDescription": "Cybersyn control room for economic management",
-    "wikipediaTitle": "Project_Cybersyn"
+    "wikipediaTitle": "Project_Cybersyn",
+    "wikidataId": "Q1147211"
   },
   {
     "id": "location-vienna",
@@ -1740,9 +2308,13 @@
     "title": "Vienna",
     "locationType": "city",
     "country": "Austria",
-    "coordinates": {"lat": 48.2082, "lng": 16.3738},
+    "coordinates": {
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
     "shortDescription": "Home of Boltzmann, von Bertalanffy, and precursor ideas",
-    "wikipediaTitle": "Vienna"
+    "wikipediaTitle": "Vienna",
+    "wikidataId": "Q1741"
   },
   {
     "id": "location-mcgill",
@@ -1750,9 +2322,13 @@
     "title": "McGill University",
     "locationType": "university",
     "country": "Canada",
-    "coordinates": {"lat": 45.5048, "lng": -73.5772},
+    "coordinates": {
+      "lat": 45.5048,
+      "lng": -73.5772
+    },
     "shortDescription": "Where Hebb developed his theory of neural learning",
-    "wikipediaTitle": "McGill_University"
+    "wikipediaTitle": "McGill_University",
+    "wikidataId": "Q201492"
   },
   {
     "id": "location-michigan",
@@ -1760,9 +2336,13 @@
     "title": "University of Michigan",
     "locationType": "university",
     "country": "United States",
-    "coordinates": {"lat": 42.2780, "lng": -83.7382},
+    "coordinates": {
+      "lat": 42.2780,
+      "lng": -83.7382
+    },
     "shortDescription": "Home of general systems theory founders",
-    "wikipediaTitle": "University_of_Michigan"
+    "wikipediaTitle": "University_of_Michigan",
+    "wikidataId": "Q230492"
   },
   {
     "id": "location-moore-school",
@@ -1770,9 +2350,13 @@
     "title": "Moore School of Electrical Engineering",
     "locationType": "institution",
     "country": "United States",
-    "coordinates": {"lat": 39.9522, "lng": -75.1932},
+    "coordinates": {
+      "lat": 39.9522,
+      "lng": -75.1932
+    },
     "shortDescription": "Where ENIAC was built",
-    "wikipediaTitle": "Moore_School_of_Electrical_Engineering"
+    "wikipediaTitle": "Moore_School_of_Electrical_Engineering",
+    "wikidataId": "Q6908229"
   },
   {
     "id": "location-rand",
@@ -1780,9 +2364,13 @@
     "title": "RAND Corporation",
     "locationType": "think_tank",
     "country": "United States",
-    "coordinates": {"lat": 34.0195, "lng": -118.4912},
+    "coordinates": {
+      "lat": 34.0195,
+      "lng": -118.4912
+    },
     "shortDescription": "Defense think tank where early AI work was conducted",
-    "wikipediaTitle": "RAND_Corporation"
+    "wikipediaTitle": "RAND_Corporation",
+    "wikidataId": "Q861141"
   },
   {
     "id": "location-cornell-aero",
@@ -1792,9 +2380,13 @@
     "country": "United States",
     "dateStart": "1946",
     "dateEnd": "1972",
-    "coordinates": {"lat": 42.8865, "lng": -78.8784},
+    "coordinates": {
+      "lat": 42.8865,
+      "lng": -78.8784
+    },
     "shortDescription": "Where Rosenblatt developed the perceptron",
-    "wikipediaTitle": "Cornell_Aeronautical_Laboratory"
+    "wikipediaTitle": "Cornell_Aeronautical_Laboratory",
+    "wikidataId": null
   },
   {
     "id": "location-los-alamos",
@@ -1802,9 +2394,13 @@
     "title": "Los Alamos National Laboratory",
     "locationType": "research_laboratory",
     "country": "United States",
-    "coordinates": {"lat": 35.8800, "lng": -106.3031},
+    "coordinates": {
+      "lat": 35.8800,
+      "lng": -106.3031
+    },
     "shortDescription": "Manhattan Project site where von Neumann contributed",
-    "wikipediaTitle": "Los_Alamos_National_Laboratory"
+    "wikipediaTitle": "Los_Alamos_National_Laboratory",
+    "wikidataId": "Q379848"
   },
   {
     "id": "location-harvard",
@@ -1812,9 +2408,13 @@
     "title": "Harvard University",
     "locationType": "university",
     "country": "United States",
-    "coordinates": {"lat": 42.3770, "lng": -71.1167},
+    "coordinates": {
+      "lat": 42.3770,
+      "lng": -71.1167
+    },
     "shortDescription": "Where Cannon developed homeostasis; Wiener's PhD",
-    "wikipediaTitle": "Harvard_University"
+    "wikipediaTitle": "Harvard_University",
+    "wikidataId": "Q13371"
   },
   {
     "id": "entity-macy-conferences",
@@ -1824,7 +2424,8 @@
     "dateStart": "1946",
     "dateEnd": "1953",
     "shortDescription": "Interdisciplinary conferences that defined cybernetics as a field",
-    "wikipediaTitle": "Macy_conferences"
+    "wikipediaTitle": "Macy_conferences",
+    "wikidataId": "Q143363"
   },
   {
     "id": "entity-ratio-club",
@@ -1834,7 +2435,8 @@
     "dateStart": "1949",
     "dateEnd": "1958",
     "shortDescription": "Informal British dining club for young cybernetics researchers",
-    "wikipediaTitle": "Ratio_Club"
+    "wikipediaTitle": "Ratio_Club",
+    "wikidataId": "Q3420069"
   },
   {
     "id": "entity-sgsr",
@@ -1843,7 +2445,8 @@
     "entityType": "professional_society",
     "dateStart": "1954",
     "shortDescription": "Professional society dedicated to General Systems Theory",
-    "wikipediaTitle": "International_Society_for_the_Systems_Sciences"
+    "wikipediaTitle": "International_Society_for_the_Systems_Sciences",
+    "wikidataId": "Q4330297"
   },
   {
     "id": "entity-american-cybernetics",
@@ -1852,7 +2455,8 @@
     "entityType": "professional_society",
     "dateStart": "1964",
     "shortDescription": "US professional society for cybernetics",
-    "wikipediaTitle": "American_Society_for_Cybernetics"
+    "wikipediaTitle": "American_Society_for_Cybernetics",
+    "wikidataId": "Q4745015"
   },
   {
     "id": "entity-uk-cybernetics",
@@ -1861,7 +2465,8 @@
     "entityType": "professional_society",
     "dateStart": "1969",
     "shortDescription": "British society for cybernetics",
-    "wikipediaTitle": null
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-dartmouth-conference",
@@ -1871,7 +2476,8 @@
     "dateStart": "1956",
     "dateEnd": "1956",
     "shortDescription": "Workshop that coined 'artificial intelligence' and launched AI",
-    "wikipediaTitle": "Dartmouth_workshop"
+    "wikipediaTitle": "Dartmouth_workshop",
+    "wikidataId": "Q2453355"
   },
   {
     "id": "entity-mit-rle",
@@ -1880,7 +2486,8 @@
     "entityType": "research_laboratory",
     "dateStart": "1946",
     "shortDescription": "Major interdisciplinary lab housing cybernetics research",
-    "wikipediaTitle": "MIT_Research_Laboratory_of_Electronics"
+    "wikipediaTitle": "MIT_Research_Laboratory_of_Electronics",
+    "wikidataId": null
   },
   {
     "id": "entity-mit-ai-lab",
@@ -1889,7 +2496,8 @@
     "entityType": "research_laboratory",
     "dateStart": "1959",
     "shortDescription": "Premier AI research laboratory",
-    "wikipediaTitle": "MIT_Computer_Science_and_Artificial_Intelligence_Laboratory"
+    "wikipediaTitle": "MIT_Computer_Science_and_Artificial_Intelligence_Laboratory",
+    "wikidataId": "Q1354917"
   },
   {
     "id": "entity-bcl",
@@ -1899,7 +2507,8 @@
     "dateStart": "1958",
     "dateEnd": "1976",
     "shortDescription": "Center of second-order cybernetics at University of Illinois",
-    "wikipediaTitle": "Biological_Computer_Laboratory"
+    "wikipediaTitle": "Biological_Computer_Laboratory",
+    "wikidataId": "Q164591"
   },
   {
     "id": "entity-stanford-ai-lab",
@@ -1908,7 +2517,8 @@
     "entityType": "research_laboratory",
     "dateStart": "1963",
     "shortDescription": "West Coast AI research center founded by McCarthy",
-    "wikipediaTitle": "Stanford_Artificial_Intelligence_Laboratory"
+    "wikipediaTitle": "Stanford_Artificial_Intelligence_Laboratory",
+    "wikidataId": null
   },
   {
     "id": "entity-bell-labs-research",
@@ -1917,7 +2527,8 @@
     "entityType": "research_division",
     "dateStart": "1925",
     "shortDescription": "Research arm of Bell telephone system; birthplace of information theory",
-    "wikipediaTitle": "Bell_Labs"
+    "wikipediaTitle": "Bell_Labs",
+    "wikidataId": "Q217365"
   },
   {
     "id": "entity-arpa-ipto",
@@ -1926,7 +2537,8 @@
     "entityType": "government_agency",
     "dateStart": "1962",
     "shortDescription": "Defense research office that funded AI and networking",
-    "wikipediaTitle": "Information_Processing_Techniques_Office"
+    "wikipediaTitle": "Information_Processing_Techniques_Office",
+    "wikidataId": "Q6030770"
   },
   {
     "id": "entity-macy-foundation",
@@ -1935,7 +2547,8 @@
     "entityType": "foundation",
     "dateStart": "1930",
     "shortDescription": "Foundation that sponsored the Macy Conferences",
-    "wikipediaTitle": "Josiah_Macy_Jr._Foundation"
+    "wikipediaTitle": "Josiah_Macy_Jr._Foundation",
+    "wikidataId": "Q6290556"
   },
   {
     "id": "entity-rockefeller-foundation",
@@ -1944,7 +2557,8 @@
     "entityType": "foundation",
     "dateStart": "1913",
     "shortDescription": "Major science funder; Warren Weaver shaped research directions",
-    "wikipediaTitle": "Rockefeller_Foundation"
+    "wikipediaTitle": "Rockefeller_Foundation",
+    "wikidataId": "Q862034"
   },
   {
     "id": "entity-onr",
@@ -1953,7 +2567,8 @@
     "entityType": "government_agency",
     "dateStart": "1946",
     "shortDescription": "Major funder of postwar cybernetics research",
-    "wikipediaTitle": "Office_of_Naval_Research"
+    "wikipediaTitle": "Office_of_Naval_Research",
+    "wikidataId": "Q1063818"
   },
   {
     "id": "entity-cybernetics-movement",
@@ -1963,7 +2578,8 @@
     "dateStart": "1943",
     "dateEnd": "1975",
     "shortDescription": "Interdisciplinary movement focused on feedback, control, and communication",
-    "wikipediaTitle": "Cybernetics"
+    "wikipediaTitle": "Cybernetics",
+    "wikidataId": "Q123637"
   },
   {
     "id": "entity-information-theory",
@@ -1972,7 +2588,8 @@
     "entityType": "academic_field",
     "dateStart": "1948",
     "shortDescription": "Mathematical theory of communication and information",
-    "wikipediaTitle": "Information_theory"
+    "wikipediaTitle": "Information_theory",
+    "wikidataId": "Q131222"
   },
   {
     "id": "entity-second-order-cybernetics",
@@ -1981,7 +2598,8 @@
     "entityType": "intellectual_movement",
     "dateStart": "1970",
     "shortDescription": "Cybernetics of observing systems; emphasizes role of observer",
-    "wikipediaTitle": "Second-order_cybernetics"
+    "wikipediaTitle": "Second-order_cybernetics",
+    "wikidataId": "Q358532"
   },
   {
     "id": "entity-general-systems-theory",
@@ -1990,7 +2608,8 @@
     "entityType": "intellectual_movement",
     "dateStart": "1950",
     "shortDescription": "Study of isomorphic principles across different systems",
-    "wikipediaTitle": "Systems_theory"
+    "wikipediaTitle": "Systems_theory",
+    "wikidataId": "Q269699"
   },
   {
     "id": "entity-system-dynamics",
@@ -1999,7 +2618,8 @@
     "entityType": "methodology",
     "dateStart": "1961",
     "shortDescription": "Methodology for modeling complex systems with stocks and flows",
-    "wikipediaTitle": "System_dynamics"
+    "wikipediaTitle": "System_dynamics",
+    "wikidataId": "Q598451"
   },
   {
     "id": "entity-management-cybernetics",
@@ -2008,7 +2628,8 @@
     "entityType": "intellectual_movement",
     "dateStart": "1959",
     "shortDescription": "Application of cybernetic principles to organizational design",
-    "wikipediaTitle": "Management_cybernetics"
+    "wikipediaTitle": "Management_cybernetics",
+    "wikidataId": "Q1544281"
   },
   {
     "id": "entity-symbolic-ai",
@@ -2017,7 +2638,8 @@
     "entityType": "research_program",
     "dateStart": "1956",
     "shortDescription": "AI approach using symbol manipulation and logic",
-    "wikipediaTitle": "Symbolic_artificial_intelligence"
+    "wikipediaTitle": "Symbolic_artificial_intelligence",
+    "wikidataId": "Q5514059"
   },
   {
     "id": "entity-connectionism",
@@ -2026,7 +2648,8 @@
     "entityType": "research_program",
     "dateStart": "1943",
     "shortDescription": "AI approach using networks of artificial neurons",
-    "wikipediaTitle": "Connectionism"
+    "wikipediaTitle": "Connectionism",
+    "wikidataId": "Q203790"
   },
   {
     "id": "entity-autopoiesis",
@@ -2035,7 +2658,8 @@
     "entityType": "theoretical_concept",
     "dateStart": "1970",
     "shortDescription": "Theory of self-producing systems",
-    "wikipediaTitle": "Autopoiesis"
+    "wikipediaTitle": "Autopoiesis",
+    "wikidataId": "Q599967"
   },
   {
     "id": "entity-cybersyn",
@@ -2045,7 +2669,8 @@
     "dateStart": "1971",
     "dateEnd": "1973",
     "shortDescription": "Ambitious cybernetic economic management system in Chile",
-    "wikipediaTitle": "Project_Cybersyn"
+    "wikipediaTitle": "Project_Cybersyn",
+    "wikidataId": "Q1147211"
   },
   {
     "id": "entity-project-mac",
@@ -2054,7 +2679,8 @@
     "entityType": "project",
     "dateStart": "1963",
     "shortDescription": "MIT project for time-sharing and AI",
-    "wikipediaTitle": "Project_MAC"
+    "wikipediaTitle": "Project_MAC",
+    "wikidataId": "Q1354917"
   },
   {
     "id": "entity-arpanet",
@@ -2063,7 +2689,8 @@
     "entityType": "project",
     "dateStart": "1969",
     "shortDescription": "First packet-switched network; precursor to Internet",
-    "wikipediaTitle": "ARPANET"
+    "wikipediaTitle": "ARPANET",
+    "wikidataId": "Q177524"
   },
   {
     "id": "entity-whirlwind",
@@ -2073,6 +2700,7 @@
     "dateStart": "1944",
     "dateEnd": "1958",
     "shortDescription": "Real-time computer project that led to magnetic core memory",
-    "wikipediaTitle": "Whirlwind_I"
+    "wikipediaTitle": "Whirlwind_I",
+    "wikidataId": "Q1413683"
   }
 ]
