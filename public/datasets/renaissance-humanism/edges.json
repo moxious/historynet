@@ -473,8 +473,8 @@
   {
     "id": "edge-alfonso-patronized-valla",
     "source": "person-lorenzo-valla",
-    "target": "person-lorenzo-valla",
-    "relationship": "patronized_by",
+    "target": "entity-aragonese-patronage",
+    "relationship": "associated_with",
     "dateStart": "1435",
     "dateEnd": "1448",
     "evidence": "Valla served at Alfonso V's court in Naples. It was under Alfonso's protection that Valla wrote his exposé of the Donation of Constantine.",

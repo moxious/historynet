@@ -3,14 +3,21 @@
     "id": "person-francesco-petrarca",
     "type": "person",
     "title": "Francesco Petrarca (Petrarch)",
-    "alternateNames": ["Petrarch"],
+    "alternateNames": [
+      "Petrarch"
+    ],
     "shortDescription": "Poet, scholar, 'Father of Humanism' who established the humanist program of recovering classical Latin literature",
     "dateStart": "1304",
     "dateEnd": "1374",
     "biography": "Established the humanist program of recovering and imitating classical Latin literature. His discovery of Cicero's letters (1345) and passionate advocacy for ancient learning inspired the entire movement. Crowned poet laureate in Rome (1341).",
-    "occupations": ["Poet", "Scholar", "Humanist"],
+    "occupations": [
+      "Poet",
+      "Scholar",
+      "Humanist"
+    ],
     "birthPlace": "Arezzo",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Petrarch"
   },
   {
     "id": "person-giovanni-boccaccio",
@@ -20,9 +27,14 @@
     "dateStart": "1313",
     "dateEnd": "1375",
     "biography": "Close friend and collaborator of Petrarch. Author of Decameron. Contributed to humanist scholarship with his mythological encyclopedia Genealogia deorum gentilium and promoted Greek studies.",
-    "occupations": ["Author", "Scholar", "Poet"],
+    "occupations": [
+      "Author",
+      "Scholar",
+      "Poet"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giovanni_Boccaccio"
   },
   {
     "id": "person-coluccio-salutati",
@@ -32,9 +44,13 @@
     "dateStart": "1331",
     "dateEnd": "1406",
     "biography": "Chancellor of Florence (1375-1406). Used his position to promote humanism, hiring Greek teachers and encouraging manuscript collecting. His official letters were famous for their Ciceronian style. Mentor to the next generation of humanists.",
-    "occupations": ["Chancellor", "Humanist"],
+    "occupations": [
+      "Chancellor",
+      "Humanist"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Coluccio_Salutati"
   },
   {
     "id": "person-leonardo-bruni",
@@ -44,9 +60,15 @@
     "dateStart": "1370",
     "dateEnd": "1444",
     "biography": "Leading humanist of early Quattrocento. Chancellor of Florence (1427-1444). Pioneer of civic humanism, arguing that republican government fostered virtue. Major translator of Aristotle and Plato from Greek.",
-    "occupations": ["Humanist", "Historian", "Translator", "Chancellor"],
+    "occupations": [
+      "Humanist",
+      "Historian",
+      "Translator",
+      "Chancellor"
+    ],
     "birthPlace": "Arezzo",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Leonardo_Bruni"
   },
   {
     "id": "person-poggio-bracciolini",
@@ -56,9 +78,15 @@
     "dateStart": "1380",
     "dateEnd": "1459",
     "biography": "Famous for discovering lost classical manuscripts in monastic libraries across Europe, including Quintilian's complete Institutio Oratoria, Lucretius's De rerum natura, and works of Cicero. Chancellor of Florence (1453-1458).",
-    "occupations": ["Humanist", "Papal secretary", "Manuscript hunter", "Chancellor"],
+    "occupations": [
+      "Humanist",
+      "Papal secretary",
+      "Manuscript hunter",
+      "Chancellor"
+    ],
     "birthPlace": "Terranuova",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Poggio_Bracciolini"
   },
   {
     "id": "person-niccolo-niccoli",
@@ -68,9 +96,13 @@
     "dateStart": "1364",
     "dateEnd": "1437",
     "biography": "Wealthy Florentine who devoted his fortune to collecting classical manuscripts. His library of 800 volumes became the foundation of the Biblioteca Medicea Laurenziana. Developed the humanist minuscule script that became italic type.",
-    "occupations": ["Book collector", "Humanist"],
+    "occupations": [
+      "Book collector",
+      "Humanist"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Niccolò_Niccoli"
   },
   {
     "id": "person-manuel-chrysoloras",
@@ -80,9 +112,14 @@
     "dateStart": "1355",
     "dateEnd": "1415",
     "biography": "Brought Greek learning to Italy. Invited by Salutati to teach Greek in Florence (1397-1400). His grammar Erotemata became the standard Greek textbook. Taught the first generation of Italian Greek scholars.",
-    "occupations": ["Byzantine scholar", "Diplomat", "Greek teacher"],
+    "occupations": [
+      "Byzantine scholar",
+      "Diplomat",
+      "Greek teacher"
+    ],
     "birthPlace": "Constantinople",
-    "nationality": "Byzantine"
+    "nationality": "Byzantine",
+    "wikipediaTitle": "Manuel_Chrysoloras"
   },
   {
     "id": "person-pier-paolo-vergerio",
@@ -92,9 +129,13 @@
     "dateStart": "1370",
     "dateEnd": "1444",
     "biography": "Author of the first humanist treatise on education, De ingenuis moribus (c.1402), which outlined the liberal arts curriculum that became standard for humanist schools.",
-    "occupations": ["Humanist", "Educator"],
+    "occupations": [
+      "Humanist",
+      "Educator"
+    ],
     "birthPlace": "Capodistria",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Pier_Paolo_Vergerio"
   },
   {
     "id": "person-gasparino-barzizza",
@@ -104,9 +145,14 @@
     "dateStart": "1360",
     "dateEnd": "1431",
     "biography": "Leading teacher of Latin rhetoric and Ciceronian style. Taught at Padua and Milan. His teaching and model letters spread humanist Latin style across northern Italy.",
-    "occupations": ["Humanist", "Rhetorician", "Educator"],
+    "occupations": [
+      "Humanist",
+      "Rhetorician",
+      "Educator"
+    ],
     "birthPlace": "Bergamo",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Gasparino_Barzizza"
   },
   {
     "id": "person-giovanni-aurispa",
@@ -116,9 +162,13 @@
     "dateStart": "1376",
     "dateEnd": "1459",
     "biography": "Brought hundreds of Greek manuscripts from Constantinople to Italy, including the only complete manuscript of Plato's dialogues then in the West. Critical for Greek textual transmission.",
-    "occupations": ["Humanist", "Manuscript collector"],
+    "occupations": [
+      "Humanist",
+      "Manuscript collector"
+    ],
     "birthPlace": "Sicily",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giovanni_Aurispa"
   },
   {
     "id": "person-marsilio-ficino",
@@ -128,9 +178,14 @@
     "dateStart": "1433",
     "dateEnd": "1499",
     "biography": "Head of the Platonic Academy under Medici patronage. Translated complete works of Plato, Plotinus, and the Hermetic corpus into Latin for the first time. His Neoplatonic synthesis profoundly influenced Renaissance thought, arguing for the compatibility of Platonic philosophy with Christianity. Ordained priest 1473.",
-    "occupations": ["Philosopher", "Translator", "Priest"],
+    "occupations": [
+      "Philosopher",
+      "Translator",
+      "Priest"
+    ],
     "birthPlace": "Figline Valdarno",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Marsilio_Ficino"
   },
   {
     "id": "person-giovanni-pico",
@@ -140,35 +195,52 @@
     "dateStart": "1463",
     "dateEnd": "1494",
     "biography": "Precocious philosopher whose Oration on the Dignity of Man (1486) is often called the 'Manifesto of the Renaissance' for its celebration of human potential. His 900 theses attempted to synthesize all philosophical and religious traditions. Condemned by Pope Innocent VIII (1487), later absolved. Death at 31 cut short vast projects.",
-    "occupations": ["Philosopher"],
+    "occupations": [
+      "Philosopher"
+    ],
     "birthPlace": "Mirandola",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giovanni_Pico_della_Mirandola"
   },
   {
     "id": "person-angelo-poliziano",
     "type": "person",
     "title": "Angelo Poliziano (Politian)",
-    "alternateNames": ["Politian"],
+    "alternateNames": [
+      "Politian"
+    ],
     "shortDescription": "Greatest Latin and Greek poet of the Italian Renaissance; pioneering philologist",
     "dateStart": "1454",
     "dateEnd": "1494",
     "biography": "Greatest Latin and Greek poet of the Italian Renaissance. Pioneering philologist who developed historical-critical methods for analyzing texts. Tutor to Lorenzo de' Medici's children. Professor of Greek and Latin at Florence.",
-    "occupations": ["Poet", "Philologist", "Humanist"],
+    "occupations": [
+      "Poet",
+      "Philologist",
+      "Humanist"
+    ],
     "birthPlace": "Montepulciano",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Angelo_Poliziano"
   },
   {
     "id": "person-lorenzo-de-medici",
     "type": "person",
     "title": "Lorenzo de' Medici",
-    "alternateNames": ["Lorenzo the Magnificent"],
+    "alternateNames": [
+      "Lorenzo the Magnificent"
+    ],
     "shortDescription": "De facto ruler of Florence and major patron of arts and learning",
     "dateStart": "1449",
     "dateEnd": "1492",
     "biography": "De facto ruler of Florence. Major patron of arts and learning. Himself a significant Italian poet. His patronage of Ficino, Pico, Poliziano, and others made Florence the center of Renaissance culture. The Platonic Academy met under his protection.",
-    "occupations": ["Ruler of Florence", "Poet", "Patron"],
+    "occupations": [
+      "Ruler of Florence",
+      "Poet",
+      "Patron"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Lorenzo_de%27_Medici"
   },
   {
     "id": "person-cristoforo-landino",
@@ -178,9 +250,14 @@
     "dateStart": "1424",
     "dateEnd": "1498",
     "biography": "Professor of poetry and oratory at Florence. Member of Platonic Academy. His commentary on Dante's Divine Comedy (1481) interpreted Dante through Neoplatonic philosophy, influencing Renaissance Dante reception. Also commented on Virgil and Horace.",
-    "occupations": ["Humanist", "Philosopher", "Commentator"],
+    "occupations": [
+      "Humanist",
+      "Philosopher",
+      "Commentator"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Cristoforo_Landino"
   },
   {
     "id": "person-francesco-diacceto",
@@ -190,9 +267,12 @@
     "dateStart": "1466",
     "dateEnd": "1522",
     "biography": "Ficino's most important disciple and successor as head of Florentine Platonism. Continued Neoplatonic philosophy into the sixteenth century. Taught at University of Pisa.",
-    "occupations": ["Philosopher"],
+    "occupations": [
+      "Philosopher"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Francesco_Cattani_da_Diacceto"
   },
   {
     "id": "person-giovanni-nesi",
@@ -202,9 +282,13 @@
     "dateStart": "1456",
     "dateEnd": "1522",
     "biography": "Member of Platonic Academy. Attempted to reconcile Ficinian Platonism with Savonarolan Christianity. Example of the Academy's religious dimensions.",
-    "occupations": ["Philosopher", "Poet"],
+    "occupations": [
+      "Philosopher",
+      "Poet"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giovanni_Nesi"
   },
   {
     "id": "person-leon-battista-alberti",
@@ -214,9 +298,15 @@
     "dateStart": "1404",
     "dateEnd": "1472",
     "biography": "The ideal 'Renaissance man.' Wrote foundational treatises on painting (De pictura), architecture (De re aedificatoria), and sculpture. Also wrote on family life, cryptography, grammar. Practiced architecture (Santa Maria Novella façade, Sant'Andrea Mantua). United humanist theory with artistic practice.",
-    "occupations": ["Architect", "Artist", "Humanist", "Polymath"],
+    "occupations": [
+      "Architect",
+      "Artist",
+      "Humanist",
+      "Polymath"
+    ],
     "birthPlace": "Genoa",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Leon_Battista_Alberti"
   },
   {
     "id": "person-niccolo-machiavelli",
@@ -226,9 +316,14 @@
     "dateStart": "1469",
     "dateEnd": "1527",
     "biography": "Secretary of the Florentine Republic (1498-1512). After Medici restoration, wrote The Prince and Discourses on Livy, founding modern political philosophy. Used classical examples to analyze politics with unprecedented realism, separating political analysis from moral prescription.",
-    "occupations": ["Political philosopher", "Diplomat", "Historian"],
+    "occupations": [
+      "Political philosopher",
+      "Diplomat",
+      "Historian"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Niccolò_Machiavelli"
   },
   {
     "id": "person-francesco-guicciardini",
@@ -238,9 +333,13 @@
     "dateStart": "1483",
     "dateEnd": "1540",
     "biography": "Leading Florentine statesman and greatest historian of the Italian Renaissance. His Storia d'Italia (published posthumously) pioneered critical historical method, analyzing political events with psychological insight and archival documentation.",
-    "occupations": ["Historian", "Statesman"],
+    "occupations": [
+      "Historian",
+      "Statesman"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Francesco_Guicciardini"
   },
   {
     "id": "person-matteo-palmieri",
@@ -250,9 +349,13 @@
     "dateStart": "1406",
     "dateEnd": "1475",
     "biography": "Florentine civic humanist who wrote Della vita civile, a dialogue on civic virtue and education in the tradition of Bruni's civic humanism. Also wrote a chronicle and theological poetry.",
-    "occupations": ["Humanist", "Statesman"],
+    "occupations": [
+      "Humanist",
+      "Statesman"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Matteo_Palmieri"
   },
   {
     "id": "person-donato-acciaiuoli",
@@ -262,9 +365,14 @@
     "dateStart": "1429",
     "dateEnd": "1478",
     "biography": "Florentine diplomat and scholar. Translated and commented on Aristotle. Held major Florentine offices. Represents integration of humanist learning with political career.",
-    "occupations": ["Statesman", "Translator", "Humanist"],
+    "occupations": [
+      "Statesman",
+      "Translator",
+      "Humanist"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Donato_Acciaiuoli"
   },
   {
     "id": "person-giannozzo-manetti",
@@ -274,9 +382,13 @@
     "dateStart": "1396",
     "dateEnd": "1459",
     "biography": "Florentine humanist known for De dignitate et excellentia hominis (1452-53), an influential celebration of human capabilities. Skilled in Latin, Greek, and Hebrew. Diplomatic career for Florence and papacy.",
-    "occupations": ["Humanist", "Diplomat"],
+    "occupations": [
+      "Humanist",
+      "Diplomat"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giannozzo_Manetti"
   },
   {
     "id": "person-lorenzo-valla",
@@ -286,9 +398,14 @@
     "dateStart": "1407",
     "dateEnd": "1457",
     "biography": "Most brilliant critical philologist of the Renaissance. Proved the Donation of Constantine was a forgery through linguistic analysis (1440). Criticized Scholastic philosophy and advocated for elegant Latin. His Elegantiae linguae Latinae became the standard handbook of humanist Latin.",
-    "occupations": ["Philologist", "Critic", "Philosopher"],
+    "occupations": [
+      "Philologist",
+      "Critic",
+      "Philosopher"
+    ],
     "birthPlace": "Rome",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Lorenzo_Valla"
   },
   {
     "id": "person-flavio-biondo",
@@ -298,9 +415,13 @@
     "dateStart": "1392",
     "dateEnd": "1463",
     "biography": "Founder of modern archaeology and historical topography. His Roma instaurata and Italia illustrata pioneered systematic study of ancient monuments and historical geography. Served papal curia as secretary.",
-    "occupations": ["Historian", "Antiquarian"],
+    "occupations": [
+      "Historian",
+      "Antiquarian"
+    ],
     "birthPlace": "Forlì",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Flavio_Biondo"
   },
   {
     "id": "person-pomponio-leto",
@@ -310,9 +431,13 @@
     "dateStart": "1428",
     "dateEnd": "1498",
     "biography": "Founded the Roman Academy (Accademia Romana), devoted to studying ancient Rome. Controversial figure accused of paganism and conspiracy (1468); later rehabilitated. Pioneering archaeologist of ancient Roman sites.",
-    "occupations": ["Humanist", "Antiquarian"],
+    "occupations": [
+      "Humanist",
+      "Antiquarian"
+    ],
     "birthPlace": "Rome",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giulio_Pomponio_Leto"
   },
   {
     "id": "person-bartolomeo-platina",
@@ -322,9 +447,13 @@
     "dateStart": "1421",
     "dateEnd": "1481",
     "biography": "First librarian of the Vatican Library under Sixtus IV (1475). Member of Roman Academy. Author of Lives of the Popes and De honesta voluptate (first printed cookbook). Imprisoned during 1468 Roman Academy crisis.",
-    "occupations": ["Humanist", "Papal librarian"],
+    "occupations": [
+      "Humanist",
+      "Papal librarian"
+    ],
     "birthPlace": "Piadena",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Bartolomeo_Platina"
   },
   {
     "id": "person-giovanni-pontano",
@@ -334,9 +463,14 @@
     "dateStart": "1426",
     "dateEnd": "1503",
     "biography": "Leading humanist of Naples. Long service to Aragonese kings as secretary and chief minister. Founded the Accademia Pontaniana. Greatest Latin poet of his generation, known for lyric poetry and dialogues.",
-    "occupations": ["Poet", "Statesman", "Humanist"],
+    "occupations": [
+      "Poet",
+      "Statesman",
+      "Humanist"
+    ],
     "birthPlace": "Cerreto",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giovanni_Pontano"
   },
   {
     "id": "person-jacopo-sannazaro",
@@ -346,22 +480,31 @@
     "dateStart": "1458",
     "dateEnd": "1530",
     "biography": "Neapolitan poet known for Arcadia, the pastoral romance that influenced European literature for two centuries. Also wrote Latin religious poetry (De partu Virginis). Member of Pontano's academy.",
-    "occupations": ["Poet"],
+    "occupations": [
+      "Poet"
+    ],
     "birthPlace": "Naples",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Jacopo_Sannazaro"
   },
   {
     "id": "person-enea-silvio-piccolomini",
     "type": "person",
     "title": "Enea Silvio Piccolomini (Pope Pius II)",
-    "alternateNames": ["Pope Pius II"],
+    "alternateNames": [
+      "Pope Pius II"
+    ],
     "shortDescription": "Humanist who became Pope; author of remarkable autobiographical Commentarii",
     "dateStart": "1405",
     "dateEnd": "1464",
     "biography": "Humanist who became Pope Pius II (1458-1464). Before papacy, prolific author of histories, letters, and even an erotic novel. His Commentarii is a remarkable autobiographical history. Represents humanist penetration of church hierarchy.",
-    "occupations": ["Humanist", "Pope"],
+    "occupations": [
+      "Humanist",
+      "Pope"
+    ],
     "birthPlace": "Corsignano",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Pope_Pius_II"
   },
   {
     "id": "person-pietro-bembo",
@@ -371,22 +514,34 @@
     "dateStart": "1470",
     "dateEnd": "1547",
     "biography": "Arbiter of literary taste for sixteenth-century Italy. His Prose della volgar lingua (1525) established Tuscan (specifically Petrarch and Boccaccio) as the model for Italian prose and poetry. Influential Latin stylist. Cardinal from 1539.",
-    "occupations": ["Cardinal", "Literary theorist", "Poet"],
+    "occupations": [
+      "Cardinal",
+      "Literary theorist",
+      "Poet"
+    ],
     "birthPlace": "Venice",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Pietro_Bembo"
   },
   {
     "id": "person-aldo-manuzio",
     "type": "person",
     "title": "Aldo Manuzio (Aldus Manutius)",
-    "alternateNames": ["Aldus Manutius"],
+    "alternateNames": [
+      "Aldus Manutius"
+    ],
     "shortDescription": "Founded the Aldine Press, revolutionizing publishing with pocket editions and scholarly editions of classics",
     "dateStart": "1449",
     "dateEnd": "1515",
     "biography": "Founded the Aldine Press in Venice (1494), revolutionizing publishing. Pioneered pocket-sized editions (octavos), italic type, and scholarly editions of Greek and Latin classics. Made classical texts widely accessible. The most important scholarly printer of the Renaissance.",
-    "occupations": ["Printer", "Publisher", "Scholar"],
+    "occupations": [
+      "Printer",
+      "Publisher",
+      "Scholar"
+    ],
     "birthPlace": "Venice",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Aldus_Manutius"
   },
   {
     "id": "person-ermolao-barbaro",
@@ -396,9 +551,13 @@
     "dateStart": "1454",
     "dateEnd": "1493",
     "biography": "Leading Venetian humanist known for correcting and commenting on Pliny's Natural History (published posthumously). Corresponded with Pico della Mirandola on philosophy vs. rhetoric. Venetian ambassador. Died young.",
-    "occupations": ["Scholar", "Diplomat"],
+    "occupations": [
+      "Scholar",
+      "Diplomat"
+    ],
     "birthPlace": "Venice",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Ermolao_Barbaro_the_Younger"
   },
   {
     "id": "person-pietro-pomponazzi",
@@ -408,9 +567,12 @@
     "dateStart": "1462",
     "dateEnd": "1525",
     "biography": "Most important Renaissance Aristotelian. His De immortalitate animae (1516) argued that Aristotle's philosophy could not prove the soul's immortality, sparking major controversy. Represents naturalistic strain in Renaissance philosophy.",
-    "occupations": ["Philosopher"],
+    "occupations": [
+      "Philosopher"
+    ],
     "birthPlace": "Mantua",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Pietro_Pomponazzi"
   },
   {
     "id": "person-niccolo-leonico-tomeo",
@@ -420,9 +582,13 @@
     "dateStart": "1456",
     "dateEnd": "1531",
     "biography": "First professor to lecture on Greek Aristotle (rather than Latin translations) at Padua. Translated several of Aristotle's works directly from Greek.",
-    "occupations": ["Philosopher", "Translator"],
+    "occupations": [
+      "Philosopher",
+      "Translator"
+    ],
     "birthPlace": "Venice",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Niccolò_Leonico_Tomeo"
   },
   {
     "id": "person-giorgio-valla",
@@ -432,22 +598,33 @@
     "dateStart": "1447",
     "dateEnd": "1500",
     "biography": "Prolific translator of Greek mathematical and scientific texts. His encyclopedic De expetendis et fugiendis rebus posthumously published (1501) covered sciences and mathematics.",
-    "occupations": ["Humanist", "Translator"],
+    "occupations": [
+      "Humanist",
+      "Translator"
+    ],
     "birthPlace": "Piacenza",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Giorgio_Valla"
   },
   {
     "id": "person-desiderius-erasmus",
     "type": "person",
     "title": "Desiderius Erasmus of Rotterdam",
-    "alternateNames": ["Erasmus"],
+    "alternateNames": [
+      "Erasmus"
+    ],
     "shortDescription": "Dominant intellectual figure of Northern Renaissance whose Greek New Testament founded modern biblical scholarship",
     "dateStart": "1466",
     "dateEnd": "1536",
     "biography": "The dominant intellectual figure of Northern Renaissance. His critical edition of the Greek New Testament (1516) founded modern biblical scholarship. Satirized church abuses (Praise of Folly) while remaining Catholic. Vast correspondence (3,000+ letters survive) connected virtually all European humanists.",
-    "occupations": ["Scholar", "Theologian", "Satirist"],
+    "occupations": [
+      "Scholar",
+      "Theologian",
+      "Satirist"
+    ],
     "birthPlace": "Rotterdam",
-    "nationality": "Dutch"
+    "nationality": "Dutch",
+    "wikipediaTitle": "Erasmus"
   },
   {
     "id": "person-thomas-more",
@@ -457,9 +634,14 @@
     "dateStart": "1478",
     "dateEnd": "1535",
     "biography": "Leading English humanist. Author of Utopia (1516), foundational work of political philosophy imagining an ideal society. Lord Chancellor under Henry VIII. Executed for refusing to accept royal supremacy over the church. Canonized 1935.",
-    "occupations": ["Lawyer", "Statesman", "Humanist"],
+    "occupations": [
+      "Lawyer",
+      "Statesman",
+      "Humanist"
+    ],
     "birthPlace": "London",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Thomas_More"
   },
   {
     "id": "person-john-colet",
@@ -469,9 +651,13 @@
     "dateStart": "1467",
     "dateEnd": "1519",
     "biography": "Dean of St. Paul's Cathedral. Founded St. Paul's School (1509), a model humanist grammar school. His Oxford lectures on St. Paul's epistles (1496-1504) applied humanist methods to Scripture, influencing Erasmus.",
-    "occupations": ["Theologian", "Educator"],
+    "occupations": [
+      "Theologian",
+      "Educator"
+    ],
     "birthPlace": "London",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "John_Colet"
   },
   {
     "id": "person-william-grocyn",
@@ -481,9 +667,12 @@
     "dateStart": "1446",
     "dateEnd": "1519",
     "biography": "Pioneer of Greek studies in England. Studied in Italy with Poliziano and Chalcondyles. Taught Greek at Oxford. Part of the circle that shaped English humanism.",
-    "occupations": ["Scholar"],
+    "occupations": [
+      "Scholar"
+    ],
     "birthPlace": "Oxford",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "William_Grocyn"
   },
   {
     "id": "person-thomas-linacre",
@@ -493,9 +682,13 @@
     "dateStart": "1460",
     "dateEnd": "1524",
     "biography": "Pioneer of Greek medical studies in England. Studied in Italy (knew Aldus Manutius). Physician to Henry VIII. Founded Royal College of Physicians (1518). Translated Galen from Greek.",
-    "occupations": ["Physician", "Scholar"],
+    "occupations": [
+      "Physician",
+      "Scholar"
+    ],
     "birthPlace": "Oxford",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Thomas_Linacre"
   },
   {
     "id": "person-john-fisher",
@@ -505,9 +698,13 @@
     "dateStart": "1469",
     "dateEnd": "1535",
     "biography": "Bishop of Rochester. Chancellor of Cambridge University. Promoted humanist learning at Cambridge, inviting Erasmus to teach Greek. Defended church against Luther. Executed with More for opposing Henry VIII. Canonized 1935.",
-    "occupations": ["Bishop", "Scholar"],
+    "occupations": [
+      "Bishop",
+      "Scholar"
+    ],
     "birthPlace": "Cambridge",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "John_Fisher_(cardinal)"
   },
   {
     "id": "person-cuthbert-tunstall",
@@ -517,9 +714,13 @@
     "dateStart": "1474",
     "dateEnd": "1559",
     "biography": "Bishop successively of London and Durham. Humanist scholar with expertise in mathematics and Greek. Friend of Erasmus and More. His De arte supputandi (1522) was an important arithmetic textbook.",
-    "occupations": ["Bishop", "Mathematician"],
+    "occupations": [
+      "Bishop",
+      "Mathematician"
+    ],
     "birthPlace": "England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Cuthbert_Tunstall"
   },
   {
     "id": "person-juan-luis-vives",
@@ -529,9 +730,13 @@
     "dateStart": "1493",
     "dateEnd": "1540",
     "biography": "Spanish humanist who spent career in Northern Europe. Major educational theorist (De tradendis disciplinis). Psychological pioneer (De anima et vita). Tutor to Mary Tudor. Close to Erasmus and More.",
-    "occupations": ["Philosopher", "Educator"],
+    "occupations": [
+      "Philosopher",
+      "Educator"
+    ],
     "birthPlace": "Valencia",
-    "nationality": "Spanish"
+    "nationality": "Spanish",
+    "wikipediaTitle": "Juan_Luis_Vives"
   },
   {
     "id": "person-guillaume-bude",
@@ -541,9 +746,13 @@
     "dateStart": "1467",
     "dateEnd": "1540",
     "biography": "Leading French humanist. His Commentarii linguae Graecae (1529) was a major Greek lexicon. Studied Roman law (Annotationes in Pandectas). Persuaded Francis I to found the Collège de France (1530) and the royal library at Fontainebleau.",
-    "occupations": ["Scholar", "Royal librarian"],
+    "occupations": [
+      "Scholar",
+      "Royal librarian"
+    ],
     "birthPlace": "Paris",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Guillaume_Budé"
   },
   {
     "id": "person-jacques-lefevre-detaples",
@@ -553,22 +762,32 @@
     "dateStart": "1455",
     "dateEnd": "1536",
     "biography": "Leading French biblical humanist. Published critical editions of Aristotle and the Psalms. His French translation of the Bible (1530) anticipated Protestant vernacular Bibles. Influenced French evangelical reform movement without breaking with Rome.",
-    "occupations": ["Theologian", "Biblical scholar"],
+    "occupations": [
+      "Theologian",
+      "Biblical scholar"
+    ],
     "birthPlace": "Étaples",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Jacques_Lefèvre_d%27Étaples"
   },
   {
     "id": "person-robert-estienne",
     "type": "person",
     "title": "Robert Estienne (Stephanus)",
-    "alternateNames": ["Stephanus"],
+    "alternateNames": [
+      "Stephanus"
+    ],
     "shortDescription": "Leading scholarly printer whose Thesaurus linguae Latinae was standard for centuries",
     "dateStart": "1503",
     "dateEnd": "1559",
     "biography": "Leading scholarly printer. Published critical editions of the Bible, including the first Greek New Testament with critical apparatus. His Thesaurus linguae Latinae was standard for centuries. Fled to Geneva for Protestantism (1550).",
-    "occupations": ["Printer", "Scholar"],
+    "occupations": [
+      "Printer",
+      "Scholar"
+    ],
     "birthPlace": "Paris",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Robert_Estienne"
   },
   {
     "id": "person-rudolf-agricola",
@@ -578,9 +797,13 @@
     "dateStart": "1444",
     "dateEnd": "1485",
     "biography": "'Father of German Humanism.' Studied in Italy, brought humanist methods north. His De inventione dialectica reformed logic teaching, emphasizing rhetoric over scholastic logic. Inspired subsequent German humanists.",
-    "occupations": ["Humanist", "Educator"],
+    "occupations": [
+      "Humanist",
+      "Educator"
+    ],
     "birthPlace": "Groningen",
-    "nationality": "Dutch/German"
+    "nationality": "Dutch/German",
+    "wikipediaTitle": "Rudolf_Agricola"
   },
   {
     "id": "person-johannes-reuchlin",
@@ -590,9 +813,13 @@
     "dateStart": "1455",
     "dateEnd": "1522",
     "biography": "Pioneer of Hebrew studies in Christian Europe. His De rudimentis Hebraicis (1506) was the first Hebrew grammar by a Christian. Defended Jewish books against destruction, leading to the famous Reuchlin Affair controversy with the Cologne Dominicans.",
-    "occupations": ["Scholar", "Jurist"],
+    "occupations": [
+      "Scholar",
+      "Jurist"
+    ],
     "birthPlace": "Pforzheim",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johannes_Reuchlin"
   },
   {
     "id": "person-conrad-celtis",
@@ -602,9 +829,13 @@
     "dateStart": "1459",
     "dateEnd": "1508",
     "biography": "First German poet laureate (crowned by Frederick III, 1487). Founded humanist sodalities (learned societies) across German-speaking lands. Promoted German national consciousness through recovering Germanic history. Founded Collegium poetarum at Vienna.",
-    "occupations": ["Poet", "Scholar"],
+    "occupations": [
+      "Poet",
+      "Scholar"
+    ],
     "birthPlace": "Wipfeld",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Conrad_Celtes"
   },
   {
     "id": "person-willibald-pirckheimer",
@@ -614,9 +845,13 @@
     "dateStart": "1470",
     "dateEnd": "1530",
     "biography": "Leading Nuremberg humanist and city councillor. Translated Greek authors. Close friend of Albrecht Dürer. Correspondent of Erasmus. Embodies German patrician humanist culture.",
-    "occupations": ["Humanist", "Patrician"],
+    "occupations": [
+      "Humanist",
+      "Patrician"
+    ],
     "birthPlace": "Nuremberg",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Willibald_Pirckheimer"
   },
   {
     "id": "person-ulrich-von-hutten",
@@ -626,9 +861,14 @@
     "dateStart": "1488",
     "dateEnd": "1523",
     "biography": "Militant humanist satirist. Co-author of Letters of Obscure Men, satirizing scholastic enemies of Reuchlin. Later supported Luther's Reformation and attacked Roman church. Represents radical edge of German humanism.",
-    "occupations": ["Humanist", "Knight", "Pamphleteer"],
+    "occupations": [
+      "Humanist",
+      "Knight",
+      "Pamphleteer"
+    ],
     "birthPlace": "Steckelberg",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Ulrich_von_Hutten"
   },
   {
     "id": "person-jakob-wimpfeling",
@@ -638,9 +878,13 @@
     "dateStart": "1450",
     "dateEnd": "1528",
     "biography": "Alsatian humanist and educator. Promoted educational reform and German patriotism. His Adolescentia was an influential pedagogical work. Connected to Strasbourg humanist circle.",
-    "occupations": ["Humanist", "Educator"],
+    "occupations": [
+      "Humanist",
+      "Educator"
+    ],
     "birthPlace": "Sélestat",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Jakob_Wimpfeling"
   },
   {
     "id": "person-beatus-rhenanus",
@@ -650,9 +894,13 @@
     "dateStart": "1485",
     "dateEnd": "1547",
     "biography": "Leading German philologist. Edited works of Erasmus, Tertullian, Livy, Tacitus. His Rerum Germanicarum libri tres (1531) founded critical German historiography. Close associate of Erasmus in Basel.",
-    "occupations": ["Scholar", "Editor"],
+    "occupations": [
+      "Scholar",
+      "Editor"
+    ],
     "birthPlace": "Sélestat",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Beatus_Rhenanus"
   },
   {
     "id": "person-johann-froben",
@@ -662,9 +910,13 @@
     "dateStart": "1460",
     "dateEnd": "1527",
     "biography": "Leading Basel printer. Published most of Erasmus's major works. His press was center of humanist scholarly publishing north of the Alps. Made Basel a major humanist center.",
-    "occupations": ["Printer", "Publisher"],
+    "occupations": [
+      "Printer",
+      "Publisher"
+    ],
     "birthPlace": "Basel",
-    "nationality": "German/Swiss"
+    "nationality": "German/Swiss",
+    "wikipediaTitle": "Johann_Froben"
   },
   {
     "id": "person-alexander-hegius",
@@ -674,9 +926,12 @@
     "dateStart": "1433",
     "dateEnd": "1498",
     "biography": "Headmaster of Deventer school, where Erasmus studied. Reformed curriculum along humanist lines. Pupil of Agricola. Trained a generation of Northern humanists.",
-    "occupations": ["Educator"],
+    "occupations": [
+      "Educator"
+    ],
     "birthPlace": "Deventer",
-    "nationality": "Dutch"
+    "nationality": "Dutch",
+    "wikipediaTitle": "Alexander_Hegius"
   },
   {
     "id": "person-antonio-nebrija",
@@ -686,22 +941,33 @@
     "dateStart": "1441",
     "dateEnd": "1522",
     "biography": "Father of Spanish humanism. His Gramática de la lengua castellana (1492) was the first grammar of a modern European language. Also published Latin grammar widely used in Spain. Contributed to Complutensian Polyglot Bible.",
-    "occupations": ["Grammarian", "Scholar"],
+    "occupations": [
+      "Grammarian",
+      "Scholar"
+    ],
     "birthPlace": "Lebrija",
-    "nationality": "Spanish"
+    "nationality": "Spanish",
+    "wikipediaTitle": "Antonio_de_Nebrija"
   },
   {
     "id": "person-cardinal-cisneros",
     "type": "person",
     "title": "Cardinal Francisco Jiménez de Cisneros",
-    "alternateNames": ["Cardinal Cisneros"],
+    "alternateNames": [
+      "Cardinal Cisneros"
+    ],
     "shortDescription": "Archbishop of Toledo who founded University of Alcalá and patronized the Complutensian Polyglot Bible",
     "dateStart": "1436",
     "dateEnd": "1517",
     "biography": "Archbishop of Toledo, Grand Inquisitor, regent of Castile. Founded University of Alcalá (1508). Patron of the Complutensian Polyglot Bible, the first printed polyglot Bible with Hebrew, Greek, and Latin texts. Major patron of humanist scholarship.",
-    "occupations": ["Cardinal", "Statesman", "Patron"],
+    "occupations": [
+      "Cardinal",
+      "Statesman",
+      "Patron"
+    ],
     "birthPlace": "Torrelaguna",
-    "nationality": "Spanish"
+    "nationality": "Spanish",
+    "wikipediaTitle": "Francisco_Jiménez_de_Cisneros"
   },
   {
     "id": "person-juan-de-valdes",
@@ -711,22 +977,31 @@
     "dateStart": "1509",
     "dateEnd": "1541",
     "biography": "Spanish humanist and religious thinker who spent later career in Italy. His Diálogo de la lengua is important for Spanish linguistic thought. Associated with Italian spirituali reform movement in Naples.",
-    "occupations": ["Religious writer", "Humanist"],
+    "occupations": [
+      "Religious writer",
+      "Humanist"
+    ],
     "birthPlace": "Cuenca",
-    "nationality": "Spanish"
+    "nationality": "Spanish",
+    "wikipediaTitle": "Juan_de_Valdés"
   },
   {
     "id": "person-hernan-nunez",
     "type": "person",
     "title": "Hernán Núñez de Toledo",
-    "alternateNames": ["el Pinciano"],
+    "alternateNames": [
+      "el Pinciano"
+    ],
     "shortDescription": "Spanish humanist who worked on the Complutensian Polyglot and commented on classical authors",
     "dateStart": "1475",
     "dateEnd": "1553",
     "biography": "Known as 'el Pinciano.' Spanish humanist who studied Greek texts and worked on the Complutensian Polyglot. Commented on Pliny and other classical authors.",
-    "occupations": ["Scholar"],
+    "occupations": [
+      "Scholar"
+    ],
     "birthPlace": "Spain",
-    "nationality": "Spanish"
+    "nationality": "Spanish",
+    "wikipediaTitle": "Hernán_Núñez_de_Toledo"
   },
   {
     "id": "person-michel-de-montaigne",
@@ -736,9 +1011,13 @@
     "dateStart": "1533",
     "dateEnd": "1592",
     "biography": "Inventor of the essay form. His Essais (1580-1592) explored human nature with skeptical, introspective method. Drew on classical sources while creating something new. Enormously influential on later European thought.",
-    "occupations": ["Essayist", "Philosopher"],
+    "occupations": [
+      "Essayist",
+      "Philosopher"
+    ],
     "birthPlace": "Bordeaux region",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Michel_de_Montaigne"
   },
   {
     "id": "person-etienne-de-la-boetie",
@@ -748,9 +1027,13 @@
     "dateStart": "1530",
     "dateEnd": "1563",
     "biography": "Close friend of Montaigne. Author of Discours de la servitude volontaire, an early critique of tyranny and voluntary submission. Died young; Montaigne devoted essay 'Of Friendship' to him.",
-    "occupations": ["Writer", "Magistrate"],
+    "occupations": [
+      "Writer",
+      "Magistrate"
+    ],
     "birthPlace": "Sarlat",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Étienne_de_La_Boétie"
   },
   {
     "id": "person-marguerite-of-navarre",
@@ -760,9 +1043,14 @@
     "dateStart": "1492",
     "dateEnd": "1549",
     "biography": "Sister of Francis I, Queen of Navarre. Author of Heptaméron (story collection). Patron and protector of humanists and religious reformers, including Lefèvre d'Étaples. Her court was center of French cultural life.",
-    "occupations": ["Queen", "Author", "Patron"],
+    "occupations": [
+      "Queen",
+      "Author",
+      "Patron"
+    ],
     "birthPlace": "France",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Marguerite_de_Navarre"
   },
   {
     "id": "person-guillaume-postel",
@@ -772,9 +1060,13 @@
     "dateStart": "1510",
     "dateEnd": "1581",
     "biography": "Extraordinary linguist who knew Hebrew, Arabic, Syriac, and other languages. Chair of mathematics and oriental languages at Collège de France. Visionary religious ideas led to conflict with authorities. Represents humanist orientalism.",
-    "occupations": ["Linguist", "Visionary"],
+    "occupations": [
+      "Linguist",
+      "Visionary"
+    ],
     "birthPlace": "France",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Guillaume_Postel"
   },
   {
     "id": "person-jean-dorat",
@@ -784,9 +1076,13 @@
     "dateStart": "1508",
     "dateEnd": "1588",
     "biography": "Professor of Greek at Collège de France. Teacher of the Pléiade poets (Ronsard, Du Bellay). Important for transmitting humanist learning to French vernacular literature.",
-    "occupations": ["Scholar", "Poet"],
+    "occupations": [
+      "Scholar",
+      "Poet"
+    ],
     "birthPlace": "Limoges",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Jean_Dorat"
   },
   {
     "id": "person-guarino-da-verona",
@@ -796,9 +1092,13 @@
     "dateStart": "1374",
     "dateEnd": "1460",
     "biography": "Major humanist educator. Studied Greek in Constantinople with Chrysoloras. Ran famous school in Ferrara for the Este court. Trained a generation of humanists. Translated Greek authors.",
-    "occupations": ["Humanist", "Educator"],
+    "occupations": [
+      "Humanist",
+      "Educator"
+    ],
     "birthPlace": "Verona",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Guarino_da_Verona"
   },
   {
     "id": "person-vittorino-da-feltre",
@@ -808,9 +1108,12 @@
     "dateStart": "1378",
     "dateEnd": "1446",
     "biography": "Ran the 'Casa Giocosa' (Pleasant House) school for the Gonzaga family in Mantua (from 1423). Model humanist school combining classical learning with physical education and moral formation. Accepted poor students alongside nobility.",
-    "occupations": ["Educator"],
+    "occupations": [
+      "Educator"
+    ],
     "birthPlace": "Feltre",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Vittorino_da_Feltre"
   },
   {
     "id": "person-battista-guarino",
@@ -820,9 +1123,12 @@
     "dateStart": "1434",
     "dateEnd": "1513",
     "biography": "Son of Guarino da Verona. Continued father's school at Ferrara. Wrote De ordine docendi et studendi (1459), an influential guide to humanist education.",
-    "occupations": ["Educator"],
+    "occupations": [
+      "Educator"
+    ],
     "birthPlace": "Ferrara",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Battista_Guarino"
   },
   {
     "id": "person-johannes-sturm",
@@ -832,9 +1138,12 @@
     "dateStart": "1507",
     "dateEnd": "1589",
     "biography": "Founded the Strasbourg Gymnasium (1538), which became model for Protestant humanist education across Europe. His curriculum combined classical learning with Protestant religion. Influenced educational practice for centuries.",
-    "occupations": ["Educator"],
+    "occupations": [
+      "Educator"
+    ],
     "birthPlace": "Strasbourg",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johannes_Sturm"
   },
   {
     "id": "person-demetrius-chalcondyles",
@@ -844,9 +1153,12 @@
     "dateStart": "1423",
     "dateEnd": "1511",
     "biography": "Byzantine émigré who taught Greek in Italy. Professor at Florence (1475-1491) and Milan. Produced first printed edition of Homer (1488). Teacher of Reuchlin and others.",
-    "occupations": ["Greek scholar"],
+    "occupations": [
+      "Greek scholar"
+    ],
     "birthPlace": "Athens",
-    "nationality": "Byzantine"
+    "nationality": "Byzantine",
+    "wikipediaTitle": "Demetrius_Chalcondyles"
   },
   {
     "id": "person-johannes-argyropoulos",
@@ -856,9 +1168,12 @@
     "dateStart": "1415",
     "dateEnd": "1487",
     "biography": "Major Greek teacher in Florence (1456-1471) and Rome. Taught Greek philosophy and translated Aristotle. Students included Poliziano, Acciaiuoli, and Reuchlin.",
-    "occupations": ["Greek scholar"],
+    "occupations": [
+      "Greek scholar"
+    ],
     "birthPlace": "Constantinople",
-    "nationality": "Byzantine"
+    "nationality": "Byzantine",
+    "wikipediaTitle": "John_Argyropoulos"
   },
   {
     "id": "person-george-of-trebizond",
@@ -868,9 +1183,13 @@
     "dateStart": "1395",
     "dateEnd": "1486",
     "biography": "Prolific translator from Greek. Known for controversy with Bessarion over Plato vs. Aristotle. Translated Aristotle's Rhetoric and other works. Rhetorical handbook.",
-    "occupations": ["Scholar", "Translator"],
+    "occupations": [
+      "Scholar",
+      "Translator"
+    ],
     "birthPlace": "Crete",
-    "nationality": "Byzantine"
+    "nationality": "Byzantine",
+    "wikipediaTitle": "George_of_Trebizond"
   },
   {
     "id": "person-cardinal-bessarion",
@@ -880,9 +1199,13 @@
     "dateStart": "1403",
     "dateEnd": "1472",
     "biography": "Greek cardinal who championed Platonism in In calumniatorem Platonis (against George of Trebizond). His library, donated to Venice, became the core of the Biblioteca Marciana. Major figure linking Greek and Latin worlds.",
-    "occupations": ["Cardinal", "Scholar"],
+    "occupations": [
+      "Cardinal",
+      "Scholar"
+    ],
     "birthPlace": "Trebizond",
-    "nationality": "Byzantine"
+    "nationality": "Byzantine",
+    "wikipediaTitle": "Bessarion"
   },
   {
     "id": "person-theodore-gaza",
@@ -892,9 +1215,12 @@
     "dateStart": "1398",
     "dateEnd": "1475",
     "biography": "Greek émigré scholar who taught Greek in Italy. Translated Aristotle's zoological works and Theophrastus. Professor at Ferrara. His Greek grammar was widely used.",
-    "occupations": ["Scholar"],
+    "occupations": [
+      "Scholar"
+    ],
     "birthPlace": "Thessalonica",
-    "nationality": "Byzantine"
+    "nationality": "Byzantine",
+    "wikipediaTitle": "Theodore_Gaza"
   },
   {
     "id": "person-francesco-filelfo",
@@ -904,9 +1230,13 @@
     "dateStart": "1398",
     "dateEnd": "1481",
     "biography": "Learned Greek in Constantinople, married into Byzantine family (granddaughter of Manuel Chrysoloras). Long career teaching at various Italian courts. Prolific author of Latin poetry and prose. Quarrelsome figure who feuded with many contemporaries.",
-    "occupations": ["Humanist", "Scholar"],
+    "occupations": [
+      "Humanist",
+      "Scholar"
+    ],
     "birthPlace": "Tolentino",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Francesco_Filelfo"
   },
   {
     "id": "person-paolo-giovio",
@@ -916,9 +1246,13 @@
     "dateStart": "1483",
     "dateEnd": "1552",
     "biography": "Bishop and historian. Author of Historiarum sui temporis libri and famous series of biographies (Elogia). Created museum of portraits of famous men. Major chronicler of his era.",
-    "occupations": ["Historian", "Biographer"],
+    "occupations": [
+      "Historian",
+      "Biographer"
+    ],
     "birthPlace": "Como",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Paolo_Giovio"
   },
   {
     "id": "person-pietro-aretino",
@@ -928,9 +1262,13 @@
     "dateStart": "1492",
     "dateEnd": "1556",
     "biography": "'Scourge of Princes.' Pioneering journalist and satirist who used vernacular Italian for biting commentary. First major writer to live by his pen through patronage extracted by threat of satire. Represents popular/commercial side of humanist culture.",
-    "occupations": ["Writer", "Satirist"],
+    "occupations": [
+      "Writer",
+      "Satirist"
+    ],
     "birthPlace": "Arezzo",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Pietro_Aretino"
   },
   {
     "id": "person-baldassare-castiglione",
@@ -940,9 +1278,13 @@
     "dateStart": "1478",
     "dateEnd": "1529",
     "biography": "Author of Il libro del cortegiano (The Book of the Courtier, 1528), the definitive guide to Renaissance court culture and the ideal of the gentleman. Enormously influential across Europe.",
-    "occupations": ["Diplomat", "Author"],
+    "occupations": [
+      "Diplomat",
+      "Author"
+    ],
     "birthPlace": "Mantua region",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Baldassare_Castiglione"
   },
   {
     "id": "person-cosimo-de-medici",
@@ -952,9 +1294,14 @@
     "dateStart": "1389",
     "dateEnd": "1464",
     "biography": "Founder of the Medici political dynasty in Florence. Major patron of arts and learning. Provided Ficino with a villa at Careggi and commissioned him to translate Plato's complete works, establishing the Platonic Academy.",
-    "occupations": ["Banker", "Statesman", "Patron"],
+    "occupations": [
+      "Banker",
+      "Statesman",
+      "Patron"
+    ],
     "birthPlace": "Florence",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Cosimo_de%27_Medici"
   },
   {
     "id": "object-epistolae-familiares",
@@ -965,7 +1312,10 @@
     "dateStart": "1345",
     "dateEnd": "1366",
     "language": "Latin",
-    "creators": ["person-francesco-petrarca"]
+    "creators": [
+      "person-francesco-petrarca"
+    ],
+    "wikipediaTitle": "Epistolae_familiares"
   },
   {
     "id": "object-de-viris-illustribus",
@@ -976,7 +1326,10 @@
     "dateStart": "1337",
     "dateEnd": "1353",
     "language": "Latin",
-    "creators": ["person-francesco-petrarca"]
+    "creators": [
+      "person-francesco-petrarca"
+    ],
+    "wikipediaTitle": "De_viris_illustribus_(Petrarch)"
   },
   {
     "id": "object-decameron",
@@ -986,7 +1339,10 @@
     "shortDescription": "Boccaccio's collection of 100 novellas that established Italian prose style",
     "dateStart": "1353",
     "language": "Italian",
-    "creators": ["person-giovanni-boccaccio"]
+    "creators": [
+      "person-giovanni-boccaccio"
+    ],
+    "wikipediaTitle": "The_Decameron"
   },
   {
     "id": "object-genealogia-deorum",
@@ -996,7 +1352,10 @@
     "shortDescription": "Boccaccio's encyclopedic work on classical mythology used as reference throughout Renaissance",
     "dateStart": "1360",
     "language": "Latin",
-    "creators": ["person-giovanni-boccaccio"]
+    "creators": [
+      "person-giovanni-boccaccio"
+    ],
+    "wikipediaTitle": "Genealogia_Deorum_Gentilium"
   },
   {
     "id": "object-elegantiae",
@@ -1006,7 +1365,10 @@
     "shortDescription": "Valla's handbook establishing standards for classical Latin usage",
     "dateStart": "1444",
     "language": "Latin",
-    "creators": ["person-lorenzo-valla"]
+    "creators": [
+      "person-lorenzo-valla"
+    ],
+    "wikipediaTitle": "Elegantiae_linguae_Latinae"
   },
   {
     "id": "object-donation-constantine",
@@ -1016,11 +1378,20 @@
     "shortDescription": "Valla's proof through philological analysis that the Donation of Constantine was a forgery",
     "dateStart": "1440",
     "language": "Latin",
-    "creators": ["person-lorenzo-valla"],
+    "creators": [
+      "person-lorenzo-valla"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/treatiseofloren00vall"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/treatiseofloren00vall"
+      }
+    ],
+    "wikipediaTitle": "Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine"
   },
   {
     "id": "object-erotemata",
@@ -1030,7 +1401,10 @@
     "shortDescription": "Chrysoloras's Greek grammar that became the first Greek textbook in Western Europe",
     "dateStart": "1390",
     "language": "Greek",
-    "creators": ["person-manuel-chrysoloras"]
+    "creators": [
+      "person-manuel-chrysoloras"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-ficino-plato",
@@ -1040,7 +1414,10 @@
     "shortDescription": "Ficino's first complete translation of all Plato's dialogues into Latin",
     "dateStart": "1484",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"]
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-theologia-platonica",
@@ -1050,11 +1427,20 @@
     "shortDescription": "Ficino's major philosophical work on the immortality of the soul and Platonic-Christian synthesis",
     "dateStart": "1482",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"],
+    "creators": [
+      "person-marsilio-ficino"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Theologia_Platonica"},
-      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674003453"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Theologia_Platonica"
+      },
+      {
+        "label": "I Tatti Renaissance Library",
+        "url": "https://www.hup.harvard.edu/books/9780674003453"
+      }
+    ],
+    "wikipediaTitle": "Theologia_Platonica"
   },
   {
     "id": "object-de-amore-ficino",
@@ -1064,11 +1450,20 @@
     "shortDescription": "Ficino's commentary on Plato's Symposium developing theory of Platonic love",
     "dateStart": "1484",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"],
+    "creators": [
+      "person-marsilio-ficino"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Commentarium_in_Convivium_Platonis_de_Amore"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/marsilioficinoco0000fici"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Commentarium_in_Convivium_Platonis_de_Amore"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/marsilioficinoco0000fici"
+      }
+    ],
+    "wikipediaTitle": "Commentarium_in_Convivium_Platonis_de_Amore"
   },
   {
     "id": "object-corpus-hermeticum",
@@ -1078,7 +1473,10 @@
     "shortDescription": "Ficino's translation of the Hermetic texts that influenced Renaissance esoteric thought",
     "dateStart": "1463",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"]
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": "Hermetica"
   },
   {
     "id": "object-oration-dignity-man",
@@ -1088,11 +1486,20 @@
     "shortDescription": "Pico's 'Manifesto of the Renaissance' celebrating human potential and freedom",
     "dateStart": "1486",
     "language": "Latin",
-    "creators": ["person-giovanni-pico"],
+    "creators": [
+      "person-giovanni-pico"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Oration_on_the_Dignity_of_Man"},
-      {"label": "Brown University (Latin)", "url": "https://www.brown.edu/Departments/Italian_Studies/pico/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oration_on_the_Dignity_of_Man"
+      },
+      {
+        "label": "Brown University (Latin)",
+        "url": "https://www.brown.edu/Departments/Italian_Studies/pico/"
+      }
+    ],
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man"
   },
   {
     "id": "object-900-theses",
@@ -1102,11 +1509,20 @@
     "shortDescription": "Pico's ambitious attempt to synthesize all philosophical and religious traditions",
     "dateStart": "1486",
     "language": "Latin",
-    "creators": ["person-giovanni-pico"],
+    "creators": [
+      "person-giovanni-pico"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/900_Theses"},
-      {"label": "JSTOR", "url": "https://www.jstor.org/stable/2860197"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/900_Theses"
+      },
+      {
+        "label": "JSTOR",
+        "url": "https://www.jstor.org/stable/2860197"
+      }
+    ],
+    "wikipediaTitle": "900_Theses"
   },
   {
     "id": "object-de-ente-et-uno",
@@ -1116,11 +1532,20 @@
     "shortDescription": "Pico's treatise attempting to reconcile Plato and Aristotle",
     "dateStart": "1491",
     "language": "Latin",
-    "creators": ["person-giovanni-pico"],
+    "creators": [
+      "person-giovanni-pico"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/beingonepicodell00pico"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Giovanni_Pico_della_Mirandola"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/beingonepicodell00pico"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-ficino-plotinus",
@@ -1130,7 +1555,10 @@
     "shortDescription": "Ficino's first Latin translation of Plotinus's Enneads",
     "dateStart": "1492",
     "language": "Latin",
-    "creators": ["person-marsilio-ficino"]
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-laudatio-florentinae",
@@ -1140,11 +1568,20 @@
     "shortDescription": "Bruni's praise of Florence linking classical republicanism to Florentine liberty",
     "dateStart": "1403",
     "language": "Latin",
-    "creators": ["person-leonardo-bruni"],
+    "creators": [
+      "person-leonardo-bruni"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Laudatio_Florentinae_urbis"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/humanistandpoli00grifgoog"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Laudatio_Florentinae_urbis"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/humanistandpoli00grifgoog"
+      }
+    ],
+    "wikipediaTitle": "Laudatio_Florentinae_urbis"
   },
   {
     "id": "object-bruni-history-florence",
@@ -1155,7 +1592,10 @@
     "dateStart": "1416",
     "dateEnd": "1442",
     "language": "Latin",
-    "creators": ["person-leonardo-bruni"]
+    "creators": [
+      "person-leonardo-bruni"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-il-principe",
@@ -1165,12 +1605,24 @@
     "shortDescription": "Machiavelli's foundational text of modern political philosophy",
     "dateStart": "1513",
     "language": "Italian",
-    "creators": ["person-niccolo-machiavelli"],
+    "creators": [
+      "person-niccolo-machiavelli"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Prince"},
-      {"label": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/1232"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/princemachiawell00machuoft"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Prince"
+      },
+      {
+        "label": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/1232"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/princemachiawell00machuoft"
+      }
+    ],
+    "wikipediaTitle": "The_Prince"
   },
   {
     "id": "object-discorsi-livy",
@@ -1180,11 +1632,20 @@
     "shortDescription": "Machiavelli's major work on republican political theory",
     "dateStart": "1517",
     "language": "Italian",
-    "creators": ["person-niccolo-machiavelli"],
+    "creators": [
+      "person-niccolo-machiavelli"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Discourses_on_Livy"},
-      {"label": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/10827"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Discourses_on_Livy"
+      },
+      {
+        "label": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/10827"
+      }
+    ],
+    "wikipediaTitle": "Discourses_on_Livy"
   },
   {
     "id": "object-istorie-fiorentine",
@@ -1194,7 +1655,10 @@
     "shortDescription": "Machiavelli's history of Florence with political analysis",
     "dateStart": "1525",
     "language": "Italian",
-    "creators": ["person-niccolo-machiavelli"]
+    "creators": [
+      "person-niccolo-machiavelli"
+    ],
+    "wikipediaTitle": "Florentine_Histories"
   },
   {
     "id": "object-storia-italia",
@@ -1205,7 +1669,10 @@
     "dateStart": "1537",
     "dateEnd": "1540",
     "language": "Italian",
-    "creators": ["person-francesco-guicciardini"]
+    "creators": [
+      "person-francesco-guicciardini"
+    ],
+    "wikipediaTitle": "Storia_d%27Italia_(Guicciardini)"
   },
   {
     "id": "object-ricordi",
@@ -1215,11 +1682,20 @@
     "shortDescription": "Guicciardini's collection of political and personal maxims",
     "dateStart": "1530",
     "language": "Italian",
-    "creators": ["person-francesco-guicciardini"],
+    "creators": [
+      "person-francesco-guicciardini"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ricordi_(Guicciardini)"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/maxims00guicuoft"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ricordi_(Guicciardini)"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/maxims00guicuoft"
+      }
+    ],
+    "wikipediaTitle": "Ricordi_(Guicciardini)"
   },
   {
     "id": "object-book-courtier",
@@ -1229,11 +1705,20 @@
     "shortDescription": "Castiglione's definitive guide to Renaissance court culture",
     "dateStart": "1528",
     "language": "Italian",
-    "creators": ["person-baldassare-castiglione"],
+    "creators": [
+      "person-baldassare-castiglione"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Book_of_the_Courtier"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/bookofcourtier00castuoft"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Book_of_the_Courtier"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/bookofcourtier00castuoft"
+      }
+    ],
+    "wikipediaTitle": "The_Book_of_the_Courtier"
   },
   {
     "id": "object-della-vita-civile",
@@ -1243,11 +1728,20 @@
     "shortDescription": "Palmieri's dialogue on civic virtue in Bruni's civic humanist tradition",
     "dateStart": "1435",
     "language": "Italian",
-    "creators": ["person-matteo-palmieri"],
+    "creators": [
+      "person-matteo-palmieri"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Matteo_Palmieri"},
-      {"label": "ACMRS Press", "url": "https://acmrs.org/publications/catalog/della-vita-civile"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Matteo_Palmieri"
+      },
+      {
+        "label": "ACMRS Press",
+        "url": "https://acmrs.org/publications/catalog/della-vita-civile"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-dignitate-manetti",
@@ -1257,11 +1751,20 @@
     "shortDescription": "Manetti's early statement of humanist view of human dignity",
     "dateStart": "1452",
     "language": "Latin",
-    "creators": ["person-giannozzo-manetti"],
+    "creators": [
+      "person-giannozzo-manetti"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Giannozzo_Manetti"},
-      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674031326"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Giannozzo_Manetti"
+      },
+      {
+        "label": "I Tatti Renaissance Library",
+        "url": "https://www.hup.harvard.edu/books/9780674031326"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-ingenuis-moribus",
@@ -1271,11 +1774,20 @@
     "shortDescription": "Vergerio's first humanist treatise on education",
     "dateStart": "1402",
     "language": "Latin",
-    "creators": ["person-pier-paolo-vergerio"],
+    "creators": [
+      "person-pier-paolo-vergerio"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pier_Paolo_Vergerio"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/humanistducatio00woodgoog"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Pier_Paolo_Vergerio"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/humanistducatio00woodgoog"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-ordine-docendi",
@@ -1285,11 +1797,20 @@
     "shortDescription": "Battista Guarino's influential guide to humanist educational methods",
     "dateStart": "1459",
     "language": "Latin",
-    "creators": ["person-battista-guarino"],
+    "creators": [
+      "person-battista-guarino"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Battista_Guarino"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/humanistducatio00woodgoog"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Battista_Guarino"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/humanistducatio00woodgoog"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-inventione-dialectica",
@@ -1299,11 +1820,20 @@
     "shortDescription": "Agricola's reformed logic emphasizing rhetoric over scholastic dialectic",
     "dateStart": "1479",
     "language": "Latin",
-    "creators": ["person-rudolf-agricola"],
+    "creators": [
+      "person-rudolf-agricola"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_inventione_dialectica"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/bub_gb_hHOJAIZSwW0C"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De_inventione_dialectica"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/bub_gb_hHOJAIZSwW0C"
+      }
+    ],
+    "wikipediaTitle": "De_inventione_dialectica"
   },
   {
     "id": "object-de-tradendis",
@@ -1313,11 +1843,20 @@
     "shortDescription": "Vives's comprehensive educational treatise",
     "dateStart": "1531",
     "language": "Latin",
-    "creators": ["person-juan-luis-vives"],
+    "creators": [
+      "person-juan-luis-vives"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Juan_Luis_Vives"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/vivesoneducation00vive"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Juan_Luis_Vives"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/vivesoneducation00vive"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-copia",
@@ -1327,11 +1866,20 @@
     "shortDescription": "Erasmus's textbook on rhetorical variation widely used for centuries",
     "dateStart": "1512",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"],
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_Copia"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/onerasemussdecop00erasuoft"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De_Copia"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/onerasemussdecop00erasuoft"
+      }
+    ],
+    "wikipediaTitle": "De_Copia"
   },
   {
     "id": "object-novum-instrumentum",
@@ -1341,7 +1889,10 @@
     "shortDescription": "Erasmus's first published Greek New Testament founding modern biblical scholarship",
     "dateStart": "1516",
     "language": "Greek",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
+    "wikipediaTitle": "Novum_Instrumentum_omne"
   },
   {
     "id": "object-valla-annotations-nt",
@@ -1351,11 +1902,20 @@
     "shortDescription": "Valla's philological notes comparing Greek NT to Vulgate, published by Erasmus",
     "dateStart": "1449",
     "language": "Latin",
-    "creators": ["person-lorenzo-valla"],
+    "creators": [
+      "person-lorenzo-valla"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lorenzo_Valla"},
-      {"label": "Brill", "url": "https://brill.com/display/title/12987"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Lorenzo_Valla"
+      },
+      {
+        "label": "Brill",
+        "url": "https://brill.com/display/title/12987"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-enchiridion",
@@ -1365,11 +1925,20 @@
     "shortDescription": "Erasmus's handbook advocating inner piety over ritual observance",
     "dateStart": "1503",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"],
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Enchiridion_militis_Christiani"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/enchiridionmilli00eras"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Enchiridion_militis_Christiani"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/enchiridionmilli00eras"
+      }
+    ],
+    "wikipediaTitle": "Handbook_of_a_Christian_Knight"
   },
   {
     "id": "object-complutensian-polyglot",
@@ -1380,7 +1949,12 @@
     "dateStart": "1514",
     "dateEnd": "1517",
     "language": "Hebrew, Greek, Latin, Aramaic",
-    "creators": ["person-cardinal-cisneros", "person-antonio-nebrija", "person-hernan-nunez"]
+    "creators": [
+      "person-cardinal-cisneros",
+      "person-antonio-nebrija",
+      "person-hernan-nunez"
+    ],
+    "wikipediaTitle": "Complutensian_Polyglot_Bible"
   },
   {
     "id": "object-french-bible-lefevre",
@@ -1390,7 +1964,10 @@
     "shortDescription": "Lefèvre d'Étaples's first complete French Bible translation",
     "dateStart": "1530",
     "language": "French",
-    "creators": ["person-jacques-lefevre-detaples"]
+    "creators": [
+      "person-jacques-lefevre-detaples"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-rudimentis-hebraicis",
@@ -1400,7 +1977,10 @@
     "shortDescription": "Reuchlin's first Hebrew grammar by a Christian scholar",
     "dateStart": "1506",
     "language": "Latin",
-    "creators": ["person-johannes-reuchlin"]
+    "creators": [
+      "person-johannes-reuchlin"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-arte-cabalistica",
@@ -1410,11 +1990,20 @@
     "shortDescription": "Reuchlin's major text of Christian Kabbalah",
     "dateStart": "1517",
     "language": "Latin",
-    "creators": ["person-johannes-reuchlin"],
+    "creators": [
+      "person-johannes-reuchlin"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_Arte_Cabalistica"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/onartofcabala00reuc"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De_Arte_Cabalistica"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/onartofcabala00reuc"
+      }
+    ],
+    "wikipediaTitle": "De_Arte_Cabalistica"
   },
   {
     "id": "object-praise-of-folly",
@@ -1424,7 +2013,10 @@
     "shortDescription": "Erasmus's satirical declamation critiquing human vanity",
     "dateStart": "1509",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
+    "wikipediaTitle": "In_Praise_of_Folly"
   },
   {
     "id": "object-colloquia",
@@ -1434,7 +2026,10 @@
     "shortDescription": "Erasmus's dialogues used as Latin textbook spreading reform ideas",
     "dateStart": "1518",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
+    "wikipediaTitle": "Colloquies"
   },
   {
     "id": "object-utopia",
@@ -1444,7 +2039,10 @@
     "shortDescription": "More's foundational work of political philosophy imagining ideal society",
     "dateStart": "1516",
     "language": "Latin",
-    "creators": ["person-thomas-more"]
+    "creators": [
+      "person-thomas-more"
+    ],
+    "wikipediaTitle": "Utopia_(book)"
   },
   {
     "id": "object-arcadia",
@@ -1454,7 +2052,10 @@
     "shortDescription": "Sannazaro's pastoral romance that influenced European literature for two centuries",
     "dateStart": "1504",
     "language": "Italian",
-    "creators": ["person-jacopo-sannazaro"]
+    "creators": [
+      "person-jacopo-sannazaro"
+    ],
+    "wikipediaTitle": "Arcadia_(Sannazaro)"
   },
   {
     "id": "object-stanze-giostra",
@@ -1464,7 +2065,10 @@
     "shortDescription": "Poliziano's major Italian Renaissance poetry showing humanist-vernacular synthesis",
     "dateStart": "1478",
     "language": "Italian",
-    "creators": ["person-angelo-poliziano"]
+    "creators": [
+      "person-angelo-poliziano"
+    ],
+    "wikipediaTitle": "Stanze_per_la_giostra"
   },
   {
     "id": "object-miscellanea",
@@ -1474,7 +2078,10 @@
     "shortDescription": "Poliziano's foundational text of modern philology",
     "dateStart": "1489",
     "language": "Latin",
-    "creators": ["person-angelo-poliziano"]
+    "creators": [
+      "person-angelo-poliziano"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-essais",
@@ -1485,7 +2092,10 @@
     "dateStart": "1580",
     "dateEnd": "1592",
     "language": "French",
-    "creators": ["person-michel-de-montaigne"]
+    "creators": [
+      "person-michel-de-montaigne"
+    ],
+    "wikipediaTitle": "Essays_(Montaigne)"
   },
   {
     "id": "object-servitude-volontaire",
@@ -1495,11 +2105,20 @@
     "shortDescription": "La Boétie's early critique of tyranny and voluntary submission",
     "dateStart": "1549",
     "language": "French",
-    "creators": ["person-etienne-de-la-boetie"],
+    "creators": [
+      "person-etienne-de-la-boetie"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Discourse_on_Voluntary_Servitude"},
-      {"label": "Online Library of Liberty", "url": "https://oll.libertyfund.org/titles/boetie-the-discourse-of-voluntary-servitude"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Discourse_on_Voluntary_Servitude"
+      },
+      {
+        "label": "Online Library of Liberty",
+        "url": "https://oll.libertyfund.org/titles/boetie-the-discourse-of-voluntary-servitude"
+      }
+    ],
+    "wikipediaTitle": "Discourse_on_Voluntary_Servitude"
   },
   {
     "id": "object-adages",
@@ -1509,7 +2128,10 @@
     "shortDescription": "Erasmus's hugely popular collection of classical proverbs with commentary",
     "dateStart": "1508",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
+    "wikipediaTitle": "Adagia"
   },
   {
     "id": "object-bruni-aristotle-ethics",
@@ -1519,7 +2141,10 @@
     "shortDescription": "Bruni's humanist translation of Aristotle's Nicomachean Ethics",
     "dateStart": "1416",
     "language": "Latin",
-    "creators": ["person-leonardo-bruni"]
+    "creators": [
+      "person-leonardo-bruni"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-bruni-aristotle-politics",
@@ -1529,7 +2154,10 @@
     "shortDescription": "Bruni's humanist translation of Aristotle's Politics",
     "dateStart": "1437",
     "language": "Latin",
-    "creators": ["person-leonardo-bruni"]
+    "creators": [
+      "person-leonardo-bruni"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-homer-editio-princeps",
@@ -1539,7 +2167,10 @@
     "shortDescription": "Chalcondyles's first printed edition of Homer",
     "dateStart": "1488",
     "language": "Greek",
-    "creators": ["person-demetrius-chalcondyles"]
+    "creators": [
+      "person-demetrius-chalcondyles"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-thesaurus-linguae-latinae",
@@ -1549,7 +2180,10 @@
     "shortDescription": "Estienne's comprehensive Latin dictionary standard for centuries",
     "dateStart": "1532",
     "language": "Latin",
-    "creators": ["person-robert-estienne"]
+    "creators": [
+      "person-robert-estienne"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-commentarii-graecae",
@@ -1559,7 +2193,10 @@
     "shortDescription": "Budé's major Greek lexicon",
     "dateStart": "1529",
     "language": "Greek",
-    "creators": ["person-guillaume-bude"]
+    "creators": [
+      "person-guillaume-bude"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-de-pictura",
@@ -1569,11 +2206,20 @@
     "shortDescription": "Alberti's first modern treatise on painting explaining perspective",
     "dateStart": "1435",
     "language": "Latin",
-    "creators": ["person-leon-battista-alberti"],
+    "creators": [
+      "person-leon-battista-alberti"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_pictura"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/dellapittura00albe"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De_pictura"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/dellapittura00albe"
+      }
+    ],
+    "wikipediaTitle": "De_pictura"
   },
   {
     "id": "object-de-re-aedificatoria",
@@ -1583,11 +2229,20 @@
     "shortDescription": "Alberti's first modern architectural treatise",
     "dateStart": "1452",
     "language": "Latin",
-    "creators": ["person-leon-battista-alberti"],
+    "creators": [
+      "person-leon-battista-alberti"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_re_aedificatoria"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/tenbooks00albe"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De_re_aedificatoria"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/tenbooks00albe"
+      }
+    ],
+    "wikipediaTitle": "De_re_aedificatoria"
   },
   {
     "id": "object-de-statua",
@@ -1597,11 +2252,20 @@
     "shortDescription": "Alberti's treatise on sculpture including proportions",
     "dateStart": "1464",
     "language": "Latin",
-    "creators": ["person-leon-battista-alberti"],
+    "creators": [
+      "person-leon-battista-alberti"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Leon_Battista_Alberti"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/onsculpture00albe"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Leon_Battista_Alberti"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/onsculpture00albe"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-della-famiglia",
@@ -1612,7 +2276,10 @@
     "dateStart": "1433",
     "dateEnd": "1441",
     "language": "Italian",
-    "creators": ["person-leon-battista-alberti"]
+    "creators": [
+      "person-leon-battista-alberti"
+    ],
+    "wikipediaTitle": "I_Libri_della_Famiglia"
   },
   {
     "id": "object-roma-instaurata",
@@ -1622,11 +2289,20 @@
     "shortDescription": "Biondo's pioneering description of ancient Roman monuments",
     "dateStart": "1446",
     "language": "Latin",
-    "creators": ["person-flavio-biondo"],
+    "creators": [
+      "person-flavio-biondo"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Flavio_Biondo"},
-      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674017528"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Flavio_Biondo"
+      },
+      {
+        "label": "I Tatti Renaissance Library",
+        "url": "https://www.hup.harvard.edu/books/9780674017528"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-italia-illustrata",
@@ -1636,11 +2312,20 @@
     "shortDescription": "Biondo's historical geography of Italy",
     "dateStart": "1453",
     "language": "Latin",
-    "creators": ["person-flavio-biondo"],
+    "creators": [
+      "person-flavio-biondo"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Italia_illustrata"},
-      {"label": "I Tatti Renaissance Library", "url": "https://www.hup.harvard.edu/books/9780674054844"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Italia_illustrata"
+      },
+      {
+        "label": "I Tatti Renaissance Library",
+        "url": "https://www.hup.harvard.edu/books/9780674054844"
+      }
+    ],
+    "wikipediaTitle": "Italia_Illustrata"
   },
   {
     "id": "object-rerum-germanicarum",
@@ -1650,7 +2335,10 @@
     "shortDescription": "Beatus Rhenanus's critical history founding German historiography",
     "dateStart": "1531",
     "language": "Latin",
-    "creators": ["person-beatus-rhenanus"]
+    "creators": [
+      "person-beatus-rhenanus"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-pius-commentarii",
@@ -1661,7 +2349,10 @@
     "dateStart": "1462",
     "dateEnd": "1464",
     "language": "Latin",
-    "creators": ["person-enea-silvio-piccolomini"]
+    "creators": [
+      "person-enea-silvio-piccolomini"
+    ],
+    "wikipediaTitle": "Commentaries_(Pius_II)"
   },
   {
     "id": "object-erasmus-letters",
@@ -1672,7 +2363,10 @@
     "dateStart": "1489",
     "dateEnd": "1536",
     "language": "Latin",
-    "creators": ["person-desiderius-erasmus"]
+    "creators": [
+      "person-desiderius-erasmus"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "location-florence",
@@ -1681,9 +2375,13 @@
     "locationType": "city",
     "shortDescription": "Center of Italian humanism and the Platonic Academy under Medici patronage",
     "country": "Italy",
-    "coordinates": {"lat": 43.7696, "lng": 11.2558},
+    "coordinates": {
+      "lat": 43.7696,
+      "lng": 11.2558
+    },
     "dateStart": "1350",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Florence"
   },
   {
     "id": "location-rome",
@@ -1692,9 +2390,13 @@
     "locationType": "city",
     "shortDescription": "Seat of the papacy and center of Roman humanism and antiquarian studies",
     "country": "Italy",
-    "coordinates": {"lat": 41.9028, "lng": 12.4964},
+    "coordinates": {
+      "lat": 41.9028,
+      "lng": 12.4964
+    },
     "dateStart": "1420",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Rome"
   },
   {
     "id": "location-venice",
@@ -1703,9 +2405,13 @@
     "locationType": "city",
     "shortDescription": "Major center of humanist printing through the Aldine Press",
     "country": "Italy",
-    "coordinates": {"lat": 45.4408, "lng": 12.3155},
+    "coordinates": {
+      "lat": 45.4408,
+      "lng": 12.3155
+    },
     "dateStart": "1450",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Venice"
   },
   {
     "id": "location-naples",
@@ -1714,9 +2420,13 @@
     "locationType": "city",
     "shortDescription": "Significant humanist center under Aragonese rule with the Accademia Pontaniana",
     "country": "Italy",
-    "coordinates": {"lat": 40.8518, "lng": 14.2681},
+    "coordinates": {
+      "lat": 40.8518,
+      "lng": 14.2681
+    },
     "dateStart": "1440",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "Naples"
   },
   {
     "id": "location-ferrara",
@@ -1725,9 +2435,13 @@
     "locationType": "city",
     "shortDescription": "Site of Guarino's famous humanist school under Este patronage",
     "country": "Italy",
-    "coordinates": {"lat": 44.8381, "lng": 11.6198},
+    "coordinates": {
+      "lat": 44.8381,
+      "lng": 11.6198
+    },
     "dateStart": "1420",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": "Ferrara"
   },
   {
     "id": "location-padua",
@@ -1736,9 +2450,13 @@
     "locationType": "city",
     "shortDescription": "University city known for Aristotelian philosophy and humanist teaching",
     "country": "Italy",
-    "coordinates": {"lat": 45.4064, "lng": 11.8768},
+    "coordinates": {
+      "lat": 45.4064,
+      "lng": 11.8768
+    },
     "dateStart": "1400",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Padua"
   },
   {
     "id": "location-mantua",
@@ -1747,9 +2465,13 @@
     "locationType": "city",
     "shortDescription": "Site of Vittorino da Feltre's Casa Giocosa school under Gonzaga patronage",
     "country": "Italy",
-    "coordinates": {"lat": 45.1564, "lng": 10.7914},
+    "coordinates": {
+      "lat": 45.1564,
+      "lng": 10.7914
+    },
     "dateStart": "1423",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": "Mantua"
   },
   {
     "id": "location-urbino",
@@ -1758,9 +2480,13 @@
     "locationType": "city",
     "shortDescription": "Famous humanist court and setting of Castiglione's Book of the Courtier",
     "country": "Italy",
-    "coordinates": {"lat": 43.7262, "lng": 12.6366},
+    "coordinates": {
+      "lat": 43.7262,
+      "lng": 12.6366
+    },
     "dateStart": "1460",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "Urbino"
   },
   {
     "id": "location-milan",
@@ -1769,9 +2495,13 @@
     "locationType": "city",
     "shortDescription": "Visconti and Sforza court patronage of humanists",
     "country": "Italy",
-    "coordinates": {"lat": 45.4642, "lng": 9.19},
+    "coordinates": {
+      "lat": 45.4642,
+      "lng": 9.19
+    },
     "dateStart": "1440",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "Milan"
   },
   {
     "id": "location-studio-fiorentino",
@@ -1782,7 +2512,8 @@
     "country": "Italy",
     "parentLocation": "location-florence",
     "dateStart": "1321",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": "University_of_Florence"
   },
   {
     "id": "location-university-padua",
@@ -1792,8 +2523,12 @@
     "shortDescription": "Leading European university and center of Aristotelian philosophy",
     "country": "Italy",
     "parentLocation": "location-padua",
-    "coordinates": {"lat": 45.4064, "lng": 11.8768},
-    "dateStart": "1222"
+    "coordinates": {
+      "lat": 45.4064,
+      "lng": 11.8768
+    },
+    "dateStart": "1222",
+    "wikipediaTitle": "University_of_Padua"
   },
   {
     "id": "location-university-bologna",
@@ -1802,8 +2537,12 @@
     "locationType": "university",
     "shortDescription": "Europe's oldest university and center for legal studies",
     "country": "Italy",
-    "coordinates": {"lat": 44.4949, "lng": 11.3426},
-    "dateStart": "1088"
+    "coordinates": {
+      "lat": 44.4949,
+      "lng": 11.3426
+    },
+    "dateStart": "1088",
+    "wikipediaTitle": "University_of_Bologna"
   },
   {
     "id": "location-university-alcala",
@@ -1812,8 +2551,12 @@
     "locationType": "university",
     "shortDescription": "Founded by Cisneros; site of the Complutensian Polyglot Bible project",
     "country": "Spain",
-    "coordinates": {"lat": 40.482, "lng": -3.364},
-    "dateStart": "1508"
+    "coordinates": {
+      "lat": 40.482,
+      "lng": -3.364
+    },
+    "dateStart": "1508",
+    "wikipediaTitle": "University_of_Alcalá"
   },
   {
     "id": "location-university-paris",
@@ -1822,8 +2565,12 @@
     "locationType": "university",
     "shortDescription": "Major European university where French humanists worked",
     "country": "France",
-    "coordinates": {"lat": 48.8499, "lng": 2.3442},
-    "dateStart": "1150"
+    "coordinates": {
+      "lat": 48.8499,
+      "lng": 2.3442
+    },
+    "dateStart": "1150",
+    "wikipediaTitle": "University_of_Paris"
   },
   {
     "id": "location-college-de-france",
@@ -1833,7 +2580,8 @@
     "shortDescription": "Founded at Budé's urging by Francis I as humanist alternative to scholastic university",
     "country": "France",
     "parentLocation": "location-paris",
-    "dateStart": "1530"
+    "dateStart": "1530",
+    "wikipediaTitle": "Collège_de_France"
   },
   {
     "id": "location-university-cambridge",
@@ -1842,9 +2590,13 @@
     "locationType": "university",
     "shortDescription": "English university where Erasmus taught Greek",
     "country": "England",
-    "coordinates": {"lat": 52.2053, "lng": 0.1218},
+    "coordinates": {
+      "lat": 52.2053,
+      "lng": 0.1218
+    },
     "dateStart": "1500",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "University_of_Cambridge"
   },
   {
     "id": "location-university-oxford",
@@ -1853,9 +2605,13 @@
     "locationType": "university",
     "shortDescription": "English university where Colet delivered influential lectures",
     "country": "England",
-    "coordinates": {"lat": 51.752, "lng": -1.2577},
+    "coordinates": {
+      "lat": 51.752,
+      "lng": -1.2577
+    },
     "dateStart": "1490",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "University_of_Oxford"
   },
   {
     "id": "location-university-heidelberg",
@@ -1864,9 +2620,13 @@
     "locationType": "university",
     "shortDescription": "German university where Agricola and Wimpfeling taught",
     "country": "Germany",
-    "coordinates": {"lat": 49.4094, "lng": 8.6947},
+    "coordinates": {
+      "lat": 49.4094,
+      "lng": 8.6947
+    },
     "dateStart": "1480",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "Heidelberg_University"
   },
   {
     "id": "location-university-vienna",
@@ -1875,9 +2635,13 @@
     "locationType": "university",
     "shortDescription": "Site of Celtis's Collegium poetarum with imperial support",
     "country": "Austria",
-    "coordinates": {"lat": 48.2082, "lng": 16.3738},
+    "coordinates": {
+      "lat": 48.2082,
+      "lng": 16.3738
+    },
     "dateStart": "1497",
-    "dateEnd": "1520"
+    "dateEnd": "1520",
+    "wikipediaTitle": "University_of_Vienna"
   },
   {
     "id": "location-st-pauls-school",
@@ -1887,7 +2651,8 @@
     "shortDescription": "Model humanist grammar school founded by John Colet",
     "country": "England",
     "parentLocation": "location-london",
-    "dateStart": "1509"
+    "dateStart": "1509",
+    "wikipediaTitle": "St_Paul%27s_School,_London"
   },
   {
     "id": "location-deventer-school",
@@ -1896,9 +2661,13 @@
     "locationType": "school",
     "shortDescription": "Latin school where Erasmus studied under Hegius",
     "country": "Netherlands",
-    "coordinates": {"lat": 52.2557, "lng": 6.155},
+    "coordinates": {
+      "lat": 52.2557,
+      "lng": 6.155
+    },
     "dateStart": "1470",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": null
   },
   {
     "id": "location-strasbourg-gymnasium",
@@ -1907,8 +2676,12 @@
     "locationType": "school",
     "shortDescription": "Model for Protestant humanist education founded by Johannes Sturm",
     "country": "Germany",
-    "coordinates": {"lat": 48.5734, "lng": 7.7521},
-    "dateStart": "1538"
+    "coordinates": {
+      "lat": 48.5734,
+      "lng": 7.7521
+    },
+    "dateStart": "1538",
+    "wikipediaTitle": null
   },
   {
     "id": "location-selestat-school",
@@ -1917,9 +2690,13 @@
     "locationType": "school",
     "shortDescription": "Latin school where Wimpfeling taught and Beatus Rhenanus studied",
     "country": "Germany",
-    "coordinates": {"lat": 48.2594, "lng": 7.4559},
+    "coordinates": {
+      "lat": 48.2594,
+      "lng": 7.4559
+    },
     "dateStart": "1440",
-    "dateEnd": "1520"
+    "dateEnd": "1520",
+    "wikipediaTitle": null
   },
   {
     "id": "location-aldine-press",
@@ -1930,7 +2707,8 @@
     "country": "Italy",
     "parentLocation": "location-venice",
     "dateStart": "1494",
-    "dateEnd": "1515"
+    "dateEnd": "1515",
+    "wikipediaTitle": "Aldine_Press"
   },
   {
     "id": "location-froben-press",
@@ -1940,9 +2718,13 @@
     "shortDescription": "Leading humanist press north of the Alps that published Erasmus",
     "country": "Switzerland",
     "parentLocation": "location-basel",
-    "coordinates": {"lat": 47.5596, "lng": 7.5886},
+    "coordinates": {
+      "lat": 47.5596,
+      "lng": 7.5886
+    },
     "dateStart": "1491",
-    "dateEnd": "1527"
+    "dateEnd": "1527",
+    "wikipediaTitle": null
   },
   {
     "id": "location-estienne-press",
@@ -1953,7 +2735,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "dateStart": "1502",
-    "dateEnd": "1559"
+    "dateEnd": "1559",
+    "wikipediaTitle": null
   },
   {
     "id": "location-villa-careggi",
@@ -1964,7 +2747,8 @@
     "country": "Italy",
     "parentLocation": "location-florence",
     "dateStart": "1462",
-    "dateEnd": "1492"
+    "dateEnd": "1492",
+    "wikipediaTitle": "Villa_Medici_at_Careggi"
   },
   {
     "id": "location-vatican",
@@ -1975,7 +2759,8 @@
     "country": "Italy",
     "parentLocation": "location-rome",
     "dateStart": "1400",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Holy_See"
   },
   {
     "id": "location-court-francis-i",
@@ -1985,7 +2770,8 @@
     "shortDescription": "French royal court patronizing humanists and founding Collège de France",
     "country": "France",
     "dateStart": "1515",
-    "dateEnd": "1547"
+    "dateEnd": "1547",
+    "wikipediaTitle": null
   },
   {
     "id": "location-english-court",
@@ -1995,7 +2781,8 @@
     "shortDescription": "English royal court patronizing humanists including More and Linacre",
     "country": "England",
     "dateStart": "1509",
-    "dateEnd": "1547"
+    "dateEnd": "1547",
+    "wikipediaTitle": null
   },
   {
     "id": "location-basel",
@@ -2004,9 +2791,13 @@
     "locationType": "city",
     "shortDescription": "Major center of Northern humanist printing where Erasmus lived",
     "country": "Switzerland",
-    "coordinates": {"lat": 47.5596, "lng": 7.5886},
+    "coordinates": {
+      "lat": 47.5596,
+      "lng": 7.5886
+    },
     "dateStart": "1510",
-    "dateEnd": "1540"
+    "dateEnd": "1540",
+    "wikipediaTitle": "Basel"
   },
   {
     "id": "location-nuremberg",
@@ -2015,9 +2806,13 @@
     "locationType": "city",
     "shortDescription": "Major German humanist center led by Pirckheimer",
     "country": "Germany",
-    "coordinates": {"lat": 49.4521, "lng": 11.0767},
+    "coordinates": {
+      "lat": 49.4521,
+      "lng": 11.0767
+    },
     "dateStart": "1490",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "Nuremberg"
   },
   {
     "id": "location-london",
@@ -2026,9 +2821,13 @@
     "locationType": "city",
     "shortDescription": "Center of English humanism with More, Colet, Grocyn, and Linacre",
     "country": "England",
-    "coordinates": {"lat": 51.5072, "lng": -0.1276},
+    "coordinates": {
+      "lat": 51.5072,
+      "lng": -0.1276
+    },
     "dateStart": "1490",
-    "dateEnd": "1535"
+    "dateEnd": "1535",
+    "wikipediaTitle": "London"
   },
   {
     "id": "location-bruges",
@@ -2037,9 +2836,13 @@
     "locationType": "city",
     "shortDescription": "Northern humanist residence where Vives lived",
     "country": "Netherlands",
-    "coordinates": {"lat": 51.2093, "lng": 3.2247},
+    "coordinates": {
+      "lat": 51.2093,
+      "lng": 3.2247
+    },
     "dateStart": "1520",
-    "dateEnd": "1540"
+    "dateEnd": "1540",
+    "wikipediaTitle": "Bruges"
   },
   {
     "id": "location-rotterdam",
@@ -2048,8 +2851,12 @@
     "locationType": "city",
     "shortDescription": "Birthplace of Erasmus",
     "country": "Netherlands",
-    "coordinates": {"lat": 51.9244, "lng": 4.4777},
-    "dateStart": "1466"
+    "coordinates": {
+      "lat": 51.9244,
+      "lng": 4.4777
+    },
+    "dateStart": "1466",
+    "wikipediaTitle": "Rotterdam"
   },
   {
     "id": "location-paris",
@@ -2058,9 +2865,13 @@
     "locationType": "city",
     "shortDescription": "Center of French humanism with the University and Collège de France",
     "country": "France",
-    "coordinates": {"lat": 48.8566, "lng": 2.3522},
+    "coordinates": {
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
     "dateStart": "1450",
-    "dateEnd": "1560"
+    "dateEnd": "1560",
+    "wikipediaTitle": "Paris"
   },
   {
     "id": "entity-platonic-academy",
@@ -2071,7 +2882,11 @@
     "headquarters": "location-villa-careggi",
     "dateStart": "1462",
     "dateEnd": "1494",
-    "foundedBy": ["person-cosimo-de-medici", "person-marsilio-ficino"]
+    "foundedBy": [
+      "person-cosimo-de-medici",
+      "person-marsilio-ficino"
+    ],
+    "wikipediaTitle": "Florentine_Academy"
   },
   {
     "id": "entity-roman-academy",
@@ -2082,7 +2897,10 @@
     "headquarters": "location-rome",
     "dateStart": "1460",
     "dateEnd": "1527",
-    "foundedBy": ["person-pomponio-leto"]
+    "foundedBy": [
+      "person-pomponio-leto"
+    ],
+    "wikipediaTitle": "Roman_Academy"
   },
   {
     "id": "entity-accademia-pontaniana",
@@ -2092,7 +2910,10 @@
     "shortDescription": "Humanist academy in Naples devoted to Latin poetry and literary studies",
     "headquarters": "location-naples",
     "dateStart": "1458",
-    "foundedBy": ["person-giovanni-pontano"]
+    "foundedBy": [
+      "person-giovanni-pontano"
+    ],
+    "wikipediaTitle": "Accademia_Pontaniana"
   },
   {
     "id": "entity-aldine-academy",
@@ -2103,7 +2924,10 @@
     "headquarters": "location-venice",
     "dateStart": "1500",
     "dateEnd": "1515",
-    "foundedBy": ["person-aldo-manuzio"]
+    "foundedBy": [
+      "person-aldo-manuzio"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "entity-collegium-poetarum",
@@ -2114,7 +2938,10 @@
     "headquarters": "location-university-vienna",
     "dateStart": "1497",
     "dateEnd": "1508",
-    "foundedBy": ["person-conrad-celtis"]
+    "foundedBy": [
+      "person-conrad-celtis"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "entity-german-sodalities",
@@ -2124,7 +2951,10 @@
     "shortDescription": "Network of local humanist societies across German-speaking lands",
     "dateStart": "1490",
     "dateEnd": "1520",
-    "foundedBy": ["person-conrad-celtis"]
+    "foundedBy": [
+      "person-conrad-celtis"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "entity-civic-humanism",
@@ -2134,7 +2964,8 @@
     "shortDescription": "Strand of humanism emphasizing active participation in civic life and republican virtue",
     "headquarters": "location-florence",
     "dateStart": "1400",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": "Civic_humanism"
   },
   {
     "id": "entity-renaissance-neoplatonism",
@@ -2144,7 +2975,8 @@
     "shortDescription": "Revival of Platonic philosophy synthesized with Christianity",
     "headquarters": "location-florence",
     "dateStart": "1462",
-    "dateEnd": "1600"
+    "dateEnd": "1600",
+    "wikipediaTitle": "Renaissance_Neoplatonism"
   },
   {
     "id": "entity-northern-humanism",
@@ -2153,7 +2985,8 @@
     "entityType": "intellectual movement",
     "shortDescription": "Humanism emphasizing biblical scholarship, church reform, and practical piety",
     "dateStart": "1480",
-    "dateEnd": "1540"
+    "dateEnd": "1540",
+    "wikipediaTitle": "Christian_humanism"
   },
   {
     "id": "entity-philological-humanism",
@@ -2162,7 +2995,8 @@
     "entityType": "intellectual movement",
     "shortDescription": "Focus on precise textual analysis and critical methods for establishing accurate texts",
     "dateStart": "1400",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-humanist-aristotelianism",
@@ -2172,7 +3006,8 @@
     "shortDescription": "Renaissance philosophy emphasizing Aristotle against scholastic interpretations",
     "headquarters": "location-padua",
     "dateStart": "1450",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Renaissance_Aristotelianism"
   },
   {
     "id": "entity-christian-kabbalah",
@@ -2181,7 +3016,8 @@
     "entityType": "intellectual movement",
     "shortDescription": "Movement incorporating Jewish Kabbalistic mysticism into Christian thought",
     "dateStart": "1486",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": "Christian_Kabbalah"
   },
   {
     "id": "entity-aldine-press",
@@ -2192,7 +3028,10 @@
     "headquarters": "location-venice",
     "dateStart": "1494",
     "dateEnd": "1515",
-    "foundedBy": ["person-aldo-manuzio"]
+    "foundedBy": [
+      "person-aldo-manuzio"
+    ],
+    "wikipediaTitle": "Aldine_Press"
   },
   {
     "id": "entity-froben-press",
@@ -2203,7 +3042,10 @@
     "headquarters": "location-basel",
     "dateStart": "1491",
     "dateEnd": "1527",
-    "foundedBy": ["person-johann-froben"]
+    "foundedBy": [
+      "person-johann-froben"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "entity-estienne-press",
@@ -2214,7 +3056,10 @@
     "headquarters": "location-paris",
     "dateStart": "1502",
     "dateEnd": "1559",
-    "foundedBy": ["person-robert-estienne"]
+    "foundedBy": [
+      "person-robert-estienne"
+    ],
+    "wikipediaTitle": "Estienne_family"
   },
   {
     "id": "entity-casa-giocosa",
@@ -2225,7 +3070,10 @@
     "headquarters": "location-mantua",
     "dateStart": "1423",
     "dateEnd": "1446",
-    "foundedBy": ["person-vittorino-da-feltre"]
+    "foundedBy": [
+      "person-vittorino-da-feltre"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "entity-guarino-school-ferrara",
@@ -2236,7 +3084,10 @@
     "headquarters": "location-ferrara",
     "dateStart": "1429",
     "dateEnd": "1460",
-    "foundedBy": ["person-guarino-da-verona"]
+    "foundedBy": [
+      "person-guarino-da-verona"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "entity-medici-patronage",
@@ -2246,7 +3097,8 @@
     "shortDescription": "Most important patronage network of Italian Renaissance making Florence the cultural center",
     "headquarters": "location-florence",
     "dateStart": "1434",
-    "dateEnd": "1494"
+    "dateEnd": "1494",
+    "wikipediaTitle": "Medici"
   },
   {
     "id": "entity-papal-patronage",
@@ -2256,7 +3108,8 @@
     "shortDescription": "Popes employing humanists as secretaries and librarians",
     "headquarters": "location-vatican",
     "dateStart": "1400",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-french-royal-patronage",
@@ -2266,7 +3119,8 @@
     "shortDescription": "Francis I and Marguerite of Navarre supporting humanist scholarship",
     "headquarters": "location-court-francis-i",
     "dateStart": "1515",
-    "dateEnd": "1550"
+    "dateEnd": "1550",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-este-patronage",
@@ -2276,7 +3130,8 @@
     "shortDescription": "Ferrara court supporting Guarino's school and Greek scholarship",
     "headquarters": "location-ferrara",
     "dateStart": "1420",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": "House_of_Este"
   },
   {
     "id": "entity-aragonese-patronage",
@@ -2286,7 +3141,8 @@
     "shortDescription": "Aragonese kings of Naples patronizing Valla, Pontano, and Sannazaro",
     "headquarters": "location-naples",
     "dateStart": "1442",
-    "dateEnd": "1504"
+    "dateEnd": "1504",
+    "wikipediaTitle": "Kingdom_of_Naples"
   },
   {
     "id": "entity-devotio-moderna",
@@ -2295,6 +3151,7 @@
     "entityType": "religious movement",
     "shortDescription": "Religious reform movement emphasizing personal piety and education that influenced Northern humanism",
     "dateStart": "1380",
-    "dateEnd": "1500"
+    "dateEnd": "1500",
+    "wikipediaTitle": "Devotio_Moderna"
   }
 ]
