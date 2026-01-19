@@ -328,15 +328,17 @@ function FilterPanel({
             </div>
           </div>
 
-          {/* Relationship Types Section */}
+          {/* Relationship Types Section - uses dropdown variant for compact display */}
           {relationshipTypeOptions.length > 0 && (
-            <div className="filter-panel__section">
+            <div className="filter-panel__section filter-panel__section--dropdown">
               <CheckboxFilterGroup
                 label="Relationship Types"
                 options={relationshipTypeOptions}
                 selected={filters.relationshipTypes}
                 onChange={handleRelationshipTypesChange}
                 showSelectAll={true}
+                variant="dropdown"
+                maxHeight={250}
               />
             </div>
           )}
