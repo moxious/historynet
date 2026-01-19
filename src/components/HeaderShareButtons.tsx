@@ -75,7 +75,7 @@ function HeaderShareButtons() {
         type="button"
       >
         <span className="header-share-buttons__emoji" role="img" aria-hidden="true">
-          {shareFeedback ? '✅' : '↗'}
+          {shareFeedback ? '✅' : 'Share'}
         </span>
       </button>
     </div>

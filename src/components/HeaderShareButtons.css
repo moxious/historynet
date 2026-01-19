@@ -11,9 +11,10 @@
 }
 
 .header-share-buttons__button {
-  /* 44px touch target for accessibility */
-  width: 44px;
+  /* 44px min touch target for accessibility */
+  min-width: 44px;
   height: 44px;
+  padding: 0 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,20 +57,23 @@
   }
 }
 
-/* Emoji styling */
+/* Emoji/text styling */
 .header-share-buttons__emoji {
-  font-size: 18px;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 1;
+  white-space: nowrap;
 }
 
 /* Desktop-specific adjustments - slightly smaller buttons */
 @media (min-width: 640px) {
   .header-share-buttons__button {
-    width: 36px;
+    min-width: 36px;
     height: 36px;
+    padding: 0 10px;
   }
 
   .header-share-buttons__emoji {
-    font-size: 16px;
+    font-size: 13px;
   }
 }

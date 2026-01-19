@@ -6,7 +6,7 @@ import { useEffect, useRef, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
-import { getNodeColor, getEdgeColor } from '@utils';
+import { getNodeColor, getEdgeColor, getNodeTypeEmoji } from '@utils';
 import './ForceGraphLayout.css';
 
 /**
@@ -39,53 +39,8 @@ interface SimulationLink extends d3.SimulationLinkDatum<SimulationNode> {
   evidence?: string;
 }
 
-/**
- * Get node shape path based on type
- * Returns a path string for the shape centered at (0, 0)
- */
-function getNodeShape(type: NodeType, size: number): string {
-  const r = size / 2;
-  switch (type) {
-    case 'person':
-      // Circle - approximated with path for consistency
-      return `M 0 ${-r} A ${r} ${r} 0 1 1 0 ${r} A ${r} ${r} 0 1 1 0 ${-r}`;
-    case 'object': {
-      // Rounded square
-      const s = r * 0.85;
-      const corner = s * 0.2;
-      return `M ${-s + corner} ${-s}
-              L ${s - corner} ${-s}
-              Q ${s} ${-s} ${s} ${-s + corner}
-              L ${s} ${s - corner}
-              Q ${s} ${s} ${s - corner} ${s}
-              L ${-s + corner} ${s}
-              Q ${-s} ${s} ${-s} ${s - corner}
-              L ${-s} ${-s + corner}
-              Q ${-s} ${-s} ${-s + corner} ${-s}
-              Z`;
-    }
-    case 'location': {
-      // Diamond
-      const d = r;
-      return `M 0 ${-d} L ${d} 0 L 0 ${d} L ${-d} 0 Z`;
-    }
-    case 'entity': {
-      // Hexagon
-      const h = r * 0.9;
-      const hw = h * 0.866; // cos(30°)
-      const hh = h * 0.5; // sin(30°)
-      return `M 0 ${-h}
-              L ${hw} ${-hh}
-              L ${hw} ${hh}
-              L 0 ${h}
-              L ${-hw} ${hh}
-              L ${-hw} ${-hh}
-              Z`;
-    }
-    default:
-      return `M 0 ${-r} A ${r} ${r} 0 1 1 0 ${r} A ${r} ${r} 0 1 1 0 ${-r}`;
-  }
-}
+// Node size constants
+const NODE_RADIUS = 20; // Radius of the circular node background
 
 const NODE_SIZE = 40;
 const ZOOM_MIN = 0.1;
@@ -270,19 +225,30 @@ export function ForceGraphLayout({
         }
       });
 
-    // Add node shapes
+    // Add node backgrounds and emoji
     // Get theme-aware colors from CSS custom properties
     const computedStyle = getComputedStyle(document.documentElement);
-    const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
     const graphTextColor = computedStyle.getPropertyValue('--color-graph-text').trim() || '#374151';
 
+    // Add circular background for each node
     nodeElements
-      .append('path')
-      .attr('d', (d) => getNodeShape(d.type, NODE_SIZE))
+      .append('circle')
+      .attr('r', NODE_RADIUS)
       .attr('fill', (d) => getNodeColor(d.type))
-      .attr('stroke', nodeStrokeColor)
+      .attr('fill-opacity', 0.2)
+      .attr('stroke', (d) => getNodeColor(d.type))
       .attr('stroke-width', 2)
-      .attr('class', 'node-shape');
+      .attr('class', 'node-background');
+
+    // Add emoji text for each node
+    nodeElements
+      .append('text')
+      .attr('class', 'node-emoji')
+      .attr('text-anchor', 'middle')
+      .attr('dominant-baseline', 'central')
+      .attr('font-size', '16px')
+      .attr('pointer-events', 'none')
+      .text((d) => getNodeTypeEmoji(d.type));
 
     // Create labels
     const labels = labelGroup
@@ -342,20 +308,15 @@ export function ForceGraphLayout({
 
     const svg = d3.select(svgRef.current);
 
-    // Get theme-aware colors from CSS custom properties
-    const computedStyle = getComputedStyle(document.documentElement);
-    const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
-    const selectedStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke-selected').trim() || '#1e293b';
-
     // Update node selection state
     svg.selectAll('.graph-node').each(function () {
       const el = d3.select(this);
       const nodeId = el.attr('data-id');
       const isSelected = nodeId === selectedNodeId;
 
-      el.select('.node-shape')
-        .attr('stroke', isSelected ? selectedStrokeColor : nodeStrokeColor)
-        .attr('stroke-width', isSelected ? 3 : 2);
+      el.select('.node-background')
+        .attr('stroke-width', isSelected ? 3 : 2)
+        .attr('fill-opacity', isSelected ? 0.4 : 0.2);
 
       el.classed('selected', isSelected);
     });
@@ -385,7 +346,7 @@ export function ForceGraphLayout({
       const isMatch = term && d.title.toLowerCase().includes(term);
 
       el.classed('search-match', !!isMatch);
-      el.select('.node-shape').attr('filter', isMatch ? 'url(#glow)' : null);
+      el.select('.node-background').attr('filter', isMatch ? 'url(#glow)' : null);
     });
 
     // Dim non-matching elements when searching
@@ -474,34 +435,6 @@ export function ForceGraphLayout({
         </button>
       </div>
 
-      {/* Legend */}
-      <div className="force-graph-layout__legend">
-        <div className="force-graph-layout__legend-title">Node Types</div>
-        <div className="force-graph-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="7" fill="#3b82f6" stroke="#fff" strokeWidth="1" />
-          </svg>
-          <span>Person</span>
-        </div>
-        <div className="force-graph-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <rect x="-6" y="-6" width="12" height="12" rx="2" fill="#10b981" stroke="#fff" strokeWidth="1" />
-          </svg>
-          <span>Object</span>
-        </div>
-        <div className="force-graph-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <path d="M 0 -7 L 7 0 L 0 7 L -7 0 Z" fill="#f59e0b" stroke="#fff" strokeWidth="1" />
-          </svg>
-          <span>Location</span>
-        </div>
-        <div className="force-graph-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <path d="M 0 -7 L 6 -3.5 L 6 3.5 L 0 7 L -6 3.5 L -6 -3.5 Z" fill="#8b5cf6" stroke="#fff" strokeWidth="1" />
-          </svg>
-          <span>Entity</span>
-        </div>
-      </div>
     </div>
   );
 }

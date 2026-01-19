@@ -12,7 +12,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import type { GraphNode, GraphData, DatasetManifest } from '@types';
 import { isPersonNode, isObjectNode, isLocationNode, isEntityNode } from '@types';
 import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
-import { sanitizeUrl, isValidImageUrl } from '@utils';
+import { sanitizeUrl, isValidImageUrl, getNodeTypeEmoji } from '@utils';
 import { useResourceParams, buildFullNodeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
 import { useNodeEnrichedData } from '@hooks';
 import ResourceMeta from '@components/ResourceMeta';
@@ -47,24 +47,6 @@ function formatDate(date: string | undefined): string {
  */
 function getTypeBadgeClass(type: string): string {
   return `resource-detail__type-badge resource-detail__type-badge--${type}`;
-}
-
-/**
- * Get fallback emoji for node type when no image is available
- */
-function getNodeTypeEmoji(type: string): string {
-  switch (type) {
-    case 'person':
-      return '👤';
-    case 'object':
-      return '📜';
-    case 'location':
-      return '📍';
-    case 'entity':
-      return '🏛️';
-    default:
-      return '📄';
-  }
 }
 
 function NodeDetailPage() {

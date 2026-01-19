@@ -41,28 +41,32 @@
   transition: opacity 0.2s;
 }
 
-.radial-node .node-shape {
-  transition: stroke 0.15s, stroke-width 0.15s, filter 0.2s, transform 0.15s;
+.radial-node .node-background {
+  transition: fill-opacity 0.15s, stroke 0.15s, stroke-width 0.15s, filter 0.2s, transform 0.15s;
 }
 
-.radial-node:hover .node-shape {
-  stroke: var(--color-graph-node-stroke-selected);
+.radial-node:hover .node-background {
+  fill-opacity: 0.35;
   stroke-width: 3;
   filter: brightness(1.1);
 }
 
-.radial-node--center .node-shape {
+.radial-node--center .node-background {
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
 }
 
-.radial-node.selected .node-shape {
-  stroke: var(--color-graph-node-stroke-selected);
+.radial-node.selected .node-background {
+  fill-opacity: 0.4;
   stroke-width: 4;
 }
 
-.radial-node.search-match .node-shape {
+.radial-node.search-match .node-background {
   stroke: var(--color-search-highlight);
   stroke-width: 3;
+}
+
+.radial-node .node-emoji {
+  user-select: none;
 }
 
 /* Labels */
@@ -163,40 +167,6 @@
   color: var(--color-text-muted, #6b7280);
 }
 
-/* Legend */
-.radial-layout__legend {
-  position: absolute;
-  bottom: var(--spacing-md, 16px);
-  left: var(--spacing-md, 16px);
-  padding: var(--spacing-sm, 8px) var(--spacing-md, 12px);
-  background-color: var(--color-surface, #fff);
-  border: 1px solid var(--color-border, #e5e7eb);
-  border-radius: var(--border-radius, 6px);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  font-size: var(--font-size-xs, 11px);
-}
-
-.radial-layout__legend-title {
-  font-weight: 600;
-  margin-bottom: var(--spacing-xs, 4px);
-  color: var(--color-text-muted, #6b7280);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.radial-layout__legend-item {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xs, 6px);
-  padding: 2px 0;
-  color: var(--color-text, #1f2937);
-}
-
-.radial-layout__legend-item svg {
-  flex-shrink: 0;
-}
-
 /* Empty State */
 .radial-layout__empty-state {
   display: flex;
@@ -236,14 +206,6 @@
     padding: var(--spacing-xs, 6px) var(--spacing-sm, 10px);
   }
 
-  .radial-layout__legend {
-    bottom: auto;
-    top: var(--spacing-sm, 8px);
-    left: auto;
-    right: calc(var(--spacing-sm, 8px) + 44px + var(--spacing-sm, 8px));
-    font-size: 10px;
-  }
-
   .radial-layout__controls {
     flex-direction: row;
     top: auto;
@@ -259,10 +221,6 @@
 }
 
 @media (max-width: 480px) {
-  .radial-layout__legend {
-    display: none;
-  }
-
   .radial-layout__info {
     max-width: calc(100% - 60px);
   }

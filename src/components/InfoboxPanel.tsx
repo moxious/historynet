@@ -13,6 +13,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useGraph } from '@contexts';
+import { getNodeTypeEmoji } from '@utils';
 import type { GraphNode, GraphEdge } from '@types';
 import NodeInfobox from './NodeInfobox';
 import EdgeInfobox from './EdgeInfobox';
@@ -34,24 +35,6 @@ function isNode(item: GraphNode | GraphEdge): item is GraphNode {
  */
 function isEdge(item: GraphNode | GraphEdge): item is GraphEdge {
   return 'relationship' in item && 'source' in item && 'target' in item;
-}
-
-/**
- * Get emoji for node type
- */
-function getNodeTypeEmoji(type: string): string {
-  switch (type) {
-    case 'person':
-      return '👤';
-    case 'object':
-      return '📜';
-    case 'location':
-      return '📍';
-    case 'entity':
-      return '🏛️';
-    default:
-      return '📄';
-  }
 }
 
 interface InfoboxPanelProps {

@@ -29,7 +29,7 @@ export {
   getRelationshipTypeCounts,
 } from './filterGraph';
 
-export { getNodeColor, getEdgeColor } from './graphColors';
+export { getNodeColor, getEdgeColor, getNodeTypeEmoji } from './graphColors';
 
 export {
   detectSegments,

@@ -183,6 +183,8 @@
   border: 1px solid var(--border-color);
   border-radius: 12px;
   padding: 1rem;
+  min-width: 0; /* Allow column to shrink below content size in grid */
+  overflow: hidden; /* Ensure content doesn't overflow column */
 }
 
 .dataset-overview__pole-header {
@@ -214,6 +216,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  min-width: 0; /* Allow flex items to shrink for text truncation */
 }
 
 .dataset-overview__pole-link {

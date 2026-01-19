@@ -159,15 +159,23 @@
   transition: opacity 0.2s;
 }
 
-.timeline-undated-event:hover .timeline-event-marker {
-  stroke: var(--color-graph-node-stroke-selected);
+.timeline-undated-background {
+  transition: fill-opacity 0.15s, stroke 0.15s, stroke-width 0.15s, filter 0.2s;
+}
+
+.timeline-undated-event:hover .timeline-undated-background {
+  fill-opacity: 0.35;
   stroke-width: 3;
   filter: brightness(1.1);
 }
 
-.timeline-undated-event.selected .timeline-event-marker {
-  stroke: var(--color-graph-node-stroke-selected);
+.timeline-undated-event.selected .timeline-undated-background {
+  fill-opacity: 0.4;
   stroke-width: 3;
+}
+
+.timeline-undated-emoji {
+  user-select: none;
 }
 
 .timeline-undated-node-label {
@@ -238,40 +246,6 @@
   outline-offset: 2px;
 }
 
-/* Legend */
-.timeline-layout__legend {
-  position: absolute;
-  bottom: var(--spacing-md, 16px);
-  left: var(--spacing-md, 16px);
-  padding: var(--spacing-sm, 8px) var(--spacing-md, 12px);
-  background-color: var(--color-surface, #fff);
-  border: 1px solid var(--color-border, #e5e7eb);
-  border-radius: var(--border-radius, 6px);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  font-size: var(--font-size-xs, 11px);
-}
-
-.timeline-layout__legend-title {
-  font-weight: 600;
-  margin-bottom: var(--spacing-xs, 4px);
-  color: var(--color-text-muted, #6b7280);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.timeline-layout__legend-item {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-xs, 6px);
-  padding: 2px 0;
-  color: var(--color-text, #1f2937);
-}
-
-.timeline-layout__legend-item svg {
-  flex-shrink: 0;
-}
-
 /* Zoom indicator */
 .timeline-layout__zoom-indicator {
   position: absolute;
@@ -291,13 +265,6 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .timeline-layout__legend {
-    bottom: auto;
-    top: var(--spacing-md, 16px);
-    left: var(--spacing-md, 16px);
-    font-size: 10px;
-  }
-
   .timeline-layout__controls {
     flex-direction: row;
     top: auto;
@@ -322,8 +289,7 @@
 
 /* Print styles */
 @media print {
-  .timeline-layout__controls,
-  .timeline-layout__legend {
+  .timeline-layout__controls {
     display: none;
   }
 }

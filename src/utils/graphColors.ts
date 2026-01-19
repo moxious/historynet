@@ -8,6 +8,25 @@
 import type { NodeType } from '@types';
 
 /**
+ * Get emoji character for a node type
+ * Used for visual representation of node types in graph layouts and info panels
+ */
+export function getNodeTypeEmoji(type: NodeType | string): string {
+  switch (type) {
+    case 'person':
+      return '👤';
+    case 'object':
+      return '📜';
+    case 'location':
+      return '📍';
+    case 'entity':
+      return '🏛️';
+    default:
+      return '📄';
+  }
+}
+
+/**
  * Get node color based on type
  */
 export function getNodeColor(type: NodeType): string {

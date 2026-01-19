@@ -9,7 +9,7 @@ import * as d3 from 'd3';
 import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
 import { isPersonNode } from '@types';
-import { getNodeColor, getEdgeColor, parseYear, createSegmentedScale, getTickGranularity, generateTicks } from '@utils';
+import { getNodeColor, getEdgeColor, getNodeTypeEmoji, parseYear, createSegmentedScale, getTickGranularity, generateTicks } from '@utils';
 import type { SegmentedScale, TickGranularity } from '@utils';
 import './TimelineLayout.css';
 
@@ -732,19 +732,32 @@ export function TimelineLayout({
           }
         });
 
+      // Add circular background for undated nodes
       undatedElements
         .append('circle')
-        .attr('class', 'timeline-event-marker')
-        .attr('r', EVENT_MARKER_SIZE / 2)
+        .attr('class', 'timeline-undated-background')
+        .attr('r', 16)
         .attr('fill', (d) => getNodeColor(d.type))
-        .attr('stroke', nodeStrokeColor)
+        .attr('fill-opacity', 0.2)
+        .attr('stroke', (d) => getNodeColor(d.type))
         .attr('stroke-width', 2);
 
+      // Add emoji for undated nodes
+      undatedElements
+        .append('text')
+        .attr('class', 'timeline-undated-emoji')
+        .attr('text-anchor', 'middle')
+        .attr('dominant-baseline', 'central')
+        .attr('font-size', '14px')
+        .attr('pointer-events', 'none')
+        .text((d) => getNodeTypeEmoji(d.type));
+
+      // Add label below the emoji node
       undatedElements
         .append('text')
         .attr('class', 'timeline-undated-node-label')
         .attr('x', 0)
-        .attr('y', 20)
+        .attr('y', 28)
         .attr('text-anchor', 'middle')
         .attr('font-size', '10px')
         .attr('fill', graphTextColor)
@@ -910,9 +923,9 @@ export function TimelineLayout({
       const nodeId = el.attr('data-node-id');
       const isSelected = nodeId === selectedNodeId;
 
-      el.select('.timeline-event-marker')
-        .attr('stroke', isSelected ? selectedStrokeColor : nodeStrokeColor)
-        .attr('stroke-width', isSelected ? 3 : 2);
+      el.select('.timeline-undated-background')
+        .attr('stroke-width', isSelected ? 3 : 2)
+        .attr('fill-opacity', isSelected ? 0.4 : 0.2);
 
       el.classed('selected', isSelected);
     });
@@ -1073,40 +1086,6 @@ export function TimelineLayout({
         {currentZoomScale.toFixed(1)}x &middot; {currentGranularity}s
       </div>
 
-      {/* Legend - Event types and node colors */}
-      <div className="timeline-layout__legend">
-        <div className="timeline-layout__legend-title">Event Types</div>
-        <div className="timeline-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="5" fill="#3b82f6" stroke="#fff" strokeWidth="2" />
-          </svg>
-          <span>Birth (Person)</span>
-        </div>
-        <div className="timeline-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="5" fill="#fff" stroke="#3b82f6" strokeWidth="3" />
-          </svg>
-          <span>Death (Person)</span>
-        </div>
-        <div className="timeline-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="5" fill="#10b981" stroke="#fff" strokeWidth="2" />
-          </svg>
-          <span>Created (Object)</span>
-        </div>
-        <div className="timeline-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="5" fill="#f59e0b" stroke="#fff" strokeWidth="2" />
-          </svg>
-          <span>Founded (Location)</span>
-        </div>
-        <div className="timeline-layout__legend-item">
-          <svg width="16" height="16" viewBox="-10 -10 20 20">
-            <circle r="5" fill="#8b5cf6" stroke="#fff" strokeWidth="2" />
-          </svg>
-          <span>Founded (Entity)</span>
-        </div>
-      </div>
     </div>
   );
 }
