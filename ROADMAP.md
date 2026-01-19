@@ -13,21 +13,21 @@ This document outlines the milestone structure and future direction for HistoryN
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
 | M21 | Dataset Search & Filter | ✅ Complete |
 | M23 | Wikimedia Sourcing | ✅ Complete |
-| M28 | Wikipedia ID Enrichment CLI | 🔲 Ready |
 | M24 | Vercel Migration | 🔲 Future |
 | M25 | User Feedback Feature | 🔲 Future (depends on M24) |
 | M26 | Custom Domain | 🔲 Future (depends on M24) |
 | M27 | Feedback Spam Protection | 🔲 Future (depends on M25) |
-| M22 | Image Asset Management | 🔲 Optional (deferred) |
+| M29 | Cross-Scene Node Index API | 🔲 Future (depends on M24) |
+| M30 | Cross-Scene Navigation UI | 🔲 Future (depends on M29) |
 
 **Two Parallel Tracks:**
 
 | Track | Milestones | Prerequisites |
 |-------|------------|---------------|
-| **A: Independent Features** | M21, M23, M28, M22 (optional) | None - can start immediately |
-| **B: Infrastructure & Backend** | M24 → M25 → M27, M24 → M26 | M24 is foundation for rest |
+| **A: Independent Features** | M21, M23 | None - can start immediately |
+| **B: Infrastructure & Backend** | M24 → M25 → M27, M24 → M26, M24 → M29 → M30 | M24 is foundation for rest |
 
-> **Note**: Track A milestones have no dependencies and can be executed in any order. M28 builds on M23's Wikipedia service but operates as a standalone CLI. M22 is optional—M23 (Wikimedia Sourcing) may eliminate the need for local image hosting. Track B milestones have dependencies as shown.
+> **Note**: Track A milestones have no dependencies and can be executed in any order. Track B milestones have dependencies as shown.
 
 ---
 
@@ -167,56 +167,6 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 
 ---
 
-## M28 - Wikipedia ID Enrichment CLI
-
-**Goal**: Create a build-time CLI tool that enriches dataset nodes with Wikipedia identifiers (`wikipediaTitle` and `wikidataId`), ensuring all nodes have both fields populated when Wikipedia coverage exists.
-
-**Track**: A (Independent Features) - No dependencies (leverages M23 Wikipedia service patterns)
-
-**Status**: 🔲 Ready to start
-
-**Problem**: Dataset nodes have inconsistent Wikipedia coverage:
-- Some nodes have both `wikipediaTitle` and `wikidataId` (ideal)
-- Some nodes have only `wikipediaTitle` (missing stable QID)
-- Some nodes have only `wikidataId` (missing title for enrichment)
-- Some nodes have neither field (unenriched)
-
-Manually auditing and enriching hundreds of nodes is tedious and error-prone. A CLI tool can automate this process.
-
-### Acceptance Criteria
-
-| Criterion | Description |
-|-----------|-------------|
-| **Both identifiers populated** | After enrichment, nodes have both `wikipediaTitle` and `wikidataId` when Wikipedia coverage exists |
-| **No other properties touched** | Only `wikipediaTitle` and `wikidataId` fields are modified; all other node properties remain unchanged |
-| **No nodes added or removed** | Node count before and after enrichment is identical |
-| **Explicit nulls for missing** | Set `wikipediaTitle: null` and `wikidataId: null` when reasonably certain no Wikipedia article exists |
-| **Dry-run by default** | Tool shows proposed changes without writing unless `--write` flag is used |
-| **Rate limit compliance** | Respects Wikipedia API rate limits (500 req/hour) with configurable delays |
-
-### Technical Approach
-
-| Scenario | Lookup Method |
-|----------|---------------|
-| Has `wikipediaTitle`, missing `wikidataId` | Fetch Wikipedia summary → extract `wikibase_item` from response |
-| Has `wikidataId`, missing `wikipediaTitle` | Fetch from Wikidata API → extract English Wikipedia sitelink |
-| Missing both | Optional: search by node `title` (requires `--search` flag due to disambiguation risks) |
-
-**Key Deliverables**:
-- CLI tool at `scripts/enrich-wikipedia/` following existing `validate-datasets` patterns
-- npm script `enrich:wikipedia` for easy invocation
-- Dry-run mode (default) showing proposed changes
-- Write mode (`--write`) to update `nodes.json` files
-- Rate limiting with configurable delay between API calls
-- JSON output mode for scripting/CI integration
-- Per-dataset targeting (`--dataset <id>`)
-
-**Relationship to M23**: This milestone complements M23 (Wikimedia Sourcing). M23 provides runtime enrichment in the browser; M28 provides build-time enrichment to ensure datasets have complete Wikipedia mappings before deployment.
-
-See `PROGRESS.md` for detailed task breakdown.
-
----
-
 ## Future: M24 - Vercel Migration
 
 **Goal**: Migrate deployment from GitHub Pages to Vercel to enable serverless API functions. Keep GitHub Pages as a backup deployment.
@@ -301,27 +251,174 @@ See `PROGRESS.md` for detailed task breakdown.
 
 ---
 
-## Optional: M22 - Image Asset Management
+## Future: M29 - Cross-Scene Node Index API
 
-**Goal**: Fix broken image URLs in datasets by auditing, downloading, and hosting images in a stable location. Currently, many `imageUrl` fields link to Wikimedia Commons thumbnails that have been updated/renamed, returning 404 errors.
+**Goal**: Create a build-time index and serverless API endpoint that, given a node's identity (via `wikidataId` or `wikipediaTitle`), returns all datasets containing that entity along with navigation metadata.
 
-**Track**: A (Independent Features) - No dependencies
+**Track**: B (Infrastructure & Backend) - Depends on M24 (Vercel Migration)
 
-**Why Optional**: M23 (Wikimedia Sourcing) dynamically fetches images from Wikipedia, which may eliminate the need for local image hosting. If Wikimedia Sourcing proves reliable, this milestone can be skipped entirely.
+**Problem**: As the number of datasets grows, users have no way to discover that a figure like Marsilio Ficino appears in multiple scenes (Florentine Academy, Christian Kabbalah, Renaissance Humanism). This milestone enables cross-scene discovery and navigation.
 
-**Problem**: Wikipedia/Wikimedia images change frequently as editors update articles. URLs captured at dataset creation time become broken when images are replaced, renamed, or reorganized.
+### Architecture Decisions
 
-**Key Deliverables**:
-- Audit script to identify all broken `imageUrl` links across datasets
-- Download and organize valid images to a stable hosting location (local `public/images/` or cloud storage bucket TBD)
-- Update all `imageUrl` fields in dataset JSON files to point to hosted images
-- Document image attribution/licensing for Wikimedia-sourced images
+| Decision | Choice | Rationale |
+|----------|--------|-----------|
+| Index timing | Build-time generation | Avoids runtime overhead, predictable performance |
+| Index storage | Sharded by `wikidataId` prefix | Keeps per-query memory low, scales to many datasets |
+| Join key | `wikidataId` (primary), `wikipediaTitle` (fallback) | Wikidata QIDs are stable identifiers |
+| Build memory | Stream datasets one at a time | Scales to hundreds of datasets without memory issues |
 
-**Architecture Decision (TBD)**: 
-- **Option A**: Host in `public/images/{dataset}/{node-id}.jpg` (simple, versioned with code)
-- **Option B**: Cloud storage bucket (S3, GCS, Cloudflare R2) with stable URLs
+### Why Sharding?
 
-**Status**: Deferred. M23 (Wikimedia Sourcing) may obviate this milestone. Full task breakdown in `PROGRESS.md` if needed.
+With a "database" of potentially hundreds of JSON dataset files, we must avoid:
+- Loading all datasets into memory to build an index
+- Loading the entire index into memory to answer one query
+
+**Sharded approach**: Index files are split by wikidataId range (e.g., `Q0-Q99999.json`, `Q100000-Q199999.json`). A query for `Q154781` loads only the relevant shard.
+
+### API Design
+
+**Endpoint**: `GET /api/node-scenes`
+
+**Query Parameters** (at least one required):
+- `?wikidataId=Q154781` — Primary lookup
+- `?wikipediaTitle=Marsilio_Ficino` — Fallback lookup
+- `?nodeId=person-ficino&dataset=florentine-academy` — Resolve from specific node
+
+**Response**:
+```json
+{
+  "identity": {
+    "wikidataId": "Q154781",
+    "wikipediaTitle": "Marsilio_Ficino",
+    "canonicalTitle": "Marsilio Ficino"
+  },
+  "appearances": [
+    {
+      "datasetId": "florentine-academy",
+      "datasetName": "Florentine Academy",
+      "nodeId": "person-marsilio-ficino",
+      "nodeTitle": "Marsilio Ficino"
+    },
+    {
+      "datasetId": "christian-kabbalah",
+      "datasetName": "Christian Kabbalah",
+      "nodeId": "person-ficino",
+      "nodeTitle": "Marsilio Ficino"
+    }
+  ],
+  "totalAppearances": 2
+}
+```
+
+### Key Deliverables
+
+1. **Index build script**: `scripts/build-cross-scene-index/`
+   - Streams through datasets one at a time (memory efficient)
+   - Generates sharded index files by wikidataId prefix
+   - npm script: `npm run build:cross-scene-index`
+
+2. **Index output**: `public/cross-scene-index/`
+   - `manifest.json` — shard list and metadata
+   - `Q{start}-Q{end}.json` — sharded index files
+
+3. **Serverless endpoint**: `/api/node-scenes`
+   - Accepts `?wikidataId=`, `?wikipediaTitle=`, or `?nodeId=&dataset=`
+   - Loads only the relevant shard
+   - Returns appearances array
+
+4. **CI integration**: Index rebuilt on every deployment
+
+5. **Fallback lookup**: If `?wikipediaTitle=` provided, search for matching title
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
+## Future: M30 - Cross-Scene Navigation UI
+
+**Goal**: Surface cross-scene relationships in the user interface, enabling discovery and navigation between scenes where the same entity appears.
+
+**Track**: B (Infrastructure & Backend) - Depends on M29 (Cross-Scene API)
+
+**Problem**: Even with the API from M29, users have no visual indication that a node appears in multiple scenes, and no way to navigate between them.
+
+### Design Decisions
+
+| Decision | Choice | Rationale |
+|----------|--------|-----------|
+| Filter behavior | Clear all filters on cross-scene navigation | Filters are dataset-specific |
+| Visual indicator | Extra ring around multi-scene nodes | Subtle, uses existing color scheme |
+| Conflicting data | Defer to target dataset | Consistency, simplicity |
+| "Explore connections" | Out of scope | MVP focus |
+
+### UI Components
+
+**1. Infobox "Related Scenes" Section**
+
+When viewing a node that appears in multiple datasets:
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📍 Also appears in:
+
+  Florentine Academy      →
+  Christian Kabbalah      →
+  Renaissance Humanism    →
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+Each item is a link that navigates to that node in the other dataset, preserving the user's current layout preference but clearing filters.
+
+**2. Graph Node Indicator**
+
+Nodes that appear in multiple scenes have a visual indicator:
+- Extra outer ring around the node shape
+- Same color as the node's type color
+- Tooltip on hover: "Appears in N scenes"
+
+### Cross-Scene Link Construction
+
+Links preserve user preferences while navigating:
+
+```
+Current URL:
+  /#/?dataset=ai-llm-research&selected=person-hinton&type=node&layout=radial
+
+Cross-scene link:
+  /#/?dataset=cybernetics&selected=person-hinton-cyb&type=node&layout=radial
+       ↑ Different dataset    ↑ Different nodeId           ↑ Same layout
+```
+
+**Preserved**: layout, theme  
+**Cleared**: all filters (they're dataset-specific)
+
+### Key Deliverables
+
+1. **`useCrossSceneAppearances` hook**
+   - Fetches from `/api/node-scenes` when node has `wikidataId`
+   - Caches results to avoid redundant fetches
+   - Returns `{ appearances, isLoading, isMultiScene }`
+
+2. **`CrossSceneLinks` component**
+   - Renders "Also appears in:" section in infobox
+   - Only shows when `appearances.length > 1`
+   - Excludes current dataset from list
+
+3. **Link construction utility**: `buildCrossSceneUrl(targetDatasetId, nodeId, currentLayout)`
+
+4. **Multi-scene node indicator in graph**
+   - Additional outer ring on nodes with multiple appearances
+   - Same color as node's type color
+   - Implementation in `ForceGraphLayout.tsx` and `RadialLayout.tsx`
+
+5. **Infobox integration**
+   - Add `CrossSceneLinks` section to `NodeInfobox.tsx`
+   - Position after main content, before external links
+
+6. **Loading/empty states**: Graceful handling when node has no cross-scene appearances
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
 
 ---
 
@@ -347,42 +444,39 @@ These are potential features that may become milestones:
 ```
 M1-M20 (Core Application Complete) ✅
     │
-    ├───────────────────────────────────────────────────────────────────┐
-    │                                                                   │
-    │  TRACK A: Independent Features                                    │  TRACK B: Infrastructure
-    │  (No dependencies, can parallelize)                               │  (Sequential dependencies)
-    │                                                                   │
-    ├──────────────┬────────────────┬───────────────┐                   │
-    ▼              ▼                ▼               │                   ▼
-   M21            M23              M28              │                  M24
-   (Dataset      (Wikimedia       (Wiki ID         │                 (Vercel)
-   Search) ✅    Sourcing) ✅     Enrich CLI)      │                   │
-                                                   │                   ├──────────────┐
-                                   M22             │                   ▼              ▼
-                                  (Image           │                  M25            M26
-                                  Mgmt)            │               (Feedback)    (Domain)
-                                 [OPTIONAL]        │                   │
-                                                   │                   ▼
-                                                   │                  M27
-                                                   │               (Spam Prot.)
-                                                   │
+    ├───────────────────────────────────────────┐
+    │                                           │
+    │  TRACK A: Independent Features            │  TRACK B: Infrastructure
+    │  (Complete)                               │  (Sequential dependencies)
+    │                                           │
+    ├──────────────┬────────────────┐           │
+    ▼              ▼                │           ▼
+   M21            M23               │          M24
+   (Dataset      (Wikimedia        │         (Vercel)
+   Search) ✅    Sourcing) ✅      │            │
+                                   │            ├──────────────┬──────────────┐
+                                   │            ▼              ▼              ▼
+                                   │           M25            M26            M29
+                                   │        (Feedback)     (Domain)      (Cross-
+                                   │            │                        Scene API)
+                                   │            ▼                            │
+                                   │           M27                           ▼
+                                   │        (Spam Prot.)                   M30
+                                   │                                    (Cross-
+                                   │                                    Scene UI)
 ```
 
-**Track A - Independent Features** (can execute in any order):
+**Track A - Independent Features** (complete):
 - **M21 (Dataset Search)**: ✅ Complete. Searchable combobox for faster dataset discovery.
 - **M23 (Wikimedia Sourcing)**: ✅ Complete. Dynamic runtime enrichment from Wikipedia API.
-- **M28 (Wikipedia ID Enrichment CLI)**: Build-time CLI to ensure all nodes have both `wikipediaTitle` and `wikidataId`.
-- **M22 (Image Asset Management)**: Optional. Hosts images locally—may be unnecessary if M23 works well.
-
-> **M23 & M28 Relationship**: M23 provides runtime enrichment in the browser. M28 complements this by ensuring datasets have complete Wikipedia mappings at build time, reducing runtime API calls and ensuring `wikidataId` stability.
-
-> **M22 & M23 Relationship**: M23 (Wikimedia Sourcing) dynamically fetches images and may eliminate the need for M22. M22 remains as an optional fallback if we need permanent local hosting for images not available via Wikimedia.
 
 **Track B - Infrastructure & Backend** (sequential):
-- **M24 (Vercel Migration)**: Foundation for serverless functions. Enables M25, M26.
+- **M24 (Vercel Migration)**: Foundation for serverless functions. Enables M25, M26, M29.
 - **M25 (User Feedback)**: Requires M24. Serverless endpoint creates GitHub issues.
 - **M26 (Custom Domain)**: Requires M24. DNS configured on Vercel.
 - **M27 (Spam Protection)**: Requires M25. Enhancement to feedback form.
+- **M29 (Cross-Scene API)**: Requires M24. Build-time index and serverless endpoint for cross-scene discovery.
+- **M30 (Cross-Scene UI)**: Requires M29. Infobox links and graph visual indicators for multi-scene nodes.
 
 ---
 
