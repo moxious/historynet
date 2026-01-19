@@ -1,0 +1,283 @@
+---
+title: React Component Rules
+description: Error boundaries, keys, dependencies, memoization, and error handling.
+globs:
+  - "**/components/**"
+  - "**/*.tsx"
+---
+
+# React Component Rules
+
+Rules for component patterns. Check these when building components, rendering lists, and handling errors.
+
+---
+
+## R3 — Object/Array Dependencies Causing Infinite Loops
+
+Objects and arrays are compared by reference. Creating new objects in render causes `useEffect` to see them as "changed" every time.
+
+**Don't**
+```tsx
+function UserProfile({ userId }) {
+  const [user, setUser] = useState(null);
+  
+  // New object every render
+  const options = { userId, includeDetails: true };
+  
+  useEffect(() => {
+    fetchUser(options).then(setUser);
+  }, [options]); // Infinite loop - options is always "new"
+}
+```
+
+**Do**
+```tsx
+function UserProfile({ userId }) {
+  const [user, setUser] = useState(null);
+  
+  // REACT: memoize object dependencies (R3)
+  const options = useMemo(
+    () => ({ userId, includeDetails: true }),
+    [userId]
+  );
+  
+  useEffect(() => {
+    fetchUser(options).then(setUser);
+  }, [options]);
+}
+
+// Better: use primitive dependencies directly
+useEffect(() => {
+  fetchUser({ userId, includeDetails: true }).then(setUser);
+}, [userId]); // Primitives compare by value
+```
+
+**Agent behavior**
+- Flag any object or array literal in a `useEffect` dependency array.
+- Recommend `useMemo` for complex objects or extracting primitive values as dependencies.
+
+---
+
+## R6 — Missing Error Boundaries
+
+Without error boundaries, any render error crashes the entire React tree with a white screen.
+
+**Don't**
+```tsx
+function App() {
+  return (
+    <div>
+      <Header />
+      <UserProfile userId={userId} /> {/* Error here crashes everything */}
+      <Footer />
+    </div>
+  );
+}
+```
+
+**Do**
+```tsx
+class ErrorBoundary extends React.Component {
+  state = { hasError: false, error: null };
+  
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  
+  componentDidCatch(error, errorInfo) {
+    console.error('Error boundary caught:', error, errorInfo);
+  }
+  
+  render() {
+    if (this.state.hasError) {
+      return <ErrorFallback error={this.state.error} />;
+    }
+    return this.props.children;
+  }
+}
+
+// REACT: wrap risky components with error boundaries (R6)
+function App() {
+  return (
+    <div>
+      <Header />
+      <ErrorBoundary>
+        <UserProfile userId={userId} />
+      </ErrorBoundary>
+      <Footer />
+    </div>
+  );
+}
+```
+
+**Agent behavior**
+- Recommend error boundaries around components that fetch data, parse external content, or render user-provided data.
+- Note that error boundaries don't catch errors in event handlers, async code, or the boundary itself.
+
+---
+
+## R9 — Index as Key in Dynamic Lists
+
+When items are reordered or deleted, index-based keys cause React to mismatch component state.
+
+**Don't**
+```tsx
+function TodoList({ todos, onRemove }) {
+  return (
+    <ul>
+      {todos.map((todo, index) => (
+        <li key={index}> {/* Index shifts on delete */}
+          <input defaultValue={todo.text} />
+          <button onClick={() => onRemove(index)}>×</button>
+        </li>
+      ))}
+    </ul>
+  );
+}
+```
+
+**Do**
+```tsx
+function TodoList({ todos, onRemove }) {
+  return (
+    <ul>
+      {todos.map((todo) => (
+        // REACT: stable unique identifier (R9)
+        <li key={todo.id}>
+          <input defaultValue={todo.text} />
+          <button onClick={() => onRemove(todo.id)}>×</button>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+// Generate stable IDs when creating items:
+const addTodo = (text) => {
+  setTodos([...todos, { id: crypto.randomUUID(), text }]);
+};
+```
+
+**Agent behavior**
+- Flag `key={index}` in lists where items can be added, removed, or reordered.
+- Index keys are acceptable ONLY for static lists that never change.
+
+---
+
+## R10 — Unhandled Promise Rejections
+
+Promises without error handling fail silently, leaving users stuck with loading states.
+
+**Don't**
+```tsx
+useEffect(() => {
+  fetch(url)
+    .then(res => res.json())
+    .then(setData);
+  // No error handling - failures are silent
+}, [url]);
+
+const handleSubmit = async () => {
+  await submitForm(formData); // Uncaught rejection
+  navigate('/success');
+};
+```
+
+**Do**
+```tsx
+useEffect(() => {
+  setLoading(true);
+  setError(null);
+  
+  fetch(url)
+    .then(res => {
+      if (!res.ok) throw new Error(\`HTTP \${res.status}\`);
+      return res.json();
+    })
+    .then(setData)
+    // REACT: handle errors explicitly (R10)
+    .catch(setError)
+    .finally(() => setLoading(false));
+}, [url]);
+
+const handleSubmit = async () => {
+  try {
+    await submitForm(formData);
+    navigate('/success');
+  } catch (err) {
+    setError(err.message);
+  }
+};
+```
+
+**Agent behavior**
+- Every `fetch` or async operation must have error handling (`.catch()` or `try/catch`).
+- Flag promise chains without `.catch()`.
+- Recommend tracking loading and error states for user feedback.
+
+---
+
+## R12 — Inline Functions Breaking Memoization
+
+Inline functions create new references each render, defeating `React.memo`.
+
+**Don't**
+```tsx
+function ParentList({ items }) {
+  return (
+    <div>
+      {items.map(item => (
+        <MemoizedChild
+          key={item.id}
+          item={item}
+          onClick={() => handleClick(item.id)} // New function every render
+          style={{ color: 'blue' }} // New object every render
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+**Do**
+```tsx
+function ParentList({ items }) {
+  // REACT: stable callback reference (R12)
+  const handleClick = useCallback((id) => {
+    console.log('Clicked:', id);
+  }, []);
+  
+  // REACT: stable object reference (R12)
+  const itemStyle = useMemo(() => ({ color: 'blue' }), []);
+  
+  return (
+    <div>
+      {items.map(item => (
+        <MemoizedChild
+          key={item.id}
+          item={item}
+          onClick={handleClick}
+          style={itemStyle}
+        />
+      ))}
+    </div>
+  );
+}
+```
+
+**Agent behavior**
+- When passing callbacks to memoized children, use `useCallback`.
+- When passing objects/arrays as props to memoized children, use `useMemo`.
+- Note: Only optimize when there's a measurable performance issue—don't prematurely optimize.
+
+---
+
+## Quick Detection Checklist
+
+| Pattern | Rule | Action |
+|---------|------|--------|
+| Object/array in dependency array | R3 | Use `useMemo` or primitives |
+| No error boundary around risky component | R6 | Wrap with boundary |
+| `key={index}` in dynamic list | R9 | Use stable ID |
+| Promise without `.catch()` | R10 | Add error handling |
+| Inline function to memoized child | R12 | Use `useCallback` |

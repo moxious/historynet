@@ -21,6 +21,25 @@ The application is automatically deployed to GitHub Pages when changes are pushe
 
 ---
 
+## Quick Start by Task Type
+
+> **Do not read everything upfront.** Find your task in `PROGRESS.md` first, then pull in context as needed.
+>
+> **For a one-page project overview**, see [`CHEATSHEET.md`](CHEATSHEET.md).
+
+| Task Type | Read First | Then Consult |
+|-----------|------------|--------------|
+| Frontend feature | `PROGRESS.md` (find task) | Relevant `src/` code |
+| Bug fix | `PROGRESS.md`, relevant `src/` | - |
+| Dataset creation | `GRAPH_SCHEMA.md`, `PROGRESS.md` | `research/RESEARCHING_NETWORKS.md` |
+| Research task | `research/RESEARCHING_NETWORKS.md` | `GRAPH_SCHEMA.md` |
+| Documentation | `PRD.md` | `ROADMAP.md` |
+| New milestone | `ROADMAP.md`, `PROGRESS.md` | `PRD.md` |
+
+> **HISTORY.md is archived reference only.** Only consult it when debugging an existing feature or understanding past decisions.
+
+---
+
 ## Project Overview
 
 **Scenius** (formerly HistoryNet) is a React/Vite SPA for visualizing and exploring historical social networks. The application displays graph data representing historical figures (persons), their works (objects), locations, and organizations (entities), along with the relationships between them.
@@ -115,6 +134,8 @@ To keep `ROADMAP.md` and `PROGRESS.md` focused on current/future work without lo
 4. **Preserve**: Always keep the task checkboxes and completion notes—this is the permanent record of what was built and when
 
 ### Reading Order for New Agents
+
+**For most tasks, use the Quick Start table above.** The comprehensive reading order below is for major milestones or when you need deep project understanding:
 
 1. **Start with `PRD.md`** to understand what we're building
 2. **Read `GRAPH_SCHEMA.md`** to understand the data model

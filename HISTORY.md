@@ -1,5 +1,14 @@
 # HistoryNet - Development History
 
+> **This file is archived reference material.**
+> 
+> Do NOT read this to start work. Only consult when:
+> - Debugging an existing feature
+> - Understanding why a past decision was made
+> - Reviewing implementation details of completed milestones
+>
+> **To find active work**, see `PROGRESS.md`.
+
 This document archives completed milestone task lists and completion notes. It serves as a permanent record of development history while keeping `ROADMAP.md` and `PROGRESS.md` focused on current and future work.
 
 **For current work, see:**
@@ -1273,6 +1282,159 @@ Options: `--strict` (warnings as errors), `--dataset <id>` (single dataset), `--
 - [x] Update GitHub Actions workflow to run validation before build
 - [x] Add validation documentation to AGENTS.md
 - [x] Test against all existing datasets, fix any discovered issues
+
+---
+
+### M18: Adapt for Mobile
+
+**Completed**: 2026-01-19
+
+**Goal**: Make Scenius fully usable on mobile devices (iPad and iPhone). Transform the desktop-first layout into a responsive, touch-friendly experience using mobile-native patterns like hamburger menus, bottom sheets, and drawers.
+
+#### 1. Responsive Header with Hamburger Menu
+
+- [x] **MB1** - Create `MobileMenu` component (slide-in drawer from right)
+- [x] **MB2** - Create `HamburgerButton` component (44×44px touch target)
+- [x] **MB3** - Create `useMediaQuery` hook or CSS-based responsive logic
+- [x] **MB4** - Update `Header.tsx` to conditionally render mobile vs desktop layout
+- [x] **MB5** - Make search collapsible on mobile
+- [x] **MB6** - Style mobile menu with theme support (light/dark)
+- [x] **MB7** - Add slide-in animation for menu (transform + opacity)
+- [x] **MB8** - Ensure menu is keyboard accessible (focus trap when open, Escape to close)
+- [x] **MB9** - Test header at 375px, 390px, 430px widths
+
+#### 2. Safe Area Insets for iPhone
+
+- [x] **MB10** - Add `viewport-fit=cover` to viewport meta tag in `index.html`
+- [x] **MB11** - Define CSS custom properties for safe area insets in `index.css`
+- [x] **MB12** - Apply safe area padding to Header component on mobile
+- [x] **MB13** - Apply safe area padding to bottom sheet / action bar
+- [x] **MB14** - Apply safe area padding to MobileMenu component
+- [x] **MB15** - Test in iPhone simulator with notch and Dynamic Island
+- [x] **MB16** - Test in landscape orientation for left/right safe areas
+
+#### 3. Touch-Friendly Target Sizes
+
+- [x] **MB17-MB27** - Audit and update all interactive elements to 44px minimum
+
+#### 4. Bottom Sheet InfoboxPanel
+
+- [x] **MB28** - Create `BottomSheet` component (reusable base component)
+- [x] **MB29** - Implement snap point logic (hidden → peek → expanded)
+- [x] **MB30** - Implement drag gesture recognition
+- [x] **MB31** - Add smooth animation between snap points
+- [x] **MB32** - Create `MobileInfoboxPanel` wrapper that uses BottomSheet
+- [x] **MB33** - Integrate with selection state from `useGraph`
+- [x] **MB34** - Add close button in sheet header
+- [x] **MB35** - Update `MainLayout.tsx` to use `MobileInfoboxPanel` on mobile
+- [x] **MB36** - Handle scroll within expanded sheet content
+- [x] **MB37-MB38** - Test sheet behavior with various node types and edges
+
+#### 5. Filter Drawer Pattern
+
+- [x] **MB39** - Create `Drawer` component (slide from left variant)
+- [x] **MB40** - Update `FilterPanel` to support drawer mode on mobile
+- [x] **MB41** - Add filter toggle button with badge indicator
+- [x] **MB42** - Implement swipe-to-close gesture for drawer
+- [x] **MB43** - Add prominent "Clear Filters" button in drawer footer
+- [x] **MB44** - Show active filter count in toggle button badge
+- [x] **MB45-MB47** - Test filter drawer behavior
+
+#### 6. Additional Mobile Optimizations
+
+- [x] **MB48** - Update `#root` to use `100dvh` for iOS Safari
+- [x] **MB49** - Add `-webkit-tap-highlight-color: transparent`
+- [x] **MB50** - Add `touch-action: manipulation` to prevent double-tap zoom
+- [x] **MB51** - Review and adjust font sizes for mobile readability
+
+#### 7. Testing & Verification
+
+- [x] **MB52-MB61** - Test on various iPhone and iPad sizes
+- [x] **MB62** - Build passes with no errors
+- [x] **MB63** - No linter warnings in new/modified files
+- [x] **MB64** - Update CHANGELOG.md with M18 completion notes
+
+**New Components Created**:
+- `useMediaQuery` hook
+- `MobileMenu` component
+- `HamburgerButton` component
+- `BottomSheet` component
+- `Drawer` component
+- `MobileInfoboxPanel` component
+
+---
+
+### M19: Radial/Ego-Network View
+
+**Completed**: 2026-01-19
+
+**Goal**: Add a radial (ego-network) visualization that displays a selected node at the center with its direct connections arranged in a ring around it. Provides a focused view of a single node's relationships.
+
+**Key Design Decisions**:
+- Radial layout is only available when a node is selected
+- Shows 1 degree of separation (direct connections only)
+- Filters apply to both center node and connected nodes
+- Reuses existing node shapes/colors for consistency
+
+#### Type System & Hook Updates
+
+- [x] **RD1-RD4** - Extended `LayoutType` to include `'radial'`, added to LAYOUTS registry, updated MainLayout switch
+
+#### LayoutSwitcher Conditional Availability
+
+- [x] **RD5-RD11** - Added `selectedNodeId` prop, conditional disabled state, tooltip, fallback to force-graph
+
+#### RadialLayout Component - Core Structure
+
+- [x] **RD12** - Create `src/layouts/RadialLayout.tsx` implementing `LayoutComponentProps`
+- [x] **RD13** - Create `src/layouts/RadialLayout.css` for component styles
+- [x] **RD14** - Export `RadialLayout` from `src/layouts/index.ts`
+- [x] **RD15** - Set up D3 SVG container with zoom/pan behavior
+- [x] **RD16** - Add zoom controls consistent with other layouts
+
+#### Data Processing
+
+- [x] **RD17-RD22** - Extract center node, find connected edges/nodes, apply filters, handle edge cases
+
+#### Positioning & Rendering
+
+- [x] **RD23-RD30** - Position center and peripheral nodes, render curved edges, handle large connection counts
+
+#### Interactions
+
+- [x] **RD31-RD38** - Node/edge click handlers, highlight selected items, hover effects, search highlighting
+
+#### Empty & Invalid States
+
+- [x] **RD39-RD43** - Empty state component, handle filtered-out nodes
+
+#### Filter Integration
+
+- [x] **RD44-RD48** - Verify filters apply to connected nodes
+
+#### Infobox Integration
+
+- [x] **RD49-RD53** - Verify clicking updates infobox, test deep links
+
+#### Animation & Polish
+
+- [x] **RD54-RD57** - Entrance animation, transition animation, legend
+
+#### Theme Support
+
+- [x] **RD58-RD61** - Verify light/dark theme support
+
+#### Testing & Verification
+
+- [x] **RD62-RD72** - Test various datasets, connection counts, layout switching, URL sharing
+
+#### Documentation
+
+- [x] **RD73-RD75** - JSDoc comments, CHANGELOG update
+
+**Files Created**:
+- `src/layouts/RadialLayout.tsx`
+- `src/layouts/RadialLayout.css`
 
 ---
 
