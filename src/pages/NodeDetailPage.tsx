@@ -14,9 +14,11 @@ import { isPersonNode, isObjectNode, isLocationNode, isEntityNode } from '@types
 import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
 import { useResourceParams, buildFullNodeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
+import { useNodeEnrichedData } from '@hooks';
 import ResourceMeta from '@components/ResourceMeta';
 import SchemaOrg from '@components/SchemaOrg';
 import ShareButtons from '@components/ShareButtons';
+import WikipediaAttribution from '@components/WikipediaAttribution';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
 
@@ -122,6 +124,19 @@ function NodeDetailPage() {
     return graphData?.nodes.find(n => n.id === id);
   }, [graphData]);
 
+  // Use enriched data with Wikipedia fallback
+  // REACT: Hook called unconditionally; uses stub when node is null (R8)
+  const stubNode: GraphNode = node ?? { id: '', type: 'person', title: '' };
+  const { enrichedData, handleImageError } = useNodeEnrichedData(stubNode);
+
+  // Track image loading state
+  const [imageLoading, setImageLoading] = useState(true);
+
+  // Reset image loading when node or image URL changes
+  useEffect(() => {
+    setImageLoading(true);
+  }, [node?.id, enrichedData.imageUrl]);
+
   // Handle invalid params (after all hooks)
   if (params.type === 'invalid') {
     return <NotFoundPage message={params.error} />;
@@ -154,9 +169,9 @@ function NodeDetailPage() {
     <div className="resource-detail">
       <ResourceMeta
         title={node.title}
-        description={node.shortDescription}
+        description={enrichedData.description || node.shortDescription}
         datasetName={manifest.name}
-        imageUrl={node.imageUrl}
+        imageUrl={enrichedData.imageUrl || undefined}
         canonicalUrl={fullUrl}
         ogType={node.type === 'person' ? 'profile' : 'article'}
         publishedDate={node.dateStart}
@@ -178,33 +193,60 @@ function NodeDetailPage() {
         <span className="resource-detail__breadcrumb-current">{node.title}</span>
       </nav>
 
-      {/* Header */}
+      {/* Header - 2-column layout: image left, content right */}
       <header className="resource-detail__header">
+        {/* Image on left for desktop - SECURITY: validate image URL (F4/F6) */}
+        {enrichedData.imageUrl && isValidImageUrl(enrichedData.imageUrl) && (
+          <div className="resource-detail__image-container">
+            {imageLoading && (
+              <div className="resource-detail__image-loading" aria-label="Loading image..." />
+            )}
+            <img
+              src={enrichedData.imageUrl}
+              alt={node.title}
+              className="resource-detail__image"
+              loading="lazy"
+              style={{ display: imageLoading ? 'none' : 'block' }}
+              onLoad={() => setImageLoading(false)}
+              onError={() => {
+                setImageLoading(false);
+                handleImageError();
+              }}
+            />
+            {/* Wikipedia attribution for images sourced from Wikipedia */}
+            {enrichedData.imageSource === 'wikipedia' && enrichedData.wikipediaUrl && !imageLoading && (
+              <div className="resource-detail__image-attribution">
+                <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} size="small" />
+              </div>
+            )}
+          </div>
+        )}
+        {/* Loading indicator while fetching Wikipedia data */}
+        {enrichedData.loading && !enrichedData.imageUrl && (
+          <div className="resource-detail__image-container">
+            <div className="resource-detail__image-loading" aria-label="Loading image..." />
+          </div>
+        )}
+        
         <div className="resource-detail__header-content">
           <span className={getTypeBadgeClass(node.type)}>{node.type}</span>
-          <h1 className="resource-detail__title">{node.title}</h1>
+          <div className="resource-detail__title-row">
+            <h1 className="resource-detail__title">{node.title}</h1>
+            <ShareButtons
+              url={fullUrl}
+              title={node.title}
+              description={node.shortDescription}
+              variant="inline"
+              size="small"
+            />
+          </div>
           {node.shortDescription && (
             <p className="resource-detail__description">{node.shortDescription}</p>
           )}
         </div>
-        
-        {/* SECURITY: validate image URL (F4/F6) */}
-        {node.imageUrl && isValidImageUrl(node.imageUrl) && (
-          <div className="resource-detail__image-container">
-            <img
-              src={node.imageUrl}
-              alt={node.title}
-              className="resource-detail__image"
-              loading="lazy"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
-            />
-          </div>
-        )}
       </header>
 
-      {/* Actions Bar */}
+      {/* Actions Bar - View in Graph button */}
       <div className="resource-detail__actions">
         <Link to={graphViewUrl} className="resource-detail__action-button resource-detail__action-button--primary">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
@@ -213,14 +255,18 @@ function NodeDetailPage() {
           </svg>
           View in Graph
         </Link>
-        <ShareButtons
-          url={fullUrl}
-          title={node.title}
-          description={node.shortDescription}
-          variant="inline"
-          size="medium"
-        />
       </div>
+
+      {/* Wikipedia Biography Section */}
+      {enrichedData.description && enrichedData.descriptionSource === 'wikipedia' && (
+        <section className="resource-detail__wikipedia-section">
+          <h2 className="resource-detail__wikipedia-title">Wikipedia</h2>
+          <p className="resource-detail__wikipedia-text">{enrichedData.description}</p>
+          {enrichedData.wikipediaUrl && (
+            <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} variant="inline" />
+          )}
+        </section>
+      )}
 
       {/* Content */}
       <main className="resource-detail__content">
