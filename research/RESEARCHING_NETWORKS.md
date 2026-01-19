@@ -239,11 +239,14 @@ to something.
 
 **When to execute**: This phase can be performed at any time—during initial research, after enumeration, or retroactively for completed networks. It should be completed before Phase 6 (Conversion) for new networks.
 
+**Warning**: Because this task might require large amounts of research or changes to JSON files,
+it is recommended you make changes to files in batches to manage size/write time.
+
 **Tasks**:
 - [ ] For each node in the network, search for corresponding Wikipedia article
-- [ ] Add `wikipediaTitle` field with exact Wikipedia page title
-- [ ] Optionally add `wikidataId` for stable long-term reference
+- [ ] Preferentially add `wikidataId` for stable long-term reference
 - [ ] Set `wikipediaTitle: null` explicitly if no Wikipedia article exists
+- [ ] If you have the data, also add `wikipediaTitle` field with exact Wikipedia page title
 - [ ] Run dataset validator to identify any missing fields
 
 **Finding Wikipedia Titles**:
