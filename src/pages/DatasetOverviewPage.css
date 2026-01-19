@@ -123,6 +123,14 @@
   color: var(--text-muted);
 }
 
+/* CTA Button Group */
+.dataset-overview__cta-group {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
 /* Primary CTA Button */
 .dataset-overview__explore-button {
   display: inline-flex;
@@ -144,6 +152,33 @@
 }
 
 .dataset-overview__explore-button:active {
+  transform: translateY(0);
+}
+
+/* Secondary CTA Button (Random Node) */
+.dataset-overview__random-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: transparent;
+  color: var(--color-primary, #4a90d9);
+  border: 2px solid var(--color-primary, #4a90d9);
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.dataset-overview__random-button:hover {
+  background-color: var(--color-primary, #4a90d9);
+  border-color: var(--color-primary, #4a90d9);
+  color: var(--color-text-inverse, #ffffff);
+  transform: translateY(-1px);
+}
+
+.dataset-overview__random-button:active {
   transform: translateY(0);
 }
 
@@ -329,6 +364,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .dataset-overview__cta-group {
+    justify-content: center;
   }
 
   .dataset-overview__title {

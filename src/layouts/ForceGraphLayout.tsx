@@ -7,6 +7,7 @@ import * as d3 from 'd3';
 import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
 import { getNodeColor, getEdgeColor, getNodeTypeEmoji } from '@utils';
+import { GraphLegend } from '@components';
 import './ForceGraphLayout.css';
 
 /**
@@ -435,6 +436,8 @@ export function ForceGraphLayout({
         </button>
       </div>
 
+      {/* Node type legend */}
+      <GraphLegend />
     </div>
   );
 }

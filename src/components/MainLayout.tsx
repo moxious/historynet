@@ -45,8 +45,8 @@ function MainLayout() {
   // Responsive state
   const isTabletOrSmaller = useIsTablet();
 
-  // Filter panel collapse state - collapsed by default (UX26)
-  const [isFilterCollapsed, setIsFilterCollapsed] = useState(true);
+  // Filter panel collapse state - expanded by default for discoverability
+  const [isFilterCollapsed, setIsFilterCollapsed] = useState(false);
   
   // Mobile filter drawer state
   const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState(false);

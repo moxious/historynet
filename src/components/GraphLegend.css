@@ -1,0 +1,79 @@
+/**
+ * GraphLegend component styles
+ * 
+ * Positioned in bottom-left of graph container.
+ * Semi-transparent background with backdrop blur for readability.
+ */
+
+.graph-legend {
+  position: absolute;
+  bottom: var(--spacing-md, 16px);
+  left: var(--spacing-md, 16px);
+  z-index: 10;
+  background-color: var(--color-surface, rgba(255, 255, 255, 0.9));
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  padding: 8px 12px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .graph-legend {
+  background-color: rgba(31, 41, 55, 0.9);
+  border-color: var(--color-border, #374151);
+}
+
+.graph-legend__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.graph-legend__item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.graph-legend__color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.graph-legend__emoji {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.graph-legend__label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text, #374151);
+  white-space: nowrap;
+}
+
+[data-theme="dark"] .graph-legend__label {
+  color: var(--color-text, #e5e7eb);
+}
+
+/* Responsive: Stack vertically on smaller screens */
+@media (max-width: 480px) {
+  .graph-legend {
+    bottom: var(--spacing-sm, 8px);
+    left: var(--spacing-sm, 8px);
+    padding: 6px 10px;
+  }
+
+  .graph-legend__items {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .graph-legend__label {
+    font-size: 10px;
+  }
+}

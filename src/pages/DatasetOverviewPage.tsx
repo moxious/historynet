@@ -7,7 +7,7 @@
  * Displays dataset metadata and most connected items by POLE type.
  */
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import type { DatasetManifest, GraphData } from '@types';
@@ -152,6 +152,13 @@ function DatasetOverviewPage() {
     5
   );
 
+  // Pick a random node for the "Discover Random" button
+  const randomNode = useMemo(() => {
+    if (!graphData?.nodes?.length) return null;
+    const idx = Math.floor(Math.random() * graphData.nodes.length);
+    return graphData.nodes[idx];
+  }, [graphData]);
+
   // Loading state
   if (loading) {
     return (
@@ -242,24 +249,45 @@ function DatasetOverviewPage() {
             )}
           </div>
 
-          {/* Primary CTA */}
-          <Link
-            to={buildExploreUrl(datasetId)}
-            className="dataset-overview__explore-button"
-          >
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-              <circle cx="12" cy="12" r="3" />
-              <circle cx="5" cy="6" r="2" />
-              <circle cx="19" cy="6" r="2" />
-              <circle cx="5" cy="18" r="2" />
-              <circle cx="19" cy="18" r="2" />
-              <line x1="9.5" y1="10" x2="6.5" y2="7.5" />
-              <line x1="14.5" y1="10" x2="17.5" y2="7.5" />
-              <line x1="9.5" y1="14" x2="6.5" y2="16.5" />
-              <line x1="14.5" y1="14" x2="17.5" y2="16.5" />
-            </svg>
-            Explore Network
-          </Link>
+          {/* CTA Buttons */}
+          <div className="dataset-overview__cta-group">
+            <Link
+              to={buildExploreUrl(datasetId)}
+              className="dataset-overview__explore-button"
+            >
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="3" />
+                <circle cx="5" cy="6" r="2" />
+                <circle cx="19" cy="6" r="2" />
+                <circle cx="5" cy="18" r="2" />
+                <circle cx="19" cy="18" r="2" />
+                <line x1="9.5" y1="10" x2="6.5" y2="7.5" />
+                <line x1="14.5" y1="10" x2="17.5" y2="7.5" />
+                <line x1="9.5" y1="14" x2="6.5" y2="16.5" />
+                <line x1="14.5" y1="14" x2="17.5" y2="16.5" />
+              </svg>
+              Explore Network
+            </Link>
+            {randomNode && (
+              <Link
+                to={buildNodeUrl(datasetId, randomNode.id)}
+                className="dataset-overview__random-button"
+              >
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                  <rect x="4" y="4" width="6" height="6" rx="1" />
+                  <rect x="14" y="4" width="6" height="6" rx="1" />
+                  <rect x="4" y="14" width="6" height="6" rx="1" />
+                  <rect x="14" y="14" width="6" height="6" rx="1" />
+                  <circle cx="7" cy="7" r="1" fill="currentColor" />
+                  <circle cx="17" cy="7" r="1" fill="currentColor" />
+                  <circle cx="15" cy="17" r="1" fill="currentColor" />
+                  <circle cx="19" cy="17" r="1" fill="currentColor" />
+                  <circle cx="7" cy="17" r="1" fill="currentColor" />
+                </svg>
+                Discover Random Node
+              </Link>
+            )}
+          </div>
         </div>
       </header>
 
