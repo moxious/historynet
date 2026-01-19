@@ -278,6 +278,104 @@ datasets/{dataset-id}/
 }
 ```
 
+#### Manifest Core Fields
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `id` | string | ✅ Yes | Unique identifier matching directory name |
+| `name` | string | ✅ Yes | Human-readable display name |
+| `description` | string | ⚪ Recommended | Description of the network |
+| `lastUpdated` | string | ⚪ Recommended | ISO 8601 date of last update |
+| `version` | string | ⚪ Optional | Semantic version string |
+| `author` | string | ⚪ Optional | Creator attribution |
+| `license` | string | ⚪ Optional | License identifier (e.g., "CC-BY-4.0") |
+| `defaultDataset` | boolean | ⚪ Optional | Whether this is the default dataset to load |
+| `nodeCount` | number | ⚪ Recommended | Number of nodes in the dataset |
+| `edgeCount` | number | ⚪ Recommended | Number of edges in the dataset |
+| `customRelationshipTypes` | array | ⚪ Optional | Custom relationship types used (see below) |
+| `scope` | object | ⚪ Optional | Network scope and boundaries (see below) |
+| `research` | object | ⚪ Optional | Research status and progress (see below) |
+
+#### Scope Object
+
+The `scope` object captures the boundaries and structure of the network. This replaces separate scope documentation files:
+
+```json
+{
+  "scope": {
+    "startYear": 1920,
+    "endYear": 1940,
+    "regions": ["Austria", "Germany", "United States"],
+    "themes": ["logical positivism", "philosophy of science"],
+    "seedFigures": ["person-moritz-schlick", "person-rudolf-carnap"],
+    "subgroups": [
+      { "id": "core", "name": "Core Vienna Circle", "description": "Founding members" },
+      { "id": "berlin", "name": "Berlin Group", "description": "Reichenbach's circle" }
+    ],
+    "exclusionNotes": "Excluding pure mathematicians without philosophical publications"
+  }
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `startYear` | number | Temporal boundary start |
+| `endYear` | number | Temporal boundary end |
+| `regions` | string[] | Geographic regions covered |
+| `themes` | string[] | Intellectual themes uniting the network |
+| `seedFigures` | string[] | Node IDs of central figures used as research starting points |
+| `subgroups` | object[] | Logical groupings: `{ id, name, description }` |
+| `exclusionNotes` | string | Explanation of what types of figures are excluded |
+
+#### Research Object
+
+The `research` object tracks the research process and documents gaps. This replaces separate progress tracking files:
+
+```json
+{
+  "research": {
+    "status": "complete",
+    "completedBatches": ["core", "berlin", "british", "american"],
+    "pendingBatches": [],
+    "gaps": [
+      { "description": "Limited information on Waismann's later work", "priority": "low" }
+    ],
+    "excludedFigures": [
+      { "name": "David Hilbert", "reason": "Mathematician with no direct Circle involvement" }
+    ]
+  }
+}
+```
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `status` | string | `"in-progress"` or `"complete"` |
+| `completedBatches` | string[] | Subgroup IDs that have been researched |
+| `pendingBatches` | string[] | Subgroup IDs remaining to research |
+| `gaps` | object[] | Known gaps: `{ description, priority }` where priority is `"low"`, `"medium"`, or `"high"` |
+| `excludedFigures` | object[] | Candidates excluded: `{ name, reason }` |
+
+#### Custom Relationship Types
+
+When using relationship types beyond the standard set, document them:
+
+```json
+{
+  "customRelationshipTypes": [
+    {
+      "type": "debated",
+      "description": "Engaged in public intellectual debate",
+      "directed": false
+    },
+    {
+      "type": "co_authored",
+      "description": "Co-authored a significant research paper",
+      "directed": false
+    }
+  ]
+}
+```
+
 ### nodes.json
 
 ```json

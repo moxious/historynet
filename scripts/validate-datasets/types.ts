@@ -124,12 +124,68 @@ export interface DatasetManifest {
   nodeCount?: number;
   edgeCount?: number;
   customRelationshipTypes?: CustomRelationshipType[];
+  /** Network scope and boundaries */
+  scope?: DatasetScope;
+  /** Research status and progress tracking */
+  research?: DatasetResearch;
 }
 
 export interface CustomRelationshipType {
   type: string;
   description: string;
   directed: boolean;
+}
+
+/**
+ * Scope object for defining network boundaries
+ */
+export interface DatasetScope {
+  /** Temporal boundary start year */
+  startYear?: number;
+  /** Temporal boundary end year */
+  endYear?: number;
+  /** Geographic regions covered */
+  regions?: string[];
+  /** Intellectual themes uniting the network */
+  themes?: string[];
+  /** Node IDs of central figures used as research starting points */
+  seedFigures?: string[];
+  /** Logical groupings for batched research */
+  subgroups?: DatasetSubgroup[];
+  /** Explanation of what types of figures are excluded */
+  exclusionNotes?: string;
+}
+
+export interface DatasetSubgroup {
+  id: string;
+  name: string;
+  description?: string;
+}
+
+/**
+ * Research status and progress tracking
+ */
+export interface DatasetResearch {
+  /** Research status: "in-progress" or "complete" */
+  status?: 'in-progress' | 'complete';
+  /** Subgroup IDs that have been researched */
+  completedBatches?: string[];
+  /** Subgroup IDs remaining to research */
+  pendingBatches?: string[];
+  /** Known gaps in the research */
+  gaps?: ResearchGap[];
+  /** Candidates that were excluded from the network */
+  excludedFigures?: ExcludedFigure[];
+}
+
+export interface ResearchGap {
+  description: string;
+  priority?: 'low' | 'medium' | 'high';
+}
+
+export interface ExcludedFigure {
+  name: string;
+  reason: string;
 }
 
 /**
