@@ -15,9 +15,9 @@ This document tracks individual tasks for active milestones. Tasks are grouped b
 
 ---
 
-## Completed Milestones (M1-M15)
+## Completed Milestones (M1-M16)
 
-All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for detailed task lists and completion notes.
+All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for detailed task lists and completion notes.
 
 | Milestone | Description | Completed |
 |-----------|-------------|-----------|
@@ -59,7 +59,7 @@ All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for d
 
 **Goal**: Enable users to submit feedback about graph data without requiring a GitHub account. Migrate to Vercel for serverless function support.
 
-**Note**: If M15 (Stable Resource URLs) is completed before this milestone, integrate feedback forms into the stable resource pages. Each node/edge detail page becomes a natural place for item-specific feedback. Add tasks to place FeedbackButton on NodeDetailPage and EdgeDetailPage.
+**Note**: Since M15 (Stable Resource URLs) is complete, integrate feedback forms into the stable resource pages. Each node/edge detail page becomes a natural place for item-specific feedback. Add tasks to place FeedbackButton on NodeDetailPage and EdgeDetailPage.
 
 ### Platform Migration (Vercel)
 
@@ -118,98 +118,6 @@ All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for d
 - [ ] **FB34** - Add entry to CHANGELOG.md when milestone complete
 
 ---
-
-## M15: Stable Resource URLs ✅
-
-**Goal**: Give every node and edge a permanent, shareable URL (permalink) that loads a standalone detail page. Enable external citation, bookmarking, and lay the foundation for per-item user feedback.
-
-**Completed**: 2026-01-18
-
-**URL Structure**:
-- Nodes: `/#/{dataset-id}/node/{node-id}`
-- Edges: `/#/{dataset-id}/from/{source-id}/to/{target-id}` (shows all edges between pair)
-
-### Routing Architecture
-
-- [x] **SR1** - Design route structure and document URL patterns in codebase
-- [x] **SR2** - Add new routes to React Router configuration in `App.tsx`
-  - `/:datasetId/node/:nodeId` - Node detail page
-  - `/:datasetId/from/:sourceId/to/:targetId` - Edge detail page (between node pair)
-- [x] **SR3** - Create route parameter extraction hook `useResourceParams` in `src/hooks/`
-- [x] **SR4** - Ensure routes work with HashRouter (required for GitHub Pages)
-- [x] **SR5** - Handle invalid routes gracefully (404-style page or redirect to main view)
-- [x] **SR6** - Test: direct URL access loads correct resource page
-
-### Node Detail Page
-
-- [x] **SR7** - Create `NodeDetailPage` component in `src/pages/`
-- [x] **SR8** - Load dataset and find node by ID from route params
-- [x] **SR9** - Display node information using same fields as `NodeInfobox`
-- [x] **SR10** - Style page consistently with main application
-- [x] **SR11** - Add "View in Graph" button linking to `/#/?dataset={id}&selected={nodeId}&type=node`
-- [x] **SR12** - Add breadcrumb navigation: `{Dataset Name} > {Node Type} > {Node Title}`
-- [x] **SR13** - Handle loading state while dataset fetches
-- [x] **SR14** - Handle error state if node ID not found in dataset
-
-### Edge Detail Page
-
-- [x] **SR15** - Create `EdgeDetailPage` component in `src/pages/`
-- [x] **SR16** - Load dataset and find all edges between source and target nodes
-- [x] **SR17** - Display source and target node summary cards (name, type, image thumbnail)
-- [x] **SR18** - Display edge information (relationship, description, dates, evidence, strength)
-- [x] **SR19** - Handle case where multiple edges exist between same pair (list all)
-- [x] **SR20** - Handle case where no edges exist between pair (show message, not error)
-- [x] **SR21** - Add "View in Graph" button linking to graph with edge selected
-- [x] **SR22** - Add clickable links to source/target node detail pages
-- [x] **SR23** - Style consistently with node detail page
-- [x] **SR24** - Handle loading and error states
-
-### Permalink & Share UI (InfoboxPanel Integration)
-
-- [x] **SR25** - Create `ShareButtons` component with Permalink and Share buttons
-- [x] **SR26** - Implement "Permalink" button that copies stable URL to clipboard
-- [x] **SR27** - Implement "Share" button using Web Share API (with fallback to copy)
-- [x] **SR28** - Add visual feedback on successful copy ("Copied!" text with checkmark)
-- [x] **SR29** - Generate correct stable URL based on selected item type
-- [x] **SR30** - Integrate `ShareButtons` into `InfoboxPanel` component (shared by Node/Edge)
-- [x] **SR31** - Style buttons to match existing infobox aesthetic
-- [x] **SR32** - Test: clicking Permalink copies correct URL for both nodes and edges
-
-### Meta Tags (SEO & Social Sharing)
-
-- [x] **SR33** - Install `react-helmet-async` for dynamic meta tag management
-- [x] **SR34** - Create `ResourceMeta` component for setting page-specific meta tags
-- [x] **SR35** - Set dynamic `<title>` tag: `{Item Title} | {Dataset Name} | Scenius`
-- [x] **SR36** - Set `<meta name="description">` from node/edge short description
-- [x] **SR37** - Set Open Graph tags: `og:title`, `og:description`, `og:type`, `og:url`
-- [x] **SR38** - Set `og:image` to node image if available, otherwise default app image
-- [x] **SR39** - Apply `ResourceMeta` to both `NodeDetailPage` and `EdgeDetailPage`
-- [x] **SR40** - Document meta tag limitations for pure client-side SPA in code comments
-
-### Navigation & UX
-
-- [x] **SR41** - Ensure browser back button works correctly from detail pages
-- [x] **SR42** - Add link from detail pages back to dataset (via breadcrumb)
-- [x] **SR43** - Test: navigating between detail pages updates URL correctly
-
-### Testing & Verification
-
-- [x] **SR44** - Test all node types render correctly on detail pages (person, object, location, entity)
-- [x] **SR45** - Test edge detail page with single edge between pair
-- [x] **SR46** - Test with multiple datasets (Disney, Enlightenment)
-- [x] **SR47** - Test invalid node ID shows appropriate error/not-found state
-- [x] **SR48** - Test invalid dataset ID shows appropriate error state
-- [x] **SR49** - Test Permalink/Share buttons on both graph view infobox and detail pages
-- [x] **SR50** - Build passes with no errors
-
-**Implementation Notes**:
-- Created `src/pages/` folder for standalone page components
-- Added `useResourceParams` hook for extracting route parameters
-- Added `buildFullNodeUrl`/`buildFullEdgeUrl` for shareable URLs (with hash)
-- Added `buildNodeUrl`/`buildEdgeUrl`/`buildGraphViewUrl` for internal navigation (without hash)
-- ShareButtons integrated into InfoboxPanel to work with both graph view and detail pages
-- ResourceMeta component uses react-helmet-async for client-side meta tag management
-- Note: Meta tags update client-side only; social media crawlers may not see dynamic content without SSR
 
 ---
 
@@ -431,6 +339,155 @@ All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for d
 - [ ] **MB62** - Build passes with no errors
 - [ ] **MB63** - No linter warnings in new/modified files
 - [ ] **MB64** - Update CHANGELOG.md with M18 completion notes
+
+---
+
+## M19: Radial/Ego-Network View
+
+**Goal**: Add a radial (ego-network) visualization that displays a selected node at the center with its direct connections arranged in a ring around it. Provides a focused view of a single node's relationships.
+
+**Key Design Decisions**:
+- Radial layout is only available when a node is selected
+- Shows 1 degree of separation (direct connections only)
+- Filters apply to both center node and connected nodes
+- Reuses existing node shapes/colors for consistency
+
+### 1. Type System & Hook Updates
+
+- [ ] **RD1** - Extend `LayoutType` in `src/hooks/useLayout.ts` to include `'radial'`
+- [ ] **RD2** - Add radial layout entry to `LAYOUTS` registry in `useLayout.ts`:
+  - id: `'radial'`
+  - name: `'Radial View'`
+  - description: `'Ego-network view centered on selected node'`
+- [ ] **RD3** - Update `MainLayout.tsx` switch statement to handle `case 'radial':`
+- [ ] **RD4** - Verify URL state works with `?layout=radial` parameter
+
+### 2. LayoutSwitcher Conditional Availability
+
+- [ ] **RD5** - Add `selectedNodeId` prop to `LayoutSwitcher` component
+- [ ] **RD6** - Add radial option to `LAYOUT_OPTIONS` array with appropriate icon:
+  - Suggested icon: concentric circles or target/bullseye pattern
+- [ ] **RD7** - Implement conditional disabled state for radial tab when no node selected
+- [ ] **RD8** - Add visual styling for disabled state (grayed out, reduced opacity)
+- [ ] **RD9** - Add tooltip on disabled radial tab: "Select a node to use radial view"
+- [ ] **RD10** - Update `Header.tsx` to pass `selectedNodeId` to `LayoutSwitcher`
+- [ ] **RD11** - When radial is selected but node becomes deselected, fall back to force-graph
+
+### 3. RadialLayout Component - Core Structure
+
+- [ ] **RD12** - Create `src/layouts/RadialLayout.tsx` implementing `LayoutComponentProps`
+- [ ] **RD13** - Create `src/layouts/RadialLayout.css` for component styles
+- [ ] **RD14** - Export `RadialLayout` from `src/layouts/index.ts`
+- [ ] **RD15** - Set up D3 SVG container with zoom/pan behavior (reuse pattern from ForceGraphLayout)
+- [ ] **RD16** - Add zoom controls (zoom in, zoom out, reset) consistent with other layouts
+
+### 4. RadialLayout Component - Data Processing
+
+- [ ] **RD17** - Extract center node from `selectedNodeId` prop
+- [ ] **RD18** - Find all edges connected to center node (source OR target matches)
+- [ ] **RD19** - Extract connected nodes from those edges
+- [ ] **RD20** - Apply current filters to connected nodes (hide nodes that don't pass)
+- [ ] **RD21** - Handle edge case: center node has 0 connections (show message)
+- [ ] **RD22** - Handle edge case: center node not in data (show error or empty state)
+
+### 5. RadialLayout Component - Positioning & Rendering
+
+- [ ] **RD23** - Position center node at SVG center
+- [ ] **RD24** - Calculate positions for peripheral nodes in a circle around center
+  - Evenly distribute angles (360° / n nodes)
+  - Configurable radius (e.g., 200px, adjustable based on node count)
+- [ ] **RD25** - Render center node using same shape/color logic as ForceGraphLayout
+  - Import and use `getNodeColor`, `getNodeShape` from `graphColors.ts`
+- [ ] **RD26** - Render peripheral nodes with same shape/color logic
+- [ ] **RD27** - Render curved arc edges from center to each peripheral node
+  - Use D3 line generator with curve interpolation (e.g., `d3.curveBundle` or `d3.curveBasis`)
+- [ ] **RD28** - Apply edge colors based on relationship type (reuse `getEdgeColor`)
+- [ ] **RD29** - Add node labels (title) positioned near each node
+- [ ] **RD30** - Handle large connection counts gracefully (50+ nodes):
+  - Reduce node size or label size
+  - Increase radius to prevent overlap
+  - Consider pagination or "show more" pattern for very large counts
+
+### 6. RadialLayout Component - Interactions
+
+- [ ] **RD31** - Implement node click handler calling `onNodeClick` prop
+- [ ] **RD32** - Implement edge click handler calling `onEdgeClick` prop
+- [ ] **RD33** - Highlight selected node (center or peripheral) with visual indicator
+- [ ] **RD34** - Highlight selected edge with visual indicator
+- [ ] **RD35** - When peripheral node is clicked:
+  - Call `onNodeClick` to update selection
+  - This will cause re-render with new center node (seamless transition)
+- [ ] **RD36** - Add hover effects on nodes (cursor pointer, slight scale or glow)
+- [ ] **RD37** - Add hover effects on edges (cursor pointer, highlight)
+- [ ] **RD38** - Apply `searchTerm` highlighting to matching nodes (reuse logic from ForceGraphLayout)
+
+### 7. Empty & Invalid States
+
+- [ ] **RD39** - Create empty state component: "Select a node to explore its connections"
+  - Include icon (e.g., radial/target icon)
+  - Style consistent with other empty states in app
+- [ ] **RD40** - Show empty state when `selectedNodeId` is null/undefined
+- [ ] **RD41** - Show empty state when selection is an edge (not a node)
+- [ ] **RD42** - Handle case where center node is filtered out:
+  - Option A: Show message "Selected node is hidden by current filters"
+  - Option B: Automatically switch to force-graph layout
+  - Implement chosen option
+- [ ] **RD43** - Handle case where all connected nodes are filtered out:
+  - Show center node alone with message "No visible connections with current filters"
+
+### 8. Filter Integration
+
+- [ ] **RD44** - Verify date range filters apply to connected nodes
+- [ ] **RD45** - Verify text filters apply to connected nodes
+- [ ] **RD46** - Verify node type filters apply to connected nodes
+- [ ] **RD47** - Update filter stats display to reflect radial view context (if applicable)
+- [ ] **RD48** - Test filter + radial interaction: apply filter, switch to radial, verify correct nodes shown
+
+### 9. Infobox Integration
+
+- [ ] **RD49** - Verify clicking center node updates infobox to show that node's details
+- [ ] **RD50** - Verify clicking peripheral node updates infobox to show that node's details
+- [ ] **RD51** - Verify clicking edge updates infobox to show edge details
+- [ ] **RD52** - Verify infobox "related nodes" links work and update radial view appropriately
+- [ ] **RD53** - Test deep link: load URL with `?layout=radial&selected=person-xyz&type=node`
+
+### 10. Animation & Polish
+
+- [ ] **RD54** - Add entrance animation when switching to radial view
+  - Nodes animate from center outward to final positions
+  - Or fade in with slight scale
+- [ ] **RD55** - Add transition animation when center node changes
+  - Old nodes animate out, new nodes animate in
+  - Or smooth position transition if nodes overlap
+- [ ] **RD56** - Ensure smooth zoom/pan experience (consistent with other layouts)
+- [ ] **RD57** - Add legend showing node type colors (reuse Legend component if exists)
+
+### 11. Theme Support
+
+- [ ] **RD58** - Verify radial layout works in light theme
+- [ ] **RD59** - Verify radial layout works in dark theme
+- [ ] **RD60** - Use CSS variables for colors to support theme switching
+- [ ] **RD61** - Test theme toggle while in radial view
+
+### 12. Testing & Verification
+
+- [ ] **RD62** - Test with Disney dataset (varied connection counts)
+- [ ] **RD63** - Test with Enlightenment dataset (denser connections)
+- [ ] **RD64** - Test with node that has 1 connection
+- [ ] **RD65** - Test with node that has 20+ connections
+- [ ] **RD66** - Test with node that has 0 connections
+- [ ] **RD67** - Test layout switching: force-graph → radial → timeline → radial
+- [ ] **RD68** - Test URL sharing: copy URL in radial view, open in new tab, verify state restored
+- [ ] **RD69** - Test keyboard accessibility: can navigate to radial tab, can activate it
+- [ ] **RD70** - Verify no console errors or warnings in radial view
+- [ ] **RD71** - Verify build passes with no TypeScript errors
+- [ ] **RD72** - Verify no linter warnings in new/modified files
+
+### 13. Documentation
+
+- [ ] **RD73** - Add JSDoc comments to RadialLayout component
+- [ ] **RD74** - Update any user-facing help text if applicable
+- [ ] **RD75** - Update CHANGELOG.md with M19 completion notes
 
 ---
 

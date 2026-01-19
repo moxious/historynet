@@ -1108,4 +1108,172 @@ NOTE: TL21-TL27 (gap collapse) and TL43-TL44 (cross-browser testing) deferred to
 
 ---
 
+### M15: Stable Resource URLs
+
+**Completed**: 2026-01-18
+
+**Goal**: Give every node and edge a permanent, shareable URL (permalink) that loads a standalone detail page. Enable external citation, bookmarking, and lay the foundation for per-item user feedback.
+
+**URL Structure**:
+- Nodes: `/#/{dataset-id}/node/{node-id}`
+- Edges: `/#/{dataset-id}/from/{source-id}/to/{target-id}` (shows all edges between pair)
+
+#### Routing Architecture
+
+- [x] **SR1** - Design route structure and document URL patterns in codebase
+- [x] **SR2** - Add new routes to React Router configuration in `App.tsx`
+  - `/:datasetId/node/:nodeId` - Node detail page
+  - `/:datasetId/from/:sourceId/to/:targetId` - Edge detail page (between node pair)
+- [x] **SR3** - Create route parameter extraction hook `useResourceParams` in `src/hooks/`
+- [x] **SR4** - Ensure routes work with HashRouter (required for GitHub Pages)
+- [x] **SR5** - Handle invalid routes gracefully (404-style page or redirect to main view)
+- [x] **SR6** - Test: direct URL access loads correct resource page
+
+#### Node Detail Page
+
+- [x] **SR7** - Create `NodeDetailPage` component in `src/pages/`
+- [x] **SR8** - Load dataset and find node by ID from route params
+- [x] **SR9** - Display node information using same fields as `NodeInfobox`
+- [x] **SR10** - Style page consistently with main application
+- [x] **SR11** - Add "View in Graph" button linking to `/#/?dataset={id}&selected={nodeId}&type=node`
+- [x] **SR12** - Add breadcrumb navigation: `{Dataset Name} > {Node Type} > {Node Title}`
+- [x] **SR13** - Handle loading state while dataset fetches
+- [x] **SR14** - Handle error state if node ID not found in dataset
+
+#### Edge Detail Page
+
+- [x] **SR15** - Create `EdgeDetailPage` component in `src/pages/`
+- [x] **SR16** - Load dataset and find all edges between source and target nodes
+- [x] **SR17** - Display source and target node summary cards (name, type, image thumbnail)
+- [x] **SR18** - Display edge information (relationship, description, dates, evidence, strength)
+- [x] **SR19** - Handle case where multiple edges exist between same pair (list all)
+- [x] **SR20** - Handle case where no edges exist between pair (show message, not error)
+- [x] **SR21** - Add "View in Graph" button linking to graph with edge selected
+- [x] **SR22** - Add clickable links to source/target node detail pages
+- [x] **SR23** - Style consistently with node detail page
+- [x] **SR24** - Handle loading and error states
+
+#### Permalink & Share UI (InfoboxPanel Integration)
+
+- [x] **SR25** - Create `ShareButtons` component with Permalink and Share buttons
+- [x] **SR26** - Implement "Permalink" button that copies stable URL to clipboard
+- [x] **SR27** - Implement "Share" button using Web Share API (with fallback to copy)
+- [x] **SR28** - Add visual feedback on successful copy ("Copied!" text with checkmark)
+- [x] **SR29** - Generate correct stable URL based on selected item type
+- [x] **SR30** - Integrate `ShareButtons` into `InfoboxPanel` component (shared by Node/Edge)
+- [x] **SR31** - Style buttons to match existing infobox aesthetic
+- [x] **SR32** - Test: clicking Permalink copies correct URL for both nodes and edges
+
+#### Meta Tags (SEO & Social Sharing)
+
+- [x] **SR33** - Install `react-helmet-async` for dynamic meta tag management
+- [x] **SR34** - Create `ResourceMeta` component for setting page-specific meta tags
+- [x] **SR35** - Set dynamic `<title>` tag: `{Item Title} | {Dataset Name} | Scenius`
+- [x] **SR36** - Set `<meta name="description">` from node/edge short description
+- [x] **SR37** - Set Open Graph tags: `og:title`, `og:description`, `og:type`, `og:url`
+- [x] **SR38** - Set `og:image` to node image if available, otherwise default app image
+- [x] **SR39** - Apply `ResourceMeta` to both `NodeDetailPage` and `EdgeDetailPage`
+- [x] **SR40** - Document meta tag limitations for pure client-side SPA in code comments
+
+#### Navigation & UX
+
+- [x] **SR41** - Ensure browser back button works correctly from detail pages
+- [x] **SR42** - Add link from detail pages back to dataset (via breadcrumb)
+- [x] **SR43** - Test: navigating between detail pages updates URL correctly
+
+#### Testing & Verification
+
+- [x] **SR44** - Test all node types render correctly on detail pages (person, object, location, entity)
+- [x] **SR45** - Test edge detail page with single edge between pair
+- [x] **SR46** - Test with multiple datasets (Disney, Enlightenment)
+- [x] **SR47** - Test invalid node ID shows appropriate error/not-found state
+- [x] **SR48** - Test invalid dataset ID shows appropriate error state
+- [x] **SR49** - Test Permalink/Share buttons on both graph view infobox and detail pages
+- [x] **SR50** - Build passes with no errors
+
+**Implementation Notes**:
+- Created `src/pages/` folder for standalone page components
+- Added `useResourceParams` hook for extracting route parameters
+- Added `buildFullNodeUrl`/`buildFullEdgeUrl` for shareable URLs (with hash)
+- Added `buildNodeUrl`/`buildEdgeUrl`/`buildGraphViewUrl` for internal navigation (without hash)
+- ShareButtons integrated into InfoboxPanel to work with both graph view and detail pages
+- ResourceMeta component uses react-helmet-async for client-side meta tag management
+- Note: Meta tags update client-side only; social media crawlers may not see dynamic content without SSR
+
+---
+
+### M16: Network Verification
+
+**Completed**: 2026-01-18
+
+**Goal**: Implement build-time CLI validation tools that verify all datasets conform to the graph schema before deployment. Invalid or malformed datasets should fail the build, preventing broken data from reaching production.
+
+**Architecture**: TypeScript CLI scripts executed via npm, integrated into the GitHub Actions workflow after the build step. Validation runs against the JSON files in `public/datasets/`.
+
+**Key Principle**: This is **build-time only** validation. No validation code should be shipped to the runtime bundle. The CLI tools live in a separate `scripts/` directory and are excluded from the production build.
+
+#### CLI Tool Architecture
+
+Created validation scripts in `scripts/validate-datasets/`:
+
+```
+scripts/
+└── validate-datasets/
+    ├── index.ts           # Main entry point
+    ├── validators/
+    │   ├── json-syntax.ts    # JSON parsing validation
+    │   ├── manifest.ts       # Manifest schema validation
+    │   ├── nodes.ts          # Node schema validation
+    │   ├── edges.ts          # Edge schema validation
+    │   └── cross-references.ts # Referential integrity
+    ├── types.ts           # Validation types and interfaces
+    └── reporter.ts        # Output formatting (errors, warnings, summary)
+```
+
+#### Validation Checks
+
+| Check | Severity | Description |
+|-------|----------|-------------|
+| JSON syntax | Error | Files must be valid JSON |
+| Required fields | Error | `id`, `type`, `title` for nodes; `id`, `source`, `target`, `relationship` for edges |
+| Node types | Error | Must be `person`, `object`, `location`, or `entity` |
+| Date formats | Error | ISO 8601 (YYYY-MM-DD) or year-only (YYYY) |
+| URL formats | Error | Valid HTTP/HTTPS URLs for `imageUrl`, `evidenceUrl`, external links |
+| Duplicate IDs | Error | Node and edge IDs must be unique |
+| Broken references | Error | Edge `source`/`target` must exist in nodes |
+| Missing evidence | Warning | Edges should have `evidence`, `evidenceNodeId`, or `evidenceUrl` |
+| Missing recommended fields | Warning | Type-specific fields like `biography`, `objectType` |
+| Non-standard IDs | Warning | IDs should follow `{type}-{slug}` pattern |
+| Unknown relationship types | Warning | Consider adding to `manifest.customRelationshipTypes` |
+
+#### npm Scripts
+
+```json
+{
+  "scripts": {
+    "validate:datasets": "npx tsx scripts/validate-datasets/index.ts",
+    "validate:datasets:strict": "npx tsx scripts/validate-datasets/index.ts --strict"
+  }
+}
+```
+
+Options: `--strict` (warnings as errors), `--dataset <id>` (single dataset), `--quiet`, `--json`
+
+#### Tasks
+
+- [x] Create `scripts/validate-datasets/` directory structure
+- [x] Implement JSON syntax validator
+- [x] Implement manifest schema validator
+- [x] Implement node schema validator with type-specific rules
+- [x] Implement edge schema validator
+- [x] Implement cross-reference validator
+- [x] Implement reporter with colored output and summary
+- [x] Add CLI argument parsing (--strict, --dataset, --quiet, --json)
+- [x] Add npm scripts to package.json
+- [x] Update GitHub Actions workflow to run validation before build
+- [x] Add validation documentation to AGENTS.md
+- [x] Test against all existing datasets, fix any discovered issues
+
+---
+
 *This document was created during documentation graduation on 2026-01-18.*

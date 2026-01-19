@@ -22,50 +22,39 @@ This document outlines the milestone structure and future direction for HistoryN
 | M16 | Network Verification | ✅ Complete |
 | M17 | Dataset Search & Filter | 🔲 Future |
 | M18 | Adapt for Mobile | 🔲 Future |
+| M19 | Radial/Ego-Network View | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
 ---
 
-## Completed: MVP + Post-MVP Polish (M1-M11, M14)
+## Completed Milestones (M1-M16)
 
-The core application is complete, polished, and deployed:
+The core application is complete, polished, and deployed. See `HISTORY.md` for detailed task lists and implementation notes.
 
+**Core Features**:
 - **Graph Visualization**: Force-directed D3 layout with zoom/pan, type-based node shapes, relationship-colored edges, tuned physics
-- **Timeline Visualization**: Vertical timeline with date positioning, lifespan markers, automatic lane assignment, improved readability
-- **Infobox Panel**: Node/edge detail display with type-specific fields, images, internal links, evidence, natural language edge descriptions
+- **Timeline Visualization**: Vertical timeline with date positioning, lifespan markers, automatic lane assignment
+- **Infobox Panel**: Node/edge detail display with type-specific fields, images, internal links, evidence
 - **Filtering**: Date range and text filters with URL sync, debounced inputs, collapsible panel
-- **Search**: Instant highlighting with keyboard shortcut (Cmd/Ctrl+K), clear visual distinction from filtering
-- **Dataset Switching**: Dropdown with metadata display
-- **URL State**: Deep linking for all view state
-- **Deployment**: GitHub Pages via GitHub Actions
+- **Search**: Instant highlighting with keyboard shortcut (Cmd/Ctrl+K)
+- **Stable Resource URLs**: Permanent permalinks for nodes and edges (`/#/{dataset}/node/{id}`)
+- **Dataset Validation**: Build-time CLI validation integrated into CI/CD
 
 **Shipped Datasets**: Disney Characters, Rosicrucian Network, Enlightenment, AI-LLM Research
 
-See `HISTORY.md` for detailed implementation history and completion notes.
+### Milestone Summaries
 
----
-
-## Completed: M9-M11, M13, M14
-
-The following milestones have been completed. See `HISTORY.md` for detailed task lists and implementation notes.
-
-### M9 - Application Verification ✅
-Systematic verification of all shipped features with principal-level code review. Key fixes: Enlightenment dataset registration, README link correction.
-
-### M10 - UX Improvements ✅
-Debounced filter inputs, simplified labels, InfoboxPanel hidden when no selection, filter panel collapsed by default, edge infobox natural language descriptions, search vs filter clarification.
-
-### M11 - Graph Interaction Polish ✅
-Memoized click handlers to prevent graph re-layout, physics tuning (reduced repulsion, added soft gravity), zoom/pan hint for discoverability, removed ID fields from infobox.
-
-### M13 - Scenius Rebrand & Theme System ✅
-Application rebranded from "HistoryNet" to "Scenius" with new tagline "Mapping collective genius". Full light/dark theme system with URL parameter support (`?theme=dark`), localStorage persistence, and theme-aware visualizations. New SVG favicon with interconnected nodes design.
-
-### M14 - Timeline Improvements ✅
-300px left margin for filter panel clearance, improved year label readability, initial zoom focus on first item, node-type legend matching graph view, verified infobox behavior parity. Gap collapse feature researched but deferred.
-
-See `HISTORY.md` for detailed task lists and implementation notes for all completed milestones.
+| Milestone | Summary |
+|-----------|---------|
+| M1-M8 | MVP: Project setup, data layer, graph/timeline visualization, infobox, filtering, search, deployment |
+| M9 | Application verification with code review |
+| M10 | UX improvements: debounced inputs, collapsible panels, natural language edge descriptions |
+| M11 | Graph interaction polish: memoized handlers, physics tuning, zoom/pan hint |
+| M13 | Scenius rebrand with light/dark theme system |
+| M14 | Timeline improvements: margins, year labels, initial zoom, legend consistency |
+| M15 | Stable resource URLs: permalinks for nodes/edges, share buttons, SEO meta tags |
+| M16 | Network verification: build-time dataset validation CLI (`npm run validate:datasets`) |
 
 ---
 
@@ -75,7 +64,7 @@ See `HISTORY.md` for detailed task lists and implementation notes for all comple
 
 **Architecture Decision**: Migrate from GitHub Pages to Vercel to enable serverless API functions. This consolidates hosting and backend on a single platform.
 
-**Note**: If M15 (Stable Resource URLs) is completed before this milestone, feedback forms should be integrated into the stable resource pages as well as the main graph view. Each node/edge page becomes a natural place for item-specific feedback.
+**Note**: Since M15 (Stable Resource URLs) is complete, feedback forms should be integrated into the stable resource pages as well as the main graph view. Each node/edge page becomes a natural place for item-specific feedback.
 
 **Deliverables**:
 
@@ -124,236 +113,6 @@ interface FeedbackSubmission {
   contactEmail?: string;
 }
 ```
-
----
-
-## Future: M15 - Stable Resource URLs
-
-**Goal**: Give every node and edge across all datasets a permanent, shareable URL (permalink) that loads a standalone detail page. This enables external citation, bookmarking, and serves as the foundation for per-item user feedback in future milestones.
-
-**Context**: Currently, items can be deep-linked via query parameters (e.g., `?dataset=disney&selected=person-mickey-mouse&type=node`), but these URLs are tied to the graph view. Stable resource URLs provide a cleaner, more "resource-like" URL structure that treats each node and edge as a first-class addressable resource.
-
-**Deliverables**:
-
-### URL Routing Architecture
-
-New path-based routes (using HashRouter for GitHub Pages compatibility):
-
-**Node URLs**:
-```
-/#/{dataset-id}/node/{node-id}
-```
-Examples:
-- `/#/disney-characters/node/person-mickey-mouse`
-- `/#/enlightenment/node/person-voltaire`
-- `/#/rosicrucian-network/node/object-fama-fraternitatis`
-
-**Edge URLs** (by source/target pair):
-```
-/#/{dataset-id}/from/{source-id}/to/{target-id}
-```
-Examples:
-- `/#/disney-characters/from/person-mickey-mouse/to/person-minnie-mouse`
-- `/#/enlightenment/from/person-voltaire/to/person-frederick-great`
-
-Note: Edge URLs show **all edges** between the source and target nodes on a single page, since multiple relationships may exist between the same pair of entities.
-
-### Standalone Resource Pages
-
-- **Node Detail Page**: Renders the same content as the infobox panel (title, type, dates, description, biography, image, external links, etc.) but as a full standalone page
-- **Edge Detail Page**: Renders edge information (relationship type, evidence, dates) plus summary cards for both source and target nodes. Shows all edges between the pair if multiple exist.
-- **No graph visualization** on these pages—they are pure detail views
-- Consistent styling with the main application
-- Clear navigation back to the graph view ("View in Graph" button)
-
-### Permalink & Share UI
-
-- Add "Permalink" button/icon to the InfoboxPanel that copies the stable URL to clipboard
-- Add "Share" button/icon that opens native share dialog (if available) or copies URL
-- Visual feedback on copy (e.g., "Copied!" toast or icon change)
-- Both buttons should be visible for both nodes and edges
-
-### Meta Tags for SEO & Social Sharing
-
-Each stable page should have dynamic meta tags:
-
-- `<title>`: `{Node Title} | {Dataset Name} | HistoryNet`
-- `<meta name="description">`: Short description from the node/edge
-- `<meta property="og:title">`: Same as title
-- `<meta property="og:description">`: Short description
-- `<meta property="og:type">`: `article` or `website`
-- `<meta property="og:url">`: Canonical URL of the page
-- `<meta property="og:image">`: Node image if available, or default app image
-
-Note: Dynamic meta tags in an SPA require either server-side rendering or a prerendering strategy. For GitHub Pages, consider using `react-helmet` or similar for client-side updates (works for users, limited for crawlers), or document that full SEO requires the Vercel migration in M12.
-
-### Navigation & Back Links
-
-- "View in Graph" button that navigates to `/#/?dataset={id}&selected={node-id}&type=node`
-- Breadcrumb or header showing: `Dataset Name > Node Type > Node Title`
-- If arriving from a graph deep link, browser back button should work correctly
-
----
-
-## Completed: M16 - Network Verification ✅
-
-**Goal**: Implement build-time CLI validation tools that verify all datasets conform to the graph schema before deployment. Invalid or malformed datasets should fail the build, preventing broken data from reaching production.
-
-**Architecture**: TypeScript CLI scripts executed via npm, integrated into the GitHub Actions workflow after the build step. Validation runs against the JSON files in `public/datasets/`.
-
-**Key Principle**: This is **build-time only** validation. No validation code should be shipped to the runtime bundle. The CLI tools live in a separate `scripts/` directory and are excluded from the production build.
-
-**Deliverables**:
-
-### CLI Tool Architecture
-
-Create validation scripts in `scripts/validate-datasets/`:
-
-```
-scripts/
-└── validate-datasets/
-    ├── index.ts           # Main entry point
-    ├── validators/
-    │   ├── json-syntax.ts    # JSON parsing validation
-    │   ├── manifest.ts       # Manifest schema validation
-    │   ├── nodes.ts          # Node schema validation
-    │   ├── edges.ts          # Edge schema validation
-    │   └── cross-references.ts # Referential integrity
-    ├── types.ts           # Validation types and interfaces
-    └── reporter.ts        # Output formatting (errors, warnings, summary)
-```
-
-### JSON Syntax Validation
-- Verify all JSON files parse without errors
-- Report specific parsing errors with line numbers when possible
-- Validate file encoding (UTF-8)
-
-### Manifest Validation
-- Required fields: `id`, `name`
-- Recommended fields warning: `description`, `lastUpdated`, `version`
-- Verify `id` matches directory name
-- Validate `customRelationshipTypes` structure if present
-
-### Node Validation
-- **Required fields**: `id`, `type`, `title`
-- **Type validation**: `type` must be one of `"person"`, `"object"`, `"location"`, `"entity"`
-- **ID format**: Warning if ID doesn't follow `{type}-{slug}` pattern
-- **Date validation**: If `dateStart` or `dateEnd` present, validate ISO 8601 or year-only format
-- **URL validation**: If `imageUrl` or `externalLinks` present, validate URL format
-- **Type-specific fields**: Warn if type-specific recommended fields missing (e.g., `biography` for persons, `objectType` for objects)
-- **Duplicate detection**: Error if multiple nodes share the same ID
-
-### Edge Validation
-- **Required fields**: `id`, `source`, `target`, `relationship`
-- **Relationship type**: Validate against known types or documented custom types in manifest
-- **Date validation**: Same rules as nodes
-- **Evidence warning**: Warning if edge lacks `evidence`, `evidenceNodeId`, or `evidenceUrl`
-- **Duplicate detection**: Error if multiple edges share the same ID
-
-### Cross-Reference Validation
-- **Referential integrity**: Every `source` and `target` in edges must exist in nodes
-- **Orphan detection**: Warning for nodes with no connected edges (configurable)
-- **Evidence node validation**: If `evidenceNodeId` specified, verify it exists in nodes
-- **Internal link validation**: Validate any node ID references in custom fields
-
-### npm Scripts
-
-Add to `package.json`:
-
-```json
-{
-  "scripts": {
-    "validate:datasets": "npx tsx scripts/validate-datasets/index.ts",
-    "validate:datasets:strict": "npx tsx scripts/validate-datasets/index.ts --strict"
-  }
-}
-```
-
-Options:
-- `--strict`: Treat warnings as errors
-- `--dataset <id>`: Validate only a specific dataset
-- `--quiet`: Only output errors and final summary
-- `--json`: Output results as JSON (for CI parsing)
-
-### Output Format
-
-Human-readable output with severity levels:
-
-```
-🔍 Validating datasets...
-
-📁 disney-characters/
-  ✅ manifest.json - valid
-  ✅ nodes.json - valid (47 nodes)
-  ⚠️  edges.json - 3 warnings
-     └─ edge-001: missing evidence field
-     └─ edge-015: missing evidence field
-     └─ edge-023: missing evidence field
-  ✅ Cross-references valid
-
-📁 enlightenment/
-  ✅ manifest.json - valid
-  ❌ nodes.json - 1 error
-     └─ person-voltaire-2: duplicate node ID (line 45)
-  ⏭️  Skipping further validation due to errors
-
-📊 Summary:
-   Datasets: 4 checked, 3 passed, 1 failed
-   Errors: 1
-   Warnings: 3
-
-❌ Validation failed
-```
-
-### GitHub Actions Integration
-
-Update `.github/workflows/deploy.yml` to add validation step:
-
-```yaml
-- name: Validate datasets
-  run: npm run validate:datasets
-
-- name: Build for production
-  run: npm run build
-```
-
-Validation runs **before** build to fail fast. Build artifacts are not created if datasets are invalid.
-
-### Error Categories
-
-| Category | Severity | Build Impact |
-|----------|----------|--------------|
-| JSON parse error | Error | ❌ Fails build |
-| Missing required field | Error | ❌ Fails build |
-| Invalid node type | Error | ❌ Fails build |
-| Duplicate ID | Error | ❌ Fails build |
-| Broken reference (source/target) | Error | ❌ Fails build |
-| Invalid date format | Error | ❌ Fails build |
-| Missing recommended field | Warning | ⚠️ Logged only |
-| Missing evidence | Warning | ⚠️ Logged only |
-| Orphan node | Warning | ⚠️ Logged only |
-| Non-standard ID format | Warning | ⚠️ Logged only |
-
-### Development Dependencies
-
-Add to `devDependencies`:
-- `tsx` - TypeScript execution (already likely present)
-- `zod` - Schema validation (recommended for type-safe validation)
-
-### Tasks
-
-1. [x] Create `scripts/validate-datasets/` directory structure
-2. [x] Implement JSON syntax validator
-3. [x] Implement manifest schema validator
-4. [x] Implement node schema validator with type-specific rules
-5. [x] Implement edge schema validator
-6. [x] Implement cross-reference validator
-7. [x] Implement reporter with colored output and summary
-8. [x] Add CLI argument parsing (--strict, --dataset, --quiet, --json)
-9. [x] Add npm scripts to package.json
-10. [x] Update GitHub Actions workflow to run validation before build
-11. [x] Add validation documentation to AGENTS.md
-12. [x] Test against all existing datasets, fix any discovered issues
 
 ---
 
@@ -633,6 +392,91 @@ Replace the floating FilterPanel overlay with a dedicated drawer or modal on mob
 
 ---
 
+## Future: M19 - Radial/Ego-Network View
+
+**Goal**: Add a radial (ego-network) visualization layout that displays a selected node at the center with its direct connections arranged in a ring around it. This provides a focused, clutter-free view of a single node's relationships—answering "Who was connected to this person?" without the visual noise of the full graph.
+
+**Design Decisions**:
+
+| Decision | Choice |
+|----------|--------|
+| Center node selection | Uses current selection—radial view is only available when a node is selected |
+| Degrees of separation | 1 degree initially (direct connections only) |
+| Empty state | "Select a node to explore its connections" prompt |
+| Filter interaction | Filters apply to both center node eligibility AND visible connected nodes |
+| Ring arrangement | Distance from center = degree of separation |
+| Edge rendering | Curved arcs to reduce visual clutter |
+| Node styling | Same shapes/colors as force-directed graph (consistency) |
+
+**Conditional Availability**: The radial layout option in the LayoutSwitcher should be disabled/hidden when no node is selected. This prevents users from switching to an empty view.
+
+**Deliverables**:
+
+### Layout Component
+- `RadialLayout.tsx` component implementing the `LayoutComponentProps` interface
+- D3-based radial positioning with center node and surrounding ring
+- Curved arc edges connecting center to peripheral nodes
+- Same zoom/pan controls as other layouts
+- Consistent node shapes and colors (reuse `graphColors.ts`)
+
+### LayoutSwitcher Enhancement
+- Add "Radial" option to the layout switcher
+- Conditionally enable/disable based on node selection state
+- Visual indication when radial is unavailable (grayed out, tooltip explaining why)
+- Icon consistent with existing layout icons
+
+### Type System Updates
+- Extend `LayoutType` to include `'radial'`
+- Update `useLayout` hook with radial layout metadata
+- Update `MainLayout.tsx` switch statement to render `RadialLayout`
+
+### Filter Integration
+- Filters apply to connected nodes (hide connections that don't pass filters)
+- If center node doesn't pass filters, show appropriate message or fall back to graph view
+- URL state for layout persists (`?layout=radial`)
+
+### Infobox Integration
+- Clicking center node updates infobox (even though it's already "selected")
+- Clicking peripheral nodes updates selection AND re-centers the radial view on that node
+- Clicking edges shows edge details in infobox
+- Selection state syncs with URL
+
+### Empty/Invalid States
+- No selection: Show prompt "Select a node to explore its connections"
+- Selection is edge (not node): Show prompt or fall back to graph view
+- Center node filtered out: Show message or fall back to graph view
+
+**Visual Design**:
+
+```
+        ┌─────┐
+       ╱       ╲
+    ┌─┴─┐   ┌─┴─┐
+    │ B │   │ C │
+    └─┬─┘   └─┬─┘
+       ╲     ╱
+        ╲   ╱  (curved arcs)
+         ╲ ╱
+       ┌─────┐
+       │  A  │  ← Center (selected node)
+       └─────┘
+         ╱ ╲
+        ╱   ╲
+       ╱     ╲
+    ┌─┴─┐   ┌─┴─┐
+    │ D │   │ E │
+    └───┘   └───┘
+```
+
+**Technical Notes**:
+- Reuse existing D3 zoom/pan infrastructure from `ForceGraphLayout`
+- Reuse node rendering logic and colors from `graphColors.ts`
+- Consider using D3's arc generator for curved edges
+- Peripheral nodes should be evenly distributed around the center
+- Handle edge cases: node with 0 connections, node with 50+ connections
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -658,18 +502,18 @@ M1-M8 (MVP Complete) ✅
     ▼
 M9-M11, M13, M14 (Polish Complete) ✅
     │
-    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼                  ▼                  ▼
-   M12                M15 ✅             M16 ✅             M17                M18
-   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)   (Mobile Adapt)
-   [Vercel req'd]    [Complete]         [Complete]         [independent]      [independent]
+    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼                  ▼                  ▼                  ▼
+   M12                M15 ✅             M16 ✅             M17                M18                M19
+   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)   (Mobile Adapt)    (Radial View)
+   [Vercel req'd]    [Complete]         [Complete]         [independent]      [independent]     [independent]
 ```
 
-Note: M12, M15, M16, M17, and M18 can be worked on in parallel as they have no dependencies on each other. However:
-- If M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
-- M16 is particularly high-value as it improves data quality for all future dataset development and catches errors before deployment.
-- M17 becomes more valuable as more datasets are added—currently lower priority with only 4 datasets, but will become essential as the collection grows.
-- M18 (Mobile Adapt) is independent and can be started anytime. Recommended to complete before M12 since mobile users will benefit from the feedback system.
+Note: Remaining milestones M12, M17, M18, and M19 can be worked on in parallel:
+- **M12 (User Feedback)**: Should integrate with stable resource pages (M15 complete) for per-item feedback. Requires Vercel migration for serverless functions.
+- **M17 (Dataset Search)**: Becomes more valuable as more datasets are added—currently lower priority with only 4 datasets.
+- **M18 (Mobile Adapt)**: Independent and can be started anytime. Recommended to complete before M12 since mobile users will benefit from the feedback system.
+- **M19 (Radial View)**: Independent visualization layout. Builds on existing layout infrastructure (LayoutSwitcher, useLayout hook). Consider coordinating with M18 to ensure radial view works on mobile.
 
 ---
 
