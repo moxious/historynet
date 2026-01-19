@@ -78,10 +78,30 @@ function Header() {
     return (
       <>
         <header className="header header--mobile">
-          {/* Brand - always visible, links to homepage */}
-          <Link to="/" className="header__brand header__brand--mobile header__brand-link">
-            <h1 className="header__title">🧠 Scenius</h1>
-          </Link>
+          {/* Back button on explore route, or Brand on other routes */}
+          {isExploreRoute && currentDatasetId ? (
+            <Link 
+              to={`/${encodeURIComponent(currentDatasetId)}`} 
+              className="header__back-link header__back-link--mobile"
+              aria-label="Back to dataset overview"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                aria-hidden="true"
+              >
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+              </svg>
+            </Link>
+          ) : (
+            <Link to="/" className="header__brand header__brand--mobile header__brand-link">
+              <h1 className="header__title">🧠 Scenius</h1>
+            </Link>
+          )}
 
           {/* Mobile controls */}
           <div className="header__mobile-controls">
@@ -159,6 +179,27 @@ function Header() {
         <span className="header__tagline">Mapping collective genius</span>
       </Link>
       <div className="header__controls">
+        {/* Back button - only shown on explore route */}
+        {isExploreRoute && currentDatasetId && (
+          <Link 
+            to={`/${encodeURIComponent(currentDatasetId)}`} 
+            className="header__back-link"
+            aria-label="Back to dataset overview"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              aria-hidden="true"
+            >
+              <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+            <span className="header__back-label">Back</span>
+          </Link>
+        )}
         {/* Visualization controls - only shown on explore route */}
         {isExploreRoute && (
           <>

@@ -84,6 +84,53 @@
   }
 }
 
+/* Back link - contextual navigation */
+.header__back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  color: var(--color-text-secondary, var(--color-text));
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.header__back-link:hover {
+  background-color: var(--color-surface-hover);
+  border-color: var(--color-border-focus);
+  color: var(--color-text);
+}
+
+.header__back-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.header__back-link svg {
+  flex-shrink: 0;
+}
+
+.header__back-label {
+  line-height: 1;
+}
+
+/* Mobile back link - icon only, 44px touch target */
+.header__back-link--mobile {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  justify-content: center;
+}
+
+.header__back-link--mobile .header__back-label {
+  display: none;
+}
+
 /* ============================================
    Mobile Header Styles
    ============================================ */

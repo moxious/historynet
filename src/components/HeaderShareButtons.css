@@ -1,7 +1,9 @@
 /**
  * HeaderShareButtons styles
  * 
- * Compact emoji-based buttons with 44px touch targets for mobile accessibility.
+ * Button styling with SVG icons and responsive labels.
+ * Labels hidden on mobile, visible on desktop.
+ * 44px min touch targets for mobile accessibility.
  */
 
 .header-share-buttons {
@@ -18,16 +20,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background-color: var(--color-surface);
+  color: var(--color-text-secondary, var(--color-text));
   cursor: pointer;
-  transition: background-color 0.15s, border-color 0.15s, transform 0.1s;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .header-share-buttons__button:hover {
   background-color: var(--color-surface-hover);
   border-color: var(--color-border-focus);
+  color: var(--color-text);
 }
 
 .header-share-buttons__button:focus-visible {
@@ -39,41 +46,45 @@
   transform: scale(0.95);
 }
 
-/* Success state */
-.header-share-buttons__button--success {
-  border-color: var(--success-color, #10b981);
-  animation: header-share-success 0.2s ease-out;
+/* Icon styling */
+.header-share-buttons__icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
 }
 
-@keyframes header-share-success {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.08);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-/* Emoji/text styling */
-.header-share-buttons__emoji {
-  font-size: 14px;
-  font-weight: 500;
+/* Label - hidden on mobile, visible on desktop */
+.header-share-buttons__label {
+  display: none;
   line-height: 1;
   white-space: nowrap;
 }
 
-/* Desktop-specific adjustments - slightly smaller buttons */
+/* Desktop-specific adjustments */
 @media (min-width: 640px) {
   .header-share-buttons__button {
-    min-width: 36px;
+    min-width: auto;
     height: 36px;
-    padding: 0 10px;
+    padding: 0 12px;
   }
 
-  .header-share-buttons__emoji {
-    font-size: 13px;
+  .header-share-buttons__label {
+    display: inline;
+  }
+
+  .header-share-buttons__icon {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Larger screens - more spacing */
+@media (min-width: 1024px) {
+  .header-share-buttons {
+    gap: 8px;
+  }
+
+  .header-share-buttons__button {
+    padding: 0 14px;
   }
 }
