@@ -394,6 +394,110 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 
 ---
 
+## M22: Sourcing from Wikimedia
+
+**Goal**: Dynamically fetch supplementary data (summaries, images) from the Wikimedia API for nodes that lack this information locally. Node metadata always takes precedence, with Wikimedia providing fallback enrichment.
+
+**API Client**: Use the [`wikipedia`](https://www.npmjs.com/package/wikipedia) npm package—a full-featured TypeScript client that wraps the Wikipedia REST API. No authentication required for read-only access (500 req/hour rate limit per IP).
+
+### Phase 1: Schema & Infrastructure
+
+- [ ] **WM1** - Add `wikipediaTitle` optional field to `GRAPH_SCHEMA.md`
+  - Document as mapping hint for Wikipedia page title
+  - Example: `"wikipediaTitle": "Geoffrey_Hinton"` for explicit mapping
+  - If absent, fall back to node `title` for lookup
+- [ ] **WM2** - Update TypeScript types in `src/types/` to include `wikipediaTitle` field on nodes
+- [ ] **WM3** - Update dataset validation to accept `wikipediaTitle` as valid optional field
+- [ ] **WM4** - Install `wikipedia` npm package: `npm install wikipedia`
+- [ ] **WM5** - Verify package works in browser environment (Vite build)
+  - Some npm packages are Node-only; test basic fetch in dev
+
+### Phase 2: Wikipedia Service
+
+- [ ] **WM6** - Create `src/services/wikipedia.ts` service module
+  - Wrap the `wikipedia` package with app-specific interface
+  - Export `fetchWikipediaSummary(title: string)` function
+  - Return type: `{ extract: string; thumbnail?: { source: string; width: number; height: number } }`
+- [ ] **WM7** - Implement error handling in service
+  - Handle page-not-found (return null, don't throw)
+  - Handle network errors gracefully
+  - Handle disambiguation pages (return null or first result)
+- [ ] **WM8** - Add request timeout (5 seconds) to prevent UI blocking
+- [ ] **WM9** - Create `WikipediaData` TypeScript interface for response shape
+- [ ] **WM10** - Export service from `src/services/index.ts` barrel file
+
+### Phase 3: Caching Layer
+
+- [ ] **WM11** - Create `src/hooks/useWikipediaData.ts` hook
+  - Input: node (with optional `wikipediaTitle` and `title`)
+  - Output: `{ data: WikipediaData | null; loading: boolean; error: string | null }`
+- [ ] **WM12** - Implement in-memory cache (Map or object)
+  - Key: Wikipedia title (normalized)
+  - Value: API response or null (for 404s)
+  - TTL: session-based (no expiry during session)
+- [ ] **WM13** - Implement localStorage persistence for cache
+  - Store cache on unmount or periodically
+  - Restore cache on mount
+  - Include timestamp for optional expiry (24 hours suggested)
+- [ ] **WM14** - Add cache hit/miss logging for debugging (dev mode only)
+- [ ] **WM15** - Handle rate limiting: if 429 response, back off and show cached/empty
+
+### Phase 4: Fallback Logic
+
+- [ ] **WM16** - Design fallback priority for biography/description:
+  1. Node's `biography` field (if present and non-empty)
+  2. Node's `shortDescription` field (if present and non-empty)
+  3. Wikipedia `extract` (fetched via API)
+  4. Empty state with "No description available"
+- [ ] **WM17** - Design fallback priority for images:
+  1. Node's `imageUrl` field (if present and valid)
+  2. Wikipedia `thumbnail.source` (fetched via API)
+  3. Placeholder or no image
+- [ ] **WM18** - Create `useNodeEnrichedData` hook that combines node data + Wikipedia fallback
+  - Returns unified shape regardless of source
+  - Indicates source of each field for transparency (optional)
+- [ ] **WM19** - Add loading state UI while Wikipedia data is being fetched
+
+### Phase 5: UI Integration
+
+- [ ] **WM20** - Update `InfoboxPanel` to use `useNodeEnrichedData` hook
+  - Replace direct node field access with enriched data
+  - Show loading spinner/skeleton while fetching
+- [ ] **WM21** - Update `NodeDetailPage` to use enriched data
+  - Same fallback logic as InfoboxPanel
+- [ ] **WM22** - Add visual indicator when data is sourced from Wikipedia
+  - Small "via Wikipedia" text or icon near enriched content
+  - Links to Wikipedia article
+- [ ] **WM23** - Style loading state (skeleton or subtle spinner)
+- [ ] **WM24** - Style error state (unobtrusive, doesn't break layout)
+- [ ] **WM25** - Ensure Wikipedia images respect aspect ratio and max dimensions
+
+### Phase 6: Dataset Enhancement (Optional)
+
+- [ ] **WM26** - Add `wikipediaTitle` to AI-LLM Research dataset nodes
+  - Focus on persons and major entities
+  - Use Wikipedia page title (underscores, exact casing)
+- [ ] **WM27** - Add `wikipediaTitle` to Rosicrucian Network dataset nodes
+- [ ] **WM28** - Add `wikipediaTitle` to other datasets as time permits
+- [ ] **WM29** - Document `wikipediaTitle` mapping in dataset README or manifest
+
+### Phase 7: Testing & Verification
+
+- [ ] **WM30** - Test with node that has full local data (Wikipedia should not be called)
+- [ ] **WM31** - Test with node missing biography (Wikipedia summary should appear)
+- [ ] **WM32** - Test with node missing imageUrl (Wikipedia thumbnail should appear)
+- [ ] **WM33** - Test with node that has no Wikipedia article (graceful fallback)
+- [ ] **WM34** - Test with network offline (cached data or graceful empty state)
+- [ ] **WM35** - Test cache persistence (reload page, data should load from cache)
+- [ ] **WM36** - Test rate limiting behavior (mock 429 response)
+- [ ] **WM37** - Verify no console errors in production build
+- [ ] **WM38** - Lighthouse performance audit (Wikipedia fetching shouldn't block render)
+- [ ] **WM39** - Build passes with no errors
+- [ ] **WM40** - No linter warnings in new/modified files
+- [ ] **WM41** - Update CHANGELOG.md with M22 completion notes
+
+---
+
 ## Notes & Decisions
 
 _Add notes about implementation decisions, blockers, or clarifications here._

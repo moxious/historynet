@@ -25,6 +25,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M19 | Radial/Ego-Network View | ✅ Complete |
 | M20 | SEO Improvements | 🔲 Future |
 | M21 | Image Asset Management | 🔲 Future |
+| M22 | Sourcing from Wikimedia | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -130,6 +131,33 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 ---
 
+## Future: M22 - Sourcing from Wikimedia
+
+**Goal**: Dynamically fetch supplementary data (summaries, images) from the Wikimedia API for nodes that lack this information locally. Node metadata always takes precedence, with Wikimedia providing fallback enrichment.
+
+**Problem**: Maintaining biographical text and images for hundreds of nodes is labor-intensive and prone to staleness. Wikipedia already has well-maintained content for most historical figures and locations.
+
+**Approach**: 
+- Use the `wikipedia` npm package (TypeScript, uses Wikipedia REST API, no authentication required)
+- Add optional `wikipediaTitle` field to nodes for explicit mapping
+- Fallback behavior: display node's own `biography`/`imageUrl` if present; fetch from Wikipedia only if missing
+- Cache API responses to reduce calls and improve performance
+
+**Key Deliverables**:
+- Wikipedia service module using the `wikipedia` npm package
+- `useWikipediaData` hook for fetching/caching summaries and images
+- `wikipediaTitle` optional field added to node schema
+- Fallback logic in InfoboxPanel: node data → Wikipedia API → graceful empty state
+- Caching layer (in-memory and/or localStorage) to minimize API calls
+- Rate limiting awareness (500 req/hour per IP for anonymous access)
+- Error handling for missing pages, network failures, rate limits
+
+**Rate Limits**: Wikipedia REST API allows 500 requests/hour per IP without authentication. Since this is a client-side app, each user has their own limit. Caching makes this ample for normal browsing.
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -155,18 +183,19 @@ M1-M8 (MVP Complete) ✅
     ▼
 M9-M11, M13-M16, M18-M19 (All Polish Complete) ✅
     │
-    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼                  ▼                  ▼
-   M12                M17                M20                M21           (Future)
-   (User Feedback)   (Dataset Search)   (SEO)          (Images)
-   [Vercel req'd]    [independent]      [independent]  [independent]
+    ├────────────────┬────────────────┬────────────────┬────────────────┬────────────────┐
+    ▼                ▼                ▼                ▼                ▼                ▼
+   M12              M17              M20              M21              M22          (Future)
+   (Feedback)   (Dataset Search)   (SEO)          (Images)        (Wikimedia)
+   [Vercel req'd]  [independent]   [independent]  [independent]   [independent]
 ```
 
-Note: Remaining milestones M12, M17, M20, and M21 can be worked on in parallel:
+Note: Remaining milestones M12, M17, M20, M21, and M22 can be worked on in parallel:
 - **M12 (User Feedback)**: Requires Vercel migration for serverless functions.
 - **M17 (Dataset Search)**: Becomes more valuable as more datasets are added.
 - **M20 (SEO Improvements)**: Independent and can be started anytime.
 - **M21 (Image Asset Management)**: Independent; fixes broken Wikimedia image URLs.
+- **M22 (Sourcing from Wikimedia)**: Independent; dynamically enriches nodes from Wikipedia API.
 
 ---
 
