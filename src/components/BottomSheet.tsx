@@ -22,8 +22,10 @@ interface BottomSheetProps {
   isOpen: boolean;
   /** Callback when sheet is dismissed (swiped down from peek) */
   onClose: () => void;
-  /** Title displayed in the sheet header */
-  title?: string;
+  /** Title displayed in the sheet header (can be string or React node) */
+  title?: React.ReactNode;
+  /** Plain text version of title for aria-label (required if title is a React node) */
+  titleText?: string;
   /** Content to display in the sheet */
   children: React.ReactNode;
   /** Initial state when opened */
@@ -49,6 +51,7 @@ function BottomSheet({
   isOpen,
   onClose,
   title,
+  titleText,
   children,
   initialState = 'peek',
   className = '',
@@ -196,7 +199,7 @@ function BottomSheet({
       onTouchEnd={handleTouchEnd}
       role="dialog"
       aria-modal="true"
-      aria-label={title || 'Details'}
+      aria-label={titleText || (typeof title === 'string' ? title : 'Details')}
     >
       {/* Drag handle */}
       <div className="bottom-sheet__handle-area">
@@ -205,7 +208,7 @@ function BottomSheet({
 
       {/* Header */}
       <div className="bottom-sheet__header">
-        <h2 className="bottom-sheet__title" title={title}>
+        <h2 className="bottom-sheet__title" title={titleText || (typeof title === 'string' ? title : undefined)}>
           {title || 'Details'}
         </h2>
         <button

@@ -7,16 +7,15 @@
  * Features:
  * - Escape key to close the panel
  * - Accessible with proper ARIA labels
- * - Permalink and Share buttons for stable resource URLs
+ * - Link to node/edge detail page from title
  */
 
-import { useEffect, useMemo } from 'react';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useGraph } from '@contexts';
 import type { GraphNode, GraphEdge } from '@types';
-import { buildFullNodeUrl, buildFullEdgeUrl } from '@hooks/useResourceParams';
 import NodeInfobox from './NodeInfobox';
 import EdgeInfobox from './EdgeInfobox';
-import ShareButtons from './ShareButtons';
 import './InfoboxPanel.css';
 
 /**
@@ -35,6 +34,24 @@ function isNode(item: GraphNode | GraphEdge): item is GraphNode {
  */
 function isEdge(item: GraphNode | GraphEdge): item is GraphEdge {
   return 'relationship' in item && 'source' in item && 'target' in item;
+}
+
+/**
+ * Get emoji for node type
+ */
+function getNodeTypeEmoji(type: string): string {
+  switch (type) {
+    case 'person':
+      return '👤';
+    case 'object':
+      return '📜';
+    case 'location':
+      return '📍';
+    case 'entity':
+      return '🏛️';
+    default:
+      return '📄';
+  }
 }
 
 interface InfoboxPanelProps {
@@ -73,27 +90,12 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
     selectNode(nodeId);
   };
 
-  // Build stable URL for current selection (for permalink/share)
-  const stableUrl = useMemo(() => {
-    if (!selectedItem || !currentDatasetId) return '';
-    
-    if (isNode(selectedItem)) {
-      return buildFullNodeUrl(currentDatasetId, selectedItem.id);
-    }
-    
-    if (isEdge(selectedItem)) {
-      return buildFullEdgeUrl(currentDatasetId, selectedItem.source, selectedItem.target);
-    }
-    
-    return '';
-  }, [selectedItem, currentDatasetId]);
-
   // If nothing selected, hide the panel completely
   if (!selectedItem) {
     return null;
   }
 
-  // Get the title for the panel header
+  // Get the title for the panel header (without emoji)
   const getTitle = (): string => {
     if (isNode(selectedItem)) {
       return selectedItem.title;
@@ -110,11 +112,45 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
     return 'Details';
   };
 
+  // Build the detail page URL for the selected item
+  const getDetailUrl = (): string | null => {
+    if (!currentDatasetId) return null;
+    
+    if (isNode(selectedItem)) {
+      return `/${encodeURIComponent(currentDatasetId)}/node/${encodeURIComponent(selectedItem.id)}`;
+    }
+    
+    if (isEdge(selectedItem)) {
+      return `/${encodeURIComponent(currentDatasetId)}/edge/${encodeURIComponent(selectedItem.source)}/${encodeURIComponent(selectedItem.target)}`;
+    }
+    
+    return null;
+  };
+
+  const detailUrl = getDetailUrl();
+
   return (
     <aside className={`infobox-panel ${className}`} aria-label="Details panel">
       <div className="infobox-panel__header">
         <h2 className="infobox-panel__title" title={getTitle()}>
-          {getTitle()}
+          {isNode(selectedItem) && (
+            <span className="infobox-panel__title-emoji" role="img" aria-label={`${selectedItem.type} icon`}>
+              {getNodeTypeEmoji(selectedItem.type)}
+            </span>
+          )}
+          <span className="infobox-panel__title-text">{getTitle()}</span>
+          {detailUrl && (
+            <Link
+              to={detailUrl}
+              className="infobox-panel__title-link"
+              aria-label={`View ${getTitle()} detail page`}
+              title="View detail page"
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+              </svg>
+            </Link>
+          )}
         </h2>
         <button
           className="infobox-panel__close-button"
@@ -127,19 +163,6 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
           </svg>
         </button>
       </div>
-
-      {/* Share buttons for stable resource URLs (M15) */}
-      {stableUrl && (
-        <div className="infobox-panel__share">
-          <ShareButtons
-            url={stableUrl}
-            title={getTitle()}
-            description={isNode(selectedItem) ? selectedItem.shortDescription : undefined}
-            variant="inline"
-            size="small"
-          />
-        </div>
-      )}
 
       <div className="infobox-panel__content">
         {isNode(selectedItem) && (

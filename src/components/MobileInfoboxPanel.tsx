@@ -11,14 +11,12 @@
  * - Preserves all InfoboxPanel functionality
  */
 
-import { useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { useGraph } from '@contexts';
 import type { GraphNode, GraphEdge } from '@types';
-import { buildFullNodeUrl, buildFullEdgeUrl } from '@hooks/useResourceParams';
 import BottomSheet from './BottomSheet';
 import NodeInfobox from './NodeInfobox';
 import EdgeInfobox from './EdgeInfobox';
-import ShareButtons from './ShareButtons';
 import './MobileInfoboxPanel.css';
 
 /**
@@ -39,6 +37,24 @@ function isEdge(item: GraphNode | GraphEdge): item is GraphEdge {
   return 'relationship' in item && 'source' in item && 'target' in item;
 }
 
+/**
+ * Get emoji for node type
+ */
+function getNodeTypeEmoji(type: string): string {
+  switch (type) {
+    case 'person':
+      return '👤';
+    case 'object':
+      return '📜';
+    case 'location':
+      return '📍';
+    case 'entity':
+      return '🏛️';
+    default:
+      return '📄';
+  }
+}
+
 function MobileInfoboxPanel() {
   const { selectedItem, clearSelection, selectNode, getNode, getEdgesForNode, graphData, currentDatasetId } = useGraph();
 
@@ -47,8 +63,8 @@ function MobileInfoboxPanel() {
     selectNode(nodeId);
   };
 
-  // Get the title for the sheet header
-  const getTitle = (): string => {
+  // Get the plain text title for the sheet header
+  const getTitleText = (): string => {
     if (!selectedItem) return 'Details';
     
     if (isNode(selectedItem)) {
@@ -66,44 +82,63 @@ function MobileInfoboxPanel() {
     return 'Details';
   };
 
-  // Build stable URL for current selection (for permalink/share)
-  const stableUrl = useMemo(() => {
-    if (!selectedItem || !currentDatasetId) return '';
+  // Build the detail page URL for the selected item
+  const getDetailUrl = (): string | null => {
+    if (!currentDatasetId || !selectedItem) return null;
     
     if (isNode(selectedItem)) {
-      return buildFullNodeUrl(currentDatasetId, selectedItem.id);
+      return `/${encodeURIComponent(currentDatasetId)}/node/${encodeURIComponent(selectedItem.id)}`;
     }
     
     if (isEdge(selectedItem)) {
-      return buildFullEdgeUrl(currentDatasetId, selectedItem.source, selectedItem.target);
+      return `/${encodeURIComponent(currentDatasetId)}/edge/${encodeURIComponent(selectedItem.source)}/${encodeURIComponent(selectedItem.target)}`;
     }
     
-    return '';
-  }, [selectedItem, currentDatasetId]);
+    return null;
+  };
+
+  const titleText = getTitleText();
+  const detailUrl = getDetailUrl();
+
+  // Build the title with emoji and link
+  const renderTitle = () => {
+    if (!selectedItem) return 'Details';
+    
+    return (
+      <span className="mobile-infobox-panel__title">
+        {isNode(selectedItem) && (
+          <span className="mobile-infobox-panel__title-emoji" role="img" aria-label={`${selectedItem.type} icon`}>
+            {getNodeTypeEmoji(selectedItem.type)}
+          </span>
+        )}
+        <span className="mobile-infobox-panel__title-text">{titleText}</span>
+        {detailUrl && (
+          <Link
+            to={detailUrl}
+            className="mobile-infobox-panel__title-link"
+            aria-label={`View ${titleText} detail page`}
+            title="View detail page"
+          >
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" />
+            </svg>
+          </Link>
+        )}
+      </span>
+    );
+  };
 
   return (
     <BottomSheet
       isOpen={!!selectedItem}
       onClose={clearSelection}
-      title={getTitle()}
+      title={renderTitle()}
+      titleText={titleText}
       initialState="peek"
       className="mobile-infobox-panel"
     >
       {selectedItem && (
         <div className="mobile-infobox-panel__content">
-          {/* Share buttons */}
-          {stableUrl && (
-            <div className="mobile-infobox-panel__share">
-              <ShareButtons
-                url={stableUrl}
-                title={getTitle()}
-                description={isNode(selectedItem) ? selectedItem.shortDescription : undefined}
-                variant="inline"
-                size="small"
-              />
-            </div>
-          )}
-
           {/* Node or Edge content */}
           {isNode(selectedItem) && (
             <NodeInfobox

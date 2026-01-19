@@ -8,10 +8,46 @@
   /* No extra padding - BottomSheet handles it */
 }
 
-.mobile-infobox-panel__share {
-  margin-bottom: var(--spacing-md);
-  padding-bottom: var(--spacing-md);
-  border-bottom: 1px solid var(--color-border);
+/* Title with emoji and link */
+.mobile-infobox-panel__title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  min-width: 0;
+  flex: 1;
+}
+
+.mobile-infobox-panel__title-emoji {
+  flex-shrink: 0;
+}
+
+.mobile-infobox-panel__title-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.mobile-infobox-panel__title-link {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: var(--color-text-muted);
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.mobile-infobox-panel__title-link:hover {
+  background-color: var(--color-border);
+  color: var(--color-primary);
+}
+
+.mobile-infobox-panel__title-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 /* Reuse existing NodeInfobox and EdgeInfobox styles */

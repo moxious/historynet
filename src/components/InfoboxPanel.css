@@ -58,6 +58,43 @@
   text-overflow: ellipsis;
   flex: 1;
   margin-right: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.infobox-panel__title-emoji {
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+}
+
+.infobox-panel__title-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.infobox-panel__title-link {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  color: var(--color-text-muted);
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.infobox-panel__title-link:hover {
+  background-color: var(--color-border);
+  color: var(--color-primary);
+}
+
+.infobox-panel__title-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .infobox-panel__close-button {
@@ -83,13 +120,6 @@
 .infobox-panel__close-button:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
-}
-
-/* Share Buttons Section (M15 - Stable Resource URLs) */
-.infobox-panel__share {
-  padding: var(--spacing-sm) var(--spacing-md);
-  border-bottom: 1px solid var(--color-border);
-  background-color: var(--color-background);
 }
 
 /* Panel Content */
