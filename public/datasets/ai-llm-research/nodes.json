@@ -1731,5 +1731,334 @@
     "dateStart": "2021",
     "foundedBy": ["person-noam-shazeer"],
     "headquarters": "location-san-francisco"
+  },
+  {
+    "id": "entity-amazon-ai",
+    "type": "entity",
+    "title": "Amazon AI / AWS",
+    "entityType": "AI research division",
+    "shortDescription": "Amazon's AI research and cloud AI services division; creator of Nova models",
+    "dateStart": "2016",
+    "headquarters": "location-seattle"
+  },
+  {
+    "id": "entity-microsoft-ai",
+    "type": "entity",
+    "title": "Microsoft AI",
+    "entityType": "AI research division",
+    "shortDescription": "Microsoft's AI division led by Mustafa Suleyman; major OpenAI investor",
+    "dateStart": "2024-03",
+    "headquarters": "location-redmond"
+  },
+  {
+    "id": "location-seattle",
+    "type": "location",
+    "title": "Seattle, Washington",
+    "locationType": "city",
+    "shortDescription": "Amazon headquarters; Microsoft nearby; major tech hub",
+    "country": "United States",
+    "coordinates": {"lat": 47.6062, "lng": -122.3321}
+  },
+  {
+    "id": "location-redmond",
+    "type": "location",
+    "title": "Redmond, Washington",
+    "locationType": "city",
+    "shortDescription": "Microsoft headquarters",
+    "country": "United States",
+    "coordinates": {"lat": 47.6740, "lng": -122.1215}
+  },
+  {
+    "id": "object-gpt4o",
+    "type": "object",
+    "title": "GPT-4o",
+    "objectType": "AI model",
+    "shortDescription": "OpenAI's 'Omni' multimodal model; accepts text, image, and audio; faster and cheaper than GPT-4",
+    "dateStart": "2024-05-13",
+    "subject": "multimodal AI, language models",
+    "externalLinks": [
+      {"label": "OpenAI", "url": "https://openai.com/index/hello-gpt-4o/"}
+    ]
+  },
+  {
+    "id": "object-gpt4o-mini",
+    "type": "object",
+    "title": "GPT-4o mini",
+    "objectType": "AI model",
+    "shortDescription": "Cost-efficient small model; 82% on MMLU; replaced GPT-3.5 Turbo; 128K context",
+    "dateStart": "2024-07-18",
+    "subject": "language models",
+    "externalLinks": [
+      {"label": "OpenAI", "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"}
+    ]
+  },
+  {
+    "id": "object-o1",
+    "type": "object",
+    "title": "o1",
+    "objectType": "AI model",
+    "shortDescription": "OpenAI's first reasoning model; uses chain-of-thought to solve complex problems; preview in Sept 2024, full release Dec 2024",
+    "dateStart": "2024-09-12",
+    "subject": "reasoning AI, language models",
+    "externalLinks": [
+      {"label": "OpenAI", "url": "https://openai.com/index/introducing-openai-o1-preview/"}
+    ]
+  },
+  {
+    "id": "object-o3",
+    "type": "object",
+    "title": "o3",
+    "objectType": "AI model",
+    "shortDescription": "Advanced reasoning model family; o3-mini released Jan 2025, full o3 April 2025; supports visual inputs",
+    "dateStart": "2025-01-31",
+    "subject": "reasoning AI, language models",
+    "externalLinks": [
+      {"label": "OpenAI", "url": "https://openai.com/research/openai-o3-mini/"}
+    ]
+  },
+  {
+    "id": "object-gpt45",
+    "type": "object",
+    "title": "GPT-4.5 (Orion)",
+    "objectType": "AI model",
+    "shortDescription": "Research preview model with enhanced reasoning and 'EQ'; broader knowledge base than GPT-4",
+    "dateStart": "2025-02-27",
+    "subject": "language models",
+    "externalLinks": [
+      {"label": "OpenAI", "url": "https://openai.com/index/introducing-gpt-4-5/"}
+    ]
+  },
+  {
+    "id": "object-claude35-sonnet",
+    "type": "object",
+    "title": "Claude 3.5 Sonnet",
+    "objectType": "AI model",
+    "shortDescription": "Anthropic's mid-tier model that outperformed Claude 3 Opus on many benchmarks; faster and cheaper",
+    "dateStart": "2024-06-20",
+    "subject": "conversational AI, language models",
+    "externalLinks": [
+      {"label": "Anthropic", "url": "https://www.anthropic.com/news/claude-3-5-sonnet"}
+    ]
+  },
+  {
+    "id": "object-claude4",
+    "type": "object",
+    "title": "Claude 4",
+    "objectType": "AI model",
+    "shortDescription": "Anthropic's 4th generation model family (Opus 4, Sonnet 4); major advances in reasoning, planning, and coding",
+    "dateStart": "2025-05-22",
+    "subject": "conversational AI, reasoning AI",
+    "externalLinks": [
+      {"label": "Anthropic", "url": "https://www.anthropic.com/claude/claude-4"}
+    ]
+  },
+  {
+    "id": "object-claude45",
+    "type": "object",
+    "title": "Claude 4.5",
+    "objectType": "AI model",
+    "shortDescription": "Iterative improvement on Claude 4; Sonnet 4.5 Sept 2025, Opus 4.5 Nov 2025; better code generation and autonomy",
+    "dateStart": "2025-09-29",
+    "subject": "conversational AI, agentic AI",
+    "externalLinks": [
+      {"label": "Anthropic", "url": "https://www.anthropic.com/news/claude-4-5"}
+    ]
+  },
+  {
+    "id": "object-gemini15",
+    "type": "object",
+    "title": "Gemini 1.5 Pro",
+    "objectType": "AI model",
+    "shortDescription": "Google DeepMind's mid-2024 model with up to 1M token context window; strong multimodal capabilities",
+    "dateStart": "2024-02",
+    "subject": "multimodal AI, language models",
+    "externalLinks": [
+      {"label": "Google", "url": "https://deepmind.google/technologies/gemini/"}
+    ]
+  },
+  {
+    "id": "object-gemini20",
+    "type": "object",
+    "title": "Gemini 2.0",
+    "objectType": "AI model",
+    "shortDescription": "Google DeepMind's 2nd gen model; Flash experimental Dec 2024, GA Feb 2025; native tool use and multimodal I/O",
+    "dateStart": "2024-12",
+    "subject": "multimodal AI, agentic AI",
+    "externalLinks": [
+      {"label": "Google", "url": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"}
+    ]
+  },
+  {
+    "id": "object-gemini25",
+    "type": "object",
+    "title": "Gemini 2.5",
+    "objectType": "AI model",
+    "shortDescription": "Google DeepMind's latest generation; Flash and Pro stable June 2025; image generation Oct 2025",
+    "dateStart": "2025-06-17",
+    "subject": "multimodal AI, language models",
+    "externalLinks": [
+      {"label": "Google", "url": "https://ai.google.dev/gemini-api/docs/changelog"}
+    ]
+  },
+  {
+    "id": "object-llama31",
+    "type": "object",
+    "title": "LLaMA 3.1",
+    "objectType": "AI model",
+    "shortDescription": "Meta's largest open-weight model; 8B/70B/405B parameters; 128K context; 8 languages; permissive license",
+    "dateStart": "2024-07-23",
+    "creators": ["person-hugo-touvron"],
+    "subject": "language models, open-source AI",
+    "externalLinks": [
+      {"label": "Meta AI", "url": "https://ai.meta.com/blog/meta-llama-3-1/"}
+    ]
+  },
+  {
+    "id": "object-llama32",
+    "type": "object",
+    "title": "LLaMA 3.2",
+    "objectType": "AI model",
+    "shortDescription": "First multimodal LLaMA; 1B-90B parameters; vision understanding; optimized for edge/mobile deployment",
+    "dateStart": "2024-09-25",
+    "creators": ["person-hugo-touvron"],
+    "subject": "multimodal AI, edge AI",
+    "externalLinks": [
+      {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-3-2/"}
+    ]
+  },
+  {
+    "id": "object-llama33",
+    "type": "object",
+    "title": "LLaMA 3.3",
+    "objectType": "AI model",
+    "shortDescription": "Efficient 70B model matching LLaMA 3.1 405B performance at lower cost",
+    "dateStart": "2024-12-06",
+    "subject": "language models",
+    "externalLinks": [
+      {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-3-3/"}
+    ]
+  },
+  {
+    "id": "object-llama4",
+    "type": "object",
+    "title": "LLaMA 4",
+    "objectType": "AI model",
+    "shortDescription": "Meta's 4th gen models (Scout, Maverick); MoE architecture; multimodal; 10M token context; Behemoth in training",
+    "dateStart": "2025-04-05",
+    "subject": "language models, multimodal AI",
+    "externalLinks": [
+      {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-4/"}
+    ]
+  },
+  {
+    "id": "object-mixtral-8x22b",
+    "type": "object",
+    "title": "Mixtral 8x22B",
+    "objectType": "AI model",
+    "shortDescription": "Mistral's large Sparse Mixture-of-Experts model; ~176B total params; highly efficient",
+    "dateStart": "2024-04-17",
+    "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
+    "subject": "language models, MoE architecture",
+    "externalLinks": [
+      {"label": "Mistral AI", "url": "https://mistral.ai/news/mixtral-8x22b/"}
+    ]
+  },
+  {
+    "id": "object-pixtral",
+    "type": "object",
+    "title": "Pixtral",
+    "objectType": "AI model",
+    "shortDescription": "Mistral's multimodal line; Pixtral 12B Sept 2024, Pixtral Large (~124B) Nov 2024; vision + text",
+    "dateStart": "2024-09-11",
+    "creators": ["person-arthur-mensch", "person-guillaume-lample"],
+    "subject": "multimodal AI",
+    "externalLinks": [
+      {"label": "Mistral AI", "url": "https://mistral.ai/news/pixtral-12b/"}
+    ]
+  },
+  {
+    "id": "object-mistral-large3",
+    "type": "object",
+    "title": "Mistral Large 3",
+    "objectType": "AI model",
+    "shortDescription": "Mistral's flagship Dec 2025; Sparse MoE ~41B active/~675B total params; Apache 2.0; Ministral 3 (3B/8B/14B)",
+    "dateStart": "2025-12-02",
+    "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
+    "subject": "language models, MoE architecture",
+    "externalLinks": [
+      {"label": "Mistral AI", "url": "https://mistral.ai/news/mistral-3"}
+    ]
+  },
+  {
+    "id": "object-grok2",
+    "type": "object",
+    "title": "Grok 2",
+    "objectType": "AI model",
+    "shortDescription": "xAI's 2024 model; multimodal inputs; image generation via Aurora; real-time web/X integration",
+    "dateStart": "2024-08",
+    "creators": ["person-elon-musk", "person-igor-babuschkin"],
+    "subject": "conversational AI, multimodal AI"
+  },
+  {
+    "id": "object-grok3",
+    "type": "object",
+    "title": "Grok 3",
+    "objectType": "AI model",
+    "shortDescription": "xAI's flagship Feb 2025; trained on Colossus (200K H100s); 'Think' and 'Big Brain' reasoning modes; ~93% AIME",
+    "dateStart": "2025-02-17",
+    "subject": "conversational AI, reasoning AI",
+    "externalLinks": [
+      {"label": "xAI", "url": "https://x.ai/blog/grok-3"}
+    ]
+  },
+  {
+    "id": "object-command-r-plus",
+    "type": "object",
+    "title": "Command R+",
+    "objectType": "AI model",
+    "shortDescription": "Cohere's high-performance enterprise model; 128K context; strong RAG and tool use; multilingual",
+    "dateStart": "2024-04",
+    "creators": ["person-aidan-gomez"],
+    "subject": "enterprise AI, RAG",
+    "externalLinks": [
+      {"label": "Cohere", "url": "https://docs.cohere.com/docs/command-r-plus"}
+    ]
+  },
+  {
+    "id": "object-command-a",
+    "type": "object",
+    "title": "Command A",
+    "objectType": "AI model",
+    "shortDescription": "Cohere's flagship March 2025; 111B parameters; 256K context; top enterprise model for agents and tools",
+    "dateStart": "2025-03",
+    "creators": ["person-aidan-gomez"],
+    "subject": "enterprise AI, agentic AI",
+    "externalLinks": [
+      {"label": "Cohere", "url": "https://docs.cohere.com/docs/models"}
+    ]
+  },
+  {
+    "id": "object-nova",
+    "type": "object",
+    "title": "Amazon Nova",
+    "objectType": "AI model",
+    "shortDescription": "Amazon's foundation model family Dec 2024; Micro/Lite/Pro/Canvas/Reel; multimodal; optimized for AWS Bedrock",
+    "dateStart": "2024-12",
+    "subject": "multimodal AI, cloud AI",
+    "externalLinks": [
+      {"label": "Amazon", "url": "https://www.aboutamazon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws"}
+    ]
+  },
+  {
+    "id": "object-nova-premier",
+    "type": "object",
+    "title": "Nova Premier",
+    "objectType": "AI model",
+    "shortDescription": "Amazon's top-tier reasoning model Q1 2025; complex multi-step tasks; Nova 2 family announced Dec 2025",
+    "dateStart": "2025-04",
+    "subject": "reasoning AI, cloud AI",
+    "externalLinks": [
+      {"label": "Amazon", "url": "https://techcrunch.com/2025/04/30/amazon-launches-nova-premier-its-largest-ai-model-yet/"}
+    ]
   }
 ]

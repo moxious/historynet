@@ -1486,5 +1486,311 @@
     "dateEnd": "2017",
     "evidence": "Kingma did his PhD at University of Amsterdam under Max Welling, where they co-invented VAEs.",
     "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-gpt4o",
+    "source": "entity-openai",
+    "target": "object-gpt4o",
+    "relationship": "authored",
+    "dateStart": "2024-05",
+    "evidence": "OpenAI released GPT-4o ('Omni') on May 13, 2024 as their flagship multimodal model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-gpt4o-mini",
+    "source": "entity-openai",
+    "target": "object-gpt4o-mini",
+    "relationship": "authored",
+    "dateStart": "2024-07",
+    "evidence": "OpenAI released GPT-4o mini on July 18, 2024 as a cost-efficient alternative.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-o1",
+    "source": "entity-openai",
+    "target": "object-o1",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "OpenAI released o1-preview on September 12, 2024, followed by full o1 in December 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-o3",
+    "source": "entity-openai",
+    "target": "object-o3",
+    "relationship": "authored",
+    "dateStart": "2025-01",
+    "evidence": "OpenAI announced o3 in December 2024, with o3-mini released January 31, 2025 and full o3 in April 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-gpt45",
+    "source": "entity-openai",
+    "target": "object-gpt45",
+    "relationship": "authored",
+    "dateStart": "2025-02",
+    "evidence": "OpenAI released GPT-4.5 (codenamed Orion) on February 27, 2025 as a research preview.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude35-sonnet",
+    "source": "entity-anthropic",
+    "target": "object-claude35-sonnet",
+    "relationship": "authored",
+    "dateStart": "2024-06",
+    "evidence": "Anthropic released Claude 3.5 Sonnet on June 20, 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude4",
+    "source": "entity-anthropic",
+    "target": "object-claude4",
+    "relationship": "authored",
+    "dateStart": "2025-05",
+    "evidence": "Anthropic released Claude 4 (Opus 4 and Sonnet 4) on May 22, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude45",
+    "source": "entity-anthropic",
+    "target": "object-claude45",
+    "relationship": "authored",
+    "dateStart": "2025-09",
+    "evidence": "Anthropic released Claude 4.5 Sonnet on September 29, 2025, with Opus 4.5 following in November 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini15",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini15",
+    "relationship": "authored",
+    "dateStart": "2024-02",
+    "evidence": "Google DeepMind released Gemini 1.5 Pro in early 2024 with up to 1M token context.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini20",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini20",
+    "relationship": "authored",
+    "dateStart": "2024-12",
+    "evidence": "Google DeepMind released Gemini 2.0 Flash (experimental) in December 2024, with GA in February 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini25",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini25",
+    "relationship": "authored",
+    "dateStart": "2025-06",
+    "evidence": "Google DeepMind released Gemini 2.5 Flash and Pro stable versions on June 17, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama31",
+    "source": "entity-meta-ai",
+    "target": "object-llama31",
+    "relationship": "authored",
+    "dateStart": "2024-07",
+    "evidence": "Meta released LLaMA 3.1 on July 23, 2024, including the 405B parameter model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama32",
+    "source": "entity-meta-ai",
+    "target": "object-llama32",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "Meta released LLaMA 3.2 on September 25, 2024, adding multimodal capabilities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama33",
+    "source": "entity-meta-ai",
+    "target": "object-llama33",
+    "relationship": "authored",
+    "dateStart": "2024-12",
+    "evidence": "Meta released LLaMA 3.3 on December 6, 2024 as an efficient 70B model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama4",
+    "source": "entity-meta-ai",
+    "target": "object-llama4",
+    "relationship": "authored",
+    "dateStart": "2025-04",
+    "evidence": "Meta released LLaMA 4 (Scout and Maverick) on April 5, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama31",
+    "source": "person-hugo-touvron",
+    "target": "object-llama31",
+    "relationship": "authored",
+    "dateStart": "2024-07",
+    "evidence": "Touvron continued as lead researcher on LLaMA development through the 3.1 release.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama32",
+    "source": "person-hugo-touvron",
+    "target": "object-llama32",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "Touvron led LLaMA 3.2 development, the first multimodal LLaMA release.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-mixtral-8x22b",
+    "source": "entity-mistral",
+    "target": "object-mixtral-8x22b",
+    "relationship": "authored",
+    "dateStart": "2024-04",
+    "evidence": "Mistral AI released Mixtral 8x22B on April 17, 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-pixtral",
+    "source": "entity-mistral",
+    "target": "object-pixtral",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "Mistral AI released Pixtral 12B on September 11, 2024, followed by Pixtral Large in November 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-mistral-large3",
+    "source": "entity-mistral",
+    "target": "object-mistral-large3",
+    "relationship": "authored",
+    "dateStart": "2025-12",
+    "evidence": "Mistral AI released Mistral Large 3 and Ministral 3 on December 2, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-xai-created-grok2",
+    "source": "entity-xai",
+    "target": "object-grok2",
+    "relationship": "authored",
+    "dateStart": "2024-08",
+    "evidence": "xAI released Grok 2 in August 2024 with multimodal capabilities and image generation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-xai-created-grok3",
+    "source": "entity-xai",
+    "target": "object-grok3",
+    "relationship": "authored",
+    "dateStart": "2025-02",
+    "evidence": "xAI released Grok 3 on February 17, 2025, trained on Colossus with 200K H100 GPUs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cohere-created-command-r-plus",
+    "source": "entity-cohere",
+    "target": "object-command-r-plus",
+    "relationship": "authored",
+    "dateStart": "2024-04",
+    "evidence": "Cohere released Command R+ in April 2024 as their flagship enterprise model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cohere-created-command-a",
+    "source": "entity-cohere",
+    "target": "object-command-a",
+    "relationship": "authored",
+    "dateStart": "2025-03",
+    "evidence": "Cohere released Command A in March 2025 with 111B parameters and 256K context.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-amazon-created-nova",
+    "source": "entity-amazon-ai",
+    "target": "object-nova",
+    "relationship": "authored",
+    "dateStart": "2024-12",
+    "evidence": "Amazon released the Nova foundation model family in December 2024 for AWS Bedrock.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-amazon-created-nova-premier",
+    "source": "entity-amazon-ai",
+    "target": "object-nova-premier",
+    "relationship": "authored",
+    "dateStart": "2025-04",
+    "evidence": "Amazon released Nova Premier in Q1 2025 as their top-tier reasoning model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-led-microsoft-ai",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-microsoft-ai",
+    "relationship": "led",
+    "dateStart": "2024-03",
+    "evidence": "Mustafa Suleyman joined Microsoft as EVP and CEO of Microsoft AI in March 2024 after Inflection acquisition.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gpt4o-references-gpt4",
+    "source": "object-gpt4o",
+    "target": "object-gpt4",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "GPT-4o is built on the GPT-4 architecture with added multimodal capabilities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-claude35-references-claude3",
+    "source": "object-claude35-sonnet",
+    "target": "object-claude3",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "Claude 3.5 Sonnet is an improved version of the Claude 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-claude4-references-claude3",
+    "source": "object-claude4",
+    "target": "object-claude3",
+    "relationship": "continuation_of",
+    "dateStart": "2025",
+    "evidence": "Claude 4 is the successor to the Claude 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gemini20-references-gemini",
+    "source": "object-gemini20",
+    "target": "object-gemini",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "Gemini 2.0 is the successor to the original Gemini model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-llama31-references-llama3",
+    "source": "object-llama31",
+    "target": "object-llama3",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "LLaMA 3.1 is a major update to the LLaMA 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-llama4-references-llama3",
+    "source": "object-llama4",
+    "target": "object-llama3",
+    "relationship": "continuation_of",
+    "dateStart": "2025",
+    "evidence": "LLaMA 4 is the successor to the LLaMA 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grok3-references-grok",
+    "source": "object-grok3",
+    "target": "object-grok",
+    "relationship": "continuation_of",
+    "dateStart": "2025",
+    "evidence": "Grok 3 is the successor to the original Grok model, trained with 10x more compute.",
+    "strength": "strong"
   }
 ]
