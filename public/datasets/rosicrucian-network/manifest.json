@@ -8,7 +8,7 @@
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 96,
-  "edgeCount": 97,
+  "edgeCount": 196,
   "timePeriod": {
     "start": "1493",
     "end": "1692"
@@ -50,6 +50,36 @@
     {
       "type": "participated_in",
       "description": "Person participated in an event or organization",
+      "directed": true
+    },
+    {
+      "type": "based_at",
+      "description": "Organization or entity located at a place",
+      "directed": true
+    },
+    {
+      "type": "produced",
+      "description": "Organization or group created a work",
+      "directed": true
+    },
+    {
+      "type": "describes",
+      "description": "Work describes or narrates about a person/entity",
+      "directed": true
+    },
+    {
+      "type": "part_of",
+      "description": "Entity is part of a larger organization",
+      "directed": true
+    },
+    {
+      "type": "served",
+      "description": "Person served a patron or court",
+      "directed": true
+    },
+    {
+      "type": "held_position",
+      "description": "Person held a formal position or office",
       "directed": true
     }
   ],
