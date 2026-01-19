@@ -1,0 +1,277 @@
+/**
+ * Styles for RadialLayout component
+ */
+
+.radial-layout {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--color-background);
+}
+
+.radial-layout svg {
+  display: block;
+  cursor: grab;
+}
+
+.radial-layout svg:active {
+  cursor: grabbing;
+}
+
+/* Edges */
+.radial-edge {
+  cursor: pointer;
+  transition: stroke-opacity 0.15s, stroke-width 0.15s;
+}
+
+.radial-edge:hover {
+  stroke-opacity: 0.9;
+  stroke-width: 3;
+}
+
+.radial-edge.selected {
+  stroke-opacity: 0.9;
+  stroke-width: 3;
+}
+
+/* Nodes */
+.radial-node {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.radial-node .node-shape {
+  transition: stroke 0.15s, stroke-width 0.15s, filter 0.2s, transform 0.15s;
+}
+
+.radial-node:hover .node-shape {
+  stroke: var(--color-graph-node-stroke-selected);
+  stroke-width: 3;
+  filter: brightness(1.1);
+}
+
+.radial-node--center .node-shape {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
+}
+
+.radial-node.selected .node-shape {
+  stroke: var(--color-graph-node-stroke-selected);
+  stroke-width: 4;
+}
+
+.radial-node.search-match .node-shape {
+  stroke: var(--color-search-highlight);
+  stroke-width: 3;
+}
+
+/* Labels */
+.radial-label {
+  font-family: var(--font-family-sans, system-ui, sans-serif);
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+/* Label text shadows for light mode */
+:root .radial-label,
+[data-theme="light"] .radial-label {
+  text-shadow:
+    1px 1px 2px rgba(255, 255, 255, 0.9),
+    -1px -1px 2px rgba(255, 255, 255, 0.9),
+    1px -1px 2px rgba(255, 255, 255, 0.9),
+    -1px 1px 2px rgba(255, 255, 255, 0.9);
+}
+
+/* Label text shadows for dark mode */
+[data-theme="dark"] .radial-label {
+  text-shadow:
+    1px 1px 2px rgba(0, 0, 0, 0.8),
+    -1px -1px 2px rgba(0, 0, 0, 0.8),
+    1px -1px 2px rgba(0, 0, 0, 0.8),
+    -1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Zoom Controls */
+.radial-layout__controls {
+  position: absolute;
+  top: var(--spacing-md, 16px);
+  right: var(--spacing-md, 16px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs, 4px);
+  z-index: 10;
+}
+
+.radial-layout__control-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  cursor: pointer;
+  color: var(--color-text, #1f2937);
+  transition:
+    background-color 0.15s,
+    border-color 0.15s,
+    color 0.15s,
+    box-shadow 0.15s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.radial-layout__control-btn:hover {
+  background-color: var(--color-primary, #3b82f6);
+  border-color: var(--color-primary, #3b82f6);
+  color: white;
+}
+
+.radial-layout__control-btn:active {
+  transform: scale(0.95);
+}
+
+.radial-layout__control-btn:focus-visible {
+  outline: 2px solid var(--color-primary, #3b82f6);
+  outline-offset: 2px;
+}
+
+/* Info panel showing center node and connection count */
+.radial-layout__info {
+  position: absolute;
+  top: var(--spacing-md, 16px);
+  left: var(--spacing-md, 16px);
+  padding: var(--spacing-sm, 8px) var(--spacing-md, 12px);
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.radial-layout__center-title {
+  font-size: var(--font-size-sm, 13px);
+  font-weight: 600;
+  color: var(--color-text, #1f2937);
+}
+
+.radial-layout__connection-count {
+  font-size: var(--font-size-xs, 11px);
+  color: var(--color-text-muted, #6b7280);
+}
+
+/* Legend */
+.radial-layout__legend {
+  position: absolute;
+  bottom: var(--spacing-md, 16px);
+  left: var(--spacing-md, 16px);
+  padding: var(--spacing-sm, 8px) var(--spacing-md, 12px);
+  background-color: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e5e7eb);
+  border-radius: var(--border-radius, 6px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  font-size: var(--font-size-xs, 11px);
+}
+
+.radial-layout__legend-title {
+  font-weight: 600;
+  margin-bottom: var(--spacing-xs, 4px);
+  color: var(--color-text-muted, #6b7280);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.radial-layout__legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs, 6px);
+  padding: 2px 0;
+  color: var(--color-text, #1f2937);
+}
+
+.radial-layout__legend-item svg {
+  flex-shrink: 0;
+}
+
+/* Empty State */
+.radial-layout__empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: var(--spacing-xl, 32px);
+  text-align: center;
+}
+
+.radial-layout__empty-icon {
+  color: var(--color-text-muted, #6b7280);
+  margin-bottom: var(--spacing-md, 16px);
+  opacity: 0.5;
+}
+
+.radial-layout__empty-title {
+  font-size: var(--font-size-lg, 18px);
+  font-weight: 600;
+  color: var(--color-text, #1f2937);
+  margin: 0 0 var(--spacing-sm, 8px) 0;
+}
+
+.radial-layout__empty-hint {
+  font-size: var(--font-size-sm, 14px);
+  color: var(--color-text-muted, #6b7280);
+  margin: 0;
+  max-width: 360px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .radial-layout__info {
+    top: var(--spacing-sm, 8px);
+    left: var(--spacing-sm, 8px);
+    padding: var(--spacing-xs, 6px) var(--spacing-sm, 10px);
+  }
+
+  .radial-layout__legend {
+    bottom: auto;
+    top: var(--spacing-sm, 8px);
+    left: auto;
+    right: calc(var(--spacing-sm, 8px) + 44px + var(--spacing-sm, 8px));
+    font-size: 10px;
+  }
+
+  .radial-layout__controls {
+    flex-direction: row;
+    top: auto;
+    bottom: var(--spacing-md, 16px);
+    right: var(--spacing-md, 16px);
+  }
+
+  .radial-layout__control-btn {
+    /* Touch-friendly size (44px minimum) */
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 480px) {
+  .radial-layout__legend {
+    display: none;
+  }
+
+  .radial-layout__info {
+    max-width: calc(100% - 60px);
+  }
+
+  .radial-layout__center-title {
+    font-size: var(--font-size-xs, 12px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+}

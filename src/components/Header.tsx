@@ -32,7 +32,11 @@ function Header() {
     searchMatchCount,
     currentLayout,
     setCurrentLayout,
+    selection,
   } = useGraph();
+
+  // Get selected node ID for radial view availability
+  const selectedNodeId = selection?.type === 'node' ? selection.id : null;
 
   // Mobile state
   const isMobile = useIsMobile();
@@ -127,6 +131,7 @@ function Header() {
           isDatasetLoading={loadingState === 'loading'}
           currentLayout={currentLayout}
           onLayoutChange={setCurrentLayout}
+          selectedNodeId={selectedNodeId}
         />
       </>
     );
@@ -143,6 +148,7 @@ function Header() {
         <LayoutSwitcher
           currentLayout={currentLayout}
           onLayoutChange={setCurrentLayout}
+          selectedNodeId={selectedNodeId}
           className="header__layout-switcher"
         />
         <div className="header__dataset-group">

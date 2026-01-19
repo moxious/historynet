@@ -36,6 +36,8 @@ interface MobileMenuProps {
   currentLayout: LayoutType;
   /** Callback when layout changes */
   onLayoutChange: (layout: LayoutType) => void;
+  /** Currently selected node ID - radial view requires a node selection */
+  selectedNodeId?: string | null;
 }
 
 function MobileMenu({
@@ -46,6 +48,7 @@ function MobileMenu({
   isDatasetLoading,
   currentLayout,
   onLayoutChange,
+  selectedNodeId,
 }: MobileMenuProps) {
   const menuRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
@@ -155,6 +158,7 @@ function MobileMenu({
             <LayoutSwitcher
               currentLayout={currentLayout}
               onLayoutChange={handleLayoutChange}
+              selectedNodeId={selectedNodeId}
               className="mobile-menu__layout-switcher"
             />
           </div>

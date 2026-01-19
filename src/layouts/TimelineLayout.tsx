@@ -99,7 +99,8 @@ const MAX_LANES = 2; // Cap lanes to prevent excessive width - prefer vertical e
 const MIN_LABEL_SPACING = 14; // Minimum pixels between tick labels to prevent overlap
 
 // Timeline segmentation settings
-const GAP_THRESHOLD = 40;
+const MIN_GAP_THRESHOLD = 3; // Minimum years to consider a gap
+const GAP_THRESHOLD_PERCENT = 0.10; // 10% of year range triggers gap compression
 const MIN_SEGMENT_HEIGHT = 100;
 const BREAK_INDICATOR_HEIGHT = 30;
 
@@ -386,10 +387,15 @@ export function TimelineLayout({
     // Calculate content dimensions - account for multiple swim lanes on each side
     const contentWidth = AXIS_X + (LANE_WIDTH * MAX_LANES) + 100;
 
+    // Calculate dynamic gap threshold based on dataset's year range
+    // This allows modern datasets (shorter time spans) to get appropriate gap compression
+    const yearSpan = yearRange.max - yearRange.min;
+    const dynamicGapThreshold = Math.max(MIN_GAP_THRESHOLD, yearSpan * GAP_THRESHOLD_PERCENT);
+
     // Create segmented scale that compresses large gaps in the timeline
     // Pass eventsPerYear for density-aware height allocation
     const segmentedScale = createSegmentedScale(datedYears, height * 3, {
-      gapThreshold: GAP_THRESHOLD,
+      gapThreshold: dynamicGapThreshold,
       minSegmentHeight: MIN_SEGMENT_HEIGHT,
       breakIndicatorHeight: BREAK_INDICATOR_HEIGHT,
       topPadding: 50,

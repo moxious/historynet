@@ -39,6 +39,16 @@
   color: white;
 }
 
+.layout-switcher__tab--disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.layout-switcher__tab--disabled:hover {
+  background-color: transparent;
+  color: var(--color-text-muted, #6b7280);
+}
+
 .layout-switcher__tab:focus-visible {
   outline: 2px solid var(--color-primary, #3b82f6);
   outline-offset: 2px;

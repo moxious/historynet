@@ -11,6 +11,8 @@ interface LayoutSwitcherProps {
   currentLayout: LayoutType;
   /** Callback when layout is changed */
   onLayoutChange: (layout: LayoutType) => void;
+  /** Currently selected node ID - radial view requires a node selection */
+  selectedNodeId?: string | null;
   /** Optional CSS class name */
   className?: string;
 }
@@ -22,6 +24,8 @@ interface LayoutOption {
   id: LayoutType;
   label: string;
   icon: React.ReactNode;
+  /** If true, this option requires a node to be selected */
+  requiresSelection?: boolean;
 }
 
 const LAYOUT_OPTIONS: LayoutOption[] = [
@@ -54,6 +58,23 @@ const LAYOUT_OPTIONS: LayoutOption[] = [
       </svg>
     ),
   },
+  {
+    id: 'radial',
+    label: 'Radial',
+    requiresSelection: true,
+    icon: (
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2">
+        <circle cx="12" cy="12" r="3" />
+        <circle cx="12" cy="12" r="8" strokeDasharray="2 2" />
+        <circle cx="12" cy="4" r="2" fill="currentColor" />
+        <circle cx="19" cy="9" r="2" fill="currentColor" />
+        <circle cx="19" cy="15" r="2" fill="currentColor" />
+        <circle cx="12" cy="20" r="2" fill="currentColor" />
+        <circle cx="5" cy="15" r="2" fill="currentColor" />
+        <circle cx="5" cy="9" r="2" fill="currentColor" />
+      </svg>
+    ),
+  },
 ];
 
 /**
@@ -62,26 +83,37 @@ const LAYOUT_OPTIONS: LayoutOption[] = [
 export function LayoutSwitcher({
   currentLayout,
   onLayoutChange,
+  selectedNodeId,
   className = '',
 }: LayoutSwitcherProps) {
+  const hasNodeSelected = Boolean(selectedNodeId);
+
   return (
     <div className={`layout-switcher ${className}`} role="tablist" aria-label="Visualization layout">
-      {LAYOUT_OPTIONS.map((option) => (
-        <button
-          key={option.id}
-          className={`layout-switcher__tab ${currentLayout === option.id ? 'layout-switcher__tab--active' : ''}`}
-          role="tab"
-          aria-selected={currentLayout === option.id}
-          aria-controls={`${option.id}-panel`}
-          onClick={() => onLayoutChange(option.id)}
-          type="button"
-        >
-          <span className="layout-switcher__tab-icon" aria-hidden="true">
-            {option.icon}
-          </span>
-          <span className="layout-switcher__tab-label">{option.label}</span>
-        </button>
-      ))}
+      {LAYOUT_OPTIONS.map((option) => {
+        const isDisabled = option.requiresSelection && !hasNodeSelected;
+        const isActive = currentLayout === option.id;
+
+        return (
+          <button
+            key={option.id}
+            className={`layout-switcher__tab ${isActive ? 'layout-switcher__tab--active' : ''} ${isDisabled ? 'layout-switcher__tab--disabled' : ''}`}
+            role="tab"
+            aria-selected={isActive}
+            aria-controls={`${option.id}-panel`}
+            aria-disabled={isDisabled}
+            onClick={() => !isDisabled && onLayoutChange(option.id)}
+            disabled={isDisabled}
+            title={isDisabled ? 'Select a node to use radial view' : option.label}
+            type="button"
+          >
+            <span className="layout-switcher__tab-icon" aria-hidden="true">
+              {option.icon}
+            </span>
+            <span className="layout-switcher__tab-label">{option.label}</span>
+          </button>
+        );
+      })}
     </div>
   );
 }

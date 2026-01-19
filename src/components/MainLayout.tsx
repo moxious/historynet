@@ -15,7 +15,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { useGraph } from '@contexts';
 import { useIsTablet } from '@hooks';
 import type { GraphNode, GraphEdge } from '@types';
-import { ForceGraphLayout, TimelineLayout } from '@layouts';
+import { ForceGraphLayout, TimelineLayout, RadialLayout } from '@layouts';
 import InfoboxPanel from './InfoboxPanel';
 import MobileInfoboxPanel from './MobileInfoboxPanel';
 import FilterPanel from './FilterPanel';
@@ -39,6 +39,7 @@ function MainLayout() {
     relationshipTypeCounts,
     searchTerm,
     currentLayout,
+    setCurrentLayout,
   } = useGraph();
 
   // Responsive state
@@ -89,6 +90,14 @@ function MainLayout() {
     prevCallbacksRef.current = { selectNode, selectEdge, handleNodeClick, handleEdgeClick };
   }, [selectNode, selectEdge, handleNodeClick, handleEdgeClick]);
 
+  // Fall back to force-graph when radial is selected but no node is selected (RD11)
+  useEffect(() => {
+    const hasNodeSelected = selection?.type === 'node';
+    if (currentLayout === 'radial' && !hasNodeSelected) {
+      setCurrentLayout('force-graph');
+    }
+  }, [currentLayout, selection, setCurrentLayout]);
+
   // Loading state
   if (loadingState === 'loading') {
     return (
@@ -138,6 +147,8 @@ function MainLayout() {
     switch (currentLayout) {
       case 'timeline':
         return <TimelineLayout {...layoutProps} />;
+      case 'radial':
+        return <RadialLayout {...layoutProps} />;
       case 'force-graph':
       default:
         return <ForceGraphLayout {...layoutProps} />;

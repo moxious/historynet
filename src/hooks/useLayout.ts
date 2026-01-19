@@ -8,7 +8,7 @@ import type { LayoutInfo } from '@layouts/types';
 /**
  * Available layout types
  */
-export type LayoutType = 'force-graph' | 'timeline';
+export type LayoutType = 'force-graph' | 'timeline' | 'radial';
 
 /**
  * Registry of available layouts
@@ -23,6 +23,11 @@ const LAYOUTS: Record<LayoutType, LayoutInfo> = {
     id: 'timeline',
     name: 'Timeline View',
     description: 'Vertical timeline showing events chronologically',
+  },
+  radial: {
+    id: 'radial',
+    name: 'Radial View',
+    description: 'Ego-network view centered on selected node',
   },
 };
 
