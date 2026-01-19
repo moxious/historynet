@@ -31,6 +31,200 @@ This document defines the process for building and maintaining historical networ
 
 ---
 
+## Efficient JSON Editing
+
+**Avoid rewriting entire files.** When modifying `nodes.json` or `edges.json`, use `jq` for atomic operations instead of regenerating the full file. This saves significant tokens and reduces errors.
+
+### When to Use Each Approach
+
+| Scenario | Approach | Token Cost |
+|----------|----------|------------|
+| Add a field derived from existing data | `jq` transformation | ~50-100 |
+| Add a field requiring unique values per item | Mapping file + `jq` | ~2,000-4,000 |
+| Add 5-10 new nodes/edges | `jq` append | ~500-1,000 |
+| Initial creation of file | Write tool | Necessary |
+| Rewrite entire 200-node file | **Avoid** | ~20,000+ |
+
+### Adding a Derived Field to All Nodes
+
+When the new field can be computed from existing data:
+
+```bash
+# Add wikipediaTitle derived from title (replacing spaces with underscores)
+jq 'map(. + {wikipediaTitle: (.title | gsub(" "; "_"))})' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Add a field only to nodes of a specific type
+jq 'map(if .type == "person" then . + {category: "individual"} else . end)' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Set a default value only where field is missing
+jq 'map(. + {wikipediaTitle: (.wikipediaTitle // null)})' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+```
+
+### Adding Fields with Unique Values (Mapping File Pattern)
+
+When each item needs a different non-derivable value, output only the mapping:
+
+```bash
+# Step 1: Create a mapping file (agent outputs only this)
+cat > /tmp/wiki-mapping.json << 'EOF'
+{
+  "person-geoffrey-hinton": "Geoffrey_Hinton",
+  "person-yann-lecun": "Yann_LeCun",
+  "person-yoshua-bengio": "Yoshua_Bengio"
+}
+EOF
+
+# Step 2: Apply the mapping with jq
+jq --slurpfile m /tmp/wiki-mapping.json \
+  'map(. + {wikipediaTitle: ($m[0][.id] // .wikipediaTitle // null)})' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Clean up
+rm /tmp/wiki-mapping.json
+```
+
+**Why this is efficient**: For 200 nodes, the mapping file might be ~4,000 tokens. Rewriting the entire nodes.json would be ~20,000+ tokens.
+
+### Appending New Nodes
+
+```bash
+# Create new nodes to add (agent outputs only these)
+cat > /tmp/new-nodes.json << 'EOF'
+[
+  {
+    "id": "person-alan-turing",
+    "type": "person",
+    "title": "Alan Turing",
+    "dateStart": "1912",
+    "dateEnd": "1954",
+    "wikipediaTitle": "Alan_Turing"
+  },
+  {
+    "id": "person-claude-shannon",
+    "type": "person",
+    "title": "Claude Shannon",
+    "dateStart": "1916",
+    "dateEnd": "2001",
+    "wikipediaTitle": "Claude_Shannon"
+  }
+]
+EOF
+
+# Append to existing nodes.json
+jq -s '.[0] + .[1]' \
+  public/datasets/my-network/nodes.json \
+  /tmp/new-nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Clean up
+rm /tmp/new-nodes.json
+```
+
+### Appending New Edges
+
+```bash
+# Create new edges to add
+cat > /tmp/new-edges.json << 'EOF'
+[
+  {
+    "id": "edge-turing-influenced-shannon",
+    "source": "person-alan-turing",
+    "target": "person-claude-shannon",
+    "relationship": "influenced",
+    "evidence": "Shannon cited Turing's 1936 paper..."
+  }
+]
+EOF
+
+# Append to existing edges.json
+jq -s '.[0] + .[1]' \
+  public/datasets/my-network/edges.json \
+  /tmp/new-edges.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/edges.json
+
+# Clean up
+rm /tmp/new-edges.json
+```
+
+### Updating Specific Nodes by ID
+
+```bash
+# Update a single node's field
+jq 'map(if .id == "person-voltaire" then .dateEnd = "1778" else . end)' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Update multiple nodes using a mapping
+cat > /tmp/updates.json << 'EOF'
+{
+  "person-voltaire": {"dateEnd": "1778", "deathPlace": "Paris"},
+  "person-rousseau": {"dateEnd": "1778", "deathPlace": "Ermenonville"}
+}
+EOF
+
+jq --slurpfile u /tmp/updates.json \
+  'map(. + ($u[0][.id] // {}))' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+```
+
+### Removing Items
+
+```bash
+# Remove a node by ID
+jq 'map(select(.id != "person-to-remove"))' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Remove multiple nodes
+jq 'map(select(.id | IN("person-remove-1", "person-remove-2") | not))' \
+  public/datasets/my-network/nodes.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/nodes.json
+
+# Remove edges referencing a deleted node
+jq 'map(select(.source != "person-removed" and .target != "person-removed"))' \
+  public/datasets/my-network/edges.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/edges.json
+```
+
+### Updating Manifest Counts
+
+After modifying nodes or edges, update the manifest:
+
+```bash
+# Get counts and update manifest
+NODE_COUNT=$(jq 'length' public/datasets/my-network/nodes.json)
+EDGE_COUNT=$(jq 'length' public/datasets/my-network/edges.json)
+
+jq --argjson nc "$NODE_COUNT" --argjson ec "$EDGE_COUNT" \
+  '.nodeCount = $nc | .edgeCount = $ec | .lastUpdated = "'"$(date +%Y-%m-%d)"'"' \
+  public/datasets/my-network/manifest.json > tmp.json && \
+  mv tmp.json public/datasets/my-network/manifest.json
+```
+
+### Safety Tips
+
+1. **Always validate after edits**: Run `npm run validate:datasets -- --dataset {id}`
+2. **Use temp files**: Write to `tmp.json` then move, never pipe directly to the input file
+3. **Check jq syntax first**: Run with `jq '...' file.json | head` to preview before writing
+4. **Clean up temp files**: Remove `/tmp/*.json` files after use
+
+### When Full Rewrite IS Appropriate
+
+- **Initial file creation**: No existing file to transform
+- **Major restructuring**: Changing most fields on most items
+- **Small files**: Files under ~50 items where the savings are minimal
+- **Complex logic**: When the transformation is too complex for jq
+
+---
+
 ## Phase 1: Initialize
 
 **Goal**: Set up the dataset structure with scope and metadata.

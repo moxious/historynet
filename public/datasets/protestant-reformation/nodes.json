@@ -7,52 +7,82 @@
     "dateStart": "1483",
     "dateEnd": "1546",
     "biography": "German theologian, professor, and reformer who initiated the Protestant Reformation. Posted the Ninety-Five Theses in 1517, challenging indulgences and papal authority. Excommunicated in 1521, he translated the Bible into German and established the theological foundations of Lutheranism. Central hub of the Reformation network with connections to virtually all other reformers.",
-    "occupations": ["Theologian", "Professor", "Reformer", "Translator"],
+    "occupations": [
+      "Theologian",
+      "Professor",
+      "Reformer",
+      "Translator"
+    ],
     "birthPlace": "Eisleben, Saxony",
     "deathPlace": "Eisleben, Saxony",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Martin_Luther"
   },
   {
     "id": "person-john-calvin",
     "type": "person",
     "title": "John Calvin",
-    "alternateNames": ["Jean Calvin", "Johannes Calvinus"],
+    "alternateNames": [
+      "Jean Calvin",
+      "Johannes Calvinus"
+    ],
     "shortDescription": "Systematizer of Reformed theology and leader of the Genevan Reformation",
     "dateStart": "1509",
     "dateEnd": "1564",
     "biography": "French theologian, pastor, and reformer who systematized Reformed Protestant theology. His Institutes of the Christian Religion became the definitive Reformed theological work. Led Geneva's reformation from 1541, establishing church discipline and the Geneva Academy. His influence shaped Reformed churches worldwide.",
-    "occupations": ["Theologian", "Pastor", "Reformer", "Writer"],
+    "occupations": [
+      "Theologian",
+      "Pastor",
+      "Reformer",
+      "Writer"
+    ],
     "birthPlace": "Noyon, France",
     "deathPlace": "Geneva",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "John_Calvin"
   },
   {
     "id": "person-huldrych-zwingli",
     "type": "person",
     "title": "Huldrych Zwingli",
-    "alternateNames": ["Ulrich Zwingli"],
+    "alternateNames": [
+      "Ulrich Zwingli"
+    ],
     "shortDescription": "Founder of Swiss Reformed tradition; led Zurich Reformation",
     "dateStart": "1484",
     "dateEnd": "1531",
     "biography": "Swiss priest and theologian who founded the Swiss Reformed tradition independently of Luther. Led the Zurich Reformation from 1519, developing a distinctive symbolic understanding of the Eucharist. Died in the Battle of Kappel defending Protestant cantons against Catholic forces.",
-    "occupations": ["Priest", "Theologian", "Reformer"],
+    "occupations": [
+      "Priest",
+      "Theologian",
+      "Reformer"
+    ],
     "birthPlace": "Wildhaus, Switzerland",
     "deathPlace": "Kappel, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Huldrych_Zwingli"
   },
   {
     "id": "person-erasmus-of-rotterdam",
     "type": "person",
     "title": "Erasmus of Rotterdam",
-    "alternateNames": ["Desiderius Erasmus"],
+    "alternateNames": [
+      "Desiderius Erasmus"
+    ],
     "shortDescription": "Prince of Humanists; published Greek New Testament enabling vernacular translations",
     "dateStart": "1466",
     "dateEnd": "1536",
     "biography": "Dutch humanist scholar, theologian, and satirist known as the 'Prince of Humanists.' His Greek New Testament (1516) enabled Protestant vernacular translations. Remained Catholic but laid intellectual groundwork for reform through biblical scholarship and critique of church abuses. Broke with Luther over free will controversy.",
-    "occupations": ["Humanist scholar", "Theologian", "Satirist", "Editor"],
+    "occupations": [
+      "Humanist scholar",
+      "Theologian",
+      "Satirist",
+      "Editor"
+    ],
     "birthPlace": "Rotterdam, Netherlands",
     "deathPlace": "Basel, Switzerland",
-    "nationality": "Dutch"
+    "nationality": "Dutch",
+    "wikipediaTitle": "Erasmus"
   },
   {
     "id": "person-william-tyndale",
@@ -62,10 +92,15 @@
     "dateStart": "1494",
     "dateEnd": "1536",
     "biography": "English scholar and translator who produced the first printed English New Testament from Greek (1526). Approximately 80% of his wording appears in the King James Bible. Worked in exile in Antwerp and was executed as a heretic at Vilvoorde in 1536.",
-    "occupations": ["Scholar", "Translator", "Reformer"],
+    "occupations": [
+      "Scholar",
+      "Translator",
+      "Reformer"
+    ],
     "birthPlace": "Gloucestershire, England",
     "deathPlace": "Vilvoorde, Belgium",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "William_Tyndale"
   },
   {
     "id": "person-thomas-cranmer",
@@ -75,38 +110,57 @@
     "dateStart": "1489",
     "dateEnd": "1556",
     "biography": "Archbishop of Canterbury who shaped the English Reformation's liturgy and doctrine. Created the Book of Common Prayer (1549, 1552) and the Forty-Two Articles. Annulled Henry VIII's marriage to Catherine of Aragon. Executed as a heretic under Mary I, becoming one of the Oxford Martyrs.",
-    "occupations": ["Archbishop", "Theologian", "Liturgist"],
+    "occupations": [
+      "Archbishop",
+      "Theologian",
+      "Liturgist"
+    ],
     "birthPlace": "Aslockton, England",
     "deathPlace": "Oxford, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Thomas_Cranmer"
   },
   {
     "id": "person-philip-melanchthon",
     "type": "person",
     "title": "Philip Melanchthon",
-    "alternateNames": ["Philipp Schwarzerdt"],
+    "alternateNames": [
+      "Philipp Schwarzerdt"
+    ],
     "shortDescription": "Luther's chief collaborator; author of Augsburg Confession; 'Preceptor of Germany'",
     "dateStart": "1497",
     "dateEnd": "1560",
     "biography": "German humanist scholar and theologian who was Luther's closest collaborator. Systematized Lutheran theology in Loci Communes and authored the Augsburg Confession. Known as the 'Preceptor of Germany' for his educational reforms. Attempted to bridge Lutheran and Reformed traditions.",
-    "occupations": ["Humanist scholar", "Theologian", "Educator"],
+    "occupations": [
+      "Humanist scholar",
+      "Theologian",
+      "Educator"
+    ],
     "birthPlace": "Bretten, Germany",
     "deathPlace": "Wittenberg, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Philip_Melanchthon"
   },
   {
     "id": "person-johannes-bugenhagen",
     "type": "person",
     "title": "Johannes Bugenhagen",
-    "alternateNames": ["Pomeranus"],
+    "alternateNames": [
+      "Pomeranus"
+    ],
     "shortDescription": "Luther's pastor and confessor; organized Lutheran churches across northern Germany",
     "dateStart": "1485",
     "dateEnd": "1558",
     "biography": "German pastor and theologian who served as Luther's pastor and confessor. Married Luther and Katharina von Bora, baptized their children, and preached Luther's funeral sermon. Drafted church orders for many territories including Denmark, organizing the institutional structure of Lutheranism.",
-    "occupations": ["Pastor", "Theologian", "Church organizer"],
+    "occupations": [
+      "Pastor",
+      "Theologian",
+      "Church organizer"
+    ],
     "birthPlace": "Wollin, Pomerania",
     "deathPlace": "Wittenberg, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johannes_Bugenhagen"
   },
   {
     "id": "person-justus-jonas",
@@ -116,10 +170,15 @@
     "dateStart": "1493",
     "dateEnd": "1555",
     "biography": "German theologian and translator who translated Luther's and Melanchthon's Latin works into German, making them accessible to laypeople. Participated in the Marburg Colloquy and Diet of Augsburg. Present at Luther's death in Eisleben in 1546.",
-    "occupations": ["Theologian", "Translator", "Reformer"],
+    "occupations": [
+      "Theologian",
+      "Translator",
+      "Reformer"
+    ],
     "birthPlace": "Nordhausen, Germany",
     "deathPlace": "Eisfeld, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Justus_Jonas"
   },
   {
     "id": "person-caspar-cruciger",
@@ -129,10 +188,14 @@
     "dateStart": "1504",
     "dateEnd": "1548",
     "biography": "German theologian and professor at Wittenberg who collaborated with Luther on the Bible translation and assisted with theological disputations.",
-    "occupations": ["Theologian", "Professor"],
+    "occupations": [
+      "Theologian",
+      "Professor"
+    ],
     "birthPlace": "Leipzig, Germany",
     "deathPlace": "Wittenberg, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Caspar_Cruciger_the_Elder"
   },
   {
     "id": "person-georg-spalatin",
@@ -142,24 +205,35 @@
     "dateStart": "1484",
     "dateEnd": "1545",
     "biography": "German humanist who served as secretary and chaplain to Elector Frederick the Wise. Crucial intermediary between Luther and the elector, explaining Luther's theology and helping secure his protection. His behind-the-scenes work was essential to Luther's survival.",
-    "occupations": ["Secretary", "Chaplain", "Historian"],
+    "occupations": [
+      "Secretary",
+      "Chaplain",
+      "Historian"
+    ],
     "birthPlace": "Spalt, Germany",
     "deathPlace": "Altenburg, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Georg_Spalatin"
   },
   {
     "id": "person-andreas-karlstadt",
     "type": "person",
     "title": "Andreas Karlstadt",
-    "alternateNames": ["Andreas Bodenstein"],
+    "alternateNames": [
+      "Andreas Bodenstein"
+    ],
     "shortDescription": "Early Luther ally turned radical reformer; pioneer of iconoclasm",
     "dateStart": "1486",
     "dateEnd": "1541",
     "biography": "German theologian who was an early Luther ally but led radical reforms during Luther's Wartburg exile, including iconoclasm and a symbolic view of the Eucharist. Eventually expelled from Saxony, he later allied with Swiss Reformed circles.",
-    "occupations": ["Theologian", "Reformer"],
+    "occupations": [
+      "Theologian",
+      "Reformer"
+    ],
     "birthPlace": "Karlstadt, Germany",
     "deathPlace": "Basel, Switzerland",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Andreas_Karlstadt"
   },
   {
     "id": "person-katharina-von-bora",
@@ -169,10 +243,13 @@
     "dateStart": "1499",
     "dateEnd": "1552",
     "biography": "Former Cistercian nun who escaped her convent in 1523 and married Martin Luther in 1525. Became the model for Protestant clerical marriage and family life. Managed their household, farm, and brewery, enabling Luther's work.",
-    "occupations": ["Household manager"],
+    "occupations": [
+      "Household manager"
+    ],
     "birthPlace": "Lippendorf, Germany",
     "deathPlace": "Torgau, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Katharina_von_Bora"
   },
   {
     "id": "person-lucas-cranach",
@@ -182,10 +259,15 @@
     "dateStart": "1472",
     "dateEnd": "1553",
     "biography": "German painter and printmaker who served as court painter to Frederick the Wise. Created the defining visual imagery of the Reformation through portraits of Luther and other reformers, woodcuts, and altarpieces. Close friend of Luther and burgomaster of Wittenberg.",
-    "occupations": ["Painter", "Printmaker", "Civic leader"],
+    "occupations": [
+      "Painter",
+      "Printmaker",
+      "Civic leader"
+    ],
     "birthPlace": "Kronach, Germany",
     "deathPlace": "Weimar, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Lucas_Cranach_the_Elder"
   },
   {
     "id": "person-johann-agricola",
@@ -195,24 +277,34 @@
     "dateStart": "1494",
     "dateEnd": "1566",
     "biography": "German theologian and early follower of Luther who became involved in the Antinomian controversy over the role of the law in Christian life. Later served as court preacher in Brandenburg.",
-    "occupations": ["Theologian", "Preacher"],
+    "occupations": [
+      "Theologian",
+      "Preacher"
+    ],
     "birthPlace": "Eisleben, Germany",
     "deathPlace": "Berlin, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johann_Agricola"
   },
   {
     "id": "person-thomas-muntzer",
     "type": "person",
     "title": "Thomas Müntzer",
-    "alternateNames": ["Thomas Muntzer"],
+    "alternateNames": [
+      "Thomas Muntzer"
+    ],
     "shortDescription": "Radical reformer and leader in the German Peasants' War",
     "dateStart": "1489",
     "dateEnd": "1525",
     "biography": "German radical reformer who emerged from Lutheran circles but emphasized direct revelation over Scripture. Led peasant forces in the German Peasants' War and was executed after the Battle of Frankenhausen. Influenced later radical movements though he was not himself an Anabaptist.",
-    "occupations": ["Reformer", "Revolutionary"],
+    "occupations": [
+      "Reformer",
+      "Revolutionary"
+    ],
     "birthPlace": "Stolberg, Germany",
     "deathPlace": "Mühlhausen, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Thomas_Müntzer"
   },
   {
     "id": "person-heinrich-bullinger",
@@ -222,10 +314,15 @@
     "dateStart": "1504",
     "dateEnd": "1575",
     "biography": "Swiss reformer who succeeded Zwingli as Antistes of Zurich after the Battle of Kappel (1531). Led the Zurich church for 44 years and authored the First and Second Helvetic Confessions. His vast correspondence network (approximately 12,000 letters) influenced Reformed churches across Europe.",
-    "occupations": ["Pastor", "Theologian", "Church leader"],
+    "occupations": [
+      "Pastor",
+      "Theologian",
+      "Church leader"
+    ],
     "birthPlace": "Bremgarten, Switzerland",
     "deathPlace": "Zurich, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Heinrich_Bullinger"
   },
   {
     "id": "person-leo-jud",
@@ -235,10 +332,15 @@
     "dateStart": "1482",
     "dateEnd": "1542",
     "biography": "Swiss reformer who was Zwingli's close friend from their student days under Thomas Wyttenbach at Basel. Served as pastor at St. Peter's in Zurich and collaborated on Bible translation and liturgical reform.",
-    "occupations": ["Pastor", "Translator", "Reformer"],
+    "occupations": [
+      "Pastor",
+      "Translator",
+      "Reformer"
+    ],
     "birthPlace": "Guémar, Alsace",
     "deathPlace": "Zurich, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Leo_Jud"
   },
   {
     "id": "person-johannes-oecolampadius",
@@ -248,10 +350,14 @@
     "dateStart": "1482",
     "dateEnd": "1531",
     "biography": "German-Swiss theologian who led the Basel Reformation. Allied with Zwingli on the symbolic understanding of the Eucharist and participated in the Marburg Colloquy. Died shortly after Zwingli in 1531.",
-    "occupations": ["Theologian", "Reformer"],
+    "occupations": [
+      "Theologian",
+      "Reformer"
+    ],
     "birthPlace": "Weinsberg, Germany",
     "deathPlace": "Basel, Switzerland",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johannes_Oecolampadius"
   },
   {
     "id": "person-rudolf-gwalther",
@@ -261,10 +367,15 @@
     "dateStart": "1519",
     "dateEnd": "1586",
     "biography": "Swiss reformer who married Zwingli's daughter Regula. Succeeded Bullinger as Antistes of Zurich in 1575, continuing the Zwinglian Reformed tradition.",
-    "occupations": ["Pastor", "Theologian", "Translator"],
+    "occupations": [
+      "Pastor",
+      "Theologian",
+      "Translator"
+    ],
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Zurich, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Rudolf_Gwalther"
   },
   {
     "id": "person-kaspar-megander",
@@ -274,10 +385,14 @@
     "dateStart": "1495",
     "dateEnd": "1545",
     "biography": "Swiss reformer who defended Zwinglian sacramental views against Lutheran influence and was involved in Bern's Reformation.",
-    "occupations": ["Reformer", "Theologian"],
+    "occupations": [
+      "Reformer",
+      "Theologian"
+    ],
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Zurich, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Kaspar_Megander"
   },
   {
     "id": "person-guillaume-farel",
@@ -287,10 +402,14 @@
     "dateStart": "1489",
     "dateEnd": "1565",
     "biography": "French-Swiss reformer and itinerant preacher who introduced the Reformation to French-speaking Switzerland. Famously persuaded Calvin to stay in Geneva in 1536, threatening God's judgment if he left. Known for his passionate, confrontational temperament.",
-    "occupations": ["Preacher", "Reformer"],
+    "occupations": [
+      "Preacher",
+      "Reformer"
+    ],
     "birthPlace": "Gap, France",
     "deathPlace": "Neuchâtel, Switzerland",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "William_Farel"
   },
   {
     "id": "person-pierre-viret",
@@ -300,38 +419,56 @@
     "dateStart": "1511",
     "dateEnd": "1571",
     "biography": "Swiss reformer who worked with Farel to reform Lausanne and Geneva. Known for a more gentle, pastoral temperament than Calvin or Farel. Part of the 'triumvirate' that led the French-speaking Swiss Reformation.",
-    "occupations": ["Theologian", "Pastor", "Reformer"],
+    "occupations": [
+      "Theologian",
+      "Pastor",
+      "Reformer"
+    ],
     "birthPlace": "Orbe, Switzerland",
     "deathPlace": "Orthez, France",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Pierre_Viret"
   },
   {
     "id": "person-theodore-beza",
     "type": "person",
     "title": "Theodore Beza",
-    "alternateNames": ["Théodore de Bèze"],
+    "alternateNames": [
+      "Théodore de Bèze"
+    ],
     "shortDescription": "Calvin's successor in Geneva; first rector of Geneva Academy",
     "dateStart": "1519",
     "dateEnd": "1605",
     "biography": "French-Swiss theologian who became Calvin's closest associate and successor. First rector of the Geneva Academy (1559) and chief pastor of Geneva after Calvin's death (1564). Developed Reformed orthodoxy through his theological writings and leadership.",
-    "occupations": ["Theologian", "Scholar", "Church leader"],
+    "occupations": [
+      "Theologian",
+      "Scholar",
+      "Church leader"
+    ],
     "birthPlace": "Vézelay, France",
     "deathPlace": "Geneva, Switzerland",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Theodore_Beza"
   },
   {
     "id": "person-pierre-robert-olivetan",
     "type": "person",
     "title": "Pierre Robert Olivétan",
-    "alternateNames": ["Olivetan"],
+    "alternateNames": [
+      "Olivetan"
+    ],
     "shortDescription": "Calvin's cousin; produced first French Bible from original languages",
     "dateStart": "1506",
     "dateEnd": "1538",
     "biography": "French reformer and Bible translator who was Calvin's cousin. Produced the first French Bible translated from the original Hebrew and Greek (1535), commissioned by the Waldensians. Calvin wrote the Latin preface. May have influenced Calvin's interest in reform.",
-    "occupations": ["Bible translator", "Reformer"],
+    "occupations": [
+      "Bible translator",
+      "Reformer"
+    ],
     "birthPlace": "Noyon, France",
     "deathPlace": "Unknown (possibly Italy)",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Olivétan"
   },
   {
     "id": "person-martin-bucer",
@@ -341,10 +478,15 @@
     "dateStart": "1491",
     "dateEnd": "1551",
     "biography": "German reformer who led the Strasbourg Reformation alongside Capito. Key mediating figure who attempted to reconcile Lutheran and Reformed positions. Mentored Calvin during his Strasbourg exile (1538-1541) and later influenced Cranmer's Prayer Book in England.",
-    "occupations": ["Theologian", "Reformer", "Mediator"],
+    "occupations": [
+      "Theologian",
+      "Reformer",
+      "Mediator"
+    ],
     "birthPlace": "Schlettstadt, Alsace",
     "deathPlace": "Cambridge, England",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Martin_Bucer"
   },
   {
     "id": "person-wolfgang-capito",
@@ -354,10 +496,14 @@
     "dateStart": "1478",
     "dateEnd": "1541",
     "biography": "German theologian who co-led the Strasbourg Reformation with Bucer. Co-authored the Tetrapolitan Confession and was initially tolerant of Anabaptists. Met Erasmus and Zwingli at Basel.",
-    "occupations": ["Theologian", "Reformer"],
+    "occupations": [
+      "Theologian",
+      "Reformer"
+    ],
     "birthPlace": "Hagenau, Alsace",
     "deathPlace": "Strasbourg",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Wolfgang_Capito"
   },
   {
     "id": "person-katharina-schutz-zell",
@@ -367,10 +513,14 @@
     "dateStart": "1498",
     "dateEnd": "1562",
     "biography": "German reformer who married priest Matthew Zell in 1523, one of the first clerical marriages in Strasbourg. An active reformer in her own right, she wrote theological works, defended clerical marriage, and cared for religious refugees.",
-    "occupations": ["Reformer", "Writer"],
+    "occupations": [
+      "Reformer",
+      "Writer"
+    ],
     "birthPlace": "Strasbourg",
     "deathPlace": "Strasbourg",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Katharina_Zell"
   },
   {
     "id": "person-matthew-zell",
@@ -380,10 +530,14 @@
     "dateStart": "1477",
     "dateEnd": "1548",
     "biography": "German priest and early Strasbourg reformer who was among the first to marry openly, challenging clerical celibacy. Welcomed religious refugees to Strasbourg.",
-    "occupations": ["Pastor", "Reformer"],
+    "occupations": [
+      "Pastor",
+      "Reformer"
+    ],
     "birthPlace": "Kaysersberg, Alsace",
     "deathPlace": "Strasbourg",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Matthew_Zell"
   },
   {
     "id": "person-thomas-cromwell",
@@ -393,10 +547,14 @@
     "dateStart": "1485",
     "dateEnd": "1540",
     "biography": "English statesman and chief minister to Henry VIII who engineered the legal and administrative structure of the English Reformation. Dissolved the monasteries, promoted the vernacular Bible, and patronized reformers. Executed in 1540.",
-    "occupations": ["Statesman", "Chief minister"],
+    "occupations": [
+      "Statesman",
+      "Chief minister"
+    ],
     "birthPlace": "Putney, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Thomas_Cromwell"
   },
   {
     "id": "person-hugh-latimer",
@@ -406,10 +564,14 @@
     "dateStart": "1485",
     "dateEnd": "1555",
     "biography": "English bishop and reformer known for his powerful evangelical preaching. Bishop of Worcester under Henry VIII and prominent preacher under Edward VI. Burned at the stake with Ridley in Oxford in 1555, one of the Oxford Martyrs.",
-    "occupations": ["Bishop", "Preacher"],
+    "occupations": [
+      "Bishop",
+      "Preacher"
+    ],
     "birthPlace": "Thurcaston, England",
     "deathPlace": "Oxford, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Hugh_Latimer"
   },
   {
     "id": "person-nicholas-ridley",
@@ -419,10 +581,14 @@
     "dateStart": "1500",
     "dateEnd": "1555",
     "biography": "English bishop and theologian who served as Cranmer's chaplain and collaborated on liturgical reform. As Bishop of London, he replaced stone altars with communion tables. Burned at the stake with Latimer in Oxford in 1555.",
-    "occupations": ["Bishop", "Theologian"],
+    "occupations": [
+      "Bishop",
+      "Theologian"
+    ],
     "birthPlace": "South Tynedale, England",
     "deathPlace": "Oxford, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Nicholas_Ridley_(martyr)"
   },
   {
     "id": "person-miles-coverdale",
@@ -432,10 +598,14 @@
     "dateStart": "1488",
     "dateEnd": "1569",
     "biography": "English Bible translator who produced the first complete printed English Bible (1535) using Tyndale's work where available and translating the rest from German and Latin. Supervised the Great Bible (1539) and briefly served as Bishop of Exeter.",
-    "occupations": ["Bible translator", "Bishop"],
+    "occupations": [
+      "Bible translator",
+      "Bishop"
+    ],
     "birthPlace": "York, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Miles_Coverdale"
   },
   {
     "id": "person-john-foxe",
@@ -445,10 +615,14 @@
     "dateStart": "1516",
     "dateEnd": "1587",
     "biography": "English historian and martyrologist whose Actes and Monuments (Book of Martyrs, 1563) documented Protestant martyrs and shaped English Protestant identity and anti-Catholic sentiment for centuries.",
-    "occupations": ["Historian", "Martyrologist"],
+    "occupations": [
+      "Historian",
+      "Martyrologist"
+    ],
     "birthPlace": "Boston, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "John_Foxe"
   },
   {
     "id": "person-thomas-bilney",
@@ -458,10 +632,14 @@
     "dateStart": "1495",
     "dateEnd": "1531",
     "biography": "English priest and reformer who was converted by reading Erasmus's Greek New Testament. Converted Hugh Latimer to evangelical views at Cambridge. Burned at Norwich in 1531, one of the first prominent English Protestant martyrs.",
-    "occupations": ["Priest", "Preacher"],
+    "occupations": [
+      "Priest",
+      "Preacher"
+    ],
     "birthPlace": "Norfolk, England",
     "deathPlace": "Norwich, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Thomas_Bilney"
   },
   {
     "id": "person-robert-barnes",
@@ -471,10 +649,14 @@
     "dateStart": "1495",
     "dateEnd": "1540",
     "biography": "English theologian who was part of the Cambridge reform group and became friends with Luther in Wittenberg. Served as diplomatic intermediary between England and Lutheran Germany. Burned at Smithfield in 1540, the same day Thomas Cromwell was executed.",
-    "occupations": ["Theologian", "Diplomat"],
+    "occupations": [
+      "Theologian",
+      "Diplomat"
+    ],
     "birthPlace": "King's Lynn, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Robert_Barnes_(martyr)"
   },
   {
     "id": "person-john-frith",
@@ -484,10 +666,13 @@
     "dateStart": "1503",
     "dateEnd": "1533",
     "biography": "English theologian who assisted Tyndale in exile and wrote against purgatory and transubstantiation. Burned at Smithfield in 1533 at only 30 years old.",
-    "occupations": ["Theologian"],
+    "occupations": [
+      "Theologian"
+    ],
     "birthPlace": "Westerham, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "John_Frith"
   },
   {
     "id": "person-john-hooper",
@@ -497,10 +682,14 @@
     "dateStart": "1495",
     "dateEnd": "1555",
     "biography": "English bishop influenced by Bullinger during his Zurich exile. Bishop of Gloucester and Worcester; more radically Protestant than Cranmer, resisting vestments in the Vestments Controversy. Burned at Gloucester in 1555.",
-    "occupations": ["Bishop", "Reformer"],
+    "occupations": [
+      "Bishop",
+      "Reformer"
+    ],
     "birthPlace": "Somerset, England",
     "deathPlace": "Gloucester, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "John_Hooper_(bishop)"
   },
   {
     "id": "person-matthew-parker",
@@ -510,10 +699,14 @@
     "dateStart": "1504",
     "dateEnd": "1575",
     "biography": "Archbishop of Canterbury under Elizabeth I who consolidated the moderate English Reformation settlement. Oversaw the Bishops' Bible and was part of the Cambridge White Horse group in his youth.",
-    "occupations": ["Archbishop", "Scholar"],
+    "occupations": [
+      "Archbishop",
+      "Scholar"
+    ],
     "birthPlace": "Norwich, England",
     "deathPlace": "Lambeth, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Matthew_Parker"
   },
   {
     "id": "person-johannes-reuchlin",
@@ -523,10 +716,14 @@
     "dateStart": "1455",
     "dateEnd": "1522",
     "biography": "German humanist scholar and foremost German Hebraist who defended Jewish books against destruction in the Reuchlin Affair. Great-uncle of Melanchthon, whom he encouraged and gave the surname 'Melanchthon.'",
-    "occupations": ["Humanist scholar", "Hebraist"],
+    "occupations": [
+      "Humanist scholar",
+      "Hebraist"
+    ],
     "birthPlace": "Pforzheim, Germany",
     "deathPlace": "Stuttgart, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johann_Reuchlin"
   },
   {
     "id": "person-john-colet",
@@ -536,10 +733,15 @@
     "dateStart": "1467",
     "dateEnd": "1519",
     "biography": "English humanist and churchman who founded St. Paul's School and encouraged Erasmus's biblical scholarship. His lectures on Paul at Oxford inspired Erasmus. Died before the Reformation proper.",
-    "occupations": ["Dean", "Educator", "Humanist"],
+    "occupations": [
+      "Dean",
+      "Educator",
+      "Humanist"
+    ],
     "birthPlace": "London, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "John_Colet"
   },
   {
     "id": "person-thomas-more",
@@ -549,24 +751,36 @@
     "dateStart": "1478",
     "dateEnd": "1535",
     "biography": "English statesman, humanist, and close friend of Erasmus who opposed the Reformation. As Lord Chancellor, wrote polemics against Tyndale and Luther. Executed for refusing to accept Henry VIII as head of the church; Catholic martyr and saint.",
-    "occupations": ["Statesman", "Humanist", "Lord Chancellor"],
+    "occupations": [
+      "Statesman",
+      "Humanist",
+      "Lord Chancellor"
+    ],
     "birthPlace": "London, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Thomas_More"
   },
   {
     "id": "person-jacques-lefevre-detaples",
     "type": "person",
     "title": "Jacques Lefèvre d'Étaples",
-    "alternateNames": ["Jacobus Faber Stapulensis"],
+    "alternateNames": [
+      "Jacobus Faber Stapulensis"
+    ],
     "shortDescription": "Pioneer of French biblical humanism; produced French New Testament",
     "dateStart": "1455",
     "dateEnd": "1536",
     "biography": "French humanist scholar and pioneer of French biblical humanism. Produced a French New Testament translation (1530) and influenced early French reformers including Farel. Remained within the Catholic Church while advocating evangelical reform.",
-    "occupations": ["Humanist scholar", "Theologian", "Translator"],
+    "occupations": [
+      "Humanist scholar",
+      "Theologian",
+      "Translator"
+    ],
     "birthPlace": "Étaples, France",
     "deathPlace": "Nérac, France",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Jacques_Lefèvre_d%27Étaples"
   },
   {
     "id": "person-guillaume-briconnet",
@@ -576,10 +790,13 @@
     "dateStart": "1472",
     "dateEnd": "1534",
     "biography": "French bishop who led the reform-minded Meaux Circle in the early 1520s. Patron of Lefèvre d'Étaples and early French evangelicals. Attempted reform within the Catholic Church but was pressured to suppress reformers after 1525.",
-    "occupations": ["Bishop"],
+    "occupations": [
+      "Bishop"
+    ],
     "birthPlace": "Tours, France",
     "deathPlace": "Meaux, France",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Guillaume_Briçonnet_(cardinal)"
   },
   {
     "id": "person-conrad-grebel",
@@ -589,10 +806,13 @@
     "dateStart": "1498",
     "dateEnd": "1526",
     "biography": "Swiss radical reformer who co-founded the Swiss Brethren (Anabaptists), breaking with Zwingli over infant baptism. Performed the first adult rebaptism on January 21, 1525. Died of plague in exile.",
-    "occupations": ["Reformer"],
+    "occupations": [
+      "Reformer"
+    ],
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Maienfeld, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Conrad_Grebel"
   },
   {
     "id": "person-felix-manz",
@@ -602,10 +822,13 @@
     "dateStart": "1498",
     "dateEnd": "1527",
     "biography": "Swiss radical reformer who co-founded the Swiss Brethren with Grebel. First Swiss Anabaptist executed, drowned in the Limmat River by Zurich authorities on January 5, 1527—a grim pun on rebaptism.",
-    "occupations": ["Reformer"],
+    "occupations": [
+      "Reformer"
+    ],
     "birthPlace": "Zurich, Switzerland",
     "deathPlace": "Zurich, Switzerland",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "Felix_Manz"
   },
   {
     "id": "person-george-blaurock",
@@ -615,10 +838,14 @@
     "dateStart": "1491",
     "dateEnd": "1529",
     "biography": "Swiss Anabaptist leader who was baptized by Grebel at the founding of the Swiss Brethren (January 21, 1525). Became a missionary spreading Anabaptism to Tyrol where he was burned at the stake.",
-    "occupations": ["Reformer", "Missionary"],
+    "occupations": [
+      "Reformer",
+      "Missionary"
+    ],
     "birthPlace": "Bonaduz, Switzerland",
     "deathPlace": "Klausen, Tyrol",
-    "nationality": "Swiss"
+    "nationality": "Swiss",
+    "wikipediaTitle": "George_Blaurock"
   },
   {
     "id": "person-balthasar-hubmaier",
@@ -628,10 +855,14 @@
     "dateStart": "1480",
     "dateEnd": "1528",
     "biography": "German-Moravian Anabaptist theologian who was the most theologically trained Anabaptist leader. Led an Anabaptist community in Nikolsburg, Moravia. Burned at the stake in Vienna.",
-    "occupations": ["Theologian", "Reformer"],
+    "occupations": [
+      "Theologian",
+      "Reformer"
+    ],
     "birthPlace": "Friedberg, Germany",
     "deathPlace": "Vienna, Austria",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Balthasar_Hubmaier"
   },
   {
     "id": "person-menno-simons",
@@ -641,10 +872,14 @@
     "dateStart": "1496",
     "dateEnd": "1561",
     "biography": "Dutch Anabaptist leader who reorganized scattered Dutch Anabaptists after the Münster catastrophe (1534-35). Emphasized nonresistance and discipleship. The Mennonite movement is named after him.",
-    "occupations": ["Theologian", "Church leader"],
+    "occupations": [
+      "Theologian",
+      "Church leader"
+    ],
     "birthPlace": "Witmarsum, Netherlands",
     "deathPlace": "Wüstenfelde, Holstein",
-    "nationality": "Dutch"
+    "nationality": "Dutch",
+    "wikipediaTitle": "Menno_Simons"
   },
   {
     "id": "person-michael-sattler",
@@ -654,24 +889,34 @@
     "dateStart": "1490",
     "dateEnd": "1527",
     "biography": "South German Anabaptist leader and former Benedictine prior. Author of the Schleitheim Confession (1527), the foundational Anabaptist statement on baptism, ban, Lord's Supper, separation, and nonresistance. Brutally executed at Rottenburg.",
-    "occupations": ["Reformer"],
+    "occupations": [
+      "Reformer"
+    ],
     "birthPlace": "Stauffen, Germany",
     "deathPlace": "Rottenburg, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Michael_Sattler"
   },
   {
     "id": "person-marguerite-of-navarre",
     "type": "person",
     "title": "Marguerite of Navarre",
-    "alternateNames": ["Marguerite d'Angoulême"],
+    "alternateNames": [
+      "Marguerite d'Angoulême"
+    ],
     "shortDescription": "Queen of Navarre; patron and protector of French reformers",
     "dateStart": "1492",
     "dateEnd": "1549",
     "biography": "Queen of Navarre and sister of King Francis I of France. Used her influence to protect early French reformers including Lefèvre d'Étaples and Clément Marot. Never formally broke with Catholicism but was sympathetic to reform. Author of the Heptameron.",
-    "occupations": ["Queen", "Patron", "Writer"],
+    "occupations": [
+      "Queen",
+      "Patron",
+      "Writer"
+    ],
     "birthPlace": "Angoulême, France",
     "deathPlace": "Odos, France",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Marguerite_de_Navarre"
   },
   {
     "id": "person-clement-marot",
@@ -681,10 +926,14 @@
     "dateStart": "1496",
     "dateEnd": "1544",
     "biography": "French court poet whose metrical translations of Psalms into French verse became the foundation of Huguenot worship. Protected by Marguerite of Navarre when his Protestant sympathies brought danger.",
-    "occupations": ["Poet", "Translator"],
+    "occupations": [
+      "Poet",
+      "Translator"
+    ],
     "birthPlace": "Cahors, France",
     "deathPlace": "Turin, Italy",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Clément_Marot"
   },
   {
     "id": "person-antoine-froment",
@@ -694,10 +943,14 @@
     "dateStart": "1509",
     "dateEnd": "1581",
     "biography": "French-Swiss reformer who worked alongside Farel in introducing the Reformation to Geneva in the early 1530s. His influence waned after Calvin's rise.",
-    "occupations": ["Reformer", "Preacher"],
+    "occupations": [
+      "Reformer",
+      "Preacher"
+    ],
     "birthPlace": "Mens, France",
     "deathPlace": "Geneva, Switzerland",
-    "nationality": "French"
+    "nationality": "French",
+    "wikipediaTitle": "Antoine_Froment"
   },
   {
     "id": "person-marie-dentiere",
@@ -707,66 +960,95 @@
     "dateStart": "1495",
     "dateEnd": "1561",
     "biography": "Former abbess who became one of the few female Reformation theologians. Married Antoine Froment and advocated for women's roles in the church through her theological writings.",
-    "occupations": ["Reformer", "Writer", "Theologian"],
+    "occupations": [
+      "Reformer",
+      "Writer",
+      "Theologian"
+    ],
     "birthPlace": "Tournai, Belgium",
     "deathPlace": "Geneva, Switzerland",
-    "nationality": "Belgian"
+    "nationality": "Belgian",
+    "wikipediaTitle": "Marie_Dentière"
   },
   {
     "id": "person-frederick-the-wise",
     "type": "person",
     "title": "Frederick the Wise",
-    "alternateNames": ["Frederick III, Elector of Saxony"],
+    "alternateNames": [
+      "Frederick III, Elector of Saxony"
+    ],
     "shortDescription": "Elector of Saxony who protected Luther from papal and imperial action",
     "dateStart": "1463",
     "dateEnd": "1525",
     "biography": "Elector of Saxony who protected Luther from papal and imperial action despite never formally converting. Founded the University of Wittenberg and arranged Luther's 'kidnapping' to Wartburg Castle for his safety after the Diet of Worms.",
-    "occupations": ["Elector", "Prince"],
+    "occupations": [
+      "Elector",
+      "Prince"
+    ],
     "birthPlace": "Torgau, Germany",
     "deathPlace": "Lochau, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Frederick_III,_Elector_of_Saxony"
   },
   {
     "id": "person-john-the-steadfast",
     "type": "person",
     "title": "John the Steadfast",
-    "alternateNames": ["John, Elector of Saxony"],
+    "alternateNames": [
+      "John, Elector of Saxony"
+    ],
     "shortDescription": "Frederick's brother; first openly Lutheran elector",
     "dateStart": "1468",
     "dateEnd": "1532",
     "biography": "Elector of Saxony who succeeded his brother Frederick the Wise in 1525 and openly embraced Lutheranism. Co-founded the Schmalkaldic League for Protestant defense.",
-    "occupations": ["Elector", "Prince"],
+    "occupations": [
+      "Elector",
+      "Prince"
+    ],
     "birthPlace": "Meissen, Germany",
     "deathPlace": "Schweinitz, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "John,_Elector_of_Saxony"
   },
   {
     "id": "person-john-frederick-i",
     "type": "person",
     "title": "John Frederick I",
-    "alternateNames": ["John Frederick the Magnanimous"],
+    "alternateNames": [
+      "John Frederick the Magnanimous"
+    ],
     "shortDescription": "Led Schmalkaldic League; captured after defeat at Mühlberg",
     "dateStart": "1503",
     "dateEnd": "1554",
     "biography": "Elector of Saxony who succeeded his father John the Steadfast in 1532. Led the Schmalkaldic League in the Schmalkaldic War (1546-47) but was captured after defeat at the Battle of Mühlberg and lost the electorate.",
-    "occupations": ["Elector", "Prince"],
+    "occupations": [
+      "Elector",
+      "Prince"
+    ],
     "birthPlace": "Torgau, Germany",
     "deathPlace": "Weimar, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "John_Frederick_I,_Elector_of_Saxony"
   },
   {
     "id": "person-philip-of-hesse",
     "type": "person",
     "title": "Philip of Hesse",
-    "alternateNames": ["Philip the Magnanimous"],
+    "alternateNames": [
+      "Philip the Magnanimous"
+    ],
     "shortDescription": "Most active Protestant prince; founded University of Marburg; organized Marburg Colloquy",
     "dateStart": "1504",
     "dateEnd": "1567",
     "biography": "Landgrave of Hesse and one of the most active Protestant princes. Founded the University of Marburg (first Protestant university) and co-founded the Schmalkaldic League. Organized the Marburg Colloquy (1529) to unite Luther and Zwingli. His bigamy scandal (1540) weakened his position.",
-    "occupations": ["Landgrave", "Prince"],
+    "occupations": [
+      "Landgrave",
+      "Prince"
+    ],
     "birthPlace": "Marburg, Germany",
     "deathPlace": "Kassel, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Philip_I,_Landgrave_of_Hesse"
   },
   {
     "id": "person-henry-viii",
@@ -776,10 +1058,13 @@
     "dateStart": "1491",
     "dateEnd": "1547",
     "biography": "King of England who broke with Rome over his divorce from Catherine of Aragon, establishing royal supremacy over the English church. His religious position was complex—Catholic in doctrine but Protestant in church structure. Dissolved the monasteries.",
-    "occupations": ["King"],
+    "occupations": [
+      "King"
+    ],
     "birthPlace": "Greenwich, England",
     "deathPlace": "London, England",
-    "nationality": "English"
+    "nationality": "English",
+    "wikipediaTitle": "Henry_VIII"
   },
   {
     "id": "person-charles-v",
@@ -789,10 +1074,14 @@
     "dateStart": "1500",
     "dateEnd": "1558",
     "biography": "Holy Roman Emperor and King of Spain who was the chief political opponent of the Protestant Reformation. Presided over the Diet of Worms where Luther was condemned. Eventually defeated the Schmalkaldic League but exhausted by religious wars, abdicated in 1556.",
-    "occupations": ["Emperor", "King"],
+    "occupations": [
+      "Emperor",
+      "King"
+    ],
     "birthPlace": "Ghent, Flanders",
     "deathPlace": "Yuste, Spain",
-    "nationality": "Spanish/Habsburg"
+    "nationality": "Spanish/Habsburg",
+    "wikipediaTitle": "Charles_V,_Holy_Roman_Emperor"
   },
   {
     "id": "person-johann-eck",
@@ -802,24 +1091,34 @@
     "dateStart": "1486",
     "dateEnd": "1543",
     "biography": "German Catholic theologian and Luther's most persistent opponent. At the Leipzig Debate (1519), maneuvered Luther into admitting sympathy with Hus. Helped draft the papal bull Exsurge Domine condemning Luther and wrote the Confutatio against the Augsburg Confession.",
-    "occupations": ["Theologian", "Controversialist"],
+    "occupations": [
+      "Theologian",
+      "Controversialist"
+    ],
     "birthPlace": "Egg an der Günz, Germany",
     "deathPlace": "Ingolstadt, Germany",
-    "nationality": "German"
+    "nationality": "German",
+    "wikipediaTitle": "Johann_Eck"
   },
   {
     "id": "person-cardinal-thomas-cajetan",
     "type": "person",
     "title": "Cardinal Thomas Cajetan",
-    "alternateNames": ["Tommaso de Vio"],
+    "alternateNames": [
+      "Tommaso de Vio"
+    ],
     "shortDescription": "Thomist scholar who interrogated Luther at Augsburg",
     "dateStart": "1469",
     "dateEnd": "1534",
     "biography": "Italian cardinal and Thomist theologian who interrogated Luther at Augsburg (1518) on behalf of the pope, demanding recantation. More moderate than Eck but still required Luther's submission. Contributed to drafting Exsurge Domine.",
-    "occupations": ["Cardinal", "Theologian"],
+    "occupations": [
+      "Cardinal",
+      "Theologian"
+    ],
     "birthPlace": "Gaeta, Italy",
     "deathPlace": "Rome, Italy",
-    "nationality": "Italian"
+    "nationality": "Italian",
+    "wikipediaTitle": "Thomas_Cajetan"
   },
   {
     "id": "person-john-knox",
@@ -829,10 +1128,15 @@
     "dateStart": "1514",
     "dateEnd": "1572",
     "biography": "Scottish reformer who established the Presbyterian Church of Scotland. Profoundly influenced by Calvin during his Geneva exile. Wrote the Scots Confession (1560) and famously confronted Mary Queen of Scots. His First Blast of the Trumpet angered Elizabeth I.",
-    "occupations": ["Reformer", "Preacher", "Church founder"],
+    "occupations": [
+      "Reformer",
+      "Preacher",
+      "Church founder"
+    ],
     "birthPlace": "Giffordgate, Scotland",
     "deathPlace": "Edinburgh, Scotland",
-    "nationality": "Scottish"
+    "nationality": "Scottish",
+    "wikipediaTitle": "John_Knox"
   },
   {
     "id": "person-george-wishart",
@@ -842,10 +1146,14 @@
     "dateStart": "1513",
     "dateEnd": "1546",
     "biography": "Scottish reformer and preacher who mentored John Knox. His execution by Cardinal Beaton in 1546 galvanized Scottish Protestantism and was avenged by Beaton's murder. Knox served as his bodyguard in his final year.",
-    "occupations": ["Preacher", "Reformer"],
+    "occupations": [
+      "Preacher",
+      "Reformer"
+    ],
     "birthPlace": "Pitarrow, Scotland",
     "deathPlace": "St. Andrews, Scotland",
-    "nationality": "Scottish"
+    "nationality": "Scottish",
+    "wikipediaTitle": "George_Wishart"
   },
   {
     "id": "person-patrick-hamilton",
@@ -855,25 +1163,39 @@
     "dateStart": "1504",
     "dateEnd": "1528",
     "biography": "Scottish reformer who studied at the University of Marburg and absorbed Lutheran theology. Scotland's first Protestant martyr, burned at St. Andrews in 1528. His 'Patrick's Places' summarized Protestant doctrine.",
-    "occupations": ["Reformer"],
+    "occupations": [
+      "Reformer"
+    ],
     "birthPlace": "Scotland",
     "deathPlace": "St. Andrews, Scotland",
-    "nationality": "Scottish"
+    "nationality": "Scottish",
+    "wikipediaTitle": "Patrick_Hamilton_(martyr)"
   },
   {
     "id": "object-ninety-five-theses",
     "type": "object",
     "title": "Ninety-Five Theses",
-    "alternateNames": ["Disputatio pro declaratione virtutis indulgentiarum"],
+    "alternateNames": [
+      "Disputatio pro declaratione virtutis indulgentiarum"
+    ],
     "shortDescription": "Luther's 1517 document that sparked the Reformation",
     "dateStart": "1517",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-martin-luther"],
+    "creators": [
+      "person-martin-luther"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses"},
-      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/theses/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses"
+      },
+      {
+        "label": "Project Wittenberg",
+        "url": "http://www.projectwittenberg.org/etext/luther/theses/"
+      }
+    ],
+    "wikipediaTitle": "Ninety-five_Theses"
   },
   {
     "id": "object-address-christian-nobility",
@@ -883,11 +1205,20 @@
     "dateStart": "1520",
     "objectType": "treatise",
     "language": "German",
-    "creators": ["person-martin-luther"],
+    "creators": [
+      "person-martin-luther"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/To_the_Christian_Nobility_of_the_German_Nation"},
-      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/nobility/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/To_the_Christian_Nobility_of_the_German_Nation"
+      },
+      {
+        "label": "Project Wittenberg",
+        "url": "http://www.projectwittenberg.org/etext/luther/nobility/"
+      }
+    ],
+    "wikipediaTitle": "To_the_Christian_Nobility_of_the_German_Nation"
   },
   {
     "id": "object-babylonian-captivity",
@@ -897,11 +1228,20 @@
     "dateStart": "1520",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-martin-luther"],
+    "creators": [
+      "person-martin-luther"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Babylonian_Captivity_of_the_Church"},
-      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/babylonian/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/On_the_Babylonian_Captivity_of_the_Church"
+      },
+      {
+        "label": "Project Wittenberg",
+        "url": "http://www.projectwittenberg.org/etext/luther/babylonian/"
+      }
+    ],
+    "wikipediaTitle": "On_the_Babylonian_Captivity_of_the_Church"
   },
   {
     "id": "object-freedom-christian",
@@ -911,58 +1251,103 @@
     "dateStart": "1520",
     "objectType": "treatise",
     "language": "German",
-    "creators": ["person-martin-luther"],
+    "creators": [
+      "person-martin-luther"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Freedom_of_a_Christian"},
-      {"label": "Project Wittenberg", "url": "http://www.projectwittenberg.org/etext/luther/freedom/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/On_the_Freedom_of_a_Christian"
+      },
+      {
+        "label": "Project Wittenberg",
+        "url": "http://www.projectwittenberg.org/etext/luther/freedom/"
+      }
+    ],
+    "wikipediaTitle": "On_the_Freedom_of_a_Christian"
   },
   {
     "id": "object-bondage-of-will",
     "type": "object",
     "title": "The Bondage of the Will",
-    "alternateNames": ["De servo arbitrio"],
+    "alternateNames": [
+      "De servo arbitrio"
+    ],
     "shortDescription": "Luther's 1525 response to Erasmus on free will",
     "dateStart": "1525",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-martin-luther"],
+    "creators": [
+      "person-martin-luther"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/On_the_Bondage_of_the_Will"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/bondageofwilltra00luth"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/On_the_Bondage_of_the_Will"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/bondageofwilltra00luth"
+      }
+    ],
+    "wikipediaTitle": "On_the_Bondage_of_the_Will"
   },
   {
     "id": "object-free-will-erasmus",
     "type": "object",
     "title": "On Free Will",
-    "alternateNames": ["De libero arbitrio"],
+    "alternateNames": [
+      "De libero arbitrio"
+    ],
     "shortDescription": "Erasmus's 1524 defense of human free will against Luther",
     "dateStart": "1524",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-erasmus-of-rotterdam"],
+    "creators": [
+      "person-erasmus-of-rotterdam"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/De_libero_arbitrio_diatribe_sive_collatio"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/erasmuslutherdi00eras"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/De_libero_arbitrio_diatribe_sive_collatio"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/erasmuslutherdi00eras"
+      }
+    ],
+    "wikipediaTitle": "De_libero_arbitrio_diatribe_sive_collatio"
   },
   {
     "id": "object-institutes",
     "type": "object",
     "title": "Institutes of the Christian Religion",
-    "alternateNames": ["Institutio Christianae Religionis"],
+    "alternateNames": [
+      "Institutio Christianae Religionis"
+    ],
     "shortDescription": "Calvin's systematic theology; definitive Reformed work",
     "dateStart": "1536",
     "dateEnd": "1559",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-john-calvin"],
+    "creators": [
+      "person-john-calvin"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Institutes_of_the_Christian_Religion"},
-      {"label": "CCEL", "url": "https://www.ccel.org/ccel/calvin/institutes"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/institutesofchri01calv"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Institutes_of_the_Christian_Religion"
+      },
+      {
+        "label": "CCEL",
+        "url": "https://www.ccel.org/ccel/calvin/institutes"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/institutesofchri01calv"
+      }
+    ],
+    "wikipediaTitle": "Institutes_of_the_Christian_Religion"
   },
   {
     "id": "object-sixty-seven-articles",
@@ -972,11 +1357,20 @@
     "dateStart": "1523",
     "objectType": "treatise",
     "language": "German",
-    "creators": ["person-huldrych-zwingli"],
+    "creators": [
+      "person-huldrych-zwingli"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sixty-seven_Articles"},
-      {"label": "Zwingli.org", "url": "https://www.zwingli.org/en/works/67-articles/"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Sixty-seven_Articles"
+      },
+      {
+        "label": "Zwingli.org",
+        "url": "https://www.zwingli.org/en/works/67-articles/"
+      }
+    ],
+    "wikipediaTitle": "Sixty-seven_Articles"
   },
   {
     "id": "object-true-false-religion",
@@ -986,11 +1380,20 @@
     "dateStart": "1525",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-huldrych-zwingli"],
+    "creators": [
+      "person-huldrych-zwingli"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Huldrych_Zwingli"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/latinselectworks00zwin"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Huldrych_Zwingli"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/latinselectworks00zwin"
+      }
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-loci-communes",
@@ -1000,11 +1403,20 @@
     "dateStart": "1521",
     "objectType": "treatise",
     "language": "Latin",
-    "creators": ["person-philip-melanchthon"],
+    "creators": [
+      "person-philip-melanchthon"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Loci_Communes"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/locicommunes00melagoog"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Loci_Communes"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/locicommunes00melagoog"
+      }
+    ],
+    "wikipediaTitle": "Loci_Communes"
   },
   {
     "id": "object-obedience-christian-man",
@@ -1014,11 +1426,20 @@
     "dateStart": "1528",
     "objectType": "treatise",
     "language": "English",
-    "creators": ["person-william-tyndale"],
+    "creators": [
+      "person-william-tyndale"
+    ],
     "externalLinks": [
-      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Obedience_of_a_Christian_Man"},
-      {"label": "Internet Archive", "url": "https://archive.org/details/obedienceofchris00tynd"}
-    ]
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Obedience_of_a_Christian_Man"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/obedienceofchris00tynd"
+      }
+    ],
+    "wikipediaTitle": "The_Obedience_of_a_Christian_Man"
   },
   {
     "id": "object-luther-bible",
@@ -1029,18 +1450,30 @@
     "dateEnd": "1534",
     "objectType": "translation",
     "language": "German",
-    "creators": ["person-martin-luther", "person-philip-melanchthon", "person-johannes-bugenhagen", "person-justus-jonas", "person-caspar-cruciger"]
+    "creators": [
+      "person-martin-luther",
+      "person-philip-melanchthon",
+      "person-johannes-bugenhagen",
+      "person-justus-jonas",
+      "person-caspar-cruciger"
+    ],
+    "wikipediaTitle": "Luther_Bible"
   },
   {
     "id": "object-novum-instrumentum",
     "type": "object",
     "title": "Erasmus's Greek New Testament",
-    "alternateNames": ["Novum Instrumentum"],
+    "alternateNames": [
+      "Novum Instrumentum"
+    ],
     "shortDescription": "First published Greek NT; enabled vernacular translations",
     "dateStart": "1516",
     "objectType": "translation",
     "language": "Greek",
-    "creators": ["person-erasmus-of-rotterdam"]
+    "creators": [
+      "person-erasmus-of-rotterdam"
+    ],
+    "wikipediaTitle": "Novum_Instrumentum_omne"
   },
   {
     "id": "object-tyndale-nt",
@@ -1050,7 +1483,10 @@
     "dateStart": "1526",
     "objectType": "translation",
     "language": "English",
-    "creators": ["person-william-tyndale"]
+    "creators": [
+      "person-william-tyndale"
+    ],
+    "wikipediaTitle": "Tyndale_Bible"
   },
   {
     "id": "object-tyndale-pentateuch",
@@ -1060,7 +1496,10 @@
     "dateStart": "1530",
     "objectType": "translation",
     "language": "English",
-    "creators": ["person-william-tyndale"]
+    "creators": [
+      "person-william-tyndale"
+    ],
+    "wikipediaTitle": "Tyndale_Bible"
   },
   {
     "id": "object-coverdale-bible",
@@ -1070,7 +1509,10 @@
     "dateStart": "1535",
     "objectType": "translation",
     "language": "English",
-    "creators": ["person-miles-coverdale"]
+    "creators": [
+      "person-miles-coverdale"
+    ],
+    "wikipediaTitle": "Coverdale_Bible"
   },
   {
     "id": "object-great-bible",
@@ -1080,7 +1522,10 @@
     "dateStart": "1539",
     "objectType": "translation",
     "language": "English",
-    "creators": ["person-miles-coverdale"]
+    "creators": [
+      "person-miles-coverdale"
+    ],
+    "wikipediaTitle": "Great_Bible"
   },
   {
     "id": "object-geneva-bible",
@@ -1089,7 +1534,8 @@
     "shortDescription": "Produced by Marian exiles; most popular English Bible until KJV",
     "dateStart": "1560",
     "objectType": "translation",
-    "language": "English"
+    "language": "English",
+    "wikipediaTitle": "Geneva_Bible"
   },
   {
     "id": "object-olivetan-bible",
@@ -1099,7 +1545,10 @@
     "dateStart": "1535",
     "objectType": "translation",
     "language": "French",
-    "creators": ["person-pierre-robert-olivetan"]
+    "creators": [
+      "person-pierre-robert-olivetan"
+    ],
+    "wikipediaTitle": "Olivétan_Bible"
   },
   {
     "id": "object-zurich-bible",
@@ -1109,18 +1558,27 @@
     "dateStart": "1531",
     "objectType": "translation",
     "language": "German",
-    "creators": ["person-leo-jud", "person-huldrych-zwingli"]
+    "creators": [
+      "person-leo-jud",
+      "person-huldrych-zwingli"
+    ],
+    "wikipediaTitle": "Froschauer_Bible"
   },
   {
     "id": "object-augsburg-confession",
     "type": "object",
     "title": "Augsburg Confession",
-    "alternateNames": ["Confessio Augustana"],
+    "alternateNames": [
+      "Confessio Augustana"
+    ],
     "shortDescription": "Primary confession of Lutheran churches",
     "dateStart": "1530",
     "objectType": "confession",
     "language": "Latin",
-    "creators": ["person-philip-melanchthon"]
+    "creators": [
+      "person-philip-melanchthon"
+    ],
+    "wikipediaTitle": "Augsburg_Confession"
   },
   {
     "id": "object-apology-augsburg",
@@ -1130,7 +1588,10 @@
     "dateStart": "1531",
     "objectType": "confession",
     "language": "Latin",
-    "creators": ["person-philip-melanchthon"]
+    "creators": [
+      "person-philip-melanchthon"
+    ],
+    "wikipediaTitle": "Apology_of_the_Augsburg_Confession"
   },
   {
     "id": "object-small-catechism",
@@ -1140,7 +1601,10 @@
     "dateStart": "1529",
     "objectType": "catechism",
     "language": "German",
-    "creators": ["person-martin-luther"]
+    "creators": [
+      "person-martin-luther"
+    ],
+    "wikipediaTitle": "Luther%27s_Small_Catechism"
   },
   {
     "id": "object-large-catechism",
@@ -1150,7 +1614,10 @@
     "dateStart": "1529",
     "objectType": "catechism",
     "language": "German",
-    "creators": ["person-martin-luther"]
+    "creators": [
+      "person-martin-luther"
+    ],
+    "wikipediaTitle": "Luther%27s_Large_Catechism"
   },
   {
     "id": "object-tetrapolitan-confession",
@@ -1160,7 +1627,11 @@
     "dateStart": "1530",
     "objectType": "confession",
     "language": "Latin",
-    "creators": ["person-martin-bucer", "person-wolfgang-capito"]
+    "creators": [
+      "person-martin-bucer",
+      "person-wolfgang-capito"
+    ],
+    "wikipediaTitle": "Tetrapolitan_Confession"
   },
   {
     "id": "object-first-helvetic-confession",
@@ -1170,7 +1641,11 @@
     "dateStart": "1536",
     "objectType": "confession",
     "language": "Latin",
-    "creators": ["person-heinrich-bullinger", "person-leo-jud"]
+    "creators": [
+      "person-heinrich-bullinger",
+      "person-leo-jud"
+    ],
+    "wikipediaTitle": "First_Helvetic_Confession"
   },
   {
     "id": "object-second-helvetic-confession",
@@ -1180,7 +1655,10 @@
     "dateStart": "1566",
     "objectType": "confession",
     "language": "Latin",
-    "creators": ["person-heinrich-bullinger"]
+    "creators": [
+      "person-heinrich-bullinger"
+    ],
+    "wikipediaTitle": "Second_Helvetic_Confession"
   },
   {
     "id": "object-genevan-catechism",
@@ -1190,7 +1668,10 @@
     "dateStart": "1542",
     "objectType": "catechism",
     "language": "French",
-    "creators": ["person-john-calvin"]
+    "creators": [
+      "person-john-calvin"
+    ],
+    "wikipediaTitle": "Genevan_Catechism"
   },
   {
     "id": "object-heidelberg-catechism",
@@ -1199,7 +1680,8 @@
     "shortDescription": "Warmly personal Reformed catechism",
     "dateStart": "1563",
     "objectType": "catechism",
-    "language": "German"
+    "language": "German",
+    "wikipediaTitle": "Heidelberg_Catechism"
   },
   {
     "id": "object-schleitheim-confession",
@@ -1209,7 +1691,10 @@
     "dateStart": "1527",
     "objectType": "confession",
     "language": "German",
-    "creators": ["person-michael-sattler"]
+    "creators": [
+      "person-michael-sattler"
+    ],
+    "wikipediaTitle": "Schleitheim_Confession"
   },
   {
     "id": "object-scots-confession",
@@ -1219,7 +1704,10 @@
     "dateStart": "1560",
     "objectType": "confession",
     "language": "English",
-    "creators": ["person-john-knox"]
+    "creators": [
+      "person-john-knox"
+    ],
+    "wikipediaTitle": "Scots_Confession"
   },
   {
     "id": "object-thirty-nine-articles",
@@ -1229,7 +1717,10 @@
     "dateStart": "1563",
     "objectType": "confession",
     "language": "English",
-    "creators": ["person-matthew-parker"]
+    "creators": [
+      "person-matthew-parker"
+    ],
+    "wikipediaTitle": "Thirty-nine_Articles"
   },
   {
     "id": "object-bcp-1549",
@@ -1239,7 +1730,10 @@
     "dateStart": "1549",
     "objectType": "liturgy",
     "language": "English",
-    "creators": ["person-thomas-cranmer"]
+    "creators": [
+      "person-thomas-cranmer"
+    ],
+    "wikipediaTitle": "Book_of_Common_Prayer_(1549)"
   },
   {
     "id": "object-bcp-1552",
@@ -1249,7 +1743,10 @@
     "dateStart": "1552",
     "objectType": "liturgy",
     "language": "English",
-    "creators": ["person-thomas-cranmer"]
+    "creators": [
+      "person-thomas-cranmer"
+    ],
+    "wikipediaTitle": "Book_of_Common_Prayer_(1552)"
   },
   {
     "id": "object-strasbourg-liturgy",
@@ -1259,7 +1756,10 @@
     "dateStart": "1524",
     "objectType": "liturgy",
     "language": "German",
-    "creators": ["person-martin-bucer"]
+    "creators": [
+      "person-martin-bucer"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-genevan-psalter",
@@ -1269,19 +1769,28 @@
     "dateStart": "1562",
     "objectType": "hymnal",
     "language": "French",
-    "creators": ["person-clement-marot", "person-theodore-beza"]
+    "creators": [
+      "person-clement-marot",
+      "person-theodore-beza"
+    ],
+    "wikipediaTitle": "Genevan_Psalter"
   },
   {
     "id": "object-luther-hymns",
     "type": "object",
     "title": "Luther's Hymns",
-    "alternateNames": ["Ein feste Burg ist unser Gott"],
+    "alternateNames": [
+      "Ein feste Burg ist unser Gott"
+    ],
     "shortDescription": "German Protestant hymnody; 'A Mighty Fortress'",
     "dateStart": "1523",
     "dateEnd": "1545",
     "objectType": "hymnal",
     "language": "German",
-    "creators": ["person-martin-luther"]
+    "creators": [
+      "person-martin-luther"
+    ],
+    "wikipediaTitle": "A_Mighty_Fortress_Is_Our_God"
   },
   {
     "id": "object-book-of-martyrs",
@@ -1291,29 +1800,42 @@
     "dateStart": "1563",
     "objectType": "history",
     "language": "English",
-    "creators": ["person-john-foxe"]
+    "creators": [
+      "person-john-foxe"
+    ],
+    "wikipediaTitle": "Foxe%27s_Book_of_Martyrs"
   },
   {
     "id": "object-praise-of-folly",
     "type": "object",
     "title": "The Praise of Folly",
-    "alternateNames": ["Moriae Encomium"],
+    "alternateNames": [
+      "Moriae Encomium"
+    ],
     "shortDescription": "Erasmus's satirical critique of church corruption",
     "dateStart": "1511",
     "objectType": "satire",
     "language": "Latin",
-    "creators": ["person-erasmus-of-rotterdam"]
+    "creators": [
+      "person-erasmus-of-rotterdam"
+    ],
+    "wikipediaTitle": "The_Praise_of_Folly"
   },
   {
     "id": "object-enchiridion",
     "type": "object",
     "title": "Enchiridion",
-    "alternateNames": ["Handbook of a Christian Soldier"],
+    "alternateNames": [
+      "Handbook of a Christian Soldier"
+    ],
     "shortDescription": "Erasmus's program for lay Christian life",
     "dateStart": "1503",
     "objectType": "devotional",
     "language": "Latin",
-    "creators": ["person-erasmus-of-rotterdam"]
+    "creators": [
+      "person-erasmus-of-rotterdam"
+    ],
+    "wikipediaTitle": "Enchiridion_militis_Christiani"
   },
   {
     "id": "object-first-blast",
@@ -1323,7 +1845,10 @@
     "dateStart": "1558",
     "objectType": "polemic",
     "language": "English",
-    "creators": ["person-john-knox"]
+    "creators": [
+      "person-john-knox"
+    ],
+    "wikipediaTitle": "The_First_Blast_of_the_Trumpet_Against_the_Monstrous_Regiment_of_Women"
   },
   {
     "id": "object-erasmus-correspondence",
@@ -1334,7 +1859,10 @@
     "dateEnd": "1536",
     "objectType": "correspondence",
     "language": "Latin",
-    "creators": ["person-erasmus-of-rotterdam"]
+    "creators": [
+      "person-erasmus-of-rotterdam"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-luther-correspondence",
@@ -1345,7 +1873,10 @@
     "dateEnd": "1546",
     "objectType": "correspondence",
     "language": "Latin",
-    "creators": ["person-martin-luther"]
+    "creators": [
+      "person-martin-luther"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "object-bullinger-correspondence",
@@ -1356,7 +1887,10 @@
     "dateEnd": "1575",
     "objectType": "correspondence",
     "language": "Latin",
-    "creators": ["person-heinrich-bullinger"]
+    "creators": [
+      "person-heinrich-bullinger"
+    ],
+    "wikipediaTitle": null
   },
   {
     "id": "location-wittenberg",
@@ -1365,7 +1899,11 @@
     "shortDescription": "Birthplace of the Lutheran Reformation",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 51.8667, "lng": 12.6500}
+    "coordinates": {
+      "lat": 51.8667,
+      "lng": 12.6500
+    },
+    "wikipediaTitle": "Wittenberg"
   },
   {
     "id": "location-wittenberg-university",
@@ -1375,7 +1913,8 @@
     "locationType": "university",
     "country": "Germany",
     "parentLocation": "location-wittenberg",
-    "dateStart": "1502"
+    "dateStart": "1502",
+    "wikipediaTitle": "University_of_Wittenberg"
   },
   {
     "id": "location-castle-church-wittenberg",
@@ -1384,7 +1923,8 @@
     "shortDescription": "Site of Ninety-Five Theses posting; Luther and Melanchthon buried here",
     "locationType": "church",
     "country": "Germany",
-    "parentLocation": "location-wittenberg"
+    "parentLocation": "location-wittenberg",
+    "wikipediaTitle": "All_Saints%27_Church,_Wittenberg"
   },
   {
     "id": "location-worms",
@@ -1393,7 +1933,11 @@
     "shortDescription": "Site of Diet of Worms where Luther refused to recant",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 49.6341, "lng": 8.3507}
+    "coordinates": {
+      "lat": 49.6341,
+      "lng": 8.3507
+    },
+    "wikipediaTitle": "Worms,_Germany"
   },
   {
     "id": "location-augsburg",
@@ -1402,7 +1946,11 @@
     "shortDescription": "Site of 1518 Luther-Cajetan meeting and 1530 Augsburg Confession",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 48.3705, "lng": 10.8978}
+    "coordinates": {
+      "lat": 48.3705,
+      "lng": 10.8978
+    },
+    "wikipediaTitle": "Augsburg"
   },
   {
     "id": "location-marburg",
@@ -1411,7 +1959,11 @@
     "shortDescription": "Site of Marburg Colloquy (1529); first Protestant university",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 50.8021, "lng": 8.7670}
+    "coordinates": {
+      "lat": 50.8021,
+      "lng": 8.7670
+    },
+    "wikipediaTitle": "Marburg"
   },
   {
     "id": "location-marburg-university",
@@ -1421,7 +1973,8 @@
     "locationType": "university",
     "country": "Germany",
     "parentLocation": "location-marburg",
-    "dateStart": "1527"
+    "dateStart": "1527",
+    "wikipediaTitle": "University_of_Marburg"
   },
   {
     "id": "location-nuremberg",
@@ -1430,7 +1983,11 @@
     "shortDescription": "Major imperial free city; early adopter of Reformation",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 49.4521, "lng": 11.0767}
+    "coordinates": {
+      "lat": 49.4521,
+      "lng": 11.0767
+    },
+    "wikipediaTitle": "Nuremberg"
   },
   {
     "id": "location-eisleben",
@@ -1439,7 +1996,11 @@
     "shortDescription": "Luther's birthplace and death place",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 51.5272, "lng": 11.5481}
+    "coordinates": {
+      "lat": 51.5272,
+      "lng": 11.5481
+    },
+    "wikipediaTitle": "Eisleben"
   },
   {
     "id": "location-wartburg",
@@ -1448,7 +2009,11 @@
     "shortDescription": "Where Luther was hidden and translated the New Testament",
     "locationType": "castle",
     "country": "Germany",
-    "coordinates": {"lat": 50.9667, "lng": 10.3067}
+    "coordinates": {
+      "lat": 50.9667,
+      "lng": 10.3067
+    },
+    "wikipediaTitle": "Wartburg"
   },
   {
     "id": "location-erfurt",
@@ -1457,7 +2022,11 @@
     "shortDescription": "Luther's university education and early monastic life",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 50.9847, "lng": 11.0299}
+    "coordinates": {
+      "lat": 50.9847,
+      "lng": 11.0299
+    },
+    "wikipediaTitle": "Erfurt"
   },
   {
     "id": "location-muhlhausen",
@@ -1466,7 +2035,11 @@
     "shortDescription": "Center of Müntzer's radical reformation and Peasants' War",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 51.2087, "lng": 10.4528}
+    "coordinates": {
+      "lat": 51.2087,
+      "lng": 10.4528
+    },
+    "wikipediaTitle": "Mühlhausen"
   },
   {
     "id": "location-zurich",
@@ -1475,7 +2048,11 @@
     "shortDescription": "Center of Swiss Reformation under Zwingli and Bullinger",
     "locationType": "city",
     "country": "Switzerland",
-    "coordinates": {"lat": 47.3769, "lng": 8.5417}
+    "coordinates": {
+      "lat": 47.3769,
+      "lng": 8.5417
+    },
+    "wikipediaTitle": "Zürich"
   },
   {
     "id": "location-grossmunster",
@@ -1484,7 +2061,8 @@
     "shortDescription": "Zwingli's church; center of Zurich Reformation",
     "locationType": "church",
     "country": "Switzerland",
-    "parentLocation": "location-zurich"
+    "parentLocation": "location-zurich",
+    "wikipediaTitle": "Grossmünster"
   },
   {
     "id": "location-geneva",
@@ -1493,7 +2071,11 @@
     "shortDescription": "Protestant Rome under Calvin's leadership",
     "locationType": "city",
     "country": "Switzerland",
-    "coordinates": {"lat": 46.2044, "lng": 6.1432}
+    "coordinates": {
+      "lat": 46.2044,
+      "lng": 6.1432
+    },
+    "wikipediaTitle": "Geneva"
   },
   {
     "id": "location-st-pierre-geneva",
@@ -1502,7 +2084,8 @@
     "shortDescription": "Calvin's church; center of Genevan Reformed worship",
     "locationType": "church",
     "country": "Switzerland",
-    "parentLocation": "location-geneva"
+    "parentLocation": "location-geneva",
+    "wikipediaTitle": "St._Pierre_Cathedral,_Geneva"
   },
   {
     "id": "location-geneva-academy",
@@ -1512,7 +2095,8 @@
     "locationType": "university",
     "country": "Switzerland",
     "parentLocation": "location-geneva",
-    "dateStart": "1559"
+    "dateStart": "1559",
+    "wikipediaTitle": "University_of_Geneva"
   },
   {
     "id": "location-basel",
@@ -1521,7 +2105,11 @@
     "shortDescription": "Humanist and printing center; Erasmus's residence",
     "locationType": "city",
     "country": "Switzerland",
-    "coordinates": {"lat": 47.5596, "lng": 7.5886}
+    "coordinates": {
+      "lat": 47.5596,
+      "lng": 7.5886
+    },
+    "wikipediaTitle": "Basel"
   },
   {
     "id": "location-basel-university",
@@ -1531,7 +2119,8 @@
     "locationType": "university",
     "country": "Switzerland",
     "parentLocation": "location-basel",
-    "dateStart": "1460"
+    "dateStart": "1460",
+    "wikipediaTitle": "University_of_Basel"
   },
   {
     "id": "location-bern",
@@ -1540,7 +2129,11 @@
     "shortDescription": "Powerful Swiss canton that adopted Reformation (1528)",
     "locationType": "city",
     "country": "Switzerland",
-    "coordinates": {"lat": 46.9480, "lng": 7.4474}
+    "coordinates": {
+      "lat": 46.9480,
+      "lng": 7.4474
+    },
+    "wikipediaTitle": "Bern"
   },
   {
     "id": "location-lausanne",
@@ -1549,7 +2142,11 @@
     "shortDescription": "French-speaking Swiss city reformed by Viret and Farel",
     "locationType": "city",
     "country": "Switzerland",
-    "coordinates": {"lat": 46.5197, "lng": 6.6323}
+    "coordinates": {
+      "lat": 46.5197,
+      "lng": 6.6323
+    },
+    "wikipediaTitle": "Lausanne"
   },
   {
     "id": "location-strasbourg",
@@ -1558,7 +2155,11 @@
     "shortDescription": "Mediating center between Lutheran and Reformed traditions",
     "locationType": "city",
     "country": "France",
-    "coordinates": {"lat": 48.5734, "lng": 7.7521}
+    "coordinates": {
+      "lat": 48.5734,
+      "lng": 7.7521
+    },
+    "wikipediaTitle": "Strasbourg"
   },
   {
     "id": "location-london",
@@ -1567,7 +2168,11 @@
     "shortDescription": "Political center of English Reformation",
     "locationType": "city",
     "country": "England",
-    "coordinates": {"lat": 51.5074, "lng": 0.1278}
+    "coordinates": {
+      "lat": 51.5074,
+      "lng": 0.1278
+    },
+    "wikipediaTitle": "London"
   },
   {
     "id": "location-canterbury",
@@ -1576,7 +2181,11 @@
     "shortDescription": "Seat of Archbishop of Canterbury; head of English church",
     "locationType": "city",
     "country": "England",
-    "coordinates": {"lat": 51.2802, "lng": 1.0789}
+    "coordinates": {
+      "lat": 51.2802,
+      "lng": 1.0789
+    },
+    "wikipediaTitle": "Canterbury"
   },
   {
     "id": "location-oxford",
@@ -1585,7 +2194,11 @@
     "shortDescription": "Site of Oxford Martyrs' execution",
     "locationType": "city",
     "country": "England",
-    "coordinates": {"lat": 51.7520, "lng": -1.2577}
+    "coordinates": {
+      "lat": 51.7520,
+      "lng": -1.2577
+    },
+    "wikipediaTitle": "Oxford"
   },
   {
     "id": "location-oxford-university",
@@ -1594,7 +2207,8 @@
     "shortDescription": "Ancient university with complex Reformation history",
     "locationType": "university",
     "country": "England",
-    "parentLocation": "location-oxford"
+    "parentLocation": "location-oxford",
+    "wikipediaTitle": "University_of_Oxford"
   },
   {
     "id": "location-cambridge",
@@ -1603,7 +2217,11 @@
     "shortDescription": "Where English Reformation began intellectually",
     "locationType": "city",
     "country": "England",
-    "coordinates": {"lat": 52.2053, "lng": 0.1218}
+    "coordinates": {
+      "lat": 52.2053,
+      "lng": 0.1218
+    },
+    "wikipediaTitle": "Cambridge"
   },
   {
     "id": "location-cambridge-university",
@@ -1612,19 +2230,23 @@
     "shortDescription": "Center of early English Protestant thought",
     "locationType": "university",
     "country": "England",
-    "parentLocation": "location-cambridge"
+    "parentLocation": "location-cambridge",
+    "wikipediaTitle": "University_of_Cambridge"
   },
   {
     "id": "location-white-horse-tavern",
     "type": "location",
     "title": "White Horse Tavern",
-    "alternateNames": ["Little Germany"],
+    "alternateNames": [
+      "Little Germany"
+    ],
     "shortDescription": "Meeting place for Cambridge proto-Protestants",
     "locationType": "meeting place",
     "country": "England",
     "parentLocation": "location-cambridge",
     "dateStart": "1520",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "White_Horse_Inn,_Cambridge"
   },
   {
     "id": "location-antwerp",
@@ -1633,7 +2255,11 @@
     "shortDescription": "Commercial and printing center; Tyndale worked here in exile",
     "locationType": "city",
     "country": "Belgium",
-    "coordinates": {"lat": 51.2194, "lng": 4.4025}
+    "coordinates": {
+      "lat": 51.2194,
+      "lng": 4.4025
+    },
+    "wikipediaTitle": "Antwerp"
   },
   {
     "id": "location-vilvoorde",
@@ -1642,7 +2268,11 @@
     "shortDescription": "Where Tyndale was executed (1536)",
     "locationType": "execution site",
     "country": "Belgium",
-    "coordinates": {"lat": 50.9281, "lng": 4.4303}
+    "coordinates": {
+      "lat": 50.9281,
+      "lng": 4.4303
+    },
+    "wikipediaTitle": "Vilvoorde"
   },
   {
     "id": "location-paris",
@@ -1651,7 +2281,11 @@
     "shortDescription": "Capital of France; Sorbonne condemned Luther",
     "locationType": "city",
     "country": "France",
-    "coordinates": {"lat": 48.8566, "lng": 2.3522}
+    "coordinates": {
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "wikipediaTitle": "Paris"
   },
   {
     "id": "location-sorbonne",
@@ -1660,7 +2294,8 @@
     "shortDescription": "Premier Catholic theological faculty; condemned Luther",
     "locationType": "university",
     "country": "France",
-    "parentLocation": "location-paris"
+    "parentLocation": "location-paris",
+    "wikipediaTitle": "University_of_Paris"
   },
   {
     "id": "location-meaux",
@@ -1669,7 +2304,11 @@
     "shortDescription": "Site of Meaux Circle under Bishop Briçonnet",
     "locationType": "city",
     "country": "France",
-    "coordinates": {"lat": 48.9603, "lng": 2.8783}
+    "coordinates": {
+      "lat": 48.9603,
+      "lng": 2.8783
+    },
+    "wikipediaTitle": "Meaux"
   },
   {
     "id": "location-rome",
@@ -1678,7 +2317,11 @@
     "shortDescription": "Seat of papacy; center of opposition to Reformation",
     "locationType": "city",
     "country": "Italy",
-    "coordinates": {"lat": 41.9028, "lng": 12.4964}
+    "coordinates": {
+      "lat": 41.9028,
+      "lng": 12.4964
+    },
+    "wikipediaTitle": "Rome"
   },
   {
     "id": "location-ingolstadt",
@@ -1687,7 +2330,11 @@
     "shortDescription": "Home of Johann Eck, Luther's chief Catholic opponent",
     "locationType": "city",
     "country": "Germany",
-    "coordinates": {"lat": 48.7665, "lng": 11.4258}
+    "coordinates": {
+      "lat": 48.7665,
+      "lng": 11.4258
+    },
+    "wikipediaTitle": "Ingolstadt"
   },
   {
     "id": "location-st-andrews",
@@ -1696,7 +2343,11 @@
     "shortDescription": "Ecclesiastical capital of Scotland; site of early martyrdoms",
     "locationType": "city",
     "country": "Scotland",
-    "coordinates": {"lat": 56.3398, "lng": -2.7967}
+    "coordinates": {
+      "lat": 56.3398,
+      "lng": -2.7967
+    },
+    "wikipediaTitle": "St_Andrews"
   },
   {
     "id": "location-st-andrews-university",
@@ -1706,7 +2357,8 @@
     "locationType": "university",
     "country": "Scotland",
     "parentLocation": "location-st-andrews",
-    "dateStart": "1413"
+    "dateStart": "1413",
+    "wikipediaTitle": "University_of_St_Andrews"
   },
   {
     "id": "location-edinburgh",
@@ -1715,7 +2367,11 @@
     "shortDescription": "Capital of Scotland; Knox's base as minister of St. Giles",
     "locationType": "city",
     "country": "Scotland",
-    "coordinates": {"lat": 55.9533, "lng": -3.1883}
+    "coordinates": {
+      "lat": 55.9533,
+      "lng": -3.1883
+    },
+    "wikipediaTitle": "Edinburgh"
   },
   {
     "id": "location-st-giles-edinburgh",
@@ -1724,7 +2380,8 @@
     "shortDescription": "Knox's church; mother church of Scottish Presbyterianism",
     "locationType": "church",
     "country": "Scotland",
-    "parentLocation": "location-edinburgh"
+    "parentLocation": "location-edinburgh",
+    "wikipediaTitle": "St_Giles%27_Cathedral"
   },
   {
     "id": "location-kappel",
@@ -1733,7 +2390,11 @@
     "shortDescription": "Battlefield where Zwingli was killed (1531)",
     "locationType": "battlefield",
     "country": "Switzerland",
-    "coordinates": {"lat": 47.2333, "lng": 8.5333}
+    "coordinates": {
+      "lat": 47.2333,
+      "lng": 8.5333
+    },
+    "wikipediaTitle": "Battle_of_Kappel"
   },
   {
     "id": "location-schleitheim",
@@ -1742,7 +2403,11 @@
     "shortDescription": "Where Schleitheim Confession was adopted (1527)",
     "locationType": "village",
     "country": "Switzerland",
-    "coordinates": {"lat": 47.7500, "lng": 8.4833}
+    "coordinates": {
+      "lat": 47.7500,
+      "lng": 8.4833
+    },
+    "wikipediaTitle": "Schleitheim"
   },
   {
     "id": "location-frankenhausen",
@@ -1751,7 +2416,11 @@
     "shortDescription": "Decisive battle of German Peasants' War (1525)",
     "locationType": "battlefield",
     "country": "Germany",
-    "coordinates": {"lat": 51.3564, "lng": 11.1003}
+    "coordinates": {
+      "lat": 51.3564,
+      "lng": 11.1003
+    },
+    "wikipediaTitle": "Battle_of_Frankenhausen"
   },
   {
     "id": "entity-lutheran-churches",
@@ -1759,7 +2428,8 @@
     "title": "Lutheran Territorial Churches",
     "shortDescription": "Network of state churches that adopted Lutheran confession",
     "entityType": "church_body",
-    "dateStart": "1520"
+    "dateStart": "1520",
+    "wikipediaTitle": "Lutheranism"
   },
   {
     "id": "entity-church-of-england",
@@ -1768,7 +2438,8 @@
     "shortDescription": "National Protestant church established by royal supremacy",
     "entityType": "church_body",
     "dateStart": "1534",
-    "headquarters": "location-canterbury"
+    "headquarters": "location-canterbury",
+    "wikipediaTitle": "Church_of_England"
   },
   {
     "id": "entity-zurich-church",
@@ -1777,7 +2448,8 @@
     "shortDescription": "First Reformed church; model for Swiss Reformed organization",
     "entityType": "church_body",
     "dateStart": "1519",
-    "headquarters": "location-zurich"
+    "headquarters": "location-zurich",
+    "wikipediaTitle": "Reformed_Church_in_Zürich"
   },
   {
     "id": "entity-geneva-church",
@@ -1786,17 +2458,21 @@
     "shortDescription": "Model for Calvinist church organization worldwide",
     "entityType": "church_body",
     "dateStart": "1536",
-    "headquarters": "location-geneva"
+    "headquarters": "location-geneva",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-company-of-pastors",
     "type": "entity",
     "title": "Company of Pastors",
-    "alternateNames": ["Vénérable Compagnie des Pasteurs"],
+    "alternateNames": [
+      "Vénérable Compagnie des Pasteurs"
+    ],
     "shortDescription": "Collective body of Geneva's pastors",
     "entityType": "organization",
     "dateStart": "1541",
-    "headquarters": "location-geneva"
+    "headquarters": "location-geneva",
+    "wikipediaTitle": "Venerable_Company_of_Pastors"
   },
   {
     "id": "entity-geneva-consistory",
@@ -1805,7 +2481,8 @@
     "shortDescription": "Disciplinary body for Genevan church",
     "entityType": "organization",
     "dateStart": "1541",
-    "headquarters": "location-geneva"
+    "headquarters": "location-geneva",
+    "wikipediaTitle": "Consistory_of_Geneva"
   },
   {
     "id": "entity-church-of-scotland",
@@ -1814,7 +2491,8 @@
     "shortDescription": "National Reformed church of Scotland",
     "entityType": "church_body",
     "dateStart": "1560",
-    "headquarters": "location-edinburgh"
+    "headquarters": "location-edinburgh",
+    "wikipediaTitle": "Church_of_Scotland"
   },
   {
     "id": "entity-lutheran-reformation",
@@ -1823,7 +2501,8 @@
     "shortDescription": "Initial Protestant movement sparked by Luther",
     "entityType": "movement",
     "dateStart": "1517",
-    "dateEnd": "1555"
+    "dateEnd": "1555",
+    "wikipediaTitle": "Reformation"
   },
   {
     "id": "entity-swiss-reformed",
@@ -1831,7 +2510,8 @@
     "title": "Swiss Reformed Movement",
     "shortDescription": "Reformed Protestantism originating in Zurich and Geneva",
     "entityType": "movement",
-    "dateStart": "1519"
+    "dateStart": "1519",
+    "wikipediaTitle": "Swiss_Reformed_Church"
   },
   {
     "id": "entity-radical-reformation",
@@ -1839,17 +2519,21 @@
     "title": "Radical Reformation",
     "shortDescription": "Movements rejecting both Catholic and magisterial Protestant churches",
     "entityType": "movement",
-    "dateStart": "1525"
+    "dateStart": "1525",
+    "wikipediaTitle": "Radical_Reformation"
   },
   {
     "id": "entity-swiss-brethren",
     "type": "entity",
     "title": "Swiss Brethren",
-    "alternateNames": ["Täufer"],
+    "alternateNames": [
+      "Täufer"
+    ],
     "shortDescription": "First Anabaptist group",
     "entityType": "movement",
     "dateStart": "1525",
-    "headquarters": "location-zurich"
+    "headquarters": "location-zurich",
+    "wikipediaTitle": "Swiss_Brethren"
   },
   {
     "id": "entity-mennonites",
@@ -1857,7 +2541,8 @@
     "title": "Mennonite Movement",
     "shortDescription": "Peaceful Anabaptist movement named after Menno Simons",
     "entityType": "church_body",
-    "dateStart": "1536"
+    "dateStart": "1536",
+    "wikipediaTitle": "Mennonites"
   },
   {
     "id": "entity-christian-humanism",
@@ -1866,7 +2551,8 @@
     "shortDescription": "Intellectual movement emphasizing return to biblical sources",
     "entityType": "movement",
     "dateStart": "1490",
-    "dateEnd": "1540"
+    "dateEnd": "1540",
+    "wikipediaTitle": "Christian_humanism"
   },
   {
     "id": "entity-english-reformation",
@@ -1875,18 +2561,22 @@
     "shortDescription": "Reformation in England driven by political and religious factors",
     "entityType": "movement",
     "dateStart": "1527",
-    "dateEnd": "1559"
+    "dateEnd": "1559",
+    "wikipediaTitle": "English_Reformation"
   },
   {
     "id": "entity-meaux-circle",
     "type": "entity",
     "title": "Meaux Circle",
-    "alternateNames": ["Cercle de Meaux"],
+    "alternateNames": [
+      "Cercle de Meaux"
+    ],
     "shortDescription": "Early French evangelical reform movement",
     "entityType": "movement",
     "dateStart": "1521",
     "dateEnd": "1525",
-    "headquarters": "location-meaux"
+    "headquarters": "location-meaux",
+    "wikipediaTitle": "Circle_of_Meaux"
   },
   {
     "id": "entity-schmalkaldic-league",
@@ -1895,7 +2585,8 @@
     "shortDescription": "Military alliance of Lutheran princes and cities",
     "entityType": "political_alliance",
     "dateStart": "1531",
-    "dateEnd": "1547"
+    "dateEnd": "1547",
+    "wikipediaTitle": "Schmalkaldic_League"
   },
   {
     "id": "entity-swiss-confederacy",
@@ -1903,7 +2594,8 @@
     "title": "Swiss Confederacy",
     "shortDescription": "Federation of Swiss cantons divided by Reformation",
     "entityType": "political_alliance",
-    "dateStart": "1291"
+    "dateStart": "1291",
+    "wikipediaTitle": "Old_Swiss_Confederacy"
   },
   {
     "id": "entity-augustinian-order",
@@ -1911,7 +2603,8 @@
     "title": "Augustinian Order",
     "shortDescription": "Luther's religious order",
     "entityType": "religious_order",
-    "dateStart": "1244"
+    "dateStart": "1244",
+    "wikipediaTitle": "Order_of_Saint_Augustine"
   },
   {
     "id": "entity-dominican-order",
@@ -1919,7 +2612,8 @@
     "title": "Dominican Order",
     "shortDescription": "Order of Tetzel and Cajetan; often Catholic opponents of reform",
     "entityType": "religious_order",
-    "dateStart": "1216"
+    "dateStart": "1216",
+    "wikipediaTitle": "Dominican_Order"
   },
   {
     "id": "entity-diet-of-worms",
@@ -1928,7 +2622,8 @@
     "shortDescription": "Imperial diet where Luther refused to recant",
     "entityType": "assembly",
     "dateStart": "1521",
-    "dateEnd": "1521"
+    "dateEnd": "1521",
+    "wikipediaTitle": "Diet_of_Worms"
   },
   {
     "id": "entity-diet-of-augsburg",
@@ -1937,7 +2632,8 @@
     "shortDescription": "Imperial diet where Augsburg Confession was presented",
     "entityType": "assembly",
     "dateStart": "1530",
-    "dateEnd": "1530"
+    "dateEnd": "1530",
+    "wikipediaTitle": "Diet_of_Augsburg"
   },
   {
     "id": "entity-marburg-colloquy",
@@ -1946,7 +2642,8 @@
     "shortDescription": "Attempt to unite Lutheran and Zwinglian reformers",
     "entityType": "assembly",
     "dateStart": "1529",
-    "dateEnd": "1529"
+    "dateEnd": "1529",
+    "wikipediaTitle": "Marburg_Colloquy"
   },
   {
     "id": "entity-zurich-disputation-1523",
@@ -1955,7 +2652,8 @@
     "shortDescription": "Public disputation establishing legal basis for Zurich Reformation",
     "entityType": "assembly",
     "dateStart": "1523",
-    "dateEnd": "1523"
+    "dateEnd": "1523",
+    "wikipediaTitle": "First_Disputation_of_Zurich"
   },
   {
     "id": "entity-leipzig-debate",
@@ -1964,7 +2662,8 @@
     "shortDescription": "Academic debate accelerating Luther's break with Rome",
     "entityType": "assembly",
     "dateStart": "1519",
-    "dateEnd": "1519"
+    "dateEnd": "1519",
+    "wikipediaTitle": "Leipzig_Debate"
   },
   {
     "id": "entity-peace-of-augsburg",
@@ -1973,7 +2672,8 @@
     "shortDescription": "Settlement establishing legal coexistence of Lutheranism and Catholicism",
     "entityType": "treaty",
     "dateStart": "1555",
-    "dateEnd": "1555"
+    "dateEnd": "1555",
+    "wikipediaTitle": "Peace_of_Augsburg"
   },
   {
     "id": "entity-froben-press",
@@ -1983,7 +2683,8 @@
     "entityType": "publishing_house",
     "dateStart": "1491",
     "dateEnd": "1527",
-    "headquarters": "location-basel"
+    "headquarters": "location-basel",
+    "wikipediaTitle": "Johann_Froben"
   },
   {
     "id": "entity-wittenberg-printers",
@@ -1992,7 +2693,8 @@
     "shortDescription": "Network of printers publishing Luther's works",
     "entityType": "publishing_network",
     "dateStart": "1517",
-    "headquarters": "location-wittenberg"
+    "headquarters": "location-wittenberg",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-geneva-printers",
@@ -2001,6 +2703,7 @@
     "shortDescription": "Published Calvin's works and Geneva Bible",
     "entityType": "publishing_network",
     "dateStart": "1540",
-    "headquarters": "location-geneva"
+    "headquarters": "location-geneva",
+    "wikipediaTitle": null
   }
 ]

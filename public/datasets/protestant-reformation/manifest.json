@@ -2,12 +2,135 @@
   "id": "protestant-reformation",
   "name": "Protestant Reformation Network",
   "description": "Key figures of the 16th century Protestant Reformation (c. 1483-1564), including Lutheran, Reformed, Radical, and English reformers, their relationships, major works, significant locations, and church movements.",
-  "lastUpdated": "2026-01-18",
-  "version": "1.0.0",
+  "lastUpdated": "2026-01-19",
+  "version": "1.1.0",
   "author": "HistoryNet Contributors",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 180,
   "edgeCount": 293,
-  "customRelationshipTypes": []
+  "customRelationshipTypes": [],
+  "scope": {
+    "startYear": 1483,
+    "endYear": 1564,
+    "regions": [
+      "Germany",
+      "Switzerland",
+      "England",
+      "Scotland",
+      "France",
+      "Netherlands",
+      "Italy"
+    ],
+    "themes": [
+      "Protestant theology",
+      "Bible translation",
+      "church reform",
+      "Christian humanism"
+    ],
+    "seedFigures": [
+      "person-martin-luther",
+      "person-john-calvin",
+      "person-huldrych-zwingli",
+      "person-erasmus-of-rotterdam",
+      "person-william-tyndale",
+      "person-thomas-cranmer",
+      "person-philip-melanchthon"
+    ],
+    "subgroups": [
+      {
+        "id": "lutheran-wittenberg",
+        "name": "Lutheran/Wittenberg Circle",
+        "description": "Luther's immediate collaborators at Wittenberg"
+      },
+      {
+        "id": "swiss-reformed",
+        "name": "Swiss Reformed",
+        "description": "Zurich and Geneva reformers"
+      },
+      {
+        "id": "strasbourg",
+        "name": "Strasbourg Reformers",
+        "description": "Bucer, Capito and the Strasbourg church"
+      },
+      {
+        "id": "english",
+        "name": "English Reformation",
+        "description": "Cranmer, Tyndale and English reformers"
+      },
+      {
+        "id": "humanists",
+        "name": "Christian Humanists",
+        "description": "Erasmus, More, Colet and biblical scholars"
+      },
+      {
+        "id": "radical",
+        "name": "Radical Reformation",
+        "description": "Anabaptists and radical reformers"
+      },
+      {
+        "id": "french",
+        "name": "French Reformed",
+        "description": "Early French evangelical movement"
+      },
+      {
+        "id": "scottish",
+        "name": "Scottish Reformation",
+        "description": "Knox and Scottish reformers"
+      },
+      {
+        "id": "political",
+        "name": "Political Patrons/Opponents",
+        "description": "Rulers and Catholic opponents"
+      }
+    ],
+    "exclusionNotes": "Limited to direct participants in Reformation movements. Counter-Reformation figures limited to direct opponents (Eck, Cajetan). A few figures living beyond 1564 included due to direct connection to seed figures (Beza, Knox, Parker)."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "lutheran-wittenberg",
+      "swiss-reformed",
+      "strasbourg",
+      "english",
+      "humanists",
+      "radical",
+      "french",
+      "scottish",
+      "political"
+    ],
+    "pendingBatches": [],
+    "gaps": [
+      {
+        "description": "Limited coverage of women reformers beyond Katharina von Bora, Katharina Schütz Zell, Marie Dentière, and Marguerite of Navarre",
+        "priority": "medium"
+      },
+      {
+        "description": "Scandinavian reformers (Hans Tausen, Olaus Petri) not included due to geographic scope",
+        "priority": "low"
+      }
+    ],
+    "excludedFigures": [
+      {
+        "name": "Peter Martyr Vermigli",
+        "reason": "Italian reformer active in Strasbourg and England; could be added in future"
+      },
+      {
+        "name": "Jan Laski",
+        "reason": "Polish reformer in England; could be added in future"
+      },
+      {
+        "name": "Argula von Grumbach",
+        "reason": "Bavarian noblewoman who defended Luther; could be added for women's representation"
+      },
+      {
+        "name": "Hans Tausen",
+        "reason": "Danish reformer; geographic scope decision"
+      },
+      {
+        "name": "Olaus Petri",
+        "reason": "Swedish reformer; geographic scope decision"
+      }
+    ]
+  }
 }
