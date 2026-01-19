@@ -1,6 +1,7 @@
 import { useGraph } from '@contexts';
 import SearchBox from './SearchBox';
 import DatasetSelector from './DatasetSelector';
+import LayoutSwitcher from './LayoutSwitcher';
 import ThemeToggle from './ThemeToggle';
 import './Header.css';
 
@@ -12,6 +13,8 @@ function Header() {
     searchTerm,
     setSearchTerm,
     searchMatchCount,
+    currentLayout,
+    setCurrentLayout,
   } = useGraph();
 
   return (
@@ -21,6 +24,11 @@ function Header() {
         <span className="header__tagline">Mapping collective genius</span>
       </div>
       <div className="header__controls">
+        <LayoutSwitcher
+          currentLayout={currentLayout}
+          onLayoutChange={setCurrentLayout}
+          className="header__layout-switcher"
+        />
         <div className="header__dataset-group">
           <span className="header__dataset-label">Dataset:</span>
           <DatasetSelector

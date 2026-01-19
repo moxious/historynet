@@ -248,26 +248,13 @@
   word-break: break-all;
 }
 
-/* View controls container (layout switcher + interaction hint) */
-.main-layout__view-controls {
+/* Interaction hint (GI12-GI16) */
+.main-layout__interaction-hint {
   position: absolute;
   top: var(--spacing-md, 16px);
   left: 50%;
   transform: translateX(-50%);
   z-index: 20;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--spacing-xs, 4px);
-}
-
-/* Layout switcher positioning */
-.main-layout__layout-switcher {
-  /* Positioning now handled by parent container */
-}
-
-/* Interaction hint (GI12-GI16) */
-.main-layout__interaction-hint {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs, 4px);
