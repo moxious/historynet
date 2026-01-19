@@ -2,32 +2,48 @@
   "id": "cybernetics-information-theory",
   "name": "Cybernetics & Information Theory",
   "description": "The revolutionary intellectual network that emerged in the 1940s around cybernetics, information theory, and systems thinking. Traces the interconnected developments in feedback systems, communication theory, computation, and their applications from the Macy Conferences through the foundations of artificial intelligence. Includes Norbert Wiener, Claude Shannon, Alan Turing, John von Neumann, and the interdisciplinary communities that forged our modern understanding of information, control, and complex systems.",
-  "lastUpdated": "2026-01-18",
+  "lastUpdated": "2026-01-19",
   "version": "1.0.0",
   "author": "HistoryNet Research",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 176,
   "edgeCount": 179,
-  "timePeriod": {
-    "start": "1839",
-    "end": "2021"
+  "scope": {
+    "startYear": 1839,
+    "endYear": 2021,
+    "regions": ["United States", "United Kingdom", "Chile", "Austria", "Germany", "France", "Canada", "Switzerland"],
+    "themes": ["cybernetics", "information theory", "computing", "artificial intelligence", "systems theory", "neural networks", "cognitive science", "feedback systems", "control theory"],
+    "seedFigures": ["person-norbert-wiener", "person-claude-shannon", "person-alan-turing", "person-john-von-neumann", "person-warren-mcculloch"],
+    "subgroups": [
+      { "id": "founding-figures", "name": "Founding Figures", "description": "Core founders of cybernetics and information theory" },
+      { "id": "information-theory", "name": "Information Theory", "description": "Shannon and colleagues at Bell Labs" },
+      { "id": "computing-pioneers", "name": "Computing Pioneers", "description": "Early computer developers at ENIAC, Bletchley Park, and Manchester" },
+      { "id": "macy-conference", "name": "Macy Conference Core", "description": "Regular participants in the Macy Conferences on Cybernetics" },
+      { "id": "neurophysiology", "name": "Neurophysiology", "description": "Neural network and brain modeling researchers" },
+      { "id": "british-cybernetics", "name": "British Cybernetics", "description": "Ratio Club members and British cyberneticians" },
+      { "id": "systems-theory", "name": "Systems Theory", "description": "General systems theorists and system dynamics researchers" },
+      { "id": "second-order", "name": "Second-Order Cybernetics", "description": "BCL researchers and constructivist thinkers" },
+      { "id": "ai-cognitive-science", "name": "AI & Cognitive Science", "description": "Dartmouth Conference participants and AI pioneers" },
+      { "id": "precursors", "name": "Precursors", "description": "Earlier thinkers who laid groundwork for cybernetics" }
+    ],
+    "exclusionNotes": "Excluding Soviet cybernetics (would require separate network), post-1980 AI developments, and purely mathematical logicians without direct cybernetics involvement"
   },
-  "geographicFocus": [
-    "United States",
-    "United Kingdom",
-    "Chile",
-    "Austria"
-  ],
-  "themes": [
-    "Cybernetics",
-    "Information Theory",
-    "Computing",
-    "Artificial Intelligence",
-    "Systems Theory",
-    "Neural Networks",
-    "Cognitive Science"
-  ],
+  "research": {
+    "status": "complete",
+    "completedBatches": ["founding-figures", "information-theory", "computing-pioneers", "macy-conference", "neurophysiology", "british-cybernetics", "systems-theory", "second-order", "ai-cognitive-science", "precursors"],
+    "pendingBatches": [],
+    "gaps": [
+      { "description": "Soviet cybernetics (extensive field not covered)", "priority": "medium" },
+      { "description": "Women in cybernetics (underrepresented in historical sources)", "priority": "medium" },
+      { "description": "French reception of cybernetics", "priority": "low" },
+      { "description": "Post-1980 connectionist revival", "priority": "low" }
+    ],
+    "excludedFigures": [
+      { "name": "Soviet cyberneticians", "reason": "Would require separate network due to scope" },
+      { "name": "Contemporary AI researchers", "reason": "Outside temporal scope (post-1980)" }
+    ]
+  },
   "customRelationshipTypes": [],
   "sources": [
     "Steve J. Heims, The Cybernetics Group (1991)",
