@@ -11,7 +11,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | # | Milestone | Status |
 |---|-----------|--------|
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
-| M21 | Dataset Search & Filter | 🔲 Future |
+| M21 | Dataset Search & Filter | ✅ Complete |
 | M22 | Image Asset Management | 🔲 Future |
 | M23 | Wikimedia Sourcing | 🔲 Future |
 | M24 | Vercel Migration | 🔲 Future |
@@ -68,20 +68,25 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 ---
 
-## Future: M21 - Dataset Search & Filter
+## M21 - Dataset Search & Filter ✅ COMPLETE
 
 **Goal**: Replace the dataset dropdown with a searchable combobox that filters datasets by name or description as the user types.
 
 **Track**: A (Independent Features) - No dependencies
 
-**Key Deliverables**:
+**Status**: ✅ Complete (2026-01-19)
+
+**Delivered**:
 - `SearchableDatasetSelector` component with text input + filtered dropdown
 - Case-insensitive matching against `name` and `description` fields
-- Keyboard navigation (arrow keys, Enter, Escape)
-- ARIA combobox accessibility pattern
+- Text highlighting of matching terms in search results
+- Keyboard navigation (arrow keys, Enter, Escape, Home, End)
+- Full ARIA combobox accessibility pattern with screen reader announcements
 - Light/dark theme support
+- Clear button to reset search
+- Loading and empty state handling
 
-**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature summary.
 
 ---
 
@@ -265,7 +270,7 @@ M1-M20 (Core Application Complete) ✅
 ```
 
 **Track A - Independent Features** (can execute in any order):
-- **M21 (Dataset Search)**: Pure frontend UX improvement. Becomes more valuable as datasets grow.
+- **M21 (Dataset Search)**: ✅ Complete. Searchable combobox for faster dataset discovery.
 - **M22 (Image Asset Management)**: Data quality fix. Hosts images locally to avoid broken Wikimedia URLs.
 - **M23 (Wikimedia Sourcing)**: Dynamic enrichment. Fetches missing data from Wikipedia API.
 

@@ -15,7 +15,7 @@ import { useState, useCallback } from 'react';
 import { useGraph } from '@contexts';
 import { useIsMobile } from '@hooks';
 import SearchBox from './SearchBox';
-import DatasetSelector from './DatasetSelector';
+import SearchableDatasetSelector from './SearchableDatasetSelector';
 import LayoutSwitcher from './LayoutSwitcher';
 import ThemeToggle from './ThemeToggle';
 import MobileMenu from './MobileMenu';
@@ -153,7 +153,7 @@ function Header() {
         />
         <div className="header__dataset-group">
           <span className="header__dataset-label">Dataset:</span>
-          <DatasetSelector
+          <SearchableDatasetSelector
             currentDatasetId={currentDatasetId}
             onSelect={switchDataset}
             isLoading={loadingState === 'loading'}

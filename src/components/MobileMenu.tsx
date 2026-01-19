@@ -16,7 +16,7 @@
 
 import { useEffect, useRef, useCallback } from 'react';
 import type { LayoutType } from '@hooks/useLayout';
-import DatasetSelector from './DatasetSelector';
+import SearchableDatasetSelector from './SearchableDatasetSelector';
 import LayoutSwitcher from './LayoutSwitcher';
 import ThemeToggle from './ThemeToggle';
 import './MobileMenu.css';
@@ -144,7 +144,7 @@ function MobileMenu({
           {/* Dataset Section */}
           <div className="mobile-menu__section">
             <label className="mobile-menu__section-label">Dataset</label>
-            <DatasetSelector
+            <SearchableDatasetSelector
               currentDatasetId={currentDatasetId}
               onSelect={handleDatasetSelect}
               isLoading={isDatasetLoading}

@@ -9,6 +9,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **M21: Dataset Search & Filter** - Searchable combobox for faster dataset discovery
+  - **Search Input**: Type to filter datasets by name or description
+  - **Case-Insensitive Matching**: Matches anywhere in name or description text
+  - **Text Highlighting**: Matching text highlighted with `<mark>` elements in results
+  - **Keyboard Navigation**: Arrow keys to navigate, Enter to select, Escape to close/clear
+  - **ARIA Accessibility**: Full combobox pattern with `role="combobox"`, `aria-expanded`, `aria-activedescendant`, screen reader announcements ("7 datasets found")
+  - **Clear Button**: Quick reset of search input
+  - **Light/Dark Theme**: Uses existing CSS variables for theme support
+  - **URL Sync**: Selected dataset syncs with URL (`?dataset=...`), search state is ephemeral
+  - **Loading State**: Shows loading indicator while manifests load
+  - **Empty State**: "No matching datasets" message when filter returns no results
+  - **New Components**: `SearchableDatasetSelector.tsx`, `SearchableDatasetSelector.css`
+  - **Updated Components**: `Header.tsx`, `MobileMenu.tsx`, `index.ts`
+
 - **Protestant Reformation Dataset** - New historical network with 180 nodes (65 people, 44 objects, 43 locations, 28 entities) and 101 relationships covering the 16th century Reformation (c. 1483-1564). Includes Luther, Calvin, Zwingli, Erasmus, and their networks across Lutheran, Reformed, Radical, and English reform movements.
 
 - **M19: Radial/Ego-Network View** - New visualization layout for exploring a node's direct connections

@@ -308,66 +308,68 @@ labels: feedback
 
 ---
 
-## M21: Dataset Search & Filter
+## M21: Dataset Search & Filter ✅ COMPLETE
 
 **Goal**: Replace the dataset dropdown with a searchable combobox that filters datasets by name or description as the user types.
 
 **Track**: A (Independent Features) - No dependencies
 
+**Status**: ✅ Complete (2026-01-19). Searchable combobox implemented with full keyboard navigation, ARIA accessibility, text highlighting, and theme support.
+
 ### Component Architecture
 
-- [ ] **DS1** - Design searchable combobox component API and props interface
-- [ ] **DS2** - Decide on implementation approach: custom build vs. headless library (Downshift, React Aria, etc.)
-- [ ] **DS3** - Create `SearchableDatasetSelector` component in `src/components/`
-- [ ] **DS4** - Add text input field for search/filter query
-- [ ] **DS5** - Implement dropdown list showing filtered dataset options
-- [ ] **DS6** - Wire up to existing dataset loading from `useDataset` hook or context
+- [x] **DS1** - Design searchable combobox component API and props interface
+- [x] **DS2** - Decide on implementation approach: custom build vs. headless library (Downshift, React Aria, etc.)
+- [x] **DS3** - Create `SearchableDatasetSelector` component in `src/components/`
+- [x] **DS4** - Add text input field for search/filter query
+- [x] **DS5** - Implement dropdown list showing filtered dataset options
+- [x] **DS6** - Wire up to existing dataset loading from `useDataset` hook or context
 
 ### Search & Filter Logic
 
-- [ ] **DS7** - Implement case-insensitive filtering against dataset `name` field
-- [ ] **DS8** - Extend filtering to also match against dataset `description` field
-- [ ] **DS9** - Match search term anywhere in name/description (not just prefix)
-- [ ] **DS10** - Add debouncing to filter input if performance requires (use existing `useDebounce` hook)
-- [ ] **DS11** - Show "No matching datasets" message when filter returns empty results
-- [ ] **DS12** - Add clear button (×) to reset search input
+- [x] **DS7** - Implement case-insensitive filtering against dataset `name` field
+- [x] **DS8** - Extend filtering to also match against dataset `description` field
+- [x] **DS9** - Match search term anywhere in name/description (not just prefix)
+- [x] **DS10** - Add debouncing to filter input if performance requires (use existing `useDebounce` hook)
+- [x] **DS11** - Show "No matching datasets" message when filter returns empty results
+- [x] **DS12** - Add clear button (×) to reset search input
 
 ### Keyboard Navigation & Accessibility
 
-- [ ] **DS13** - Implement arrow key navigation through filtered results
-- [ ] **DS14** - Enter key selects highlighted/focused dataset
-- [ ] **DS15** - Escape key closes dropdown and clears search
-- [ ] **DS16** - Tab key moves focus appropriately (into/out of component)
-- [ ] **DS17** - Add ARIA attributes for combobox pattern (`role="combobox"`, `aria-expanded`, `aria-activedescendant`, etc.)
-- [ ] **DS18** - Ensure screen reader announces filtered results count
+- [x] **DS13** - Implement arrow key navigation through filtered results
+- [x] **DS14** - Enter key selects highlighted/focused dataset
+- [x] **DS15** - Escape key closes dropdown and clears search
+- [x] **DS16** - Tab key moves focus appropriately (into/out of component)
+- [x] **DS17** - Add ARIA attributes for combobox pattern (`role="combobox"`, `aria-expanded`, `aria-activedescendant`, etc.)
+- [x] **DS18** - Ensure screen reader announces filtered results count
 
 ### Visual Design & Theming
 
-- [ ] **DS19** - Style component consistent with existing app design
-- [ ] **DS20** - Support light/dark theme (use existing theme CSS variables)
-- [ ] **DS21** - Display dataset name and description snippet in dropdown items
-- [ ] **DS22** - Truncate long descriptions with ellipsis
-- [ ] **DS23** - Visual distinction between: currently selected, hovered, keyboard-focused states
-- [ ] **DS24** - Optional: highlight matching text in search results
+- [x] **DS19** - Style component consistent with existing app design
+- [x] **DS20** - Support light/dark theme (use existing theme CSS variables)
+- [x] **DS21** - Display dataset name and description snippet in dropdown items
+- [x] **DS22** - Truncate long descriptions with ellipsis
+- [x] **DS23** - Visual distinction between: currently selected, hovered, keyboard-focused states
+- [x] **DS24** - Optional: highlight matching text in search results
 
 ### Integration
 
-- [ ] **DS25** - Replace existing `DatasetSelector` dropdown with new searchable component
-- [ ] **DS26** - Ensure selected dataset continues to sync with URL (`?dataset=...`)
-- [ ] **DS27** - Search/filter state is ephemeral (not persisted to URL)
-- [ ] **DS28** - Component works correctly when datasets are still loading
+- [x] **DS25** - Replace existing `DatasetSelector` dropdown with new searchable component
+- [x] **DS26** - Ensure selected dataset continues to sync with URL (`?dataset=...`)
+- [x] **DS27** - Search/filter state is ephemeral (not persisted to URL)
+- [x] **DS28** - Component works correctly when datasets are still loading
 
 ### Testing & Verification
 
-- [ ] **DS29** - Test filtering with partial matches (e.g., "llm" finds "AI & LLM Research Network")
-- [ ] **DS30** - Test filtering by description (e.g., "enlightenment" finds dataset by description)
-- [ ] **DS31** - Test keyboard navigation through filtered results
-- [ ] **DS32** - Test with empty search (shows all datasets)
-- [ ] **DS33** - Test with no-match search (shows empty state message)
-- [ ] **DS34** - Test theme switching (light/dark mode)
-- [ ] **DS35** - Verify accessibility with screen reader
-- [ ] **DS36** - Build passes with no errors or linter warnings
-- [ ] **DS37** - Update CHANGELOG.md with M21 completion notes
+- [x] **DS29** - Test filtering with partial matches (e.g., "llm" finds "AI & LLM Research Network")
+- [x] **DS30** - Test filtering by description (e.g., "enlightenment" finds dataset by description)
+- [x] **DS31** - Test keyboard navigation through filtered results
+- [x] **DS32** - Test with empty search (shows all datasets)
+- [x] **DS33** - Test with no-match search (shows empty state message)
+- [x] **DS34** - Test theme switching (light/dark mode)
+- [x] **DS35** - Verify accessibility with screen reader
+- [x] **DS36** - Build passes with no errors or linter warnings
+- [x] **DS37** - Update CHANGELOG.md with M21 completion notes
 
 ---
 

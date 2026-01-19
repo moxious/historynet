@@ -40,7 +40,7 @@ function isEdge(item: GraphNode | GraphEdge): item is GraphEdge {
 }
 
 function MobileInfoboxPanel() {
-  const { selectedItem, clearSelection, selectNode, getNode, graphData, currentDatasetId } = useGraph();
+  const { selectedItem, clearSelection, selectNode, getNode, getEdgesForNode, graphData, currentDatasetId } = useGraph();
 
   // Handler for clicking on internal node links
   const handleNodeLinkClick = (nodeId: string) => {
@@ -108,6 +108,7 @@ function MobileInfoboxPanel() {
           {isNode(selectedItem) && (
             <NodeInfobox
               node={selectedItem}
+              edges={getEdgesForNode(selectedItem.id)}
               onNodeLinkClick={handleNodeLinkClick}
               getNode={getNode}
             />
