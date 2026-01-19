@@ -89,7 +89,13 @@ const TICK_LABEL_X = LEFT_MARGIN - 40; // Tick labels positioned left of all swi
 const UNDATED_SECTION_HEIGHT = 150;
 const ZOOM_MIN = 0.3;
 const ZOOM_MAX = 8; // Increased for finer granularity
-const INITIAL_ZOOM_SCALE = 0.8;
+
+// Responsive zoom configuration - different base zoom levels for different screen sizes
+const ZOOM_BREAKPOINTS = {
+  mobile: { maxWidth: 767, scale: 1.0 },
+  tablet: { maxWidth: 1023, scale: 1.2 },
+  desktop: { maxWidth: Infinity, scale: 1.5 },
+};
 
 // Swim-lane layout constants
 const LABEL_HEIGHT = 55; // Approximate height of label card with padding
@@ -127,6 +133,21 @@ function getEventColor(type: EventType, nodeType: NodeType): string {
     return baseColor;
   }
   return baseColor;
+}
+
+/**
+ * Get the responsive initial zoom scale based on viewport width.
+ * Uses different base zoom levels for mobile/tablet/desktop to optimize
+ * screen real-estate usage.
+ */
+function getResponsiveInitialScale(width: number): number {
+  if (width < ZOOM_BREAKPOINTS.mobile.maxWidth) {
+    return ZOOM_BREAKPOINTS.mobile.scale;
+  }
+  if (width < ZOOM_BREAKPOINTS.tablet.maxWidth) {
+    return ZOOM_BREAKPOINTS.tablet.scale;
+  }
+  return ZOOM_BREAKPOINTS.desktop.scale;
 }
 
 /**
@@ -220,7 +241,7 @@ export function TimelineLayout({
   const svgRef = useRef<SVGSVGElement>(null);
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
-  const [currentZoomScale, setCurrentZoomScale] = useState(INITIAL_ZOOM_SCALE);
+  const [currentZoomScale, setCurrentZoomScale] = useState(ZOOM_BREAKPOINTS.desktop.scale);
   const [currentGranularity, setCurrentGranularity] = useState<TickGranularity>('decade');
 
   // Process nodes into discrete events
@@ -509,8 +530,8 @@ export function TimelineLayout({
       }
     };
 
-    // Initial tick render at the default granularity
-    const initialGranularity = getTickGranularity(INITIAL_ZOOM_SCALE);
+    // Initial tick render at the default granularity (based on responsive zoom)
+    const initialGranularity = getTickGranularity(getResponsiveInitialScale(width));
     renderTicks(initialGranularity);
     setCurrentGranularity(initialGranularity);
 
@@ -760,16 +781,19 @@ export function TimelineLayout({
     const densestMidY = (densestSegment.yStart ?? 50) + 
       ((densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50)) / 2;
     
-    // Calculate scale that shows events at readable size
-    const segmentHeight = (densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50);
-    const idealScale = Math.min(
-      (width * 0.9) / contentWidth,
-      height / Math.max(segmentHeight + 100, 300),
-      INITIAL_ZOOM_SCALE
-    );
-    const actualScale = Math.max(idealScale, ZOOM_MIN);
+    // Get responsive base zoom based on viewport width
+    const baseZoom = getResponsiveInitialScale(width);
     
-    // Position to center on the densest segment
+    // Calculate scale that fills horizontal space (with small margins)
+    const horizontalFitScale = (width - 40) / contentWidth;
+    
+    // Use the larger of horizontal fit or base zoom, capped at 2.0
+    const actualScale = Math.min(
+      Math.max(horizontalFitScale, baseZoom),
+      2.0
+    );
+    
+    // Position to fill horizontal space and center vertically on densest segment
     const initialX = (width - contentWidth * actualScale) / 2;
     const initialY = -(densestMidY - height / (2 * actualScale)) * actualScale;
     
@@ -964,16 +988,19 @@ export function TimelineLayout({
     const densestMidY = (densestSegment.yStart ?? 50) + 
       ((densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50)) / 2;
 
-    // Calculate scale that shows events at readable size
-    const segmentHeight = (densestSegment.yEnd ?? 50) - (densestSegment.yStart ?? 50);
-    const idealScale = Math.min(
-      (width * 0.9) / contentWidth,
-      height / Math.max(segmentHeight + 100, 300),
-      INITIAL_ZOOM_SCALE
-    );
-    const actualScale = Math.max(idealScale, ZOOM_MIN);
+    // Get responsive base zoom based on viewport width
+    const baseZoom = getResponsiveInitialScale(width);
     
-    // Position to center on the densest segment
+    // Calculate scale that fills horizontal space (with small margins)
+    const horizontalFitScale = (width - 40) / contentWidth;
+    
+    // Use the larger of horizontal fit or base zoom, capped at 2.0
+    const actualScale = Math.min(
+      Math.max(horizontalFitScale, baseZoom),
+      2.0
+    );
+    
+    // Position to fill horizontal space and center vertically on densest segment
     const initialX = (width - contentWidth * actualScale) / 2;
     const initialY = -(densestMidY - height / (2 * actualScale)) * actualScale;
 
