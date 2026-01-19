@@ -50,6 +50,24 @@ function getTypeBadgeClass(type: string): string {
   return `resource-detail__type-badge resource-detail__type-badge--${type}`;
 }
 
+/**
+ * Get fallback emoji for node type when no image is available
+ */
+function getNodeTypeEmoji(type: string): string {
+  switch (type) {
+    case 'person':
+      return '👤';
+    case 'object':
+      return '📜';
+    case 'location':
+      return '📍';
+    case 'entity':
+      return '🏛️';
+    default:
+      return '📄';
+  }
+}
+
 function NodeDetailPage() {
   const params = useResourceParams();
   const navigate = useNavigate();
@@ -184,7 +202,7 @@ function NodeDetailPage() {
 
       {/* Breadcrumb Navigation */}
       <nav className="resource-detail__breadcrumb" aria-label="Breadcrumb">
-        <Link to={`/${encodeURIComponent(datasetId)}`} className="resource-detail__breadcrumb-link">
+        Dataset: <Link to={`/${encodeURIComponent(datasetId)}`} className="resource-detail__breadcrumb-link">
           {manifest.name}
         </Link>
         <span className="resource-detail__breadcrumb-separator" aria-hidden="true">›</span>
@@ -225,6 +243,14 @@ function NodeDetailPage() {
           {enrichedData.loading && !enrichedData.imageUrl && (
             <div className="resource-detail__image-container">
               <div className="resource-detail__image-loading" aria-label="Loading image..." />
+            </div>
+          )}
+          {/* Fallback emoji when no image is available */}
+          {!enrichedData.loading && (!enrichedData.imageUrl || !isValidImageUrl(enrichedData.imageUrl)) && (
+            <div className="resource-detail__image-container resource-detail__image-fallback" aria-label={`${node.type} icon`}>
+              <span className="resource-detail__image-emoji" role="img" aria-hidden="true">
+                {getNodeTypeEmoji(node.type)}
+              </span>
             </div>
           )}
           
