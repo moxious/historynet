@@ -1,3 +1,4 @@
+/** @jsxImportSource react */
 /**
  * Dynamic OG Image Generation API
  *
