@@ -1,22 +1,23 @@
 {
   "id": "rosicrucian-network",
   "name": "Rosicrucian-Paracelsian Network",
-  "description": "Intellectual network of the early 17th century centered on the Rosicrucian manifestos, German Christian theosophy (Jacob Boehme), Paracelsian medicine, and the Prague court of Rudolf II. Spans c. 1540-1660 and includes the Tübingen Circle, English Rosicrucians, and political patrons of the 'Rosicrucian hope.'",
+  "description": "Intellectual network of the early 17th century centered on the Rosicrucian manifestos, German Christian theosophy (Jacob Boehme), Paracelsian medicine, and the Prague court of Rudolf II. Spans c. 1540-1700 and includes the Tübingen Circle, English Rosicrucians, the Hartlib Circle, and political patrons of the 'Rosicrucian hope.'",
   "lastUpdated": "2026-01-19",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "HistoryNet Research",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
-  "nodeCount": 96,
-  "edgeCount": 196,
+  "nodeCount": 112,
+  "edgeCount": 229,
   "timePeriod": {
     "start": "1493",
-    "end": "1692"
+    "end": "1700"
   },
   "geographicFocus": [
     "Germany",
     "Bohemia",
-    "England"
+    "England",
+    "Netherlands"
   ],
   "themes": [
     "Rosicrucianism",
@@ -24,7 +25,9 @@
     "Christian theosophy",
     "Alchemy",
     "Hermeticism",
-    "Early modern science"
+    "Early modern science",
+    "Pansophia",
+    "Educational reform"
   ],
   "customRelationshipTypes": [
     {

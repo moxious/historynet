@@ -2039,5 +2039,364 @@
     "dateStart": "1609",
     "evidence": "The Professor of Chymiatrie position was created at the University of Marburg.",
     "strength": "strong"
+  },
+
+  {
+    "id": "edge-comenius-knew-andreae",
+    "source": "person-jan-amos-comenius",
+    "target": "person-jv-andreae",
+    "relationship": "knows",
+    "label": "Personal acquaintance",
+    "dateStart": "1628",
+    "dateEnd": "1654",
+    "evidence": "Comenius knew Andreae personally and expressed admiration for his ideas about reform and higher learning. Andreae's works helped shape Comenius's thinking on universal education and social reform.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Amos_Comenius",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-influenced-fama",
+    "source": "object-fama-fraternitatis",
+    "target": "person-jan-amos-comenius",
+    "relationship": "influenced",
+    "label": "Early reader",
+    "dateStart": "1612",
+    "evidence": "Comenius read the Fama Fraternitatis in manuscript as early as 1612, while studying at Heidelberg. The Rosicrucian ideals of reform and universal wisdom influenced his development of pansophia.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Amos_Comenius",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-visited-heidelberg",
+    "source": "person-jan-amos-comenius",
+    "target": "loc-heidelberg",
+    "relationship": "visited",
+    "label": "University study",
+    "dateStart": "1611",
+    "dateEnd": "1614",
+    "evidence": "Comenius studied at the University of Heidelberg from 1611-1614, where he encountered Rosicrucian ideas.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-knew-hartlib",
+    "source": "person-jan-amos-comenius",
+    "target": "person-samuel-hartlib",
+    "relationship": "collaborated_with",
+    "label": "Close collaborators",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "Comenius was Hartlib's major intellectual ally in promoting universal education and pansophia. Hartlib helped publish and circulate Comenius's ideas, including Pansophiae Prodromus (1639).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Hartlib_Circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-knew-dury",
+    "source": "person-jan-amos-comenius",
+    "target": "person-john-dury",
+    "relationship": "collaborated_with",
+    "label": "Reform collaborators",
+    "dateStart": "1630",
+    "dateEnd": "1670",
+    "evidence": "Comenius collaborated with Dury through the Hartlib Circle on educational and religious reform projects.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-lived-amsterdam",
+    "source": "person-jan-amos-comenius",
+    "target": "loc-amsterdam",
+    "relationship": "lived_in",
+    "label": "Final residence",
+    "dateStart": "1656",
+    "dateEnd": "1670",
+    "evidence": "Comenius spent his final years in Amsterdam, where he died on November 15, 1670.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-authored-prodromus",
+    "source": "person-jan-amos-comenius",
+    "target": "object-pansophiae-prodromus",
+    "relationship": "authored",
+    "dateStart": "1639",
+    "evidence": "Comenius wrote Pansophiae Prodromus, published in London in 1639 with Hartlib's assistance.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-authored-via-lucis",
+    "source": "person-jan-amos-comenius",
+    "target": "object-via-lucis",
+    "relationship": "authored",
+    "dateStart": "1641",
+    "evidence": "Comenius wrote Via Lucis during his 1641 visit to England at Hartlib's invitation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-authored-didactica",
+    "source": "person-jan-amos-comenius",
+    "target": "object-didactica-magna",
+    "relationship": "authored",
+    "dateStart": "1633",
+    "dateEnd": "1638",
+    "evidence": "Comenius wrote Didactica Magna, originally in Czech, later published in Latin in 1657.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-influenced-hartlib-circle",
+    "source": "person-jan-amos-comenius",
+    "target": "entity-hartlib-circle",
+    "relationship": "influenced",
+    "label": "Intellectual influence",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "Though not an organizer of the circle, Comenius's ideas of pansophia and universal reform deeply influenced the Hartlib Circle's projects.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartlib-founded-circle",
+    "source": "person-samuel-hartlib",
+    "target": "entity-hartlib-circle",
+    "relationship": "founded",
+    "label": "Central organizer",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "Hartlib was the central hub of the correspondence network that bears his name, serving as an intelligencer and knowledge broker.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Samuel_Hartlib",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-collaborated-dury",
+    "source": "person-samuel-hartlib",
+    "target": "person-john-dury",
+    "relationship": "collaborated_with",
+    "label": "Close collaborators",
+    "dateStart": "1626",
+    "dateEnd": "1662",
+    "evidence": "Hartlib and Dury were close friends and working partners from their meeting in Elbing. They collaborated on Protestant unity, educational reform, and published The Reformed School (1648) together.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Dury",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-published-comenius",
+    "source": "person-samuel-hartlib",
+    "target": "object-pansophiae-prodromus",
+    "relationship": "published",
+    "label": "Published in London",
+    "dateStart": "1639",
+    "evidence": "Hartlib helped publish and circulate Comenius's Pansophiae Prodromus in London in 1639.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-corresponded-henshaw",
+    "source": "person-samuel-hartlib",
+    "target": "person-thomas-henshaw",
+    "relationship": "corresponded_with",
+    "label": "Alchemical correspondence",
+    "dateStart": "1650",
+    "dateEnd": "1662",
+    "evidence": "Hartlib recorded Henshaw's claim to have discovered the alkahest and corresponded with him about alchemical and reform projects.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-lived-elbing",
+    "source": "person-samuel-hartlib",
+    "target": "loc-elbing",
+    "relationship": "lived_in",
+    "label": "Birthplace",
+    "dateEnd": "1628",
+    "evidence": "Hartlib was born around 1600 in Elbing, Prussia to a merchant family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-lived-london",
+    "source": "person-samuel-hartlib",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "label": "Primary residence",
+    "dateStart": "1628",
+    "dateEnd": "1662",
+    "evidence": "Hartlib moved to England around 1628 and settled in London, where he conducted his intelligencing activities until his death.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-dury-member-hartlib-circle",
+    "source": "person-john-dury",
+    "target": "entity-hartlib-circle",
+    "relationship": "member_of",
+    "label": "Core member",
+    "dateStart": "1626",
+    "dateEnd": "1662",
+    "evidence": "Dury was a core member of the Hartlib Circle from its inception, working on Protestant ecumenism and educational reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-met-hartlib-elbing",
+    "source": "person-john-dury",
+    "target": "loc-elbing",
+    "relationship": "visited",
+    "label": "Met Hartlib",
+    "dateStart": "1624",
+    "dateEnd": "1626",
+    "evidence": "Dury worked among Protestant communities in Elbing between 1624-1626, where he met Samuel Hartlib.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Dury",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-lived-kassel",
+    "source": "person-john-dury",
+    "target": "loc-kassel",
+    "relationship": "lived_in",
+    "label": "Retirement",
+    "dateStart": "1661",
+    "dateEnd": "1680",
+    "evidence": "Dury settled in Kassel, Hesse-Kassel in 1661, where he remained until his death in 1680.",
+    "evidenceUrl": "https://www.britannica.com/biography/John-Dury",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-authored-reformed-school",
+    "source": "person-john-dury",
+    "target": "object-reformed-school",
+    "relationship": "authored",
+    "dateStart": "1648",
+    "evidence": "Dury co-authored The Reformed School (1648) with Hartlib.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-authored-reformed-school",
+    "source": "person-samuel-hartlib",
+    "target": "object-reformed-school",
+    "relationship": "authored",
+    "dateStart": "1648",
+    "evidence": "Hartlib co-authored The Reformed School (1648) with Dury.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-authored-librarie-keeper",
+    "source": "person-john-dury",
+    "target": "object-reformed-librarie-keeper",
+    "relationship": "authored",
+    "dateStart": "1650",
+    "evidence": "Dury wrote The Reformed Librarie-Keeper in 1650.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-heydon-authored-holy-guide",
+    "source": "person-john-heydon",
+    "target": "object-holy-guide",
+    "relationship": "authored",
+    "dateStart": "1662",
+    "evidence": "Heydon wrote The Holy Guide, published in 1662.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-influenced-bacon",
+    "source": "person-francis-bacon",
+    "target": "person-john-heydon",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Heydon's Holy Guide borrows heavily from Bacon's New Atlantis, equating Bacon's Salomon's House with a Rosicrucian Temple.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-criticized-ashmole",
+    "source": "person-elias-ashmole",
+    "target": "person-john-heydon",
+    "relationship": "opposed",
+    "label": "Criticized",
+    "evidence": "Elias Ashmole called Heydon 'an ignoramus and a cheate.'",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-lived-london",
+    "source": "person-john-heydon",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1629",
+    "dateEnd": "1667",
+    "evidence": "Heydon was born in London and lived there throughout his life.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-participated-furor",
+    "source": "person-john-heydon",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Later Rosicrucian author",
+    "dateStart": "1662",
+    "dateEnd": "1667",
+    "evidence": "Heydon's Rosicrucian publications represent a later phase of English engagement with Rosicrucian ideas.",
+    "strength": "moderate"
+  },
+
+  {
+    "id": "edge-henshaw-member-hartlib-circle",
+    "source": "person-thomas-henshaw",
+    "target": "entity-hartlib-circle",
+    "relationship": "member_of",
+    "label": "Correspondent",
+    "dateStart": "1650",
+    "dateEnd": "1662",
+    "evidence": "Henshaw was in correspondence with Hartlib, discussing alchemical projects and plans for a 'Christian Learned Society.'",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henshaw-collaborated-vaughan",
+    "source": "person-thomas-henshaw",
+    "target": "person-thomas-vaughan",
+    "relationship": "collaborated_with",
+    "label": "Alchemical collaboration",
+    "dateStart": "1650",
+    "dateEnd": "1666",
+    "evidence": "Thomas Vaughan lived with Henshaw at his house in Kensington while conducting alchemical experiments.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashmole-used-henshaw-library",
+    "source": "person-elias-ashmole",
+    "target": "person-thomas-henshaw",
+    "relationship": "associated_with",
+    "label": "Used library",
+    "dateStart": "1652",
+    "evidence": "Elias Ashmole made use of Henshaw's extensive alchemical library for his Theatrum Chemicum Britannicum.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henshaw-lived-london",
+    "source": "person-thomas-henshaw",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1618",
+    "dateEnd": "1700",
+    "evidence": "Henshaw was born in London and lived there (including Kensington) throughout his life.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartlib-circle-based-london",
+    "source": "entity-hartlib-circle",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "label": "Center of network",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "The Hartlib Circle was centered on Hartlib's activities in London, though its correspondence network spanned Europe.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gichtel-lived-amsterdam",
+    "source": "person-jg-gichtel",
+    "target": "loc-amsterdam",
+    "relationship": "lived_in",
+    "label": "Exile",
+    "dateStart": "1670",
+    "dateEnd": "1710",
+    "evidence": "Gichtel lived in Amsterdam in exile, where he edited and published Boehme's collected works.",
+    "strength": "strong"
   }
 ]
