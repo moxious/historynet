@@ -10,6 +10,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { buildDatasetOgImageUrl } from '@components/ResourceMeta';
 import type { DatasetManifest, GraphData } from '@types';
 import { loadDataset, isValidDatasetId, getPublicAssetUrl } from '@utils/dataLoader';
 import { buildExploreUrl, buildNodeUrl, buildFullDatasetUrl } from '@utils/urlBuilder';
@@ -188,6 +189,11 @@ function DatasetOverviewPage() {
         <meta property="og:description" content={manifest.description} />
         <meta property="og:url" content={fullUrl} />
         <meta property="og:type" content="website" />
+        <meta property="og:image" content={buildDatasetOgImageUrl(datasetId)} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content={buildDatasetOgImageUrl(datasetId)} />
       </Helmet>
 
       {/* Back navigation */}

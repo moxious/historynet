@@ -14,7 +14,7 @@ import { hasEvidence } from '@types';
 import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
 import { useResourceParams, buildFullEdgeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
-import ResourceMeta from '@components/ResourceMeta';
+import ResourceMeta, { buildEdgeOgImageUrl } from '@components/ResourceMeta';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
 
@@ -391,6 +391,7 @@ function EdgeDetailPage() {
         title={pageTitle}
         description={pageDescription}
         datasetName={manifest?.name || datasetId}
+        ogImageUrl={buildEdgeOgImageUrl(datasetId, sourceId, targetId)}
         canonicalUrl={fullUrl}
         ogType="article"
         publishedDate={firstEdge?.dateStart}

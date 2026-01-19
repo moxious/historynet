@@ -1,11 +1,11 @@
 # Robots.txt for Scenius
-# https://moxious.github.io/historynet/
+# https://scenius-seven.vercel.app/
 
 User-agent: *
 Allow: /
 
-# Note: This is a Single Page Application (SPA) using hash-based routing.
-# Search engines may have limited ability to crawl dynamic routes.
+# Note: This is a Single Page Application (SPA) with BrowserRouter.
+# Vercel serves all client routes via index.html rewrites.
 
 # Sitemap location
-Sitemap: https://moxious.github.io/historynet/sitemap.xml
+Sitemap: https://scenius-seven.vercel.app/sitemap.xml

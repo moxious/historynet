@@ -12,7 +12,7 @@ import { Helmet } from 'react-helmet-async';
 import type { GraphNode, PersonNode, ObjectNode, LocationNode, EntityNode } from '@types';
 import { isPersonNode, isObjectNode, isLocationNode } from '@types';
 
-const PRODUCTION_BASE_URL = 'https://moxious.github.io/historynet';
+const PRODUCTION_BASE_URL = 'https://scenius-seven.vercel.app';
 
 interface SchemaOrgProps {
   /** The node to generate structured data for */

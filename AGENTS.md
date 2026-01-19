@@ -9,21 +9,22 @@ This document provides instructions for AI agents and developers working on the 
 > **Production URL**: https://scenius-seven.vercel.app/
 > 
 > **GitHub Repository**: https://github.com/moxious/historynet
->
-> **Backup URL**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only—no API)
 
-The application is deployed to Vercel (primary) and GitHub Pages (backup). Pushing to `main` triggers both deployments automatically. Use the production URL to test features at runtime using browser tools (MCP browser extension, etc.).
+The application is deployed to Vercel. Pushing to `main` triggers automatic deployment. Use the production URL to test features at runtime using browser tools (MCP browser extension, etc.).
 
-**API Endpoints**: Only available on Vercel deployment. GitHub Pages serves frontend only.
+**API Endpoints**:
 - `/api/health` - Health check endpoint
+- `/api/og` - Dynamic OG image generation
 
 ### Example URLs for Testing
-- **Home**: `https://scenius-seven.vercel.app/#/`
-- **AI-LLM Dataset** (default): `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research`
-- **Rosicrucian Dataset**: `https://scenius-seven.vercel.app/#/?dataset=rosicrucian-network`
-- **Deep Link to Node**: `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node`
-- **Dark Mode**: `https://scenius-seven.vercel.app/#/?theme=dark`
+- **Home**: `https://scenius-seven.vercel.app/`
+- **AI-LLM Dataset Overview**: `https://scenius-seven.vercel.app/ai-llm-research`
+- **AI-LLM Dataset Explore**: `https://scenius-seven.vercel.app/ai-llm-research/explore`
+- **Node Detail Page**: `https://scenius-seven.vercel.app/ai-llm-research/node/person-geoffrey-hinton`
+- **Edge Detail Page**: `https://scenius-seven.vercel.app/ai-llm-research/from/person-geoffrey-hinton/to/entity-google-brain`
+- **Dark Mode**: `https://scenius-seven.vercel.app/?theme=dark`
 - **Health API**: `https://scenius-seven.vercel.app/api/health`
+- **OG Image API**: `https://scenius-seven.vercel.app/api/og?dataset=ai-llm-research&node=person-geoffrey-hinton`
 
 ---
 
@@ -56,8 +57,8 @@ The name "Scenius" comes from Brian Eno's concept describing the collective inte
 The application is:
 - **Read-only**: Users view but cannot edit data
 - **Dataset-agnostic**: Multiple JSON knowledge bases can be loaded
-- **Shareable**: All view/filter state is captured in URLs
-- **Deployed**: Vercel (primary with API) + GitHub Pages (backup frontend)
+- **Shareable**: All view/filter state is captured in clean URLs (no hash routing)
+- **Deployed**: Vercel (with API endpoints and dynamic OG images)
 
 ---
 
@@ -221,7 +222,7 @@ Since agents may not have direct communication:
 
 ### Branching Strategy (for human developers)
 
-- `main`: Production-ready code, deployed to Vercel + GitHub Pages
+- `main`: Production-ready code, deployed to Vercel
 - `develop`: Integration branch for features
 - `feature/*`: Individual feature branches
 - `milestone/*`: Branches for milestone work if needed

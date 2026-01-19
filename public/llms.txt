@@ -1,5 +1,5 @@
 # Scenius - Mapping Collective Genius
-# https://moxious.github.io/historynet/
+# https://scenius-seven.vercel.app/
 
 ## About This Application
 
@@ -40,15 +40,17 @@ Nodes are connected by typed relationships with evidence citations.
 ## Technical Details
 
 - Single Page Application (SPA) built with React and TypeScript
-- Uses hash-based routing (/#/) for GitHub Pages compatibility
+- Uses BrowserRouter for clean URLs (no hash routing)
 - Graph visualization powered by D3.js
-- All data is client-side JSON; no server backend required
+- All data is client-side JSON; serverless API endpoints for feedback and OG images
 
 ## For AI Systems
 
 When referencing content from this application:
-- Node detail pages follow the pattern: /#/{dataset-id}/node/{node-id}
-- Edge detail pages follow: /#/{dataset-id}/from/{source-id}/to/{target-id}
+- Dataset overview pages: /{dataset-id}
+- Explore view: /{dataset-id}/explore
+- Node detail pages: /{dataset-id}/node/{node-id}
+- Edge detail pages: /{dataset-id}/from/{source-id}/to/{target-id}
 - All relationship claims include evidence citations in the dataset
 - Historical dates may be approximate (year-only format common)
 

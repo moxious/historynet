@@ -9,6 +9,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **M33: Social Sharing & Dynamic OG Images** - Clean URLs and rich social previews
+  - **Router Migration**: Replaced HashRouter with BrowserRouter for crawler-friendly URLs
+    - URLs now use clean paths (e.g., `/ai-llm-research/node/person-geoffrey-hinton`)
+    - No more hash fragments (`#/`) that social media crawlers ignored
+    - All internal navigation and sharing updated
+  - **Vercel Rewrites**: SPA routing via `vercel.json` rewrites
+    - All client routes served via `index.html`
+    - Static assets (`/datasets/*`, `/img/*`, `/api/*`) bypass rewrites
+  - **Dynamic OG Image API** (`/api/og`): Server-side image generation for social sharing
+    - Dataset images with emoji, name, description, and stats
+    - Node images with type badge, title, dates, and description
+    - Edge images showing source → relationship → target visualization
+    - Fallback to generic Scenius branding for missing data
+    - Uses `@vercel/og` (Satori-based image generation)
+    - Proper cache headers for performance
+  - **Updated Meta Tags**: All pages now reference dynamic OG images
+    - `og:image` and `twitter:image` point to `/api/og?...` with appropriate params
+    - 1200×630 standard dimensions for all platforms
+  - **GitHub Pages Removal**: Single deployment target (Vercel only)
+    - Deleted `.github/workflows/deploy.yml`
+    - Updated all documentation to remove backup URL references
+    - Simplified deployment and maintenance
+
 - **M25: User Feedback Feature** - In-app feedback form for reporting data issues
   - **Floating Feedback Button**: Fixed-position button (bottom-right) visible on all pages
     - Icon + "Feedback" label on desktop, icon-only on mobile (<640px)
@@ -466,5 +489,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## Links
 
 - **Live Demo**: https://scenius-seven.vercel.app/
-- **Backup Demo**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only)
 - **Repository**: https://github.com/moxious/historynet

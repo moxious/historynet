@@ -2,8 +2,6 @@
 
 > **Live Application**: https://scenius-seven.vercel.app/
 
-[![Deploy to GitHub Pages](https://github.com/moxious/historynet/actions/workflows/deploy.yml/badge.svg)](https://github.com/moxious/historynet/actions/workflows/deploy.yml)
-
 *Mapping collective genius*
 
 An interactive visualization tool for exploring historical social networks. Scenius renders knowledge bases as force-directed graphs, allowing users to discover connections between historical figures, their works, locations, and organizations.
@@ -122,25 +120,22 @@ See [GRAPH_SCHEMA.md](./GRAPH_SCHEMA.md) for the complete schema specification.
 - **TypeScript** - Type-safe JavaScript
 - **Vite** - Build tool and dev server
 - **D3.js** - Force-directed graph visualization
-- **React Router** - URL state management (HashRouter for GitHub Pages)
+- **React Router** - URL state management (BrowserRouter with clean URLs)
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
 
 ## Deployment
 
-Scenius uses dual deployment for reliability:
+Scenius is deployed to Vercel with automatic deployments on push to `main`.
 
 | Target | URL | Features |
 |--------|-----|----------|
-| **Vercel** (Primary) | https://scenius-seven.vercel.app/ | Full app + API endpoints |
-| **GitHub Pages** (Backup) | https://moxious.github.io/historynet/ | Frontend only (no API) |
-
-Both deployments are triggered automatically when changes are pushed to the `main` branch.
+| **Vercel** | https://scenius-seven.vercel.app/ | Full app + API endpoints + Dynamic OG images |
 
 ### API Endpoints
 
-API endpoints are only available on Vercel:
 - `GET /api/health` — Health check (returns `{ status: 'ok', timestamp, environment }`)
+- `GET /api/og` — Dynamic Open Graph image generation for social sharing
 
 ### Manual Deployment
 
@@ -154,14 +149,6 @@ npm run build
 
 2. The `dist/` folder contains the production-ready static files.
 
-### GitHub Pages Setup
-
-To enable GitHub Pages for your fork:
-
-1. Go to **Settings** → **Pages** in your GitHub repository
-2. Under **Build and deployment**, select **GitHub Actions** as the source
-3. The workflow at `.github/workflows/deploy.yml` handles the rest
-
 ### Vercel Setup
 
 The project is linked to Vercel for automatic deployments:
@@ -172,12 +159,14 @@ The project is linked to Vercel for automatic deployments:
 
 ### URL Structure
 
-URLs use hash routing for cross-deployment compatibility:
-- `https://scenius-seven.vercel.app/#/` - Home
-- `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research` - Load specific dataset
-- `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node` - Deep link to node
-- `https://scenius-seven.vercel.app/#/?theme=dark` - Dark mode
-- `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research&theme=dark` - Dataset with dark mode
+URLs use clean BrowserRouter paths (no hash):
+- `https://scenius-seven.vercel.app/` - Home
+- `https://scenius-seven.vercel.app/ai-llm-research` - Dataset overview page
+- `https://scenius-seven.vercel.app/ai-llm-research/explore` - Graph/timeline exploration
+- `https://scenius-seven.vercel.app/ai-llm-research/explore?layout=timeline` - Timeline view
+- `https://scenius-seven.vercel.app/ai-llm-research/node/person-geoffrey-hinton` - Node detail page
+- `https://scenius-seven.vercel.app/ai-llm-research/from/person-x/to/person-y` - Edge detail page
+- `https://scenius-seven.vercel.app/?theme=dark` - Dark mode
 
 ## Documentation
 

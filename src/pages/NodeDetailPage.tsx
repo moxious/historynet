@@ -15,7 +15,7 @@ import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl, getNodeTypeEmoji } from '@utils';
 import { useResourceParams, buildFullNodeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
 import { useNodeEnrichedData } from '@hooks';
-import ResourceMeta from '@components/ResourceMeta';
+import ResourceMeta, { buildNodeOgImageUrl } from '@components/ResourceMeta';
 import SchemaOrg from '@components/SchemaOrg';
 import WikipediaAttribution from '@components/WikipediaAttribution';
 import NotFoundPage from './NotFoundPage';
@@ -171,6 +171,7 @@ function NodeDetailPage() {
         description={enrichedData.description || node.shortDescription}
         datasetName={manifest.name}
         imageUrl={enrichedData.imageUrl || undefined}
+        ogImageUrl={buildNodeOgImageUrl(datasetId, nodeId)}
         canonicalUrl={fullUrl}
         ogType={node.type === 'person' ? 'profile' : 'article'}
         publishedDate={node.dateStart}

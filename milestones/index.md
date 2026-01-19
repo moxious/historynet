@@ -38,7 +38,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M30 | Cross-Scene UI | 🔲 Future | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
 | M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
-| M33 | Social Sharing & Dynamic OG | 🔲 Not Started | B | [m33-social-sharing.md](m33-social-sharing.md) |
+| M33 | Social Sharing & Dynamic OG | ✅ Complete | B | [m33-social-sharing.md](m33-social-sharing.md) |
 
 > **Note**: M12 and M17 were originally reserved for features that have been renumbered to M24 and M21 respectively.
 
@@ -71,7 +71,7 @@ M1-M20 (Core Application Complete) ✅
    Search) ✅    Sourcing) ✅      │            │                          ▼
                                    │            ├────────┬────────┬────────M32 ✅
                                    │            ▼        ▼        ▼        ▼
-                                   │           M25      M26      M29      M33
+                                   │           M25      M26      M29      M33 ✅
                                    │        (Feedback)(Domain)(Cross- (Social
                                    │            ✅              Scene  Sharing)
                                    │            │               API)
@@ -87,11 +87,10 @@ M1-M20 (Core Application Complete) ✅
 ## Next Steps
 
 **Ready to implement** (dependencies satisfied):
-- **M33: Social Sharing & Dynamic OG** - Depends on M24 ✅ ← **Recommended next**
 - **M26: Custom Domain** - Depends on M24 ✅
 - **M27: Spam Protection** - Depends on M25 ✅
 - **M29: Cross-Scene API** - Depends on M24 ✅
 
-**Track C complete**: M32 (New Homepage) completes the information architecture track.
+**Track B progress**: M33 (Social Sharing) complete. Now using BrowserRouter with clean URLs and dynamic OG images.
 
-**Note**: M33 removes GitHub Pages deployment and migrates to BrowserRouter. This should be done before M26 (Custom Domain) to ensure the domain points to the correct URL structure.
+**Track C complete**: M32 (New Homepage) completes the information architecture track.

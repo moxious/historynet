@@ -8,8 +8,6 @@
 
 **Live Demo**: https://scenius-seven.vercel.app/
 
-**Backup**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only)
-
 **GitHub**: https://github.com/moxious/historynet
 
 ---

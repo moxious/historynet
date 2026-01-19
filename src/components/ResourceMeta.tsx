@@ -2,6 +2,9 @@
  * ResourceMeta - Dynamic meta tags for SEO and social sharing
  *
  * Sets page title and Open Graph meta tags for resource pages.
+ * 
+ * M33: Now supports dynamic OG images via /api/og endpoint.
+ * The ogImageUrl prop takes precedence when provided.
  *
  * Note: In a pure SPA without server-side rendering, these meta tags
  * update client-side only. Social media crawlers and search engines
@@ -22,6 +25,11 @@ interface ResourceMetaProps {
   datasetName: string;
   /** Image URL for og:image (falls back to default if not provided) */
   imageUrl?: string;
+  /** 
+   * Dynamic OG image URL (M33) - takes precedence over imageUrl
+   * Should point to /api/og?... with appropriate query params
+   */
+  ogImageUrl?: string;
   /** Canonical URL for this resource */
   canonicalUrl?: string;
   /** Open Graph type (defaults to 'article') */
@@ -30,9 +38,42 @@ interface ResourceMetaProps {
   publishedDate?: string;
 }
 
-const PRODUCTION_BASE_URL = 'https://moxious.github.io/historynet';
-const DEFAULT_IMAGE = `${PRODUCTION_BASE_URL}/favicon.svg`;
+const PRODUCTION_BASE_URL = 'https://scenius-seven.vercel.app';
+const DEFAULT_OG_IMAGE = `${PRODUCTION_BASE_URL}/api/og`;
 const APP_NAME = 'Scenius';
+
+/**
+ * Build dynamic OG image URL for a dataset
+ */
+export function buildDatasetOgImageUrl(datasetId: string): string {
+  // SECURITY: constructed URL with URL API (F3)
+  const url = new URL('/api/og', PRODUCTION_BASE_URL);
+  url.searchParams.set('dataset', datasetId);
+  return url.toString();
+}
+
+/**
+ * Build dynamic OG image URL for a node
+ */
+export function buildNodeOgImageUrl(datasetId: string, nodeId: string): string {
+  // SECURITY: constructed URL with URL API (F3)
+  const url = new URL('/api/og', PRODUCTION_BASE_URL);
+  url.searchParams.set('dataset', datasetId);
+  url.searchParams.set('node', nodeId);
+  return url.toString();
+}
+
+/**
+ * Build dynamic OG image URL for an edge
+ */
+export function buildEdgeOgImageUrl(datasetId: string, sourceId: string, targetId: string): string {
+  // SECURITY: constructed URL with URL API (F3)
+  const url = new URL('/api/og', PRODUCTION_BASE_URL);
+  url.searchParams.set('dataset', datasetId);
+  url.searchParams.set('sourceId', sourceId);
+  url.searchParams.set('targetId', targetId);
+  return url.toString();
+}
 
 /**
  * Ensure image URL is absolute for social sharing
@@ -40,7 +81,7 @@ const APP_NAME = 'Scenius';
  */
 function ensureAbsoluteImageUrl(imageUrl: string | undefined): string {
   if (!imageUrl) {
-    return DEFAULT_IMAGE;
+    return DEFAULT_OG_IMAGE;
   }
 
   // Already absolute URL
@@ -62,6 +103,7 @@ function ResourceMeta({
   description,
   datasetName,
   imageUrl,
+  ogImageUrl,
   canonicalUrl,
   ogType = 'article',
   publishedDate,
@@ -70,7 +112,8 @@ function ResourceMeta({
   const metaDescription =
     description || `View ${title} in the ${datasetName} network on ${APP_NAME}`;
   // SECURITY: Image URLs are sanitized via ensureAbsoluteImageUrl (F4/F6)
-  const ogImage = ensureAbsoluteImageUrl(imageUrl);
+  // M33: ogImageUrl takes precedence for dynamic OG images
+  const ogImage = ogImageUrl || ensureAbsoluteImageUrl(imageUrl);
 
   // Build canonical URL if not provided
   const canonical = canonicalUrl || window.location.href;
@@ -88,6 +131,8 @@ function ResourceMeta({
       <meta property="og:description" content={metaDescription} />
       <meta property="og:image" content={ogImage} />
       <meta property="og:image:alt" content={title} />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
       <meta property="og:site_name" content={APP_NAME} />
       <meta property="og:locale" content="en_US" />
 

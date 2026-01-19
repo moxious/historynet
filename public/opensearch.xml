@@ -3,7 +3,7 @@
   <ShortName>Scenius</ShortName>
   <Description>Search historical networks and discover how great minds collaborated</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/svg+xml">https://moxious.github.io/historynet/favicon.svg</Image>
-  <Url type="text/html" template="https://moxious.github.io/historynet/#/?search={searchTerms}"/>
-  <SearchForm>https://moxious.github.io/historynet/</SearchForm>
+  <Image width="16" height="16" type="image/svg+xml">https://scenius-seven.vercel.app/favicon.svg</Image>
+  <Url type="text/html" template="https://scenius-seven.vercel.app/?search={searchTerms}"/>
+  <SearchForm>https://scenius-seven.vercel.app/</SearchForm>
 </OpenSearchDescription>
