@@ -1,0 +1,3833 @@
+[
+  {
+    "id": "edge-locke-newton-corresponded",
+    "source": "person-john-locke",
+    "target": "person-isaac-newton",
+    "relationship": "corresponded_with",
+    "dateStart": "1689",
+    "dateEnd": "1704",
+    "evidence": "Locke and Newton developed a close friendship after the Glorious Revolution. They corresponded extensively on theological matters, particularly regarding Newton's anti-Trinitarian views.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-voltaire-influenced",
+    "source": "person-john-locke",
+    "target": "person-voltaire",
+    "relationship": "influenced",
+    "evidence": "Voltaire spent 1726-1729 in England and became Locke's greatest French popularizer. His Letters on the English devoted multiple letters to explaining Locke's empiricism and political thought.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-hume-influenced",
+    "source": "person-john-locke",
+    "target": "person-david-hume",
+    "relationship": "influenced",
+    "evidence": "Hume's Treatise of Human Nature explicitly engages with Locke's Essay Concerning Human Understanding. Hume extended Locke's empiricism to its skeptical conclusions.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-rousseau-influenced",
+    "source": "person-john-locke",
+    "target": "person-rousseau",
+    "relationship": "influenced",
+    "evidence": "Rousseau's Emile drew heavily on Locke's Some Thoughts Concerning Education. Rousseau's social contract theory engaged directly with Locke's Two Treatises.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-montesquieu-influenced",
+    "source": "person-john-locke",
+    "target": "person-montesquieu",
+    "relationship": "influenced",
+    "evidence": "Montesquieu visited England in 1729-1731 and studied British institutions. His theory of separation of powers was influenced by his reading of Locke.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-condillac-influenced",
+    "source": "person-john-locke",
+    "target": "person-condillac",
+    "relationship": "influenced",
+    "evidence": "Condillac's entire philosophical project was an extension of Locke's empiricism. His Essay on the Origin of Human Knowledge developed Locke's ideas into systematic sensationalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-voltaire-influenced",
+    "source": "person-isaac-newton",
+    "target": "person-voltaire",
+    "relationship": "influenced",
+    "evidence": "Voltaire, with Émilie du Châtelet, was the primary popularizer of Newtonian physics in France. His Elements of the Philosophy of Newton introduced Newton's ideas to French audiences.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-dalembert-influenced",
+    "source": "person-isaac-newton",
+    "target": "person-dalembert",
+    "relationship": "influenced",
+    "evidence": "D'Alembert's mathematical physics built directly on Newton's mechanics. His Traité de dynamique applied and extended Newtonian principles.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-kant-influenced",
+    "source": "person-isaac-newton",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant's early work accepted Newtonian physics and sought to provide its metaphysical foundations. His Critique of Pure Reason addressed how Newtonian science is possible.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-wolff-influenced",
+    "source": "person-leibniz",
+    "target": "person-christian-wolff",
+    "relationship": "influenced",
+    "evidence": "Wolff systematized and popularized Leibniz's philosophy for German universities. His rationalist system dominated German academic philosophy until Kant's critical turn.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-newton-opposed",
+    "source": "person-leibniz",
+    "target": "person-isaac-newton",
+    "relationship": "opposed",
+    "dateStart": "1711",
+    "dateEnd": "1716",
+    "evidence": "The Newton-Leibniz calculus priority dispute was one of the most famous scientific controversies. The Royal Society's investigation sided with Newton.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-dalembert-collaborated",
+    "source": "person-diderot",
+    "target": "person-dalembert",
+    "relationship": "collaborated_with",
+    "dateStart": "1745",
+    "dateEnd": "1758",
+    "evidence": "Co-editors of the Encyclopédie (1751-1772). D'Alembert wrote the famous Preliminary Discourse. He withdrew from active editing in 1758 after controversy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-rousseau-knows",
+    "source": "person-diderot",
+    "target": "person-rousseau",
+    "relationship": "knows",
+    "dateStart": "1742",
+    "dateEnd": "1757",
+    "evidence": "Early close friendship; Rousseau contributed music articles to Encyclopédie. Break occurred ~1757 over philosophical differences and personal conflicts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-rousseau-opposed",
+    "source": "person-diderot",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1757",
+    "dateEnd": "1778",
+    "evidence": "Break occurred ~1757 over Rousseau's rejection of theater in Letter to d'Alembert and personal conflicts. Diderot alluded critically to Rousseau in published works.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-voltaire-corresponded",
+    "source": "person-diderot",
+    "target": "person-voltaire",
+    "relationship": "corresponded_with",
+    "evidence": "Modest but respectful correspondence. Met only once in person (1778, shortly before Voltaire's death). Both were central to Encyclopédie project.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-voltaire-dalembert-corresponded",
+    "source": "person-voltaire",
+    "target": "person-dalembert",
+    "relationship": "corresponded_with",
+    "dateStart": "1746",
+    "dateEnd": "1778",
+    "evidence": "Extensive correspondence—529 letters documented between them, making d'Alembert one of Voltaire's most frequent correspondents.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-dholbach-collaborated",
+    "source": "person-diderot",
+    "target": "person-dholbach",
+    "relationship": "collaborated_with",
+    "dateStart": "1750",
+    "dateEnd": "1784",
+    "evidence": "Diderot was a regular at d'Holbach's salon, attending twice-weekly dinners for decades. They collaborated on materialist and atheist publications.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-jaucourt-collaborated",
+    "source": "person-diderot",
+    "target": "person-jaucourt",
+    "relationship": "collaborated_with",
+    "evidence": "Jaucourt was the most prolific Encyclopédie contributor (~17,288 articles, 25% of text), working under Diderot's editorship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-condorcet-influenced",
+    "source": "person-dalembert",
+    "target": "person-condorcet",
+    "relationship": "influenced",
+    "dateStart": "1760",
+    "dateEnd": "1783",
+    "evidence": "D'Alembert, as Permanent Secretary of the Académie française, mentored Condorcet. Condorcet frequented Julie de Lespinasse's salon where d'Alembert presided.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-duchatelet-collaborated",
+    "source": "person-voltaire",
+    "target": "person-emilie-du-chatelet",
+    "relationship": "collaborated_with",
+    "dateStart": "1733",
+    "dateEnd": "1749",
+    "evidence": "Intellectual partnership and romantic relationship. They collaborated at Cirey on Newtonian physics; du Châtelet's translation of Newton's Principia was supported by Voltaire.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-frederick-corresponded",
+    "source": "person-voltaire",
+    "target": "person-frederick-great",
+    "relationship": "corresponded_with",
+    "dateStart": "1736",
+    "dateEnd": "1778",
+    "evidence": "Extensive correspondence beginning before Frederick's accession. Voltaire stayed at Frederick's court 1750-1753. Over 800 letters between them.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-catherine-corresponded",
+    "source": "person-voltaire",
+    "target": "person-catherine-great",
+    "relationship": "corresponded_with",
+    "dateStart": "1763",
+    "dateEnd": "1778",
+    "evidence": "Regular correspondence; Catherine sought Voltaire's approval and advice on reforms. She called him 'my master' and purchased his library after his death.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-rousseau-opposed",
+    "source": "person-voltaire",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1755",
+    "dateEnd": "1778",
+    "evidence": "Famous antagonism. After Rousseau's Discourse on Inequality, Voltaire mocked his primitivism. They exchanged hostile pamphlets.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-franklin-knows",
+    "source": "person-voltaire",
+    "target": "person-benjamin-franklin",
+    "relationship": "knows",
+    "dateStart": "1778",
+    "evidence": "Famous meeting at the Académie des Sciences in April 1778, where they publicly embraced to great acclaim. Symbolized the union of American and French Enlightenment.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-helvetius-knows",
+    "source": "person-dholbach",
+    "target": "person-helvetius",
+    "relationship": "knows",
+    "dateStart": "1750",
+    "dateEnd": "1771",
+    "evidence": "Both hosted important philosophical salons. Helvétius attended d'Holbach's dinners; they shared materialist and utilitarian views.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-hume-knows",
+    "source": "person-dholbach",
+    "target": "person-david-hume",
+    "relationship": "knows",
+    "dateStart": "1763",
+    "dateEnd": "1766",
+    "evidence": "Hume visited d'Holbach's salon during his Paris years. Famous anecdote: Hume expressed skepticism about atheists' existence; d'Holbach replied he was dining with seventeen of them.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-rousseau-opposed",
+    "source": "person-dholbach",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1750",
+    "evidence": "Rousseau attended d'Holbach's salon but became estranged. He later accused the 'coterie holbachique' of conspiring against him.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-lamettrie-influenced",
+    "source": "person-la-mettrie",
+    "target": "person-dholbach",
+    "relationship": "influenced",
+    "evidence": "D'Holbach's materialism in The System of Nature developed La Mettrie's earlier mechanical materialism into a comprehensive philosophical system.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-montesquieu-madison-influenced",
+    "source": "person-montesquieu",
+    "target": "person-james-madison",
+    "relationship": "influenced",
+    "evidence": "The Spirit of the Laws directly influenced Madison's constitutional theory, particularly the separation of powers doctrine. The Federalist Papers cite Montesquieu extensively.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-turgot-studied",
+    "source": "person-condorcet",
+    "target": "person-turgot",
+    "relationship": "studied_under",
+    "dateStart": "1770",
+    "dateEnd": "1781",
+    "evidence": "Turgot was Condorcet's mentor and patron. Condorcet wrote Turgot's biography after his death and continued his work on progress and economics.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-smith-knows",
+    "source": "person-turgot",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "dateStart": "1765",
+    "dateEnd": "1766",
+    "evidence": "Smith met Turgot in Paris during his tour as tutor to the Duke of Buccleuch. They discussed economics; Smith acknowledged French economists' influence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-quesnay-knows",
+    "source": "person-turgot",
+    "target": "person-francois-quesnay",
+    "relationship": "knows",
+    "evidence": "Turgot was closely associated with the Physiocrats, though he developed his own economic theory. He knew Quesnay through court circles and the Encyclopédie project.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-rousseau-knows",
+    "source": "person-condillac",
+    "target": "person-rousseau",
+    "relationship": "knows",
+    "evidence": "Condillac tutored Rousseau's nephew and moved in overlapping Parisian intellectual circles. Both contributed to the Encyclopédie.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-morellet-smith-collaborated",
+    "source": "person-morellet",
+    "target": "person-adam-smith",
+    "relationship": "collaborated_with",
+    "evidence": "Morellet translated Adam Smith's Wealth of Nations into French, helping disseminate classical economics in France.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-damilaville-voltaire-corresponded",
+    "source": "person-damilaville",
+    "target": "person-voltaire",
+    "relationship": "corresponded_with",
+    "evidence": "Damilaville served as intermediary for the philosophes' correspondence, using his position in the tax administration to help circulate letters and clandestine texts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-smith-knows",
+    "source": "person-david-hume",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "dateStart": "1752",
+    "dateEnd": "1776",
+    "evidence": "Close friendship, arguably the central relationship of the Scottish Enlightenment. Smith was with Hume during his final illness. Hume named Smith his literary executor.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-smith-taught",
+    "source": "person-hutcheson",
+    "target": "person-adam-smith",
+    "relationship": "taught",
+    "dateStart": "1737",
+    "dateEnd": "1740",
+    "evidence": "Smith studied under Hutcheson at Glasgow University. Smith later described Hutcheson as 'the never to be forgotten Hutcheson.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-hume-influenced",
+    "source": "person-hutcheson",
+    "target": "person-david-hume",
+    "relationship": "influenced",
+    "evidence": "Though they never met, Hume engaged extensively with Hutcheson's moral philosophy. Hutcheson read and commented on Hume's Treatise in draft.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-kant-influenced",
+    "source": "person-david-hume",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant famously wrote that Hume 'awakened me from my dogmatic slumber.' Hume's skepticism about causation provoked Kant's critical philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-rousseau-opposed",
+    "source": "person-david-hume",
+    "target": "person-rousseau",
+    "relationship": "opposed",
+    "dateStart": "1766",
+    "evidence": "Hume offered refuge to the persecuted Rousseau in England. The relationship rapidly deteriorated into a famous public quarrel. Hume published their correspondence to vindicate himself.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-hume-opposed",
+    "source": "person-thomas-reid",
+    "target": "person-david-hume",
+    "relationship": "opposed",
+    "evidence": "Reid's Inquiry into the Human Mind was written explicitly against Hume's skepticism. Reid founded Common Sense philosophy as an alternative.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-smith-succeeded",
+    "source": "person-thomas-reid",
+    "target": "person-adam-smith",
+    "relationship": "succeeded",
+    "dateStart": "1764",
+    "evidence": "Reid succeeded Adam Smith as Professor of Moral Philosophy at Glasgow when Smith left to tutor the Duke of Buccleuch.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-hume-patronized",
+    "source": "person-lord-kames",
+    "target": "person-david-hume",
+    "relationship": "patronized",
+    "evidence": "Kames was an early patron and encourager of Hume, providing intellectual support and social connections.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-smith-patronized",
+    "source": "person-lord-kames",
+    "target": "person-adam-smith",
+    "relationship": "patronized",
+    "evidence": "Kames employed the young Smith and provided patronage that helped launch his career. Smith delivered his first public lectures under Kames's sponsorship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-hume-knows",
+    "source": "person-adam-ferguson",
+    "target": "person-david-hume",
+    "relationship": "knows",
+    "evidence": "Both were central members of Edinburgh's intellectual clubs (Select Society, Poker Club). They socialized regularly and discussed philosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-smith-knows",
+    "source": "person-adam-ferguson",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "evidence": "Ferguson and Smith were colleagues and friends in Edinburgh's intellectual circles. Both contributed to Scottish debates on commercial society.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-hume-knows",
+    "source": "person-william-robertson",
+    "target": "person-david-hume",
+    "relationship": "knows",
+    "evidence": "Robertson and Hume were close friends and fellow historians in Edinburgh. Robertson led the 'Moderate Party' in the Church of Scotland.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-smith-studied",
+    "source": "person-dugald-stewart",
+    "target": "person-adam-smith",
+    "relationship": "studied_under",
+    "evidence": "Stewart was Smith's student and later biographer. His Account of the Life and Writings of Adam Smith is a primary source for Smith's life.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-reid-studied",
+    "source": "person-dugald-stewart",
+    "target": "person-thomas-reid",
+    "relationship": "studied_under",
+    "evidence": "Stewart studied under Reid at Glasgow and became the primary transmitter of Scottish Common Sense philosophy to the 19th century.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-dalembert-corresponded",
+    "source": "person-david-hume",
+    "target": "person-dalembert",
+    "relationship": "corresponded_with",
+    "dateStart": "1763",
+    "dateEnd": "1766",
+    "evidence": "During Hume's Paris years as secretary to the British embassy, he became close with d'Alembert. They corresponded on philosophy and the Rousseau affair.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-voltaire-knows",
+    "source": "person-adam-smith",
+    "target": "person-voltaire",
+    "relationship": "knows",
+    "dateStart": "1765",
+    "evidence": "Smith met Voltaire at Ferney during his French tour with the Duke of Buccleuch. Though the meeting was brief, Smith later expressed admiration for Voltaire.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-smith-quesnay-knows",
+    "source": "person-adam-smith",
+    "target": "person-francois-quesnay",
+    "relationship": "knows",
+    "dateStart": "1765",
+    "dateEnd": "1766",
+    "evidence": "Smith met Quesnay and the Physiocrats in Paris. He praised Quesnay highly and reportedly intended to dedicate Wealth of Nations to him.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-mendelssohn-corresponded",
+    "source": "person-immanuel-kant",
+    "target": "person-moses-mendelssohn",
+    "relationship": "corresponded_with",
+    "dateStart": "1763",
+    "dateEnd": "1786",
+    "evidence": "Mendelssohn won the Berlin Academy prize in 1763 over Kant. They corresponded and met when Mendelssohn visited Königsberg in 1777. Both answered 'What is Enlightenment?' in 1784.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolff-kant-influenced",
+    "source": "person-christian-wolff",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant was trained in the Leibniz-Wolffian tradition; his early pre-critical works are Wolffian. The Critique of Pure Reason was partly a response to Wolffian rationalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-baumgarten-kant-influenced",
+    "source": "person-baumgarten",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant used Baumgarten's Metaphysica as his teaching text for decades. Kant's aesthetic theory in the third Critique engaged with Baumgarten's founding of aesthetics.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-herder-taught",
+    "source": "person-immanuel-kant",
+    "target": "person-johann-herder",
+    "relationship": "taught",
+    "dateStart": "1762",
+    "dateEnd": "1764",
+    "evidence": "Herder studied under Kant at Königsberg. Though Herder later moved toward Romanticism, Kant's influence remained formative.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-kant-influenced",
+    "source": "person-rousseau",
+    "target": "person-immanuel-kant",
+    "relationship": "influenced",
+    "evidence": "Kant famously said Rousseau taught him to respect humanity. Rousseau's influence is visible in Kant's moral philosophy, particularly regarding human dignity.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-lessing-knows",
+    "source": "person-moses-mendelssohn",
+    "target": "person-gotthold-lessing",
+    "relationship": "knows",
+    "dateStart": "1754",
+    "dateEnd": "1781",
+    "evidence": "Close friendship central to the German Enlightenment. Lessing based the character of Nathan in Nathan the Wise on Mendelssohn. They collaborated on aesthetic criticism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-herder-influenced",
+    "source": "person-gotthold-lessing",
+    "target": "person-johann-herder",
+    "relationship": "influenced",
+    "evidence": "Lessing's aesthetic theories and his Laocoon influenced Herder's development, though Herder moved toward more historicist views.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-frederick-wolff-patronized",
+    "source": "person-frederick-great",
+    "target": "person-christian-wolff",
+    "relationship": "patronized",
+    "dateStart": "1740",
+    "dateEnd": "1754",
+    "evidence": "Frederick recalled Wolff from exile upon his accession (1740). Wolff had been expelled from Halle by Frederick William I in 1723.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-lamettrie-patronized",
+    "source": "person-frederick-great",
+    "target": "person-la-mettrie",
+    "relationship": "patronized",
+    "dateStart": "1748",
+    "dateEnd": "1751",
+    "evidence": "Frederick offered refuge to La Mettrie after L'Homme Machine made him unwelcome elsewhere. La Mettrie spent his final years at Frederick's court.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-euler-patronized",
+    "source": "person-frederick-great",
+    "target": "person-leonhard-euler",
+    "relationship": "patronized",
+    "dateStart": "1741",
+    "dateEnd": "1766",
+    "evidence": "Frederick brought Euler to the Berlin Academy, where he worked for 25 years. Their relationship deteriorated over Frederick's preference for French culture.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-herder-goethe-knows",
+    "source": "person-johann-herder",
+    "target": "person-goethe",
+    "relationship": "knows",
+    "dateStart": "1770",
+    "dateEnd": "1803",
+    "evidence": "Herder and Goethe met in Strasbourg (1770) and later both lived in Weimar. Herder influenced the young Goethe's literary development.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-berkeley-influenced",
+    "source": "person-john-locke",
+    "target": "person-george-berkeley",
+    "relationship": "influenced",
+    "evidence": "Berkeley's Principles of Human Knowledge engages directly with Locke's Essay, accepting empiricism but rejecting Locke's distinction between primary and secondary qualities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-hume-influenced",
+    "source": "person-george-berkeley",
+    "target": "person-david-hume",
+    "relationship": "influenced",
+    "evidence": "Hume's skepticism about the external world developed Berkeley's critique of Locke further. Hume's Treatise engages with Berkeley's arguments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shaftesbury-hutcheson-influenced",
+    "source": "person-shaftesbury",
+    "target": "person-hutcheson",
+    "relationship": "influenced",
+    "evidence": "Hutcheson's moral sense theory directly developed Shaftesbury's Characteristics. Hutcheson acknowledged this debt explicitly.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-shaftesbury-taught",
+    "source": "person-john-locke",
+    "target": "person-shaftesbury",
+    "relationship": "taught",
+    "evidence": "Locke supervised the education of the 3rd Earl of Shaftesbury (grandson of Locke's patron). Shaftesbury later critiqued Locke's rejection of innate ideas.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mandeville-hutcheson-opposed",
+    "source": "person-mandeville",
+    "target": "person-hutcheson",
+    "relationship": "opposed",
+    "evidence": "Hutcheson's moral philosophy was partly developed in opposition to Mandeville's cynical Fable of the Bees. Hutcheson insisted on genuine benevolence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mandeville-smith-influenced",
+    "source": "person-mandeville",
+    "target": "person-adam-smith",
+    "relationship": "influenced",
+    "evidence": "Smith engaged critically with Mandeville's economic ideas, particularly unintended consequences. The 'invisible hand' shows Mandeville's influence, though Smith rejected his moral cynicism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-montesquieu-influenced",
+    "source": "person-montesquieu",
+    "target": "person-edmund-burke",
+    "relationship": "influenced",
+    "evidence": "Burke's political philosophy drew on Montesquieu's historical approach to institutions. Both emphasized tradition and gradual reform over abstract rationalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-paine-opposed",
+    "source": "person-edmund-burke",
+    "target": "person-thomas-paine",
+    "relationship": "opposed",
+    "dateStart": "1790",
+    "dateEnd": "1791",
+    "evidence": "Paine's Rights of Man was written as a direct response to Burke's Reflections on the Revolution in France. This was the defining debate on the French Revolution.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-voltaire-influenced",
+    "source": "person-cesare-beccaria",
+    "target": "person-voltaire",
+    "relationship": "influenced",
+    "evidence": "Voltaire wrote a commentary on Beccaria's On Crimes and Punishments, praising and popularizing its arguments for criminal justice reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-bentham-influenced",
+    "source": "person-cesare-beccaria",
+    "target": "person-jeremy-bentham",
+    "relationship": "influenced",
+    "evidence": "Bentham's utilitarian approach to criminal law reform was directly influenced by Beccaria's On Crimes and Punishments. Bentham acknowledged this influence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-bentham-influenced",
+    "source": "person-helvetius",
+    "target": "person-jeremy-bentham",
+    "relationship": "influenced",
+    "evidence": "Bentham credited Helvétius's De l'esprit with inspiring his utilitarian philosophy. The principle of utility derived from Helvétius.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-franklin-corresponded",
+    "source": "person-joseph-priestley",
+    "target": "person-benjamin-franklin",
+    "relationship": "corresponded_with",
+    "evidence": "Extensive scientific correspondence on electricity and other subjects. Franklin encouraged Priestley's electrical research and helped arrange publication of his History of Electricity.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-bentham-influenced",
+    "source": "person-joseph-priestley",
+    "target": "person-jeremy-bentham",
+    "relationship": "influenced",
+    "evidence": "Priestley was among the first to formulate 'the greatest happiness of the greatest number' principle that Bentham developed into systematic utilitarianism.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-franklin-paine-patronized",
+    "source": "person-benjamin-franklin",
+    "target": "person-thomas-paine",
+    "relationship": "patronized",
+    "dateStart": "1774",
+    "dateEnd": "1790",
+    "evidence": "Franklin was Paine's patron and mentor. He encouraged Paine's emigration to America (1774), provided letters of introduction, and supported his revolutionary writing.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-jefferson-knows",
+    "source": "person-benjamin-franklin",
+    "target": "person-thomas-jefferson",
+    "relationship": "knows",
+    "dateStart": "1776",
+    "dateEnd": "1790",
+    "evidence": "Collaborated on drafting the Declaration of Independence (1776). Franklin introduced Jefferson to Parisian salons when Jefferson arrived as minister to France (1784).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-condorcet-corresponded",
+    "source": "person-thomas-jefferson",
+    "target": "person-condorcet",
+    "relationship": "corresponded_with",
+    "dateStart": "1785",
+    "dateEnd": "1794",
+    "evidence": "Jefferson met Condorcet in Parisian salons during his ministry to France. They corresponded on political theory.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-madison-collaborated",
+    "source": "person-thomas-jefferson",
+    "target": "person-james-madison",
+    "relationship": "collaborated_with",
+    "dateStart": "1776",
+    "dateEnd": "1826",
+    "evidence": "Lifelong friendship and political collaboration. Their correspondence is one of the most important in American political thought.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-madison-hume-influenced",
+    "source": "person-david-hume",
+    "target": "person-james-madison",
+    "relationship": "influenced",
+    "evidence": "Madison's Federalist No. 10 argument about faction and extended republics drew on Hume's essay 'Idea of a Perfect Commonwealth.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-franklin-collaborated",
+    "source": "person-john-adams",
+    "target": "person-benjamin-franklin",
+    "relationship": "collaborated_with",
+    "dateStart": "1775",
+    "dateEnd": "1785",
+    "evidence": "Served together in Continental Congress and on diplomatic missions. Collaborated on Treaty of Paris negotiations (1782-1783).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-jefferson-corresponded",
+    "source": "person-john-adams",
+    "target": "person-thomas-jefferson",
+    "relationship": "corresponded_with",
+    "dateStart": "1775",
+    "dateEnd": "1826",
+    "evidence": "Collaborators in Revolution, political rivals (1790s), reconciled correspondents (1812-1826). Both died on July 4, 1826.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-helvetius-knows",
+    "source": "person-benjamin-franklin",
+    "target": "person-madame-helvetius",
+    "relationship": "knows",
+    "dateStart": "1778",
+    "dateEnd": "1785",
+    "evidence": "Close friendship during Franklin's Paris years. Franklin famously proposed marriage to her. Her salon at Auteuil was his frequent resort.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-euler-corresponded",
+    "source": "person-dalembert",
+    "target": "person-leonhard-euler",
+    "relationship": "corresponded_with",
+    "evidence": "Extensive mathematical correspondence but also rivalry. They debated priority on various mathematical topics and disagreed on the vibrating string problem.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-laplace-taught",
+    "source": "person-dalembert",
+    "target": "person-laplace",
+    "relationship": "taught",
+    "evidence": "D'Alembert was Laplace's patron and mentor at the Académie des Sciences. He recognized Laplace's mathematical genius and supported his career.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-lagrange-corresponded",
+    "source": "person-dalembert",
+    "target": "person-lagrange",
+    "relationship": "corresponded_with",
+    "evidence": "Important mathematical correspondence. D'Alembert recognized Lagrange's ability and helped him succeed Euler at the Berlin Academy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-priestley-knows",
+    "source": "person-lavoisier",
+    "target": "person-joseph-priestley",
+    "relationship": "knows",
+    "evidence": "Both independently discovered oxygen's role in combustion (1774-1777). They met in Paris and exchanged scientific ideas, though they developed competing interpretations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-condorcet-knows",
+    "source": "person-lavoisier",
+    "target": "person-condorcet",
+    "relationship": "knows",
+    "evidence": "Both were members of the Académie des Sciences. Condorcet, as Permanent Secretary, worked closely with Lavoisier on Academy business.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-laplace-lavoisier-collaborated",
+    "source": "person-laplace",
+    "target": "person-lavoisier",
+    "relationship": "collaborated_with",
+    "evidence": "Collaborated on heat experiments in the 1780s using their jointly invented ice calorimeter. Their work on heat capacity was foundational.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-diderot-knows",
+    "source": "person-buffon",
+    "target": "person-diderot",
+    "relationship": "knows",
+    "evidence": "Both were prominent figures in Parisian intellectual life. Diderot praised Buffon's Histoire naturelle and shared interests in natural history's philosophical implications.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-geoffrin-diderot-patronized",
+    "source": "person-madame-geoffrin",
+    "target": "person-diderot",
+    "relationship": "patronized",
+    "evidence": "Geoffrin financially supported the Encyclopédie project. Diderot attended her Wednesday salon for philosophes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-geoffrin-dalembert-patronized",
+    "source": "person-madame-geoffrin",
+    "target": "person-dalembert",
+    "relationship": "patronized",
+    "evidence": "D'Alembert was a regular at Geoffrin's salon. She supported philosophes generally and connected them with influential aristocrats.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-geoffrin-montesquieu-knows",
+    "source": "person-madame-geoffrin",
+    "target": "person-montesquieu",
+    "relationship": "knows",
+    "evidence": "Montesquieu attended Geoffrin's salon before his death in 1755. The salon was a meeting place for philosophes across generations.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-lespinasse-dalembert-knows",
+    "source": "person-julie-de-lespinasse",
+    "target": "person-dalembert",
+    "relationship": "knows",
+    "dateStart": "1764",
+    "dateEnd": "1776",
+    "evidence": "Very close relationship. D'Alembert lived in her house for years. Her salon became a key meeting place for philosophes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lespinasse-condorcet-knows",
+    "source": "person-julie-de-lespinasse",
+    "target": "person-condorcet",
+    "relationship": "knows",
+    "evidence": "Condorcet was a regular at her salon. She introduced him to influential figures and provided a venue for philosophical discussion.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lespinasse-turgot-knows",
+    "source": "person-julie-de-lespinasse",
+    "target": "person-turgot",
+    "relationship": "knows",
+    "evidence": "Turgot attended her salon and met other philosophes there, including Condorcet.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deffand-voltaire-corresponded",
+    "source": "person-madame-du-deffand",
+    "target": "person-voltaire",
+    "relationship": "corresponded_with",
+    "evidence": "Regular correspondence spanning decades. Voltaire valued her literary judgment and wit.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deffand-montesquieu-knows",
+    "source": "person-madame-du-deffand",
+    "target": "person-montesquieu",
+    "relationship": "knows",
+    "evidence": "Montesquieu frequented her salon in the 1720s-1750s. She was an early and fashionable hostess.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-catherine-diderot-patronized",
+    "source": "person-catherine-great",
+    "target": "person-diderot",
+    "relationship": "patronized",
+    "dateStart": "1765",
+    "dateEnd": "1784",
+    "evidence": "Catherine purchased Diderot's library in 1765, allowing him to keep it during his lifetime. Diderot visited her court in 1773-1774 for extensive conversations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-catherine-dalembert-corresponded",
+    "source": "person-catherine-great",
+    "target": "person-dalembert",
+    "relationship": "corresponded_with",
+    "evidence": "Catherine invited d'Alembert to Russia (he declined). They corresponded on Enlightenment themes; she sought to cultivate her image as an enlightened ruler.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-newton-principia-authored",
+    "source": "person-isaac-newton",
+    "target": "object-principia-mathematica",
+    "relationship": "authored",
+    "evidence": "Newton's Principia Mathematica (1687) established mathematical physics and the mechanistic worldview",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-opticks-authored",
+    "source": "person-isaac-newton",
+    "target": "object-opticks",
+    "relationship": "authored",
+    "evidence": "Newton published Opticks in 1704, establishing the corpuscular theory of light",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-essay-authored",
+    "source": "person-john-locke",
+    "target": "object-essay-human-understanding",
+    "relationship": "authored",
+    "evidence": "Locke's Essay Concerning Human Understanding (1689) is the foundational text of empiricism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-two-treatises-authored",
+    "source": "person-john-locke",
+    "target": "object-two-treatises",
+    "relationship": "authored",
+    "evidence": "Locke's Two Treatises of Government (1689) established liberal political philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-toleration-authored",
+    "source": "person-john-locke",
+    "target": "object-letter-toleration",
+    "relationship": "authored",
+    "evidence": "Locke's Letter Concerning Toleration (1689) argued for religious freedom",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-theodicy-authored",
+    "source": "person-leibniz",
+    "target": "object-theodicy",
+    "relationship": "authored",
+    "evidence": "Leibniz's Theodicy (1710) argued this is the best of all possible worlds",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-monadology-authored",
+    "source": "person-leibniz",
+    "target": "object-monadology",
+    "relationship": "authored",
+    "evidence": "Leibniz wrote the Monadology in 1714, outlining his metaphysical system",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shaftesbury-characteristics-authored",
+    "source": "person-shaftesbury",
+    "target": "object-characteristics",
+    "relationship": "authored",
+    "evidence": "Shaftesbury's Characteristics (1711) developed moral sense theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mandeville-fable-authored",
+    "source": "person-mandeville",
+    "target": "object-fable-bees",
+    "relationship": "authored",
+    "evidence": "Mandeville's Fable of the Bees (1714) argued private vices produce public benefits",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-persian-authored",
+    "source": "person-montesquieu",
+    "target": "object-persian-letters",
+    "relationship": "authored",
+    "evidence": "Montesquieu published Persian Letters anonymously in 1721",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-spirit-authored",
+    "source": "person-montesquieu",
+    "target": "object-spirit-laws",
+    "relationship": "authored",
+    "evidence": "Montesquieu's Spirit of the Laws (1748) articulated separation of powers",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-letters-authored",
+    "source": "person-voltaire",
+    "target": "object-letters-english",
+    "relationship": "authored",
+    "evidence": "Voltaire's Letters on the English (1733) introduced English philosophy to France",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-elements-authored",
+    "source": "person-voltaire",
+    "target": "object-elements-newton",
+    "relationship": "authored",
+    "evidence": "Voltaire co-authored Elements of the Philosophy of Newton with du Châtelet",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-duchatelet-elements-authored",
+    "source": "person-emilie-du-chatelet",
+    "target": "object-elements-newton",
+    "relationship": "authored",
+    "evidence": "Du Châtelet collaborated with Voltaire on Elements of the Philosophy of Newton",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-duchatelet-institutions-authored",
+    "source": "person-emilie-du-chatelet",
+    "target": "object-institutions-physique",
+    "relationship": "authored",
+    "evidence": "Du Châtelet wrote Institutions de physique (1740) synthesizing Newtonian and Leibnizian physics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-duchatelet-principia-authored",
+    "source": "person-emilie-du-chatelet",
+    "target": "object-principia-translation",
+    "relationship": "authored",
+    "evidence": "Du Châtelet's French translation of Newton's Principia remains the standard today",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-candide-authored",
+    "source": "person-voltaire",
+    "target": "object-candide",
+    "relationship": "authored",
+    "evidence": "Voltaire wrote Candide (1759) satirizing Leibnizian optimism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-dictionary-authored",
+    "source": "person-voltaire",
+    "target": "object-philosophical-dictionary",
+    "relationship": "authored",
+    "evidence": "Voltaire's Philosophical Dictionary (1764) collected his philosophical provocations",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-traite-authored",
+    "source": "person-dalembert",
+    "target": "object-traite-dynamique",
+    "relationship": "authored",
+    "evidence": "D'Alembert's Traité de dynamique (1743) made major contributions to mechanics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-discourse-authored",
+    "source": "person-dalembert",
+    "target": "object-preliminary-discourse",
+    "relationship": "authored",
+    "evidence": "D'Alembert wrote the famous Preliminary Discourse to the Encyclopédie (1751)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-encyclopedie-authored",
+    "source": "person-diderot",
+    "target": "object-encyclopedie",
+    "relationship": "authored",
+    "evidence": "Diderot was chief editor of the Encyclopédie (1751-1772)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-encyclopedie-authored",
+    "source": "person-dalembert",
+    "target": "object-encyclopedie",
+    "relationship": "authored",
+    "evidence": "D'Alembert was co-editor of the Encyclopédie until 1758",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-essay-authored",
+    "source": "person-condillac",
+    "target": "object-essay-origin-knowledge",
+    "relationship": "authored",
+    "evidence": "Condillac's Essay on the Origin of Human Knowledge (1746) extended Locke's empiricism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-treatise-authored",
+    "source": "person-condillac",
+    "target": "object-treatise-sensations",
+    "relationship": "authored",
+    "evidence": "Condillac's Treatise on Sensations (1754) systematically developed sensationalism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lamettrie-natural-authored",
+    "source": "person-la-mettrie",
+    "target": "object-natural-history-soul",
+    "relationship": "authored",
+    "evidence": "La Mettrie's Natural History of the Soul (1745) was an early statement of his materialism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lamettrie-machine-authored",
+    "source": "person-la-mettrie",
+    "target": "object-homme-machine",
+    "relationship": "authored",
+    "evidence": "La Mettrie's Man a Machine (1747) argued humans are purely material machines",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-inequality-authored",
+    "source": "person-rousseau",
+    "target": "object-discourse-inequality",
+    "relationship": "authored",
+    "evidence": "Rousseau's Discourse on Inequality (1755) argued civilization corrupted natural goodness",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-contract-authored",
+    "source": "person-rousseau",
+    "target": "object-social-contract",
+    "relationship": "authored",
+    "evidence": "Rousseau's Social Contract (1762) theorized legitimate political authority",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-emile-authored",
+    "source": "person-rousseau",
+    "target": "object-emile",
+    "relationship": "authored",
+    "evidence": "Rousseau's Emile (1762) revolutionized educational philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-esprit-authored",
+    "source": "person-helvetius",
+    "target": "object-de-lesprit",
+    "relationship": "authored",
+    "evidence": "Helvétius's De l'esprit (1758) caused scandal with its utilitarian ethics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quesnay-tableau-authored",
+    "source": "person-francois-quesnay",
+    "target": "object-tableau-economique",
+    "relationship": "authored",
+    "evidence": "Quesnay's Tableau économique (1758) was the first attempt to model economic flows",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-christianity-authored",
+    "source": "person-dholbach",
+    "target": "object-christianity-unveiled",
+    "relationship": "authored",
+    "evidence": "D'Holbach published Christianity Unveiled (1761) anonymously",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-system-authored",
+    "source": "person-dholbach",
+    "target": "object-system-nature",
+    "relationship": "authored",
+    "evidence": "D'Holbach's System of Nature (1770) was comprehensive atheist philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-reflections-authored",
+    "source": "person-turgot",
+    "target": "object-reflections-wealth",
+    "relationship": "authored",
+    "evidence": "Turgot's Reflections on Wealth (1766) was a major economic treatise",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-sketch-authored",
+    "source": "person-condorcet",
+    "target": "object-sketch-progress",
+    "relationship": "authored",
+    "evidence": "Condorcet's Sketch for Progress (1795) was a classic statement of Enlightenment optimism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-probability-authored",
+    "source": "person-condorcet",
+    "target": "object-essay-probability-decisions",
+    "relationship": "authored",
+    "evidence": "Condorcet applied probability to voting theory in his 1785 essay",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-principles-authored",
+    "source": "person-george-berkeley",
+    "target": "object-principles-human-knowledge",
+    "relationship": "authored",
+    "evidence": "Berkeley's Principles of Human Knowledge (1710) developed idealist empiricism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-dialogues-authored",
+    "source": "person-george-berkeley",
+    "target": "object-three-dialogues",
+    "relationship": "authored",
+    "evidence": "Berkeley's Three Dialogues (1713) defended his immaterialism accessibly",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-inquiry-authored",
+    "source": "person-hutcheson",
+    "target": "object-inquiry-beauty-virtue",
+    "relationship": "authored",
+    "evidence": "Hutcheson's Inquiry (1725) systematically developed moral sense theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-treatise-authored",
+    "source": "person-david-hume",
+    "target": "object-treatise-human-nature",
+    "relationship": "authored",
+    "evidence": "Hume's Treatise of Human Nature (1739) was his masterpiece of radical empiricism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-enquiry-authored",
+    "source": "person-david-hume",
+    "target": "object-enquiry-human-understanding",
+    "relationship": "authored",
+    "evidence": "Hume's Enquiry (1748) analyzed causation and miracles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-history-authored",
+    "source": "person-david-hume",
+    "target": "object-history-england",
+    "relationship": "authored",
+    "evidence": "Hume's History of England (1754-1761) was the most widely read history of the century",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-dialogues-authored",
+    "source": "person-david-hume",
+    "target": "object-dialogues-natural-religion",
+    "relationship": "authored",
+    "evidence": "Hume's Dialogues (1779) devastatingly critiqued arguments for God's existence",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-essays-authored",
+    "source": "person-lord-kames",
+    "target": "object-essays-morality-religion",
+    "relationship": "authored",
+    "evidence": "Kames's Essays (1751) explored moral sense and natural religion",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-elements-authored",
+    "source": "person-lord-kames",
+    "target": "object-elements-criticism",
+    "relationship": "authored",
+    "evidence": "Kames's Elements of Criticism (1762) developed a systematic theory of aesthetic taste",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-inquiry-authored",
+    "source": "person-thomas-reid",
+    "target": "object-inquiry-common-sense",
+    "relationship": "authored",
+    "evidence": "Reid's Inquiry (1764) founded Common Sense philosophy against Hume's skepticism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-essay-authored",
+    "source": "person-adam-ferguson",
+    "target": "object-essay-civil-society",
+    "relationship": "authored",
+    "evidence": "Ferguson's Essay on Civil Society (1767) was a pioneer work of sociology",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-history-authored",
+    "source": "person-william-robertson",
+    "target": "object-history-scotland",
+    "relationship": "authored",
+    "evidence": "Robertson's History of Scotland (1759) established him as a major historian",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-moral-authored",
+    "source": "person-adam-smith",
+    "target": "object-theory-moral-sentiments",
+    "relationship": "authored",
+    "evidence": "Smith's Theory of Moral Sentiments (1759) based ethics on sympathy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-wealth-authored",
+    "source": "person-adam-smith",
+    "target": "object-wealth-nations",
+    "relationship": "authored",
+    "evidence": "Smith's Wealth of Nations (1776) founded classical economics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-sublime-authored",
+    "source": "person-edmund-burke",
+    "target": "object-sublime-beautiful",
+    "relationship": "authored",
+    "evidence": "Burke's Sublime and Beautiful (1757) influenced aesthetic theory including Kant's",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-reflections-authored",
+    "source": "person-edmund-burke",
+    "target": "object-reflections-revolution",
+    "relationship": "authored",
+    "evidence": "Burke's Reflections (1790) was the founding text of conservatism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bentham-principles-authored",
+    "source": "person-jeremy-bentham",
+    "target": "object-principles-morals-legislation",
+    "relationship": "authored",
+    "evidence": "Bentham's Principles (1789) systematically stated utilitarianism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolff-logic-authored",
+    "source": "person-christian-wolff",
+    "target": "object-german-logic",
+    "relationship": "authored",
+    "evidence": "Wolff's German Logic (1713) was the first major philosophical work in German",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-baumgarten-aesthetica-authored",
+    "source": "person-baumgarten",
+    "target": "object-aesthetica",
+    "relationship": "authored",
+    "evidence": "Baumgarten's Aesthetica (1750) coined the term and founded aesthetics as discipline",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-baumgarten-metaphysica-authored",
+    "source": "person-baumgarten",
+    "target": "object-metaphysica",
+    "relationship": "authored",
+    "evidence": "Baumgarten's Metaphysica (1739) became Kant's standard teaching text",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-laocoon-authored",
+    "source": "person-gotthold-lessing",
+    "target": "object-laocoon",
+    "relationship": "authored",
+    "evidence": "Lessing's Laocoon (1766) distinguished temporal from spatial arts",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-nathan-authored",
+    "source": "person-gotthold-lessing",
+    "target": "object-nathan-wise",
+    "relationship": "authored",
+    "evidence": "Lessing's Nathan the Wise (1779) promoted religious tolerance",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-phadon-authored",
+    "source": "person-moses-mendelssohn",
+    "target": "object-phadon",
+    "relationship": "authored",
+    "evidence": "Mendelssohn's Phädon (1767) was a modern version of Plato's dialogue on immortality",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-jerusalem-authored",
+    "source": "person-moses-mendelssohn",
+    "target": "object-jerusalem",
+    "relationship": "authored",
+    "evidence": "Mendelssohn's Jerusalem (1783) defended Jewish practice and church-state separation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-herder-language-authored",
+    "source": "person-johann-herder",
+    "target": "object-treatise-origin-language",
+    "relationship": "authored",
+    "evidence": "Herder's Treatise on Language (1772) argued language emerged naturally",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-herder-ideas-authored",
+    "source": "person-johann-herder",
+    "target": "object-ideas-philosophy-history",
+    "relationship": "authored",
+    "evidence": "Herder's Ideas (1784-1791) emphasized cultural diversity in history",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-critique-pure-authored",
+    "source": "person-immanuel-kant",
+    "target": "object-critique-pure-reason",
+    "relationship": "authored",
+    "evidence": "Kant's Critique of Pure Reason (1781) transformed philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-enlightenment-authored",
+    "source": "person-immanuel-kant",
+    "target": "object-what-is-enlightenment",
+    "relationship": "authored",
+    "evidence": "Kant's essay (1784) defined the Enlightenment: Sapere aude",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-critique-practical-authored",
+    "source": "person-immanuel-kant",
+    "target": "object-critique-practical-reason",
+    "relationship": "authored",
+    "evidence": "Kant's Critique of Practical Reason (1788) established his systematic ethics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-critique-judgment-authored",
+    "source": "person-immanuel-kant",
+    "target": "object-critique-judgment",
+    "relationship": "authored",
+    "evidence": "Kant's Critique of Judgment (1790) analyzed aesthetic and teleological judgment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-crimes-authored",
+    "source": "person-cesare-beccaria",
+    "target": "object-crimes-punishments",
+    "relationship": "authored",
+    "evidence": "Beccaria's On Crimes and Punishments (1764) revolutionized criminal justice",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-electricity-authored",
+    "source": "person-benjamin-franklin",
+    "target": "object-experiments-electricity",
+    "relationship": "authored",
+    "evidence": "Franklin's Experiments on Electricity (1751) established his scientific reputation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-common-sense-authored",
+    "source": "person-thomas-paine",
+    "target": "object-common-sense",
+    "relationship": "authored",
+    "evidence": "Paine's Common Sense (1776) was the most widely read pamphlet of the American Revolution",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-rights-authored",
+    "source": "person-thomas-paine",
+    "target": "object-rights-man",
+    "relationship": "authored",
+    "evidence": "Paine's Rights of Man (1791) defended the French Revolution against Burke",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-age-authored",
+    "source": "person-thomas-paine",
+    "target": "object-age-reason",
+    "relationship": "authored",
+    "evidence": "Paine's Age of Reason (1794) promoted deism and critiqued organized religion",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-declaration-authored",
+    "source": "person-thomas-jefferson",
+    "target": "object-declaration-independence",
+    "relationship": "authored",
+    "evidence": "Jefferson was the principal author of the Declaration of Independence (1776)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-statute-authored",
+    "source": "person-thomas-jefferson",
+    "target": "object-virginia-statute",
+    "relationship": "authored",
+    "evidence": "Jefferson authored the Virginia Statute for Religious Freedom (1786)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-notes-authored",
+    "source": "person-thomas-jefferson",
+    "target": "object-notes-virginia",
+    "relationship": "authored",
+    "evidence": "Jefferson's Notes on Virginia (1785) was his only full-length book",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-madison-federalist-authored",
+    "source": "person-james-madison",
+    "target": "object-federalist-papers",
+    "relationship": "authored",
+    "evidence": "Madison was a principal author of the Federalist Papers (1787-1788)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-elements-authored",
+    "source": "person-lavoisier",
+    "target": "object-elements-chemistry",
+    "relationship": "authored",
+    "evidence": "Lavoisier's Elements of Chemistry (1789) founded modern chemistry",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-histoire-authored",
+    "source": "person-buffon",
+    "target": "object-histoire-naturelle",
+    "relationship": "authored",
+    "evidence": "Buffon's Histoire naturelle (1749-1804) was the most widely read scientific work",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-cambridge-worked",
+    "source": "person-isaac-newton",
+    "target": "location-cambridge",
+    "relationship": "worked_at",
+    "evidence": "Newton was Lucasian Professor at Cambridge from 1669 to 1702",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-london-lived",
+    "source": "person-isaac-newton",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Newton moved to London in 1696 as Warden of the Royal Mint",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-royal-society-member",
+    "source": "person-isaac-newton",
+    "target": "location-royal-society",
+    "relationship": "member_of",
+    "evidence": "Newton was President of the Royal Society from 1703 until his death",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-london-lived",
+    "source": "person-john-locke",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Locke spent significant time in London in political and intellectual circles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-edinburgh-lived",
+    "source": "person-david-hume",
+    "target": "location-edinburgh",
+    "relationship": "lived_in",
+    "evidence": "Hume was born in Edinburgh and spent most of his life there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-paris-visited",
+    "source": "person-david-hume",
+    "target": "location-paris",
+    "relationship": "visited",
+    "evidence": "Hume served as secretary to the British embassy in Paris 1763-1766",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-glasgow-lived",
+    "source": "person-adam-smith",
+    "target": "location-glasgow",
+    "relationship": "lived_in",
+    "evidence": "Smith lived in Glasgow during his professorship 1751-1764",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-univ-glasgow-worked",
+    "source": "person-adam-smith",
+    "target": "location-univ-glasgow",
+    "relationship": "worked_at",
+    "evidence": "Smith was Professor of Moral Philosophy at Glasgow 1752-1764",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-edinburgh-lived",
+    "source": "person-adam-smith",
+    "target": "location-edinburgh",
+    "relationship": "lived_in",
+    "evidence": "Smith spent his final years in Edinburgh 1778-1790",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-paris-visited",
+    "source": "person-adam-smith",
+    "target": "location-paris",
+    "relationship": "visited",
+    "evidence": "Smith visited Paris in 1765-1766 and met the Physiocrats",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-univ-glasgow-worked",
+    "source": "person-hutcheson",
+    "target": "location-univ-glasgow",
+    "relationship": "worked_at",
+    "evidence": "Hutcheson was Professor of Moral Philosophy at Glasgow 1729-1746",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-univ-glasgow-worked",
+    "source": "person-thomas-reid",
+    "target": "location-univ-glasgow",
+    "relationship": "worked_at",
+    "evidence": "Reid succeeded Adam Smith as Professor at Glasgow in 1764",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-univ-edinburgh-worked",
+    "source": "person-william-robertson",
+    "target": "location-univ-edinburgh",
+    "relationship": "worked_at",
+    "evidence": "Robertson was Principal of University of Edinburgh 1762-1793",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-univ-edinburgh-worked",
+    "source": "person-adam-ferguson",
+    "target": "location-univ-edinburgh",
+    "relationship": "worked_at",
+    "evidence": "Ferguson was Professor of Moral Philosophy at Edinburgh",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-edinburgh-lived",
+    "source": "person-lord-kames",
+    "target": "location-edinburgh",
+    "relationship": "lived_in",
+    "evidence": "Kames was a prominent figure in Edinburgh intellectual life",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-univ-edinburgh-worked",
+    "source": "person-dugald-stewart",
+    "target": "location-univ-edinburgh",
+    "relationship": "worked_at",
+    "evidence": "Stewart was Professor of Moral Philosophy at Edinburgh",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-london-lived",
+    "source": "person-george-berkeley",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Berkeley spent significant time in London before becoming Bishop",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shaftesbury-london-lived",
+    "source": "person-shaftesbury",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Shaftesbury was active in London political and intellectual circles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mandeville-london-lived",
+    "source": "person-mandeville",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Mandeville settled in London and practiced medicine there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-burke-london-lived",
+    "source": "person-edmund-burke",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Burke was active in London as a statesman and writer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-london-lived",
+    "source": "person-joseph-priestley",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Priestley lived in London before fleeing to America in 1794",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bentham-london-lived",
+    "source": "person-jeremy-bentham",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Bentham spent most of his life in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-select-society-member",
+    "source": "person-david-hume",
+    "target": "location-select-society",
+    "relationship": "member_of",
+    "evidence": "Hume was a founding member of the Select Society (1754)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-select-society-member",
+    "source": "person-adam-smith",
+    "target": "location-select-society",
+    "relationship": "member_of",
+    "evidence": "Smith was a member of the Select Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-select-society-member",
+    "source": "person-adam-ferguson",
+    "target": "location-select-society",
+    "relationship": "member_of",
+    "evidence": "Ferguson was a member of the Select Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-select-society-member",
+    "source": "person-william-robertson",
+    "target": "location-select-society",
+    "relationship": "member_of",
+    "evidence": "Robertson was a member of the Select Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-select-society-member",
+    "source": "person-lord-kames",
+    "target": "location-select-society",
+    "relationship": "member_of",
+    "evidence": "Kames was a founding member of the Select Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-poker-club-member",
+    "source": "person-david-hume",
+    "target": "location-poker-club",
+    "relationship": "member_of",
+    "evidence": "Hume was a member of the Poker Club",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-poker-club-member",
+    "source": "person-adam-smith",
+    "target": "location-poker-club",
+    "relationship": "member_of",
+    "evidence": "Smith was a member of the Poker Club",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-poker-club-member",
+    "source": "person-adam-ferguson",
+    "target": "location-poker-club",
+    "relationship": "member_of",
+    "evidence": "Ferguson founded the Poker Club in 1762",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-paris-lived",
+    "source": "person-voltaire",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Voltaire was born in Paris and spent much of his career there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-ferney-lived",
+    "source": "person-voltaire",
+    "target": "location-ferney",
+    "relationship": "lived_in",
+    "evidence": "Voltaire lived at his estate at Ferney from 1758 until his death",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-cirey-lived",
+    "source": "person-voltaire",
+    "target": "location-cirey",
+    "relationship": "lived_in",
+    "evidence": "Voltaire lived at Cirey with Émilie du Châtelet 1734-1749",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-duchatelet-cirey-lived",
+    "source": "person-emilie-du-chatelet",
+    "target": "location-cirey",
+    "relationship": "lived_in",
+    "evidence": "Du Châtelet and Voltaire collaborated at Cirey château",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-paris-lived",
+    "source": "person-diderot",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Diderot spent his career in Paris editing the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-paris-lived",
+    "source": "person-dalembert",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "D'Alembert was born and lived his entire life in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-paris-lived",
+    "source": "person-rousseau",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Rousseau lived in Paris during his involvement with the philosophes",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-geneva-born",
+    "source": "person-rousseau",
+    "target": "location-geneva",
+    "relationship": "born_in",
+    "evidence": "Rousseau was born in Geneva in 1712",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-paris-lived",
+    "source": "person-montesquieu",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Montesquieu spent significant time in Paris salons",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-paris-lived",
+    "source": "person-dholbach",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "D'Holbach lived in Paris and hosted his famous salon there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-paris-lived",
+    "source": "person-helvetius",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Helvétius lived in Paris and hosted a salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-paris-lived",
+    "source": "person-condillac",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Condillac was active in Parisian intellectual circles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-paris-lived",
+    "source": "person-condorcet",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Condorcet spent his career in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lamettrie-paris-lived",
+    "source": "person-la-mettrie",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "La Mettrie lived in Paris before his exile",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jaucourt-paris-lived",
+    "source": "person-jaucourt",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Jaucourt worked on the Encyclopédie in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-morellet-paris-lived",
+    "source": "person-morellet",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Morellet was active in Parisian salon culture",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-paris-lived",
+    "source": "person-turgot",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Turgot worked in Paris as Controller-General",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quesnay-versailles-worked",
+    "source": "person-francois-quesnay",
+    "target": "location-versailles",
+    "relationship": "worked_at",
+    "evidence": "Quesnay was court physician at Versailles to Madame de Pompadour",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-paris-lived",
+    "source": "person-buffon",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Buffon directed the Jardin du Roi in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-paris-lived",
+    "source": "person-lavoisier",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Lavoisier worked in Paris at the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-laplace-paris-lived",
+    "source": "person-laplace",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Laplace spent his career in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lagrange-paris-lived",
+    "source": "person-lagrange",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Lagrange moved to Paris in 1787 after leaving Berlin",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-geoffrin-paris-lived",
+    "source": "person-madame-geoffrin",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Geoffrin hosted her famous salon in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lespinasse-paris-lived",
+    "source": "person-julie-de-lespinasse",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Lespinasse hosted her salon in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deffand-paris-lived",
+    "source": "person-madame-du-deffand",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Du Deffand hosted her literary salon in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mme-helvetius-paris-lived",
+    "source": "person-madame-helvetius",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Madame Helvétius hosted her salon at Auteuil near Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-salon-geoffrin-visited",
+    "source": "person-diderot",
+    "target": "location-salon-geoffrin",
+    "relationship": "visited",
+    "evidence": "Diderot regularly attended Geoffrin's Wednesday salon for philosophes",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-salon-geoffrin-visited",
+    "source": "person-dalembert",
+    "target": "location-salon-geoffrin",
+    "relationship": "visited",
+    "evidence": "D'Alembert was a regular at Geoffrin's salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-salon-geoffrin-visited",
+    "source": "person-montesquieu",
+    "target": "location-salon-geoffrin",
+    "relationship": "visited",
+    "evidence": "Montesquieu attended Geoffrin's salon before his death in 1755",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-salon-holbach-visited",
+    "source": "person-diderot",
+    "target": "location-salon-holbach",
+    "relationship": "visited",
+    "evidence": "Diderot attended d'Holbach's radical salon twice weekly for decades",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-salon-holbach-visited",
+    "source": "person-david-hume",
+    "target": "location-salon-holbach",
+    "relationship": "visited",
+    "evidence": "Hume visited d'Holbach's salon during his Paris years 1763-1766",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-salon-holbach-visited",
+    "source": "person-rousseau",
+    "target": "location-salon-holbach",
+    "relationship": "visited",
+    "evidence": "Rousseau attended d'Holbach's salon before their falling out",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-morellet-salon-holbach-visited",
+    "source": "person-morellet",
+    "target": "location-salon-holbach",
+    "relationship": "visited",
+    "evidence": "Morellet was a regular at d'Holbach's circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-salon-lespinasse-visited",
+    "source": "person-dalembert",
+    "target": "location-salon-lespinasse",
+    "relationship": "visited",
+    "evidence": "D'Alembert lived with Lespinasse and presided at her salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-salon-lespinasse-visited",
+    "source": "person-condorcet",
+    "target": "location-salon-lespinasse",
+    "relationship": "visited",
+    "evidence": "Condorcet was a regular at Lespinasse's salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-salon-lespinasse-visited",
+    "source": "person-turgot",
+    "target": "location-salon-lespinasse",
+    "relationship": "visited",
+    "evidence": "Turgot attended Lespinasse's salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-salon-deffand-visited",
+    "source": "person-voltaire",
+    "target": "location-salon-deffand",
+    "relationship": "visited",
+    "evidence": "Voltaire corresponded with and visited Madame du Deffand",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-salon-deffand-visited",
+    "source": "person-montesquieu",
+    "target": "location-salon-deffand",
+    "relationship": "visited",
+    "evidence": "Montesquieu frequented du Deffand's salon",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-franklin-salon-helvetius-visited",
+    "source": "person-benjamin-franklin",
+    "target": "location-salon-helvetius",
+    "relationship": "visited",
+    "evidence": "Franklin was a frequent guest at Madame Helvétius's salon at Auteuil",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-salon-helvetius-visited",
+    "source": "person-thomas-jefferson",
+    "target": "location-salon-helvetius",
+    "relationship": "visited",
+    "evidence": "Jefferson attended Madame Helvétius's salon during his Paris ministry",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-morellet-salon-helvetius-visited",
+    "source": "person-morellet",
+    "target": "location-salon-helvetius",
+    "relationship": "visited",
+    "evidence": "Morellet was a regular at Madame Helvétius's salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-academie-francaise-member",
+    "source": "person-voltaire",
+    "target": "location-academie-francaise",
+    "relationship": "member_of",
+    "evidence": "Voltaire was elected to the Académie française in 1746",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-academie-francaise-member",
+    "source": "person-montesquieu",
+    "target": "location-academie-francaise",
+    "relationship": "member_of",
+    "evidence": "Montesquieu was elected to the Académie française in 1728",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-academie-francaise-member",
+    "source": "person-dalembert",
+    "target": "location-academie-francaise",
+    "relationship": "member_of",
+    "evidence": "D'Alembert became Permanent Secretary of the Académie française",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-academie-francaise-member",
+    "source": "person-condorcet",
+    "target": "location-academie-francaise",
+    "relationship": "member_of",
+    "evidence": "Condorcet was a member of the Académie française",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-academie-francaise-member",
+    "source": "person-buffon",
+    "target": "location-academie-francaise",
+    "relationship": "member_of",
+    "evidence": "Buffon was elected to the Académie française in 1753",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-academie-sciences-member",
+    "source": "person-dalembert",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "D'Alembert was a prominent member of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-academie-sciences-member",
+    "source": "person-condorcet",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "Condorcet was Permanent Secretary of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-academie-sciences-member",
+    "source": "person-lavoisier",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "Lavoisier was a leading member of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-laplace-academie-sciences-member",
+    "source": "person-laplace",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "Laplace was a member of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lagrange-academie-sciences-member",
+    "source": "person-lagrange",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "Lagrange joined the Académie des Sciences after moving to Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-academie-sciences-member",
+    "source": "person-buffon",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "Buffon was a member of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quesnay-academie-sciences-member",
+    "source": "person-francois-quesnay",
+    "target": "location-academie-sciences",
+    "relationship": "member_of",
+    "evidence": "Quesnay was elected to the Académie des Sciences in 1751",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-academie-bordeaux-member",
+    "source": "person-montesquieu",
+    "target": "location-academie-bordeaux",
+    "relationship": "member_of",
+    "evidence": "Montesquieu was president of the Académie de Bordeaux",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-konigsberg-lived",
+    "source": "person-immanuel-kant",
+    "target": "location-konigsberg",
+    "relationship": "lived_in",
+    "evidence": "Kant lived his entire life in Königsberg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-univ-konigsberg-worked",
+    "source": "person-immanuel-kant",
+    "target": "location-univ-konigsberg",
+    "relationship": "worked_at",
+    "evidence": "Kant was Professor at the University of Königsberg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-berlin-lived",
+    "source": "person-leibniz",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Leibniz was active in Berlin and founded the Berlin Academy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolff-univ-halle-worked",
+    "source": "person-christian-wolff",
+    "target": "location-univ-halle",
+    "relationship": "worked_at",
+    "evidence": "Wolff was Professor at Halle, expelled 1723, returned 1740",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-berlin-lived",
+    "source": "person-moses-mendelssohn",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Mendelssohn spent his career in Berlin",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-berlin-lived",
+    "source": "person-gotthold-lessing",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Lessing was active in Berlin literary circles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-herder-konigsberg-visited",
+    "source": "person-johann-herder",
+    "target": "location-konigsberg",
+    "relationship": "visited",
+    "evidence": "Herder studied under Kant at Königsberg 1762-1764",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-goethe-berlin-visited",
+    "source": "person-goethe",
+    "target": "location-berlin",
+    "relationship": "visited",
+    "evidence": "Goethe visited Berlin and was connected to German intellectual life",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-baumgarten-berlin-lived",
+    "source": "person-baumgarten",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Baumgarten was born in Berlin and taught nearby",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-euler-berlin-lived",
+    "source": "person-leonhard-euler",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Euler worked at the Berlin Academy 1741-1766",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lagrange-berlin-lived",
+    "source": "person-lagrange",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Lagrange succeeded Euler at Berlin Academy 1766-1787",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-berlin-lived",
+    "source": "person-frederick-great",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "Frederick the Great ruled from Berlin",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-sans-souci-lived",
+    "source": "person-frederick-great",
+    "target": "location-sans-souci",
+    "relationship": "lived_in",
+    "evidence": "Frederick's summer residence at Sans-Souci hosted philosophers",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-sans-souci-visited",
+    "source": "person-voltaire",
+    "target": "location-sans-souci",
+    "relationship": "visited",
+    "evidence": "Voltaire stayed at Frederick's court at Sans-Souci 1750-1753",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lamettrie-berlin-lived",
+    "source": "person-la-mettrie",
+    "target": "location-berlin",
+    "relationship": "lived_in",
+    "evidence": "La Mettrie found refuge at Frederick's court in Berlin 1748-1751",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-catherine-stpetersburg-lived",
+    "source": "person-catherine-great",
+    "target": "location-st-petersburg",
+    "relationship": "lived_in",
+    "evidence": "Catherine ruled from St. Petersburg",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-catherine-winter-palace-lived",
+    "source": "person-catherine-great",
+    "target": "location-winter-palace",
+    "relationship": "lived_in",
+    "evidence": "Catherine held court at the Winter Palace",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-stpetersburg-visited",
+    "source": "person-diderot",
+    "target": "location-st-petersburg",
+    "relationship": "visited",
+    "evidence": "Diderot visited Catherine's court in St. Petersburg 1773-1774",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-euler-stpetersburg-lived",
+    "source": "person-leonhard-euler",
+    "target": "location-st-petersburg",
+    "relationship": "lived_in",
+    "evidence": "Euler worked in St. Petersburg 1727-1741 and 1766-1783",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-milan-lived",
+    "source": "person-cesare-beccaria",
+    "target": "location-milan",
+    "relationship": "lived_in",
+    "evidence": "Beccaria spent his career in Milan",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-philadelphia-lived",
+    "source": "person-benjamin-franklin",
+    "target": "location-philadelphia",
+    "relationship": "lived_in",
+    "evidence": "Franklin was based in Philadelphia for most of his American career",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-paris-lived",
+    "source": "person-benjamin-franklin",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Franklin served as American minister to France 1778-1785",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-philadelphia-lived",
+    "source": "person-thomas-jefferson",
+    "target": "location-philadelphia",
+    "relationship": "lived_in",
+    "evidence": "Jefferson was active in Philadelphia during the Revolution",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-paris-lived",
+    "source": "person-thomas-jefferson",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Jefferson served as American minister to France 1785-1789",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-madison-philadelphia-lived",
+    "source": "person-james-madison",
+    "target": "location-philadelphia",
+    "relationship": "lived_in",
+    "evidence": "Madison was active in Philadelphia during the Constitutional Convention",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-philadelphia-lived",
+    "source": "person-john-adams",
+    "target": "location-philadelphia",
+    "relationship": "lived_in",
+    "evidence": "Adams was active in Philadelphia during the Continental Congress",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-paris-visited",
+    "source": "person-john-adams",
+    "target": "location-paris",
+    "relationship": "visited",
+    "evidence": "Adams served diplomatic missions in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-london-visited",
+    "source": "person-john-adams",
+    "target": "location-london",
+    "relationship": "visited",
+    "evidence": "Adams was American minister to Britain 1785-1788",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-philadelphia-lived",
+    "source": "person-thomas-paine",
+    "target": "location-philadelphia",
+    "relationship": "lived_in",
+    "evidence": "Paine arrived in Philadelphia in 1774 and published Common Sense there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-london-lived",
+    "source": "person-thomas-paine",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "evidence": "Paine lived in London before emigrating to America",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-paris-lived",
+    "source": "person-thomas-paine",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Paine was active in Paris during the French Revolution",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-philadelphia-lived",
+    "source": "person-joseph-priestley",
+    "target": "location-philadelphia",
+    "relationship": "lived_in",
+    "evidence": "Priestley emigrated to America in 1794",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-amer-phil-society-founded",
+    "source": "person-benjamin-franklin",
+    "target": "location-amer-phil-society",
+    "relationship": "founded",
+    "evidence": "Franklin founded the American Philosophical Society in 1743",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-amer-phil-society-member",
+    "source": "person-thomas-jefferson",
+    "target": "location-amer-phil-society",
+    "relationship": "member_of",
+    "evidence": "Jefferson was President of the American Philosophical Society 1797-1815",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-amsterdam-publishing-associated",
+    "source": "person-voltaire",
+    "target": "location-amsterdam-publishing",
+    "relationship": "associated_with",
+    "evidence": "Many of Voltaire's controversial works were published in Amsterdam",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-geneva-publishing-associated",
+    "source": "person-voltaire",
+    "target": "location-geneva-publishing",
+    "relationship": "associated_with",
+    "evidence": "Voltaire used Geneva publishers for banned works",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-amsterdam-publishing-associated",
+    "source": "person-dholbach",
+    "target": "location-amsterdam-publishing",
+    "relationship": "associated_with",
+    "evidence": "D'Holbach's atheist works were published in Amsterdam",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-cafe-procope-visited",
+    "source": "person-voltaire",
+    "target": "location-cafe-procope",
+    "relationship": "visited",
+    "evidence": "Voltaire frequented the Café Procope in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-cafe-procope-visited",
+    "source": "person-diderot",
+    "target": "location-cafe-procope",
+    "relationship": "visited",
+    "evidence": "Diderot and the philosophes met at the Café Procope",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-cafe-procope-visited",
+    "source": "person-rousseau",
+    "target": "location-cafe-procope",
+    "relationship": "visited",
+    "evidence": "Rousseau frequented the Café Procope",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-encyclopedie-project-founded",
+    "source": "person-diderot",
+    "target": "entity-encyclopedie-project",
+    "relationship": "founded",
+    "evidence": "Diderot was the driving force and chief editor of the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-encyclopedie-project-founded",
+    "source": "person-dalembert",
+    "target": "entity-encyclopedie-project",
+    "relationship": "founded",
+    "evidence": "D'Alembert was co-editor of the Encyclopédie project",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jaucourt-encyclopedie-project-member",
+    "source": "person-jaucourt",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Jaucourt wrote 17,288 articles - 25% of the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-encyclopedie-project-member",
+    "source": "person-voltaire",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Voltaire contributed articles to the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-encyclopedie-project-member",
+    "source": "person-rousseau",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Rousseau contributed music articles to the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-encyclopedie-project-member",
+    "source": "person-montesquieu",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Montesquieu contributed the article on Taste",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-encyclopedie-project-member",
+    "source": "person-dholbach",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "D'Holbach contributed hundreds of articles on chemistry and religion",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quesnay-encyclopedie-project-member",
+    "source": "person-francois-quesnay",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Quesnay contributed economic articles to the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-encyclopedie-project-member",
+    "source": "person-turgot",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Turgot contributed economic articles to the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-encyclopedie-project-member",
+    "source": "person-condillac",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Condillac contributed philosophical articles",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buffon-encyclopedie-project-member",
+    "source": "person-buffon",
+    "target": "entity-encyclopedie-project",
+    "relationship": "member_of",
+    "evidence": "Buffon contributed articles on natural history",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-philosophes-member",
+    "source": "person-voltaire",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "Voltaire was the quintessential philosophe",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-philosophes-member",
+    "source": "person-diderot",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "Diderot was a central figure among the philosophes",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-philosophes-member",
+    "source": "person-dalembert",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "D'Alembert was a leading philosophe",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montesquieu-philosophes-member",
+    "source": "person-montesquieu",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "Montesquieu was an early philosophe",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-philosophes-associated",
+    "source": "person-rousseau",
+    "target": "entity-philosophes",
+    "relationship": "associated_with",
+    "evidence": "Rousseau was associated with but later opposed the philosophes",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-dholbach-philosophes-member",
+    "source": "person-dholbach",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "D'Holbach hosted the philosophes at his salon",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-philosophes-member",
+    "source": "person-helvetius",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "Helvétius was a prominent philosophe",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-philosophes-member",
+    "source": "person-condorcet",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "Condorcet was a late philosophe",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-philosophes-member",
+    "source": "person-condillac",
+    "target": "entity-philosophes",
+    "relationship": "member_of",
+    "evidence": "Condillac was a philosophe focused on epistemology",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-scottish-enlightenment-member",
+    "source": "person-david-hume",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Hume was the greatest philosopher of the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-scottish-enlightenment-member",
+    "source": "person-adam-smith",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Smith was a central figure of the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-scottish-enlightenment-founded",
+    "source": "person-hutcheson",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "founded",
+    "evidence": "Hutcheson is called the Father of the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-scottish-enlightenment-member",
+    "source": "person-thomas-reid",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Reid founded Common Sense philosophy within the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-scottish-enlightenment-member",
+    "source": "person-adam-ferguson",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Ferguson was a key figure of the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-scottish-enlightenment-member",
+    "source": "person-william-robertson",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Robertson was a leading historian of the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-scottish-enlightenment-member",
+    "source": "person-lord-kames",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Kames was a patron and figure of the Scottish Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-scottish-enlightenment-member",
+    "source": "person-dugald-stewart",
+    "target": "entity-scottish-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Stewart transmitted the Scottish Enlightenment to the 19th century",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-aufklarung-member",
+    "source": "person-immanuel-kant",
+    "target": "entity-aufklarung",
+    "relationship": "member_of",
+    "evidence": "Kant defined the Aufklärung in his famous 1784 essay",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolff-aufklarung-member",
+    "source": "person-christian-wolff",
+    "target": "entity-aufklarung",
+    "relationship": "member_of",
+    "evidence": "Wolff dominated German philosophy before Kant",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-aufklarung-member",
+    "source": "person-moses-mendelssohn",
+    "target": "entity-aufklarung",
+    "relationship": "member_of",
+    "evidence": "Mendelssohn was a leading figure of the German Aufklärung",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-aufklarung-member",
+    "source": "person-gotthold-lessing",
+    "target": "entity-aufklarung",
+    "relationship": "member_of",
+    "evidence": "Lessing was Germany's greatest Enlightenment dramatist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-herder-aufklarung-associated",
+    "source": "person-johann-herder",
+    "target": "entity-aufklarung",
+    "relationship": "associated_with",
+    "evidence": "Herder was a transitional figure toward Romanticism",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-goethe-aufklarung-associated",
+    "source": "person-goethe",
+    "target": "entity-aufklarung",
+    "relationship": "associated_with",
+    "evidence": "Goethe bridged the Enlightenment and Romanticism",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-baumgarten-aufklarung-member",
+    "source": "person-baumgarten",
+    "target": "entity-aufklarung",
+    "relationship": "member_of",
+    "evidence": "Baumgarten founded aesthetics within the German Aufklärung",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-aufklarung-founded",
+    "source": "person-leibniz",
+    "target": "entity-aufklarung",
+    "relationship": "founded",
+    "evidence": "Leibniz's philosophy shaped the German Aufklärung",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-haskalah-founded",
+    "source": "person-moses-mendelssohn",
+    "target": "entity-haskalah",
+    "relationship": "founded",
+    "evidence": "Mendelssohn was the leading figure of the Jewish Haskalah",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quesnay-physiocracy-founded",
+    "source": "person-francois-quesnay",
+    "target": "entity-physiocracy",
+    "relationship": "founded",
+    "evidence": "Quesnay founded the Physiocratic school of economics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-physiocracy-associated",
+    "source": "person-turgot",
+    "target": "entity-physiocracy",
+    "relationship": "associated_with",
+    "evidence": "Turgot was associated with but went beyond Physiocracy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mirabeau-physiocracy-member",
+    "source": "person-mirabeau-elder",
+    "target": "entity-physiocracy",
+    "relationship": "member_of",
+    "evidence": "Mirabeau was a leading Physiocrat",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-british-empiricism-founded",
+    "source": "person-john-locke",
+    "target": "entity-british-empiricism",
+    "relationship": "founded",
+    "evidence": "Locke founded British empiricism with his Essay",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-british-empiricism-member",
+    "source": "person-george-berkeley",
+    "target": "entity-british-empiricism",
+    "relationship": "member_of",
+    "evidence": "Berkeley developed idealist empiricism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-british-empiricism-member",
+    "source": "person-david-hume",
+    "target": "entity-british-empiricism",
+    "relationship": "member_of",
+    "evidence": "Hume took empiricism to its skeptical conclusions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-continental-rationalism-member",
+    "source": "person-leibniz",
+    "target": "entity-continental-rationalism",
+    "relationship": "member_of",
+    "evidence": "Leibniz was a major continental rationalist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolff-continental-rationalism-member",
+    "source": "person-christian-wolff",
+    "target": "entity-continental-rationalism",
+    "relationship": "member_of",
+    "evidence": "Wolff systematized Leibnizian rationalism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bentham-utilitarianism-founded",
+    "source": "person-jeremy-bentham",
+    "target": "entity-utilitarianism",
+    "relationship": "founded",
+    "evidence": "Bentham founded systematic utilitarianism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-utilitarianism-associated",
+    "source": "person-helvetius",
+    "target": "entity-utilitarianism",
+    "relationship": "associated_with",
+    "evidence": "Helvétius's ethics anticipated utilitarianism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-common-sense-founded",
+    "source": "person-thomas-reid",
+    "target": "entity-common-sense-philosophy",
+    "relationship": "founded",
+    "evidence": "Reid founded Common Sense philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stewart-common-sense-member",
+    "source": "person-dugald-stewart",
+    "target": "entity-common-sense-philosophy",
+    "relationship": "member_of",
+    "evidence": "Stewart transmitted Common Sense philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-radical-enlightenment-member",
+    "source": "person-dholbach",
+    "target": "entity-radical-enlightenment",
+    "relationship": "member_of",
+    "evidence": "D'Holbach was a leading radical Enlightenment figure",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lamettrie-radical-enlightenment-member",
+    "source": "person-la-mettrie",
+    "target": "entity-radical-enlightenment",
+    "relationship": "member_of",
+    "evidence": "La Mettrie pushed materialism to radical conclusions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-radical-enlightenment-member",
+    "source": "person-helvetius",
+    "target": "entity-radical-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Helvétius's materialist ethics were radical",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-radical-enlightenment-associated",
+    "source": "person-diderot",
+    "target": "entity-radical-enlightenment",
+    "relationship": "associated_with",
+    "evidence": "Diderot developed increasingly radical views",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dholbach-holbach-circle-founded",
+    "source": "person-dholbach",
+    "target": "entity-holbach-circle",
+    "relationship": "founded",
+    "evidence": "D'Holbach founded and hosted the coterie holbachique",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-holbach-circle-member",
+    "source": "person-diderot",
+    "target": "entity-holbach-circle",
+    "relationship": "member_of",
+    "evidence": "Diderot was a regular at d'Holbach's circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-holbach-circle-visited",
+    "source": "person-david-hume",
+    "target": "entity-holbach-circle",
+    "relationship": "visited",
+    "evidence": "Hume attended d'Holbach's circle during his Paris years",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rousseau-holbach-circle-associated",
+    "source": "person-rousseau",
+    "target": "entity-holbach-circle",
+    "relationship": "associated_with",
+    "evidence": "Rousseau attended but later accused the circle of conspiracy",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-morellet-holbach-circle-member",
+    "source": "person-morellet",
+    "target": "entity-holbach-circle",
+    "relationship": "member_of",
+    "evidence": "Morellet was a member of d'Holbach's circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-helvetius-holbach-circle-member",
+    "source": "person-helvetius",
+    "target": "entity-holbach-circle",
+    "relationship": "member_of",
+    "evidence": "Helvétius was part of d'Holbach's circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hume-edinburgh-literati-member",
+    "source": "person-david-hume",
+    "target": "entity-edinburgh-literati",
+    "relationship": "member_of",
+    "evidence": "Hume was central to Edinburgh's intellectual network",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-smith-edinburgh-literati-member",
+    "source": "person-adam-smith",
+    "target": "entity-edinburgh-literati",
+    "relationship": "member_of",
+    "evidence": "Smith was part of Edinburgh's literati",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ferguson-edinburgh-literati-member",
+    "source": "person-adam-ferguson",
+    "target": "entity-edinburgh-literati",
+    "relationship": "member_of",
+    "evidence": "Ferguson was a key Edinburgh intellectual",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-edinburgh-literati-member",
+    "source": "person-william-robertson",
+    "target": "entity-edinburgh-literati",
+    "relationship": "member_of",
+    "evidence": "Robertson led Edinburgh's moderate party",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kames-edinburgh-literati-member",
+    "source": "person-lord-kames",
+    "target": "entity-edinburgh-literati",
+    "relationship": "member_of",
+    "evidence": "Kames patronized the Edinburgh literati",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-royal-society-led",
+    "source": "person-isaac-newton",
+    "target": "entity-royal-society",
+    "relationship": "led",
+    "evidence": "Newton was President of the Royal Society 1703-1727",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-royal-society-member",
+    "source": "person-john-locke",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "evidence": "Locke was elected Fellow of the Royal Society in 1668",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-priestley-royal-society-member",
+    "source": "person-joseph-priestley",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "evidence": "Priestley was elected Fellow of the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-royal-society-member",
+    "source": "person-benjamin-franklin",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "evidence": "Franklin was elected to the Royal Society for his electrical experiments",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leibniz-berlin-academy-founded",
+    "source": "person-leibniz",
+    "target": "entity-berlin-academy",
+    "relationship": "founded",
+    "evidence": "Leibniz founded the Berlin Academy in 1700",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-berlin-academy-patronized",
+    "source": "person-frederick-great",
+    "target": "entity-berlin-academy",
+    "relationship": "patronized",
+    "evidence": "Frederick revitalized the Berlin Academy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-euler-berlin-academy-member",
+    "source": "person-leonhard-euler",
+    "target": "entity-berlin-academy",
+    "relationship": "member_of",
+    "evidence": "Euler worked at the Berlin Academy 1741-1766",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lagrange-berlin-academy-member",
+    "source": "person-lagrange",
+    "target": "entity-berlin-academy",
+    "relationship": "member_of",
+    "evidence": "Lagrange directed the Berlin Academy's mathematics 1766-1787",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dalembert-academie-francaise-led",
+    "source": "person-dalembert",
+    "target": "entity-academie-francaise",
+    "relationship": "led",
+    "evidence": "D'Alembert was Permanent Secretary of the Académie française",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-academie-sciences-led",
+    "source": "person-condorcet",
+    "target": "entity-academie-sciences",
+    "relationship": "led",
+    "evidence": "Condorcet was Permanent Secretary of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-amer-phil-society-entity-founded",
+    "source": "person-benjamin-franklin",
+    "target": "entity-amer-phil-society",
+    "relationship": "founded",
+    "evidence": "Franklin founded the American Philosophical Society in 1743",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-amer-phil-society-entity-led",
+    "source": "person-thomas-jefferson",
+    "target": "entity-amer-phil-society",
+    "relationship": "led",
+    "evidence": "Jefferson was President of the American Philosophical Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-american-founders-member",
+    "source": "person-thomas-jefferson",
+    "target": "entity-american-founders",
+    "relationship": "member_of",
+    "evidence": "Jefferson was a leading American Founder",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-madison-american-founders-member",
+    "source": "person-james-madison",
+    "target": "entity-american-founders",
+    "relationship": "member_of",
+    "evidence": "Madison was the Father of the Constitution",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-american-founders-member",
+    "source": "person-john-adams",
+    "target": "entity-american-founders",
+    "relationship": "member_of",
+    "evidence": "Adams was a key American Founder",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-american-founders-member",
+    "source": "person-benjamin-franklin",
+    "target": "entity-american-founders",
+    "relationship": "member_of",
+    "evidence": "Franklin was the elder statesman of the Founders",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-american-founders-associated",
+    "source": "person-thomas-paine",
+    "target": "entity-american-founders",
+    "relationship": "associated_with",
+    "evidence": "Paine's writings catalyzed American independence",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-enlightened-despotism-associated",
+    "source": "person-frederick-great",
+    "target": "entity-enlightened-despotism",
+    "relationship": "associated_with",
+    "evidence": "Frederick was the model enlightened despot",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-catherine-enlightened-despotism-associated",
+    "source": "person-catherine-great",
+    "target": "entity-enlightened-despotism",
+    "relationship": "associated_with",
+    "evidence": "Catherine styled herself an enlightened ruler",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-deism-member",
+    "source": "person-voltaire",
+    "target": "entity-deism",
+    "relationship": "member_of",
+    "evidence": "Voltaire was a prominent deist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-deism-member",
+    "source": "person-thomas-paine",
+    "target": "entity-deism",
+    "relationship": "member_of",
+    "evidence": "Paine's Age of Reason promoted deism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-deism-associated",
+    "source": "person-benjamin-franklin",
+    "target": "entity-deism",
+    "relationship": "associated_with",
+    "evidence": "Franklin held deist views",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-jefferson-deism-associated",
+    "source": "person-thomas-jefferson",
+    "target": "entity-deism",
+    "relationship": "associated_with",
+    "evidence": "Jefferson held deist views",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-dholbach-enlightenment-atheism-member",
+    "source": "person-dholbach",
+    "target": "entity-enlightenment-atheism",
+    "relationship": "member_of",
+    "evidence": "D'Holbach was a systematic atheist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lamettrie-enlightenment-atheism-member",
+    "source": "person-la-mettrie",
+    "target": "entity-enlightenment-atheism",
+    "relationship": "member_of",
+    "evidence": "La Mettrie was an atheist materialist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-diderot-enlightenment-atheism-associated",
+    "source": "person-diderot",
+    "target": "entity-enlightenment-atheism",
+    "relationship": "associated_with",
+    "evidence": "Diderot moved toward atheism late in life",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mendelssohn-moderate-enlightenment-member",
+    "source": "person-moses-mendelssohn",
+    "target": "entity-moderate-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Mendelssohn sought to reconcile religion and Enlightenment",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-moderate-enlightenment-member",
+    "source": "person-thomas-reid",
+    "target": "entity-moderate-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Reid's Common Sense defended religious belief",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-robertson-moderate-enlightenment-member",
+    "source": "person-william-robertson",
+    "target": "entity-moderate-enlightenment",
+    "relationship": "member_of",
+    "evidence": "Robertson led the Moderate party in the Scottish church",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-beccaria-criminal-justice-founded",
+    "source": "person-cesare-beccaria",
+    "target": "entity-criminal-justice-reform",
+    "relationship": "founded",
+    "evidence": "Beccaria's work launched criminal justice reform",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-criminal-justice-member",
+    "source": "person-voltaire",
+    "target": "entity-criminal-justice-reform",
+    "relationship": "member_of",
+    "evidence": "Voltaire championed criminal justice reform",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bentham-criminal-justice-member",
+    "source": "person-jeremy-bentham",
+    "target": "entity-criminal-justice-reform",
+    "relationship": "member_of",
+    "evidence": "Bentham applied utilitarianism to legal reform",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-locke-religious-toleration-founded",
+    "source": "person-john-locke",
+    "target": "entity-religious-toleration",
+    "relationship": "founded",
+    "evidence": "Locke's Letter on Toleration was foundational",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-voltaire-religious-toleration-member",
+    "source": "person-voltaire",
+    "target": "entity-religious-toleration",
+    "relationship": "member_of",
+    "evidence": "Voltaire championed religious toleration",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lessing-religious-toleration-member",
+    "source": "person-gotthold-lessing",
+    "target": "entity-religious-toleration",
+    "relationship": "member_of",
+    "evidence": "Lessing's Nathan the Wise promoted tolerance",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-religious-toleration-member",
+    "source": "person-moses-mendelssohn",
+    "target": "entity-religious-toleration",
+    "relationship": "member_of",
+    "evidence": "Mendelssohn argued for Jewish toleration",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-french-revolution-member",
+    "source": "person-condorcet",
+    "target": "entity-french-revolution",
+    "relationship": "member_of",
+    "evidence": "Condorcet was active in the French Revolution until his death",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paine-french-revolution-member",
+    "source": "person-thomas-paine",
+    "target": "entity-french-revolution",
+    "relationship": "member_of",
+    "evidence": "Paine was elected to the French National Convention",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lavoisier-french-revolution-associated",
+    "source": "person-lavoisier",
+    "target": "entity-french-revolution",
+    "relationship": "associated_with",
+    "evidence": "Lavoisier was guillotined during the Terror",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jefferson-united-states-founded",
+    "source": "person-thomas-jefferson",
+    "target": "entity-united-states",
+    "relationship": "founded",
+    "evidence": "Jefferson was a principal author of American founding documents",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-madison-united-states-founded",
+    "source": "person-james-madison",
+    "target": "entity-united-states",
+    "relationship": "founded",
+    "evidence": "Madison was the Father of the Constitution",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franklin-united-states-founded",
+    "source": "person-benjamin-franklin",
+    "target": "entity-united-states",
+    "relationship": "founded",
+    "evidence": "Franklin was a Founding Father",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-adams-united-states-founded",
+    "source": "person-john-adams",
+    "target": "entity-united-states",
+    "relationship": "founded",
+    "evidence": "Adams was a Founding Father",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quesnay-ephemerides-associated",
+    "source": "person-francois-quesnay",
+    "target": "entity-ephemerides",
+    "relationship": "associated_with",
+    "evidence": "The Éphémérides was the Physiocrat journal",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-turgot-ephemerides-associated",
+    "source": "person-turgot",
+    "target": "entity-ephemerides",
+    "relationship": "associated_with",
+    "evidence": "Turgot contributed to the Éphémérides",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mirabeau-ephemerides-associated",
+    "source": "person-mirabeau-elder",
+    "target": "entity-ephemerides",
+    "relationship": "associated_with",
+    "evidence": "Mirabeau contributed to the Physiocrat journal",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kant-berlinische-associated",
+    "source": "person-immanuel-kant",
+    "target": "entity-berlinische-monatsschrift",
+    "relationship": "associated_with",
+    "evidence": "Kant published What is Enlightenment? in the Berlinische Monatsschrift",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mendelssohn-berlinische-associated",
+    "source": "person-moses-mendelssohn",
+    "target": "entity-berlinische-monatsschrift",
+    "relationship": "associated_with",
+    "evidence": "Mendelssohn published in the Berlinische Monatsschrift",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-treatise-essay-responds",
+    "source": "object-treatise-human-nature",
+    "target": "object-essay-human-understanding",
+    "relationship": "responds_to",
+    "evidence": "Hume's Treatise engages directly with Locke's Essay",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-enquiry-treatise-continuation",
+    "source": "object-enquiry-human-understanding",
+    "target": "object-treatise-human-nature",
+    "relationship": "continuation_of",
+    "evidence": "Hume's Enquiry is a more accessible revision of his Treatise",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condillac-essay-locke-responds",
+    "source": "object-essay-origin-knowledge",
+    "target": "object-essay-human-understanding",
+    "relationship": "responds_to",
+    "evidence": "Condillac extended Locke's empiricism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-treatise-sensations-essay-continuation",
+    "source": "object-treatise-sensations",
+    "target": "object-essay-origin-knowledge",
+    "relationship": "continuation_of",
+    "evidence": "Condillac's Treatise developed his earlier Essay",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berkeley-principles-locke-responds",
+    "source": "object-principles-human-knowledge",
+    "target": "object-essay-human-understanding",
+    "relationship": "responds_to",
+    "evidence": "Berkeley critiqued Locke's distinction between qualities",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutcheson-inquiry-shaftesbury-responds",
+    "source": "object-inquiry-beauty-virtue",
+    "target": "object-characteristics",
+    "relationship": "responds_to",
+    "evidence": "Hutcheson developed Shaftesbury's moral sense theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-critique-pure-enquiry-responds",
+    "source": "object-critique-pure-reason",
+    "target": "object-enquiry-human-understanding",
+    "relationship": "responds_to",
+    "evidence": "Kant said Hume awakened him from dogmatic slumber",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-critique-pure-wolff-responds",
+    "source": "object-critique-pure-reason",
+    "target": "object-german-logic",
+    "relationship": "responds_to",
+    "evidence": "Kant's Critique challenged Wolffian rationalism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-candide-theodicy-responds",
+    "source": "object-candide",
+    "target": "object-theodicy",
+    "relationship": "responds_to",
+    "evidence": "Voltaire's Candide satirized Leibnizian optimism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-letters-english-locke-references",
+    "source": "object-letters-english",
+    "target": "object-essay-human-understanding",
+    "relationship": "references",
+    "evidence": "Voltaire popularized Locke's philosophy in France",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-letters-english-principia-references",
+    "source": "object-letters-english",
+    "target": "object-principia-mathematica",
+    "relationship": "references",
+    "evidence": "Voltaire popularized Newton's physics in France",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-elements-newton-principia-references",
+    "source": "object-elements-newton",
+    "target": "object-principia-mathematica",
+    "relationship": "references",
+    "evidence": "Voltaire and du Châtelet explained Newton to French readers",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-principia-translation-principia-translated",
+    "source": "object-principia-translation",
+    "target": "object-principia-mathematica",
+    "relationship": "translated",
+    "evidence": "Du Châtelet translated Newton's Principia into French",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-institutions-principia-references",
+    "source": "object-institutions-physique",
+    "target": "object-principia-mathematica",
+    "relationship": "references",
+    "evidence": "Du Châtelet engaged with both Newton and Leibniz",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-institutions-monadology-references",
+    "source": "object-institutions-physique",
+    "target": "object-monadology",
+    "relationship": "references",
+    "evidence": "Du Châtelet synthesized Newtonian and Leibnizian physics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-preliminary-discourse-encyclopedie-references",
+    "source": "object-preliminary-discourse",
+    "target": "object-encyclopedie",
+    "relationship": "references",
+    "evidence": "D'Alembert's Discourse was the introduction to the Encyclopédie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-de-lesprit-locke-responds",
+    "source": "object-de-lesprit",
+    "target": "object-essay-human-understanding",
+    "relationship": "responds_to",
+    "evidence": "Helvétius developed Lockean sensationalism into ethics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-system-nature-homme-machine-responds",
+    "source": "object-system-nature",
+    "target": "object-homme-machine",
+    "relationship": "responds_to",
+    "evidence": "D'Holbach developed La Mettrie's materialism systematically",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-christianity-system-references",
+    "source": "object-christianity-unveiled",
+    "target": "object-system-nature",
+    "relationship": "references",
+    "evidence": "Both were d'Holbach's atheist works",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-discourse-inequality-two-treatises-responds",
+    "source": "object-discourse-inequality",
+    "target": "object-two-treatises",
+    "relationship": "responds_to",
+    "evidence": "Rousseau engaged with Locke's social contract theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-social-contract-two-treatises-responds",
+    "source": "object-social-contract",
+    "target": "object-two-treatises",
+    "relationship": "responds_to",
+    "evidence": "Rousseau's Social Contract responded to Locke's",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-social-contract-spirit-responds",
+    "source": "object-social-contract",
+    "target": "object-spirit-laws",
+    "relationship": "responds_to",
+    "evidence": "Rousseau engaged with Montesquieu's political theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-emile-locke-references",
+    "source": "object-emile",
+    "target": "object-essay-human-understanding",
+    "relationship": "references",
+    "evidence": "Rousseau's educational theory drew on Locke",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-spirit-laws-two-treatises-references",
+    "source": "object-spirit-laws",
+    "target": "object-two-treatises",
+    "relationship": "references",
+    "evidence": "Montesquieu engaged with Locke's political philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-federalist-spirit-references",
+    "source": "object-federalist-papers",
+    "target": "object-spirit-laws",
+    "relationship": "references",
+    "evidence": "The Federalist extensively cited Montesquieu",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-declaration-two-treatises-references",
+    "source": "object-declaration-independence",
+    "target": "object-two-treatises",
+    "relationship": "references",
+    "evidence": "Jefferson applied Lockean natural rights",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rights-man-reflections-responds",
+    "source": "object-rights-man",
+    "target": "object-reflections-revolution",
+    "relationship": "responds_to",
+    "evidence": "Paine wrote Rights of Man against Burke's Reflections",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reflections-social-contract-responds",
+    "source": "object-reflections-revolution",
+    "target": "object-social-contract",
+    "relationship": "responds_to",
+    "evidence": "Burke criticized revolutionary application of Rousseau's ideas",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bentham-principles-esprit-responds",
+    "source": "object-principles-morals-legislation",
+    "target": "object-de-lesprit",
+    "relationship": "responds_to",
+    "evidence": "Bentham developed Helvétius's utilitarianism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bentham-principles-beccaria-responds",
+    "source": "object-principles-morals-legislation",
+    "target": "object-crimes-punishments",
+    "relationship": "responds_to",
+    "evidence": "Bentham was influenced by Beccaria's legal reform",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wealth-nations-moral-sentiments-continuation",
+    "source": "object-wealth-nations",
+    "target": "object-theory-moral-sentiments",
+    "relationship": "continuation_of",
+    "evidence": "Smith's economics built on his moral philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wealth-nations-tableau-responds",
+    "source": "object-wealth-nations",
+    "target": "object-tableau-economique",
+    "relationship": "responds_to",
+    "evidence": "Smith engaged with Physiocratic economics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wealth-nations-reflections-responds",
+    "source": "object-wealth-nations",
+    "target": "object-reflections-wealth",
+    "relationship": "responds_to",
+    "evidence": "Smith engaged with Turgot's economic theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moral-sentiments-treatise-responds",
+    "source": "object-theory-moral-sentiments",
+    "target": "object-treatise-human-nature",
+    "relationship": "responds_to",
+    "evidence": "Smith's ethics drew on Hume's moral philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moral-sentiments-hutcheson-responds",
+    "source": "object-theory-moral-sentiments",
+    "target": "object-inquiry-beauty-virtue",
+    "relationship": "responds_to",
+    "evidence": "Smith engaged with Hutcheson's moral sense theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moral-sentiments-fable-responds",
+    "source": "object-theory-moral-sentiments",
+    "target": "object-fable-bees",
+    "relationship": "responds_to",
+    "evidence": "Smith critiqued Mandeville's moral cynicism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reid-inquiry-treatise-responds",
+    "source": "object-inquiry-common-sense",
+    "target": "object-treatise-human-nature",
+    "relationship": "responds_to",
+    "evidence": "Reid wrote against Hume's skepticism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-civil-society-spirit-references",
+    "source": "object-essay-civil-society",
+    "target": "object-spirit-laws",
+    "relationship": "references",
+    "evidence": "Ferguson engaged with Montesquieu's political analysis",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-critique-judgment-aesthetica-responds",
+    "source": "object-critique-judgment",
+    "target": "object-aesthetica",
+    "relationship": "responds_to",
+    "evidence": "Kant's aesthetics engaged with Baumgarten's founding work",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-critique-judgment-sublime-responds",
+    "source": "object-critique-judgment",
+    "target": "object-sublime-beautiful",
+    "relationship": "responds_to",
+    "evidence": "Kant engaged with Burke's aesthetic theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-nathan-phadon-references",
+    "source": "object-nathan-wise",
+    "target": "object-phadon",
+    "relationship": "references",
+    "evidence": "Lessing based Nathan on his friend Mendelssohn",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jerusalem-social-contract-responds",
+    "source": "object-jerusalem",
+    "target": "object-social-contract",
+    "relationship": "responds_to",
+    "evidence": "Mendelssohn argued for religious liberty",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ideas-sketch-responds",
+    "source": "object-ideas-philosophy-history",
+    "target": "object-sketch-progress",
+    "relationship": "responds_to",
+    "evidence": "Herder challenged Enlightenment universalism",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-what-is-enlightenment-phadon-references",
+    "source": "object-what-is-enlightenment",
+    "target": "object-phadon",
+    "relationship": "references",
+    "evidence": "Both Kant and Mendelssohn answered What is Enlightenment?",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dialogues-theodicy-responds",
+    "source": "object-dialogues-natural-religion",
+    "target": "object-theodicy",
+    "relationship": "responds_to",
+    "evidence": "Hume's Dialogues undermined natural theology",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-age-reason-toleration-references",
+    "source": "object-age-reason",
+    "target": "object-letter-toleration",
+    "relationship": "references",
+    "evidence": "Paine extended arguments for religious freedom",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-common-sense-two-treatises-references",
+    "source": "object-common-sense",
+    "target": "object-two-treatises",
+    "relationship": "references",
+    "evidence": "Paine applied Lockean political philosophy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-probability-spirit-references",
+    "source": "object-essay-probability-decisions",
+    "target": "object-spirit-laws",
+    "relationship": "references",
+    "evidence": "Condorcet applied mathematics to political theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sketch-ideas-responds",
+    "source": "object-sketch-progress",
+    "target": "object-ideas-philosophy-history",
+    "relationship": "responds_to",
+    "evidence": "Condorcet defended Enlightenment progress against Herder",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-traite-dynamique-principia-responds",
+    "source": "object-traite-dynamique",
+    "target": "object-principia-mathematica",
+    "relationship": "responds_to",
+    "evidence": "D'Alembert extended Newtonian mechanics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-histoire-naturelle-principia-references",
+    "source": "object-histoire-naturelle",
+    "target": "object-principia-mathematica",
+    "relationship": "references",
+    "evidence": "Buffon speculated on earth's age using Newtonian methods",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-elements-chemistry-experiments-references",
+    "source": "object-elements-chemistry",
+    "target": "object-experiments-electricity",
+    "relationship": "references",
+    "evidence": "Both represent Enlightenment experimental science",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mirabeau-quesnay-collaborated",
+    "source": "person-mirabeau-elder",
+    "target": "person-francois-quesnay",
+    "relationship": "collaborated_with",
+    "evidence": "Mirabeau was a leading Physiocrat who worked with Quesnay",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mirabeau-turgot-knows",
+    "source": "person-mirabeau-elder",
+    "target": "person-turgot",
+    "relationship": "knows",
+    "evidence": "Mirabeau and Turgot were both associated with Physiocracy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mirabeau-smith-knows",
+    "source": "person-mirabeau-elder",
+    "target": "person-adam-smith",
+    "relationship": "knows",
+    "evidence": "Smith met the Physiocrats including Mirabeau in Paris",
+    "strength": "moderate"
+  }
+]

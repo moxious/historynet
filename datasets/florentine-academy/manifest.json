@@ -1,0 +1,112 @@
+{
+  "id": "florentine-academy",
+  "name": "Florentine Academy",
+  "description": "The Platonic Academy of Florence (c. 1462–1520), centered on Marsilio Ficino's villa at Careggi under Medici patronage. This network explores the rediscovery and translation of ancient Hermetic and Neoplatonic texts, the synthesis of Neoplatonism with Christianity, and the development of Christian Kabbalah. The Academy was instrumental in transmitting the prisca theologia—the notion of an ancient wisdom tradition linking Hermes Trismegistus, Orpheus, Pythagoras, and Plato—to Renaissance Europe.",
+  "bannerEmoji": "🏛️📜",
+  "lastUpdated": "2026-01-19",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 50,
+  "edgeCount": 102,
+  "scope": {
+    "startYear": 1433,
+    "endYear": 1535,
+    "regions": [
+      "Florence",
+      "Italy",
+      "Rome"
+    ],
+    "themes": [
+      "Neoplatonism",
+      "Hermeticism",
+      "prisca theologia",
+      "Christian Kabbalah",
+      "translation of ancient texts",
+      "Medici patronage",
+      "Renaissance philosophy",
+      "occult philosophy"
+    ],
+    "seedFigures": [
+      "person-marsilio-ficino",
+      "person-giovanni-pico-della-mirandola",
+      "person-cosimo-de-medici",
+      "person-angelo-poliziano",
+      "person-cristoforo-landino"
+    ],
+    "subgroups": [
+      {
+        "id": "core-academy",
+        "name": "Core Academy Members",
+        "description": "Ficino and his inner circle of philosophers and scholars at the Careggi villa"
+      },
+      {
+        "id": "medici-patrons",
+        "name": "Medici Patrons",
+        "description": "Members of the Medici family who sponsored and participated in the Academy"
+      },
+      {
+        "id": "greek-teachers",
+        "name": "Greek Teachers and Émigrés",
+        "description": "Byzantine scholars who brought Greek texts and language to Florence"
+      },
+      {
+        "id": "ancient-sources",
+        "name": "Ancient Philosophical Sources",
+        "description": "Classical and late antique authors whose works were translated and synthesized"
+      },
+      {
+        "id": "key-texts",
+        "name": "Key Texts and Translations",
+        "description": "Major works translated, commented upon, or produced by Academy members"
+      },
+      {
+        "id": "successors",
+        "name": "Successors and Influence",
+        "description": "Later figures who carried Florentine Neoplatonism forward (Reuchlin, Agrippa, Bruno)"
+      }
+    ],
+    "exclusionNotes": "Focuses on philosophical/esoteric dimensions. Excludes visual artists unless they wrote philosophical works. Later Hermetic/Rosicrucian developments covered in separate rosicrucian-network dataset."
+  },
+  "research": {
+    "status": "in-progress",
+    "completedBatches": [
+      "core-academy",
+      "medici-patrons",
+      "greek-teachers",
+      "ancient-sources",
+      "key-texts",
+      "successors"
+    ],
+    "pendingBatches": [],
+    "gaps": [
+      {
+        "description": "Women associated with the Academy (Nannina de Medici, Lucrezia Tornabuoni) not yet included",
+        "priority": "medium"
+      },
+      {
+        "description": "More Greek manuscripts and their transmission paths could be documented",
+        "priority": "low"
+      },
+      {
+        "description": "Connections to other Italian centers (Venice, Rome) could be expanded",
+        "priority": "low"
+      }
+    ],
+    "excludedFigures": []
+  },
+  "customRelationshipTypes": [
+    {
+      "type": "transmitted",
+      "description": "Transmitted ancient knowledge or text to a later figure/work",
+      "directed": true
+    },
+    {
+      "type": "synthesized",
+      "description": "Combined or synthesized ideas from multiple sources",
+      "directed": true
+    }
+  ],
+  "bannerImage": "img/banners/florentine-academy.jpg"
+}

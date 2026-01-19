@@ -1,0 +1,914 @@
+[
+  {
+    "id": "person-johannes-reuchlin",
+    "type": "person",
+    "title": "Johannes Reuchlin",
+    "shortDescription": "German humanist scholar who defended Hebrew learning and pioneered Christian Kabbalah in German lands",
+    "dateStart": "1455",
+    "dateEnd": "1522",
+    "birthPlace": "Pforzheim, Germany",
+    "deathPlace": "Stuttgart, Germany",
+    "nationality": "German",
+    "occupations": [
+      "humanist",
+      "jurist",
+      "Hebraist",
+      "philosopher"
+    ],
+    "alternateNames": [
+      "Johann Reuchlin",
+      "Capnion"
+    ],
+    "wikipediaTitle": "Johann_Reuchlin",
+    "wikidataId": "Q60637",
+    "biography": "Johannes Reuchlin was the most important Christian Hebraist of his era and a key figure in bringing Kabbalistic thought to German lands. He learned Hebrew from Jewish scholars and produced the first Hebrew grammar written by a Christian (De Rudimentis Hebraicis, 1506). His De Arte Cabalistica (1517) was the first systematic presentation of Kabbalah for a Christian audience written in Latin. Reuchlin became embroiled in a major controversy when he defended Jewish books against destruction, opposing the converted Jew Johannes Pfefferkorn and the Cologne Dominicans. This 'Reuchlin Affair' (1510-1520) became a cause célèbre among humanists across Europe and prefigured the Reformation's conflicts with scholastic authority."
+  },
+  {
+    "id": "person-heinrich-cornelius-agrippa",
+    "type": "person",
+    "title": "Heinrich Cornelius Agrippa",
+    "shortDescription": "German polymath who systematized Renaissance magic and occult philosophy in De Occulta Philosophia",
+    "dateStart": "1486",
+    "dateEnd": "1535",
+    "birthPlace": "Cologne, Germany",
+    "deathPlace": "Grenoble, France",
+    "nationality": "German",
+    "occupations": [
+      "philosopher",
+      "occultist",
+      "theologian",
+      "physician",
+      "legal scholar",
+      "soldier"
+    ],
+    "alternateNames": [
+      "Agrippa von Nettesheim",
+      "Cornelius Agrippa"
+    ],
+    "wikipediaTitle": "Heinrich_Cornelius_Agrippa",
+    "wikidataId": "Q60305",
+    "biography": "Heinrich Cornelius Agrippa was a German polymath, physician, legal scholar, soldier, theologian, and occult writer. His three-volume De Occulta Philosophia libri tres (1531-1533) is the most comprehensive and systematic treatment of Renaissance magic ever written, synthesizing Neoplatonism, Hermeticism, Kabbalah, and natural magic into a coherent philosophical framework. He studied under Johannes Trithemius and traveled extensively across Europe, serving various patrons while defending accused witches and engaging in alchemical and magical pursuits. His later De vanitate scientiarum (1530) paradoxically attacked all human knowledge, leading some to see him as a skeptic and others as a practitioner covering his tracks."
+  },
+  {
+    "id": "person-johannes-trithemius",
+    "type": "person",
+    "title": "Johannes Trithemius",
+    "shortDescription": "Benedictine abbot, cryptographer, and historian who taught Agrippa and Paracelsus",
+    "dateStart": "1462",
+    "dateEnd": "1516",
+    "birthPlace": "Trittenheim, Germany",
+    "deathPlace": "Würzburg, Germany",
+    "nationality": "German",
+    "occupations": [
+      "abbot",
+      "historian",
+      "cryptographer",
+      "occultist"
+    ],
+    "alternateNames": [
+      "Johann Heidenberg",
+      "Tritemius"
+    ],
+    "wikipediaTitle": "Johannes_Trithemius",
+    "wikidataId": "Q60373",
+    "biography": "Johannes Trithemius was a German Benedictine abbot, lexicographer, historian, and occultist. As Abbot of Sponheim (1483-1506) and later of the Schottenkloster in Würzburg, he built one of the finest monastic libraries in Germany. He wrote extensively on cryptography (Polygraphia, Steganographia), monastic history, and magic. His Steganographia, though ostensibly about cryptography, contained material on angel magic that made it notorious. He taught both Agrippa and Paracelsus, transmitting occult traditions to the next generation. His De septem secundeis (1508) presented an angelic theory of history that influenced later esoteric thought."
+  },
+  {
+    "id": "person-guillaume-postel",
+    "type": "person",
+    "title": "Guillaume Postel",
+    "shortDescription": "French polyglot and Kabbalist who advocated for universal religion and world harmony",
+    "dateStart": "1510",
+    "dateEnd": "1581",
+    "birthPlace": "Barenton, Normandy, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "linguist",
+      "theologian",
+      "Kabbalist",
+      "diplomat",
+      "professor"
+    ],
+    "alternateNames": [
+      "Guilielmus Postellus"
+    ],
+    "wikipediaTitle": "Guillaume_Postel",
+    "wikidataId": "Q723036",
+    "biography": "Guillaume Postel was a French linguist, astronomer, diplomat, professor, and religious universalist. He was among the first Europeans to master Arabic, becoming Royal Professor of Oriental Languages at the Collège de France. He traveled to Constantinople and the Levant, collecting manuscripts and studying with Jewish scholars. His Kabbalistic works, including De originibus (1538) and Absconditorum clavis (1547), sought to demonstrate the unity of all religions through linguistic and mystical analysis. His visionary belief in universal religious harmony and his claim to have met the 'Venetian Virgin' Joanna led to his being declared insane and confined, though he continued writing prolifically."
+  },
+  {
+    "id": "person-francesco-giorgi",
+    "type": "person",
+    "title": "Francesco Giorgi",
+    "shortDescription": "Venetian Franciscan friar whose De Harmonia Mundi synthesized Kabbalah with Christian cosmology",
+    "dateStart": "1466",
+    "dateEnd": "1540",
+    "birthPlace": "Venice, Italy",
+    "deathPlace": "Venice, Italy",
+    "nationality": "Venetian/Italian",
+    "occupations": [
+      "friar",
+      "theologian",
+      "Kabbalist",
+      "architect"
+    ],
+    "alternateNames": [
+      "Francesco Giorgio Veneto",
+      "Franciscus Georgius",
+      "Francesco Zorzi"
+    ],
+    "wikipediaTitle": "Francesco_Giorgio_Veneto",
+    "wikidataId": "Q1384845",
+    "biography": "Francesco Giorgi (also known as Francesco Giorgio Veneto or Zorzi) was a Venetian Franciscan friar and Christian Kabbalist. His magnum opus, De Harmonia Mundi totius cantica tria (1525), was an encyclopedic synthesis of Kabbalah, Neoplatonism, and Christian theology, presenting the universe as a harmonious system of correspondences. The work deeply influenced Renaissance cosmology and was consulted for the architectural proportions of churches. Giorgi studied Hebrew with Jewish scholars in Venice and had access to Kabbalistic manuscripts. His In Scripturam Sacram Problemata (1536) applied Kabbalistic methods to biblical interpretation. He also advised on the divorce of Henry VIII of England."
+  },
+  {
+    "id": "person-giovanni-pico-della-mirandola",
+    "type": "person",
+    "title": "Giovanni Pico della Mirandola",
+    "shortDescription": "Italian philosopher who first synthesized Kabbalah with Christian thought in the 900 Theses",
+    "dateStart": "1463",
+    "dateEnd": "1494",
+    "birthPlace": "Mirandola, Italy",
+    "deathPlace": "Florence, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "philosopher",
+      "humanist",
+      "Kabbalist"
+    ],
+    "alternateNames": [
+      "Pico",
+      "Count of Mirandola"
+    ],
+    "wikipediaTitle": "Giovanni_Pico_della_Mirandola",
+    "wikidataId": "Q185977",
+    "biography": "Giovanni Pico della Mirandola was an Italian Renaissance philosopher, often considered the founder of Christian Kabbalah. His famous Oration on the Dignity of Man (1486) is sometimes called the 'Manifesto of the Renaissance.' In his 900 Theses (1486), 47 were derived from Kabbalistic sources, making him the first Christian to systematically incorporate Jewish mysticism into Christian theology. He argued that Kabbalah provided ancient confirmation of Christian truths, especially the Trinity and the divinity of Christ. His work was condemned by Pope Innocent VIII, but he found protection in Florence under Lorenzo de' Medici. His premature death at 31 cut short a brilliant career, but his synthesis of Kabbalah, Neoplatonism, and Christianity influenced all subsequent Christian Kabbalists."
+  },
+  {
+    "id": "person-marsilio-ficino",
+    "type": "person",
+    "title": "Marsilio Ficino",
+    "shortDescription": "Florentine philosopher who translated Plato and the Hermetic Corpus, founding Renaissance Neoplatonism",
+    "dateStart": "1433",
+    "dateEnd": "1499",
+    "birthPlace": "Figline Valdarno, Italy",
+    "deathPlace": "Careggi, Florence, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "philosopher",
+      "priest",
+      "translator",
+      "physician"
+    ],
+    "alternateNames": [
+      "Marsilius Ficinus"
+    ],
+    "wikipediaTitle": "Marsilio_Ficino",
+    "wikidataId": "Q154781",
+    "biography": "Marsilio Ficino was an Italian scholar and Catholic priest who was one of the most influential humanist philosophers of the early Italian Renaissance. Under the patronage of Cosimo de' Medici, he founded the Platonic Academy in Florence and translated the complete works of Plato into Latin for the first time. He also translated the Hermetic Corpus (1463) and works of Plotinus and other Neoplatonists. His Theologia Platonica (1482) and De vita libri tres (1489) synthesized Neoplatonism with Christianity and developed theories of natural magic and astral influence. While not a Kabbalist himself, Ficino created the Neoplatonic framework into which Pico and his successors integrated Kabbalah, and his translations and ideas were foundational for all subsequent Renaissance magic."
+  },
+  {
+    "id": "person-paracelsus",
+    "type": "person",
+    "title": "Paracelsus",
+    "shortDescription": "Revolutionary physician and alchemist who transformed medicine with chemical and mystical approaches",
+    "dateStart": "1493",
+    "dateEnd": "1541",
+    "birthPlace": "Egg, near Einsiedeln, Switzerland",
+    "deathPlace": "Salzburg, Austria",
+    "nationality": "Swiss/German",
+    "occupations": [
+      "physician",
+      "alchemist",
+      "astrologer",
+      "philosopher"
+    ],
+    "alternateNames": [
+      "Theophrastus von Hohenheim",
+      "Philippus Aureolus Theophrastus Bombastus von Hohenheim"
+    ],
+    "wikipediaTitle": "Paracelsus",
+    "wikidataId": "Q83428",
+    "biography": "Paracelsus was a Swiss-German physician, alchemist, lay theologian, and philosopher of the German Renaissance. He pioneered the use of chemicals and minerals in medicine, challenging the humoral medicine of Galen. He studied under Trithemius and traveled extensively, learning from folk healers, miners, and alchemists. His medical philosophy integrated alchemical theory, astrology, and mysticism, viewing the human body as a microcosm reflecting the macrocosm. Though not primarily a Kabbalist, his work drew on the same synthesis of Neoplatonism, Hermeticism, and natural magic, and he significantly influenced later occultist traditions. His bombastic personality and attacks on academic medicine made him controversial, but his ideas transformed European medicine and alchemy."
+  },
+  {
+    "id": "person-egidio-da-viterbo",
+    "type": "person",
+    "title": "Egidio da Viterbo",
+    "shortDescription": "Augustinian cardinal and Christian Kabbalist who patronized Hebrew scholarship at the papal court",
+    "dateStart": "1469",
+    "dateEnd": "1532",
+    "birthPlace": "Viterbo, Italy",
+    "deathPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "cardinal",
+      "theologian",
+      "Kabbalist",
+      "humanist"
+    ],
+    "alternateNames": [
+      "Giles of Viterbo",
+      "Aegidius of Viterbo"
+    ],
+    "wikipediaTitle": "Giles_of_Viterbo",
+    "wikidataId": "Q453595",
+    "biography": "Egidio da Viterbo (Giles of Viterbo) was an Italian Augustinian friar, cardinal, and Christian Kabbalist. He served as Prior General of the Augustinian Order (1506-1518) and was created cardinal in 1517. A powerful figure at the papal court, he delivered the opening address at the Fifth Lateran Council (1512). Egidio became deeply interested in Kabbalah after meeting Pico della Mirandola's circle, and he commissioned Hebrew translations and studied with Jewish scholars including Elijah Levita. His Scechina and Historia viginti saeculorum presented history through a Kabbalistic lens. He patronized Christian Hebraism at the highest levels of the Church and influenced both Reuchlin and Giorgi."
+  },
+  {
+    "id": "person-elijah-levita",
+    "type": "person",
+    "title": "Elijah Levita",
+    "shortDescription": "Jewish grammarian and scholar who taught Hebrew to Christian humanists in Italy",
+    "dateStart": "1469",
+    "dateEnd": "1549",
+    "birthPlace": "Neustadt an der Aisch, Germany",
+    "deathPlace": "Venice, Italy",
+    "nationality": "German Jewish",
+    "occupations": [
+      "grammarian",
+      "lexicographer",
+      "poet",
+      "teacher"
+    ],
+    "alternateNames": [
+      "Elijah Bachur",
+      "Elia Levita",
+      "Eliyahu ben Asher ha-Levi Ashkenazi"
+    ],
+    "wikipediaTitle": "Elijah_Levita",
+    "wikidataId": "Q699096",
+    "biography": "Elijah Levita (Elijah Bachur) was a Jewish humanist, grammarian, and scholar who played a crucial role in transmitting Hebrew knowledge to Christian humanists. Born in Germany, he moved to Italy and eventually lived with Cardinal Egidio da Viterbo for thirteen years, teaching him Hebrew while receiving support for his scholarly work. He wrote influential Hebrew grammars and the first Yiddish romance (Bovo-Bukh). His Masoret ha-Masoret (1538) argued controversially that the Hebrew vowel points were a later addition, a claim that had significant implications for biblical scholarship. Through his teaching and publications, Levita directly shaped the Hebrew learning of the most important Christian Kabbalists."
+  },
+  {
+    "id": "person-johannes-pfefferkorn",
+    "type": "person",
+    "title": "Johannes Pfefferkorn",
+    "shortDescription": "Converted Jew who campaigned for the destruction of Hebrew books, triggering the Reuchlin Affair",
+    "dateStart": "1469",
+    "dateEnd": "1523",
+    "birthPlace": "Nuremberg or Moravia",
+    "deathPlace": "Cologne, Germany",
+    "nationality": "German",
+    "occupations": [
+      "pamphleteer",
+      "butcher"
+    ],
+    "alternateNames": [
+      "Johann Pfefferkorn"
+    ],
+    "wikipediaTitle": "Johannes_Pfefferkorn",
+    "wikidataId": "Q63203",
+    "biography": "Johannes Pfefferkorn was a German Jewish convert to Christianity who became notorious for his campaign to confiscate and destroy Jewish books. After his conversion around 1504, he obtained an imperial mandate from Emperor Maximilian I to examine and potentially destroy Hebrew books that he claimed blasphemed Christianity. Reuchlin's opposition to this campaign sparked the 'Reuchlin Affair,' a major intellectual controversy that pitted humanists against scholastic theologians. Pfefferkorn and Reuchlin exchanged bitter polemics (Pfefferkorn's Handspiegel vs. Reuchlin's Augenspiegel), and the dispute became a proxy battle over humanist methods and the value of non-Christian learning."
+  },
+  {
+    "id": "person-jacques-lefevre-detaples",
+    "type": "person",
+    "title": "Jacques Lefèvre d'Étaples",
+    "shortDescription": "French humanist who edited mystical texts and pioneered evangelical reform in France",
+    "dateStart": "1455",
+    "dateEnd": "1536",
+    "birthPlace": "Étaples, France",
+    "deathPlace": "Nérac, France",
+    "nationality": "French",
+    "occupations": [
+      "humanist",
+      "theologian",
+      "philosopher",
+      "translator"
+    ],
+    "alternateNames": [
+      "Jacobus Faber Stapulensis",
+      "Lefèvre d'Étaples"
+    ],
+    "wikipediaTitle": "Jacques_Lefèvre_d'Étaples",
+    "wikidataId": "Q332616",
+    "biography": "Jacques Lefèvre d'Étaples was a French humanist, theologian, and a key figure in the evangelical movement in France. He edited and published works of Pseudo-Dionysius, Nicholas of Cusa, and the Hermetic writings, making mystical and Neoplatonic texts available to a wider audience. His critical editions of Aristotle challenged scholastic interpretations. While not primarily a Kabbalist, his interest in mystical theology, numerology, and ancient wisdom connected him to Kabbalistic circles, and he knew Pico's work well. His student Charles de Bovelles carried on his interest in symbolic and mystical interpretation. Lefèvre's biblical translations and reform ideas made him a forerunner of French Protestantism."
+  },
+  {
+    "id": "object-de-arte-cabalistica",
+    "type": "object",
+    "title": "De Arte Cabalistica",
+    "shortDescription": "Reuchlin's systematic treatise on Christian Kabbalah (1517)",
+    "dateStart": "1517",
+    "objectType": "treatise",
+    "creators": [
+      "person-johannes-reuchlin"
+    ],
+    "language": "Latin",
+    "subject": "Christian Kabbalah",
+    "wikipediaTitle": "De_Arte_Cabalistica",
+    "wikidataId": "Q1180147"
+  },
+  {
+    "id": "object-de-verbo-mirifico",
+    "type": "object",
+    "title": "De Verbo Mirifico",
+    "shortDescription": "Reuchlin's earlier work on the wonder-working name of Jesus (1494)",
+    "dateStart": "1494",
+    "objectType": "treatise",
+    "creators": [
+      "person-johannes-reuchlin"
+    ],
+    "language": "Latin",
+    "subject": "Kabbalah, theurgy",
+    "wikipediaTitle": "De_verbo_mirifico",
+    "wikidataId": "Q1180145"
+  },
+  {
+    "id": "object-de-rudimentis-hebraicis",
+    "type": "object",
+    "title": "De Rudimentis Hebraicis",
+    "shortDescription": "First Hebrew grammar written by a Christian (1506)",
+    "dateStart": "1506",
+    "objectType": "grammar",
+    "creators": [
+      "person-johannes-reuchlin"
+    ],
+    "language": "Latin/Hebrew",
+    "subject": "Hebrew language",
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-de-occulta-philosophia",
+    "type": "object",
+    "title": "De Occulta Philosophia libri tres",
+    "shortDescription": "Agrippa's comprehensive encyclopedia of Renaissance magic (1531-1533)",
+    "dateStart": "1533",
+    "objectType": "treatise",
+    "creators": [
+      "person-heinrich-cornelius-agrippa"
+    ],
+    "language": "Latin",
+    "subject": "magic, Kabbalah, Neoplatonism",
+    "wikipediaTitle": "Three_Books_of_Occult_Philosophy",
+    "wikidataId": "Q328741"
+  },
+  {
+    "id": "object-de-vanitate-scientiarum",
+    "type": "object",
+    "title": "De incertitudine et vanitate scientiarum",
+    "shortDescription": "Agrippa's skeptical critique of all human knowledge (1530)",
+    "dateStart": "1530",
+    "objectType": "treatise",
+    "creators": [
+      "person-heinrich-cornelius-agrippa"
+    ],
+    "language": "Latin",
+    "subject": "skepticism, critique of sciences",
+    "wikipediaTitle": "De_incertitudine_et_vanitate_scientiarum_et_artium",
+    "wikidataId": "Q1182689"
+  },
+  {
+    "id": "object-steganographia",
+    "type": "object",
+    "title": "Steganographia",
+    "shortDescription": "Trithemius's notorious work on cryptography and angel magic (c. 1499)",
+    "dateStart": "1499",
+    "objectType": "treatise",
+    "creators": [
+      "person-johannes-trithemius"
+    ],
+    "language": "Latin",
+    "subject": "cryptography, angel magic",
+    "wikipediaTitle": "Steganographia",
+    "wikidataId": "Q646795"
+  },
+  {
+    "id": "object-polygraphia",
+    "type": "object",
+    "title": "Polygraphia",
+    "shortDescription": "Trithemius's influential work on cryptography (1518)",
+    "dateStart": "1518",
+    "objectType": "treatise",
+    "creators": [
+      "person-johannes-trithemius"
+    ],
+    "language": "Latin",
+    "subject": "cryptography",
+    "wikipediaTitle": "Polygraphia_(book)",
+    "wikidataId": "Q2101507"
+  },
+  {
+    "id": "object-de-septem-secundeis",
+    "type": "object",
+    "title": "De septem secundeis",
+    "shortDescription": "Trithemius's angelic theory of history (1508)",
+    "dateStart": "1508",
+    "objectType": "treatise",
+    "creators": [
+      "person-johannes-trithemius"
+    ],
+    "language": "Latin",
+    "subject": "angel magic, philosophy of history",
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-de-harmonia-mundi",
+    "type": "object",
+    "title": "De Harmonia Mundi totius cantica tria",
+    "shortDescription": "Giorgi's encyclopedic synthesis of Kabbalah and cosmic harmony (1525)",
+    "dateStart": "1525",
+    "objectType": "treatise",
+    "creators": [
+      "person-francesco-giorgi"
+    ],
+    "language": "Latin",
+    "subject": "Kabbalah, cosmology, harmony",
+    "wikipediaTitle": "De_harmonia_mundi",
+    "wikidataId": "Q5247052"
+  },
+  {
+    "id": "object-in-scripturam-sacram-problemata",
+    "type": "object",
+    "title": "In Scripturam Sacram Problemata",
+    "shortDescription": "Giorgi's Kabbalistic biblical commentary (1536)",
+    "dateStart": "1536",
+    "objectType": "commentary",
+    "creators": [
+      "person-francesco-giorgi"
+    ],
+    "language": "Latin",
+    "subject": "biblical interpretation, Kabbalah",
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-900-theses",
+    "type": "object",
+    "title": "Conclusiones philosophicae, cabalisticae et theologicae",
+    "shortDescription": "Pico's 900 Theses including first Christian Kabbalist propositions (1486)",
+    "dateStart": "1486",
+    "objectType": "philosophical theses",
+    "creators": [
+      "person-giovanni-pico-della-mirandola"
+    ],
+    "language": "Latin",
+    "subject": "philosophy, Kabbalah, theology",
+    "alternateNames": [
+      "900 Theses",
+      "Conclusiones"
+    ],
+    "wikipediaTitle": "900_Theses",
+    "wikidataId": "Q2674076"
+  },
+  {
+    "id": "object-oration-dignity-man",
+    "type": "object",
+    "title": "Oration on the Dignity of Man",
+    "shortDescription": "Pico's famous humanist manifesto on human potential (1486)",
+    "dateStart": "1486",
+    "objectType": "oration",
+    "creators": [
+      "person-giovanni-pico-della-mirandola"
+    ],
+    "language": "Latin",
+    "subject": "humanism, human dignity",
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
+    "wikidataId": "Q2021193"
+  },
+  {
+    "id": "object-theologia-platonica",
+    "type": "object",
+    "title": "Theologia Platonica",
+    "shortDescription": "Ficino's synthesis of Platonic philosophy and Christian theology (1482)",
+    "dateStart": "1482",
+    "objectType": "treatise",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "language": "Latin",
+    "subject": "Neoplatonism, theology",
+    "wikipediaTitle": "Theologia_Platonica",
+    "wikidataId": "Q7781428"
+  },
+  {
+    "id": "object-de-vita-libri-tres",
+    "type": "object",
+    "title": "De vita libri tres",
+    "shortDescription": "Ficino's treatise on natural magic, astrology, and health (1489)",
+    "dateStart": "1489",
+    "objectType": "treatise",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "language": "Latin",
+    "subject": "natural magic, astrology, medicine",
+    "wikipediaTitle": "De_vita_libri_tres",
+    "wikidataId": "Q1181428"
+  },
+  {
+    "id": "object-corpus-hermeticum-translation",
+    "type": "object",
+    "title": "Corpus Hermeticum (Latin translation)",
+    "shortDescription": "Ficino's Latin translation of the Hermetic texts (1463)",
+    "dateStart": "1463",
+    "objectType": "translation",
+    "creators": [
+      "person-marsilio-ficino"
+    ],
+    "language": "Latin (from Greek)",
+    "subject": "Hermeticism",
+    "wikipediaTitle": "Corpus_Hermeticum",
+    "wikidataId": "Q862087"
+  },
+  {
+    "id": "object-de-originibus",
+    "type": "object",
+    "title": "De originibus seu de Hebraicae linguae et gentis antiquitate",
+    "shortDescription": "Postel's work on Hebrew as the original language (1538)",
+    "dateStart": "1538",
+    "objectType": "treatise",
+    "creators": [
+      "person-guillaume-postel"
+    ],
+    "language": "Latin",
+    "subject": "Hebrew, linguistics, universal history",
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-absconditorum-clavis",
+    "type": "object",
+    "title": "Absconditorum clavis",
+    "shortDescription": "Postel's Kabbalistic key to hidden meanings (1547)",
+    "dateStart": "1547",
+    "objectType": "treatise",
+    "creators": [
+      "person-guillaume-postel"
+    ],
+    "language": "Latin",
+    "subject": "Kabbalah",
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-masoret-ha-masoret",
+    "type": "object",
+    "title": "Masoret ha-Masoret",
+    "shortDescription": "Levita's controversial work arguing vowel points are a later addition (1538)",
+    "dateStart": "1538",
+    "objectType": "scholarly treatise",
+    "creators": [
+      "person-elijah-levita"
+    ],
+    "language": "Hebrew",
+    "subject": "Hebrew grammar, Masoretic tradition",
+    "wikipediaTitle": "Masoret_HaMasoret",
+    "wikidataId": "Q1899088"
+  },
+  {
+    "id": "object-augenspiegel",
+    "type": "object",
+    "title": "Augenspiegel",
+    "shortDescription": "Reuchlin's defense of Hebrew books against Pfefferkorn (1511)",
+    "dateStart": "1511",
+    "objectType": "polemic",
+    "creators": [
+      "person-johannes-reuchlin"
+    ],
+    "language": "German",
+    "subject": "defense of Hebrew learning",
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "object-letters-obscure-men",
+    "type": "object",
+    "title": "Epistolae Obscurorum Virorum",
+    "shortDescription": "Satirical letters mocking scholastic opponents of Reuchlin (1515-1517)",
+    "dateStart": "1515",
+    "dateEnd": "1517",
+    "objectType": "satire",
+    "language": "Latin",
+    "subject": "satire of scholasticism",
+    "wikipediaTitle": "Letters_of_Obscure_Men",
+    "wikidataId": "Q672269"
+  },
+  {
+    "id": "location-florence",
+    "type": "location",
+    "title": "Florence",
+    "shortDescription": "Center of Renaissance humanism and the Platonic Academy",
+    "locationType": "city",
+    "country": "Italy",
+    "wikipediaTitle": "Florence",
+    "wikidataId": "Q2044"
+  },
+  {
+    "id": "location-venice",
+    "type": "location",
+    "title": "Venice",
+    "shortDescription": "Major center for Hebrew printing and Christian-Jewish intellectual exchange",
+    "locationType": "city",
+    "country": "Italy",
+    "wikipediaTitle": "Venice",
+    "wikidataId": "Q641"
+  },
+  {
+    "id": "location-cologne",
+    "type": "location",
+    "title": "Cologne",
+    "shortDescription": "German university city, center of the anti-Reuchlin faction",
+    "locationType": "city",
+    "country": "Germany",
+    "wikipediaTitle": "Cologne",
+    "wikidataId": "Q365"
+  },
+  {
+    "id": "location-rome",
+    "type": "location",
+    "title": "Rome",
+    "shortDescription": "Papal court, site of both patronage and condemnation of Kabbalistic works",
+    "locationType": "city",
+    "country": "Italy",
+    "wikipediaTitle": "Rome",
+    "wikidataId": "Q220"
+  },
+  {
+    "id": "location-sponheim-abbey",
+    "type": "location",
+    "title": "Sponheim Abbey",
+    "shortDescription": "Benedictine monastery where Trithemius built a famous library",
+    "locationType": "monastery",
+    "country": "Germany",
+    "parentLocation": "location-germany",
+    "dateStart": "1044",
+    "wikipediaTitle": "Sponheim_Abbey",
+    "wikidataId": "Q569604"
+  },
+  {
+    "id": "location-wuerzburg",
+    "type": "location",
+    "title": "Würzburg",
+    "shortDescription": "German episcopal city where Trithemius spent his final years",
+    "locationType": "city",
+    "country": "Germany",
+    "wikipediaTitle": "Würzburg",
+    "wikidataId": "Q1728"
+  },
+  {
+    "id": "location-paris",
+    "type": "location",
+    "title": "Paris",
+    "shortDescription": "Home of the Collège de France where Postel taught Oriental languages",
+    "locationType": "city",
+    "country": "France",
+    "wikipediaTitle": "Paris",
+    "wikidataId": "Q90"
+  },
+  {
+    "id": "entity-platonic-academy-florence",
+    "type": "entity",
+    "title": "Platonic Academy of Florence",
+    "shortDescription": "Informal circle of Neoplatonic scholars around Ficino under Medici patronage",
+    "entityType": "academy",
+    "dateStart": "1462",
+    "dateEnd": "1494",
+    "foundedBy": [
+      "person-marsilio-ficino"
+    ],
+    "headquarters": "location-florence",
+    "wikipediaTitle": "Platonic_Academy_(Florence)",
+    "wikidataId": "Q2046693"
+  },
+  {
+    "id": "entity-college-de-france",
+    "type": "entity",
+    "title": "Collège de France",
+    "shortDescription": "Royal college in Paris where Postel was professor of Oriental languages",
+    "entityType": "institution",
+    "dateStart": "1530",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Collège_de_France",
+    "wikidataId": "Q202660"
+  },
+  {
+    "id": "entity-university-of-cologne",
+    "type": "entity",
+    "title": "University of Cologne",
+    "shortDescription": "German university, home to scholastic opponents of Reuchlin",
+    "entityType": "institution",
+    "dateStart": "1388",
+    "headquarters": "location-cologne",
+    "wikipediaTitle": "University_of_Cologne",
+    "wikidataId": "Q151510"
+  },
+  {
+    "id": "entity-dominican-order",
+    "type": "entity",
+    "title": "Dominican Order (Cologne)",
+    "shortDescription": "Mendicant order whose Cologne members led opposition to Reuchlin",
+    "entityType": "religious order",
+    "wikipediaTitle": "Dominican_Order",
+    "wikidataId": "Q192632"
+  },
+  {
+    "id": "person-lorenzo-de-medici",
+    "type": "person",
+    "title": "Lorenzo de' Medici",
+    "shortDescription": "Ruler of Florence who patronized Ficino, Pico, and Renaissance learning",
+    "dateStart": "1449",
+    "dateEnd": "1492",
+    "birthPlace": "Florence, Italy",
+    "deathPlace": "Florence, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "ruler",
+      "banker",
+      "patron"
+    ],
+    "alternateNames": [
+      "Lorenzo the Magnificent",
+      "Il Magnifico"
+    ],
+    "wikipediaTitle": "Lorenzo_de'_Medici",
+    "wikidataId": "Q177854"
+  },
+  {
+    "id": "person-cosimo-de-medici",
+    "type": "person",
+    "title": "Cosimo de' Medici",
+    "shortDescription": "Founder of the Medici political dynasty who patronized Ficino",
+    "dateStart": "1389",
+    "dateEnd": "1464",
+    "birthPlace": "Florence, Italy",
+    "deathPlace": "Careggi, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "banker",
+      "ruler",
+      "patron"
+    ],
+    "alternateNames": [
+      "Cosimo the Elder",
+      "Cosimo il Vecchio"
+    ],
+    "wikipediaTitle": "Cosimo_de'_Medici",
+    "wikidataId": "Q188989"
+  },
+  {
+    "id": "person-maximilian-i",
+    "type": "person",
+    "title": "Maximilian I, Holy Roman Emperor",
+    "shortDescription": "Holy Roman Emperor who issued mandate on Hebrew books in Reuchlin Affair",
+    "dateStart": "1459",
+    "dateEnd": "1519",
+    "birthPlace": "Wiener Neustadt, Austria",
+    "deathPlace": "Wels, Austria",
+    "nationality": "Austrian/German",
+    "occupations": [
+      "emperor",
+      "ruler"
+    ],
+    "wikipediaTitle": "Maximilian_I,_Holy_Roman_Emperor",
+    "wikidataId": "Q150726"
+  },
+  {
+    "id": "person-jakob-hoogstraten",
+    "type": "person",
+    "title": "Jakob van Hoogstraten",
+    "shortDescription": "Dominican inquisitor who led the prosecution of Reuchlin",
+    "dateStart": "1460",
+    "dateEnd": "1527",
+    "birthPlace": "Hoogstraten, Brabant",
+    "deathPlace": "Cologne, Germany",
+    "nationality": "Flemish/German",
+    "occupations": [
+      "inquisitor",
+      "theologian",
+      "Dominican friar"
+    ],
+    "wikipediaTitle": "Jakob_van_Hoogstraten",
+    "wikidataId": "Q702058"
+  },
+  {
+    "id": "person-flavius-mithridates",
+    "type": "person",
+    "title": "Flavius Mithridates",
+    "shortDescription": "Sicilian Jewish convert who taught Pico Hebrew and translated Kabbalistic texts",
+    "dateStart": "1450",
+    "dateEnd": "1489",
+    "birthPlace": "Sicily",
+    "nationality": "Sicilian Jewish (converted)",
+    "occupations": [
+      "translator",
+      "teacher",
+      "scholar"
+    ],
+    "alternateNames": [
+      "Guglielmo Raimondo Moncada",
+      "Samuel ben Nissim"
+    ],
+    "wikipediaTitle": "Flavius_Mithridates",
+    "wikidataId": "Q1426689"
+  },
+  {
+    "id": "person-charles-de-bovelles",
+    "type": "person",
+    "title": "Charles de Bovelles",
+    "shortDescription": "French philosopher who applied geometric symbolism and mystical mathematics",
+    "dateStart": "1479",
+    "dateEnd": "1567",
+    "birthPlace": "Saucourt, Picardy, France",
+    "deathPlace": "Ham, France",
+    "nationality": "French",
+    "occupations": [
+      "philosopher",
+      "mathematician",
+      "theologian"
+    ],
+    "alternateNames": [
+      "Carolus Bovillus"
+    ],
+    "wikipediaTitle": "Charles_de_Bovelles",
+    "wikidataId": "Q540500",
+    "biography": "Charles de Bovelles was a French philosopher and mathematician who studied under Jacques Lefèvre d'Étaples. He developed a symbolic philosophy influenced by Nicholas of Cusa, emphasizing geometric and numerical symbolism. His Liber de sapiente (1509) explored the dignity of human wisdom. While not primarily a Kabbalist, his interest in symbolic interpretation and number mysticism connected him to the broader Christian Kabbalist milieu."
+  },
+  {
+    "id": "person-pope-leo-x",
+    "type": "person",
+    "title": "Pope Leo X",
+    "shortDescription": "Medici pope who patronized humanists and received Reuchlin's De Arte Cabalistica dedication",
+    "dateStart": "1475",
+    "dateEnd": "1521",
+    "birthPlace": "Florence, Italy",
+    "deathPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "pope",
+      "patron"
+    ],
+    "alternateNames": [
+      "Giovanni di Lorenzo de' Medici"
+    ],
+    "wikipediaTitle": "Pope_Leo_X",
+    "wikidataId": "Q81520",
+    "biography": "Giovanni de' Medici, son of Lorenzo the Magnificent, became Pope Leo X in 1513. He was educated by humanists including Ficino and Pico, and continued Medici patronage of learning. Reuchlin dedicated De Arte Cabalistica to him, and Leo ultimately dismissed the heresy proceedings against Reuchlin (though the case was not definitively resolved until after Leo's death)."
+  },
+  {
+    "id": "person-pope-innocent-viii",
+    "type": "person",
+    "title": "Pope Innocent VIII",
+    "shortDescription": "Pope who condemned Pico's 900 Theses as containing heretical propositions",
+    "dateStart": "1432",
+    "dateEnd": "1492",
+    "birthPlace": "Genoa, Italy",
+    "deathPlace": "Rome, Italy",
+    "nationality": "Italian",
+    "occupations": [
+      "pope"
+    ],
+    "alternateNames": [
+      "Giovanni Battista Cybo"
+    ],
+    "wikipediaTitle": "Pope_Innocent_VIII",
+    "wikidataId": "Q170876",
+    "biography": "Pope Innocent VIII issued the bull Summis desiderantes affectibus (1484) intensifying witch persecutions, and in 1487 condemned 13 of Pico della Mirandola's 900 Theses as heretical, forcing Pico to flee to France before finding refuge in Florence."
+  },
+  {
+    "id": "person-ulrich-von-hutten",
+    "type": "person",
+    "title": "Ulrich von Hutten",
+    "shortDescription": "German humanist knight who defended Reuchlin and attacked scholasticism",
+    "dateStart": "1488",
+    "dateEnd": "1523",
+    "birthPlace": "Steckelberg Castle, Hesse, Germany",
+    "deathPlace": "Ufenau, Switzerland",
+    "nationality": "German",
+    "occupations": [
+      "humanist",
+      "knight",
+      "poet",
+      "polemicist"
+    ],
+    "wikipediaTitle": "Ulrich_von_Hutten",
+    "wikidataId": "Q77107",
+    "biography": "Ulrich von Hutten was a German humanist and imperial knight who became one of Reuchlin's most vocal defenders. He contributed to the Epistolae Obscurorum Virorum (Letters of Obscure Men), a satirical attack on Reuchlin's scholastic opponents. Later he supported Luther and the Reformation, though his relationship with Luther became complicated."
+  },
+  {
+    "id": "person-crotus-rubeanus",
+    "type": "person",
+    "title": "Crotus Rubeanus",
+    "shortDescription": "German humanist who authored much of the Letters of Obscure Men",
+    "dateStart": "1480",
+    "dateEnd": "1545",
+    "birthPlace": "Dornheim, Thuringia, Germany",
+    "deathPlace": "Halberstadt, Germany",
+    "nationality": "German",
+    "occupations": [
+      "humanist",
+      "satirist",
+      "clergyman"
+    ],
+    "alternateNames": [
+      "Johannes Jäger"
+    ],
+    "wikipediaTitle": "Crotus_Rubeanus",
+    "wikidataId": "Q65521",
+    "biography": "Crotus Rubeanus was a German humanist who was the primary author of the first volume of Epistolae Obscurorum Virorum (1515), a brilliant satire that defended Reuchlin by mocking the ignorance and bad Latin of his scholastic opponents. The work became one of the most influential humanist satires."
+  }
+]

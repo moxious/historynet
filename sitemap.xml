@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 
+    Scenius Sitemap
+    
+    Note: This is a Single Page Application (SPA) using hash-based routing (#/).
+    Most content is loaded dynamically via JavaScript. This sitemap includes
+    the main entry point, dataset overview pages, and explore pages.
+    
+    URL Structure (M31):
+    - /#/{datasetId}          - Dataset overview page
+    - /#/{datasetId}/explore  - Graph/timeline/radial exploration
+    
+    For full content discovery, search engines should execute JavaScript.
+  -->
+  
+  <!-- Home page / main application -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- AI & LLM Research Network -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/ai-llm-research</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/ai-llm-research/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Ambient Music Network -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/ambient-music</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/ambient-music/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Christian Kabbalah -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/christian-kabbalah</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/christian-kabbalah/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Cybernetics & Information Theory -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/cybernetics-information-theory</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/cybernetics-information-theory/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Enlightenment Network -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/enlightenment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/enlightenment/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Florentine Academy -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/florentine-academy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/florentine-academy/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Protestant Reformation -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/protestant-reformation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/protestant-reformation/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Renaissance Humanism -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/renaissance-humanism</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/renaissance-humanism/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Rosicrucian Network -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/rosicrucian-network</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/rosicrucian-network/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Scientific Revolution -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/scientific-revolution</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/scientific-revolution/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Statistics & Social Physics -->
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/statistics-social-physics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://scenius-seven.vercel.app/#/statistics-social-physics/explore</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

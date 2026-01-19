@@ -1,0 +1,129 @@
+{
+  "id": "christian-kabbalah",
+  "name": "Christian Kabbalist Network",
+  "description": "The Christian Kabbalist Network (c. 1490–1560) represents a pivotal intellectual movement that synthesized Jewish mystical traditions with Christian theology and Renaissance Neoplatonism. Building on the Florentine synthesis pioneered by Pico della Mirandola and Marsilio Ficino, this network carried Kabbalistic ideas northward into German lands and throughout Europe. Key figures like Johannes Reuchlin defended Hebrew learning against scholastic opposition, while systematizers like Heinrich Cornelius Agrippa integrated Kabbalah into broader frameworks of Renaissance magic and natural philosophy. The network connected scholars across confessional boundaries—Catholic friars, Protestant humanists, and independent occultists—united by their conviction that ancient Hebrew wisdom held keys to universal religious truth and the secrets of creation.",
+  "bannerEmoji": "✡️✝️",
+  "lastUpdated": "2026-01-19",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 53,
+  "edgeCount": 75,
+  "scope": {
+    "startYear": 1490,
+    "endYear": 1570,
+    "regions": [
+      "Germany",
+      "Italy",
+      "France",
+      "Switzerland",
+      "Netherlands",
+      "England"
+    ],
+    "themes": [
+      "Christian Kabbalah",
+      "Renaissance magic",
+      "Hebrew scholarship",
+      "Neoplatonism",
+      "occult philosophy",
+      "hermetic tradition",
+      "universal religion",
+      "natural philosophy"
+    ],
+    "seedFigures": [
+      "person-johannes-reuchlin",
+      "person-heinrich-cornelius-agrippa",
+      "person-johannes-trithemius",
+      "person-guillaume-postel",
+      "person-francesco-giorgi"
+    ],
+    "subgroups": [
+      {
+        "id": "florentine-predecessors",
+        "name": "Florentine Predecessors",
+        "description": "Italian scholars who pioneered the Christian Kabbalist synthesis: Pico, Ficino, and their circle"
+      },
+      {
+        "id": "german-kabbalists",
+        "name": "German Kabbalists",
+        "description": "German-speaking figures: Reuchlin, Agrippa, Trithemius, Paracelsus and associates"
+      },
+      {
+        "id": "french-kabbalists",
+        "name": "French Kabbalists",
+        "description": "French figures including Postel and Lefèvre d'Étaples"
+      },
+      {
+        "id": "italian-continuators",
+        "name": "Italian Continuators",
+        "description": "Later Italian figures: Francesco Giorgi, Egidio da Viterbo, and others"
+      },
+      {
+        "id": "hebrew-sources",
+        "name": "Hebrew Sources and Contacts",
+        "description": "Jewish scholars who taught or influenced the Christian Kabbalists"
+      },
+      {
+        "id": "opponents-controversies",
+        "name": "Opponents and Controversies",
+        "description": "Figures involved in the controversies over Hebrew learning (e.g., Pfefferkorn, the Cologne Dominicans)"
+      }
+    ],
+    "exclusionNotes": "Excluding purely Jewish Kabbalists without documented Christian contacts, later Rosicrucian figures (covered in rosicrucian-network dataset), and Protestant reformers without direct Kabbalistic interests. The Renaissance Humanism dataset covers broader humanist context."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "florentine-predecessors",
+      "german-kabbalists",
+      "french-kabbalists",
+      "italian-continuators",
+      "hebrew-sources",
+      "opponents-controversies"
+    ],
+    "pendingBatches": [],
+    "gaps": [
+      {
+        "description": "Spanish Kabbalists (e.g., Abraham Abulafia influences)",
+        "priority": "medium"
+      },
+      {
+        "description": "English connections (John Dee, later period)",
+        "priority": "low"
+      },
+      {
+        "description": "More Jewish teachers beyond Levita and Mithridates",
+        "priority": "medium"
+      },
+      {
+        "description": "Printing history - Bomberg and Hebrew printing in Venice",
+        "priority": "low"
+      }
+    ],
+    "excludedFigures": []
+  },
+  "customRelationshipTypes": [
+    {
+      "type": "transmitted_knowledge_to",
+      "description": "Passed on esoteric or specialized knowledge (e.g., Kabbalistic teachings, magical practices)",
+      "directed": true
+    },
+    {
+      "type": "defended",
+      "description": "Publicly defended against attack or persecution",
+      "directed": true
+    },
+    {
+      "type": "attacked",
+      "description": "Publicly attacked or criticized (writings, reputation, or person)",
+      "directed": true
+    },
+    {
+      "type": "dedicated_to",
+      "description": "Work was dedicated to a patron or supporter",
+      "directed": true
+    }
+  ],
+  "bannerImage": "img/banners/christian-kabbalah.jpg"
+}

@@ -1,0 +1,127 @@
+{
+  "id": "scientific-revolution",
+  "name": "Scientific Revolution",
+  "description": "The Scientific Revolution (1543–1700) network traces the transformation of European knowledge-making through mathematics, experiment, instruments, and new institutional forms. This bridge network connects the Rosicrucian/Hartlib correspondence era to Enlightenment science, following key figures from court astronomy through the Royal Society to the Newtonian synthesis.",
+  "bannerEmoji": "🔭⚗️",
+  "lastUpdated": "2026-01-19",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 51,
+  "edgeCount": 94,
+  "scope": {
+    "startYear": 1543,
+    "endYear": 1700,
+    "regions": [
+      "Italy",
+      "Holy Roman Empire",
+      "England",
+      "France",
+      "Dutch Republic"
+    ],
+    "themes": [
+      "heliocentrism",
+      "experimental philosophy",
+      "scientific societies",
+      "mathematical astronomy",
+      "instruments and observation"
+    ],
+    "seedFigures": [
+      "person-galileo-galilei",
+      "person-johannes-kepler",
+      "person-robert-boyle",
+      "person-isaac-newton"
+    ],
+    "subgroups": [
+      {
+        "id": "astronomy",
+        "name": "Astronomy & Cosmology",
+        "description": "Copernicus → Tycho → Kepler → Galileo → Newtonian astronomy"
+      },
+      {
+        "id": "counter-reformation",
+        "name": "Counter-Reformation Context",
+        "description": "Roman Inquisition, key clerical interlocutors"
+      },
+      {
+        "id": "experimental",
+        "name": "Experimental Philosophy",
+        "description": "Boyle, Hooke, pneumatic experiments, early chemistry"
+      },
+      {
+        "id": "correspondence",
+        "name": "Correspondence Networks",
+        "description": "Hartlib Circle, early Royal Society precursors"
+      },
+      {
+        "id": "societies",
+        "name": "Learned Societies",
+        "description": "Royal Society, Académie des Sciences, journal culture"
+      },
+      {
+        "id": "synthesis",
+        "name": "Mathematical Synthesis",
+        "description": "Newton, Leibniz, calculus, mechanics"
+      }
+    ],
+    "exclusionNotes": "Excludes full medicine/anatomy coverage beyond anchors; post-1700 Enlightenment uptake except direct bridge edges; alchemy/occult only where directly connected to institutional science"
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "astronomy",
+      "counter-reformation",
+      "experimental",
+      "correspondence",
+      "societies",
+      "synthesis"
+    ],
+    "pendingBatches": [],
+    "gaps": [],
+    "excludedFigures": [
+      {
+        "name": "Andreas Vesalius",
+        "reason": "Anatomy focus outside core bridge scope"
+      },
+      {
+        "name": "William Harvey",
+        "reason": "Medicine/anatomy tangential to astronomy/physics bridge"
+      },
+      {
+        "name": "Blaise Pascal",
+        "reason": "Mathematical/religious focus; potential future addition"
+      },
+      {
+        "name": "Pierre Gassendi",
+        "reason": "Atomist philosophy tangential unless Mersenne network expanded"
+      },
+      {
+        "name": "Athanasius Kircher",
+        "reason": "Jesuit polymath risks scope creep"
+      },
+      {
+        "name": "Thomas Hobbes",
+        "reason": "Philosopher tangential to experimental philosophy core"
+      }
+    ]
+  },
+  "customRelationshipTypes": [
+    {
+      "type": "condemned",
+      "description": "Authority formally condemned a person or work",
+      "directed": true
+    },
+    {
+      "type": "tried",
+      "description": "Authority conducted a formal trial of person",
+      "directed": true
+    },
+    {
+      "type": "forced_recantation",
+      "description": "Authority required formal recantation/abjuration",
+      "directed": true
+    }
+  ],
+  "bannerImage": "img/banners/scientific-revolution.jpg"
+}

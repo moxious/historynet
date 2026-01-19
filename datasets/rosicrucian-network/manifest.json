@@ -1,0 +1,189 @@
+{
+  "id": "rosicrucian-network",
+  "name": "Rosicrucian-Paracelsian Network",
+  "description": "Intellectual network of the early 17th century centered on the Rosicrucian manifestos, German Christian theosophy (Jacob Boehme), Paracelsian medicine, and the Prague court of Rudolf II. Spans c. 1540-1700 and includes the Tübingen Circle, English Rosicrucians, the Hartlib Circle, and political patrons of the 'Rosicrucian hope.'",
+  "bannerEmoji": "🌹✝️",
+  "lastUpdated": "2026-01-19",
+  "version": "1.2.0",
+  "author": "HistoryNet Research",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 112,
+  "edgeCount": 229,
+  "scope": {
+    "startYear": 1493,
+    "endYear": 1700,
+    "regions": [
+      "Germany",
+      "Bohemia",
+      "England",
+      "Netherlands",
+      "Prussia",
+      "Switzerland",
+      "Denmark"
+    ],
+    "themes": [
+      "Rosicrucianism",
+      "Paracelsianism",
+      "Christian theosophy",
+      "Alchemy",
+      "Hermeticism",
+      "Early modern science",
+      "Pansophia",
+      "Educational reform"
+    ],
+    "seedFigures": [
+      "person-jacob-boehme",
+      "person-jv-andreae",
+      "person-robert-fludd",
+      "person-paracelsus"
+    ],
+    "subgroups": [
+      {
+        "id": "tubingen-circle",
+        "name": "Tübingen Circle",
+        "description": "German academic circle that produced the Rosicrucian manifestos"
+      },
+      {
+        "id": "german-mystics",
+        "name": "German Mystical Tradition",
+        "description": "Christian theosophers and spiritualists"
+      },
+      {
+        "id": "paracelsians",
+        "name": "Paracelsian Network",
+        "description": "Physicians and alchemists in the Paracelsian tradition"
+      },
+      {
+        "id": "prague-court",
+        "name": "Prague Court Circle",
+        "description": "Figures associated with Rudolf II's court"
+      },
+      {
+        "id": "english-rosicrucians",
+        "name": "English Rosicrucians",
+        "description": "English defenders and practitioners of Rosicrucian ideas"
+      },
+      {
+        "id": "hartlib-circle",
+        "name": "Hartlib Circle",
+        "description": "Mid-17th century reform network centered on Samuel Hartlib"
+      },
+      {
+        "id": "political-patrons",
+        "name": "Political Patrons",
+        "description": "Rulers and nobles who patronized esoteric research"
+      },
+      {
+        "id": "manuscript-collectors",
+        "name": "Manuscript Collectors",
+        "description": "Those who preserved Paracelsian and esoteric texts"
+      }
+    ],
+    "exclusionNotes": "Excludes later 18th-19th century Rosicrucian revival organizations (AMORC, Golden Dawn, etc.) which represent distinct movements. Focuses on the early modern network (c. 1493-1700) connected to the original manifestos."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "tubingen-circle",
+      "german-mystics",
+      "paracelsians",
+      "prague-court",
+      "english-rosicrucians",
+      "hartlib-circle",
+      "political-patrons",
+      "manuscript-collectors"
+    ],
+    "pendingBatches": [],
+    "gaps": [
+      {
+        "description": "Limited coverage of French Rosicrucian connections",
+        "priority": "low"
+      },
+      {
+        "description": "Scandinavian Paracelsians beyond Severinus underrepresented",
+        "priority": "low"
+      }
+    ],
+    "excludedFigures": [
+      {
+        "name": "Isaac Newton",
+        "reason": "Alchemical interests well-documented but no direct Rosicrucian connection; would expand scope too far"
+      },
+      {
+        "name": "Giordano Bruno",
+        "reason": "Hermetic philosopher but died before Rosicrucian manifestos; tangential connection"
+      },
+      {
+        "name": "René Descartes",
+        "reason": "Rumors of Rosicrucian investigation but no confirmed involvement"
+      }
+    ]
+  },
+  "customRelationshipTypes": [
+    {
+      "type": "secretary_to",
+      "description": "Served as secretary or assistant",
+      "directed": true
+    },
+    {
+      "type": "defended",
+      "description": "Publicly defended the ideas or reputation of target",
+      "directed": true
+    },
+    {
+      "type": "criticized",
+      "description": "Published criticism or attacks against target's ideas",
+      "directed": true
+    },
+    {
+      "type": "published",
+      "description": "Person arranged publication of the work",
+      "directed": true
+    },
+    {
+      "type": "participated_in",
+      "description": "Person participated in an event or organization",
+      "directed": true
+    },
+    {
+      "type": "based_at",
+      "description": "Organization or entity located at a place",
+      "directed": true
+    },
+    {
+      "type": "produced",
+      "description": "Organization or group created a work",
+      "directed": true
+    },
+    {
+      "type": "describes",
+      "description": "Work describes or narrates about a person/entity",
+      "directed": true
+    },
+    {
+      "type": "part_of",
+      "description": "Entity is part of a larger organization",
+      "directed": true
+    },
+    {
+      "type": "served",
+      "description": "Person served a patron or court",
+      "directed": true
+    },
+    {
+      "type": "held_position",
+      "description": "Person held a formal position or office",
+      "directed": true
+    }
+  ],
+  "sources": [
+    "Britannica Encyclopedia",
+    "Stanford Encyclopedia of Philosophy",
+    "Encyclopedia.com",
+    "Brill academic publications",
+    "Cambridge University Press",
+    "Frances Yates, The Rosicrucian Enlightenment"
+  ],
+  "bannerImage": "img/banners/rosicrucian-network.jpg"
+}

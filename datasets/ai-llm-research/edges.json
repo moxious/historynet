@@ -1,0 +1,1796 @@
+[
+  {
+    "id": "edge-hinton-taught-sutskever",
+    "source": "person-geoffrey-hinton",
+    "target": "person-ilya-sutskever",
+    "relationship": "taught",
+    "dateStart": "2007",
+    "dateEnd": "2012",
+    "evidence": "Sutskever completed his PhD under Geoffrey Hinton at the University of Toronto in 2012. His thesis was titled 'Training recurrent neural networks.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-taught-krizhevsky",
+    "source": "person-geoffrey-hinton",
+    "target": "person-alex-krizhevsky",
+    "relationship": "taught",
+    "dateStart": "2009",
+    "dateEnd": "2012",
+    "evidence": "Krizhevsky completed his PhD under Hinton at the University of Toronto around 2012. Together with Sutskever and Hinton, he created AlexNet.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-taught-salakhutdinov",
+    "source": "person-geoffrey-hinton",
+    "target": "person-ruslan-salakhutdinov",
+    "relationship": "taught",
+    "dateStart": "2005",
+    "dateEnd": "2009",
+    "evidence": "Salakhutdinov earned his PhD from the University of Toronto in 2009 under Geoffrey Hinton, with thesis 'Learning deep generative models.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-taught-teh",
+    "source": "person-geoffrey-hinton",
+    "target": "person-yee-whye-teh",
+    "relationship": "taught",
+    "dateStart": "1999",
+    "dateEnd": "2003",
+    "evidence": "Teh completed his PhD under Hinton at the University of Toronto in 2003.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-taught-dahl",
+    "source": "person-geoffrey-hinton",
+    "target": "person-george-dahl",
+    "relationship": "taught",
+    "dateStart": "2011",
+    "dateEnd": "2015",
+    "evidence": "Dahl completed his PhD under Hinton at Toronto in 2015 on 'Deep Learning Approaches to Problems in Speech Recognition, Computational Chemistry and Natural Language Processing.'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-taught-srivastava",
+    "source": "person-geoffrey-hinton",
+    "target": "person-nitish-srivastava",
+    "relationship": "taught",
+    "dateStart": "2012",
+    "dateEnd": "2016",
+    "evidence": "Srivastava completed his PhD in 2016 at Toronto, co-advised by Hinton and Salakhutdinov. Co-author of influential Dropout paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-influenced-kingma",
+    "source": "person-geoffrey-hinton",
+    "target": "person-durk-kingma",
+    "relationship": "influenced",
+    "dateStart": "2013",
+    "dateEnd": "2015",
+    "evidence": "Kingma's PhD was at University of Amsterdam, but he collaborated extensively with Hinton's group and was influenced by Toronto school approaches.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bengio-taught-goodfellow",
+    "source": "person-yoshua-bengio",
+    "target": "person-ian-goodfellow",
+    "relationship": "taught",
+    "dateStart": "2009",
+    "dateEnd": "2014",
+    "evidence": "Goodfellow earned his PhD from Université de Montréal in 2014, supervised by Yoshua Bengio and Aaron Courville. Invented GANs during his PhD.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-collaborated-courville",
+    "source": "person-yoshua-bengio",
+    "target": "person-aaron-courville",
+    "relationship": "collaborated_with",
+    "dateStart": "2010",
+    "evidence": "Courville is a full professor at Université de Montréal and core MILA member. Co-authored the definitive 'Deep Learning' textbook with Bengio and Goodfellow (2016).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-taught-cho",
+    "source": "person-yoshua-bengio",
+    "target": "person-kyunghyun-cho",
+    "relationship": "taught",
+    "dateStart": "2014",
+    "dateEnd": "2015",
+    "evidence": "Cho did postdoctoral research at MILA with Bengio. Co-inventor of the GRU (Gated Recurrent Unit) architecture with Bengio in 2014.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jordan-taught-bengio",
+    "source": "person-michael-jordan",
+    "target": "person-yoshua-bengio",
+    "relationship": "taught",
+    "dateStart": "1991",
+    "dateEnd": "1993",
+    "evidence": "After his PhD at McGill, Bengio did postdoctoral work at MIT under Michael Jordan, working on sequential learning and statistical methods.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ng-taught-abbeel",
+    "source": "person-andrew-ng",
+    "target": "person-pieter-abbeel",
+    "relationship": "taught",
+    "dateStart": "2004",
+    "dateEnd": "2008",
+    "evidence": "Abbeel was Andrew Ng's first PhD student at Stanford. He is now a professor at UC Berkeley and co-founder of Covariant.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ng-taught-le",
+    "source": "person-andrew-ng",
+    "target": "person-quoc-le",
+    "relationship": "taught",
+    "dateStart": "2008",
+    "dateEnd": "2013",
+    "evidence": "Le was advised by Andrew Ng at Stanford before joining Google Brain.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feifei-taught-karpathy",
+    "source": "person-fei-fei-li",
+    "target": "person-andrej-karpathy",
+    "relationship": "taught",
+    "dateStart": "2011",
+    "dateEnd": "2016",
+    "evidence": "Karpathy completed his PhD at Stanford under Fei-Fei Li, focusing on the intersection of computer vision and natural language. Co-taught CS231n with Li.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feifei-taught-gebru",
+    "source": "person-fei-fei-li",
+    "target": "person-timnit-gebru",
+    "relationship": "taught",
+    "dateStart": "2012",
+    "dateEnd": "2017",
+    "evidence": "Gebru earned her PhD from Stanford in 2017 under Fei-Fei Li, working on computer vision and later AI ethics.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feifei-taught-russakovsky",
+    "source": "person-fei-fei-li",
+    "target": "person-olga-russakovsky",
+    "relationship": "taught",
+    "dateStart": "2008",
+    "dateEnd": "2015",
+    "evidence": "Russakovsky completed her PhD under Fei-Fei Li at Stanford, contributing significantly to ImageNet.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutton-taught-silver",
+    "source": "person-richard-sutton",
+    "target": "person-david-silver",
+    "relationship": "taught",
+    "dateStart": "2004",
+    "dateEnd": "2009",
+    "evidence": "Silver did his PhD at University of Alberta under Richard Sutton, the 'father of reinforcement learning.' Silver later led AlphaGo development at DeepMind.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-altman-cofounded-openai",
+    "source": "person-sam-altman",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "evidence": "OpenAI was founded in December 2015 by Sam Altman, Elon Musk, Greg Brockman, Ilya Sutskever, and others.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-musk-cofounded-openai",
+    "source": "person-elon-musk",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "dateEnd": "2018",
+    "evidence": "Musk was a co-founder and early funder of OpenAI. He departed the board in February 2018.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brockman-cofounded-openai",
+    "source": "person-greg-brockman",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "evidence": "Brockman left his position as CTO of Stripe to co-found OpenAI and serve as its President.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutskever-cofounded-openai",
+    "source": "person-ilya-sutskever",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "dateEnd": "2024-05",
+    "evidence": "Sutskever was recruited from Google Brain to co-found OpenAI and serve as Chief Scientist. Departed May 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulman-cofounded-openai",
+    "source": "person-john-schulman",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "evidence": "Schulman was a co-founder of OpenAI, leading reinforcement learning research. Creator of PPO algorithm.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zaremba-cofounded-openai",
+    "source": "person-wojciech-zaremba",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "evidence": "Zaremba was among the original co-founders of OpenAI, focusing on robotics and language model research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-karpathy-member-openai",
+    "source": "person-andrej-karpathy",
+    "target": "entity-openai",
+    "relationship": "member_of",
+    "dateStart": "2015",
+    "dateEnd": "2017",
+    "evidence": "Karpathy was a founding member of OpenAI in 2015, later leaving for Tesla (2017).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kingma-cofounded-openai",
+    "source": "person-durk-kingma",
+    "target": "entity-openai",
+    "relationship": "co_founded",
+    "dateStart": "2015-12",
+    "evidence": "Kingma was listed among the original OpenAI team, known for inventing the Adam optimizer and VAEs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dario-cofounded-anthropic",
+    "source": "person-dario-amodei",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Dario Amodei co-founded Anthropic in 2021 after leaving his role as VP of Research at OpenAI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-daniela-cofounded-anthropic",
+    "source": "person-daniela-amodei",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Daniela Amodei co-founded Anthropic with her brother Dario, serving as President.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kaplan-cofounded-anthropic",
+    "source": "person-jared-kaplan",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Kaplan was a co-founder of Anthropic, serving as Chief Science Officer. Known for scaling laws research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brown-cofounded-anthropic",
+    "source": "person-tom-brown",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Brown was a co-founder of Anthropic. He was lead author on the GPT-3 paper while at OpenAI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-clark-cofounded-anthropic",
+    "source": "person-jack-clark",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Clark was a co-founder of Anthropic, serving as Head of Policy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mccandlish-cofounded-anthropic",
+    "source": "person-sam-mccandlish",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "McCandlish was a co-founder of Anthropic, known for work on scaling laws.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-olah-cofounded-anthropic",
+    "source": "person-chris-olah",
+    "target": "entity-anthropic",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Olah was a co-founder of Anthropic, focusing on interpretability research. Founder of Distill.pub.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hassabis-cofounded-deepmind",
+    "source": "person-demis-hassabis",
+    "target": "entity-deepmind",
+    "relationship": "co_founded",
+    "dateStart": "2010",
+    "evidence": "Hassabis co-founded DeepMind in London in 2010 along with Shane Legg and Mustafa Suleyman.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-legg-cofounded-deepmind",
+    "source": "person-shane-legg",
+    "target": "entity-deepmind",
+    "relationship": "co_founded",
+    "dateStart": "2010",
+    "evidence": "Legg was a co-founder of DeepMind, serving as Chief AGI Scientist.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-cofounded-deepmind",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-deepmind",
+    "relationship": "co_founded",
+    "dateStart": "2010",
+    "dateEnd": "2022",
+    "evidence": "Suleyman was a co-founder of DeepMind. Later left to found Inflection AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dean-cofounded-googlebrain",
+    "source": "person-jeff-dean",
+    "target": "entity-google-brain",
+    "relationship": "co_founded",
+    "dateStart": "2011",
+    "evidence": "Dean co-founded Google Brain in 2011 along with Andrew Ng and Greg Corrado.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ng-cofounded-googlebrain",
+    "source": "person-andrew-ng",
+    "target": "entity-google-brain",
+    "relationship": "co_founded",
+    "dateStart": "2011",
+    "dateEnd": "2012",
+    "evidence": "Ng co-founded Google Brain with Jeff Dean and Greg Corrado. The famous 'cat neuron' experiment emerged from this work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-corrado-cofounded-googlebrain",
+    "source": "person-greg-corrado",
+    "target": "entity-google-brain",
+    "relationship": "co_founded",
+    "dateStart": "2011",
+    "evidence": "Corrado was a co-founder of Google Brain with Dean and Ng.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lecun-founded-fair",
+    "source": "person-yann-lecun",
+    "target": "entity-meta-ai",
+    "relationship": "founded",
+    "dateStart": "2013-12",
+    "evidence": "LeCun founded Facebook AI Research (FAIR) in December 2013 and continues to lead it as Chief AI Scientist at Meta.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mensch-cofounded-mistral",
+    "source": "person-arthur-mensch",
+    "target": "entity-mistral",
+    "relationship": "co_founded",
+    "dateStart": "2023-04",
+    "evidence": "Mensch co-founded Mistral AI in April 2023 with Guillaume Lample and Timothée Lacroix.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lample-cofounded-mistral",
+    "source": "person-guillaume-lample",
+    "target": "entity-mistral",
+    "relationship": "co_founded",
+    "dateStart": "2023-04",
+    "evidence": "Lample left Meta FAIR to co-found Mistral AI, serving as Chief Scientist.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lacroix-cofounded-mistral",
+    "source": "person-timothee-lacroix",
+    "target": "entity-mistral",
+    "relationship": "co_founded",
+    "dateStart": "2023-04",
+    "evidence": "Lacroix left Meta to co-found Mistral AI, serving as CTO.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-musk-founded-xai",
+    "source": "person-elon-musk",
+    "target": "entity-xai",
+    "relationship": "founded",
+    "dateStart": "2023-07",
+    "evidence": "Musk announced the founding of xAI in July 2023, recruiting researchers from DeepMind and Google.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-babuschkin-cofounded-xai",
+    "source": "person-igor-babuschkin",
+    "target": "entity-xai",
+    "relationship": "co_founded",
+    "dateStart": "2023-07",
+    "dateEnd": "2025",
+    "evidence": "Babuschkin was a co-founder and Chief Engineer of xAI, recruited from DeepMind. Led Grok development.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gomez-cofounded-cohere",
+    "source": "person-aidan-gomez",
+    "target": "entity-cohere",
+    "relationship": "co_founded",
+    "dateStart": "2019",
+    "evidence": "Gomez co-founded Cohere in 2019, serving as CEO. He was the youngest author on the Transformer paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zhang-cofounded-cohere",
+    "source": "person-ivan-zhang",
+    "target": "entity-cohere",
+    "relationship": "co_founded",
+    "dateStart": "2019",
+    "evidence": "Zhang co-founded Cohere with Gomez and Nick Frosst.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frosst-cofounded-cohere",
+    "source": "person-nick-frosst",
+    "target": "entity-cohere",
+    "relationship": "co_founded",
+    "dateStart": "2019",
+    "evidence": "Frosst co-founded Cohere after working with Geoffrey Hinton at Google Brain on capsule networks.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-delangue-cofounded-huggingface",
+    "source": "person-clement-delangue",
+    "target": "entity-huggingface",
+    "relationship": "co_founded",
+    "dateStart": "2016",
+    "evidence": "Delangue co-founded Hugging Face in 2016, serving as CEO.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-chaumond-cofounded-huggingface",
+    "source": "person-julien-chaumond",
+    "target": "entity-huggingface",
+    "relationship": "co_founded",
+    "dateStart": "2016",
+    "evidence": "Chaumond co-founded Hugging Face, serving as CTO.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolf-cofounded-huggingface",
+    "source": "person-thomas-wolf",
+    "target": "entity-huggingface",
+    "relationship": "co_founded",
+    "dateStart": "2016",
+    "evidence": "Wolf co-founded Hugging Face, serving as Chief Science Officer. Created the Transformers library.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jones-cofounded-sakana",
+    "source": "person-llion-jones",
+    "target": "entity-sakana",
+    "relationship": "co_founded",
+    "dateStart": "2023",
+    "evidence": "Jones co-founded Sakana AI in Tokyo with David Ha. Jones was a co-author of the Transformer paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ha-cofounded-sakana",
+    "source": "person-david-ha",
+    "target": "entity-sakana",
+    "relationship": "co_founded",
+    "dateStart": "2023",
+    "evidence": "Ha co-founded Sakana AI with Llion Jones. Previously at Google Brain, known for creative AI research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-founded-mila",
+    "source": "person-yoshua-bengio",
+    "target": "entity-mila",
+    "relationship": "founded",
+    "dateStart": "1993",
+    "evidence": "Bengio founded MILA (originally LISA lab) and has led it for decades, building it into the largest academic AI research institute in the world.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-cofounded-vector",
+    "source": "person-geoffrey-hinton",
+    "target": "entity-vector-institute",
+    "relationship": "co_founded",
+    "dateStart": "2017",
+    "evidence": "Hinton co-founded the Vector Institute in 2017 to anchor Toronto's AI ecosystem.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feifei-founded-stanford-hai",
+    "source": "person-fei-fei-li",
+    "target": "entity-stanford-hai",
+    "relationship": "founded",
+    "dateStart": "2019",
+    "evidence": "Fei-Fei Li co-founded Stanford HAI (Human-Centered AI Institute) and serves as co-director.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gebru-founded-dair",
+    "source": "person-timnit-gebru",
+    "target": "entity-dair",
+    "relationship": "founded",
+    "dateStart": "2021",
+    "evidence": "Gebru founded the DAIR Institute after her departure from Google to pursue independent AI ethics research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutskever-cofounded-ssi",
+    "source": "person-ilya-sutskever",
+    "target": "entity-ssi",
+    "relationship": "co_founded",
+    "dateStart": "2024-06",
+    "evidence": "Sutskever co-founded Safe Superintelligence Inc. (SSI) in June 2024 after departing OpenAI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-transformer-authors",
+    "source": "person-ashish-vaswani",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Vaswani was first author on 'Attention Is All You Need', the Transformer paper that revolutionized AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shazeer-authored-transformer",
+    "source": "person-noam-shazeer",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Shazeer was co-author of the Transformer paper. All 8 authors listed as equal contributors.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kaiser-authored-transformer",
+    "source": "person-lukasz-kaiser",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Kaiser was co-author of the Transformer paper at Google Brain.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gomez-authored-transformer",
+    "source": "person-aidan-gomez",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Gomez was co-author of the Transformer paper (was an intern at Google at the time). Youngest author on the paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jones-authored-transformer",
+    "source": "person-llion-jones",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Jones was co-author of the Transformer paper at Google.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-uszkoreit-authored-transformer",
+    "source": "person-jakob-uszkoreit",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Uszkoreit was co-author of the Transformer paper at Google.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parmar-authored-transformer",
+    "source": "person-niki-parmar",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Parmar was co-author of the Transformer paper at Google.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-polosukhin-authored-transformer",
+    "source": "person-illia-polosukhin",
+    "target": "object-transformer-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Polosukhin was co-author of the Transformer paper while at Google.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-krizhevsky-authored-alexnet",
+    "source": "person-alex-krizhevsky",
+    "target": "object-alexnet-paper",
+    "relationship": "authored",
+    "dateStart": "2012",
+    "evidence": "Krizhevsky was first author on the AlexNet paper that won ImageNet 2012.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutskever-authored-alexnet",
+    "source": "person-ilya-sutskever",
+    "target": "object-alexnet-paper",
+    "relationship": "authored",
+    "dateStart": "2012",
+    "evidence": "Sutskever was co-author of AlexNet with Krizhevsky and Hinton.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-authored-alexnet",
+    "source": "person-geoffrey-hinton",
+    "target": "object-alexnet-paper",
+    "relationship": "authored",
+    "dateStart": "2012",
+    "evidence": "Hinton was co-author of AlexNet with his students Krizhevsky and Sutskever.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-goodfellow-authored-gan",
+    "source": "person-ian-goodfellow",
+    "target": "object-gan-paper",
+    "relationship": "authored",
+    "dateStart": "2014",
+    "evidence": "Goodfellow was primary author on the GAN paper, introducing Generative Adversarial Networks.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-authored-gan",
+    "source": "person-yoshua-bengio",
+    "target": "object-gan-paper",
+    "relationship": "authored",
+    "dateStart": "2014",
+    "evidence": "Bengio co-authored the GAN paper with his PhD student Goodfellow.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kingma-authored-adam",
+    "source": "person-durk-kingma",
+    "target": "object-adam-paper",
+    "relationship": "authored",
+    "dateStart": "2014",
+    "evidence": "Kingma was first author on the Adam optimizer paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ba-authored-adam",
+    "source": "person-jimmy-ba",
+    "target": "object-adam-paper",
+    "relationship": "authored",
+    "dateStart": "2014",
+    "evidence": "Ba co-authored the Adam optimizer paper with Kingma.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brown-authored-gpt3",
+    "source": "person-tom-brown",
+    "target": "object-gpt3",
+    "relationship": "authored",
+    "dateStart": "2020",
+    "evidence": "Tom Brown was lead author on 'Language Models are Few-Shot Learners' (GPT-3), one of the most influential AI papers.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-radford-authored-gpt1",
+    "source": "person-alec-radford",
+    "target": "object-gpt1",
+    "relationship": "authored",
+    "dateStart": "2018",
+    "evidence": "Radford was primary author on the GPT-1 paper at OpenAI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-radford-authored-gpt2",
+    "source": "person-alec-radford",
+    "target": "object-gpt2",
+    "relationship": "authored",
+    "dateStart": "2019",
+    "evidence": "Radford was primary author on the GPT-2 paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-radford-authored-clip",
+    "source": "person-alec-radford",
+    "target": "object-clip",
+    "relationship": "authored",
+    "dateStart": "2021",
+    "evidence": "Radford was a primary author on CLIP at OpenAI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ramesh-authored-dalle",
+    "source": "person-aditya-ramesh",
+    "target": "object-dalle",
+    "relationship": "authored",
+    "dateStart": "2021",
+    "evidence": "Ramesh was lead author on the DALL-E papers.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama",
+    "source": "person-hugo-touvron",
+    "target": "object-llama",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "Touvron was lead author on the LLaMA paper at Meta.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lample-authored-llama",
+    "source": "person-guillaume-lample",
+    "target": "object-llama",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "Lample co-authored the LLaMA paper at Meta.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-silver-authored-alphago",
+    "source": "person-david-silver",
+    "target": "object-alphago",
+    "relationship": "authored",
+    "dateStart": "2016",
+    "evidence": "Silver led the AlphaGo project at DeepMind.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hassabis-authored-alphago",
+    "source": "person-demis-hassabis",
+    "target": "object-alphago",
+    "relationship": "authored",
+    "dateStart": "2016",
+    "evidence": "Hassabis led the AlphaGo project at DeepMind.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jumper-authored-alphafold",
+    "source": "person-john-jumper",
+    "target": "object-alphafold2",
+    "relationship": "authored",
+    "dateStart": "2020",
+    "evidence": "Jumper led the AlphaFold2 development, solving protein structure prediction.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hassabis-authored-alphafold",
+    "source": "person-demis-hassabis",
+    "target": "object-alphafold2",
+    "relationship": "authored",
+    "dateStart": "2020",
+    "evidence": "Hassabis co-led AlphaFold with Jumper. Both won Nobel Prize in Chemistry 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rombach-authored-stable-diffusion",
+    "source": "person-robin-rombach",
+    "target": "object-stable-diffusion",
+    "relationship": "authored",
+    "dateStart": "2022",
+    "evidence": "Rombach was lead inventor of Latent Diffusion Models and Stable Diffusion at LMU Munich.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-blattmann-authored-stable-diffusion",
+    "source": "person-andreas-blattmann",
+    "target": "object-stable-diffusion",
+    "relationship": "authored",
+    "dateStart": "2022",
+    "evidence": "Blattmann co-invented Stable Diffusion with Rombach.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-goodfellow-authored-dl-book",
+    "source": "person-ian-goodfellow",
+    "target": "object-deep-learning-book",
+    "relationship": "authored",
+    "dateStart": "2016",
+    "evidence": "Goodfellow co-authored the Deep Learning textbook with Bengio and Courville.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-authored-dl-book",
+    "source": "person-yoshua-bengio",
+    "target": "object-deep-learning-book",
+    "relationship": "authored",
+    "dateStart": "2016",
+    "evidence": "Bengio co-authored the Deep Learning textbook.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-courville-authored-dl-book",
+    "source": "person-aaron-courville",
+    "target": "object-deep-learning-book",
+    "relationship": "authored",
+    "dateStart": "2016",
+    "evidence": "Courville co-authored the Deep Learning textbook.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutton-authored-rl-book",
+    "source": "person-richard-sutton",
+    "target": "object-rl-book",
+    "relationship": "authored",
+    "dateStart": "1998",
+    "evidence": "Sutton co-authored the foundational RL textbook with Barto.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wolf-authored-transformers-lib",
+    "source": "person-thomas-wolf",
+    "target": "object-transformers-library",
+    "relationship": "authored",
+    "dateStart": "2019",
+    "evidence": "Wolf originally created the Hugging Face Transformers library.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-olah-authored-distill",
+    "source": "person-chris-olah",
+    "target": "object-distill",
+    "relationship": "founded",
+    "dateStart": "2016",
+    "evidence": "Olah co-founded Distill.pub for clear ML explanations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dario-departed-openai",
+    "source": "person-dario-amodei",
+    "target": "entity-openai",
+    "relationship": "departed_from",
+    "dateStart": "2020",
+    "evidence": "Dario Amodei left his role as VP of Research at OpenAI in late 2020/early 2021 to co-found Anthropic, reportedly due to disagreements about safety and commercialization.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-daniela-departed-openai",
+    "source": "person-daniela-amodei",
+    "target": "entity-openai",
+    "relationship": "departed_from",
+    "dateStart": "2020",
+    "evidence": "Daniela Amodei left OpenAI's safety and policy team to co-found Anthropic with her brother.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brown-departed-openai",
+    "source": "person-tom-brown",
+    "target": "entity-openai",
+    "relationship": "departed_from",
+    "dateStart": "2021",
+    "evidence": "Brown, lead author of GPT-3, left OpenAI to co-found Anthropic.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutskever-departed-openai",
+    "source": "person-ilya-sutskever",
+    "target": "entity-openai",
+    "relationship": "departed_from",
+    "dateStart": "2024-05",
+    "evidence": "Sutskever departed OpenAI in May 2024 to found Safe Superintelligence Inc. He was involved in the November 2023 board crisis.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leike-departed-openai",
+    "source": "person-jan-leike",
+    "target": "entity-openai",
+    "relationship": "departed_from",
+    "dateStart": "2024-05",
+    "evidence": "Leike resigned from OpenAI in May 2024, publicly stating that safety concerns were not being adequately prioritized.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-murati-departed-openai",
+    "source": "person-mira-murati",
+    "target": "entity-openai",
+    "relationship": "departed_from",
+    "dateStart": "2024-09",
+    "evidence": "Murati departed as CTO in September 2024, along with other senior executives.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lample-departed-meta",
+    "source": "person-guillaume-lample",
+    "target": "entity-meta-ai",
+    "relationship": "departed_from",
+    "dateStart": "2023-04",
+    "evidence": "Lample left Meta FAIR to co-found Mistral AI in April 2023.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lacroix-departed-meta",
+    "source": "person-timothee-lacroix",
+    "target": "entity-meta-ai",
+    "relationship": "departed_from",
+    "dateStart": "2023-04",
+    "evidence": "Lacroix left Meta to co-found Mistral AI with Lample and Mensch.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mensch-departed-deepmind",
+    "source": "person-arthur-mensch",
+    "target": "entity-google-deepmind",
+    "relationship": "departed_from",
+    "dateStart": "2023-04",
+    "evidence": "Mensch left Google DeepMind to co-found Mistral AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-departed-deepmind",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-deepmind",
+    "relationship": "departed_from",
+    "dateStart": "2022",
+    "evidence": "Suleyman left DeepMind/Google to found Inflection AI in 2022.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-departed-google",
+    "source": "person-geoffrey-hinton",
+    "target": "entity-google-brain",
+    "relationship": "departed_from",
+    "dateStart": "2023-05",
+    "evidence": "Hinton resigned from Google in May 2023 to speak freely about AI risks.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-collaborated-bengio",
+    "source": "person-geoffrey-hinton",
+    "target": "person-yoshua-bengio",
+    "relationship": "collaborated_with",
+    "dateStart": "1990",
+    "evidence": "Hinton, Bengio, and LeCun are known as the 'Godfathers of AI' and have collaborated and influenced each other over decades. They shared the 2018 Turing Award.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-collaborated-lecun",
+    "source": "person-geoffrey-hinton",
+    "target": "person-yann-lecun",
+    "relationship": "collaborated_with",
+    "dateStart": "1980",
+    "evidence": "Hinton and LeCun have been close collaborators since the 1980s, both pioneering neural network approaches during AI winters.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-collaborated-lecun",
+    "source": "person-yoshua-bengio",
+    "target": "person-yann-lecun",
+    "relationship": "collaborated_with",
+    "dateStart": "1990",
+    "evidence": "Bengio and LeCun collaborated on convolutional networks and have maintained close ties.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hassabis-collaborated-silver",
+    "source": "person-demis-hassabis",
+    "target": "person-david-silver",
+    "relationship": "collaborated_with",
+    "dateStart": "2014",
+    "dateEnd": "2016",
+    "evidence": "Hassabis and Silver led the AlphaGo project together, achieving the historic victory over Lee Sedol in 2016.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-silver-collaborated-huang",
+    "source": "person-david-silver",
+    "target": "person-aja-huang",
+    "relationship": "collaborated_with",
+    "dateStart": "2014",
+    "dateEnd": "2016",
+    "evidence": "Huang implemented key parts of AlphaGo and physically played the moves in the match against Lee Sedol.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hassabis-collaborated-jumper",
+    "source": "person-demis-hassabis",
+    "target": "person-john-jumper",
+    "relationship": "collaborated_with",
+    "dateStart": "2018",
+    "evidence": "Hassabis and Jumper led the AlphaFold project, winning the Nobel Prize in Chemistry in 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dean-collaborated-ng",
+    "source": "person-jeff-dean",
+    "target": "person-andrew-ng",
+    "relationship": "collaborated_with",
+    "dateStart": "2011",
+    "dateEnd": "2012",
+    "evidence": "Dean and Ng worked together to establish Google Brain, including the famous 'cat neuron' experiment.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-collaborated-precup",
+    "source": "person-yoshua-bengio",
+    "target": "person-doina-precup",
+    "relationship": "collaborated_with",
+    "dateStart": "2010",
+    "evidence": "Bengio and Precup both lead research at MILA.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dario-related-daniela",
+    "source": "person-dario-amodei",
+    "target": "person-daniela-amodei",
+    "relationship": "related_to",
+    "evidence": "Dario and Daniela Amodei are siblings who co-founded Anthropic together.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-yoshua-related-samy",
+    "source": "person-yoshua-bengio",
+    "target": "person-samy-bengio",
+    "relationship": "related_to",
+    "evidence": "Yoshua and Samy Bengio are brothers, both prominent in ML research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-workedat-google",
+    "source": "person-geoffrey-hinton",
+    "target": "entity-google-brain",
+    "relationship": "worked_at",
+    "dateStart": "2013",
+    "dateEnd": "2023",
+    "evidence": "Hinton joined Google Brain in 2013 after Google acquired DNNresearch. He resigned in May 2023.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-radford-workedat-openai",
+    "source": "person-alec-radford",
+    "target": "entity-openai",
+    "relationship": "worked_at",
+    "dateStart": "2016",
+    "evidence": "Radford has been a research scientist at OpenAI since its early days. Lead author on GPT-1, GPT-2, CLIP.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-murati-workedat-openai",
+    "source": "person-mira-murati",
+    "target": "entity-openai",
+    "relationship": "worked_at",
+    "dateStart": "2018",
+    "dateEnd": "2024",
+    "evidence": "Murati served as CTO of OpenAI from 2018 to September 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leike-workedat-openai",
+    "source": "person-jan-leike",
+    "target": "entity-openai",
+    "relationship": "worked_at",
+    "dateStart": "2021",
+    "dateEnd": "2024",
+    "evidence": "Leike led OpenAI's superalignment team until departing in May 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kaiser-workedat-openai",
+    "source": "person-lukasz-kaiser",
+    "target": "entity-openai",
+    "relationship": "worked_at",
+    "dateStart": "2021",
+    "evidence": "Kaiser joined OpenAI from Google Brain in June 2021.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pineau-workedat-meta",
+    "source": "person-joelle-pineau",
+    "target": "entity-meta-ai",
+    "relationship": "worked_at",
+    "dateStart": "2017",
+    "evidence": "Pineau is VP of AI Research at Meta.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-workedat-meta",
+    "source": "person-hugo-touvron",
+    "target": "entity-meta-ai",
+    "relationship": "worked_at",
+    "dateStart": "2020",
+    "evidence": "Touvron is a research scientist at Meta FAIR in Paris, lead researcher on LLaMA models.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-silver-workedat-deepmind",
+    "source": "person-david-silver",
+    "target": "entity-google-deepmind",
+    "relationship": "worked_at",
+    "dateStart": "2013",
+    "evidence": "Silver is a principal research scientist at DeepMind.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jumper-workedat-deepmind",
+    "source": "person-john-jumper",
+    "target": "entity-google-deepmind",
+    "relationship": "worked_at",
+    "dateStart": "2017",
+    "evidence": "Jumper is a director at DeepMind, leading the AlphaFold team.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vinyals-workedat-deepmind",
+    "source": "person-oriol-vinyals",
+    "target": "entity-google-deepmind",
+    "relationship": "worked_at",
+    "dateStart": "2016",
+    "evidence": "Vinyals is VP of Research at DeepMind, co-leading Gemini development.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shazeer-workedat-google",
+    "source": "person-noam-shazeer",
+    "target": "entity-google-brain",
+    "relationship": "worked_at",
+    "dateStart": "2000",
+    "dateEnd": "2021",
+    "evidence": "Shazeer worked at Google from 2000-2021, co-authoring the Transformer paper.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mitchell-workedat-huggingface",
+    "source": "person-margaret-mitchell",
+    "target": "entity-huggingface",
+    "relationship": "worked_at",
+    "dateStart": "2021",
+    "evidence": "Mitchell joined Hugging Face as Chief AI Ethics Scientist after departing Google.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feifei-workedat-stanford",
+    "source": "person-fei-fei-li",
+    "target": "location-stanford",
+    "relationship": "worked_at",
+    "dateStart": "2009",
+    "evidence": "Fei-Fei Li is Professor at Stanford and co-director of Stanford HAI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-workedat-toronto",
+    "source": "person-geoffrey-hinton",
+    "target": "location-utoronto",
+    "relationship": "worked_at",
+    "dateStart": "1987",
+    "evidence": "Hinton has been at University of Toronto since 1987, making it the birthplace of the 'Toronto School' of deep learning.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-workedat-umontreal",
+    "source": "person-yoshua-bengio",
+    "target": "location-umontreal",
+    "relationship": "worked_at",
+    "dateStart": "1993",
+    "evidence": "Bengio has been at Université de Montréal since 1993, founding MILA.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sutton-workedat-ualberta",
+    "source": "person-richard-sutton",
+    "target": "location-ualberta",
+    "relationship": "worked_at",
+    "dateStart": "2003",
+    "evidence": "Sutton has been at University of Alberta since 2003.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jordan-workedat-berkeley",
+    "source": "person-michael-jordan",
+    "target": "location-ucberkeley",
+    "relationship": "worked_at",
+    "dateStart": "1998",
+    "evidence": "Michael Jordan is Professor at UC Berkeley.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-abbeel-workedat-berkeley",
+    "source": "person-pieter-abbeel",
+    "target": "location-ucberkeley",
+    "relationship": "worked_at",
+    "dateStart": "2008",
+    "evidence": "Abbeel is Professor at UC Berkeley and BAIR director.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-salakhutdinov-workedat-cmu",
+    "source": "person-ruslan-salakhutdinov",
+    "target": "location-cmu",
+    "relationship": "worked_at",
+    "dateStart": "2016",
+    "evidence": "Salakhutdinov is Professor at Carnegie Mellon.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lecun-workedat-nyu",
+    "source": "person-yann-lecun",
+    "target": "location-nyu",
+    "relationship": "worked_at",
+    "dateStart": "2003",
+    "evidence": "LeCun is Silver Professor at NYU while also serving as Chief AI Scientist at Meta.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hinton-bornin-london",
+    "source": "person-geoffrey-hinton",
+    "target": "location-london",
+    "relationship": "born_in",
+    "dateStart": "1947",
+    "evidence": "Geoffrey Hinton was born in London, England on December 6, 1947.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hassabis-bornin-london",
+    "source": "person-demis-hassabis",
+    "target": "location-london",
+    "relationship": "born_in",
+    "dateStart": "1976",
+    "evidence": "Demis Hassabis was born in London, England on July 27, 1976.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lecun-bornin-paris",
+    "source": "person-yann-lecun",
+    "target": "location-paris",
+    "relationship": "born_in",
+    "dateStart": "1960",
+    "evidence": "Yann LeCun was born in Paris, France in 1960.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-bornin-paris",
+    "source": "person-yoshua-bengio",
+    "target": "location-paris",
+    "relationship": "born_in",
+    "dateStart": "1964",
+    "evidence": "Yoshua Bengio was born in Paris, France on March 5, 1964.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bengio-iclr-founded",
+    "source": "person-yoshua-bengio",
+    "target": "entity-iclr",
+    "relationship": "founded",
+    "dateStart": "2013",
+    "evidence": "Bengio co-founded ICLR (International Conference on Learning Representations) with Yann LeCun.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lecun-iclr-founded",
+    "source": "person-yann-lecun",
+    "target": "entity-iclr",
+    "relationship": "founded",
+    "dateStart": "2013",
+    "evidence": "LeCun co-founded ICLR with Yoshua Bengio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-chatgpt",
+    "source": "entity-openai",
+    "target": "object-chatgpt",
+    "relationship": "authored",
+    "dateStart": "2022",
+    "evidence": "OpenAI created and launched ChatGPT in November 2022.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude",
+    "source": "entity-anthropic",
+    "target": "object-claude",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "Anthropic developed and launched Claude.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "Google DeepMind created Gemini, their flagship LLM.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama",
+    "source": "entity-meta-ai",
+    "target": "object-llama",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "Meta AI created and released LLaMA.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-xai-created-grok",
+    "source": "entity-xai",
+    "target": "object-grok",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "xAI created Grok chatbot.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-mistral7b",
+    "source": "entity-mistral",
+    "target": "object-mistral-7b",
+    "relationship": "authored",
+    "dateStart": "2023",
+    "evidence": "Mistral AI created Mistral 7B.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stability-created-sd",
+    "source": "entity-stability",
+    "target": "object-stable-diffusion",
+    "relationship": "authored",
+    "dateStart": "2022",
+    "evidence": "Stability AI commercialized and scaled Stable Diffusion (based on LMU Munich research).",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mikolov-authored-word2vec",
+    "source": "person-tomas-mikolov",
+    "target": "object-word2vec",
+    "relationship": "authored",
+    "dateStart": "2013",
+    "evidence": "Mikolov was lead author on 'Efficient Estimation of Word Representations in Vector Space' (Word2Vec), which introduced Skip-gram and CBOW models.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-devlin-authored-bert",
+    "source": "person-jacob-devlin",
+    "target": "object-bert",
+    "relationship": "authored",
+    "dateStart": "2018",
+    "evidence": "Devlin was lead author on 'BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding', which revolutionized NLP.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-welling-authored-vae",
+    "source": "person-max-welling",
+    "target": "object-vae-paper",
+    "relationship": "authored",
+    "dateStart": "2013",
+    "evidence": "Welling co-authored 'Auto-Encoding Variational Bayes' with Kingma, introducing VAEs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kingma-authored-vae",
+    "source": "person-durk-kingma",
+    "target": "object-vae-paper",
+    "relationship": "authored",
+    "dateStart": "2013",
+    "evidence": "Kingma was first author on the VAE paper, developed during his PhD at University of Amsterdam under Max Welling.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulman-authored-ppo",
+    "source": "person-john-schulman",
+    "target": "object-ppo-paper",
+    "relationship": "authored",
+    "dateStart": "2017",
+    "evidence": "Schulman was lead author on 'Proximal Policy Optimization Algorithms', the algorithm fundamental to RLHF used in ChatGPT.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulman-authored-trpo",
+    "source": "person-john-schulman",
+    "target": "object-trpo-paper",
+    "relationship": "authored",
+    "dateStart": "2015",
+    "evidence": "Schulman was lead author on 'Trust Region Policy Optimization', which introduced trust region methods to deep RL.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-cofounded-inflection",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-inflection",
+    "relationship": "co_founded",
+    "dateStart": "2022",
+    "evidence": "Suleyman co-founded Inflection AI in 2022 after leaving DeepMind. Reid Hoffman was co-founder.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shazeer-cofounded-character-ai",
+    "source": "person-noam-shazeer",
+    "target": "entity-character-ai",
+    "relationship": "co_founded",
+    "dateStart": "2021",
+    "evidence": "Shazeer left Google to co-found Character.AI with Daniel De Freitas in 2021.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shazeer-departed-character-ai",
+    "source": "person-noam-shazeer",
+    "target": "entity-character-ai",
+    "relationship": "departed_from",
+    "dateStart": "2024",
+    "evidence": "Shazeer returned to Google in 2024 as VP of Engineering co-leading Gemini after Google's acquisition deal with Character.AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-departed-inflection",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-inflection",
+    "relationship": "departed_from",
+    "dateStart": "2024",
+    "evidence": "Suleyman and most of Inflection's team joined Microsoft in March 2024. Suleyman became EVP and CEO of Microsoft AI.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude3",
+    "source": "entity-anthropic",
+    "target": "object-claude3",
+    "relationship": "authored",
+    "dateStart": "2024",
+    "evidence": "Anthropic released Claude 3 family (Haiku, Sonnet, Opus) in March 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama3",
+    "source": "entity-meta-ai",
+    "target": "object-llama3",
+    "relationship": "authored",
+    "dateStart": "2024",
+    "evidence": "Meta AI released LLaMA 3 in April 2024 with 8B and 70B parameter variants.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama3",
+    "source": "person-hugo-touvron",
+    "target": "object-llama3",
+    "relationship": "authored",
+    "dateStart": "2024",
+    "evidence": "Touvron continued to lead LLaMA development for the third generation release.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mikolov-workedat-google",
+    "source": "person-tomas-mikolov",
+    "target": "entity-google-brain",
+    "relationship": "worked_at",
+    "dateStart": "2012",
+    "dateEnd": "2014",
+    "evidence": "Mikolov worked at Google where he developed Word2Vec (2013).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mikolov-workedat-meta",
+    "source": "person-tomas-mikolov",
+    "target": "entity-meta-ai",
+    "relationship": "worked_at",
+    "dateStart": "2014",
+    "dateEnd": "2019",
+    "evidence": "Mikolov joined Facebook AI Research after Google, working on fastText and other NLP projects.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-devlin-workedat-deepmind",
+    "source": "person-jacob-devlin",
+    "target": "entity-google-deepmind",
+    "relationship": "worked_at",
+    "dateStart": "2018",
+    "evidence": "Devlin developed BERT at Google AI and continues to work at Google DeepMind.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-welling-taught-kingma",
+    "source": "person-max-welling",
+    "target": "person-durk-kingma",
+    "relationship": "taught",
+    "dateStart": "2010",
+    "dateEnd": "2017",
+    "evidence": "Kingma did his PhD at University of Amsterdam under Max Welling, where they co-invented VAEs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-gpt4o",
+    "source": "entity-openai",
+    "target": "object-gpt4o",
+    "relationship": "authored",
+    "dateStart": "2024-05",
+    "evidence": "OpenAI released GPT-4o ('Omni') on May 13, 2024 as their flagship multimodal model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-gpt4o-mini",
+    "source": "entity-openai",
+    "target": "object-gpt4o-mini",
+    "relationship": "authored",
+    "dateStart": "2024-07",
+    "evidence": "OpenAI released GPT-4o mini on July 18, 2024 as a cost-efficient alternative.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-o1",
+    "source": "entity-openai",
+    "target": "object-o1",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "OpenAI released o1-preview on September 12, 2024, followed by full o1 in December 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-o3",
+    "source": "entity-openai",
+    "target": "object-o3",
+    "relationship": "authored",
+    "dateStart": "2025-01",
+    "evidence": "OpenAI announced o3 in December 2024, with o3-mini released January 31, 2025 and full o3 in April 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-openai-created-gpt45",
+    "source": "entity-openai",
+    "target": "object-gpt45",
+    "relationship": "authored",
+    "dateStart": "2025-02",
+    "evidence": "OpenAI released GPT-4.5 (codenamed Orion) on February 27, 2025 as a research preview.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude35-sonnet",
+    "source": "entity-anthropic",
+    "target": "object-claude35-sonnet",
+    "relationship": "authored",
+    "dateStart": "2024-06",
+    "evidence": "Anthropic released Claude 3.5 Sonnet on June 20, 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude4",
+    "source": "entity-anthropic",
+    "target": "object-claude4",
+    "relationship": "authored",
+    "dateStart": "2025-05",
+    "evidence": "Anthropic released Claude 4 (Opus 4 and Sonnet 4) on May 22, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anthropic-created-claude45",
+    "source": "entity-anthropic",
+    "target": "object-claude45",
+    "relationship": "authored",
+    "dateStart": "2025-09",
+    "evidence": "Anthropic released Claude 4.5 Sonnet on September 29, 2025, with Opus 4.5 following in November 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini15",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini15",
+    "relationship": "authored",
+    "dateStart": "2024-02",
+    "evidence": "Google DeepMind released Gemini 1.5 Pro in early 2024 with up to 1M token context.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini20",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini20",
+    "relationship": "authored",
+    "dateStart": "2024-12",
+    "evidence": "Google DeepMind released Gemini 2.0 Flash (experimental) in December 2024, with GA in February 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-deepmind-created-gemini25",
+    "source": "entity-google-deepmind",
+    "target": "object-gemini25",
+    "relationship": "authored",
+    "dateStart": "2025-06",
+    "evidence": "Google DeepMind released Gemini 2.5 Flash and Pro stable versions on June 17, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama31",
+    "source": "entity-meta-ai",
+    "target": "object-llama31",
+    "relationship": "authored",
+    "dateStart": "2024-07",
+    "evidence": "Meta released LLaMA 3.1 on July 23, 2024, including the 405B parameter model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama32",
+    "source": "entity-meta-ai",
+    "target": "object-llama32",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "Meta released LLaMA 3.2 on September 25, 2024, adding multimodal capabilities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama33",
+    "source": "entity-meta-ai",
+    "target": "object-llama33",
+    "relationship": "authored",
+    "dateStart": "2024-12",
+    "evidence": "Meta released LLaMA 3.3 on December 6, 2024 as an efficient 70B model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-meta-created-llama4",
+    "source": "entity-meta-ai",
+    "target": "object-llama4",
+    "relationship": "authored",
+    "dateStart": "2025-04",
+    "evidence": "Meta released LLaMA 4 (Scout and Maverick) on April 5, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama31",
+    "source": "person-hugo-touvron",
+    "target": "object-llama31",
+    "relationship": "authored",
+    "dateStart": "2024-07",
+    "evidence": "Touvron continued as lead researcher on LLaMA development through the 3.1 release.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-touvron-authored-llama32",
+    "source": "person-hugo-touvron",
+    "target": "object-llama32",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "Touvron led LLaMA 3.2 development, the first multimodal LLaMA release.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-mixtral-8x22b",
+    "source": "entity-mistral",
+    "target": "object-mixtral-8x22b",
+    "relationship": "authored",
+    "dateStart": "2024-04",
+    "evidence": "Mistral AI released Mixtral 8x22B on April 17, 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-pixtral",
+    "source": "entity-mistral",
+    "target": "object-pixtral",
+    "relationship": "authored",
+    "dateStart": "2024-09",
+    "evidence": "Mistral AI released Pixtral 12B on September 11, 2024, followed by Pixtral Large in November 2024.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mistral-created-mistral-large3",
+    "source": "entity-mistral",
+    "target": "object-mistral-large3",
+    "relationship": "authored",
+    "dateStart": "2025-12",
+    "evidence": "Mistral AI released Mistral Large 3 and Ministral 3 on December 2, 2025.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-xai-created-grok2",
+    "source": "entity-xai",
+    "target": "object-grok2",
+    "relationship": "authored",
+    "dateStart": "2024-08",
+    "evidence": "xAI released Grok 2 in August 2024 with multimodal capabilities and image generation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-xai-created-grok3",
+    "source": "entity-xai",
+    "target": "object-grok3",
+    "relationship": "authored",
+    "dateStart": "2025-02",
+    "evidence": "xAI released Grok 3 on February 17, 2025, trained on Colossus with 200K H100 GPUs.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cohere-created-command-r-plus",
+    "source": "entity-cohere",
+    "target": "object-command-r-plus",
+    "relationship": "authored",
+    "dateStart": "2024-04",
+    "evidence": "Cohere released Command R+ in April 2024 as their flagship enterprise model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cohere-created-command-a",
+    "source": "entity-cohere",
+    "target": "object-command-a",
+    "relationship": "authored",
+    "dateStart": "2025-03",
+    "evidence": "Cohere released Command A in March 2025 with 111B parameters and 256K context.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-amazon-created-nova",
+    "source": "entity-amazon-ai",
+    "target": "object-nova",
+    "relationship": "authored",
+    "dateStart": "2024-12",
+    "evidence": "Amazon released the Nova foundation model family in December 2024 for AWS Bedrock.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-amazon-created-nova-premier",
+    "source": "entity-amazon-ai",
+    "target": "object-nova-premier",
+    "relationship": "authored",
+    "dateStart": "2025-04",
+    "evidence": "Amazon released Nova Premier in Q1 2025 as their top-tier reasoning model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-suleyman-led-microsoft-ai",
+    "source": "person-mustafa-suleyman",
+    "target": "entity-microsoft-ai",
+    "relationship": "led",
+    "dateStart": "2024-03",
+    "evidence": "Mustafa Suleyman joined Microsoft as EVP and CEO of Microsoft AI in March 2024 after Inflection acquisition.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gpt4o-references-gpt4",
+    "source": "object-gpt4o",
+    "target": "object-gpt4",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "GPT-4o is built on the GPT-4 architecture with added multimodal capabilities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-claude35-references-claude3",
+    "source": "object-claude35-sonnet",
+    "target": "object-claude3",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "Claude 3.5 Sonnet is an improved version of the Claude 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-claude4-references-claude3",
+    "source": "object-claude4",
+    "target": "object-claude3",
+    "relationship": "continuation_of",
+    "dateStart": "2025",
+    "evidence": "Claude 4 is the successor to the Claude 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gemini20-references-gemini",
+    "source": "object-gemini20",
+    "target": "object-gemini",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "Gemini 2.0 is the successor to the original Gemini model.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-llama31-references-llama3",
+    "source": "object-llama31",
+    "target": "object-llama3",
+    "relationship": "continuation_of",
+    "dateStart": "2024",
+    "evidence": "LLaMA 3.1 is a major update to the LLaMA 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-llama4-references-llama3",
+    "source": "object-llama4",
+    "target": "object-llama3",
+    "relationship": "continuation_of",
+    "dateStart": "2025",
+    "evidence": "LLaMA 4 is the successor to the LLaMA 3 model family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grok3-references-grok",
+    "source": "object-grok3",
+    "target": "object-grok",
+    "relationship": "continuation_of",
+    "dateStart": "2025",
+    "evidence": "Grok 3 is the successor to the original Grok model, trained with 10x more compute.",
+    "strength": "strong"
+  }
+]

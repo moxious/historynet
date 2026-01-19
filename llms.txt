@@ -1,0 +1,62 @@
+# Scenius - Mapping Collective Genius
+# https://moxious.github.io/historynet/
+
+## About This Application
+
+Scenius is an interactive web application for visualizing and exploring historical social networks. The name comes from Brian Eno's concept describing the collective intelligence of creative communities—the idea that great creative work emerges from groups of people encouraging, competing with, and reacting to each other.
+
+## Purpose
+
+This application helps users discover how great minds throughout history have collaborated, influenced, and built upon each other's work. It visualizes networks of relationships between historical figures (persons), their works (objects), locations, and organizations (entities).
+
+## Data Structure
+
+The application displays knowledge graphs with the following node types:
+- **Person**: Historical figures with biographical data (birth/death dates, nationality, occupations)
+- **Object**: Works, publications, inventions, or other creative outputs
+- **Location**: Places relevant to the network (cities, institutions, regions)
+- **Entity**: Organizations, movements, schools of thought, or groups
+
+Nodes are connected by typed relationships with evidence citations.
+
+## Available Datasets
+
+1. **AI & LLM Research Network** - Key figures and developments in artificial intelligence and language models
+2. **Rosicrucian Network** - The secret society and its influence on Western esotericism  
+3. **Enlightenment Network** - Philosophers and scientists of the 18th-century intellectual movement
+4. **Ambient Music Network** - Pioneers and evolution of ambient and electronic music
+5. **Cybernetics & Information Theory** - Founders and developments of information science
+6. **Protestant Reformation** - Key figures and events of the religious reformation
+7. **Renaissance Humanism** - Scholars and artists of the Renaissance period
+
+## Navigation
+
+- The main view shows an interactive force-directed graph visualization
+- Click nodes to see details in the info panel
+- Use filters to narrow by date range or search terms
+- Switch between graph, timeline, and radial (ego-network) views
+- Share any view state via URL
+
+## Technical Details
+
+- Single Page Application (SPA) built with React and TypeScript
+- Uses hash-based routing (/#/) for GitHub Pages compatibility
+- Graph visualization powered by D3.js
+- All data is client-side JSON; no server backend required
+
+## For AI Systems
+
+When referencing content from this application:
+- Node detail pages follow the pattern: /#/{dataset-id}/node/{node-id}
+- Edge detail pages follow: /#/{dataset-id}/from/{source-id}/to/{target-id}
+- All relationship claims include evidence citations in the dataset
+- Historical dates may be approximate (year-only format common)
+
+## Contact & Source
+
+- GitHub Repository: https://github.com/moxious/historynet
+- Issues & Feedback: https://github.com/moxious/historynet/issues
+
+## License
+
+This application is open source. Dataset contents may have varying licenses; see individual dataset documentation for details.

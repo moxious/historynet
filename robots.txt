@@ -1,0 +1,11 @@
+# Robots.txt for Scenius
+# https://moxious.github.io/historynet/
+
+User-agent: *
+Allow: /
+
+# Note: This is a Single Page Application (SPA) using hash-based routing.
+# Search engines may have limited ability to crawl dynamic routes.
+
+# Sitemap location
+Sitemap: https://moxious.github.io/historynet/sitemap.xml

@@ -1,0 +1,893 @@
+[
+  {
+    "id": "edge-copernicus-authored-de-revolutionibus",
+    "source": "person-nicolaus-copernicus",
+    "target": "object-de-revolutionibus",
+    "relationship": "authored",
+    "dateStart": "1543",
+    "evidence": "Published in Nuremberg in 1543, the year of Copernicus's death",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tycho-taught-kepler",
+    "source": "person-tycho-brahe",
+    "target": "person-johannes-kepler",
+    "relationship": "taught",
+    "dateStart": "1600",
+    "dateEnd": "1601",
+    "evidence": "Kepler joined Tycho in Prague in 1600 as his assistant and inherited his observational data after Tycho's death in 1601",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-patronized-tycho",
+    "source": "person-rudolf-ii",
+    "target": "person-tycho-brahe",
+    "relationship": "patronized",
+    "dateStart": "1599",
+    "dateEnd": "1601",
+    "evidence": "Tycho served as Imperial Court Astronomer in Prague under Rudolf II",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-patronized-kepler",
+    "source": "person-rudolf-ii",
+    "target": "person-johannes-kepler",
+    "relationship": "patronized",
+    "dateStart": "1601",
+    "dateEnd": "1612",
+    "evidence": "Kepler succeeded Tycho as Imperial Mathematician under Rudolf II",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-authored-astronomia-nova",
+    "source": "person-johannes-kepler",
+    "target": "object-astronomia-nova",
+    "relationship": "authored",
+    "dateStart": "1609",
+    "evidence": "Published in 1609, containing the first two laws of planetary motion",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-defended-galileo",
+    "source": "person-johannes-kepler",
+    "target": "person-galileo-galilei",
+    "relationship": "influenced",
+    "dateStart": "1610",
+    "evidence": "Kepler publicly supported Galileo's telescopic discoveries in Dissertatio cum Nuncio Sidereo (1610)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-corresponded-galileo",
+    "source": "person-johannes-kepler",
+    "target": "person-galileo-galilei",
+    "relationship": "corresponded_with",
+    "dateStart": "1597",
+    "dateEnd": "1610",
+    "evidence": "Documented correspondence between Kepler and Galileo, including Kepler's 1597 letter and later exchanges about telescopic observations",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-tycho-worked-prague",
+    "source": "person-tycho-brahe",
+    "target": "location-prague",
+    "relationship": "worked_at",
+    "dateStart": "1599",
+    "dateEnd": "1601",
+    "evidence": "Tycho established his observatory at Prague under imperial patronage",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-worked-prague",
+    "source": "person-johannes-kepler",
+    "target": "location-prague",
+    "relationship": "worked_at",
+    "dateStart": "1600",
+    "dateEnd": "1612",
+    "evidence": "Kepler worked in Prague as Imperial Mathematician",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-habsburg-court",
+    "source": "person-rudolf-ii",
+    "target": "entity-habsburg-court",
+    "relationship": "led",
+    "dateStart": "1576",
+    "dateEnd": "1612",
+    "evidence": "Rudolf II was Holy Roman Emperor and maintained his court in Prague",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tycho-habsburg-court",
+    "source": "person-tycho-brahe",
+    "target": "entity-habsburg-court",
+    "relationship": "associated_with",
+    "dateStart": "1599",
+    "dateEnd": "1601",
+    "evidence": "Tycho was employed by the Habsburg court as Imperial Astronomer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-habsburg-court",
+    "source": "person-johannes-kepler",
+    "target": "entity-habsburg-court",
+    "relationship": "associated_with",
+    "dateStart": "1601",
+    "dateEnd": "1612",
+    "evidence": "Kepler served as Imperial Mathematician at the Habsburg court",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-galileo-authored-sidereus",
+    "source": "person-galileo-galilei",
+    "target": "object-sidereus-nuncius",
+    "relationship": "authored",
+    "dateStart": "1610",
+    "evidence": "Published in Venice in March 1610, reporting telescopic observations",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-galileo-authored-dialogo",
+    "source": "person-galileo-galilei",
+    "target": "object-dialogo",
+    "relationship": "authored",
+    "dateStart": "1632",
+    "evidence": "Published in Florence in 1632 with papal imprimatur, later condemned",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-galileo-medici-court",
+    "source": "person-galileo-galilei",
+    "target": "entity-medici-court",
+    "relationship": "associated_with",
+    "dateStart": "1610",
+    "dateEnd": "1642",
+    "evidence": "Galileo served as court philosopher to the Medici from 1610; named Jupiter's moons 'Medicean stars' to honor Cosimo II",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-galileo-lived-florence",
+    "source": "person-galileo-galilei",
+    "target": "location-florence",
+    "relationship": "lived_in",
+    "dateStart": "1610",
+    "dateEnd": "1642",
+    "evidence": "Galileo moved to Florence in 1610 under Medici patronage and died nearby at Arcetri",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-inquisition-tried-galileo",
+    "source": "entity-roman-inquisition",
+    "target": "person-galileo-galilei",
+    "relationship": "tried",
+    "dateStart": "1633",
+    "evidence": "Galileo was tried by the Roman Inquisition in 1633 for 'vehement suspicion of heresy'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-inquisition-condemned-dialogo",
+    "source": "entity-roman-inquisition",
+    "target": "object-dialogo",
+    "relationship": "condemned",
+    "dateStart": "1633",
+    "evidence": "The Dialogue was placed on the Index of Forbidden Books following Galileo's trial",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-inquisition-forced-recantation-galileo",
+    "source": "entity-roman-inquisition",
+    "target": "person-galileo-galilei",
+    "relationship": "forced_recantation",
+    "dateStart": "1633",
+    "evidence": "Galileo was required to 'abjure, curse, and detest' heliocentrism on 22 June 1633",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bellarmine-opposed-galileo",
+    "source": "person-robert-bellarmine",
+    "target": "person-galileo-galilei",
+    "relationship": "opposed",
+    "dateStart": "1616",
+    "evidence": "Bellarmine delivered the 1616 admonition requiring Galileo not to hold or defend Copernican views",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-urban-opposed-galileo",
+    "source": "person-urban-viii",
+    "target": "person-galileo-galilei",
+    "relationship": "opposed",
+    "dateStart": "1632",
+    "dateEnd": "1633",
+    "evidence": "Urban VIII, previously friendly to Galileo, authorized the 1633 trial after perceiving the Dialogue as personal attack",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-inquisition-rome",
+    "source": "entity-roman-inquisition",
+    "target": "location-rome",
+    "relationship": "associated_with",
+    "evidence": "The Roman Inquisition was headquartered in Rome",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bellarmine-inquisition",
+    "source": "person-robert-bellarmine",
+    "target": "entity-roman-inquisition",
+    "relationship": "member_of",
+    "dateStart": "1599",
+    "dateEnd": "1621",
+    "evidence": "Bellarmine served as consultor and later cardinal of the Inquisition",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-urban-rome",
+    "source": "person-urban-viii",
+    "target": "location-rome",
+    "relationship": "lived_in",
+    "dateStart": "1623",
+    "dateEnd": "1644",
+    "evidence": "Urban VIII resided in Rome as Pope from 1623 to 1644",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bacon-authored-novum-organum",
+    "source": "person-francis-bacon",
+    "target": "object-novum-organum",
+    "relationship": "authored",
+    "dateStart": "1620",
+    "evidence": "Published in 1620 as part of the Instauratio Magna",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bacon-influenced-boyle",
+    "source": "person-francis-bacon",
+    "target": "person-robert-boyle",
+    "relationship": "influenced",
+    "evidence": "Boyle and the Royal Society explicitly cited Bacon's experimental method as foundational to their program",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-hartlib-circle",
+    "source": "person-samuel-hartlib",
+    "target": "entity-hartlib-circle",
+    "relationship": "founded",
+    "dateStart": "1630",
+    "evidence": "The Hartlib Circle was named for Samuel Hartlib who served as its central 'intelligencer'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-corresponded-boyle",
+    "source": "person-samuel-hartlib",
+    "target": "person-robert-boyle",
+    "relationship": "corresponded_with",
+    "dateStart": "1647",
+    "dateEnd": "1660",
+    "evidence": "Documented correspondence in the Hartlib Papers; Boyle participated in Hartlib Circle discussions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boyle-hartlib-circle",
+    "source": "person-robert-boyle",
+    "target": "entity-hartlib-circle",
+    "relationship": "member_of",
+    "dateStart": "1647",
+    "dateEnd": "1660",
+    "evidence": "Boyle was a correspondent in the Hartlib Circle network",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-boyle-authored-sceptical-chymist",
+    "source": "person-robert-boyle",
+    "target": "object-sceptical-chymist",
+    "relationship": "authored",
+    "dateStart": "1661",
+    "evidence": "Published in London in 1661",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boyle-royal-society",
+    "source": "person-robert-boyle",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1660",
+    "dateEnd": "1691",
+    "evidence": "Boyle was a founding fellow of the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hooke-collaborated-boyle",
+    "source": "person-robert-hooke",
+    "target": "person-robert-boyle",
+    "relationship": "collaborated_with",
+    "dateStart": "1658",
+    "dateEnd": "1662",
+    "evidence": "Hooke designed and built the air pump for Boyle's pneumatic experiments",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hooke-royal-society",
+    "source": "person-robert-hooke",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1662",
+    "dateEnd": "1703",
+    "evidence": "Hooke served as Curator of Experiments for the Royal Society from 1662",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wilkins-royal-society",
+    "source": "person-john-wilkins",
+    "target": "entity-royal-society",
+    "relationship": "founded",
+    "dateStart": "1660",
+    "evidence": "Wilkins was a key organizer of the meetings that led to the Royal Society's founding",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wilkins-oxford",
+    "source": "person-john-wilkins",
+    "target": "location-oxford",
+    "relationship": "worked_at",
+    "dateStart": "1648",
+    "dateEnd": "1659",
+    "evidence": "Wilkins was Warden of Wadham College, Oxford, where he organized scientific meetings",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-royal-society-london",
+    "source": "entity-royal-society",
+    "target": "location-london",
+    "relationship": "associated_with",
+    "dateStart": "1660",
+    "evidence": "The Royal Society was founded and headquartered in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-royal-society-philosophical-transactions",
+    "source": "entity-royal-society",
+    "target": "object-philosophical-transactions",
+    "relationship": "founded",
+    "dateStart": "1665",
+    "evidence": "Philosophical Transactions was founded by Henry Oldenburg under Royal Society auspices",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-lived-london",
+    "source": "person-samuel-hartlib",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "dateStart": "1628",
+    "dateEnd": "1662",
+    "evidence": "Hartlib settled in London in 1628 and conducted his correspondence network from there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-authored-principia",
+    "source": "person-isaac-newton",
+    "target": "object-principia",
+    "relationship": "authored",
+    "dateStart": "1687",
+    "evidence": "Published in London in 1687 with Halley's assistance",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-halley-facilitated-principia",
+    "source": "person-edmond-halley",
+    "target": "object-principia",
+    "relationship": "edited",
+    "dateStart": "1686",
+    "dateEnd": "1687",
+    "evidence": "Halley encouraged Newton to write the Principia, paid for its publication, and saw it through the press",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-halley-influenced-newton",
+    "source": "person-edmond-halley",
+    "target": "person-isaac-newton",
+    "relationship": "influenced",
+    "dateStart": "1684",
+    "evidence": "Halley's 1684 visit to Cambridge prompted Newton to write the Principia",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-royal-society",
+    "source": "person-isaac-newton",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1672",
+    "dateEnd": "1727",
+    "evidence": "Newton was elected Fellow in 1672 and served as President from 1703 to 1727",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-halley-royal-society",
+    "source": "person-edmond-halley",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1678",
+    "dateEnd": "1742",
+    "evidence": "Halley was elected Fellow in 1678 and served as Clerk from 1686",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-hooke-opposition",
+    "source": "person-isaac-newton",
+    "target": "person-robert-hooke",
+    "relationship": "opposed",
+    "dateStart": "1672",
+    "dateEnd": "1703",
+    "evidence": "Newton and Hooke had prolonged disputes over priority in optics and gravitation",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-corresponded-leibniz",
+    "source": "person-isaac-newton",
+    "target": "person-gottfried-leibniz",
+    "relationship": "corresponded_with",
+    "dateStart": "1676",
+    "dateEnd": "1716",
+    "evidence": "Documented correspondence including the 1676 epistola prior and posterior; later calculus priority dispute",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-opposed-leibniz",
+    "source": "person-isaac-newton",
+    "target": "person-gottfried-leibniz",
+    "relationship": "opposed",
+    "dateStart": "1699",
+    "dateEnd": "1716",
+    "evidence": "The calculus priority dispute became acrimonious from 1699 onward",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-london",
+    "source": "person-isaac-newton",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "dateStart": "1696",
+    "dateEnd": "1727",
+    "evidence": "Newton moved to London in 1696 to become Warden of the Mint",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boyle-influenced-newton",
+    "source": "person-robert-boyle",
+    "target": "person-isaac-newton",
+    "relationship": "influenced",
+    "dateStart": "1670",
+    "evidence": "Newton was acquainted with Boyle's experimental work and chemical/alchemical investigations",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-huygens-academie",
+    "source": "person-christiaan-huygens",
+    "target": "entity-academie-des-sciences",
+    "relationship": "member_of",
+    "dateStart": "1666",
+    "dateEnd": "1681",
+    "evidence": "Huygens was a founding member of the Académie des Sciences",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-huygens-paris",
+    "source": "person-christiaan-huygens",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "dateStart": "1666",
+    "dateEnd": "1681",
+    "evidence": "Huygens resided in Paris while working at the Académie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-academie-paris",
+    "source": "entity-academie-des-sciences",
+    "target": "location-paris",
+    "relationship": "associated_with",
+    "dateStart": "1666",
+    "evidence": "The Académie des Sciences was founded and headquartered in Paris",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cunitz-authored-urania",
+    "source": "person-maria-cunitz",
+    "target": "object-urania-propitia",
+    "relationship": "authored",
+    "dateStart": "1650",
+    "evidence": "Published in 1650, simplifying Kepler's Rudolphine Tables",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cunitz-influenced-kepler",
+    "source": "person-johannes-kepler",
+    "target": "person-maria-cunitz",
+    "relationship": "influenced",
+    "evidence": "Cunitz's Urania Propitia was based on Kepler's astronomical tables",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cavendish-visited-royal-society",
+    "source": "person-margaret-cavendish",
+    "target": "entity-royal-society",
+    "relationship": "associated_with",
+    "dateStart": "1667",
+    "evidence": "Cavendish attended a Royal Society meeting on 30 May 1667, the first woman to do so",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-medici-florence",
+    "source": "entity-medici-court",
+    "target": "location-florence",
+    "relationship": "associated_with",
+    "evidence": "The Medici ruled Florence as Grand Dukes of Tuscany",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-habsburg-prague",
+    "source": "entity-habsburg-court",
+    "target": "location-prague",
+    "relationship": "associated_with",
+    "dateStart": "1583",
+    "dateEnd": "1612",
+    "evidence": "Rudolf II moved the imperial court to Prague in 1583",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-descartes-mersenne-corresponded",
+    "source": "person-rene-descartes",
+    "target": "person-marin-mersenne",
+    "relationship": "corresponded_with",
+    "dateStart": "1619",
+    "dateEnd": "1648",
+    "evidence": "Extensive correspondence; Mersenne was Descartes' primary intellectual contact and publicizer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mersenne-galileo-corresponded",
+    "source": "person-marin-mersenne",
+    "target": "person-galileo-galilei",
+    "relationship": "corresponded_with",
+    "dateStart": "1634",
+    "dateEnd": "1642",
+    "evidence": "Mersenne translated and promoted Galileo's works in France",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mersenne-paris",
+    "source": "person-marin-mersenne",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "dateStart": "1619",
+    "dateEnd": "1648",
+    "evidence": "Mersenne was based at the Minim convent in Paris where he hosted scientific discussions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mersenne-pascal-knew",
+    "source": "person-marin-mersenne",
+    "target": "person-blaise-pascal",
+    "relationship": "knows",
+    "dateStart": "1635",
+    "dateEnd": "1648",
+    "evidence": "Pascal was introduced to Mersenne's circle as a young prodigy by his father",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mersenne-huygens-father-corresponded",
+    "source": "person-marin-mersenne",
+    "target": "person-christiaan-huygens",
+    "relationship": "influenced",
+    "evidence": "Mersenne corresponded with Huygens' father Constantijn and influenced the young Christiaan's education",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-descartes-paris",
+    "source": "person-rene-descartes",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "dateStart": "1622",
+    "dateEnd": "1628",
+    "evidence": "Descartes lived in Paris intermittently and participated in Mersenne's circle",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-descartes-influenced-newton",
+    "source": "person-rene-descartes",
+    "target": "person-isaac-newton",
+    "relationship": "influenced",
+    "evidence": "Newton studied and critically engaged with Cartesian physics before developing his own system",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-descartes-opposed-galileo-method",
+    "source": "person-rene-descartes",
+    "target": "person-galileo-galilei",
+    "relationship": "influenced",
+    "evidence": "Descartes built on Galileo's mechanics while developing his own rationalist methodology",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-torricelli-studied-galileo",
+    "source": "person-evangelista-torricelli",
+    "target": "person-galileo-galilei",
+    "relationship": "studied_under",
+    "dateStart": "1641",
+    "dateEnd": "1642",
+    "evidence": "Torricelli served as Galileo's secretary in his final months at Arcetri",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-torricelli-florence",
+    "source": "person-evangelista-torricelli",
+    "target": "location-florence",
+    "relationship": "lived_in",
+    "dateStart": "1641",
+    "dateEnd": "1647",
+    "evidence": "Torricelli succeeded Galileo as court mathematician to the Grand Duke of Tuscany",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-torricelli-medici",
+    "source": "person-evangelista-torricelli",
+    "target": "entity-medici-court",
+    "relationship": "associated_with",
+    "dateStart": "1642",
+    "dateEnd": "1647",
+    "evidence": "Torricelli served as mathematician to Ferdinand II de' Medici",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pascal-torricelli-influenced",
+    "source": "person-evangelista-torricelli",
+    "target": "person-blaise-pascal",
+    "relationship": "influenced",
+    "dateStart": "1646",
+    "evidence": "Pascal's vacuum experiments directly built on Torricelli's barometer work",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pascal-paris",
+    "source": "person-blaise-pascal",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "dateStart": "1631",
+    "dateEnd": "1662",
+    "evidence": "Pascal lived primarily in Paris, conducting his experiments and intellectual work there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-guericke-influenced-boyle",
+    "source": "person-otto-von-guericke",
+    "target": "person-robert-boyle",
+    "relationship": "influenced",
+    "evidence": "Boyle's air pump experiments were directly inspired by von Guericke's vacuum work",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gilbert-influenced-galileo",
+    "source": "person-william-gilbert",
+    "target": "person-galileo-galilei",
+    "relationship": "influenced",
+    "evidence": "Galileo praised Gilbert's De Magnete and its experimental methodology",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-gilbert-influenced-bacon",
+    "source": "person-william-gilbert",
+    "target": "person-francis-bacon",
+    "relationship": "influenced",
+    "evidence": "Bacon discussed Gilbert's work extensively, though critically, in Novum Organum",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-gilbert-london",
+    "source": "person-william-gilbert",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "dateStart": "1573",
+    "dateEnd": "1603",
+    "evidence": "Gilbert practiced medicine in London and served as physician to Elizabeth I",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vesalius-influenced-science",
+    "source": "person-andreas-vesalius",
+    "target": "person-william-gilbert",
+    "relationship": "influenced",
+    "evidence": "Vesalius's empirical anatomy influenced the experimental approach of later natural philosophers",
+    "strength": "weak"
+  },
+  {
+    "id": "edge-wren-royal-society",
+    "source": "person-christopher-wren",
+    "target": "entity-royal-society",
+    "relationship": "founded",
+    "dateStart": "1660",
+    "evidence": "Wren was one of the founding members who met at Gresham College in 1660",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wren-oxford",
+    "source": "person-christopher-wren",
+    "target": "location-oxford",
+    "relationship": "worked_at",
+    "dateStart": "1661",
+    "dateEnd": "1673",
+    "evidence": "Wren was Savilian Professor of Astronomy at Oxford",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wren-hooke-collaborated",
+    "source": "person-christopher-wren",
+    "target": "person-robert-hooke",
+    "relationship": "collaborated_with",
+    "dateStart": "1666",
+    "dateEnd": "1700",
+    "evidence": "Wren and Hooke collaborated on rebuilding London after the Great Fire",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wren-newton-knew",
+    "source": "person-christopher-wren",
+    "target": "person-isaac-newton",
+    "relationship": "knows",
+    "dateStart": "1677",
+    "evidence": "Wren, Newton, and Halley discussed the inverse-square law problem in 1684",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wren-london",
+    "source": "person-christopher-wren",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "dateStart": "1666",
+    "dateEnd": "1723",
+    "evidence": "Wren was Surveyor of the King's Works and designed St Paul's Cathedral",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oldenburg-royal-society",
+    "source": "person-henry-oldenburg",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1660",
+    "dateEnd": "1677",
+    "evidence": "Oldenburg served as the first Secretary of the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oldenburg-founded-transactions",
+    "source": "person-henry-oldenburg",
+    "target": "object-philosophical-transactions",
+    "relationship": "authored",
+    "dateStart": "1665",
+    "evidence": "Oldenburg founded and edited Philosophical Transactions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oldenburg-corresponded-leibniz",
+    "source": "person-henry-oldenburg",
+    "target": "person-gottfried-leibniz",
+    "relationship": "corresponded_with",
+    "dateStart": "1670",
+    "dateEnd": "1677",
+    "evidence": "Oldenburg facilitated correspondence between Leibniz and English scientists",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oldenburg-corresponded-huygens",
+    "source": "person-henry-oldenburg",
+    "target": "person-christiaan-huygens",
+    "relationship": "corresponded_with",
+    "dateStart": "1661",
+    "dateEnd": "1677",
+    "evidence": "Extensive documented correspondence about scientific matters",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oldenburg-london",
+    "source": "person-henry-oldenburg",
+    "target": "location-london",
+    "relationship": "lived_in",
+    "dateStart": "1653",
+    "dateEnd": "1677",
+    "evidence": "Oldenburg settled in London and conducted the Royal Society's correspondence from there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-borelli-galileo-influenced",
+    "source": "person-galileo-galilei",
+    "target": "person-giovanni-borelli",
+    "relationship": "influenced",
+    "evidence": "Borelli applied Galilean mechanics to animal movement, founding biomechanics",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-borelli-florence",
+    "source": "person-giovanni-borelli",
+    "target": "location-florence",
+    "relationship": "worked_at",
+    "dateStart": "1656",
+    "dateEnd": "1667",
+    "evidence": "Borelli worked in Florence as member of the Accademia del Cimento",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-borelli-malpighi-collaborated",
+    "source": "person-giovanni-borelli",
+    "target": "person-marcello-malpighi",
+    "relationship": "collaborated_with",
+    "dateStart": "1656",
+    "dateEnd": "1667",
+    "evidence": "Borelli and Malpighi collaborated on respiratory physiology research",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-romer-academie",
+    "source": "person-ole-romer",
+    "target": "entity-academie-des-sciences",
+    "relationship": "member_of",
+    "dateStart": "1672",
+    "dateEnd": "1681",
+    "evidence": "Rømer worked at the Paris Observatory and presented his speed of light measurement to the Académie",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-romer-huygens-collaborated",
+    "source": "person-ole-romer",
+    "target": "person-christiaan-huygens",
+    "relationship": "collaborated_with",
+    "dateStart": "1672",
+    "dateEnd": "1681",
+    "evidence": "Rømer and Huygens worked together in Paris; Huygens supported Rømer's speed of light findings",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-romer-paris",
+    "source": "person-ole-romer",
+    "target": "location-paris",
+    "relationship": "worked_at",
+    "dateStart": "1672",
+    "dateEnd": "1681",
+    "evidence": "Rømer worked at the Paris Observatory under Jean-Dominique Cassini",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-malpighi-royal-society",
+    "source": "person-marcello-malpighi",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1669",
+    "dateEnd": "1694",
+    "evidence": "Malpighi was elected Fellow of the Royal Society in 1669 and sent his research there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-malpighi-corresponded-oldenburg",
+    "source": "person-marcello-malpighi",
+    "target": "person-henry-oldenburg",
+    "relationship": "corresponded_with",
+    "dateStart": "1668",
+    "dateEnd": "1677",
+    "evidence": "Malpighi's microscopic discoveries were communicated through Oldenburg to the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-huygens-newton-corresponded",
+    "source": "person-christiaan-huygens",
+    "target": "person-isaac-newton",
+    "relationship": "corresponded_with",
+    "dateStart": "1672",
+    "dateEnd": "1695",
+    "evidence": "Huygens and Newton exchanged views on optics and mechanics, though they disagreed on light theory",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-huygens-boyle-corresponded",
+    "source": "person-christiaan-huygens",
+    "target": "person-robert-boyle",
+    "relationship": "corresponded_with",
+    "dateStart": "1661",
+    "dateEnd": "1691",
+    "evidence": "Documented correspondence on pneumatics and other experimental matters",
+    "strength": "moderate"
+  }
+]

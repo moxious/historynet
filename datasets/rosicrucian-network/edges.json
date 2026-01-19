@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "edge-hess-taught-andreae",
+    "source": "person-tobias-hess",
+    "target": "person-jv-andreae",
+    "relationship": "taught",
+    "label": "Mentored",
+    "dateStart": "1605",
+    "dateEnd": "1614",
+    "evidence": "Andreae dedicated works to Hess including De Christiani Cosmoxeni genitura (1612). He wrote a memorial for Hess when he died in 1614 and referred to him in glowing terms as a mentor and father-figure.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Tobias_Hess",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-besold-influenced-andreae",
+    "source": "person-christoph-besold",
+    "target": "person-jv-andreae",
+    "relationship": "influenced",
+    "label": "Mentored",
+    "dateStart": "1605",
+    "dateEnd": "1638",
+    "evidence": "Besold encouraged Andreae's interest in esotericism and provided access to his large personal library of mystical and philosophical sources. They were close colleagues in the Tübingen Circle.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-arndt-influenced-andreae",
+    "source": "person-johann-arndt",
+    "target": "person-jv-andreae",
+    "relationship": "influenced",
+    "label": "Spiritual influence",
+    "dateStart": "1605",
+    "dateEnd": "1621",
+    "evidence": "Andreae highly praised True Christianity and published Christianismus genuinus (1615) as a summary of Arndt's treatise. Arndt's practical spirituality deeply shaped Andreae's theological vision.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-knew-besold",
+    "source": "person-johannes-kepler",
+    "target": "person-christoph-besold",
+    "relationship": "knows",
+    "label": "Close friends",
+    "dateStart": "1590",
+    "dateEnd": "1630",
+    "evidence": "Besold and Kepler were classmates at the University of Tübingen in the early 1590s. When Kepler's mother was accused of witchcraft in 1615, Besold helped in her legal defense.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-studied-mastlin",
+    "source": "person-johannes-kepler",
+    "target": "person-michael-mastlin",
+    "relationship": "studied_under",
+    "label": "Studied astronomy",
+    "dateStart": "1589",
+    "dateEnd": "1594",
+    "evidence": "Kepler studied at the University of Tübingen under Mästlin, who introduced him to Copernican astronomy. Mästlin was one of the few supporters of Copernicus at the time.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-andreae-studied-mastlin",
+    "source": "person-jv-andreae",
+    "target": "person-michael-mastlin",
+    "relationship": "studied_under",
+    "label": "Studied mathematics",
+    "dateStart": "1602",
+    "dateEnd": "1608",
+    "evidence": "Andreae studied under Michael Mästlin at the University of Tübingen, placing him in the same intellectual context as Kepler.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-weigel-influenced-boehme",
+    "source": "person-valentin-weigel",
+    "target": "person-jacob-boehme",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Weigel's posthumously published writings on inner spirituality and the 'inner church' influenced Boehme's development of Christian theosophy.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-weigel-influenced-arndt",
+    "source": "person-valentin-weigel",
+    "target": "person-johann-arndt",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Weigel's mystical writings influenced Arndt's devotional theology and emphasis on inner transformation.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-paracelsus-influenced-boehme",
+    "source": "person-paracelsus",
+    "target": "person-jacob-boehme",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Boehme adopted alchemical symbols and the Paracelsian three principles (salt, sulfur, mercury) to articulate his nature mysticism.",
+    "evidenceUrl": "https://www.britannica.com/biography/Jakob-Bohme",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-franck-influenced-weigel",
+    "source": "person-sebastian-franck",
+    "target": "person-valentin-weigel",
+    "relationship": "influenced",
+    "label": "Spiritual influence",
+    "evidence": "Franck's emphasis on the inner Word over external Scripture and doctrine influenced Weigel's development of spiritualist thought.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-schwenckfeld-influenced-weigel",
+    "source": "person-caspar-schwenckfeld",
+    "target": "person-valentin-weigel",
+    "relationship": "influenced",
+    "label": "Spiritual influence",
+    "evidence": "Schwenckfeld's works were collected by Karl Widemann and his spiritualist emphasis influenced Weigel's thought.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-boehme-influenced-gichtel",
+    "source": "person-jacob-boehme",
+    "target": "person-jg-gichtel",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Gichtel was a major follower of Boehme who edited and published Boehme's collected works and founded the Gichtelians based on Boehme's teachings.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dee-collaborated-kelley",
+    "source": "person-john-dee",
+    "target": "person-edward-kelley",
+    "relationship": "collaborated_with",
+    "label": "Angelic communications",
+    "dateStart": "1582",
+    "dateEnd": "1589",
+    "evidence": "Dee and Kelley collaborated on spiritual conferences and angelic communications from 1582. They traveled together through Central Europe seeking patronage until parting in 1589.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-khunrath-knew-dee",
+    "source": "person-heinrich-khunrath",
+    "target": "person-john-dee",
+    "relationship": "knows",
+    "label": "Met in Bremen",
+    "dateStart": "1589",
+    "dateEnd": "1589",
+    "evidence": "Khunrath met John Dee in Bremen on 27 May 1589 as Dee was returning to England. Khunrath later praised Dee in his writings.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Heinrich_Khunrath",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-khunrath-knew-kelley",
+    "source": "person-heinrich-khunrath",
+    "target": "person-edward-kelley",
+    "relationship": "knows",
+    "label": "Met at Prague court",
+    "dateStart": "1589",
+    "dateEnd": "1591",
+    "evidence": "After meeting Dee, Khunrath traveled to Rudolf II's court in Prague where he met Edward Kelley who had remained in Bohemia.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Heinrich_Khunrath",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-rudolf-patronized-dee",
+    "source": "person-rudolf-ii",
+    "target": "person-john-dee",
+    "relationship": "patronized",
+    "label": "Received at court",
+    "dateStart": "1583",
+    "dateEnd": "1589",
+    "evidence": "Dee and Kelley first made contact with Rudolf II in Prague in 1583, seeking patronage for their esoteric work.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-rudolf-patronized-kelley",
+    "source": "person-rudolf-ii",
+    "target": "person-edward-kelley",
+    "relationship": "patronized",
+    "label": "Court alchemist",
+    "dateStart": "1589",
+    "dateEnd": "1597",
+    "evidence": "After parting from Dee, Kelley remained in Bohemia as a prominent alchemist under Rudolf II's patronage until his imprisonment and death.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-patronized-maier",
+    "source": "person-rudolf-ii",
+    "target": "person-michael-maier",
+    "relationship": "patronized",
+    "label": "Physician and counselor",
+    "dateStart": "1609",
+    "dateEnd": "1611",
+    "evidence": "On 19 September 1609 Maier formally entered the service of Emperor Rudolf II as his physician and imperial counselor. He was elevated to hereditary nobility.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Michael_Maier",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-patronized-brahe",
+    "source": "person-rudolf-ii",
+    "target": "person-tycho-brahe",
+    "relationship": "patronized",
+    "label": "Imperial Astronomer",
+    "dateStart": "1599",
+    "dateEnd": "1601",
+    "evidence": "Tycho Brahe became Imperial Court Astronomer under Rudolf II in Prague from 1599 until his death in 1601.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-patronized-kepler",
+    "source": "person-rudolf-ii",
+    "target": "person-johannes-kepler",
+    "relationship": "patronized",
+    "label": "Imperial Mathematician",
+    "dateStart": "1601",
+    "dateEnd": "1612",
+    "evidence": "Kepler succeeded Tycho Brahe as Imperial Astronomer under Rudolf II after Brahe's death in 1601.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brahe-knew-kepler",
+    "source": "person-tycho-brahe",
+    "target": "person-johannes-kepler",
+    "relationship": "collaborated_with",
+    "label": "Astronomical collaboration",
+    "dateStart": "1600",
+    "dateEnd": "1601",
+    "evidence": "Kepler joined Brahe as an assistant in Prague in 1600 and inherited his observational data after Brahe's death in 1601.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rozmberk-patronized-dee",
+    "source": "person-vilem-rozmberk",
+    "target": "person-john-dee",
+    "relationship": "patronized",
+    "label": "Hosted at Třeboň",
+    "dateStart": "1586",
+    "dateEnd": "1589",
+    "evidence": "Vilém of Rožmberk hosted John Dee and Edward Kelley at his castle in Třeboň, supporting their alchemical research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rozmberk-patronized-kelley",
+    "source": "person-vilem-rozmberk",
+    "target": "person-edward-kelley",
+    "relationship": "patronized",
+    "label": "Alchemical patron",
+    "dateStart": "1586",
+    "dateEnd": "1592",
+    "evidence": "Vilém of Rožmberk was a major patron of Edward Kelley at his castle in Třeboň.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-widemann-secretary-kelley",
+    "source": "person-karl-widemann",
+    "target": "person-edward-kelley",
+    "relationship": "secretary_to",
+    "label": "Secretary",
+    "dateStart": "1589",
+    "dateEnd": "1597",
+    "evidence": "Karl Widemann briefly served as secretary to Edward Kelley at Rudolf II's court in Prague.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-fludd-opposed-libavius",
+    "source": "person-robert-fludd",
+    "target": "person-andreas-libavius",
+    "relationship": "opposed",
+    "label": "Intellectual polemic",
+    "dateStart": "1616",
+    "dateEnd": "1616",
+    "evidence": "Libavius published Analysis Confessionis (1615) criticizing the Rosicrucian manifestos. Fludd responded with Apologia Compendiaria (1616) and Tractatus Apologeticus (1617) defending the Brotherhood.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moritz-patronized-hartmann",
+    "source": "person-moritz-hesse-kassel",
+    "target": "person-johannes-hartmann",
+    "relationship": "patronized",
+    "label": "Appointed first chemistry professor",
+    "dateStart": "1609",
+    "dateEnd": "1631",
+    "evidence": "In 1609, Landgrave Moritz appointed Hartmann to a newly created chair for Chymiatrie at the University of Marburg—the first professorship explicitly dedicated to chemistry.",
+    "evidenceUrl": "https://www.uni-marburg.de/de/fb15/fachbereich/profil_und_chronik/chronik/historische-staette-der-chemie-2015",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moritz-patronized-maier",
+    "source": "person-moritz-hesse-kassel",
+    "target": "person-michael-maier",
+    "relationship": "patronized",
+    "label": "Court physician",
+    "dateStart": "1619",
+    "dateEnd": "1620",
+    "evidence": "Around 1619 Maier became physician to Landgrave Moritz of Hesse-Kassel.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Michael_Maier",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-haslmayr-knew-figulus",
+    "source": "person-adam-haslmayr",
+    "target": "person-benedictus-figulus",
+    "relationship": "knows",
+    "label": "Close association",
+    "dateStart": "1600",
+    "dateEnd": "1619",
+    "evidence": "Haslmayr had close ties to Benedictus Figulus and Karl Widemann and reportedly lived with them for a time.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-haslmayr-knew-widemann",
+    "source": "person-adam-haslmayr",
+    "target": "person-karl-widemann",
+    "relationship": "knows",
+    "label": "Close association",
+    "dateStart": "1600",
+    "dateEnd": "1630",
+    "evidence": "Haslmayr had close ties to Karl Widemann and reportedly lived with them for a time.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-figulus-knew-widemann",
+    "source": "person-benedictus-figulus",
+    "target": "person-karl-widemann",
+    "relationship": "knows",
+    "label": "Manuscript network",
+    "dateStart": "1600",
+    "dateEnd": "1619",
+    "evidence": "Figulus and Widemann were both active in collecting and preserving Paracelsian and esoteric manuscripts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-backhouse-taught-ashmole",
+    "source": "person-william-backhouse",
+    "target": "person-elias-ashmole",
+    "relationship": "taught",
+    "label": "Rosicrucian initiation",
+    "dateStart": "1651",
+    "dateEnd": "1662",
+    "evidence": "Backhouse is reputed to have initiated Ashmole into Rosicrucian and alchemical knowledge around 1651.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-frederick-married-elizabeth",
+    "source": "person-frederick-v",
+    "target": "person-elizabeth-stuart",
+    "relationship": "related_to",
+    "label": "Married",
+    "dateStart": "1613",
+    "dateEnd": "1632",
+    "evidence": "Frederick V married Elizabeth Stuart, daughter of King James I of England, in 1613.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maier-associated-frederick",
+    "source": "person-michael-maier",
+    "target": "person-frederick-v",
+    "relationship": "associated_with",
+    "label": "Court connections",
+    "dateStart": "1617",
+    "dateEnd": "1620",
+    "evidence": "Maier had ties to Frederick V's court in Heidelberg as part of the Rosicrucian milieu.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-de-caus-worked-frederick",
+    "source": "person-salomon-de-caus",
+    "target": "person-frederick-v",
+    "relationship": "worked_at",
+    "label": "Garden designer",
+    "dateStart": "1611",
+    "dateEnd": "1619",
+    "evidence": "Salomon de Caus designed the Hortus Palatinus at Heidelberg for Frederick V from 1611-1619.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bodenstein-published-paracelsus",
+    "source": "person-adam-bodenstein",
+    "target": "person-paracelsus",
+    "relationship": "published",
+    "label": "Published works",
+    "dateStart": "1560",
+    "dateEnd": "1577",
+    "evidence": "Bodenstein published over 40 Paracelsian titles beginning in 1560, making Paracelsian texts widely available.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-khunrath-brothers",
+    "source": "person-heinrich-khunrath",
+    "target": "person-conrad-khunrath",
+    "relationship": "related_to",
+    "label": "Brothers",
+    "evidence": "Conrad Khunrath was the older brother of Heinrich Khunrath.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-andreae-authored-fama",
+    "source": "person-jv-andreae",
+    "target": "object-fama-fraternitatis",
+    "relationship": "authored",
+    "label": "Principal author",
+    "dateStart": "1614",
+    "evidence": "Andreae is generally credited as the main author of the Fama Fraternitatis, though drawing on ideas from Tobias Hess and the Tübingen Circle.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hess-inspired-fama",
+    "source": "person-tobias-hess",
+    "target": "object-fama-fraternitatis",
+    "relationship": "influenced",
+    "label": "Inspired content",
+    "evidence": "Hess's ideas on Paracelsianism, chiliasm, and reformation echo throughout the Fama. He is seen as the catalyst/inspirer of the manifestos.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-andreae-authored-confessio",
+    "source": "person-jv-andreae",
+    "target": "object-confessio-fraternitatis",
+    "relationship": "authored",
+    "label": "Principal author",
+    "dateStart": "1615",
+    "evidence": "Andreae is credited as principal author of the Confessio Fraternitatis.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-andreae-authored-chymical",
+    "source": "person-jv-andreae",
+    "target": "object-chymical-wedding",
+    "relationship": "authored",
+    "dateStart": "1616",
+    "evidence": "Andreae explicitly acknowledged writing the Chymical Wedding of Christian Rosenkreutz.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-andreae-authored-christianopolis",
+    "source": "person-jv-andreae",
+    "target": "object-christianopolis",
+    "relationship": "authored",
+    "dateStart": "1619",
+    "evidence": "Andreae wrote the utopian work Christianopolis.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boehme-authored-aurora",
+    "source": "person-jacob-boehme",
+    "target": "object-aurora",
+    "relationship": "authored",
+    "dateStart": "1612",
+    "evidence": "Aurora was Boehme's first mystical work, written in 1612 and circulated in manuscript.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boehme-authored-mysterium",
+    "source": "person-jacob-boehme",
+    "target": "object-mysterium-magnum",
+    "relationship": "authored",
+    "dateStart": "1623",
+    "evidence": "Boehme wrote Mysterium Magnum in 1623 as a mystical commentary on Genesis.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gichtel-edited-boehme",
+    "source": "person-jg-gichtel",
+    "target": "object-aurora",
+    "relationship": "edited",
+    "evidence": "Gichtel edited and published Boehme's collected works, helping establish Boehme's enduring influence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-arndt-authored-truechristianity",
+    "source": "person-johann-arndt",
+    "target": "object-true-christianity",
+    "relationship": "authored",
+    "dateStart": "1605",
+    "dateEnd": "1610",
+    "evidence": "Arndt's Vier Bücher vom wahren Christentum was published in four books between 1605 and 1610.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-khunrath-authored-amphitheatrum",
+    "source": "person-heinrich-khunrath",
+    "target": "object-amphitheatrum",
+    "relationship": "authored",
+    "dateStart": "1595",
+    "evidence": "Khunrath wrote Amphitheatrum Sapientiae Aeternae in 1595.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maier-authored-atalanta",
+    "source": "person-michael-maier",
+    "target": "object-atalanta-fugiens",
+    "relationship": "authored",
+    "dateStart": "1617",
+    "evidence": "Maier published Atalanta Fugiens in 1617 in Oppenheim.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-croll-authored-basilica",
+    "source": "person-oswald-croll",
+    "target": "object-basilica-chymica",
+    "relationship": "authored",
+    "dateStart": "1609",
+    "evidence": "Croll wrote Basilica Chymica, published in 1609.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fludd-authored-utriusque",
+    "source": "person-robert-fludd",
+    "target": "object-utriusque-cosmi",
+    "relationship": "authored",
+    "dateStart": "1617",
+    "dateEnd": "1621",
+    "evidence": "Fludd wrote Utriusque Cosmi Historia, published 1617-1621.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fludd-authored-apologia",
+    "source": "person-robert-fludd",
+    "target": "object-apologia-compendiaria",
+    "relationship": "authored",
+    "dateStart": "1616",
+    "evidence": "Fludd wrote Apologia Compendiaria in 1616 defending the Rosicrucian Brotherhood.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dee-authored-monas",
+    "source": "person-john-dee",
+    "target": "object-monas-hieroglyphica",
+    "relationship": "authored",
+    "dateStart": "1564",
+    "evidence": "Dee wrote Monas Hieroglyphica in 1564.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-libavius-authored-alchymia",
+    "source": "person-andreas-libavius",
+    "target": "object-alchymia",
+    "relationship": "authored",
+    "dateStart": "1597",
+    "evidence": "Libavius wrote Alchymia in 1597, considered the first systematic chemistry textbook.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-libavius-authored-analysis",
+    "source": "person-andreas-libavius",
+    "target": "object-analysis-confessionis",
+    "relationship": "authored",
+    "dateStart": "1615",
+    "evidence": "Libavius published Analysis Confessionis Fraternitatis de Rosea Cruce in 1615.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashmole-authored-theatrum",
+    "source": "person-elias-ashmole",
+    "target": "object-theatrum-chemicum-britannicum",
+    "relationship": "authored",
+    "dateStart": "1652",
+    "evidence": "Ashmole compiled and published Theatrum Chemicum Britannicum in 1652.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-severinus-authored-idea",
+    "source": "person-petrus-severinus",
+    "target": "object-idea-medicinae",
+    "relationship": "authored",
+    "dateStart": "1571",
+    "evidence": "Severinus wrote Idea Medicinae Philosophicae in 1571.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vaughan-translated-fama",
+    "source": "person-thomas-vaughan",
+    "target": "object-fama-fraternitatis",
+    "relationship": "translated",
+    "label": "English translation",
+    "dateStart": "1652",
+    "evidence": "Thomas Vaughan, under pseudonym Eugenius Philalethes, translated the Fama and Confessio into English in 1652.",
+    "evidenceUrl": "https://catalog.folger.edu/record/138910",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vaughan-translated-confessio",
+    "source": "person-thomas-vaughan",
+    "target": "object-confessio-fraternitatis",
+    "relationship": "translated",
+    "label": "English translation",
+    "dateStart": "1652",
+    "evidence": "Thomas Vaughan translated the Confessio into English in 1652.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-apologia-responds-analysis",
+    "source": "object-apologia-compendiaria",
+    "target": "object-analysis-confessionis",
+    "relationship": "responds_to",
+    "label": "Defense against critique",
+    "dateStart": "1616",
+    "evidence": "Fludd's Apologia was written as a response to Libavius's Analysis attacking the Rosicrucian manifestos.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-analysis-responds-confessio",
+    "source": "object-analysis-confessionis",
+    "target": "object-confessio-fraternitatis",
+    "relationship": "responds_to",
+    "label": "Critique",
+    "dateStart": "1615",
+    "evidence": "Libavius's Analysis was a systematic critique of the Confessio Fraternitatis.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-boehme-lived-gorlitz",
+    "source": "person-jacob-boehme",
+    "target": "loc-gorlitz",
+    "relationship": "lived_in",
+    "dateStart": "1599",
+    "dateEnd": "1624",
+    "evidence": "Boehme lived and worked as a shoemaker in Görlitz from around 1599 until his death in 1624.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-andreae-worked-tubingen",
+    "source": "person-jv-andreae",
+    "target": "loc-tubingen",
+    "relationship": "worked_at",
+    "label": "University studies",
+    "dateStart": "1602",
+    "dateEnd": "1614",
+    "evidence": "Andreae studied at the University of Tübingen and was part of the Tübingen Circle.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hess-lived-tubingen",
+    "source": "person-tobias-hess",
+    "target": "loc-tubingen",
+    "relationship": "lived_in",
+    "dateEnd": "1614",
+    "evidence": "Hess was a jurist residing in Tübingen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-besold-worked-tubingen",
+    "source": "person-christoph-besold",
+    "target": "loc-tubingen",
+    "relationship": "worked_at",
+    "label": "Professor of law",
+    "evidence": "Besold was professor of law at the University of Tübingen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-worked-tubingen",
+    "source": "person-johannes-kepler",
+    "target": "loc-tubingen",
+    "relationship": "worked_at",
+    "label": "University student",
+    "dateStart": "1589",
+    "dateEnd": "1594",
+    "evidence": "Kepler studied at the University of Tübingen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mastlin-worked-tubingen",
+    "source": "person-michael-mastlin",
+    "target": "loc-tubingen",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "dateStart": "1584",
+    "dateEnd": "1631",
+    "evidence": "Mästlin was professor of mathematics at the University of Tübingen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudolf-lived-prague",
+    "source": "person-rudolf-ii",
+    "target": "loc-prague",
+    "relationship": "lived_in",
+    "dateStart": "1583",
+    "dateEnd": "1612",
+    "evidence": "Rudolf II made Prague his principal residence and center of his court.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dee-visited-prague",
+    "source": "person-john-dee",
+    "target": "loc-prague",
+    "relationship": "visited",
+    "dateStart": "1583",
+    "dateEnd": "1589",
+    "evidence": "Dee visited Prague seeking patronage from Rudolf II between 1583 and 1589.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kelley-lived-prague",
+    "source": "person-edward-kelley",
+    "target": "loc-prague",
+    "relationship": "lived_in",
+    "dateStart": "1589",
+    "dateEnd": "1597",
+    "evidence": "Kelley remained in Prague and Bohemia after Dee's departure until his death.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brahe-lived-prague",
+    "source": "person-tycho-brahe",
+    "target": "loc-prague",
+    "relationship": "lived_in",
+    "dateStart": "1599",
+    "dateEnd": "1601",
+    "evidence": "Brahe moved to Prague in 1599 as Imperial Astronomer and died there in 1601.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-worked-prague",
+    "source": "person-johannes-kepler",
+    "target": "loc-prague",
+    "relationship": "worked_at",
+    "label": "Imperial Astronomer",
+    "dateStart": "1600",
+    "dateEnd": "1612",
+    "evidence": "Kepler worked in Prague as assistant to Brahe and then as Imperial Astronomer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maier-visited-prague",
+    "source": "person-michael-maier",
+    "target": "loc-prague",
+    "relationship": "visited",
+    "dateStart": "1608",
+    "dateEnd": "1611",
+    "evidence": "Maier moved to Prague in 1608 and served Rudolf II until around 1611.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-khunrath-visited-prague",
+    "source": "person-heinrich-khunrath",
+    "target": "loc-prague",
+    "relationship": "visited",
+    "dateStart": "1589",
+    "dateEnd": "1591",
+    "evidence": "Khunrath visited Rudolf II's court in Prague where he met Edward Kelley.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-frederick-lived-heidelberg",
+    "source": "person-frederick-v",
+    "target": "loc-heidelberg",
+    "relationship": "lived_in",
+    "dateStart": "1610",
+    "dateEnd": "1619",
+    "evidence": "Frederick V's court was at Heidelberg from his succession in 1610 until he accepted the Bohemian crown.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-elizabeth-lived-heidelberg",
+    "source": "person-elizabeth-stuart",
+    "target": "loc-heidelberg",
+    "relationship": "lived_in",
+    "dateStart": "1613",
+    "dateEnd": "1619",
+    "evidence": "Elizabeth Stuart lived at Heidelberg after her marriage to Frederick V in 1613.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-de-caus-worked-heidelberg",
+    "source": "person-salomon-de-caus",
+    "target": "loc-heidelberg",
+    "relationship": "worked_at",
+    "label": "Garden design",
+    "dateStart": "1611",
+    "dateEnd": "1619",
+    "evidence": "De Caus designed the Hortus Palatinus at Heidelberg from 1611-1619.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartmann-worked-marburg",
+    "source": "person-johannes-hartmann",
+    "target": "loc-marburg",
+    "relationship": "worked_at",
+    "label": "Chemistry professor",
+    "dateStart": "1609",
+    "dateEnd": "1631",
+    "evidence": "Hartmann was appointed professor of Chymiatrie at Marburg in 1609, the first such position.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-croll-worked-marburg",
+    "source": "person-oswald-croll",
+    "target": "loc-marburg",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "evidence": "Croll was a professor at Marburg.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-eglin-worked-marburg",
+    "source": "person-raphael-eglin",
+    "target": "loc-marburg",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "dateStart": "1606",
+    "dateEnd": "1622",
+    "evidence": "Eglin became professor at Marburg from 1606 after fleeing Zürich.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moritz-lived-kassel",
+    "source": "person-moritz-hesse-kassel",
+    "target": "loc-kassel",
+    "relationship": "lived_in",
+    "dateStart": "1592",
+    "dateEnd": "1627",
+    "evidence": "Moritz was Landgrave of Hesse with his court at Kassel.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fludd-lived-london",
+    "source": "person-robert-fludd",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "evidence": "Fludd practiced medicine in London.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashmole-lived-london",
+    "source": "person-elias-ashmole",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "evidence": "Ashmole lived and worked in London as an antiquarian.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-widemann-lived-augsburg",
+    "source": "person-karl-widemann",
+    "target": "loc-augsburg",
+    "relationship": "lived_in",
+    "evidence": "Widemann was a physician based in Augsburg who conducted his manuscript collecting activities there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-frederick-exiled-hague",
+    "source": "person-frederick-v",
+    "target": "loc-the-hague",
+    "relationship": "lived_in",
+    "label": "Exile court",
+    "dateStart": "1622",
+    "dateEnd": "1632",
+    "evidence": "After his defeat, Frederick V spent the rest of his life in exile at The Hague.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-elizabeth-exiled-hague",
+    "source": "person-elizabeth-stuart",
+    "target": "loc-the-hague",
+    "relationship": "lived_in",
+    "label": "Exile court",
+    "dateStart": "1622",
+    "dateEnd": "1661",
+    "evidence": "Elizabeth Stuart maintained court culture in exile at The Hague for decades after 1622.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dee-visited-trebon",
+    "source": "person-john-dee",
+    "target": "loc-trebon",
+    "relationship": "visited",
+    "dateStart": "1586",
+    "dateEnd": "1589",
+    "evidence": "Dee and Kelley were hosted by Vilém of Rožmberk at his castle in Třeboň.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kelley-lived-trebon",
+    "source": "person-edward-kelley",
+    "target": "loc-trebon",
+    "relationship": "lived_in",
+    "dateStart": "1586",
+    "dateEnd": "1592",
+    "evidence": "Kelley lived at Vilém of Rožmberk's castle in Třeboň conducting alchemical work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bodenstein-worked-basel",
+    "source": "person-adam-bodenstein",
+    "target": "loc-basel",
+    "relationship": "worked_at",
+    "label": "Publishing",
+    "dateStart": "1560",
+    "dateEnd": "1577",
+    "evidence": "Bodenstein worked in Basel publishing Paracelsian texts.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maier-received-basel-md",
+    "source": "person-michael-maier",
+    "target": "loc-basel",
+    "relationship": "worked_at",
+    "label": "Medical degree",
+    "dateStart": "1596",
+    "evidence": "Maier earned his medical doctorate from the University of Basel in October 1596.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mogling-associated-andreae",
+    "source": "person-daniel-mogling",
+    "target": "person-jv-andreae",
+    "relationship": "associated_with",
+    "label": "Intellectual circle",
+    "dateStart": "1615",
+    "dateEnd": "1620",
+    "evidence": "Mögling was connected to Andreae's intellectual circle and wrote Rosicrucian works in the same period.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-sennert-influenced-paracelsus",
+    "source": "person-paracelsus",
+    "target": "person-daniel-sennert",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Sennert sought to reconcile traditional Galenic medicine with Paracelsian innovations, integrating chemical remedies into academic medicine.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-bacon-associated-rosicrucian-themes",
+    "source": "person-francis-bacon",
+    "target": "object-fama-fraternitatis",
+    "relationship": "associated_with",
+    "label": "Thematic parallels",
+    "dateStart": "1614",
+    "dateEnd": "1627",
+    "evidence": "Bacon's New Atlantis (1627) has been linked to Rosicrucian ideals by scholars like Frances Yates. His project for advancement of learning aligned with manifesto themes, though direct involvement is debated.",
+    "strength": "speculative"
+  },
+  {
+    "id": "edge-holzel-associated-andreae",
+    "source": "person-abraham-holzel",
+    "target": "person-jv-andreae",
+    "relationship": "associated_with",
+    "label": "Tübingen Circle",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Hölzel was part of the wider Tübingen network of mystical and esoteric thinkers that included Andreae, Hess, and Besold.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-holzel-worked-tubingen",
+    "source": "person-abraham-holzel",
+    "target": "loc-tubingen",
+    "relationship": "worked_at",
+    "label": "Tübingen Circle member",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Hölzel was associated with the Tübingen Circle centered at the university.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-wense-associated-andreae",
+    "source": "person-wilhelm-von-wense",
+    "target": "person-jv-andreae",
+    "relationship": "associated_with",
+    "label": "Patron and associate",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Von Wense was a noble patron connected to esoteric and utopian circles including the Tübingen network around Andreae.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-petraeus-taught-hartmann",
+    "source": "person-johannes-hartmann",
+    "target": "person-heinrich-petraeus",
+    "relationship": "taught",
+    "label": "Mentor and father-in-law",
+    "dateStart": "1615",
+    "dateEnd": "1620",
+    "evidence": "Petraeus was Hartmann's son-in-law and collaborated with him at Marburg in presiding over academic disputations on Paracelsian medicine.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-petraeus-related-hartmann",
+    "source": "person-heinrich-petraeus",
+    "target": "person-johannes-hartmann",
+    "relationship": "related_to",
+    "label": "Son-in-law",
+    "dateStart": "1615",
+    "evidence": "Petraeus married Hartmann's daughter.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-petraeus-worked-marburg",
+    "source": "person-heinrich-petraeus",
+    "target": "loc-marburg",
+    "relationship": "worked_at",
+    "label": "Academic",
+    "dateStart": "1615",
+    "dateEnd": "1620",
+    "evidence": "Petraeus worked at the University of Marburg, presiding over academic disputations.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-cramer-authored-emblems",
+    "source": "person-daniel-cramer",
+    "target": "object-rosicrucian-emblems-cramer",
+    "relationship": "authored",
+    "dateStart": "1617",
+    "evidence": "Cramer wrote Societas Jesu et Rosae Crucis Vera, published by Lucas Jennis of Frankfurt in 1617.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cramer-worked-marburg",
+    "source": "person-daniel-cramer",
+    "target": "loc-marburg",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "evidence": "Cramer held an academic position as professor at the University of Marburg, where he also wrote metaphysical works.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Daniel_Cramer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jennis-published-cramer",
+    "source": "entity-lucas-jennis",
+    "target": "object-rosicrucian-emblems-cramer",
+    "relationship": "published",
+    "label": "Publisher",
+    "dateStart": "1617",
+    "evidence": "Lucas Jennis of Frankfurt published Cramer's Rosicrucian emblem book in 1617.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cramer-contemporary-maier",
+    "source": "person-daniel-cramer",
+    "target": "person-michael-maier",
+    "relationship": "associated_with",
+    "label": "Contemporary emblem authors",
+    "dateStart": "1617",
+    "evidence": "Both Cramer and Maier published Rosicrucian-themed emblem books in 1617 through Frankfurt publishers. Maier's Atalanta Fugiens and Cramer's Societas Jesu et Rosae Crucis Vera represent the flowering of Rosicrucian emblematic literature.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-cramer-part-rosicrucian-furor",
+    "source": "person-daniel-cramer",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Published during furor",
+    "dateStart": "1617",
+    "evidence": "Cramer's 1617 emblem book was part of the wave of Rosicrucian publications that followed the manifestos.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-andreae-member-tubingen-circle",
+    "source": "person-jv-andreae",
+    "target": "entity-tubingen-circle",
+    "relationship": "member_of",
+    "label": "Core member",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Andreae was a core member of the Tübingen Circle and principal author of the Rosicrucian manifestos produced by the group.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Johann_Valentin_Andreae",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hess-founded-tubingen-circle",
+    "source": "person-tobias-hess",
+    "target": "entity-tubingen-circle",
+    "relationship": "founded",
+    "label": "Catalyst and founder",
+    "dateStart": "1605",
+    "dateEnd": "1614",
+    "evidence": "Hess was the catalyst and inspirer behind the Tübingen Circle. His ideas on Paracelsianism, chiliasm, and reformation shaped the group's vision and the Rosicrucian manifestos.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Tobias_Hess",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-besold-member-tubingen-circle",
+    "source": "person-christoph-besold",
+    "target": "entity-tubingen-circle",
+    "relationship": "member_of",
+    "label": "Key member",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Besold was a close colleague in the Tübingen Circle, providing access to his vast library of mystical and philosophical sources.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-holzel-member-tubingen-circle",
+    "source": "person-abraham-holzel",
+    "target": "entity-tubingen-circle",
+    "relationship": "member_of",
+    "label": "Member",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Hölzel was part of the wider Tübingen network of mystical and esoteric thinkers that produced the Rosicrucian manifestos.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-wense-member-tubingen-circle",
+    "source": "person-wilhelm-von-wense",
+    "target": "entity-tubingen-circle",
+    "relationship": "member_of",
+    "label": "Noble patron",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "Von Wense was a noble patron connected to the Tübingen Circle and its esoteric and utopian interests.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-tubingen-circle-based-tubingen",
+    "source": "entity-tubingen-circle",
+    "target": "loc-tubingen",
+    "relationship": "based_at",
+    "label": "Headquarters",
+    "dateStart": "1605",
+    "dateEnd": "1620",
+    "evidence": "The Tübingen Circle was centered at the University of Tübingen, where its members studied and worked.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tubingen-circle-produced-fama",
+    "source": "entity-tubingen-circle",
+    "target": "object-fama-fraternitatis",
+    "relationship": "produced",
+    "label": "Created manifesto",
+    "dateStart": "1614",
+    "evidence": "The Tübingen Circle produced the Fama Fraternitatis, the first Rosicrucian manifesto.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tubingen-circle-produced-confessio",
+    "source": "entity-tubingen-circle",
+    "target": "object-confessio-fraternitatis",
+    "relationship": "produced",
+    "label": "Created manifesto",
+    "dateStart": "1615",
+    "evidence": "The Tübingen Circle produced the Confessio Fraternitatis, the second Rosicrucian manifesto.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tubingen-circle-produced-chymical",
+    "source": "entity-tubingen-circle",
+    "target": "object-chymical-wedding",
+    "relationship": "produced",
+    "label": "Created allegorical work",
+    "dateStart": "1616",
+    "evidence": "The Chymical Wedding emerged from the Tübingen Circle, written by Andreae.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-boehme-member-boehme-circle",
+    "source": "person-jacob-boehme",
+    "target": "entity-boehme-circle",
+    "relationship": "member_of",
+    "label": "Central figure",
+    "dateStart": "1612",
+    "dateEnd": "1624",
+    "evidence": "The Boehme Circle gathered around Jacob Boehme in Görlitz, copying and circulating his manuscripts despite church opposition.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gichtel-member-boehme-circle",
+    "source": "person-jg-gichtel",
+    "target": "entity-boehme-circle",
+    "relationship": "member_of",
+    "label": "Later leader",
+    "dateStart": "1670",
+    "dateEnd": "1710",
+    "evidence": "Gichtel continued the Boehme Circle's work after Boehme's death, editing and publishing his collected works from Amsterdam.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boehme-circle-based-gorlitz",
+    "source": "entity-boehme-circle",
+    "target": "loc-gorlitz",
+    "relationship": "based_at",
+    "label": "Headquarters",
+    "dateStart": "1612",
+    "dateEnd": "1624",
+    "evidence": "The Boehme Circle was centered in Görlitz where Boehme lived and worked.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-widemann-member-manuscript-network",
+    "source": "person-karl-widemann",
+    "target": "entity-manuscript-collector-network",
+    "relationship": "member_of",
+    "label": "Principal collector",
+    "dateStart": "1590",
+    "dateEnd": "1620",
+    "evidence": "Widemann spent over 30 years collecting and copying manuscripts, preserving large portions of the Paracelsian corpus.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-figulus-member-manuscript-network",
+    "source": "person-benedictus-figulus",
+    "target": "entity-manuscript-collector-network",
+    "relationship": "member_of",
+    "label": "Editor and publisher",
+    "dateStart": "1600",
+    "dateEnd": "1619",
+    "evidence": "Figulus collected and edited Paracelsian works, publishing anthologies like Rosarium novum olympicum (1608).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-haslmayr-member-manuscript-network",
+    "source": "person-adam-haslmayr",
+    "target": "entity-manuscript-collector-network",
+    "relationship": "member_of",
+    "label": "Associate",
+    "dateStart": "1600",
+    "dateEnd": "1620",
+    "evidence": "Haslmayr had close ties to Figulus and Widemann and reportedly lived with them for a time, participating in their manuscript collecting activities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eglin-member-manuscript-network",
+    "source": "person-raphael-eglin",
+    "target": "entity-manuscript-collector-network",
+    "relationship": "member_of",
+    "label": "Compiler",
+    "dateStart": "1600",
+    "dateEnd": "1622",
+    "evidence": "Eglin compiled alchemical handbooks preserving the social context and provenance of alchemical recipes. His network included Figulus and other collectors.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-manuscript-network-based-augsburg",
+    "source": "entity-manuscript-collector-network",
+    "target": "loc-augsburg",
+    "relationship": "based_at",
+    "label": "Center of activity",
+    "evidence": "Widemann was based in Augsburg, making it a center of the manuscript collecting network.",
+    "strength": "moderate"
+  },
+
+  {
+    "id": "edge-frederick-member-heidelberg-circle",
+    "source": "person-frederick-v",
+    "target": "entity-heidelberg-circle",
+    "relationship": "member_of",
+    "label": "Patron",
+    "dateStart": "1610",
+    "dateEnd": "1620",
+    "evidence": "Frederick V was the center of the Heidelberg intellectual circle, his court serving as a hub for Protestant reform hopes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-elizabeth-member-heidelberg-circle",
+    "source": "person-elizabeth-stuart",
+    "target": "entity-heidelberg-circle",
+    "relationship": "member_of",
+    "label": "Patron",
+    "dateStart": "1613",
+    "dateEnd": "1620",
+    "evidence": "Elizabeth Stuart joined the Heidelberg circle after her marriage to Frederick V in 1613.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-de-caus-member-heidelberg-circle",
+    "source": "person-salomon-de-caus",
+    "target": "entity-heidelberg-circle",
+    "relationship": "member_of",
+    "label": "Court designer",
+    "dateStart": "1611",
+    "dateEnd": "1619",
+    "evidence": "De Caus designed the Hortus Palatinus at Heidelberg, considered to incorporate Hermetic symbolism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heidelberg-circle-based-heidelberg",
+    "source": "entity-heidelberg-circle",
+    "target": "loc-heidelberg",
+    "relationship": "based_at",
+    "label": "Court location",
+    "dateStart": "1610",
+    "dateEnd": "1620",
+    "evidence": "The Heidelberg intellectual circle was centered at Frederick V's court in Heidelberg.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-frederick-member-hague-court",
+    "source": "person-frederick-v",
+    "target": "entity-hague-exile-court",
+    "relationship": "member_of",
+    "label": "Exiled ruler",
+    "dateStart": "1622",
+    "dateEnd": "1632",
+    "evidence": "After his defeat at White Mountain, Frederick V maintained his court in exile at The Hague until his death in 1632.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-elizabeth-member-hague-court",
+    "source": "person-elizabeth-stuart",
+    "target": "entity-hague-exile-court",
+    "relationship": "member_of",
+    "label": "Exiled queen",
+    "dateStart": "1622",
+    "dateEnd": "1662",
+    "evidence": "Elizabeth Stuart maintained court culture in exile at The Hague for decades after 1622.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hague-court-based-hague",
+    "source": "entity-hague-exile-court",
+    "target": "loc-the-hague",
+    "relationship": "based_at",
+    "label": "Exile location",
+    "dateStart": "1622",
+    "evidence": "The exile court was maintained at The Hague in the Netherlands.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-fama-describes-brotherhood",
+    "source": "object-fama-fraternitatis",
+    "target": "entity-rosicrucian-brotherhood",
+    "relationship": "describes",
+    "label": "Announces brotherhood",
+    "dateStart": "1614",
+    "evidence": "The Fama Fraternitatis announces the existence of the Brotherhood of the Rose Cross and invites learned men to contact them.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-confessio-describes-brotherhood",
+    "source": "object-confessio-fraternitatis",
+    "target": "entity-rosicrucian-brotherhood",
+    "relationship": "describes",
+    "label": "Elaborates on brotherhood",
+    "dateStart": "1615",
+    "evidence": "The Confessio Fraternitatis elaborates on the Brotherhood's philosophical principles and defends it against critics.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-chymical-describes-rosenkreutz",
+    "source": "object-chymical-wedding",
+    "target": "entity-christian-rosenkreutz",
+    "relationship": "describes",
+    "label": "Narrates journey",
+    "dateStart": "1616",
+    "evidence": "The Chymical Wedding tells the allegorical story of Christian Rosenkreutz's seven-day journey of spiritual transformation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fama-describes-rosenkreutz",
+    "source": "object-fama-fraternitatis",
+    "target": "entity-christian-rosenkreutz",
+    "relationship": "describes",
+    "label": "Recounts life story",
+    "dateStart": "1614",
+    "evidence": "The Fama Fraternitatis contains the legendary biography of Christian Rosenkreutz, the purported founder of the brotherhood.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rosenkreutz-founded-brotherhood",
+    "source": "entity-christian-rosenkreutz",
+    "target": "entity-rosicrucian-brotherhood",
+    "relationship": "founded",
+    "label": "Legendary founder",
+    "dateStart": "1378",
+    "evidence": "According to the manifestos, Christian Rosenkreutz founded the Rosicrucian Brotherhood after traveling to the East and learning secret wisdom. Both are likely literary/symbolic creations.",
+    "strength": "strong",
+    "notes": "Both entities are fictional/symbolic"
+  },
+
+  {
+    "id": "edge-paracelsus-founded-paracelsianism",
+    "source": "person-paracelsus",
+    "target": "entity-paracelsianism",
+    "relationship": "founded",
+    "label": "Founder",
+    "evidence": "Paracelsus's revolutionary medical and philosophical innovations gave rise to the Paracelsian movement.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Paracelsus",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bodenstein-member-paracelsianism",
+    "source": "person-adam-bodenstein",
+    "target": "entity-paracelsianism",
+    "relationship": "member_of",
+    "label": "Key disseminator",
+    "dateStart": "1560",
+    "evidence": "Bodenstein published over 40 Paracelsian titles beginning in 1560, making Paracelsian texts widely available.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-severinus-member-paracelsianism",
+    "source": "person-petrus-severinus",
+    "target": "entity-paracelsianism",
+    "relationship": "member_of",
+    "label": "Theoretical exponent",
+    "dateStart": "1571",
+    "evidence": "Severinus's Idea Medicinae Philosophicae (1571) provided a systematic theoretical foundation for Paracelsianism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-croll-member-paracelsianism",
+    "source": "person-oswald-croll",
+    "target": "entity-paracelsianism",
+    "relationship": "member_of",
+    "label": "Influential proponent",
+    "evidence": "Croll's Basilica Chymica (1609) was widely read and helped establish iatrochemistry as a legitimate medical approach.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sennert-member-paracelsianism",
+    "source": "person-daniel-sennert",
+    "target": "entity-paracelsianism",
+    "relationship": "member_of",
+    "label": "Academic synthesizer",
+    "evidence": "Sennert reconciled Galenic medicine with Paracelsian innovations, helping legitimize chemical remedies in academic medicine.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-hartmann-member-paracelsianism",
+    "source": "person-johannes-hartmann",
+    "target": "entity-paracelsianism",
+    "relationship": "member_of",
+    "label": "First chemistry professor",
+    "dateStart": "1609",
+    "evidence": "Hartmann was appointed the first professor of Chymiatrie at Marburg in 1609, institutionalizing Paracelsian chemical medicine.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hess-influenced-by-paracelsianism",
+    "source": "person-tobias-hess",
+    "target": "entity-paracelsianism",
+    "relationship": "influenced_by",
+    "label": "Integrated Paracelsian ideas",
+    "evidence": "Hess practiced Paracelsian medicine and integrated Paracelsianism into his prophetic and reformist vision that shaped the Rosicrucian manifestos.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-weigel-member-christian-theosophy",
+    "source": "person-valentin-weigel",
+    "target": "entity-christian-theosophy",
+    "relationship": "member_of",
+    "label": "Precursor figure",
+    "evidence": "Weigel's mystical writings on inner spirituality and the 'inner church' were foundational for Christian theosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-arndt-member-christian-theosophy",
+    "source": "person-johann-arndt",
+    "target": "entity-christian-theosophy",
+    "relationship": "member_of",
+    "label": "Devotional writer",
+    "evidence": "Arndt's True Christianity emphasized inner moral transformation, drawing on medieval mystical traditions and influencing later theosophy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-boehme-member-christian-theosophy",
+    "source": "person-jacob-boehme",
+    "target": "entity-christian-theosophy",
+    "relationship": "member_of",
+    "label": "Central figure",
+    "evidence": "Boehme is considered the central figure of Christian theosophy, synthesizing theology with nature mysticism and alchemical symbolism.",
+    "evidenceUrl": "https://plato.stanford.edu/entries/boehme/",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gichtel-member-christian-theosophy",
+    "source": "person-jg-gichtel",
+    "target": "entity-christian-theosophy",
+    "relationship": "member_of",
+    "label": "Later exponent",
+    "evidence": "Gichtel continued the theosophical tradition by editing Boehme's works and founding the Gichtelians.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-weigel-founded-weigelianism",
+    "source": "person-valentin-weigel",
+    "target": "entity-weigelianism",
+    "relationship": "founded",
+    "label": "Founder",
+    "evidence": "Weigelianism is the movement inspired by Valentin Weigel's posthumously published mystical writings.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-schwenckfeld-founded-schwenckfelder",
+    "source": "person-caspar-schwenckfeld",
+    "target": "entity-schwenckfelder-movement",
+    "relationship": "founded",
+    "label": "Founder",
+    "evidence": "Caspar Schwenckfeld founded the Schwenckfelder movement emphasizing spiritual regeneration and inner faith.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Caspar_Schwenckfeld",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-severinus-founded-severinian",
+    "source": "person-petrus-severinus",
+    "target": "entity-severinian-school",
+    "relationship": "founded",
+    "label": "Founder",
+    "dateStart": "1571",
+    "evidence": "Severinus's Idea Medicinae Philosophicae (1571) established the theoretical school known as Severinian Paracelsianism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-croll-member-severinian",
+    "source": "person-oswald-croll",
+    "target": "entity-severinian-school",
+    "relationship": "member_of",
+    "label": "Follower",
+    "evidence": "Croll's work built on Severinian theoretical foundations for Paracelsian medicine.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-sennert-member-severinian",
+    "source": "person-daniel-sennert",
+    "target": "entity-severinian-school",
+    "relationship": "member_of",
+    "label": "Academic follower",
+    "evidence": "Sennert's synthetic approach was influenced by Severinian systematization of Paracelsian thought.",
+    "strength": "moderate"
+  },
+
+  {
+    "id": "edge-maier-participated-furor",
+    "source": "person-michael-maier",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Major apologist",
+    "dateStart": "1614",
+    "dateEnd": "1622",
+    "evidence": "Maier was the most important early Rosicrucian apologist, publishing defenses like Themis Aurea (1618) and the emblem book Atalanta Fugiens (1617).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fludd-participated-furor",
+    "source": "person-robert-fludd",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "English defender",
+    "dateStart": "1616",
+    "dateEnd": "1620",
+    "evidence": "Fludd published Apologia Compendiaria (1616) and Tractatus Apologeticus (1617) defending the Rosicrucian Brotherhood.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-libavius-participated-furor",
+    "source": "person-andreas-libavius",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Critic",
+    "dateStart": "1615",
+    "evidence": "Libavius published Analysis Confessionis (1615) systematically critiquing the Rosicrucian manifestos.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-haslmayr-participated-furor",
+    "source": "person-adam-haslmayr",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "First respondent",
+    "dateStart": "1612",
+    "evidence": "Haslmayr was the first known commentator on the Rosicrucian manifestos, claiming to have seen the Fama in manuscript in 1612.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mogling-participated-furor",
+    "source": "person-daniel-mogling",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Rosicrucian author",
+    "dateStart": "1618",
+    "evidence": "Mögling published Rosicrucian works including Speculum Sophicum Rhodostauroticum (1618) under the pseudonym Theophilus Schweighardt.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-dee-member-hermeticism",
+    "source": "person-john-dee",
+    "target": "entity-hermeticism",
+    "relationship": "member_of",
+    "label": "Major figure",
+    "evidence": "Dee's Monas Hieroglyphica (1564) presented a unified Hermetic symbol and his work exemplifies Renaissance Hermeticism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fludd-member-hermeticism",
+    "source": "person-robert-fludd",
+    "target": "entity-hermeticism",
+    "relationship": "member_of",
+    "label": "Major figure",
+    "evidence": "Fludd's Utriusque Cosmi Historia presented a comprehensive Hermetic-Neoplatonic worldview.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-khunrath-member-hermeticism",
+    "source": "person-heinrich-khunrath",
+    "target": "entity-hermeticism",
+    "relationship": "member_of",
+    "label": "Bridge figure",
+    "evidence": "Khunrath's Amphitheatrum combined Paracelsian alchemy with Hermetic philosophy, bridging Dee's magical tradition and later Rosicrucianism.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-andreae-studied-university-tubingen",
+    "source": "person-jv-andreae",
+    "target": "entity-university-tubingen",
+    "relationship": "studied_at",
+    "label": "Student",
+    "dateStart": "1602",
+    "dateEnd": "1608",
+    "evidence": "Andreae studied theology and mathematics at the University of Tübingen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hess-associated-university-tubingen",
+    "source": "person-tobias-hess",
+    "target": "entity-university-tubingen",
+    "relationship": "associated_with",
+    "label": "Resident scholar",
+    "evidence": "Hess was a jurist residing in Tübingen with connections to the university community.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-besold-worked-university-tubingen",
+    "source": "person-christoph-besold",
+    "target": "entity-university-tubingen",
+    "relationship": "worked_at",
+    "label": "Professor of law",
+    "evidence": "Besold was professor of jurisprudence at the University of Tübingen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-studied-university-tubingen",
+    "source": "person-johannes-kepler",
+    "target": "entity-university-tubingen",
+    "relationship": "studied_at",
+    "label": "Student",
+    "dateStart": "1589",
+    "dateEnd": "1594",
+    "evidence": "Kepler studied at the University of Tübingen, where he befriended Besold and studied under Mästlin.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mastlin-worked-university-tubingen",
+    "source": "person-michael-mastlin",
+    "target": "entity-university-tubingen",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "dateStart": "1584",
+    "dateEnd": "1631",
+    "evidence": "Mästlin was professor of mathematics at the University of Tübingen, teaching both Kepler and Andreae.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-university-tubingen-based-tubingen",
+    "source": "entity-university-tubingen",
+    "target": "loc-tubingen",
+    "relationship": "based_at",
+    "label": "Location",
+    "dateStart": "1477",
+    "evidence": "The University of Tübingen was founded in 1477 and remains in Tübingen.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartmann-worked-university-marburg",
+    "source": "person-johannes-hartmann",
+    "target": "entity-university-marburg",
+    "relationship": "worked_at",
+    "label": "First chemistry professor",
+    "dateStart": "1609",
+    "dateEnd": "1631",
+    "evidence": "Hartmann was appointed professor of Chymiatrie at Marburg in 1609, the first such professorship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-petraeus-worked-university-marburg",
+    "source": "person-heinrich-petraeus",
+    "target": "entity-university-marburg",
+    "relationship": "worked_at",
+    "label": "Academic",
+    "dateStart": "1615",
+    "evidence": "Petraeus worked at the University of Marburg, presiding over academic disputations on Paracelsian medicine.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eglin-worked-university-marburg",
+    "source": "person-raphael-eglin",
+    "target": "entity-university-marburg",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "dateStart": "1606",
+    "dateEnd": "1622",
+    "evidence": "Eglin became professor at the University of Marburg from 1606 after fleeing Zürich.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cramer-worked-university-marburg",
+    "source": "person-daniel-cramer",
+    "target": "entity-university-marburg",
+    "relationship": "worked_at",
+    "label": "Professor",
+    "evidence": "Cramer held an academic position as professor at the University of Marburg.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Daniel_Cramer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-university-marburg-based-marburg",
+    "source": "entity-university-marburg",
+    "target": "loc-marburg",
+    "relationship": "based_at",
+    "label": "Location",
+    "dateStart": "1527",
+    "evidence": "The University of Marburg was the first Protestant university in Germany, founded in 1527.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartmann-founded-marburg-lab",
+    "source": "person-johannes-hartmann",
+    "target": "entity-marburg-laboratory",
+    "relationship": "founded",
+    "label": "Founder and director",
+    "dateStart": "1609",
+    "evidence": "Hartmann established the first public chemical laboratory at a European university under patronage of Moritz of Hesse-Kassel.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-petraeus-worked-marburg-lab",
+    "source": "person-heinrich-petraeus",
+    "target": "entity-marburg-laboratory",
+    "relationship": "worked_at",
+    "label": "Collaborator",
+    "dateStart": "1615",
+    "evidence": "Petraeus collaborated with his father-in-law Hartmann at the Marburg laboratory.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-marburg-lab-based-marburg",
+    "source": "entity-marburg-laboratory",
+    "target": "loc-marburg",
+    "relationship": "based_at",
+    "label": "Location",
+    "dateStart": "1609",
+    "evidence": "The Marburg Chemical Laboratory was established at the University of Marburg.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-marburg-lab-part-of-university",
+    "source": "entity-marburg-laboratory",
+    "target": "entity-university-marburg",
+    "relationship": "part_of",
+    "label": "University facility",
+    "dateStart": "1609",
+    "evidence": "The chemical laboratory was part of the University of Marburg's teaching facilities.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-rudolf-led-court-rudolf",
+    "source": "person-rudolf-ii",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "led",
+    "label": "Emperor",
+    "dateStart": "1576",
+    "dateEnd": "1612",
+    "evidence": "Rudolf II was Holy Roman Emperor from 1576 to 1612 and made Prague the center of his court.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dee-visited-court-rudolf",
+    "source": "person-john-dee",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "visited",
+    "label": "Seeking patronage",
+    "dateStart": "1583",
+    "dateEnd": "1589",
+    "evidence": "Dee and Kelley visited Rudolf II's court in Prague seeking patronage for their esoteric work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kelley-worked-court-rudolf",
+    "source": "person-edward-kelley",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "worked_at",
+    "label": "Court alchemist",
+    "dateStart": "1589",
+    "dateEnd": "1597",
+    "evidence": "After parting from Dee, Kelley remained in Bohemia as a prominent alchemist under Rudolf II's patronage.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-brahe-worked-court-rudolf",
+    "source": "person-tycho-brahe",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "worked_at",
+    "label": "Imperial Astronomer",
+    "dateStart": "1599",
+    "dateEnd": "1601",
+    "evidence": "Tycho Brahe became Imperial Court Astronomer under Rudolf II in Prague from 1599.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kepler-worked-court-rudolf",
+    "source": "person-johannes-kepler",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "worked_at",
+    "label": "Imperial Mathematician",
+    "dateStart": "1600",
+    "dateEnd": "1612",
+    "evidence": "Kepler worked at Rudolf's court as assistant to Brahe and then as Imperial Astronomer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maier-worked-court-rudolf",
+    "source": "person-michael-maier",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "worked_at",
+    "label": "Physician and counselor",
+    "dateStart": "1609",
+    "dateEnd": "1611",
+    "evidence": "On 19 September 1609 Maier entered the service of Emperor Rudolf II as his physician and imperial counselor.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Michael_Maier",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-khunrath-visited-court-rudolf",
+    "source": "person-heinrich-khunrath",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "visited",
+    "label": "Visitor",
+    "dateStart": "1589",
+    "dateEnd": "1591",
+    "evidence": "Khunrath visited Rudolf II's court in Prague where he met Edward Kelley.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-croll-visited-court-rudolf",
+    "source": "person-oswald-croll",
+    "target": "entity-court-rudolf-ii",
+    "relationship": "visited",
+    "label": "Court connections",
+    "evidence": "Croll had connections to Rudolf II's court in Prague.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-court-rudolf-based-prague",
+    "source": "entity-court-rudolf-ii",
+    "target": "loc-prague",
+    "relationship": "based_at",
+    "label": "Imperial capital",
+    "dateStart": "1583",
+    "dateEnd": "1612",
+    "evidence": "Rudolf II made Prague his principal residence and the center of his court.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-moritz-led-court-moritz",
+    "source": "person-moritz-hesse-kassel",
+    "target": "entity-court-moritz",
+    "relationship": "led",
+    "label": "Landgrave",
+    "dateStart": "1592",
+    "dateEnd": "1627",
+    "evidence": "Moritz of Hesse-Kassel was Landgrave of Hesse from 1592 to 1627.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartmann-worked-court-moritz",
+    "source": "person-johannes-hartmann",
+    "target": "entity-court-moritz",
+    "relationship": "served",
+    "label": "Under patronage",
+    "dateStart": "1609",
+    "evidence": "Hartmann was appointed to the chemistry professorship under Moritz's patronage.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-maier-worked-court-moritz",
+    "source": "person-michael-maier",
+    "target": "entity-court-moritz",
+    "relationship": "served",
+    "label": "Court physician",
+    "dateStart": "1619",
+    "dateEnd": "1620",
+    "evidence": "Around 1619 Maier became physician to Landgrave Moritz of Hesse-Kassel.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Michael_Maier",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-court-moritz-based-kassel",
+    "source": "entity-court-moritz",
+    "target": "loc-kassel",
+    "relationship": "based_at",
+    "label": "Court location",
+    "dateStart": "1592",
+    "dateEnd": "1627",
+    "evidence": "Moritz's court was at Kassel, where the Rosicrucian manifestos were published.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-frederick-led-court-frederick",
+    "source": "person-frederick-v",
+    "target": "entity-court-frederick-v",
+    "relationship": "led",
+    "label": "Elector Palatine",
+    "dateStart": "1610",
+    "dateEnd": "1620",
+    "evidence": "Frederick V was Elector Palatine from 1610 and his court at Heidelberg was a center of Protestant hopes.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-elizabeth-member-court-frederick",
+    "source": "person-elizabeth-stuart",
+    "target": "entity-court-frederick-v",
+    "relationship": "member_of",
+    "label": "Electress",
+    "dateStart": "1613",
+    "dateEnd": "1620",
+    "evidence": "Elizabeth Stuart joined the Palatine court after her marriage to Frederick V in 1613.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-de-caus-worked-court-frederick",
+    "source": "person-salomon-de-caus",
+    "target": "entity-court-frederick-v",
+    "relationship": "worked_at",
+    "label": "Garden designer",
+    "dateStart": "1611",
+    "dateEnd": "1619",
+    "evidence": "De Caus designed the famous Hortus Palatinus at Heidelberg for Frederick V.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-court-frederick-based-heidelberg",
+    "source": "entity-court-frederick-v",
+    "target": "loc-heidelberg",
+    "relationship": "based_at",
+    "label": "Court location",
+    "dateStart": "1610",
+    "dateEnd": "1620",
+    "evidence": "Frederick V's court was at Heidelberg until his acceptance of the Bohemian crown.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-rozmberk-led-rozmberk-court",
+    "source": "person-vilem-rozmberk",
+    "target": "entity-rozmberk-court",
+    "relationship": "led",
+    "label": "Noble patron",
+    "dateEnd": "1592",
+    "evidence": "Vilém of Rožmberk was the head of the powerful Rosenberg family and a major patron of esoteric research.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dee-stayed-rozmberk-court",
+    "source": "person-john-dee",
+    "target": "entity-rozmberk-court",
+    "relationship": "visited",
+    "label": "Hosted",
+    "dateStart": "1586",
+    "dateEnd": "1589",
+    "evidence": "Vilém of Rožmberk hosted John Dee and Edward Kelley at his castle in Třeboň.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kelley-stayed-rozmberk-court",
+    "source": "person-edward-kelley",
+    "target": "entity-rozmberk-court",
+    "relationship": "worked_at",
+    "label": "Court alchemist",
+    "dateStart": "1586",
+    "dateEnd": "1592",
+    "evidence": "Kelley lived at Vilém of Rožmberk's castle in Třeboň conducting alchemical work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rozmberk-court-based-trebon",
+    "source": "entity-rozmberk-court",
+    "target": "loc-trebon",
+    "relationship": "based_at",
+    "label": "Castle location",
+    "evidence": "The Rožmberk court was at Vilém's castle in Třeboň.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-de-bry-published-fludd",
+    "source": "entity-de-bry-publishing",
+    "target": "object-utriusque-cosmi",
+    "relationship": "published",
+    "label": "Publisher",
+    "dateStart": "1617",
+    "dateEnd": "1621",
+    "evidence": "The de Bry publishing house issued Robert Fludd's Utriusque Cosmi Historia in Oppenheim.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-de-bry-published-atalanta",
+    "source": "entity-de-bry-publishing",
+    "target": "object-atalanta-fugiens",
+    "relationship": "published",
+    "label": "Publisher",
+    "dateStart": "1617",
+    "evidence": "The de Bry publishing house issued Michael Maier's Atalanta Fugiens in Oppenheim in 1617.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-maier-held-leibarzt",
+    "source": "person-michael-maier",
+    "target": "entity-leibarzt",
+    "relationship": "held_position",
+    "label": "Court physician",
+    "dateStart": "1609",
+    "dateEnd": "1611",
+    "evidence": "On 19 September 1609 Maier entered the service of Emperor Rudolf II as his physician.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Michael_Maier",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartmann-held-professor-chymiatrie",
+    "source": "person-johannes-hartmann",
+    "target": "entity-professor-chymiatrie",
+    "relationship": "held_position",
+    "label": "First holder",
+    "dateStart": "1609",
+    "dateEnd": "1631",
+    "evidence": "In 1609, Landgrave Moritz appointed Hartmann to a newly created chair for Chymiatrie at Marburg—the first such professorship.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-professor-chymiatrie-based-marburg",
+    "source": "entity-professor-chymiatrie",
+    "target": "loc-marburg",
+    "relationship": "based_at",
+    "label": "Position location",
+    "dateStart": "1609",
+    "evidence": "The Professor of Chymiatrie position was created at the University of Marburg.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-comenius-knew-andreae",
+    "source": "person-jan-amos-comenius",
+    "target": "person-jv-andreae",
+    "relationship": "knows",
+    "label": "Personal acquaintance",
+    "dateStart": "1628",
+    "dateEnd": "1654",
+    "evidence": "Comenius knew Andreae personally and expressed admiration for his ideas about reform and higher learning. Andreae's works helped shape Comenius's thinking on universal education and social reform.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Amos_Comenius",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-influenced-fama",
+    "source": "object-fama-fraternitatis",
+    "target": "person-jan-amos-comenius",
+    "relationship": "influenced",
+    "label": "Early reader",
+    "dateStart": "1612",
+    "evidence": "Comenius read the Fama Fraternitatis in manuscript as early as 1612, while studying at Heidelberg. The Rosicrucian ideals of reform and universal wisdom influenced his development of pansophia.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Amos_Comenius",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-visited-heidelberg",
+    "source": "person-jan-amos-comenius",
+    "target": "loc-heidelberg",
+    "relationship": "visited",
+    "label": "University study",
+    "dateStart": "1611",
+    "dateEnd": "1614",
+    "evidence": "Comenius studied at the University of Heidelberg from 1611-1614, where he encountered Rosicrucian ideas.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-knew-hartlib",
+    "source": "person-jan-amos-comenius",
+    "target": "person-samuel-hartlib",
+    "relationship": "collaborated_with",
+    "label": "Close collaborators",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "Comenius was Hartlib's major intellectual ally in promoting universal education and pansophia. Hartlib helped publish and circulate Comenius's ideas, including Pansophiae Prodromus (1639).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Hartlib_Circle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-knew-dury",
+    "source": "person-jan-amos-comenius",
+    "target": "person-john-dury",
+    "relationship": "collaborated_with",
+    "label": "Reform collaborators",
+    "dateStart": "1630",
+    "dateEnd": "1670",
+    "evidence": "Comenius collaborated with Dury through the Hartlib Circle on educational and religious reform projects.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-lived-amsterdam",
+    "source": "person-jan-amos-comenius",
+    "target": "loc-amsterdam",
+    "relationship": "lived_in",
+    "label": "Final residence",
+    "dateStart": "1656",
+    "dateEnd": "1670",
+    "evidence": "Comenius spent his final years in Amsterdam, where he died on November 15, 1670.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-authored-prodromus",
+    "source": "person-jan-amos-comenius",
+    "target": "object-pansophiae-prodromus",
+    "relationship": "authored",
+    "dateStart": "1639",
+    "evidence": "Comenius wrote Pansophiae Prodromus, published in London in 1639 with Hartlib's assistance.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-authored-via-lucis",
+    "source": "person-jan-amos-comenius",
+    "target": "object-via-lucis",
+    "relationship": "authored",
+    "dateStart": "1641",
+    "evidence": "Comenius wrote Via Lucis during his 1641 visit to England at Hartlib's invitation.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-authored-didactica",
+    "source": "person-jan-amos-comenius",
+    "target": "object-didactica-magna",
+    "relationship": "authored",
+    "dateStart": "1633",
+    "dateEnd": "1638",
+    "evidence": "Comenius wrote Didactica Magna, originally in Czech, later published in Latin in 1657.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-comenius-influenced-hartlib-circle",
+    "source": "person-jan-amos-comenius",
+    "target": "entity-hartlib-circle",
+    "relationship": "influenced",
+    "label": "Intellectual influence",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "Though not an organizer of the circle, Comenius's ideas of pansophia and universal reform deeply influenced the Hartlib Circle's projects.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartlib-founded-circle",
+    "source": "person-samuel-hartlib",
+    "target": "entity-hartlib-circle",
+    "relationship": "founded",
+    "label": "Central organizer",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "Hartlib was the central hub of the correspondence network that bears his name, serving as an intelligencer and knowledge broker.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Samuel_Hartlib",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-collaborated-dury",
+    "source": "person-samuel-hartlib",
+    "target": "person-john-dury",
+    "relationship": "collaborated_with",
+    "label": "Close collaborators",
+    "dateStart": "1626",
+    "dateEnd": "1662",
+    "evidence": "Hartlib and Dury were close friends and working partners from their meeting in Elbing. They collaborated on Protestant unity, educational reform, and published The Reformed School (1648) together.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Dury",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-published-comenius",
+    "source": "person-samuel-hartlib",
+    "target": "object-pansophiae-prodromus",
+    "relationship": "published",
+    "label": "Published in London",
+    "dateStart": "1639",
+    "evidence": "Hartlib helped publish and circulate Comenius's Pansophiae Prodromus in London in 1639.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-corresponded-henshaw",
+    "source": "person-samuel-hartlib",
+    "target": "person-thomas-henshaw",
+    "relationship": "corresponded_with",
+    "label": "Alchemical correspondence",
+    "dateStart": "1650",
+    "dateEnd": "1662",
+    "evidence": "Hartlib recorded Henshaw's claim to have discovered the alkahest and corresponded with him about alchemical and reform projects.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-lived-elbing",
+    "source": "person-samuel-hartlib",
+    "target": "loc-elbing",
+    "relationship": "lived_in",
+    "label": "Birthplace",
+    "dateEnd": "1628",
+    "evidence": "Hartlib was born around 1600 in Elbing, Prussia to a merchant family.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-lived-london",
+    "source": "person-samuel-hartlib",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "label": "Primary residence",
+    "dateStart": "1628",
+    "dateEnd": "1662",
+    "evidence": "Hartlib moved to England around 1628 and settled in London, where he conducted his intelligencing activities until his death.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-dury-member-hartlib-circle",
+    "source": "person-john-dury",
+    "target": "entity-hartlib-circle",
+    "relationship": "member_of",
+    "label": "Core member",
+    "dateStart": "1626",
+    "dateEnd": "1662",
+    "evidence": "Dury was a core member of the Hartlib Circle from its inception, working on Protestant ecumenism and educational reform.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-met-hartlib-elbing",
+    "source": "person-john-dury",
+    "target": "loc-elbing",
+    "relationship": "visited",
+    "label": "Met Hartlib",
+    "dateStart": "1624",
+    "dateEnd": "1626",
+    "evidence": "Dury worked among Protestant communities in Elbing between 1624-1626, where he met Samuel Hartlib.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Dury",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-lived-kassel",
+    "source": "person-john-dury",
+    "target": "loc-kassel",
+    "relationship": "lived_in",
+    "label": "Retirement",
+    "dateStart": "1661",
+    "dateEnd": "1680",
+    "evidence": "Dury settled in Kassel, Hesse-Kassel in 1661, where he remained until his death in 1680.",
+    "evidenceUrl": "https://www.britannica.com/biography/John-Dury",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-authored-reformed-school",
+    "source": "person-john-dury",
+    "target": "object-reformed-school",
+    "relationship": "authored",
+    "dateStart": "1648",
+    "evidence": "Dury co-authored The Reformed School (1648) with Hartlib.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hartlib-authored-reformed-school",
+    "source": "person-samuel-hartlib",
+    "target": "object-reformed-school",
+    "relationship": "authored",
+    "dateStart": "1648",
+    "evidence": "Hartlib co-authored The Reformed School (1648) with Dury.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dury-authored-librarie-keeper",
+    "source": "person-john-dury",
+    "target": "object-reformed-librarie-keeper",
+    "relationship": "authored",
+    "dateStart": "1650",
+    "evidence": "Dury wrote The Reformed Librarie-Keeper in 1650.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-heydon-authored-holy-guide",
+    "source": "person-john-heydon",
+    "target": "object-holy-guide",
+    "relationship": "authored",
+    "dateStart": "1662",
+    "evidence": "Heydon wrote The Holy Guide, published in 1662.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-influenced-bacon",
+    "source": "person-francis-bacon",
+    "target": "person-john-heydon",
+    "relationship": "influenced",
+    "label": "Posthumous influence",
+    "evidence": "Heydon's Holy Guide borrows heavily from Bacon's New Atlantis, equating Bacon's Salomon's House with a Rosicrucian Temple.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-criticized-ashmole",
+    "source": "person-elias-ashmole",
+    "target": "person-john-heydon",
+    "relationship": "opposed",
+    "label": "Criticized",
+    "evidence": "Elias Ashmole called Heydon 'an ignoramus and a cheate.'",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/John_Heydon_(astrologer)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-lived-london",
+    "source": "person-john-heydon",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1629",
+    "dateEnd": "1667",
+    "evidence": "Heydon was born in London and lived there throughout his life.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-heydon-participated-furor",
+    "source": "person-john-heydon",
+    "target": "entity-rosicrucian-furor",
+    "relationship": "participated_in",
+    "label": "Later Rosicrucian author",
+    "dateStart": "1662",
+    "dateEnd": "1667",
+    "evidence": "Heydon's Rosicrucian publications represent a later phase of English engagement with Rosicrucian ideas.",
+    "strength": "moderate"
+  },
+
+  {
+    "id": "edge-henshaw-member-hartlib-circle",
+    "source": "person-thomas-henshaw",
+    "target": "entity-hartlib-circle",
+    "relationship": "member_of",
+    "label": "Correspondent",
+    "dateStart": "1650",
+    "dateEnd": "1662",
+    "evidence": "Henshaw was in correspondence with Hartlib, discussing alchemical projects and plans for a 'Christian Learned Society.'",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henshaw-collaborated-vaughan",
+    "source": "person-thomas-henshaw",
+    "target": "person-thomas-vaughan",
+    "relationship": "collaborated_with",
+    "label": "Alchemical collaboration",
+    "dateStart": "1650",
+    "dateEnd": "1666",
+    "evidence": "Thomas Vaughan lived with Henshaw at his house in Kensington while conducting alchemical experiments.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashmole-used-henshaw-library",
+    "source": "person-elias-ashmole",
+    "target": "person-thomas-henshaw",
+    "relationship": "associated_with",
+    "label": "Used library",
+    "dateStart": "1652",
+    "evidence": "Elias Ashmole made use of Henshaw's extensive alchemical library for his Theatrum Chemicum Britannicum.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Thomas_Henshaw_(alchemist)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henshaw-lived-london",
+    "source": "person-thomas-henshaw",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1618",
+    "dateEnd": "1700",
+    "evidence": "Henshaw was born in London and lived there (including Kensington) throughout his life.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-hartlib-circle-based-london",
+    "source": "entity-hartlib-circle",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "label": "Center of network",
+    "dateStart": "1630",
+    "dateEnd": "1662",
+    "evidence": "The Hartlib Circle was centered on Hartlib's activities in London, though its correspondence network spanned Europe.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gichtel-lived-amsterdam",
+    "source": "person-jg-gichtel",
+    "target": "loc-amsterdam",
+    "relationship": "lived_in",
+    "label": "Exile",
+    "dateStart": "1670",
+    "dateEnd": "1710",
+    "evidence": "Gichtel lived in Amsterdam in exile, where he edited and published Boehme's collected works.",
+    "strength": "strong"
+  }
+]

@@ -1,0 +1,2810 @@
+[
+  {
+    "id": "person-john-locke",
+    "type": "person",
+    "title": "John Locke",
+    "shortDescription": "Father of Liberalism, foundational empiricist philosopher",
+    "dateStart": "1632",
+    "dateEnd": "1704",
+    "biography": "English philosopher and physician, known as the 'Father of Liberalism.' His empiricism (Essay Concerning Human Understanding) and political philosophy (Two Treatises of Government) established foundational concepts of natural rights, social contract, and religious toleration that influenced virtually all subsequent Enlightenment thinkers.",
+    "occupations": [
+      "Philosopher",
+      "Physician",
+      "Political theorist"
+    ],
+    "birthPlace": "Wrington, Somerset, England",
+    "nationality": "English",
+    "wikipediaTitle": "John_Locke"
+  },
+  {
+    "id": "person-isaac-newton",
+    "type": "person",
+    "title": "Isaac Newton",
+    "shortDescription": "Natural philosopher who established mathematical physics",
+    "dateStart": "1643",
+    "dateEnd": "1727",
+    "biography": "English natural philosopher and mathematician whose Principia Mathematica established the mechanistic worldview and mathematical methodology that Enlightenment thinkers sought to extend to human affairs. Symbol of reason's triumph over scholasticism.",
+    "occupations": [
+      "Natural philosopher",
+      "Mathematician"
+    ],
+    "birthPlace": "Woolsthorpe, Lincolnshire, England",
+    "nationality": "English",
+    "wikipediaTitle": "Isaac_Newton"
+  },
+  {
+    "id": "person-leibniz",
+    "type": "person",
+    "title": "Gottfried Wilhelm Leibniz",
+    "shortDescription": "Rationalist philosopher and co-inventor of calculus",
+    "dateStart": "1646",
+    "dateEnd": "1716",
+    "biography": "German philosopher, mathematician, and polymath. Co-inventor of calculus and rationalist philosopher. His optimism, monadology, and principle of sufficient reason shaped German philosophy through Wolff. Target of Voltaire's satire in Candide.",
+    "occupations": [
+      "Philosopher",
+      "Mathematician",
+      "Polymath"
+    ],
+    "birthPlace": "Leipzig, Germany",
+    "nationality": "German",
+    "wikipediaTitle": "Gottfried_Wilhelm_Leibniz"
+  },
+  {
+    "id": "person-voltaire",
+    "type": "person",
+    "title": "Voltaire",
+    "alternateNames": [
+      "François-Marie Arouet"
+    ],
+    "shortDescription": "The quintessential philosophe and champion of civil liberties",
+    "dateStart": "1694",
+    "dateEnd": "1778",
+    "biography": "French writer, philosopher, and public intellectual. The quintessential philosophe with ~21,000 letters to ~1,800 correspondents. Championed civil liberties, freedom of religion, and free trade. Popularized Newton and Locke in France through works like Letters on the English.",
+    "occupations": [
+      "Writer",
+      "Philosopher",
+      "Public intellectual"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Voltaire"
+  },
+  {
+    "id": "person-diderot",
+    "type": "person",
+    "title": "Denis Diderot",
+    "shortDescription": "Chief editor of the Encyclopédie and radical materialist",
+    "dateStart": "1713",
+    "dateEnd": "1784",
+    "biography": "French philosopher, art critic, and writer. Chief editor of the Encyclopédie (1751-1772), the defining project of the French Enlightenment. Wrote thousands of articles. Later developed radical materialist views in works like Le Neveu de Rameau.",
+    "occupations": [
+      "Philosopher",
+      "Art critic",
+      "Writer",
+      "Editor"
+    ],
+    "birthPlace": "Langres, France",
+    "nationality": "French",
+    "wikipediaTitle": "Denis_Diderot"
+  },
+  {
+    "id": "person-dalembert",
+    "type": "person",
+    "title": "Jean le Rond d'Alembert",
+    "shortDescription": "Mathematician and co-editor of the Encyclopédie",
+    "dateStart": "1717",
+    "dateEnd": "1783",
+    "biography": "French mathematician, philosopher, and encyclopedist. Co-editor of Encyclopédie until 1758 and author of the famous Preliminary Discourse. Major mathematician who developed d'Alembert's principle. Permanent secretary of Académie française.",
+    "occupations": [
+      "Mathematician",
+      "Philosopher",
+      "Encyclopedist"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Jean_le_Rond_d'Alembert"
+  },
+  {
+    "id": "person-montesquieu",
+    "type": "person",
+    "title": "Montesquieu",
+    "alternateNames": [
+      "Charles-Louis de Secondat, Baron de La Brède et de Montesquieu"
+    ],
+    "shortDescription": "Political philosopher who articulated separation of powers",
+    "dateStart": "1689",
+    "dateEnd": "1755",
+    "biography": "French political philosopher and jurist. The Spirit of the Laws (1748) articulated separation of powers and comparative political analysis. Profound influence on American constitutional framers through his analysis of republican government.",
+    "occupations": [
+      "Political philosopher",
+      "Jurist"
+    ],
+    "birthPlace": "Château de la Brède, France",
+    "nationality": "French",
+    "wikipediaTitle": "Montesquieu"
+  },
+  {
+    "id": "person-rousseau",
+    "type": "person",
+    "title": "Jean-Jacques Rousseau",
+    "shortDescription": "Controversial philosopher of the social contract and education",
+    "dateStart": "1712",
+    "dateEnd": "1778",
+    "biography": "Genevan philosopher, writer, and composer. Controversial figure whose Social Contract and Emile influenced political theory and education. His critique of civilization and ideas about the 'general will' made him both central and contested among philosophes.",
+    "occupations": [
+      "Philosopher",
+      "Composer",
+      "Writer"
+    ],
+    "birthPlace": "Geneva",
+    "nationality": "Genevan",
+    "wikipediaTitle": "Jean-Jacques_Rousseau"
+  },
+  {
+    "id": "person-dholbach",
+    "type": "person",
+    "title": "Baron d'Holbach",
+    "alternateNames": [
+      "Paul-Henri Thiry, Baron d'Holbach"
+    ],
+    "shortDescription": "Host of radical salon and systematic atheist philosopher",
+    "dateStart": "1723",
+    "dateEnd": "1789",
+    "biography": "German-born French philosopher and salon host. Host of the most radical salon of the Enlightenment ('la coterie holbachique'). Systematic atheist and materialist who published influential works like The System of Nature anonymously.",
+    "occupations": [
+      "Philosopher",
+      "Salon host"
+    ],
+    "birthPlace": "Edesheim, Germany",
+    "nationality": "French",
+    "wikipediaTitle": "Baron_d'Holbach"
+  },
+  {
+    "id": "person-helvetius",
+    "type": "person",
+    "title": "Claude-Adrien Helvétius",
+    "shortDescription": "Philosopher whose utilitarian ethics influenced Bentham",
+    "dateStart": "1715",
+    "dateEnd": "1771",
+    "biography": "French philosopher and tax farmer. His De l'esprit (1758) caused scandal with its utilitarian, anti-religious ethics. The work was condemned by the Sorbonne and ordered burned. His ideas influenced Bentham's development of utilitarianism.",
+    "occupations": [
+      "Philosopher",
+      "Tax farmer"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Claude_Adrien_Helvétius"
+  },
+  {
+    "id": "person-condillac",
+    "type": "person",
+    "title": "Étienne Bonnot de Condillac",
+    "shortDescription": "Developed Lockean empiricism into sensationalism",
+    "dateStart": "1714",
+    "dateEnd": "1780",
+    "biography": "French philosopher and epistemologist. Developed Locke's empiricism into sensationalism—arguing all knowledge derives from transformed sensations. Major influence on French psychology and linguistics.",
+    "occupations": [
+      "Philosopher",
+      "Epistemologist"
+    ],
+    "birthPlace": "Grenoble, France",
+    "nationality": "French",
+    "wikipediaTitle": "Étienne_Bonnot_de_Condillac"
+  },
+  {
+    "id": "person-condorcet",
+    "type": "person",
+    "title": "Nicolas de Condorcet",
+    "shortDescription": "Mathematician who applied probability to social science",
+    "dateStart": "1743",
+    "dateEnd": "1794",
+    "biography": "French mathematician, philosopher, and political theorist. Bridged mathematics and social science, applying probability to voting theory (Condorcet paradox). Permanent Secretary of Académie des Sciences. Champion of women's rights, public education, and progress. Died during the French Revolution.",
+    "occupations": [
+      "Mathematician",
+      "Philosopher",
+      "Political theorist"
+    ],
+    "birthPlace": "Ribemont, France",
+    "nationality": "French",
+    "wikipediaTitle": "Marquis_de_Condorcet"
+  },
+  {
+    "id": "person-la-mettrie",
+    "type": "person",
+    "title": "Julien Offray de La Mettrie",
+    "shortDescription": "Radical materialist who argued humans are machines",
+    "dateStart": "1709",
+    "dateEnd": "1751",
+    "biography": "French physician and philosopher. Radical materialist who argued humans are machines (L'Homme Machine). Pushed Enlightenment materialism to its logical extreme. Found refuge at Frederick the Great's court after exile from France and Netherlands.",
+    "occupations": [
+      "Physician",
+      "Philosopher"
+    ],
+    "birthPlace": "Saint-Malo, France",
+    "nationality": "French",
+    "wikipediaTitle": "Julien_Offray_de_La_Mettrie"
+  },
+  {
+    "id": "person-jaucourt",
+    "type": "person",
+    "title": "Louis de Jaucourt",
+    "shortDescription": "Most prolific Encyclopédie contributor with 17,288 articles",
+    "dateStart": "1704",
+    "dateEnd": "1779",
+    "biography": "French encyclopedist and physician. Most prolific contributor to the Encyclopédie—wrote approximately 17,288 articles (about 25% of total text) on topics from medicine to politics. Worked unpaid, sacrificing his personal fortune for the project.",
+    "occupations": [
+      "Encyclopedist",
+      "Physician"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Louis_de_Jaucourt"
+  },
+  {
+    "id": "person-damilaville",
+    "type": "person",
+    "title": "Étienne Noël Damilaville",
+    "shortDescription": "Key intermediary in philosophe correspondence network",
+    "dateStart": "1723",
+    "dateEnd": "1768",
+    "biography": "French tax official and intermediary in the philosophe network. Helped circulate letters and clandestine texts when censorship made direct communication difficult, using his position in tax administration to facilitate correspondence.",
+    "occupations": [
+      "Tax official",
+      "Intermediary"
+    ],
+    "nationality": "French",
+    "wikipediaTitle": "Étienne_Noël_Damilaville"
+  },
+  {
+    "id": "person-morellet",
+    "type": "person",
+    "title": "André Morellet",
+    "shortDescription": "Economist and translator of Adam Smith",
+    "dateStart": "1727",
+    "dateEnd": "1819",
+    "biography": "French economist, writer, and translator. Translated Adam Smith's Wealth of Nations into French. Contributed to Encyclopédie on theology and philosophy. Member of d'Holbach's circle. Lived through the Revolution and wrote memoirs of salon culture.",
+    "occupations": [
+      "Economist",
+      "Writer",
+      "Translator"
+    ],
+    "birthPlace": "Lyon, France",
+    "nationality": "French",
+    "wikipediaTitle": "André_Morellet"
+  },
+  {
+    "id": "person-david-hume",
+    "type": "person",
+    "title": "David Hume",
+    "shortDescription": "Greatest empiricist philosopher whose skepticism awakened Kant",
+    "dateStart": "1711",
+    "dateEnd": "1776",
+    "biography": "Scottish philosopher, historian, and essayist. Greatest empiricist philosopher whose skepticism about causation and religion profoundly influenced Kant ('awakened from dogmatic slumber'). His friendship with Adam Smith was central to the Scottish Enlightenment.",
+    "occupations": [
+      "Philosopher",
+      "Historian",
+      "Essayist"
+    ],
+    "birthPlace": "Edinburgh, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "David_Hume"
+  },
+  {
+    "id": "person-adam-smith",
+    "type": "person",
+    "title": "Adam Smith",
+    "shortDescription": "Founder of classical economics and moral philosopher",
+    "dateStart": "1723",
+    "dateEnd": "1790",
+    "biography": "Scottish moral philosopher and economist. Founded classical economics with Wealth of Nations. His moral philosophy (Theory of Moral Sentiments) was deeply influenced by Hume. Central figure linking philosophy and economics.",
+    "occupations": [
+      "Moral philosopher",
+      "Economist"
+    ],
+    "birthPlace": "Kirkcaldy, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "Adam_Smith"
+  },
+  {
+    "id": "person-hutcheson",
+    "type": "person",
+    "title": "Francis Hutcheson",
+    "shortDescription": "Father of the Scottish Enlightenment",
+    "dateStart": "1694",
+    "dateEnd": "1746",
+    "biography": "Irish-Scottish philosopher and professor. 'Father of the Scottish Enlightenment.' His moral sense theory influenced Hume and Smith. Teacher of Adam Smith at Glasgow, establishing the foundation for Scottish moral philosophy.",
+    "occupations": [
+      "Philosopher",
+      "Professor"
+    ],
+    "birthPlace": "Drumalig, Ulster, Ireland",
+    "nationality": "Irish-Scottish",
+    "wikipediaTitle": "Francis_Hutcheson_(philosopher)"
+  },
+  {
+    "id": "person-thomas-reid",
+    "type": "person",
+    "title": "Thomas Reid",
+    "shortDescription": "Founder of Scottish Common Sense philosophy",
+    "dateStart": "1710",
+    "dateEnd": "1796",
+    "biography": "Scottish philosopher. Founder of Scottish Common Sense philosophy. Criticized Hume's skepticism, arguing humans have reliable innate beliefs. Succeeded Adam Smith as Professor at Glasgow. Major influence on American philosophy.",
+    "occupations": [
+      "Philosopher"
+    ],
+    "birthPlace": "Strachan, Kincardineshire, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "Thomas_Reid"
+  },
+  {
+    "id": "person-adam-ferguson",
+    "type": "person",
+    "title": "Adam Ferguson",
+    "shortDescription": "Pioneer of sociology and analyst of civil society",
+    "dateStart": "1723",
+    "dateEnd": "1816",
+    "biography": "Scottish philosopher and historian. Pioneer of sociology ('father of sociology'). Analyzed civil society and warned about commercial society's effects on civic virtue in his Essay on the History of Civil Society.",
+    "occupations": [
+      "Philosopher",
+      "Historian"
+    ],
+    "birthPlace": "Logierait, Perthshire, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "Adam_Ferguson"
+  },
+  {
+    "id": "person-william-robertson",
+    "type": "person",
+    "title": "William Robertson",
+    "shortDescription": "Leading historian and Principal of Edinburgh University",
+    "dateStart": "1721",
+    "dateEnd": "1793",
+    "biography": "Scottish historian, clergyman, and administrator. Leading historian of the British Enlightenment. Principal of University of Edinburgh (1762-1793), reforming its curriculum and reputation. One of Britain's most widely read historians in Europe.",
+    "occupations": [
+      "Historian",
+      "Clergyman",
+      "Administrator"
+    ],
+    "birthPlace": "Borthwick, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "William_Robertson_(historian)"
+  },
+  {
+    "id": "person-lord-kames",
+    "type": "person",
+    "title": "Henry Home, Lord Kames",
+    "shortDescription": "Patron and mentor to Scottish Enlightenment figures",
+    "dateStart": "1696",
+    "dateEnd": "1782",
+    "biography": "Scottish judge, philosopher, and agricultural improver. Patron and mentor to many Scottish Enlightenment figures. Wrote on law, aesthetics, and morality. Employed young Adam Smith and encouraged Hume, helping establish Edinburgh's intellectual culture.",
+    "occupations": [
+      "Judge",
+      "Philosopher",
+      "Agricultural improver"
+    ],
+    "birthPlace": "Kames, Berwickshire, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "Henry_Home,_Lord_Kames"
+  },
+  {
+    "id": "person-dugald-stewart",
+    "type": "person",
+    "title": "Dugald Stewart",
+    "shortDescription": "Transmitted Scottish philosophy to the 19th century",
+    "dateStart": "1753",
+    "dateEnd": "1828",
+    "biography": "Scottish philosopher. Transmitted Scottish Enlightenment philosophy to the 19th century. Biographer of Smith and Reid. Taught many influential students, bridging the Enlightenment to later philosophical developments.",
+    "occupations": [
+      "Philosopher"
+    ],
+    "birthPlace": "Edinburgh, Scotland",
+    "nationality": "Scottish",
+    "wikipediaTitle": "Dugald_Stewart"
+  },
+  {
+    "id": "person-immanuel-kant",
+    "type": "person",
+    "title": "Immanuel Kant",
+    "shortDescription": "Synthesized rationalism and empiricism in critical philosophy",
+    "dateStart": "1724",
+    "dateEnd": "1804",
+    "biography": "German philosopher. Synthesized rationalism and empiricism in critical philosophy. His essay 'What is Enlightenment?' (1784) defined the movement: 'Sapere aude' (Dare to know). The three Critiques transformed philosophy.",
+    "occupations": [
+      "Philosopher"
+    ],
+    "birthPlace": "Königsberg, Prussia",
+    "nationality": "Prussian",
+    "wikipediaTitle": "Immanuel_Kant"
+  },
+  {
+    "id": "person-christian-wolff",
+    "type": "person",
+    "title": "Christian Wolff",
+    "shortDescription": "Dominant German philosopher pre-Kant",
+    "dateStart": "1679",
+    "dateEnd": "1754",
+    "biography": "German philosopher and mathematician. Dominant German philosopher before Kant. Systematized Leibniz's ideas into a rationalist system that dominated German universities until Kant's critical turn. Expelled from Halle by Pietists in 1723, recalled by Frederick the Great.",
+    "occupations": [
+      "Philosopher",
+      "Mathematician"
+    ],
+    "birthPlace": "Breslau, Silesia",
+    "nationality": "German",
+    "wikipediaTitle": "Christian_Wolff_(philosopher)"
+  },
+  {
+    "id": "person-moses-mendelssohn",
+    "type": "person",
+    "title": "Moses Mendelssohn",
+    "shortDescription": "Leading figure of German and Jewish Enlightenment",
+    "dateStart": "1729",
+    "dateEnd": "1786",
+    "biography": "German philosopher and Jewish community leader. Leading figure of German Enlightenment and Jewish Haskalah (Jewish Enlightenment). Championed religious tolerance and Jewish emancipation. Called the 'German Socrates.' Both he and Kant answered 'What is Enlightenment?' in 1784.",
+    "occupations": [
+      "Philosopher",
+      "Community leader"
+    ],
+    "birthPlace": "Dessau, Germany",
+    "nationality": "German",
+    "wikipediaTitle": "Moses_Mendelssohn"
+  },
+  {
+    "id": "person-gotthold-lessing",
+    "type": "person",
+    "title": "Gotthold Ephraim Lessing",
+    "shortDescription": "Germany's greatest Enlightenment dramatist",
+    "dateStart": "1729",
+    "dateEnd": "1781",
+    "biography": "German writer, dramatist, and critic. Germany's greatest Enlightenment dramatist. Championed religious tolerance in Nathan the Wise. Major literary and aesthetic critic whose Laocoon distinguished temporal from spatial arts.",
+    "occupations": [
+      "Writer",
+      "Dramatist",
+      "Critic"
+    ],
+    "birthPlace": "Kamenz, Saxony",
+    "nationality": "German",
+    "wikipediaTitle": "Gotthold_Ephraim_Lessing"
+  },
+  {
+    "id": "person-johann-herder",
+    "type": "person",
+    "title": "Johann Gottfried Herder",
+    "shortDescription": "Transitional figure toward Romanticism",
+    "dateStart": "1744",
+    "dateEnd": "1803",
+    "biography": "German philosopher, theologian, and literary critic. Transitional figure toward Romanticism. Emphasized culture, language, history, and Volksgeist (national spirit). Critiqued abstract Enlightenment universalism while studying under Kant.",
+    "occupations": [
+      "Philosopher",
+      "Theologian",
+      "Literary critic"
+    ],
+    "birthPlace": "Mohrungen, East Prussia",
+    "nationality": "German",
+    "wikipediaTitle": "Johann_Gottfried_Herder"
+  },
+  {
+    "id": "person-baumgarten",
+    "type": "person",
+    "title": "Alexander Gottlieb Baumgarten",
+    "shortDescription": "Founded aesthetics as a philosophical discipline",
+    "dateStart": "1714",
+    "dateEnd": "1762",
+    "biography": "German philosopher. Founded aesthetics as a philosophical discipline—his Aesthetica coined the term. Influenced Kant's aesthetic theory; Kant used his Metaphysica as a teaching text.",
+    "occupations": [
+      "Philosopher"
+    ],
+    "birthPlace": "Berlin, Prussia",
+    "nationality": "German",
+    "wikipediaTitle": "Alexander_Gottlieb_Baumgarten"
+  },
+  {
+    "id": "person-goethe",
+    "type": "person",
+    "title": "Johann Wolfgang von Goethe",
+    "shortDescription": "Germany's greatest literary figure",
+    "dateStart": "1749",
+    "dateEnd": "1832",
+    "biography": "German writer, poet, natural philosopher, and statesman. Germany's greatest literary figure. Early works (Sorrows of Young Werther, Götz von Berlichingen) sparked Sturm und Drang movement. Transitional figure between Enlightenment and Romanticism. Lifelong friendship with Herder.",
+    "occupations": [
+      "Writer",
+      "Poet",
+      "Natural philosopher",
+      "Statesman"
+    ],
+    "birthPlace": "Frankfurt, Germany",
+    "nationality": "German",
+    "wikipediaTitle": "Johann_Wolfgang_von_Goethe"
+  },
+  {
+    "id": "person-george-berkeley",
+    "type": "person",
+    "title": "George Berkeley",
+    "shortDescription": "Developed idealist empiricism",
+    "dateStart": "1685",
+    "dateEnd": "1753",
+    "biography": "Irish philosopher and Anglican bishop. Developed idealist empiricism: 'to be is to be perceived.' Critiqued Locke's theory of abstract ideas. His arguments influenced Hume's development of skepticism.",
+    "occupations": [
+      "Philosopher",
+      "Bishop"
+    ],
+    "birthPlace": "Kilkenny, Ireland",
+    "nationality": "Irish",
+    "wikipediaTitle": "George_Berkeley"
+  },
+  {
+    "id": "person-shaftesbury",
+    "type": "person",
+    "title": "Anthony Ashley Cooper, 3rd Earl of Shaftesbury",
+    "shortDescription": "Developed moral sense theory",
+    "dateStart": "1671",
+    "dateEnd": "1713",
+    "biography": "English philosopher and politician. Developed moral sense theory—humans have innate moral sentiments. Influenced Hutcheson and through him the Scottish school. Educated by Locke but later critiqued his rejection of innate ideas.",
+    "occupations": [
+      "Philosopher",
+      "Politician"
+    ],
+    "birthPlace": "London, England",
+    "nationality": "English",
+    "wikipediaTitle": "Anthony_Ashley-Cooper,_3rd_Earl_of_Shaftesbury"
+  },
+  {
+    "id": "person-mandeville",
+    "type": "person",
+    "title": "Bernard Mandeville",
+    "shortDescription": "Satirist who argued private vices produce public benefits",
+    "dateStart": "1670",
+    "dateEnd": "1733",
+    "biography": "Dutch-born English philosopher and satirist. The Fable of the Bees argued private vices produce public benefits—a scandal that influenced economic thought. Provoked Hutcheson's moral philosophy and influenced Smith's economics.",
+    "occupations": [
+      "Philosopher",
+      "Satirist"
+    ],
+    "birthPlace": "Rotterdam, Netherlands",
+    "nationality": "Dutch-English",
+    "wikipediaTitle": "Bernard_Mandeville"
+  },
+  {
+    "id": "person-edmund-burke",
+    "type": "person",
+    "title": "Edmund Burke",
+    "shortDescription": "Conservative critic of the French Revolution",
+    "dateStart": "1729",
+    "dateEnd": "1797",
+    "biography": "Irish-born British statesman and political philosopher. Leading conservative critic of the French Revolution (Reflections). Earlier work on aesthetics (Sublime and Beautiful) influenced Kant. Represents Enlightenment's limits and counter-currents.",
+    "occupations": [
+      "Statesman",
+      "Political philosopher"
+    ],
+    "birthPlace": "Dublin, Ireland",
+    "nationality": "Irish-British",
+    "wikipediaTitle": "Edmund_Burke"
+  },
+  {
+    "id": "person-joseph-priestley",
+    "type": "person",
+    "title": "Joseph Priestley",
+    "shortDescription": "Scientist who discovered oxygen and religious dissenter",
+    "dateStart": "1733",
+    "dateEnd": "1804",
+    "biography": "English scientist, theologian, and political theorist. Discovered oxygen independently. Materialist, determinist, religious dissenter who championed toleration, education reform, and individual liberty. Birmingham Riots destroyed his home; fled to America.",
+    "occupations": [
+      "Scientist",
+      "Theologian",
+      "Political theorist"
+    ],
+    "birthPlace": "Birstall, Yorkshire, England",
+    "nationality": "English",
+    "wikipediaTitle": "Joseph_Priestley"
+  },
+  {
+    "id": "person-jeremy-bentham",
+    "type": "person",
+    "title": "Jeremy Bentham",
+    "shortDescription": "Founder of utilitarianism",
+    "dateStart": "1748",
+    "dateEnd": "1832",
+    "biography": "English philosopher and legal reformer. Founder of utilitarianism—'greatest happiness of the greatest number.' Developed systematic approach to legal and social reform. Influenced by Helvétius and Beccaria.",
+    "occupations": [
+      "Philosopher",
+      "Legal reformer"
+    ],
+    "birthPlace": "London, England",
+    "nationality": "English",
+    "wikipediaTitle": "Jeremy_Bentham"
+  },
+  {
+    "id": "person-thomas-paine",
+    "type": "person",
+    "title": "Thomas Paine",
+    "shortDescription": "Most widely read Enlightenment radical",
+    "dateStart": "1737",
+    "dateEnd": "1809",
+    "biography": "English-born American political theorist and pamphleteer. Most widely read Enlightenment radical. Common Sense catalyzed American independence. Rights of Man defended French Revolution. Age of Reason promoted deism. Bridged American, British, and French revolutionary discourse.",
+    "occupations": [
+      "Political theorist",
+      "Pamphleteer"
+    ],
+    "birthPlace": "Thetford, England",
+    "nationality": "English-American",
+    "wikipediaTitle": "Thomas_Paine"
+  },
+  {
+    "id": "person-cesare-beccaria",
+    "type": "person",
+    "title": "Cesare Beccaria",
+    "shortDescription": "Revolutionized criminal justice theory",
+    "dateStart": "1738",
+    "dateEnd": "1794",
+    "biography": "Italian jurist and philosopher. On Crimes and Punishments (1764) revolutionized criminal justice—opposed torture and death penalty, promoted proportional punishment. Major influence on legal reform across Europe and America.",
+    "occupations": [
+      "Jurist",
+      "Philosopher"
+    ],
+    "birthPlace": "Milan, Italy",
+    "nationality": "Italian",
+    "wikipediaTitle": "Cesare_Beccaria"
+  },
+  {
+    "id": "person-francois-quesnay",
+    "type": "person",
+    "title": "François Quesnay",
+    "shortDescription": "Founder of Physiocracy and economic science",
+    "dateStart": "1694",
+    "dateEnd": "1774",
+    "biography": "French physician and economist. Founder of Physiocracy—first systematic school of economics. Developed Tableau économique modeling economic flows. Court physician to Madame de Pompadour and Louis XV. Contributed economic articles to Encyclopédie.",
+    "occupations": [
+      "Physician",
+      "Economist"
+    ],
+    "birthPlace": "Méré, France",
+    "nationality": "French",
+    "wikipediaTitle": "François_Quesnay"
+  },
+  {
+    "id": "person-turgot",
+    "type": "person",
+    "title": "Anne-Robert-Jacques Turgot",
+    "shortDescription": "Economist who attempted Enlightenment reforms",
+    "dateStart": "1727",
+    "dateEnd": "1781",
+    "biography": "French economist and administrator. Attempted Enlightenment economic reforms as Controller-General—free trade in grain, abolition of guilds. Major economic theorist beyond strict Physiocracy. Reform efforts blocked by vested interests; dismissed 1776.",
+    "occupations": [
+      "Economist",
+      "Administrator"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Anne_Robert_Jacques_Turgot"
+  },
+  {
+    "id": "person-mirabeau-elder",
+    "type": "person",
+    "title": "Victor de Riqueti, Marquis de Mirabeau",
+    "shortDescription": "Leading Physiocrat who coined 'civilization'",
+    "dateStart": "1715",
+    "dateEnd": "1789",
+    "biography": "French economist and political writer. Leading Physiocrat who coined the term 'civilization.' Father of the revolutionary leader Mirabeau. Called 'Friend of Mankind'—one of most widely read economic writers.",
+    "occupations": [
+      "Economist",
+      "Political writer"
+    ],
+    "birthPlace": "Pertuis, France",
+    "nationality": "French",
+    "wikipediaTitle": "Victor_de_Riqueti,_marquis_de_Mirabeau"
+  },
+  {
+    "id": "person-benjamin-franklin",
+    "type": "person",
+    "title": "Benjamin Franklin",
+    "shortDescription": "Exemplar of Enlightenment values",
+    "dateStart": "1706",
+    "dateEnd": "1790",
+    "biography": "American scientist, diplomat, inventor, and writer. Exemplar of Enlightenment values—scientist, inventor, self-made man. His electrical experiments brought international fame. In Paris, bridged American and French Enlightenment.",
+    "occupations": [
+      "Scientist",
+      "Diplomat",
+      "Inventor",
+      "Writer"
+    ],
+    "birthPlace": "Boston, Massachusetts",
+    "nationality": "American",
+    "wikipediaTitle": "Benjamin_Franklin"
+  },
+  {
+    "id": "person-thomas-jefferson",
+    "type": "person",
+    "title": "Thomas Jefferson",
+    "shortDescription": "Author of Declaration of Independence",
+    "dateStart": "1743",
+    "dateEnd": "1826",
+    "biography": "American statesman, philosopher, and architect. Author of Declaration of Independence. Minister to France, immersed in philosophe circles. Embodied Enlightenment ideals of reason, natural rights, and religious freedom.",
+    "occupations": [
+      "Statesman",
+      "Philosopher",
+      "Architect"
+    ],
+    "birthPlace": "Shadwell, Virginia",
+    "nationality": "American",
+    "wikipediaTitle": "Thomas_Jefferson"
+  },
+  {
+    "id": "person-james-madison",
+    "type": "person",
+    "title": "James Madison",
+    "shortDescription": "Father of the Constitution",
+    "dateStart": "1751",
+    "dateEnd": "1836",
+    "biography": "American statesman and political theorist. 'Father of the Constitution.' Applied Enlightenment political theory (especially Montesquieu) to constitutional design. Federalist Papers are a classic of political philosophy.",
+    "occupations": [
+      "Statesman",
+      "Political theorist"
+    ],
+    "birthPlace": "Port Conway, Virginia",
+    "nationality": "American",
+    "wikipediaTitle": "James_Madison"
+  },
+  {
+    "id": "person-john-adams",
+    "type": "person",
+    "title": "John Adams",
+    "shortDescription": "Constitutional theorist emphasizing balanced government",
+    "dateStart": "1735",
+    "dateEnd": "1826",
+    "biography": "American statesman and political theorist. Constitutional theorist emphasizing balanced government. More skeptical of human nature than Jefferson. Ambassador to Britain; met philosophes in Paris.",
+    "occupations": [
+      "Statesman",
+      "Political theorist"
+    ],
+    "birthPlace": "Braintree, Massachusetts",
+    "nationality": "American",
+    "wikipediaTitle": "John_Adams"
+  },
+  {
+    "id": "person-leonhard-euler",
+    "type": "person",
+    "title": "Leonhard Euler",
+    "shortDescription": "Most prolific mathematician in history",
+    "dateStart": "1707",
+    "dateEnd": "1783",
+    "biography": "Swiss mathematician. Most prolific mathematician in history. Worked at Berlin Academy under Frederick the Great. Advanced calculus, number theory, mechanics, optics. Returned to Russia in 1766 after conflicts with Frederick.",
+    "occupations": [
+      "Mathematician"
+    ],
+    "birthPlace": "Basel, Switzerland",
+    "nationality": "Swiss",
+    "wikipediaTitle": "Leonhard_Euler"
+  },
+  {
+    "id": "person-laplace",
+    "type": "person",
+    "title": "Pierre-Simon Laplace",
+    "shortDescription": "Developed celestial mechanics and probability theory",
+    "dateStart": "1749",
+    "dateEnd": "1827",
+    "biography": "French mathematician and astronomer. Developed celestial mechanics and probability theory. When asked about God's role in his system, reportedly said: 'I had no need of that hypothesis.'",
+    "occupations": [
+      "Mathematician",
+      "Astronomer"
+    ],
+    "birthPlace": "Beaumont-en-Auge, France",
+    "nationality": "French",
+    "wikipediaTitle": "Pierre-Simon_Laplace"
+  },
+  {
+    "id": "person-lavoisier",
+    "type": "person",
+    "title": "Antoine Lavoisier",
+    "shortDescription": "Father of modern chemistry",
+    "dateStart": "1743",
+    "dateEnd": "1794",
+    "biography": "French chemist. 'Father of modern chemistry.' Identified oxygen's role in combustion, established chemical nomenclature. Member of Académie des Sciences. Guillotined during the Terror despite scientific eminence.",
+    "occupations": [
+      "Chemist"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Antoine_Lavoisier"
+  },
+  {
+    "id": "person-buffon",
+    "type": "person",
+    "title": "Georges-Louis Leclerc, Comte de Buffon",
+    "shortDescription": "Naturalist whose work was most widely read scientific text",
+    "dateStart": "1707",
+    "dateEnd": "1788",
+    "biography": "French naturalist. Histoire naturelle (44 volumes) was most widely read scientific work of the century. Speculated on earth's age and species transformation, challenging biblical timescales diplomatically.",
+    "occupations": [
+      "Naturalist"
+    ],
+    "birthPlace": "Montbard, France",
+    "nationality": "French",
+    "wikipediaTitle": "Georges-Louis_Leclerc,_Comte_de_Buffon"
+  },
+  {
+    "id": "person-emilie-du-chatelet",
+    "type": "person",
+    "title": "Émilie du Châtelet",
+    "shortDescription": "Translator of Newton's Principia into French",
+    "dateStart": "1706",
+    "dateEnd": "1749",
+    "biography": "French natural philosopher, mathematician, and translator. Translated Newton's Principia into French (still the standard French translation). Collaborated with Voltaire on Newtonian physics. Important scientist in her own right.",
+    "occupations": [
+      "Natural philosopher",
+      "Mathematician",
+      "Translator"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Émilie_du_Châtelet"
+  },
+  {
+    "id": "person-lagrange",
+    "type": "person",
+    "title": "Joseph-Louis Lagrange",
+    "shortDescription": "One of the greatest 18th-century mathematicians",
+    "dateStart": "1736",
+    "dateEnd": "1813",
+    "biography": "Italian-French mathematician and astronomer. One of the greatest mathematicians of the 18th century. Developed calculus of variations, Lagrangian mechanics. Succeeded Euler at Berlin Academy.",
+    "occupations": [
+      "Mathematician",
+      "Astronomer"
+    ],
+    "birthPlace": "Turin, Italy",
+    "nationality": "Italian-French",
+    "wikipediaTitle": "Joseph-Louis_Lagrange"
+  },
+  {
+    "id": "person-madame-geoffrin",
+    "type": "person",
+    "title": "Marie-Thérèse Rodet Geoffrin",
+    "alternateNames": [
+      "Madame Geoffrin"
+    ],
+    "shortDescription": "Hosted the most influential Enlightenment salon",
+    "dateStart": "1699",
+    "dateEnd": "1777",
+    "biography": "French salon hostess. Hosted one of the most influential Enlightenment salons. Financially supported the Encyclopédie. Connected philosophes with aristocrats and foreigners. Monday dinners for artists, Wednesday for philosophes.",
+    "occupations": [
+      "Salon hostess"
+    ],
+    "birthPlace": "Paris, France",
+    "nationality": "French",
+    "wikipediaTitle": "Marie_Thérèse_Rodet_Geoffrin"
+  },
+  {
+    "id": "person-julie-de-lespinasse",
+    "type": "person",
+    "title": "Julie de Lespinasse",
+    "shortDescription": "Salon hostess with close ties to encyclopedists",
+    "dateStart": "1732",
+    "dateEnd": "1776",
+    "biography": "French salon hostess. Hosted salon frequented by encyclopedists and philosophes. Very close relationship with d'Alembert, who lived in her house. Former companion to Madame du Deffand before establishing rival salon.",
+    "occupations": [
+      "Salon hostess"
+    ],
+    "birthPlace": "Lyon, France",
+    "nationality": "French",
+    "wikipediaTitle": "Julie_de_Lespinasse"
+  },
+  {
+    "id": "person-madame-du-deffand",
+    "type": "person",
+    "title": "Marie de Vichy-Chamrond, Marquise du Deffand",
+    "alternateNames": [
+      "Madame du Deffand"
+    ],
+    "shortDescription": "Long-running literary salon hostess",
+    "dateStart": "1697",
+    "dateEnd": "1780",
+    "biography": "French salon hostess and letter-writer. Hosted literary salon for decades. Famous correspondence with Voltaire and Horace Walpole. Went blind in 1752 but continued salon through dictated letters.",
+    "occupations": [
+      "Salon hostess",
+      "Letter-writer"
+    ],
+    "birthPlace": "Burgundy, France",
+    "nationality": "French",
+    "wikipediaTitle": "Marie_Anne_de_Vichy-Chamrond,_marquise_du_Deffand"
+  },
+  {
+    "id": "person-madame-helvetius",
+    "type": "person",
+    "title": "Anne-Catherine de Ligniville",
+    "alternateNames": [
+      "Madame Helvétius"
+    ],
+    "shortDescription": "Salon hostess connecting American and French Enlightenment",
+    "dateStart": "1722",
+    "dateEnd": "1800",
+    "biography": "French salon hostess. After husband's death (1771), continued influential salon at Auteuil. Franklin was close friend (proposed marriage). Connected American visitors to French intellectuals.",
+    "occupations": [
+      "Salon hostess"
+    ],
+    "birthPlace": "Ligniville, Lorraine",
+    "nationality": "French",
+    "wikipediaTitle": "Anne-Catherine_de_Ligniville"
+  },
+  {
+    "id": "person-frederick-great",
+    "type": "person",
+    "title": "Frederick II of Prussia",
+    "alternateNames": [
+      "Frederick the Great"
+    ],
+    "shortDescription": "Model enlightened despot and patron of philosophers",
+    "dateStart": "1712",
+    "dateEnd": "1786",
+    "biography": "King of Prussia and patron of arts and philosophy. Model 'enlightened despot.' Corresponded with Voltaire, hosted him (1750-53). Revitalized Berlin Academy. Patron of Euler and La Mettrie. Wrote Anti-Machiavel.",
+    "occupations": [
+      "Monarch",
+      "Patron of arts"
+    ],
+    "birthPlace": "Berlin, Prussia",
+    "nationality": "Prussian",
+    "wikipediaTitle": "Frederick_the_Great"
+  },
+  {
+    "id": "person-catherine-great",
+    "type": "person",
+    "title": "Catherine II of Russia",
+    "alternateNames": [
+      "Catherine the Great"
+    ],
+    "shortDescription": "Empress who corresponded with philosophes",
+    "dateStart": "1729",
+    "dateEnd": "1796",
+    "biography": "Empress of Russia. Corresponded with Voltaire and Diderot. Purchased Diderot's library (letting him keep it). Attempted Enlightenment-inspired reforms. Called Voltaire 'my master.'",
+    "occupations": [
+      "Monarch"
+    ],
+    "birthPlace": "Stettin, Prussia",
+    "nationality": "German-Russian",
+    "wikipediaTitle": "Catherine_the_Great"
+  },
+  {
+    "id": "object-principia-mathematica",
+    "type": "object",
+    "title": "Philosophiæ Naturalis Principia Mathematica",
+    "shortDescription": "Established mathematical physics and the mechanistic worldview",
+    "dateStart": "1687",
+    "objectType": "book",
+    "creators": [
+      "person-isaac-newton"
+    ],
+    "language": "Latin",
+    "subject": "Natural philosophy, Mathematics",
+    "wikipediaTitle": "Philosophiæ_Naturalis_Principia_Mathematica"
+  },
+  {
+    "id": "object-essay-human-understanding",
+    "type": "object",
+    "title": "Essay Concerning Human Understanding",
+    "shortDescription": "Foundational text of empiricism",
+    "dateStart": "1689",
+    "objectType": "book",
+    "creators": [
+      "person-john-locke"
+    ],
+    "language": "English",
+    "subject": "Philosophy, Epistemology",
+    "wikipediaTitle": "An_Essay_Concerning_Human_Understanding"
+  },
+  {
+    "id": "object-two-treatises",
+    "type": "object",
+    "title": "Two Treatises of Government",
+    "shortDescription": "Foundation of liberal political thought",
+    "dateStart": "1689",
+    "objectType": "book",
+    "creators": [
+      "person-john-locke"
+    ],
+    "language": "English",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "Two_Treatises_of_Government"
+  },
+  {
+    "id": "object-letter-toleration",
+    "type": "object",
+    "title": "A Letter Concerning Toleration",
+    "shortDescription": "Classic argument for religious toleration",
+    "dateStart": "1689",
+    "objectType": "treatise",
+    "creators": [
+      "person-john-locke"
+    ],
+    "language": "Latin",
+    "externalLinks": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/A_Letter_Concerning_Toleration"
+      },
+      {
+        "label": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/56575"
+      },
+      {
+        "label": "Online Library of Liberty",
+        "url": "https://oll.libertyfund.org/title/goldie-a-letter-concerning-toleration-and-other-writings"
+      }
+    ],
+    "wikipediaTitle": "A_Letter_Concerning_Toleration"
+  },
+  {
+    "id": "object-opticks",
+    "type": "object",
+    "title": "Opticks",
+    "shortDescription": "Established corpuscular theory of light",
+    "dateStart": "1704",
+    "objectType": "book",
+    "creators": [
+      "person-isaac-newton"
+    ],
+    "language": "English",
+    "subject": "Natural philosophy, Optics",
+    "wikipediaTitle": "Opticks"
+  },
+  {
+    "id": "object-theodicy",
+    "type": "object",
+    "title": "Theodicy",
+    "shortDescription": "Argued this is the best of all possible worlds",
+    "dateStart": "1710",
+    "objectType": "book",
+    "creators": [
+      "person-leibniz"
+    ],
+    "language": "French",
+    "subject": "Philosophy, Theology",
+    "wikipediaTitle": "Théodicée"
+  },
+  {
+    "id": "object-characteristics",
+    "type": "object",
+    "title": "Characteristics of Men, Manners, Opinions, Times",
+    "shortDescription": "Developed moral sense theory",
+    "dateStart": "1711",
+    "objectType": "book",
+    "creators": [
+      "person-shaftesbury"
+    ],
+    "language": "English",
+    "subject": "Moral philosophy",
+    "wikipediaTitle": "Characteristics_of_Men,_Manners,_Opinions,_Times"
+  },
+  {
+    "id": "object-fable-bees",
+    "type": "object",
+    "title": "The Fable of the Bees",
+    "shortDescription": "Scandalous argument that private vices produce public benefits",
+    "dateStart": "1714",
+    "objectType": "book",
+    "creators": [
+      "person-mandeville"
+    ],
+    "language": "English",
+    "subject": "Philosophy, Economics",
+    "wikipediaTitle": "The_Fable_of_the_Bees"
+  },
+  {
+    "id": "object-monadology",
+    "type": "object",
+    "title": "Monadology",
+    "shortDescription": "Leibniz's metaphysical system of monads",
+    "dateStart": "1714",
+    "objectType": "treatise",
+    "creators": [
+      "person-leibniz"
+    ],
+    "language": "French",
+    "subject": "Metaphysics",
+    "externalLinks": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Monadology"
+      },
+      {
+        "label": "Jonathan Bennett (PDF)",
+        "url": "https://www.earlymoderntexts.com/assets/pdfs/leibniz1714b.pdf"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/monadologyothers00leib"
+      }
+    ],
+    "wikipediaTitle": "Monadology"
+  },
+  {
+    "id": "object-persian-letters",
+    "type": "object",
+    "title": "Persian Letters",
+    "shortDescription": "Satirized French society through fictional Persian visitors",
+    "dateStart": "1721",
+    "objectType": "novel",
+    "creators": [
+      "person-montesquieu"
+    ],
+    "language": "French",
+    "wikipediaTitle": "Persian_Letters"
+  },
+  {
+    "id": "object-letters-english",
+    "type": "object",
+    "title": "Letters on the English",
+    "alternateNames": [
+      "Lettres philosophiques"
+    ],
+    "shortDescription": "First bomb hurled against the Ancien Régime",
+    "dateStart": "1733",
+    "objectType": "book",
+    "creators": [
+      "person-voltaire"
+    ],
+    "language": "French",
+    "wikipediaTitle": "Letters_on_the_English"
+  },
+  {
+    "id": "object-elements-newton",
+    "type": "object",
+    "title": "Elements of the Philosophy of Newton",
+    "shortDescription": "Made Newtonian physics accessible to French readers",
+    "dateStart": "1738",
+    "objectType": "book",
+    "creators": [
+      "person-voltaire",
+      "person-emilie-du-chatelet"
+    ],
+    "language": "French",
+    "subject": "Natural philosophy",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-traite-dynamique",
+    "type": "object",
+    "title": "Traité de dynamique",
+    "shortDescription": "Major contribution to mechanics",
+    "dateStart": "1743",
+    "objectType": "book",
+    "creators": [
+      "person-dalembert"
+    ],
+    "language": "French",
+    "subject": "Mathematical physics",
+    "wikipediaTitle": "Traité_de_Dynamique"
+  },
+  {
+    "id": "object-essay-origin-knowledge",
+    "type": "object",
+    "title": "Essay on the Origin of Human Knowledge",
+    "shortDescription": "Extended Locke's empiricism",
+    "dateStart": "1746",
+    "objectType": "book",
+    "creators": [
+      "person-condillac"
+    ],
+    "language": "French",
+    "subject": "Epistemology",
+    "wikipediaTitle": "Essay_on_the_Origin_of_Human_Knowledge"
+  },
+  {
+    "id": "object-natural-history-soul",
+    "type": "object",
+    "title": "Natural History of the Soul",
+    "shortDescription": "Early statement of La Mettrie's materialism",
+    "dateStart": "1745",
+    "objectType": "book",
+    "creators": [
+      "person-la-mettrie"
+    ],
+    "language": "French",
+    "subject": "Materialist philosophy",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-homme-machine",
+    "type": "object",
+    "title": "Man a Machine",
+    "alternateNames": [
+      "L'Homme Machine"
+    ],
+    "shortDescription": "Radical materialism arguing humans are machines",
+    "dateStart": "1747",
+    "objectType": "book",
+    "creators": [
+      "person-la-mettrie"
+    ],
+    "language": "French",
+    "subject": "Materialist philosophy",
+    "wikipediaTitle": "Man_a_Machine"
+  },
+  {
+    "id": "object-spirit-laws",
+    "type": "object",
+    "title": "The Spirit of the Laws",
+    "alternateNames": [
+      "De l'esprit des lois"
+    ],
+    "shortDescription": "Monumental work of comparative political analysis",
+    "dateStart": "1748",
+    "objectType": "book",
+    "creators": [
+      "person-montesquieu"
+    ],
+    "language": "French",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "The_Spirit_of_the_Laws"
+  },
+  {
+    "id": "object-histoire-naturelle",
+    "type": "object",
+    "title": "Histoire naturelle",
+    "shortDescription": "Most widely read scientific work of the 18th century",
+    "dateStart": "1749",
+    "dateEnd": "1804",
+    "objectType": "book series",
+    "creators": [
+      "person-buffon"
+    ],
+    "language": "French",
+    "subject": "Natural history",
+    "wikipediaTitle": "Histoire_Naturelle"
+  },
+  {
+    "id": "object-encyclopedie",
+    "type": "object",
+    "title": "Encyclopédie",
+    "shortDescription": "The defining project of the French Enlightenment",
+    "dateStart": "1751",
+    "dateEnd": "1772",
+    "objectType": "encyclopedia",
+    "creators": [
+      "person-diderot",
+      "person-dalembert"
+    ],
+    "language": "French",
+    "subject": "Arts, Sciences, Trades",
+    "wikipediaTitle": "Encyclopédie"
+  },
+  {
+    "id": "object-preliminary-discourse",
+    "type": "object",
+    "title": "Preliminary Discourse to the Encyclopedia",
+    "shortDescription": "Famous introduction mapping human knowledge",
+    "dateStart": "1751",
+    "objectType": "essay",
+    "creators": [
+      "person-dalembert"
+    ],
+    "language": "French",
+    "subject": "Philosophy of knowledge",
+    "wikipediaTitle": "Preliminary_Discourse_to_the_Encyclopedia_of_Diderot"
+  },
+  {
+    "id": "object-treatise-sensations",
+    "type": "object",
+    "title": "Treatise on Sensations",
+    "shortDescription": "Systematic development of sensationalism",
+    "dateStart": "1754",
+    "objectType": "book",
+    "creators": [
+      "person-condillac"
+    ],
+    "language": "French",
+    "subject": "Epistemology",
+    "wikipediaTitle": "Treatise_on_Sensations"
+  },
+  {
+    "id": "object-discourse-inequality",
+    "type": "object",
+    "title": "Discourse on the Origin of Inequality",
+    "shortDescription": "Argued civilization corrupted natural human goodness",
+    "dateStart": "1755",
+    "objectType": "book",
+    "creators": [
+      "person-rousseau"
+    ],
+    "language": "French",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "Discourse_on_Inequality"
+  },
+  {
+    "id": "object-de-lesprit",
+    "type": "object",
+    "title": "De l'esprit",
+    "alternateNames": [
+      "On Mind"
+    ],
+    "shortDescription": "Utilitarian ethics that caused scandal",
+    "dateStart": "1758",
+    "objectType": "book",
+    "creators": [
+      "person-helvetius"
+    ],
+    "language": "French",
+    "subject": "Moral philosophy",
+    "wikipediaTitle": "De_l'esprit"
+  },
+  {
+    "id": "object-tableau-economique",
+    "type": "object",
+    "title": "Tableau économique",
+    "shortDescription": "First attempt to model economic flows",
+    "dateStart": "1758",
+    "objectType": "treatise",
+    "creators": [
+      "person-francois-quesnay"
+    ],
+    "language": "French",
+    "subject": "Economics",
+    "externalLinks": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tableau_%C3%A9conomique"
+      },
+      {
+        "label": "Internet Archive",
+        "url": "https://archive.org/details/tableaueconomiqu00ques"
+      }
+    ],
+    "wikipediaTitle": "Tableau_économique"
+  },
+  {
+    "id": "object-candide",
+    "type": "object",
+    "title": "Candide",
+    "shortDescription": "Brilliant satire of Leibnizian optimism",
+    "dateStart": "1759",
+    "objectType": "novella",
+    "creators": [
+      "person-voltaire"
+    ],
+    "language": "French",
+    "wikipediaTitle": "Candide"
+  },
+  {
+    "id": "object-christianity-unveiled",
+    "type": "object",
+    "title": "Christianity Unveiled",
+    "shortDescription": "Systematic attack on Christianity",
+    "dateStart": "1761",
+    "objectType": "book",
+    "creators": [
+      "person-dholbach"
+    ],
+    "language": "French",
+    "subject": "Religious criticism",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-social-contract",
+    "type": "object",
+    "title": "The Social Contract",
+    "alternateNames": [
+      "Du contrat social"
+    ],
+    "shortDescription": "Theory of legitimate political authority",
+    "dateStart": "1762",
+    "objectType": "book",
+    "creators": [
+      "person-rousseau"
+    ],
+    "language": "French",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "The_Social_Contract"
+  },
+  {
+    "id": "object-emile",
+    "type": "object",
+    "title": "Emile, or On Education",
+    "shortDescription": "Revolutionary educational philosophy",
+    "dateStart": "1762",
+    "objectType": "book",
+    "creators": [
+      "person-rousseau"
+    ],
+    "language": "French",
+    "subject": "Educational philosophy",
+    "wikipediaTitle": "Emile,_or_On_Education"
+  },
+  {
+    "id": "object-philosophical-dictionary",
+    "type": "object",
+    "title": "Philosophical Dictionary",
+    "shortDescription": "Alphabetically arranged philosophical provocations",
+    "dateStart": "1764",
+    "objectType": "book",
+    "creators": [
+      "person-voltaire"
+    ],
+    "language": "French",
+    "wikipediaTitle": "Dictionnaire_philosophique"
+  },
+  {
+    "id": "object-reflections-wealth",
+    "type": "object",
+    "title": "Reflections on the Formation and Distribution of Wealth",
+    "shortDescription": "Major economic treatise beyond Physiocracy",
+    "dateStart": "1766",
+    "objectType": "treatise",
+    "creators": [
+      "person-turgot"
+    ],
+    "language": "French",
+    "subject": "Economics",
+    "externalLinks": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Reflections_on_the_Formation_and_Distribution_of_Riches"
+      },
+      {
+        "label": "Online Library of Liberty",
+        "url": "https://oll.libertyfund.org/title/turgot-reflections-on-the-formation-and-distribution-of-riches"
+      }
+    ],
+    "wikipediaTitle": "Reflections_on_the_Formation_and_Distribution_of_Riches"
+  },
+  {
+    "id": "object-system-nature",
+    "type": "object",
+    "title": "The System of Nature",
+    "shortDescription": "Comprehensive atheist and materialist philosophy",
+    "dateStart": "1770",
+    "objectType": "book",
+    "creators": [
+      "person-dholbach"
+    ],
+    "language": "French",
+    "subject": "Philosophy",
+    "wikipediaTitle": "The_System_of_Nature"
+  },
+  {
+    "id": "object-sketch-progress",
+    "type": "object",
+    "title": "Sketch for a Historical Picture of the Progress of the Human Mind",
+    "shortDescription": "Classic statement of Enlightenment faith in progress",
+    "dateStart": "1795",
+    "objectType": "book",
+    "creators": [
+      "person-condorcet"
+    ],
+    "language": "French",
+    "subject": "Philosophy of history",
+    "wikipediaTitle": "Sketch_for_a_Historical_Picture_of_the_Progress_of_the_Human_Mind"
+  },
+  {
+    "id": "object-principles-human-knowledge",
+    "type": "object",
+    "title": "A Treatise Concerning the Principles of Human Knowledge",
+    "shortDescription": "Developed idealist empiricism",
+    "dateStart": "1710",
+    "objectType": "book",
+    "creators": [
+      "person-george-berkeley"
+    ],
+    "language": "English",
+    "subject": "Philosophy",
+    "wikipediaTitle": "A_Treatise_Concerning_the_Principles_of_Human_Knowledge"
+  },
+  {
+    "id": "object-three-dialogues",
+    "type": "object",
+    "title": "Three Dialogues between Hylas and Philonous",
+    "shortDescription": "Accessible defense of Berkeley's immaterialism",
+    "dateStart": "1713",
+    "objectType": "book",
+    "creators": [
+      "person-george-berkeley"
+    ],
+    "language": "English",
+    "subject": "Philosophy",
+    "wikipediaTitle": "Three_Dialogues_between_Hylas_and_Philonous"
+  },
+  {
+    "id": "object-inquiry-beauty-virtue",
+    "type": "object",
+    "title": "Inquiry into the Original of Our Ideas of Beauty and Virtue",
+    "shortDescription": "Systematic development of moral sense theory",
+    "dateStart": "1725",
+    "objectType": "book",
+    "creators": [
+      "person-hutcheson"
+    ],
+    "language": "English",
+    "subject": "Moral philosophy",
+    "wikipediaTitle": "An_Inquiry_into_the_Original_of_Our_Ideas_of_Beauty_and_Virtue"
+  },
+  {
+    "id": "object-treatise-human-nature",
+    "type": "object",
+    "title": "A Treatise of Human Nature",
+    "shortDescription": "Hume's masterpiece of radical empiricism",
+    "dateStart": "1739",
+    "objectType": "book",
+    "creators": [
+      "person-david-hume"
+    ],
+    "language": "English",
+    "subject": "Philosophy",
+    "wikipediaTitle": "A_Treatise_of_Human_Nature"
+  },
+  {
+    "id": "object-enquiry-human-understanding",
+    "type": "object",
+    "title": "An Enquiry Concerning Human Understanding",
+    "shortDescription": "Famous analysis of causation and miracles",
+    "dateStart": "1748",
+    "objectType": "book",
+    "creators": [
+      "person-david-hume"
+    ],
+    "language": "English",
+    "subject": "Philosophy",
+    "wikipediaTitle": "An_Enquiry_Concerning_Human_Understanding"
+  },
+  {
+    "id": "object-essays-morality-religion",
+    "type": "object",
+    "title": "Essays on the Principles of Morality and Natural Religion",
+    "shortDescription": "Explored moral sense and natural religion",
+    "dateStart": "1751",
+    "objectType": "book",
+    "creators": [
+      "person-lord-kames"
+    ],
+    "language": "English",
+    "subject": "Philosophy",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-history-england",
+    "type": "object",
+    "title": "History of England",
+    "shortDescription": "Most widely read history of the 18th century",
+    "dateStart": "1754",
+    "dateEnd": "1761",
+    "objectType": "book",
+    "creators": [
+      "person-david-hume"
+    ],
+    "language": "English",
+    "subject": "History",
+    "wikipediaTitle": "The_History_of_England_(Hume)"
+  },
+  {
+    "id": "object-sublime-beautiful",
+    "type": "object",
+    "title": "A Philosophical Enquiry into the Sublime and Beautiful",
+    "shortDescription": "Influential theory of aesthetic experience",
+    "dateStart": "1757",
+    "objectType": "book",
+    "creators": [
+      "person-edmund-burke"
+    ],
+    "language": "English",
+    "subject": "Aesthetics",
+    "wikipediaTitle": "A_Philosophical_Enquiry_into_the_Origin_of_Our_Ideas_of_the_Sublime_and_Beautiful"
+  },
+  {
+    "id": "object-theory-moral-sentiments",
+    "type": "object",
+    "title": "The Theory of Moral Sentiments",
+    "shortDescription": "Smith's moral philosophy based on sympathy",
+    "dateStart": "1759",
+    "objectType": "book",
+    "creators": [
+      "person-adam-smith"
+    ],
+    "language": "English",
+    "subject": "Moral philosophy",
+    "wikipediaTitle": "The_Theory_of_Moral_Sentiments"
+  },
+  {
+    "id": "object-history-scotland",
+    "type": "object",
+    "title": "History of Scotland",
+    "shortDescription": "Established Robertson as major historian",
+    "dateStart": "1759",
+    "objectType": "book",
+    "creators": [
+      "person-william-robertson"
+    ],
+    "language": "English",
+    "subject": "History",
+    "wikipediaTitle": "History_of_Scotland_(Robertson)"
+  },
+  {
+    "id": "object-elements-criticism",
+    "type": "object",
+    "title": "Elements of Criticism",
+    "shortDescription": "Systematic theory of aesthetic taste",
+    "dateStart": "1762",
+    "objectType": "book",
+    "creators": [
+      "person-lord-kames"
+    ],
+    "language": "English",
+    "subject": "Aesthetics",
+    "wikipediaTitle": "Elements_of_Criticism"
+  },
+  {
+    "id": "object-inquiry-common-sense",
+    "type": "object",
+    "title": "Inquiry into the Human Mind on the Principles of Common Sense",
+    "shortDescription": "Founded Common Sense philosophy",
+    "dateStart": "1764",
+    "objectType": "book",
+    "creators": [
+      "person-thomas-reid"
+    ],
+    "language": "English",
+    "subject": "Philosophy",
+    "wikipediaTitle": "Inquiry_into_the_Human_Mind"
+  },
+  {
+    "id": "object-essay-civil-society",
+    "type": "object",
+    "title": "Essay on the History of Civil Society",
+    "shortDescription": "Pioneer work of sociology",
+    "dateStart": "1767",
+    "objectType": "book",
+    "creators": [
+      "person-adam-ferguson"
+    ],
+    "language": "English",
+    "subject": "Social philosophy",
+    "wikipediaTitle": "An_Essay_on_the_History_of_Civil_Society"
+  },
+  {
+    "id": "object-wealth-nations",
+    "type": "object",
+    "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+    "shortDescription": "Foundation of classical economics",
+    "dateStart": "1776",
+    "objectType": "book",
+    "creators": [
+      "person-adam-smith"
+    ],
+    "language": "English",
+    "subject": "Economics",
+    "wikipediaTitle": "The_Wealth_of_Nations"
+  },
+  {
+    "id": "object-dialogues-natural-religion",
+    "type": "object",
+    "title": "Dialogues Concerning Natural Religion",
+    "shortDescription": "Devastating critique of arguments for God",
+    "dateStart": "1779",
+    "objectType": "book",
+    "creators": [
+      "person-david-hume"
+    ],
+    "language": "English",
+    "subject": "Philosophy of religion",
+    "wikipediaTitle": "Dialogues_Concerning_Natural_Religion"
+  },
+  {
+    "id": "object-reflections-revolution",
+    "type": "object",
+    "title": "Reflections on the Revolution in France",
+    "shortDescription": "Founding text of conservatism",
+    "dateStart": "1790",
+    "objectType": "book",
+    "creators": [
+      "person-edmund-burke"
+    ],
+    "language": "English",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "Reflections_on_the_Revolution_in_France"
+  },
+  {
+    "id": "object-principles-morals-legislation",
+    "type": "object",
+    "title": "Introduction to the Principles of Morals and Legislation",
+    "shortDescription": "Systematic statement of utilitarianism",
+    "dateStart": "1789",
+    "objectType": "book",
+    "creators": [
+      "person-jeremy-bentham"
+    ],
+    "language": "English",
+    "subject": "Philosophy, Jurisprudence",
+    "wikipediaTitle": "An_Introduction_to_the_Principles_of_Morals_and_Legislation"
+  },
+  {
+    "id": "object-german-logic",
+    "type": "object",
+    "title": "Rational Thoughts on God, the World, and the Soul of Man",
+    "alternateNames": [
+      "German Logic"
+    ],
+    "shortDescription": "First major philosophical work in German",
+    "dateStart": "1713",
+    "objectType": "book",
+    "creators": [
+      "person-christian-wolff"
+    ],
+    "language": "German",
+    "subject": "Philosophy",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-aesthetica",
+    "type": "object",
+    "title": "Aesthetica",
+    "shortDescription": "Coined the term and founded aesthetics as discipline",
+    "dateStart": "1750",
+    "objectType": "book",
+    "creators": [
+      "person-baumgarten"
+    ],
+    "language": "Latin",
+    "subject": "Aesthetics",
+    "wikipediaTitle": "Aesthetica"
+  },
+  {
+    "id": "object-metaphysica",
+    "type": "object",
+    "title": "Metaphysica",
+    "shortDescription": "Standard textbook Kant used for lectures",
+    "dateStart": "1739",
+    "objectType": "textbook",
+    "creators": [
+      "person-baumgarten"
+    ],
+    "language": "Latin",
+    "subject": "Metaphysics",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-laocoon",
+    "type": "object",
+    "title": "Laocoon: An Essay on the Limits of Painting and Poetry",
+    "shortDescription": "Distinguished temporal from spatial arts",
+    "dateStart": "1766",
+    "objectType": "essay",
+    "creators": [
+      "person-gotthold-lessing"
+    ],
+    "language": "German",
+    "subject": "Aesthetics",
+    "wikipediaTitle": "Laocoön_(essay)"
+  },
+  {
+    "id": "object-phadon",
+    "type": "object",
+    "title": "Phädon",
+    "shortDescription": "Modern version of Plato's dialogue on immortality",
+    "dateStart": "1767",
+    "objectType": "book",
+    "creators": [
+      "person-moses-mendelssohn"
+    ],
+    "language": "German",
+    "subject": "Philosophy",
+    "wikipediaTitle": "Phädon"
+  },
+  {
+    "id": "object-treatise-origin-language",
+    "type": "object",
+    "title": "Treatise on the Origin of Language",
+    "shortDescription": "Argued language emerged naturally from reflection",
+    "dateStart": "1772",
+    "objectType": "essay",
+    "creators": [
+      "person-johann-herder"
+    ],
+    "language": "German",
+    "subject": "Philosophy of language",
+    "wikipediaTitle": "Treatise_on_the_Origin_of_Language"
+  },
+  {
+    "id": "object-nathan-wise",
+    "type": "object",
+    "title": "Nathan the Wise",
+    "shortDescription": "Drama promoting religious tolerance",
+    "dateStart": "1779",
+    "objectType": "drama",
+    "creators": [
+      "person-gotthold-lessing"
+    ],
+    "language": "German",
+    "wikipediaTitle": "Nathan_the_Wise"
+  },
+  {
+    "id": "object-critique-pure-reason",
+    "type": "object",
+    "title": "Critique of Pure Reason",
+    "shortDescription": "Transformed philosophy by synthesizing rationalism and empiricism",
+    "dateStart": "1781",
+    "objectType": "book",
+    "creators": [
+      "person-immanuel-kant"
+    ],
+    "language": "German",
+    "subject": "Philosophy",
+    "wikipediaTitle": "Critique_of_Pure_Reason"
+  },
+  {
+    "id": "object-jerusalem",
+    "type": "object",
+    "title": "Jerusalem, or On Religious Power and Judaism",
+    "shortDescription": "Defense of Jewish practice and church-state separation",
+    "dateStart": "1783",
+    "objectType": "book",
+    "creators": [
+      "person-moses-mendelssohn"
+    ],
+    "language": "German",
+    "subject": "Political philosophy, Theology",
+    "wikipediaTitle": "Jerusalem_(Mendelssohn)"
+  },
+  {
+    "id": "object-what-is-enlightenment",
+    "type": "object",
+    "title": "What is Enlightenment?",
+    "shortDescription": "Defining statement: Sapere aude - Dare to know",
+    "dateStart": "1784",
+    "objectType": "essay",
+    "creators": [
+      "person-immanuel-kant"
+    ],
+    "language": "German",
+    "wikipediaTitle": "Answering_the_Question:_What_Is_Enlightenment%3F"
+  },
+  {
+    "id": "object-ideas-philosophy-history",
+    "type": "object",
+    "title": "Ideas for the Philosophy of History of Humanity",
+    "shortDescription": "Comprehensive philosophy emphasizing cultural diversity",
+    "dateStart": "1784",
+    "dateEnd": "1791",
+    "objectType": "book",
+    "creators": [
+      "person-johann-herder"
+    ],
+    "language": "German",
+    "subject": "Philosophy of history",
+    "wikipediaTitle": "Outlines_of_a_Philosophy_of_the_History_of_Man"
+  },
+  {
+    "id": "object-critique-practical-reason",
+    "type": "object",
+    "title": "Critique of Practical Reason",
+    "shortDescription": "Kant's systematic ethics",
+    "dateStart": "1788",
+    "objectType": "book",
+    "creators": [
+      "person-immanuel-kant"
+    ],
+    "language": "German",
+    "subject": "Moral philosophy",
+    "wikipediaTitle": "Critique_of_Practical_Reason"
+  },
+  {
+    "id": "object-critique-judgment",
+    "type": "object",
+    "title": "Critique of Judgment",
+    "shortDescription": "Analysis of aesthetic and teleological judgment",
+    "dateStart": "1790",
+    "objectType": "book",
+    "creators": [
+      "person-immanuel-kant"
+    ],
+    "language": "German",
+    "subject": "Aesthetics, Philosophy",
+    "wikipediaTitle": "Critique_of_Judgment"
+  },
+  {
+    "id": "object-crimes-punishments",
+    "type": "object",
+    "title": "On Crimes and Punishments",
+    "alternateNames": [
+      "Dei delitti e delle pene"
+    ],
+    "shortDescription": "Revolutionary critique of criminal justice",
+    "dateStart": "1764",
+    "objectType": "book",
+    "creators": [
+      "person-cesare-beccaria"
+    ],
+    "language": "Italian",
+    "subject": "Legal philosophy",
+    "wikipediaTitle": "On_Crimes_and_Punishments"
+  },
+  {
+    "id": "object-experiments-electricity",
+    "type": "object",
+    "title": "Experiments and Observations on Electricity",
+    "shortDescription": "Established Franklin's scientific reputation",
+    "dateStart": "1751",
+    "objectType": "book",
+    "creators": [
+      "person-benjamin-franklin"
+    ],
+    "language": "English",
+    "subject": "Natural philosophy",
+    "wikipediaTitle": "Experiments_and_Observations_on_Electricity"
+  },
+  {
+    "id": "object-common-sense",
+    "type": "object",
+    "title": "Common Sense",
+    "shortDescription": "Most widely read pamphlet of American Revolution",
+    "dateStart": "1776",
+    "objectType": "pamphlet",
+    "creators": [
+      "person-thomas-paine"
+    ],
+    "language": "English",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "Common_Sense"
+  },
+  {
+    "id": "object-declaration-independence",
+    "type": "object",
+    "title": "Declaration of Independence",
+    "shortDescription": "Applied Lockean natural rights to justify revolution",
+    "dateStart": "1776",
+    "objectType": "document",
+    "creators": [
+      "person-thomas-jefferson"
+    ],
+    "language": "English",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "United_States_Declaration_of_Independence"
+  },
+  {
+    "id": "object-virginia-statute",
+    "type": "object",
+    "title": "Virginia Statute for Religious Freedom",
+    "shortDescription": "Model of religious liberty legislation",
+    "dateStart": "1786",
+    "objectType": "statute",
+    "creators": [
+      "person-thomas-jefferson"
+    ],
+    "language": "English",
+    "wikipediaTitle": "Virginia_Statute_for_Religious_Freedom"
+  },
+  {
+    "id": "object-notes-virginia",
+    "type": "object",
+    "title": "Notes on the State of Virginia",
+    "shortDescription": "Jefferson's only full-length book",
+    "dateStart": "1785",
+    "objectType": "book",
+    "creators": [
+      "person-thomas-jefferson"
+    ],
+    "language": "English",
+    "subject": "Natural history, Politics",
+    "wikipediaTitle": "Notes_on_the_State_of_Virginia"
+  },
+  {
+    "id": "object-federalist-papers",
+    "type": "object",
+    "title": "The Federalist Papers",
+    "shortDescription": "Classic defense of Constitution and political theory",
+    "dateStart": "1787",
+    "dateEnd": "1788",
+    "objectType": "essays",
+    "creators": [
+      "person-james-madison"
+    ],
+    "language": "English",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "The_Federalist_Papers"
+  },
+  {
+    "id": "object-rights-man",
+    "type": "object",
+    "title": "Rights of Man",
+    "shortDescription": "Defense of French Revolution against Burke",
+    "dateStart": "1791",
+    "objectType": "book",
+    "creators": [
+      "person-thomas-paine"
+    ],
+    "language": "English",
+    "subject": "Political philosophy",
+    "wikipediaTitle": "Rights_of_Man"
+  },
+  {
+    "id": "object-age-reason",
+    "type": "object",
+    "title": "The Age of Reason",
+    "shortDescription": "Deist critique of organized religion",
+    "dateStart": "1794",
+    "objectType": "book",
+    "creators": [
+      "person-thomas-paine"
+    ],
+    "language": "English",
+    "subject": "Religious criticism",
+    "wikipediaTitle": "The_Age_of_Reason"
+  },
+  {
+    "id": "object-institutions-physique",
+    "type": "object",
+    "title": "Institutions de physique",
+    "shortDescription": "Synthesis of Newtonian and Leibnizian physics",
+    "dateStart": "1740",
+    "objectType": "book",
+    "creators": [
+      "person-emilie-du-chatelet"
+    ],
+    "language": "French",
+    "subject": "Natural philosophy",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-principia-translation",
+    "type": "object",
+    "title": "French Translation of Newton's Principia",
+    "shortDescription": "Standard French translation still used today",
+    "dateStart": "1759",
+    "objectType": "translation",
+    "creators": [
+      "person-emilie-du-chatelet"
+    ],
+    "language": "French",
+    "subject": "Natural philosophy",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "object-elements-chemistry",
+    "type": "object",
+    "title": "Elements of Chemistry",
+    "shortDescription": "Foundation of modern chemistry",
+    "dateStart": "1789",
+    "objectType": "book",
+    "creators": [
+      "person-lavoisier"
+    ],
+    "language": "French",
+    "subject": "Chemistry",
+    "wikipediaTitle": "Traité_Élémentaire_de_Chimie"
+  },
+  {
+    "id": "object-essay-probability-decisions",
+    "type": "object",
+    "title": "Essay on the Application of Analysis to the Probability of Majority Decisions",
+    "shortDescription": "Applied probability to voting theory",
+    "dateStart": "1785",
+    "objectType": "book",
+    "creators": [
+      "person-condorcet"
+    ],
+    "language": "French",
+    "subject": "Mathematics, Political science",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-paris",
+    "type": "location",
+    "title": "Paris",
+    "shortDescription": "Capital of the Enlightenment",
+    "locationType": "city",
+    "country": "France",
+    "wikipediaTitle": "Paris"
+  },
+  {
+    "id": "location-edinburgh",
+    "type": "location",
+    "title": "Edinburgh",
+    "shortDescription": "Athens of the North - center of Scottish Enlightenment",
+    "locationType": "city",
+    "country": "Scotland",
+    "wikipediaTitle": "Edinburgh"
+  },
+  {
+    "id": "location-london",
+    "type": "location",
+    "title": "London",
+    "shortDescription": "Commercial and intellectual center of Britain",
+    "locationType": "city",
+    "country": "England",
+    "wikipediaTitle": "London"
+  },
+  {
+    "id": "location-berlin",
+    "type": "location",
+    "title": "Berlin",
+    "shortDescription": "Capital of Prussia and center of German Aufklärung",
+    "locationType": "city",
+    "country": "Prussia",
+    "wikipediaTitle": "Berlin"
+  },
+  {
+    "id": "location-geneva",
+    "type": "location",
+    "title": "Geneva",
+    "shortDescription": "Calvinist republic and publishing center",
+    "locationType": "city-state",
+    "country": "Swiss Confederation",
+    "wikipediaTitle": "Geneva"
+  },
+  {
+    "id": "location-amsterdam",
+    "type": "location",
+    "title": "Amsterdam",
+    "shortDescription": "Major publishing center for controversial works",
+    "locationType": "city",
+    "country": "Dutch Republic",
+    "wikipediaTitle": "Amsterdam"
+  },
+  {
+    "id": "location-glasgow",
+    "type": "location",
+    "title": "Glasgow",
+    "shortDescription": "Home to University of Glasgow and Scottish philosophers",
+    "locationType": "city",
+    "country": "Scotland",
+    "wikipediaTitle": "Glasgow"
+  },
+  {
+    "id": "location-philadelphia",
+    "type": "location",
+    "title": "Philadelphia",
+    "shortDescription": "Center of American Enlightenment",
+    "locationType": "city",
+    "country": "United States",
+    "wikipediaTitle": "Philadelphia"
+  },
+  {
+    "id": "location-konigsberg",
+    "type": "location",
+    "title": "Königsberg",
+    "shortDescription": "Kant's lifelong home",
+    "locationType": "city",
+    "country": "Prussia",
+    "wikipediaTitle": "Königsberg"
+  },
+  {
+    "id": "location-vienna",
+    "type": "location",
+    "title": "Vienna",
+    "shortDescription": "Center of Habsburg reformism",
+    "locationType": "city",
+    "country": "Habsburg Empire",
+    "wikipediaTitle": "Vienna"
+  },
+  {
+    "id": "location-st-petersburg",
+    "type": "location",
+    "title": "St. Petersburg",
+    "shortDescription": "Capital of Russian Empire under Catherine the Great",
+    "locationType": "city",
+    "country": "Russia",
+    "wikipediaTitle": "Saint_Petersburg"
+  },
+  {
+    "id": "location-milan",
+    "type": "location",
+    "title": "Milan",
+    "shortDescription": "Center of Italian Enlightenment",
+    "locationType": "city",
+    "country": "Habsburg Italy",
+    "wikipediaTitle": "Milan"
+  },
+  {
+    "id": "location-univ-edinburgh",
+    "type": "location",
+    "title": "University of Edinburgh",
+    "shortDescription": "Leading Scottish university",
+    "locationType": "university",
+    "country": "Scotland",
+    "parentLocation": "location-edinburgh",
+    "wikipediaTitle": "University_of_Edinburgh"
+  },
+  {
+    "id": "location-univ-glasgow",
+    "type": "location",
+    "title": "University of Glasgow",
+    "shortDescription": "Home to Hutcheson, Smith, and Reid",
+    "locationType": "university",
+    "country": "Scotland",
+    "parentLocation": "location-glasgow",
+    "wikipediaTitle": "University_of_Glasgow"
+  },
+  {
+    "id": "location-cambridge",
+    "type": "location",
+    "title": "University of Cambridge",
+    "shortDescription": "Newton's academic base",
+    "locationType": "university",
+    "country": "England",
+    "wikipediaTitle": "University_of_Cambridge"
+  },
+  {
+    "id": "location-univ-halle",
+    "type": "location",
+    "title": "University of Halle",
+    "shortDescription": "Center of Wolffian philosophy",
+    "locationType": "university",
+    "country": "Prussia",
+    "wikipediaTitle": "University_of_Halle"
+  },
+  {
+    "id": "location-univ-konigsberg",
+    "type": "location",
+    "title": "University of Königsberg",
+    "shortDescription": "Where Kant spent his entire career",
+    "locationType": "university",
+    "country": "Prussia",
+    "parentLocation": "location-konigsberg",
+    "wikipediaTitle": "University_of_Königsberg"
+  },
+  {
+    "id": "location-sorbonne",
+    "type": "location",
+    "title": "Sorbonne / University of Paris",
+    "shortDescription": "Ancient theological faculty that condemned Enlightenment works",
+    "locationType": "university",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": "University_of_Paris"
+  },
+  {
+    "id": "location-academie-francaise",
+    "type": "location",
+    "title": "Académie française",
+    "shortDescription": "Premier literary academy",
+    "locationType": "academy",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": "Académie_Française"
+  },
+  {
+    "id": "location-academie-sciences",
+    "type": "location",
+    "title": "Académie des Sciences",
+    "shortDescription": "Leading French scientific institution",
+    "locationType": "academy",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": "French_Academy_of_Sciences"
+  },
+  {
+    "id": "location-berlin-academy",
+    "type": "location",
+    "title": "Berlin Academy",
+    "shortDescription": "Royal Prussian Academy of Sciences",
+    "locationType": "academy",
+    "country": "Prussia",
+    "parentLocation": "location-berlin",
+    "wikipediaTitle": "Prussian_Academy_of_Sciences"
+  },
+  {
+    "id": "location-royal-society",
+    "type": "location",
+    "title": "Royal Society of London",
+    "shortDescription": "Premier English scientific society",
+    "locationType": "academy",
+    "country": "England",
+    "parentLocation": "location-london",
+    "wikipediaTitle": "Royal_Society"
+  },
+  {
+    "id": "location-amer-phil-society",
+    "type": "location",
+    "title": "American Philosophical Society",
+    "shortDescription": "American counterpart to European academies",
+    "locationType": "academy",
+    "country": "United States",
+    "parentLocation": "location-philadelphia",
+    "wikipediaTitle": "American_Philosophical_Society"
+  },
+  {
+    "id": "location-academie-bordeaux",
+    "type": "location",
+    "title": "Académie de Bordeaux",
+    "shortDescription": "Provincial academy where Montesquieu was member",
+    "locationType": "academy",
+    "country": "France",
+    "wikipediaTitle": "Académie_de_Bordeaux"
+  },
+  {
+    "id": "location-salon-geoffrin",
+    "type": "location",
+    "title": "Salon of Madame Geoffrin",
+    "shortDescription": "Most famous philosophe salon",
+    "locationType": "salon",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-salon-holbach",
+    "type": "location",
+    "title": "Salon of Baron d'Holbach",
+    "shortDescription": "Most radical salon of the Enlightenment",
+    "locationType": "salon",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-salon-lespinasse",
+    "type": "location",
+    "title": "Salon of Julie de Lespinasse",
+    "shortDescription": "Salon frequented by encyclopedists",
+    "locationType": "salon",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-salon-deffand",
+    "type": "location",
+    "title": "Salon of Madame du Deffand",
+    "shortDescription": "Long-running literary salon",
+    "locationType": "salon",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-salon-helvetius",
+    "type": "location",
+    "title": "Salon of Madame Helvétius",
+    "shortDescription": "Connected French and American Enlightenment",
+    "locationType": "salon",
+    "country": "France",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-sans-souci",
+    "type": "location",
+    "title": "Sans-Souci Palace",
+    "shortDescription": "Frederick the Great's summer residence",
+    "locationType": "palace",
+    "country": "Prussia",
+    "wikipediaTitle": "Sanssouci"
+  },
+  {
+    "id": "location-versailles",
+    "type": "location",
+    "title": "Versailles",
+    "shortDescription": "French royal court",
+    "locationType": "palace",
+    "country": "France",
+    "wikipediaTitle": "Palace_of_Versailles"
+  },
+  {
+    "id": "location-ferney",
+    "type": "location",
+    "title": "Ferney",
+    "shortDescription": "Voltaire's estate in final decades",
+    "locationType": "estate",
+    "country": "France",
+    "wikipediaTitle": "Ferney-Voltaire"
+  },
+  {
+    "id": "location-cirey",
+    "type": "location",
+    "title": "Cirey",
+    "shortDescription": "Where Voltaire and du Châtelet collaborated",
+    "locationType": "chateau",
+    "country": "France",
+    "wikipediaTitle": "Château_de_Cirey"
+  },
+  {
+    "id": "location-winter-palace",
+    "type": "location",
+    "title": "Winter Palace",
+    "shortDescription": "Catherine the Great's court",
+    "locationType": "palace",
+    "country": "Russia",
+    "parentLocation": "location-st-petersburg",
+    "wikipediaTitle": "Winter_Palace"
+  },
+  {
+    "id": "location-amsterdam-publishing",
+    "type": "location",
+    "title": "Amsterdam Publishing Houses",
+    "shortDescription": "Major center for controversial works",
+    "locationType": "publishing center",
+    "country": "Dutch Republic",
+    "parentLocation": "location-amsterdam",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-london-publishing",
+    "type": "location",
+    "title": "London Publishing (Fleet Street)",
+    "shortDescription": "Major English-language publishing center",
+    "locationType": "publishing center",
+    "country": "England",
+    "parentLocation": "location-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-geneva-publishing",
+    "type": "location",
+    "title": "Geneva Publishing",
+    "shortDescription": "Published banned French works",
+    "locationType": "publishing center",
+    "country": "Swiss Confederation",
+    "parentLocation": "location-geneva",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "location-select-society",
+    "type": "location",
+    "title": "Select Society",
+    "shortDescription": "Debating club for Edinburgh's intellectual elite",
+    "dateStart": "1754",
+    "dateEnd": "1764",
+    "locationType": "club",
+    "country": "Scotland",
+    "parentLocation": "location-edinburgh",
+    "wikipediaTitle": "Select_Society"
+  },
+  {
+    "id": "location-poker-club",
+    "type": "location",
+    "title": "Poker Club",
+    "shortDescription": "Dining club supporting militia cause",
+    "dateStart": "1762",
+    "dateEnd": "1784",
+    "locationType": "club",
+    "country": "Scotland",
+    "parentLocation": "location-edinburgh",
+    "wikipediaTitle": "The_Poker_Club"
+  },
+  {
+    "id": "location-rankenian-club",
+    "type": "location",
+    "title": "Rankenian Club",
+    "shortDescription": "Early Scottish Enlightenment discussion club",
+    "dateStart": "1716",
+    "locationType": "club",
+    "country": "Scotland",
+    "parentLocation": "location-edinburgh",
+    "wikipediaTitle": "Rankenian_Club"
+  },
+  {
+    "id": "location-cafe-procope",
+    "type": "location",
+    "title": "Café Procope",
+    "shortDescription": "Oldest coffee house in Paris - meeting place for philosophes",
+    "locationType": "coffee house",
+    "country": "France",
+    "parentLocation": "location-paris",
+    "wikipediaTitle": "Café_Procope"
+  },
+  {
+    "id": "entity-encyclopedie-project",
+    "type": "entity",
+    "title": "Encyclopédie Project",
+    "shortDescription": "The defining collective enterprise of the French Enlightenment",
+    "dateStart": "1745",
+    "dateEnd": "1772",
+    "entityType": "collaborative project",
+    "foundedBy": [
+      "person-diderot",
+      "person-dalembert"
+    ],
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Encyclopédie"
+  },
+  {
+    "id": "entity-philosophes",
+    "type": "entity",
+    "title": "French Philosophes",
+    "shortDescription": "Core group of French Enlightenment intellectuals",
+    "dateStart": "1730",
+    "dateEnd": "1789",
+    "entityType": "intellectual movement",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Philosophes"
+  },
+  {
+    "id": "entity-scottish-enlightenment",
+    "type": "entity",
+    "title": "Scottish Enlightenment",
+    "shortDescription": "Remarkable flowering of philosophy in 18th-century Scotland",
+    "dateStart": "1720",
+    "dateEnd": "1800",
+    "entityType": "intellectual movement",
+    "headquarters": "location-edinburgh",
+    "wikipediaTitle": "Scottish_Enlightenment"
+  },
+  {
+    "id": "entity-aufklarung",
+    "type": "entity",
+    "title": "German Aufklärung",
+    "shortDescription": "German Enlightenment movement",
+    "dateStart": "1700",
+    "dateEnd": "1800",
+    "entityType": "intellectual movement",
+    "wikipediaTitle": "Aufklärung"
+  },
+  {
+    "id": "entity-haskalah",
+    "type": "entity",
+    "title": "Haskalah (Jewish Enlightenment)",
+    "shortDescription": "Movement for Jewish modernization",
+    "dateStart": "1770",
+    "dateEnd": "1880",
+    "entityType": "intellectual movement",
+    "foundedBy": [
+      "person-moses-mendelssohn"
+    ],
+    "headquarters": "location-berlin",
+    "wikipediaTitle": "Haskalah"
+  },
+  {
+    "id": "entity-physiocracy",
+    "type": "entity",
+    "title": "Physiocracy",
+    "shortDescription": "First systematic school of economic thought",
+    "dateStart": "1756",
+    "dateEnd": "1780",
+    "entityType": "economic school",
+    "foundedBy": [
+      "person-francois-quesnay"
+    ],
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Physiocracy"
+  },
+  {
+    "id": "entity-british-empiricism",
+    "type": "entity",
+    "title": "British Empiricism",
+    "shortDescription": "Philosophical tradition emphasizing experience",
+    "dateStart": "1689",
+    "dateEnd": "1780",
+    "entityType": "philosophical school",
+    "wikipediaTitle": "Empiricism"
+  },
+  {
+    "id": "entity-continental-rationalism",
+    "type": "entity",
+    "title": "Continental Rationalism",
+    "shortDescription": "Philosophical tradition emphasizing reason",
+    "dateStart": "1640",
+    "dateEnd": "1780",
+    "entityType": "philosophical school",
+    "wikipediaTitle": "Rationalism"
+  },
+  {
+    "id": "entity-utilitarianism",
+    "type": "entity",
+    "title": "Utilitarianism",
+    "shortDescription": "Greatest happiness of greatest number",
+    "dateStart": "1760",
+    "entityType": "ethical philosophy",
+    "foundedBy": [
+      "person-jeremy-bentham"
+    ],
+    "wikipediaTitle": "Utilitarianism"
+  },
+  {
+    "id": "entity-common-sense-philosophy",
+    "type": "entity",
+    "title": "Common Sense Philosophy",
+    "shortDescription": "Response to Hume's skepticism",
+    "dateStart": "1764",
+    "entityType": "philosophical school",
+    "foundedBy": [
+      "person-thomas-reid"
+    ],
+    "headquarters": "location-glasgow",
+    "wikipediaTitle": "Scottish_common_sense_realism"
+  },
+  {
+    "id": "entity-radical-enlightenment",
+    "type": "entity",
+    "title": "Radical Enlightenment",
+    "shortDescription": "Most radical strands of Enlightenment thought",
+    "dateStart": "1680",
+    "dateEnd": "1789",
+    "entityType": "intellectual tendency",
+    "wikipediaTitle": "Radical_Enlightenment"
+  },
+  {
+    "id": "entity-academie-francaise",
+    "type": "entity",
+    "title": "Académie française (Institution)",
+    "shortDescription": "Guardian of French language and literature",
+    "dateStart": "1635",
+    "entityType": "official academy",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Académie_Française"
+  },
+  {
+    "id": "entity-academie-sciences",
+    "type": "entity",
+    "title": "Académie des Sciences (Institution)",
+    "shortDescription": "Leading French scientific institution",
+    "dateStart": "1666",
+    "entityType": "scientific academy",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "French_Academy_of_Sciences"
+  },
+  {
+    "id": "entity-berlin-academy",
+    "type": "entity",
+    "title": "Berlin Academy (Institution)",
+    "shortDescription": "Royal Prussian Academy of Sciences",
+    "dateStart": "1700",
+    "entityType": "scientific academy",
+    "foundedBy": [
+      "person-leibniz"
+    ],
+    "headquarters": "location-berlin",
+    "wikipediaTitle": "Prussian_Academy_of_Sciences"
+  },
+  {
+    "id": "entity-royal-society",
+    "type": "entity",
+    "title": "Royal Society of London (Institution)",
+    "shortDescription": "Premier English scientific society",
+    "dateStart": "1660",
+    "entityType": "scientific society",
+    "headquarters": "location-london",
+    "wikipediaTitle": "Royal_Society"
+  },
+  {
+    "id": "entity-amer-phil-society",
+    "type": "entity",
+    "title": "American Philosophical Society (Institution)",
+    "shortDescription": "American counterpart to European academies",
+    "dateStart": "1743",
+    "entityType": "learned society",
+    "foundedBy": [
+      "person-benjamin-franklin"
+    ],
+    "headquarters": "location-philadelphia",
+    "wikipediaTitle": "American_Philosophical_Society"
+  },
+  {
+    "id": "entity-holbach-circle",
+    "type": "entity",
+    "title": "D'Holbach's Circle",
+    "alternateNames": [
+      "Coterie Holbachique"
+    ],
+    "shortDescription": "Most radical salon of the Enlightenment",
+    "dateStart": "1750",
+    "dateEnd": "1789",
+    "entityType": "intellectual circle",
+    "foundedBy": [
+      "person-dholbach"
+    ],
+    "headquarters": "location-salon-holbach",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-edinburgh-literati",
+    "type": "entity",
+    "title": "Edinburgh Literati",
+    "shortDescription": "Overlapping membership of Edinburgh's intellectual clubs",
+    "dateStart": "1740",
+    "dateEnd": "1800",
+    "entityType": "intellectual network",
+    "headquarters": "location-edinburgh",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-american-founders",
+    "type": "entity",
+    "title": "American Founders",
+    "shortDescription": "Applied Enlightenment philosophy to constitution-making",
+    "dateStart": "1776",
+    "dateEnd": "1800",
+    "entityType": "political circle",
+    "headquarters": "location-philadelphia",
+    "wikipediaTitle": "Founding_Fathers_of_the_United_States"
+  },
+  {
+    "id": "entity-journal-savants",
+    "type": "entity",
+    "title": "Journal des savants",
+    "shortDescription": "First academic journal",
+    "dateStart": "1665",
+    "entityType": "academic journal",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Journal_des_sçavans"
+  },
+  {
+    "id": "entity-ephemerides",
+    "type": "entity",
+    "title": "Éphémérides du citoyen",
+    "shortDescription": "Physiocrat journal",
+    "dateStart": "1765",
+    "dateEnd": "1772",
+    "entityType": "journal",
+    "headquarters": "location-paris",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-berlinische-monatsschrift",
+    "type": "entity",
+    "title": "Berlinische Monatsschrift",
+    "shortDescription": "Major German Enlightenment journal",
+    "dateStart": "1783",
+    "dateEnd": "1796",
+    "entityType": "journal",
+    "headquarters": "location-berlin",
+    "wikipediaTitle": "Berlinische_Monatsschrift"
+  },
+  {
+    "id": "entity-religious-toleration",
+    "type": "entity",
+    "title": "Religious Toleration Movement",
+    "shortDescription": "Central Enlightenment cause",
+    "entityType": "reform movement",
+    "wikipediaTitle": "Religious_toleration"
+  },
+  {
+    "id": "entity-criminal-justice-reform",
+    "type": "entity",
+    "title": "Criminal Justice Reform Movement",
+    "shortDescription": "Movement to abolish torture and reform punishment",
+    "dateStart": "1760",
+    "dateEnd": "1800",
+    "entityType": "reform movement",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-enlightened-despotism",
+    "type": "entity",
+    "title": "Enlightened Despotism",
+    "shortDescription": "Alliance between absolutist monarchs and Enlightenment",
+    "dateStart": "1740",
+    "dateEnd": "1790",
+    "entityType": "political phenomenon",
+    "wikipediaTitle": "Enlightened_absolutism"
+  },
+  {
+    "id": "entity-deism",
+    "type": "entity",
+    "title": "Deism",
+    "shortDescription": "Natural religion based on reason",
+    "dateStart": "1690",
+    "dateEnd": "1800",
+    "entityType": "religious position",
+    "wikipediaTitle": "Deism"
+  },
+  {
+    "id": "entity-enlightenment-atheism",
+    "type": "entity",
+    "title": "Enlightenment Atheism",
+    "shortDescription": "Explicit rejection of God's existence",
+    "dateStart": "1740",
+    "dateEnd": "1790",
+    "entityType": "philosophical position",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-moderate-enlightenment",
+    "type": "entity",
+    "title": "Moderate Enlightenment",
+    "shortDescription": "Reconciling Christianity with Enlightenment values",
+    "entityType": "religious tendency",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-united-states",
+    "type": "entity",
+    "title": "United States of America",
+    "shortDescription": "First nation founded on Enlightenment principles",
+    "dateStart": "1776",
+    "entityType": "nation-state",
+    "headquarters": "location-philadelphia",
+    "wikipediaTitle": "United_States"
+  },
+  {
+    "id": "entity-french-revolution",
+    "type": "entity",
+    "title": "French Revolution",
+    "shortDescription": "Attempted to put Enlightenment ideas into practice",
+    "dateStart": "1789",
+    "dateEnd": "1799",
+    "entityType": "political transformation",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "French_Revolution"
+  }
+]

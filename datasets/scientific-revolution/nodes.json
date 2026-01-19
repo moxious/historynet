@@ -1,0 +1,858 @@
+[
+  {
+    "id": "person-nicolaus-copernicus",
+    "type": "person",
+    "title": "Nicolaus Copernicus",
+    "alternateNames": [
+      "Mikołaj Kopernik"
+    ],
+    "dateStart": "1473",
+    "dateEnd": "1543",
+    "shortDescription": "Polish astronomer who proposed the heliocentric model of the solar system",
+    "birthPlace": "Toruń, Poland",
+    "deathPlace": "Frombork, Poland",
+    "nationality": "Polish",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "canon"
+    ],
+    "wikipediaTitle": "Nicolaus_Copernicus",
+    "wikidataId": "Q619"
+  },
+  {
+    "id": "person-tycho-brahe",
+    "type": "person",
+    "title": "Tycho Brahe",
+    "alternateNames": [
+      "Tyge Ottesen Brahe"
+    ],
+    "dateStart": "1546",
+    "dateEnd": "1601",
+    "shortDescription": "Danish astronomer known for precision astronomical observations",
+    "birthPlace": "Scania, Denmark",
+    "deathPlace": "Prague",
+    "nationality": "Danish",
+    "occupations": [
+      "astronomer",
+      "nobleman"
+    ],
+    "wikipediaTitle": "Tycho_Brahe",
+    "wikidataId": "Q36866"
+  },
+  {
+    "id": "person-johannes-kepler",
+    "type": "person",
+    "title": "Johannes Kepler",
+    "dateStart": "1571",
+    "dateEnd": "1630",
+    "shortDescription": "German astronomer who discovered the laws of planetary motion",
+    "birthPlace": "Weil der Stadt, Duchy of Württemberg",
+    "deathPlace": "Regensburg",
+    "nationality": "German",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "astrologer"
+    ],
+    "wikipediaTitle": "Johannes_Kepler",
+    "wikidataId": "Q8963"
+  },
+  {
+    "id": "person-galileo-galilei",
+    "type": "person",
+    "title": "Galileo Galilei",
+    "dateStart": "1564",
+    "dateEnd": "1642",
+    "shortDescription": "Italian astronomer and physicist; father of observational astronomy and modern physics",
+    "birthPlace": "Pisa, Duchy of Florence",
+    "deathPlace": "Arcetri, Grand Duchy of Tuscany",
+    "nationality": "Italian",
+    "occupations": [
+      "astronomer",
+      "physicist",
+      "mathematician",
+      "philosopher"
+    ],
+    "wikipediaTitle": "Galileo_Galilei",
+    "wikidataId": "Q307"
+  },
+  {
+    "id": "person-francis-bacon",
+    "type": "person",
+    "title": "Francis Bacon",
+    "dateStart": "1561",
+    "dateEnd": "1626",
+    "shortDescription": "English philosopher who articulated the empirical-inductive scientific method",
+    "birthPlace": "London, England",
+    "deathPlace": "Highgate, London",
+    "nationality": "English",
+    "occupations": [
+      "philosopher",
+      "statesman",
+      "author"
+    ],
+    "wikipediaTitle": "Francis_Bacon",
+    "wikidataId": "Q37388"
+  },
+  {
+    "id": "person-robert-boyle",
+    "type": "person",
+    "title": "Robert Boyle",
+    "dateStart": "1627",
+    "dateEnd": "1691",
+    "shortDescription": "Anglo-Irish natural philosopher; pioneer of experimental chemistry and pneumatics",
+    "birthPlace": "Lismore Castle, Ireland",
+    "deathPlace": "London, England",
+    "nationality": "Anglo-Irish",
+    "occupations": [
+      "natural philosopher",
+      "chemist",
+      "physicist"
+    ],
+    "wikipediaTitle": "Robert_Boyle",
+    "wikidataId": "Q43393"
+  },
+  {
+    "id": "person-robert-hooke",
+    "type": "person",
+    "title": "Robert Hooke",
+    "dateStart": "1635",
+    "dateEnd": "1703",
+    "shortDescription": "English scientist; Royal Society curator of experiments; microscopy and mechanics pioneer",
+    "birthPlace": "Freshwater, Isle of Wight",
+    "deathPlace": "London, England",
+    "nationality": "English",
+    "occupations": [
+      "natural philosopher",
+      "architect",
+      "polymath"
+    ],
+    "wikipediaTitle": "Robert_Hooke",
+    "wikidataId": "Q47081"
+  },
+  {
+    "id": "person-isaac-newton",
+    "type": "person",
+    "title": "Isaac Newton",
+    "dateStart": "1643",
+    "dateEnd": "1727",
+    "shortDescription": "English mathematician and physicist; author of Principia and laws of motion",
+    "birthPlace": "Woolsthorpe Manor, Lincolnshire",
+    "deathPlace": "Kensington, London",
+    "nationality": "English",
+    "occupations": [
+      "mathematician",
+      "physicist",
+      "astronomer",
+      "natural philosopher"
+    ],
+    "wikipediaTitle": "Isaac_Newton",
+    "wikidataId": "Q935"
+  },
+  {
+    "id": "person-gottfried-leibniz",
+    "type": "person",
+    "title": "Gottfried Wilhelm Leibniz",
+    "dateStart": "1646",
+    "dateEnd": "1716",
+    "shortDescription": "German polymath; co-inventor of calculus; rationalist philosopher",
+    "birthPlace": "Leipzig, Electorate of Saxony",
+    "deathPlace": "Hanover",
+    "nationality": "German",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "polymath"
+    ],
+    "wikipediaTitle": "Gottfried_Wilhelm_Leibniz",
+    "wikidataId": "Q9047"
+  },
+  {
+    "id": "person-edmond-halley",
+    "type": "person",
+    "title": "Edmond Halley",
+    "dateStart": "1656",
+    "dateEnd": "1742",
+    "shortDescription": "English astronomer who facilitated publication of Newton's Principia",
+    "birthPlace": "Haggerston, London",
+    "deathPlace": "Greenwich, London",
+    "nationality": "English",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "geophysicist"
+    ],
+    "wikipediaTitle": "Edmond_Halley",
+    "wikidataId": "Q41790"
+  },
+  {
+    "id": "person-christiaan-huygens",
+    "type": "person",
+    "title": "Christiaan Huygens",
+    "dateStart": "1629",
+    "dateEnd": "1695",
+    "shortDescription": "Dutch mathematician and physicist; wave theory of light; pendulum clock inventor",
+    "birthPlace": "The Hague, Dutch Republic",
+    "deathPlace": "The Hague, Dutch Republic",
+    "nationality": "Dutch",
+    "occupations": [
+      "mathematician",
+      "physicist",
+      "astronomer"
+    ],
+    "wikipediaTitle": "Christiaan_Huygens",
+    "wikidataId": "Q39599"
+  },
+  {
+    "id": "person-samuel-hartlib",
+    "type": "person",
+    "title": "Samuel Hartlib",
+    "alternateNames": [
+      "Samuel Hartlieb"
+    ],
+    "dateStart": "1600",
+    "dateEnd": "1662",
+    "shortDescription": "German-English intelligencer; central hub of the Hartlib Circle correspondence network",
+    "birthPlace": "Elbing, Royal Prussia",
+    "deathPlace": "London, England",
+    "nationality": "German-English",
+    "occupations": [
+      "intelligencer",
+      "reformer",
+      "polymath"
+    ],
+    "wikipediaTitle": "Samuel_Hartlib",
+    "wikidataId": "Q62821"
+  },
+  {
+    "id": "person-john-wilkins",
+    "type": "person",
+    "title": "John Wilkins",
+    "dateStart": "1614",
+    "dateEnd": "1672",
+    "shortDescription": "English clergyman and natural philosopher; founder of the Royal Society",
+    "birthPlace": "Fawsley, Northamptonshire",
+    "deathPlace": "London, England",
+    "nationality": "English",
+    "occupations": [
+      "clergyman",
+      "natural philosopher",
+      "author"
+    ],
+    "wikipediaTitle": "John_Wilkins",
+    "wikidataId": "Q557652"
+  },
+  {
+    "id": "person-robert-bellarmine",
+    "type": "person",
+    "title": "Robert Bellarmine",
+    "alternateNames": [
+      "Roberto Bellarmino",
+      "Saint Robert Bellarmine"
+    ],
+    "dateStart": "1542",
+    "dateEnd": "1621",
+    "shortDescription": "Italian Jesuit cardinal; key interlocutor in Galileo's early controversies",
+    "birthPlace": "Montepulciano, Tuscany",
+    "deathPlace": "Rome",
+    "nationality": "Italian",
+    "occupations": [
+      "cardinal",
+      "theologian",
+      "inquisitor"
+    ],
+    "wikipediaTitle": "Robert_Bellarmine",
+    "wikidataId": "Q298908"
+  },
+  {
+    "id": "person-urban-viii",
+    "type": "person",
+    "title": "Pope Urban VIII",
+    "alternateNames": [
+      "Maffeo Barberini"
+    ],
+    "dateStart": "1568",
+    "dateEnd": "1644",
+    "shortDescription": "Pope during Galileo's trial and condemnation in 1633",
+    "birthPlace": "Florence",
+    "deathPlace": "Rome",
+    "nationality": "Italian",
+    "occupations": [
+      "pope",
+      "cardinal",
+      "patron"
+    ],
+    "wikipediaTitle": "Pope_Urban_VIII",
+    "wikidataId": "Q134556"
+  },
+  {
+    "id": "person-maria-cunitz",
+    "type": "person",
+    "title": "Maria Cunitz",
+    "alternateNames": [
+      "Maria Cunitia"
+    ],
+    "dateStart": "1610",
+    "dateEnd": "1664",
+    "shortDescription": "Silesian astronomer; author of Urania Propitia simplifying Kepler's tables",
+    "birthPlace": "Wohlau, Silesia",
+    "deathPlace": "Pitschen, Silesia",
+    "nationality": "Silesian",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Maria_Cunitz",
+    "wikidataId": "Q72429"
+  },
+  {
+    "id": "person-margaret-cavendish",
+    "type": "person",
+    "title": "Margaret Cavendish",
+    "alternateNames": [
+      "Duchess of Newcastle-upon-Tyne"
+    ],
+    "dateStart": "1623",
+    "dateEnd": "1673",
+    "shortDescription": "English natural philosopher and author; first woman to attend Royal Society session",
+    "birthPlace": "Colchester, Essex",
+    "deathPlace": "Welbeck Abbey, Nottinghamshire",
+    "nationality": "English",
+    "occupations": [
+      "natural philosopher",
+      "author",
+      "playwright"
+    ],
+    "wikipediaTitle": "Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne",
+    "wikidataId": "Q234858"
+  },
+  {
+    "id": "person-rudolf-ii",
+    "type": "person",
+    "title": "Rudolf II",
+    "alternateNames": [
+      "Rudolf II, Holy Roman Emperor"
+    ],
+    "dateStart": "1552",
+    "dateEnd": "1612",
+    "shortDescription": "Holy Roman Emperor; patron of Tycho Brahe and Johannes Kepler in Prague",
+    "birthPlace": "Vienna",
+    "deathPlace": "Prague",
+    "nationality": "Habsburg",
+    "occupations": [
+      "emperor",
+      "patron",
+      "collector"
+    ],
+    "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
+    "wikidataId": "Q5765"
+  },
+  {
+    "id": "object-de-revolutionibus",
+    "type": "object",
+    "title": "De revolutionibus orbium coelestium",
+    "objectType": "treatise",
+    "dateStart": "1543",
+    "shortDescription": "Copernicus's foundational work proposing the heliocentric model",
+    "creators": [
+      "person-nicolaus-copernicus"
+    ],
+    "language": "Latin",
+    "subject": "astronomy",
+    "wikipediaTitle": "De_revolutionibus_orbium_coelestium",
+    "wikidataId": "Q211423"
+  },
+  {
+    "id": "object-astronomia-nova",
+    "type": "object",
+    "title": "Astronomia nova",
+    "objectType": "treatise",
+    "dateStart": "1609",
+    "shortDescription": "Kepler's work containing first two laws of planetary motion",
+    "creators": [
+      "person-johannes-kepler"
+    ],
+    "language": "Latin",
+    "subject": "astronomy",
+    "wikipediaTitle": "Astronomia_nova",
+    "wikidataId": "Q720120"
+  },
+  {
+    "id": "object-sidereus-nuncius",
+    "type": "object",
+    "title": "Sidereus Nuncius",
+    "objectType": "treatise",
+    "dateStart": "1610",
+    "shortDescription": "Galileo's report of telescopic observations including Jupiter's moons",
+    "creators": [
+      "person-galileo-galilei"
+    ],
+    "language": "Latin",
+    "subject": "astronomy",
+    "wikipediaTitle": "Sidereus_Nuncius",
+    "wikidataId": "Q652054"
+  },
+  {
+    "id": "object-dialogo",
+    "type": "object",
+    "title": "Dialogue Concerning the Two Chief World Systems",
+    "alternateNames": [
+      "Dialogo sopra i due massimi sistemi del mondo"
+    ],
+    "objectType": "treatise",
+    "dateStart": "1632",
+    "shortDescription": "Galileo's defense of Copernican system; led to his Inquisition trial",
+    "creators": [
+      "person-galileo-galilei"
+    ],
+    "language": "Italian",
+    "subject": "astronomy",
+    "wikipediaTitle": "Dialogue_Concerning_the_Two_Chief_World_Systems",
+    "wikidataId": "Q1017439"
+  },
+  {
+    "id": "object-novum-organum",
+    "type": "object",
+    "title": "Novum Organum",
+    "objectType": "treatise",
+    "dateStart": "1620",
+    "shortDescription": "Bacon's articulation of inductive scientific method",
+    "creators": [
+      "person-francis-bacon"
+    ],
+    "language": "Latin",
+    "subject": "philosophy of science",
+    "wikipediaTitle": "Novum_Organum",
+    "wikidataId": "Q2657053"
+  },
+  {
+    "id": "object-sceptical-chymist",
+    "type": "object",
+    "title": "The Sceptical Chymist",
+    "objectType": "treatise",
+    "dateStart": "1661",
+    "shortDescription": "Boyle's foundational chemistry text critiquing classical element theory",
+    "creators": [
+      "person-robert-boyle"
+    ],
+    "language": "English",
+    "subject": "chemistry",
+    "wikipediaTitle": "The_Sceptical_Chymist",
+    "wikidataId": "Q2063476"
+  },
+  {
+    "id": "object-principia",
+    "type": "object",
+    "title": "Philosophiæ Naturalis Principia Mathematica",
+    "alternateNames": [
+      "Principia",
+      "Mathematical Principles of Natural Philosophy"
+    ],
+    "objectType": "treatise",
+    "dateStart": "1687",
+    "shortDescription": "Newton's foundational work on laws of motion and universal gravitation",
+    "creators": [
+      "person-isaac-newton"
+    ],
+    "language": "Latin",
+    "subject": "physics",
+    "wikipediaTitle": "Philosophiæ_Naturalis_Principia_Mathematica",
+    "wikidataId": "Q205934"
+  },
+  {
+    "id": "object-philosophical-transactions",
+    "type": "object",
+    "title": "Philosophical Transactions of the Royal Society",
+    "objectType": "journal",
+    "dateStart": "1665",
+    "shortDescription": "First scientific journal; institutionalized publication of experimental philosophy",
+    "language": "English",
+    "subject": "natural philosophy",
+    "wikipediaTitle": "Philosophical_Transactions_of_the_Royal_Society",
+    "wikidataId": "Q2306608"
+  },
+  {
+    "id": "object-urania-propitia",
+    "type": "object",
+    "title": "Urania Propitia",
+    "objectType": "treatise",
+    "dateStart": "1650",
+    "shortDescription": "Maria Cunitz's simplified Keplerian astronomical tables",
+    "creators": [
+      "person-maria-cunitz"
+    ],
+    "language": "Latin",
+    "subject": "astronomy",
+    "wikipediaTitle": "Urania_propitia",
+    "wikidataId": "Q7899795"
+  },
+  {
+    "id": "location-florence",
+    "type": "location",
+    "title": "Florence",
+    "locationType": "city",
+    "shortDescription": "Center of Medici patronage; Galileo's career base",
+    "country": "Italy",
+    "wikipediaTitle": "Florence",
+    "wikidataId": "Q2044"
+  },
+  {
+    "id": "location-rome",
+    "type": "location",
+    "title": "Rome",
+    "locationType": "city",
+    "shortDescription": "Seat of papal authority and the Roman Inquisition",
+    "country": "Italy",
+    "wikipediaTitle": "Rome",
+    "wikidataId": "Q220"
+  },
+  {
+    "id": "location-prague",
+    "type": "location",
+    "title": "Prague",
+    "locationType": "city",
+    "shortDescription": "Habsburg imperial court; Tycho and Kepler's base under Rudolf II",
+    "country": "Bohemia",
+    "wikipediaTitle": "Prague",
+    "wikidataId": "Q1085"
+  },
+  {
+    "id": "location-london",
+    "type": "location",
+    "title": "London",
+    "locationType": "city",
+    "shortDescription": "Royal Society headquarters; center of English scientific culture",
+    "country": "England",
+    "wikipediaTitle": "London",
+    "wikidataId": "Q84"
+  },
+  {
+    "id": "location-oxford",
+    "type": "location",
+    "title": "Oxford",
+    "locationType": "city",
+    "shortDescription": "University town; Wilkins's group and experimental philosophy",
+    "country": "England",
+    "wikipediaTitle": "Oxford",
+    "wikidataId": "Q34217"
+  },
+  {
+    "id": "location-paris",
+    "type": "location",
+    "title": "Paris",
+    "locationType": "city",
+    "shortDescription": "Académie des Sciences; center of French scientific culture",
+    "country": "France",
+    "wikipediaTitle": "Paris",
+    "wikidataId": "Q90"
+  },
+  {
+    "id": "entity-royal-society",
+    "type": "entity",
+    "title": "Royal Society of London",
+    "alternateNames": [
+      "Royal Society",
+      "The Royal Society"
+    ],
+    "entityType": "learned society",
+    "dateStart": "1660",
+    "shortDescription": "First formal scientific society in England; experimental philosophy and publication",
+    "headquarters": "location-london",
+    "wikipediaTitle": "Royal_Society",
+    "wikidataId": "Q123885"
+  },
+  {
+    "id": "entity-roman-inquisition",
+    "type": "entity",
+    "title": "Roman Inquisition",
+    "alternateNames": [
+      "Congregation for the Doctrine of the Faith",
+      "Holy Office"
+    ],
+    "entityType": "religious tribunal",
+    "dateStart": "1542",
+    "shortDescription": "Counter-Reformation tribunal; conducted Galileo's trial",
+    "headquarters": "location-rome",
+    "wikipediaTitle": "Roman_Inquisition",
+    "wikidataId": "Q1046250"
+  },
+  {
+    "id": "entity-hartlib-circle",
+    "type": "entity",
+    "title": "Hartlib Circle",
+    "alternateNames": [
+      "Invisible College"
+    ],
+    "entityType": "correspondence network",
+    "dateStart": "1630",
+    "dateEnd": "1660",
+    "shortDescription": "Correspondence network centered on Samuel Hartlib; precursor to Royal Society",
+    "headquarters": "location-london",
+    "wikipediaTitle": "Hartlib_Circle",
+    "wikidataId": "Q5676046"
+  },
+  {
+    "id": "entity-medici-court",
+    "type": "entity",
+    "title": "Medici Court",
+    "alternateNames": [
+      "House of Medici",
+      "Grand Duchy of Tuscany"
+    ],
+    "entityType": "court",
+    "shortDescription": "Florentine ruling family; Galileo's patrons",
+    "headquarters": "location-florence",
+    "wikipediaTitle": "House_of_Medici",
+    "wikidataId": "Q37317"
+  },
+  {
+    "id": "entity-habsburg-court",
+    "type": "entity",
+    "title": "Habsburg Court (Prague)",
+    "alternateNames": [
+      "Imperial Court at Prague"
+    ],
+    "entityType": "court",
+    "shortDescription": "Rudolf II's imperial court; patronage center for Tycho and Kepler",
+    "headquarters": "location-prague",
+    "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
+    "wikidataId": "Q5765"
+  },
+  {
+    "id": "entity-academie-des-sciences",
+    "type": "entity",
+    "title": "Académie des Sciences",
+    "alternateNames": [
+      "French Academy of Sciences"
+    ],
+    "entityType": "learned society",
+    "dateStart": "1666",
+    "shortDescription": "French state-sponsored scientific academy; Huygens participated",
+    "headquarters": "location-paris",
+    "wikipediaTitle": "French_Academy_of_Sciences",
+    "wikidataId": "Q188771"
+  },
+  {
+    "id": "person-rene-descartes",
+    "type": "person",
+    "title": "René Descartes",
+    "alternateNames": [
+      "Renatus Cartesius"
+    ],
+    "dateStart": "1596",
+    "dateEnd": "1650",
+    "shortDescription": "French philosopher and mathematician; founder of analytical geometry and Cartesian philosophy",
+    "birthPlace": "La Haye en Touraine, France",
+    "deathPlace": "Stockholm, Sweden",
+    "nationality": "French",
+    "occupations": [
+      "philosopher",
+      "mathematician",
+      "scientist"
+    ],
+    "wikipediaTitle": "René_Descartes",
+    "wikidataId": "Q9191"
+  },
+  {
+    "id": "person-marin-mersenne",
+    "type": "person",
+    "title": "Marin Mersenne",
+    "dateStart": "1588",
+    "dateEnd": "1648",
+    "shortDescription": "French polymath and correspondence hub connecting scientists across Europe",
+    "birthPlace": "Oizé, Maine, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "theologian",
+      "philosopher",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Marin_Mersenne",
+    "wikidataId": "Q101072"
+  },
+  {
+    "id": "person-christopher-wren",
+    "type": "person",
+    "title": "Christopher Wren",
+    "dateStart": "1632",
+    "dateEnd": "1723",
+    "shortDescription": "English architect and natural philosopher; founding member of the Royal Society",
+    "birthPlace": "East Knoyle, Wiltshire",
+    "deathPlace": "London, England",
+    "nationality": "English",
+    "occupations": [
+      "architect",
+      "astronomer",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Christopher_Wren",
+    "wikidataId": "Q41279"
+  },
+  {
+    "id": "person-henry-oldenburg",
+    "type": "person",
+    "title": "Henry Oldenburg",
+    "alternateNames": [
+      "Heinrich Oldenburg"
+    ],
+    "dateStart": "1619",
+    "dateEnd": "1677",
+    "shortDescription": "German-English natural philosopher; first secretary of Royal Society; founded Philosophical Transactions",
+    "birthPlace": "Bremen, Germany",
+    "deathPlace": "London, England",
+    "nationality": "German-English",
+    "occupations": [
+      "natural philosopher",
+      "diplomat",
+      "editor"
+    ],
+    "wikipediaTitle": "Henry_Oldenburg",
+    "wikidataId": "Q60017"
+  },
+  {
+    "id": "person-evangelista-torricelli",
+    "type": "person",
+    "title": "Evangelista Torricelli",
+    "dateStart": "1608",
+    "dateEnd": "1647",
+    "shortDescription": "Italian physicist and mathematician; invented the barometer; student of Galileo",
+    "birthPlace": "Faenza, Papal States",
+    "deathPlace": "Florence",
+    "nationality": "Italian",
+    "occupations": [
+      "physicist",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Evangelista_Torricelli",
+    "wikidataId": "Q47159"
+  },
+  {
+    "id": "person-blaise-pascal",
+    "type": "person",
+    "title": "Blaise Pascal",
+    "dateStart": "1623",
+    "dateEnd": "1662",
+    "shortDescription": "French mathematician and physicist; contributions to pressure, probability, and calculating machines",
+    "birthPlace": "Clermont-Ferrand, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "mathematician",
+      "physicist",
+      "philosopher",
+      "theologian"
+    ],
+    "wikipediaTitle": "Blaise_Pascal",
+    "wikidataId": "Q1290"
+  },
+  {
+    "id": "person-otto-von-guericke",
+    "type": "person",
+    "title": "Otto von Guericke",
+    "dateStart": "1602",
+    "dateEnd": "1686",
+    "shortDescription": "German scientist; invented the vacuum pump; Magdeburg hemispheres demonstration",
+    "birthPlace": "Magdeburg, Germany",
+    "deathPlace": "Hamburg, Germany",
+    "nationality": "German",
+    "occupations": [
+      "scientist",
+      "inventor",
+      "politician"
+    ],
+    "wikipediaTitle": "Otto_von_Guericke",
+    "wikidataId": "Q60025"
+  },
+  {
+    "id": "person-william-gilbert",
+    "type": "person",
+    "title": "William Gilbert",
+    "dateStart": "1544",
+    "dateEnd": "1603",
+    "shortDescription": "English physician and natural philosopher; pioneer of magnetism and electricity research",
+    "birthPlace": "Colchester, Essex",
+    "deathPlace": "London, England",
+    "nationality": "English",
+    "occupations": [
+      "physician",
+      "natural philosopher"
+    ],
+    "wikipediaTitle": "William_Gilbert_(physician)",
+    "wikidataId": "Q192330"
+  },
+  {
+    "id": "person-andreas-vesalius",
+    "type": "person",
+    "title": "Andreas Vesalius",
+    "dateStart": "1514",
+    "dateEnd": "1564",
+    "shortDescription": "Flemish anatomist; author of De humani corporis fabrica; founder of modern anatomy",
+    "birthPlace": "Brussels, Habsburg Netherlands",
+    "deathPlace": "Zakynthos, Greece",
+    "nationality": "Flemish",
+    "occupations": [
+      "anatomist",
+      "physician"
+    ],
+    "wikipediaTitle": "Andreas_Vesalius",
+    "wikidataId": "Q142862"
+  },
+  {
+    "id": "person-giovanni-borelli",
+    "type": "person",
+    "title": "Giovanni Alfonso Borelli",
+    "dateStart": "1608",
+    "dateEnd": "1679",
+    "shortDescription": "Italian physiologist and physicist; founder of biomechanics; member of Accademia del Cimento",
+    "birthPlace": "Naples, Kingdom of Naples",
+    "deathPlace": "Rome",
+    "nationality": "Italian",
+    "occupations": [
+      "physiologist",
+      "physicist",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Giovanni_Alfonso_Borelli",
+    "wikidataId": "Q328441"
+  },
+  {
+    "id": "person-ole-romer",
+    "type": "person",
+    "title": "Ole Rømer",
+    "alternateNames": [
+      "Ole Roemer"
+    ],
+    "dateStart": "1644",
+    "dateEnd": "1710",
+    "shortDescription": "Danish astronomer; first to measure the speed of light",
+    "birthPlace": "Aarhus, Denmark",
+    "deathPlace": "Copenhagen, Denmark",
+    "nationality": "Danish",
+    "occupations": [
+      "astronomer",
+      "instrument maker"
+    ],
+    "wikipediaTitle": "Ole_Rømer",
+    "wikidataId": "Q83371"
+  },
+  {
+    "id": "person-marcello-malpighi",
+    "type": "person",
+    "title": "Marcello Malpighi",
+    "dateStart": "1628",
+    "dateEnd": "1694",
+    "shortDescription": "Italian biologist and physician; pioneer of microscopy; discovered capillaries",
+    "birthPlace": "Crevalcore, Papal States",
+    "deathPlace": "Rome",
+    "nationality": "Italian",
+    "occupations": [
+      "biologist",
+      "physician",
+      "anatomist"
+    ],
+    "wikipediaTitle": "Marcello_Malpighi",
+    "wikidataId": "Q185092"
+  }
+]

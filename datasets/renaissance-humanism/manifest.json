@@ -1,0 +1,159 @@
+{
+  "id": "renaissance-humanism",
+  "name": "Renaissance Humanism",
+  "description": "Key figures of the Renaissance humanist movement (c.1300-1600), including Italian pioneers like Petrarch and Boccaccio, Florentine Neoplatonists like Ficino and Pico della Mirandola, Northern Christian humanists like Erasmus and Thomas More, and the scholars, patrons, and institutions that shaped European intellectual life.",
+  "bannerEmoji": "📚✍️",
+  "lastUpdated": "2026-01-19",
+  "version": "1.1.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 198,
+  "edgeCount": 194,
+  "scope": {
+    "startYear": 1304,
+    "endYear": 1600,
+    "regions": [
+      "Italy",
+      "Netherlands",
+      "England",
+      "France",
+      "Germany",
+      "Spain",
+      "Switzerland"
+    ],
+    "themes": [
+      "classical revival",
+      "philology",
+      "rhetoric",
+      "education reform",
+      "biblical scholarship",
+      "Neoplatonism",
+      "civic virtue"
+    ],
+    "seedFigures": [
+      "person-francesco-petrarca",
+      "person-desiderius-erasmus",
+      "person-thomas-more",
+      "person-marsilio-ficino",
+      "person-giovanni-pico",
+      "person-leon-battista-alberti",
+      "person-niccolo-machiavelli"
+    ],
+    "subgroups": [
+      {
+        "id": "early-italian",
+        "name": "Early Italian Humanists",
+        "description": "Pioneers of the humanist movement including Petrarch, Boccaccio, and Salutati's circle"
+      },
+      {
+        "id": "platonic-academy",
+        "name": "Florentine Platonic Academy",
+        "description": "Ficino, Pico, Poliziano, and others under Medici patronage"
+      },
+      {
+        "id": "civic-humanists",
+        "name": "Florentine Civic Humanists",
+        "description": "Bruni, Machiavelli, Guicciardini and those emphasizing political engagement"
+      },
+      {
+        "id": "roman-humanism",
+        "name": "Roman Humanism",
+        "description": "Valla, Biondo, Pomponio Leto, and the Roman Academy"
+      },
+      {
+        "id": "venetian-paduan",
+        "name": "Venetian and Paduan Humanism",
+        "description": "Aldus Manutius, Bembo, Pomponazzi, and university philosophers"
+      },
+      {
+        "id": "northern-christian",
+        "name": "Northern (Christian) Humanists",
+        "description": "Erasmus, More, Colet, and those emphasizing biblical scholarship"
+      },
+      {
+        "id": "german-humanists",
+        "name": "German Humanists",
+        "description": "Agricola, Reuchlin, Celtis, and humanist sodalities"
+      },
+      {
+        "id": "spanish-humanists",
+        "name": "Spanish Humanists",
+        "description": "Nebrija, Cisneros, and the Complutensian project"
+      },
+      {
+        "id": "french-humanists",
+        "name": "French Humanists",
+        "description": "Budé, Lefèvre d'Étaples, Montaigne"
+      },
+      {
+        "id": "educators",
+        "name": "Humanist Educators",
+        "description": "Guarino, Vittorino, and founders of humanist pedagogy"
+      },
+      {
+        "id": "greek-emigres",
+        "name": "Greek Scholars and Émigrés",
+        "description": "Chrysoloras, Argyropoulos, Bessarion, and others who brought Greek learning west"
+      }
+    ],
+    "exclusionNotes": "Excludes visual artists (Leonardo, Michelangelo, etc.) unless they also wrote humanist treatises. Excludes figures primarily known for Reformation theology."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "early-italian",
+      "platonic-academy",
+      "civic-humanists",
+      "roman-humanism",
+      "venetian-paduan",
+      "northern-christian",
+      "german-humanists",
+      "spanish-humanists",
+      "french-humanists",
+      "educators",
+      "greek-emigres"
+    ],
+    "pendingBatches": [],
+    "gaps": [
+      {
+        "description": "Women humanists (Isotta Nogarola, Cassandra Fedele, Laura Cereta) not yet included",
+        "priority": "medium"
+      },
+      {
+        "description": "Portuguese humanism (Damião de Góis) not covered",
+        "priority": "low"
+      },
+      {
+        "description": "Eastern European connections (Polish, Hungarian) not covered",
+        "priority": "low"
+      }
+    ],
+    "excludedFigures": [
+      {
+        "name": "Leonardo da Vinci",
+        "reason": "Primarily visual artist, not a textual humanist"
+      },
+      {
+        "name": "Michelangelo",
+        "reason": "Primarily visual artist"
+      },
+      {
+        "name": "Martin Luther",
+        "reason": "Reformer rather than humanist (despite early humanist training)"
+      },
+      {
+        "name": "John Calvin",
+        "reason": "Reformer rather than humanist"
+      }
+    ]
+  },
+  "customRelationshipTypes": [
+    {
+      "type": "patronized_by",
+      "description": "Individual was supported by patron (inverse of patronized)",
+      "directed": true
+    }
+  ],
+  "bannerImage": "img/banners/renaissance-humanism.jpg"
+}

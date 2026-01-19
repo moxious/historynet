@@ -1,0 +1,157 @@
+{
+  "id": "enlightenment",
+  "name": "Enlightenment Intellectual Network",
+  "description": "Key figures of the 18th century Enlightenment and their intellectual relationships, including French philosophes, Scottish Enlightenment thinkers, German Aufklärung philosophers, and the American founders.",
+  "bannerEmoji": "💡📖",
+  "lastUpdated": "2026-01-19",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 204,
+  "edgeCount": 469,
+  "customRelationshipTypes": [],
+  "scope": {
+    "startYear": 1680,
+    "endYear": 1800,
+    "regions": [
+      "France",
+      "Great Britain",
+      "Scotland",
+      "Prussia",
+      "United States",
+      "Switzerland",
+      "Italy",
+      "Russia"
+    ],
+    "themes": [
+      "empiricism",
+      "rationalism",
+      "natural rights",
+      "religious toleration",
+      "social contract",
+      "separation of powers",
+      "scientific method",
+      "progress"
+    ],
+    "seedFigures": [
+      "person-john-locke",
+      "person-voltaire",
+      "person-montesquieu",
+      "person-rousseau",
+      "person-david-hume",
+      "person-immanuel-kant",
+      "person-adam-smith"
+    ],
+    "subgroups": [
+      {
+        "id": "foundational",
+        "name": "Foundational Figures",
+        "description": "Locke, Newton, Leibniz and precursors"
+      },
+      {
+        "id": "french-philosophes",
+        "name": "French Philosophes",
+        "description": "Voltaire, Diderot, d'Alembert, Encyclopédie circle"
+      },
+      {
+        "id": "scottish",
+        "name": "Scottish Enlightenment",
+        "description": "Hume, Smith, Hutcheson, Reid and Edinburgh literati"
+      },
+      {
+        "id": "german",
+        "name": "German Aufklärung",
+        "description": "Kant, Wolff, Mendelssohn, Lessing, Herder"
+      },
+      {
+        "id": "british-empiricist",
+        "name": "British Empiricists",
+        "description": "Berkeley, Shaftesbury, Mandeville, Burke, Bentham"
+      },
+      {
+        "id": "american",
+        "name": "American Founders",
+        "description": "Franklin, Jefferson, Madison, Adams, Paine"
+      },
+      {
+        "id": "scientists",
+        "name": "Scientists & Mathematicians",
+        "description": "Euler, Laplace, Lavoisier, Buffon, du Châtelet"
+      },
+      {
+        "id": "salonnières",
+        "name": "Salon Hostesses",
+        "description": "Geoffrin, Lespinasse, du Deffand, Helvétius"
+      },
+      {
+        "id": "patrons",
+        "name": "Royal Patrons",
+        "description": "Frederick the Great, Catherine the Great"
+      },
+      {
+        "id": "economists",
+        "name": "Economists",
+        "description": "Quesnay, Turgot, Mirabeau and Physiocrats"
+      }
+    ],
+    "exclusionNotes": "Excluded Italian Enlightenment (Vico, Galiani), Spanish Enlightenment, Dutch figures (beyond publishing), and women intellectuals beyond salon hostesses. Mary Wollstonecraft identified as a gap for future expansion."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "foundational",
+      "french-philosophes",
+      "scottish",
+      "german",
+      "british-empiricist",
+      "american",
+      "scientists",
+      "salonnières",
+      "patrons",
+      "economists"
+    ],
+    "pendingBatches": [],
+    "gaps": [
+      {
+        "description": "Mary Wollstonecraft not included despite significant influence",
+        "priority": "high"
+      },
+      {
+        "description": "Pierre Bayle (precursor) not included",
+        "priority": "medium"
+      },
+      {
+        "description": "Edward Gibbon not included",
+        "priority": "medium"
+      },
+      {
+        "description": "Italian Enlightenment cluster (Beccaria only)",
+        "priority": "low"
+      }
+    ],
+    "excludedFigures": [
+      {
+        "name": "Giambattista Vico",
+        "reason": "Italian Enlightenment excluded from scope"
+      },
+      {
+        "name": "Ferdinando Galiani",
+        "reason": "Italian Enlightenment excluded from scope"
+      },
+      {
+        "name": "Baruch Spinoza",
+        "reason": "Precedes temporal scope (d. 1677)"
+      },
+      {
+        "name": "Pierre Bayle",
+        "reason": "Precursor figure, could be added in future"
+      },
+      {
+        "name": "Edward Gibbon",
+        "reason": "British historian, could be added in future"
+      }
+    ]
+  },
+  "bannerImage": "img/banners/enlightenment.jpg"
+}

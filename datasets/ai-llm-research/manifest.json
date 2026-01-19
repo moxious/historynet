@@ -1,0 +1,39 @@
+{
+  "id": "ai-llm-research",
+  "name": "AI & LLM Research Network",
+  "description": "The key researchers, organizations, and works of the modern AI/LLM revolution (2012-present), including OpenAI, Anthropic, DeepMind, Meta AI, and the academic pioneers who trained them. Includes frontier models through 2025.",
+  "bannerEmoji": "🧠🤖",
+  "lastUpdated": "2026-01-19",
+  "version": "1.1.0",
+  "author": "HistoryNet AI Agent",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 200,
+  "edgeCount": 196,
+  "temporalScope": "2012-2025",
+  "geographicScope": "International (US, UK, France, Canada primarily)",
+  "customRelationshipTypes": [
+    {
+      "type": "co_authored",
+      "description": "Co-authored a significant research paper",
+      "directed": false
+    },
+    {
+      "type": "recruited",
+      "description": "Source recruited target to an organization",
+      "directed": true
+    },
+    {
+      "type": "departed_from",
+      "description": "Person left an organization",
+      "directed": true
+    },
+    {
+      "type": "continuation_of",
+      "description": "Model is a successor or iteration of another model",
+      "directed": true
+    }
+  ],
+  "notes": "Chinese AI researchers and labs are explicitly excluded from this dataset due to scope decisions. Hardware engineers are also excluded. This network captures the Western AI research ecosystem.",
+  "bannerImage": "img/banners/ai-llm-research.jpg"
+}
