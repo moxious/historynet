@@ -21,6 +21,9 @@ const CACHE_VERSION = 1;
 const MAX_CACHE_ENTRIES = 500;
 const TTL_MS = 48 * 60 * 60 * 1000; // 48 hours in milliseconds
 
+// In-flight request tracking to prevent duplicate fetches
+const inFlightRequests = new Map<string, Promise<WikipediaData | null>>();
+
 /**
  * Cache entry structure
  */
@@ -165,6 +168,39 @@ function setCacheEntry(title: string, data: WikipediaData | null): void {
 }
 
 /**
+ * Fetch Wikipedia data with in-flight deduplication
+ * If a request is already in progress for the same title, returns that promise
+ */
+function fetchWithDedup(
+  title: string,
+  nodeType?: NodeTypeHint
+): Promise<WikipediaData | null> {
+  const key = normalizeKey(title);
+
+  // Reuse existing in-flight request
+  const existing = inFlightRequests.get(key);
+  if (existing) {
+    if (process.env.NODE_ENV === 'development') {
+      console.log(`[WikipediaCache] DEDUP: "${title}" (awaiting existing request)`);
+    }
+    return existing;
+  }
+
+  // Create new request with cleanup
+  const request = fetchWikipediaSummary(title, nodeType)
+    .then((result) => {
+      setCacheEntry(title, result);
+      return result;
+    })
+    .finally(() => {
+      inFlightRequests.delete(key);
+    });
+
+  inFlightRequests.set(key, request);
+  return request;
+}
+
+/**
  * Hook return type
  */
 export interface UseWikipediaDataResult {
@@ -230,9 +266,7 @@ export function useWikipediaData({
     setError(null);
 
     try {
-      const result = await fetchWikipediaSummary(wikipediaTitle, nodeType);
-      // Cache the result (even null for "not found")
-      setCacheEntry(wikipediaTitle, result);
+      const result = await fetchWithDedup(wikipediaTitle, nodeType);
       setData(result);
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : 'Failed to fetch Wikipedia data';

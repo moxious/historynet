@@ -689,7 +689,6 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
               alt={node.title}
               className="node-infobox__image"
               style={{ display: imageLoading ? 'none' : 'block' }}
-              loading="lazy"
               onLoad={() => setImageLoading(false)}
               onError={() => {
                 setImageLoading(false);
