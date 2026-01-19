@@ -50,6 +50,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - **Touch Optimizations**: Removed tap highlight, disabled double-tap zoom on buttons
   - **New Components**: `useMediaQuery` hook, `MobileMenu`, `HamburgerButton`, `BottomSheet`, `Drawer`, `MobileInfoboxPanel`
 
+- **M20: SEO Improvements** - Comprehensive search engine and AI discoverability improvements
+  - **OpenSearch Integration**: `opensearch.xml` for browser search provider integration
+  - **Structured Data (JSON-LD)**:
+    - `WebSite` and `WebApplication` schemas on all pages
+    - `Person` schema for person nodes (birthDate, nationality, sameAs)
+    - `CreativeWork` schema for object nodes (dateCreated, inLanguage)
+    - `Place` schema for location nodes (geo coordinates)
+    - `Organization` schema for entity nodes (foundingDate)
+    - `ItemPage` wrapper with `BreadcrumbList` on all detail pages
+  - **Enhanced Meta Tags**: robots, author, keywords, application-name, canonical URL, og:url, og:locale
+  - **Absolute Image URLs**: All og:image and twitter:image use production domain for social sharing
+  - **Crawler Resources**: `robots.txt` with sitemap reference, `sitemap.xml` with all 7 datasets
+  - **AI-Friendly Metadata**: `llms.txt` guidance file, article:author, article:published_time on detail pages
+  - **404 Page**: Added noindex meta tag via Helmet
+  - **New Components**: `SchemaOrg.tsx` for dynamic JSON-LD injection
+  - **Updated Components**: `ResourceMeta.tsx` (absolute URLs, og:locale, article meta), `NotFoundPage.tsx` (noindex)
+
 ### Planned
 - M12: User Feedback - feedback form with Vercel serverless functions
 

@@ -10,39 +10,41 @@ This document outlines the milestone structure and future direction for HistoryN
 
 | # | Milestone | Status |
 |---|-----------|--------|
-| M1-M7 | MVP (Bootstrap through Deployment) | ✅ Complete |
-| M8 | Timeline View | ✅ Complete |
-| M9 | Application Verification | ✅ Complete |
-| M10 | UX Improvements | ✅ Complete |
-| M11 | Graph Interaction Polish | ✅ Complete |
-| M12 | User Feedback | 🔲 Future |
-| M13 | Scenius Rebrand & Theme System | ✅ Complete |
-| M14 | Timeline Improvements | ✅ Complete |
-| M15 | Stable Resource URLs | ✅ Complete |
-| M16 | Network Verification | ✅ Complete |
-| M17 | Dataset Search & Filter | 🔲 Future |
-| M18 | Adapt for Mobile | ✅ Complete |
-| M19 | Radial/Ego-Network View | ✅ Complete |
-| M20 | SEO Improvements | 🔄 Implementation Complete (testing after deploy) |
-| M21 | Image Asset Management | 🔲 Future |
-| M22 | Sourcing from Wikimedia | 🔲 Future |
+| M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
+| M21 | Dataset Search & Filter | 🔲 Future |
+| M22 | Image Asset Management | 🔲 Future |
+| M23 | Wikimedia Sourcing | 🔲 Future |
+| M24 | Vercel Migration | 🔲 Future |
+| M25 | User Feedback Feature | 🔲 Future (depends on M24) |
+| M26 | Custom Domain | 🔲 Future (depends on M24) |
+| M27 | Feedback Spam Protection | 🔲 Future (depends on M25) |
 
-> **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
+**Two Parallel Tracks:**
+
+| Track | Milestones | Prerequisites |
+|-------|------------|---------------|
+| **A: Independent Features** | M21, M22, M23 | None - can start immediately |
+| **B: Infrastructure & Backend** | M24 → M25 → M27, M24 → M26 | M24 is foundation for rest |
+
+> **Note**: Track A milestones (M21-M23) have no dependencies and can be executed in any order or in parallel. Track B milestones have dependencies as shown.
 
 ---
 
-## Completed Milestones (M1-M16)
+## Completed Milestones (M1-M20)
 
 The core application is complete, polished, and deployed. See `HISTORY.md` for detailed task lists and implementation notes.
 
 **Core Features**:
 - **Graph Visualization**: Force-directed D3 layout with zoom/pan, type-based node shapes, relationship-colored edges, tuned physics
 - **Timeline Visualization**: Vertical timeline with date positioning, lifespan markers, automatic lane assignment
+- **Radial View**: Ego-network layout centered on selected node with ring of connections
 - **Infobox Panel**: Node/edge detail display with type-specific fields, images, internal links, evidence
 - **Filtering**: Date range and text filters with URL sync, debounced inputs, collapsible panel
 - **Search**: Instant highlighting with keyboard shortcut (Cmd/Ctrl+K)
 - **Stable Resource URLs**: Permanent permalinks for nodes and edges (`/#/{dataset}/node/{id}`)
 - **Dataset Validation**: Build-time CLI validation integrated into CI/CD
+- **Mobile Support**: Responsive header, hamburger menu, bottom sheet for infobox
+- **SEO**: OpenSearch, JSON-LD schemas, sitemap, robots.txt, llms.txt
 
 **Shipped Datasets**: AI-LLM Research (default), Rosicrucian Network, Enlightenment, Ambient Music, Cybernetics, Protestant Reformation, Renaissance Humanism
 
@@ -60,29 +62,17 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 | M16 | Network verification: build-time dataset validation CLI (`npm run validate:datasets`) |
 | M18 | Mobile adaptation: responsive header, hamburger menu, bottom sheet, touch targets |
 | M19 | Radial/ego-network view: center node with connections in ring, click-to-navigate |
+| M20 | SEO improvements: OpenSearch, JSON-LD schemas, enhanced meta tags, robots.txt, sitemap.xml, llms.txt |
+
+> **Note**: M12 and M17 were originally reserved for features that have been renumbered. See Future Milestones below.
 
 ---
 
-## Future: M12 - User Feedback
-
-**Goal**: Allow users to submit feedback about graph data (missing nodes, incorrect information, suggested changes) without requiring a GitHub account. Feedback is captured as GitHub issues for dataset maintainers to review.
-
-**Architecture**: Migrate from GitHub Pages to Vercel to enable serverless API functions.
-
-**Key Deliverables**:
-- Vercel deployment with GitHub integration
-- `FeedbackForm` component (modal) with type selection, description, evidence fields
-- `/api/submit-feedback` serverless endpoint with validation and rate limiting
-- GitHub issue creation via API with structured formatting
-- Security: input sanitization, honeypot field, rate limiting
-
-**Status**: Not started. Full task breakdown in `PROGRESS.md`.
-
----
-
-## Future: M17 - Dataset Search & Filter
+## Future: M21 - Dataset Search & Filter
 
 **Goal**: Replace the dataset dropdown with a searchable combobox that filters datasets by name or description as the user types.
+
+**Track**: A (Independent Features) - No dependencies
 
 **Key Deliverables**:
 - `SearchableDatasetSelector` component with text input + filtered dropdown
@@ -95,25 +85,11 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 ---
 
-## In Progress: M20 - SEO Improvements
-
-**Goal**: Systematically improve search engine optimization and AI discoverability. Add OpenSearch, structured data (JSON-LD), enhanced meta tags, and crawler resources.
-
-**Key Deliverables**:
-- `public/opensearch.xml` for browser search integration ✅
-- Schema.org JSON-LD for Person, CreativeWork, Place, Organization nodes ✅
-- `SchemaOrg.tsx` component for dynamic structured data ✅
-- `public/robots.txt` and `public/sitemap.xml` ✅
-- Enhanced meta tags (robots, author, keywords, canonical URLs) ✅
-- AI-friendly metadata (llms.txt) ✅
-
-**Status**: Core implementation complete. Manual testing tasks (browser tests, social debuggers, Lighthouse audits) pending deployment. See `PROGRESS.md` for full task breakdown.
-
----
-
-## Future: M21 - Image Asset Management
+## Future: M22 - Image Asset Management
 
 **Goal**: Fix broken image URLs in datasets by auditing, downloading, and hosting images in a stable location. Currently, many `imageUrl` fields link to Wikimedia Commons thumbnails that have been updated/renamed, returning 404 errors.
+
+**Track**: A (Independent Features) - No dependencies
 
 **Problem**: Wikipedia/Wikimedia images change frequently as editors update articles. URLs captured at dataset creation time become broken when images are replaced, renamed, or reorganized.
 
@@ -131,9 +107,11 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 ---
 
-## Future: M22 - Sourcing from Wikimedia
+## Future: M23 - Wikimedia Sourcing
 
 **Goal**: Dynamically fetch supplementary data (summaries, images) from the Wikimedia API for nodes that lack this information locally. Node metadata always takes precedence, with Wikimedia providing fallback enrichment.
+
+**Track**: A (Independent Features) - No dependencies
 
 **Problem**: Maintaining biographical text and images for hundreds of nodes is labor-intensive and prone to staleness. Wikipedia already has well-maintained content for most historical figures and locations.
 
@@ -154,7 +132,93 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 **Rate Limits**: Wikipedia REST API allows 500 requests/hour per IP without authentication. Since this is a client-side app, each user has their own limit. Caching makes this ample for normal browsing.
 
+**Relationship to M22**: M22 (Image Asset Management) and M23 are complementary approaches to the image problem. M22 hosts images permanently; M23 fetches them dynamically. Either can be done first, or both for belt-and-suspenders reliability.
+
 **Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
+## Future: M24 - Vercel Migration
+
+**Goal**: Migrate deployment from GitHub Pages to Vercel to enable serverless API functions. Keep GitHub Pages as a backup deployment.
+
+**Track**: B (Infrastructure & Backend) - Foundation for M25, M26
+
+**Why Vercel**: Familiar platform with excellent GitOps deployment support, seamless serverless functions, and future access to managed databases (Vercel KV, Postgres) if needed.
+
+**Architecture Decision**: Stay with Vite. Next.js migration was evaluated but rejected—the primary need (serverless endpoints for M25 feedback feature) is well-supported by Vite + Vercel, and migration cost outweighs benefits. See `PROGRESS.md` notes for full rationale.
+
+**Key Deliverables**:
+- Vercel project (`scenius.vercel.app`) linked to GitHub repository
+- Vite build working on Vercel with automatic deployments on push
+- Simple backend endpoint (`/api/health`) to verify serverless functions work
+- Environment variable configuration verified
+- GitHub Pages deployment retained as backup (dual deployment)
+- Documentation updated with both deployment URLs
+
+**Proof Point**: App running at `scenius.vercel.app` with `/api/health` returning JSON response.
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
+## Future: M25 - User Feedback Feature
+
+**Goal**: Allow users to submit feedback about graph data (missing info, corrections, suggestions) without requiring a GitHub account. Feedback is captured as GitHub issues, enabling the Phase R research workflow (see `research/RESEARCHING_NETWORKS.md`).
+
+**Track**: B (Infrastructure & Backend) - Depends on M24 (Vercel Migration)
+
+**Design Principles**:
+- Prompt users with general questions: "What's missing?", "What's incorrect?", "What should be added?"
+- Capture full URL as context (indicates dataset, selected item, visualization state)
+- Single evidence field for URLs, citations, and narrative (read by humans/LLMs, not highly structured)
+- All feedback creates public GitHub issues (users are informed of this)
+- Ties directly to Phase R research workflow—feedback becomes input for agent research
+
+**Key Deliverables**:
+- `FeedbackButton` component in both Header and InfoboxPanel, labeled "Feedback/Correction"
+- `FeedbackForm` modal with prompts for what's missing/incorrect, evidence field, optional email
+- `/api/submit-feedback` serverless endpoint with validation
+- GitHub issue creation with structured template and labels (`feedback`, `dataset:{name}`)
+- Success state showing link to created issue
+- Rate limiting (5 per IP per hour)
+
+**Privacy**: User IP addresses and emails are kept private (not included in public GitHub issues).
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
+## Future: M26 - Custom Domain
+
+**Goal**: Configure a custom domain (e.g., `scenius.app`) for the Vercel deployment.
+
+**Track**: B (Infrastructure & Backend) - Depends on M24 (Vercel Migration)
+
+**Key Deliverables**:
+- Domain registration (if not already owned)
+- DNS configuration for Vercel
+- SSL certificate setup (automatic via Vercel)
+- Update all hardcoded URLs in codebase (meta tags, sitemap, etc.)
+- Redirect configuration from old URLs
+
+**Status**: Not started. Task breakdown TBD.
+
+---
+
+## Future: M27 - Feedback Spam Protection
+
+**Goal**: Add lightweight spam protection to the feedback form to reduce low-quality submissions.
+
+**Track**: B (Infrastructure & Backend) - Depends on M25 (User Feedback Feature)
+
+**Key Deliverables**:
+- Simple arithmetic challenge (e.g., "What is 3 + 5?")
+- Challenge generation and validation in serverless function
+- Accessible implementation (screen reader compatible)
+- Rate limit adjustment if spam is reduced
+
+**Status**: Not started. Task breakdown TBD.
 
 ---
 
@@ -178,24 +242,40 @@ These are potential features that may become milestones:
 ## Milestone Dependencies
 
 ```
-M1-M8 (MVP Complete) ✅
+M1-M20 (Core Application Complete) ✅
     │
-    ▼
-M9-M11, M13-M16, M18-M19 (All Polish Complete) ✅
-    │
-    ├────────────────┬────────────────┬────────────────┬────────────────┬────────────────┐
-    ▼                ▼                ▼                ▼                ▼                ▼
-   M12              M17              M20              M21              M22          (Future)
-   (Feedback)   (Dataset Search)   (SEO)          (Images)        (Wikimedia)
-   [Vercel req'd]  [independent]   [independent]  [independent]   [independent]
+    ├───────────────────────────────────────────────────────────────────┐
+    │                                                                   │
+    │  TRACK A: Independent Features                                    │  TRACK B: Infrastructure
+    │  (No dependencies, can parallelize)                               │  (Sequential dependencies)
+    │                                                                   │
+    ├──────────────┬────────────────┬────────────────┐                  │
+    ▼              ▼                ▼                │                  ▼
+   M21            M22              M23               │                 M24
+   (Dataset      (Image           (Wikimedia        │                (Vercel)
+   Search)       Management)      Sourcing)         │                  │
+                      │                             │                  ├──────────────┐
+                      │                             │                  ▼              ▼
+                      └─── complementary ───────────┘                 M25            M26
+                                                                   (Feedback)    (Domain)
+                                                                       │
+                                                                       ▼
+                                                                      M27
+                                                                   (Spam Prot.)
 ```
 
-Note: Remaining milestones M12, M17, M20, M21, and M22 can be worked on in parallel:
-- **M12 (User Feedback)**: Requires Vercel migration for serverless functions.
-- **M17 (Dataset Search)**: Becomes more valuable as more datasets are added.
-- **M20 (SEO Improvements)**: Independent and can be started anytime.
-- **M21 (Image Asset Management)**: Independent; fixes broken Wikimedia image URLs.
-- **M22 (Sourcing from Wikimedia)**: Independent; dynamically enriches nodes from Wikipedia API.
+**Track A - Independent Features** (can execute in any order):
+- **M21 (Dataset Search)**: Pure frontend UX improvement. Becomes more valuable as datasets grow.
+- **M22 (Image Asset Management)**: Data quality fix. Hosts images locally to avoid broken Wikimedia URLs.
+- **M23 (Wikimedia Sourcing)**: Dynamic enrichment. Fetches missing data from Wikipedia API.
+
+> **M22 & M23 Relationship**: These milestones address the same problem (missing/broken images) with complementary approaches. M22 hosts images permanently; M23 fetches dynamically. Either can be done first, or both for reliability.
+
+**Track B - Infrastructure & Backend** (sequential):
+- **M24 (Vercel Migration)**: Foundation for serverless functions. Enables M25, M26.
+- **M25 (User Feedback)**: Requires M24. Serverless endpoint creates GitHub issues.
+- **M26 (Custom Domain)**: Requires M24. DNS configured on Vercel.
+- **M27 (Spam Protection)**: Requires M25. Enhancement to feedback form.
 
 ---
 
