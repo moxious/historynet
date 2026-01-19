@@ -43,7 +43,7 @@ interface InfoboxPanelProps {
 }
 
 function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
-  const { selectedItem, clearSelection, selectNode, getNode, graphData, currentDatasetId } = useGraph();
+  const { selectedItem, clearSelection, selectNode, getNode, getEdgesForNode, graphData, currentDatasetId } = useGraph();
 
   // Handle Escape key to close the panel
   useEffect(() => {
@@ -145,6 +145,7 @@ function InfoboxPanel({ className = '' }: InfoboxPanelProps) {
         {isNode(selectedItem) && (
           <NodeInfobox
             node={selectedItem}
+            edges={getEdgesForNode(selectedItem.id)}
             onNodeLinkClick={handleNodeLinkClick}
             getNode={getNode}
           />

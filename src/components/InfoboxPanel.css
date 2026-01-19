@@ -363,6 +363,23 @@
   color: var(--color-text);
 }
 
+/* Relationships Section */
+.node-infobox__relationships-list {
+  list-style: disc;
+  margin: 0;
+  padding-left: var(--spacing-md);
+}
+
+.node-infobox__relationships-list li {
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-xs);
+}
+
+.node-infobox__current-node {
+  font-weight: 600;
+}
+
 /* ============================================
    EdgeInfobox Styles
    ============================================ */

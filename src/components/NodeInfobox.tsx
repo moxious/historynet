@@ -11,6 +11,7 @@
 
 import type {
   GraphNode,
+  GraphEdge,
   PersonNode,
   ObjectNode,
   LocationNode,
@@ -28,6 +29,8 @@ import { sanitizeUrl, isValidImageUrl } from '@utils';
 interface NodeInfoboxProps {
   /** The node to display */
   node: GraphNode;
+  /** Edges connected to this node */
+  edges: GraphEdge[];
   /** Handler for clicking internal node links */
   onNodeLinkClick: (nodeId: string) => void;
   /** Function to get a node by ID (for resolving references) */
@@ -535,13 +538,126 @@ function EntityFields({
 }
 
 /**
+ * Format a relationship type for display (snake_case to readable text)
+ */
+function formatRelationship(relationship: string): string {
+  return relationship.replace(/_/g, ' ');
+}
+
+/**
+ * Prepared relationship item for rendering
+ */
+interface RelationshipItem {
+  edge: GraphEdge;
+  isOutgoing: boolean;
+  otherNodeId: string;
+  otherNodeTitle: string;
+}
+
+/**
+ * Render relationships section showing connected edges
+ * Displays up to 10 relationships: outgoing first (sorted by target), then incoming (sorted by source)
+ */
+function RelationshipsSection({
+  node,
+  edges,
+  getNode,
+  onNodeLinkClick,
+}: {
+  node: GraphNode;
+  edges: GraphEdge[];
+  getNode: (id: string) => GraphNode | undefined;
+  onNodeLinkClick: (nodeId: string) => void;
+}) {
+  // Separate and prepare edges
+  const relationships: RelationshipItem[] = [];
+
+  // Process outgoing edges (node is source)
+  const outgoing = edges
+    .filter((edge) => edge.source === node.id)
+    .map((edge) => {
+      const otherNode = getNode(edge.target);
+      // Skip if target node doesn't exist
+      if (!otherNode) return null;
+      return {
+        edge,
+        isOutgoing: true,
+        otherNodeId: edge.target,
+        otherNodeTitle: otherNode.title,
+      };
+    })
+    .filter((item): item is RelationshipItem => item !== null)
+    .sort((a, b) => a.otherNodeTitle.localeCompare(b.otherNodeTitle));
+
+  // Process incoming edges (node is target)
+  const incoming = edges
+    .filter((edge) => edge.target === node.id)
+    .map((edge) => {
+      const otherNode = getNode(edge.source);
+      // Skip if source node doesn't exist
+      if (!otherNode) return null;
+      return {
+        edge,
+        isOutgoing: false,
+        otherNodeId: edge.source,
+        otherNodeTitle: otherNode.title,
+      };
+    })
+    .filter((item): item is RelationshipItem => item !== null)
+    .sort((a, b) => a.otherNodeTitle.localeCompare(b.otherNodeTitle));
+
+  // Combine: outgoing first, then incoming, limit to 10
+  relationships.push(...outgoing, ...incoming);
+  const displayRelationships = relationships.slice(0, 10);
+
+  if (displayRelationships.length === 0) return null;
+
+  return (
+    <section className="node-infobox__section">
+      <h3 className="node-infobox__section-title">Relationships</h3>
+      <ul className="node-infobox__relationships-list">
+        {displayRelationships.map((item) => (
+          <li key={item.edge.id}>
+            {item.isOutgoing ? (
+              <>
+                <span className="node-infobox__current-node">{node.title}</span>
+                {' '}
+                {formatRelationship(item.edge.relationship)}
+                {' '}
+                <NodeLink
+                  nodeId={item.otherNodeId}
+                  getNode={getNode}
+                  onClick={onNodeLinkClick}
+                />
+              </>
+            ) : (
+              <>
+                <NodeLink
+                  nodeId={item.otherNodeId}
+                  getNode={getNode}
+                  onClick={onNodeLinkClick}
+                />
+                {' '}
+                {formatRelationship(item.edge.relationship)}
+                {' '}
+                <span className="node-infobox__current-node">{node.title}</span>
+              </>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/**
  * Get additional/custom properties (not in the known set)
  */
 function getCustomProperties(node: GraphNode): [string, unknown][] {
   return Object.entries(node).filter(([key]) => !KNOWN_NODE_FIELDS.has(key));
 }
 
-function NodeInfobox({ node, onNodeLinkClick, getNode }: NodeInfoboxProps) {
+function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps) {
   const customProperties = getCustomProperties(node);
 
   return (
@@ -623,6 +739,16 @@ function NodeInfobox({ node, onNodeLinkClick, getNode }: NodeInfoboxProps) {
           />
         )}
       </section>
+
+      {/* Relationships Section */}
+      {edges.length > 0 && (
+        <RelationshipsSection
+          node={node}
+          edges={edges}
+          getNode={getNode}
+          onNodeLinkClick={onNodeLinkClick}
+        />
+      )}
 
       {/* External Links */}
       {node.externalLinks && node.externalLinks.length > 0 && (
