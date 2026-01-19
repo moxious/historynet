@@ -2,13 +2,13 @@
   "id": "ambient-music",
   "name": "Ambient Music Network",
   "description": "The origins and development of ambient music, centered on Brian Eno's 1978 coining of the term. Traces the convergent influences from Erik Satie's furniture music, John Cage's environmental sound philosophy, German kosmische musik, French musique concrète, American minimalism, Jamaican dub production techniques, and Japanese kankyō ongaku—through to the Second Generation crystallization in the early 1990s.",
-  "lastUpdated": "2026-01-18",
-  "version": "1.1.0",
+  "lastUpdated": "2026-01-19",
+  "version": "1.2.0",
   "author": "HistoryNet Contributors",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 209,
-  "edgeCount": 153,
+  "edgeCount": 289,
   "temporalScope": {
     "start": "1866",
     "end": "1995",
@@ -24,9 +24,32 @@
       "type": "invented",
       "description": "Source invented or created the target (instrument, technique)",
       "directed": true
+    },
+    {
+      "type": "recorded_at",
+      "description": "Object (album/work/instrument) was recorded/created at location (studio)",
+      "directed": true
+    },
+    {
+      "type": "based_at",
+      "description": "Entity (band/organization/movement) was headquartered at location",
+      "directed": true
     }
   ],
   "changelog": [
+    {
+      "version": "1.2.0",
+      "date": "2026-01-19",
+      "changes": [
+        "Major connectivity improvement: added 136 new edges connecting locations and objects",
+        "Added person→location edges: lived_in, worked_at, studied_at, visited (67 edges)",
+        "Added object→location edges: recorded_at relationships for albums/instruments (31 edges)",
+        "Added entity→location edges: based_at relationships for bands/movements (34 edges)",
+        "Added educational connections: Darmstadt courses, art schools, conservatories",
+        "All locations now connected to the network (previously only 1 location edge)",
+        "Most objects now connected to their recording studios"
+      ]
+    },
     {
       "version": "1.1.0",
       "date": "2026-01-18",

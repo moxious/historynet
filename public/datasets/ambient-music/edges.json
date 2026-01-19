@@ -1363,5 +1363,1286 @@
     "dateStart": "1982",
     "evidence": "Ashikawa founded the Sound Process label, the primary imprint for Japanese kankyō ongaku.",
     "strength": "strong"
+  },
+
+  {
+    "id": "edge-derbyshire-worked-bbc",
+    "source": "person-delia-derbyshire",
+    "target": "loc-bbc-radiophonic",
+    "relationship": "worked_at",
+    "dateStart": "1962",
+    "dateEnd": "1973",
+    "evidence": "Derbyshire joined the BBC Radiophonic Workshop in 1962 and worked there until 1973, creating the iconic Doctor Who theme realization (1963) and hundreds of other electronic compositions.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-worked-wdr",
+    "source": "person-karlheinz-stockhausen",
+    "target": "loc-wdr-studio",
+    "relationship": "worked_at",
+    "dateStart": "1953",
+    "dateEnd": "2007",
+    "evidence": "Stockhausen began working at the WDR Studio for Electronic Music in Cologne in 1953, becoming its artistic director. He composed groundbreaking works there including Gesang der Jünglinge (1955-56) and Kontakte (1958-60).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-worked-grm",
+    "source": "person-pierre-schaeffer",
+    "target": "loc-grm",
+    "relationship": "worked_at",
+    "dateStart": "1948",
+    "dateEnd": "1966",
+    "evidence": "Schaeffer established the musique concrète studio at French radio (RTF) in 1948, which evolved into GRM (Groupe de Recherches Musicales) in 1958. He directed the organization until Bayle succeeded him.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henry-worked-grm",
+    "source": "person-pierre-henry",
+    "target": "loc-grm",
+    "relationship": "worked_at",
+    "dateStart": "1949",
+    "dateEnd": "1958",
+    "evidence": "Henry joined Schaeffer's studio in 1949 as his primary collaborator, working at what would become GRM until departing to form his own studio in 1958.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bayle-worked-grm",
+    "source": "person-francois-bayle",
+    "target": "loc-grm",
+    "relationship": "worked_at",
+    "dateStart": "1960",
+    "dateEnd": "1997",
+    "evidence": "Bayle joined GRM in 1960, became director in 1966 succeeding Schaeffer, and led the organization for over 30 years until 1997. He invented the Acousmonium speaker orchestra there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-plank-worked-studio",
+    "source": "person-conny-plank",
+    "target": "loc-conny-studio",
+    "relationship": "worked_at",
+    "dateStart": "1974",
+    "dateEnd": "1987",
+    "evidence": "Plank built his legendary studio in a converted farmhouse near Cologne in 1974. Nearly every important German electronic album was recorded there, including work by Kraftwerk, Cluster, Neu!, and collaborations with Eno.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lanois-worked-grant",
+    "source": "person-daniel-lanois",
+    "target": "loc-grant-avenue",
+    "relationship": "worked_at",
+    "dateStart": "1970",
+    "dateEnd": "1987",
+    "evidence": "Lanois built Grant Avenue Studio in Hamilton, Ontario with his brother Bob in the early 1970s. The studio's atmospheric production aesthetic, developed there, shaped ambient music. Eno visited and collaborated there in the early 1980s.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tubby-worked-studio",
+    "source": "person-king-tubby",
+    "target": "loc-king-tubby-studio",
+    "relationship": "worked_at",
+    "dateStart": "1968",
+    "dateEnd": "1989",
+    "evidence": "King Tubby built his studio at 18 Dromilly Avenue, Kingston in 1968. There he invented dub mixing techniques—extreme use of reverb, delay, and filtering—that became foundational to ambient production.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-perry-worked-blackark",
+    "source": "person-lee-scratch-perry",
+    "target": "loc-black-ark",
+    "relationship": "worked_at",
+    "dateStart": "1973",
+    "dateEnd": "1979",
+    "evidence": "Perry built Black Ark Studio in his backyard in Kingston in 1973. The studio became legendary for experimental dub production until Perry allegedly burned it down in 1979.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kraftwerk-worked-klingklang",
+    "source": "person-ralf-hutter",
+    "target": "loc-kling-klang",
+    "relationship": "worked_at",
+    "dateStart": "1970",
+    "evidence": "Hütter and Schneider established Kling Klang Studio in Düsseldorf around 1970. The studio became Kraftwerk's private laboratory where they developed their distinctive electronic sound and custom instruments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schneider-worked-klingklang",
+    "source": "person-florian-schneider",
+    "target": "loc-kling-klang",
+    "relationship": "worked_at",
+    "dateStart": "1970",
+    "dateEnd": "2008",
+    "evidence": "Schneider co-created Kling Klang with Hütter. He worked there developing custom electronic instruments and Kraftwerk's sound until his departure from the group.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oliveros-worked-sftmc",
+    "source": "person-pauline-oliveros",
+    "target": "loc-sftmc",
+    "relationship": "worked_at",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "evidence": "Oliveros was a founding member and core composer at the San Francisco Tape Music Center from 1962-1966, developing her electronic composition practice and Deep Listening concepts there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-subotnick-worked-sftmc",
+    "source": "person-morton-subotnick",
+    "target": "loc-sftmc",
+    "relationship": "worked_at",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "evidence": "Subotnick co-founded and worked at the San Francisco Tape Music Center, commissioning the first Buchla synthesizer for the Center and composing Silver Apples of the Moon there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buchla-worked-sf",
+    "source": "person-don-buchla",
+    "target": "loc-san-francisco",
+    "relationship": "lived_in",
+    "dateStart": "1963",
+    "evidence": "Buchla developed his synthesizers in the San Francisco Bay Area, initially building the Buchla 100 series for the San Francisco Tape Music Center starting in 1963.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-worked-loft",
+    "source": "person-la-monte-young",
+    "target": "loc-young-loft",
+    "relationship": "worked_at",
+    "dateStart": "1962",
+    "evidence": "Young hosted Theatre of Eternal Music performances at his loft in New York, establishing it as a center for drone-based minimalist composition and performance.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-conrad-performed-loft",
+    "source": "person-tony-conrad",
+    "target": "loc-young-loft",
+    "relationship": "worked_at",
+    "dateStart": "1962",
+    "dateEnd": "1965",
+    "evidence": "Conrad performed regularly at Young's loft as a member of the Theatre of Eternal Music, developing his sustained violin drone techniques.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-worked-dreamhouse",
+    "source": "person-la-monte-young",
+    "target": "loc-dream-house-install",
+    "relationship": "worked_at",
+    "dateStart": "1969",
+    "evidence": "Young created the Dream House installation starting in 1969, a continuous sound and light environment that has been maintained at various locations, most notably at 275 Church Street in New York.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-russolo-worked-milan",
+    "source": "person-luigi-russolo",
+    "target": "loc-milan",
+    "relationship": "lived_in",
+    "dateStart": "1909",
+    "dateEnd": "1930",
+    "evidence": "Russolo was based in Milan as a central figure of Italian Futurism. He built his intonarumori noise machines there and premiered them in Milan in 1913.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schnitzler-studied-academy",
+    "source": "person-conrad-schnitzler",
+    "target": "loc-dusseldorf-academy",
+    "relationship": "studied_at",
+    "dateStart": "1960",
+    "dateEnd": "1963",
+    "evidence": "Schnitzler studied sculpture at the Düsseldorf Art Academy under Joseph Beuys in the early 1960s, absorbing Fluxus and conceptual art influences that shaped his experimental music approach.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-studied-artschools",
+    "source": "person-brian-eno",
+    "target": "loc-british-art-schools",
+    "relationship": "studied_at",
+    "dateStart": "1964",
+    "dateEnd": "1969",
+    "evidence": "Eno studied at Ipswich Art School (1964-66) and Winchester School of Art (1966-69), where he encountered cybernetics, systems thinking, and experimental composition that shaped his approach to ambient music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-discovered-laraaji-washington",
+    "source": "person-brian-eno",
+    "target": "loc-washington-square",
+    "relationship": "visited",
+    "dateStart": "1979",
+    "evidence": "Eno discovered Laraaji busking with his electric zither in Washington Square Park in 1979, leading to the production of Ambient 3: Day of Radiance.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-laraaji-performed-washington",
+    "source": "person-laraaji",
+    "target": "loc-washington-square",
+    "relationship": "worked_at",
+    "dateStart": "1978",
+    "dateEnd": "1980",
+    "evidence": "Laraaji regularly busked in Washington Square Park in the late 1970s, playing his electric zither, where Eno discovered him in 1979.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-worked-nyc",
+    "source": "person-john-cage",
+    "target": "loc-new-york",
+    "relationship": "lived_in",
+    "dateStart": "1942",
+    "dateEnd": "1992",
+    "evidence": "Cage moved to New York City in 1942 and remained based there for the rest of his life. The city was central to his collaborations with the New York School composers and artists.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-feldman-worked-nyc",
+    "source": "person-morton-feldman",
+    "target": "loc-new-york",
+    "relationship": "lived_in",
+    "dateStart": "1926",
+    "dateEnd": "1987",
+    "evidence": "Feldman was born in New York City and remained based there throughout his career, central to the New York School avant-garde.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reich-worked-nyc",
+    "source": "person-steve-reich",
+    "target": "loc-new-york",
+    "relationship": "lived_in",
+    "dateStart": "1965",
+    "evidence": "Reich moved to New York in 1965 and has been based there since, founding Steve Reich and Musicians and premiering major works at venues like The Kitchen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-glass-worked-nyc",
+    "source": "person-philip-glass",
+    "target": "loc-new-york",
+    "relationship": "lived_in",
+    "dateStart": "1967",
+    "evidence": "Glass returned to New York in 1967 after studying in Paris and has been based there since, founding the Philip Glass Ensemble.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reich-performed-kitchen",
+    "source": "person-steve-reich",
+    "target": "loc-kitchen",
+    "relationship": "worked_at",
+    "dateStart": "1971",
+    "evidence": "Reich performed at The Kitchen numerous times starting from its founding in 1971. The venue was crucial for premiering minimalist and experimental works.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-glass-performed-kitchen",
+    "source": "person-philip-glass",
+    "target": "loc-kitchen",
+    "relationship": "worked_at",
+    "dateStart": "1971",
+    "evidence": "Glass performed extensively at The Kitchen with the Philip Glass Ensemble throughout the 1970s.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-performed-kitchen",
+    "source": "person-terry-riley",
+    "target": "loc-kitchen",
+    "relationship": "visited",
+    "dateStart": "1971",
+    "evidence": "Riley performed at The Kitchen multiple times in the 1970s as part of the minimalist movement's key performance venue.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-froese-worked-berlin",
+    "source": "person-edgar-froese",
+    "target": "loc-berlin",
+    "relationship": "lived_in",
+    "dateStart": "1944",
+    "dateEnd": "2015",
+    "evidence": "Froese was born near Berlin and made it his base for Tangerine Dream. Berlin's isolation and unique cultural status shaped the 'Berlin School' electronic sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schulze-worked-berlin",
+    "source": "person-klaus-schulze",
+    "target": "loc-berlin",
+    "relationship": "lived_in",
+    "dateStart": "1947",
+    "dateEnd": "2022",
+    "evidence": "Schulze was born in Berlin and based his solo career there, becoming central to the Berlin School of electronic music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gottsching-worked-berlin",
+    "source": "person-manuel-gottsching",
+    "target": "loc-berlin",
+    "relationship": "lived_in",
+    "dateStart": "1952",
+    "dateEnd": "2022",
+    "evidence": "Göttsching was born in Berlin and remained there throughout his career with Ash Ra Tempel and as a solo artist, recording E2-E4 in his Berlin studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schnitzler-worked-berlin",
+    "source": "person-conrad-schnitzler",
+    "target": "loc-berlin",
+    "relationship": "lived_in",
+    "dateStart": "1968",
+    "dateEnd": "2011",
+    "evidence": "Schnitzler moved to Berlin to establish the Zodiak Free Arts Lab in 1968 and remained central to the city's experimental scene.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roedelius-worked-forst",
+    "source": "person-hans-joachim-roedelius",
+    "target": "loc-forst",
+    "relationship": "lived_in",
+    "dateStart": "1973",
+    "dateEnd": "1980",
+    "evidence": "Roedelius moved to Forst in the German countryside where Cluster and later Harmonia established their communal studio. Eno visited for his landmark 1976 sessions.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moebius-worked-forst",
+    "source": "person-dieter-moebius",
+    "target": "loc-forst",
+    "relationship": "lived_in",
+    "dateStart": "1973",
+    "dateEnd": "1980",
+    "evidence": "Moebius lived and worked in Forst with Roedelius, where Cluster developed their textural, atmospheric sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rother-worked-forst",
+    "source": "person-michael-rother",
+    "target": "loc-forst",
+    "relationship": "visited",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Rother joined Cluster in Forst to form Harmonia, commuting from Düsseldorf to record at their studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-visited-forst",
+    "source": "person-brian-eno",
+    "target": "loc-forst",
+    "relationship": "visited",
+    "dateStart": "1976",
+    "evidence": "Eno visited Cluster and Harmonia at their Forst studio in 1976, recording sessions that produced Cluster & Eno and contributed to Tracks and Traces.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hutter-worked-dusseldorf",
+    "source": "person-ralf-hutter",
+    "target": "loc-dusseldorf",
+    "relationship": "lived_in",
+    "dateStart": "1946",
+    "evidence": "Hütter has been based in Düsseldorf throughout Kraftwerk's existence, establishing Kling Klang Studio there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schneider-worked-dusseldorf",
+    "source": "person-florian-schneider",
+    "target": "loc-dusseldorf",
+    "relationship": "lived_in",
+    "dateStart": "1947",
+    "dateEnd": "2020",
+    "evidence": "Schneider was born in Düsseldorf and remained there throughout his career with Kraftwerk.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dinger-worked-dusseldorf",
+    "source": "person-klaus-dinger",
+    "target": "loc-dusseldorf",
+    "relationship": "lived_in",
+    "dateStart": "1946",
+    "dateEnd": "2008",
+    "evidence": "Dinger was born in Düsseldorf and based Neu! there, developing the motorik beat that influenced post-punk and electronic music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rother-worked-dusseldorf",
+    "source": "person-michael-rother",
+    "target": "loc-dusseldorf",
+    "relationship": "lived_in",
+    "dateStart": "1971",
+    "evidence": "Rother was based in Düsseldorf during his time with Kraftwerk and Neu!, recording at Conny Plank's nearby studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-yoshimura-worked-tokyo",
+    "source": "person-hiroshi-yoshimura",
+    "target": "loc-tokyo",
+    "relationship": "lived_in",
+    "dateStart": "1940",
+    "dateEnd": "2003",
+    "evidence": "Yoshimura was born in Tokyo and worked there creating environmental music for architectural and public spaces, including work with the Spiral building.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hosono-worked-tokyo",
+    "source": "person-haruomi-hosono",
+    "target": "loc-tokyo",
+    "relationship": "lived_in",
+    "dateStart": "1947",
+    "evidence": "Hosono has been based in Tokyo throughout his career, founding Yellow Magic Orchestra there and creating kankyō ongaku for Muji stores.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sakamoto-worked-tokyo",
+    "source": "person-ryuichi-sakamoto",
+    "target": "loc-tokyo",
+    "relationship": "lived_in",
+    "dateStart": "1952",
+    "dateEnd": "2023",
+    "evidence": "Sakamoto was born in Tokyo and based his career there, co-founding Yellow Magic Orchestra and later creating ambient and film music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashikawa-worked-tokyo",
+    "source": "person-satoshi-ashikawa",
+    "target": "loc-tokyo",
+    "relationship": "lived_in",
+    "dateStart": "1953",
+    "dateEnd": "1983",
+    "evidence": "Ashikawa was based in Tokyo where he founded Sound Process label and developed the theoretical framework for kankyō ongaku.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-takada-worked-tokyo",
+    "source": "person-midori-takada",
+    "target": "loc-tokyo",
+    "relationship": "lived_in",
+    "dateStart": "1951",
+    "evidence": "Takada has been based in Tokyo throughout her career as a percussionist and composer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-satie-worked-paris",
+    "source": "person-erik-satie",
+    "target": "loc-paris",
+    "relationship": "lived_in",
+    "dateStart": "1887",
+    "dateEnd": "1925",
+    "evidence": "Satie lived in Paris and its suburbs (notably Arcueil) from 1887 until his death. He developed his furniture music concept there and was central to Parisian avant-garde circles.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-schaeffer-worked-paris",
+    "source": "person-pierre-schaeffer",
+    "target": "loc-paris",
+    "relationship": "lived_in",
+    "dateStart": "1940",
+    "dateEnd": "1995",
+    "evidence": "Schaeffer was based in Paris working at French radio (RTF/ORTF), where he invented musique concrète and founded GRM.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-henry-worked-paris",
+    "source": "person-pierre-henry",
+    "target": "loc-paris",
+    "relationship": "lived_in",
+    "dateStart": "1927",
+    "dateEnd": "2017",
+    "evidence": "Henry was born in Paris and worked there throughout his career, first at GRM and later at his own studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-martenot-worked-paris",
+    "source": "person-maurice-martenot",
+    "target": "loc-paris",
+    "relationship": "lived_in",
+    "dateStart": "1898",
+    "dateEnd": "1980",
+    "evidence": "Martenot was born in Paris and developed the ondes Martenot there. He founded a school for the instrument at the Paris Conservatoire.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-loriod-worked-paris",
+    "source": "person-jeanne-loriod",
+    "target": "loc-paris",
+    "relationship": "lived_in",
+    "dateStart": "1928",
+    "dateEnd": "2001",
+    "evidence": "Loriod taught ondes Martenot at the Paris Conservatoire for 45 years and premiered major works in Paris.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-worked-london",
+    "source": "person-brian-eno",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1971",
+    "evidence": "Eno moved to London after art school and based his early career there with Roxy Music, Obscure Records, and his initial solo work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fripp-worked-london",
+    "source": "person-robert-fripp",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1968",
+    "evidence": "Fripp has been based in London/UK throughout King Crimson's existence and his collaborations with Eno.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zinovieff-worked-ems",
+    "source": "person-peter-zinovieff",
+    "target": "loc-ems-studio",
+    "relationship": "worked_at",
+    "dateStart": "1966",
+    "dateEnd": "1979",
+    "evidence": "Zinovieff established his electronic music studio at his home in Putney, London, which became EMS headquarters where VCS3 and Synthi instruments were developed.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cockerell-worked-ems",
+    "source": "person-david-cockerell",
+    "target": "loc-ems-studio",
+    "relationship": "worked_at",
+    "dateStart": "1969",
+    "dateEnd": "1974",
+    "evidence": "Cockerell designed the VCS3 circuitry at EMS's London studio, creating the instruments that became essential to British electronic music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cary-worked-ems",
+    "source": "person-tristram-cary",
+    "target": "loc-ems-studio",
+    "relationship": "worked_at",
+    "dateStart": "1969",
+    "dateEnd": "1973",
+    "evidence": "Cary was a founding partner of EMS, contributing his experience as a pioneering British electronic music composer.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-eno-visited-hansa",
+    "source": "person-brian-eno",
+    "target": "loc-hansa",
+    "relationship": "worked_at",
+    "dateStart": "1976",
+    "dateEnd": "1979",
+    "evidence": "Eno worked extensively at Hansa Studio in Berlin, producing David Bowie's Berlin Trilogy (Low, Heroes, Lodger) and his own collaborations.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-studied-darmstadt",
+    "source": "person-karlheinz-stockhausen",
+    "target": "loc-darmstadt",
+    "relationship": "studied_at",
+    "dateStart": "1951",
+    "evidence": "Stockhausen attended the Darmstadt International Summer Courses for New Music starting in 1951, where he encountered serialism and later became a major teacher there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cage-visited-darmstadt",
+    "source": "person-john-cage",
+    "target": "loc-darmstadt",
+    "relationship": "visited",
+    "dateStart": "1958",
+    "evidence": "Cage's legendary lectures at Darmstadt in 1958 introduced chance operations and influenced European avant-garde composers.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tudor-visited-darmstadt",
+    "source": "person-david-tudor",
+    "target": "loc-darmstadt",
+    "relationship": "visited",
+    "dateStart": "1956",
+    "evidence": "Tudor performed at Darmstadt in 1956 and subsequent years, premiering works by Cage, Feldman, and Stockhausen.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-young-visited-darmstadt",
+    "source": "person-la-monte-young",
+    "target": "loc-darmstadt",
+    "relationship": "visited",
+    "dateStart": "1959",
+    "evidence": "Young attended Darmstadt summer courses in 1959 where he encountered European avant-garde ideas that influenced his drone-based minimalism.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-visited-darmstadt",
+    "source": "person-terry-riley",
+    "target": "loc-darmstadt",
+    "relationship": "visited",
+    "dateStart": "1960",
+    "evidence": "Riley attended Darmstadt in the early 1960s, encountering European experimental music before developing his tape loop and repetition techniques.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ciani-worked-sf",
+    "source": "person-suzanne-ciani",
+    "target": "loc-san-francisco",
+    "relationship": "lived_in",
+    "dateStart": "1969",
+    "dateEnd": "1974",
+    "evidence": "Ciani moved to San Francisco in the late 1960s and worked closely with Don Buchla, becoming the primary demonstrator of his instruments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-riley-worked-sf",
+    "source": "person-terry-riley",
+    "target": "loc-san-francisco",
+    "relationship": "lived_in",
+    "dateStart": "1960",
+    "dateEnd": "1970",
+    "evidence": "Riley was based in San Francisco during the development of In C (1964) and worked at the San Francisco Tape Music Center with La Monte Young's circle.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moog-worked-nyc",
+    "source": "person-robert-moog",
+    "target": "loc-new-york",
+    "relationship": "lived_in",
+    "dateStart": "1934",
+    "dateEnd": "1978",
+    "evidence": "Moog was born in New York City and initially based his company in Trumansburg, NY, near Cornell where he studied. He demonstrated his instruments throughout New York.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-czukay-worked-cologne",
+    "source": "person-holger-czukay",
+    "target": "loc-cologne",
+    "relationship": "lived_in",
+    "dateStart": "1963",
+    "dateEnd": "2017",
+    "evidence": "Czukay moved to Cologne to study with Stockhausen and remained there, co-founding Can. He established Inner Space studio in a former cinema.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stockhausen-lived-cologne",
+    "source": "person-karlheinz-stockhausen",
+    "target": "loc-cologne",
+    "relationship": "lived_in",
+    "dateStart": "1953",
+    "dateEnd": "2007",
+    "evidence": "Stockhausen was based in Cologne from 1953, working at WDR and teaching at the Cologne Courses for New Music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-james-worked-london",
+    "source": "person-richard-d-james",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1991",
+    "evidence": "Richard D. James moved to London in 1991, becoming central to the city's electronic music scene and releasing on Warp Records.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-paterson-worked-london",
+    "source": "person-alex-paterson",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1959",
+    "evidence": "Paterson has been based in London throughout his career, founding The Orb there and working at EG Records.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-drummond-worked-london",
+    "source": "person-bill-drummond",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1980",
+    "evidence": "Drummond moved to London for his music career, co-founding The KLF there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cauty-worked-london",
+    "source": "person-jimmy-cauty",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1987",
+    "evidence": "Cauty was based in London, co-founding both The KLF and The Orb there. His Trancentral studio was a key production location.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-cluster-eno-recorded-conny",
+    "source": "object-cluster-eno",
+    "target": "loc-conny-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1977",
+    "evidence": "Cluster & Eno was recorded at Conny Plank's studio near Cologne, co-produced by Plank. The album exemplifies the studio's role in German/British ambient crossover.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-after-heat-recorded-conny",
+    "source": "object-after-the-heat",
+    "target": "loc-conny-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1978",
+    "evidence": "After the Heat was recorded at Conny Plank's studio, continuing the Cluster & Eno collaboration with Plank engineering.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-neu1-recorded-conny",
+    "source": "object-neu-1",
+    "target": "loc-conny-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1972",
+    "evidence": "Neu!'s debut album was recorded at Conny Plank's studio. Plank's production was essential to capturing the motorik sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-neu75-recorded-conny",
+    "source": "object-neu-75",
+    "target": "loc-conny-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1975",
+    "evidence": "Neu! 75 was recorded at Conny Plank's studio, the final album in the band's trilogy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-zuckerzeit-recorded-conny",
+    "source": "object-cluster-zuckerzeit",
+    "target": "loc-conny-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1974",
+    "evidence": "Zuckerzeit was recorded at Conny Plank's studio. Plank's production helped Cluster develop their more accessible sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sowiesoso-recorded-conny",
+    "source": "object-cluster-sowiesoso",
+    "target": "loc-conny-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1976",
+    "evidence": "Sowiesoso was recorded at Conny Plank's studio. This pastoral album directly influenced Eno's ambient aesthetic.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-harmonia-musik-recorded-forst",
+    "source": "object-harmonia-musik",
+    "target": "loc-forst",
+    "relationship": "recorded_at",
+    "dateStart": "1974",
+    "evidence": "Musik von Harmonia was recorded at Cluster's studio in Forst. Eno called Harmonia 'the world's most important rock band'.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-tracks-traces-recorded-forst",
+    "source": "object-harmonia-tracks-traces",
+    "target": "loc-forst",
+    "relationship": "recorded_at",
+    "dateStart": "1976",
+    "evidence": "The sessions that became Tracks and Traces were recorded during Eno's 1976 visit to Harmonia's studio in Forst.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-superape-recorded-blackark",
+    "source": "object-perry-super-ape",
+    "target": "loc-black-ark",
+    "relationship": "recorded_at",
+    "dateStart": "1976",
+    "evidence": "Super Ape was recorded at Black Ark Studio, showcasing Lee Scratch Perry's innovative production techniques at their peak.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dubroots-recorded-tubby",
+    "source": "object-tubby-dub-roots",
+    "target": "loc-king-tubby-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1974",
+    "evidence": "Dub from the Roots was mixed at King Tubby's studio, demonstrating his revolutionary approach to the mixing desk as instrument.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-postcards-recorded-tokyo",
+    "source": "object-yoshimura-postcards",
+    "target": "loc-tokyo",
+    "relationship": "recorded_at",
+    "dateStart": "1982",
+    "evidence": "Music for Nine Post Cards was recorded in Tokyo and created for the Hara Museum of Contemporary Art's Air Pavilion space.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-watering-recorded-tokyo",
+    "source": "object-hosono-watering",
+    "target": "loc-tokyo",
+    "relationship": "recorded_at",
+    "dateStart": "1984",
+    "evidence": "Watering a Flower was created in Tokyo as environmental music for Muji retail stores.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-looking-glass-recorded-tokyo",
+    "source": "object-takada-looking-glass",
+    "target": "loc-tokyo",
+    "relationship": "recorded_at",
+    "dateStart": "1983",
+    "evidence": "Through the Looking Glass was recorded in Tokyo, using traditional and ethnic percussion instruments.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stillway-recorded-tokyo",
+    "source": "object-ashikawa-still-way",
+    "target": "loc-tokyo",
+    "relationship": "recorded_at",
+    "dateStart": "1982",
+    "evidence": "Still Way was recorded in Tokyo on Ashikawa's Sound Process label.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-apollo-recorded-grant",
+    "source": "object-apollo",
+    "target": "loc-grant-avenue",
+    "relationship": "recorded_at",
+    "dateStart": "1983",
+    "evidence": "Apollo: Atmospheres & Soundtracks was partially recorded at Daniel Lanois's Grant Avenue Studio in Hamilton, Ontario.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pearl-recorded-grant",
+    "source": "object-eno-budd-pearl",
+    "target": "loc-grant-avenue",
+    "relationship": "recorded_at",
+    "dateStart": "1984",
+    "evidence": "The Pearl was recorded at Grant Avenue Studio, co-produced by Lanois. His atmospheric production shaped the album's signature sound.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-switched-on-recorded-nyc",
+    "source": "object-carlos-switched-on",
+    "target": "loc-new-york",
+    "relationship": "recorded_at",
+    "dateStart": "1968",
+    "evidence": "Switched-On Bach was recorded in New York using Moog synthesizers. Carlos and Moog collaborated on instrument development during the recording.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-silver-apples-recorded-sf",
+    "source": "object-subotnick-silver-apples",
+    "target": "loc-san-francisco",
+    "relationship": "recorded_at",
+    "dateStart": "1967",
+    "evidence": "Silver Apples of the Moon was recorded on the Buchla synthesizer at the San Francisco Tape Music Center and completed at NYU.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-etude-chemins-recorded-grm",
+    "source": "object-schaeffer-etude-chemins-de-fer",
+    "target": "loc-grm",
+    "relationship": "recorded_at",
+    "dateStart": "1948",
+    "evidence": "Étude aux chemins de fer was created at the RTF studios in Paris (precursor to GRM), marking the birth of musique concrète.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-symphonie-homme-seul-recorded-grm",
+    "source": "object-schaeffer-henry-symphonie",
+    "target": "loc-grm",
+    "relationship": "recorded_at",
+    "dateStart": "1950",
+    "evidence": "Symphonie pour un homme seul was composed at Schaeffer's studio at RTF, the immediate precursor to GRM.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gesang-recorded-wdr",
+    "source": "object-stockhausen-gesang",
+    "target": "loc-wdr-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1956",
+    "evidence": "Gesang der Jünglinge was composed at the WDR Studio for Electronic Music in Cologne, using a combination of electronic sounds and processed voice.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-traite-written-grm",
+    "source": "object-schaeffer-traite",
+    "target": "loc-grm",
+    "relationship": "recorded_at",
+    "dateStart": "1966",
+    "evidence": "Traité des objets musicaux was written while Schaeffer directed GRM, synthesizing his decades of musique concrète theory.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-acousmonium-developed-grm",
+    "source": "object-acousmonium",
+    "target": "loc-grm",
+    "relationship": "recorded_at",
+    "dateStart": "1974",
+    "evidence": "The Acousmonium spatial speaker system was developed by François Bayle at GRM, designed for immersive projection of acousmatic music.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-td-based-berlin",
+    "source": "entity-tangerine-dream",
+    "target": "loc-berlin",
+    "relationship": "based_at",
+    "dateStart": "1967",
+    "evidence": "Tangerine Dream was formed in Berlin and remained based there throughout their existence, defining the 'Berlin School' of electronic music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cluster-based-forst",
+    "source": "entity-cluster",
+    "target": "loc-forst",
+    "relationship": "based_at",
+    "dateStart": "1973",
+    "evidence": "Cluster relocated from Berlin to a rural commune in Forst in 1973, establishing their studio there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-harmonia-based-forst",
+    "source": "entity-harmonia",
+    "target": "loc-forst",
+    "relationship": "based_at",
+    "dateStart": "1973",
+    "dateEnd": "1976",
+    "evidence": "Harmonia operated from Cluster's studio in Forst, where Eno visited in 1976.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kraftwerk-based-klingklang",
+    "source": "entity-kraftwerk",
+    "target": "loc-kling-klang",
+    "relationship": "based_at",
+    "dateStart": "1970",
+    "evidence": "Kraftwerk has been based at Kling Klang Studio in Düsseldorf since the early 1970s.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kraftwerk-based-dusseldorf",
+    "source": "entity-kraftwerk",
+    "target": "loc-dusseldorf",
+    "relationship": "based_at",
+    "dateStart": "1970",
+    "evidence": "Kraftwerk was founded in Düsseldorf and has maintained their studio and headquarters there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-neu-based-dusseldorf",
+    "source": "entity-neu",
+    "target": "loc-dusseldorf",
+    "relationship": "based_at",
+    "dateStart": "1971",
+    "dateEnd": "1975",
+    "evidence": "Neu! was formed in Düsseldorf by Rother and Dinger after they left Kraftwerk, recording at Conny Plank's nearby studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashratempel-based-berlin",
+    "source": "entity-ash-ra-tempel",
+    "target": "loc-berlin",
+    "relationship": "based_at",
+    "dateStart": "1970",
+    "evidence": "Ash Ra Tempel was founded and based in Berlin by Manuel Göttsching.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ymo-based-tokyo",
+    "source": "entity-ymo",
+    "target": "loc-tokyo",
+    "relationship": "based_at",
+    "dateStart": "1978",
+    "evidence": "Yellow Magic Orchestra was formed and based in Tokyo, pioneering techno-pop there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-theatre-based-nyc",
+    "source": "entity-theatre-eternal-music",
+    "target": "loc-new-york",
+    "relationship": "based_at",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "evidence": "The Theatre of Eternal Music performed primarily at La Monte Young's loft in New York City.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-theatre-based-loft",
+    "source": "entity-theatre-eternal-music",
+    "target": "loc-young-loft",
+    "relationship": "based_at",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "evidence": "The Theatre of Eternal Music performed at La Monte Young's loft, their primary venue.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-nyschool-based-nyc",
+    "source": "entity-new-york-school",
+    "target": "loc-new-york",
+    "relationship": "based_at",
+    "dateStart": "1950",
+    "evidence": "The New York School of composers (Cage, Feldman, Tudor, etc.) was centered in New York City.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roxy-based-london",
+    "source": "entity-roxy-music",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "dateStart": "1971",
+    "evidence": "Roxy Music was formed and based in London.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kingcrimson-based-london",
+    "source": "entity-king-crimson",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "dateStart": "1968",
+    "evidence": "King Crimson was formed and primarily based in London.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-obscure-based-london",
+    "source": "entity-obscure-records",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "dateStart": "1975",
+    "dateEnd": "1978",
+    "evidence": "Eno founded Obscure Records in London to release experimental and ambient-adjacent music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ems-based-london",
+    "source": "entity-ems",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "dateStart": "1969",
+    "evidence": "EMS (Electronic Music Studios) was founded and headquartered in London, initially at Zinovieff's home studio in Putney.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ems-based-emsstudio",
+    "source": "entity-ems",
+    "target": "loc-ems-studio",
+    "relationship": "based_at",
+    "dateStart": "1969",
+    "evidence": "EMS operated from Zinovieff's home studio where VCS3 and Synthi instruments were developed.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grm-org-based-grm-loc",
+    "source": "entity-grm-org",
+    "target": "loc-grm",
+    "relationship": "based_at",
+    "dateStart": "1958",
+    "evidence": "GRM (the organization) operated from the GRM studio facilities in Paris.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grm-org-based-paris",
+    "source": "entity-grm-org",
+    "target": "loc-paris",
+    "relationship": "based_at",
+    "dateStart": "1958",
+    "evidence": "GRM has been based in Paris since its founding as part of French radio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sftmc-based-sf",
+    "source": "entity-sftmc-org",
+    "target": "loc-san-francisco",
+    "relationship": "based_at",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "evidence": "The San Francisco Tape Music Center was located in San Francisco, initially at the San Francisco Conservatory.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sftmc-based-sftmc",
+    "source": "entity-sftmc-org",
+    "target": "loc-sftmc",
+    "relationship": "based_at",
+    "dateStart": "1962",
+    "dateEnd": "1966",
+    "evidence": "The organization was based at the San Francisco Tape Music Center facilities.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buchla-based-sf",
+    "source": "entity-buchla",
+    "target": "loc-san-francisco",
+    "relationship": "based_at",
+    "dateStart": "1963",
+    "evidence": "Buchla and Associates was based in the San Francisco Bay Area, where Don Buchla developed his synthesizers.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moog-based-nyc",
+    "source": "entity-moog-music",
+    "target": "loc-new-york",
+    "relationship": "based_at",
+    "dateStart": "1953",
+    "evidence": "Moog Music was initially based in New York State (Trumansburg, near Cornell University).",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-can-based-cologne",
+    "source": "entity-can",
+    "target": "loc-cologne",
+    "relationship": "based_at",
+    "dateStart": "1968",
+    "evidence": "Can was formed in Cologne and established their Inner Space studio there, in a former cinema.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-faust-based-cologne",
+    "source": "entity-faust",
+    "target": "loc-cologne",
+    "relationship": "based_at",
+    "dateStart": "1971",
+    "evidence": "Faust was based in the Cologne area, initially working from a schoolhouse in Wümme converted to a studio.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-musique-concrete-based-paris",
+    "source": "entity-musique-concrete",
+    "target": "loc-paris",
+    "relationship": "based_at",
+    "dateStart": "1948",
+    "evidence": "Musique concrète was founded in Paris by Schaeffer at French radio studios.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-minimalism-based-nyc",
+    "source": "entity-minimalism",
+    "target": "loc-new-york",
+    "relationship": "based_at",
+    "dateStart": "1960",
+    "evidence": "While minimalism had roots in San Francisco, it became most associated with New York through Reich, Glass, and Riley's later work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-berlin-school-based-berlin",
+    "source": "entity-berlin-school",
+    "target": "loc-berlin",
+    "relationship": "based_at",
+    "dateStart": "1970",
+    "evidence": "The Berlin School of electronic music was named for Berlin, where Tangerine Dream, Klaus Schulze, and Ash Ra Tempel were based.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kankyo-based-tokyo",
+    "source": "entity-kankyo-ongaku",
+    "target": "loc-tokyo",
+    "relationship": "based_at",
+    "dateStart": "1980",
+    "evidence": "Kankyō ongaku (Japanese environmental music) was centered in Tokyo, developed by Yoshimura, Hosono, and Ashikawa.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dub-based-kingston",
+    "source": "entity-dub",
+    "target": "loc-kingston",
+    "relationship": "based_at",
+    "dateStart": "1968",
+    "evidence": "Dub music originated in Kingston, Jamaica, where King Tubby and Lee Scratch Perry developed the genre.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-futurism-based-milan",
+    "source": "entity-futurism",
+    "target": "loc-milan",
+    "relationship": "based_at",
+    "dateStart": "1909",
+    "evidence": "Italian Futurism was centered in Milan, where Marinetti published the first manifesto and Russolo built his intonarumori.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-krautrock-based-germany",
+    "source": "entity-krautrock",
+    "target": "loc-cologne",
+    "relationship": "based_at",
+    "dateStart": "1968",
+    "evidence": "While spread across Germany, many key Krautrock bands (Can, Faust) and producer Conny Plank were based in or near Cologne.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-sound-process-based-tokyo",
+    "source": "entity-sound-process",
+    "target": "loc-tokyo",
+    "relationship": "based_at",
+    "dateStart": "1982",
+    "evidence": "Sound Process label was founded in Tokyo by Satoshi Ashikawa to release Japanese environmental music.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-orb-based-london",
+    "source": "entity-the-orb",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "dateStart": "1988",
+    "evidence": "The Orb was formed in London and remained based there.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-klf-based-london",
+    "source": "entity-klf",
+    "target": "loc-london",
+    "relationship": "based_at",
+    "dateStart": "1987",
+    "dateEnd": "1992",
+    "evidence": "The KLF was based in London, operating from Jimmy Cauty's Trancentral studio.",
+    "strength": "strong"
+  },
+
+  {
+    "id": "edge-vcs3-developed-ems",
+    "source": "object-ems-vcs3",
+    "target": "loc-ems-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1969",
+    "evidence": "The VCS3 synthesizer was developed at EMS's studio in Putney, London.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-synthi-developed-ems",
+    "source": "object-ems-synthi-aks",
+    "target": "loc-ems-studio",
+    "relationship": "recorded_at",
+    "dateStart": "1972",
+    "evidence": "The Synthi AKS portable synthesizer was developed at EMS's London studio.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-buchla100-developed-sf",
+    "source": "object-buchla-100",
+    "target": "loc-san-francisco",
+    "relationship": "recorded_at",
+    "dateStart": "1966",
+    "evidence": "The Buchla 100 series was developed in San Francisco for the San Francisco Tape Music Center.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moog-modular-developed-nyc",
+    "source": "object-moog-modular",
+    "target": "loc-new-york",
+    "relationship": "recorded_at",
+    "dateStart": "1965",
+    "evidence": "The Moog Modular synthesizer was developed in New York State (Trumansburg) by Robert Moog.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-minimoog-developed-nyc",
+    "source": "object-minimoog",
+    "target": "loc-new-york",
+    "relationship": "recorded_at",
+    "dateStart": "1970",
+    "evidence": "The Minimoog was developed at Moog Music in New York State.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-theremin-developed-russia",
+    "source": "object-theremin",
+    "target": "loc-new-york",
+    "relationship": "recorded_at",
+    "dateStart": "1920",
+    "evidence": "While invented in Russia, the theremin was further developed and demonstrated by Theremin in New York from 1928.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ondes-developed-paris",
+    "source": "object-ondes-martenot",
+    "target": "loc-paris",
+    "relationship": "recorded_at",
+    "dateStart": "1928",
+    "evidence": "The ondes Martenot was invented and developed by Maurice Martenot in Paris.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-intonarumori-developed-milan",
+    "source": "object-intonarumori",
+    "target": "loc-milan",
+    "relationship": "recorded_at",
+    "dateStart": "1913",
+    "evidence": "Russolo built his intonarumori noise machines in Milan as part of the Italian Futurist movement.",
+    "strength": "strong"
   }
 ]
