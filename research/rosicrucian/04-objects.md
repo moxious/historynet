@@ -153,6 +153,58 @@
 
 ---
 
+## Hartlib Circle Publications
+
+### Pansophiae Prodromus (1639)
+- **Type**: philosophical treatise
+- **Creator**: Jan Amos Comenius
+- **Date**: 1639 (published in London by Hartlib)
+- **Language**: Latin
+- **Significance**: Blueprint for Comenius's system of universal wisdom (pansophia); foundational text for the Hartlib Circle's educational reform agenda
+- **Connections**: Published with Hartlib's assistance; influenced the entire reform movement; outlines integration of senses, reason, and revelation
+
+### Via Lucis (1641/1668)
+- **Type**: philosophical treatise
+- **Creator**: Jan Amos Comenius
+- **Date**: Written 1641; published 1668
+- **Language**: Latin
+- **Significance**: "The Way of Light" - proposed a universal college and universal language for spreading knowledge
+- **Connections**: Written during Comenius's visit to England at Hartlib's invitation; dedicated to Royal Society
+
+### Didactica Magna (c. 1633-1638)
+- **Type**: educational treatise
+- **Creator**: Jan Amos Comenius
+- **Date**: c. 1633-1638 (Latin edition 1657)
+- **Language**: Czech/Latin
+- **Significance**: "The Great Didactic" - comprehensive theory of education for all; foundational work in pedagogical theory
+- **Connections**: Core of Comenius's pansophic educational program; influenced by and influenced Hartlib Circle
+
+### The Holy Guide (1662)
+- **Type**: Rosicrucian treatise
+- **Creator**: John Heydon
+- **Date**: 1662
+- **Language**: English
+- **Significance**: Six-book work fusing Rosicrucian medicine, alchemy, and Baconian science; preface borrows from Bacon's New Atlantis
+- **Connections**: Heydon linked Bacon's Salomon's House to Rosicrucian Temple; represents English popularization of Rosicrucian ideas
+
+### The Reformed School (1648)
+- **Type**: educational treatise
+- **Creator**: John Dury (with Samuel Hartlib)
+- **Date**: 1648
+- **Language**: English
+- **Significance**: Educational manifesto proposing practical reform of schooling
+- **Connections**: Collaborative work of Hartlib and Dury; part of larger reform program
+
+### The Reformed Librarie-Keeper (1650)
+- **Type**: treatise on library science
+- **Creator**: John Dury
+- **Date**: 1650
+- **Language**: English
+- **Significance**: Early work on library organization and the role of librarians; pioneered concepts of library science
+- **Connections**: Part of Hartlib Circle's vision for organized knowledge; influenced later information management
+
+---
+
 ## Summary Statistics
 
 | Category | Count |
@@ -162,7 +214,8 @@
 | Alchemical-Hermetic | 5 |
 | Polemical | 3 |
 | Anthologies | 1 |
-| **Total** | **16** |
+| Hartlib Circle Publications | 6 |
+| **Total** | **22** |
 
 ---
 

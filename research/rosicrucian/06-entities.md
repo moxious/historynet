@@ -55,6 +55,15 @@
 - **Significance**: Preserved intellectual networks after the collapse of Protestant hopes in Bohemia; connection point between German and English intellectual traditions
 - **Sources**: Wikipedia, historical sources
 
+### Hartlib Circle
+- **Type**: informal intellectual/reform network
+- **Date Range**: c. 1630-1662
+- **Location**: London (center); European-wide correspondence network
+- **Description**: A loose network of scholars, reformers, educationalists, theologians, and natural philosophers centered on Samuel Hartlib and John Dury. Active roughly 1630-1660, it carried forward Rosicrucian ideals of universal reform into a practical program of educational and social improvement. The circle prefigured the Royal Society and embodied the transition from Rosicrucian utopianism to organized institutional science.
+- **Key Members**: Samuel Hartlib, John Dury, Jan Amos Comenius, Theodore Haak, Robert Boyle, William Petty, Katherine Jones (Lady Ranelagh), Thomas Henshaw
+- **Significance**: Transmitted Rosicrucian and pansophic ideals into English intellectual life; promoted educational reform; compiled over 25,000 folios of correspondence and papers; many members later joined Royal Society
+- **Sources**: Wikipedia, Sheffield Hartlib Papers Project, academic scholarship
+
 ---
 
 ## Fictional/Symbolic Entities

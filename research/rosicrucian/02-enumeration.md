@@ -348,6 +348,52 @@ These political figures were associated with hopes for a Protestant reformation 
 
 ---
 
+## Hartlib Circle (English Reform Network)
+
+The Hartlib Circle was a mid-17th century network of scholars, reformers, and natural philosophers centered on Samuel Hartlib in London. While later than the German Rosicrucian manifestos, this circle carried forward many of the same ideals of universal reform, pansophia (universal wisdom), and the integration of religious, scientific, and educational improvement.
+
+### Jan Amos Comenius (1592-1670)
+- **Role**: Czech educator, theologian, philosopher, pansophist
+- **Location**: Moravia (birth); exile in Poland, England, Sweden, Netherlands
+- **Significance**: Major intellectual ally of Hartlib; developed "pansophia" (universal wisdom); knew Andreae personally; read the Fama Fraternitatis in manuscript at Heidelberg (1612)
+- **Key Works**: *Pansophiae Prodromus* (1639), *Didactica Magna*, *Orbis Sensualium Pictus*, *Via Lucis*, *Labyrinth of the World and Paradise of the Heart*
+- **Connections**: Studied at Heidelberg and Herborn; knew Johann Heinrich Alsted; friend of Hartlib and Dury; influenced by Rosicrucian ideals
+- **Notes**: His "Labyrinth of the World" (1623) contains allegorical references to Rosicrucians; last bishop of the Unity of Brethren (Moravian Church)
+
+### Samuel Hartlib (c. 1600-1662)
+- **Role**: Intelligencer (knowledge broker), educational reformer, polymath
+- **Location**: Elbing (Prussia); later London
+- **Significance**: Central hub of an extensive correspondence network; promoted universal education and scientific reform; published and circulated ideas from Comenius and others
+- **Key Works**: *A Description of the Famous Kingdome of Macaria* (1641), numerous edited works and collections
+- **Connections**: Close collaborator with Comenius and Dury; corresponded with Boyle, Milton, and many European scholars; over 25,000 folios of papers survive
+- **Notes**: Born in Elbing to a merchant family; moved to England c. 1628; his circle prefigured the Royal Society
+
+### John Dury (1596-1680)
+- **Role**: Scottish Protestant minister, ecumenist, educational reformer
+- **Location**: Edinburgh (birth); Netherlands, Germany, England, Kassel
+- **Significance**: Lifelong work for Protestant unity (irenicism); collaborated with Hartlib on educational reform
+- **Key Works**: *The Reformed School* (1648, with Hartlib), *The Reformed Librarie-Keeper* (1650), works on Protestant unity
+- **Connections**: Close friend and collaborator of Hartlib; worked with Comenius; served under Cromwell; retired to Kassel (Hesse-Kassel)
+- **Notes**: His ecumenical vision sought to reconcile Lutheran and Reformed churches; pioneered library science concepts
+
+### John Heydon (1629-c. 1667)
+- **Role**: Astrologer, alchemist, Rosicrucian author, attorney
+- **Location**: London; travelled to Italy, Spain, Egypt, Arabia, Persia
+- **Significance**: Major English Rosicrucian author; fused Baconian science with Rosicrucian mysticism
+- **Key Works**: *The Holy Guide* (1662), *Theomagia* (1662-64), *The Wise Man's Crown, or The Glory of the Rosie-Cross* (1664)
+- **Connections**: Married widow of Nicholas Culpeper; criticized by Elias Ashmole as "an ignoramus and a cheate"; drew heavily on Bacon's New Atlantis
+- **Notes**: Imprisoned multiple times for predictions and alleged treason; Frances Yates described him as "of a most extreme type"
+
+### Thomas Henshaw (1618-1700)
+- **Role**: Alchemist, courtier, diplomat, founding Fellow of Royal Society
+- **Location**: London; Kensington
+- **Significance**: Active alchemist who claimed discovery of the alkahest (universal solvent); original Fellow of Royal Society; connected Hartlib circle to emerging institutional science
+- **Key Works**: Papers in *Philosophical Transactions* on saltpetre and experiments; translation of Semedo's *History of China* (1655)
+- **Connections**: Studied with William Oughtred; collaborated with Thomas Vaughan; corresponded with Hartlib; part of Robert Child's "chemical club"; Ashmole used his alchemical library
+- **Notes**: Used pseudonym "Halophilus"; became vice-president of Royal Society (1677); French Secretary to Charles II
+
+---
+
 ## Summary Statistics
 
 | Category | Count |
@@ -361,7 +407,8 @@ These political figures were associated with hopes for a Protestant reformation 
 | Prague Court Circle | 6 |
 | English Rosicrucians | 5 |
 | Political Patrons | 4 |
-| **Total Individuals** | **44** |
+| Hartlib Circle | 5 |
+| **Total Individuals** | **49** |
 
 ---
 
