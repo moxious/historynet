@@ -10,6 +10,8 @@
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%283x4_cropped%29.jpg/440px-Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%283x4_cropped%29.jpg",
     "biography": "Geoffrey Hinton is a pioneer of neural networks and deep learning, co-inventor of backpropagation, inventor of Boltzmann machines, and trained many key figures including Ilya Sutskever. He co-founded the Vector Institute and won the Turing Award in 2018. He resigned from Google in 2023 to speak freely about AI risks and won the Nobel Prize in Physics in 2024.",
+    "wikipediaTitle": "Geoffrey_Hinton",
+    "wikidataId": "Q7841039",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"}
     ]
@@ -25,6 +27,8 @@
     "birthPlace": "Paris, France",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Yoshua_Bengio_2019.jpg/440px-Yoshua_Bengio_2019.jpg",
     "biography": "Yoshua Bengio is a pioneer of deep learning with foundational work on word embeddings, sequence modeling, and generative models. He founded MILA (Montreal Institute for Learning Algorithms) and co-authored the 'Deep Learning' textbook. Won the Turing Award in 2018 alongside Hinton and LeCun.",
+    "wikipediaTitle": "Yoshua_Bengio",
+    "wikidataId": "Q5987936",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yoshua_Bengio"},
       {"label": "MILA", "url": "https://mila.quebec/en/yoshua-bengio"}
@@ -41,6 +45,8 @@
     "birthPlace": "Paris, France",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yann_LeCun_-_2018_%28cropped%29.jpg/440px-Yann_LeCun_-_2018_%28cropped%29.jpg",
     "biography": "Yann LeCun is a pioneer of convolutional neural networks and creator of LeNet. He founded Meta AI/FAIR in 2013 and serves as Chief AI Scientist at Meta. Won the Turing Award in 2018. Vocal advocate for open AI research and frequently debates AI safety concerns publicly.",
+    "wikipediaTitle": "Yann_LeCun",
+    "wikidataId": "Q1371324",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yann_LeCun"}
     ]
@@ -56,6 +62,8 @@
     "birthPlace": "Chicago, Illinois",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sam_Altman%2C_June_2023_%28GPOABG244%29_%28cropped%29.jpeg/440px-Sam_Altman%2C_June_2023_%28GPOABG244%29_%28cropped%29.jpeg",
     "biography": "Sam Altman is CEO of OpenAI and a central figure in commercializing LLMs. Former president of Y Combinator. Led OpenAI through GPT-3, ChatGPT, and GPT-4 releases. Briefly fired and reinstated during November 2023 board crisis.",
+    "wikipediaTitle": "Sam_Altman",
+    "wikidataId": "Q7407929",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sam_Altman"}
     ]
@@ -70,7 +78,12 @@
     "occupations": ["entrepreneur", "CEO"],
     "birthPlace": "Pretoria, South Africa",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Elon_Musk_-_March_28%2C_2024.jpg/440px-Elon_Musk_-_March_28%2C_2024.jpg",
-    "biography": "Elon Musk co-founded and funded early OpenAI, departing the board in 2018. Later founded xAI in 2023 and developed the Grok chatbot. Influential voice in AI discourse and has sued OpenAI over alleged mission drift."
+    "biography": "Elon Musk co-founded and funded early OpenAI, departing the board in 2018. Later founded xAI in 2023 and developed the Grok chatbot. Influential voice in AI discourse and has sued OpenAI over alleged mission drift.",
+    "wikipediaTitle": "Elon_Musk",
+    "wikidataId": "Q317521",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Elon_Musk"}
+    ]
   },
   {
     "id": "person-ilya-sutskever",
@@ -83,6 +96,8 @@
     "birthPlace": "Nizhny Novgorod, Russia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ilya_Sutskever_and_Sam_Altman_in_TAU_%28cropped%29.jpg/440px-Ilya_Sutskever_and_Sam_Altman_in_TAU_%28cropped%29.jpg",
     "biography": "Ilya Sutskever co-founded OpenAI and served as Chief Scientist. PhD under Geoffrey Hinton at University of Toronto. Co-author of AlexNet (2012) and key architect of GPT models. Departed OpenAI in May 2024 to found Safe Superintelligence Inc. (SSI). Was involved in November 2023 board crisis.",
+    "wikipediaTitle": "Ilya_Sutskever",
+    "wikidataId": "Q28738478",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ilya_Sutskever"}
     ]
@@ -96,7 +111,12 @@
     "nationality": "American",
     "occupations": ["engineer", "entrepreneur"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Greg_Brockman%2C_2019.jpg/440px-Greg_Brockman%2C_2019.jpg",
-    "biography": "Greg Brockman is co-founder and President of OpenAI. Former CTO of Stripe. Provides technical leadership and oversees engineering infrastructure. Took leave after November 2023 board crisis, later returned."
+    "biography": "Greg Brockman is co-founder and President of OpenAI. Former CTO of Stripe. Provides technical leadership and oversees engineering infrastructure. Took leave after November 2023 board crisis, later returned.",
+    "wikipediaTitle": "Greg_Brockman",
+    "wikidataId": "Q28733656",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Greg_Brockman"}
+    ]
   },
   {
     "id": "person-andrej-karpathy",
@@ -108,7 +128,12 @@
     "occupations": ["AI researcher", "educator"],
     "birthPlace": "Bratislava, Slovakia",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Andrej_Karpathy%2C_OpenAI.png/440px-Andrej_Karpathy%2C_OpenAI.png",
-    "biography": "Andrej Karpathy was a founding member of OpenAI and later served as Tesla's AI Director (2017-2022). PhD under Fei-Fei Li at Stanford. Known for educational content including CS231n course. Returned to OpenAI in 2023, then departed again. Prominent AI educator on YouTube."
+    "biography": "Andrej Karpathy was a founding member of OpenAI and later served as Tesla's AI Director (2017-2022). PhD under Fei-Fei Li at Stanford. Known for educational content including CS231n course. Returned to OpenAI in 2023, then departed again. Prominent AI educator on YouTube.",
+    "wikipediaTitle": "Andrej_Karpathy",
+    "wikidataId": "Q26884227",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andrej_Karpathy"}
+    ]
   },
   {
     "id": "person-john-schulman",
@@ -118,7 +143,12 @@
     "dateStart": "1988",
     "nationality": "American",
     "occupations": ["AI researcher"],
-    "biography": "John Schulman is a co-founder of OpenAI and creator of PPO (Proximal Policy Optimization), the algorithm fundamental to RLHF used in ChatGPT. UC Berkeley PhD. Later departed to join Anthropic."
+    "biography": "John Schulman is a co-founder of OpenAI and creator of PPO (Proximal Policy Optimization), the algorithm fundamental to RLHF used in ChatGPT. UC Berkeley PhD. Later departed to join Anthropic.",
+    "wikipediaTitle": "John_Schulman_(computer_scientist)",
+    "wikidataId": "Q64944657",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Schulman_(computer_scientist)"}
+    ]
   },
   {
     "id": "person-wojciech-zaremba",
@@ -129,7 +159,12 @@
     "nationality": "Polish-American",
     "occupations": ["AI researcher"],
     "birthPlace": "Poland",
-    "biography": "Wojciech Zaremba is a co-founder of OpenAI focusing on robotics, Codex (GitHub Copilot foundation), and vision systems. Led robotics efforts at OpenAI before team was dissolved."
+    "biography": "Wojciech Zaremba is a co-founder of OpenAI focusing on robotics, Codex (GitHub Copilot foundation), and vision systems. Led robotics efforts at OpenAI before team was dissolved.",
+    "wikipediaTitle": "Wojciech_Zaremba",
+    "wikidataId": "Q55609966",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Wojciech_Zaremba"}
+    ]
   },
   {
     "id": "person-durk-kingma",
@@ -140,7 +175,12 @@
     "nationality": "Dutch",
     "occupations": ["AI researcher"],
     "birthPlace": "Netherlands",
-    "biography": "Durk Kingma is co-founder of OpenAI and inventor of the Adam optimizer (most widely used in deep learning) and co-inventor of VAEs (Variational Auto-Encoders). PhD from University of Amsterdam. Later moved to Google Brain."
+    "biography": "Durk Kingma is co-founder of OpenAI and inventor of the Adam optimizer (most widely used in deep learning) and co-inventor of VAEs (Variational Auto-Encoders). PhD from University of Amsterdam. Later moved to Google Brain.",
+    "wikipediaTitle": "Diederik_P._Kingma",
+    "wikidataId": "Q56034965",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Diederik_P._Kingma"}
+    ]
   },
   {
     "id": "person-trevor-blackwell",
@@ -150,7 +190,12 @@
     "dateStart": "1968",
     "nationality": "American",
     "occupations": ["entrepreneur", "engineer"],
-    "biography": "Trevor Blackwell is a co-founder of OpenAI and Y Combinator partner. Founded Anybots (robotics company). Viaweb alumnus with Paul Graham. Less active in day-to-day OpenAI operations."
+    "biography": "Trevor Blackwell is a co-founder of OpenAI and Y Combinator partner. Founded Anybots (robotics company). Viaweb alumnus with Paul Graham. Less active in day-to-day OpenAI operations.",
+    "wikipediaTitle": "Trevor_Blackwell",
+    "wikidataId": "Q7838396",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Trevor_Blackwell"}
+    ]
   },
   {
     "id": "person-vicki-cheung",
@@ -158,7 +203,8 @@
     "title": "Vicki Cheung",
     "shortDescription": "Co-founder of OpenAI; infrastructure engineer",
     "occupations": ["engineer"],
-    "biography": "Vicki Cheung is a co-founder of OpenAI focusing on infrastructure engineering. Previously worked at Stripe."
+    "biography": "Vicki Cheung is a co-founder of OpenAI focusing on infrastructure engineering. Previously worked at Stripe.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-pamela-vagata",
@@ -166,7 +212,8 @@
     "title": "Pamela Vagata",
     "shortDescription": "Early OpenAI engineer; infrastructure contributor",
     "occupations": ["engineer"],
-    "biography": "Pamela Vagata was an early engineer at OpenAI working on infrastructure. Previously worked at Stripe."
+    "biography": "Pamela Vagata was an early engineer at OpenAI working on infrastructure. Previously worked at Stripe.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-alec-radford",
@@ -176,7 +223,8 @@
     "dateStart": "1993",
     "nationality": "American",
     "occupations": ["AI researcher"],
-    "biography": "Alec Radford is a research scientist at OpenAI since its early days. Primary author on GPT-1, GPT-2, CLIP, and DALL-E papers. Rarely gives interviews but considered one of most impactful researchers in the field."
+    "biography": "Alec Radford is a research scientist at OpenAI since its early days. Primary author on GPT-1, GPT-2, CLIP, and DALL-E papers. Rarely gives interviews but considered one of most impactful researchers in the field.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-mira-murati",
@@ -187,7 +235,12 @@
     "nationality": "Albanian-American",
     "occupations": ["engineer", "executive"],
     "birthPlace": "Vlorë, Albania",
-    "biography": "Mira Murati served as CTO of OpenAI from May 2022 to September 2024. Oversaw ChatGPT and DALL-E development. Served as interim CEO during November 2023 crisis. Departed in September 2024."
+    "biography": "Mira Murati served as CTO of OpenAI from May 2022 to September 2024. Oversaw ChatGPT and DALL-E development. Served as interim CEO during November 2023 crisis. Departed in September 2024.",
+    "wikipediaTitle": "Mira_Murati",
+    "wikidataId": "Q110560178",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mira_Murati"}
+    ]
   },
   {
     "id": "person-aditya-ramesh",
@@ -195,7 +248,8 @@
     "title": "Aditya Ramesh",
     "shortDescription": "Research scientist at OpenAI; lead researcher on DALL-E",
     "occupations": ["AI researcher"],
-    "biography": "Aditya Ramesh is a research scientist at OpenAI and lead researcher on DALL-E, DALL-E 2, and DALL-E 3. Key figure in text-to-image AI."
+    "biography": "Aditya Ramesh is a research scientist at OpenAI and lead researcher on DALL-E, DALL-E 2, and DALL-E 3. Key figure in text-to-image AI.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-mark-chen",
@@ -203,7 +257,8 @@
     "title": "Mark Chen",
     "shortDescription": "Research scientist at OpenAI; co-lead on DALL-E, Codex, GPT-4V",
     "occupations": ["AI researcher"],
-    "biography": "Mark Chen is a research scientist at OpenAI and co-lead on DALL-E 2, Codex, and GPT-4V. Led vision aspects of GPT-4 multimodal."
+    "biography": "Mark Chen is a research scientist at OpenAI and co-lead on DALL-E 2, Codex, and GPT-4V. Led vision aspects of GPT-4 multimodal.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-jan-leike",
@@ -211,7 +266,12 @@
     "title": "Jan Leike",
     "shortDescription": "Former head of Superalignment at OpenAI; departed citing safety concerns; joined Anthropic",
     "occupations": ["AI safety researcher"],
-    "biography": "Jan Leike led OpenAI's superalignment effort until departing in May 2024, citing concerns about safety prioritization. Worked with Sutskever on superalignment. Joined Anthropic after departure."
+    "biography": "Jan Leike led OpenAI's superalignment effort until departing in May 2024, citing concerns about safety prioritization. Worked with Sutskever on superalignment. Joined Anthropic after departure.",
+    "wikipediaTitle": "Jan_Leike",
+    "wikidataId": "Q130449908",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jan_Leike"}
+    ]
   },
   {
     "id": "person-barret-zoph",
@@ -219,7 +279,8 @@
     "title": "Barret Zoph",
     "shortDescription": "Former VP of Research at OpenAI; neural architecture search pioneer",
     "occupations": ["AI researcher", "executive"],
-    "biography": "Barret Zoph served as VP of Research at OpenAI. Pioneer of Neural Architecture Search (NAS). Formerly at Google Brain. Departed OpenAI in 2024."
+    "biography": "Barret Zoph served as VP of Research at OpenAI. Pioneer of Neural Architecture Search (NAS). Formerly at Google Brain. Departed OpenAI in 2024.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-lukasz-kaiser",
@@ -227,7 +288,12 @@
     "title": "Łukasz Kaiser",
     "shortDescription": "Research scientist at OpenAI; co-author of Transformer paper",
     "occupations": ["AI researcher"],
-    "biography": "Łukasz Kaiser is a research scientist at OpenAI and co-author of 'Attention Is All You Need' (Transformer paper). Joined OpenAI from Google Brain in 2021. Created Tensor2Tensor framework."
+    "biography": "Łukasz Kaiser is a research scientist at OpenAI and co-author of 'Attention Is All You Need' (Transformer paper). Joined OpenAI from Google Brain in 2021. Created Tensor2Tensor framework.",
+    "wikipediaTitle": "Łukasz_Kaiser",
+    "wikidataId": "Q57430008",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/%C5%81ukasz_Kaiser"}
+    ]
   },
   {
     "id": "person-dario-amodei",
@@ -238,7 +304,12 @@
     "nationality": "American",
     "occupations": ["AI researcher", "CEO"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg/440px-Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
-    "biography": "Dario Amodei co-founded Anthropic in 2021 after leaving his role as VP of Research at OpenAI. PhD in biophysics from Princeton. Left OpenAI over safety disagreements. Creator of Constitutional AI and Claude models."
+    "biography": "Dario Amodei co-founded Anthropic in 2021 after leaving his role as VP of Research at OpenAI. PhD in biophysics from Princeton. Left OpenAI over safety disagreements. Creator of Constitutional AI and Claude models.",
+    "wikipediaTitle": "Dario_Amodei",
+    "wikidataId": "Q108741568",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dario_Amodei"}
+    ]
   },
   {
     "id": "person-daniela-amodei",
@@ -249,7 +320,12 @@
     "nationality": "American",
     "occupations": ["executive"],
     "birthPlace": "San Francisco, California",
-    "biography": "Daniela Amodei co-founded Anthropic with her brother Dario, serving as President. BA in English Literature. Previously led safety and policy at OpenAI."
+    "biography": "Daniela Amodei co-founded Anthropic with her brother Dario, serving as President. BA in English Literature. Previously led safety and policy at OpenAI.",
+    "wikipediaTitle": "Daniela_Amodei",
+    "wikidataId": "Q108743009",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniela_Amodei"}
+    ]
   },
   {
     "id": "person-jared-kaplan",
@@ -259,7 +335,12 @@
     "dateStart": "1983",
     "nationality": "American",
     "occupations": ["AI researcher", "physicist"],
-    "biography": "Jared Kaplan is co-founder and Chief Science Officer at Anthropic. Key researcher on neural scaling laws. Physics PhD. Former Johns Hopkins professor. Scaling laws work foundational to LLM development."
+    "biography": "Jared Kaplan is co-founder and Chief Science Officer at Anthropic. Key researcher on neural scaling laws. Physics PhD. Former Johns Hopkins professor. Scaling laws work foundational to LLM development.",
+    "wikipediaTitle": "Jared_Kaplan_(physicist)",
+    "wikidataId": "Q108742236",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jared_Kaplan_(physicist)"}
+    ]
   },
   {
     "id": "person-jack-clark",
@@ -267,7 +348,12 @@
     "title": "Jack Clark",
     "shortDescription": "Co-founder of Anthropic; Head of Policy; former OpenAI Policy Director",
     "occupations": ["AI policy researcher"],
-    "biography": "Jack Clark co-founded Anthropic serving as Head of Policy. Previously Policy Director at OpenAI. Co-chairs AI Index at Stanford. Former journalist covering AI."
+    "biography": "Jack Clark co-founded Anthropic serving as Head of Policy. Previously Policy Director at OpenAI. Co-chairs AI Index at Stanford. Former journalist covering AI.",
+    "wikipediaTitle": "Jack_Clark_(AI_researcher)",
+    "wikidataId": "Q108742779",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jack_Clark_(AI_researcher)"}
+    ]
   },
   {
     "id": "person-tom-brown",
@@ -277,7 +363,12 @@
     "dateStart": "1987-04-01",
     "nationality": "American",
     "occupations": ["AI researcher"],
-    "biography": "Tom Brown co-founded Anthropic and serves as Chief Compute Officer. Lead author of the GPT-3 paper ('Language Models are Few-Shot Learners'), one of the most cited AI papers."
+    "biography": "Tom Brown co-founded Anthropic and serves as Chief Compute Officer. Lead author of the GPT-3 paper ('Language Models are Few-Shot Learners'), one of the most cited AI papers.",
+    "wikipediaTitle": "Tom_Brown_(AI_researcher)",
+    "wikidataId": "Q108741880",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tom_Brown_(AI_researcher)"}
+    ]
   },
   {
     "id": "person-sam-mccandlish",
@@ -285,7 +376,8 @@
     "title": "Sam McCandlish",
     "shortDescription": "Co-founder of Anthropic; scaling laws researcher",
     "occupations": ["AI researcher"],
-    "biography": "Sam McCandlish co-founded Anthropic. Known for research on scaling laws and model capabilities. Former OpenAI researcher."
+    "biography": "Sam McCandlish co-founded Anthropic. Known for research on scaling laws and model capabilities. Former OpenAI researcher.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-chris-olah",
@@ -295,7 +387,12 @@
     "dateStart": "1992",
     "nationality": "Canadian",
     "occupations": ["AI researcher"],
-    "biography": "Chris Olah co-founded Anthropic focusing on interpretability research. Pioneer of neural network visualization and interpretability. Self-taught researcher. Founded Distill.pub. Previously at Google Brain and OpenAI. Thiel Fellow in 2012."
+    "biography": "Chris Olah co-founded Anthropic focusing on interpretability research. Pioneer of neural network visualization and interpretability. Self-taught researcher. Founded Distill.pub. Previously at Google Brain and OpenAI. Thiel Fellow in 2012.",
+    "wikipediaTitle": "Christopher_Olah",
+    "wikidataId": "Q108742500",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christopher_Olah"}
+    ]
   },
   {
     "id": "person-niki-parmar",
@@ -303,7 +400,8 @@
     "title": "Niki Parmar",
     "shortDescription": "Co-author of Transformer paper; co-founder of Adept and Essential AI; joined Anthropic (Dec 2024)",
     "occupations": ["AI researcher"],
-    "biography": "Niki Parmar is co-author of 'Attention Is All You Need' (Transformer paper). Co-founded Adept with Vaswani, then Essential AI. Joined Anthropic in December 2024."
+    "biography": "Niki Parmar is co-author of 'Attention Is All You Need' (Transformer paper). Co-founded Adept with Vaswani, then Essential AI. Joined Anthropic in December 2024.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-demis-hassabis",
@@ -316,6 +414,8 @@
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/440px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg",
     "biography": "Demis Hassabis co-founded DeepMind in 2010 and serves as CEO of Google DeepMind. Led AlphaGo, AlphaFold breakthroughs. Former child chess prodigy and video game designer (Theme Park). PhD in cognitive neuroscience. Won Nobel Prize in Chemistry (2024) for AlphaFold.",
+    "wikipediaTitle": "Demis_Hassabis",
+    "wikidataId": "Q19845246",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Demis_Hassabis"}
     ]
@@ -330,7 +430,12 @@
     "occupations": ["AI researcher"],
     "birthPlace": "New Zealand",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Shane_Legg.jpg/440px-Shane_Legg.jpg",
-    "biography": "Shane Legg co-founded DeepMind with Hassabis and Suleyman. Chief AGI Scientist. Theoretical work on artificial general intelligence. PhD under Marcus Hutter. Co-coined the term 'AGI'."
+    "biography": "Shane Legg co-founded DeepMind with Hassabis and Suleyman. Chief AGI Scientist. Theoretical work on artificial general intelligence. PhD under Marcus Hutter. Co-coined the term 'AGI'.",
+    "wikipediaTitle": "Shane_Legg",
+    "wikidataId": "Q7489091",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Shane_Legg"}
+    ]
   },
   {
     "id": "person-mustafa-suleyman",
@@ -342,7 +447,12 @@
     "occupations": ["AI researcher", "entrepreneur", "executive"],
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Mustafa_Suleyman_photo.jpg/440px-Mustafa_Suleyman_photo.jpg",
-    "biography": "Mustafa Suleyman co-founded DeepMind in 2010. Left to found Inflection AI in 2022 (Pi chatbot). Joined Microsoft as EVP and CEO of Microsoft AI in 2024. Author of 'The Coming Wave' (2023)."
+    "biography": "Mustafa Suleyman co-founded DeepMind in 2010. Left to found Inflection AI in 2022 (Pi chatbot). Joined Microsoft as EVP and CEO of Microsoft AI in 2024. Author of 'The Coming Wave' (2023).",
+    "wikipediaTitle": "Mustafa_Suleyman",
+    "wikidataId": "Q30593017",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mustafa_Suleyman"}
+    ]
   },
   {
     "id": "person-john-jumper",
@@ -354,7 +464,12 @@
     "occupations": ["AI researcher", "computational biologist"],
     "birthPlace": "Little Rock, Arkansas",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/John_Jumper%2C_2024_Nobel_Prize_Laureate_in_Chemistry_%283x4_cropped%29.jpg/440px-John_Jumper%2C_2024_Nobel_Prize_Laureate_in_Chemistry_%283x4_cropped%29.jpg",
-    "biography": "John Jumper is a Director at Google DeepMind and led AlphaFold2 development, solving protein structure prediction. PhD in chemistry from University of Chicago. Won Nobel Prize in Chemistry (2024) with Hassabis."
+    "biography": "John Jumper is a Director at Google DeepMind and led AlphaFold2 development, solving protein structure prediction. PhD in chemistry from University of Chicago. Won Nobel Prize in Chemistry (2024) with Hassabis.",
+    "wikipediaTitle": "John_Jumper",
+    "wikidataId": "Q115667430",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Jumper"}
+    ]
   },
   {
     "id": "person-david-silver",
@@ -365,7 +480,12 @@
     "nationality": "British",
     "occupations": ["AI researcher", "professor"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/David_Silver.jpg/440px-David_Silver.jpg",
-    "biography": "David Silver is Principal Research Scientist at DeepMind and led AlphaGo, AlphaZero, and AlphaStar projects. UCL professor. PhD under Richard Sutton. Key architect of game-playing AI systems."
+    "biography": "David Silver is Principal Research Scientist at DeepMind and led AlphaGo, AlphaZero, and AlphaStar projects. UCL professor. PhD under Richard Sutton. Key architect of game-playing AI systems.",
+    "wikipediaTitle": "David_Silver_(computer_scientist)",
+    "wikidataId": "Q23831774",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)"}
+    ]
   },
   {
     "id": "person-aja-huang",
@@ -374,7 +494,12 @@
     "shortDescription": "Research scientist at Google DeepMind; major contributor to AlphaGo",
     "nationality": "Taiwanese-American",
     "occupations": ["AI researcher"],
-    "biography": "Aja Huang is a research scientist at DeepMind and major contributor to AlphaGo implementation. Actually played the moves in the historic AlphaGo vs. Lee Sedol match."
+    "biography": "Aja Huang is a research scientist at DeepMind and major contributor to AlphaGo implementation. Actually played the moves in the historic AlphaGo vs. Lee Sedol match.",
+    "wikipediaTitle": "Aja_Huang",
+    "wikidataId": "Q23831959",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Aja_Huang"}
+    ]
   },
   {
     "id": "person-pushmeet-kohli",
@@ -382,7 +507,12 @@
     "title": "Pushmeet Kohli",
     "shortDescription": "VP of Research at Google DeepMind; leads AI for Science initiatives",
     "occupations": ["AI researcher", "executive"],
-    "biography": "Pushmeet Kohli is VP of Research at Google DeepMind. Leads AI for Science and responsible AI initiatives. Computer vision research background."
+    "biography": "Pushmeet Kohli is VP of Research at Google DeepMind. Leads AI for Science and responsible AI initiatives. Computer vision research background.",
+    "wikipediaTitle": "Pushmeet_Kohli",
+    "wikidataId": "Q55641992",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pushmeet_Kohli"}
+    ]
   },
   {
     "id": "person-oriol-vinyals",
@@ -392,7 +522,12 @@
     "dateStart": "1983",
     "nationality": "Spanish",
     "occupations": ["AI researcher", "executive"],
-    "biography": "Oriol Vinyals is VP of Research at Google DeepMind and Gemini co-lead. Key researcher on sequence-to-sequence learning, AlphaStar. Formerly at Google Brain."
+    "biography": "Oriol Vinyals is VP of Research at Google DeepMind and Gemini co-lead. Key researcher on sequence-to-sequence learning, AlphaStar. Formerly at Google Brain.",
+    "wikipediaTitle": "Oriol_Vinyals",
+    "wikidataId": "Q35064943",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Oriol_Vinyals"}
+    ]
   },
   {
     "id": "person-jeff-dean",
@@ -403,7 +538,12 @@
     "nationality": "American",
     "occupations": ["computer scientist", "executive"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jeff_Dean_in_2025_02.jpg/440px-Jeff_Dean_in_2025_02.jpg",
-    "biography": "Jeff Dean is Chief Scientist at Google and Google DeepMind. Co-founded Google Brain with Andrew Ng and Greg Corrado. Built foundational Google infrastructure (MapReduce). Google employee #30. One of most influential engineers in history."
+    "biography": "Jeff Dean is Chief Scientist at Google and Google DeepMind. Co-founded Google Brain with Andrew Ng and Greg Corrado. Built foundational Google infrastructure (MapReduce). Google employee #30. One of most influential engineers in history.",
+    "wikipediaTitle": "Jeff_Dean",
+    "wikidataId": "Q6176204",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jeff_Dean"}
+    ]
   },
   {
     "id": "person-andrew-ng",
@@ -415,7 +555,12 @@
     "occupations": ["AI researcher", "entrepreneur", "educator"],
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg/440px-Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg",
-    "biography": "Andrew Ng co-founded Google Brain with Jeff Dean. Stanford professor. Co-founded Coursera with Daphne Koller. Former Chief Scientist at Baidu (2014-2017). Founder of DeepLearning.AI. Popularized deep learning through massive open online courses."
+    "biography": "Andrew Ng co-founded Google Brain with Jeff Dean. Stanford professor. Co-founded Coursera with Daphne Koller. Former Chief Scientist at Baidu (2014-2017). Founder of DeepLearning.AI. Popularized deep learning through massive open online courses.",
+    "wikipediaTitle": "Andrew_Ng",
+    "wikidataId": "Q9381540",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andrew_Ng"}
+    ]
   },
   {
     "id": "person-greg-corrado",
@@ -423,7 +568,12 @@
     "title": "Greg Corrado",
     "shortDescription": "Research scientist at Google; co-founder of Google Brain",
     "occupations": ["AI researcher"],
-    "biography": "Greg Corrado co-founded Google Brain with Jeff Dean and Andrew Ng. Background in computational neuroscience. Led work on RankBrain and other Google AI applications."
+    "biography": "Greg Corrado co-founded Google Brain with Jeff Dean and Andrew Ng. Background in computational neuroscience. Led work on RankBrain and other Google AI applications.",
+    "wikipediaTitle": "Greg_Corrado",
+    "wikidataId": "Q24709116",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Greg_Corrado"}
+    ]
   },
   {
     "id": "person-quoc-le",
@@ -433,7 +583,12 @@
     "dateStart": "1982",
     "nationality": "Vietnamese-American",
     "occupations": ["AI researcher"],
-    "biography": "Quoc V. Le is a research scientist at Google Brain/DeepMind. Key researcher in AutoML and neural architecture search. Student of Andrew Ng at Stanford."
+    "biography": "Quoc V. Le is a research scientist at Google Brain/DeepMind. Key researcher in AutoML and neural architecture search. Student of Andrew Ng at Stanford.",
+    "wikipediaTitle": "Quoc_Viet_Le",
+    "wikidataId": "Q22908016",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Quoc_Viet_Le"}
+    ]
   },
   {
     "id": "person-samy-bengio",
@@ -443,7 +598,12 @@
     "dateStart": "1965",
     "nationality": "Canadian",
     "occupations": ["AI researcher", "executive"],
-    "biography": "Samy Bengio is Senior Director at Apple AI. Former Google Brain researcher. Brother of Yoshua Bengio. Led machine learning research at Google. Joined Apple in 2021."
+    "biography": "Samy Bengio is Senior Director at Apple AI. Former Google Brain researcher. Brother of Yoshua Bengio. Led machine learning research at Google. Joined Apple in 2021.",
+    "wikipediaTitle": "Samy_Bengio",
+    "wikidataId": "Q60740282",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Samy_Bengio"}
+    ]
   },
   {
     "id": "person-noam-shazeer",
@@ -454,7 +614,12 @@
     "nationality": "American",
     "occupations": ["AI researcher", "entrepreneur"],
     "birthPlace": "Philadelphia, Pennsylvania",
-    "biography": "Noam Shazeer is co-author of 'Attention Is All You Need' (Transformer paper). Left Google to found Character.AI (2021), then returned to Google (2024) as VP of Engineering co-leading Gemini. Created Meena chatbot."
+    "biography": "Noam Shazeer is co-author of 'Attention Is All You Need' (Transformer paper). Left Google to found Character.AI (2021), then returned to Google (2024) as VP of Engineering co-leading Gemini. Created Meena chatbot.",
+    "wikipediaTitle": "Noam_Shazeer",
+    "wikidataId": "Q57431260",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Noam_Shazeer"}
+    ]
   },
   {
     "id": "person-ashish-vaswani",
@@ -465,7 +630,12 @@
     "nationality": "Indian-American",
     "occupations": ["AI researcher", "entrepreneur"],
     "birthPlace": "India",
-    "biography": "Ashish Vaswani is co-inventor of the Transformer architecture ('Attention Is All You Need'). Former Google Brain. Co-founded Adept, then Essential AI. Transformers are foundation of all modern LLMs."
+    "biography": "Ashish Vaswani is co-inventor of the Transformer architecture ('Attention Is All You Need'). Former Google Brain. Co-founded Adept, then Essential AI. Transformers are foundation of all modern LLMs.",
+    "wikipediaTitle": "Ashish_Vaswani",
+    "wikidataId": "Q56062424",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ashish_Vaswani"}
+    ]
   },
   {
     "id": "person-jakob-uszkoreit",
@@ -473,7 +643,12 @@
     "title": "Jakob Uszkoreit",
     "shortDescription": "Co-inventor of Transformer; co-founder of Inceptive",
     "occupations": ["AI researcher", "entrepreneur"],
-    "biography": "Jakob Uszkoreit is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Inceptive, a biotech company using AI for RNA drug design."
+    "biography": "Jakob Uszkoreit is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Inceptive, a biotech company using AI for RNA drug design.",
+    "wikipediaTitle": "Jakob_Uszkoreit",
+    "wikidataId": "Q57430055",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jakob_Uszkoreit"}
+    ]
   },
   {
     "id": "person-llion-jones",
@@ -482,7 +657,12 @@
     "shortDescription": "Co-inventor of Transformer; co-founder and CTO of Sakana AI",
     "occupations": ["AI researcher", "entrepreneur"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Llion_Jones%2C_author_of_Attention_is_All_You_Need%2C_at_CIC_Tokyo_speaking_about_sakana.ai.jpg/440px-Llion_Jones%2C_author_of_Attention_is_All_You_Need%2C_at_CIC_Tokyo_speaking_about_sakana.ai.jpg",
-    "biography": "Llion Jones is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Sakana AI in Tokyo with David Ha, focusing on nature-inspired AI research."
+    "biography": "Llion Jones is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Sakana AI in Tokyo with David Ha, focusing on nature-inspired AI research.",
+    "wikipediaTitle": "Llion_Jones",
+    "wikidataId": "Q57430117",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Llion_Jones"}
+    ]
   },
   {
     "id": "person-aidan-gomez",
@@ -493,7 +673,12 @@
     "nationality": "Canadian",
     "occupations": ["AI researcher", "entrepreneur"],
     "birthPlace": "Toronto, Ontario, Canada",
-    "biography": "Aidan Gomez is co-inventor of the Transformer architecture (was an intern at Google at the time). Co-founded Cohere in 2019, serving as CEO. Major enterprise LLM provider."
+    "biography": "Aidan Gomez is co-inventor of the Transformer architecture (was an intern at Google at the time). Co-founded Cohere in 2019, serving as CEO. Major enterprise LLM provider.",
+    "wikipediaTitle": "Aidan_Gomez",
+    "wikidataId": "Q57430148",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Aidan_Gomez"}
+    ]
   },
   {
     "id": "person-illia-polosukhin",
@@ -501,7 +686,12 @@
     "title": "Illia Polosukhin",
     "shortDescription": "Co-inventor of Transformer; co-founder of NEAR Protocol",
     "occupations": ["AI researcher", "entrepreneur"],
-    "biography": "Illia Polosukhin is co-inventor of the Transformer architecture. Former Google researcher. Co-founded NEAR Protocol, pivoting from AI to blockchain/Web3."
+    "biography": "Illia Polosukhin is co-inventor of the Transformer architecture. Former Google researcher. Co-founded NEAR Protocol, pivoting from AI to blockchain/Web3.",
+    "wikipediaTitle": "Illia_Polosukhin",
+    "wikidataId": "Q57430190",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Illia_Polosukhin"}
+    ]
   },
   {
     "id": "person-alex-krizhevsky",
@@ -512,7 +702,12 @@
     "nationality": "Ukrainian-Canadian",
     "occupations": ["AI researcher"],
     "birthPlace": "Ukraine",
-    "biography": "Alex Krizhevsky co-created AlexNet, which won ImageNet 2012 and triggered the deep learning revolution. PhD under Geoffrey Hinton. Co-founded DNNresearch (acquired by Google) with Hinton and Sutskever."
+    "biography": "Alex Krizhevsky co-created AlexNet, which won ImageNet 2012 and triggered the deep learning revolution. PhD under Geoffrey Hinton. Co-founded DNNresearch (acquired by Google) with Hinton and Sutskever.",
+    "wikipediaTitle": "Alex_Krizhevsky",
+    "wikidataId": "Q22078899",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Alex_Krizhevsky"}
+    ]
   },
   {
     "id": "person-ruslan-salakhutdinov",
@@ -523,7 +718,12 @@
     "nationality": "Canadian",
     "occupations": ["AI researcher", "professor"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Russ_Salakhutdinov.jpg/440px-Russ_Salakhutdinov.jpg",
-    "biography": "Ruslan Salakhutdinov is Professor at Carnegie Mellon and former Apple AI Director. PhD under Geoffrey Hinton. Pioneer of deep generative models and Boltzmann machines."
+    "biography": "Ruslan Salakhutdinov is Professor at Carnegie Mellon and former Apple AI Director. PhD under Geoffrey Hinton. Pioneer of deep generative models and Boltzmann machines.",
+    "wikipediaTitle": "Russ_Salakhutdinov",
+    "wikidataId": "Q7381579",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Russ_Salakhutdinov"}
+    ]
   },
   {
     "id": "person-yee-whye-teh",
@@ -533,7 +733,12 @@
     "dateStart": "1977",
     "nationality": "Malaysian-British",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Yee-Whye Teh is Professor at Oxford and Research Scientist at Google DeepMind. PhD under Geoffrey Hinton. Expert in Bayesian nonparametrics and deep learning theory."
+    "biography": "Yee-Whye Teh is Professor at Oxford and Research Scientist at Google DeepMind. PhD under Geoffrey Hinton. Expert in Bayesian nonparametrics and deep learning theory.",
+    "wikipediaTitle": "Yee-Whye_Teh",
+    "wikidataId": "Q8050866",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yee-Whye_Teh"}
+    ]
   },
   {
     "id": "person-george-dahl",
@@ -541,7 +746,8 @@
     "title": "George Dahl",
     "shortDescription": "Research scientist at Google DeepMind; deep learning for speech and chemistry",
     "occupations": ["AI researcher"],
-    "biography": "George Dahl is a research scientist at Google DeepMind. PhD under Geoffrey Hinton. Applied deep learning to speech recognition and molecular property prediction."
+    "biography": "George Dahl is a research scientist at Google DeepMind. PhD under Geoffrey Hinton. Applied deep learning to speech recognition and molecular property prediction.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-nitish-srivastava",
@@ -549,7 +755,8 @@
     "title": "Nitish Srivastava",
     "shortDescription": "Co-inventor of Dropout regularization technique",
     "occupations": ["AI researcher"],
-    "biography": "Nitish Srivastava co-invented Dropout regularization technique, used in virtually all modern neural networks. PhD under Hinton and Salakhutdinov at University of Toronto."
+    "biography": "Nitish Srivastava co-invented Dropout regularization technique, used in virtually all modern neural networks. PhD under Hinton and Salakhutdinov at University of Toronto.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-ian-goodfellow",
@@ -560,7 +767,12 @@
     "nationality": "American",
     "occupations": ["AI researcher"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ian_Goodfellow_%28cropped%29.jpg/440px-Ian_Goodfellow_%28cropped%29.jpg",
-    "biography": "Ian Goodfellow invented Generative Adversarial Networks (GANs) in 2014. Co-authored the 'Deep Learning' textbook with Bengio and Courville. PhD under Bengio and Courville at Université de Montréal. Worked at Google Brain, OpenAI, Apple."
+    "biography": "Ian Goodfellow invented Generative Adversarial Networks (GANs) in 2014. Co-authored the 'Deep Learning' textbook with Bengio and Courville. PhD under Bengio and Courville at Université de Montréal. Worked at Google Brain, OpenAI, Apple.",
+    "wikipediaTitle": "Ian_Goodfellow",
+    "wikidataId": "Q27311979",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ian_Goodfellow"}
+    ]
   },
   {
     "id": "person-aaron-courville",
@@ -568,7 +780,12 @@
     "title": "Aaron Courville",
     "shortDescription": "Professor at Université de Montréal; MILA core member; co-author of Deep Learning textbook",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Aaron Courville is Professor at Université de Montréal and MILA core member. Co-authored the 'Deep Learning' textbook with Goodfellow and Bengio. Co-supervised Ian Goodfellow's PhD."
+    "biography": "Aaron Courville is Professor at Université de Montréal and MILA core member. Co-authored the 'Deep Learning' textbook with Goodfellow and Bengio. Co-supervised Ian Goodfellow's PhD.",
+    "wikipediaTitle": "Aaron_Courville",
+    "wikidataId": "Q27312191",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Aaron_Courville"}
+    ]
   },
   {
     "id": "person-kyunghyun-cho",
@@ -578,7 +795,12 @@
     "dateStart": "1985",
     "nationality": "South Korean",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Kyunghyun Cho is Professor at NYU and Senior Director at Genentech. Co-inventor of the GRU (Gated Recurrent Unit) architecture with Bengio. Former MILA postdoc."
+    "biography": "Kyunghyun Cho is Professor at NYU and Senior Director at Genentech. Co-inventor of the GRU (Gated Recurrent Unit) architecture with Bengio. Former MILA postdoc.",
+    "wikipediaTitle": "Kyunghyun_Cho",
+    "wikidataId": "Q60740345",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kyunghyun_Cho"}
+    ]
   },
   {
     "id": "person-pascal-vincent",
@@ -586,7 +808,8 @@
     "title": "Pascal Vincent",
     "shortDescription": "Professor at Université de Montréal; Research Scientist at Meta; denoising autoencoders pioneer",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Pascal Vincent is Professor at Université de Montréal and Research Scientist at Meta FAIR. MILA core member. Pioneer of denoising autoencoders and representation learning."
+    "biography": "Pascal Vincent is Professor at Université de Montréal and Research Scientist at Meta FAIR. MILA core member. Pioneer of denoising autoencoders and representation learning.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-doina-precup",
@@ -598,7 +821,12 @@
     "occupations": ["AI researcher", "professor"],
     "birthPlace": "Cluj-Napoca, Romania",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Doina_Precup_with_Ian_Kerr.jpg/440px-Doina_Precup_with_Ian_Kerr.jpg",
-    "biography": "Doina Precup is Professor at McGill and Research Team Lead at Google DeepMind Montreal. Expert in reinforcement learning theory and temporal abstraction. MILA member."
+    "biography": "Doina Precup is Professor at McGill and Research Team Lead at Google DeepMind Montreal. Expert in reinforcement learning theory and temporal abstraction. MILA member.",
+    "wikipediaTitle": "Doina_Precup",
+    "wikidataId": "Q29039302",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Doina_Precup"}
+    ]
   },
   {
     "id": "person-fei-fei-li",
@@ -610,7 +838,12 @@
     "occupations": ["AI researcher", "professor"],
     "birthPlace": "Beijing, China",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fei-Fei_Li_at_AI_for_Good_2017.jpg/440px-Fei-Fei_Li_at_AI_for_Good_2017.jpg",
-    "biography": "Fei-Fei Li is Professor at Stanford and Co-director of Stanford HAI. Creator of ImageNet, which enabled the deep learning revolution in computer vision. Trained Andrej Karpathy, Timnit Gebru, and Olga Russakovsky. Founded AI4ALL."
+    "biography": "Fei-Fei Li is Professor at Stanford and Co-director of Stanford HAI. Creator of ImageNet, which enabled the deep learning revolution in computer vision. Trained Andrej Karpathy, Timnit Gebru, and Olga Russakovsky. Founded AI4ALL.",
+    "wikipediaTitle": "Fei-Fei_Li",
+    "wikidataId": "Q8991031",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fei-Fei_Li"}
+    ]
   },
   {
     "id": "person-pieter-abbeel",
@@ -622,7 +855,12 @@
     "occupations": ["AI researcher", "professor", "entrepreneur"],
     "birthPlace": "Antwerp, Belgium",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Pieter_Abbeel_pictured_at_CovariantHQ_in_November_2017.jpg/440px-Pieter_Abbeel_pictured_at_CovariantHQ_in_November_2017.jpg",
-    "biography": "Pieter Abbeel is Professor at UC Berkeley and co-founder of Covariant (robotics). First PhD student of Andrew Ng at Stanford. Pioneer of robot learning and deep reinforcement learning. BAIR director."
+    "biography": "Pieter Abbeel is Professor at UC Berkeley and co-founder of Covariant (robotics). First PhD student of Andrew Ng at Stanford. Pioneer of robot learning and deep reinforcement learning. BAIR director.",
+    "wikipediaTitle": "Pieter_Abbeel",
+    "wikidataId": "Q7193306",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Pieter_Abbeel"}
+    ]
   },
   {
     "id": "person-daphne-koller",
@@ -634,7 +872,12 @@
     "occupations": ["AI researcher", "professor", "entrepreneur"],
     "birthPlace": "Jerusalem, Israel",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Daphne_Koller_2019.jpg/440px-Daphne_Koller_2019.jpg",
-    "biography": "Daphne Koller is co-founder of Coursera and CEO of Insitro. Stanford professor. Expert in probabilistic graphical models. Pioneer of MOOCs. Now applying ML to drug discovery."
+    "biography": "Daphne Koller is co-founder of Coursera and CEO of Insitro. Stanford professor. Expert in probabilistic graphical models. Pioneer of MOOCs. Now applying ML to drug discovery.",
+    "wikipediaTitle": "Daphne_Koller",
+    "wikidataId": "Q450599",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daphne_Koller"}
+    ]
   },
   {
     "id": "person-timnit-gebru",
@@ -645,7 +888,12 @@
     "nationality": "Ethiopian-American",
     "occupations": ["AI researcher"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Timnit_Gebru_crop.jpg/440px-Timnit_Gebru_crop.jpg",
-    "biography": "Timnit Gebru is founder of DAIR Institute. PhD under Fei-Fei Li at Stanford. Pioneer of AI ethics. Co-author of Gender Shades (facial recognition bias study). Controversially fired from Google in 2020. Leading voice on AI ethics."
+    "biography": "Timnit Gebru is founder of DAIR Institute. PhD under Fei-Fei Li at Stanford. Pioneer of AI ethics. Co-author of Gender Shades (facial recognition bias study). Controversially fired from Google in 2020. Leading voice on AI ethics.",
+    "wikipediaTitle": "Timnit_Gebru",
+    "wikidataId": "Q47488089",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Timnit_Gebru"}
+    ]
   },
   {
     "id": "person-olga-russakovsky",
@@ -653,7 +901,12 @@
     "title": "Olga Russakovsky",
     "shortDescription": "Professor at Princeton; ImageNet co-creator; AI fairness researcher",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Olga Russakovsky is Professor at Princeton. PhD under Fei-Fei Li. Key contributor to ImageNet. Co-founder of AI4ALL. Research focuses on computer vision and AI fairness."
+    "biography": "Olga Russakovsky is Professor at Princeton. PhD under Fei-Fei Li. Key contributor to ImageNet. Co-founder of AI4ALL. Research focuses on computer vision and AI fairness.",
+    "wikipediaTitle": "Olga_Russakovsky",
+    "wikidataId": "Q21545259",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Olga_Russakovsky"}
+    ]
   },
   {
     "id": "person-richard-socher",
@@ -664,7 +917,12 @@
     "nationality": "German-American",
     "occupations": ["AI researcher", "entrepreneur"],
     "birthPlace": "Dresden, Germany",
-    "biography": "Richard Socher is founder and CEO of you.com and former Salesforce Chief Scientist. PhD at Stanford (Manning, Ng). Pioneer of deep learning for NLP and recursive neural networks."
+    "biography": "Richard Socher is founder and CEO of you.com and former Salesforce Chief Scientist. PhD at Stanford (Manning, Ng). Pioneer of deep learning for NLP and recursive neural networks.",
+    "wikipediaTitle": "Richard_Socher",
+    "wikidataId": "Q25460599",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_Socher"}
+    ]
   },
   {
     "id": "person-joelle-pineau",
@@ -676,7 +934,12 @@
     "occupations": ["AI researcher", "professor", "executive"],
     "birthPlace": "Ottawa, Ontario, Canada",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jo%C3%ABlle_Pineau_at_the_Canada_Science_and_Technology_Museum.jpg/440px-Jo%C3%ABlle_Pineau_at_the_Canada_Science_and_Technology_Museum.jpg",
-    "biography": "Joelle Pineau is VP of AI Research at Meta and Professor at McGill. MILA core member. Expert in reinforcement learning and healthcare AI. Strong advocate for reproducible research."
+    "biography": "Joelle Pineau is VP of AI Research at Meta and Professor at McGill. MILA core member. Expert in reinforcement learning and healthcare AI. Strong advocate for reproducible research.",
+    "wikipediaTitle": "Joelle_Pineau",
+    "wikidataId": "Q56603936",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Joelle_Pineau"}
+    ]
   },
   {
     "id": "person-jerome-pesenti",
@@ -684,7 +947,12 @@
     "title": "Jerome Pesenti",
     "shortDescription": "Former VP of AI at Meta (2018-2022); scaled Meta's AI efforts",
     "occupations": ["executive"],
-    "biography": "Jerome Pesenti served as VP of AI at Meta from 2018 to 2022, overseeing FAIR expansion. Previously at IBM Watson. Left Meta in 2022."
+    "biography": "Jerome Pesenti served as VP of AI at Meta from 2018 to 2022, overseeing FAIR expansion. Previously at IBM Watson. Left Meta in 2022.",
+    "wikipediaTitle": "Jerome_Pesenti",
+    "wikidataId": "Q6181986",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jerome_Pesenti"}
+    ]
   },
   {
     "id": "person-hugo-touvron",
@@ -692,7 +960,8 @@
     "title": "Hugo Touvron",
     "shortDescription": "Research scientist at Meta; lead researcher on LLaMA models",
     "occupations": ["AI researcher"],
-    "biography": "Hugo Touvron is a research scientist at Meta FAIR in Paris and lead researcher on LLaMA, LLaMA 2, and LLaMA 3 models. Key figure in open-weight LLM movement."
+    "biography": "Hugo Touvron is a research scientist at Meta FAIR in Paris and lead researcher on LLaMA, LLaMA 2, and LLaMA 3 models. Key figure in open-weight LLM movement.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-guillaume-lample",
@@ -702,7 +971,12 @@
     "dateStart": "1990-10-08",
     "nationality": "French",
     "occupations": ["AI researcher"],
-    "biography": "Guillaume Lample is Chief Scientist at Mistral AI and former Meta FAIR researcher. Co-author of LLaMA. Expert in unsupervised machine translation. École Polytechnique alumnus. Co-founded Mistral with Mensch and Lacroix."
+    "biography": "Guillaume Lample is Chief Scientist at Mistral AI and former Meta FAIR researcher. Co-author of LLaMA. Expert in unsupervised machine translation. École Polytechnique alumnus. Co-founded Mistral with Mensch and Lacroix.",
+    "wikipediaTitle": "Guillaume_Lample",
+    "wikidataId": "Q118283055",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Guillaume_Lample"}
+    ]
   },
   {
     "id": "person-armand-joulin",
@@ -710,7 +984,8 @@
     "title": "Armand Joulin",
     "shortDescription": "Research scientist at Meta FAIR; fastText creator; efficient NLP expert",
     "occupations": ["AI researcher"],
-    "biography": "Armand Joulin is a research scientist at Meta FAIR. Creator of fastText. Expert in efficient NLP methods and word embeddings."
+    "biography": "Armand Joulin is a research scientist at Meta FAIR. Creator of fastText. Expert in efficient NLP methods and word embeddings.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-baptiste-roziere",
@@ -718,7 +993,8 @@
     "title": "Baptiste Rozière",
     "shortDescription": "Research scientist at Meta; lead on Code Llama",
     "occupations": ["AI researcher"],
-    "biography": "Baptiste Rozière is a research scientist at Meta and lead on Code Llama. Expert in code generation and TransCoder."
+    "biography": "Baptiste Rozière is a research scientist at Meta and lead on Code Llama. Expert in code generation and TransCoder.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-naman-goyal",
@@ -726,7 +1002,8 @@
     "title": "Naman Goyal",
     "shortDescription": "Research scientist at Meta; work on multilingual models and LLaMA",
     "occupations": ["AI researcher"],
-    "biography": "Naman Goyal is a research scientist at Meta. Contributed to LLaMA development and multilingual NLP research."
+    "biography": "Naman Goyal is a research scientist at Meta. Contributed to LLaMA development and multilingual NLP research.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-timothee-lacroix",
@@ -735,7 +1012,8 @@
     "shortDescription": "CTO of Mistral AI; former Meta researcher",
     "nationality": "French",
     "occupations": ["AI researcher", "executive"],
-    "biography": "Timothée Lacroix is CTO of Mistral AI and former Meta researcher. École Polytechnique alumnus. Co-founded Mistral with Lample and Mensch."
+    "biography": "Timothée Lacroix is CTO of Mistral AI and former Meta researcher. École Polytechnique alumnus. Co-founded Mistral with Lample and Mensch.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-arthur-mensch",
@@ -746,7 +1024,12 @@
     "nationality": "French",
     "occupations": ["AI researcher", "entrepreneur"],
     "birthPlace": "Sèvres, France",
-    "biography": "Arthur Mensch is co-founder and CEO of Mistral AI. Former Google DeepMind researcher. École Polytechnique alumnus. Leads major European AI company."
+    "biography": "Arthur Mensch is co-founder and CEO of Mistral AI. Former Google DeepMind researcher. École Polytechnique alumnus. Leads major European AI company.",
+    "wikipediaTitle": "Arthur_Mensch",
+    "wikidataId": "Q118282911",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Arthur_Mensch"}
+    ]
   },
   {
     "id": "person-igor-babuschkin",
@@ -754,7 +1037,8 @@
     "title": "Igor Babuschkin",
     "shortDescription": "Co-founder and former Chief Engineer at xAI; former DeepMind researcher",
     "occupations": ["AI researcher"],
-    "biography": "Igor Babuschkin co-founded xAI with Elon Musk and led Grok development. Former DeepMind researcher. Departed xAI in 2025."
+    "biography": "Igor Babuschkin co-founded xAI with Elon Musk and led Grok development. Former DeepMind researcher. Departed xAI in 2025.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-tony-wu",
@@ -762,7 +1046,8 @@
     "title": "Yuhuai \"Tony\" Wu",
     "shortDescription": "Co-founder at xAI; mathematical reasoning researcher",
     "occupations": ["AI researcher"],
-    "biography": "Yuhuai 'Tony' Wu co-founded xAI. Former DeepMind researcher. Focus on mathematical reasoning in AI."
+    "biography": "Yuhuai 'Tony' Wu co-founded xAI. Former DeepMind researcher. Focus on mathematical reasoning in AI.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-christian-szegedy",
@@ -770,7 +1055,12 @@
     "title": "Christian Szegedy",
     "shortDescription": "Co-founder at xAI; creator of Inception/GoogLeNet; adversarial examples pioneer",
     "occupations": ["AI researcher"],
-    "biography": "Christian Szegedy co-founded xAI. Former Google researcher. Creator of Inception/GoogLeNet (won ImageNet 2014). Pioneer of adversarial examples research."
+    "biography": "Christian Szegedy co-founded xAI. Former Google researcher. Creator of Inception/GoogLeNet (won ImageNet 2014). Pioneer of adversarial examples research.",
+    "wikipediaTitle": "Christian_Szegedy",
+    "wikidataId": "Q21167448",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Christian_Szegedy"}
+    ]
   },
   {
     "id": "person-jimmy-ba",
@@ -778,7 +1068,12 @@
     "title": "Jimmy Ba",
     "shortDescription": "Professor at University of Toronto; co-inventor of Layer Normalization and Adam optimizer",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Jimmy Ba is Professor at University of Toronto. Co-inventor of Layer Normalization (used in all transformers) and co-author of Adam optimizer paper with Kingma. Works with Hinton."
+    "biography": "Jimmy Ba is Professor at University of Toronto. Co-inventor of Layer Normalization (used in all transformers) and co-author of Adam optimizer paper with Kingma. Works with Hinton.",
+    "wikipediaTitle": "Jimmy_Ba",
+    "wikidataId": "Q115591629",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jimmy_Ba"}
+    ]
   },
   {
     "id": "person-clement-delangue",
@@ -789,7 +1084,12 @@
     "nationality": "French",
     "occupations": ["entrepreneur", "executive"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cl%C3%A9ment_Delangue_on_SiliconANGLE_theCUBE.jpg/440px-Cl%C3%A9ment_Delangue_on_SiliconANGLE_theCUBE.jpg",
-    "biography": "Clément Delangue is co-founder and CEO of Hugging Face. Built dominant platform for AI model sharing. Former product manager. Made AI models accessible to developers worldwide."
+    "biography": "Clément Delangue is co-founder and CEO of Hugging Face. Built dominant platform for AI model sharing. Former product manager. Made AI models accessible to developers worldwide.",
+    "wikipediaTitle": "Clem_Delangue",
+    "wikidataId": "Q117270377",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Clem_Delangue"}
+    ]
   },
   {
     "id": "person-julien-chaumond",
@@ -798,7 +1098,8 @@
     "shortDescription": "Co-founder and CTO of Hugging Face",
     "nationality": "French",
     "occupations": ["engineer", "executive"],
-    "biography": "Julien Chaumond is co-founder and CTO of Hugging Face. Technical leadership of Hugging Face platform and infrastructure."
+    "biography": "Julien Chaumond is co-founder and CTO of Hugging Face. Technical leadership of Hugging Face platform and infrastructure.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-thomas-wolf",
@@ -807,7 +1108,8 @@
     "shortDescription": "Co-founder and Chief Science Officer of Hugging Face; created Transformers library",
     "nationality": "French",
     "occupations": ["AI researcher", "executive"],
-    "biography": "Thomas Wolf is co-founder and Chief Science Officer of Hugging Face. Originally created the Transformers library. Physics PhD background."
+    "biography": "Thomas Wolf is co-founder and Chief Science Officer of Hugging Face. Originally created the Transformers library. Physics PhD background.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-margaret-mitchell",
@@ -815,7 +1117,12 @@
     "title": "Margaret Mitchell",
     "shortDescription": "Chief AI Ethics Scientist at Hugging Face; creator of Model Cards",
     "occupations": ["AI researcher"],
-    "biography": "Margaret Mitchell is Chief AI Ethics Scientist at Hugging Face. Former Google researcher. Co-authored influential Model Cards paper. Pioneer of AI ethics and model documentation."
+    "biography": "Margaret Mitchell is Chief AI Ethics Scientist at Hugging Face. Former Google researcher. Co-authored influential Model Cards paper. Pioneer of AI ethics and model documentation.",
+    "wikipediaTitle": "Margaret_Mitchell_(scientist)",
+    "wikidataId": "Q106409817",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Margaret_Mitchell_(scientist)"}
+    ]
   },
   {
     "id": "person-emad-mostaque",
@@ -826,7 +1133,12 @@
     "nationality": "British",
     "occupations": ["entrepreneur"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mostaque.jpg/440px-Mostaque.jpg",
-    "biography": "Emad Mostaque co-founded Stability AI and brought Stable Diffusion to market. Stepped down as CEO in March 2024 amid controversy over credit attribution and business challenges."
+    "biography": "Emad Mostaque co-founded Stability AI and brought Stable Diffusion to market. Stepped down as CEO in March 2024 amid controversy over credit attribution and business challenges.",
+    "wikipediaTitle": "Emad_Mostaque",
+    "wikidataId": "Q113414756",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Emad_Mostaque"}
+    ]
   },
   {
     "id": "person-robin-rombach",
@@ -835,7 +1147,12 @@
     "shortDescription": "Lead inventor of Latent Diffusion/Stable Diffusion",
     "nationality": "German",
     "occupations": ["AI researcher"],
-    "biography": "Robin Rombach is lead inventor of Latent Diffusion Models and Stable Diffusion. PhD at LMU Munich under Björn Ommer. Joined then departed Stability AI in 2024."
+    "biography": "Robin Rombach is lead inventor of Latent Diffusion Models and Stable Diffusion. PhD at LMU Munich under Björn Ommer. Joined then departed Stability AI in 2024.",
+    "wikipediaTitle": "Robin_Rombach",
+    "wikidataId": "Q113500048",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Robin_Rombach"}
+    ]
   },
   {
     "id": "person-andreas-blattmann",
@@ -844,7 +1161,8 @@
     "shortDescription": "Co-inventor of Stable Diffusion; video generation researcher",
     "nationality": "German",
     "occupations": ["AI researcher"],
-    "biography": "Andreas Blattmann is co-inventor of Stable Diffusion and key contributor to Stable Video Diffusion. LMU Munich researcher. Departed Stability AI."
+    "biography": "Andreas Blattmann is co-inventor of Stable Diffusion and key contributor to Stable Video Diffusion. LMU Munich researcher. Departed Stability AI.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-ivan-zhang",
@@ -852,7 +1170,8 @@
     "title": "Ivan Zhang",
     "shortDescription": "Co-founder of Cohere",
     "occupations": ["entrepreneur"],
-    "biography": "Ivan Zhang co-founded Cohere with Aidan Gomez and Nick Frosst. Toronto-based enterprise LLM company."
+    "biography": "Ivan Zhang co-founded Cohere with Aidan Gomez and Nick Frosst. Toronto-based enterprise LLM company.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-nick-frosst",
@@ -860,7 +1179,8 @@
     "title": "Nick Frosst",
     "shortDescription": "Co-founder of Cohere; former Google Brain researcher; worked with Hinton on capsule networks",
     "occupations": ["AI researcher", "entrepreneur"],
-    "biography": "Nick Frosst co-founded Cohere. Former Google Brain researcher who worked with Geoffrey Hinton on capsule networks. Bridged Hinton's research to commercial applications."
+    "biography": "Nick Frosst co-founded Cohere. Former Google Brain researcher who worked with Geoffrey Hinton on capsule networks. Bridged Hinton's research to commercial applications.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-richard-sutton",
@@ -873,6 +1193,8 @@
     "birthPlace": "Ohio, United States",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Richard_Sutton_-_Brains%40Bay_Meetup.jpg/440px-Richard_Sutton_-_Brains%40Bay_Meetup.jpg",
     "biography": "Richard Sutton is Professor at University of Alberta and 'father of reinforcement learning'. Inventor of temporal difference learning. Co-authored foundational RL textbook with Barto. Trained David Silver. His 'Bitter Lesson' essay highly influential in AI philosophy.",
+    "wikipediaTitle": "Richard_S._Sutton",
+    "wikidataId": "Q7330296",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton"}
     ]
@@ -886,6 +1208,8 @@
     "nationality": "American",
     "occupations": ["AI researcher", "professor"],
     "biography": "Michael I. Jordan is Professor at UC Berkeley. Pioneer of probabilistic graphical models and variational inference. Trained many leading researchers including Yoshua Bengio (postdoc) and Zoubin Ghahramani. One of most influential ML researchers.",
+    "wikipediaTitle": "Michael_I._Jordan",
+    "wikidataId": "Q1927926",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_I._Jordan"}
     ]
@@ -896,7 +1220,12 @@
     "title": "David Ha",
     "shortDescription": "Co-founder of Sakana AI; former Google Brain researcher; creative AI research",
     "occupations": ["AI researcher", "entrepreneur"],
-    "biography": "David Ha co-founded Sakana AI with Llion Jones. Former Google Brain researcher. Known for creative and artistic AI research including World Models and NeuroEvolution."
+    "biography": "David Ha co-founded Sakana AI with Llion Jones. Former Google Brain researcher. Known for creative and artistic AI research including World Models and NeuroEvolution.",
+    "wikipediaTitle": "David_Ha_(computer_scientist)",
+    "wikidataId": "Q126330684",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/David_Ha_(computer_scientist)"}
+    ]
   },
   {
     "id": "person-percy-liang",
@@ -904,7 +1233,12 @@
     "title": "Percy Liang",
     "shortDescription": "Professor at Stanford; Director of Stanford HAI; AI benchmarking pioneer",
     "occupations": ["AI researcher", "professor"],
-    "biography": "Percy Liang is Professor at Stanford and leads Stanford HAI with Fei-Fei Li. Creator of HELM benchmark. Important voice on AI evaluation and accountability."
+    "biography": "Percy Liang is Professor at Stanford and leads Stanford HAI with Fei-Fei Li. Creator of HELM benchmark. Important voice on AI evaluation and accountability.",
+    "wikipediaTitle": "Percy_Liang",
+    "wikidataId": "Q56677851",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Percy_Liang"}
+    ]
   },
   {
     "id": "object-transformer-paper",
@@ -916,6 +1250,8 @@
     "creators": ["person-ashish-vaswani", "person-noam-shazeer", "person-niki-parmar", "person-jakob-uszkoreit", "person-llion-jones", "person-aidan-gomez", "person-lukasz-kaiser", "person-illia-polosukhin"],
     "language": "English",
     "subject": "machine learning, natural language processing",
+    "wikipediaTitle": "Attention_Is_All_You_Need",
+    "wikidataId": "Q108765213",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1706.03762"}
     ]
@@ -929,7 +1265,12 @@
     "dateStart": "2012-12",
     "creators": ["person-alex-krizhevsky", "person-ilya-sutskever", "person-geoffrey-hinton"],
     "language": "English",
-    "subject": "computer vision, deep learning"
+    "subject": "computer vision, deep learning",
+    "wikipediaTitle": "AlexNet",
+    "wikidataId": "Q16520311",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/AlexNet"}
+    ]
   },
   {
     "id": "object-gan-paper",
@@ -941,6 +1282,8 @@
     "creators": ["person-ian-goodfellow", "person-yoshua-bengio", "person-aaron-courville"],
     "language": "English",
     "subject": "generative models, machine learning",
+    "wikipediaTitle": "Generative_adversarial_network",
+    "wikidataId": "Q25347847",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1406.2661"}
     ]
@@ -955,6 +1298,7 @@
     "creators": ["person-durk-kingma", "person-jimmy-ba"],
     "language": "English",
     "subject": "optimization, machine learning",
+    "wikipediaTitle": null,
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1412.6980"}
     ]
@@ -968,7 +1312,12 @@
     "dateStart": "2014",
     "creators": ["person-nitish-srivastava", "person-geoffrey-hinton", "person-alex-krizhevsky", "person-ilya-sutskever", "person-ruslan-salakhutdinov"],
     "language": "English",
-    "subject": "regularization, machine learning"
+    "subject": "regularization, machine learning",
+    "wikipediaTitle": "Dropout_(neural_networks)",
+    "wikidataId": "Q26903314",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Dropout_(neural_networks)"}
+    ]
   },
   {
     "id": "object-gpt1",
@@ -978,7 +1327,12 @@
     "shortDescription": "First GPT model; established pre-training + fine-tuning paradigm",
     "dateStart": "2018-06",
     "creators": ["person-alec-radford", "person-ilya-sutskever"],
-    "subject": "language models"
+    "subject": "language models",
+    "wikipediaTitle": "GPT-1",
+    "wikidataId": "Q115646799",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/GPT-1"}
+    ]
   },
   {
     "id": "object-gpt2",
@@ -988,7 +1342,12 @@
     "shortDescription": "Scaled GPT to 1.5B parameters; first 'too dangerous to release' AI",
     "dateStart": "2019-02",
     "creators": ["person-alec-radford", "person-dario-amodei", "person-ilya-sutskever"],
-    "subject": "language models"
+    "subject": "language models",
+    "wikipediaTitle": "GPT-2",
+    "wikidataId": "Q65089522",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/GPT-2"}
+    ]
   },
   {
     "id": "object-gpt3",
@@ -999,6 +1358,8 @@
     "dateStart": "2020-05",
     "creators": ["person-tom-brown"],
     "subject": "language models",
+    "wikipediaTitle": "GPT-3",
+    "wikidataId": "Q97252119",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/2005.14165"}
     ]
@@ -1010,7 +1371,12 @@
     "objectType": "AI model",
     "shortDescription": "Multimodal model accepting text and images; significant capability leap",
     "dateStart": "2023-03",
-    "subject": "language models, multimodal AI"
+    "subject": "language models, multimodal AI",
+    "wikipediaTitle": "GPT-4",
+    "wikidataId": "Q116709893",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/GPT-4"}
+    ]
   },
   {
     "id": "object-chatgpt",
@@ -1019,7 +1385,12 @@
     "objectType": "AI product",
     "shortDescription": "Conversational AI that reached 100M users in 2 months",
     "dateStart": "2022-11-30",
-    "subject": "conversational AI"
+    "subject": "conversational AI",
+    "wikipediaTitle": "ChatGPT",
+    "wikidataId": "Q115035180",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/ChatGPT"}
+    ]
   },
   {
     "id": "object-dalle",
@@ -1029,7 +1400,12 @@
     "shortDescription": "First large-scale text-to-image generation system",
     "dateStart": "2021-01",
     "creators": ["person-aditya-ramesh", "person-alec-radford", "person-mark-chen", "person-ilya-sutskever"],
-    "subject": "image generation"
+    "subject": "image generation",
+    "wikipediaTitle": "DALL-E",
+    "wikidataId": "Q104831864",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/DALL-E"}
+    ]
   },
   {
     "id": "object-clip",
@@ -1040,6 +1416,8 @@
     "dateStart": "2021-01",
     "creators": ["person-alec-radford", "person-aditya-ramesh"],
     "subject": "multimodal AI",
+    "wikipediaTitle": "CLIP_(language_model)",
+    "wikidataId": "Q120206584",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/2103.00020"}
     ]
@@ -1052,7 +1430,12 @@
     "shortDescription": "GPT-3 fine-tuned on code; powers GitHub Copilot",
     "dateStart": "2021-08",
     "creators": ["person-wojciech-zaremba", "person-mark-chen"],
-    "subject": "code generation"
+    "subject": "code generation",
+    "wikipediaTitle": "OpenAI_Codex",
+    "wikidataId": "Q107588589",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/OpenAI_Codex"}
+    ]
   },
   {
     "id": "object-claude",
@@ -1061,7 +1444,12 @@
     "objectType": "AI model",
     "shortDescription": "Anthropic's conversational AI trained with Constitutional AI",
     "dateStart": "2023-03",
-    "subject": "conversational AI, AI safety"
+    "subject": "conversational AI, AI safety",
+    "wikipediaTitle": "Claude_(language_model)",
+    "wikidataId": "Q116965708",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Claude_(language_model)"}
+    ]
   },
   {
     "id": "object-constitutional-ai",
@@ -1071,6 +1459,8 @@
     "shortDescription": "Training AI to be helpful, harmless, and honest using AI-generated critiques",
     "dateStart": "2022-12",
     "subject": "AI safety, alignment",
+    "wikipediaTitle": "Constitutional_AI",
+    "wikidataId": "Q120201695",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/2212.08073"}
     ]
@@ -1084,6 +1474,8 @@
     "dateStart": "2020-01",
     "creators": ["person-jared-kaplan", "person-sam-mccandlish", "person-tom-brown"],
     "subject": "scaling laws, machine learning",
+    "wikipediaTitle": "Neural_scaling_law",
+    "wikidataId": "Q110561437",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/2001.08361"}
     ]
@@ -1097,6 +1489,8 @@
     "dateStart": "2023-02",
     "creators": ["person-hugo-touvron", "person-guillaume-lample"],
     "subject": "language models",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/2302.13971"}
     ]
@@ -1109,7 +1503,9 @@
     "shortDescription": "First major truly open-weight competitive LLM with commercial license",
     "dateStart": "2023-07",
     "creators": ["person-hugo-touvron"],
-    "subject": "language models"
+    "subject": "language models",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906"
   },
   {
     "id": "object-code-llama",
@@ -1119,7 +1515,12 @@
     "shortDescription": "Code-specialized LLaMA variants",
     "dateStart": "2023-08",
     "creators": ["person-baptiste-roziere"],
-    "subject": "code generation"
+    "subject": "code generation",
+    "wikipediaTitle": "Code_Llama",
+    "wikidataId": "Q120696689",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Code_Llama"}
+    ]
   },
   {
     "id": "object-alphago",
@@ -1129,7 +1530,12 @@
     "shortDescription": "First AI to defeat a professional Go player",
     "dateStart": "2016-01",
     "creators": ["person-david-silver", "person-aja-huang", "person-demis-hassabis"],
-    "subject": "game playing, reinforcement learning"
+    "subject": "game playing, reinforcement learning",
+    "wikipediaTitle": "AlphaGo",
+    "wikidataId": "Q19829553",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/AlphaGo"}
+    ]
   },
   {
     "id": "object-alphafold2",
@@ -1139,7 +1545,12 @@
     "shortDescription": "Solved protein structure prediction at atomic accuracy; Nobel Prize 2024",
     "dateStart": "2020-11",
     "creators": ["person-john-jumper", "person-demis-hassabis"],
-    "subject": "protein folding, computational biology"
+    "subject": "protein folding, computational biology",
+    "wikipediaTitle": "AlphaFold",
+    "wikidataId": "Q66091709",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/AlphaFold"}
+    ]
   },
   {
     "id": "object-gemini",
@@ -1149,7 +1560,12 @@
     "shortDescription": "Google DeepMind's natively multimodal LLM family",
     "dateStart": "2023-12",
     "creators": ["person-demis-hassabis", "person-jeff-dean", "person-oriol-vinyals", "person-noam-shazeer"],
-    "subject": "language models, multimodal AI"
+    "subject": "language models, multimodal AI",
+    "wikipediaTitle": "Gemini_(chatbot)",
+    "wikidataId": "Q118389636",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Gemini_(chatbot)"}
+    ]
   },
   {
     "id": "object-tensorflow",
@@ -1159,7 +1575,12 @@
     "shortDescription": "Open-source machine learning framework from Google",
     "dateStart": "2015-11",
     "creators": ["person-jeff-dean"],
-    "subject": "machine learning"
+    "subject": "machine learning",
+    "wikipediaTitle": "TensorFlow",
+    "wikidataId": "Q21447974",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/TensorFlow"}
+    ]
   },
   {
     "id": "object-bert",
@@ -1170,6 +1591,8 @@
     "dateStart": "2018-10",
     "creators": ["person-jacob-devlin"],
     "subject": "natural language processing",
+    "wikipediaTitle": "BERT_(language_model)",
+    "wikidataId": "Q60751127",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1810.04805"}
     ]
@@ -1183,6 +1606,8 @@
     "dateStart": "2013-01",
     "creators": ["person-tomas-mikolov", "person-greg-corrado", "person-jeff-dean"],
     "subject": "natural language processing",
+    "wikipediaTitle": "Word2vec",
+    "wikidataId": "Q18685271",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1301.3781"}
     ]
@@ -1195,7 +1620,9 @@
     "shortDescription": "Efficient 7B model outperforming LLaMA 2 13B",
     "dateStart": "2023-09",
     "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
-    "subject": "language models"
+    "subject": "language models",
+    "wikipediaTitle": "Mistral_AI#Models",
+    "wikidataId": "Q118473029"
   },
   {
     "id": "object-stable-diffusion",
@@ -1205,7 +1632,12 @@
     "shortDescription": "Open-source latent diffusion model for text-to-image generation",
     "dateStart": "2022-08",
     "creators": ["person-robin-rombach", "person-andreas-blattmann"],
-    "subject": "image generation"
+    "subject": "image generation",
+    "wikipediaTitle": "Stable_Diffusion",
+    "wikidataId": "Q113414728",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Stable_Diffusion"}
+    ]
   },
   {
     "id": "object-transformers-library",
@@ -1215,7 +1647,8 @@
     "shortDescription": "Open-source library for using pre-trained Transformer models",
     "dateStart": "2019-10",
     "creators": ["person-thomas-wolf"],
-    "subject": "machine learning"
+    "subject": "machine learning",
+    "wikipediaTitle": null
   },
   {
     "id": "object-grok",
@@ -1225,7 +1658,12 @@
     "shortDescription": "xAI's conversational AI integrated with X platform",
     "dateStart": "2023-11",
     "creators": ["person-elon-musk", "person-igor-babuschkin"],
-    "subject": "conversational AI"
+    "subject": "conversational AI",
+    "wikipediaTitle": "Grok_(chatbot)",
+    "wikidataId": "Q122645637",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)"}
+    ]
   },
   {
     "id": "object-deep-learning-book",
@@ -1237,6 +1675,8 @@
     "creators": ["person-ian-goodfellow", "person-yoshua-bengio", "person-aaron-courville"],
     "language": "English",
     "subject": "deep learning",
+    "wikipediaTitle": "Deep_Learning_(book)",
+    "wikidataId": "Q28153721",
     "externalLinks": [
       {"label": "Book Website", "url": "https://www.deeplearningbook.org/"}
     ]
@@ -1250,7 +1690,12 @@
     "dateStart": "1998",
     "creators": ["person-richard-sutton"],
     "language": "English",
-    "subject": "reinforcement learning"
+    "subject": "reinforcement learning",
+    "wikipediaTitle": "Reinforcement_Learning:_An_Introduction",
+    "wikidataId": "Q7310217",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Reinforcement_Learning:_An_Introduction"}
+    ]
   },
   {
     "id": "object-cs231n",
@@ -1260,7 +1705,8 @@
     "shortDescription": "Influential Stanford deep learning course",
     "dateStart": "2015",
     "creators": ["person-fei-fei-li", "person-andrej-karpathy"],
-    "subject": "computer vision, deep learning"
+    "subject": "computer vision, deep learning",
+    "wikipediaTitle": null
   },
   {
     "id": "object-coursera-ml",
@@ -1270,7 +1716,8 @@
     "shortDescription": "First major ML MOOC; millions of enrollees",
     "dateStart": "2011",
     "creators": ["person-andrew-ng"],
-    "subject": "machine learning"
+    "subject": "machine learning",
+    "wikipediaTitle": null
   },
   {
     "id": "object-distill",
@@ -1281,7 +1728,12 @@
     "dateStart": "2016",
     "dateEnd": "2021",
     "creators": ["person-chris-olah"],
-    "subject": "machine learning education"
+    "subject": "machine learning education",
+    "wikipediaTitle": "Distill_(journal)",
+    "wikidataId": "Q63405023",
+    "externalLinks": [
+      {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Distill_(journal)"}
+    ]
   },
   {
     "id": "location-new-york",
@@ -1290,7 +1742,9 @@
     "locationType": "city",
     "shortDescription": "Major AI hub; home to NYU, Hugging Face headquarters",
     "country": "United States",
-    "coordinates": {"lat": 40.7128, "lng": -74.0060}
+    "coordinates": {"lat": 40.7128, "lng": -74.0060},
+    "wikipediaTitle": "New_York_City",
+    "wikidataId": "Q60"
   },
   {
     "id": "location-nyu",
@@ -1299,7 +1753,9 @@
     "locationType": "university",
     "shortDescription": "Yann LeCun's academic home; major deep learning research center",
     "country": "United States",
-    "parentLocation": "location-new-york"
+    "parentLocation": "location-new-york",
+    "wikipediaTitle": "New_York_University",
+    "wikidataId": "Q49210"
   },
   {
     "id": "location-san-francisco",
@@ -1308,7 +1764,9 @@
     "locationType": "city",
     "shortDescription": "Global center of AI research; home to OpenAI, Anthropic, xAI",
     "country": "United States",
-    "coordinates": {"lat": 37.7749, "lng": -122.4194}
+    "coordinates": {"lat": 37.7749, "lng": -122.4194},
+    "wikipediaTitle": "San_Francisco",
+    "wikidataId": "Q62"
   },
   {
     "id": "location-mountain-view",
@@ -1317,7 +1775,9 @@
     "locationType": "city",
     "shortDescription": "Google/Alphabet headquarters; Google Brain origins",
     "country": "United States",
-    "coordinates": {"lat": 37.3861, "lng": -122.0839}
+    "coordinates": {"lat": 37.3861, "lng": -122.0839},
+    "wikipediaTitle": "Mountain_View,_California",
+    "wikidataId": "Q486860"
   },
   {
     "id": "location-london",
@@ -1326,7 +1786,9 @@
     "locationType": "city",
     "shortDescription": "DeepMind headquarters; major European AI research center",
     "country": "United Kingdom",
-    "coordinates": {"lat": 51.5074, "lng": -0.1278}
+    "coordinates": {"lat": 51.5074, "lng": -0.1278},
+    "wikipediaTitle": "London",
+    "wikidataId": "Q84"
   },
   {
     "id": "location-paris",
@@ -1335,7 +1797,9 @@
     "locationType": "city",
     "shortDescription": "Meta FAIR Paris; Mistral AI headquarters; European AI hub",
     "country": "France",
-    "coordinates": {"lat": 48.8566, "lng": 2.3522}
+    "coordinates": {"lat": 48.8566, "lng": 2.3522},
+    "wikipediaTitle": "Paris",
+    "wikidataId": "Q90"
   },
   {
     "id": "location-toronto",
@@ -1344,7 +1808,9 @@
     "locationType": "city",
     "shortDescription": "Toronto School of deep learning; Vector Institute; Geoffrey Hinton's base",
     "country": "Canada",
-    "coordinates": {"lat": 43.6532, "lng": -79.3832}
+    "coordinates": {"lat": 43.6532, "lng": -79.3832},
+    "wikipediaTitle": "Toronto",
+    "wikidataId": "Q172"
   },
   {
     "id": "location-montreal",
@@ -1353,7 +1819,9 @@
     "locationType": "city",
     "shortDescription": "MILA headquarters; Yoshua Bengio's base; DeepMind Montreal",
     "country": "Canada",
-    "coordinates": {"lat": 45.5017, "lng": -73.5673}
+    "coordinates": {"lat": 45.5017, "lng": -73.5673},
+    "wikipediaTitle": "Montreal",
+    "wikidataId": "Q340"
   },
   {
     "id": "location-stanford",
@@ -1362,7 +1830,9 @@
     "locationType": "university",
     "shortDescription": "Major AI research center; Stanford AI Lab; Stanford HAI",
     "country": "United States",
-    "parentLocation": "location-palo-alto"
+    "parentLocation": "location-palo-alto",
+    "wikipediaTitle": "Stanford_University",
+    "wikidataId": "Q41506"
   },
   {
     "id": "location-utoronto",
@@ -1371,7 +1841,9 @@
     "locationType": "university",
     "shortDescription": "Hinton's institution; birthplace of 'Toronto School' of deep learning",
     "country": "Canada",
-    "parentLocation": "location-toronto"
+    "parentLocation": "location-toronto",
+    "wikipediaTitle": "University_of_Toronto",
+    "wikidataId": "Q180865"
   },
   {
     "id": "location-umontreal",
@@ -1380,7 +1852,9 @@
     "locationType": "university",
     "shortDescription": "Yoshua Bengio's institution; MILA host",
     "country": "Canada",
-    "parentLocation": "location-montreal"
+    "parentLocation": "location-montreal",
+    "wikipediaTitle": "Université_de_Montréal",
+    "wikidataId": "Q392189"
   },
   {
     "id": "location-ucberkeley",
@@ -1388,7 +1862,9 @@
     "title": "UC Berkeley",
     "locationType": "university",
     "shortDescription": "BAIR lab; strong deep RL research",
-    "country": "United States"
+    "country": "United States",
+    "wikipediaTitle": "University_of_California,_Berkeley",
+    "wikidataId": "Q168756"
   },
   {
     "id": "location-cmu",
@@ -1397,7 +1873,9 @@
     "locationType": "university",
     "shortDescription": "Top AI/ML graduate program; first dedicated ML department",
     "country": "United States",
-    "parentLocation": "location-pittsburgh"
+    "parentLocation": "location-pittsburgh",
+    "wikipediaTitle": "Carnegie_Mellon_University",
+    "wikidataId": "Q190080"
   },
   {
     "id": "location-tokyo",
@@ -1406,7 +1884,9 @@
     "locationType": "city",
     "shortDescription": "Sakana AI headquarters; Japanese AI industry",
     "country": "Japan",
-    "coordinates": {"lat": 35.6762, "lng": 139.6503}
+    "coordinates": {"lat": 35.6762, "lng": 139.6503},
+    "wikipediaTitle": "Tokyo",
+    "wikidataId": "Q1490"
   },
   {
     "id": "location-edmonton",
@@ -1414,7 +1894,9 @@
     "title": "Edmonton, Canada",
     "locationType": "city",
     "shortDescription": "University of Alberta RL research; Richard Sutton's base",
-    "country": "Canada"
+    "country": "Canada",
+    "wikipediaTitle": "Edmonton",
+    "wikidataId": "Q2096"
   },
   {
     "id": "location-ualberta",
@@ -1423,7 +1905,9 @@
     "locationType": "university",
     "shortDescription": "Reinforcement learning research center; Sutton's institution",
     "country": "Canada",
-    "parentLocation": "location-edmonton"
+    "parentLocation": "location-edmonton",
+    "wikipediaTitle": "University_of_Alberta",
+    "wikidataId": "Q38948"
   },
   {
     "id": "entity-openai",
@@ -1433,7 +1917,9 @@
     "shortDescription": "Creator of GPT models and ChatGPT; most influential AI lab",
     "dateStart": "2015-12",
     "foundedBy": ["person-sam-altman", "person-elon-musk", "person-greg-brockman", "person-ilya-sutskever", "person-john-schulman", "person-wojciech-zaremba"],
-    "headquarters": "location-san-francisco"
+    "headquarters": "location-san-francisco",
+    "wikipediaTitle": "OpenAI",
+    "wikidataId": "Q21708200"
   },
   {
     "id": "entity-anthropic",
@@ -1443,7 +1929,9 @@
     "shortDescription": "Creator of Claude; AI safety-focused lab founded by OpenAI departures",
     "dateStart": "2021",
     "foundedBy": ["person-dario-amodei", "person-daniela-amodei", "person-tom-brown", "person-jared-kaplan", "person-sam-mccandlish", "person-chris-olah", "person-jack-clark"],
-    "headquarters": "location-san-francisco"
+    "headquarters": "location-san-francisco",
+    "wikipediaTitle": "Anthropic",
+    "wikidataId": "Q106006054"
   },
   {
     "id": "entity-google-deepmind",
@@ -1453,7 +1941,9 @@
     "shortDescription": "Creator of AlphaGo, AlphaFold, Gemini; merged from DeepMind and Google Brain",
     "dateStart": "2023-04",
     "foundedBy": ["person-demis-hassabis", "person-jeff-dean"],
-    "headquarters": "location-london"
+    "headquarters": "location-london",
+    "wikipediaTitle": "Google_DeepMind",
+    "wikidataId": "Q118358654"
   },
   {
     "id": "entity-deepmind",
@@ -1464,7 +1954,9 @@
     "dateStart": "2010",
     "dateEnd": "2023",
     "foundedBy": ["person-demis-hassabis", "person-shane-legg", "person-mustafa-suleyman"],
-    "headquarters": "location-london"
+    "headquarters": "location-london",
+    "wikipediaTitle": "Google_DeepMind",
+    "wikidataId": "Q15733006"
   },
   {
     "id": "entity-google-brain",
@@ -1475,7 +1967,9 @@
     "dateStart": "2011",
     "dateEnd": "2023",
     "foundedBy": ["person-jeff-dean", "person-andrew-ng", "person-greg-corrado"],
-    "headquarters": "location-mountain-view"
+    "headquarters": "location-mountain-view",
+    "wikipediaTitle": "Google_Brain",
+    "wikidataId": "Q21072607"
   },
   {
     "id": "entity-meta-ai",
@@ -1485,7 +1979,9 @@
     "shortDescription": "Creator of LLaMA; advocate for open AI research",
     "dateStart": "2013-12",
     "foundedBy": ["person-yann-lecun"],
-    "headquarters": "location-menlo-park"
+    "headquarters": "location-menlo-park",
+    "wikipediaTitle": "Meta_AI",
+    "wikidataId": "Q19600170"
   },
   {
     "id": "entity-xai",
@@ -1495,7 +1991,9 @@
     "shortDescription": "Elon Musk's AI venture; creator of Grok",
     "dateStart": "2023-07",
     "foundedBy": ["person-elon-musk", "person-igor-babuschkin", "person-christian-szegedy"],
-    "headquarters": "location-san-francisco"
+    "headquarters": "location-san-francisco",
+    "wikipediaTitle": "XAI_(company)",
+    "wikidataId": "Q120303340"
   },
   {
     "id": "entity-mistral",
@@ -1505,7 +2003,9 @@
     "shortDescription": "Leading European AI company; efficient open-weight models",
     "dateStart": "2023-04",
     "foundedBy": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
-    "headquarters": "location-paris"
+    "headquarters": "location-paris",
+    "wikipediaTitle": "Mistral_AI",
+    "wikidataId": "Q118473029"
   },
   {
     "id": "entity-huggingface",
@@ -1515,7 +2015,9 @@
     "shortDescription": "Central platform for open-source AI; hosts most publicly available models",
     "dateStart": "2016",
     "foundedBy": ["person-clement-delangue", "person-julien-chaumond", "person-thomas-wolf"],
-    "headquarters": "location-new-york"
+    "headquarters": "location-new-york",
+    "wikipediaTitle": "Hugging_Face",
+    "wikidataId": "Q90727997"
   },
   {
     "id": "entity-stability",
@@ -1525,7 +2027,9 @@
     "shortDescription": "Company behind Stable Diffusion commercialization",
     "dateStart": "2019",
     "foundedBy": ["person-emad-mostaque"],
-    "headquarters": "location-london"
+    "headquarters": "location-london",
+    "wikipediaTitle": "Stability_AI",
+    "wikidataId": "Q113414756"
   },
   {
     "id": "entity-cohere",
@@ -1535,7 +2039,9 @@
     "shortDescription": "Enterprise LLM company founded by Transformer paper author",
     "dateStart": "2019",
     "foundedBy": ["person-aidan-gomez", "person-ivan-zhang", "person-nick-frosst"],
-    "headquarters": "location-toronto"
+    "headquarters": "location-toronto",
+    "wikipediaTitle": "Cohere",
+    "wikidataId": "Q117181040"
   },
   {
     "id": "entity-sakana",
@@ -1545,7 +2051,9 @@
     "shortDescription": "Nature-inspired AI research; founded by Transformer paper author",
     "dateStart": "2023",
     "foundedBy": ["person-llion-jones", "person-david-ha"],
-    "headquarters": "location-tokyo"
+    "headquarters": "location-tokyo",
+    "wikipediaTitle": "Sakana_AI",
+    "wikidataId": "Q121668234"
   },
   {
     "id": "entity-mila",
@@ -1555,7 +2063,9 @@
     "shortDescription": "Largest academic AI research institute in the world",
     "dateStart": "1993",
     "foundedBy": ["person-yoshua-bengio"],
-    "headquarters": "location-montreal"
+    "headquarters": "location-montreal",
+    "wikipediaTitle": "Mila_(research_institute)",
+    "wikidataId": "Q29056997"
   },
   {
     "id": "entity-vector-institute",
@@ -1565,7 +2075,9 @@
     "shortDescription": "Toronto AI research institute co-founded by Hinton",
     "dateStart": "2017",
     "foundedBy": ["person-geoffrey-hinton"],
-    "headquarters": "location-toronto"
+    "headquarters": "location-toronto",
+    "wikipediaTitle": "Vector_Institute",
+    "wikidataId": "Q39076395"
   },
   {
     "id": "entity-stanford-hai",
@@ -1575,7 +2087,9 @@
     "shortDescription": "Stanford's Human-Centered AI Institute",
     "dateStart": "2019",
     "foundedBy": ["person-fei-fei-li"],
-    "headquarters": "location-stanford"
+    "headquarters": "location-stanford",
+    "wikipediaTitle": "Stanford_Institute_for_Human-Centered_AI",
+    "wikidataId": "Q106481889"
   },
   {
     "id": "entity-bair",
@@ -1584,7 +2098,8 @@
     "entityType": "research lab",
     "shortDescription": "Berkeley AI Research lab; strong in deep RL",
     "dateStart": "2014",
-    "headquarters": "location-ucberkeley"
+    "headquarters": "location-ucberkeley",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-neurips",
@@ -1592,7 +2107,9 @@
     "title": "NeurIPS",
     "entityType": "academic conference",
     "shortDescription": "Premier machine learning conference",
-    "dateStart": "1987"
+    "dateStart": "1987",
+    "wikipediaTitle": "Conference_on_Neural_Information_Processing_Systems",
+    "wikidataId": "Q2016462"
   },
   {
     "id": "entity-iclr",
@@ -1601,7 +2118,9 @@
     "entityType": "academic conference",
     "shortDescription": "Conference focused on representation learning; founded by Bengio and LeCun",
     "dateStart": "2013",
-    "foundedBy": ["person-yoshua-bengio", "person-yann-lecun"]
+    "foundedBy": ["person-yoshua-bengio", "person-yann-lecun"],
+    "wikipediaTitle": "International_Conference_on_Learning_Representations",
+    "wikidataId": "Q57085111"
   },
   {
     "id": "entity-ssi",
@@ -1611,7 +2130,9 @@
     "shortDescription": "Sutskever's post-OpenAI venture focused on safe superintelligence",
     "dateStart": "2024-06",
     "foundedBy": ["person-ilya-sutskever", "person-jan-leike"],
-    "headquarters": "location-san-francisco"
+    "headquarters": "location-san-francisco",
+    "wikipediaTitle": "Safe_Superintelligence_Inc.",
+    "wikidataId": "Q126055790"
   },
   {
     "id": "entity-dair",
@@ -1620,21 +2141,25 @@
     "entityType": "research institute",
     "shortDescription": "Independent AI ethics research founded by Timnit Gebru",
     "dateStart": "2021",
-    "foundedBy": ["person-timnit-gebru"]
+    "foundedBy": ["person-timnit-gebru"],
+    "wikipediaTitle": "Distributed_Artificial_Intelligence_Research_Institute",
+    "wikidataId": "Q110131254"
   },
   {
     "id": "entity-toronto-school",
     "type": "entity",
     "title": "Toronto School of Deep Learning",
     "entityType": "intellectual movement",
-    "shortDescription": "Network of researchers trained by or influenced by Geoffrey Hinton"
+    "shortDescription": "Network of researchers trained by or influenced by Geoffrey Hinton",
+    "wikipediaTitle": null
   },
   {
     "id": "entity-montreal-school",
     "type": "entity",
     "title": "Montreal School of Deep Learning",
     "entityType": "intellectual movement",
-    "shortDescription": "Network of researchers associated with MILA and Yoshua Bengio"
+    "shortDescription": "Network of researchers associated with MILA and Yoshua Bengio",
+    "wikipediaTitle": null
   },
   {
     "id": "person-tomas-mikolov",
@@ -1647,6 +2172,8 @@
     "birthPlace": "Brno, Czech Republic",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom%C3%A1%C5%A1_Mikolov_%282020%29.jpg/440px-Tom%C3%A1%C5%A1_Mikolov_%282020%29.jpg",
     "biography": "Tomas Mikolov created Word2Vec at Google (2013), which demonstrated semantic word arithmetic ('king - man + woman = queen') and made neural word embeddings practical. Previously worked at Johns Hopkins, Google, and Facebook AI Research. His efficient training methods revolutionized NLP.",
+    "wikipediaTitle": "Tomáš_Mikolov",
+    "wikidataId": "Q21658269",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tomas_Mikolov"}
     ]
@@ -1658,7 +2185,8 @@
     "shortDescription": "Lead author of BERT; revolutionized NLP through bidirectional pre-training",
     "nationality": "American",
     "occupations": ["AI researcher"],
-    "biography": "Jacob Devlin led the development of BERT (Bidirectional Encoder Representations from Transformers) at Google AI in 2018. BERT introduced masked language modeling and dominated NLP benchmarks, becoming the most influential NLP paper since the Transformer. Now works at Google DeepMind."
+    "biography": "Jacob Devlin led the development of BERT (Bidirectional Encoder Representations from Transformers) at Google AI in 2018. BERT introduced masked language modeling and dominated NLP benchmarks, becoming the most influential NLP paper since the Transformer. Now works at Google DeepMind.",
+    "wikipediaTitle": null
   },
   {
     "id": "person-max-welling",
@@ -1669,6 +2197,8 @@
     "nationality": "Dutch",
     "occupations": ["AI researcher", "professor"],
     "biography": "Max Welling co-invented Variational Auto-Encoders (VAEs) with Diederik Kingma in 2013. Professor at University of Amsterdam and VP at Microsoft Research. Pioneer of probabilistic deep learning and generative models. Former VP of Technology at Qualcomm AI Research.",
+    "wikipediaTitle": "Max_Welling",
+    "wikidataId": "Q6795393",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Max_Welling"}
     ]
@@ -1683,6 +2213,8 @@
     "creators": ["person-durk-kingma", "person-max-welling"],
     "language": "English",
     "subject": "generative models, variational inference",
+    "wikipediaTitle": "Variational_autoencoder",
+    "wikidataId": "Q25348086",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1312.6114"}
     ]
@@ -1697,6 +2229,8 @@
     "creators": ["person-john-schulman"],
     "language": "English",
     "subject": "reinforcement learning, policy optimization",
+    "wikipediaTitle": "Proximal_policy_optimization",
+    "wikidataId": "Q113503106",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1707.06347"}
     ]
@@ -1711,6 +2245,8 @@
     "creators": ["person-john-schulman"],
     "language": "English",
     "subject": "reinforcement learning, policy optimization",
+    "wikipediaTitle": "Trust_region_policy_optimization",
+    "wikidataId": "Q113503095",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1502.05477"}
     ]
@@ -1723,6 +2259,8 @@
     "shortDescription": "Anthropic's third generation model family including Haiku, Sonnet, and Opus",
     "dateStart": "2024-03",
     "subject": "conversational AI, multimodal AI",
+    "wikipediaTitle": "Claude_(language_model)",
+    "wikidataId": "Q116965708",
     "externalLinks": [
       {"label": "Anthropic", "url": "https://www.anthropic.com/news/claude-3-family"}
     ]
@@ -1736,6 +2274,8 @@
     "dateStart": "2024-04",
     "creators": ["person-hugo-touvron"],
     "subject": "language models",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/meta-llama-3/"}
     ]
@@ -1749,7 +2289,9 @@
     "dateStart": "2022",
     "dateEnd": "2024",
     "foundedBy": ["person-mustafa-suleyman"],
-    "headquarters": "location-palo-alto"
+    "headquarters": "location-palo-alto",
+    "wikipediaTitle": "Inflection_AI",
+    "wikidataId": "Q110894704"
   },
   {
     "id": "entity-character-ai",
@@ -1759,7 +2301,9 @@
     "shortDescription": "Conversational AI platform founded by Transformer paper author; team returned to Google",
     "dateStart": "2021",
     "foundedBy": ["person-noam-shazeer"],
-    "headquarters": "location-san-francisco"
+    "headquarters": "location-san-francisco",
+    "wikipediaTitle": "Character.ai",
+    "wikidataId": "Q110891631"
   },
   {
     "id": "entity-amazon-ai",
@@ -1768,7 +2312,9 @@
     "entityType": "AI research division",
     "shortDescription": "Amazon's AI research and cloud AI services division; creator of Nova models",
     "dateStart": "2016",
-    "headquarters": "location-seattle"
+    "headquarters": "location-seattle",
+    "wikipediaTitle": "Amazon_Web_Services",
+    "wikidataId": "Q456157"
   },
   {
     "id": "entity-microsoft-ai",
@@ -1777,7 +2323,9 @@
     "entityType": "AI research division",
     "shortDescription": "Microsoft's AI division led by Mustafa Suleyman; major OpenAI investor",
     "dateStart": "2024-03",
-    "headquarters": "location-redmond"
+    "headquarters": "location-redmond",
+    "wikipediaTitle": "Microsoft_Copilot",
+    "wikidataId": "Q111449379"
   },
   {
     "id": "location-seattle",
@@ -1786,7 +2334,9 @@
     "locationType": "city",
     "shortDescription": "Amazon headquarters; Microsoft nearby; major tech hub",
     "country": "United States",
-    "coordinates": {"lat": 47.6062, "lng": -122.3321}
+    "coordinates": {"lat": 47.6062, "lng": -122.3321},
+    "wikipediaTitle": "Seattle",
+    "wikidataId": "Q5083"
   },
   {
     "id": "location-redmond",
@@ -1795,7 +2345,9 @@
     "locationType": "city",
     "shortDescription": "Microsoft headquarters",
     "country": "United States",
-    "coordinates": {"lat": 47.6740, "lng": -122.1215}
+    "coordinates": {"lat": 47.6740, "lng": -122.1215},
+    "wikipediaTitle": "Redmond,_Washington",
+    "wikidataId": "Q108524"
   },
   {
     "id": "object-gpt4o",
@@ -1805,6 +2357,8 @@
     "shortDescription": "OpenAI's 'Omni' multimodal model; accepts text, image, and audio; faster and cheaper than GPT-4",
     "dateStart": "2024-05-13",
     "subject": "multimodal AI, language models",
+    "wikipediaTitle": "GPT-4o",
+    "wikidataId": "Q126055869",
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/index/hello-gpt-4o/"}
     ]
@@ -1817,6 +2371,8 @@
     "shortDescription": "Cost-efficient small model; 82% on MMLU; replaced GPT-3.5 Turbo; 128K context",
     "dateStart": "2024-07-18",
     "subject": "language models",
+    "wikipediaTitle": "GPT-4o",
+    "wikidataId": "Q126055869",
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/"}
     ]
@@ -1829,6 +2385,8 @@
     "shortDescription": "OpenAI's first reasoning model; uses chain-of-thought to solve complex problems; preview in Sept 2024, full release Dec 2024",
     "dateStart": "2024-09-12",
     "subject": "reasoning AI, language models",
+    "wikipediaTitle": "OpenAI_o1",
+    "wikidataId": "Q131065549",
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/index/introducing-openai-o1-preview/"}
     ]
@@ -1841,6 +2399,8 @@
     "shortDescription": "Advanced reasoning model family; o3-mini released Jan 2025, full o3 April 2025; supports visual inputs",
     "dateStart": "2025-01-31",
     "subject": "reasoning AI, language models",
+    "wikipediaTitle": "OpenAI_o3",
+    "wikidataId": "Q133034217",
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/research/openai-o3-mini/"}
     ]
@@ -1853,6 +2413,7 @@
     "shortDescription": "Research preview model with enhanced reasoning and 'EQ'; broader knowledge base than GPT-4",
     "dateStart": "2025-02-27",
     "subject": "language models",
+    "wikipediaTitle": null,
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/index/introducing-gpt-4-5/"}
     ]
@@ -1865,6 +2426,8 @@
     "shortDescription": "Anthropic's mid-tier model that outperformed Claude 3 Opus on many benchmarks; faster and cheaper",
     "dateStart": "2024-06-20",
     "subject": "conversational AI, language models",
+    "wikipediaTitle": "Claude_(language_model)",
+    "wikidataId": "Q116965708",
     "externalLinks": [
       {"label": "Anthropic", "url": "https://www.anthropic.com/news/claude-3-5-sonnet"}
     ]
@@ -1877,6 +2440,8 @@
     "shortDescription": "Anthropic's 4th generation model family (Opus 4, Sonnet 4); major advances in reasoning, planning, and coding",
     "dateStart": "2025-05-22",
     "subject": "conversational AI, reasoning AI",
+    "wikipediaTitle": "Claude_(language_model)",
+    "wikidataId": "Q116965708",
     "externalLinks": [
       {"label": "Anthropic", "url": "https://www.anthropic.com/claude/claude-4"}
     ]
@@ -1889,6 +2454,8 @@
     "shortDescription": "Iterative improvement on Claude 4; Sonnet 4.5 Sept 2025, Opus 4.5 Nov 2025; better code generation and autonomy",
     "dateStart": "2025-09-29",
     "subject": "conversational AI, agentic AI",
+    "wikipediaTitle": "Claude_(language_model)",
+    "wikidataId": "Q116965708",
     "externalLinks": [
       {"label": "Anthropic", "url": "https://www.anthropic.com/news/claude-4-5"}
     ]
@@ -1901,6 +2468,8 @@
     "shortDescription": "Google DeepMind's mid-2024 model with up to 1M token context window; strong multimodal capabilities",
     "dateStart": "2024-02",
     "subject": "multimodal AI, language models",
+    "wikipediaTitle": "Gemini_(chatbot)",
+    "wikidataId": "Q118389636",
     "externalLinks": [
       {"label": "Google", "url": "https://deepmind.google/technologies/gemini/"}
     ]
@@ -1913,6 +2482,8 @@
     "shortDescription": "Google DeepMind's 2nd gen model; Flash experimental Dec 2024, GA Feb 2025; native tool use and multimodal I/O",
     "dateStart": "2024-12",
     "subject": "multimodal AI, agentic AI",
+    "wikipediaTitle": "Gemini_(chatbot)",
+    "wikidataId": "Q118389636",
     "externalLinks": [
       {"label": "Google", "url": "https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/"}
     ]
@@ -1925,6 +2496,8 @@
     "shortDescription": "Google DeepMind's latest generation; Flash and Pro stable June 2025; image generation Oct 2025",
     "dateStart": "2025-06-17",
     "subject": "multimodal AI, language models",
+    "wikipediaTitle": "Gemini_(chatbot)",
+    "wikidataId": "Q118389636",
     "externalLinks": [
       {"label": "Google", "url": "https://ai.google.dev/gemini-api/docs/changelog"}
     ]
@@ -1938,6 +2511,8 @@
     "dateStart": "2024-07-23",
     "creators": ["person-hugo-touvron"],
     "subject": "language models, open-source AI",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/meta-llama-3-1/"}
     ]
@@ -1951,6 +2526,8 @@
     "dateStart": "2024-09-25",
     "creators": ["person-hugo-touvron"],
     "subject": "multimodal AI, edge AI",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-3-2/"}
     ]
@@ -1963,6 +2540,8 @@
     "shortDescription": "Efficient 70B model matching LLaMA 3.1 405B performance at lower cost",
     "dateStart": "2024-12-06",
     "subject": "language models",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-3-3/"}
     ]
@@ -1975,6 +2554,8 @@
     "shortDescription": "Meta's 4th gen models (Scout, Maverick); MoE architecture; multimodal; 10M token context; Behemoth in training",
     "dateStart": "2025-04-05",
     "subject": "language models, multimodal AI",
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q117276906",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-4/"}
     ]
@@ -1988,6 +2569,8 @@
     "dateStart": "2024-04-17",
     "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
     "subject": "language models, MoE architecture",
+    "wikipediaTitle": "Mixtral",
+    "wikidataId": "Q122968991",
     "externalLinks": [
       {"label": "Mistral AI", "url": "https://mistral.ai/news/mixtral-8x22b/"}
     ]
@@ -2001,6 +2584,7 @@
     "dateStart": "2024-09-11",
     "creators": ["person-arthur-mensch", "person-guillaume-lample"],
     "subject": "multimodal AI",
+    "wikipediaTitle": null,
     "externalLinks": [
       {"label": "Mistral AI", "url": "https://mistral.ai/news/pixtral-12b/"}
     ]
@@ -2014,6 +2598,7 @@
     "dateStart": "2025-12-02",
     "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
     "subject": "language models, MoE architecture",
+    "wikipediaTitle": null,
     "externalLinks": [
       {"label": "Mistral AI", "url": "https://mistral.ai/news/mistral-3"}
     ]
@@ -2026,7 +2611,9 @@
     "shortDescription": "xAI's 2024 model; multimodal inputs; image generation via Aurora; real-time web/X integration",
     "dateStart": "2024-08",
     "creators": ["person-elon-musk", "person-igor-babuschkin"],
-    "subject": "conversational AI, multimodal AI"
+    "subject": "conversational AI, multimodal AI",
+    "wikipediaTitle": "Grok_(chatbot)",
+    "wikidataId": "Q122645637"
   },
   {
     "id": "object-grok3",
@@ -2036,6 +2623,8 @@
     "shortDescription": "xAI's flagship Feb 2025; trained on Colossus (200K H100s); 'Think' and 'Big Brain' reasoning modes; ~93% AIME",
     "dateStart": "2025-02-17",
     "subject": "conversational AI, reasoning AI",
+    "wikipediaTitle": "Grok_(chatbot)",
+    "wikidataId": "Q122645637",
     "externalLinks": [
       {"label": "xAI", "url": "https://x.ai/blog/grok-3"}
     ]
@@ -2049,6 +2638,7 @@
     "dateStart": "2024-04",
     "creators": ["person-aidan-gomez"],
     "subject": "enterprise AI, RAG",
+    "wikipediaTitle": null,
     "externalLinks": [
       {"label": "Cohere", "url": "https://docs.cohere.com/docs/command-r-plus"}
     ]
@@ -2062,6 +2652,7 @@
     "dateStart": "2025-03",
     "creators": ["person-aidan-gomez"],
     "subject": "enterprise AI, agentic AI",
+    "wikipediaTitle": null,
     "externalLinks": [
       {"label": "Cohere", "url": "https://docs.cohere.com/docs/models"}
     ]
@@ -2074,6 +2665,8 @@
     "shortDescription": "Amazon's foundation model family Dec 2024; Micro/Lite/Pro/Canvas/Reel; multimodal; optimized for AWS Bedrock",
     "dateStart": "2024-12",
     "subject": "multimodal AI, cloud AI",
+    "wikipediaTitle": "Amazon_Nova",
+    "wikidataId": "Q133138199",
     "externalLinks": [
       {"label": "Amazon", "url": "https://www.aboutamazon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws"}
     ]
@@ -2086,6 +2679,8 @@
     "shortDescription": "Amazon's top-tier reasoning model Q1 2025; complex multi-step tasks; Nova 2 family announced Dec 2025",
     "dateStart": "2025-04",
     "subject": "reasoning AI, cloud AI",
+    "wikipediaTitle": "Amazon_Nova",
+    "wikidataId": "Q133138199",
     "externalLinks": [
       {"label": "Amazon", "url": "https://techcrunch.com/2025/04/30/amazon-launches-nova-premier-its-largest-ai-model-yet/"}
     ]
