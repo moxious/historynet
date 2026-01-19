@@ -184,6 +184,21 @@ If a task is too large, break it down into subtasks before starting.
 - **File-level locking**: Avoid multiple agents editing the same file simultaneously
 - **Component boundaries**: Respect component/module boundaries when working in parallel
 
+### Running Dev Servers and Long-Running Processes
+
+**Before running `npm run dev` or any long-running process:**
+
+1. **Check the terminals folder first** — List the terminals directory to see active terminals and their running commands
+2. **Look for existing dev servers** — If you see `npm run dev`, `vite`, or similar already running, **do not start another one**
+3. **Reuse the existing server** — The app is already available at the URL shown in that terminal (typically `http://localhost:5173`)
+
+```bash
+# Check if dev server is already running (look for vite or port 5173)
+lsof -i :5173
+```
+
+If the port is in use, the dev server is already running. Just use it — don't start a new one.
+
 ### Communication via Documentation
 
 Since agents may not have direct communication:
