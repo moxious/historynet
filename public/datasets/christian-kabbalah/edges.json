@@ -1,0 +1,619 @@
+[
+  {
+    "id": "edge-trithemius-taught-agrippa",
+    "source": "person-johannes-trithemius",
+    "target": "person-heinrich-cornelius-agrippa",
+    "relationship": "taught",
+    "dateStart": "1509",
+    "evidence": "Agrippa visited Trithemius at Würzburg in 1509-1510 and showed him an early draft of De Occulta Philosophia. Trithemius encouraged the work but advised caution in publishing.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Heinrich_Cornelius_Agrippa",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-trithemius-taught-paracelsus",
+    "source": "person-johannes-trithemius",
+    "target": "person-paracelsus",
+    "relationship": "taught",
+    "dateStart": "1507",
+    "evidence": "According to early Paracelsus biographies, he studied with Trithemius at Würzburg. The exact nature and duration of their contact is debated but consistently attested.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-ficino-influenced-pico",
+    "source": "person-marsilio-ficino",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced",
+    "evidence": "Pico was part of Ficino's circle and deeply influenced by his Neoplatonism. However, Pico's introduction of Kabbalah was his own innovation beyond Ficino's work.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-knew-ficino",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-marsilio-ficino",
+    "relationship": "corresponded_with",
+    "dateStart": "1484",
+    "dateEnd": "1494",
+    "evidence": "Extensive documented friendship and correspondence; both were part of Lorenzo de' Medici's circle in Florence.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-studied-under-mithridates",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-flavius-mithridates",
+    "relationship": "studied_under",
+    "dateStart": "1486",
+    "evidence": "Mithridates translated Kabbalistic texts for Pico and taught him Hebrew. Many of Pico's Kabbalistic sources were Mithridates' translations.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Flavius_Mithridates",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mithridates-transmitted-to-pico",
+    "source": "person-flavius-mithridates",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "transmitted_knowledge_to",
+    "evidence": "Mithridates made the first Latin translations of Kabbalistic texts (including parts of the Zohar) specifically for Pico's use.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-influenced-reuchlin",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-johannes-reuchlin",
+    "relationship": "influenced",
+    "evidence": "Reuchlin met Pico in Florence in 1490 and was inspired to pursue Hebrew and Kabbalistic studies. Reuchlin explicitly credited Pico's influence on his work.",
+    "dateStart": "1490",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reuchlin-met-pico",
+    "source": "person-johannes-reuchlin",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "knows",
+    "dateStart": "1490",
+    "evidence": "Reuchlin visited Italy in 1490 and met Pico in Florence. This meeting was decisive for Reuchlin's turn to Kabbalistic studies.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reuchlin-influenced-agrippa",
+    "source": "person-johannes-reuchlin",
+    "target": "person-heinrich-cornelius-agrippa",
+    "relationship": "influenced",
+    "evidence": "Agrippa drew extensively on Reuchlin's De Verbo Mirifico and De Arte Cabalistica in composing De Occulta Philosophia.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-egidio-studied-under-levita",
+    "source": "person-egidio-da-viterbo",
+    "target": "person-elijah-levita",
+    "relationship": "studied_under",
+    "dateStart": "1514",
+    "dateEnd": "1527",
+    "evidence": "Levita lived with Cardinal Egidio for thirteen years, teaching him Hebrew while Egidio supported his scholarship.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Elijah_Levita",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-levita-transmitted-to-egidio",
+    "source": "person-elijah-levita",
+    "target": "person-egidio-da-viterbo",
+    "relationship": "transmitted_knowledge_to",
+    "dateStart": "1514",
+    "dateEnd": "1527",
+    "evidence": "Levita's residence with Egidio was the longest sustained Jewish-Christian scholarly collaboration of the period, transmitting Hebrew linguistic and textual knowledge.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pfefferkorn-attacked-reuchlin",
+    "source": "person-johannes-pfefferkorn",
+    "target": "person-johannes-reuchlin",
+    "relationship": "attacked",
+    "dateStart": "1510",
+    "dateEnd": "1520",
+    "evidence": "Pfefferkorn's Handspiegel (1511) attacked Reuchlin after he opposed the destruction of Hebrew books. The 'Reuchlin Affair' lasted a decade.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reuchlin-opposed-pfefferkorn",
+    "source": "person-johannes-reuchlin",
+    "target": "person-johannes-pfefferkorn",
+    "relationship": "opposed",
+    "dateStart": "1510",
+    "dateEnd": "1520",
+    "evidence": "Reuchlin's Augenspiegel (1511) defended Hebrew books against Pfefferkorn's campaign for their destruction.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hoogstraten-attacked-reuchlin",
+    "source": "person-jakob-hoogstraten",
+    "target": "person-johannes-reuchlin",
+    "relationship": "attacked",
+    "dateStart": "1513",
+    "dateEnd": "1520",
+    "evidence": "Hoogstraten, as inquisitor of Cologne, led the Dominican prosecution of Reuchlin for heresy, though the case was eventually dismissed by Rome.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-giorgi-influenced-by-pico",
+    "source": "person-francesco-giorgi",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced_by",
+    "evidence": "Giorgi's De Harmonia Mundi shows deep influence from Pico's Kabbalistic synthesis, though Giorgi developed it in his own cosmological direction.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-postel-influenced-by-reuchlin",
+    "source": "person-guillaume-postel",
+    "target": "person-johannes-reuchlin",
+    "relationship": "influenced_by",
+    "evidence": "Postel knew Reuchlin's works and built on the tradition of Christian Hebrew scholarship he established.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-cosimo-patronized-ficino",
+    "source": "person-cosimo-de-medici",
+    "target": "person-marsilio-ficino",
+    "relationship": "patronized",
+    "dateStart": "1462",
+    "dateEnd": "1464",
+    "evidence": "Cosimo de' Medici provided Ficino with a villa at Careggi and commissioned his translations of Plato and the Hermetic Corpus.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Marsilio_Ficino",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-patronized-ficino",
+    "source": "person-lorenzo-de-medici",
+    "target": "person-marsilio-ficino",
+    "relationship": "patronized",
+    "dateStart": "1464",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo continued his grandfather Cosimo's patronage of Ficino and the Platonic Academy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lorenzo-patronized-pico",
+    "source": "person-lorenzo-de-medici",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "patronized",
+    "dateStart": "1488",
+    "dateEnd": "1492",
+    "evidence": "After Pope Innocent VIII condemned Pico's 900 Theses, Lorenzo sheltered him in Florence and protected him from prosecution.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-reuchlin-authored-de-arte",
+    "source": "person-johannes-reuchlin",
+    "target": "object-de-arte-cabalistica",
+    "relationship": "authored",
+    "dateStart": "1517",
+    "evidence": "Published in 1517, dedicated to Pope Leo X"
+  },
+  {
+    "id": "edge-reuchlin-authored-de-verbo",
+    "source": "person-johannes-reuchlin",
+    "target": "object-de-verbo-mirifico",
+    "relationship": "authored",
+    "dateStart": "1494",
+    "evidence": "Published in 1494, Reuchlin's first Kabbalistic work"
+  },
+  {
+    "id": "edge-reuchlin-authored-rudimentis",
+    "source": "person-johannes-reuchlin",
+    "target": "object-de-rudimentis-hebraicis",
+    "relationship": "authored",
+    "dateStart": "1506",
+    "evidence": "Published in 1506, the first Hebrew grammar by a Christian"
+  },
+  {
+    "id": "edge-reuchlin-authored-augenspiegel",
+    "source": "person-johannes-reuchlin",
+    "target": "object-augenspiegel",
+    "relationship": "authored",
+    "dateStart": "1511",
+    "evidence": "Published in 1511 as response to Pfefferkorn's Handspiegel"
+  },
+  {
+    "id": "edge-agrippa-authored-de-occulta",
+    "source": "person-heinrich-cornelius-agrippa",
+    "target": "object-de-occulta-philosophia",
+    "relationship": "authored",
+    "dateStart": "1510",
+    "dateEnd": "1533",
+    "evidence": "First draft shown to Trithemius 1509-1510; published in three volumes 1531-1533"
+  },
+  {
+    "id": "edge-agrippa-authored-de-vanitate",
+    "source": "person-heinrich-cornelius-agrippa",
+    "target": "object-de-vanitate-scientiarum",
+    "relationship": "authored",
+    "dateStart": "1530",
+    "evidence": "Published in 1530, apparently contradicting his magical philosophy"
+  },
+  {
+    "id": "edge-trithemius-authored-steganographia",
+    "source": "person-johannes-trithemius",
+    "target": "object-steganographia",
+    "relationship": "authored",
+    "dateStart": "1499",
+    "evidence": "Composed c. 1499, circulated in manuscript; placed on Index in 1609"
+  },
+  {
+    "id": "edge-trithemius-authored-polygraphia",
+    "source": "person-johannes-trithemius",
+    "target": "object-polygraphia",
+    "relationship": "authored",
+    "dateStart": "1518",
+    "evidence": "Published posthumously in 1518"
+  },
+  {
+    "id": "edge-trithemius-authored-septem",
+    "source": "person-johannes-trithemius",
+    "target": "object-de-septem-secundeis",
+    "relationship": "authored",
+    "dateStart": "1508",
+    "evidence": "Published in 1508, addressed to Maximilian I"
+  },
+  {
+    "id": "edge-giorgi-authored-harmonia",
+    "source": "person-francesco-giorgi",
+    "target": "object-de-harmonia-mundi",
+    "relationship": "authored",
+    "dateStart": "1525",
+    "evidence": "Published in Venice in 1525"
+  },
+  {
+    "id": "edge-giorgi-authored-problemata",
+    "source": "person-francesco-giorgi",
+    "target": "object-in-scripturam-sacram-problemata",
+    "relationship": "authored",
+    "dateStart": "1536",
+    "evidence": "Published in Venice in 1536"
+  },
+  {
+    "id": "edge-pico-authored-theses",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "object-900-theses",
+    "relationship": "authored",
+    "dateStart": "1486",
+    "evidence": "Printed in Rome December 1486; condemned by papal commission February 1487"
+  },
+  {
+    "id": "edge-pico-authored-oration",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "object-oration-dignity-man",
+    "relationship": "authored",
+    "dateStart": "1486",
+    "evidence": "Composed as introduction to the 900 Theses debate; never delivered"
+  },
+  {
+    "id": "edge-ficino-authored-theologia",
+    "source": "person-marsilio-ficino",
+    "target": "object-theologia-platonica",
+    "relationship": "authored",
+    "dateStart": "1482",
+    "evidence": "Composed over many years, published in 1482"
+  },
+  {
+    "id": "edge-ficino-authored-de-vita",
+    "source": "person-marsilio-ficino",
+    "target": "object-de-vita-libri-tres",
+    "relationship": "authored",
+    "dateStart": "1489",
+    "evidence": "Published in 1489; controversial for its astrological magic"
+  },
+  {
+    "id": "edge-ficino-translated-hermetica",
+    "source": "person-marsilio-ficino",
+    "target": "object-corpus-hermeticum-translation",
+    "relationship": "translated",
+    "dateStart": "1463",
+    "evidence": "Translated at Cosimo de' Medici's request in 1463, before completing Plato"
+  },
+  {
+    "id": "edge-postel-authored-de-originibus",
+    "source": "person-guillaume-postel",
+    "target": "object-de-originibus",
+    "relationship": "authored",
+    "dateStart": "1538",
+    "evidence": "Published in Paris in 1538"
+  },
+  {
+    "id": "edge-postel-authored-absconditorum",
+    "source": "person-guillaume-postel",
+    "target": "object-absconditorum-clavis",
+    "relationship": "authored",
+    "dateStart": "1547",
+    "evidence": "Published in 1547"
+  },
+  {
+    "id": "edge-levita-authored-masoret",
+    "source": "person-elijah-levita",
+    "target": "object-masoret-ha-masoret",
+    "relationship": "authored",
+    "dateStart": "1538",
+    "evidence": "Published in Venice in 1538 while living with Egidio"
+  },
+  {
+    "id": "edge-de-occulta-references-de-arte",
+    "source": "object-de-occulta-philosophia",
+    "target": "object-de-arte-cabalistica",
+    "relationship": "references",
+    "evidence": "Agrippa drew extensively on Reuchlin's Kabbalistic works"
+  },
+  {
+    "id": "edge-de-occulta-references-de-verbo",
+    "source": "object-de-occulta-philosophia",
+    "target": "object-de-verbo-mirifico",
+    "relationship": "references",
+    "evidence": "Agrippa incorporated Reuchlin's wonder-working name theology"
+  },
+  {
+    "id": "edge-de-harmonia-references-theses",
+    "source": "object-de-harmonia-mundi",
+    "target": "object-900-theses",
+    "relationship": "references",
+    "evidence": "Giorgi built on Pico's Kabbalistic synthesis"
+  },
+  {
+    "id": "edge-ficino-lived-florence",
+    "source": "person-marsilio-ficino",
+    "target": "location-florence",
+    "relationship": "lived_in",
+    "dateStart": "1462",
+    "dateEnd": "1499",
+    "evidence": "Ficino was based in Florence at the Medici villa at Careggi"
+  },
+  {
+    "id": "edge-pico-lived-florence",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "location-florence",
+    "relationship": "lived_in",
+    "dateStart": "1488",
+    "dateEnd": "1494",
+    "evidence": "Pico lived in Florence under Lorenzo's protection after the 900 Theses condemnation"
+  },
+  {
+    "id": "edge-pico-died-florence",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "location-florence",
+    "relationship": "died_in",
+    "dateStart": "1494",
+    "evidence": "Pico died in Florence in 1494"
+  },
+  {
+    "id": "edge-giorgi-lived-venice",
+    "source": "person-francesco-giorgi",
+    "target": "location-venice",
+    "relationship": "lived_in",
+    "evidence": "Giorgi was a Franciscan friar based in Venice throughout his career"
+  },
+  {
+    "id": "edge-levita-lived-venice",
+    "source": "person-elijah-levita",
+    "target": "location-venice",
+    "relationship": "lived_in",
+    "dateStart": "1527",
+    "dateEnd": "1549",
+    "evidence": "After the Sack of Rome (1527), Levita moved to Venice"
+  },
+  {
+    "id": "edge-agrippa-born-cologne",
+    "source": "person-heinrich-cornelius-agrippa",
+    "target": "location-cologne",
+    "relationship": "born_in",
+    "dateStart": "1486",
+    "evidence": "Agrippa was born in Cologne in 1486"
+  },
+  {
+    "id": "edge-trithemius-worked-sponheim",
+    "source": "person-johannes-trithemius",
+    "target": "location-sponheim-abbey",
+    "relationship": "worked_at",
+    "dateStart": "1483",
+    "dateEnd": "1506",
+    "evidence": "Trithemius was Abbot of Sponheim for 23 years, building its famous library"
+  },
+  {
+    "id": "edge-trithemius-worked-wuerzburg",
+    "source": "person-johannes-trithemius",
+    "target": "location-wuerzburg",
+    "relationship": "worked_at",
+    "dateStart": "1506",
+    "dateEnd": "1516",
+    "evidence": "After leaving Sponheim, Trithemius became abbot of Schottenkloster in Würzburg"
+  },
+  {
+    "id": "edge-trithemius-died-wuerzburg",
+    "source": "person-johannes-trithemius",
+    "target": "location-wuerzburg",
+    "relationship": "died_in",
+    "dateStart": "1516",
+    "evidence": "Trithemius died in Würzburg in 1516"
+  },
+  {
+    "id": "edge-postel-worked-paris",
+    "source": "person-guillaume-postel",
+    "target": "location-paris",
+    "relationship": "worked_at",
+    "dateStart": "1538",
+    "evidence": "Postel was Royal Professor of Oriental Languages at the Collège de France"
+  },
+  {
+    "id": "edge-egidio-lived-rome",
+    "source": "person-egidio-da-viterbo",
+    "target": "location-rome",
+    "relationship": "lived_in",
+    "evidence": "As cardinal and Prior General of the Augustinians, Egidio was based at the papal court"
+  },
+  {
+    "id": "edge-pfefferkorn-lived-cologne",
+    "source": "person-johannes-pfefferkorn",
+    "target": "location-cologne",
+    "relationship": "lived_in",
+    "evidence": "Pfefferkorn was based in Cologne during the Reuchlin Affair"
+  },
+  {
+    "id": "edge-hoogstraten-worked-cologne",
+    "source": "person-jakob-hoogstraten",
+    "target": "location-cologne",
+    "relationship": "worked_at",
+    "evidence": "Hoogstraten was inquisitor at Cologne and taught at the university"
+  },
+  {
+    "id": "edge-ficino-founded-academy",
+    "source": "person-marsilio-ficino",
+    "target": "entity-platonic-academy-florence",
+    "relationship": "founded",
+    "dateStart": "1462",
+    "evidence": "Ficino founded the Platonic Academy under Medici patronage"
+  },
+  {
+    "id": "edge-pico-member-academy",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "entity-platonic-academy-florence",
+    "relationship": "member_of",
+    "dateStart": "1484",
+    "dateEnd": "1494",
+    "evidence": "Pico was a central figure in the Platonic Academy circle"
+  },
+  {
+    "id": "edge-postel-worked-college",
+    "source": "person-guillaume-postel",
+    "target": "entity-college-de-france",
+    "relationship": "worked_at",
+    "dateStart": "1538",
+    "evidence": "Postel was one of the first Royal Professors of Oriental Languages"
+  },
+  {
+    "id": "edge-hoogstraten-member-dominican",
+    "source": "person-jakob-hoogstraten",
+    "target": "entity-dominican-order",
+    "relationship": "member_of",
+    "evidence": "Hoogstraten was a Dominican friar and inquisitor"
+  },
+  {
+    "id": "edge-hoogstraten-worked-cologne-univ",
+    "source": "person-jakob-hoogstraten",
+    "target": "entity-university-of-cologne",
+    "relationship": "worked_at",
+    "evidence": "Hoogstraten taught theology at the University of Cologne"
+  },
+  {
+    "id": "edge-pfefferkorn-associated-dominican",
+    "source": "person-johannes-pfefferkorn",
+    "target": "entity-dominican-order",
+    "relationship": "associated_with",
+    "evidence": "Pfefferkorn worked closely with the Cologne Dominicans, though not a member himself"
+  },
+  {
+    "id": "edge-lorenzo-associated-academy",
+    "source": "person-lorenzo-de-medici",
+    "target": "entity-platonic-academy-florence",
+    "relationship": "patronized",
+    "dateStart": "1469",
+    "dateEnd": "1492",
+    "evidence": "Lorenzo continued his family's patronage of the Academy after Cosimo's death"
+  },
+  {
+    "id": "edge-bovelles-studied-under-lefevre",
+    "source": "person-charles-de-bovelles",
+    "target": "person-jacques-lefevre-detaples",
+    "relationship": "studied_under",
+    "evidence": "Bovelles was a student and close collaborator of Lefèvre d'Étaples in Paris"
+  },
+  {
+    "id": "edge-lefevre-taught-bovelles",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "person-charles-de-bovelles",
+    "relationship": "taught",
+    "evidence": "Lefèvre taught Bovelles and influenced his symbolic philosophy"
+  },
+  {
+    "id": "edge-de-arte-dedicated-to-leo",
+    "source": "object-de-arte-cabalistica",
+    "target": "person-pope-leo-x",
+    "relationship": "dedicated_to",
+    "dateStart": "1517",
+    "evidence": "Reuchlin dedicated De Arte Cabalistica to Pope Leo X in 1517"
+  },
+  {
+    "id": "edge-innocent-attacked-pico",
+    "source": "person-pope-innocent-viii",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "attacked",
+    "dateStart": "1487",
+    "evidence": "Innocent VIII condemned 13 of Pico's 900 Theses as heretical in 1487"
+  },
+  {
+    "id": "edge-leo-patronized-learning",
+    "source": "person-pope-leo-x",
+    "target": "person-egidio-da-viterbo",
+    "relationship": "patronized",
+    "evidence": "Leo X created Egidio cardinal in 1517 and supported his scholarly work"
+  },
+  {
+    "id": "edge-hutten-defended-reuchlin",
+    "source": "person-ulrich-von-hutten",
+    "target": "person-johannes-reuchlin",
+    "relationship": "defended",
+    "dateStart": "1515",
+    "evidence": "Hutten contributed to the Letters of Obscure Men defending Reuchlin"
+  },
+  {
+    "id": "edge-crotus-defended-reuchlin",
+    "source": "person-crotus-rubeanus",
+    "target": "person-johannes-reuchlin",
+    "relationship": "defended",
+    "dateStart": "1515",
+    "evidence": "Crotus authored most of the first volume of Letters of Obscure Men defending Reuchlin"
+  },
+  {
+    "id": "edge-crotus-authored-letters",
+    "source": "person-crotus-rubeanus",
+    "target": "object-letters-obscure-men",
+    "relationship": "authored",
+    "dateStart": "1515",
+    "evidence": "Crotus was the primary author of the first volume (1515)"
+  },
+  {
+    "id": "edge-hutten-authored-letters",
+    "source": "person-ulrich-von-hutten",
+    "target": "object-letters-obscure-men",
+    "relationship": "authored",
+    "dateStart": "1517",
+    "evidence": "Hutten contributed to the second volume (1517) and added an appendix"
+  },
+  {
+    "id": "edge-letters-attacked-hoogstraten",
+    "source": "object-letters-obscure-men",
+    "target": "person-jakob-hoogstraten",
+    "relationship": "references",
+    "evidence": "The Letters satirically portrayed Hoogstraten and other Reuchlin opponents"
+  },
+  {
+    "id": "edge-hutten-knew-crotus",
+    "source": "person-ulrich-von-hutten",
+    "target": "person-crotus-rubeanus",
+    "relationship": "collaborated_with",
+    "evidence": "Hutten and Crotus collaborated on the Letters of Obscure Men"
+  },
+  {
+    "id": "edge-lefevre-influenced-by-pico",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced_by",
+    "evidence": "Lefèvre knew and was influenced by Pico's work, editing and publishing mystical texts in a similar vein"
+  },
+  {
+    "id": "edge-lefevre-worked-paris",
+    "source": "person-jacques-lefevre-detaples",
+    "target": "location-paris",
+    "relationship": "worked_at",
+    "evidence": "Lefèvre taught at the Collège du Cardinal Lemoine in Paris"
+  },
+  {
+    "id": "edge-bovelles-lived-paris",
+    "source": "person-charles-de-bovelles",
+    "target": "location-paris",
+    "relationship": "lived_in",
+    "evidence": "Bovelles studied and taught in Paris before becoming a canon"
+  }
+]
