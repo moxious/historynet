@@ -12,21 +12,21 @@ This document outlines the milestone structure and future direction for HistoryN
 |---|-----------|--------|
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
 | M21 | Dataset Search & Filter | ✅ Complete |
-| M22 | Image Asset Management | 🔲 Future |
 | M23 | Wikimedia Sourcing | 🔲 Future |
 | M24 | Vercel Migration | 🔲 Future |
 | M25 | User Feedback Feature | 🔲 Future (depends on M24) |
 | M26 | Custom Domain | 🔲 Future (depends on M24) |
 | M27 | Feedback Spam Protection | 🔲 Future (depends on M25) |
+| M22 | Image Asset Management | 🔲 Optional (deferred) |
 
 **Two Parallel Tracks:**
 
 | Track | Milestones | Prerequisites |
 |-------|------------|---------------|
-| **A: Independent Features** | M21, M22, M23 | None - can start immediately |
+| **A: Independent Features** | M21, M23, M22 (optional) | None - can start immediately |
 | **B: Infrastructure & Backend** | M24 → M25 → M27, M24 → M26 | M24 is foundation for rest |
 
-> **Note**: Track A milestones (M21-M23) have no dependencies and can be executed in any order or in parallel. Track B milestones have dependencies as shown.
+> **Note**: Track A milestones have no dependencies and can be executed in any order. M22 is optional—M23 (Wikimedia Sourcing) may eliminate the need for local image hosting. Track B milestones have dependencies as shown.
 
 ---
 
@@ -90,54 +90,64 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 
 ---
 
-## Future: M22 - Image Asset Management
-
-**Goal**: Fix broken image URLs in datasets by auditing, downloading, and hosting images in a stable location. Currently, many `imageUrl` fields link to Wikimedia Commons thumbnails that have been updated/renamed, returning 404 errors.
-
-**Track**: A (Independent Features) - No dependencies
-
-**Problem**: Wikipedia/Wikimedia images change frequently as editors update articles. URLs captured at dataset creation time become broken when images are replaced, renamed, or reorganized.
-
-**Key Deliverables**:
-- Audit script to identify all broken `imageUrl` links across datasets
-- Download and organize valid images to a stable hosting location (local `public/images/` or cloud storage bucket TBD)
-- Update all `imageUrl` fields in dataset JSON files to point to hosted images
-- Document image attribution/licensing for Wikimedia-sourced images
-
-**Architecture Decision (TBD)**: 
-- **Option A**: Host in `public/images/{dataset}/{node-id}.jpg` (simple, versioned with code)
-- **Option B**: Cloud storage bucket (S3, GCS, Cloudflare R2) with stable URLs
-
-**Status**: Not started. Full task breakdown in `PROGRESS.md`.
-
----
-
 ## Future: M23 - Wikimedia Sourcing
 
-**Goal**: Dynamically fetch supplementary data (summaries, images) from the Wikimedia API for nodes that lack this information locally. Node metadata always takes precedence, with Wikimedia providing fallback enrichment.
+**Goal**: Dynamically fetch supplementary data (summaries, images) from the Wikimedia API for nodes that lack this information locally. Node metadata always takes precedence, with Wikimedia providing fallback enrichment—except for broken local images, which fall back to Wikipedia.
 
 **Track**: A (Independent Features) - No dependencies
+
+**Pilot Dataset**: Rosicrucian Network (test all features here before rolling out to other datasets)
 
 **Problem**: Maintaining biographical text and images for hundreds of nodes is labor-intensive and prone to staleness. Wikipedia already has well-maintained content for most historical figures and locations.
 
-**Approach**: 
+### Technical Feasibility (Researched)
+
+| Question | Finding |
+|----------|---------|
+| **Browser compatibility** | `wikipedia` npm package works in browser. Built with ES6+/TypeScript, uses standard `fetch`. Compatible with Vite. |
+| **CORS support** | Wikipedia REST API supports CORS for anonymous requests. No special parameters needed—direct client-side `fetch()` works. |
+| **Wikidata QID stability** | QIDs are stable permanent identifiers. They don't change (except rare documented deletions/mergers). Safe for long-term references. |
+| **Disambiguation detection** | REST API returns `"type": "disambiguation"` in response. Can detect and handle programmatically. |
+
+### Design Decisions
+
+| Decision | Choice |
+|----------|--------|
+| **Schema fields** | Add `wikipediaTitle` (required for mapping) and `wikidataId` (optional stable QID like `Q9312`) to all node types |
+| **Node type support** | All types: `person`, `location`, `entity`, `object` |
+| **Disambiguation handling** | If disambiguation page detected, retry with node type appended (e.g., "John Dee (mathematician)") |
+| **Attribution UI** | Wikipedia "W" icon with tooltip, linking to article (opens in new tab) |
+| **Extract display** | Truncate to 1-2 lines with "Read more on Wikipedia" link (opens in new tab) |
+| **Broken image fallback** | If local `imageUrl` returns 404, fall back to Wikipedia thumbnail |
+| **Fetch timing** | Lazy—only fetch when InfoboxPanel opens for that node |
+| **Cache strategy** | LRU eviction from localStorage, 48-hour TTL |
+
+### Approach
+
 - Use the `wikipedia` npm package (TypeScript, uses Wikipedia REST API, no authentication required)
-- Add optional `wikipediaTitle` field to nodes for explicit mapping
-- Fallback behavior: display node's own `biography`/`imageUrl` if present; fetch from Wikipedia only if missing
-- Cache API responses to reduce calls and improve performance
+- Add `wikipediaTitle` field to nodes for explicit mapping (required for Wikipedia sourcing to work)
+- Add optional `wikidataId` field for stable Wikidata QID references
+- Fallback behavior: 
+  1. Node's own `biography`/`imageUrl` (if present and valid)
+  2. Wikipedia API fetch (if `wikipediaTitle` provided)
+  3. Graceful empty state
+- Exception: Broken local images (404) fall back to Wikipedia even if `imageUrl` was set
+- Cache API responses with LRU eviction and 48-hour TTL
 
 **Key Deliverables**:
 - Wikipedia service module using the `wikipedia` npm package
 - `useWikipediaData` hook for fetching/caching summaries and images
-- `wikipediaTitle` optional field added to node schema
-- Fallback logic in InfoboxPanel: node data → Wikipedia API → graceful empty state
-- Caching layer (in-memory and/or localStorage) to minimize API calls
+- `wikipediaTitle` and `wikidataId` fields added to node schema (all types)
+- Fallback logic in InfoboxPanel with broken image detection
+- Caching layer with LRU eviction in localStorage (48-hour TTL)
+- Wikipedia attribution icon linking to source article
+- Truncated extracts with "Read more" links
 - Rate limiting awareness (500 req/hour per IP for anonymous access)
-- Error handling for missing pages, network failures, rate limits
+- Error handling for missing pages, disambiguation, network failures, rate limits
 
 **Rate Limits**: Wikipedia REST API allows 500 requests/hour per IP without authentication. Since this is a client-side app, each user has their own limit. Caching makes this ample for normal browsing.
 
-**Relationship to M22**: M22 (Image Asset Management) and M23 are complementary approaches to the image problem. M22 hosts images permanently; M23 fetches them dynamically. Either can be done first, or both for belt-and-suspenders reliability.
+**Relationship to M22**: This milestone may eliminate the need for M22 (Image Asset Management). If dynamic Wikimedia fetching proves reliable, M22 can be skipped. M22 remains available as a fallback if we need permanent local hosting for images not available via Wikimedia.
 
 **Status**: Not started. Full task breakdown in `PROGRESS.md`.
 
@@ -227,6 +237,30 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 
 ---
 
+## Optional: M22 - Image Asset Management
+
+**Goal**: Fix broken image URLs in datasets by auditing, downloading, and hosting images in a stable location. Currently, many `imageUrl` fields link to Wikimedia Commons thumbnails that have been updated/renamed, returning 404 errors.
+
+**Track**: A (Independent Features) - No dependencies
+
+**Why Optional**: M23 (Wikimedia Sourcing) dynamically fetches images from Wikipedia, which may eliminate the need for local image hosting. If Wikimedia Sourcing proves reliable, this milestone can be skipped entirely.
+
+**Problem**: Wikipedia/Wikimedia images change frequently as editors update articles. URLs captured at dataset creation time become broken when images are replaced, renamed, or reorganized.
+
+**Key Deliverables**:
+- Audit script to identify all broken `imageUrl` links across datasets
+- Download and organize valid images to a stable hosting location (local `public/images/` or cloud storage bucket TBD)
+- Update all `imageUrl` fields in dataset JSON files to point to hosted images
+- Document image attribution/licensing for Wikimedia-sourced images
+
+**Architecture Decision (TBD)**: 
+- **Option A**: Host in `public/images/{dataset}/{node-id}.jpg` (simple, versioned with code)
+- **Option B**: Cloud storage bucket (S3, GCS, Cloudflare R2) with stable URLs
+
+**Status**: Deferred. M23 (Wikimedia Sourcing) may obviate this milestone. Full task breakdown in `PROGRESS.md` if needed.
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -254,27 +288,28 @@ M1-M20 (Core Application Complete) ✅
     │  TRACK A: Independent Features                                    │  TRACK B: Infrastructure
     │  (No dependencies, can parallelize)                               │  (Sequential dependencies)
     │                                                                   │
-    ├──────────────┬────────────────┬────────────────┐                  │
-    ▼              ▼                ▼                │                  ▼
-   M21            M22              M23               │                 M24
-   (Dataset      (Image           (Wikimedia        │                (Vercel)
-   Search)       Management)      Sourcing)         │                  │
-                      │                             │                  ├──────────────┐
-                      │                             │                  ▼              ▼
-                      └─── complementary ───────────┘                 M25            M26
-                                                                   (Feedback)    (Domain)
-                                                                       │
-                                                                       ▼
-                                                                      M27
-                                                                   (Spam Prot.)
+    ├──────────────┬────────────────┐                                   │
+    ▼              ▼                │                                   ▼
+   M21            M23               │                                  M24
+   (Dataset      (Wikimedia         │                                 (Vercel)
+   Search) ✅    Sourcing)          │                                   │
+                   │                │                                   ├──────────────┐
+                   ▼                │                                   ▼              ▼
+                  M22               │                                  M25            M26
+                 (Image             │                               (Feedback)    (Domain)
+                 Mgmt)              │                                   │
+                [OPTIONAL]          │                                   ▼
+                                    │                                  M27
+                                    │                               (Spam Prot.)
+                                    │
 ```
 
 **Track A - Independent Features** (can execute in any order):
 - **M21 (Dataset Search)**: ✅ Complete. Searchable combobox for faster dataset discovery.
-- **M22 (Image Asset Management)**: Data quality fix. Hosts images locally to avoid broken Wikimedia URLs.
 - **M23 (Wikimedia Sourcing)**: Dynamic enrichment. Fetches missing data from Wikipedia API.
+- **M22 (Image Asset Management)**: Optional. Hosts images locally—may be unnecessary if M23 works well.
 
-> **M22 & M23 Relationship**: These milestones address the same problem (missing/broken images) with complementary approaches. M22 hosts images permanently; M23 fetches dynamically. Either can be done first, or both for reliability.
+> **M22 & M23 Relationship**: M23 (Wikimedia Sourcing) dynamically fetches images and may eliminate the need for M22. M22 remains as an optional fallback if we need permanent local hosting for images not available via Wikimedia.
 
 **Track B - Infrastructure & Backend** (sequential):
 - **M24 (Vercel Migration)**: Foundation for serverless functions. Enables M25, M26.
