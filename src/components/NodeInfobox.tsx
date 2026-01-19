@@ -282,12 +282,10 @@ function PersonFields({
   node,
   getNode,
   onNodeLinkClick,
-  shouldShowLocalBiography,
 }: {
   node: PersonNode;
   getNode: (id: string) => GraphNode | undefined;
   onNodeLinkClick: (nodeId: string) => void;
-  shouldShowLocalBiography: boolean;
 }) {
   return (
     <>
@@ -347,13 +345,6 @@ function PersonFields({
         </div>
       )}
 
-      {/* Biography - only show if non-redundant with Wikipedia */}
-      {shouldShowLocalBiography && node.biography && (
-        <div className="node-infobox__field node-infobox__field--full">
-          <span className="node-infobox__label">Biography</span>
-          <p className="node-infobox__biography">{node.biography}</p>
-        </div>
-      )}
     </>
   );
 }
@@ -701,13 +692,26 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
         )}
       </div>
 
-      {/* Description - use enriched description with Wikipedia fallback */}
-      {enrichedData.description ? (
+      {/* Network Biography - dataset-specific context, highest priority */}
+      {isPersonNode(node) && node.biography && (
         <div className="node-infobox__description-wrapper">
+          <span className="node-infobox__section-title">Network Biography</span>
+          <p className="node-infobox__biography">{node.biography}</p>
+        </div>
+      )}
+
+      {/* Wikipedia Biography - secondary priority */}
+      {enrichedData.description && enrichedData.descriptionSource === 'wikipedia' ? (
+        <div className="node-infobox__description-wrapper">
+          <span className="node-infobox__section-title">Wikipedia Biography</span>
           <p className="node-infobox__description">{enrichedData.description}</p>
-          {enrichedData.descriptionSource === 'wikipedia' && enrichedData.wikipediaUrl && (
+          {enrichedData.wikipediaUrl && (
             <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} variant="inline" />
           )}
+        </div>
+      ) : enrichedData.description ? (
+        <div className="node-infobox__description-wrapper">
+          <p className="node-infobox__description">{enrichedData.description}</p>
         </div>
       ) : node.shortDescription ? (
         <p className="node-infobox__description">{node.shortDescription}</p>
@@ -740,7 +744,6 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
             node={node}
             getNode={getNode}
             onNodeLinkClick={onNodeLinkClick}
-            shouldShowLocalBiography={enrichedData.shouldShowLocalBiography}
           />
         )}
         {isObjectNode(node) && (
