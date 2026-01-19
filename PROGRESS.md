@@ -86,23 +86,39 @@ Future milestones are organized into two tracks:
 - Vercel account (confirmed)
 - Admin access to `github.com/moxious/historynet` (confirmed)
 
-### Vercel Project Setup
+### Vercel Project Setup (CLI)
 
-- [ ] **VM1** - Create Vercel project named `scenius`
-  - Go to vercel.com/new
-  - Import `moxious/historynet` repository
-  - Project name: `scenius` (URL will be `scenius.vercel.app`)
-- [ ] **VM2** - Configure Vercel build settings
-  - Framework Preset: Vite
-  - Build Command: `npm run build` (default)
-  - Output Directory: `dist` (default for Vite)
-  - Install Command: `npm install` (default)
-- [ ] **VM3** - Trigger initial deployment and verify build succeeds
-- [ ] **VM4** - Test frontend functionality at `scenius.vercel.app`
+- [ ] **VM1** - Install Vercel CLI globally
+  ```bash
+  npm install -g vercel
+  ```
+- [ ] **VM2** - Login to Vercel CLI
+  ```bash
+  vercel login
+  ```
+- [ ] **VM3** - Link repository to Vercel project
+  ```bash
+  vercel link
+  ```
+  - When prompted: Create new project
+  - Project name: `scenius`
+  - Framework: Vite (should auto-detect)
+  - This creates `.vercel/` directory (already in `.gitignore`)
+- [ ] **VM4** - Deploy to production
+  ```bash
+  vercel --prod
+  ```
+  - Verify build succeeds
+  - Note the production URL (`scenius.vercel.app`)
+- [ ] **VM5** - Configure GitHub integration in Vercel dashboard
+  - Go to Project Settings → Git
+  - Verify `moxious/historynet` is connected
+  - Enable automatic deployments on push to `main`
+- [ ] **VM6** - Test frontend functionality at `scenius.vercel.app`
   - Home page loads
   - Dataset selector works
   - All three layouts render (Graph, Timeline, Radial)
-- [ ] **VM5** - Verify hash routing works correctly
+- [ ] **VM7** - Verify hash routing works correctly
   - Deep link to node: `/#/ai-llm-research/node/person-geoffrey-hinton`
   - Deep link to edge: `/#/ai-llm-research/edge/...`
   - Theme parameter: `/#/?theme=dark`
@@ -110,7 +126,7 @@ Future milestones are organized into two tracks:
 
 ### Serverless API Endpoint
 
-- [ ] **VM6** - Create `/api/health.ts` serverless function
+- [ ] **VM8** - Create `/api/health.ts` serverless function
   ```typescript
   // api/health.ts
   import type { VercelRequest, VercelResponse } from '@vercel/node';
@@ -123,33 +139,40 @@ Future milestones are organized into two tracks:
     });
   }
   ```
-- [ ] **VM7** - Deploy and test endpoint at `scenius.vercel.app/api/health`
-  - Verify JSON response in browser
+- [ ] **VM9** - Deploy and test endpoint at `scenius.vercel.app/api/health`
+  ```bash
+  vercel --prod
+  ```
+  - Verify JSON response in browser shows `{ status: "ok", timestamp: "...", environment: "production" }`
   - Verify CORS allows requests from frontend
-- [ ] **VM8** - Add test environment variable in Vercel dashboard
-  - Name: `TEST_VAR`, Value: `hello-from-vercel`
-  - Update `/api/health.ts` to include it in response (temporarily)
-  - Verify it appears in response, then remove from response (keep var for future use)
+- [ ] **VM10** - Add test environment variable via CLI
+  ```bash
+  vercel env add TEST_VAR production
+  ```
+  - Value: `hello-from-vercel`
+  - Temporarily update `/api/health.ts` to include `testVar: process.env.TEST_VAR`
+  - Redeploy and verify it appears in response
+  - Remove from response code (keep env var for future use)
 
 ### Dual Deployment Verification
 
-- [ ] **VM9** - Verify GitHub Pages deployment still works
+- [ ] **VM11** - Verify GitHub Pages deployment still works
   - Push a minor change and confirm both deployments update
   - GitHub Pages: `moxious.github.io/historynet`
   - Vercel: `scenius.vercel.app`
-- [ ] **VM10** - Verify `.github/workflows/deploy.yml` is unchanged and functional
-- [ ] **VM11** - Test that both deployments serve identical frontend functionality
+- [ ] **VM12** - Verify `.github/workflows/deploy.yml` is unchanged and functional
+- [ ] **VM13** - Test that both deployments serve identical frontend functionality
 
 ### Documentation Updates
 
-- [ ] **VM12** - Update `AGENTS.md` with deployment information
+- [ ] **VM14** - Update `AGENTS.md` with deployment information
   - Add Vercel URL to "Live Application & Testing" section
   - Update example URLs to include both hosts
   - Note which deployment to use for API testing (Vercel only)
-- [ ] **VM13** - Update `README.md` with deployment information
+- [ ] **VM15** - Update `README.md` with deployment information
   - Add Vercel URL as primary deployment
   - Note GitHub Pages as backup/mirror
-- [ ] **VM14** - Update `CHANGELOG.md` with M24 completion entry
+- [ ] **VM16** - Update `CHANGELOG.md` with M24 completion entry
 
 ---
 
