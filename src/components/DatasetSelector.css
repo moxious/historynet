@@ -205,10 +205,18 @@
 @media (max-width: 640px) {
   .dataset-selector__trigger {
     min-width: 140px;
+    /* Touch-friendly height (MB24) */
+    min-height: 44px;
   }
 
   .dataset-selector__dropdown {
     min-width: 260px;
     right: auto;
+  }
+
+  /* Touch-friendly dropdown options */
+  .dataset-selector__option {
+    min-height: 60px;
+    padding: var(--spacing-md);
   }
 }

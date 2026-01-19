@@ -72,14 +72,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
+  /* Larger visual size while keeping compact look */
+  width: 24px;
+  height: 24px;
   border: none;
   background: var(--color-border);
   border-radius: 50%;
   color: var(--color-text-muted);
   cursor: pointer;
   transition: background-color 0.2s, color 0.2s;
+}
+
+/* Touch-friendly clear button on mobile (MB20) */
+@media (max-width: 640px) {
+  .search-box__clear {
+    width: 32px;
+    height: 32px;
+    /* Expanded touch area */
+    margin: -4px;
+    padding: 4px;
+  }
 }
 
 .search-box__clear:hover {

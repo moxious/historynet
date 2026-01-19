@@ -1,0 +1,189 @@
+/**
+ * MobileMenu styles
+ * 
+ * Slide-in drawer from right with semi-transparent backdrop.
+ * Includes safe area inset support for iPhone notches.
+ */
+
+/* Overlay backdrop */
+.mobile-menu-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: mobile-menu-backdrop-fade-in 0.2s ease-out;
+}
+
+@keyframes mobile-menu-backdrop-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Menu panel */
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(300px, 85vw);
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  animation: mobile-menu-slide-in 0.25s ease-out;
+  /* Safe area insets for iPhone notch and home indicator */
+  padding-top: var(--safe-area-top, env(safe-area-inset-top, 0px));
+  padding-right: var(--safe-area-right, env(safe-area-inset-right, 0px));
+  padding-bottom: var(--safe-area-bottom, env(safe-area-inset-bottom, 0px));
+}
+
+@keyframes mobile-menu-slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Header */
+.mobile-menu__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.mobile-menu__title {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.mobile-menu__close {
+  /* 44px minimum touch target */
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: background-color 0.15s, color 0.15s;
+  margin: -8px; /* Expand touch area without affecting layout */
+}
+
+.mobile-menu__close:hover {
+  background-color: var(--color-surface-hover);
+  color: var(--color-text);
+}
+
+.mobile-menu__close:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Content */
+.mobile-menu__content {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.mobile-menu__section {
+  margin-bottom: var(--spacing-lg);
+}
+
+.mobile-menu__section:last-child {
+  margin-bottom: 0;
+}
+
+.mobile-menu__section-label {
+  display: block;
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Dataset selector in menu should be full-width */
+.mobile-menu__dataset-selector {
+  width: 100%;
+}
+
+.mobile-menu__dataset-selector .dataset-selector__trigger {
+  width: 100%;
+  min-width: auto;
+}
+
+.mobile-menu__dataset-selector .dataset-selector__dropdown {
+  min-width: auto;
+  left: 0;
+  right: 0;
+}
+
+/* Layout switcher in menu should be full-width */
+.mobile-menu__layout-switcher {
+  width: 100%;
+}
+
+.mobile-menu__layout-switcher .layout-switcher__tab {
+  flex: 1;
+  justify-content: center;
+}
+
+/* Show labels in mobile menu even though we're on mobile */
+.mobile-menu__layout-switcher .layout-switcher__tab-label {
+  display: inline !important;
+}
+
+/* Theme row */
+.mobile-menu__theme-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-sm) 0;
+}
+
+.mobile-menu__theme-label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+/* Footer */
+.mobile-menu__footer {
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.mobile-menu__brand {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.mobile-menu__tagline {
+  display: block;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* Dark mode adjustments */
+[data-theme="dark"] .mobile-menu-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}

@@ -1,9 +1,25 @@
+/**
+ * MainLayout component - Responsive main content area
+ * 
+ * Desktop (≥768px): Side-by-side graph and infobox panel
+ * Mobile (<768px): Full-height graph with bottom sheet infobox
+ * 
+ * Features:
+ * - Responsive layout switching based on viewport
+ * - Mobile bottom sheet for InfoboxPanel
+ * - Mobile drawer for FilterPanel
+ * - Interaction hints for zoom/pan
+ */
+
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useGraph } from '@contexts';
+import { useIsTablet } from '@hooks';
 import type { GraphNode, GraphEdge } from '@types';
 import { ForceGraphLayout, TimelineLayout } from '@layouts';
 import InfoboxPanel from './InfoboxPanel';
+import MobileInfoboxPanel from './MobileInfoboxPanel';
 import FilterPanel from './FilterPanel';
+import Drawer from './Drawer';
 import './MainLayout.css';
 
 function MainLayout() {
@@ -25,11 +41,27 @@ function MainLayout() {
     currentLayout,
   } = useGraph();
 
+  // Responsive state
+  const isTabletOrSmaller = useIsTablet();
+
   // Filter panel collapse state - collapsed by default (UX26)
   const [isFilterCollapsed, setIsFilterCollapsed] = useState(true);
+  
+  // Mobile filter drawer state
+  const [isFilterDrawerOpen, setIsFilterDrawerOpen] = useState(false);
 
   const handleToggleFilterCollapse = useCallback(() => {
-    setIsFilterCollapsed((prev) => !prev);
+    if (isTabletOrSmaller) {
+      // On mobile, toggle the drawer
+      setIsFilterDrawerOpen((prev) => !prev);
+    } else {
+      // On desktop, toggle the collapse
+      setIsFilterCollapsed((prev) => !prev);
+    }
+  }, [isTabletOrSmaller]);
+
+  const handleCloseFilterDrawer = useCallback(() => {
+    setIsFilterDrawerOpen(false);
   }, []);
 
   // Handlers for graph interactions - memoized to prevent graph re-layout (GI1-GI3)
@@ -67,7 +99,7 @@ function MainLayout() {
             <p>Loading dataset...</p>
           </div>
         </section>
-        <InfoboxPanel />
+        {!isTabletOrSmaller && <InfoboxPanel />}
       </main>
     );
   }
@@ -82,7 +114,7 @@ function MainLayout() {
             <p className="main-layout__error-message">{error?.message ?? 'Unknown error'}</p>
           </div>
         </section>
-        <InfoboxPanel />
+        {!isTabletOrSmaller && <InfoboxPanel />}
       </main>
     );
   }
@@ -112,8 +144,60 @@ function MainLayout() {
     }
   };
 
+  // Render FilterPanel - different behavior for mobile vs desktop
+  const renderFilterPanel = () => {
+    const filterPanelContent = (
+      <FilterPanel
+        filters={filters}
+        onFiltersChange={setFilters}
+        onClearFilters={clearFilters}
+        stats={filterStats ?? undefined}
+        dateRange={dateRange ?? undefined}
+        nodeTypeCounts={nodeTypeCounts ?? undefined}
+        relationshipTypeCounts={relationshipTypeCounts ?? undefined}
+        isCollapsed={isTabletOrSmaller ? false : isFilterCollapsed}
+        onToggleCollapse={handleToggleFilterCollapse}
+      />
+    );
+
+    if (isTabletOrSmaller) {
+      // Mobile: render inside Drawer
+      return (
+        <>
+          {/* Filter toggle button for mobile */}
+          <button
+            className="main-layout__filter-toggle"
+            onClick={handleToggleFilterCollapse}
+            aria-label="Open filters"
+            type="button"
+          >
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2">
+              <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46" />
+            </svg>
+            <span>Filters</span>
+          </button>
+
+          {/* Filter drawer */}
+          <Drawer
+            isOpen={isFilterDrawerOpen}
+            onClose={handleCloseFilterDrawer}
+            title="Filters"
+            width={300}
+          >
+            <div className="main-layout__drawer-filter">
+              {filterPanelContent}
+            </div>
+          </Drawer>
+        </>
+      );
+    }
+
+    // Desktop: render inline
+    return filterPanelContent;
+  };
+
   return (
-    <main className="main-layout">
+    <main className={`main-layout ${isTabletOrSmaller ? 'main-layout--mobile' : ''}`}>
       <section className="main-layout__graph" aria-label="Graph visualization">
         {filteredData ? (
           <>
@@ -148,24 +232,14 @@ function MainLayout() {
                 <circle cx="11" cy="11" r="8" />
                 <line x1="21" y1="21" x2="16.65" y2="16.65" />
               </svg>
-              <span>Scroll to zoom</span>
+              <span>{isTabletOrSmaller ? 'Pinch to zoom' : 'Scroll to zoom'}</span>
               <span className="main-layout__interaction-hint-separator">•</span>
               <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <path d="M5 9l-3 3l3 3M9 5l3-3l3 3M15 19l3 3l-3 3M19 9l3 3l-3 3M2 12h20M12 2v20" />
               </svg>
               <span>Drag to pan</span>
             </div>
-            <FilterPanel
-              filters={filters}
-              onFiltersChange={setFilters}
-              onClearFilters={clearFilters}
-              stats={filterStats ?? undefined}
-              dateRange={dateRange ?? undefined}
-              nodeTypeCounts={nodeTypeCounts ?? undefined}
-              relationshipTypeCounts={relationshipTypeCounts ?? undefined}
-              isCollapsed={isFilterCollapsed}
-              onToggleCollapse={handleToggleFilterCollapse}
-            />
+            {renderFilterPanel()}
           </>
         ) : (
           <div className="main-layout__placeholder">
@@ -174,7 +248,12 @@ function MainLayout() {
           </div>
         )}
       </section>
-      <InfoboxPanel />
+
+      {/* InfoboxPanel - desktop version (side panel) */}
+      {!isTabletOrSmaller && <InfoboxPanel />}
+
+      {/* InfoboxPanel - mobile version (bottom sheet) */}
+      {isTabletOrSmaller && <MobileInfoboxPanel />}
     </main>
   );
 }

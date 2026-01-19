@@ -22,6 +22,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - Integrated into GitHub Actions - runs before build
   - Fixed data issues in ai-llm-research (missing location-new-york node) and ambient-music (empty dateEnd fields)
 
+- **M18: Adapt for Mobile** - Full mobile device support for iPad and iPhone
+  - **Responsive Header**: Collapses controls into hamburger menu on mobile (< 640px)
+  - **Mobile Menu**: Slide-in drawer with Dataset selector, Layout switcher, Theme toggle
+  - **Collapsible Search**: Expands from icon to full input on mobile
+  - **Safe Area Insets**: Support for iPhone notch, Dynamic Island, and home indicator
+  - **Touch Targets**: All interactive elements meet 44×44pt minimum (Apple HIG)
+  - **Bottom Sheet InfoboxPanel**: Draggable sheet with peek (100px) and expanded (60%) states
+  - **Filter Drawer**: Left-side drawer for FilterPanel on mobile
+  - **Dynamic Viewport Height**: Uses `100dvh` for iOS Safari toolbar handling
+  - **Touch Optimizations**: Removed tap highlight, disabled double-tap zoom on buttons
+  - **New Components**: `useMediaQuery` hook, `MobileMenu`, `HamburgerButton`, `BottomSheet`, `Drawer`, `MobileInfoboxPanel`
+
 ### Planned
 - M12: User Feedback - feedback form with Vercel serverless functions
 

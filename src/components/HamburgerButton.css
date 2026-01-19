@@ -1,0 +1,62 @@
+/**
+ * HamburgerButton styles
+ * 
+ * Animated hamburger icon that transforms to X when open.
+ * Uses 44×44px touch target for mobile accessibility.
+ */
+
+.hamburger-button {
+  /* 44px minimum touch target (Apple HIG) */
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.hamburger-button:hover {
+  background-color: var(--color-surface-hover);
+  border-color: var(--color-border-focus);
+}
+
+.hamburger-button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.hamburger-button:active {
+  transform: scale(0.95);
+}
+
+/* Lines */
+.hamburger-button__line {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-text);
+  border-radius: 1px;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+  transform-origin: center;
+}
+
+/* Transform to X when open */
+.hamburger-button--open .hamburger-button__line--1 {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.hamburger-button--open .hamburger-button__line--2 {
+  opacity: 0;
+  transform: scaleX(0);
+}
+
+.hamburger-button--open .hamburger-button__line--3 {
+  transform: translateY(-7px) rotate(-45deg);
+}

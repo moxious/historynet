@@ -21,7 +21,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M15 | Stable Resource URLs | ✅ Complete |
 | M16 | Network Verification | ✅ Complete |
 | M17 | Dataset Search & Filter | 🔲 Future |
-| M18 | Adapt for Mobile | 🔲 Future |
+| M18 | Adapt for Mobile | ✅ Complete |
 | M19 | Radial/Ego-Network View | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
@@ -55,6 +55,7 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 | M14 | Timeline improvements: margins, year labels, initial zoom, legend consistency |
 | M15 | Stable resource URLs: permalinks for nodes/edges, share buttons, SEO meta tags |
 | M16 | Network verification: build-time dataset validation CLI (`npm run validate:datasets`) |
+| M18 | Mobile adaptation: responsive header, hamburger menu, bottom sheet, touch targets |
 
 ---
 

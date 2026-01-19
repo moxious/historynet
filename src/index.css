@@ -136,6 +136,12 @@
    ============================================ */
 
 :root {
+  /* Safe Area Insets (for iPhone notch, Dynamic Island, home indicator) */
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+
   /* Spacing */
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
@@ -195,10 +201,19 @@ body {
 }
 
 #root {
-  height: 100%;
+  /* Use dynamic viewport height for iOS Safari toolbar handling */
+  height: 100dvh;
   width: 100%;
   display: flex;
   flex-direction: column;
+}
+
+/* Fallback for browsers that don't support dvh */
+@supports not (height: 100dvh) {
+  #root {
+    height: 100vh;
+    height: 100%;
+  }
 }
 
 a {
@@ -259,6 +274,45 @@ html {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================
+   Mobile Optimizations
+   ============================================ */
+
+/* Remove tap highlight on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent double-tap zoom on buttons and interactive elements */
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+a {
+  touch-action: manipulation;
+}
+
+/* Mobile touch target minimum sizes */
+@media (max-width: 640px) {
+  /* Ensure all interactive elements meet 44px minimum on mobile */
+  button:not(.hamburger-button):not(.header__search-trigger):not(.header__search-close):not(.mobile-menu__close),
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Form inputs should have comfortable height */
+  input[type="text"],
+  input[type="number"],
+  input[type="search"],
+  input[type="email"],
+  select {
+    min-height: 44px;
+    font-size: 16px; /* Prevents iOS zoom on focus */
   }
 }
 

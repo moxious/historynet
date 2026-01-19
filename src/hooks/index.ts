@@ -12,3 +12,4 @@ export { useFilters } from './useFilters';
 export { useDebounce } from './useDebounce';
 export { useResourceParams, buildNodeUrl, buildEdgeUrl, buildGraphViewUrl, buildFullNodeUrl, buildFullEdgeUrl } from './useResourceParams';
 export type { ResourceParams } from './useResourceParams';
+export { useMediaQuery, useIsMobile, useIsTablet, useIsDesktop, BREAKPOINTS } from './useMediaQuery';
