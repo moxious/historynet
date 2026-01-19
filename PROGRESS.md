@@ -274,6 +274,166 @@ All MVP and post-MVP milestones through M15 are complete. See `HISTORY.md` for d
 
 ---
 
+## M18: Adapt for Mobile
+
+**Goal**: Make Scenius fully usable on mobile devices (iPad and iPhone). Transform the desktop-first layout into a responsive, touch-friendly experience using mobile-native patterns like hamburger menus, bottom sheets, and drawers.
+
+**Priority Levels**:
+- **High**: Header overflow fix, safe area insets, touch targets (core usability)
+- **Medium**: Bottom sheet InfoboxPanel, filter drawer (enhanced UX patterns)
+
+**Key Context for Implementing Agent**:
+- Current breakpoint at 768px switches from side-by-side to stacked layout
+- Header currently shows: Brand, Layout switcher, Dataset selector, Search, Theme toggle
+- InfoboxPanel is currently 320px wide (desktop) or 40% height (mobile)
+- FilterPanel floats at top-left, nearly full-width on mobile
+- Test on actual devices or browser device emulation for accurate results
+
+### 1. Responsive Header with Hamburger Menu (HIGH)
+
+**Intent**: Prevent header overflow on narrow screens. At < 640px, collapse secondary controls into a menu while keeping primary actions (search, menu toggle) always visible.
+
+- [ ] **MB1** - Create `MobileMenu` component (slide-in drawer from right)
+  - Full-height overlay with semi-transparent backdrop
+  - Contains: Dataset selector, Layout switcher, Theme toggle
+  - Close on backdrop tap or explicit close button
+- [ ] **MB2** - Create `HamburgerButton` component (44×44px touch target)
+  - Three-line icon, transforms to X when menu open
+  - Visible only on mobile (< 640px)
+- [ ] **MB3** - Create `useMediaQuery` hook or CSS-based responsive logic
+  - Return boolean for mobile breakpoint
+  - Consider using `window.matchMedia` for JS approach
+- [ ] **MB4** - Update `Header.tsx` to conditionally render mobile vs desktop layout
+  - Desktop (≥ 640px): Current layout with all controls inline
+  - Mobile (< 640px): Logo, search icon, hamburger button only
+- [ ] **MB5** - Make search collapsible on mobile
+  - Default: Show search icon only
+  - Tap: Expand to full search input (overlay or inline)
+  - Blur or submit: Collapse back to icon
+- [ ] **MB6** - Style mobile menu with theme support (light/dark)
+- [ ] **MB7** - Add slide-in animation for menu (transform + opacity)
+- [ ] **MB8** - Ensure menu is keyboard accessible (focus trap when open, Escape to close)
+- [ ] **MB9** - Test header at 375px, 390px, 430px widths (common iPhone sizes)
+
+### 2. Safe Area Insets for iPhone (HIGH)
+
+**Intent**: Prevent content from being clipped by iPhone notch, Dynamic Island, and home indicator. Essential for landscape orientation and newer devices.
+
+- [ ] **MB10** - Add `viewport-fit=cover` to viewport meta tag in `index.html`
+- [ ] **MB11** - Define CSS custom properties for safe area insets in `index.css`:
+  ```css
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+  ```
+- [ ] **MB12** - Apply safe area padding to Header component on mobile
+- [ ] **MB13** - Apply safe area padding to bottom sheet / action bar (MB18-MB27)
+- [ ] **MB14** - Apply safe area padding to MobileMenu component
+- [ ] **MB15** - Test in iPhone simulator with notch (iPhone 14 Pro) and Dynamic Island
+- [ ] **MB16** - Test in landscape orientation for left/right safe areas
+
+### 3. Touch-Friendly Target Sizes (HIGH)
+
+**Intent**: Meet Apple's 44×44pt minimum touch target recommendation. Audit all interactive elements and increase sizes for mobile.
+
+- [ ] **MB17** - Audit all interactive elements and document current sizes
+  - Buttons, icons, form inputs, close buttons, etc.
+- [ ] **MB18** - Update `InfoboxPanel` close button: 32px → 44px (mobile only)
+- [ ] **MB19** - Update `FilterPanel` toggle button to 44px minimum
+- [ ] **MB20** - Update `SearchBox` clear button to 44px minimum
+- [ ] **MB21** - Update `ThemeToggle` button to 44px minimum
+- [ ] **MB22** - Update `LayoutSwitcher` tab buttons to 44px height minimum
+- [ ] **MB23** - Update graph/timeline zoom control buttons to 44px minimum
+- [ ] **MB24** - Update `DatasetSelector` trigger button height to 44px
+- [ ] **MB25** - Add mobile-specific CSS media query block for touch target overrides
+- [ ] **MB26** - Verify padding/spacing adjustments maintain visual balance
+- [ ] **MB27** - Test with touch input on actual device (not just mouse in dev tools)
+
+### 4. Bottom Sheet InfoboxPanel (MEDIUM)
+
+**Intent**: Replace fixed-height stacked panel with draggable bottom sheet. Allows users to maximize graph area when browsing, then expand details on demand.
+
+- [ ] **MB28** - Create `BottomSheet` component (reusable base component)
+  - Props: `isOpen`, `onClose`, `snapPoints` (array of heights), `children`
+  - Drag handle indicator at top
+  - Touch gesture handling for swipe up/down
+- [ ] **MB29** - Implement snap point logic (hidden → peek → expanded)
+  - Peek: ~100px showing title bar
+  - Expanded: ~60% of viewport height
+  - Hidden: Off-screen
+- [ ] **MB30** - Implement drag gesture recognition
+  - Use `touchstart`, `touchmove`, `touchend` events
+  - Calculate velocity for momentum-based snapping
+  - Prevent scroll conflict when dragging sheet
+- [ ] **MB31** - Add smooth animation between snap points (CSS transition or spring)
+- [ ] **MB32** - Create `MobileInfoboxPanel` wrapper that uses BottomSheet
+  - Render existing `NodeInfobox`/`EdgeInfobox` content inside
+  - Show drag handle and title in peek state
+- [ ] **MB33** - Integrate with selection state from `useGraph`
+  - No selection → sheet hidden
+  - Selection made → sheet opens to peek
+  - Clear selection → sheet hides
+- [ ] **MB34** - Add close button in sheet header (alternative to swipe-to-dismiss)
+- [ ] **MB35** - Update `MainLayout.tsx` to use `MobileInfoboxPanel` on mobile
+  - Conditionally render based on viewport width
+  - Desktop: Keep current side panel behavior
+- [ ] **MB36** - Handle scroll within expanded sheet content
+  - Internal scroll when content overflows
+  - Drag gesture should not interfere with content scroll
+- [ ] **MB37** - Test sheet behavior with various node types (short vs long content)
+- [ ] **MB38** - Test sheet with edge selection (different content structure)
+
+### 5. Filter Drawer Pattern (MEDIUM)
+
+**Intent**: Replace floating FilterPanel overlay with slide-in drawer on mobile. Provides cleaner separation between filter UI and graph visualization.
+
+- [ ] **MB39** - Create `Drawer` component (slide from left variant of overlay pattern)
+  - Props: `isOpen`, `onClose`, `side` ('left' | 'right'), `children`
+  - Semi-transparent backdrop
+  - Slide animation
+- [ ] **MB40** - Update `FilterPanel` to support drawer mode on mobile
+  - Wrap content in Drawer component when mobile
+  - Keep floating behavior on desktop (≥ 768px)
+- [ ] **MB41** - Add filter toggle button to mobile header or as FAB
+  - Icon: filter/funnel icon
+  - Badge indicator when filters are active
+- [ ] **MB42** - Implement swipe-to-close gesture for drawer
+- [ ] **MB43** - Add prominent "Clear Filters" button in drawer footer
+- [ ] **MB44** - Show active filter count in toggle button badge
+- [ ] **MB45** - Ensure backdrop click closes drawer
+- [ ] **MB46** - Test filter drawer with all filter types (date range, node types, text)
+- [ ] **MB47** - Test drawer behavior in landscape orientation
+
+### 6. Additional Mobile Optimizations
+
+- [ ] **MB48** - Update `#root` to use `100dvh` (dynamic viewport height) for iOS Safari
+  ```css
+  #root { height: 100dvh; }
+  @supports not (height: 100dvh) { #root { height: 100vh; } }
+  ```
+- [ ] **MB49** - Add `-webkit-tap-highlight-color: transparent` to remove tap highlight
+- [ ] **MB50** - Add `touch-action: manipulation` to prevent double-tap zoom on buttons
+- [ ] **MB51** - Review and adjust font sizes for mobile readability
+
+### 7. Testing & Verification
+
+- [ ] **MB52** - Test on iPhone SE (375×667) - smallest common phone
+- [ ] **MB53** - Test on iPhone 14 Pro (393×852) - standard iPhone
+- [ ] **MB54** - Test on iPhone 14 Pro Max (430×932) - large phone
+- [ ] **MB55** - Test on iPad Mini portrait (768×1024)
+- [ ] **MB56** - Test on iPad Pro landscape (1194×834)
+- [ ] **MB57** - Test all interactive elements with touch input
+- [ ] **MB58** - Verify no horizontal scroll on any mobile viewport
+- [ ] **MB59** - Test orientation changes (portrait ↔ landscape)
+- [ ] **MB60** - Verify graph zoom/pan works with touch gestures
+- [ ] **MB61** - Verify timeline zoom/pan works with touch gestures
+- [ ] **MB62** - Build passes with no errors
+- [ ] **MB63** - No linter warnings in new/modified files
+- [ ] **MB64** - Update CHANGELOG.md with M18 completion notes
+
+---
+
 ## Notes & Decisions
 
 _Add notes about implementation decisions, blockers, or clarifications here._

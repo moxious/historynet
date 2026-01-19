@@ -21,6 +21,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M15 | Stable Resource URLs | ✅ Complete |
 | M16 | Network Verification | ✅ Complete |
 | M17 | Dataset Search & Filter | 🔲 Future |
+| M18 | Adapt for Mobile | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -425,6 +426,213 @@ interface DatasetManifest {
 
 ---
 
+## Future: M18 - Adapt for Mobile
+
+**Goal**: Make Scenius fully usable on mobile devices (iPad and iPhone). The current layout has basic 768px responsive breakpoints but suffers from header overflow, fixed panel heights that don't suit mobile interaction patterns, and insufficient touch target sizes. This milestone transforms the application into a mobile-first experience while preserving the desktop layout.
+
+**Context**: The application currently uses a side-by-side layout (graph + infobox panel) that switches to a stacked layout at 768px. However, this approach has significant issues on phones:
+- Header controls overflow on narrow screens (< 520px needed for all controls)
+- Fixed 40% InfoboxPanel height doesn't allow users to maximize the graph
+- No safe area handling for iPhone notches and home indicators
+- Touch targets below Apple's 44pt minimum recommendation
+- FilterPanel floats over the graph, blocking content on small screens
+
+**Design Philosophy**: Mobile users should be able to:
+1. See the full graph visualization with minimal UI chrome
+2. Access controls through progressive disclosure (hamburger menu, bottom sheets)
+3. Use comfortable touch targets throughout
+4. Navigate using familiar mobile patterns (swipe gestures, bottom sheets)
+
+**Deliverables**:
+
+### 1. Responsive Header with Hamburger Menu (High Priority)
+
+Transform the header for mobile screens to prevent overflow and improve usability.
+
+**Current Problem**: At 375px width (iPhone SE), controls total ~520px and overflow.
+
+**Solution**:
+- At < 640px: Collapse controls into a hamburger menu
+- Keep visible: Logo/title, search trigger (icon), menu button
+- Move to menu: Dataset selector, Layout switcher, Theme toggle
+
+**Mobile Header Layout**:
+```
+┌─────────────────────────────────┐
+│ Scenius        [🔍]        [≡] │
+└─────────────────────────────────┘
+```
+
+**Hamburger Menu Contents**:
+- Dataset selector (full-width)
+- Layout switcher (Graph / Timeline)
+- Theme toggle (Light / Dark)
+- Links to any future settings
+
+**Implementation Notes**:
+- Create `MobileMenu` component (slide-in drawer from right or modal)
+- Add `useMediaQuery` hook or CSS-only approach with checkbox hack
+- Hamburger button should be 44×44px minimum
+- Menu should have backdrop overlay that closes on tap
+- Consider animation (slide-in, fade)
+
+### 2. Safe Area Insets for iPhone (High Priority)
+
+Prevent content from being obscured by iPhone notches, Dynamic Island, and home indicator.
+
+**Implementation**:
+
+Add CSS environment variables:
+```css
+:root {
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+}
+```
+
+Apply to key elements:
+- Header: Add `padding-top: var(--safe-area-top)` on mobile
+- Bottom sheet/bar: Add `padding-bottom: var(--safe-area-bottom)` 
+- FilterPanel: Respect left safe area in landscape
+
+Also add viewport meta tag if not present:
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+```
+
+### 3. Touch-Friendly Target Sizes (High Priority)
+
+Increase all interactive elements to meet Apple's 44×44pt minimum touch target guideline.
+
+**Elements to audit and update**:
+- Close buttons (currently 32×32px) → 44×44px
+- Filter panel toggle
+- SearchBox clear button
+- Theme toggle
+- LayoutSwitcher tabs
+- Zoom control buttons in graph/timeline
+- All form inputs and buttons
+
+**Implementation approach**:
+- Add mobile-specific size overrides in media queries
+- Use `min-width`/`min-height` to ensure touch targets
+- May need to adjust padding/margins for visual balance
+- Test with actual touch input, not just visual inspection
+
+### 4. Bottom Sheet InfoboxPanel (Medium Priority)
+
+Replace the fixed-height stacked panel with a draggable bottom sheet pattern for mobile devices.
+
+**Current Problem**: Fixed 40% height doesn't let users maximize graph space; scrolling within the panel competes with page scrolling.
+
+**Bottom Sheet States**:
+1. **Hidden**: No selection, sheet not visible (graph uses full height)
+2. **Peek**: Selection made, shows title bar + peek content (~100px)
+3. **Expanded**: User swipes up or taps, shows full content (~60% of screen)
+4. **Dismissed**: User swipes down from peek, returns to hidden
+
+**Visual Design**:
+```
+┌─────────────────────┐
+│ Logo  [🔍]  [≡]     │  Header
+├─────────────────────┤
+│                     │
+│    Full-height      │
+│    Graph Area       │  (no fixed bottom section)
+│                     │
+├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤
+│ ═══════════════════ │  ← Drag handle indicator
+│ Mickey Mouse   [×]  │  Peek state
+├─────────────────────┤
+│ (swipe up to expand)│  
+│ Full node details   │  Expanded state
+│ ...                 │
+└─────────────────────┘
+```
+
+**Implementation Notes**:
+- Create `BottomSheet` component (reusable for future features)
+- Use touch events for drag gestures (`touchstart`, `touchmove`, `touchend`)
+- Add momentum/velocity detection for natural-feeling swipes
+- Snap to discrete states (not arbitrary positions)
+- Consider existing library: `react-spring-bottom-sheet`, `framer-motion`
+- Preserve scroll position within sheet when collapsing/expanding
+- Only apply on mobile (< 768px); desktop keeps side panel
+
+**Gesture Details**:
+- Drag handle at top of sheet for grab affordance
+- Swipe down from peek → dismiss (hide sheet)
+- Swipe up from peek → expand
+- Swipe down from expanded → peek (not dismiss)
+- Tap outside sheet → no action (unlike a modal)
+
+### 5. Filter Drawer/Modal Pattern (Medium Priority)
+
+Replace the floating FilterPanel overlay with a dedicated drawer or modal on mobile.
+
+**Current Problem**: FilterPanel floats over the graph at top-left, blocking content. On mobile, it expands to near full-width, which is better, but still covers the graph and doesn't match mobile UX patterns.
+
+**Solution Options**:
+
+**Option A: Left Drawer** (recommended for discoverability)
+- Slide-in from left edge
+- Full height, ~280px width
+- Backdrop dims graph
+- Close button and swipe-to-close gesture
+
+**Option B: Bottom Modal Sheet**
+- Slides up from bottom
+- Takes ~70% of screen height
+- Same bottom sheet mechanics as InfoboxPanel
+- Risk: Two competing bottom sheets if both open
+
+**Recommendation**: Use left drawer to differentiate from InfoboxPanel bottom sheet.
+
+**Implementation Notes**:
+- Create `Drawer` component (left-aligned variant of bottom sheet concept)
+- Add filter toggle button in header menu or as floating action button
+- FilterPanel content remains unchanged; just wrapped in Drawer
+- Include "Apply" button (even though filters apply instantly) for clarity
+- Include "Clear Filters" button prominently
+- On desktop (> 768px), keep current floating panel behavior
+
+### Additional Considerations
+
+**Dynamic Viewport Height**: Use `100dvh` instead of `100vh` to handle iOS Safari's dynamic toolbar:
+```css
+#root {
+  height: 100dvh;
+  height: 100vh; /* Fallback for older browsers */
+}
+
+@supports (height: 100dvh) {
+  #root {
+    height: 100dvh;
+  }
+}
+```
+
+**Breakpoint Strategy** (for reference):
+| Breakpoint | Target Devices | Key Changes |
+|------------|----------------|-------------|
+| < 480px | Small phones (iPhone SE) | Hamburger menu, compact everything |
+| 480-640px | Standard phones | Hamburger menu, search icon |
+| 640-768px | Large phones, landscape | May show some controls |
+| 768-1024px | Tablets (iPad portrait) | Side panel, compact controls |
+| > 1024px | Tablets landscape, desktop | Full desktop layout |
+
+**Testing Checklist**:
+- iPhone SE (375×667) - smallest common phone
+- iPhone 14 Pro (393×852) - standard iPhone with Dynamic Island
+- iPhone 14 Pro Max (430×932) - large phone
+- iPad Mini (768×1024) - tablet portrait
+- iPad Pro 11" (834×1194) - tablet landscape
+- Test with actual devices, not just browser resize
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -450,17 +658,18 @@ M1-M8 (MVP Complete) ✅
     ▼
 M9-M11, M13, M14 (Polish Complete) ✅
     │
-    ├──────────────────┬──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼                  ▼
-   M12                M15 ✅             M16 ✅             M17
-   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)
-   [Vercel req'd]    [Complete]         [Complete]         [independent]
+    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼                  ▼                  ▼
+   M12                M15 ✅             M16 ✅             M17                M18
+   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)   (Mobile Adapt)
+   [Vercel req'd]    [Complete]         [Complete]         [independent]      [independent]
 ```
 
-Note: M12, M15, M16, and M17 can be worked on in parallel as they have no dependencies on each other. However:
+Note: M12, M15, M16, M17, and M18 can be worked on in parallel as they have no dependencies on each other. However:
 - If M15 is completed before M12, the feedback system should be designed to integrate with stable resource pages.
 - M16 is particularly high-value as it improves data quality for all future dataset development and catches errors before deployment.
 - M17 becomes more valuable as more datasets are added—currently lower priority with only 4 datasets, but will become essential as the collection grows.
+- M18 (Mobile Adapt) is independent and can be started anytime. Recommended to complete before M12 since mobile users will benefit from the feedback system.
 
 ---
 
