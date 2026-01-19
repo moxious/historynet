@@ -39,6 +39,7 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 | M18 | Adapt for Mobile | 2026-01-19 |
 | M19 | Radial/Ego-Network View | 2026-01-19 |
 | M20 | SEO Improvements | 2026-01-19 |
+| M21 | Dataset Search & Filter | 2026-01-19 |
 | M23 | Wikimedia Sourcing | 2026-01-19 |
 
 **Key decisions made during MVP:**
@@ -64,7 +65,7 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 ## Future Milestones
 
 Future milestones are organized into two tracks:
-- **Track A (M21-M23)**: Independent features with no dependencies - can be done in any order
+- **Track A (M21, M23, M28)**: Independent features with no dependencies - can be done in any order
 - **Track B (M24-M27)**: Infrastructure & backend features with sequential dependencies
 
 > **Note**: Section order in this file may not match numerical order due to historical evolution. See ROADMAP.md for the canonical milestone plan and dependency diagram.
@@ -624,6 +625,196 @@ labels: feedback
 - [x] **WM53** - Update CHANGELOG.md with M23 completion notes
 
 **Testing Notes**: Manual runtime testing recommended for WM36-WM50. The implementation is complete; runtime verification can be done in the deployed app.
+
+---
+
+## M28: Wikipedia ID Enrichment CLI
+
+**Goal**: Create a build-time CLI tool that enriches dataset nodes with Wikipedia identifiers (`wikipediaTitle` and `wikidataId`), ensuring all nodes have both fields populated when Wikipedia coverage exists.
+
+**Track**: A (Independent Features) - No dependencies
+
+**Status**: 🔲 Ready to start
+
+### Acceptance Criteria
+
+| Criterion | Description |
+|-----------|-------------|
+| **Both identifiers populated** | After enrichment, nodes have both `wikipediaTitle` and `wikidataId` when Wikipedia coverage exists |
+| **No other properties touched** | Only `wikipediaTitle` and `wikidataId` fields are modified; all other node properties remain unchanged |
+| **No nodes added or removed** | Node count before and after enrichment is identical |
+| **Explicit nulls for missing** | Set `wikipediaTitle: null` and `wikidataId: null` when reasonably certain no Wikipedia article exists |
+| **Dry-run by default** | Tool shows proposed changes without writing unless `--write` flag is used |
+| **Rate limit compliance** | Respects Wikipedia API rate limits (500 req/hour) with configurable delays |
+
+### Phase 1: CLI Scaffolding
+
+- [ ] **WE1** - Create `scripts/enrich-wikipedia/` directory structure
+  ```
+  scripts/enrich-wikipedia/
+  ├── index.ts           # CLI entry point
+  ├── types.ts           # Type definitions
+  ├── reporter.ts        # Output formatting
+  └── enrichers/
+      ├── wikipedia-lookup.ts   # wikipediaTitle → wikidataId
+      └── wikidata-lookup.ts    # wikidataId → wikipediaTitle
+  ```
+- [ ] **WE2** - Create `types.ts` with interfaces:
+  - `CLIOptions` (dataset, write, search, json, quiet, rateLimit)
+  - `EnrichmentResult` (nodeId, field, oldValue, newValue, source)
+  - `DatasetEnrichmentResult` (datasetId, results, errors, stats)
+- [ ] **WE3** - Create `index.ts` CLI entry point with argument parsing
+  - `--dataset <id>` - Target specific dataset
+  - `--write` - Actually write changes (default: dry-run)
+  - `--search` - Also search for nodes missing both fields
+  - `--json` - Output results as JSON
+  - `--quiet` - Minimal output
+  - `--rate-limit <ms>` - Delay between API calls (default: 200ms)
+  - `--help` - Show help message
+- [ ] **WE4** - Create `reporter.ts` for formatted output
+  - Progress indicators
+  - Summary statistics
+  - JSON output mode
+- [ ] **WE5** - Add npm scripts to `package.json`:
+  ```json
+  "enrich:wikipedia": "tsx scripts/enrich-wikipedia/index.ts",
+  "enrich:wikipedia:write": "tsx scripts/enrich-wikipedia/index.ts --write"
+  ```
+
+### Phase 2: Wikipedia → Wikidata Lookup
+
+- [ ] **WE6** - Create `enrichers/wikipedia-lookup.ts`
+- [ ] **WE7** - Implement `lookupWikidataId(wikipediaTitle: string): Promise<string | null>`
+  - Use Wikipedia REST API (similar to existing `fetchWikipediaSummary`)
+  - Extract `wikibase_item` from summary response
+  - Return null if page not found or no Wikidata link
+- [ ] **WE8** - Add timeout handling (5 seconds per request)
+- [ ] **WE9** - Add disambiguation detection and logging
+- [ ] **WE10** - Test with known titles (e.g., "Geoffrey_Hinton" → "Q7841039")
+
+### Phase 3: Wikidata → Wikipedia Lookup
+
+- [ ] **WE11** - Create `enrichers/wikidata-lookup.ts`
+- [ ] **WE12** - Implement `lookupWikipediaTitle(wikidataId: string): Promise<string | null>`
+  - Fetch from Wikidata API: `https://www.wikidata.org/wiki/Special:EntityData/{qid}.json`
+  - Extract English Wikipedia sitelink: `entity.sitelinks.enwiki.title`
+  - Return null if no English Wikipedia article linked
+- [ ] **WE13** - Add timeout handling (5 seconds per request)
+- [ ] **WE14** - Test with known QIDs (e.g., "Q7841039" → "Geoffrey_Hinton")
+
+### Phase 4: Core Enrichment Logic
+
+- [ ] **WE15** - Implement `enrichNode(node, options)` function:
+  - Case 1: Has `wikipediaTitle`, missing `wikidataId` → lookup wikidataId
+  - Case 2: Has `wikidataId`, missing `wikipediaTitle` → lookup wikipediaTitle
+  - Case 3: Missing both + `--search` flag → search by title (future)
+  - Case 4: Has both → skip (already complete)
+- [ ] **WE16** - Implement rate limiting between API calls
+  - Default 200ms delay (configurable via `--rate-limit`)
+  - Ensures ~300 requests/minute (well under 500/hour limit)
+- [ ] **WE17** - Track and return enrichment results:
+  - Nodes enriched (with details of what changed)
+  - Nodes skipped (already complete)
+  - Nodes failed (API errors, disambiguation, etc.)
+  - Nodes with no Wikipedia coverage (set to null)
+- [ ] **WE18** - Implement explicit null handling:
+  - If API returns "page not found", set field to `null`
+  - Only set null if confident (404 response, not network error)
+
+### Phase 5: Dataset Processing
+
+- [ ] **WE19** - Implement `processDataset(datasetPath, options)` function:
+  - Load nodes.json
+  - Process each node with enrichNode()
+  - Collect results and statistics
+  - Optionally write updated nodes.json (if `--write`)
+- [ ] **WE20** - Implement node preservation guarantees:
+  - Verify node count before/after is identical
+  - Verify only `wikipediaTitle` and `wikidataId` fields modified
+  - Use deep comparison to ensure other properties unchanged
+- [ ] **WE21** - Implement JSON file writing:
+  - Pretty-print with 2-space indentation (match existing format)
+  - Preserve property order where possible
+  - Create backup before writing (optional)
+- [ ] **WE22** - Add dry-run output showing proposed changes:
+  - List each node that would be modified
+  - Show old value → new value for each field
+  - Summary of total changes
+
+### Phase 6: CLI Integration & Reporting
+
+- [ ] **WE23** - Wire up CLI to dataset processing:
+  - Single dataset mode (`--dataset ai-llm-research`)
+  - All datasets mode (process each in `public/datasets/`)
+- [ ] **WE24** - Implement progress reporting:
+  - "Processing node 15/120: person-geoffrey-hinton"
+  - Show enrichment results in real-time (unless `--quiet`)
+- [ ] **WE25** - Implement summary statistics:
+  ```
+  Dataset: ai-llm-research
+  ────────────────────────
+  Total nodes: 120
+  Already complete: 45
+  Enriched (wikidataId added): 30
+  Enriched (wikipediaTitle added): 5
+  Set to null (no Wikipedia): 10
+  Skipped (errors): 2
+  No changes needed: 28
+  ```
+- [ ] **WE26** - Implement JSON output mode for CI/scripting
+- [ ] **WE27** - Exit with appropriate codes:
+  - 0: Success (enrichment complete, or dry-run)
+  - 1: Errors occurred (some nodes failed)
+  - 2: Invalid arguments
+
+### Phase 7: Testing & Verification
+
+- [ ] **WE28** - Test dry-run mode (no files modified)
+- [ ] **WE29** - Test write mode with backup dataset
+  - Create test-dataset with known missing fields
+  - Run enrichment
+  - Verify only expected fields changed
+- [ ] **WE30** - Test node preservation:
+  - Verify node count unchanged
+  - Verify non-Wikipedia properties unchanged
+  - Verify node order preserved
+- [ ] **WE31** - Test rate limiting:
+  - Verify delays between requests
+  - Test with `--rate-limit 0` (no delay, for testing)
+- [ ] **WE32** - Test error handling:
+  - Network timeout
+  - Invalid Wikipedia titles
+  - Disambiguation pages
+  - Rate limit responses (429)
+- [ ] **WE33** - Test with real datasets:
+  - AI-LLM Research (many existing titles)
+  - Rosicrucian Network (mixed coverage)
+- [ ] **WE34** - Verify CLI help message is clear and complete
+- [ ] **WE35** - Build passes with no TypeScript errors
+- [ ] **WE36** - No linter warnings in new files
+
+### Phase 8: Documentation
+
+- [ ] **WE37** - Add CLI documentation to `AGENTS.md`:
+  - Usage examples
+  - When to run (before deployment, after adding nodes)
+  - Integration with research workflow
+- [ ] **WE38** - Update `research/RESEARCHING_NETWORKS.md` Phase 5.5:
+  - Reference CLI as alternative to manual enrichment
+  - Document workflow: manual review → CLI enrichment → validation
+- [ ] **WE39** - Update `GRAPH_SCHEMA.md` with enrichment guidance:
+  - Note that CLI can auto-populate these fields
+  - Recommend running enrichment before deployment
+- [ ] **WE40** - Update CHANGELOG.md with M28 completion notes
+
+### Future Enhancements (Not in M28)
+
+The following features are out of scope for M28 but could be added later:
+
+- **Search mode (`--search`)**: For nodes missing both fields, search Wikipedia by node title. Risky due to disambiguation; would need interactive confirmation or confidence scoring.
+- **Batch Wikidata queries**: Use SPARQL to look up multiple QIDs at once (more efficient for large datasets).
+- **Validation integration**: Run `validate:datasets` after enrichment automatically.
+- **CI integration**: Add enrichment check to GitHub Actions (warn if nodes missing Wikipedia IDs).
 
 ---
 

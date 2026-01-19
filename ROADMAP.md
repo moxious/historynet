@@ -13,6 +13,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
 | M21 | Dataset Search & Filter | ✅ Complete |
 | M23 | Wikimedia Sourcing | ✅ Complete |
+| M28 | Wikipedia ID Enrichment CLI | 🔲 Ready |
 | M24 | Vercel Migration | 🔲 Future |
 | M25 | User Feedback Feature | 🔲 Future (depends on M24) |
 | M26 | Custom Domain | 🔲 Future (depends on M24) |
@@ -23,10 +24,10 @@ This document outlines the milestone structure and future direction for HistoryN
 
 | Track | Milestones | Prerequisites |
 |-------|------------|---------------|
-| **A: Independent Features** | M21, M23, M22 (optional) | None - can start immediately |
+| **A: Independent Features** | M21, M23, M28, M22 (optional) | None - can start immediately |
 | **B: Infrastructure & Backend** | M24 → M25 → M27, M24 → M26 | M24 is foundation for rest |
 
-> **Note**: Track A milestones have no dependencies and can be executed in any order. M22 is optional—M23 (Wikimedia Sourcing) may eliminate the need for local image hosting. Track B milestones have dependencies as shown.
+> **Note**: Track A milestones have no dependencies and can be executed in any order. M28 builds on M23's Wikipedia service but operates as a standalone CLI. M22 is optional—M23 (Wikimedia Sourcing) may eliminate the need for local image hosting. Track B milestones have dependencies as shown.
 
 ---
 
@@ -166,6 +167,56 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 
 ---
 
+## M28 - Wikipedia ID Enrichment CLI
+
+**Goal**: Create a build-time CLI tool that enriches dataset nodes with Wikipedia identifiers (`wikipediaTitle` and `wikidataId`), ensuring all nodes have both fields populated when Wikipedia coverage exists.
+
+**Track**: A (Independent Features) - No dependencies (leverages M23 Wikipedia service patterns)
+
+**Status**: 🔲 Ready to start
+
+**Problem**: Dataset nodes have inconsistent Wikipedia coverage:
+- Some nodes have both `wikipediaTitle` and `wikidataId` (ideal)
+- Some nodes have only `wikipediaTitle` (missing stable QID)
+- Some nodes have only `wikidataId` (missing title for enrichment)
+- Some nodes have neither field (unenriched)
+
+Manually auditing and enriching hundreds of nodes is tedious and error-prone. A CLI tool can automate this process.
+
+### Acceptance Criteria
+
+| Criterion | Description |
+|-----------|-------------|
+| **Both identifiers populated** | After enrichment, nodes have both `wikipediaTitle` and `wikidataId` when Wikipedia coverage exists |
+| **No other properties touched** | Only `wikipediaTitle` and `wikidataId` fields are modified; all other node properties remain unchanged |
+| **No nodes added or removed** | Node count before and after enrichment is identical |
+| **Explicit nulls for missing** | Set `wikipediaTitle: null` and `wikidataId: null` when reasonably certain no Wikipedia article exists |
+| **Dry-run by default** | Tool shows proposed changes without writing unless `--write` flag is used |
+| **Rate limit compliance** | Respects Wikipedia API rate limits (500 req/hour) with configurable delays |
+
+### Technical Approach
+
+| Scenario | Lookup Method |
+|----------|---------------|
+| Has `wikipediaTitle`, missing `wikidataId` | Fetch Wikipedia summary → extract `wikibase_item` from response |
+| Has `wikidataId`, missing `wikipediaTitle` | Fetch from Wikidata API → extract English Wikipedia sitelink |
+| Missing both | Optional: search by node `title` (requires `--search` flag due to disambiguation risks) |
+
+**Key Deliverables**:
+- CLI tool at `scripts/enrich-wikipedia/` following existing `validate-datasets` patterns
+- npm script `enrich:wikipedia` for easy invocation
+- Dry-run mode (default) showing proposed changes
+- Write mode (`--write`) to update `nodes.json` files
+- Rate limiting with configurable delay between API calls
+- JSON output mode for scripting/CI integration
+- Per-dataset targeting (`--dataset <id>`)
+
+**Relationship to M23**: This milestone complements M23 (Wikimedia Sourcing). M23 provides runtime enrichment in the browser; M28 provides build-time enrichment to ensure datasets have complete Wikipedia mappings before deployment.
+
+See `PROGRESS.md` for detailed task breakdown.
+
+---
+
 ## Future: M24 - Vercel Migration
 
 **Goal**: Migrate deployment from GitHub Pages to Vercel to enable serverless API functions. Keep GitHub Pages as a backup deployment.
@@ -301,26 +352,29 @@ M1-M20 (Core Application Complete) ✅
     │  TRACK A: Independent Features                                    │  TRACK B: Infrastructure
     │  (No dependencies, can parallelize)                               │  (Sequential dependencies)
     │                                                                   │
-    ├──────────────┬────────────────┐                                   │
-    ▼              ▼                │                                   ▼
-   M21            M23               │                                  M24
-   (Dataset      (Wikimedia         │                                 (Vercel)
-   Search) ✅    Sourcing)          │                                   │
-                   │                │                                   ├──────────────┐
-                   ▼                │                                   ▼              ▼
-                  M22               │                                  M25            M26
-                 (Image             │                               (Feedback)    (Domain)
-                 Mgmt)              │                                   │
-                [OPTIONAL]          │                                   ▼
-                                    │                                  M27
-                                    │                               (Spam Prot.)
-                                    │
+    ├──────────────┬────────────────┬───────────────┐                   │
+    ▼              ▼                ▼               │                   ▼
+   M21            M23              M28              │                  M24
+   (Dataset      (Wikimedia       (Wiki ID         │                 (Vercel)
+   Search) ✅    Sourcing) ✅     Enrich CLI)      │                   │
+                                                   │                   ├──────────────┐
+                                   M22             │                   ▼              ▼
+                                  (Image           │                  M25            M26
+                                  Mgmt)            │               (Feedback)    (Domain)
+                                 [OPTIONAL]        │                   │
+                                                   │                   ▼
+                                                   │                  M27
+                                                   │               (Spam Prot.)
+                                                   │
 ```
 
 **Track A - Independent Features** (can execute in any order):
 - **M21 (Dataset Search)**: ✅ Complete. Searchable combobox for faster dataset discovery.
-- **M23 (Wikimedia Sourcing)**: Dynamic enrichment. Fetches missing data from Wikipedia API.
+- **M23 (Wikimedia Sourcing)**: ✅ Complete. Dynamic runtime enrichment from Wikipedia API.
+- **M28 (Wikipedia ID Enrichment CLI)**: Build-time CLI to ensure all nodes have both `wikipediaTitle` and `wikidataId`.
 - **M22 (Image Asset Management)**: Optional. Hosts images locally—may be unnecessary if M23 works well.
+
+> **M23 & M28 Relationship**: M23 provides runtime enrichment in the browser. M28 complements this by ensuring datasets have complete Wikipedia mappings at build time, reducing runtime API calls and ensuring `wikidataId` stability.
 
 > **M22 & M23 Relationship**: M23 (Wikimedia Sourcing) dynamically fetches images and may eliminate the need for M22. M22 remains as an optional fallback if we need permanent local hosting for images not available via Wikimedia.
 
