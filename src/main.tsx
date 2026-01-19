@@ -7,8 +7,11 @@ import './index.css';
 import App from './App';
 
 // Using HashRouter for GitHub Pages compatibility
-// URLs will be like: https://username.github.io/scenius/#/?dataset=xyz
-// Resource URLs: /#/{dataset}/node/{nodeId} or /#/{dataset}/from/{sourceId}/to/{targetId}
+// URL structure (M31):
+// - /#/{datasetId}          - Dataset overview page
+// - /#/{datasetId}/explore  - Graph/timeline/radial exploration
+// - /#/{datasetId}/node/{nodeId} - Node detail page (stable permalink)
+// - /#/{datasetId}/from/{sourceId}/to/{targetId} - Edge detail page
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <HashRouter>

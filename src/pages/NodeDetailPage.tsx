@@ -169,7 +169,7 @@ function NodeDetailPage() {
 
       {/* Breadcrumb Navigation */}
       <nav className="resource-detail__breadcrumb" aria-label="Breadcrumb">
-        <Link to={`/?dataset=${encodeURIComponent(datasetId)}`} className="resource-detail__breadcrumb-link">
+        <Link to={`/${encodeURIComponent(datasetId)}`} className="resource-detail__breadcrumb-link">
           {manifest.name}
         </Link>
         <span className="resource-detail__breadcrumb-separator" aria-hidden="true">›</span>

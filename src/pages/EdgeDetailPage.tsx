@@ -376,7 +376,7 @@ function EdgeDetailPage() {
   const firstEdge = edges[0];
   const graphViewUrl = firstEdge
     ? buildGraphViewUrl(datasetId, 'edge', firstEdge.id)
-    : `/#/?dataset=${encodeURIComponent(datasetId)}`;
+    : `/${encodeURIComponent(datasetId)}/explore`;
 
   // Build page title
   const sourceName = sourceNode?.title || sourceId;
@@ -399,7 +399,7 @@ function EdgeDetailPage() {
 
       {/* Breadcrumb Navigation */}
       <nav className="resource-detail__breadcrumb" aria-label="Breadcrumb">
-        <Link to={`/?dataset=${encodeURIComponent(datasetId)}`} className="resource-detail__breadcrumb-link">
+        <Link to={`/${encodeURIComponent(datasetId)}`} className="resource-detail__breadcrumb-link">
           {manifest?.name || datasetId}
         </Link>
         <span className="resource-detail__breadcrumb-separator" aria-hidden="true">›</span>

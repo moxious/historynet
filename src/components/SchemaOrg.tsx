@@ -245,7 +245,7 @@ function generateItemPageSchema(
           '@type': 'ListItem',
           position: 2,
           name: datasetName,
-          item: `${PRODUCTION_BASE_URL}/#/?dataset=${encodeURIComponent(datasetId)}`,
+          item: `${PRODUCTION_BASE_URL}/#/${encodeURIComponent(datasetId)}`,
         },
         {
           '@type': 'ListItem',

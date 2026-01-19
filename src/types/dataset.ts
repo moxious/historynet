@@ -16,6 +16,30 @@ export interface CustomRelationshipType {
 }
 
 /**
+ * Dataset scope information
+ */
+export interface DatasetScope {
+  /** Start year of the dataset's temporal coverage */
+  startYear: number;
+  /** End year of the dataset's temporal coverage */
+  endYear: number;
+  /** Geographic regions covered */
+  regions?: string[];
+  /** Themes covered in the dataset */
+  themes?: string[];
+  /** Seed figures that anchor the network */
+  seedFigures?: string[];
+  /** Subgroups within the network */
+  subgroups?: Array<{
+    id: string;
+    name: string;
+    description?: string;
+  }>;
+  /** Notes on exclusions */
+  exclusionNotes?: string;
+}
+
+/**
  * Dataset manifest containing metadata about a dataset
  */
 export interface DatasetManifest {
@@ -41,6 +65,16 @@ export interface DatasetManifest {
   edgeCount?: number;
   /** Custom relationship types used in this dataset */
   customRelationshipTypes?: CustomRelationshipType[];
+  /** Emoji to display as banner on dataset overview page */
+  bannerEmoji?: string;
+  /** Structured scope information */
+  scope?: DatasetScope;
+  /** Legacy temporal scope string (e.g., "2012-2025") */
+  temporalScope?: string;
+  /** Geographic scope description */
+  geographicScope?: string;
+  /** Additional notes about the dataset */
+  notes?: string;
 }
 
 /**

@@ -9,6 +9,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **M31: Dataset Pages** - Narrative overview pages for datasets with new URL structure
+  - **URL Restructure**: New information architecture for the application
+    - `/#/{datasetId}` - Dataset overview page (narrative entry point)
+    - `/#/{datasetId}/explore` - Graph/timeline/radial exploration view
+    - Root `/` now redirects to default dataset overview
+    - Existing node/edge detail URLs unchanged
+  - **DatasetOverviewPage Component**: New page displaying dataset metadata
+    - Large banner emoji from manifest `bannerEmoji` field
+    - Dataset title, description, and temporal range
+    - Metadata pills showing node/edge counts
+    - "Explore Network" primary CTA button
+    - Footer with author, version, license, last updated info
+  - **Most Connected Items**: POLE (Person, Object, Location, Entity) columns
+    - Top 5 most connected items per type, ranked by edge count
+    - Click item title to view node detail page
+    - Spyglass icon to explore item in graph view
+    - Responsive grid: 4 columns → 2 columns → 1 column
+  - **New Utilities**:
+    - `src/utils/urlBuilder.ts`: Centralized URL construction helpers
+    - `src/hooks/useTopConnectedNodes.ts`: Calculate node degree by type
+    - `src/components/DatasetExploreWrapper.tsx`: Route param to query param sync
+  - **SEO Updates**:
+    - Helmet meta tags (title, description, og:*) per dataset
+    - Updated sitemap.xml with all dataset overview and explore URLs
+    - Updated SchemaOrg breadcrumb URLs
+  - **Internal Link Migration**: All internal links updated to new URL scheme
+    - NodeDetailPage, EdgeDetailPage breadcrumbs
+    - NotFoundPage return links
+    - buildGraphViewUrl now generates explore URLs
+  - **Theme Support**: Full light/dark theme via CSS variables
+  - **Type Updates**: Added `DatasetScope`, `bannerEmoji`, `temporalScope`, `scope` to DatasetManifest
+
 - **M24: Vercel Migration** - Dual deployment infrastructure with serverless API support
   - **Vercel Deployment**: Primary deployment at `scenius-seven.vercel.app` with API endpoints
   - **GitHub Pages Backup**: Retained at `moxious.github.io/historynet` (frontend only)

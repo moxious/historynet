@@ -47,7 +47,7 @@ function NotFoundPage({ message, datasetId }: NotFoundPageProps) {
           </Link>
           {datasetId && (
             <Link 
-              to={`/?dataset=${encodeURIComponent(datasetId)}`} 
+              to={`/${encodeURIComponent(datasetId)}`} 
               className="not-found-page__button not-found-page__button--secondary"
             >
               View Dataset

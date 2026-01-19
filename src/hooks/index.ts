@@ -17,3 +17,5 @@ export { useWikipediaData, clearWikipediaCache, getWikipediaCacheStats } from '.
 export type { UseWikipediaDataResult, UseWikipediaDataProps } from './useWikipediaData';
 export { useNodeEnrichedData } from './useNodeEnrichedData';
 export type { EnrichedNodeData, DataSource, UseNodeEnrichedDataResult } from './useNodeEnrichedData';
+export { useTopConnectedNodes, getTypeLabel, getTypeIcon } from './useTopConnectedNodes';
+export type { NodeWithDegree, TopConnectedByType } from './useTopConnectedNodes';

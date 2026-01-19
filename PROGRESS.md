@@ -507,82 +507,82 @@ labels: feedback
 
 ### Phase 2: Routing Architecture
 
-- [ ] **DP4** - Create new route `/:datasetId` for DatasetOverviewPage
-- [ ] **DP5** - Create new route `/:datasetId/explore` for current graph/timeline/radial view
-- [ ] **DP6** - Move MainLayout rendering from `/` to `/:datasetId/explore`
-- [ ] **DP7** - Update `App.tsx` with new route structure
-- [ ] **DP8** - Ensure `/:datasetId/node/:nodeId` and `/:datasetId/from/:sourceId/to/:targetId` routes still work
-- [ ] **DP9** - Add redirect or 404 handling for old `/` route (will be replaced by homepage in M32)
+- [x] **DP4** - Create new route `/:datasetId` for DatasetOverviewPage
+- [x] **DP5** - Create new route `/:datasetId/explore` for current graph/timeline/radial view
+- [x] **DP6** - Move MainLayout rendering from `/` to `/:datasetId/explore`
+- [x] **DP7** - Update `App.tsx` with new route structure
+- [x] **DP8** - Ensure `/:datasetId/node/:nodeId` and `/:datasetId/from/:sourceId/to/:targetId` routes still work
+- [x] **DP9** - Add redirect or 404 handling for old `/` route (will be replaced by homepage in M32)
 
 ### Phase 3: DatasetOverviewPage Component
 
-- [ ] **DP10** - Create `src/pages/DatasetOverviewPage.tsx` component
-- [ ] **DP11** - Create `src/pages/DatasetOverviewPage.css` stylesheet
-- [ ] **DP12** - Display banner emoji (large, centered) from manifest `bannerEmoji` (default "❓")
-- [ ] **DP13** - Display dataset title from manifest `name`
-- [ ] **DP14** - Display dataset description from manifest `description`
-- [ ] **DP15** - Export from `src/pages/index.ts` barrel file
+- [x] **DP10** - Create `src/pages/DatasetOverviewPage.tsx` component
+- [x] **DP11** - Create `src/pages/DatasetOverviewPage.css` stylesheet
+- [x] **DP12** - Display banner emoji (large, centered) from manifest `bannerEmoji` (default "❓")
+- [x] **DP13** - Display dataset title from manifest `name`
+- [x] **DP14** - Display dataset description from manifest `description`
+- [x] **DP15** - Export from `src/pages/index.ts` barrel file
 
 ### Phase 4: Most Connected Items (POLE Columns)
 
-- [ ] **DP16** - Create `useTopConnectedNodes` hook to calculate degree (edge count) per node
-- [ ] **DP17** - Group nodes by POLE type (person, object, location, entity)
-- [ ] **DP18** - Sort each group by degree descending
-- [ ] **DP19** - Return top 5 per type (or all if fewer than 5)
-- [ ] **DP20** - Create `TopConnectedSection` component for rendering POLE columns
-- [ ] **DP21** - Responsive layout: 4 columns (desktop) → 2 columns (tablet) → 1 column (mobile)
-- [ ] **DP22** - Display node title as link for each item
+- [x] **DP16** - Create `useTopConnectedNodes` hook to calculate degree (edge count) per node
+- [x] **DP17** - Group nodes by POLE type (person, object, location, entity)
+- [x] **DP18** - Sort each group by degree descending
+- [x] **DP19** - Return top 5 per type (or all if fewer than 5)
+- [x] **DP20** - Create `TopConnectedSection` component for rendering POLE columns
+- [x] **DP21** - Responsive layout: 4 columns (desktop) → 2 columns (tablet) → 1 column (mobile)
+- [x] **DP22** - Display node title as link for each item
 
 ### Phase 5: Explore Links
 
-- [ ] **DP23** - Add 🔍 (spyglass) icon next to each item in POLE columns
-- [ ] **DP24** - Create `buildExploreUrl` utility: `/:datasetId/explore?selected={nodeId}&type=node&layout=graph`
-- [ ] **DP25** - Explore link clears all filters (no filter params in URL)
-- [ ] **DP26** - Explore link preserves theme (if theme param exists, keep it)
-- [ ] **DP27** - Spyglass icon links to graph layout specifically (not timeline/radial)
+- [x] **DP23** - Add 🔍 (spyglass) icon next to each item in POLE columns
+- [x] **DP24** - Create `buildExploreUrl` utility: `/:datasetId/explore?selected={nodeId}&type=node&layout=graph`
+- [x] **DP25** - Explore link clears all filters (no filter params in URL)
+- [x] **DP26** - Explore link preserves theme (if theme param exists, keep it)
+- [x] **DP27** - Spyglass icon links to graph layout specifically (not timeline/radial)
 
 ### Phase 6: Link Generation Migration
 
-- [ ] **DP28** - Audit all internal link generation in codebase
-- [ ] **DP29** - Update `NodeInfobox.tsx` links to use new URL scheme
-- [ ] **DP30** - Update `EdgeInfobox.tsx` links to use new URL scheme
-- [ ] **DP31** - Update `ShareButtons.tsx` to generate new URL format
-- [ ] **DP32** - Update `SearchBox.tsx` result links (if applicable)
-- [ ] **DP33** - Update any cross-linking in layouts (ForceGraphLayout, TimelineLayout, RadialLayout)
-- [ ] **DP34** - Create `src/utils/urlBuilder.ts` with centralized URL construction helpers
-- [ ] **DP35** - Verify no old-format URLs remain in generated links
+- [x] **DP28** - Audit all internal link generation in codebase
+- [x] **DP29** - Update `NodeInfobox.tsx` links to use new URL scheme
+- [x] **DP30** - Update `EdgeInfobox.tsx` links to use new URL scheme
+- [x] **DP31** - Update `ShareButtons.tsx` to generate new URL format
+- [x] **DP32** - Update `SearchBox.tsx` result links (if applicable)
+- [x] **DP33** - Update any cross-linking in layouts (ForceGraphLayout, TimelineLayout, RadialLayout)
+- [x] **DP34** - Create `src/utils/urlBuilder.ts` with centralized URL construction helpers
+- [x] **DP35** - Verify no old-format URLs remain in generated links
 
 ### Phase 7: SEO
 
-- [ ] **DP36** - Create `DatasetMeta.tsx` component for dataset page meta tags
-- [ ] **DP37** - Unique `<title>` per dataset: "{name} | Scenius"
-- [ ] **DP38** - Unique meta description per dataset (truncated `description`)
-- [ ] **DP39** - Open Graph tags: og:title, og:description, og:url
-- [ ] **DP40** - Add JSON-LD structured data (`@type: Dataset` or `DataCatalog`)
-- [ ] **DP41** - Update `public/sitemap.xml` with entries for all dataset pages (`/:datasetId`)
-- [ ] **DP42** - Verify sitemap includes both dataset pages and explore pages
+- [x] **DP36** - Create `DatasetMeta.tsx` component for dataset page meta tags (using Helmet in DatasetOverviewPage)
+- [x] **DP37** - Unique `<title>` per dataset: "{name} | Scenius"
+- [x] **DP38** - Unique meta description per dataset (truncated `description`)
+- [x] **DP39** - Open Graph tags: og:title, og:description, og:url
+- [~] **DP40** - Add JSON-LD structured data (`@type: Dataset` or `DataCatalog`) - deferred for future
+- [x] **DP41** - Update `public/sitemap.xml` with entries for all dataset pages (`/:datasetId`)
+- [x] **DP42** - Verify sitemap includes both dataset pages and explore pages
 
 ### Phase 8: Styling & Polish
 
-- [ ] **DP43** - Style DatasetOverviewPage consistent with app design
-- [ ] **DP44** - Support light/dark theme (use existing CSS variables)
-- [ ] **DP45** - Emoji display at appropriate size (e.g., 3-4rem)
-- [ ] **DP46** - POLE column headers with type icons or labels
-- [ ] **DP47** - Hover states on item links
-- [ ] **DP48** - Mobile-friendly touch targets
+- [x] **DP43** - Style DatasetOverviewPage consistent with app design
+- [x] **DP44** - Support light/dark theme (use existing CSS variables)
+- [x] **DP45** - Emoji display at appropriate size (e.g., 3-4rem)
+- [x] **DP46** - POLE column headers with type icons or labels
+- [x] **DP47** - Hover states on item links
+- [x] **DP48** - Mobile-friendly touch targets
 
 ### Phase 9: Testing & Verification
 
-- [ ] **DP49** - Test navigation: homepage → dataset page → explore → back
-- [ ] **DP50** - Test all 11 datasets load correctly on overview page
-- [ ] **DP51** - Test POLE columns show correct top 5 (verify against manual edge count)
-- [ ] **DP52** - Test explore links open graph view with correct item selected
-- [ ] **DP53** - Test theme persistence across navigation
-- [ ] **DP54** - Test mobile responsive layout
-- [ ] **DP55** - Verify old deep links to nodes/edges still work
-- [ ] **DP56** - Build passes with no errors
-- [ ] **DP57** - No linter warnings in new/modified files
-- [ ] **DP58** - Update CHANGELOG.md with M31 completion notes
+- [x] **DP49** - Test navigation: homepage → dataset page → explore → back
+- [x] **DP50** - Test all 11 datasets load correctly on overview page
+- [x] **DP51** - Test POLE columns show correct top 5 (verify against manual edge count)
+- [x] **DP52** - Test explore links open graph view with correct item selected
+- [x] **DP53** - Test theme persistence across navigation
+- [x] **DP54** - Test mobile responsive layout
+- [x] **DP55** - Verify old deep links to nodes/edges still work
+- [x] **DP56** - Build passes with no errors
+- [x] **DP57** - No linter warnings in new/modified files
+- [x] **DP58** - Update CHANGELOG.md with M31 completion notes
 
 ---
 

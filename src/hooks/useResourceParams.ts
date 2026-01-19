@@ -97,13 +97,15 @@ export function buildEdgeUrl(datasetId: string, sourceId: string, targetId: stri
 /**
  * Build a graph view URL path with item selected (for use with HashRouter Link)
  * Returns path without the hash prefix
+ * 
+ * Updated for M31: Now points to /:datasetId/explore
  */
 export function buildGraphViewUrl(
   datasetId: string,
   itemType: 'node' | 'edge',
   itemId: string
 ): string {
-  return `/?dataset=${encodeURIComponent(datasetId)}&selected=${encodeURIComponent(itemId)}&type=${itemType}`;
+  return `/${encodeURIComponent(datasetId)}/explore?selected=${encodeURIComponent(itemId)}&type=${itemType}`;
 }
 
 /**
