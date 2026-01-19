@@ -8,6 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+- **Documentation Restructure** - Replaced monolithic PROGRESS.md and HISTORY.md with per-milestone files
+  - **New `milestones/` directory**: One file per milestone (m01-project-bootstrap.md through m32-new-homepage.md)
+  - **Self-contained milestone files**: Each file contains goal, design decisions, task checklist, and implementation notes
+  - **`milestones/index.md`**: Status table with links to all milestone files plus dependency diagram
+  - **Slimmed ROADMAP.md**: Reduced from ~765 lines to ~100 lines (overview only, details in milestone files)
+  - **Updated AGENTS.md**: Quick Start table now points to milestones/ directory
+  - **Deleted PROGRESS.md**: Replaced by individual milestone files
+  - **Deleted HISTORY.md**: Content migrated to individual milestone files
+  - **Token efficiency**: ~95% reduction in documentation tokens for milestone implementation tasks
+
 ### Added
 - **M31: Dataset Pages** - Narrative overview pages for datasets with new URL structure
   - **URL Restructure**: New information architecture for the application

@@ -29,20 +29,21 @@ The application is deployed to Vercel (primary) and GitHub Pages (backup). Pushi
 
 ## Quick Start by Task Type
 
-> **Do not read everything upfront.** Find your task in `PROGRESS.md` first, then pull in context as needed.
+> **Do not read everything upfront.** Read only the relevant milestone file, then pull in context as needed.
 >
 > **For a one-page project overview**, see [`CHEATSHEET.md`](CHEATSHEET.md).
 
 | Task Type | Read First | Then Consult |
 |-----------|------------|--------------|
-| Frontend feature | `PROGRESS.md` (find task) | Relevant `src/` code |
-| Bug fix | `PROGRESS.md`, relevant `src/` | - |
-| Dataset creation | `GRAPH_SCHEMA.md`, `PROGRESS.md` | `research/RESEARCHING_NETWORKS.md` |
+| Implement milestone M{N} | `milestones/m{N}-*.md` | Relevant `src/` code |
+| Check milestone status | `milestones/index.md` | - |
+| Frontend feature | Relevant `src/` code | `milestones/index.md` for context |
+| Bug fix | Relevant `src/` code | - |
+| Dataset creation | `GRAPH_SCHEMA.md` | `research/RESEARCHING_NETWORKS.md` |
 | Research task | `research/RESEARCHING_NETWORKS.md` | `GRAPH_SCHEMA.md` |
 | Documentation | `PRD.md` | `ROADMAP.md` |
-| New milestone | `ROADMAP.md`, `PROGRESS.md` | `PRD.md` |
 
-> **HISTORY.md is archived reference only.** Only consult it when debugging an existing feature or understanding past decisions.
+> **Milestone files are self-contained.** Each `milestones/m{N}-*.md` file contains the goal, design decisions, task checklist, and implementation notes for that milestone.
 
 ---
 
@@ -68,11 +69,14 @@ historynet/
 ├── GRAPH_SCHEMA.md        # Node/edge schema specification
 ├── AGENTS.md              # This file - collaboration guidelines
 ├── ROADMAP.md             # Future direction and milestone overview
-├── PROGRESS.md            # Active task tracking with checkboxes
 ├── CHANGELOG.md           # What shipped when
 ├── README.md              # User-facing documentation
 │
-├── HISTORY.md             # Archived milestone task lists and completion notes
+├── milestones/            # One file per milestone (goal, tasks, notes)
+│   ├── index.md           # Status table and dependency diagram
+│   ├── m01-project-bootstrap.md
+│   ├── m02-core-data-layer.md
+│   └── ...                # m{N}-{slug}.md for each milestone
 │
 ├── src/                   # Application source code
 │   ├── components/        # React components
@@ -119,36 +123,23 @@ historynet/
 | `PRD.md` | Product requirements and feature specifications | When requirements change |
 | `GRAPH_SCHEMA.md` | Schema for nodes and edges in datasets | When schema evolves |
 | `ROADMAP.md` | Future direction and milestone overview | When adding new milestones |
-| `PROGRESS.md` | Active task tracking with checkboxes | After completing any task |
+| `milestones/index.md` | Milestone status table and dependencies | After completing a milestone |
+| `milestones/m{N}-*.md` | Individual milestone files with tasks | After completing tasks |
 | `CHANGELOG.md` | Record of what shipped | After completing a milestone |
-| `HISTORY.md` | Archived milestone details and completion notes | When archiving completed milestones |
 | `research/RESEARCHING_NETWORKS.md` | Meta-process for researching new historical networks | When research methodology evolves |
 
-### Periodic Cleanup: Moving Completed Work to HISTORY.md
+### Milestones Directory
 
-To keep `ROADMAP.md` and `PROGRESS.md` focused on current/future work without losing the record of past accomplishments, periodically move completed milestone content to `HISTORY.md`:
+Each milestone has its own file in `milestones/` containing:
+- **Status**: Complete/Not started with date
+- **Goal**: 1-2 sentence description
+- **Design Decisions**: Key choices and rationale
+- **Tasks**: Checkbox list of work items
+- **Notes**: Implementation notes and completion details
 
-1. **When to clean up**: When `PROGRESS.md` or `ROADMAP.md` becomes cluttered with old completed milestones
-2. **What to move**: 
-   - Completed task lists from `PROGRESS.md`
-   - Completion notes and implementation details
-   - Archived milestone sections from `ROADMAP.md`
-3. **How to move**:
-   - Copy the completed milestone section to `HISTORY.md`
-   - Replace the detailed content in `PROGRESS.md` with a summary row in the "Completed Milestones" table
-   - Keep a brief reference in `ROADMAP.md` pointing to `HISTORY.md`
-4. **Preserve**: Always keep the task checkboxes and completion notes—this is the permanent record of what was built and when
+**To implement a milestone**, read only `milestones/m{N}-*.md`. The file is self-contained.
 
-### Reading Order for New Agents
-
-**For most tasks, use the Quick Start table above.** The comprehensive reading order below is for major milestones or when you need deep project understanding:
-
-1. **Start with `PRD.md`** to understand what we're building
-2. **Read `GRAPH_SCHEMA.md`** to understand the data model
-3. **Check `ROADMAP.md`** to see completed work and future direction
-4. **Consult `PROGRESS.md`** to find active tasks to work on
-5. **For historical context**: Check `HISTORY.md` if debugging or understanding past decisions
-6. **For dataset research**: Read `research/RESEARCHING_NETWORKS.md` for the research methodology
+**To check overall status**, read `milestones/index.md` for the status table and dependency diagram.
 
 ---
 
@@ -156,23 +147,22 @@ To keep `ROADMAP.md` and `PROGRESS.md` focused on current/future work without lo
 
 ### Finding Work
 
-1. Open `PROGRESS.md` and find unchecked tasks (`[ ]`)
-2. Look for tasks that:
-   - Have their dependencies completed (checked tasks they depend on)
-   - Match your capabilities (frontend, data creation, testing, etc.)
-3. Before starting, verify no other agent is actively working on the same task
+1. Check `milestones/index.md` for the next milestone to implement
+2. Open the relevant `milestones/m{N}-*.md` file
+3. Find unchecked tasks (`[ ]`) in that file
+4. Before starting, verify no other agent is actively working on the same task
 
 ### Completing Tasks
 
 1. **Announce**: If possible, indicate you're starting a task
 2. **Implement**: Complete the work according to specifications
 3. **Test**: Verify the implementation works correctly
-4. **Update PROGRESS.md**: Check off the completed task `[x]`
-5. **Document**: Add any relevant notes or decisions made
+4. **Update milestone file**: Check off the completed task `[x]` in `milestones/m{N}-*.md`
+5. **Document**: Add any relevant notes to the Notes section
 
 ### Task Granularity
 
-Tasks in `PROGRESS.md` should be:
+Tasks in milestone files should be:
 - **Atomic**: Completable in a single focused session
 - **Verifiable**: Has clear completion criteria
 - **Independent**: Minimal dependencies on concurrent work
@@ -208,7 +198,7 @@ If the port is in use, the dev server is already running. Just use it — don't 
 ### Communication via Documentation
 
 Since agents may not have direct communication:
-- Add notes to `PROGRESS.md` when making significant decisions
+- Add notes to the relevant `milestones/m{N}-*.md` file when making significant decisions
 - Update `PRD.md` if requirements need clarification
 - Document any blockers or issues discovered
 - Record completed milestones in `CHANGELOG.md`
@@ -353,7 +343,7 @@ Manual checklist for dataset review:
 
 If you encounter:
 - **Ambiguous requirements**: Check `PRD.md`, then make a reasonable decision and document it
-- **Technical blockers**: Note the blocker in `PROGRESS.md` and move to another task
+- **Technical blockers**: Note the blocker in the milestone file and move to another task
 - **Schema questions**: Refer to `GRAPH_SCHEMA.md` or propose schema changes
 - **Conflicts with other agents**: Prefer the simpler solution that meets requirements
 
@@ -366,10 +356,11 @@ A task is complete when:
 2. ✅ Code compiles without errors
 3. ✅ Linter passes (when configured)
 4. ✅ Feature works in the browser
-5. ✅ `PROGRESS.md` is updated
-6. ✅ Any new decisions are documented
+5. ✅ Task checked off in `milestones/m{N}-*.md`
+6. ✅ Any new decisions are documented in the Notes section
 
 A milestone is complete when:
-1. ✅ All tasks checked off in `PROGRESS.md`
-2. ✅ Entry added to `CHANGELOG.md`
-3. ✅ `ROADMAP.md` updated with completion status
+1. ✅ All tasks checked off in the milestone file
+2. ✅ Status updated to "✅ Complete" with date in the milestone file
+3. ✅ `milestones/index.md` updated with completion status
+4. ✅ Entry added to `CHANGELOG.md`
