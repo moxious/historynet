@@ -354,140 +354,271 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 
 ### 1. Type System & Hook Updates
 
-- [ ] **RD1** - Extend `LayoutType` in `src/hooks/useLayout.ts` to include `'radial'`
-- [ ] **RD2** - Add radial layout entry to `LAYOUTS` registry in `useLayout.ts`:
+- [x] **RD1** - Extend `LayoutType` in `src/hooks/useLayout.ts` to include `'radial'`
+- [x] **RD2** - Add radial layout entry to `LAYOUTS` registry in `useLayout.ts`:
   - id: `'radial'`
   - name: `'Radial View'`
   - description: `'Ego-network view centered on selected node'`
-- [ ] **RD3** - Update `MainLayout.tsx` switch statement to handle `case 'radial':`
-- [ ] **RD4** - Verify URL state works with `?layout=radial` parameter
+- [x] **RD3** - Update `MainLayout.tsx` switch statement to handle `case 'radial':`
+- [x] **RD4** - Verify URL state works with `?layout=radial` parameter
 
 ### 2. LayoutSwitcher Conditional Availability
 
-- [ ] **RD5** - Add `selectedNodeId` prop to `LayoutSwitcher` component
-- [ ] **RD6** - Add radial option to `LAYOUT_OPTIONS` array with appropriate icon:
+- [x] **RD5** - Add `selectedNodeId` prop to `LayoutSwitcher` component
+- [x] **RD6** - Add radial option to `LAYOUT_OPTIONS` array with appropriate icon:
   - Suggested icon: concentric circles or target/bullseye pattern
-- [ ] **RD7** - Implement conditional disabled state for radial tab when no node selected
-- [ ] **RD8** - Add visual styling for disabled state (grayed out, reduced opacity)
-- [ ] **RD9** - Add tooltip on disabled radial tab: "Select a node to use radial view"
-- [ ] **RD10** - Update `Header.tsx` to pass `selectedNodeId` to `LayoutSwitcher`
-- [ ] **RD11** - When radial is selected but node becomes deselected, fall back to force-graph
+- [x] **RD7** - Implement conditional disabled state for radial tab when no node selected
+- [x] **RD8** - Add visual styling for disabled state (grayed out, reduced opacity)
+- [x] **RD9** - Add tooltip on disabled radial tab: "Select a node to use radial view"
+- [x] **RD10** - Update `Header.tsx` to pass `selectedNodeId` to `LayoutSwitcher`
+- [x] **RD11** - When radial is selected but node becomes deselected, fall back to force-graph
 
 ### 3. RadialLayout Component - Core Structure
 
-- [ ] **RD12** - Create `src/layouts/RadialLayout.tsx` implementing `LayoutComponentProps`
-- [ ] **RD13** - Create `src/layouts/RadialLayout.css` for component styles
-- [ ] **RD14** - Export `RadialLayout` from `src/layouts/index.ts`
-- [ ] **RD15** - Set up D3 SVG container with zoom/pan behavior (reuse pattern from ForceGraphLayout)
-- [ ] **RD16** - Add zoom controls (zoom in, zoom out, reset) consistent with other layouts
+- [x] **RD12** - Create `src/layouts/RadialLayout.tsx` implementing `LayoutComponentProps`
+- [x] **RD13** - Create `src/layouts/RadialLayout.css` for component styles
+- [x] **RD14** - Export `RadialLayout` from `src/layouts/index.ts`
+- [x] **RD15** - Set up D3 SVG container with zoom/pan behavior (reuse pattern from ForceGraphLayout)
+- [x] **RD16** - Add zoom controls (zoom in, zoom out, reset) consistent with other layouts
 
 ### 4. RadialLayout Component - Data Processing
 
-- [ ] **RD17** - Extract center node from `selectedNodeId` prop
-- [ ] **RD18** - Find all edges connected to center node (source OR target matches)
-- [ ] **RD19** - Extract connected nodes from those edges
-- [ ] **RD20** - Apply current filters to connected nodes (hide nodes that don't pass)
-- [ ] **RD21** - Handle edge case: center node has 0 connections (show message)
-- [ ] **RD22** - Handle edge case: center node not in data (show error or empty state)
+- [x] **RD17** - Extract center node from `selectedNodeId` prop
+- [x] **RD18** - Find all edges connected to center node (source OR target matches)
+- [x] **RD19** - Extract connected nodes from those edges
+- [x] **RD20** - Apply current filters to connected nodes (hide nodes that don't pass)
+- [x] **RD21** - Handle edge case: center node has 0 connections (show message)
+- [x] **RD22** - Handle edge case: center node not in data (show error or empty state)
 
 ### 5. RadialLayout Component - Positioning & Rendering
 
-- [ ] **RD23** - Position center node at SVG center
-- [ ] **RD24** - Calculate positions for peripheral nodes in a circle around center
+- [x] **RD23** - Position center node at SVG center
+- [x] **RD24** - Calculate positions for peripheral nodes in a circle around center
   - Evenly distribute angles (360° / n nodes)
   - Configurable radius (e.g., 200px, adjustable based on node count)
-- [ ] **RD25** - Render center node using same shape/color logic as ForceGraphLayout
+- [x] **RD25** - Render center node using same shape/color logic as ForceGraphLayout
   - Import and use `getNodeColor`, `getNodeShape` from `graphColors.ts`
-- [ ] **RD26** - Render peripheral nodes with same shape/color logic
-- [ ] **RD27** - Render curved arc edges from center to each peripheral node
+- [x] **RD26** - Render peripheral nodes with same shape/color logic
+- [x] **RD27** - Render curved arc edges from center to each peripheral node
   - Use D3 line generator with curve interpolation (e.g., `d3.curveBundle` or `d3.curveBasis`)
-- [ ] **RD28** - Apply edge colors based on relationship type (reuse `getEdgeColor`)
-- [ ] **RD29** - Add node labels (title) positioned near each node
-- [ ] **RD30** - Handle large connection counts gracefully (50+ nodes):
+- [x] **RD28** - Apply edge colors based on relationship type (reuse `getEdgeColor`)
+- [x] **RD29** - Add node labels (title) positioned near each node
+- [x] **RD30** - Handle large connection counts gracefully (50+ nodes):
   - Reduce node size or label size
   - Increase radius to prevent overlap
   - Consider pagination or "show more" pattern for very large counts
 
 ### 6. RadialLayout Component - Interactions
 
-- [ ] **RD31** - Implement node click handler calling `onNodeClick` prop
-- [ ] **RD32** - Implement edge click handler calling `onEdgeClick` prop
-- [ ] **RD33** - Highlight selected node (center or peripheral) with visual indicator
-- [ ] **RD34** - Highlight selected edge with visual indicator
-- [ ] **RD35** - When peripheral node is clicked:
+- [x] **RD31** - Implement node click handler calling `onNodeClick` prop
+- [x] **RD32** - Implement edge click handler calling `onEdgeClick` prop
+- [x] **RD33** - Highlight selected node (center or peripheral) with visual indicator
+- [x] **RD34** - Highlight selected edge with visual indicator
+- [x] **RD35** - When peripheral node is clicked:
   - Call `onNodeClick` to update selection
   - This will cause re-render with new center node (seamless transition)
-- [ ] **RD36** - Add hover effects on nodes (cursor pointer, slight scale or glow)
-- [ ] **RD37** - Add hover effects on edges (cursor pointer, highlight)
-- [ ] **RD38** - Apply `searchTerm` highlighting to matching nodes (reuse logic from ForceGraphLayout)
+- [x] **RD36** - Add hover effects on nodes (cursor pointer, slight scale or glow)
+- [x] **RD37** - Add hover effects on edges (cursor pointer, highlight)
+- [x] **RD38** - Apply `searchTerm` highlighting to matching nodes (reuse logic from ForceGraphLayout)
 
 ### 7. Empty & Invalid States
 
-- [ ] **RD39** - Create empty state component: "Select a node to explore its connections"
+- [x] **RD39** - Create empty state component: "Select a node to explore its connections"
   - Include icon (e.g., radial/target icon)
   - Style consistent with other empty states in app
-- [ ] **RD40** - Show empty state when `selectedNodeId` is null/undefined
-- [ ] **RD41** - Show empty state when selection is an edge (not a node)
-- [ ] **RD42** - Handle case where center node is filtered out:
+- [x] **RD40** - Show empty state when `selectedNodeId` is null/undefined
+- [x] **RD41** - Show empty state when selection is an edge (not a node)
+- [x] **RD42** - Handle case where center node is filtered out:
   - Option A: Show message "Selected node is hidden by current filters"
   - Option B: Automatically switch to force-graph layout
   - Implement chosen option
-- [ ] **RD43** - Handle case where all connected nodes are filtered out:
+- [x] **RD43** - Handle case where all connected nodes are filtered out:
   - Show center node alone with message "No visible connections with current filters"
 
 ### 8. Filter Integration
 
-- [ ] **RD44** - Verify date range filters apply to connected nodes
-- [ ] **RD45** - Verify text filters apply to connected nodes
-- [ ] **RD46** - Verify node type filters apply to connected nodes
-- [ ] **RD47** - Update filter stats display to reflect radial view context (if applicable)
-- [ ] **RD48** - Test filter + radial interaction: apply filter, switch to radial, verify correct nodes shown
+- [x] **RD44** - Verify date range filters apply to connected nodes
+- [x] **RD45** - Verify text filters apply to connected nodes
+- [x] **RD46** - Verify node type filters apply to connected nodes
+- [x] **RD47** - Update filter stats display to reflect radial view context (if applicable)
+- [x] **RD48** - Test filter + radial interaction: apply filter, switch to radial, verify correct nodes shown
 
 ### 9. Infobox Integration
 
-- [ ] **RD49** - Verify clicking center node updates infobox to show that node's details
-- [ ] **RD50** - Verify clicking peripheral node updates infobox to show that node's details
-- [ ] **RD51** - Verify clicking edge updates infobox to show edge details
-- [ ] **RD52** - Verify infobox "related nodes" links work and update radial view appropriately
-- [ ] **RD53** - Test deep link: load URL with `?layout=radial&selected=person-xyz&type=node`
+- [x] **RD49** - Verify clicking center node updates infobox to show that node's details
+- [x] **RD50** - Verify clicking peripheral node updates infobox to show that node's details
+- [x] **RD51** - Verify clicking edge updates infobox to show edge details
+- [x] **RD52** - Verify infobox "related nodes" links work and update radial view appropriately
+- [x] **RD53** - Test deep link: load URL with `?layout=radial&selected=person-xyz&type=node`
 
 ### 10. Animation & Polish
 
-- [ ] **RD54** - Add entrance animation when switching to radial view
+- [x] **RD54** - Add entrance animation when switching to radial view
   - Nodes animate from center outward to final positions
   - Or fade in with slight scale
-- [ ] **RD55** - Add transition animation when center node changes
+- [x] **RD55** - Add transition animation when center node changes
   - Old nodes animate out, new nodes animate in
   - Or smooth position transition if nodes overlap
-- [ ] **RD56** - Ensure smooth zoom/pan experience (consistent with other layouts)
-- [ ] **RD57** - Add legend showing node type colors (reuse Legend component if exists)
+- [x] **RD56** - Ensure smooth zoom/pan experience (consistent with other layouts)
+- [x] **RD57** - Add legend showing node type colors (reuse Legend component if exists)
 
 ### 11. Theme Support
 
-- [ ] **RD58** - Verify radial layout works in light theme
-- [ ] **RD59** - Verify radial layout works in dark theme
-- [ ] **RD60** - Use CSS variables for colors to support theme switching
-- [ ] **RD61** - Test theme toggle while in radial view
+- [x] **RD58** - Verify radial layout works in light theme
+- [x] **RD59** - Verify radial layout works in dark theme
+- [x] **RD60** - Use CSS variables for colors to support theme switching
+- [x] **RD61** - Test theme toggle while in radial view
 
 ### 12. Testing & Verification
 
-- [ ] **RD62** - Test with Disney dataset (varied connection counts)
-- [ ] **RD63** - Test with Enlightenment dataset (denser connections)
-- [ ] **RD64** - Test with node that has 1 connection
-- [ ] **RD65** - Test with node that has 20+ connections
-- [ ] **RD66** - Test with node that has 0 connections
-- [ ] **RD67** - Test layout switching: force-graph → radial → timeline → radial
-- [ ] **RD68** - Test URL sharing: copy URL in radial view, open in new tab, verify state restored
-- [ ] **RD69** - Test keyboard accessibility: can navigate to radial tab, can activate it
-- [ ] **RD70** - Verify no console errors or warnings in radial view
-- [ ] **RD71** - Verify build passes with no TypeScript errors
-- [ ] **RD72** - Verify no linter warnings in new/modified files
+- [x] **RD62** - Test with Disney dataset (varied connection counts)
+- [x] **RD63** - Test with Enlightenment dataset (denser connections)
+- [x] **RD64** - Test with node that has 1 connection
+- [x] **RD65** - Test with node that has 20+ connections
+- [x] **RD66** - Test with node that has 0 connections
+- [x] **RD67** - Test layout switching: force-graph → radial → timeline → radial
+- [x] **RD68** - Test URL sharing: copy URL in radial view, open in new tab, verify state restored
+- [x] **RD69** - Test keyboard accessibility: can navigate to radial tab, can activate it
+- [x] **RD70** - Verify no console errors or warnings in radial view
+- [x] **RD71** - Verify build passes with no TypeScript errors
+- [x] **RD72** - Verify no linter warnings in new/modified files
 
 ### 13. Documentation
 
-- [ ] **RD73** - Add JSDoc comments to RadialLayout component
-- [ ] **RD74** - Update any user-facing help text if applicable
-- [ ] **RD75** - Update CHANGELOG.md with M19 completion notes
+- [x] **RD73** - Add JSDoc comments to RadialLayout component
+- [x] **RD74** - Update any user-facing help text if applicable
+- [x] **RD75** - Update CHANGELOG.md with M19 completion notes
+
+---
+
+## M20: SEO Improvements
+
+**Goal**: Systematically improve search engine optimization and AI discoverability across all pages. Add OpenSearch metadata, structured data (JSON-LD), enhanced meta tags, and crawler-friendly resources.
+
+**Current State**: The app has basic Open Graph and Twitter Card meta tags in `index.html`, and uses `react-helmet-async` via `ResourceMeta.tsx` for dynamic meta tags on detail pages. This milestone fills in the gaps.
+
+### 1. OpenSearch Integration
+
+**Intent**: Allow browsers to add Scenius as a search provider, enabling users to search datasets directly from the browser's address bar.
+
+- [ ] **SEO1** - Create `public/opensearch.xml` descriptor file
+  - Include short name, description, search URL template
+  - Point to `/?search={searchTerms}` or appropriate search route
+- [ ] **SEO2** - Add `<link rel="search" type="application/opensearchdescription+xml">` to `index.html`
+- [ ] **SEO3** - Test browser integration in Chrome (Settings > Search engines)
+- [ ] **SEO4** - Test browser integration in Firefox
+- [ ] **SEO5** - Test browser integration in Safari
+
+### 2. Structured Data (JSON-LD)
+
+**Intent**: Add Schema.org structured data to help search engines and AI understand content type and relationships.
+
+- [ ] **SEO6** - Add `WebSite` schema to `index.html`
+  - Include name, url, description, potentialAction (SearchAction)
+- [ ] **SEO7** - Add `WebApplication` schema to `index.html`
+  - Include name, description, applicationCategory, operatingSystem
+- [ ] **SEO8** - Create `src/components/SchemaOrg.tsx` component for dynamic JSON-LD injection
+  - Accept schema type and data as props
+  - Render `<script type="application/ld+json">` via Helmet
+- [ ] **SEO9** - Export `SchemaOrg` from `src/components/index.ts`
+- [ ] **SEO10** - Add `Person` schema to `NodeDetailPage` for person nodes
+  - Include name, description, birthDate, deathDate, nationality, image, sameAs (external links)
+- [ ] **SEO11** - Add `CreativeWork` schema to `NodeDetailPage` for object nodes
+  - Include name, description, dateCreated, creator, inLanguage
+- [ ] **SEO12** - Add `Place` schema to `NodeDetailPage` for location nodes
+  - Include name, description, geo (coordinates), containedInPlace
+- [ ] **SEO13** - Add `Organization` schema to `NodeDetailPage` for entity nodes
+  - Include name, description, foundingDate, founder, location
+- [ ] **SEO14** - Add `ItemPage` schema wrapper to all detail pages
+  - Include mainEntity reference to the specific node schema
+- [ ] **SEO15** - Add `BreadcrumbList` schema to detail pages matching visual breadcrumb
+  - Include itemListElement with position, name, item (URL)
+- [ ] **SEO16** - Test structured data with Google Rich Results Test tool
+- [ ] **SEO17** - Test structured data with Schema.org validator
+
+### 3. Enhanced Meta Tags
+
+**Intent**: Improve existing meta tags and add missing recommended tags.
+
+- [ ] **SEO18** - Add `<meta name="robots" content="index, follow">` to `index.html`
+- [ ] **SEO19** - Add `<meta name="author" content="Scenius Contributors">` to `index.html`
+- [ ] **SEO20** - Add `<meta name="keywords">` with relevant terms (historical networks, visualization, etc.)
+- [ ] **SEO21** - Add `<meta name="application-name" content="Scenius">` to `index.html`
+- [ ] **SEO22** - Add `<link rel="canonical">` to `index.html` with production URL
+- [ ] **SEO23** - Add `<meta property="og:url">` to `index.html` (currently missing)
+- [ ] **SEO24** - Add `<meta property="og:locale" content="en_US">` to `index.html`
+- [ ] **SEO25** - Update `og:image` to use absolute URL with production domain
+- [ ] **SEO26** - Update Twitter image to use absolute URL with production domain
+- [ ] **SEO27** - Review and optimize meta description length (150-160 chars ideal)
+- [ ] **SEO28** - Update `ResourceMeta.tsx` to ensure all image URLs are absolute
+- [ ] **SEO29** - Add dataset-specific description to main graph view when dataset is loaded
+  - Create component or hook to update meta tags based on selected dataset
+
+### 4. Crawler Resources
+
+**Intent**: Add standard files that help search engine crawlers discover and index content.
+
+- [ ] **SEO30** - Create `public/robots.txt` with appropriate rules
+  - Allow all crawlers
+  - Reference sitemap location
+- [ ] **SEO31** - Create `public/sitemap.xml` with static routes
+  - Include home page, any other static routes
+- [ ] **SEO32** - Evaluate: Add build-time script to generate sitemap entries for dataset nodes
+  - Read all datasets, generate URLs for each node detail page
+  - Consider if practical given SPA nature
+- [ ] **SEO33** - If SEO32 is implemented: Update `package.json` with sitemap generation script
+- [ ] **SEO34** - Add sitemap reference to robots.txt
+
+### 5. Page-Specific Optimizations
+
+**Intent**: Review each page type and ensure comprehensive SEO coverage.
+
+- [ ] **SEO35** - **Main Graph View** (`/`): Add dynamic meta tags when dataset is selected
+  - Title: "{Dataset Name} | Scenius"
+  - Description: Dataset description from manifest
+- [ ] **SEO36** - **Node Detail Page**: Audit `ResourceMeta` usage
+  - Ensure all relevant node fields are used in meta tags
+  - Verify image URLs work for social preview
+- [ ] **SEO37** - **Edge Detail Page**: Audit `ResourceMeta` usage
+  - Ensure relationship description is in meta description
+  - Verify source/target node titles are in title
+- [ ] **SEO38** - **404 Page**: Add `<meta name="robots" content="noindex">` via Helmet
+- [ ] **SEO39** - Verify all pages have unique, descriptive titles
+- [ ] **SEO40** - Verify all pages have appropriate canonical URLs
+
+### 6. AI-Friendly Metadata
+
+**Intent**: Add metadata specifically helpful for AI systems and LLMs that may crawl or reference the site.
+
+- [ ] **SEO41** - Add `article:author` meta tag to detail pages
+- [ ] **SEO42** - Add `article:published_time` meta tag to detail pages (use dateStart if available)
+- [ ] **SEO43** - Evaluate: Add `citation_*` meta tags for academic/research datasets
+  - `citation_title`, `citation_author`, `citation_publication_date`
+  - May only apply to certain datasets
+- [ ] **SEO44** - Evaluate: Add Dublin Core (`dc:*`) metadata for scholarly content
+  - `dc.title`, `dc.creator`, `dc.date`, `dc.description`
+- [ ] **SEO45** - Evaluate: Create `public/llms.txt` or `public/ai.txt` guidance file
+  - Describe what the app does, how AI should interpret content
+  - Reference: llmstxt.org specification if applicable
+- [ ] **SEO46** - Ensure all descriptions are informative and self-contained
+  - Review auto-generated descriptions in ResourceMeta
+  - Add fallbacks for nodes without shortDescription
+
+### 7. Testing & Verification
+
+- [ ] **SEO47** - Test meta tags with Facebook Sharing Debugger
+- [ ] **SEO48** - Test meta tags with Twitter Card Validator
+- [ ] **SEO49** - Test meta tags with LinkedIn Post Inspector
+- [ ] **SEO50** - Verify OpenSearch appears in browser search settings
+- [ ] **SEO51** - Verify robots.txt is accessible at production URL
+- [ ] **SEO52** - Verify sitemap.xml is accessible and valid
+- [ ] **SEO53** - Run Lighthouse SEO audit on main pages
+- [ ] **SEO54** - Run Lighthouse SEO audit on node detail page
+- [ ] **SEO55** - Run Lighthouse SEO audit on edge detail page
+- [ ] **SEO56** - Document any SPA-specific limitations in code comments
+- [ ] **SEO57** - Build passes with no errors
+- [ ] **SEO58** - No linter warnings in new/modified files
+- [ ] **SEO59** - Update CHANGELOG.md with M20 completion notes
 
 ---
 

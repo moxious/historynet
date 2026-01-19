@@ -22,7 +22,8 @@ This document outlines the milestone structure and future direction for HistoryN
 | M16 | Network Verification | ✅ Complete |
 | M17 | Dataset Search & Filter | 🔲 Future |
 | M18 | Adapt for Mobile | ✅ Complete |
-| M19 | Radial/Ego-Network View | 🔲 Future |
+| M19 | Radial/Ego-Network View | ✅ Complete |
+| M20 | SEO Improvements | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -56,6 +57,7 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 | M15 | Stable resource URLs: permalinks for nodes/edges, share buttons, SEO meta tags |
 | M16 | Network verification: build-time dataset validation CLI (`npm run validate:datasets`) |
 | M18 | Mobile adaptation: responsive header, hamburger menu, bottom sheet, touch targets |
+| M19 | Radial/ego-network view: center node with connections in ring, click-to-navigate |
 
 ---
 
@@ -478,6 +480,104 @@ Replace the floating FilterPanel overlay with a dedicated drawer or modal on mob
 
 ---
 
+## Future: M20 - SEO Improvements
+
+**Goal**: Systematically improve search engine optimization and AI discoverability across all pages. Add OpenSearch metadata, structured data (JSON-LD), enhanced meta tags, and crawler-friendly resources to ensure the application is well-indexed by search engines and properly understood by AI systems.
+
+**Context**: The application currently has basic meta tags (Open Graph, Twitter Cards) in `index.html` and dynamic meta tags via `ResourceMeta.tsx` for detail pages. However, several SEO best practices are not implemented:
+- No OpenSearch description for browser search integration
+- No structured data (JSON-LD) for rich search results
+- No robots.txt or sitemap.xml
+- Missing some recommended meta tags
+- Main graph view doesn't have dynamic meta tags based on selected dataset
+
+**Note on SPA Limitations**: As a client-side SPA deployed to GitHub Pages, some SEO features have limited effectiveness because crawlers may not execute JavaScript. The note in `ResourceMeta.tsx` acknowledges this. However, implementing these features is still valuable because:
+1. Modern search engines (Google) do execute JavaScript
+2. The meta tags improve social sharing previews
+3. Structured data helps AI systems understand the content
+4. OpenSearch improves user experience in browsers
+
+**Deliverables**:
+
+### OpenSearch Integration
+
+OpenSearch allows browsers to add Scenius as a search provider, enabling users to search datasets directly from the browser's address bar.
+
+- Create `public/opensearch.xml` descriptor file
+- Add `<link rel="search">` tag to `index.html`
+- Configure search template URL pointing to app with search query
+- Test browser integration (Chrome, Firefox, Safari)
+
+### Structured Data (JSON-LD)
+
+Add Schema.org structured data to help search engines and AI understand the content type and relationships.
+
+- Add `WebSite` schema to `index.html` for site-level metadata
+- Add `WebApplication` schema describing the app's purpose
+- Create `SchemaOrg` component for dynamic JSON-LD injection
+- Add `Person` schema for person node detail pages
+- Add `CreativeWork` schema for object node detail pages
+- Add `Place` schema for location node detail pages
+- Add `Organization` schema for entity node detail pages
+- Add `ItemPage` schema wrapper for all detail pages
+- Add `BreadcrumbList` schema matching the visual breadcrumb
+
+### Enhanced Meta Tags
+
+Improve existing meta tags and add missing recommended tags.
+
+- Add `robots` meta tag (`index, follow`)
+- Add `author` meta tag for the application
+- Add `keywords` meta tag with relevant terms
+- Add `application-name` meta tag
+- Add canonical URL to `index.html`
+- Add `og:url` to `index.html` (currently missing)
+- Add `og:locale` meta tag
+- Ensure all images have absolute URLs (not relative)
+- Add dataset-specific meta tags to main graph view when dataset is loaded
+- Review and optimize meta descriptions for length (150-160 chars)
+
+### Crawler Resources
+
+Add standard files that help search engine crawlers.
+
+- Create `public/robots.txt` with appropriate rules
+- Create `public/sitemap.xml` with static routes
+- Consider generating sitemap entries for each dataset's nodes (build-time script)
+- Add sitemap reference to robots.txt
+
+### Page-Specific Optimizations
+
+Review each page type and ensure comprehensive SEO coverage.
+
+- **Main Graph View** (`/`): Dynamic meta tags when dataset selected
+- **Node Detail Page**: Review and enhance existing `ResourceMeta` usage
+- **Edge Detail Page**: Review and enhance existing `ResourceMeta` usage
+- **404 Page**: Add `noindex` meta tag
+- Ensure all pages have unique, descriptive titles
+- Ensure all pages have appropriate canonical URLs
+
+### AI-Friendly Metadata
+
+Add metadata specifically helpful for AI systems and LLMs.
+
+- Add `article:author` and `article:published_time` for detail pages
+- Add `citation_*` meta tags for academic/research datasets
+- Ensure descriptions are informative and self-contained
+- Add `dc:*` Dublin Core metadata for scholarly content
+- Consider adding `llms.txt` or similar AI-guidance file
+
+**Technical Notes**:
+
+- Use `react-helmet-async` (already installed) for all dynamic meta tags
+- JSON-LD can be added via `<script type="application/ld+json">` in Helmet
+- OpenSearch XML must be a static file in `/public`
+- Sitemap should use absolute URLs with the production domain
+- Test meta tags with social media debuggers (Facebook, Twitter, LinkedIn)
+- Test structured data with Google's Rich Results Test
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -503,18 +603,17 @@ M1-M8 (MVP Complete) ✅
     ▼
 M9-M11, M13, M14 (Polish Complete) ✅
     │
-    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼                  ▼                  ▼                  ▼
-   M12                M15 ✅             M16 ✅             M17                M18                M19
-   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)   (Mobile Adapt)    (Radial View)
-   [Vercel req'd]    [Complete]         [Complete]         [independent]      [independent]     [independent]
+    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┬──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼                  ▼                  ▼                  ▼                  ▼
+   M12                M15 ✅             M16 ✅             M17                M18 ✅             M19 ✅             M20
+   (User Feedback)   (Stable URLs)      (Network Verif.)   (Dataset Search)   (Mobile Adapt)    (Radial View)     (SEO)
+   [Vercel req'd]    [Complete]         [Complete]         [independent]      [Complete]        [Complete]        [independent]
 ```
 
-Note: Remaining milestones M12, M17, M18, and M19 can be worked on in parallel:
+Note: Remaining milestones M12, M17, and M20 can be worked on in parallel:
 - **M12 (User Feedback)**: Should integrate with stable resource pages (M15 complete) for per-item feedback. Requires Vercel migration for serverless functions.
 - **M17 (Dataset Search)**: Becomes more valuable as more datasets are added—currently lower priority with only 4 datasets.
-- **M18 (Mobile Adapt)**: Independent and can be started anytime. Recommended to complete before M12 since mobile users will benefit from the feedback system.
-- **M19 (Radial View)**: Independent visualization layout. Builds on existing layout infrastructure (LayoutSwitcher, useLayout hook). Consider coordinating with M18 to ensure radial view works on mobile.
+- **M20 (SEO Improvements)**: Independent and can be started anytime. Benefits from M15 (Stable URLs) being complete.
 
 ---
 

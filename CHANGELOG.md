@@ -11,6 +11,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Added
 - **Protestant Reformation Dataset** - New historical network with 180 nodes (65 people, 44 objects, 43 locations, 28 entities) and 101 relationships covering the 16th century Reformation (c. 1483-1564). Includes Luther, Calvin, Zwingli, Erasmus, and their networks across Lutheran, Reformed, Radical, and English reform movements.
 
+- **M19: Radial/Ego-Network View** - New visualization layout for exploring a node's direct connections
+  - **Radial Layout**: Center node with direct connections arranged in a ring
+  - **Conditional Availability**: Radial tab disabled when no node selected, with tooltip explanation
+  - **Auto-fallback**: Switches to force-graph when selection is cleared while in radial view
+  - **Node Shapes**: Same type-based shapes as force-graph (circle, square, diamond, hexagon)
+  - **Curved Edges**: Relationship-colored curved arcs connecting center to periphery
+  - **Dynamic Radius**: Radius adjusts based on connection count (150-350px)
+  - **Info Panel**: Shows center node title and connection count
+  - **Click Navigation**: Clicking peripheral nodes re-centers the radial view on that node
+  - **Search Highlighting**: Matching nodes highlighted, non-matching dimmed
+  - **Empty States**: Helpful prompts when no selection or no connections
+  - **Theme Support**: Full light/dark theme compatibility
+  - **URL State**: Layout persists in URL (`?layout=radial`)
+  - **New Components**: `RadialLayout.tsx`, `RadialLayout.css`
+  - **Updated Components**: `useLayout.ts`, `LayoutSwitcher.tsx`, `MainLayout.tsx`, `Header.tsx`, `MobileMenu.tsx`
+
 - **M16: Network Verification** - Build-time CLI validation tools for dataset integrity
   - Validates JSON syntax, encoding, and structure
   - Checks manifest.json required/recommended fields
