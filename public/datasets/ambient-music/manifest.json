@@ -3,16 +3,45 @@
   "name": "Ambient Music Network",
   "description": "The origins and development of ambient music, centered on Brian Eno's 1978 coining of the term. Traces the convergent influences from Erik Satie's furniture music, John Cage's environmental sound philosophy, German kosmische musik, French musique concrète, American minimalism, Jamaican dub production techniques, and Japanese kankyō ongaku—through to the Second Generation crystallization in the early 1990s.",
   "lastUpdated": "2026-01-19",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "HistoryNet Contributors",
   "license": "CC-BY-4.0",
   "defaultDataset": false,
   "nodeCount": 209,
   "edgeCount": 289,
-  "temporalScope": {
-    "start": "1866",
-    "end": "1995",
-    "note": "From Erik Satie's birth through the Second Generation ambient revival"
+  "scope": {
+    "startYear": 1866,
+    "endYear": 1995,
+    "regions": ["United Kingdom", "Germany", "France", "United States", "Japan", "Jamaica", "Italy"],
+    "themes": ["ambient music", "electronic music", "minimalism", "musique concrète", "kosmische musik", "dub", "environmental music", "synthesizers"],
+    "seedFigures": ["person-brian-eno", "person-erik-satie", "person-john-cage", "person-pierre-schaeffer", "person-karlheinz-stockhausen"],
+    "subgroups": [
+      { "id": "precursors", "name": "Conceptual Precursors", "description": "Early 20th century figures: Satie, Russolo, Cage, Feldman" },
+      { "id": "musique-concrete", "name": "Musique Concrète", "description": "French electroacoustic tradition: Schaeffer, Henry, Bayle" },
+      { "id": "electronic-pioneers", "name": "Electronic Instrument Pioneers", "description": "Instrument inventors: Theremin, Moog, Buchla, EMS" },
+      { "id": "minimalists", "name": "American Minimalists", "description": "Young, Riley, Reich, Glass, Palestine" },
+      { "id": "berlin-school", "name": "Berlin School/Kosmische", "description": "German electronic: TD, Cluster, Harmonia, Kraftwerk, Schulze" },
+      { "id": "eno-circle", "name": "Eno and Collaborators", "description": "Brian Eno and direct collaborators: Fripp, Budd, Lanois, Hassell" },
+      { "id": "dub", "name": "Jamaican Dub", "description": "King Tubby, Lee Perry and dub production influence" },
+      { "id": "japanese", "name": "Japanese Environmental Music", "description": "Kankyō ongaku: Hosono, Yoshimura, Ashikawa, YMO" },
+      { "id": "second-generation", "name": "Second Generation (1990s)", "description": "Aphex Twin, The Orb, The KLF" }
+    ],
+    "exclusionNotes": "Focus is on direct contributors to ambient music tradition. Excludes purely rock/pop artists without electronic/ambient crossover, post-1995 ambient artists, and purely academic electronic music without influence on ambient."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": ["precursors", "musique-concrete", "electronic-pioneers", "minimalists", "berlin-school", "eno-circle", "dub", "japanese", "second-generation"],
+    "pendingBatches": [],
+    "gaps": [
+      { "description": "Limited coverage of late 1980s transitional figures between first and second generation", "priority": "low" },
+      { "description": "Could expand Japanese ambient scene beyond core figures", "priority": "low" }
+    ],
+    "excludedFigures": [
+      { "name": "Boards of Canada", "reason": "Post-1995 scope boundary" },
+      { "name": "Stars of the Lid", "reason": "Post-1995 scope boundary" },
+      { "name": "Biosphere", "reason": "Post-1995 scope boundary" },
+      { "name": "Global Communication", "reason": "Limited data on network connections" }
+    ]
   },
   "customRelationshipTypes": [
     {
