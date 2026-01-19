@@ -28,13 +28,19 @@
 ## Key Commands
 
 ```bash
-npm run dev                    # Start dev server (localhost:5173)
+npm run dev                    # Start frontend dev server (localhost:5173)
+npm start                      # Start full-stack with API (localhost:3000)
 npm run build                  # Production build
 npm run preview                # Preview production build
 
 npm run validate:datasets      # Validate all datasets
 npm run validate:datasets -- --dataset disney-characters  # Validate one
 npm run validate:datasets:strict  # Warnings as errors
+```
+
+**First-time setup** (for `npm start` with API):
+```bash
+vercel link && vercel env pull .env.local
 ```
 
 ---

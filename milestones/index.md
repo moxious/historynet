@@ -31,7 +31,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M21 | Dataset Search | ✅ Complete | A | [m21-dataset-search.md](m21-dataset-search.md) |
 | M23 | Wikimedia Sourcing | ✅ Complete | A | [m23-wikimedia-sourcing.md](m23-wikimedia-sourcing.md) |
 | M24 | Vercel Migration | ✅ Complete | B | [m24-vercel-migration.md](m24-vercel-migration.md) |
-| M25 | User Feedback | 🔲 Future | B | [m25-user-feedback.md](m25-user-feedback.md) |
+| M25 | User Feedback | ✅ Complete | B | [m25-user-feedback.md](m25-user-feedback.md) |
 | M26 | Custom Domain | 🔲 Future | B | [m26-custom-domain.md](m26-custom-domain.md) |
 | M27 | Spam Protection | 🔲 Future | B | [m27-spam-protection.md](m27-spam-protection.md) |
 | M29 | Cross-Scene API | 🔲 Future | B | [m29-cross-scene-api.md](m29-cross-scene-api.md) |
@@ -48,7 +48,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | Track | Description | Milestones |
 |-------|-------------|------------|
 | **A: Independent Features** | No dependencies, can be done in any order | M21 ✅, M23 ✅ |
-| **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 → M27, M24 → M26, M24 → M29 → M30 |
+| **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 ✅ → M27, M24 → M26, M24 → M29 → M30 |
 | **C: Information Architecture** | App navigation restructuring | M31 ✅ → M32 |
 
 ---
@@ -72,8 +72,9 @@ M1-M20 (Core Application Complete) ✅
                                    │            ▼          ▼          ▼    ▼
                                    │           M25        M26        M29  M32
                                    │        (Feedback) (Domain)   (Cross-(Homepage)
-                                   │            │                  Scene
-                                   │            ▼                  API)
+                                   │            ✅                  Scene  ✅
+                                   │            │                  API)
+                                   │            ▼                    │
                                    │           M27                   │
                                    │        (Spam Prot.)             ▼
                                    │                                M30
@@ -86,8 +87,8 @@ M1-M20 (Core Application Complete) ✅
 ## Next Steps
 
 **Ready to implement** (dependencies satisfied):
-- **M25: User Feedback** - Depends on M24 ✅
 - **M26: Custom Domain** - Depends on M24 ✅
+- **M27: Spam Protection** - Depends on M25 ✅
 - **M29: Cross-Scene API** - Depends on M24 ✅
 
 **Track C complete**: M32 (New Homepage) completes the information architecture track.

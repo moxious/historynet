@@ -23,7 +23,7 @@ This document outlines the milestone structure and future direction for Scenius.
 | M29 | Cross-Scene Node Index API | 🔲 Future | B |
 | M30 | Cross-Scene Navigation UI | 🔲 Future | B |
 | M31 | Dataset Pages | ✅ Complete | C |
-| M32 | New Homepage | 🔲 Future | C |
+| M32 | New Homepage | ✅ Complete | C |
 
 > **Note**: M12 and M17 were originally reserved for features that have been renumbered to M24 and M21 respectively.
 

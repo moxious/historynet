@@ -29,6 +29,7 @@ An interactive visualization tool for exploring historical social networks. Scen
 
 - Node.js 18 or higher
 - npm 9 or higher
+- Vercel CLI (`npm install -g vercel`)
 
 ### Installation
 
@@ -50,11 +51,27 @@ An interactive visualization tool for exploring historical social networks. Scen
 
 4. Open your browser to `http://localhost:5173`
 
+### Full-Stack Development (with API endpoints)
+
+To test API endpoints locally, use the Vercel CLI:
+
+```bash
+# One-time setup
+vercel link
+vercel env pull .env.local
+
+# Start full-stack dev server
+npm start
+```
+
+This runs on `http://localhost:3000` with API routes available at `/api/*`.
+
 ## Available Scripts
 
 | Script | Description |
 |--------|-------------|
-| `npm run dev` | Start development server with hot reload |
+| `npm run dev` | Start frontend dev server (fast, port 5173) |
+| `npm start` | Start full-stack dev server with API (port 3000, requires Vercel CLI) |
 | `npm run build` | Build for production |
 | `npm run preview` | Preview production build locally |
 | `npm run lint` | Run ESLint to check for issues |

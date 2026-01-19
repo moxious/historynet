@@ -80,7 +80,7 @@ function Header() {
         <header className="header header--mobile">
           {/* Brand - always visible, links to homepage */}
           <Link to="/" className="header__brand header__brand--mobile header__brand-link">
-            <h1 className="header__title">Scenius</h1>
+            <h1 className="header__title">🧠 Scenius</h1>
           </Link>
 
           {/* Mobile controls */}
@@ -155,7 +155,7 @@ function Header() {
   return (
     <header className="header">
       <Link to="/" className="header__brand header__brand-link">
-        <h1 className="header__title">Scenius</h1>
+        <h1 className="header__title">🧠 Scenius</h1>
         <span className="header__tagline">Mapping collective genius</span>
       </Link>
       <div className="header__controls">

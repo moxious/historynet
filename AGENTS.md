@@ -182,18 +182,34 @@ If a task is too large, break it down into subtasks before starting.
 
 ### Running Dev Servers and Long-Running Processes
 
-**Before running `npm run dev` or any long-running process:**
+**Before running `npm run dev`, `npm start`, or any long-running process:**
 
 1. **Check the terminals folder first** — List the terminals directory to see active terminals and their running commands
-2. **Look for existing dev servers** — If you see `npm run dev`, `vite`, or similar already running, **do not start another one**
-3. **Reuse the existing server** — The app is already available at the URL shown in that terminal (typically `http://localhost:5173`)
+2. **Look for existing dev servers** — If you see `npm run dev`, `npm start`, `vite`, or `vercel dev` already running, **do not start another one**
+3. **Reuse the existing server** — The app is already available at the URL shown in that terminal
 
 ```bash
-# Check if dev server is already running (look for vite or port 5173)
-lsof -i :5173
+# Check if dev server is already running
+lsof -i :5173   # Frontend-only (npm run dev)
+lsof -i :3000   # Full-stack (npm start)
 ```
 
-If the port is in use, the dev server is already running. Just use it — don't start a new one.
+If either port is in use, a dev server is already running. Just use it — don't start a new one.
+
+### Development Server Options
+
+| Command | Port | API Endpoints | Use Case |
+|---------|------|---------------|----------|
+| `npm run dev` | 5173 | No | Frontend-only work (fast startup, default) |
+| `npm start` | 3000 | Yes | Full-stack with API endpoints |
+
+**First-time setup** (required for `npm start`):
+```bash
+vercel link              # Link to Vercel project
+vercel env pull .env.local  # Pull environment variables
+```
+
+Use `npm run dev` for most frontend work. Use `npm start` when testing API endpoints like `/api/submit-feedback`.
 
 ### Communication via Documentation
 

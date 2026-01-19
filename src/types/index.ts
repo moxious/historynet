@@ -55,3 +55,10 @@ export {
 export type { FilterState, FilterStats } from './filters';
 
 export { DEFAULT_FILTER_STATE, hasActiveFilters } from './filters';
+
+// Feedback types
+export type {
+  FeedbackSubmission,
+  FeedbackResponse,
+  FeedbackFormState,
+} from './feedback';

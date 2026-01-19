@@ -8,6 +8,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Added
+- **M25: User Feedback Feature** - In-app feedback form for reporting data issues
+  - **Floating Feedback Button**: Fixed-position button (bottom-right) visible on all pages
+    - Icon + "Feedback" label on desktop, icon-only on mobile (<640px)
+    - Auto-captures current URL and dataset context when clicked
+    - Light/dark theme support with safe area insets for iPhone
+  - **Feedback Form Modal**: Accessible modal with form validation
+    - Dataset auto-populated from URL (or "General Feedback" on homepage)
+    - Required feedback field with optional evidence, additional info, and email
+    - Loading, success, and error states
+    - Success shows link to created GitHub issue
+    - Full-screen modal on mobile for better usability
+  - **Serverless API Endpoint**: `/api/submit-feedback` (Vercel serverless function)
+    - Creates GitHub issues via GitHub API with structured markdown body
+    - Labels: `feedback` + `dataset:{name}` or `general`
+    - Input validation and sanitization (HTML stripping, URL validation, length limits)
+    - Rate limiting: 5 submissions per IP per hour (in-memory, resets on cold start)
+    - Private logging of IP/email for abuse tracking (not in public issue)
+    - CORS enabled for cross-origin requests
+  - **Privacy**: User email and IP kept private (logged server-side only, not in GitHub issue)
+  - **New Files**: `FeedbackButton.tsx`, `FeedbackForm.tsx`, `api/submit-feedback.ts`, `src/types/feedback.ts`
+  - **Updated Files**: `App.tsx` (button on all routes), `vercel.json`, `package.json`
+
 ### Changed
 - **Documentation Restructure** - Replaced monolithic PROGRESS.md and HISTORY.md with per-milestone files
   - **New `milestones/` directory**: One file per milestone (m01-project-bootstrap.md through m32-new-homepage.md)

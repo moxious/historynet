@@ -6,6 +6,7 @@
   "description": "Interactive visualization tool for exploring historical social networks",
   "scripts": {
     "dev": "vite",
+    "start": "vercel dev",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
