@@ -394,6 +394,7 @@ function EdgeDetailPage() {
         datasetName={manifest?.name || datasetId}
         canonicalUrl={fullUrl}
         ogType="article"
+        publishedDate={firstEdge?.dateStart}
       />
 
       {/* Breadcrumb Navigation */}

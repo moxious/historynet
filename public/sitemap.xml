@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 
+    Scenius Sitemap
+    
+    Note: This is a Single Page Application (SPA) using hash-based routing (#/).
+    Most content is loaded dynamically via JavaScript. This sitemap includes
+    the main entry point and dataset variations.
+    
+    For full content discovery, search engines should execute JavaScript.
+  -->
+  
+  <!-- Home page / main application -->
+  <url>
+    <loc>https://moxious.github.io/historynet/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Dataset landing pages (via hash routing) -->
+  <!-- AI & LLM Research Network -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=ai-llm-research</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Rosicrucian Network -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=rosicrucian-network</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Enlightenment Network -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=enlightenment</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Ambient Music Network -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=ambient-music</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Cybernetics & Information Theory -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=cybernetics-information-theory</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Protestant Reformation -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=protestant-reformation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Renaissance Humanism -->
+  <url>
+    <loc>https://moxious.github.io/historynet/#/?dataset=renaissance-humanism</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

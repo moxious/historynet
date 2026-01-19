@@ -15,6 +15,7 @@ import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
 import { useResourceParams, buildFullNodeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
 import ResourceMeta from '@components/ResourceMeta';
+import SchemaOrg from '@components/SchemaOrg';
 import ShareButtons from '@components/ShareButtons';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
@@ -158,6 +159,12 @@ function NodeDetailPage() {
         imageUrl={node.imageUrl}
         canonicalUrl={fullUrl}
         ogType={node.type === 'person' ? 'profile' : 'article'}
+        publishedDate={node.dateStart}
+      />
+      <SchemaOrg
+        node={node}
+        datasetId={datasetId}
+        datasetName={manifest.name}
       />
 
       {/* Breadcrumb Navigation */}

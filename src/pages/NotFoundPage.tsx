@@ -1,13 +1,16 @@
 /**
  * NotFoundPage - Displays a 404-style error for invalid routes
- * 
+ *
  * Shows when:
  * - Invalid dataset ID
  * - Node/edge not found in dataset
  * - Malformed URLs
+ *
+ * SEO: Includes noindex meta tag to prevent search engines from indexing error pages.
  */
 
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import './NotFoundPage.css';
 
 interface NotFoundPageProps {
@@ -20,6 +23,10 @@ interface NotFoundPageProps {
 function NotFoundPage({ message, datasetId }: NotFoundPageProps) {
   return (
     <div className="not-found-page">
+      <Helmet>
+        <title>Page Not Found | Scenius</title>
+        <meta name="robots" content="noindex, nofollow" />
+      </Helmet>
       <div className="not-found-page__content">
         <div className="not-found-page__icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="currentColor" strokeWidth="1.5">

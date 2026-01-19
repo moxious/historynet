@@ -23,7 +23,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M17 | Dataset Search & Filter | 🔲 Future |
 | M18 | Adapt for Mobile | ✅ Complete |
 | M19 | Radial/Ego-Network View | ✅ Complete |
-| M20 | SEO Improvements | 🔲 Future |
+| M20 | SEO Improvements | 🔄 Implementation Complete (testing after deploy) |
 | M21 | Image Asset Management | 🔲 Future |
 | M22 | Sourcing from Wikimedia | 🔲 Future |
 
@@ -95,19 +95,19 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 ---
 
-## Future: M20 - SEO Improvements
+## In Progress: M20 - SEO Improvements
 
 **Goal**: Systematically improve search engine optimization and AI discoverability. Add OpenSearch, structured data (JSON-LD), enhanced meta tags, and crawler resources.
 
 **Key Deliverables**:
-- `public/opensearch.xml` for browser search integration
-- Schema.org JSON-LD for Person, CreativeWork, Place, Organization nodes
-- `SchemaOrg.tsx` component for dynamic structured data
-- `public/robots.txt` and `public/sitemap.xml`
-- Enhanced meta tags (robots, author, keywords, canonical URLs)
-- AI-friendly metadata (Dublin Core, llms.txt)
+- `public/opensearch.xml` for browser search integration ✅
+- Schema.org JSON-LD for Person, CreativeWork, Place, Organization nodes ✅
+- `SchemaOrg.tsx` component for dynamic structured data ✅
+- `public/robots.txt` and `public/sitemap.xml` ✅
+- Enhanced meta tags (robots, author, keywords, canonical URLs) ✅
+- AI-friendly metadata (llms.txt) ✅
 
-**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+**Status**: Core implementation complete. Manual testing tasks (browser tests, social debuggers, Lighthouse audits) pending deployment. See `PROGRESS.md` for full task breakdown.
 
 ---
 
