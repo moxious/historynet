@@ -8,6 +8,7 @@
     "nationality": "British-Canadian",
     "occupations": ["computer scientist", "cognitive psychologist"],
     "birthPlace": "London, England",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%283x4_cropped%29.jpg/440px-Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%283x4_cropped%29.jpg",
     "biography": "Geoffrey Hinton is a pioneer of neural networks and deep learning, co-inventor of backpropagation, inventor of Boltzmann machines, and trained many key figures including Ilya Sutskever. He co-founded the Vector Institute and won the Turing Award in 2018. He resigned from Google in 2023 to speak freely about AI risks and won the Nobel Prize in Physics in 2024.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"}
@@ -22,6 +23,7 @@
     "nationality": "Canadian",
     "occupations": ["computer scientist", "professor"],
     "birthPlace": "Paris, France",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Yoshua_Bengio_2019.jpg/440px-Yoshua_Bengio_2019.jpg",
     "biography": "Yoshua Bengio is a pioneer of deep learning with foundational work on word embeddings, sequence modeling, and generative models. He founded MILA (Montreal Institute for Learning Algorithms) and co-authored the 'Deep Learning' textbook. Won the Turing Award in 2018 alongside Hinton and LeCun.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yoshua_Bengio"},
@@ -37,6 +39,7 @@
     "nationality": "French-American",
     "occupations": ["computer scientist", "professor"],
     "birthPlace": "Paris, France",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yann_LeCun_-_2018_%28cropped%29.jpg/440px-Yann_LeCun_-_2018_%28cropped%29.jpg",
     "biography": "Yann LeCun is a pioneer of convolutional neural networks and creator of LeNet. He founded Meta AI/FAIR in 2013 and serves as Chief AI Scientist at Meta. Won the Turing Award in 2018. Vocal advocate for open AI research and frequently debates AI safety concerns publicly.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Yann_LeCun"}
@@ -51,6 +54,7 @@
     "nationality": "American",
     "occupations": ["entrepreneur", "CEO"],
     "birthPlace": "Chicago, Illinois",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Sam_Altman%2C_June_2023_%28GPOABG244%29_%28cropped%29.jpeg/440px-Sam_Altman%2C_June_2023_%28GPOABG244%29_%28cropped%29.jpeg",
     "biography": "Sam Altman is CEO of OpenAI and a central figure in commercializing LLMs. Former president of Y Combinator. Led OpenAI through GPT-3, ChatGPT, and GPT-4 releases. Briefly fired and reinstated during November 2023 board crisis.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Sam_Altman"}
@@ -65,6 +69,7 @@
     "nationality": "American",
     "occupations": ["entrepreneur", "CEO"],
     "birthPlace": "Pretoria, South Africa",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Elon_Musk_-_March_28%2C_2024.jpg/440px-Elon_Musk_-_March_28%2C_2024.jpg",
     "biography": "Elon Musk co-founded and funded early OpenAI, departing the board in 2018. Later founded xAI in 2023 and developed the Grok chatbot. Influential voice in AI discourse and has sued OpenAI over alleged mission drift."
   },
   {
@@ -76,6 +81,7 @@
     "nationality": "Israeli-Canadian",
     "occupations": ["AI researcher"],
     "birthPlace": "Nizhny Novgorod, Russia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ilya_Sutskever_and_Sam_Altman_in_TAU_%28cropped%29.jpg/440px-Ilya_Sutskever_and_Sam_Altman_in_TAU_%28cropped%29.jpg",
     "biography": "Ilya Sutskever co-founded OpenAI and served as Chief Scientist. PhD under Geoffrey Hinton at University of Toronto. Co-author of AlexNet (2012) and key architect of GPT models. Departed OpenAI in May 2024 to found Safe Superintelligence Inc. (SSI). Was involved in November 2023 board crisis.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ilya_Sutskever"}
@@ -89,6 +95,7 @@
     "dateStart": "1988",
     "nationality": "American",
     "occupations": ["engineer", "entrepreneur"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Greg_Brockman%2C_2019.jpg/440px-Greg_Brockman%2C_2019.jpg",
     "biography": "Greg Brockman is co-founder and President of OpenAI. Former CTO of Stripe. Provides technical leadership and oversees engineering infrastructure. Took leave after November 2023 board crisis, later returned."
   },
   {
@@ -100,6 +107,7 @@
     "nationality": "Slovak-Canadian",
     "occupations": ["AI researcher", "educator"],
     "birthPlace": "Bratislava, Slovakia",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Andrej_Karpathy%2C_OpenAI.png/440px-Andrej_Karpathy%2C_OpenAI.png",
     "biography": "Andrej Karpathy was a founding member of OpenAI and later served as Tesla's AI Director (2017-2022). PhD under Fei-Fei Li at Stanford. Known for educational content including CS231n course. Returned to OpenAI in 2023, then departed again. Prominent AI educator on YouTube."
   },
   {
@@ -229,6 +237,7 @@
     "dateStart": "1983",
     "nationality": "American",
     "occupations": ["AI researcher", "CEO"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg/440px-Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
     "biography": "Dario Amodei co-founded Anthropic in 2021 after leaving his role as VP of Research at OpenAI. PhD in biophysics from Princeton. Left OpenAI over safety disagreements. Creator of Constitutional AI and Claude models."
   },
   {
@@ -305,6 +314,7 @@
     "nationality": "British",
     "occupations": ["AI researcher", "CEO", "neuroscientist"],
     "birthPlace": "London, England",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/440px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg",
     "biography": "Demis Hassabis co-founded DeepMind in 2010 and serves as CEO of Google DeepMind. Led AlphaGo, AlphaFold breakthroughs. Former child chess prodigy and video game designer (Theme Park). PhD in cognitive neuroscience. Won Nobel Prize in Chemistry (2024) for AlphaFold.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Demis_Hassabis"}
@@ -319,6 +329,7 @@
     "nationality": "New Zealander",
     "occupations": ["AI researcher"],
     "birthPlace": "New Zealand",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Shane_Legg.jpg/440px-Shane_Legg.jpg",
     "biography": "Shane Legg co-founded DeepMind with Hassabis and Suleyman. Chief AGI Scientist. Theoretical work on artificial general intelligence. PhD under Marcus Hutter. Co-coined the term 'AGI'."
   },
   {
@@ -330,6 +341,7 @@
     "nationality": "British",
     "occupations": ["AI researcher", "entrepreneur", "executive"],
     "birthPlace": "London, England",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Mustafa_Suleyman_photo.jpg/440px-Mustafa_Suleyman_photo.jpg",
     "biography": "Mustafa Suleyman co-founded DeepMind in 2010. Left to found Inflection AI in 2022 (Pi chatbot). Joined Microsoft as EVP and CEO of Microsoft AI in 2024. Author of 'The Coming Wave' (2023)."
   },
   {
@@ -341,6 +353,7 @@
     "nationality": "American",
     "occupations": ["AI researcher", "computational biologist"],
     "birthPlace": "Little Rock, Arkansas",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/John_Jumper%2C_2024_Nobel_Prize_Laureate_in_Chemistry_%283x4_cropped%29.jpg/440px-John_Jumper%2C_2024_Nobel_Prize_Laureate_in_Chemistry_%283x4_cropped%29.jpg",
     "biography": "John Jumper is a Director at Google DeepMind and led AlphaFold2 development, solving protein structure prediction. PhD in chemistry from University of Chicago. Won Nobel Prize in Chemistry (2024) with Hassabis."
   },
   {
@@ -351,6 +364,7 @@
     "dateStart": "1976-09-26",
     "nationality": "British",
     "occupations": ["AI researcher", "professor"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/David_Silver.jpg/440px-David_Silver.jpg",
     "biography": "David Silver is Principal Research Scientist at DeepMind and led AlphaGo, AlphaZero, and AlphaStar projects. UCL professor. PhD under Richard Sutton. Key architect of game-playing AI systems."
   },
   {
@@ -388,6 +402,7 @@
     "dateStart": "1968-07-23",
     "nationality": "American",
     "occupations": ["computer scientist", "executive"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jeff_Dean_in_2025_02.jpg/440px-Jeff_Dean_in_2025_02.jpg",
     "biography": "Jeff Dean is Chief Scientist at Google and Google DeepMind. Co-founded Google Brain with Andrew Ng and Greg Corrado. Built foundational Google infrastructure (MapReduce). Google employee #30. One of most influential engineers in history."
   },
   {
@@ -399,6 +414,7 @@
     "nationality": "British-American",
     "occupations": ["AI researcher", "entrepreneur", "educator"],
     "birthPlace": "London, England",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg/440px-Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg",
     "biography": "Andrew Ng co-founded Google Brain with Jeff Dean. Stanford professor. Co-founded Coursera with Daphne Koller. Former Chief Scientist at Baidu (2014-2017). Founder of DeepLearning.AI. Popularized deep learning through massive open online courses."
   },
   {
@@ -465,6 +481,7 @@
     "title": "Llion Jones",
     "shortDescription": "Co-inventor of Transformer; co-founder and CTO of Sakana AI",
     "occupations": ["AI researcher", "entrepreneur"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Llion_Jones%2C_author_of_Attention_is_All_You_Need%2C_at_CIC_Tokyo_speaking_about_sakana.ai.jpg/440px-Llion_Jones%2C_author_of_Attention_is_All_You_Need%2C_at_CIC_Tokyo_speaking_about_sakana.ai.jpg",
     "biography": "Llion Jones is co-inventor of the Transformer architecture. Former Google researcher. Co-founded Sakana AI in Tokyo with David Ha, focusing on nature-inspired AI research."
   },
   {
@@ -505,6 +522,7 @@
     "dateStart": "1980",
     "nationality": "Canadian",
     "occupations": ["AI researcher", "professor"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Russ_Salakhutdinov.jpg/440px-Russ_Salakhutdinov.jpg",
     "biography": "Ruslan Salakhutdinov is Professor at Carnegie Mellon and former Apple AI Director. PhD under Geoffrey Hinton. Pioneer of deep generative models and Boltzmann machines."
   },
   {
@@ -541,6 +559,7 @@
     "dateStart": "1985",
     "nationality": "American",
     "occupations": ["AI researcher"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ian_Goodfellow_%28cropped%29.jpg/440px-Ian_Goodfellow_%28cropped%29.jpg",
     "biography": "Ian Goodfellow invented Generative Adversarial Networks (GANs) in 2014. Co-authored the 'Deep Learning' textbook with Bengio and Courville. PhD under Bengio and Courville at Université de Montréal. Worked at Google Brain, OpenAI, Apple."
   },
   {
@@ -578,6 +597,7 @@
     "nationality": "Romanian-Canadian",
     "occupations": ["AI researcher", "professor"],
     "birthPlace": "Cluj-Napoca, Romania",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Doina_Precup_with_Ian_Kerr.jpg/440px-Doina_Precup_with_Ian_Kerr.jpg",
     "biography": "Doina Precup is Professor at McGill and Research Team Lead at Google DeepMind Montreal. Expert in reinforcement learning theory and temporal abstraction. MILA member."
   },
   {
@@ -589,6 +609,7 @@
     "nationality": "Chinese-American",
     "occupations": ["AI researcher", "professor"],
     "birthPlace": "Beijing, China",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fei-Fei_Li_at_AI_for_Good_2017.jpg/440px-Fei-Fei_Li_at_AI_for_Good_2017.jpg",
     "biography": "Fei-Fei Li is Professor at Stanford and Co-director of Stanford HAI. Creator of ImageNet, which enabled the deep learning revolution in computer vision. Trained Andrej Karpathy, Timnit Gebru, and Olga Russakovsky. Founded AI4ALL."
   },
   {
@@ -600,6 +621,7 @@
     "nationality": "Belgian-American",
     "occupations": ["AI researcher", "professor", "entrepreneur"],
     "birthPlace": "Antwerp, Belgium",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Pieter_Abbeel_pictured_at_CovariantHQ_in_November_2017.jpg/440px-Pieter_Abbeel_pictured_at_CovariantHQ_in_November_2017.jpg",
     "biography": "Pieter Abbeel is Professor at UC Berkeley and co-founder of Covariant (robotics). First PhD student of Andrew Ng at Stanford. Pioneer of robot learning and deep reinforcement learning. BAIR director."
   },
   {
@@ -611,6 +633,7 @@
     "nationality": "Israeli-American",
     "occupations": ["AI researcher", "professor", "entrepreneur"],
     "birthPlace": "Jerusalem, Israel",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Daphne_Koller_2019.jpg/440px-Daphne_Koller_2019.jpg",
     "biography": "Daphne Koller is co-founder of Coursera and CEO of Insitro. Stanford professor. Expert in probabilistic graphical models. Pioneer of MOOCs. Now applying ML to drug discovery."
   },
   {
@@ -621,6 +644,7 @@
     "dateStart": "1983-05-13",
     "nationality": "Ethiopian-American",
     "occupations": ["AI researcher"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Timnit_Gebru_crop.jpg/440px-Timnit_Gebru_crop.jpg",
     "biography": "Timnit Gebru is founder of DAIR Institute. PhD under Fei-Fei Li at Stanford. Pioneer of AI ethics. Co-author of Gender Shades (facial recognition bias study). Controversially fired from Google in 2020. Leading voice on AI ethics."
   },
   {
@@ -651,6 +675,7 @@
     "nationality": "Canadian",
     "occupations": ["AI researcher", "professor", "executive"],
     "birthPlace": "Ottawa, Ontario, Canada",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jo%C3%ABlle_Pineau_at_the_Canada_Science_and_Technology_Museum.jpg/440px-Jo%C3%ABlle_Pineau_at_the_Canada_Science_and_Technology_Museum.jpg",
     "biography": "Joelle Pineau is VP of AI Research at Meta and Professor at McGill. MILA core member. Expert in reinforcement learning and healthcare AI. Strong advocate for reproducible research."
   },
   {
@@ -763,6 +788,7 @@
     "dateStart": "1988-06-14",
     "nationality": "French",
     "occupations": ["entrepreneur", "executive"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cl%C3%A9ment_Delangue_on_SiliconANGLE_theCUBE.jpg/440px-Cl%C3%A9ment_Delangue_on_SiliconANGLE_theCUBE.jpg",
     "biography": "Clément Delangue is co-founder and CEO of Hugging Face. Built dominant platform for AI model sharing. Former product manager. Made AI models accessible to developers worldwide."
   },
   {
@@ -799,6 +825,7 @@
     "dateStart": "1983-04-17",
     "nationality": "British",
     "occupations": ["entrepreneur"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Mostaque.jpg/440px-Mostaque.jpg",
     "biography": "Emad Mostaque co-founded Stability AI and brought Stable Diffusion to market. Stepped down as CEO in March 2024 amid controversy over credit attribution and business challenges."
   },
   {
@@ -844,6 +871,7 @@
     "nationality": "American-Canadian",
     "occupations": ["AI researcher", "professor"],
     "birthPlace": "Ohio, United States",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Richard_Sutton_-_Brains%40Bay_Meetup.jpg/440px-Richard_Sutton_-_Brains%40Bay_Meetup.jpg",
     "biography": "Richard Sutton is Professor at University of Alberta and 'father of reinforcement learning'. Inventor of temporal difference learning. Co-authored foundational RL textbook with Barto. Trained David Silver. His 'Bitter Lesson' essay highly influential in AI philosophy.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton"}
@@ -1617,6 +1645,7 @@
     "nationality": "Czech-American",
     "occupations": ["AI researcher"],
     "birthPlace": "Brno, Czech Republic",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom%C3%A1%C5%A1_Mikolov_%282020%29.jpg/440px-Tom%C3%A1%C5%A1_Mikolov_%282020%29.jpg",
     "biography": "Tomas Mikolov created Word2Vec at Google (2013), which demonstrated semantic word arithmetic ('king - man + woman = queen') and made neural word embeddings practical. Previously worked at Johns Hopkins, Google, and Facebook AI Research. His efficient training methods revolutionized NLP.",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tomas_Mikolov"}
