@@ -687,8 +687,7 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
             <img
               src={enrichedData.imageUrl}
               alt={node.title}
-              className="node-infobox__image"
-              style={{ display: imageLoading ? 'none' : 'block' }}
+              className={`node-infobox__image ${imageLoading ? 'node-infobox__image--loading' : 'node-infobox__image--loaded'}`}
               onLoad={() => setImageLoading(false)}
               onError={() => {
                 setImageLoading(false);
