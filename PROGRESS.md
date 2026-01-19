@@ -315,6 +315,85 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 
 ---
 
+## M21: Image Asset Management
+
+**Goal**: Fix broken image URLs in datasets by auditing, downloading, and hosting images in a stable location. Wikimedia Commons URLs break frequently as Wikipedia editors update article images.
+
+**Background**: Many `imageUrl` fields in datasets (especially AI-LLM Research) link to Wikimedia Commons thumbnails that now return HTTP 404. This is because Wikipedia images are updated/renamed over time, breaking the original URLs.
+
+### Phase 1: Audit & Research
+
+- [ ] **IMG1** - Create audit script to check all `imageUrl` fields across all datasets
+  - Read all `nodes.json` files
+  - Extract all `imageUrl` values
+  - Test each URL with HTTP HEAD request
+  - Report: working (200), broken (404/other), missing (no imageUrl)
+- [ ] **IMG2** - Run audit and document results in `research/image-audit/` folder
+  - Create `audit-results.md` with counts per dataset
+  - List all broken URLs with node IDs
+- [ ] **IMG3** - For broken Wikimedia URLs, research current image URLs from Wikipedia
+  - Check if same person/object has a new image on Wikipedia
+  - Document new source URLs alongside old broken URLs
+- [ ] **IMG4** - Identify nodes that should have images but don't have `imageUrl` field
+  - Focus on major figures (persons with many connections)
+- [ ] **IMG5** - Document licensing requirements for Wikimedia images
+  - Most are CC-BY-SA or public domain
+  - Note attribution requirements
+
+### Phase 2: Image Hosting Setup
+
+- [ ] **IMG6** - Decision: Choose hosting approach (document choice in this file)
+  - Option A: `public/images/{dataset}/{node-id}.{ext}` (local, versioned with code)
+  - Option B: Cloud storage bucket (S3, GCS, Cloudflare R2) with stable URLs
+  - Option C: User-designated storage location (TBD)
+- [ ] **IMG7** - Create directory structure for hosted images
+  - If local: `public/images/ai-llm-research/`, `public/images/rosicrucian-network/`, etc.
+  - If cloud: configure bucket with CORS for browser access
+- [ ] **IMG8** - Document image naming convention
+  - Recommendation: `{node-id}.jpg` (e.g., `person-geoffrey-hinton.jpg`)
+  - Handle multiple formats: jpg, png, webp
+- [ ] **IMG9** - Create script to download images from source URLs
+  - Input: CSV/JSON of node-id → source-url mappings
+  - Output: Downloaded images with correct names in target directory
+  - Handle errors gracefully (skip failures, log issues)
+- [ ] **IMG10** - If using cloud storage: configure and document upload process
+
+### Phase 3: Download & Organize Images
+
+- [ ] **IMG11** - Download images for AI-LLM Research dataset
+  - Use researched URLs from IMG3
+  - Verify downloaded images are valid (not error pages)
+- [ ] **IMG12** - Download images for Rosicrucian Network dataset (if applicable)
+- [ ] **IMG13** - Download images for Enlightenment dataset (if applicable)
+- [ ] **IMG14** - Download images for other datasets as needed
+- [ ] **IMG15** - Create `ATTRIBUTION.md` in images directory
+  - Document source URL, license, and attribution for each image
+  - Required for Wikimedia CC-BY-SA compliance
+
+### Phase 4: Update Dataset Links
+
+- [ ] **IMG16** - Create script to update `imageUrl` fields in dataset JSON files
+  - Input: dataset name, base URL for hosted images
+  - Output: Updated `nodes.json` with new `imageUrl` values
+- [ ] **IMG17** - Update AI-LLM Research dataset `imageUrl` fields
+- [ ] **IMG18** - Update other datasets as needed
+- [ ] **IMG19** - Run dataset validation (`npm run validate:datasets`) to verify URLs are valid format
+- [ ] **IMG20** - Manual verification: load app and check images display in infobox
+
+### Phase 5: Documentation & Cleanup
+
+- [ ] **IMG21** - Update `GRAPH_SCHEMA.md` with guidance on `imageUrl` best practices
+  - Recommend hosted images over external URLs
+  - Document supported image formats
+- [ ] **IMG22** - Add image hosting documentation to `AGENTS.md` or README
+  - How to add images for new nodes
+  - Naming conventions
+  - Attribution requirements
+- [ ] **IMG23** - Remove or archive `research/image-audit/` working files
+- [ ] **IMG24** - Update CHANGELOG.md with M21 completion notes
+
+---
+
 ## Notes & Decisions
 
 _Add notes about implementation decisions, blockers, or clarifications here._

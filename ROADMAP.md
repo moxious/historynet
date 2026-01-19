@@ -24,6 +24,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M18 | Adapt for Mobile | ✅ Complete |
 | M19 | Radial/Ego-Network View | ✅ Complete |
 | M20 | SEO Improvements | 🔲 Future |
+| M21 | Image Asset Management | 🔲 Future |
 
 > **Note**: Independent milestones (those without dependencies on each other) may be executed out of order based on priority and availability. See the Milestone Dependencies section for details on which milestones can be parallelized.
 
@@ -109,6 +110,26 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 
 ---
 
+## Future: M21 - Image Asset Management
+
+**Goal**: Fix broken image URLs in datasets by auditing, downloading, and hosting images in a stable location. Currently, many `imageUrl` fields link to Wikimedia Commons thumbnails that have been updated/renamed, returning 404 errors.
+
+**Problem**: Wikipedia/Wikimedia images change frequently as editors update articles. URLs captured at dataset creation time become broken when images are replaced, renamed, or reorganized.
+
+**Key Deliverables**:
+- Audit script to identify all broken `imageUrl` links across datasets
+- Download and organize valid images to a stable hosting location (local `public/images/` or cloud storage bucket TBD)
+- Update all `imageUrl` fields in dataset JSON files to point to hosted images
+- Document image attribution/licensing for Wikimedia-sourced images
+
+**Architecture Decision (TBD)**: 
+- **Option A**: Host in `public/images/{dataset}/{node-id}.jpg` (simple, versioned with code)
+- **Option B**: Cloud storage bucket (S3, GCS, Cloudflare R2) with stable URLs
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -134,17 +155,18 @@ M1-M8 (MVP Complete) ✅
     ▼
 M9-M11, M13-M16, M18-M19 (All Polish Complete) ✅
     │
-    ├──────────────────┬──────────────────┬──────────────────┐
-    ▼                  ▼                  ▼                  ▼
-   M12                M17                M20           (Future)
-   (User Feedback)   (Dataset Search)   (SEO)
-   [Vercel req'd]    [independent]      [independent]
+    ├──────────────────┬──────────────────┬──────────────────┬──────────────────┐
+    ▼                  ▼                  ▼                  ▼                  ▼
+   M12                M17                M20                M21           (Future)
+   (User Feedback)   (Dataset Search)   (SEO)          (Images)
+   [Vercel req'd]    [independent]      [independent]  [independent]
 ```
 
-Note: Remaining milestones M12, M17, and M20 can be worked on in parallel:
+Note: Remaining milestones M12, M17, M20, and M21 can be worked on in parallel:
 - **M12 (User Feedback)**: Requires Vercel migration for serverless functions.
 - **M17 (Dataset Search)**: Becomes more valuable as more datasets are added.
 - **M20 (SEO Improvements)**: Independent and can be started anytime.
+- **M21 (Image Asset Management)**: Independent; fixes broken Wikimedia image URLs.
 
 ---
 
