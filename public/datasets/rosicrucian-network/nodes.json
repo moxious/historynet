@@ -12,6 +12,7 @@
     "deathPlace": "loc-gorlitz",
     "nationality": "German",
     "occupations": ["shoemaker", "mystic", "theosopher"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Jacob-B%C3%B6hme.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jakob_B%C3%B6hme"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/boehme/"}
@@ -30,6 +31,7 @@
     "deathPlace": "Stuttgart",
     "nationality": "German",
     "occupations": ["theologian", "author", "reformer"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Johann_Valentin_Andreae_aged_42.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johann_Valentin_Andreae"}
     ]
@@ -78,6 +80,7 @@
     "deathPlace": "Celle",
     "nationality": "German",
     "occupations": ["theologian", "pastor", "author"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Johann_Arndt.jpeg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johann_Arndt"},
       {"label": "Britannica", "url": "https://www.britannica.com/biography/Johann-Arndt"}
@@ -95,6 +98,7 @@
     "deathPlace": "Magdeburg",
     "nationality": "German",
     "occupations": ["physician", "alchemist", "author", "imperial counselor"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Michael_Maier.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_Maier"}
     ]
@@ -138,6 +142,7 @@
     "biography": "Weigel was a Lutheran pastor in Saxony whose mystical writings emphasized inner spiritual religion over institutional forms. Influenced by Rhineland mysticism (Tauler), Paracelsus, and Sebastian Franck, he developed ideas about the 'inner church' and direct spiritual experience. His approximately 6,000 pages of manuscripts were published posthumously and influenced both Johann Arndt and Jacob Boehme.",
     "nationality": "German",
     "occupations": ["pastor", "mystic", "author"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Valentin_Weigel.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Valentin_Weigel"}
     ]
@@ -167,6 +172,7 @@
     "birthPlace": "Ossig",
     "nationality": "German/Silesian",
     "occupations": ["reformer", "theologian"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Kaspar_Schwenckfeld.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Caspar_Schwenckfeld"}
     ]
@@ -200,6 +206,7 @@
     "deathPlace": "Salzburg",
     "nationality": "Swiss-German",
     "occupations": ["physician", "alchemist", "philosopher"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Paracelsus.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Paracelsus"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/paracelsus/"}
@@ -229,6 +236,7 @@
     "biography": "Khunrath was a German physician and Hermetic philosopher who received his doctorate in 1588 and soon after began traveling. He met John Dee in Bremen on 27 May 1589 as Dee was returning to England, and later met Edward Kelley at Rudolf II's court in Prague. His major work, Amphitheatrum Sapientiae Aeternae (1595), combines Paracelsian alchemy with Christian mysticism and Kabbalistic ideas. Scholars see him as a bridge figure linking Dee's Hermetic magic to later Rosicrucianism.",
     "nationality": "German",
     "occupations": ["physician", "alchemist", "philosopher"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Khunrath.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Heinrich_Khunrath"}
     ]
@@ -258,6 +266,7 @@
     "biography": "Croll was a professor at Marburg and a practicing physician who became one of the most influential proponents of Paracelsian chemical medicine. His Basilica Chymica (1609) was widely read and helped establish iatrochemistry as a legitimate medical approach. He had connections to Rudolf II's court in Prague.",
     "nationality": "German",
     "occupations": ["professor", "physician", "alchemist"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Osvaldus_Crollius.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Oswald_Croll"}
     ]
@@ -272,6 +281,7 @@
     "biography": "Libavius was a German physician and chemist trained in the Aristotelian and Galenic traditions. He accepted practical chemical remedies but rejected mystical or Hermetic elements in alchemy. His Alchymia (1597) is considered the first systematic chemistry textbook. When the Rosicrucian manifestos appeared, he published Analysis Confessionis Fraternitatis de Rosea Cruce (1615), systematically critiquing them on scientific, religious, and political grounds. Robert Fludd responded with defenses of the Brotherhood.",
     "nationality": "German",
     "occupations": ["physician", "chemist", "author"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Andreas_Libavius.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andreas_Libavius"}
     ]
@@ -303,6 +313,7 @@
     "deathPlace": "Wittenberg",
     "nationality": "German",
     "occupations": ["professor", "physician"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Daniel-Sennert.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Daniel_Sennert"}
     ]
@@ -377,6 +388,7 @@
     "deathPlace": "loc-prague",
     "nationality": "Habsburg",
     "occupations": ["emperor", "patron"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Hans_von_Aachen_-_Portrait_of_Emperor_Rudolf_II.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor"}
     ]
@@ -393,6 +405,7 @@
     "deathPlace": "Mortlake",
     "nationality": "English",
     "occupations": ["mathematician", "astrologer", "occultist", "advisor"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/John_Dee_Ashmolean.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Dee"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/john-dee/"}
@@ -411,6 +424,7 @@
     "deathPlace": "loc-prague",
     "nationality": "English",
     "occupations": ["scryer", "alchemist"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/EdwKelley.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Edward_Kelley"}
     ]
@@ -427,6 +441,7 @@
     "deathPlace": "loc-prague",
     "nationality": "Danish",
     "occupations": ["astronomer"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Tycho_Brahe"}
     ]
@@ -443,6 +458,7 @@
     "deathPlace": "Regensburg",
     "nationality": "German",
     "occupations": ["astronomer", "mathematician"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Johannes_Kepler_1610.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johannes_Kepler"}
     ]
@@ -459,6 +475,7 @@
     "deathPlace": "loc-tubingen",
     "nationality": "German",
     "occupations": ["astronomer", "professor"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Michael_Maestlin%2C1619.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Michael_M%C3%A4stlin"}
     ]
@@ -475,6 +492,7 @@
     "deathPlace": "loc-trebon",
     "nationality": "Bohemian",
     "occupations": ["nobleman", "patron"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Wilhelm_von_Rosenberg_Altersbild.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Vil%C3%A9m_of_Rosenberg"}
     ]
@@ -491,6 +509,7 @@
     "deathPlace": "loc-london",
     "nationality": "English",
     "occupations": ["physician", "philosopher", "author"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Robert_Fludd.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Robert_Fludd"}
     ]
@@ -524,6 +543,7 @@
     "deathPlace": "loc-london",
     "nationality": "English",
     "occupations": ["antiquarian", "astrologer", "collector"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/AshmoleRiley.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Elias_Ashmole"}
     ]
@@ -556,6 +576,7 @@
     "deathPlace": "Highgate",
     "nationality": "English",
     "occupations": ["philosopher", "statesman", "scientist"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Francis_Bacon%2C_Viscount_St_Alban_from_NPG_%282%29.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Francis_Bacon"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/francis-bacon/"}
@@ -574,6 +595,7 @@
     "deathPlace": "Mainz",
     "nationality": "German",
     "occupations": ["elector", "king"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Friedrich_V._%28Pfalz%29.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Frederick_V_of_the_Palatinate"}
     ]
@@ -591,6 +613,7 @@
     "deathPlace": "loc-london",
     "nationality": "Scottish/English",
     "occupations": ["queen", "electress", "patron"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Elizabeth_Stuart%2C_Queen_of_Bohemia.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Elizabeth_Stuart,_Queen_of_Bohemia"}
     ]
@@ -608,6 +631,7 @@
     "deathPlace": "Eschwege",
     "nationality": "German",
     "occupations": ["landgrave", "patron"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Moritz_Landgraf_von_Hessen_Seite_1_Bild_0001.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Maurice,_Landgrave_of_Hesse-Kassel"}
     ]
@@ -624,6 +648,7 @@
     "deathPlace": "Paris",
     "nationality": "French",
     "occupations": ["engineer", "architect", "garden designer"],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Salomon-de-Caus04.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Salomon_de_Caus"}
     ]
@@ -897,6 +922,7 @@
     "locationType": "university/city",
     "coordinates": {"lat": 48.52, "lng": 9.06},
     "country": "Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tuebingen_Neckarfront.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/T%C3%BCbingen"}
     ]
@@ -909,6 +935,7 @@
     "locationType": "court/city",
     "coordinates": {"lat": 50.08, "lng": 14.43},
     "country": "Bohemia/Czech Republic",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Prague_Castle_with_Charles_Bridge_01.JPG",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Prague"}
     ]
@@ -921,6 +948,7 @@
     "locationType": "court/city",
     "coordinates": {"lat": 49.40, "lng": 8.69},
     "country": "Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Schloss_Heidelberg_Ottheinrichsbau.JPG",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Heidelberg"}
     ]
@@ -933,6 +961,7 @@
     "locationType": "university/city",
     "coordinates": {"lat": 50.81, "lng": 8.77},
     "country": "Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Marburg_asv2022-02_img02.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Marburg"}
     ]
@@ -945,6 +974,7 @@
     "locationType": "city",
     "coordinates": {"lat": 51.15, "lng": 14.99},
     "country": "Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/G%C3%B6rlitz-altstadt.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/G%C3%B6rlitz"}
     ]
@@ -957,6 +987,7 @@
     "locationType": "court/city",
     "coordinates": {"lat": 51.32, "lng": 9.50},
     "country": "Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Herkules_Kassel.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kassel"}
     ]
@@ -969,6 +1000,7 @@
     "locationType": "city",
     "coordinates": {"lat": 51.51, "lng": -0.13},
     "country": "England",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/London_from_a_balloon.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/London"}
     ]
@@ -981,6 +1013,7 @@
     "locationType": "university/city",
     "coordinates": {"lat": 47.56, "lng": 7.59},
     "country": "Switzerland",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Basel_-_M%C3%BCnster_vom_Rhein.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Basel"}
     ]
@@ -993,6 +1026,7 @@
     "locationType": "city",
     "coordinates": {"lat": 48.37, "lng": 10.90},
     "country": "Germany",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Augsburg_Perlachturm_und_Rathaus.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Augsburg"}
     ]
@@ -1005,6 +1039,7 @@
     "locationType": "court/city",
     "coordinates": {"lat": 52.08, "lng": 4.31},
     "country": "Netherlands",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Binnenhof_at_night.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/The_Hague"}
     ]
@@ -1017,6 +1052,7 @@
     "locationType": "castle/town",
     "coordinates": {"lat": 49.00, "lng": 14.77},
     "country": "Bohemia/Czech Republic",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/T%C5%99ebo%C5%88%2C_z%C3%A1mek_%281%29.jpg",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/T%C5%99ebo%C5%88"}
     ]
