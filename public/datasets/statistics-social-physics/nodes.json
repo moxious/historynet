@@ -1,0 +1,830 @@
+[
+  {
+    "id": "person-pierre-simon-laplace",
+    "type": "person",
+    "title": "Pierre-Simon Laplace",
+    "shortDescription": "French mathematician and astronomer who made foundational contributions to probability theory, including Bayesian probability and the central limit theorem",
+    "dateStart": "1749",
+    "dateEnd": "1827",
+    "birthPlace": "Beaumont-en-Auge, Normandy, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "mathematician",
+      "astronomer",
+      "physicist"
+    ],
+    "wikipediaTitle": "Pierre-Simon_Laplace",
+    "wikidataId": "Q186596"
+  },
+  {
+    "id": "person-adolphe-quetelet",
+    "type": "person",
+    "title": "Adolphe Quetelet",
+    "shortDescription": "Belgian astronomer, mathematician, and sociologist who pioneered 'social physics' and the concept of the 'average man' (l'homme moyen)",
+    "dateStart": "1796",
+    "dateEnd": "1874",
+    "birthPlace": "Ghent, Belgium",
+    "deathPlace": "Brussels, Belgium",
+    "nationality": "Belgian",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "statistician",
+      "sociologist"
+    ],
+    "wikipediaTitle": "Adolphe_Quetelet",
+    "wikidataId": "Q76584"
+  },
+  {
+    "id": "person-ronald-fisher",
+    "type": "person",
+    "title": "Ronald A. Fisher",
+    "alternateNames": [
+      "R. A. Fisher",
+      "Sir Ronald Aylmer Fisher"
+    ],
+    "shortDescription": "British statistician and geneticist who founded modern statistical science, developing ANOVA, maximum likelihood, and experimental design methods",
+    "dateStart": "1890",
+    "dateEnd": "1962",
+    "birthPlace": "East Finchley, London, England",
+    "deathPlace": "Adelaide, Australia",
+    "nationality": "British",
+    "occupations": [
+      "statistician",
+      "geneticist",
+      "eugenicist"
+    ],
+    "wikipediaTitle": "Ronald_Fisher",
+    "wikidataId": "Q216723"
+  },
+  {
+    "id": "person-carl-friedrich-gauss",
+    "type": "person",
+    "title": "Carl Friedrich Gauss",
+    "alternateNames": [
+      "Johann Carl Friedrich Gauss"
+    ],
+    "shortDescription": "German mathematician who contributed the method of least squares and foundational work on the normal distribution (Gaussian distribution)",
+    "dateStart": "1777",
+    "dateEnd": "1855",
+    "birthPlace": "Brunswick, Duchy of Brunswick-Wolfenbüttel",
+    "deathPlace": "Göttingen, Kingdom of Hanover",
+    "nationality": "German",
+    "occupations": [
+      "mathematician",
+      "astronomer",
+      "physicist"
+    ],
+    "wikipediaTitle": "Carl_Friedrich_Gauss",
+    "wikidataId": "Q6722"
+  },
+  {
+    "id": "person-marquis-de-condorcet",
+    "type": "person",
+    "title": "Marquis de Condorcet",
+    "alternateNames": [
+      "Nicolas de Condorcet",
+      "Marie Jean Antoine Nicolas de Caritat"
+    ],
+    "shortDescription": "French philosopher and mathematician who applied probability theory to voting, elections, and social choice—pioneering mathematical social science",
+    "dateStart": "1743",
+    "dateEnd": "1794",
+    "birthPlace": "Ribemont, France",
+    "deathPlace": "Bourg-la-Reine, France",
+    "nationality": "French",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "political scientist"
+    ],
+    "wikipediaTitle": "Marquis_de_Condorcet",
+    "wikidataId": "Q37979"
+  },
+  {
+    "id": "person-simeon-denis-poisson",
+    "type": "person",
+    "title": "Siméon Denis Poisson",
+    "shortDescription": "French mathematician known for the Poisson distribution and contributions to probability theory, extending Laplace's work",
+    "dateStart": "1781",
+    "dateEnd": "1840",
+    "birthPlace": "Pithiviers, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "mathematician",
+      "physicist"
+    ],
+    "wikipediaTitle": "Siméon_Denis_Poisson",
+    "wikidataId": "Q49767"
+  },
+  {
+    "id": "person-thomas-bayes",
+    "type": "person",
+    "title": "Thomas Bayes",
+    "shortDescription": "English statistician and Presbyterian minister whose work on inverse probability became the foundation of Bayesian statistics",
+    "dateStart": "1701",
+    "dateEnd": "1761",
+    "birthPlace": "London, England",
+    "deathPlace": "Tunbridge Wells, England",
+    "nationality": "English",
+    "occupations": [
+      "statistician",
+      "philosopher",
+      "Presbyterian minister"
+    ],
+    "wikipediaTitle": "Thomas_Bayes",
+    "wikidataId": "Q318630"
+  },
+  {
+    "id": "person-abraham-de-moivre",
+    "type": "person",
+    "title": "Abraham de Moivre",
+    "shortDescription": "French-born mathematician who first stated the central limit theorem and pioneered analytic approaches to probability",
+    "dateStart": "1667",
+    "dateEnd": "1754",
+    "birthPlace": "Vitry-le-François, France",
+    "deathPlace": "London, England",
+    "nationality": "French (naturalized English)",
+    "occupations": [
+      "mathematician"
+    ],
+    "wikipediaTitle": "Abraham_de_Moivre",
+    "wikidataId": "Q310551"
+  },
+  {
+    "id": "person-francis-galton",
+    "type": "person",
+    "title": "Francis Galton",
+    "alternateNames": [
+      "Sir Francis Galton"
+    ],
+    "shortDescription": "English polymath who developed correlation, regression analysis, and fingerprint identification—also founder of eugenics",
+    "dateStart": "1822",
+    "dateEnd": "1911",
+    "birthPlace": "Birmingham, England",
+    "deathPlace": "Haslemere, Surrey, England",
+    "nationality": "British",
+    "occupations": [
+      "statistician",
+      "polymath",
+      "anthropologist",
+      "eugenicist"
+    ],
+    "wikipediaTitle": "Francis_Galton",
+    "wikidataId": "Q131566"
+  },
+  {
+    "id": "person-karl-pearson",
+    "type": "person",
+    "title": "Karl Pearson",
+    "shortDescription": "English mathematician who established mathematical statistics as a discipline, creating correlation coefficients and chi-squared tests",
+    "dateStart": "1857",
+    "dateEnd": "1936",
+    "birthPlace": "London, England",
+    "deathPlace": "Coldharbour, Surrey, England",
+    "nationality": "British",
+    "occupations": [
+      "mathematician",
+      "statistician",
+      "biostatistician",
+      "eugenicist"
+    ],
+    "wikipediaTitle": "Karl_Pearson",
+    "wikidataId": "Q180850"
+  },
+  {
+    "id": "person-florence-nightingale",
+    "type": "person",
+    "title": "Florence Nightingale",
+    "shortDescription": "English social reformer and statistician who pioneered the use of statistical graphics and evidence-based public health policy",
+    "dateStart": "1820",
+    "dateEnd": "1910",
+    "birthPlace": "Florence, Grand Duchy of Tuscany",
+    "deathPlace": "Mayfair, London, England",
+    "nationality": "British",
+    "occupations": [
+      "nurse",
+      "statistician",
+      "social reformer"
+    ],
+    "wikipediaTitle": "Florence_Nightingale",
+    "wikidataId": "Q38348"
+  },
+  {
+    "id": "person-jerzy-neyman",
+    "type": "person",
+    "title": "Jerzy Neyman",
+    "shortDescription": "Polish mathematician who co-developed the Neyman-Pearson lemma and formalized confidence interval theory",
+    "dateStart": "1894",
+    "dateEnd": "1981",
+    "birthPlace": "Bendery, Bessarabia Governorate, Russian Empire",
+    "deathPlace": "Oakland, California, United States",
+    "nationality": "Polish-American",
+    "occupations": [
+      "mathematician",
+      "statistician"
+    ],
+    "wikipediaTitle": "Jerzy_Neyman",
+    "wikidataId": "Q440568"
+  },
+  {
+    "id": "person-egon-pearson",
+    "type": "person",
+    "title": "Egon Pearson",
+    "shortDescription": "British statistician who, with Jerzy Neyman, developed the theory of hypothesis testing and the Neyman-Pearson lemma",
+    "dateStart": "1895",
+    "dateEnd": "1980",
+    "birthPlace": "Hampstead, London, England",
+    "deathPlace": "Midhurst, Sussex, England",
+    "nationality": "British",
+    "occupations": [
+      "statistician"
+    ],
+    "wikipediaTitle": "Egon_Pearson",
+    "wikidataId": "Q1302219"
+  },
+  {
+    "id": "person-adrien-marie-legendre",
+    "type": "person",
+    "title": "Adrien-Marie Legendre",
+    "shortDescription": "French mathematician who independently developed the method of least squares, leading to a famous priority dispute with Gauss",
+    "dateStart": "1752",
+    "dateEnd": "1833",
+    "birthPlace": "Paris, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "mathematician"
+    ],
+    "wikipediaTitle": "Adrien-Marie_Legendre",
+    "wikidataId": "Q191799"
+  },
+  {
+    "id": "person-jacob-bernoulli",
+    "type": "person",
+    "title": "Jacob Bernoulli",
+    "alternateNames": [
+      "Jakob Bernoulli",
+      "James Bernoulli"
+    ],
+    "shortDescription": "Swiss mathematician who proved the law of large numbers, foundational to probability theory",
+    "dateStart": "1655",
+    "dateEnd": "1705",
+    "birthPlace": "Basel, Switzerland",
+    "deathPlace": "Basel, Switzerland",
+    "nationality": "Swiss",
+    "occupations": [
+      "mathematician"
+    ],
+    "wikipediaTitle": "Jacob_Bernoulli",
+    "wikidataId": "Q122420"
+  },
+  {
+    "id": "person-william-sealy-gosset",
+    "type": "person",
+    "title": "William Sealy Gosset",
+    "alternateNames": [
+      "Student"
+    ],
+    "shortDescription": "English statistician who developed the t-distribution under the pseudonym 'Student' while working at Guinness brewery",
+    "dateStart": "1876",
+    "dateEnd": "1937",
+    "birthPlace": "Canterbury, England",
+    "deathPlace": "Beaconsfield, England",
+    "nationality": "British",
+    "occupations": [
+      "statistician",
+      "chemist"
+    ],
+    "wikipediaTitle": "William_Sealy_Gosset",
+    "wikidataId": "Q317584"
+  },
+  {
+    "id": "person-andre-michel-guerry",
+    "type": "person",
+    "title": "André-Michel Guerry",
+    "shortDescription": "French lawyer and statistician who pioneered 'moral statistics' and created early thematic maps of crime data",
+    "dateStart": "1802",
+    "dateEnd": "1866",
+    "birthPlace": "Tours, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "lawyer",
+      "statistician"
+    ],
+    "wikipediaTitle": "André-Michel_Guerry",
+    "wikidataId": "Q2847710"
+  },
+  {
+    "id": "person-william-farr",
+    "type": "person",
+    "title": "William Farr",
+    "shortDescription": "British epidemiologist and statistician who established vital statistics and collaborated with Florence Nightingale on health data",
+    "dateStart": "1807",
+    "dateEnd": "1883",
+    "birthPlace": "Kenley, Shropshire, England",
+    "deathPlace": "London, England",
+    "nationality": "British",
+    "occupations": [
+      "epidemiologist",
+      "statistician",
+      "physician"
+    ],
+    "wikipediaTitle": "William_Farr",
+    "wikidataId": "Q317584"
+  },
+  {
+    "id": "person-charles-darwin",
+    "type": "person",
+    "title": "Charles Darwin",
+    "shortDescription": "English naturalist whose theory of evolution by natural selection influenced statistical thinking about variation and heredity",
+    "dateStart": "1809",
+    "dateEnd": "1882",
+    "birthPlace": "Shrewsbury, England",
+    "deathPlace": "Downe, Kent, England",
+    "nationality": "British",
+    "occupations": [
+      "naturalist",
+      "biologist",
+      "geologist"
+    ],
+    "wikipediaTitle": "Charles_Darwin",
+    "wikidataId": "Q1035"
+  },
+  {
+    "id": "person-andrey-markov",
+    "type": "person",
+    "title": "Andrey Markov",
+    "shortDescription": "Russian mathematician who developed Markov chains, extending probability theory to dependent sequences",
+    "dateStart": "1856",
+    "dateEnd": "1922",
+    "birthPlace": "Ryazan, Russian Empire",
+    "deathPlace": "Petrograd, Russian SFSR",
+    "nationality": "Russian",
+    "occupations": [
+      "mathematician"
+    ],
+    "wikipediaTitle": "Andrey_Markov",
+    "wikidataId": "Q140282"
+  },
+  {
+    "id": "person-emile-durkheim",
+    "type": "person",
+    "title": "Émile Durkheim",
+    "shortDescription": "French sociologist who used Quetelet's statistical methods in his famous study of suicide, establishing sociology as an empirical science",
+    "dateStart": "1858",
+    "dateEnd": "1917",
+    "birthPlace": "Épinal, France",
+    "deathPlace": "Paris, France",
+    "nationality": "French",
+    "occupations": [
+      "sociologist",
+      "philosopher"
+    ],
+    "wikipediaTitle": "Émile_Durkheim",
+    "wikidataId": "Q44279"
+  },
+  {
+    "id": "object-theorie-analytique-des-probabilites",
+    "type": "object",
+    "title": "Théorie analytique des probabilités",
+    "objectType": "book",
+    "shortDescription": "Laplace's comprehensive treatise on probability theory (1812), synthesizing and extending work on mathematical probability",
+    "dateStart": "1812",
+    "language": "French",
+    "creators": [
+      "person-pierre-simon-laplace"
+    ],
+    "wikipediaTitle": "Théorie_analytique_des_probabilités",
+    "wikidataId": "Q3527157"
+  },
+  {
+    "id": "object-essai-philosophique-sur-les-probabilites",
+    "type": "object",
+    "title": "Essai philosophique sur les probabilités",
+    "objectType": "book",
+    "shortDescription": "Laplace's accessible introduction to probability theory (1814), presenting the philosophical foundations of probabilistic reasoning",
+    "dateStart": "1814",
+    "language": "French",
+    "creators": [
+      "person-pierre-simon-laplace"
+    ],
+    "wikipediaTitle": "A_Philosophical_Essay_on_Probabilities",
+    "wikidataId": null
+  },
+  {
+    "id": "object-sur-l-homme",
+    "type": "object",
+    "title": "Sur l'homme et le développement de ses facultés",
+    "alternateNames": [
+      "A Treatise on Man"
+    ],
+    "objectType": "book",
+    "shortDescription": "Quetelet's foundational work on 'social physics' (1835), introducing the concept of the 'average man' and statistical regularities in social phenomena",
+    "dateStart": "1835",
+    "language": "French",
+    "creators": [
+      "person-adolphe-quetelet"
+    ],
+    "wikipediaTitle": "A_Treatise_on_Man_and_the_Development_of_His_Faculties",
+    "wikidataId": null
+  },
+  {
+    "id": "object-statistical-methods-for-research-workers",
+    "type": "object",
+    "title": "Statistical Methods for Research Workers",
+    "objectType": "book",
+    "shortDescription": "Fisher's influential handbook (1925) that brought modern statistical methods to working scientists across disciplines",
+    "dateStart": "1925",
+    "language": "English",
+    "creators": [
+      "person-ronald-fisher"
+    ],
+    "wikipediaTitle": "Statistical_Methods_for_Research_Workers",
+    "wikidataId": "Q25927621"
+  },
+  {
+    "id": "object-design-of-experiments",
+    "type": "object",
+    "title": "The Design of Experiments",
+    "objectType": "book",
+    "shortDescription": "Fisher's treatise (1935) establishing the principles of experimental design, including randomization and factorial experiments",
+    "dateStart": "1935",
+    "language": "English",
+    "creators": [
+      "person-ronald-fisher"
+    ],
+    "wikipediaTitle": "The_Design_of_Experiments",
+    "wikidataId": "Q7726887"
+  },
+  {
+    "id": "object-essay-towards-solving-a-problem",
+    "type": "object",
+    "title": "An Essay towards solving a Problem in the Doctrine of Chances",
+    "objectType": "paper",
+    "shortDescription": "Bayes' posthumous paper (1763) presenting what would become Bayes' theorem, foundational to Bayesian probability",
+    "dateStart": "1763",
+    "language": "English",
+    "creators": [
+      "person-thomas-bayes"
+    ],
+    "wikipediaTitle": "An_Essay_towards_solving_a_Problem_in_the_Doctrine_of_Chances",
+    "wikidataId": "Q4749933"
+  },
+  {
+    "id": "object-ars-conjectandi",
+    "type": "object",
+    "title": "Ars Conjectandi",
+    "objectType": "book",
+    "shortDescription": "Jacob Bernoulli's posthumous treatise (1713) proving the law of large numbers and establishing mathematical probability",
+    "dateStart": "1713",
+    "language": "Latin",
+    "creators": [
+      "person-jacob-bernoulli"
+    ],
+    "wikipediaTitle": "Ars_Conjectandi",
+    "wikidataId": "Q623586"
+  },
+  {
+    "id": "object-doctrine-of-chances",
+    "type": "object",
+    "title": "The Doctrine of Chances",
+    "objectType": "book",
+    "shortDescription": "De Moivre's treatise on probability (1718), containing the first statement of the central limit theorem",
+    "dateStart": "1718",
+    "language": "English",
+    "creators": [
+      "person-abraham-de-moivre"
+    ],
+    "wikipediaTitle": "The_Doctrine_of_Chances",
+    "wikidataId": "Q1757843"
+  },
+  {
+    "id": "object-hereditary-genius",
+    "type": "object",
+    "title": "Hereditary Genius",
+    "objectType": "book",
+    "shortDescription": "Galton's statistical study of the inheritance of abilities (1869), foundational to both biometrics and eugenics",
+    "dateStart": "1869",
+    "language": "English",
+    "creators": [
+      "person-francis-galton"
+    ],
+    "wikipediaTitle": "Hereditary_Genius",
+    "wikidataId": "Q5734888"
+  },
+  {
+    "id": "object-natural-inheritance",
+    "type": "object",
+    "title": "Natural Inheritance",
+    "objectType": "book",
+    "shortDescription": "Galton's work (1889) introducing regression to the mean and laying groundwork for correlation analysis",
+    "dateStart": "1889",
+    "language": "English",
+    "creators": [
+      "person-francis-galton"
+    ],
+    "wikipediaTitle": "Natural_Inheritance",
+    "wikidataId": "Q51508521"
+  },
+  {
+    "id": "object-grammar-of-science",
+    "type": "object",
+    "title": "The Grammar of Science",
+    "objectType": "book",
+    "shortDescription": "Karl Pearson's positivist philosophy of science (1892), arguing for statistics as the foundation of scientific method",
+    "dateStart": "1892",
+    "language": "English",
+    "creators": [
+      "person-karl-pearson"
+    ],
+    "wikipediaTitle": "The_Grammar_of_Science",
+    "wikidataId": "Q7734628"
+  },
+  {
+    "id": "object-le-suicide",
+    "type": "object",
+    "title": "Le Suicide",
+    "objectType": "book",
+    "shortDescription": "Durkheim's sociological study of suicide (1897), applying Quetelet's statistical methods to demonstrate social facts",
+    "dateStart": "1897",
+    "language": "French",
+    "creators": [
+      "person-emile-durkheim"
+    ],
+    "wikipediaTitle": "Suicide_(Durkheim_book)",
+    "wikidataId": "Q2088170"
+  },
+  {
+    "id": "location-ecole-polytechnique",
+    "type": "location",
+    "title": "École Polytechnique",
+    "locationType": "university",
+    "shortDescription": "Elite French engineering school where Laplace, Poisson, and other mathematicians taught probability and analysis",
+    "country": "France",
+    "dateStart": "1794",
+    "wikipediaTitle": "École_Polytechnique",
+    "wikidataId": "Q273626"
+  },
+  {
+    "id": "location-university-college-london",
+    "type": "location",
+    "title": "University College London",
+    "locationType": "university",
+    "shortDescription": "Home of the Galton Laboratory and Karl Pearson's biometrics department, center of British statistical research",
+    "country": "United Kingdom",
+    "dateStart": "1826",
+    "wikipediaTitle": "University_College_London",
+    "wikidataId": "Q193196"
+  },
+  {
+    "id": "location-rothamsted-experimental-station",
+    "type": "location",
+    "title": "Rothamsted Experimental Station",
+    "locationType": "research institution",
+    "shortDescription": "Agricultural research station where Fisher developed ANOVA and modern experimental design methods",
+    "country": "United Kingdom",
+    "dateStart": "1843",
+    "wikipediaTitle": "Rothamsted_Research",
+    "wikidataId": "Q2157227"
+  },
+  {
+    "id": "entity-biometrika",
+    "type": "entity",
+    "title": "Biometrika",
+    "entityType": "publication",
+    "shortDescription": "Statistical journal founded by Pearson, Galton, and Weldon in 1901, central to the development of mathematical statistics",
+    "dateStart": "1901",
+    "foundedBy": [
+      "person-karl-pearson",
+      "person-francis-galton"
+    ],
+    "wikipediaTitle": "Biometrika",
+    "wikidataId": "Q673175"
+  },
+  {
+    "id": "entity-royal-statistical-society",
+    "type": "entity",
+    "title": "Royal Statistical Society",
+    "entityType": "organization",
+    "shortDescription": "British learned society for statistics founded in 1834, Florence Nightingale was its first female fellow",
+    "dateStart": "1834",
+    "country": "United Kingdom",
+    "wikipediaTitle": "Royal_Statistical_Society",
+    "wikidataId": "Q1423882"
+  },
+  {
+    "id": "entity-eugenics-education-society",
+    "type": "entity",
+    "title": "Eugenics Education Society",
+    "entityType": "organization",
+    "shortDescription": "British organization founded in 1907 promoting eugenics; Galton was honorary president and Fisher was a member",
+    "dateStart": "1907",
+    "dateEnd": "1989",
+    "country": "United Kingdom",
+    "foundedBy": [],
+    "wikipediaTitle": "Eugenics_Society",
+    "wikidataId": "Q5407573"
+  },
+  {
+    "id": "person-johann-heinrich-lambert",
+    "type": "person",
+    "title": "Johann Heinrich Lambert",
+    "shortDescription": "Swiss-German polymath who made early contributions to error theory and probability, including work on error distributions before Gauss",
+    "dateStart": "1728",
+    "dateEnd": "1777",
+    "birthPlace": "Mulhouse, Alsace",
+    "deathPlace": "Berlin, Prussia",
+    "nationality": "Swiss-German",
+    "occupations": [
+      "mathematician",
+      "physicist",
+      "astronomer",
+      "philosopher"
+    ],
+    "wikipediaTitle": "Johann_Heinrich_Lambert",
+    "wikidataId": "Q76610"
+  },
+  {
+    "id": "person-friedrich-bessel",
+    "type": "person",
+    "title": "Friedrich Wilhelm Bessel",
+    "shortDescription": "German astronomer and mathematician who developed rigorous methods for analyzing observational errors and made the first successful measurement of stellar parallax",
+    "dateStart": "1784",
+    "dateEnd": "1846",
+    "birthPlace": "Minden, Westphalia",
+    "deathPlace": "Königsberg, Prussia",
+    "nationality": "German",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
+    "wikipediaTitle": "Friedrich_Bessel",
+    "wikidataId": "Q78247"
+  },
+  {
+    "id": "person-johann-franz-encke",
+    "type": "person",
+    "title": "Johann Franz Encke",
+    "shortDescription": "German astronomer and student of Gauss who contributed to astronomical error theory and calculated the orbit of Encke's Comet",
+    "dateStart": "1791",
+    "dateEnd": "1865",
+    "birthPlace": "Hamburg, Germany",
+    "deathPlace": "Spandau, Prussia",
+    "nationality": "German",
+    "occupations": [
+      "astronomer"
+    ],
+    "wikipediaTitle": "Johann_Franz_Encke",
+    "wikidataId": "Q57330"
+  },
+  {
+    "id": "person-tobias-mayer",
+    "type": "person",
+    "title": "Tobias Mayer",
+    "shortDescription": "German astronomer whose lunar tables and methods for combining overdetermined observations influenced Laplace and Gauss's development of least squares",
+    "dateStart": "1723",
+    "dateEnd": "1762",
+    "birthPlace": "Marbach am Neckar, Württemberg",
+    "deathPlace": "Göttingen, Hanover",
+    "nationality": "German",
+    "occupations": [
+      "astronomer",
+      "cartographer"
+    ],
+    "wikipediaTitle": "Tobias_Mayer",
+    "wikidataId": "Q61071"
+  },
+  {
+    "id": "object-theoria-motus",
+    "type": "object",
+    "title": "Theoria motus corporum coelestium",
+    "alternateNames": [
+      "Theory of the Motion of the Heavenly Bodies"
+    ],
+    "objectType": "book",
+    "shortDescription": "Gauss's monumental treatise (1809) on celestial mechanics that presented the method of least squares and its application to orbit determination",
+    "dateStart": "1809",
+    "language": "Latin",
+    "creators": [
+      "person-carl-friedrich-gauss"
+    ],
+    "wikipediaTitle": "Theoria_motus_corporum_coelestium_in_sectionibus_conicis_solem_ambientium",
+    "wikidataId": "Q15989807"
+  },
+  {
+    "id": "location-gottingen-observatory",
+    "type": "location",
+    "title": "Göttingen Observatory",
+    "locationType": "research institution",
+    "shortDescription": "University observatory where Gauss served as director for nearly half a century, center of German mathematical astronomy",
+    "country": "Germany",
+    "dateStart": "1751",
+    "wikipediaTitle": "Göttingen_Observatory",
+    "wikidataId": "Q896313"
+  },
+  {
+    "id": "location-konigsberg-observatory",
+    "type": "location",
+    "title": "Königsberg Observatory",
+    "locationType": "research institution",
+    "shortDescription": "Observatory where Bessel served as director and made pioneering measurements including the first stellar parallax",
+    "country": "Germany",
+    "dateStart": "1813",
+    "wikipediaTitle": "Königsberg_Observatory",
+    "wikidataId": "Q1796310"
+  },
+  {
+    "id": "person-pafnuty-chebyshev",
+    "type": "person",
+    "title": "Pafnuty Chebyshev",
+    "alternateNames": [
+      "Pafnuty Lvovich Chebyshev",
+      "Tchebycheff"
+    ],
+    "shortDescription": "Russian mathematician who proved a more general form of the law of large numbers and was Markov's doctoral advisor, bridging French probability theory to Russian mathematics",
+    "dateStart": "1821",
+    "dateEnd": "1894",
+    "birthPlace": "Okatovo, Kaluga Governorate, Russian Empire",
+    "deathPlace": "Saint Petersburg, Russian Empire",
+    "nationality": "Russian",
+    "occupations": [
+      "mathematician"
+    ],
+    "wikipediaTitle": "Pafnuty_Chebyshev",
+    "wikidataId": "Q206012"
+  },
+  {
+    "id": "person-walter-frank-raphael-weldon",
+    "type": "person",
+    "title": "W.F.R. Weldon",
+    "alternateNames": [
+      "Walter Frank Raphael Weldon",
+      "Raphael Weldon"
+    ],
+    "shortDescription": "British evolutionary biologist who co-founded Biometrika with Galton and Pearson, pioneering statistical methods in biology",
+    "dateStart": "1860",
+    "dateEnd": "1906",
+    "birthPlace": "Highgate, London, England",
+    "deathPlace": "Oxford, England",
+    "nationality": "British",
+    "occupations": [
+      "biologist",
+      "statistician"
+    ],
+    "wikipediaTitle": "W._F._R._Weldon",
+    "wikidataId": "Q1573240"
+  },
+  {
+    "id": "person-george-udny-yule",
+    "type": "person",
+    "title": "George Udny Yule",
+    "shortDescription": "British statistician who developed correlation and regression methods, invented the Yule distribution, and was a key figure in the Pearson-Fisher school",
+    "dateStart": "1871",
+    "dateEnd": "1951",
+    "birthPlace": "Morham, Scotland",
+    "deathPlace": "Cambridge, England",
+    "nationality": "British",
+    "occupations": [
+      "statistician"
+    ],
+    "wikipediaTitle": "Udny_Yule",
+    "wikidataId": "Q991476"
+  },
+  {
+    "id": "person-francis-ysidro-edgeworth",
+    "type": "person",
+    "title": "Francis Ysidro Edgeworth",
+    "shortDescription": "Anglo-Irish economist and statistician who contributed to mathematical statistics, developing methods for index numbers and the Edgeworth series",
+    "dateStart": "1845",
+    "dateEnd": "1926",
+    "birthPlace": "Edgeworthstown, County Longford, Ireland",
+    "deathPlace": "Oxford, England",
+    "nationality": "Anglo-Irish",
+    "occupations": [
+      "economist",
+      "statistician"
+    ],
+    "wikipediaTitle": "Francis_Ysidro_Edgeworth",
+    "wikidataId": "Q355607"
+  },
+  {
+    "id": "person-wilhelm-lexis",
+    "type": "person",
+    "title": "Wilhelm Lexis",
+    "shortDescription": "German statistician and economist who developed the Lexis ratio for measuring population stability and contributed to actuarial science",
+    "dateStart": "1837",
+    "dateEnd": "1914",
+    "birthPlace": "Eschweiler, Rhine Province, Prussia",
+    "deathPlace": "Göttingen, Germany",
+    "nationality": "German",
+    "occupations": [
+      "statistician",
+      "economist"
+    ],
+    "wikipediaTitle": "Wilhelm_Lexis",
+    "wikidataId": "Q64383"
+  }
+]

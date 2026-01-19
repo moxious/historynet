@@ -1,0 +1,721 @@
+[
+  {
+    "id": "edge-bayes-influenced-laplace",
+    "source": "person-thomas-bayes",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "influenced",
+    "evidence": "Laplace independently developed and greatly extended Bayes' work on inverse probability. Laplace's formulation (1774) of what we now call Bayes' theorem was more general than Bayes' original (1763) and became the standard form",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-demoivre-influenced-laplace",
+    "source": "person-abraham-de-moivre",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "influenced",
+    "evidence": "Laplace built upon de Moivre's central limit theorem work from The Doctrine of Chances, extending it to more general conditions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-bernoulli-influenced-demoivre",
+    "source": "person-jacob-bernoulli",
+    "target": "person-abraham-de-moivre",
+    "relationship": "influenced",
+    "evidence": "De Moivre's work on probability built directly on Bernoulli's Ars Conjectandi and the law of large numbers",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-laplace-taught-poisson",
+    "source": "person-pierre-simon-laplace",
+    "target": "person-simeon-denis-poisson",
+    "relationship": "taught",
+    "evidence": "Poisson studied under Laplace at the École Polytechnique and continued his work on probability theory, developing the Poisson distribution",
+    "dateStart": "1798"
+  },
+  {
+    "id": "edge-poisson-extended-laplace",
+    "source": "person-simeon-denis-poisson",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "extended_work_of",
+    "evidence": "Poisson's Recherches sur la probabilité des jugements (1837) extended Laplace's probability theory, including the law of large numbers and what became the Poisson distribution"
+  },
+  {
+    "id": "edge-laplace-influenced-quetelet",
+    "source": "person-pierre-simon-laplace",
+    "target": "person-adolphe-quetelet",
+    "relationship": "influenced",
+    "evidence": "Quetelet visited Paris in 1823-24, studying with Laplace and his circle. Laplace's probability methods became the foundation of Quetelet's 'social physics'",
+    "dateStart": "1823",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-condorcet-influenced-laplace",
+    "source": "person-marquis-de-condorcet",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "collaborated_with",
+    "evidence": "Condorcet and Laplace both worked on applying probability to social and legal questions in the French Academy of Sciences, influencing each other's work on probability of judgments",
+    "dateStart": "1770",
+    "dateEnd": "1794"
+  },
+  {
+    "id": "edge-condorcet-influenced-quetelet",
+    "source": "person-marquis-de-condorcet",
+    "target": "person-adolphe-quetelet",
+    "relationship": "influenced",
+    "evidence": "Condorcet's work on applying probability to voting and social decisions influenced Quetelet's vision of a mathematical social science"
+  },
+  {
+    "id": "edge-gauss-disputed-legendre",
+    "source": "person-carl-friedrich-gauss",
+    "target": "person-adrien-marie-legendre",
+    "relationship": "disputed",
+    "evidence": "Gauss and Legendre had a famous priority dispute over the method of least squares. Legendre published first (1805), but Gauss claimed to have used the method since 1795",
+    "dateStart": "1805",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quetelet-knows-guerry",
+    "source": "person-adolphe-quetelet",
+    "target": "person-andre-michel-guerry",
+    "relationship": "collaborated_with",
+    "evidence": "Quetelet and Guerry both pioneered moral statistics in the 1830s and published related work on crime statistics, though they developed somewhat different approaches",
+    "dateStart": "1830"
+  },
+  {
+    "id": "edge-quetelet-influenced-durkheim",
+    "source": "person-adolphe-quetelet",
+    "target": "person-emile-durkheim",
+    "relationship": "influenced",
+    "evidence": "Durkheim's Le Suicide (1897) explicitly built on Quetelet's methods of analyzing social regularities, though Durkheim rejected Quetelet's individualist explanations",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-quetelet-corresponded-nightingale",
+    "source": "person-adolphe-quetelet",
+    "target": "person-florence-nightingale",
+    "relationship": "corresponded_with",
+    "evidence": "Nightingale corresponded with Quetelet about statistics and data visualization. She greatly admired his work and sought his advice on her statistical projects",
+    "dateStart": "1860"
+  },
+  {
+    "id": "edge-nightingale-collaborated-farr",
+    "source": "person-florence-nightingale",
+    "target": "person-william-farr",
+    "relationship": "collaborated_with",
+    "evidence": "Nightingale and Farr collaborated extensively on public health statistics, hospital mortality data, and sanitary reform from the 1850s onward",
+    "dateStart": "1856",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-darwin-influenced-galton",
+    "source": "person-charles-darwin",
+    "target": "person-francis-galton",
+    "relationship": "influenced",
+    "evidence": "Darwin's Origin of Species (1859) inspired Galton to study heredity statistically. They were also half-cousins, sharing a grandfather (Erasmus Darwin)",
+    "dateStart": "1859",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-darwin-related-galton",
+    "source": "person-charles-darwin",
+    "target": "person-francis-galton",
+    "relationship": "related_to",
+    "evidence": "Darwin and Galton were half-cousins, both grandsons of Erasmus Darwin. They corresponded regularly and Darwin encouraged Galton's statistical work on heredity"
+  },
+  {
+    "id": "edge-galton-influenced-pearson",
+    "source": "person-francis-galton",
+    "target": "person-karl-pearson",
+    "relationship": "influenced",
+    "evidence": "Pearson became Galton's intellectual heir, developing rigorous mathematical foundations for Galton's concepts of regression and correlation. Galton endowed the chair Pearson held at UCL",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-galton-collaborated-pearson",
+    "source": "person-francis-galton",
+    "target": "person-karl-pearson",
+    "relationship": "collaborated_with",
+    "evidence": "Galton and Pearson co-founded Biometrika in 1901 and collaborated on statistical methods for studying heredity",
+    "dateStart": "1890",
+    "dateEnd": "1911"
+  },
+  {
+    "id": "edge-pearson-father-egon",
+    "source": "person-karl-pearson",
+    "target": "person-egon-pearson",
+    "relationship": "related_to",
+    "evidence": "Egon Pearson was Karl Pearson's son and succeeded him as editor of Biometrika"
+  },
+  {
+    "id": "edge-pearson-taught-egon",
+    "source": "person-karl-pearson",
+    "target": "person-egon-pearson",
+    "relationship": "taught",
+    "evidence": "Karl Pearson trained his son Egon in statistics at University College London"
+  },
+  {
+    "id": "edge-neyman-collaborated-egon",
+    "source": "person-jerzy-neyman",
+    "target": "person-egon-pearson",
+    "relationship": "collaborated_with",
+    "evidence": "Neyman and Egon Pearson developed the Neyman-Pearson lemma and the modern theory of hypothesis testing through their collaboration in the 1930s",
+    "dateStart": "1928",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fisher-opposed-pearson",
+    "source": "person-ronald-fisher",
+    "target": "person-karl-pearson",
+    "relationship": "opposed",
+    "evidence": "Fisher and Karl Pearson had a famous antagonistic relationship. Fisher criticized Pearson's methods, and Pearson refused to publish Fisher's papers in Biometrika. Their dispute shaped 20th-century statistics",
+    "dateStart": "1917",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-fisher-extended-galton",
+    "source": "person-ronald-fisher",
+    "target": "person-francis-galton",
+    "relationship": "extended_work_of",
+    "evidence": "Fisher extended Galton's work on correlation and heredity, providing mathematical foundations in his 1918 paper on the correlation between relatives"
+  },
+  {
+    "id": "edge-fisher-disputed-neyman",
+    "source": "person-ronald-fisher",
+    "target": "person-jerzy-neyman",
+    "relationship": "disputed",
+    "evidence": "Fisher and Neyman engaged in a prolonged methodological dispute over the foundations of statistical inference—Fisher's fiducial probability versus Neyman-Pearson's hypothesis testing",
+    "dateStart": "1935",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gosset-corresponded-fisher",
+    "source": "person-william-sealy-gosset",
+    "target": "person-ronald-fisher",
+    "relationship": "corresponded_with",
+    "evidence": "Gosset (Student) and Fisher maintained extensive correspondence from 1912. Fisher proved the mathematical properties of Student's t-distribution that Gosset had discovered empirically",
+    "dateStart": "1912",
+    "dateEnd": "1937"
+  },
+  {
+    "id": "edge-gosset-collaborated-pearson",
+    "source": "person-william-sealy-gosset",
+    "target": "person-karl-pearson",
+    "relationship": "corresponded_with",
+    "evidence": "Gosset submitted his 'Student' paper to Biometrika (1908), beginning a correspondence with Karl Pearson who edited the journal",
+    "dateStart": "1906"
+  },
+  {
+    "id": "edge-markov-extended-laplace",
+    "source": "person-andrey-markov",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "extended_work_of",
+    "evidence": "Markov extended the law of large numbers and central limit theorem to dependent sequences, generalizing results from Laplace's probability theory"
+  },
+  {
+    "id": "edge-laplace-authored-theorie",
+    "source": "person-pierre-simon-laplace",
+    "target": "object-theorie-analytique-des-probabilites",
+    "relationship": "authored",
+    "evidence": "Laplace's major treatise published in 1812, synthesizing his life's work on probability theory",
+    "dateStart": "1812"
+  },
+  {
+    "id": "edge-laplace-authored-essai",
+    "source": "person-pierre-simon-laplace",
+    "target": "object-essai-philosophique-sur-les-probabilites",
+    "relationship": "authored",
+    "evidence": "Published in 1814 as an accessible introduction to probability theory",
+    "dateStart": "1814"
+  },
+  {
+    "id": "edge-quetelet-authored-homme",
+    "source": "person-adolphe-quetelet",
+    "target": "object-sur-l-homme",
+    "relationship": "authored",
+    "evidence": "Quetelet's foundational work on social physics, published in 1835",
+    "dateStart": "1835"
+  },
+  {
+    "id": "edge-fisher-authored-smrw",
+    "source": "person-ronald-fisher",
+    "target": "object-statistical-methods-for-research-workers",
+    "relationship": "authored",
+    "evidence": "Fisher's influential handbook first published in 1925",
+    "dateStart": "1925"
+  },
+  {
+    "id": "edge-fisher-authored-design",
+    "source": "person-ronald-fisher",
+    "target": "object-design-of-experiments",
+    "relationship": "authored",
+    "evidence": "Fisher's treatise on experimental design published in 1935",
+    "dateStart": "1935"
+  },
+  {
+    "id": "edge-bayes-authored-essay",
+    "source": "person-thomas-bayes",
+    "target": "object-essay-towards-solving-a-problem",
+    "relationship": "authored",
+    "evidence": "Bayes' famous paper published posthumously in 1763",
+    "dateStart": "1763"
+  },
+  {
+    "id": "edge-bernoulli-authored-ars",
+    "source": "person-jacob-bernoulli",
+    "target": "object-ars-conjectandi",
+    "relationship": "authored",
+    "evidence": "Bernoulli's posthumous treatise on probability published in 1713",
+    "dateStart": "1713"
+  },
+  {
+    "id": "edge-demoivre-authored-doctrine",
+    "source": "person-abraham-de-moivre",
+    "target": "object-doctrine-of-chances",
+    "relationship": "authored",
+    "evidence": "De Moivre's treatise on probability first published in 1718",
+    "dateStart": "1718"
+  },
+  {
+    "id": "edge-galton-authored-hereditary",
+    "source": "person-francis-galton",
+    "target": "object-hereditary-genius",
+    "relationship": "authored",
+    "evidence": "Galton's study of inherited abilities published in 1869",
+    "dateStart": "1869"
+  },
+  {
+    "id": "edge-galton-authored-natural",
+    "source": "person-francis-galton",
+    "target": "object-natural-inheritance",
+    "relationship": "authored",
+    "evidence": "Galton's work introducing regression concepts published in 1889",
+    "dateStart": "1889"
+  },
+  {
+    "id": "edge-pearson-authored-grammar",
+    "source": "person-karl-pearson",
+    "target": "object-grammar-of-science",
+    "relationship": "authored",
+    "evidence": "Pearson's influential philosophy of science published in 1892",
+    "dateStart": "1892"
+  },
+  {
+    "id": "edge-durkheim-authored-suicide",
+    "source": "person-emile-durkheim",
+    "target": "object-le-suicide",
+    "relationship": "authored",
+    "evidence": "Durkheim's classic sociological study published in 1897",
+    "dateStart": "1897"
+  },
+  {
+    "id": "edge-laplace-worked-polytechnique",
+    "source": "person-pierre-simon-laplace",
+    "target": "location-ecole-polytechnique",
+    "relationship": "worked_at",
+    "evidence": "Laplace was an examiner and influential figure at the École Polytechnique after its founding in 1794"
+  },
+  {
+    "id": "edge-poisson-worked-polytechnique",
+    "source": "person-simeon-denis-poisson",
+    "target": "location-ecole-polytechnique",
+    "relationship": "worked_at",
+    "evidence": "Poisson was a professor at the École Polytechnique where he had been a student"
+  },
+  {
+    "id": "edge-pearson-worked-ucl",
+    "source": "person-karl-pearson",
+    "target": "location-university-college-london",
+    "relationship": "worked_at",
+    "evidence": "Pearson held the Galton Chair of Eugenics at UCL and directed the Biometric Laboratory",
+    "dateStart": "1884",
+    "dateEnd": "1936"
+  },
+  {
+    "id": "edge-galton-worked-ucl",
+    "source": "person-francis-galton",
+    "target": "location-university-college-london",
+    "relationship": "associated_with",
+    "evidence": "Galton established the Galton Laboratory at UCL and endowed the Galton Chair of Eugenics"
+  },
+  {
+    "id": "edge-egon-worked-ucl",
+    "source": "person-egon-pearson",
+    "target": "location-university-college-london",
+    "relationship": "worked_at",
+    "evidence": "Egon Pearson succeeded his father at UCL and continued editing Biometrika"
+  },
+  {
+    "id": "edge-fisher-worked-rothamsted",
+    "source": "person-ronald-fisher",
+    "target": "location-rothamsted-experimental-station",
+    "relationship": "worked_at",
+    "evidence": "Fisher worked at Rothamsted from 1919-1933, developing ANOVA and experimental design while analyzing agricultural experiments",
+    "dateStart": "1919",
+    "dateEnd": "1933"
+  },
+  {
+    "id": "edge-pearson-founded-biometrika",
+    "source": "person-karl-pearson",
+    "target": "entity-biometrika",
+    "relationship": "founded",
+    "evidence": "Pearson co-founded Biometrika in 1901 with Galton and W.F.R. Weldon",
+    "dateStart": "1901"
+  },
+  {
+    "id": "edge-galton-founded-biometrika",
+    "source": "person-francis-galton",
+    "target": "entity-biometrika",
+    "relationship": "co_founded",
+    "evidence": "Galton co-founded Biometrika in 1901, providing funding and prestige",
+    "dateStart": "1901"
+  },
+  {
+    "id": "edge-nightingale-member-rss",
+    "source": "person-florence-nightingale",
+    "target": "entity-royal-statistical-society",
+    "relationship": "member_of",
+    "evidence": "Nightingale became the first female Fellow of the Royal Statistical Society in 1858",
+    "dateStart": "1858"
+  },
+  {
+    "id": "edge-farr-member-rss",
+    "source": "person-william-farr",
+    "target": "entity-royal-statistical-society",
+    "relationship": "member_of",
+    "evidence": "Farr was an active member and president of the Statistical Society of London (later RSS)"
+  },
+  {
+    "id": "edge-quetelet-member-rss",
+    "source": "person-adolphe-quetelet",
+    "target": "entity-royal-statistical-society",
+    "relationship": "member_of",
+    "evidence": "Quetelet was an honorary member of the Statistical Society of London and influenced its founding in 1834"
+  },
+  {
+    "id": "edge-galton-member-eugenics",
+    "source": "person-francis-galton",
+    "target": "entity-eugenics-education-society",
+    "relationship": "associated_with",
+    "evidence": "Galton was honorary president of the Eugenics Education Society, having coined the term 'eugenics' in 1883",
+    "dateStart": "1907"
+  },
+  {
+    "id": "edge-fisher-member-eugenics",
+    "source": "person-ronald-fisher",
+    "target": "entity-eugenics-education-society",
+    "relationship": "member_of",
+    "evidence": "Fisher was a committed eugenicist and active member of the Eugenics Society, serving on its council",
+    "dateStart": "1911"
+  },
+  {
+    "id": "edge-pearson-member-eugenics",
+    "source": "person-karl-pearson",
+    "target": "entity-eugenics-education-society",
+    "relationship": "member_of",
+    "evidence": "Pearson was involved in the eugenics movement and held the Galton Chair of Eugenics"
+  },
+  {
+    "id": "edge-durkheim-applied-quetelet",
+    "source": "person-emile-durkheim",
+    "target": "person-adolphe-quetelet",
+    "relationship": "applied_methods_of",
+    "evidence": "Durkheim's Le Suicide applied Quetelet's statistical methods to sociological questions, though he critiqued Quetelet's theoretical framework",
+    "dateStart": "1897"
+  },
+  {
+    "id": "edge-suicide-references-homme",
+    "source": "object-le-suicide",
+    "target": "object-sur-l-homme",
+    "relationship": "references",
+    "evidence": "Durkheim's Le Suicide explicitly engages with and critiques Quetelet's Sur l'homme on the nature of social facts and statistical regularities"
+  },
+  {
+    "id": "edge-mayer-influenced-gauss",
+    "source": "person-tobias-mayer",
+    "target": "person-carl-friedrich-gauss",
+    "relationship": "influenced",
+    "evidence": "Mayer's innovative method of combining overdetermined observations to improve lunar tables (1750) was a precursor to Gauss's method of least squares. Gauss likely knew Mayer's work through the Göttingen connection",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-mayer-influenced-laplace",
+    "source": "person-tobias-mayer",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "influenced",
+    "evidence": "Laplace analyzed Mayer's method of combining lunar observations in his work on probability and error, which fed into his development of least squares methodology"
+  },
+  {
+    "id": "edge-lambert-influenced-gauss",
+    "source": "person-johann-heinrich-lambert",
+    "target": "person-carl-friedrich-gauss",
+    "relationship": "influenced",
+    "evidence": "Lambert's work on error distributions and probability (Photometria, 1760) developed error theory before Gauss, influencing the mathematical framework Gauss later refined"
+  },
+  {
+    "id": "edge-lambert-influenced-laplace",
+    "source": "person-johann-heinrich-lambert",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "influenced",
+    "evidence": "Lambert's contributions to probability theory and the treatment of observational errors influenced Laplace's comprehensive synthesis of probability"
+  },
+  {
+    "id": "edge-gauss-corresponded-bessel",
+    "source": "person-carl-friedrich-gauss",
+    "target": "person-friedrich-bessel",
+    "relationship": "corresponded_with",
+    "evidence": "Gauss and Bessel maintained extensive scientific correspondence from 1804 until Gauss's death, exchanging ideas on astronomy, geodesy, and mathematical methods. Their letters fill a substantial volume",
+    "dateStart": "1804",
+    "dateEnd": "1855",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gauss-influenced-bessel",
+    "source": "person-carl-friedrich-gauss",
+    "target": "person-friedrich-bessel",
+    "relationship": "influenced",
+    "evidence": "Though largely self-taught, Bessel's rigorous approach to error analysis was heavily influenced by Gauss's methods, particularly the least squares technique",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gauss-taught-encke",
+    "source": "person-carl-friedrich-gauss",
+    "target": "person-johann-franz-encke",
+    "relationship": "taught",
+    "evidence": "Encke studied under Gauss at Göttingen and became his student, later applying Gauss's methods to orbit determination and astronomical calculations",
+    "dateStart": "1811"
+  },
+  {
+    "id": "edge-encke-extended-gauss",
+    "source": "person-johann-franz-encke",
+    "target": "person-carl-friedrich-gauss",
+    "relationship": "extended_work_of",
+    "evidence": "Encke applied and extended Gauss's methods of orbit calculation and error analysis, particularly in his precise determination of Encke's Comet orbit"
+  },
+  {
+    "id": "edge-gauss-authored-theoria",
+    "source": "person-carl-friedrich-gauss",
+    "target": "object-theoria-motus",
+    "relationship": "authored",
+    "evidence": "Gauss's major work on celestial mechanics, published in 1809, presenting the method of least squares",
+    "dateStart": "1809"
+  },
+  {
+    "id": "edge-gauss-worked-gottingen",
+    "source": "person-carl-friedrich-gauss",
+    "target": "location-gottingen-observatory",
+    "relationship": "worked_at",
+    "evidence": "Gauss served as director of the Göttingen Observatory from 1807 until his death in 1855, making it a world center for mathematical astronomy",
+    "dateStart": "1807",
+    "dateEnd": "1855"
+  },
+  {
+    "id": "edge-mayer-worked-gottingen",
+    "source": "person-tobias-mayer",
+    "target": "location-gottingen-observatory",
+    "relationship": "worked_at",
+    "evidence": "Mayer was appointed director of the Göttingen Observatory in 1754, establishing the institution's reputation before his early death",
+    "dateStart": "1754",
+    "dateEnd": "1762"
+  },
+  {
+    "id": "edge-bessel-worked-konigsberg",
+    "source": "person-friedrich-bessel",
+    "target": "location-konigsberg-observatory",
+    "relationship": "worked_at",
+    "evidence": "Bessel was founding director of the Königsberg Observatory from 1813, where he made his pioneering measurements including the first stellar parallax",
+    "dateStart": "1813",
+    "dateEnd": "1846"
+  },
+  {
+    "id": "edge-encke-worked-gottingen",
+    "source": "person-johann-franz-encke",
+    "target": "location-gottingen-observatory",
+    "relationship": "studied_at",
+    "evidence": "Encke studied at the University of Göttingen and worked at the observatory under Gauss before moving to Berlin",
+    "dateStart": "1811",
+    "dateEnd": "1816"
+  },
+  {
+    "id": "edge-theoria-extended-legendre",
+    "source": "object-theoria-motus",
+    "target": "person-adrien-marie-legendre",
+    "relationship": "references",
+    "evidence": "In Theoria motus, Gauss referenced the least squares method while claiming priority over Legendre's 1805 publication, fueling their famous priority dispute"
+  },
+  {
+    "id": "edge-laplace-corresponded-gauss",
+    "source": "person-pierre-simon-laplace",
+    "target": "person-carl-friedrich-gauss",
+    "relationship": "corresponded_with",
+    "evidence": "Laplace and Gauss exchanged letters regarding astronomical calculations and probability. Both worked on the method of least squares, though they developed it independently. Laplace publicly acknowledged Gauss's priority in the matter",
+    "dateStart": "1799",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-gauss-influenced-laplace-leastsquares",
+    "source": "person-carl-friedrich-gauss",
+    "target": "person-pierre-simon-laplace",
+    "relationship": "influenced",
+    "evidence": "After Gauss published his derivation of least squares from the normal distribution (1809), Laplace provided his own probabilistic justification (1810-1811), explicitly engaging with Gauss's work and extending it using the central limit theorem"
+  },
+  {
+    "id": "edge-quetelet-influenced-galton",
+    "source": "person-adolphe-quetelet",
+    "target": "person-francis-galton",
+    "relationship": "influenced",
+    "evidence": "Galton was profoundly influenced by Quetelet's work on the normal distribution and the 'average man'. Galton read Quetelet's works in the 1860s and adopted his statistical approach, applying it to heredity. He credited Quetelet in Hereditary Genius (1869)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gauss-influenced-quetelet",
+    "source": "person-carl-friedrich-gauss",
+    "target": "person-adolphe-quetelet",
+    "relationship": "influenced",
+    "evidence": "During his visit to Paris (1823-24), Quetelet learned error theory methods that derived from Gauss's work on astronomical observation errors, which he later applied to social phenomena",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-poisson-influenced-quetelet",
+    "source": "person-simeon-denis-poisson",
+    "target": "person-adolphe-quetelet",
+    "relationship": "influenced",
+    "evidence": "Quetelet met Poisson during his 1823-24 Paris visit and studied probability theory with him. Poisson's work on probability of judgments influenced Quetelet's application of probability to social questions"
+  },
+  {
+    "id": "edge-laplace-influenced-chebyshev",
+    "source": "person-pierre-simon-laplace",
+    "target": "person-pafnuty-chebyshev",
+    "relationship": "influenced",
+    "evidence": "Chebyshev's work on probability was directly inspired by Laplace's Théorie analytique des probabilités. Chebyshev proved a more general form of the law of large numbers (1867), building on Laplace's foundations",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-chebyshev-taught-markov",
+    "source": "person-pafnuty-chebyshev",
+    "target": "person-andrey-markov",
+    "relationship": "taught",
+    "evidence": "Markov was Chebyshev's doctoral student at Saint Petersburg University. Chebyshev directed Markov's 1884 dissertation on continued fractions and probability, shaping his approach to probability theory",
+    "dateStart": "1880",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-chebyshev-influenced-markov",
+    "source": "person-pafnuty-chebyshev",
+    "target": "person-andrey-markov",
+    "relationship": "influenced",
+    "evidence": "Markov chains emerged from Markov's attempt to generalize Chebyshev's theorems on independent trials to dependent sequences. This was a direct continuation of Chebyshev's probability research program",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-weldon-collaborated-pearson",
+    "source": "person-walter-frank-raphael-weldon",
+    "target": "person-karl-pearson",
+    "relationship": "collaborated_with",
+    "evidence": "Weldon and Pearson collaborated closely from 1893, with Weldon providing biological problems that drove Pearson's statistical innovations. Their partnership was foundational to biometrics",
+    "dateStart": "1893",
+    "dateEnd": "1906",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-weldon-collaborated-galton",
+    "source": "person-walter-frank-raphael-weldon",
+    "target": "person-francis-galton",
+    "relationship": "collaborated_with",
+    "evidence": "Weldon corresponded extensively with Galton on heredity and variation, applying Galton's methods to marine crustaceans. They co-founded Biometrika together with Pearson in 1901",
+    "dateStart": "1889",
+    "dateEnd": "1906"
+  },
+  {
+    "id": "edge-weldon-founded-biometrika",
+    "source": "person-walter-frank-raphael-weldon",
+    "target": "entity-biometrika",
+    "relationship": "co_founded",
+    "evidence": "Weldon co-founded Biometrika in 1901 with Galton and Pearson after the Royal Society rejected their statistical papers on evolution",
+    "dateStart": "1901"
+  },
+  {
+    "id": "edge-pearson-taught-yule",
+    "source": "person-karl-pearson",
+    "target": "person-george-udny-yule",
+    "relationship": "taught",
+    "evidence": "Yule studied under Pearson at University College London and served as his demonstrator from 1893-1899, learning the new statistical methods",
+    "dateStart": "1893"
+  },
+  {
+    "id": "edge-yule-extended-pearson",
+    "source": "person-george-udny-yule",
+    "target": "person-karl-pearson",
+    "relationship": "extended_work_of",
+    "evidence": "Yule extended Pearson's correlation methods, developing the theory of partial correlation and applying regression to time series analysis. His 1897 paper on correlation was foundational"
+  },
+  {
+    "id": "edge-yule-worked-ucl",
+    "source": "person-george-udny-yule",
+    "target": "location-university-college-london",
+    "relationship": "worked_at",
+    "evidence": "Yule worked at University College London as Pearson's assistant and demonstrator before moving to Cambridge",
+    "dateStart": "1893",
+    "dateEnd": "1899"
+  },
+  {
+    "id": "edge-edgeworth-influenced-pearson",
+    "source": "person-francis-ysidro-edgeworth",
+    "target": "person-karl-pearson",
+    "relationship": "influenced",
+    "evidence": "Edgeworth's work on probability and the method of moments influenced Pearson's statistical methods. They corresponded on mathematical statistics and published in overlapping areas"
+  },
+  {
+    "id": "edge-galton-influenced-edgeworth",
+    "source": "person-francis-galton",
+    "target": "person-francis-ysidro-edgeworth",
+    "relationship": "influenced",
+    "evidence": "Edgeworth adopted Galton's methods and extended them mathematically. He published on correlation and the probable error of statistics, building on Galton's pioneering work"
+  },
+  {
+    "id": "edge-edgeworth-corresponded-fisher",
+    "source": "person-francis-ysidro-edgeworth",
+    "target": "person-ronald-fisher",
+    "relationship": "corresponded_with",
+    "evidence": "Edgeworth and Fisher corresponded about statistical theory in the 1910s-1920s. Fisher later acknowledged Edgeworth's contributions while also critiquing some of his methods",
+    "dateStart": "1912"
+  },
+  {
+    "id": "edge-quetelet-influenced-lexis",
+    "source": "person-adolphe-quetelet",
+    "target": "person-wilhelm-lexis",
+    "relationship": "influenced",
+    "evidence": "Lexis was influenced by Quetelet's statistical methods but became a critic of 'statistical determinism'. His Lexis ratio was developed partly in response to debates about the stability of social statistics that Quetelet had initiated"
+  },
+  {
+    "id": "edge-lexis-influenced-bortkiewicz",
+    "source": "person-wilhelm-lexis",
+    "target": "person-andrey-markov",
+    "relationship": "influenced",
+    "evidence": "Lexis's work on the theory of population statistics and the stability of statistical series influenced the broader development of mathematical statistics, including Russian statisticians in Markov's circle",
+    "strength": "weak"
+  },
+  {
+    "id": "edge-nightingale-applied-quetelet",
+    "source": "person-florence-nightingale",
+    "target": "person-adolphe-quetelet",
+    "relationship": "applied_methods_of",
+    "evidence": "Nightingale applied Quetelet's statistical methods to public health data, particularly in her famous 'rose diagrams' visualizing causes of death in the Crimean War",
+    "dateStart": "1856"
+  },
+  {
+    "id": "edge-gosset-worked-pearson",
+    "source": "person-william-sealy-gosset",
+    "target": "person-karl-pearson",
+    "relationship": "studied_at",
+    "evidence": "Gosset studied statistical methods with Karl Pearson at UCL in 1906-1907 while on leave from Guinness, learning the biometric methods he would later apply",
+    "dateStart": "1906",
+    "dateEnd": "1907"
+  },
+  {
+    "id": "edge-neyman-studied-pearson-school",
+    "source": "person-jerzy-neyman",
+    "target": "person-karl-pearson",
+    "relationship": "influenced",
+    "evidence": "Neyman studied at University College London under Karl Pearson's direction in 1925-26, absorbing the biometric school's methods before developing his own approach to inference",
+    "dateStart": "1925"
+  }
+]
