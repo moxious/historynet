@@ -1,0 +1,106 @@
+/**
+ * WikipediaAttribution styles
+ */
+
+.wikipedia-attribution {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--text-secondary, #666);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.wikipedia-attribution:hover {
+  color: var(--text-primary, #333);
+}
+
+.wikipedia-attribution__icon {
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: opacity 0.15s ease;
+}
+
+.wikipedia-attribution:hover .wikipedia-attribution__icon {
+  opacity: 1;
+}
+
+/* Icon-only variant */
+.wikipedia-attribution--icon {
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+.wikipedia-attribution--icon:hover {
+  background: var(--hover-bg, rgba(0, 0, 0, 0.05));
+}
+
+/* Link variant with text */
+.wikipedia-attribution--link {
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  background: var(--surface-secondary, #f5f5f5);
+}
+
+.wikipedia-attribution--link:hover {
+  background: var(--surface-hover, #e5e5e5);
+}
+
+/* Inline variant for read more links */
+.wikipedia-attribution--inline {
+  font-size: 0.875rem;
+  color: var(--link-color, #0066cc);
+}
+
+.wikipedia-attribution--inline:hover {
+  text-decoration: underline;
+}
+
+.wikipedia-attribution__external {
+  margin-left: 0.125rem;
+  opacity: 0.7;
+}
+
+/* Dark theme */
+[data-theme="dark"] .wikipedia-attribution {
+  color: var(--text-secondary, #999);
+}
+
+[data-theme="dark"] .wikipedia-attribution:hover {
+  color: var(--text-primary, #fff);
+}
+
+[data-theme="dark"] .wikipedia-attribution--icon:hover {
+  background: var(--hover-bg, rgba(255, 255, 255, 0.1));
+}
+
+[data-theme="dark"] .wikipedia-attribution--link {
+  background: var(--surface-secondary, #333);
+}
+
+[data-theme="dark"] .wikipedia-attribution--link:hover {
+  background: var(--surface-hover, #444);
+}
+
+[data-theme="dark"] .wikipedia-attribution--inline {
+  color: var(--link-color, #66b3ff);
+}
+
+/* Source badge for indicating Wikipedia-sourced content */
+.wikipedia-source-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-tertiary, #888);
+  margin-left: 0.5rem;
+}
+
+.wikipedia-source-badge::before {
+  content: "•";
+  margin-right: 0.25rem;
+}

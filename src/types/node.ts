@@ -32,6 +32,17 @@ export interface BaseNode {
   imageUrl?: string;
   /** Array of external resource links */
   externalLinks?: ExternalLink[];
+  /**
+   * Exact Wikipedia page title for automatic enrichment.
+   * Use underscores for spaces, match Wikipedia's casing.
+   * Example: "Geoffrey_Hinton", "University_of_Oxford"
+   */
+  wikipediaTitle?: string;
+  /**
+   * Stable Wikidata QID for long-term reference.
+   * Example: "Q9312" for Voltaire
+   */
+  wikidataId?: string;
   /** Allow any additional custom properties */
   [key: string]: unknown;
 }

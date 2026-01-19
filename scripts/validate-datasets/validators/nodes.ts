@@ -327,6 +327,18 @@ function validateNode(
     }
   }
 
+  // Check for missing wikipediaTitle (all node types)
+  // Allow null as explicit opt-out, but warn if undefined
+  if (data.wikipediaTitle === undefined) {
+    issues.push({
+      severity: 'warning',
+      file: fileName,
+      message: `Node "${data.title}" (${data.id}) is missing recommended field: "wikipediaTitle". Add a Wikipedia page title or set to null if no Wikipedia article exists.`,
+      path: `${path}.wikipediaTitle`,
+      code: 'MISSING_WIKIPEDIA_TITLE',
+    });
+  }
+
   return issues;
 }
 

@@ -9,6 +9,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **M23: Wikimedia Sourcing** - Dynamic Wikipedia enrichment for nodes lacking local data
+  - **Wikipedia Service**: `src/services/wikipedia.ts` wraps the `wikipedia` npm package
+    - Fetches page summaries and thumbnails from Wikipedia REST API
+    - Handles disambiguation pages with automatic retry using node type hints
+    - 5-second timeout, graceful error handling (returns null, doesn't throw)
+    - Optional fallback by Wikidata QID
+  - **Caching Layer**: `useWikipediaData` hook with LRU cache
+    - localStorage-based cache with 500-entry limit
+    - 48-hour TTL for cache entries
+    - LRU eviction when cache is full
+    - Cache stats and clear utilities for debugging
+  - **Fallback Logic**: `useNodeEnrichedData` hook combines local + Wikipedia data
+    - Description priority: biography → shortDescription → Wikipedia extract
+    - Image priority: local imageUrl (if loads) → Wikipedia thumbnail
+    - Broken image detection via onError handler triggers Wikipedia fallback
+    - Tracks data source ('local' | 'wikipedia' | 'none') for attribution
+  - **UI Integration**: Wikipedia attribution in NodeInfobox
+    - Shows Wikipedia "W" icon when image sourced from Wikipedia
+    - "Read more on Wikipedia" link for Wikipedia-sourced descriptions
+    - Loading shimmer while fetching Wikipedia data
+  - **Schema Updates**: Added `wikipediaTitle` and `wikidataId` fields to GRAPH_SCHEMA.md
+    - `wikipediaTitle`: Exact Wikipedia page title for sourcing
+    - `wikidataId`: Stable Wikidata QID for long-term reference
+    - Both fields added to TypeScript types in `src/types/node.ts`
+  - **Pilot Dataset**: Rosicrucian Network enriched with `wikipediaTitle` for key nodes
+    - Added to 10 representative nodes (persons, locations, objects)
+    - Includes Jacob Boehme, John Dee, Johannes Kepler, Paracelsus, etc.
+  - **New Files**: `wikipedia.ts`, `useWikipediaData.ts`, `useNodeEnrichedData.ts`, `WikipediaAttribution.tsx`
+
 - **M21: Dataset Search & Filter** - Searchable combobox for faster dataset discovery
   - **Search Input**: Type to filter datasets by name or description
   - **Case-Insensitive Matching**: Matches anywhere in name or description text

@@ -13,6 +13,7 @@
     "nationality": "German",
     "occupations": ["shoemaker", "mystic", "theosopher"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Jacob-B%C3%B6hme.jpg",
+    "wikipediaTitle": "Jakob_Böhme",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jakob_B%C3%B6hme"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/boehme/"}
@@ -32,6 +33,7 @@
     "nationality": "German",
     "occupations": ["theologian", "author", "reformer"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Johann_Valentin_Andreae_aged_42.jpg",
+    "wikipediaTitle": "Johann_Valentin_Andreae",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johann_Valentin_Andreae"}
     ]
@@ -207,6 +209,7 @@
     "nationality": "Swiss-German",
     "occupations": ["physician", "alchemist", "philosopher"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Paracelsus.jpg",
+    "wikipediaTitle": "Paracelsus",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Paracelsus"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/paracelsus/"}
@@ -406,6 +409,7 @@
     "nationality": "English",
     "occupations": ["mathematician", "astrologer", "occultist", "advisor"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/John_Dee_Ashmolean.jpg",
+    "wikipediaTitle": "John_Dee",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Dee"},
       {"label": "Stanford Encyclopedia", "url": "https://plato.stanford.edu/entries/john-dee/"}
@@ -459,6 +463,7 @@
     "nationality": "German",
     "occupations": ["astronomer", "mathematician"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Johannes_Kepler_1610.jpg",
+    "wikipediaTitle": "Johannes_Kepler",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Johannes_Kepler"}
     ]
@@ -510,6 +515,7 @@
     "nationality": "English",
     "occupations": ["physician", "philosopher", "author"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Robert_Fludd.jpg",
+    "wikipediaTitle": "Robert_Fludd",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Robert_Fludd"}
     ]
@@ -665,6 +671,7 @@
     "dateCreated": "1614",
     "language": "German/Latin",
     "subject": "Rosicrucianism, reformation, esotericism",
+    "wikipediaTitle": "Fama_Fraternitatis",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fama_Fraternitatis"}
     ]
@@ -695,6 +702,7 @@
     "dateCreated": "1616",
     "language": "German",
     "subject": "Rosicrucianism, alchemy, spiritual transformation",
+    "wikipediaTitle": "Chymical_Wedding_of_Christian_Rosenkreutz",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Chymical_Wedding_of_Christian_Rosenkreutz"}
     ]
@@ -923,6 +931,7 @@
     "coordinates": {"lat": 48.52, "lng": 9.06},
     "country": "Germany",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tuebingen_Neckarfront.jpg",
+    "wikipediaTitle": "Tübingen",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/T%C3%BCbingen"}
     ]
@@ -936,6 +945,7 @@
     "coordinates": {"lat": 50.08, "lng": 14.43},
     "country": "Bohemia/Czech Republic",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Prague_Castle_with_Charles_Bridge_01.JPG",
+    "wikipediaTitle": "Prague",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Prague"}
     ]

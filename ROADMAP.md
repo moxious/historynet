@@ -12,7 +12,7 @@ This document outlines the milestone structure and future direction for HistoryN
 |---|-----------|--------|
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
 | M21 | Dataset Search & Filter | ✅ Complete |
-| M23 | Wikimedia Sourcing | 🔲 Future |
+| M23 | Wikimedia Sourcing | ✅ Complete |
 | M24 | Vercel Migration | 🔲 Future |
 | M25 | User Feedback Feature | 🔲 Future (depends on M24) |
 | M26 | Custom Domain | 🔲 Future (depends on M24) |
@@ -90,11 +90,13 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 
 ---
 
-## Future: M23 - Wikimedia Sourcing
+## M23 - Wikimedia Sourcing ✅ COMPLETE
 
 **Goal**: Dynamically fetch supplementary data (summaries, images) from the Wikimedia API for nodes that lack this information locally. Node metadata always takes precedence, with Wikimedia providing fallback enrichment—except for broken local images, which fall back to Wikipedia.
 
 **Track**: A (Independent Features) - No dependencies
+
+**Status**: ✅ Complete (2026-01-19)
 
 **Pilot Dataset**: Rosicrucian Network (test all features here before rolling out to other datasets)
 
@@ -149,7 +151,18 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 
 **Relationship to M22**: This milestone may eliminate the need for M22 (Image Asset Management). If dynamic Wikimedia fetching proves reliable, M22 can be skipped. M22 remains available as a fallback if we need permanent local hosting for images not available via Wikimedia.
 
-**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+**Delivered**:
+- Wikipedia service module using the `wikipedia` npm package
+- `useWikipediaData` hook for fetching/caching summaries and images
+- `useNodeEnrichedData` hook combining local + Wikipedia data
+- `wikipediaTitle` and `wikidataId` fields added to node schema (all types)
+- Fallback logic in NodeInfobox with broken image detection
+- Caching layer with LRU eviction in localStorage (48-hour TTL)
+- Wikipedia attribution icon linking to source article
+- Truncated extracts with "Read more" links
+- Pilot: Rosicrucian Network enriched with `wikipediaTitle` for 10+ nodes
+
+See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature summary.
 
 ---
 

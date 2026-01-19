@@ -34,6 +34,8 @@ export default defineConfig({
       { find: /^@hooks\/(.*)$/, replacement: path.resolve(__dirname, './src/hooks/$1') },
       { find: /^@layouts$/, replacement: path.resolve(__dirname, './src/layouts/index.ts') },
       { find: /^@layouts\/(.*)$/, replacement: path.resolve(__dirname, './src/layouts/$1') },
+      { find: /^@services$/, replacement: path.resolve(__dirname, './src/services/index.ts') },
+      { find: /^@services\/(.*)$/, replacement: path.resolve(__dirname, './src/services/$1') },
       { find: /^@types$/, replacement: path.resolve(__dirname, './src/types/index.ts') },
       { find: /^@types\/(.*)$/, replacement: path.resolve(__dirname, './src/types/$1') },
       { find: /^@utils$/, replacement: path.resolve(__dirname, './src/utils/index.ts') },

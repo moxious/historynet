@@ -31,6 +31,18 @@ Every node, regardless of type, shares these common fields:
 | `dateEnd` | string | ⚪ Optional | End date of relevance (ISO 8601 format or year) |
 | `imageUrl` | string | ⚪ Optional | URL to an image representing the node |
 | `externalLinks` | array | ⚪ Optional | Array of `{ label, url }` objects for external resources |
+| `wikipediaTitle` | string | ⚪ Optional | Exact Wikipedia page title for automatic enrichment (e.g., `"Geoffrey_Hinton"`, `"Vienna"`) |
+| `wikidataId` | string | ⚪ Optional | Stable Wikidata QID for long-term reference (e.g., `"Q9312"` for Voltaire) |
+
+#### Wikipedia Integration Fields
+
+The `wikipediaTitle` and `wikidataId` fields enable automatic enrichment from Wikipedia:
+
+- **`wikipediaTitle`**: The exact Wikipedia page title (use underscores for spaces, match Wikipedia's casing). When present, the application can fetch summaries and images from Wikipedia to supplement local data. Example: `"Johann_Sebastian_Bach"`, `"University_of_Oxford"`.
+
+- **`wikidataId`**: A stable Wikidata identifier (QID) that doesn't change even if Wikipedia article titles are renamed. Useful for long-term data integrity. Example: `"Q1339"` for Bach.
+
+These fields work for all node types (`person`, `object`, `location`, `entity`). Wikipedia data takes precedence over local node data. When `wikipediaTitle` is present, the application fetches Wikipedia summaries and images, which override local `biography`, `shortDescription`, and `imageUrl` fields. Local data serves as fallback when Wikipedia data is unavailable.
 
 **Note on Dates**: For persons, `dateStart` typically represents birth and `dateEnd` represents death. For objects, these might represent publication/creation dates. For locations and entities, these represent the period of relevance (if applicable—Paris doesn't need a date range, but "The Vienna Circle" might be 1924-1936).
 

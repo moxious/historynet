@@ -233,9 +233,56 @@ to something.
 
 ---
 
+### Phase 5.5: Wikipedia ID Enrichment
+
+**Goal**: Ensure all nodes have Wikipedia identifiers for automatic enrichment.
+
+**When to execute**: This phase can be performed at any time—during initial research, after enumeration, or retroactively for completed networks. It should be completed before Phase 6 (Conversion) for new networks.
+
+**Tasks**:
+- [ ] For each node in the network, search for corresponding Wikipedia article
+- [ ] Add `wikipediaTitle` field with exact Wikipedia page title
+- [ ] Optionally add `wikidataId` for stable long-term reference
+- [ ] Set `wikipediaTitle: null` explicitly if no Wikipedia article exists
+- [ ] Run dataset validator to identify any missing fields
+
+**Finding Wikipedia Titles**:
+
+1. **Search Wikipedia**: Use Wikipedia's search function with the node's title and alternate names
+2. **Handle disambiguation**: If multiple articles exist:
+   - For persons: Try "(philosopher)", "(mathematician)", "(writer)", etc.
+   - For objects: Try "(book)", "(painting)", "(work)"
+   - For locations: Usually unambiguous, but may need "(city)" suffix
+   - For entities: Try "(organization)", "(movement)", "(institution)"
+3. **Use exact title**: Copy the exact Wikipedia page title (with underscores for spaces, matching Wikipedia's casing)
+   - Example: `"Geoffrey_Hinton"` not `"Geoffrey Hinton"`
+   - Example: `"University_of_Oxford"` not `"University of Oxford"`
+
+**Wikipedia Title vs Wikidata ID**:
+
+- **`wikipediaTitle`**: Required for automatic enrichment. Use the exact English Wikipedia page title.
+- **`wikidataId`**: Optional but recommended for stability. Wikipedia titles can change, but Wikidata QIDs are permanent.
+- **Best practice**: Include both when available. The application uses `wikipediaTitle` for fetching, but `wikidataId` provides a stable fallback.
+
+**Using the Validator**:
+
+The dataset validation script (`npm run validate:datasets`) will identify nodes missing `wikipediaTitle` fields. Run this after adding Wikipedia IDs to verify completeness:
+
+```bash
+npm run validate:datasets -- --dataset {network-id}
+```
+
+Warnings will list each node missing the field, allowing you to either add the Wikipedia title or explicitly set it to `null`.
+
+**Output**: Updated enumeration/relationship files with Wikipedia IDs added, or direct updates to JSON if already converted.
+
+---
+
 ### Phase 6: Conversion to Graph Schema
 
 **Goal**: Transform research notes into the JSON format required by HistoryNet.
+
+**Prerequisites**: Phase 5.5 (Wikipedia ID Enrichment) should be completed before conversion.
 
 **Executor**: This phase is handled by a **separate conversion agent**, not the research agent.
 
@@ -244,7 +291,7 @@ to something.
 - [ ] Generate `edges.json` from relationships
 - [ ] Create `manifest.json` with dataset metadata
 - [ ] Validate against GRAPH_SCHEMA.md requirements
-- [ ] Run validation checks (all IDs exist, no orphans, etc.)
+- [ ] Run validation checks (all IDs exist, no orphans, missing Wikipedia IDs, etc.)
 - [ ] Place final dataset in `public/datasets/{network-id}/`
 
 **Why Separate Conversion?**

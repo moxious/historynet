@@ -4,9 +4,10 @@
  * Shows all node properties including:
  * - Common fields (title, type, description, dates)
  * - Type-specific fields based on node type
- * - Image when imageUrl is present
+ * - Image when imageUrl is present (with Wikipedia fallback)
  * - External links as clickable anchors
  * - All additional custom properties
+ * - Wikipedia enrichment when available
  */
 
 import type {
@@ -25,6 +26,8 @@ import {
   isEntityNode,
 } from '@types';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
+import { useNodeEnrichedData } from '@hooks';
+import WikipediaAttribution from './WikipediaAttribution';
 
 interface NodeInfoboxProps {
   /** The node to display */
@@ -49,6 +52,9 @@ const KNOWN_NODE_FIELDS = new Set([
   'dateEnd',
   'imageUrl',
   'externalLinks',
+  // Wikipedia enrichment fields
+  'wikipediaTitle',
+  'wikidataId',
   // Person-specific
   'alternateNames',
   'birthPlace',
@@ -276,10 +282,12 @@ function PersonFields({
   node,
   getNode,
   onNodeLinkClick,
+  shouldShowLocalBiography,
 }: {
   node: PersonNode;
   getNode: (id: string) => GraphNode | undefined;
   onNodeLinkClick: (nodeId: string) => void;
+  shouldShowLocalBiography: boolean;
 }) {
   return (
     <>
@@ -339,8 +347,8 @@ function PersonFields({
         </div>
       )}
 
-      {/* Biography */}
-      {node.biography && (
+      {/* Biography - only show if non-redundant with Wikipedia */}
+      {shouldShowLocalBiography && node.biography && (
         <div className="node-infobox__field node-infobox__field--full">
           <span className="node-infobox__label">Biography</span>
           <p className="node-infobox__biography">{node.biography}</p>
@@ -660,33 +668,50 @@ function getCustomProperties(node: GraphNode): [string, unknown][] {
 function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps) {
   const customProperties = getCustomProperties(node);
 
+  // Use enriched data with Wikipedia fallback
+  const { enrichedData, handleImageError } = useNodeEnrichedData(node);
+
   return (
     <div className="node-infobox">
       {/* Header with type badge and image */}
       <div className="node-infobox__header">
         <span className={getTypeBadgeClass(node.type)}>{node.type}</span>
 
-        {/* SECURITY: validate image URL (F4/F6) */}
-        {node.imageUrl && isValidImageUrl(node.imageUrl) && (
+        {/* Image with Wikipedia fallback - SECURITY: validate image URL (F4/F6) */}
+        {enrichedData.imageUrl && isValidImageUrl(enrichedData.imageUrl) && (
           <div className="node-infobox__image-container">
             <img
-              src={node.imageUrl}
+              src={enrichedData.imageUrl}
               alt={node.title}
               className="node-infobox__image"
               loading="lazy"
-              onError={(e) => {
-                // Hide image if it fails to load
-                (e.target as HTMLImageElement).style.display = 'none';
-              }}
+              onError={handleImageError}
             />
+            {/* Show Wikipedia attribution for images sourced from Wikipedia */}
+            {enrichedData.imageSource === 'wikipedia' && enrichedData.wikipediaUrl && (
+              <div className="node-infobox__image-attribution">
+                <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} size="small" />
+              </div>
+            )}
           </div>
+        )}
+        {/* Show loading indicator while fetching Wikipedia data */}
+        {enrichedData.loading && !enrichedData.imageUrl && (
+          <div className="node-infobox__image-loading" aria-label="Loading image..." />
         )}
       </div>
 
-      {/* Description */}
-      {node.shortDescription && (
+      {/* Description - use enriched description with Wikipedia fallback */}
+      {enrichedData.description ? (
+        <div className="node-infobox__description-wrapper">
+          <p className="node-infobox__description">{enrichedData.description}</p>
+          {enrichedData.descriptionSource === 'wikipedia' && enrichedData.wikipediaUrl && (
+            <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} variant="inline" />
+          )}
+        </div>
+      ) : node.shortDescription ? (
         <p className="node-infobox__description">{node.shortDescription}</p>
-      )}
+      ) : null}
 
       {/* Common Fields Section */}
       <section className="node-infobox__section">
@@ -715,6 +740,7 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
             node={node}
             getNode={getNode}
             onNodeLinkClick={onNodeLinkClick}
+            shouldShowLocalBiography={enrichedData.shouldShowLocalBiography}
           />
         )}
         {isObjectNode(node) && (

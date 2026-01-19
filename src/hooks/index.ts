@@ -13,3 +13,7 @@ export { useDebounce } from './useDebounce';
 export { useResourceParams, buildNodeUrl, buildEdgeUrl, buildGraphViewUrl, buildFullNodeUrl, buildFullEdgeUrl } from './useResourceParams';
 export type { ResourceParams } from './useResourceParams';
 export { useMediaQuery, useIsMobile, useIsTablet, useIsDesktop, BREAKPOINTS } from './useMediaQuery';
+export { useWikipediaData, clearWikipediaCache, getWikipediaCacheStats } from './useWikipediaData';
+export type { UseWikipediaDataResult, UseWikipediaDataProps } from './useWikipediaData';
+export { useNodeEnrichedData } from './useNodeEnrichedData';
+export type { EnrichedNodeData, DataSource, UseNodeEnrichedDataResult } from './useNodeEnrichedData';
