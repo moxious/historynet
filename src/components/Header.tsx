@@ -14,7 +14,7 @@
 
 import { useState, useCallback } from 'react';
 import { Link, useMatch } from 'react-router-dom';
-import { useGraph } from '@contexts';
+import { useGraphOptional } from '@contexts';
 import { useIsMobile } from '@hooks';
 import SearchBox from './SearchBox';
 import SearchableDatasetSelector from './SearchableDatasetSelector';
@@ -25,17 +25,19 @@ import HamburgerButton from './HamburgerButton';
 import './Header.css';
 
 function Header() {
-  const {
-    currentDatasetId,
-    switchDataset,
-    loadingState,
-    searchTerm,
-    setSearchTerm,
-    searchMatchCount,
-    currentLayout,
-    setCurrentLayout,
-    selection,
-  } = useGraph();
+  // Use optional hook - Header works both inside and outside GraphProvider
+  const graphContext = useGraphOptional();
+
+  // Extract values with defaults for when context is unavailable (e.g., on HomePage)
+  const currentDatasetId = graphContext?.currentDatasetId ?? null;
+  const switchDataset = graphContext?.switchDataset ?? (() => {});
+  const loadingState = graphContext?.loadingState ?? 'idle';
+  const searchTerm = graphContext?.searchTerm ?? '';
+  const setSearchTerm = graphContext?.setSearchTerm ?? (() => {});
+  const searchMatchCount = graphContext?.searchMatchCount ?? 0;
+  const currentLayout = graphContext?.currentLayout ?? 'force-graph';
+  const setCurrentLayout = graphContext?.setCurrentLayout ?? (() => {});
+  const selection = graphContext?.selection ?? null;
 
   // Get selected node ID for radial view availability
   const selectedNodeId = selection?.type === 'node' ? selection.id : null;

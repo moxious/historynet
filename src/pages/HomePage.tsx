@@ -15,7 +15,6 @@ import type { DatasetManifest } from '@types';
 import { loadManifest, AVAILABLE_DATASETS } from '@utils/dataLoader';
 import { useDebounce } from '@hooks';
 import DatasetTile, { getStartYear } from '@components/DatasetTile';
-import ThemeToggle from '@components/ThemeToggle';
 import './HomePage.css';
 
 interface DatasetWithManifest {
@@ -151,15 +150,6 @@ function HomePage() {
           content="Discover and explore historical social networks through interactive visualizations."
         />
       </Helmet>
-
-      {/* Header */}
-      <header className="homepage__header">
-        <div className="homepage__brand">
-          <h1 className="homepage__title">Scenius</h1>
-          <span className="homepage__tagline">Mapping collective genius</span>
-        </div>
-        <ThemeToggle />
-      </header>
 
       {/* Main content */}
       <main className="homepage__main">

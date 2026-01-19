@@ -330,3 +330,12 @@ export function useGraph(): GraphContextValue {
   }
   return context;
 }
+
+/**
+ * Optional hook to access graph context
+ * Returns null if used outside a GraphProvider (safe for components that work both inside and outside)
+ */
+// eslint-disable-next-line react-refresh/only-export-components
+export function useGraphOptional(): GraphContextValue | null {
+  return useContext(GraphContext);
+}

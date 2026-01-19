@@ -22,7 +22,12 @@ function App() {
       {/* Homepage - browsable list of dataset tiles (M32) */}
       <Route
         path="/"
-        element={<HomePage />}
+        element={
+          <div className="app">
+            <Header />
+            <HomePage />
+          </div>
+        }
       />
 
       {/* Dataset overview page - narrative entry point */}
