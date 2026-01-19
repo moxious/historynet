@@ -199,7 +199,7 @@ Each dataset is a standalone JSON file (or set of files) containing:
 
 ```
 datasets/
-  disney-characters/
+  ai-llm-research/
     manifest.json      # Dataset metadata
     nodes.json         # All nodes
     edges.json         # All edges
@@ -213,10 +213,10 @@ datasets/
 
 ```json
 {
-  "id": "disney-characters",
-  "name": "Disney Characters",
-  "description": "A sample dataset of Disney animated characters and their relationships",
-  "lastUpdated": "2026-01-15",
+  "id": "ai-llm-research",
+  "name": "AI & LLM Research Network",
+  "description": "The key researchers, organizations, and works of the modern AI/LLM revolution (2012-present)",
+  "lastUpdated": "2026-01-19",
   "defaultDataset": true
 }
 ```
@@ -236,14 +236,14 @@ The Minimum Viable Product includes:
 5. ✅ Text substring filters
 6. ✅ URL state management
 7. ✅ Dataset dropdown (single dataset for MVP)
-8. ✅ Disney characters sample dataset
+8. ✅ AI-LLM Research default dataset
 9. ✅ GitHub Pages deployment
 
 **Explicitly NOT in MVP:**
 - ❌ Timeline view
 - ❌ User notes/feedback
 - ❌ Editing capabilities
-- ❌ Multiple historical datasets (structure supports it, but only Disney ships)
+- ✅ Multiple historical datasets (shipped: AI-LLM Research, Rosicrucian Network, Enlightenment, and more)
 
 ---
 
@@ -264,7 +264,7 @@ These items are out of scope but should be considered in architectural decisions
 1. Application loads and renders a graph within 2 seconds
 2. Filter changes reflect in URL within 100ms
 3. Shared URLs correctly restore application state
-4. Users can explore the Disney dataset end-to-end without errors
+4. Users can explore the AI-LLM Research dataset end-to-end without errors
 
 ---
 

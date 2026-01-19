@@ -285,7 +285,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - Live at https://moxious.github.io/historynet/
 
 ### Datasets
-- **Disney Characters**: Sample dataset with 15 nodes and 20 edges
+- **AI & LLM Research Network** (default): Key researchers, organizations, and works of the modern AI/LLM revolution (2012-present)
 - **Rosicrucian Network**: Historical network centered on Boehme and Andreae (c. 1540-1660)
 
 ---

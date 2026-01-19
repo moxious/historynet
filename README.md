@@ -68,7 +68,7 @@ An interactive visualization tool for exploring historical social networks. Scen
 historynet/
 ├── public/
 │   └── datasets/           # JSON knowledge bases
-│       └── disney-characters/
+│       └── ai-llm-research/
 │           ├── manifest.json
 │           ├── nodes.json
 │           └── edges.json
@@ -137,10 +137,10 @@ To enable GitHub Pages for your fork:
 
 URLs use hash routing for GitHub Pages compatibility:
 - `https://moxious.github.io/historynet/#/` - Home
-- `https://moxious.github.io/historynet/#/?dataset=disney-characters` - Load specific dataset
-- `https://moxious.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node` - Deep link to node
+- `https://moxious.github.io/historynet/#/?dataset=ai-llm-research` - Load specific dataset
+- `https://moxious.github.io/historynet/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node` - Deep link to node
 - `https://moxious.github.io/historynet/#/?theme=dark` - Dark mode
-- `https://moxious.github.io/historynet/#/?dataset=disney-characters&theme=dark` - Dataset with dark mode
+- `https://moxious.github.io/historynet/#/?dataset=ai-llm-research&theme=dark` - Dataset with dark mode
 
 ## Documentation
 

@@ -14,9 +14,9 @@ The application is automatically deployed to GitHub Pages when changes are pushe
 
 ### Example URLs for Testing
 - **Home**: `https://moxious.github.io/historynet/#/`
-- **Disney Dataset**: `https://moxious.github.io/historynet/#/?dataset=disney-characters`
+- **AI-LLM Dataset** (default): `https://moxious.github.io/historynet/#/?dataset=ai-llm-research`
 - **Rosicrucian Dataset**: `https://moxious.github.io/historynet/#/?dataset=rosicrucian-network`
-- **Deep Link to Node**: `https://moxious.github.io/historynet/#/?dataset=disney-characters&selected=person-mickey-mouse&type=node`
+- **Deep Link to Node**: `https://moxious.github.io/historynet/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node`
 - **Dark Mode**: `https://moxious.github.io/historynet/#/?theme=dark`
 
 ---
@@ -79,10 +79,10 @@ historynet/
 │
 ├── public/
 │   └── datasets/          # JSON knowledge bases (final output)
-│       ├── disney-characters/
+│       ├── ai-llm-research/
 │       ├── enlightenment/
 │       ├── rosicrucian-network/
-│       └── ai-llm-research/
+│       └── [other datasets...]
 │
 ├── research/              # Research products for dataset creation
 │   ├── README.md          # Overview of research projects
@@ -262,7 +262,7 @@ For agents creating historical datasets:
 npm run validate:datasets
 
 # Validate a specific dataset
-npm run validate:datasets -- --dataset disney-characters
+npm run validate:datasets -- --dataset ai-llm-research
 
 # Strict mode (treats warnings as errors)
 npm run validate:datasets:strict

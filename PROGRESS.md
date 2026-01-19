@@ -172,7 +172,7 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 
 ### Testing & Verification
 
-- [ ] **DS29** - Test filtering with partial matches (e.g., "disney" finds "Disney Characters")
+- [ ] **DS29** - Test filtering with partial matches (e.g., "llm" finds "AI & LLM Research Network")
 - [ ] **DS30** - Test filtering by description (e.g., "enlightenment" finds dataset by description)
 - [ ] **DS31** - Test keyboard navigation through filtered results
 - [ ] **DS32** - Test with empty search (shows all datasets)
@@ -342,7 +342,7 @@ The following tasks were researched but deferred. Gap collapse is complex and da
 - [ ] **TL24** - Add visual indicator at each discontinuity showing years skipped
 - [ ] **TL25** - Ensure node positions remain accurate relative to their actual dates
 - [ ] **TL26** - Test with Enlightenment dataset (likely has significant gaps)
-- [ ] **TL27** - Test with Disney dataset (may have fewer gaps)
+- [ ] **TL27** - Test with AI-LLM Research dataset (contemporary, tightly clustered dates)
 
 ---
 

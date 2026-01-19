@@ -42,7 +42,7 @@ The core application is complete, polished, and deployed. See `HISTORY.md` for d
 - **Stable Resource URLs**: Permanent permalinks for nodes and edges (`/#/{dataset}/node/{id}`)
 - **Dataset Validation**: Build-time CLI validation integrated into CI/CD
 
-**Shipped Datasets**: Disney Characters, Rosicrucian Network, Enlightenment, AI-LLM Research
+**Shipped Datasets**: AI-LLM Research (default), Rosicrucian Network, Enlightenment, Ambient Music, Cybernetics, Protestant Reformation, Renaissance Humanism
 
 ### Milestone Summaries
 
