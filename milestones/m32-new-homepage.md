@@ -1,6 +1,6 @@
 # M32: New Homepage
 
-**Status**: 🔲 Future
+**Status**: ✅ Complete (2026-01-19)
 **Track**: C (Information Architecture)
 **Depends on**: M31 (Dataset Pages) ✅
 
@@ -14,84 +14,84 @@ Replace the current "jump into graph view" entry point with a browsable list of 
 
 ### Phase 1: HomePage Component
 
-- [ ] **HP1** - Create `src/pages/HomePage.tsx` component
-- [ ] **HP2** - Create `src/pages/HomePage.css` stylesheet
-- [ ] **HP3** - Export from `src/pages/index.ts` barrel file
-- [ ] **HP4** - Update `App.tsx` to render HomePage at `/` route
-- [ ] **HP5** - Add page heading: "Explore Historical Networks" or similar
+- [x] **HP1** - Create `src/pages/HomePage.tsx` component
+- [x] **HP2** - Create `src/pages/HomePage.css` stylesheet
+- [x] **HP3** - Export from `src/pages/index.ts` barrel file
+- [x] **HP4** - Update `App.tsx` to render HomePage at `/` route
+- [x] **HP5** - Add page heading: "Explore Collective Genius"
 
 ### Phase 2: Dataset Tiles
 
-- [ ] **HP6** - Create `src/components/DatasetTile.tsx` component
-- [ ] **HP7** - Create `src/components/DatasetTile.css` stylesheet
-- [ ] **HP8** - Display banner emoji from manifest `bannerEmoji` (default "❓")
-- [ ] **HP9** - Display dataset name from manifest `name`
-- [ ] **HP10** - Display truncated description (2-3 lines max with ellipsis)
-- [ ] **HP11** - Display node/edge counts: "{nodeCount} nodes · {edgeCount} edges"
-- [ ] **HP12** - Display date range from `scope.startYear`–`scope.endYear` (or `temporalScope` fallback)
-- [ ] **HP13** - Tile click navigates to `/:datasetId` (dataset overview page)
-- [ ] **HP14** - Export from `src/components/index.ts` barrel file
+- [x] **HP6** - Create `src/components/DatasetTile.tsx` component
+- [x] **HP7** - Create `src/components/DatasetTile.css` stylesheet
+- [x] **HP8** - Display banner emoji from manifest `bannerEmoji` (default "❓")
+- [x] **HP9** - Display dataset name from manifest `name`
+- [x] **HP10** - Display truncated description (2-3 lines max with ellipsis)
+- [x] **HP11** - Display node/edge counts: "{nodeCount} nodes · {edgeCount} edges"
+- [x] **HP12** - Display date range from `scope.startYear`–`scope.endYear` (or `temporalScope` fallback)
+- [x] **HP13** - Tile click navigates to `/:datasetId` (dataset overview page)
+- [x] **HP14** - Export from `src/components/index.ts` barrel file
 
 ### Phase 3: Dataset Grid
 
-- [ ] **HP15** - Create `DatasetGrid` component to render tiles
-- [ ] **HP16** - Fetch all dataset manifests on page load
-- [ ] **HP17** - Responsive grid: 2-3 columns (desktop) → 2 columns (tablet) → 1 column (mobile)
-- [ ] **HP18** - Consistent tile sizing and spacing
+- [x] **HP15** - Create `DatasetGrid` component to render tiles (integrated into HomePage)
+- [x] **HP16** - Fetch all dataset manifests on page load
+- [x] **HP17** - Responsive grid: 2-3 columns (desktop) → 2 columns (tablet) → 1 column (mobile)
+- [x] **HP18** - Consistent tile sizing and spacing
 
 ### Phase 4: Chronological Sorting
 
-- [ ] **HP19** - Sort datasets by `scope.startYear` ascending
-- [ ] **HP20** - Handle datasets without `scope.startYear` (place at end of list)
-- [ ] **HP21** - Fallback: parse `temporalScope` string if `scope.startYear` missing
+- [x] **HP19** - Sort datasets by `scope.startYear` ascending
+- [x] **HP20** - Handle datasets without `scope.startYear` (place at end of list)
+- [x] **HP21** - Fallback: parse `temporalScope` string if `scope.startYear` missing
 
 ### Phase 5: Search/Filter
 
-- [ ] **HP22** - Add search input at top of page with search icon
-- [ ] **HP23** - Case-insensitive filter on `name` field
-- [ ] **HP24** - Case-insensitive filter on `description` field
-- [ ] **HP25** - Debounced input (reuse `useDebounce` hook)
-- [ ] **HP26** - Show "No matching datasets" empty state when filter returns empty
-- [ ] **HP27** - Clear button (×) to reset search
+- [x] **HP22** - Add search input at top of page with search icon
+- [x] **HP23** - Case-insensitive filter on `name` field
+- [x] **HP24** - Case-insensitive filter on `description` field
+- [x] **HP25** - Debounced input (reuse `useDebounce` hook)
+- [x] **HP26** - Show "No matching datasets" empty state when filter returns empty
+- [x] **HP27** - Clear button (×) to reset search
 
 ### Phase 6: Header Adjustments
 
-- [ ] **HP28** - Evaluate dataset selector in header on homepage
-- [ ] **HP29** - Option A: Hide dataset selector on homepage (show only on explore/detail pages)
-- [ ] **HP30** - Option B: Keep dataset selector but link to overview pages instead of explore
-- [ ] **HP31** - Implement chosen option
-- [ ] **HP32** - Ensure header navigation works correctly from homepage
+- [x] **HP28** - Evaluate dataset selector in header on homepage
+- [x] **HP29** - Option A: Hide dataset selector on homepage (show only on explore/detail pages)
+- [N/A] **HP30** - Option B: Keep dataset selector but link to overview pages instead of explore
+- [x] **HP31** - Implement chosen option (Option A - HomePage has its own header without dataset selector)
+- [x] **HP32** - Ensure header navigation works correctly from homepage (brand links to homepage)
 
 ### Phase 7: SEO
 
-- [ ] **HP33** - Add homepage meta tags via Helmet or index.html
-- [ ] **HP34** - Title: "Scenius - Explore Historical Networks"
-- [ ] **HP35** - Meta description summarizing the application
-- [ ] **HP36** - Open Graph tags for homepage
-- [ ] **HP37** - Update sitemap.xml to include homepage entry
-- [ ] **HP38** - Optional: JSON-LD for WebSite/WebApplication (may already exist)
+- [x] **HP33** - Add homepage meta tags via Helmet or index.html
+- [x] **HP34** - Title: "Scenius - Explore Historical Networks"
+- [x] **HP35** - Meta description summarizing the application
+- [x] **HP36** - Open Graph tags for homepage
+- [x] **HP37** - Update sitemap.xml to include homepage entry (already present)
+- [N/A] **HP38** - Optional: JSON-LD for WebSite/WebApplication (may already exist)
 
 ### Phase 8: Styling & Polish
 
-- [ ] **HP39** - Style HomePage consistent with app design
-- [ ] **HP40** - Support light/dark theme
-- [ ] **HP41** - Tile hover effects (subtle shadow or border)
-- [ ] **HP42** - Search input styling consistent with SearchableDatasetSelector
-- [ ] **HP43** - Loading state while manifests are being fetched
-- [ ] **HP44** - Mobile-friendly layout and touch targets
+- [x] **HP39** - Style HomePage consistent with app design
+- [x] **HP40** - Support light/dark theme
+- [x] **HP41** - Tile hover effects (subtle shadow or border)
+- [x] **HP42** - Search input styling consistent with SearchableDatasetSelector
+- [x] **HP43** - Loading state while manifests are being fetched
+- [x] **HP44** - Mobile-friendly layout and touch targets
 
 ### Phase 9: Testing & Verification
 
-- [ ] **HP45** - Test landing on `/` shows homepage with all dataset tiles
-- [ ] **HP46** - Test chronological sorting (earliest date range first)
-- [ ] **HP47** - Test search filters tiles correctly
-- [ ] **HP48** - Test clicking tile navigates to dataset overview page
-- [ ] **HP49** - Test full flow: homepage → dataset page → explore → node detail
-- [ ] **HP50** - Test theme toggle works on homepage
-- [ ] **HP51** - Test mobile responsive layout
-- [ ] **HP52** - Build passes with no errors
-- [ ] **HP53** - No linter warnings in new/modified files
-- [ ] **HP54** - Update CHANGELOG.md with M32 completion notes
+- [x] **HP45** - Test landing on `/` shows homepage with all dataset tiles
+- [x] **HP46** - Test chronological sorting (earliest date range first)
+- [x] **HP47** - Test search filters tiles correctly
+- [x] **HP48** - Test clicking tile navigates to dataset overview page
+- [x] **HP49** - Test full flow: homepage → dataset page → explore → node detail
+- [x] **HP50** - Test theme toggle works on homepage
+- [x] **HP51** - Test mobile responsive layout
+- [x] **HP52** - Build passes with no errors
+- [x] **HP53** - No linter warnings in new/modified files
+- [x] **HP54** - Update CHANGELOG.md with M32 completion notes
 
 ## Design Decisions
 
@@ -101,6 +101,8 @@ Replace the current "jump into graph view" entry point with a browsable list of 
 | Sorting | Chronological by `scope.startYear` | Natural historical ordering |
 | Search | Filter by name or description | Reuses pattern from M21 dataset search |
 | Click behavior | Navigate to `/:datasetId` (dataset overview) | Follow the narrative path |
+| Homepage header | Separate header without dataset selector | Homepage IS the dataset selector |
+| Brand link | Links to homepage on all pages | Easy navigation back to homepage |
 
 ## Page Structure
 
@@ -109,7 +111,7 @@ Replace the current "jump into graph view" entry point with a browsable list of 
 │  Scenius                              [Theme]   │
 ├─────────────────────────────────────────────────┤
 │                                                 │
-│  Explore Historical Networks                    │
+│  Explore Collective Genius                      │
 │                                                 │
 │  ┌─────────────────────────────────────────┐   │
 │  │ 🔍 Search datasets...                    │   │
@@ -132,17 +134,28 @@ Replace the current "jump into graph view" entry point with a browsable list of 
 └─────────────────────────────────────────────────┘
 ```
 
-## Files to Create
+## Files Created
 
-- `src/pages/HomePage.tsx` - Main homepage component
-- `src/pages/HomePage.css` - Homepage styling
+- `src/pages/HomePage.tsx` - Main homepage component with search and grid
+- `src/pages/HomePage.css` - Homepage styling with responsive grid
 - `src/components/DatasetTile.tsx` - Individual tile component
-- `src/components/DatasetTile.css` - Tile styling
+- `src/components/DatasetTile.css` - Tile styling with hover effects
 
-## Files to Modify
+## Files Modified
 
-- `src/App.tsx` - Route `/` to HomePage
+- `src/App.tsx` - Route `/` to HomePage instead of redirect
 - `src/pages/index.ts` - Export HomePage
-- `src/components/index.ts` - Export DatasetTile
-- `src/components/Header.tsx` - Conditional dataset selector visibility
-- `public/sitemap.xml` - Add homepage entry
+- `src/components/index.ts` - Export DatasetTile and getStartYear
+- `src/components/Header.tsx` - Brand now links to homepage
+- `src/components/Header.css` - Brand link styling
+
+## Notes
+
+- The HomePage has its own lightweight header with just brand and theme toggle
+- The main Header (used on dataset pages) now has the brand clickable to return home
+- Datasets are sorted chronologically by start year using `getStartYear()` helper
+- Datasets without dates are placed at the end of the list
+- The `useDebounce` hook is reused for search input (200ms delay)
+- Loading state shows progress: "Loading datasets (X/Y)..."
+- Grid is responsive: 3 cols → 2 cols → 1 col as viewport narrows
+- Sitemap already had the homepage entry from prior SEO work

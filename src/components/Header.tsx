@@ -9,9 +9,11 @@
  * - Collapsible search on mobile
  * - Hamburger menu for secondary controls
  * - Safe area inset support for iPhone notches
+ * - Brand links to homepage for navigation
  */
 
 import { useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { useGraph } from '@contexts';
 import { useIsMobile } from '@hooks';
 import SearchBox from './SearchBox';
@@ -70,10 +72,10 @@ function Header() {
     return (
       <>
         <header className="header header--mobile">
-          {/* Brand - always visible */}
-          <div className="header__brand header__brand--mobile">
+          {/* Brand - always visible, links to homepage */}
+          <Link to="/" className="header__brand header__brand--mobile header__brand-link">
             <h1 className="header__title">Scenius</h1>
-          </div>
+          </Link>
 
           {/* Mobile controls */}
           <div className="header__mobile-controls">
@@ -140,10 +142,10 @@ function Header() {
   // Render desktop header
   return (
     <header className="header">
-      <div className="header__brand">
+      <Link to="/" className="header__brand header__brand-link">
         <h1 className="header__title">Scenius</h1>
         <span className="header__tagline">Mapping collective genius</span>
-      </div>
+      </Link>
       <div className="header__controls">
         <LayoutSwitcher
           currentLayout={currentLayout}

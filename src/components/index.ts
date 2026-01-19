@@ -1,5 +1,7 @@
 export { default as Header } from './Header'
 export { default as MainLayout } from './MainLayout'
+export { default as DatasetTile } from './DatasetTile'
+export { getStartYear } from './DatasetTile'
 export { default as DatasetExploreWrapper } from './DatasetExploreWrapper'
 export { default as InfoboxPanel } from './InfoboxPanel'
 export { default as NodeInfobox } from './NodeInfobox'

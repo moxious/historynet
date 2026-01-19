@@ -20,6 +20,33 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - **Token efficiency**: ~95% reduction in documentation tokens for milestone implementation tasks
 
 ### Added
+- **M32: New Homepage** - Browsable landing page with dataset tiles
+  - **HomePage Component**: New landing page at `/#/` with dataset grid
+    - "Explore Collective Genius" heading with introductory text
+    - Search input to filter datasets by name or description
+    - Debounced search (200ms) using existing `useDebounce` hook
+    - Clear button and "No matching datasets" empty state
+    - Footer with Scenius description
+  - **DatasetTile Component**: Clickable card for each dataset
+    - Banner emoji from manifest `bannerEmoji` (default "❓")
+    - Dataset name and truncated description (3 lines max)
+    - Node/edge counts and date range metadata
+    - Hover effects: translateY, shadow, accent border
+    - Click navigates to `/:datasetId` overview page
+  - **Chronological Sorting**: Datasets sorted by `scope.startYear` ascending
+    - Parses `temporalScope` string as fallback
+    - Datasets without dates placed at end of list
+  - **Responsive Grid Layout**: 3 columns → 2 columns → 1 column
+    - Consistent tile sizing and spacing
+    - Mobile-friendly touch targets
+    - Safe area inset support for iPhone notches
+  - **Navigation Updates**:
+    - Brand logo now links to homepage on all pages
+    - Homepage has own lightweight header (brand + theme toggle only)
+    - Main header (on dataset pages) unchanged
+  - **SEO**: Full meta tags (title, description, og:*, twitter:*) via Helmet
+  - **Completes Track C**: Information architecture track complete
+
 - **M31: Dataset Pages** - Narrative overview pages for datasets with new URL structure
   - **URL Restructure**: New information architecture for the application
     - `/#/{datasetId}` - Dataset overview page (narrative entry point)

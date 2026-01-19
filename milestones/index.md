@@ -37,7 +37,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M29 | Cross-Scene API | 🔲 Future | B | [m29-cross-scene-api.md](m29-cross-scene-api.md) |
 | M30 | Cross-Scene UI | 🔲 Future | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
-| M32 | New Homepage | 🔲 Future | C | [m32-new-homepage.md](m32-new-homepage.md) |
+| M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
 
 > **Note**: M12 and M17 were originally reserved for features that have been renumbered to M24 and M21 respectively.
 
@@ -89,6 +89,5 @@ M1-M20 (Core Application Complete) ✅
 - **M25: User Feedback** - Depends on M24 ✅
 - **M26: Custom Domain** - Depends on M24 ✅
 - **M29: Cross-Scene API** - Depends on M24 ✅
-- **M32: New Homepage** - Depends on M31 ✅
 
-**Recommended next**: M32 (New Homepage) - Completes the information architecture track.
+**Track C complete**: M32 (New Homepage) completes the information architecture track.

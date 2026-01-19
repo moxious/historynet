@@ -25,6 +25,23 @@
   gap: var(--spacing-md);
 }
 
+/* Brand link styling - clickable to go to homepage */
+.header__brand-link {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.15s ease;
+}
+
+.header__brand-link:hover {
+  opacity: 0.85;
+}
+
+.header__brand-link:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 .header__title {
   font-size: var(--font-size-xl);
   font-weight: 700;

@@ -1,16 +1,15 @@
-import { Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from '@components/Header';
 import DatasetExploreWrapper from '@components/DatasetExploreWrapper';
 import ErrorBoundary from '@components/ErrorBoundary';
-import { DatasetOverviewPage, NodeDetailPage, EdgeDetailPage, NotFoundPage } from './pages';
-import { DEFAULT_DATASET_ID } from '@utils/dataLoader';
+import { HomePage, DatasetOverviewPage, NodeDetailPage, EdgeDetailPage, NotFoundPage } from './pages';
 
 /**
  * Main App component with routing configuration
  * 
- * Route structure (M31 Dataset Pages):
- * - / : Redirects to default dataset (will become homepage in M32)
+ * Route structure (M32 New Homepage):
+ * - / : Homepage with browsable dataset tiles
  * - /:datasetId : Dataset overview page (narrative entry point)
  * - /:datasetId/explore : Graph/timeline/radial exploration view
  * - /:datasetId/node/:nodeId : Node detail page (stable permalink)
@@ -20,10 +19,10 @@ import { DEFAULT_DATASET_ID } from '@utils/dataLoader';
 function App() {
   return (
     <Routes>
-      {/* Root redirects to default dataset overview (will become homepage in M32) */}
+      {/* Homepage - browsable list of dataset tiles (M32) */}
       <Route
         path="/"
-        element={<Navigate to={`/${DEFAULT_DATASET_ID}`} replace />}
+        element={<HomePage />}
       />
 
       {/* Dataset overview page - narrative entry point */}

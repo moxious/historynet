@@ -1,0 +1,115 @@
+/**
+ * DatasetTile styles
+ * 
+ * Card component for the homepage dataset grid.
+ * Consistent with design patterns from DatasetOverviewPage and SearchableDatasetSelector.
+ */
+
+.dataset-tile {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: 
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border-color 0.15s ease;
+  /* Ensure consistent tile height in grid */
+  min-height: 180px;
+}
+
+.dataset-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-color: var(--accent-primary);
+}
+
+.dataset-tile:active {
+  transform: translateY(0);
+}
+
+/* Dark mode shadow adjustment */
+:root[data-theme="dark"] .dataset-tile:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Focus visible for keyboard navigation */
+.dataset-tile:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+/* Banner emoji */
+.dataset-tile__emoji {
+  font-size: 2.5rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+/* Dataset name */
+.dataset-tile__name {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+/* Truncated description - 3 lines max */
+.dataset-tile__description {
+  flex: 1;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0 0 0.75rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Metadata footer */
+.dataset-tile__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.dataset-tile__stats,
+.dataset-tile__dates {
+  white-space: nowrap;
+}
+
+/* Responsive: Mobile */
+@media (max-width: 640px) {
+  .dataset-tile {
+    padding: 1rem;
+    min-height: 160px;
+  }
+
+  .dataset-tile__emoji {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .dataset-tile__name {
+    font-size: 1rem;
+  }
+
+  .dataset-tile__description {
+    font-size: 0.8125rem;
+    -webkit-line-clamp: 2;
+  }
+
+  .dataset-tile__meta {
+    font-size: 0.6875rem;
+  }
+}
