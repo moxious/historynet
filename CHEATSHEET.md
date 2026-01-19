@@ -6,7 +6,9 @@
 
 **Scenius** is a React/Vite SPA for visualizing historical social networks. Read-only, dataset-agnostic, shareable via URL.
 
-**Live Demo**: https://moxious.github.io/historynet/
+**Live Demo**: https://scenius-seven.vercel.app/
+
+**Backup**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only)
 
 **GitHub**: https://github.com/moxious/historynet
 

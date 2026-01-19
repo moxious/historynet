@@ -2,7 +2,7 @@
 
 This document outlines the milestone structure and future direction for HistoryNet. For detailed task tracking, see `PROGRESS.md`.
 
-**Live Demo**: https://moxious.github.io/historynet/
+**Live Demo**: https://scenius-seven.vercel.app/
 
 ---
 
@@ -13,7 +13,7 @@ This document outlines the milestone structure and future direction for HistoryN
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
 | M21 | Dataset Search & Filter | ✅ Complete |
 | M23 | Wikimedia Sourcing | ✅ Complete |
-| M24 | Vercel Migration | 🔲 Future |
+| M24 | Vercel Migration | 🚧 In Progress |
 | M25 | User Feedback Feature | 🔲 Future (depends on M24) |
 | M26 | Custom Domain | 🔲 Future (depends on M24) |
 | M27 | Feedback Spam Protection | 🔲 Future (depends on M25) |
@@ -185,7 +185,7 @@ See `PROGRESS.md` for detailed task completion and `CHANGELOG.md` for feature su
 - GitHub Pages deployment retained as backup (dual deployment)
 - Documentation updated with both deployment URLs
 
-**Proof Point**: App running at `scenius.vercel.app` with `/api/health` returning JSON response.
+**Proof Point**: App running at `scenius-seven.vercel.app` with `/api/health` returning JSON response.
 
 **Status**: Not started. Full task breakdown in `PROGRESS.md`.
 

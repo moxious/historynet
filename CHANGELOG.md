@@ -9,6 +9,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **M24: Vercel Migration** - Dual deployment infrastructure with serverless API support
+  - **Vercel Deployment**: Primary deployment at `scenius-seven.vercel.app` with API endpoints
+  - **GitHub Pages Backup**: Retained at `moxious.github.io/historynet` (frontend only)
+  - **Health API Endpoint**: `/api/health` returns `{ status: 'ok', timestamp, environment }`
+  - **CORS Configuration**: All API endpoints allow cross-origin requests (public data)
+  - **Dual Deployment**: Push to `main` triggers both Vercel and GitHub Pages deployments
+  - **Documentation**: Updated AGENTS.md, README.md, ROADMAP.md, CHEATSHEET.md with new URLs
+  - **TypeScript Support**: Added `@vercel/node` types for serverless functions
+
 - **M23: Wikimedia Sourcing** - Dynamic Wikipedia enrichment for nodes lacking local data
   - **Wikipedia Service**: `src/services/wikipedia.ts` wraps the `wikipedia` npm package
     - Fetches page summaries and thumbnails from Wikipedia REST API
@@ -363,5 +372,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## Links
 
-- **Live Demo**: https://moxious.github.io/historynet/
+- **Live Demo**: https://scenius-seven.vercel.app/
+- **Backup Demo**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only)
 - **Repository**: https://github.com/moxious/historynet

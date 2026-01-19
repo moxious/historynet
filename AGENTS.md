@@ -6,18 +6,24 @@ This document provides instructions for AI agents and developers working on the 
 
 ## Live Application & Testing
 
-> **Production URL**: https://moxious.github.io/historynet/
+> **Production URL**: https://scenius-seven.vercel.app/
 > 
 > **GitHub Repository**: https://github.com/moxious/historynet
+>
+> **Backup URL**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only—no API)
 
-The application is automatically deployed to GitHub Pages when changes are pushed to `main`. Use the production URL to test features at runtime using browser tools (MCP browser extension, etc.).
+The application is deployed to Vercel (primary) and GitHub Pages (backup). Pushing to `main` triggers both deployments automatically. Use the production URL to test features at runtime using browser tools (MCP browser extension, etc.).
+
+**API Endpoints**: Only available on Vercel deployment. GitHub Pages serves frontend only.
+- `/api/health` - Health check endpoint
 
 ### Example URLs for Testing
-- **Home**: `https://moxious.github.io/historynet/#/`
-- **AI-LLM Dataset** (default): `https://moxious.github.io/historynet/#/?dataset=ai-llm-research`
-- **Rosicrucian Dataset**: `https://moxious.github.io/historynet/#/?dataset=rosicrucian-network`
-- **Deep Link to Node**: `https://moxious.github.io/historynet/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node`
-- **Dark Mode**: `https://moxious.github.io/historynet/#/?theme=dark`
+- **Home**: `https://scenius-seven.vercel.app/#/`
+- **AI-LLM Dataset** (default): `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research`
+- **Rosicrucian Dataset**: `https://scenius-seven.vercel.app/#/?dataset=rosicrucian-network`
+- **Deep Link to Node**: `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node`
+- **Dark Mode**: `https://scenius-seven.vercel.app/#/?theme=dark`
+- **Health API**: `https://scenius-seven.vercel.app/api/health`
 
 ---
 
@@ -50,7 +56,7 @@ The application is:
 - **Read-only**: Users view but cannot edit data
 - **Dataset-agnostic**: Multiple JSON knowledge bases can be loaded
 - **Shareable**: All view/filter state is captured in URLs
-- **Static**: Deployed as a pure client-side SPA to GitHub Pages
+- **Deployed**: Vercel (primary with API) + GitHub Pages (backup frontend)
 
 ---
 
@@ -209,7 +215,7 @@ Since agents may not have direct communication:
 
 ### Branching Strategy (for human developers)
 
-- `main`: Production-ready code, deployed to GitHub Pages
+- `main`: Production-ready code, deployed to Vercel + GitHub Pages
 - `develop`: Integration branch for features
 - `feature/*`: Individual feature branches
 - `milestone/*`: Branches for milestone work if needed

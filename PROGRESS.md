@@ -82,7 +82,7 @@ Future milestones are organized into two tracks:
 
 **Architecture Decision**: Stay with Vite. See Notes section for rationale.
 
-**Proof Point**: App running at `scenius.vercel.app` with `/api/health` returning `{ status: "ok", timestamp: ... }`.
+**Proof Point**: App running at `scenius-seven.vercel.app` with `/api/health` returning `{ status: "ok", timestamp: ... }`.
 
 **Prerequisites**:
 - Vercel account (confirmed)
@@ -105,11 +105,11 @@ This is expected and both should succeed independently.
 
 ### Pre-Setup (Before CLI)
 
-- [ ] **VM0** - Add `.vercel/` to `.gitignore`
+- [x] **VM0** - Add `.vercel/` to `.gitignore`
   ```bash
   echo ".vercel" >> .gitignore
   ```
-- [ ] **VM0.5** - Install Vercel types for TypeScript
+- [x] **VM0.5** - Install Vercel types for TypeScript
   ```bash
   npm install -D @vercel/node
   ```
@@ -146,11 +146,11 @@ This is expected and both should succeed independently.
 
 ### Frontend Verification
 
-- [ ] **VM6** - Test frontend functionality at `scenius.vercel.app`
+- [x] **VM6** - Test frontend functionality at `scenius-seven.vercel.app`
   - Home page loads
   - Dataset selector works
   - All three layouts render (Graph, Timeline, Radial)
-- [ ] **VM6.5** - Verify all datasets load correctly
+- [x] **VM6.5** - Verify all datasets load correctly
   - ai-llm-research (default)
   - rosicrucian-network
   - enlightenment
@@ -162,12 +162,12 @@ This is expected and both should succeed independently.
   - florentine-academy
   - christian-kabbalah
   - statistics-social-physics
-- [ ] **VM6.6** - Verify Vite base path configuration
+- [x] **VM6.6** - Verify Vite base path configuration
   - Open browser Network tab
   - Confirm assets load from `/` (root), NOT `/historynet/`
-  - Verify direct asset access: `scenius.vercel.app/favicon.svg`
-  - Verify dataset access: `scenius.vercel.app/datasets/ai-llm-research/manifest.json`
-- [ ] **VM7** - Verify hash routing works correctly
+  - Verify direct asset access: `scenius-seven.vercel.app/favicon.svg`
+  - Verify dataset access: `scenius-seven.vercel.app/datasets/ai-llm-research/manifest.json`
+- [x] **VM7** - Verify hash routing works correctly
   - Deep link to node: `/#/ai-llm-research/node/person-geoffrey-hinton`
   - Deep link to edge: `/#/ai-llm-research/edge/...`
   - Theme parameter: `/#/?theme=dark`
@@ -175,7 +175,7 @@ This is expected and both should succeed independently.
 
 ### Serverless API Endpoint
 
-- [ ] **VM8** - Create `api/health.ts` serverless function at **project root** (not under `src/`)
+- [x] **VM8** - Create `api/health.ts` serverless function at **project root** (not under `src/`)
   ```typescript
   // api/health.ts (at repository root, creates /api/ directory)
   import type { VercelRequest, VercelResponse } from '@vercel/node';
@@ -202,13 +202,13 @@ This is expected and both should succeed independently.
     });
   }
   ```
-- [ ] **VM9** - Deploy and test endpoint at `scenius.vercel.app/api/health`
+- [x] **VM9** - Deploy and test endpoint at `scenius-seven.vercel.app/api/health`
   ```bash
   vercel --prod
   ```
   - Verify JSON response in browser shows `{ status: "ok", timestamp: "...", environment: "production" }`
   - Verify CORS headers present: `Access-Control-Allow-Origin: *`
-  - Test from browser console: `fetch('https://scenius.vercel.app/api/health').then(r => r.json()).then(console.log)`
+  - Test from browser console: `fetch('https://scenius-seven.vercel.app/api/health').then(r => r.json()).then(console.log)`
 - [ ] **VM10** - Add test environment variable via CLI
   ```bash
   vercel env add TEST_VAR production
@@ -249,21 +249,21 @@ This is expected and both should succeed independently.
 | `public/llms.txt` | Keep GitHub Pages | M26 |
 | `vite.config.ts` | Comment only, no change needed | Never |
 
-- [ ] **VM14** - Update `AGENTS.md` with deployment information
+- [x] **VM14** - Update `AGENTS.md` with deployment information
   - Change "Production URL" to `https://scenius.vercel.app/`
   - Update "Example URLs for Testing" to use Vercel domain
   - Add note: "GitHub Pages (`moxious.github.io/historynet`) is a backup deployment without API support"
   - Add note: "API endpoints (e.g., `/api/health`) only work on Vercel"
-- [ ] **VM15** - Update `README.md` with deployment information
+- [x] **VM15** - Update `README.md` with deployment information
   - Change "Live Application" URL to Vercel
   - Update "URL Structure" section with Vercel examples
   - Add "Deployment" section explaining dual deployment:
     - Primary: Vercel (with API support)
     - Backup: GitHub Pages (frontend only)
   - Keep GitHub Actions badge (still deploys to GH Pages)
-- [ ] **VM16** - Update `ROADMAP.md` live demo URL to Vercel
-- [ ] **VM17** - Update `CHEATSHEET.md` live demo URL to Vercel
-- [ ] **VM18** - Update `CHANGELOG.md` with M24 completion entry
+- [x] **VM16** - Update `ROADMAP.md` live demo URL to Vercel
+- [x] **VM17** - Update `CHEATSHEET.md` live demo URL to Vercel
+- [x] **VM18** - Update `CHANGELOG.md` with M24 completion entry
   - Document the migration
   - Note both URLs
   - Note API endpoint availability

@@ -1,6 +1,6 @@
 # Scenius
 
-> **Live Application**: https://moxious.github.io/historynet/
+> **Live Application**: https://scenius-seven.vercel.app/
 
 [![Deploy to GitHub Pages](https://github.com/moxious/historynet/actions/workflows/deploy.yml/badge.svg)](https://github.com/moxious/historynet/actions/workflows/deploy.yml)
 
@@ -111,7 +111,19 @@ See [GRAPH_SCHEMA.md](./GRAPH_SCHEMA.md) for the complete schema specification.
 
 ## Deployment
 
-Scenius is automatically deployed to GitHub Pages when changes are pushed to the `main` branch.
+Scenius uses dual deployment for reliability:
+
+| Target | URL | Features |
+|--------|-----|----------|
+| **Vercel** (Primary) | https://scenius-seven.vercel.app/ | Full app + API endpoints |
+| **GitHub Pages** (Backup) | https://moxious.github.io/historynet/ | Frontend only (no API) |
+
+Both deployments are triggered automatically when changes are pushed to the `main` branch.
+
+### API Endpoints
+
+API endpoints are only available on Vercel:
+- `GET /api/health` — Health check (returns `{ status: 'ok', timestamp, environment }`)
 
 ### Manual Deployment
 
@@ -133,14 +145,22 @@ To enable GitHub Pages for your fork:
 2. Under **Build and deployment**, select **GitHub Actions** as the source
 3. The workflow at `.github/workflows/deploy.yml` handles the rest
 
+### Vercel Setup
+
+The project is linked to Vercel for automatic deployments:
+1. Install Vercel CLI: `npm install -g vercel`
+2. Login: `vercel login`
+3. Link project: `vercel link`
+4. Deploy: `vercel --prod`
+
 ### URL Structure
 
-URLs use hash routing for GitHub Pages compatibility:
-- `https://moxious.github.io/historynet/#/` - Home
-- `https://moxious.github.io/historynet/#/?dataset=ai-llm-research` - Load specific dataset
-- `https://moxious.github.io/historynet/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node` - Deep link to node
-- `https://moxious.github.io/historynet/#/?theme=dark` - Dark mode
-- `https://moxious.github.io/historynet/#/?dataset=ai-llm-research&theme=dark` - Dataset with dark mode
+URLs use hash routing for cross-deployment compatibility:
+- `https://scenius-seven.vercel.app/#/` - Home
+- `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research` - Load specific dataset
+- `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research&selected=person-geoffrey-hinton&type=node` - Deep link to node
+- `https://scenius-seven.vercel.app/#/?theme=dark` - Dark mode
+- `https://scenius-seven.vercel.app/#/?dataset=ai-llm-research&theme=dark` - Dataset with dark mode
 
 ## Documentation
 
