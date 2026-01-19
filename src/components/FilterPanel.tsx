@@ -25,10 +25,22 @@ interface FilterPanelProps {
   dateRange?: { minYear: number | null; maxYear: number | null };
   /** Node type counts from unfiltered data */
   nodeTypeCounts?: Record<NodeType, number>;
+  /** Relationship type counts from unfiltered data */
+  relationshipTypeCounts?: Record<string, number>;
   /** Whether the panel is collapsed */
   isCollapsed?: boolean;
   /** Callback when collapse state changes */
   onToggleCollapse?: () => void;
+}
+
+/**
+ * Convert snake_case relationship type to Title Case display label
+ */
+function formatRelationshipLabel(relationship: string): string {
+  return relationship
+    .split('_')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 }
 
 /**
@@ -41,6 +53,7 @@ function FilterPanel({
   stats,
   dateRange,
   nodeTypeCounts,
+  relationshipTypeCounts,
   isCollapsed = false,
   onToggleCollapse,
 }: FilterPanelProps) {
@@ -52,15 +65,11 @@ function FilterPanel({
     filters.dateEnd !== null ? String(filters.dateEnd) : ''
   );
 
-  // Local state for debounced text filters
+  // Local state for debounced name filter
   const [localNameFilter, setLocalNameFilter] = useState<string>(filters.nameFilter);
-  const [localRelationshipFilter, setLocalRelationshipFilter] = useState<string>(
-    filters.relationshipFilter
-  );
 
-  // Debounce the text filter values
+  // Debounce the name filter value
   const debouncedNameFilter = useDebounce(localNameFilter, DEBOUNCE_DELAY);
-  const debouncedRelationshipFilter = useDebounce(localRelationshipFilter, DEBOUNCE_DELAY);
 
   // Apply debounced name filter to parent
   useEffect(() => {
@@ -69,26 +78,13 @@ function FilterPanel({
     }
   }, [debouncedNameFilter, filters.nameFilter, onFiltersChange]);
 
-  // Apply debounced relationship filter to parent
-  useEffect(() => {
-    if (debouncedRelationshipFilter !== filters.relationshipFilter) {
-      onFiltersChange({ relationshipFilter: debouncedRelationshipFilter });
-    }
-  }, [debouncedRelationshipFilter, filters.relationshipFilter, onFiltersChange]);
-
   // Sync local state when filters change externally (e.g., clear all)
   // REACT: Only depend on parent filter values, not local state (R2 - stale closure fix)
-  // Including localNameFilter/localRelationshipFilter would cause reset on every keystroke
-  // because the effect runs before debounce fires while filters.nameFilter is still ''
   useEffect(() => {
     if (filters.nameFilter === '') {
       setLocalNameFilter('');
     }
-    if (filters.relationshipFilter === '') {
-      setLocalRelationshipFilter('');
-    }
-     
-  }, [filters.nameFilter, filters.relationshipFilter]);
+  }, [filters.nameFilter]);
 
   // REACT: Sync local date state when filters change externally (R14)
   // This replaces the previous inline state sync that violated React rules
@@ -119,11 +115,34 @@ function FilterPanel({
     [nodeTypeCounts]
   );
 
+  // Build relationship type options with counts, sorted alphabetically
+  // REACT: memoize to prevent recreating on every render (R3)
+  const relationshipTypeOptions: CheckboxOption<string>[] = useMemo(() => {
+    if (!relationshipTypeCounts) return [];
+    
+    return Object.entries(relationshipTypeCounts)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([type, count]) => ({
+        value: type,
+        label: formatRelationshipLabel(type),
+        count,
+      }));
+  }, [relationshipTypeCounts]);
+
   // Handle node type filter change
   // REACT: memoized callback (R12)
   const handleNodeTypesChange = useCallback(
     (nodeTypes: NodeType[] | null) => {
       onFiltersChange({ nodeTypes });
+    },
+    [onFiltersChange]
+  );
+
+  // Handle relationship type filter change
+  // REACT: memoized callback (R12)
+  const handleRelationshipTypesChange = useCallback(
+    (relationshipTypes: string[] | null) => {
+      onFiltersChange({ relationshipTypes });
     },
     [onFiltersChange]
   );
@@ -167,17 +186,11 @@ function FilterPanel({
     setLocalNameFilter(e.target.value);
   }, []);
 
-  // Handle relationship filter change (debounced via local state)
-  const handleRelationshipFilterChange = useCallback((e: ChangeEvent<HTMLInputElement>) => {
-    setLocalRelationshipFilter(e.target.value);
-  }, []);
-
   // Handle clear filters
   const handleClearFilters = useCallback(() => {
     setLocalDateStart('');
     setLocalDateEnd('');
     setLocalNameFilter('');
-    setLocalRelationshipFilter('');
     onClearFilters();
   }, [onClearFilters]);
 
@@ -315,32 +328,18 @@ function FilterPanel({
             </div>
           </div>
 
-          {/* Relationship Filter Section */}
-          <div className="filter-panel__section">
-            <div className="filter-panel__input-group">
-              <label htmlFor="filter-relationship" className="filter-panel__section-label">
-                <span className="filter-panel__label-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" />
-                  </svg>
-                </span>
-                Relationship
-              </label>
-              <input
-                id="filter-relationship"
-                type="text"
-                className="filter-panel__input"
-                placeholder="Filter by relationship..."
-                value={localRelationshipFilter}
-                onChange={handleRelationshipFilterChange}
-                aria-describedby="relationship-filter-hint"
-                title="Hides edges that don't match"
+          {/* Relationship Types Section */}
+          {relationshipTypeOptions.length > 0 && (
+            <div className="filter-panel__section">
+              <CheckboxFilterGroup
+                label="Relationship Types"
+                options={relationshipTypeOptions}
+                selected={filters.relationshipTypes}
+                onChange={handleRelationshipTypesChange}
+                showSelectAll={true}
               />
-              <span id="relationship-filter-hint" className="filter-panel__hint">
-                Hides non-matching edges
-              </span>
             </div>
-          </div>
+          )}
 
           {/* Filter Stats */}
           {stats && (

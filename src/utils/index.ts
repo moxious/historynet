@@ -26,6 +26,7 @@ export {
   getFilterStats,
   getGraphDateRange,
   getNodeTypeCounts,
+  getRelationshipTypeCounts,
 } from './filterGraph';
 
 export { getNodeColor, getEdgeColor } from './graphColors';

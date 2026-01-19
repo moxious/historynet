@@ -20,6 +20,7 @@ function MainLayout() {
     filterStats,
     dateRange,
     nodeTypeCounts,
+    relationshipTypeCounts,
     searchTerm,
     currentLayout,
   } = useGraph();
@@ -161,6 +162,7 @@ function MainLayout() {
               stats={filterStats ?? undefined}
               dateRange={dateRange ?? undefined}
               nodeTypeCounts={nodeTypeCounts ?? undefined}
+              relationshipTypeCounts={relationshipTypeCounts ?? undefined}
               isCollapsed={isFilterCollapsed}
               onToggleCollapse={handleToggleFilterCollapse}
             />

@@ -14,8 +14,8 @@ export interface FilterState {
   dateEnd: number | null;
   /** Text filter for node titles (case-insensitive substring match) */
   nameFilter: string;
-  /** Text filter for edge relationships (case-insensitive substring match) */
-  relationshipFilter: string;
+  /** Selected relationship types to display (null = all types selected) */
+  relationshipTypes: string[] | null;
   /** Selected node types to display (null = all types selected) */
   nodeTypes: NodeType[] | null;
 }
@@ -27,8 +27,8 @@ export const DEFAULT_FILTER_STATE: FilterState = {
   dateStart: null,
   dateEnd: null,
   nameFilter: '',
-  relationshipFilter: '',
-  nodeTypes: null, // null means "all types selected"
+  relationshipTypes: null, // null means "all relationship types selected"
+  nodeTypes: null, // null means "all node types selected"
 };
 
 /**
@@ -39,8 +39,8 @@ export function hasActiveFilters(filters: FilterState): boolean {
     filters.dateStart !== null ||
     filters.dateEnd !== null ||
     filters.nameFilter.trim() !== '' ||
-    filters.relationshipFilter.trim() !== '' ||
-    filters.nodeTypes !== null // explicit type selection = active filter
+    filters.relationshipTypes !== null || // explicit relationship type selection = active filter
+    filters.nodeTypes !== null // explicit node type selection = active filter
   );
 }
 

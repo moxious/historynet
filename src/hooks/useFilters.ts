@@ -20,8 +20,8 @@ interface UseFiltersReturn {
   setDateEnd: (year: number | null) => void;
   /** Set the name filter */
   setNameFilter: (filter: string) => void;
-  /** Set the relationship filter */
-  setRelationshipFilter: (filter: string) => void;
+  /** Set the relationship types filter */
+  setRelationshipTypes: (types: string[] | null) => void;
   /** Update multiple filters at once */
   setFilters: (filters: Partial<FilterState>) => void;
   /** Clear all filters */
@@ -65,9 +65,9 @@ export function useFilters(): UseFiltersReturn {
     [setUrlFilters]
   );
 
-  const setRelationshipFilter = useCallback(
-    (filter: string) => {
-      setUrlFilters({ relationshipFilter: filter });
+  const setRelationshipTypes = useCallback(
+    (types: string[] | null) => {
+      setUrlFilters({ relationshipTypes: types });
     },
     [setUrlFilters]
   );
@@ -103,7 +103,7 @@ export function useFilters(): UseFiltersReturn {
       setDateStart,
       setDateEnd,
       setNameFilter,
-      setRelationshipFilter,
+      setRelationshipTypes,
       setFilters: setUrlFilters,
       clearFilters: clearUrlFilters,
       applyFilters,
@@ -116,7 +116,7 @@ export function useFilters(): UseFiltersReturn {
       setDateStart,
       setDateEnd,
       setNameFilter,
-      setRelationshipFilter,
+      setRelationshipTypes,
       setUrlFilters,
       clearUrlFilters,
       applyFilters,

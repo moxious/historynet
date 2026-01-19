@@ -19,7 +19,7 @@ import type {
   FilterStats,
   NodeType,
 } from '@types';
-import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange, getNodeTypeCounts } from '@utils';
+import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange, getNodeTypeCounts, getRelationshipTypeCounts } from '@utils';
 
 interface GraphContextValue {
   // Dataset state
@@ -55,6 +55,7 @@ interface GraphContextValue {
   filterStats: FilterStats | null;
   dateRange: { minYear: number | null; maxYear: number | null } | null;
   nodeTypeCounts: Record<NodeType, number> | null;
+  relationshipTypeCounts: Record<string, number> | null;
   hasActiveFilters: boolean;
 
   // Search state
@@ -247,14 +248,20 @@ export function GraphProvider({ children }: GraphProviderProps) {
     return getNodeTypeCounts(graphData);
   }, [graphData]);
 
+  // Calculate relationship type counts from unfiltered data
+  const relationshipTypeCounts = useMemo(() => {
+    if (!graphData) return null;
+    return getRelationshipTypeCounts(graphData);
+  }, [graphData]);
+
   // Check if there are active filters
   const hasActiveFilters = useMemo(() => {
     return (
       filters.dateStart !== null ||
       filters.dateEnd !== null ||
       filters.nameFilter.trim() !== '' ||
-      filters.relationshipFilter.trim() !== '' ||
-      filters.nodeTypes !== null // explicit type selection = active filter
+      filters.relationshipTypes !== null || // explicit relationship type selection = active filter
+      filters.nodeTypes !== null // explicit node type selection = active filter
     );
   }, [filters]);
 
@@ -293,6 +300,7 @@ export function GraphProvider({ children }: GraphProviderProps) {
     filterStats,
     dateRange,
     nodeTypeCounts,
+    relationshipTypeCounts,
     hasActiveFilters,
     searchTerm,
     setSearchTerm,

@@ -134,26 +134,15 @@ export function nodeMatchesTypeFilter(
 }
 
 /**
- * Check if an edge's relationship matches the relationship filter
- * Case-insensitive substring match on relationship type and label
+ * Check if an edge's relationship matches the allowed relationship types filter
+ * null = all types allowed
  */
-export function edgeMatchesRelationshipFilter(edge: GraphEdge, filter: string): boolean {
-  if (!filter.trim()) {
-    return true;
-  }
-
-  const filterLower = filter.toLowerCase().trim();
-  const relationshipLower = edge.relationship.toLowerCase();
-  const labelLower = (edge.label ?? '').toLowerCase();
-
-  // Also match against human-readable version of relationship
-  const relationshipReadable = edge.relationship.replace(/_/g, ' ').toLowerCase();
-
-  return (
-    relationshipLower.includes(filterLower) ||
-    labelLower.includes(filterLower) ||
-    relationshipReadable.includes(filterLower)
-  );
+export function edgeMatchesRelationshipFilter(
+  edge: GraphEdge,
+  allowedTypes: string[] | null
+): boolean {
+  if (allowedTypes === null) return true; // null = all types allowed
+  return allowedTypes.includes(edge.relationship);
 }
 
 /**
@@ -162,11 +151,11 @@ export function edgeMatchesRelationshipFilter(edge: GraphEdge, filter: string): 
  *
  * Filtering rules:
  * 1. Nodes are filtered by type, date range, and name filter
- * 2. Edges are filtered by date range and relationship filter
+ * 2. Edges are filtered by date range and relationship types filter
  * 3. Edges connected to filtered-out nodes are also removed
  */
 export function filterGraphData(data: GraphData, filters: FilterState): GraphData {
-  const { dateStart, dateEnd, nameFilter, relationshipFilter, nodeTypes } = filters;
+  const { dateStart, dateEnd, nameFilter, relationshipTypes, nodeTypes } = filters;
 
   // Step 1: Filter nodes (type filter applied first)
   const filteredNodes = data.nodes.filter((node) => {
@@ -182,7 +171,7 @@ export function filterGraphData(data: GraphData, filters: FilterState): GraphDat
 
   // Step 2: Filter edges
   // - Must match date range filter
-  // - Must match relationship filter
+  // - Must match relationship types filter
   // - Both source and target nodes must still be in the filtered set
   const filteredEdges = data.edges.filter((edge) => {
     // Check if both connected nodes are still in the graph
@@ -192,7 +181,7 @@ export function filterGraphData(data: GraphData, filters: FilterState): GraphDat
 
     return (
       edgeMatchesDateRange(edge, dateStart, dateEnd) &&
-      edgeMatchesRelationshipFilter(edge, relationshipFilter)
+      edgeMatchesRelationshipFilter(edge, relationshipTypes)
     );
   });
 
@@ -265,6 +254,20 @@ export function getNodeTypeCounts(data: GraphData): Record<NodeType, number> {
   
   for (const node of data.nodes) {
     counts[node.type]++;
+  }
+  
+  return counts;
+}
+
+/**
+ * Get counts of edges by relationship type from unfiltered graph data
+ * Used to show relationship type counts in the filter UI
+ */
+export function getRelationshipTypeCounts(data: GraphData): Record<string, number> {
+  const counts: Record<string, number> = {};
+  
+  for (const edge of data.edges) {
+    counts[edge.relationship] = (counts[edge.relationship] ?? 0) + 1;
   }
   
   return counts;

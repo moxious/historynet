@@ -38,6 +38,32 @@ function serializeNodeTypes(types: NodeType[] | null): string | null {
   return types.join(',');
 }
 
+/**
+ * Parse relationshipTypes from URL string (comma-separated)
+ * Returns null if empty/missing (meaning "all types")
+ */
+function parseRelationshipTypes(value: string | null): string[] | null {
+  if (!value || !value.trim()) return null;
+  
+  const types = value.split(',')
+    .map(t => t.trim())
+    .filter(t => t.length > 0);
+  
+  return types.length > 0 ? types : null;
+}
+
+/**
+ * Serialize relationshipTypes to URL string (comma-separated)
+ * Returns null if all types selected (to omit from URL)
+ * Note: Unlike nodeTypes, we can't detect "all selected" here since the
+ * available types depend on the dataset. We rely on null being passed in.
+ */
+function serializeRelationshipTypes(types: string[] | null): string | null {
+  if (types === null) return null;
+  if (types.length === 0) return null;
+  return types.join(',');
+}
+
 /** URL parameter keys */
 const URL_PARAMS = {
   DATASET: 'dataset',
@@ -48,7 +74,7 @@ const URL_PARAMS = {
   DATE_START: 'dateStart',
   DATE_END: 'dateEnd',
   NAME_FILTER: 'name',
-  RELATIONSHIP_FILTER: 'relationship',
+  RELATIONSHIP_TYPES: 'relationshipTypes',
   NODE_TYPES: 'nodeTypes',
 } as const;
 
@@ -183,7 +209,7 @@ export function useUrlState(): UseUrlStateReturn {
   const dateStartStr = searchParams.get(URL_PARAMS.DATE_START);
   const dateEndStr = searchParams.get(URL_PARAMS.DATE_END);
   const nameFilterStr = searchParams.get(URL_PARAMS.NAME_FILTER) ?? '';
-  const relationshipFilterStr = searchParams.get(URL_PARAMS.RELATIONSHIP_FILTER) ?? '';
+  const relationshipTypesStr = searchParams.get(URL_PARAMS.RELATIONSHIP_TYPES);
   const nodeTypesStr = searchParams.get(URL_PARAMS.NODE_TYPES);
 
   const filters: FilterState = useMemo(() => {
@@ -191,10 +217,10 @@ export function useUrlState(): UseUrlStateReturn {
       dateStart: dateStartStr ? parseInt(dateStartStr, 10) : null,
       dateEnd: dateEndStr ? parseInt(dateEndStr, 10) : null,
       nameFilter: nameFilterStr,
-      relationshipFilter: relationshipFilterStr,
+      relationshipTypes: parseRelationshipTypes(relationshipTypesStr),
       nodeTypes: parseNodeTypes(nodeTypesStr),
     };
-  }, [dateStartStr, dateEndStr, nameFilterStr, relationshipFilterStr, nodeTypesStr]);
+  }, [dateStartStr, dateEndStr, nameFilterStr, relationshipTypesStr, nodeTypesStr]);
 
   // Set filters in URL
   const setFilters = useCallback(
@@ -224,10 +250,12 @@ export function useUrlState(): UseUrlStateReturn {
           newParams.delete(URL_PARAMS.NAME_FILTER);
         }
 
-        if (merged.relationshipFilter.trim()) {
-          newParams.set(URL_PARAMS.RELATIONSHIP_FILTER, merged.relationshipFilter);
+        // Handle relationshipTypes (null = all types, omit from URL)
+        const relationshipTypesValue = serializeRelationshipTypes(merged.relationshipTypes);
+        if (relationshipTypesValue) {
+          newParams.set(URL_PARAMS.RELATIONSHIP_TYPES, relationshipTypesValue);
         } else {
-          newParams.delete(URL_PARAMS.RELATIONSHIP_FILTER);
+          newParams.delete(URL_PARAMS.RELATIONSHIP_TYPES);
         }
 
         // Handle nodeTypes (null = all types, omit from URL)
@@ -251,7 +279,7 @@ export function useUrlState(): UseUrlStateReturn {
       newParams.delete(URL_PARAMS.DATE_START);
       newParams.delete(URL_PARAMS.DATE_END);
       newParams.delete(URL_PARAMS.NAME_FILTER);
-      newParams.delete(URL_PARAMS.RELATIONSHIP_FILTER);
+      newParams.delete(URL_PARAMS.RELATIONSHIP_TYPES);
       newParams.delete(URL_PARAMS.NODE_TYPES);
       return newParams;
     });
@@ -342,8 +370,10 @@ export function buildShareableUrl(params: {
     if (params.filters.nameFilter.trim()) {
       searchParams.set(URL_PARAMS.NAME_FILTER, params.filters.nameFilter);
     }
-    if (params.filters.relationshipFilter.trim()) {
-      searchParams.set(URL_PARAMS.RELATIONSHIP_FILTER, params.filters.relationshipFilter);
+    // Add relationshipTypes if explicitly set (not null = all)
+    const relationshipTypesValue = serializeRelationshipTypes(params.filters.relationshipTypes);
+    if (relationshipTypesValue) {
+      searchParams.set(URL_PARAMS.RELATIONSHIP_TYPES, relationshipTypesValue);
     }
     // Add nodeTypes if explicitly set (not null = all)
     const nodeTypesValue = serializeNodeTypes(params.filters.nodeTypes);
