@@ -261,6 +261,7 @@ datasets/{dataset-id}/
   "id": "enlightenment-philosophers",
   "name": "Enlightenment Philosophers",
   "description": "Key figures of the 18th century Enlightenment and their intellectual relationships",
+  "bannerEmoji": "💡📚🏛️",
   "lastUpdated": "2026-01-15",
   "version": "1.0.0",
   "author": "HistoryNet Contributors",
@@ -285,6 +286,7 @@ datasets/{dataset-id}/
 | `id` | string | ✅ Yes | Unique identifier matching directory name |
 | `name` | string | ✅ Yes | Human-readable display name |
 | `description` | string | ⚪ Recommended | Description of the network |
+| `bannerEmoji` | string | ⚪ Optional | 1-3 emoji representing the dataset's theme (e.g., "🔬🧬🤖"). Default: "❓" |
 | `lastUpdated` | string | ⚪ Recommended | ISO 8601 date of last update |
 | `version` | string | ⚪ Optional | Semantic version string |
 | `author` | string | ⚪ Optional | Creator attribution |

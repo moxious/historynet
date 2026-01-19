@@ -1439,3 +1439,40 @@ Options: `--strict` (warnings as errors), `--dataset <id>` (single dataset), `--
 ---
 
 *This document was created during documentation graduation on 2026-01-18.*
+
+## M24 - Vercel Migration (Completed 2026-01-19)
+
+**Goal**: Migrate deployment from GitHub Pages to Vercel to enable serverless API functions. Keep GitHub Pages as a backup.
+
+**Track**: B (Infrastructure & Backend) - Foundation for M25, M26, M29
+
+**Deployment URLs**:
+- **Primary**: https://scenius-seven.vercel.app/ (Vercel, with API support)
+- **Backup**: https://moxious.github.io/historynet/ (GitHub Pages, frontend only)
+
+**Key Deliverables**:
+- Vercel project linked to GitHub repository with auto-deploy on push to `main`
+- `/api/health` serverless endpoint returning `{ status: "ok", timestamp, environment }`
+- CORS headers allowing cross-origin requests (all data is public)
+- Dual deployment: pushing to `main` triggers both Vercel and GitHub Pages
+- Documentation updated (AGENTS.md, README.md, ROADMAP.md, CHEATSHEET.md, CHANGELOG.md)
+
+**Architecture Decision**: Stayed with Vite (evaluated Next.js, rejected due to migration cost vs. benefit for simple serverless needs).
+
+**Files Created**:
+- `api/health.ts` - Health check serverless function
+
+**Files Modified**:
+- `.gitignore` - Added `.vercel/`
+- `package.json` - Added `@vercel/node` dev dependency
+- Documentation files with updated URLs
+
+**Verification Completed**:
+- API health endpoint returns correct JSON with CORS headers
+- All 11 datasets load correctly on Vercel
+- All 3 layouts (Graph, Timeline, Radial) work
+- Deep links and URL parameters work
+- Theme switching works
+- Dual deployment verified (both update on push)
+
+---

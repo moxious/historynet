@@ -41,6 +41,7 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 | M20 | SEO Improvements | 2026-01-19 |
 | M21 | Dataset Search & Filter | 2026-01-19 |
 | M23 | Wikimedia Sourcing | 2026-01-19 |
+| M24 | Vercel Migration | 2026-01-19 |
 
 **Key decisions made during MVP:**
 - React Context for state management (sufficient for app scale)
@@ -64,217 +65,28 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 
 ## Future Milestones
 
-Future milestones are organized into two tracks:
+Future milestones are organized into three tracks:
 - **Track A (M21, M23)**: Independent features with no dependencies - both complete
 - **Track B (M24-M27, M29-M30)**: Infrastructure & backend features with sequential dependencies
+- **Track C (M31-M32)**: Information architecture - restructures navigation flow (M31 → M32)
 
 > **Note**: Section order in this file may not match numerical order due to historical evolution. See ROADMAP.md for the canonical milestone plan and dependency diagram.
 
 ---
 
-## M24: Vercel Migration
+## M24: Vercel Migration ✅ COMPLETE
 
-**Goal**: Migrate deployment from GitHub Pages to Vercel to enable serverless API functions. Keep GitHub Pages as a backup.
+**Status**: ✅ Complete (2026-01-19). See `HISTORY.md` for detailed task list.
 
-**Track**: B (Infrastructure & Backend) - Foundation for M25, M26
+**Deployed**:
+- **Primary**: https://scenius-seven.vercel.app/ (with API)
+- **Backup**: https://moxious.github.io/historynet/ (frontend only)
 
-**Why Vercel**: Familiar platform with excellent GitOps deployment support. Enables M25 (feedback feature) and future database integrations (Vercel KV, Postgres).
-
-**Architecture Decision**: Stay with Vite. See Notes section for rationale.
-
-**Proof Point**: App running at `scenius-seven.vercel.app` with `/api/health` returning `{ status: "ok", timestamp: ... }`.
-
-**Prerequisites**:
-- Vercel account (confirmed)
-- Admin access to `github.com/moxious/historynet` (confirmed)
-
-**CORS Policy**: All API endpoints allow cross-origin requests from any origin (`*`). This is intentional—all data served by this application is public.
-
-**URL Migration Strategy**:
-- Upon first successful Vercel deploy, `scenius.vercel.app` becomes the **primary** URL
-- GitHub Pages (`moxious.github.io/historynet`) becomes backup (frontend only, no API)
-- **SEO files** (sitemap, robots.txt, canonical tags, JSON-LD): Defer updates to M26 (custom domain) to avoid SEO disruption
-- **Documentation files**: Update immediately to show Vercel as primary
-- **Code constants** (`PRODUCTION_BASE_URL`): Defer to M26, or make environment-aware
-
-**Dual Deployment Behavior**: Pushing to `main` triggers both deployments in parallel:
-1. GitHub Actions → GitHub Pages
-2. Vercel auto-deploy → Vercel
-
-This is expected and both should succeed independently.
-
-### Pre-Setup (Before CLI)
-
-- [x] **VM0** - Add `.vercel/` to `.gitignore`
-  ```bash
-  echo ".vercel" >> .gitignore
-  ```
-- [x] **VM0.5** - Install Vercel types for TypeScript
-  ```bash
-  npm install -D @vercel/node
-  ```
-
-### Vercel Project Setup (CLI)
-
-- [ ] **VM1** - Install Vercel CLI globally
-  ```bash
-  npm install -g vercel
-  ```
-- [ ] **VM2** - Login to Vercel CLI
-  ```bash
-  vercel login
-  ```
-- [ ] **VM3** - Link repository to Vercel project
-  ```bash
-  vercel link
-  ```
-  - When prompted: Create new project
-  - Project name: `scenius`
-  - Framework: Vite (should auto-detect)
-  - This creates `.vercel/` directory (now in `.gitignore` per VM0)
-- [ ] **VM4** - Deploy to production
-  ```bash
-  vercel --prod
-  ```
-  - Verify build succeeds
-  - Note the production URL (`scenius.vercel.app`)
-- [ ] **VM5** - Configure GitHub integration in Vercel dashboard
-  - Go to Project Settings → Git
-  - Verify `moxious/historynet` is connected
-  - Enable automatic deployments on push to `main`
-  - Note: Preview deployments on PRs are enabled by default (this is fine)
-
-### Frontend Verification
-
-- [x] **VM6** - Test frontend functionality at `scenius-seven.vercel.app`
-  - Home page loads
-  - Dataset selector works
-  - All three layouts render (Graph, Timeline, Radial)
-- [x] **VM6.5** - Verify all datasets load correctly
-  - ai-llm-research (default)
-  - rosicrucian-network
-  - enlightenment
-  - ambient-music
-  - cybernetics-information-theory
-  - protestant-reformation
-  - renaissance-humanism
-  - scientific-revolution
-  - florentine-academy
-  - christian-kabbalah
-  - statistics-social-physics
-- [x] **VM6.6** - Verify Vite base path configuration
-  - Open browser Network tab
-  - Confirm assets load from `/` (root), NOT `/historynet/`
-  - Verify direct asset access: `scenius-seven.vercel.app/favicon.svg`
-  - Verify dataset access: `scenius-seven.vercel.app/datasets/ai-llm-research/manifest.json`
-- [x] **VM7** - Verify hash routing works correctly
-  - Deep link to node: `/#/ai-llm-research/node/person-geoffrey-hinton`
-  - Deep link to edge: `/#/ai-llm-research/edge/...`
-  - Theme parameter: `/#/?theme=dark`
-  - Layout parameter: `/#/?layout=timeline`
-
-### Serverless API Endpoint
-
-- [x] **VM8** - Create `api/health.ts` serverless function at **project root** (not under `src/`)
-  ```typescript
-  // api/health.ts (at repository root, creates /api/ directory)
-  import type { VercelRequest, VercelResponse } from '@vercel/node';
-  
-  // CORS headers - all endpoints are public
-  function setCorsHeaders(res: VercelResponse) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  }
-  
-  export default function handler(req: VercelRequest, res: VercelResponse) {
-    setCorsHeaders(res);
-    
-    // Handle preflight
-    if (req.method === 'OPTIONS') {
-      return res.status(200).end();
-    }
-    
-    res.status(200).json({
-      status: 'ok',
-      timestamp: new Date().toISOString(),
-      environment: process.env.VERCEL_ENV || 'unknown'
-    });
-  }
-  ```
-- [x] **VM9** - Deploy and test endpoint at `scenius-seven.vercel.app/api/health`
-  ```bash
-  vercel --prod
-  ```
-  - Verify JSON response in browser shows `{ status: "ok", timestamp: "...", environment: "production" }`
-  - Verify CORS headers present: `Access-Control-Allow-Origin: *`
-  - Test from browser console: `fetch('https://scenius-seven.vercel.app/api/health').then(r => r.json()).then(console.log)`
-- [ ] **VM10** - Add test environment variable via CLI
-  ```bash
-  vercel env add TEST_VAR production
-  ```
-  - Value: `hello-from-vercel`
-  - Temporarily update `/api/health.ts` to include `testVar: process.env.TEST_VAR`
-  - Redeploy and verify it appears in response
-  - Remove from response code (keep env var for future use)
-
-### Dual Deployment Verification
-
-- [ ] **VM11** - Verify GitHub Pages deployment still works
-  - Push a minor change and confirm both deployments update
-  - GitHub Pages: `moxious.github.io/historynet`
-  - Vercel: `scenius.vercel.app`
-- [ ] **VM12** - Verify `.github/workflows/deploy.yml` is unchanged and functional
-- [ ] **VM13** - Test that both deployments serve identical frontend functionality
-  - Note: API endpoints only work on Vercel (expected)
-
-### Documentation Updates
-
-**Files with hardcoded URLs** (14 total):
-
-| File | Action | When |
-|------|--------|------|
-| `AGENTS.md` | Update to show Vercel as primary | M24 |
-| `README.md` | Update to show Vercel as primary | M24 |
-| `ROADMAP.md` | Update live demo URL | M24 |
-| `CHEATSHEET.md` | Update live demo URL | M24 |
-| `CHANGELOG.md` | Add M24 entry (historical URLs stay) | M24 |
-| `HISTORY.md` | No change (historical record) | Never |
-| `index.html` | Keep GitHub Pages (SEO canonical) | M26 |
-| `src/components/SchemaOrg.tsx` | Keep GitHub Pages (SEO) | M26 |
-| `src/components/ResourceMeta.tsx` | Keep GitHub Pages (SEO) | M26 |
-| `public/sitemap.xml` | Keep GitHub Pages (SEO) | M26 |
-| `public/robots.txt` | Keep GitHub Pages (SEO) | M26 |
-| `public/opensearch.xml` | Keep GitHub Pages | M26 |
-| `public/llms.txt` | Keep GitHub Pages | M26 |
-| `vite.config.ts` | Comment only, no change needed | Never |
-
-- [x] **VM14** - Update `AGENTS.md` with deployment information
-  - Change "Production URL" to `https://scenius.vercel.app/`
-  - Update "Example URLs for Testing" to use Vercel domain
-  - Add note: "GitHub Pages (`moxious.github.io/historynet`) is a backup deployment without API support"
-  - Add note: "API endpoints (e.g., `/api/health`) only work on Vercel"
-- [x] **VM15** - Update `README.md` with deployment information
-  - Change "Live Application" URL to Vercel
-  - Update "URL Structure" section with Vercel examples
-  - Add "Deployment" section explaining dual deployment:
-    - Primary: Vercel (with API support)
-    - Backup: GitHub Pages (frontend only)
-  - Keep GitHub Actions badge (still deploys to GH Pages)
-- [x] **VM16** - Update `ROADMAP.md` live demo URL to Vercel
-- [x] **VM17** - Update `CHEATSHEET.md` live demo URL to Vercel
-- [x] **VM18** - Update `CHANGELOG.md` with M24 completion entry
-  - Document the migration
-  - Note both URLs
-  - Note API endpoint availability
-
-### Rollback Plan
-
-If Vercel deployment has issues:
-1. GitHub Pages remains fully functional for frontend (verify in VM11-VM13)
-2. API features (M25+) would be unavailable, but core app works
-3. Documentation can be reverted to show GitHub Pages as primary
-4. To disable Vercel: Remove GitHub integration in Vercel dashboard
+**Key Deliverables**:
+- Vercel deployment with auto-deploy on push to `main`
+- `/api/health` serverless endpoint
+- Dual deployment (Vercel + GitHub Pages)
+- Documentation updated with new URLs
 
 ---
 
@@ -675,6 +487,196 @@ labels: feedback
 
 ---
 
+## M31: Dataset Pages
+
+**Goal**: Create a narrative overview page for each dataset that provides a gentler entry point than the graph visualization. Users can browse dataset contents before diving into the full interactive experience.
+
+**Track**: C (Information Architecture) - No dependencies
+
+**Key Changes**:
+- New route: `/:datasetId` for dataset overview pages
+- Move current graph view from `/` to `/:datasetId/explore`
+- New schema field: `bannerEmoji` in manifest.json
+- Update all internal link generation to new URL scheme
+
+### Phase 1: Schema & Data Migration
+
+- [x] **DP1** - Add `bannerEmoji` field to `GRAPH_SCHEMA.md` manifest section
+- [x] **DP2** - Add `"bannerEmoji": "❓"` placeholder to all existing manifest.json files (11 datasets)
+- [x] **DP3** - Dataset validation accepts `bannerEmoji` (schema is extensible by design, no changes needed)
+
+### Phase 2: Routing Architecture
+
+- [ ] **DP4** - Create new route `/:datasetId` for DatasetOverviewPage
+- [ ] **DP5** - Create new route `/:datasetId/explore` for current graph/timeline/radial view
+- [ ] **DP6** - Move MainLayout rendering from `/` to `/:datasetId/explore`
+- [ ] **DP7** - Update `App.tsx` with new route structure
+- [ ] **DP8** - Ensure `/:datasetId/node/:nodeId` and `/:datasetId/from/:sourceId/to/:targetId` routes still work
+- [ ] **DP9** - Add redirect or 404 handling for old `/` route (will be replaced by homepage in M32)
+
+### Phase 3: DatasetOverviewPage Component
+
+- [ ] **DP10** - Create `src/pages/DatasetOverviewPage.tsx` component
+- [ ] **DP11** - Create `src/pages/DatasetOverviewPage.css` stylesheet
+- [ ] **DP12** - Display banner emoji (large, centered) from manifest `bannerEmoji` (default "❓")
+- [ ] **DP13** - Display dataset title from manifest `name`
+- [ ] **DP14** - Display dataset description from manifest `description`
+- [ ] **DP15** - Export from `src/pages/index.ts` barrel file
+
+### Phase 4: Most Connected Items (POLE Columns)
+
+- [ ] **DP16** - Create `useTopConnectedNodes` hook to calculate degree (edge count) per node
+- [ ] **DP17** - Group nodes by POLE type (person, object, location, entity)
+- [ ] **DP18** - Sort each group by degree descending
+- [ ] **DP19** - Return top 5 per type (or all if fewer than 5)
+- [ ] **DP20** - Create `TopConnectedSection` component for rendering POLE columns
+- [ ] **DP21** - Responsive layout: 4 columns (desktop) → 2 columns (tablet) → 1 column (mobile)
+- [ ] **DP22** - Display node title as link for each item
+
+### Phase 5: Explore Links
+
+- [ ] **DP23** - Add 🔍 (spyglass) icon next to each item in POLE columns
+- [ ] **DP24** - Create `buildExploreUrl` utility: `/:datasetId/explore?selected={nodeId}&type=node&layout=graph`
+- [ ] **DP25** - Explore link clears all filters (no filter params in URL)
+- [ ] **DP26** - Explore link preserves theme (if theme param exists, keep it)
+- [ ] **DP27** - Spyglass icon links to graph layout specifically (not timeline/radial)
+
+### Phase 6: Link Generation Migration
+
+- [ ] **DP28** - Audit all internal link generation in codebase
+- [ ] **DP29** - Update `NodeInfobox.tsx` links to use new URL scheme
+- [ ] **DP30** - Update `EdgeInfobox.tsx` links to use new URL scheme
+- [ ] **DP31** - Update `ShareButtons.tsx` to generate new URL format
+- [ ] **DP32** - Update `SearchBox.tsx` result links (if applicable)
+- [ ] **DP33** - Update any cross-linking in layouts (ForceGraphLayout, TimelineLayout, RadialLayout)
+- [ ] **DP34** - Create `src/utils/urlBuilder.ts` with centralized URL construction helpers
+- [ ] **DP35** - Verify no old-format URLs remain in generated links
+
+### Phase 7: SEO
+
+- [ ] **DP36** - Create `DatasetMeta.tsx` component for dataset page meta tags
+- [ ] **DP37** - Unique `<title>` per dataset: "{name} | Scenius"
+- [ ] **DP38** - Unique meta description per dataset (truncated `description`)
+- [ ] **DP39** - Open Graph tags: og:title, og:description, og:url
+- [ ] **DP40** - Add JSON-LD structured data (`@type: Dataset` or `DataCatalog`)
+- [ ] **DP41** - Update `public/sitemap.xml` with entries for all dataset pages (`/:datasetId`)
+- [ ] **DP42** - Verify sitemap includes both dataset pages and explore pages
+
+### Phase 8: Styling & Polish
+
+- [ ] **DP43** - Style DatasetOverviewPage consistent with app design
+- [ ] **DP44** - Support light/dark theme (use existing CSS variables)
+- [ ] **DP45** - Emoji display at appropriate size (e.g., 3-4rem)
+- [ ] **DP46** - POLE column headers with type icons or labels
+- [ ] **DP47** - Hover states on item links
+- [ ] **DP48** - Mobile-friendly touch targets
+
+### Phase 9: Testing & Verification
+
+- [ ] **DP49** - Test navigation: homepage → dataset page → explore → back
+- [ ] **DP50** - Test all 11 datasets load correctly on overview page
+- [ ] **DP51** - Test POLE columns show correct top 5 (verify against manual edge count)
+- [ ] **DP52** - Test explore links open graph view with correct item selected
+- [ ] **DP53** - Test theme persistence across navigation
+- [ ] **DP54** - Test mobile responsive layout
+- [ ] **DP55** - Verify old deep links to nodes/edges still work
+- [ ] **DP56** - Build passes with no errors
+- [ ] **DP57** - No linter warnings in new/modified files
+- [ ] **DP58** - Update CHANGELOG.md with M31 completion notes
+
+---
+
+## M32: New Homepage
+
+**Goal**: Replace the current "jump into graph view" entry point with a browsable list of dataset tiles. Users can discover available datasets, search/filter them, and click through to dataset overview pages.
+
+**Track**: C (Information Architecture) - Depends on M31 (Dataset Pages)
+
+**Prerequisites**: M31 must be complete (dataset pages exist, routing structure in place)
+
+### Phase 1: HomePage Component
+
+- [ ] **HP1** - Create `src/pages/HomePage.tsx` component
+- [ ] **HP2** - Create `src/pages/HomePage.css` stylesheet
+- [ ] **HP3** - Export from `src/pages/index.ts` barrel file
+- [ ] **HP4** - Update `App.tsx` to render HomePage at `/` route
+- [ ] **HP5** - Add page heading: "Explore Historical Networks" or similar
+
+### Phase 2: Dataset Tiles
+
+- [ ] **HP6** - Create `src/components/DatasetTile.tsx` component
+- [ ] **HP7** - Create `src/components/DatasetTile.css` stylesheet
+- [ ] **HP8** - Display banner emoji from manifest `bannerEmoji` (default "❓")
+- [ ] **HP9** - Display dataset name from manifest `name`
+- [ ] **HP10** - Display truncated description (2-3 lines max with ellipsis)
+- [ ] **HP11** - Display node/edge counts: "{nodeCount} nodes · {edgeCount} edges"
+- [ ] **HP12** - Display date range from `scope.startYear`–`scope.endYear` (or `temporalScope` fallback)
+- [ ] **HP13** - Tile click navigates to `/:datasetId` (dataset overview page)
+- [ ] **HP14** - Export from `src/components/index.ts` barrel file
+
+### Phase 3: Dataset Grid
+
+- [ ] **HP15** - Create `DatasetGrid` component to render tiles
+- [ ] **HP16** - Fetch all dataset manifests on page load
+- [ ] **HP17** - Responsive grid: 2-3 columns (desktop) → 2 columns (tablet) → 1 column (mobile)
+- [ ] **HP18** - Consistent tile sizing and spacing
+
+### Phase 4: Chronological Sorting
+
+- [ ] **HP19** - Sort datasets by `scope.startYear` ascending
+- [ ] **HP20** - Handle datasets without `scope.startYear` (place at end of list)
+- [ ] **HP21** - Fallback: parse `temporalScope` string if `scope.startYear` missing
+
+### Phase 5: Search/Filter
+
+- [ ] **HP22** - Add search input at top of page with search icon
+- [ ] **HP23** - Case-insensitive filter on `name` field
+- [ ] **HP24** - Case-insensitive filter on `description` field
+- [ ] **HP25** - Debounced input (reuse `useDebounce` hook)
+- [ ] **HP26** - Show "No matching datasets" empty state when filter returns empty
+- [ ] **HP27** - Clear button (×) to reset search
+
+### Phase 6: Header Adjustments
+
+- [ ] **HP28** - Evaluate dataset selector in header on homepage
+- [ ] **HP29** - Option A: Hide dataset selector on homepage (show only on explore/detail pages)
+- [ ] **HP30** - Option B: Keep dataset selector but link to overview pages instead of explore
+- [ ] **HP31** - Implement chosen option
+- [ ] **HP32** - Ensure header navigation works correctly from homepage
+
+### Phase 7: SEO
+
+- [ ] **HP33** - Add homepage meta tags via Helmet or index.html
+- [ ] **HP34** - Title: "Scenius - Explore Historical Networks"
+- [ ] **HP35** - Meta description summarizing the application
+- [ ] **HP36** - Open Graph tags for homepage
+- [ ] **HP37** - Update sitemap.xml to include homepage entry
+- [ ] **HP38** - Optional: JSON-LD for WebSite/WebApplication (may already exist)
+
+### Phase 8: Styling & Polish
+
+- [ ] **HP39** - Style HomePage consistent with app design
+- [ ] **HP40** - Support light/dark theme
+- [ ] **HP41** - Tile hover effects (subtle shadow or border)
+- [ ] **HP42** - Search input styling consistent with SearchableDatasetSelector
+- [ ] **HP43** - Loading state while manifests are being fetched
+- [ ] **HP44** - Mobile-friendly layout and touch targets
+
+### Phase 9: Testing & Verification
+
+- [ ] **HP45** - Test landing on `/` shows homepage with all dataset tiles
+- [ ] **HP46** - Test chronological sorting (earliest date range first)
+- [ ] **HP47** - Test search filters tiles correctly
+- [ ] **HP48** - Test clicking tile navigates to dataset overview page
+- [ ] **HP49** - Test full flow: homepage → dataset page → explore → node detail
+- [ ] **HP50** - Test theme toggle works on homepage
+- [ ] **HP51** - Test mobile responsive layout
+- [ ] **HP52** - Build passes with no errors
+- [ ] **HP53** - No linter warnings in new/modified files
+- [ ] **HP54** - Update CHANGELOG.md with M32 completion notes
+
+---
+
 ## Notes & Decisions
 
 _Add notes about implementation decisions, blockers, or clarifications here._
@@ -715,74 +717,11 @@ _Add notes about implementation decisions, blockers, or clarifications here._
 - 404 page noindex meta tag verified
 - Automated browser testing completed via MCP browser extension
 
-### M24 Vercel Migration Notes (2026-01-19)
+### M24 Vercel Migration Notes (2026-01-19) ✅ COMPLETE
 
-**Architecture Decision: Stay with Vite**
+See `HISTORY.md` for detailed implementation notes, architecture decisions, and file changes.
 
-Evaluated Vite vs Next.js migration. Decision: **Stay with Vite**.
-
-**Rationale:**
-- Primary need is simple: one serverless endpoint for feedback → GitHub issues (M25)
-- Migration cost is high (20+ components, routing rewrite, hook adaptations)
-- Migration benefit is low (Google renders JS well, JSON-LD already added in M20)
-- GitHub Pages backup stays intact with current HashRouter architecture
-- Vercel's Vite support is mature and handles `/api/*.ts` serverless functions well
-- Future database access (Vercel KV, Postgres) works from serverless functions regardless of framework
-
-**If Next.js becomes needed later**, triggers would be:
-- SEO becomes critical and M20 improvements prove insufficient
-- Server-side data fetching required (e.g., datasets from database instead of static JSON)
-- Need for incremental static regeneration
-
-**Deployment targets:**
-- Primary: `scenius.vercel.app` (Vercel, with API support)
-- Backup: `moxious.github.io/historynet` (GitHub Pages, frontend only)
-
-**Pre-execution review (2026-01-19):**
-
-Key discoveries and additions to the plan:
-
-1. **`.gitignore` update needed** - `.vercel/` was not in `.gitignore`. Added VM0 task.
-
-2. **Package installation** - `@vercel/node` needed for TypeScript types. Added VM0.5 task.
-
-3. **API directory clarification** - Vercel expects serverless functions at `/api/*.ts` at project root (not under `/src/`). Clarified in VM8.
-
-4. **CORS policy** - All endpoints allow cross-origin (`*`) since all data is public. Added CORS headers to VM8 example.
-
-5. **Vite base path** - Current config uses `/historynet/` only when `GITHUB_ACTIONS` env var is set. Vercel builds use `/` by default. Added VM6.6 to explicitly verify.
-
-6. **Dataset testing** - Expanded VM6.5 to test all 11 datasets, not just "dataset selector works".
-
-7. **URL update strategy** - Documented 14 files with hardcoded URLs. Decision: Update documentation now (M24), defer SEO files to M26 (custom domain) to avoid disruption.
-
-8. **Dual deployment behavior** - Both deployments trigger on push to `main`. Documented as expected behavior.
-
-9. **Rollback plan** - Added section documenting GitHub Pages as fallback if Vercel has issues.
-
-**Files to create during M24:**
-- `.vercel/` directory (auto-created by `vercel link`, gitignored)
-- `api/health.ts` - First serverless function
-
-**Files to modify during M24:**
-- `.gitignore` - Add `.vercel/`
-- `package.json` - Add `@vercel/node` dev dependency
-- `AGENTS.md` - Update primary URL to Vercel
-- `README.md` - Update primary URL, add dual deployment docs
-- `ROADMAP.md` - Update live demo URL
-- `CHEATSHEET.md` - Update live demo URL
-- `CHANGELOG.md` - Add M24 entry
-
-**Files NOT modified during M24 (deferred to M26):**
-- `index.html` - SEO canonical/og tags stay as GitHub Pages
-- `src/components/SchemaOrg.tsx` - `PRODUCTION_BASE_URL` stays
-- `src/components/ResourceMeta.tsx` - `PRODUCTION_BASE_URL` stays
-- `public/sitemap.xml` - All URLs stay as GitHub Pages
-- `public/robots.txt` - Domain stays as GitHub Pages
-- `public/opensearch.xml` - URLs stay as GitHub Pages
-- `public/llms.txt` - URL stays as GitHub Pages
-
-> **Historical notes**: Detailed implementation notes for completed milestones (M1-M14) have been archived to `HISTORY.md`.
+**Summary**: Deployed to `scenius-seven.vercel.app` with `/api/health` endpoint. Dual deployment with GitHub Pages as backup. SEO files deferred to M26 (custom domain).
 
 ---
 

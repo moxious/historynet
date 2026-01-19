@@ -13,21 +13,24 @@ This document outlines the milestone structure and future direction for HistoryN
 | M1-M20 | Core Application (See Completed Milestones) | ✅ Complete |
 | M21 | Dataset Search & Filter | ✅ Complete |
 | M23 | Wikimedia Sourcing | ✅ Complete |
-| M24 | Vercel Migration | 🚧 In Progress |
+| M24 | Vercel Migration | ✅ Complete |
 | M25 | User Feedback Feature | 🔲 Future (depends on M24) |
 | M26 | Custom Domain | 🔲 Future (depends on M24) |
 | M27 | Feedback Spam Protection | 🔲 Future (depends on M25) |
 | M29 | Cross-Scene Node Index API | 🔲 Future (depends on M24) |
 | M30 | Cross-Scene Navigation UI | 🔲 Future (depends on M29) |
+| M31 | Dataset Pages | 🔲 Future |
+| M32 | New Homepage | 🔲 Future (depends on M31) |
 
-**Two Parallel Tracks:**
+**Three Parallel Tracks:**
 
 | Track | Milestones | Prerequisites |
 |-------|------------|---------------|
 | **A: Independent Features** | M21, M23 | None - can start immediately |
 | **B: Infrastructure & Backend** | M24 → M25 → M27, M24 → M26, M24 → M29 → M30 | M24 is foundation for rest |
+| **C: Information Architecture** | M31 → M32 | None - can start immediately |
 
-> **Note**: Track A milestones have no dependencies and can be executed in any order. Track B milestones have dependencies as shown.
+> **Note**: Track A milestones are complete. Track B milestones have sequential dependencies starting from M24. Track C milestones restructure the app's navigation flow and can be developed independently of Track B.
 
 ---
 
@@ -422,6 +425,244 @@ Cross-scene link:
 
 ---
 
+## Future: M31 - Dataset Pages
+
+**Goal**: Create a static overview page for each dataset that provides a narrative introduction before users dive into the graph visualization. This creates a gentler onramp into the complexity of the network data.
+
+**Track**: C (Information Architecture) - No dependencies
+
+**Problem**: Currently, users must jump immediately into the deep end of visualizing complex graph data. There's no simple way to share or preview what a dataset contains without loading the full interactive visualization.
+
+### URL Structure Change
+
+This milestone introduces a new routing architecture:
+
+| Route | Page | Description |
+|-------|------|-------------|
+| `/` | Homepage | List of all datasets (implemented in M32) |
+| `/:datasetId` | **Dataset Overview** | New narrative page for each dataset |
+| `/:datasetId/explore` | Graph/Timeline/Radial | Current main visualization (moved from `/`) |
+| `/:datasetId/node/:nodeId` | Node Detail | Unchanged |
+| `/:datasetId/from/:sourceId/to/:targetId` | Edge Detail | Unchanged |
+
+### Schema Change
+
+Add `bannerEmoji` field to manifest schema:
+
+```json
+{
+  "bannerEmoji": "🔬🧬🤖"
+}
+```
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `bannerEmoji` | string | ⚪ Optional | 1-3 emoji representing the dataset's theme. Default: "❓" |
+
+**Migration**: All existing datasets will need `bannerEmoji` added. Use "❓" as placeholder until curated.
+
+### Page Structure
+
+**DatasetOverviewPage** layout:
+
+```
+┌─────────────────────────────────────────────────┐
+│  🔬🧬🤖  AI & LLM Research Network              │
+│                                                 │
+│  The key researchers, organizations, and works  │
+│  of the modern AI/LLM revolution (2012-present) │
+│  ...                                            │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌────────┐│
+│  │ Persons │ │ Objects │ │Locations│ │Entities││
+│  │         │ │         │ │         │ │        ││
+│  │ Hinton 🔍│ │ GPT-4 🔍│ │ SF  🔍 │ │OpenAI🔍││
+│  │ LeCun  🔍│ │ BERT  🔍│ │ London🔍│ │Google🔍││
+│  │ Bengio 🔍│ │ ...   🔍│ │ ...  🔍 │ │ ...  🔍││
+│  │ ...     │ │         │ │         │ │        ││
+│  └─────────┘ └─────────┘ └─────────┘ └────────┘│
+│                                                 │
+│  Responsive: 4 cols → 2 cols → 1 col on mobile │
+└─────────────────────────────────────────────────┘
+```
+
+### Design Decisions
+
+| Decision | Choice | Rationale |
+|----------|--------|-----------|
+| Banner visual | 1-3 emoji (`bannerEmoji`) | Lightweight, no image hosting needed, visually distinctive |
+| Description source | Manifest `description` field | Already exists, can be edited as needed |
+| Item ranking | Simple degree count | Most connected = most central to the network |
+| Items per type | Top 5 (or all if fewer) | Enough to be representative without overwhelming |
+| Connection count | Don't display | Keep the list clean and simple |
+| Explore icon | 🔍 (spyglass) | Opens graph view with that item selected |
+| Explore behavior | Graph layout, clear filters, preserve theme | Consistent starting point for exploration |
+
+### Key Deliverables
+
+1. **Schema update**: Add `bannerEmoji` to `GRAPH_SCHEMA.md` manifest section
+
+2. **Dataset migration**: Add `"bannerEmoji": "❓"` to all existing manifest.json files
+
+3. **Routing changes**:
+   - Move current `/` graph view to `/:datasetId/explore`
+   - Add `/:datasetId` route for DatasetOverviewPage
+   - Update all internal link generation throughout codebase
+
+4. **DatasetOverviewPage component** (`src/pages/DatasetOverviewPage.tsx`):
+   - Banner emoji display (large, centered)
+   - Dataset title from manifest `name`
+   - Description from manifest `description`
+   - POLE columns with top 5 most connected items per type
+
+5. **Most connected items logic**:
+   - Calculate degree (edge count) for each node
+   - Group by POLE type
+   - Sort by degree descending
+   - Take top 5 (or all if fewer than 5)
+
+6. **Item links with explore icon**:
+   - Each item shows title + 🔍 icon
+   - Click navigates to `/:datasetId/explore?selected={nodeId}&type=node&layout=graph`
+   - Clears any filters, preserves theme
+
+7. **SEO**:
+   - Unique `<title>` and meta description per dataset
+   - JSON-LD structured data (`@type: Dataset`)
+   - Sitemap entries for all dataset pages
+
+8. **Responsive design**:
+   - 4 columns on desktop
+   - 2 columns on tablet
+   - 1 column (stacked) on mobile
+
+9. **Link generation migration**:
+   - Audit all places that generate URLs
+   - Update to new `/:datasetId/explore` scheme
+   - No backward compatibility needed for old URLs
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
+## Future: M32 - New Homepage
+
+**Goal**: Replace the current "jump into graph view" entry point with a browsable list of dataset tiles. Users can see all available datasets, search/filter them, and click through to dataset overview pages.
+
+**Track**: C (Information Architecture) - Depends on M31 (Dataset Pages)
+
+**Problem**: The current app requires users to immediately engage with complex graph visualizations. New users have no way to browse what's available or understand what each dataset contains before committing to explore it.
+
+### User Flow
+
+```
+Landing (/)           Dataset Overview        Graph Exploration
+┌─────────────┐      ┌─────────────────┐     ┌─────────────────┐
+│             │      │                 │     │                 │
+│  [Search]   │      │  🔬🧬🤖         │     │   ┌───┐         │
+│             │      │  AI & LLM       │     │  ┌┴───┴┐        │
+│ ┌─────────┐ │      │  Research       │     │  │     │────┐   │
+│ │ 🔬 AI   │─┼─────▶│                 │────▶│  └─────┘    │   │
+│ │ Research│ │      │  Top People:    │     │      ◇──────┘   │
+│ └─────────┘ │      │  • Hinton 🔍    │     │                 │
+│ ┌─────────┐ │      │  • LeCun 🔍     │     │  [Filters]      │
+│ │ 🌹 Rosi-│ │      │  ...            │     │  [Layout]       │
+│ │ crucian │ │      └─────────────────┘     └─────────────────┘
+│ └─────────┘ │
+│    ...      │
+└─────────────┘
+```
+
+### Page Structure
+
+**HomePage** layout:
+
+```
+┌─────────────────────────────────────────────────┐
+│  Scenius                              [Theme]   │
+├─────────────────────────────────────────────────┤
+│                                                 │
+│  Explore Historical Networks                    │
+│                                                 │
+│  ┌─────────────────────────────────────────┐   │
+│  │ 🔍 Search datasets...                    │   │
+│  └─────────────────────────────────────────┘   │
+│                                                 │
+│  ┌───────────────────┐ ┌───────────────────┐   │
+│  │ 🏛️📜✨              │ │ 🌹⚗️🔮              │   │
+│  │ Florentine Academy │ │ Rosicrucian       │   │
+│  │ The Platonic Acad- │ │ Intellectual net- │   │
+│  │ emy of Florence... │ │ work of the...    │   │
+│  │                    │ │                    │   │
+│  │ 50 nodes · 102 edges│ │ 112 nodes · 229..│   │
+│  │ 1433–1535          │ │ 1493–1700         │   │
+│  └───────────────────┘ └───────────────────┘   │
+│                                                 │
+│  ┌───────────────────┐ ┌───────────────────┐   │
+│  │ ...               │ │ ...               │   │
+│  └───────────────────┘ └───────────────────┘   │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+### Design Decisions
+
+| Decision | Choice | Rationale |
+|----------|--------|-----------|
+| Tile content | Emoji, name, description (truncated), counts, date range | Enough info to decide whether to explore |
+| Sorting | Chronological by `scope.startYear` | Natural historical ordering |
+| Search | Filter by name or description | Reuses pattern from M21 dataset search |
+| Click behavior | Navigate to `/:datasetId` (dataset overview) | Follow the narrative path |
+
+### Key Deliverables
+
+1. **HomePage component** (`src/pages/HomePage.tsx`):
+   - Page title/heading
+   - Search input for filtering datasets
+   - Grid of dataset tiles
+
+2. **DatasetTile component** (`src/components/DatasetTile.tsx`):
+   - Banner emoji (from `bannerEmoji`, default "❓")
+   - Dataset name (from `name`)
+   - Truncated description (2-3 lines max)
+   - Node/edge counts (from `nodeCount`, `edgeCount`)
+   - Date range (from `scope.startYear`–`scope.endYear` or `temporalScope`)
+   - Click → navigate to `/:datasetId`
+
+3. **Search functionality**:
+   - Text input with search icon
+   - Case-insensitive filter on `name` and `description`
+   - Debounced input (reuse pattern from M21)
+   - Show "No matching datasets" empty state
+
+4. **Chronological sorting**:
+   - Sort by `scope.startYear` ascending
+   - Datasets without scope fall to end of list
+   - Handle missing/null gracefully
+
+5. **Routing update**:
+   - `/` now renders HomePage (not graph view)
+   - Remove automatic dataset loading on `/`
+
+6. **Responsive design**:
+   - 2-3 columns on desktop
+   - 2 columns on tablet
+   - 1 column on mobile
+
+7. **SEO**:
+   - Homepage meta tags (title: "Scenius - Explore Historical Networks")
+   - JSON-LD for the site/organization
+   - Sitemap entry for homepage
+
+8. **Header updates**:
+   - Dataset selector in header may need adjustment or removal on homepage
+   - Consider: show selector only on explore/detail pages
+
+**Status**: Not started. Full task breakdown in `PROGRESS.md`.
+
+---
+
 ## Future Ideas (Not Yet Planned)
 
 These are potential features that may become milestones:
@@ -444,26 +685,27 @@ These are potential features that may become milestones:
 ```
 M1-M20 (Core Application Complete) ✅
     │
-    ├───────────────────────────────────────────┐
-    │                                           │
-    │  TRACK A: Independent Features            │  TRACK B: Infrastructure
-    │  (Complete)                               │  (Sequential dependencies)
-    │                                           │
-    ├──────────────┬────────────────┐           │
-    ▼              ▼                │           ▼
-   M21            M23               │          M24
-   (Dataset      (Wikimedia        │         (Vercel)
-   Search) ✅    Sourcing) ✅      │            │
-                                   │            ├──────────────┬──────────────┐
-                                   │            ▼              ▼              ▼
-                                   │           M25            M26            M29
-                                   │        (Feedback)     (Domain)      (Cross-
-                                   │            │                        Scene API)
-                                   │            ▼                            │
-                                   │           M27                           ▼
-                                   │        (Spam Prot.)                   M30
-                                   │                                    (Cross-
-                                   │                                    Scene UI)
+    ├───────────────────────────────────────────┬──────────────────────────┐
+    │                                           │                          │
+    │  TRACK A: Independent Features            │  TRACK B: Infrastructure │  TRACK C: Info Architecture
+    │  (Complete)                               │  (Sequential)            │  (Sequential)
+    │                                           │                          │
+    ├──────────────┬────────────────┐           │                          │
+    ▼              ▼                │           ▼                          ▼
+   M21            M23               │          M24                        M31
+   (Dataset      (Wikimedia        │         (Vercel)                   (Dataset
+   Search) ✅    Sourcing) ✅      │            │                        Pages)
+                                   │            ├──────────┬──────────┐    │
+                                   │            ▼          ▼          ▼    ▼
+                                   │           M25        M26        M29  M32
+                                   │        (Feedback) (Domain)   (Cross-(Homepage)
+                                   │            │                  Scene
+                                   │            ▼                  API)
+                                   │           M27                   │
+                                   │        (Spam Prot.)             ▼
+                                   │                                M30
+                                   │                             (Cross-
+                                   │                             Scene UI)
 ```
 
 **Track A - Independent Features** (complete):
@@ -477,6 +719,10 @@ M1-M20 (Core Application Complete) ✅
 - **M27 (Spam Protection)**: Requires M25. Enhancement to feedback form.
 - **M29 (Cross-Scene API)**: Requires M24. Build-time index and serverless endpoint for cross-scene discovery.
 - **M30 (Cross-Scene UI)**: Requires M29. Infobox links and graph visual indicators for multi-scene nodes.
+
+**Track C - Information Architecture** (sequential):
+- **M31 (Dataset Pages)**: No dependencies. Introduces `/:datasetId` routes, moves graph view to `/:datasetId/explore`, creates narrative dataset overview pages.
+- **M32 (New Homepage)**: Requires M31. Takes over `/` route with browsable dataset tiles, search, chronological sorting.
 
 ---
 
