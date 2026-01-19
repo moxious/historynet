@@ -17,7 +17,6 @@ import { useResourceParams, buildFullNodeUrl, buildGraphViewUrl } from '@hooks/u
 import { useNodeEnrichedData } from '@hooks';
 import ResourceMeta from '@components/ResourceMeta';
 import SchemaOrg from '@components/SchemaOrg';
-import ShareButtons from '@components/ShareButtons';
 import WikipediaAttribution from '@components/WikipediaAttribution';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
@@ -267,16 +266,7 @@ function NodeDetailPage() {
         {/* Right column: Title and description */}
         <div className="resource-detail__header-content">
           <span className={getTypeBadgeClass(node.type)}>{node.type}</span>
-          <div className="resource-detail__title-row">
-            <h1 className="resource-detail__title">{node.title}</h1>
-            <ShareButtons
-              url={fullUrl}
-              title={node.title}
-              description={node.shortDescription}
-              variant="inline"
-              size="small"
-            />
-          </div>
+          <h1 className="resource-detail__title">{node.title}</h1>
           {node.shortDescription && (
             <p className="resource-detail__description">{node.shortDescription}</p>
           )}

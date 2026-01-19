@@ -22,6 +22,7 @@ import LayoutSwitcher from './LayoutSwitcher';
 import ThemeToggle from './ThemeToggle';
 import MobileMenu from './MobileMenu';
 import HamburgerButton from './HamburgerButton';
+import HeaderShareButtons from './HeaderShareButtons';
 import './Header.css';
 
 function Header() {
@@ -84,6 +85,9 @@ function Header() {
 
           {/* Mobile controls */}
           <div className="header__mobile-controls">
+            {/* Share buttons - always visible */}
+            <HeaderShareButtons />
+            
             {/* Search - expandable, only shown on explore route */}
             {isExploreRoute && (
               isSearchExpanded ? (
@@ -181,6 +185,7 @@ function Header() {
           </>
         )}
         <ThemeToggle />
+        <HeaderShareButtons />
       </div>
     </header>
   );

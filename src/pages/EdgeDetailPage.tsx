@@ -15,7 +15,6 @@ import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
 import { useResourceParams, buildFullEdgeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
 import ResourceMeta from '@components/ResourceMeta';
-import ShareButtons from '@components/ShareButtons';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
 
@@ -426,13 +425,6 @@ function EdgeDetailPage() {
           </svg>
           View in Graph
         </Link>
-        <ShareButtons
-          url={fullUrl}
-          title={pageTitle}
-          description={pageDescription}
-          variant="inline"
-          size="medium"
-        />
       </div>
 
       {/* Node Cards */}

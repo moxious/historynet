@@ -1,0 +1,75 @@
+/**
+ * HeaderShareButtons styles
+ * 
+ * Compact emoji-based buttons with 44px touch targets for mobile accessibility.
+ */
+
+.header-share-buttons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.header-share-buttons__button {
+  /* 44px touch target for accessibility */
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s, transform 0.1s;
+}
+
+.header-share-buttons__button:hover {
+  background-color: var(--color-surface-hover);
+  border-color: var(--color-border-focus);
+}
+
+.header-share-buttons__button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.header-share-buttons__button:active {
+  transform: scale(0.95);
+}
+
+/* Success state */
+.header-share-buttons__button--success {
+  border-color: var(--success-color, #10b981);
+  animation: header-share-success 0.2s ease-out;
+}
+
+@keyframes header-share-success {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Emoji styling */
+.header-share-buttons__emoji {
+  font-size: 18px;
+  line-height: 1;
+}
+
+/* Desktop-specific adjustments - slightly smaller buttons */
+@media (min-width: 640px) {
+  .header-share-buttons__button {
+    width: 36px;
+    height: 36px;
+  }
+
+  .header-share-buttons__emoji {
+    font-size: 16px;
+  }
+}
