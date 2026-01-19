@@ -42,6 +42,7 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 | M21 | Dataset Search & Filter | 2026-01-19 |
 | M23 | Wikimedia Sourcing | 2026-01-19 |
 | M24 | Vercel Migration | 2026-01-19 |
+| M31 | Dataset Pages | 2026-01-19 |
 
 **Key decisions made during MVP:**
 - React Context for state management (sufficient for app scale)
@@ -68,7 +69,7 @@ All MVP and post-MVP milestones through M16 are complete. See `HISTORY.md` for d
 Future milestones are organized into three tracks:
 - **Track A (M21, M23)**: Independent features with no dependencies - both complete
 - **Track B (M24-M27, M29-M30)**: Infrastructure & backend features with sequential dependencies
-- **Track C (M31-M32)**: Information architecture - restructures navigation flow (M31 → M32)
+- **Track C (M31-M32)**: Information architecture - M31 complete, M32 (New Homepage) ready to start
 
 > **Note**: Section order in this file may not match numerical order due to historical evolution. See ROADMAP.md for the canonical milestone plan and dependency diagram.
 
@@ -487,11 +488,13 @@ labels: feedback
 
 ---
 
-## M31: Dataset Pages
+## M31: Dataset Pages ✅ COMPLETE
 
 **Goal**: Create a narrative overview page for each dataset that provides a gentler entry point than the graph visualization. Users can browse dataset contents before diving into the full interactive experience.
 
 **Track**: C (Information Architecture) - No dependencies
+
+**Status**: ✅ Complete (2026-01-19)
 
 **Key Changes**:
 - New route: `/:datasetId` for dataset overview pages
