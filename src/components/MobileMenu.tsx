@@ -38,6 +38,8 @@ interface MobileMenuProps {
   onLayoutChange: (layout: LayoutType) => void;
   /** Currently selected node ID - radial view requires a node selection */
   selectedNodeId?: string | null;
+  /** Whether to show visualization controls (layout, dataset) - only on explore route */
+  showVisualizationControls?: boolean;
 }
 
 function MobileMenu({
@@ -49,6 +51,7 @@ function MobileMenu({
   currentLayout,
   onLayoutChange,
   selectedNodeId,
+  showVisualizationControls = true,
 }: MobileMenuProps) {
   const menuRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
@@ -141,29 +144,34 @@ function MobileMenu({
         </div>
 
         <nav className="mobile-menu__content">
-          {/* Dataset Section */}
-          <div className="mobile-menu__section">
-            <label className="mobile-menu__section-label">Dataset</label>
-            <SearchableDatasetSelector
-              currentDatasetId={currentDatasetId}
-              onSelect={handleDatasetSelect}
-              isLoading={isDatasetLoading}
-              className="mobile-menu__dataset-selector"
-            />
-          </div>
+          {/* Visualization controls - only shown on explore route */}
+          {showVisualizationControls && (
+            <>
+              {/* Dataset Section */}
+              <div className="mobile-menu__section">
+                <label className="mobile-menu__section-label">Dataset</label>
+                <SearchableDatasetSelector
+                  currentDatasetId={currentDatasetId}
+                  onSelect={handleDatasetSelect}
+                  isLoading={isDatasetLoading}
+                  className="mobile-menu__dataset-selector"
+                />
+              </div>
 
-          {/* Layout Section */}
-          <div className="mobile-menu__section">
-            <label className="mobile-menu__section-label">View</label>
-            <LayoutSwitcher
-              currentLayout={currentLayout}
-              onLayoutChange={handleLayoutChange}
-              selectedNodeId={selectedNodeId}
-              className="mobile-menu__layout-switcher"
-            />
-          </div>
+              {/* Layout Section */}
+              <div className="mobile-menu__section">
+                <label className="mobile-menu__section-label">View</label>
+                <LayoutSwitcher
+                  currentLayout={currentLayout}
+                  onLayoutChange={handleLayoutChange}
+                  selectedNodeId={selectedNodeId}
+                  className="mobile-menu__layout-switcher"
+                />
+              </div>
+            </>
+          )}
 
-          {/* Theme Section */}
+          {/* Theme Section - always shown */}
           <div className="mobile-menu__section">
             <label className="mobile-menu__section-label">Theme</label>
             <div className="mobile-menu__theme-row">
