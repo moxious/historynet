@@ -5,6 +5,7 @@ import DatasetExploreWrapper from '@components/DatasetExploreWrapper';
 import ErrorBoundary from '@components/ErrorBoundary';
 import FeedbackButton from '@components/FeedbackButton';
 import { HomePage, DatasetOverviewPage, NodeDetailPage, EdgeDetailPage, NotFoundPage } from './pages';
+import { usePageTracking } from '@hooks';
 
 /**
  * Main App component with routing configuration
@@ -18,6 +19,9 @@ import { HomePage, DatasetOverviewPage, NodeDetailPage, EdgeDetailPage, NotFound
  * - * : 404 page for unmatched routes
  */
 function App() {
+  // Track page views on route changes (no-op if GA not configured)
+  usePageTracking();
+
   return (
     <>
       <Routes>

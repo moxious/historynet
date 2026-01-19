@@ -3,8 +3,12 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { GraphProvider, ThemeProvider } from '@contexts';
+import { initGA } from '@utils';
 import './index.css';
 import App from './App';
+
+// Initialize Google Analytics (no-op if VITE_GA_TRACKING_ID is not set)
+initGA();
 
 // Using BrowserRouter for clean URLs and social media crawlers (M33)
 // URL structure:

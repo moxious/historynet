@@ -61,3 +61,5 @@ export {
   buildFullEdgeUrl,
   buildGraphViewUrl,
 } from './urlBuilder';
+
+export { initGA, trackPageView, trackEvent, isAnalyticsEnabled } from './analytics';
