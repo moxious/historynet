@@ -88,6 +88,32 @@ Future milestones are organized into two tracks:
 - Vercel account (confirmed)
 - Admin access to `github.com/moxious/historynet` (confirmed)
 
+**CORS Policy**: All API endpoints allow cross-origin requests from any origin (`*`). This is intentional—all data served by this application is public.
+
+**URL Migration Strategy**:
+- Upon first successful Vercel deploy, `scenius.vercel.app` becomes the **primary** URL
+- GitHub Pages (`moxious.github.io/historynet`) becomes backup (frontend only, no API)
+- **SEO files** (sitemap, robots.txt, canonical tags, JSON-LD): Defer updates to M26 (custom domain) to avoid SEO disruption
+- **Documentation files**: Update immediately to show Vercel as primary
+- **Code constants** (`PRODUCTION_BASE_URL`): Defer to M26, or make environment-aware
+
+**Dual Deployment Behavior**: Pushing to `main` triggers both deployments in parallel:
+1. GitHub Actions → GitHub Pages
+2. Vercel auto-deploy → Vercel
+
+This is expected and both should succeed independently.
+
+### Pre-Setup (Before CLI)
+
+- [ ] **VM0** - Add `.vercel/` to `.gitignore`
+  ```bash
+  echo ".vercel" >> .gitignore
+  ```
+- [ ] **VM0.5** - Install Vercel types for TypeScript
+  ```bash
+  npm install -D @vercel/node
+  ```
+
 ### Vercel Project Setup (CLI)
 
 - [ ] **VM1** - Install Vercel CLI globally
@@ -105,7 +131,7 @@ Future milestones are organized into two tracks:
   - When prompted: Create new project
   - Project name: `scenius`
   - Framework: Vite (should auto-detect)
-  - This creates `.vercel/` directory (already in `.gitignore`)
+  - This creates `.vercel/` directory (now in `.gitignore` per VM0)
 - [ ] **VM4** - Deploy to production
   ```bash
   vercel --prod
@@ -116,10 +142,31 @@ Future milestones are organized into two tracks:
   - Go to Project Settings → Git
   - Verify `moxious/historynet` is connected
   - Enable automatic deployments on push to `main`
+  - Note: Preview deployments on PRs are enabled by default (this is fine)
+
+### Frontend Verification
+
 - [ ] **VM6** - Test frontend functionality at `scenius.vercel.app`
   - Home page loads
   - Dataset selector works
   - All three layouts render (Graph, Timeline, Radial)
+- [ ] **VM6.5** - Verify all datasets load correctly
+  - ai-llm-research (default)
+  - rosicrucian-network
+  - enlightenment
+  - ambient-music
+  - cybernetics-information-theory
+  - protestant-reformation
+  - renaissance-humanism
+  - scientific-revolution
+  - florentine-academy
+  - christian-kabbalah
+  - statistics-social-physics
+- [ ] **VM6.6** - Verify Vite base path configuration
+  - Open browser Network tab
+  - Confirm assets load from `/` (root), NOT `/historynet/`
+  - Verify direct asset access: `scenius.vercel.app/favicon.svg`
+  - Verify dataset access: `scenius.vercel.app/datasets/ai-llm-research/manifest.json`
 - [ ] **VM7** - Verify hash routing works correctly
   - Deep link to node: `/#/ai-llm-research/node/person-geoffrey-hinton`
   - Deep link to edge: `/#/ai-llm-research/edge/...`
@@ -128,12 +175,26 @@ Future milestones are organized into two tracks:
 
 ### Serverless API Endpoint
 
-- [ ] **VM8** - Create `/api/health.ts` serverless function
+- [ ] **VM8** - Create `api/health.ts` serverless function at **project root** (not under `src/`)
   ```typescript
-  // api/health.ts
+  // api/health.ts (at repository root, creates /api/ directory)
   import type { VercelRequest, VercelResponse } from '@vercel/node';
   
+  // CORS headers - all endpoints are public
+  function setCorsHeaders(res: VercelResponse) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  }
+  
   export default function handler(req: VercelRequest, res: VercelResponse) {
+    setCorsHeaders(res);
+    
+    // Handle preflight
+    if (req.method === 'OPTIONS') {
+      return res.status(200).end();
+    }
+    
     res.status(200).json({
       status: 'ok',
       timestamp: new Date().toISOString(),
@@ -146,7 +207,8 @@ Future milestones are organized into two tracks:
   vercel --prod
   ```
   - Verify JSON response in browser shows `{ status: "ok", timestamp: "...", environment: "production" }`
-  - Verify CORS allows requests from frontend
+  - Verify CORS headers present: `Access-Control-Allow-Origin: *`
+  - Test from browser console: `fetch('https://scenius.vercel.app/api/health').then(r => r.json()).then(console.log)`
 - [ ] **VM10** - Add test environment variable via CLI
   ```bash
   vercel env add TEST_VAR production
@@ -164,17 +226,55 @@ Future milestones are organized into two tracks:
   - Vercel: `scenius.vercel.app`
 - [ ] **VM12** - Verify `.github/workflows/deploy.yml` is unchanged and functional
 - [ ] **VM13** - Test that both deployments serve identical frontend functionality
+  - Note: API endpoints only work on Vercel (expected)
 
 ### Documentation Updates
 
+**Files with hardcoded URLs** (14 total):
+
+| File | Action | When |
+|------|--------|------|
+| `AGENTS.md` | Update to show Vercel as primary | M24 |
+| `README.md` | Update to show Vercel as primary | M24 |
+| `ROADMAP.md` | Update live demo URL | M24 |
+| `CHEATSHEET.md` | Update live demo URL | M24 |
+| `CHANGELOG.md` | Add M24 entry (historical URLs stay) | M24 |
+| `HISTORY.md` | No change (historical record) | Never |
+| `index.html` | Keep GitHub Pages (SEO canonical) | M26 |
+| `src/components/SchemaOrg.tsx` | Keep GitHub Pages (SEO) | M26 |
+| `src/components/ResourceMeta.tsx` | Keep GitHub Pages (SEO) | M26 |
+| `public/sitemap.xml` | Keep GitHub Pages (SEO) | M26 |
+| `public/robots.txt` | Keep GitHub Pages (SEO) | M26 |
+| `public/opensearch.xml` | Keep GitHub Pages | M26 |
+| `public/llms.txt` | Keep GitHub Pages | M26 |
+| `vite.config.ts` | Comment only, no change needed | Never |
+
 - [ ] **VM14** - Update `AGENTS.md` with deployment information
-  - Add Vercel URL to "Live Application & Testing" section
-  - Update example URLs to include both hosts
-  - Note which deployment to use for API testing (Vercel only)
+  - Change "Production URL" to `https://scenius.vercel.app/`
+  - Update "Example URLs for Testing" to use Vercel domain
+  - Add note: "GitHub Pages (`moxious.github.io/historynet`) is a backup deployment without API support"
+  - Add note: "API endpoints (e.g., `/api/health`) only work on Vercel"
 - [ ] **VM15** - Update `README.md` with deployment information
-  - Add Vercel URL as primary deployment
-  - Note GitHub Pages as backup/mirror
-- [ ] **VM16** - Update `CHANGELOG.md` with M24 completion entry
+  - Change "Live Application" URL to Vercel
+  - Update "URL Structure" section with Vercel examples
+  - Add "Deployment" section explaining dual deployment:
+    - Primary: Vercel (with API support)
+    - Backup: GitHub Pages (frontend only)
+  - Keep GitHub Actions badge (still deploys to GH Pages)
+- [ ] **VM16** - Update `ROADMAP.md` live demo URL to Vercel
+- [ ] **VM17** - Update `CHEATSHEET.md` live demo URL to Vercel
+- [ ] **VM18** - Update `CHANGELOG.md` with M24 completion entry
+  - Document the migration
+  - Note both URLs
+  - Note API endpoint availability
+
+### Rollback Plan
+
+If Vercel deployment has issues:
+1. GitHub Pages remains fully functional for frontend (verify in VM11-VM13)
+2. API features (M25+) would be unavailable, but core app works
+3. Documentation can be reverted to show GitHub Pages as primary
+4. To disable Vercel: Remove GitHub integration in Vercel dashboard
 
 ---
 
@@ -637,6 +737,50 @@ Evaluated Vite vs Next.js migration. Decision: **Stay with Vite**.
 **Deployment targets:**
 - Primary: `scenius.vercel.app` (Vercel, with API support)
 - Backup: `moxious.github.io/historynet` (GitHub Pages, frontend only)
+
+**Pre-execution review (2026-01-19):**
+
+Key discoveries and additions to the plan:
+
+1. **`.gitignore` update needed** - `.vercel/` was not in `.gitignore`. Added VM0 task.
+
+2. **Package installation** - `@vercel/node` needed for TypeScript types. Added VM0.5 task.
+
+3. **API directory clarification** - Vercel expects serverless functions at `/api/*.ts` at project root (not under `/src/`). Clarified in VM8.
+
+4. **CORS policy** - All endpoints allow cross-origin (`*`) since all data is public. Added CORS headers to VM8 example.
+
+5. **Vite base path** - Current config uses `/historynet/` only when `GITHUB_ACTIONS` env var is set. Vercel builds use `/` by default. Added VM6.6 to explicitly verify.
+
+6. **Dataset testing** - Expanded VM6.5 to test all 11 datasets, not just "dataset selector works".
+
+7. **URL update strategy** - Documented 14 files with hardcoded URLs. Decision: Update documentation now (M24), defer SEO files to M26 (custom domain) to avoid disruption.
+
+8. **Dual deployment behavior** - Both deployments trigger on push to `main`. Documented as expected behavior.
+
+9. **Rollback plan** - Added section documenting GitHub Pages as fallback if Vercel has issues.
+
+**Files to create during M24:**
+- `.vercel/` directory (auto-created by `vercel link`, gitignored)
+- `api/health.ts` - First serverless function
+
+**Files to modify during M24:**
+- `.gitignore` - Add `.vercel/`
+- `package.json` - Add `@vercel/node` dev dependency
+- `AGENTS.md` - Update primary URL to Vercel
+- `README.md` - Update primary URL, add dual deployment docs
+- `ROADMAP.md` - Update live demo URL
+- `CHEATSHEET.md` - Update live demo URL
+- `CHANGELOG.md` - Add M24 entry
+
+**Files NOT modified during M24 (deferred to M26):**
+- `index.html` - SEO canonical/og tags stay as GitHub Pages
+- `src/components/SchemaOrg.tsx` - `PRODUCTION_BASE_URL` stays
+- `src/components/ResourceMeta.tsx` - `PRODUCTION_BASE_URL` stays
+- `public/sitemap.xml` - All URLs stay as GitHub Pages
+- `public/robots.txt` - Domain stays as GitHub Pages
+- `public/opensearch.xml` - URLs stay as GitHub Pages
+- `public/llms.txt` - URL stays as GitHub Pages
 
 > **Historical notes**: Detailed implementation notes for completed milestones (M1-M14) have been archived to `HISTORY.md`.
 
