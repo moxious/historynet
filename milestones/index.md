@@ -38,6 +38,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M30 | Cross-Scene UI | 🔲 Future | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
 | M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
+| M33 | Social Sharing & Dynamic OG | 🔲 Not Started | B | [m33-social-sharing.md](m33-social-sharing.md) |
 
 > **Note**: M12 and M17 were originally reserved for features that have been renumbered to M24 and M21 respectively.
 
@@ -48,8 +49,8 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | Track | Description | Milestones |
 |-------|-------------|------------|
 | **A: Independent Features** | No dependencies, can be done in any order | M21 ✅, M23 ✅ |
-| **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 ✅ → M27, M24 → M26, M24 → M29 → M30 |
-| **C: Information Architecture** | App navigation restructuring | M31 ✅ → M32 |
+| **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 ✅ → M27, M24 → M26, M24 → M29 → M30, M24 → M33 |
+| **C: Information Architecture** | App navigation restructuring | M31 ✅ → M32 ✅ |
 
 ---
 
@@ -61,25 +62,24 @@ M1-M20 (Core Application Complete) ✅
     ├───────────────────────────────────────────┬──────────────────────────┐
     │                                           │                          │
     │  TRACK A: Independent Features            │  TRACK B: Infrastructure │  TRACK C: Info Architecture
-    │  (Complete)                               │  (Sequential)            │  (Sequential)
+    │  (Complete)                               │  (Sequential)            │  (Complete)
     │                                           │                          │
     ├──────────────┬────────────────┐           │                          │
     ▼              ▼                │           ▼                          ▼
-   M21            M23               │          M24                        M31
-   (Dataset      (Wikimedia        │         (Vercel) ✅                (Dataset
-   Search) ✅    Sourcing) ✅      │            │                        Pages) ✅
-                                   │            ├──────────┬──────────┐    │
-                                   │            ▼          ▼          ▼    ▼
-                                   │           M25        M26        M29  M32
-                                   │        (Feedback) (Domain)   (Cross-(Homepage)
-                                   │            ✅                  Scene  ✅
-                                   │            │                  API)
-                                   │            ▼                    │
-                                   │           M27                   │
-                                   │        (Spam Prot.)             ▼
-                                   │                                M30
-                                   │                             (Cross-
-                                   │                             Scene UI)
+   M21            M23               │          M24                        M31 ✅
+   (Dataset      (Wikimedia        │         (Vercel) ✅                    │
+   Search) ✅    Sourcing) ✅      │            │                          ▼
+                                   │            ├────────┬────────┬────────M32 ✅
+                                   │            ▼        ▼        ▼        ▼
+                                   │           M25      M26      M29      M33
+                                   │        (Feedback)(Domain)(Cross- (Social
+                                   │            ✅              Scene  Sharing)
+                                   │            │               API)
+                                   │            ▼                │
+                                   │           M27               ▼
+                                   │        (Spam)              M30
+                                   │                         (Cross-
+                                   │                         Scene UI)
 ```
 
 ---
@@ -87,8 +87,11 @@ M1-M20 (Core Application Complete) ✅
 ## Next Steps
 
 **Ready to implement** (dependencies satisfied):
+- **M33: Social Sharing & Dynamic OG** - Depends on M24 ✅ ← **Recommended next**
 - **M26: Custom Domain** - Depends on M24 ✅
 - **M27: Spam Protection** - Depends on M25 ✅
 - **M29: Cross-Scene API** - Depends on M24 ✅
 
 **Track C complete**: M32 (New Homepage) completes the information architecture track.
+
+**Note**: M33 removes GitHub Pages deployment and migrates to BrowserRouter. This should be done before M26 (Custom Domain) to ensure the domain points to the correct URL structure.
