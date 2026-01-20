@@ -21,12 +21,12 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
-  /* Run vercel dev to serve both frontend and API */
+  /* Run E2E server to serve both frontend and API */
   webServer: {
-    command: 'npx vercel dev --listen 3000',
+    command: 'npm run e2e:server',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
-    timeout: 120000, // 2 minutes for startup
+    timeout: 120000, // 2 minutes for build and startup
   },
 
   projects: [
