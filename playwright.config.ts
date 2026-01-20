@@ -17,14 +17,14 @@ export default defineConfig({
   reporter: process.env.CI ? 'github' : 'html',
 
   use: {
-    baseURL: 'http://localhost:4173',
+    baseURL: 'http://localhost:3000',
     trace: 'on-first-retry',
   },
 
   /* Build and serve the app before running tests */
   webServer: {
-    command: 'npm run build && npm run preview',
-    url: 'http://localhost:4173',
+    command: 'npm run build && npx serve -s dist -l 3000',
+    url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
     timeout: 120000, // 2 minutes for build
   },
