@@ -337,6 +337,8 @@ export function useUrlState(): UseUrlStateReturn {
 
 /**
  * Build a shareable URL with the current state
+ * Note: Dataset ID is in the path, not query params, so datasetId param here
+ * is only used to build the path if needed
  */
 export function buildShareableUrl(params: {
   datasetId?: string;
@@ -348,9 +350,10 @@ export function buildShareableUrl(params: {
   const url = new URL(window.location.href);
   const searchParams = new URLSearchParams();
 
-  if (params.datasetId) {
-    searchParams.set(URL_PARAMS.DATASET, params.datasetId);
-  }
+  // Dataset ID is now in the path, not query params
+  // If datasetId is provided, we could potentially modify the path,
+  // but for now we just use the current path which contains the dataset
+  
   if (params.selectedType && params.selectedId) {
     searchParams.set(URL_PARAMS.SELECTED, params.selectedId);
     searchParams.set(URL_PARAMS.SELECTED_TYPE, params.selectedType);

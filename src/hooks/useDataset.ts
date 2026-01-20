@@ -1,12 +1,16 @@
 /**
  * Hook for managing dataset selection and switching
+ * 
+ * Note: This hook is provided for backward compatibility but most code
+ * should use the GraphContext's switchDataset function instead, which
+ * properly navigates to the new dataset's URL path.
  */
 
 import { useEffect, useCallback, useMemo } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useGraphData } from './useGraphData';
-import { useUrlState } from './useUrlState';
 import type { DatasetManifest, LoadingState, DataError } from '@types';
-import { DEFAULT_DATASET_ID, isValidDatasetId } from '@utils/dataLoader';
+import { DEFAULT_DATASET_ID, isValidDatasetId, buildExploreUrl } from '@utils';
 
 interface UseDatasetReturn {
   /** Currently loaded dataset ID */
@@ -17,47 +21,46 @@ interface UseDatasetReturn {
   loadingState: LoadingState;
   /** Error information (if in error state) */
   error: DataError | null;
-  /** Switch to a different dataset */
+  /** Switch to a different dataset (navigates to new URL path) */
   switchDataset: (datasetId: string) => void;
   /** Reload the current dataset */
   reload: () => void;
 }
 
 /**
- * Hook for managing dataset selection with URL synchronization
+ * Hook for managing dataset selection with URL navigation
  */
 export function useDataset(): UseDatasetReturn {
+  const navigate = useNavigate();
+  const location = useLocation();
   const { dataset, loadingState, error, load } = useGraphData();
-  const { datasetId: urlDatasetId, setDatasetId: setUrlDatasetId } = useUrlState();
 
-  // Get the effective dataset ID (from URL or default)
-  const effectiveDatasetId = urlDatasetId || DEFAULT_DATASET_ID;
+  // Extract dataset ID from URL path (source of truth)
+  const effectiveDatasetId = useMemo(() => {
+    const pathMatch = location.pathname.match(/^\/([^/]+)(?:\/|$)/);
+    const id = pathMatch ? decodeURIComponent(pathMatch[1]) : null;
+    return id && isValidDatasetId(id) ? id : DEFAULT_DATASET_ID;
+  }, [location.pathname]);
 
   // Load dataset on mount and when URL changes
   useEffect(() => {
-    // Only load if we have a valid dataset ID and haven't loaded yet
     if (effectiveDatasetId && isValidDatasetId(effectiveDatasetId)) {
-      // Only load if we don't have a dataset or if it's different
       if (!dataset || dataset.manifest.id !== effectiveDatasetId) {
         load(effectiveDatasetId);
       }
-    } else if (effectiveDatasetId && !isValidDatasetId(effectiveDatasetId)) {
-      // Invalid dataset ID - load default instead
-      console.warn(`Invalid dataset ID: ${effectiveDatasetId}, loading default`);
-      setUrlDatasetId(DEFAULT_DATASET_ID);
     }
-  }, [effectiveDatasetId, dataset, load, setUrlDatasetId]);
+  }, [effectiveDatasetId, dataset, load]);
 
-  // Switch to a different dataset
+  // Switch to a different dataset by navigating to its explore path
   const switchDataset = useCallback(
     (newDatasetId: string) => {
       if (isValidDatasetId(newDatasetId)) {
-        setUrlDatasetId(newDatasetId);
+        navigate(buildExploreUrl(newDatasetId));
       } else {
         console.error(`Cannot switch to invalid dataset: ${newDatasetId}`);
       }
     },
-    [setUrlDatasetId]
+    [navigate]
   );
 
   // Reload the current dataset

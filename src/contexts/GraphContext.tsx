@@ -3,6 +3,7 @@
  */
 
 import { createContext, useContext, useEffect, useMemo, useState, useCallback, useRef, type ReactNode } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useGraphData } from '@hooks/useGraphData';
 import { useSelectedItem, getSelectedItem } from '@hooks/useSelectedItem';
 import { useUrlState } from '@hooks/useUrlState';
@@ -19,7 +20,7 @@ import type {
   FilterStats,
   NodeType,
 } from '@types';
-import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange, getNodeTypeCounts, getRelationshipTypeCounts } from '@utils';
+import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange, getNodeTypeCounts, getRelationshipTypeCounts, buildExploreUrl } from '@utils';
 
 interface GraphContextValue {
   // Dataset state
@@ -78,6 +79,9 @@ interface GraphProviderProps {
  * Provider component that manages and shares graph state
  */
 export function GraphProvider({ children }: GraphProviderProps) {
+  const navigate = useNavigate();
+  const location = useLocation();
+  
   const {
     dataset,
     graphData,
@@ -100,8 +104,6 @@ export function GraphProvider({ children }: GraphProviderProps) {
 
   const {
     datasetId: urlDatasetId,
-    setDatasetId: setUrlDatasetId,
-    setDatasetIdAndClearSelection,
     setSelected: setUrlSelected,
     clearSelected: clearUrlSelected,
     selectedId: urlSelectedId,
@@ -124,20 +126,33 @@ export function GraphProvider({ children }: GraphProviderProps) {
     [setUrlLayout]
   );
 
-  // Determine effective dataset ID
-  const effectiveDatasetId = urlDatasetId || DEFAULT_DATASET_ID;
+  // Extract dataset ID from URL path (e.g., /ai-llm-research/explore -> ai-llm-research)
+  // The path is the source of truth for which dataset to display
+  const pathDatasetId = useMemo(() => {
+    const pathMatch = location.pathname.match(/^\/([^/]+)(?:\/|$)/);
+    const id = pathMatch ? decodeURIComponent(pathMatch[1]) : null;
+    // Only return the ID if it's a valid dataset (not a special route like 'api')
+    return id && isValidDatasetId(id) ? id : null;
+  }, [location.pathname]);
+
+  // Determine effective dataset ID - prefer path, fallback to query param, then default
+  // This ensures the path is the source of truth for explore routes
+  const effectiveDatasetId = pathDatasetId || urlDatasetId || DEFAULT_DATASET_ID;
 
   // Load dataset on mount and when URL changes
+  // Note: Invalid dataset IDs are handled by route wrappers (e.g., DatasetExploreWrapper)
+  // which redirect to a valid default dataset
   useEffect(() => {
     if (effectiveDatasetId && isValidDatasetId(effectiveDatasetId)) {
       if (!dataset || dataset.manifest.id !== effectiveDatasetId) {
         load(effectiveDatasetId);
       }
     } else if (effectiveDatasetId && !isValidDatasetId(effectiveDatasetId)) {
-      console.warn(`Invalid dataset ID: ${effectiveDatasetId}, loading default`);
-      setUrlDatasetId(DEFAULT_DATASET_ID);
+      console.warn(`Invalid dataset ID: ${effectiveDatasetId}`);
+      // Invalid dataset - route wrapper should handle redirect
+      // Don't try to load here
     }
-  }, [effectiveDatasetId, dataset, load, setUrlDatasetId]);
+  }, [effectiveDatasetId, dataset, load]);
 
   // Sync URL selection to local selection state
   // Guard prevents race condition when click handler already set both local + URL state
@@ -207,19 +222,28 @@ export function GraphProvider({ children }: GraphProviderProps) {
       ? getSelectedItem(selection, graphData.nodes, graphData.edges)
       : undefined;
 
-  // Switch dataset (also updates URL)
-  // Uses atomic URL update to avoid race condition between setDatasetId and clearSelection
+  // Switch dataset by navigating to the new dataset's explore path
+  // This properly changes the route instead of just updating query params
   // REACT: memoized for stable reference (R12)
   const switchDataset = useCallback(
     (newDatasetId: string) => {
       if (isValidDatasetId(newDatasetId)) {
-        setDatasetIdAndClearSelection(newDatasetId); // Single atomic URL update
-        clearSelectionBase(); // Clear local state only (URL already cleared above)
+        // Clear local selection state
+        clearSelectionBase();
+        
+        // Preserve current layout in the new URL
+        const newUrl = buildExploreUrl(newDatasetId, {
+          layout: urlLayout as 'graph' | 'timeline' | 'radial' | undefined,
+        });
+        
+        // Navigate to new dataset's explore page
+        // This triggers proper route change instead of just query param update
+        navigate(newUrl);
       } else {
         console.error(`Cannot switch to invalid dataset: ${newDatasetId}`);
       }
     },
-    [setDatasetIdAndClearSelection, clearSelectionBase]
+    [clearSelectionBase, urlLayout, navigate]
   );
 
   // Reload current dataset
