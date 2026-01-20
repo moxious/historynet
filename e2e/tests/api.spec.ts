@@ -4,8 +4,11 @@ import { test, expect } from '@playwright/test';
  * API endpoint tests for Scenius.
  *
  * Verifies that serverless functions are working correctly.
- * Tests run against local vercel dev server or production deployments.
+ * Tests run against local dev server or production deployments.
+ * Note: OG Image API tests are skipped in local/CI as they require Vercel's runtime.
  */
+
+const isProduction = process.env.BASE_URL?.includes('vercel.app');
 
 test.describe('Health API', () => {
 
@@ -23,6 +26,8 @@ test.describe('Health API', () => {
 });
 
 test.describe('OG Image API', () => {
+  // Skip OG API tests in local/CI - they require Vercel's runtime and WASM support
+  test.skip(!isProduction, 'OG API requires Vercel runtime');
 
   test('returns image for default/homepage', async ({ request }) => {
     const response = await request.get('/api/og');

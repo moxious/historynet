@@ -83,8 +83,9 @@ async function startServer() {
     // Serve static files from dist
     app.use(express.static(join(root, 'dist')));
 
-    // SPA fallback - serve index.html for all other routes
-    app.use((req, res) => {
+    // SPA fallback - serve index.html for all non-API, non-static routes
+    // Use a wildcard route that works with Express v5
+    app.get(/.*/,  (req, res) => {
       res.sendFile(join(root, 'dist', 'index.html'));
     });
   } else {
