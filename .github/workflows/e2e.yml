@@ -29,10 +29,14 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install chromium --with-deps
 
+      - name: Install Vercel CLI
+        run: npm install -g vercel@latest
+
       - name: Run Playwright tests
         run: npm run test:e2e
         env:
           CI: true
+          VERCEL_ENV: development
 
       - name: Upload Playwright report
         uses: actions/upload-artifact@v4

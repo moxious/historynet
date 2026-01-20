@@ -4,16 +4,10 @@ import { test, expect } from '@playwright/test';
  * API endpoint tests for Scenius.
  *
  * Verifies that serverless functions are working correctly.
- * These tests only run against production/Vercel deployments since
- * the API endpoints are serverless functions not available in local preview.
- *
- * To run against production: BASE_URL=https://scenius-seven.vercel.app npm run test:e2e
+ * Tests run against local vercel dev server or production deployments.
  */
 
-const isLocalBuild = !process.env.BASE_URL?.includes('vercel.app');
-
 test.describe('Health API', () => {
-  test.skip(isLocalBuild, 'API tests require Vercel deployment');
 
   test('returns OK status with expected fields', async ({ request }) => {
     const response = await request.get('/api/health');
@@ -29,7 +23,6 @@ test.describe('Health API', () => {
 });
 
 test.describe('OG Image API', () => {
-  test.skip(isLocalBuild, 'API tests require Vercel deployment');
 
   test('returns image for default/homepage', async ({ request }) => {
     const response = await request.get('/api/og');

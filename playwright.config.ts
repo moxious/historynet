@@ -21,12 +21,12 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
-  /* Build and serve the app before running tests */
+  /* Run vercel dev to serve both frontend and API */
   webServer: {
-    command: 'npm run build && npx serve -s dist -l 3000',
+    command: 'npx vercel dev --listen 3000',
     url: 'http://localhost:3000',
     reuseExistingServer: !process.env.CI,
-    timeout: 120000, // 2 minutes for build
+    timeout: 120000, // 2 minutes for startup
   },
 
   projects: [
