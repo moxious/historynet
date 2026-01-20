@@ -14,7 +14,9 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\"",
     "preview": "vite preview",
     "validate:datasets": "npx tsx scripts/validate-datasets/index.ts",
-    "validate:datasets:strict": "npx tsx scripts/validate-datasets/index.ts --strict"
+    "validate:datasets:strict": "npx tsx scripts/validate-datasets/index.ts --strict",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "@vercel/og": "^1.0.0",
@@ -28,6 +30,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@playwright/test": "^1.57.0",
     "@types/d3": "^7.4.3",
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.18",
