@@ -256,14 +256,11 @@ function NodeDetailPage() {
         </div>
       </header>
 
-      {/* Wikipedia Biography Section */}
-      {enrichedData.description && enrichedData.descriptionSource === 'wikipedia' && (
-        <section className="resource-detail__wikipedia-section">
-          <h2 className="resource-detail__wikipedia-title">Wikipedia</h2>
-          <p className="resource-detail__wikipedia-text">{enrichedData.description}</p>
-          {enrichedData.wikipediaUrl && (
-            <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} variant="inline" />
-          )}
+      {/* Network Biography - dataset-specific context, displayed first for relevance */}
+      {isPersonNode(node) && node.biography && (
+        <section className="resource-detail__section resource-detail__section--biography">
+          <h2 className="resource-detail__section-title">Network Biography</h2>
+          <p className="resource-detail__text resource-detail__text--long">{node.biography}</p>
         </section>
       )}
 
@@ -338,12 +335,6 @@ function NodeDetailPage() {
                     ) : node.deathPlace
                   ) : node.deathPlace}
                 </p>
-              </section>
-            )}
-            {node.biography && (
-              <section className="resource-detail__section">
-                <h2 className="resource-detail__section-title">Biography</h2>
-                <p className="resource-detail__text resource-detail__text--long">{node.biography}</p>
               </section>
             )}
           </>
@@ -541,6 +532,17 @@ function NodeDetailPage() {
                 </li>
               ))}
             </ul>
+          </section>
+        )}
+
+        {/* Wikipedia Biography Section - displayed at bottom as supplementary context */}
+        {enrichedData.description && enrichedData.descriptionSource === 'wikipedia' && (
+          <section className="resource-detail__wikipedia-section">
+            <h2 className="resource-detail__wikipedia-title">Wikipedia</h2>
+            <p className="resource-detail__wikipedia-text">{enrichedData.description}</p>
+            {enrichedData.wikipediaUrl && (
+              <WikipediaAttribution wikipediaUrl={enrichedData.wikipediaUrl} variant="inline" />
+            )}
           </section>
         )}
       </main>
