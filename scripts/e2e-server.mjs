@@ -17,7 +17,8 @@ const __dirname = dirname(__filename);
 const root = join(__dirname, '..');
 
 const PORT = process.env.PORT || 3000;
-const USE_BUILD = process.env.CI === 'true';
+// Always use Vite dev server for now (building in CI has issues)
+const USE_BUILD = false;
 
 async function createViteDevServer() {
   const vite = await createServer({
