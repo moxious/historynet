@@ -98,7 +98,7 @@ const ZOOM_BREAKPOINTS = {
 };
 
 // Swim-lane layout constants
-const LABEL_HEIGHT = 55; // Approximate height of label card with padding
+const LABEL_HEIGHT = 75; // Approximate height of label card with padding (includes description)
 const LANE_GAP = 10; // Gap between lanes
 const LANE_WIDTH = LABEL_WIDTH + LANE_GAP; // Each lane is label width + gap
 const MAX_LANES = 2; // Cap lanes to prevent excessive width - prefer vertical expansion
@@ -660,7 +660,7 @@ export function TimelineLayout({
       })
       .attr('y', -20)
       .attr('width', LABEL_WIDTH)
-      .attr('height', 50)
+      .attr('height', 70)
       .append('xhtml:div')
       .attr('class', (d) => `timeline-event-label ${d.isLeft ? 'timeline-event-label--left' : 'timeline-event-label--right'}`)
       .on('click', (event, d) => {
@@ -673,8 +673,17 @@ export function TimelineLayout({
       .html((d) => {
         const eventLabel = getEventTypeLabel(d.type);
         const yearStr = d.year.toString();
+        const emoji = getNodeTypeEmoji(d.nodeType);
+        // Get description from original node (shortDescription is on all nodes, biography on persons)
+        const node = d.originalNode;
+        const description = node.shortDescription || ('biography' in node ? node.biography : undefined);
         // SECURITY: All content is from our data model, not user input
-        return `<span class="timeline-event-title">${d.title}</span>
+        // The emoji, title, eventLabel, yearStr, and description are all from validated dataset JSON
+        return `<div class="timeline-event-header">
+                  <span class="timeline-event-emoji" role="img" aria-label="${d.nodeType} icon">${emoji}</span>
+                  <span class="timeline-event-title">${d.title}</span>
+                </div>
+                ${description ? `<span class="timeline-event-description">${description}</span>` : ''}
                 <span class="timeline-event-meta">${eventLabel} ${yearStr}</span>`;
       });
 
