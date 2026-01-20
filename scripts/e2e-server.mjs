@@ -84,7 +84,7 @@ async function startServer() {
     app.use(express.static(join(root, 'dist')));
 
     // SPA fallback - serve index.html for all other routes
-    app.get('*', (req, res) => {
+    app.use((req, res) => {
       res.sendFile(join(root, 'dist', 'index.html'));
     });
   } else {
