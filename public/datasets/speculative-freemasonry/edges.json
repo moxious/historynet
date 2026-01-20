@@ -1,0 +1,677 @@
+[
+  {
+    "id": "edge-ashmole-initiated-warrington",
+    "source": "person-elias-ashmole",
+    "target": "loc-warrington",
+    "relationship": "visited",
+    "dateStart": "1646-10-16",
+    "evidence": "Ashmole's diary entry dated October 16, 1646, records that he was 'made a Free Mason' at Warrington at 4:30 PM",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ashmole-lived-london",
+    "source": "person-elias-ashmole",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1646",
+    "dateEnd": "1692",
+    "evidence": "Ashmole attended a lodge meeting at Masons' Hall in London in 1682, and died in Lambeth, London in 1692",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moray-initiated-newcastle",
+    "source": "person-robert-moray",
+    "target": "loc-newcastle-upon-tyne",
+    "relationship": "visited",
+    "dateStart": "1641-05-20",
+    "evidence": "Moray was initiated into the Lodge of Edinburgh (Mary's Chapel) on May 20, 1641, while the Scottish Covenanter army was stationed in Newcastle",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moray-member-lodge-edinburgh",
+    "source": "person-robert-moray",
+    "target": "entity-lodge-edinburgh",
+    "relationship": "member_of",
+    "dateStart": "1641-05-20",
+    "evidence": "Initiated into the Lodge of Edinburgh (Mary's Chapel) in Newcastle on May 20, 1641. Adopted a five-pointed star as his personal Masonic mark",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-edinburgh-headquarters-edinburgh",
+    "source": "entity-lodge-edinburgh",
+    "target": "loc-edinburgh",
+    "relationship": "associated_with",
+    "evidence": "The Lodge of Edinburgh (Mary's Chapel) No. 1 is headquartered in Edinburgh, Scotland",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-premier-grand-lodge-headquarters-london",
+    "source": "entity-premier-grand-lodge-england",
+    "target": "loc-london",
+    "relationship": "associated_with",
+    "dateStart": "1717-06-24",
+    "evidence": "The Premier Grand Lodge of England was founded in London on June 24, 1717",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-premier-grand-lodge-founded-goose-gridiron",
+    "source": "entity-premier-grand-lodge-england",
+    "target": "loc-goose-gridiron-tavern",
+    "relationship": "associated_with",
+    "dateStart": "1717-06-24",
+    "evidence": "Four existing lodges met at the Goose and Gridiron Ale-house in St. Paul's Church-yard to form the Grand Lodge on June 24, 1717",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sayer-member-apple-tree",
+    "source": "person-anthony-sayer",
+    "target": "loc-apple-tree-tavern",
+    "relationship": "worked_at",
+    "dateStart": "1716",
+    "evidence": "Sayer was a member of the Apple Tree Tavern lodge, one of the four founding lodges that met in 1716 to plan the Grand Lodge",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sayer-led-premier-grand-lodge",
+    "source": "person-anthony-sayer",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "led",
+    "dateStart": "1717-06-24",
+    "dateEnd": "1718",
+    "evidence": "Sayer was elected first Grand Master on June 24, 1717, at the founding assembly at the Goose and Gridiron Ale-house",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-led-premier-grand-lodge-1718",
+    "source": "person-george-payne",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "led",
+    "dateStart": "1718",
+    "dateEnd": "1719",
+    "evidence": "Payne served as Grand Master from 1718-1719, succeeding Anthony Sayer",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-led-premier-grand-lodge-1720",
+    "source": "person-george-payne",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "led",
+    "dateStart": "1720",
+    "dateEnd": "1721",
+    "evidence": "Payne served a second term as Grand Master from 1720-1721",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-succeeded-sayer",
+    "source": "person-george-payne",
+    "target": "person-anthony-sayer",
+    "relationship": "succeeded",
+    "dateStart": "1718",
+    "evidence": "Payne succeeded Sayer as Grand Master in 1718",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-led-premier-grand-lodge",
+    "source": "person-john-desaguliers",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "led",
+    "dateStart": "1719",
+    "dateEnd": "1720",
+    "evidence": "Desaguliers was elected Grand Master in 1719, succeeding George Payne",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-succeeded-payne",
+    "source": "person-john-desaguliers",
+    "target": "person-george-payne",
+    "relationship": "succeeded",
+    "dateStart": "1719",
+    "evidence": "Desaguliers succeeded Payne as Grand Master in 1719",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-led-premier-grand-lodge",
+    "source": "person-john-montagu",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "led",
+    "dateStart": "1721-06-24",
+    "dateEnd": "1722",
+    "evidence": "Montagu was installed as Grand Master on June 24, 1721, the first nobleman to hold the position. Installation moved to Stationers' Hall to accommodate hundreds",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-succeeded-payne-1721",
+    "source": "person-john-montagu",
+    "target": "person-george-payne",
+    "relationship": "succeeded",
+    "dateStart": "1721",
+    "evidence": "Montagu succeeded Payne as Grand Master in 1721",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-antiquity-founded-premier",
+    "source": "entity-lodge-antiquity",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "associated_with",
+    "dateStart": "1717-06-24",
+    "evidence": "Lodge of Antiquity was one of the four founding lodges that met at the Goose and Gridiron Ale-house to form the Premier Grand Lodge",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-antiquity-headquarters-goose-gridiron",
+    "source": "entity-lodge-antiquity",
+    "target": "loc-goose-gridiron-tavern",
+    "relationship": "associated_with",
+    "dateStart": "1717",
+    "evidence": "Originally met at the Goose and Gridiron Ale-house",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-fortitude-founded-premier",
+    "source": "entity-lodge-fortitude-cumberland",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "associated_with",
+    "dateStart": "1717-06-24",
+    "evidence": "Lodge of Fortitude and Old Cumberland was one of the four founding lodges",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-fortitude-headquarters-apple-tree",
+    "source": "entity-lodge-fortitude-cumberland",
+    "target": "loc-apple-tree-tavern",
+    "relationship": "associated_with",
+    "dateStart": "1716",
+    "evidence": "Originally met at the Apple Tree Tavern in Covent Garden",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-royal-somerset-founded-premier",
+    "source": "entity-lodge-royal-somerset-inverness",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "associated_with",
+    "dateStart": "1717-06-24",
+    "evidence": "Royal Somerset House and Inverness Lodge was one of the four founding lodges, distinctive for its primarily speculative membership",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anderson-authored-constitutions",
+    "source": "person-james-anderson",
+    "target": "object-constitutions-1723",
+    "relationship": "authored",
+    "dateStart": "1721-09",
+    "dateEnd": "1723",
+    "evidence": "Commissioned by the Duke of Montagu in September 1721 to 'digest' the old Gothic Constitutions. Published in 1723 as The Constitutions of the Free-Masons",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-commissioned-anderson",
+    "source": "person-john-montagu",
+    "target": "person-james-anderson",
+    "relationship": "patronized",
+    "dateStart": "1721-09",
+    "evidence": "Montagu, as Grand Master, commissioned Anderson in September 1721 to compile the Constitutions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-contributed-constitutions",
+    "source": "person-john-desaguliers",
+    "target": "object-constitutions-1723",
+    "relationship": "authored",
+    "dateStart": "1723",
+    "evidence": "Desaguliers wrote the preface to the 1723 Constitutions and provided the intellectual framework",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-contributed-constitutions",
+    "source": "person-george-payne",
+    "target": "object-constitutions-1723",
+    "relationship": "authored",
+    "dateStart": "1720",
+    "evidence": "Payne compiled the General Regulations during his second term as Grand Master (1720-1721), which were incorporated into the 1723 Constitutions",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pine-illustrated-constitutions",
+    "source": "person-john-pine",
+    "target": "object-constitutions-1723",
+    "relationship": "authored",
+    "dateStart": "1723",
+    "evidence": "Pine engraved the famous frontispiece for the 1723 Constitutions, depicting the Duke of Montagu presenting the Constitutional Scroll to his successor",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stukeley-member-premier-grand-lodge",
+    "source": "person-william-stukeley",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "member_of",
+    "dateStart": "1721-06-06",
+    "evidence": "Initiated into Freemasonry on June 6, 1721, at the Salutation Tavern in London. Noted in his diary that he was the first person 'for many years' to be made a mason in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stukeley-lived-london",
+    "source": "person-william-stukeley",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1721",
+    "dateEnd": "1765",
+    "evidence": "Stukeley was initiated in London in 1721 and died there in 1765",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sayer-member-premier-grand-lodge",
+    "source": "person-anthony-sayer",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "member_of",
+    "dateStart": "1717",
+    "dateEnd": "1742",
+    "evidence": "Sayer remained active in the Grand Lodge after his term as Grand Master, serving as Senior Grand Warden in 1719 and later as Tyler",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-member-premier-grand-lodge",
+    "source": "person-george-payne",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "member_of",
+    "dateStart": "1717",
+    "dateEnd": "1757",
+    "evidence": "Payne remained active for decades, serving as Senior Grand Warden (1724-1725) and Deputy Grand Master (1735)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-member-premier-grand-lodge",
+    "source": "person-john-desaguliers",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "member_of",
+    "dateStart": "1719",
+    "dateEnd": "1744",
+    "evidence": "Desaguliers remained active in the Grand Lodge after his term as Grand Master, often called the 'Father of Modern Speculative Freemasonry'",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-member-premier-grand-lodge",
+    "source": "person-john-montagu",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "member_of",
+    "dateStart": "1721",
+    "dateEnd": "1749",
+    "evidence": "Montagu was Grand Master from 1721-1722 and remained associated with the organization",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sayer-died-london",
+    "source": "person-anthony-sayer",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1742-01",
+    "evidence": "Sayer died in London in January 1741/1742",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-died-london",
+    "source": "person-george-payne",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1757-01-23",
+    "evidence": "Payne died in Westminster, London on January 23, 1757",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-died-london",
+    "source": "person-john-desaguliers",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1744-02-29",
+    "evidence": "Desaguliers died in London on February 29, 1744",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-died-london",
+    "source": "person-john-montagu",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1749-07-05",
+    "evidence": "Montagu died in Whitehall, London on July 5, 1749",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anderson-died-london",
+    "source": "person-james-anderson",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1739",
+    "evidence": "Anderson died in London in 1739",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pine-died-london",
+    "source": "person-john-pine",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1756-05-04",
+    "evidence": "Pine died in London on May 4, 1756",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moray-died-london",
+    "source": "person-robert-moray",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1673-07-04",
+    "evidence": "Moray died in London on July 4, 1673",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-sayer-lived-london",
+    "source": "person-anthony-sayer",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1717",
+    "dateEnd": "1742",
+    "evidence": "Sayer was active in London lodges and died there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-payne-lived-london",
+    "source": "person-george-payne",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1717",
+    "dateEnd": "1757",
+    "evidence": "Payne was active in London lodges and worked as a civil servant there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-lived-london",
+    "source": "person-john-desaguliers",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1683",
+    "dateEnd": "1744",
+    "evidence": "Desaguliers moved to London as a child after the revocation of the Edict of Nantes and remained there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-lived-london",
+    "source": "person-john-montagu",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1721",
+    "dateEnd": "1749",
+    "evidence": "Montagu was active in London as Grand Master and courtier",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-anderson-lived-london",
+    "source": "person-james-anderson",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1710",
+    "dateEnd": "1739",
+    "evidence": "Anderson moved to London in 1710 to serve various congregations",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pine-lived-london",
+    "source": "person-john-pine",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1690",
+    "dateEnd": "1756",
+    "evidence": "Pine was active in London as an engraver and died there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moray-lived-london",
+    "source": "person-robert-moray",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1641",
+    "dateEnd": "1673",
+    "evidence": "Moray was active in London as a founder of the Royal Society and died there",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-antiquity-headquarters-london",
+    "source": "entity-lodge-antiquity",
+    "target": "loc-london",
+    "relationship": "associated_with",
+    "evidence": "Lodge of Antiquity is headquartered in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-fortitude-headquarters-london",
+    "source": "entity-lodge-fortitude-cumberland",
+    "target": "loc-london",
+    "relationship": "associated_with",
+    "evidence": "Lodge of Fortitude and Old Cumberland is headquartered in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-royal-somerset-headquarters-london",
+    "source": "entity-lodge-royal-somerset-inverness",
+    "target": "loc-london",
+    "relationship": "associated_with",
+    "evidence": "Royal Somerset House and Inverness Lodge is headquartered in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wharton-succeeded-montagu",
+    "source": "person-philip-wharton",
+    "target": "person-john-montagu",
+    "relationship": "succeeded",
+    "dateStart": "1722",
+    "evidence": "Wharton succeeded Montagu as Grand Master in 1722",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wharton-led-premier-grand-lodge",
+    "source": "person-philip-wharton",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "led",
+    "dateStart": "1722",
+    "dateEnd": "1723",
+    "evidence": "Wharton served as Grand Master from 1722-1723, during which the 1723 Constitutions were published",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wharton-member-premier-grand-lodge",
+    "source": "person-philip-wharton",
+    "target": "entity-premier-grand-lodge-england",
+    "relationship": "member_of",
+    "dateStart": "1722",
+    "dateEnd": "1731",
+    "evidence": "Wharton was a prominent member and Grand Master of the Premier Grand Lodge",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wharton-depicted-constitutions",
+    "source": "person-philip-wharton",
+    "target": "object-constitutions-1723",
+    "relationship": "referenced_in",
+    "dateStart": "1723",
+    "evidence": "Wharton is depicted in Pine's frontispiece receiving the Constitutional Scroll and compasses from Montagu",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-wharton-lived-london",
+    "source": "person-philip-wharton",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1722",
+    "dateEnd": "1725",
+    "evidence": "Wharton was active in London as Grand Master before his exile",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mainwaring-initiated-warrington",
+    "source": "person-henry-mainwaring",
+    "target": "loc-warrington",
+    "relationship": "visited",
+    "dateStart": "1646-10-16",
+    "evidence": "Mainwaring was initiated alongside Ashmole at Warrington on October 16, 1646, as recorded in Ashmole's diary",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mainwaring-knows-ashmole",
+    "source": "person-henry-mainwaring",
+    "target": "person-elias-ashmole",
+    "relationship": "knows",
+    "dateStart": "1646-10-16",
+    "evidence": "Initiated into Freemasonry together at Warrington in 1646",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moray-founded-royal-society",
+    "source": "person-robert-moray",
+    "target": "entity-royal-society",
+    "relationship": "founded",
+    "dateStart": "1660",
+    "evidence": "Moray was a founder and the first president of the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-moray-led-royal-society",
+    "source": "person-robert-moray",
+    "target": "entity-royal-society",
+    "relationship": "led",
+    "dateStart": "1660",
+    "dateEnd": "1662",
+    "evidence": "Moray served as the first president of the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-desaguliers-member-royal-society",
+    "source": "person-john-desaguliers",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1714",
+    "dateEnd": "1744",
+    "evidence": "Desaguliers was elected Fellow of the Royal Society in 1714 and served as curator of experiments",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-montagu-member-royal-society",
+    "source": "person-john-montagu",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1718",
+    "dateEnd": "1749",
+    "evidence": "Montagu was a Fellow of the Royal Society from 1718",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stukeley-member-royal-society",
+    "source": "person-william-stukeley",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1717",
+    "dateEnd": "1765",
+    "evidence": "Stukeley was a Fellow of the Royal Society",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-royal-society-headquarters-london",
+    "source": "entity-royal-society",
+    "target": "loc-london",
+    "relationship": "associated_with",
+    "dateStart": "1660",
+    "evidence": "The Royal Society was founded and headquartered in London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-lodge-royal-somerset-headquarters-rummer",
+    "source": "entity-lodge-royal-somerset-inverness",
+    "target": "loc-rummer-grapes-tavern",
+    "relationship": "associated_with",
+    "dateStart": "1717",
+    "evidence": "The Royal Somerset House and Inverness Lodge originally met at the Rummer and Grapes Tavern",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-led-royal-society",
+    "source": "person-isaac-newton",
+    "target": "entity-royal-society",
+    "relationship": "led",
+    "dateStart": "1703",
+    "dateEnd": "1727",
+    "evidence": "Newton served as President of the Royal Society from 1703 until his death in 1727",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-member-royal-society",
+    "source": "person-isaac-newton",
+    "target": "entity-royal-society",
+    "relationship": "member_of",
+    "dateStart": "1672",
+    "dateEnd": "1727",
+    "evidence": "Newton was elected Fellow of the Royal Society in 1672",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-influenced-desaguliers",
+    "source": "person-isaac-newton",
+    "target": "person-john-desaguliers",
+    "relationship": "influenced",
+    "dateStart": "1710",
+    "evidence": "Desaguliers studied under Newton's disciples at Oxford and became a major popularizer of Newtonian science",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-knows-stukeley",
+    "source": "person-isaac-newton",
+    "target": "person-william-stukeley",
+    "relationship": "knows",
+    "dateStart": "1718",
+    "dateEnd": "1727",
+    "evidence": "Stukeley was a close friend of Newton and published one of the earliest biographies of the scientist",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-lived-london",
+    "source": "person-isaac-newton",
+    "target": "loc-london",
+    "relationship": "lived_in",
+    "dateStart": "1696",
+    "dateEnd": "1727",
+    "evidence": "Newton moved to London in 1696 and lived there until his death",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-newton-died-london",
+    "source": "person-isaac-newton",
+    "target": "loc-london",
+    "relationship": "died_in",
+    "dateStart": "1727-03-31",
+    "evidence": "Newton died in Kensington, London on March 31, 1727",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stukeley-founded-society-antiquaries",
+    "source": "person-william-stukeley",
+    "target": "entity-society-antiquaries",
+    "relationship": "founded",
+    "dateStart": "1707",
+    "evidence": "Stukeley was a founding member of the Society of Antiquaries of London",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-stukeley-led-society-antiquaries",
+    "source": "person-william-stukeley",
+    "target": "entity-society-antiquaries",
+    "relationship": "led",
+    "dateStart": "1718",
+    "dateEnd": "1720",
+    "evidence": "Stukeley served as the first secretary of the Society of Antiquaries from 1718",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-society-antiquaries-headquarters-london",
+    "source": "entity-society-antiquaries",
+    "target": "loc-london",
+    "relationship": "associated_with",
+    "dateStart": "1707",
+    "evidence": "The Society of Antiquaries of London is headquartered in London",
+    "strength": "strong"
+  }
+]

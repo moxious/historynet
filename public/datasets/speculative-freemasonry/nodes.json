@@ -1,0 +1,390 @@
+[
+  {
+    "id": "person-elias-ashmole",
+    "type": "person",
+    "title": "Elias Ashmole",
+    "dateStart": "1617-05-23",
+    "dateEnd": "1692-05-18",
+    "shortDescription": "English antiquary, politician, and student of the occult sciences. Recorded the earliest documented evidence of speculative Freemasonry in England at Warrington in 1646.",
+    "biography": "Elias Ashmole (1617-1692) was a celebrated English antiquary, politician, and student of the occult sciences. He is best known as the founder of the Ashmolean Museum at the University of Oxford and for providing the earliest documented evidence of Freemasonry in England. On October 16, 1646, at 4:30 PM, Ashmole recorded in his diary that he was 'made a Free Mason' at a lodge in Warrington, Lancashire, alongside Colonel Henry Mainwaring. This is the first specific, dated record of a speculative (non-operative) Freemason being initiated in an English lodge. Ashmole remained a member for the rest of his life, attending another lodge meeting 36 years later in 1682 at Masons' Hall in London.",
+    "birthPlace": "Lichfield, Staffordshire",
+    "deathPlace": "Lambeth, London",
+    "nationality": "English",
+    "occupations": [
+      "antiquary",
+      "politician",
+      "astrologer",
+      "alchemist",
+      "herald"
+    ],
+    "wikipediaTitle": "Elias_Ashmole",
+    "wikidataId": "Q471406"
+  },
+  {
+    "id": "person-robert-moray",
+    "type": "person",
+    "title": "Sir Robert Moray",
+    "alternateNames": [
+      "Robert Murray"
+    ],
+    "dateStart": "1609-03-10",
+    "dateEnd": "1673-07-04",
+    "shortDescription": "Scottish soldier, statesman, diplomat, and natural philosopher. Initiated into speculative Freemasonry in Newcastle in 1641, the earliest record of such an initiation on English soil.",
+    "biography": "Sir Robert Moray (also spelled Murray, 1609-1673) was a prominent Scottish soldier, statesman, diplomat, and natural philosopher. He is historically significant as a founder and the first president of the Royal Society, as well as a pivotal figure in the history of Freemasonry. On May 20, 1641, Moray was initiated into the Lodge of Edinburgh (Mary's Chapel) while the Scottish Covenanter army was stationed in Newcastle, England. This is widely recognized as the earliest extant record of a man being initiated into speculative (non-operative) Freemasonry on English soil. Moray adopted a five-pointed star (pentagram) as his personal Masonic mark, which he used frequently in his correspondence.",
+    "birthPlace": "Perthshire, Scotland",
+    "deathPlace": "London",
+    "nationality": "Scottish",
+    "occupations": [
+      "soldier",
+      "statesman",
+      "diplomat",
+      "natural philosopher",
+      "chemist"
+    ],
+    "wikipediaTitle": "Robert_Moray",
+    "wikidataId": "Q719623"
+  },
+  {
+    "id": "loc-warrington",
+    "type": "location",
+    "title": "Warrington",
+    "locationType": "town",
+    "country": "England",
+    "shortDescription": "Industrial town in Lancashire (now Cheshire) where Elias Ashmole was initiated into Freemasonry in 1646.",
+    "wikipediaTitle": "Warrington",
+    "wikidataId": "Q215733"
+  },
+  {
+    "id": "loc-newcastle-upon-tyne",
+    "type": "location",
+    "title": "Newcastle upon Tyne",
+    "locationType": "city",
+    "country": "England",
+    "shortDescription": "City in North East England where Sir Robert Moray was initiated into the Lodge of Edinburgh in 1641.",
+    "wikipediaTitle": "Newcastle_upon_Tyne",
+    "wikidataId": "Q1425428"
+  },
+  {
+    "id": "loc-london",
+    "type": "location",
+    "title": "London",
+    "locationType": "city",
+    "country": "England",
+    "shortDescription": "Capital city of England, location of the Premier Grand Lodge of England (founded 1717) and numerous Masonic lodges.",
+    "wikipediaTitle": "London",
+    "wikidataId": "Q84"
+  },
+  {
+    "id": "loc-edinburgh",
+    "type": "location",
+    "title": "Edinburgh",
+    "locationType": "city",
+    "country": "Scotland",
+    "shortDescription": "Capital city of Scotland, home to the Lodge of Edinburgh (Mary's Chapel) No. 1, the oldest Masonic lodge with continuous records.",
+    "wikipediaTitle": "Edinburgh",
+    "wikidataId": "Q23436"
+  },
+  {
+    "id": "entity-premier-grand-lodge-england",
+    "type": "entity",
+    "title": "Premier Grand Lodge of England",
+    "entityType": "organization",
+    "dateStart": "1717-06-24",
+    "dateEnd": "1813-12-27",
+    "shortDescription": "The first Masonic Grand Lodge in the world, founded in 1717 in London. Also known as the 'Moderns' after 1751.",
+    "headquarters": "loc-london",
+    "wikipediaTitle": "Premier_Grand_Lodge_of_England"
+  },
+  {
+    "id": "entity-lodge-edinburgh",
+    "type": "entity",
+    "title": "Lodge of Edinburgh (Mary's Chapel) No. 1",
+    "entityType": "organization",
+    "shortDescription": "The oldest Masonic lodge with continuous records, dating to 1599. Initiated Sir Robert Moray in Newcastle in 1641.",
+    "headquarters": "loc-edinburgh",
+    "wikipediaTitle": "Lodge_of_Edinburgh_(Mary's_Chapel)_No._1"
+  },
+  {
+    "id": "person-anthony-sayer",
+    "type": "person",
+    "title": "Anthony Sayer",
+    "dateStart": "1672",
+    "dateEnd": "1742-01",
+    "shortDescription": "First Grand Master of the Premier Grand Lodge of England (1717-1718). Elected at the founding assembly at the Goose and Gridiron Ale-house.",
+    "biography": "Anthony Sayer (c. 1672–1741/1742) was the first Grand Master of the Premier Grand Lodge of England, elected on June 24, 1717, when four existing lodges met at the Goose and Gridiron Ale-house in St. Paul's Church-yard to form the Grand Lodge. Sayer was a member of the Apple Tree Tavern lodge and was described as a 'Gentleman' in records. He served as Grand Master for one year (1717–1718) and was succeeded by George Payne. Later, he served as Senior Grand Warden in 1719 under Grand Master John Theophilus Desaguliers, and eventually as Tyler for the Old King's Arms Lodge. Despite falling into financial hardship later in life (possibly due to the South Sea Bubble), he remained respected in the fraternity and received charitable assistance from the Grand Lodge.",
+    "nationality": "English",
+    "occupations": [
+      "bookseller",
+      "freemason"
+    ],
+    "wikipediaTitle": "Anthony_Sayer",
+    "wikidataId": "Q3618535"
+  },
+  {
+    "id": "person-george-payne",
+    "type": "person",
+    "title": "George Payne",
+    "dateStart": "1685",
+    "dateEnd": "1757-01-23",
+    "shortDescription": "English civil servant who served twice as Grand Master (1718, 1720) and compiled the General Regulations that became part of the 1723 Constitutions.",
+    "biography": "George Payne (c. 1685–1757) was a high-ranking English civil servant and foundational figure in organized Freemasonry. He served twice as Grand Master of the Premier Grand Lodge of England (1718–1719 and 1720–1721). During his second term, he compiled the General Regulations for the governance of the craft, which were later incorporated into James Anderson's 1723 Constitutions. Payne was a member of the original No. 4 Lodge (Horn Tavern) and later Master of the Old King's Arms Lodge. He remained active in the Grand Lodge for decades, serving as Senior Grand Warden (1724–1725) and Deputy Grand Master (1735). Professionally, he worked as Secretary to the Tax Office and later in the Exchequer.",
+    "birthPlace": "Chester",
+    "deathPlace": "Westminster, London",
+    "nationality": "English",
+    "occupations": [
+      "civil servant",
+      "freemason"
+    ],
+    "wikipediaTitle": "George_Payne_(Freemason)",
+    "wikidataId": "Q1508044"
+  },
+  {
+    "id": "loc-goose-gridiron-tavern",
+    "type": "location",
+    "title": "Goose and Gridiron Ale-house",
+    "locationType": "tavern",
+    "country": "England",
+    "shortDescription": "Tavern in St. Paul's Church-yard, London, where the Premier Grand Lodge of England was founded on June 24, 1717.",
+    "parentLocation": "loc-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "loc-apple-tree-tavern",
+    "type": "location",
+    "title": "Apple Tree Tavern",
+    "locationType": "tavern",
+    "country": "England",
+    "shortDescription": "Tavern in Charles Street, Covent Garden, where the four founding lodges met in 1716 to plan the Grand Lodge. Anthony Sayer was a member of this lodge.",
+    "parentLocation": "loc-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-lodge-antiquity",
+    "type": "entity",
+    "title": "Lodge of Antiquity No. 2",
+    "entityType": "organization",
+    "shortDescription": "One of the four founding lodges of the Premier Grand Lodge, originally meeting at the Goose and Gridiron Ale-house.",
+    "headquarters": "loc-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-lodge-fortitude-cumberland",
+    "type": "entity",
+    "title": "Lodge of Fortitude and Old Cumberland No. 12",
+    "entityType": "organization",
+    "shortDescription": "One of the four founding lodges, originally meeting at the Apple Tree Tavern in Covent Garden.",
+    "headquarters": "loc-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "entity-lodge-royal-somerset-inverness",
+    "type": "entity",
+    "title": "Royal Somerset House and Inverness Lodge No. 4",
+    "entityType": "organization",
+    "shortDescription": "One of the four founding lodges, originally meeting at the Rummer and Grapes Tavern. Distinctive for its primarily speculative (non-operative) membership.",
+    "headquarters": "loc-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "person-john-desaguliers",
+    "type": "person",
+    "title": "John Theophilus Desaguliers",
+    "dateStart": "1683-03-12",
+    "dateEnd": "1744-02-29",
+    "shortDescription": "French-born British natural philosopher, clergyman, and engineer. Grand Master in 1719, instrumental in the success of the Premier Grand Lodge and the 1723 Constitutions.",
+    "biography": "John Theophilus Desaguliers (1683–1744) was a French-born British natural philosopher, clergyman, engineer, and pivotal figure in Freemasonry. Born to a Huguenot family in France, he fled to London after the revocation of the Edict of Nantes. Educated at Oxford under John Keill, a disciple of Isaac Newton, Desaguliers became a major popularizer of Newtonian science. He was elected a Fellow of the Royal Society in 1714 and served as curator of experiments. He was elected Grand Master of the Premier Grand Lodge of England in 1719 and is often called the 'Father of Modern Speculative Freemasonry' for transforming the craft into a fashionable intellectual institution. He provided the intellectual framework for the 1723 Constitutions and wrote its preface. He received the Copley Medal three times (1734, 1736, 1741) for his experimental work.",
+    "birthPlace": "Aytré, near La Rochelle, France",
+    "deathPlace": "London",
+    "nationality": "British",
+    "occupations": [
+      "natural philosopher",
+      "clergyman",
+      "engineer",
+      "freemason"
+    ],
+    "wikipediaTitle": "John_Theophilus_Desaguliers",
+    "wikidataId": "Q658008"
+  },
+  {
+    "id": "person-james-anderson",
+    "type": "person",
+    "title": "Rev. James Anderson",
+    "dateStart": "1691",
+    "dateEnd": "1739",
+    "shortDescription": "Scottish Presbyterian minister and writer, primary author of the 1723 Constitutions, the foundational document of modern Freemasonry.",
+    "biography": "James Anderson (c. 1691–1739) was a Scottish Presbyterian minister and writer who played a foundational role in modern Freemasonry. Born in Aberdeen, he was educated at Marischal College and ordained in 1707. He moved to London in 1710 to serve various congregations. In September 1721, the Duke of Montagu, then Grand Master, commissioned Anderson to 'digest' the old Gothic Constitutions into a new printed format. The resulting work, The Constitutions of the Free-Masons (1723), became the foundational document of modern Freemasonry. The book included a mythologized history tracing Freemasonry from Adam through biblical and historical figures, the Charges of a Free-Mason establishing moral and ethical framework, General Regulations compiled by George Payne, and Masonic songs. Anderson published a second, expanded edition in 1738.",
+    "birthPlace": "Aberdeen, Scotland",
+    "deathPlace": "London",
+    "nationality": "Scottish",
+    "occupations": [
+      "minister",
+      "writer",
+      "freemason"
+    ],
+    "wikipediaTitle": "James_Anderson_(Freemason)",
+    "wikidataId": "Q3160845"
+  },
+  {
+    "id": "object-constitutions-1723",
+    "type": "object",
+    "title": "The Constitutions of the Free-Masons (1723)",
+    "objectType": "book",
+    "dateCreated": "1723",
+    "shortDescription": "The foundational printed book of laws and history for the Grand Lodge of England, compiled by James Anderson with contributions from Desaguliers and Payne.",
+    "creators": [
+      "person-james-anderson",
+      "person-john-desaguliers",
+      "person-george-payne"
+    ],
+    "language": "English",
+    "subject": "Freemasonry, constitutions, regulations",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "person-john-montagu",
+    "type": "person",
+    "title": "John Montagu, 2nd Duke of Montagu",
+    "dateStart": "1690-03-29",
+    "dateEnd": "1749-07-05",
+    "shortDescription": "British peer and military officer, first noble Grand Master of the Premier Grand Lodge (1721), which greatly enhanced the organization's public profile.",
+    "biography": "John Montagu, 2nd Duke of Montagu (1690–1749) was a prominent British peer, military officer, and courtier. His appointment as Grand Master of the Premier Grand Lodge of England on June 24, 1721, marked a significant turning point for Freemasonry. He was the first nobleman to hold the position, which greatly enhanced the organization's public profile and prestige. His installation was moved from the traditional tavern setting to Stationers' Hall to accommodate hundreds of attendees. He commissioned James Anderson to compile the 1723 Constitutions. Montagu was a Fellow of the Royal Society (1718), Master-General of the Ordnance, and Governor of Saint Lucia and Saint Vincent. Despite his reputation for elaborate practical jokes, he was a founding governor of the Foundling Hospital and a patron to Black British figures including Ignatius Sancho.",
+    "birthPlace": "Boughton House, Northamptonshire",
+    "deathPlace": "Whitehall, London",
+    "nationality": "British",
+    "occupations": [
+      "peer",
+      "military officer",
+      "courtier",
+      "freemason"
+    ],
+    "wikipediaTitle": "John_Montagu,_2nd_Duke_of_Montagu",
+    "wikidataId": "Q3062451"
+  },
+  {
+    "id": "person-john-pine",
+    "type": "person",
+    "title": "John Pine",
+    "dateStart": "1690",
+    "dateEnd": "1756-05-04",
+    "shortDescription": "English engraver and cartographer who created the famous frontispiece for the 1723 Constitutions, depicting the transfer of power between Grand Masters.",
+    "biography": "John Pine (1690–1756) was a prominent English designer, engraver, and cartographer. He is best known for engraving the frontispiece for the 1723 Constitutions of the Free-Masons, which depicts the 2nd Duke of Montagu presenting the Constitutional Scroll and compasses to his successor, Philip, Duke of Wharton. The engraving includes symbolic elements like the parting of the Red Sea and columns representing the five orders of architecture. Pine was a lifelong friend of William Hogarth and worked with him to lobby for the Copyright Act of 1735. He was appointed Engraver of His Majesty's Signet and Seals (1743) and Bluemantle Pursuivant at the College of Arms. Notable works include The Works of Horace (1733–1737), Map of London (1746), and Magna Carta (1733).",
+    "deathPlace": "London",
+    "nationality": "English",
+    "occupations": [
+      "engraver",
+      "cartographer",
+      "designer"
+    ],
+    "wikipediaTitle": "John_Pine",
+    "wikidataId": "Q6252938"
+  },
+  {
+    "id": "person-william-stukeley",
+    "type": "person",
+    "title": "William Stukeley",
+    "dateStart": "1687-11-07",
+    "dateEnd": "1765-03-03",
+    "shortDescription": "English antiquary, physician, and clergyman, initiated into Freemasonry in 1721. Left detailed diary records of early lodge life and was a pioneer of field archaeology.",
+    "biography": "William Stukeley (1687–1765) was a prominent English antiquary, physician, and Anglican clergyman, widely regarded as a pioneer of field archaeology. He was initiated into Freemasonry on June 6, 1721, at the Salutation Tavern in London, noting in his diary that he was the first person 'for many years' to be made a mason in London. He was drawn to the organization because he suspected it held 'the remains of the mysterys of the antients.' Stukeley is best known for his extensive investigations of Stonehenge and Avebury and for popularizing the theory that the Druids built these monuments. He was a founding member and first secretary of the Society of Antiquaries of London (1718) and a Fellow of the Royal Society. He was also a close friend of Isaac Newton and published one of the earliest biographies of the scientist.",
+    "birthPlace": "Holbeach, Lincolnshire",
+    "deathPlace": "London",
+    "nationality": "English",
+    "occupations": [
+      "antiquary",
+      "physician",
+      "clergyman",
+      "archaeologist",
+      "freemason"
+    ],
+    "wikipediaTitle": "William_Stukeley",
+    "wikidataId": "Q1381018"
+  },
+  {
+    "id": "person-philip-wharton",
+    "type": "person",
+    "title": "Philip Wharton, 1st Duke of Wharton",
+    "dateStart": "1698-12-21",
+    "dateEnd": "1731-05-31",
+    "shortDescription": "Grand Master of the Premier Grand Lodge of England (1722-1723), succeeded Montagu. Depicted in Pine's frontispiece receiving the Constitutional Scroll.",
+    "biography": "Philip Wharton, 1st Duke of Wharton (1698-1731) was a British peer and politician who served as Grand Master of the Premier Grand Lodge of England from 1722 to 1723, succeeding the Duke of Montagu. His tenure coincided with the publication of the 1723 Constitutions. He is famously depicted in John Pine's frontispiece engraving receiving the Constitutional Scroll and compasses from Montagu. Despite his promising start, Wharton's later life was marked by political controversy, financial ruin, and exile. He became a Jacobite sympathizer, was outlawed for treason, and died in poverty in Spain at age 32.",
+    "birthPlace": "England",
+    "deathPlace": "Poblet, Catalonia, Spain",
+    "nationality": "British",
+    "occupations": [
+      "peer",
+      "politician",
+      "freemason"
+    ],
+    "wikipediaTitle": "Philip_Wharton,_1st_Duke_of_Wharton",
+    "wikidataId": "Q333527"
+  },
+  {
+    "id": "person-henry-mainwaring",
+    "type": "person",
+    "title": "Colonel Henry Mainwaring",
+    "dateStart": "1600",
+    "dateEnd": "1672",
+    "shortDescription": "Initiated into Freemasonry alongside Elias Ashmole at Warrington in 1646, providing a second witness to the earliest documented English speculative initiation.",
+    "biography": "Colonel Henry Mainwaring (c. 1600-1672) was an English gentleman and military officer who is historically significant as one of the earliest documented speculative Freemasons in England. On October 16, 1646, he was initiated at a lodge meeting in Warrington alongside Elias Ashmole. Ashmole's diary explicitly names Mainwaring as being present at the ceremony, making him the second documented witness to what is considered the first dated record of speculative Freemasonry in England. Mainwaring was related to the prominent Mainwaring family of Cheshire.",
+    "nationality": "English",
+    "occupations": [
+      "military officer",
+      "gentleman",
+      "freemason"
+    ],
+    "wikipediaTitle": null,
+    "wikidataId": null
+  },
+  {
+    "id": "entity-royal-society",
+    "type": "entity",
+    "title": "Royal Society",
+    "entityType": "organization",
+    "dateStart": "1660",
+    "shortDescription": "Britain's national academy of sciences, founded 1660. Many early Freemasons were Fellows, including Moray (founder/first president), Desaguliers, Montagu, and Stukeley.",
+    "headquarters": "loc-london",
+    "wikipediaTitle": "Royal_Society",
+    "wikidataId": "Q123885"
+  },
+  {
+    "id": "loc-rummer-grapes-tavern",
+    "type": "location",
+    "title": "Rummer and Grapes Tavern",
+    "locationType": "tavern",
+    "country": "England",
+    "shortDescription": "Tavern in London where the Royal Somerset House and Inverness Lodge originally met, one of the four founding lodge locations.",
+    "parentLocation": "loc-london",
+    "wikipediaTitle": null
+  },
+  {
+    "id": "person-isaac-newton",
+    "type": "person",
+    "title": "Sir Isaac Newton",
+    "dateStart": "1643-01-04",
+    "dateEnd": "1727-03-31",
+    "shortDescription": "English mathematician, physicist, and natural philosopher. Desaguliers was his disciple and major popularizer; Stukeley was his close friend and biographer.",
+    "biography": "Sir Isaac Newton (1643-1727) was an English mathematician, physicist, astronomer, and author widely recognized as one of the most influential scientists of all time. Though not a documented Freemason himself, Newton's intellectual influence permeated early speculative Freemasonry through his disciples and admirers. John Theophilus Desaguliers studied under Newton's followers at Oxford, became a major popularizer of Newtonian science, and served as Grand Master in 1719. William Stukeley was Newton's close friend and published one of the earliest biographies of the scientist. Newton served as President of the Royal Society from 1703 until his death, connecting him to the scientific network that overlapped significantly with early Masonic leadership.",
+    "birthPlace": "Woolsthorpe-by-Colsterworth, Lincolnshire",
+    "deathPlace": "Kensington, London",
+    "nationality": "English",
+    "occupations": [
+      "mathematician",
+      "physicist",
+      "astronomer",
+      "natural philosopher"
+    ],
+    "wikipediaTitle": "Isaac_Newton",
+    "wikidataId": "Q935"
+  },
+  {
+    "id": "entity-society-antiquaries",
+    "type": "entity",
+    "title": "Society of Antiquaries of London",
+    "entityType": "organization",
+    "dateStart": "1707",
+    "shortDescription": "Learned society devoted to the study of antiquities and history. William Stukeley was a founding member and first secretary (1718).",
+    "headquarters": "loc-london",
+    "wikipediaTitle": "Society_of_Antiquaries_of_London",
+    "wikidataId": "Q653553"
+  }
+]

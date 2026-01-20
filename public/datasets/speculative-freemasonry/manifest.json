@@ -1,0 +1,82 @@
+{
+  "id": "speculative-freemasonry",
+  "name": "Origins of Speculative Freemasonry",
+  "description": "The transition from early speculative freemasonry (non-operative masonry) in the 1640s to the organized Grand Lodge system established in 1717-1723. This network traces key figures who documented early speculative initiations and those who organized the Premier Grand Lodge of England, culminating in the 1723 Constitutions that standardized freemasonry.",
+  "bannerImage": "img/banners/speculative-freemasonry.jpg",
+  "bannerEmoji": "🔨📜🏛️",
+  "lastUpdated": "2026-01-19",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 27,
+  "edgeCount": 72,
+  "scope": {
+    "startYear": 1640,
+    "endYear": 1723,
+    "regions": [
+      "England",
+      "Scotland"
+    ],
+    "themes": [
+      "speculative freemasonry",
+      "transition from operative to speculative masonry",
+      "Premier Grand Lodge formation",
+      "1723 Constitutions",
+      "elite adoption of freemasonry"
+    ],
+    "seedFigures": [
+      "person-elias-ashmole",
+      "person-robert-moray",
+      "person-anthony-sayer",
+      "person-george-payne",
+      "person-john-desaguliers",
+      "person-john-montagu",
+      "person-james-anderson",
+      "person-john-pine",
+      "person-william-stukeley"
+    ],
+    "subgroups": [
+      {
+        "id": "early-speculative",
+        "name": "Early Speculative Initiates",
+        "description": "Pre-1717 speculative masons including Ashmole and Moray"
+      },
+      {
+        "id": "1717-founders",
+        "name": "1717 Founders",
+        "description": "Organizers of the Premier Grand Lodge including Sayer and Payne"
+      },
+      {
+        "id": "intellectual-leaders",
+        "name": "Intellectual Leaders",
+        "description": "Key figures in standardization including Desaguliers and Anderson"
+      },
+      {
+        "id": "noble-patrons",
+        "name": "Noble Patrons",
+        "description": "Elite figures like Montagu who boosted public profile"
+      },
+      {
+        "id": "artistic-contributors",
+        "name": "Artistic/Visual Contributors",
+        "description": "Figures like Pine who shaped public presentation"
+      }
+    ],
+    "exclusionNotes": "Focusing on speculative (non-operative) freemasonry, not operative masonry traditions. Emphasis on England/Scotland transition period (1640s-1723), not later continental developments."
+  },
+  "research": {
+    "status": "complete",
+    "completedBatches": [
+      "early-speculative",
+      "1717-founders",
+      "intellectual-leaders",
+      "noble-patrons",
+      "artistic-contributors"
+    ],
+    "pendingBatches": [],
+    "gaps": [],
+    "excludedFigures": []
+  },
+  "customRelationshipTypes": []
+}
