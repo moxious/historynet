@@ -3,8 +3,8 @@ import { defineConfig, devices } from '@playwright/test';
 /**
  * Playwright configuration for Scenius E2E tests.
  *
- * Tests run against the production Vercel deployment by default.
- * Override with BASE_URL env var for preview deployments or local testing.
+ * Tests build the app and run against a local preview server.
+ * This ensures PRs are tested before merge, not after deploy.
  *
  * @see https://playwright.dev/docs/test-configuration
  */
@@ -17,9 +17,16 @@ export default defineConfig({
   reporter: process.env.CI ? 'github' : 'html',
 
   use: {
-    // Run against production by default, override with BASE_URL env var
-    baseURL: process.env.BASE_URL || 'https://scenius-seven.vercel.app',
+    baseURL: 'http://localhost:4173',
     trace: 'on-first-retry',
+  },
+
+  /* Build and serve the app before running tests */
+  webServer: {
+    command: 'npm run build && npm run preview',
+    url: 'http://localhost:4173',
+    reuseExistingServer: !process.env.CI,
+    timeout: 120000, // 2 minutes for build
   },
 
   projects: [
