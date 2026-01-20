@@ -615,5 +615,60 @@
     "target": "location-paris",
     "relationship": "lived_in",
     "evidence": "Bovelles studied and taught in Paris before becoming a canon"
+  },
+  {
+    "id": "edge-ficino-educated-leo-x",
+    "source": "person-marsilio-ficino",
+    "target": "person-pope-leo-x",
+    "relationship": "taught",
+    "evidence": "Giovanni de' Medici (the future Pope Leo X), son of Lorenzo the Magnificent, was educated by humanists including Ficino as part of the Medici household's intellectual circle.",
+    "evidenceNodeId": "person-pope-leo-x",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-pico-educated-leo-x",
+    "source": "person-giovanni-pico-della-mirandola",
+    "target": "person-pope-leo-x",
+    "relationship": "taught",
+    "evidence": "Giovanni de' Medici (the future Pope Leo X) was educated by humanists including Pico della Mirandola, who was part of Lorenzo de' Medici's intellectual circle in Florence.",
+    "evidenceNodeId": "person-pope-leo-x",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-leo-x-defended-reuchlin",
+    "source": "person-pope-leo-x",
+    "target": "person-johannes-reuchlin",
+    "relationship": "defended",
+    "dateStart": "1516",
+    "evidence": "Pope Leo X ultimately dismissed the heresy proceedings against Reuchlin that had been brought by the Cologne Dominicans and inquisitor Hoogstraten, though the case was not definitively resolved until after Leo's death.",
+    "evidenceNodeId": "person-pope-leo-x",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-egidio-influenced-reuchlin",
+    "source": "person-egidio-da-viterbo",
+    "target": "person-johannes-reuchlin",
+    "relationship": "influenced",
+    "evidence": "Egidio da Viterbo patronized Christian Hebraism at the highest levels of the Church and influenced Reuchlin through his support for Hebrew scholarship and Christian Kabbalah.",
+    "evidenceNodeId": "person-egidio-da-viterbo",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-egidio-influenced-giorgi",
+    "source": "person-egidio-da-viterbo",
+    "target": "person-francesco-giorgi",
+    "relationship": "influenced",
+    "evidence": "Egidio da Viterbo patronized Christian Hebraism at the highest levels of the Church and influenced Giorgi, whose De Harmonia Mundi reflected similar Kabbalistic interests.",
+    "evidenceNodeId": "person-egidio-da-viterbo",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-egidio-influenced-by-pico-circle",
+    "source": "person-egidio-da-viterbo",
+    "target": "person-giovanni-pico-della-mirandola",
+    "relationship": "influenced_by",
+    "evidence": "Egidio became deeply interested in Kabbalah after meeting Pico della Mirandola's circle, which sparked his lifelong engagement with Christian Kabbalistic thought.",
+    "evidenceNodeId": "person-egidio-da-viterbo",
+    "strength": "strong"
   }
 ]
