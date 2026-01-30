@@ -66,7 +66,6 @@ function serializeRelationshipTypes(types: string[] | null): string | null {
 
 /** URL parameter keys */
 const URL_PARAMS = {
-  DATASET: 'dataset',
   SELECTED: 'selected',
   SELECTED_TYPE: 'type',
   LAYOUT: 'layout',
@@ -79,12 +78,6 @@ const URL_PARAMS = {
 } as const;
 
 interface UseUrlStateReturn {
-  /** Current dataset ID from URL */
-  datasetId: string | null;
-  /** Set dataset ID in URL */
-  setDatasetId: (id: string) => void;
-  /** Set dataset ID and clear selection in a single atomic URL update */
-  setDatasetIdAndClearSelection: (id: string) => void;
   /** Currently selected item ID from URL */
   selectedId: string | null;
   /** Type of selected item ('node' or 'edge') */
@@ -127,36 +120,6 @@ export function useUrlState(): UseUrlStateReturn {
       setSearchParamsRef.current(nextInit, navigateOpts);
     },
     []
-  );
-
-  // Get dataset ID from URL
-  const datasetId = searchParams.get(URL_PARAMS.DATASET);
-
-  // Set dataset ID in URL
-  const setDatasetId = useCallback(
-    (id: string) => {
-      stableSetSearchParams((prev) => {
-        const newParams = new URLSearchParams(prev);
-        newParams.set(URL_PARAMS.DATASET, id);
-        return newParams;
-      });
-    },
-    [stableSetSearchParams]
-  );
-
-  // Set dataset ID and clear selection in a single atomic URL update
-  // This avoids race conditions when switching datasets
-  const setDatasetIdAndClearSelection = useCallback(
-    (id: string) => {
-      stableSetSearchParams((prev) => {
-        const newParams = new URLSearchParams(prev);
-        newParams.set(URL_PARAMS.DATASET, id);
-        newParams.delete(URL_PARAMS.SELECTED);
-        newParams.delete(URL_PARAMS.SELECTED_TYPE);
-        return newParams;
-      });
-    },
-    [stableSetSearchParams]
   );
 
   // Get selected item from URL
@@ -301,9 +264,6 @@ export function useUrlState(): UseUrlStateReturn {
 
   return useMemo(
     () => ({
-      datasetId,
-      setDatasetId,
-      setDatasetIdAndClearSelection,
       selectedId,
       selectedType,
       setSelected,
@@ -317,9 +277,6 @@ export function useUrlState(): UseUrlStateReturn {
       clearAll,
     }),
     [
-      datasetId,
-      setDatasetId,
-      setDatasetIdAndClearSelection,
       selectedId,
       selectedType,
       setSelected,
@@ -337,6 +294,8 @@ export function useUrlState(): UseUrlStateReturn {
 
 /**
  * Build a shareable URL with the current state
+ * @deprecated Use buildFullExploreUrl from urlBuilder.ts instead
+ * This function is kept for backward compatibility but should not be used for new code
  */
 export function buildShareableUrl(params: {
   datasetId?: string;
@@ -348,9 +307,8 @@ export function buildShareableUrl(params: {
   const url = new URL(window.location.href);
   const searchParams = new URLSearchParams();
 
-  if (params.datasetId) {
-    searchParams.set(URL_PARAMS.DATASET, params.datasetId);
-  }
+  // Note: dataset ID is now in the path, not query params
+  // This function maintains query params only for backward compatibility
   if (params.selectedType && params.selectedId) {
     searchParams.set(URL_PARAMS.SELECTED, params.selectedId);
     searchParams.set(URL_PARAMS.SELECTED_TYPE, params.selectedType);
