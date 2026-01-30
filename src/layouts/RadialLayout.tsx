@@ -440,7 +440,7 @@ export function RadialLayout({
   }
 
   return (
-    <div ref={containerRef} className={`radial-layout ${className}`}>
+    <div ref={containerRef} className={`radial-layout ${className}`} data-testid="graph-visualization">
       <svg ref={svgRef} width={dimensions.width} height={dimensions.height}>
         <defs>
           {/* Glow filter for search highlighting */}

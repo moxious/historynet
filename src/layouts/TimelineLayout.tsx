@@ -1036,7 +1036,7 @@ export function TimelineLayout({
   }, [dimensions]);
 
   return (
-    <div ref={containerRef} className={`timeline-layout ${className}`}>
+    <div ref={containerRef} className={`timeline-layout ${className}`} data-testid="graph-visualization">
       <svg ref={svgRef} width={dimensions.width} height={dimensions.height}>
         <defs>
           {/* Glow filter for search highlighting */}

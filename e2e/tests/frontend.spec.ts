@@ -58,8 +58,8 @@ test.describe('Dataset Explore Page', () => {
   test('loads explore view', async ({ page }) => {
     await page.goto(`/${TEST_DATASET}/explore`);
 
-    // Graph visualization should render (canvas or SVG)
-    const graphElement = page.locator('canvas, svg').first();
+    // Graph visualization should render (canvas or SVG within the graph container)
+    const graphElement = page.locator('[data-testid="graph-visualization"] canvas, [data-testid="graph-visualization"] svg').first();
     await expect(graphElement).toBeVisible({ timeout: 15000 });
   });
 
@@ -99,8 +99,19 @@ test.describe('404 Page', () => {
   test('shows not found for invalid routes', async ({ page }) => {
     await page.goto('/nonexistent-page-xyz');
 
-    // Should show some indication of not found
-    await expect(page.locator('body')).toContainText(/not found|404|error/i, {
+    // Should show some indication of not found (tightened regex to avoid false positives)
+    await expect(page.locator('body')).toContainText(/not found|404|page.*doesn't exist/i, {
+      timeout: 10000,
+    });
+  });
+});
+
+test.describe('Error Handling', () => {
+  test('shows fallback for invalid node ID', async ({ page }) => {
+    await page.goto(`/${TEST_DATASET}/node/nonexistent-node-xyz`);
+
+    // Should show not found or redirect to dataset overview
+    await expect(page.locator('body')).toContainText(/not found|404|doesn't exist/i, {
       timeout: 10000,
     });
   });

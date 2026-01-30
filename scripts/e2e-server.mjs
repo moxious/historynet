@@ -2,7 +2,8 @@
 /**
  * E2E Test Server
  *
- * Builds the frontend and serves it along with API endpoints for E2E testing.
+ * Serves the frontend via Vite dev server along with API endpoints for E2E testing.
+ * Note: Production build mode is disabled pending CI compatibility fixes.
  * This avoids the need for Vercel CLI authentication in CI environments.
  */
 

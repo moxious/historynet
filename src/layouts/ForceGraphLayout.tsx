@@ -382,7 +382,7 @@ export function ForceGraphLayout({
   }, []);
 
   return (
-    <div ref={containerRef} className={`force-graph-layout ${className}`}>
+    <div ref={containerRef} className={`force-graph-layout ${className}`} data-testid="graph-visualization">
       <svg ref={svgRef} width={dimensions.width} height={dimensions.height}>
         <defs>
           {/* Glow filter for search highlighting */}
