@@ -9,6 +9,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+
+- **M30: Cross-Scene Discovery UI** (2026-01-30) - Visual indicators and navigation for multi-dataset entities
+  - **Visual indicators**: 20% darker backgrounds for nodes appearing in multiple datasets across all layouts
+  - **Enhanced tooltips**: Show network count ("Entity Name · In N networks")
+  - **Infobox teaser**: Minimal prompt in NodeInfobox linking to full cross-scene section
+  - **Detail page section**: "Explore in Other Networks" with rich context and navigation cards
+  - **Progressive disclosure**: Three-stage reveal (graph hint → infobox teaser → detail page)
+  - **Components**: CrossSceneContext, useCrossSceneAppearances, CrossSceneTeaser, CrossSceneSection, CrossSceneNetworkCard
+  - **Navigation**: Preserves layout, clears filters/search on dataset switch
+  - **Analytics**: Cross-scene navigation event tracking
+  - **Responsive**: Desktop and mobile variants for all UI components
+  - **Non-blocking**: Async data fetch with skeleton loaders
+  - Files: 10 new files, 15 modified, +1,664 lines
+
 - **M29: Cross-Scene Node Index API** - Build-time index enabling cross-dataset entity discovery
   - **Index Builder**: `scripts/build-cross-scene-index/index.ts` generates lookup indexes
     - Scans all 12 datasets in `public/datasets/`

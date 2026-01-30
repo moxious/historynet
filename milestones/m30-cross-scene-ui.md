@@ -1,8 +1,8 @@
 # M30: Cross-Scene Discovery UI
 
-**Status**: 🔲 Future
+**Status**: ✅ Complete (2026-01-30)
 **Track**: B (Infrastructure & Backend)
-**Depends on**: M29 (Cross-Scene API) - **MUST complete M29 before starting M30**
+**Depends on**: M29 (Cross-Scene API) ✅
 
 ## Integration Context
 

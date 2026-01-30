@@ -35,7 +35,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M26 | Custom Domain | 🔲 Future | B | [m26-custom-domain.md](m26-custom-domain.md) |
 | M27 | Spam Protection | 🔲 Future | B | [m27-spam-protection.md](m27-spam-protection.md) |
 | M29 | Cross-Scene API | ✅ Complete | B | [m29-cross-scene-api.md](m29-cross-scene-api.md) |
-| M30 | Cross-Scene UI | 🔲 Ready | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
+| M30 | Cross-Scene UI | ✅ Complete | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
 | M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
 | M33 | Social Sharing & Dynamic OG | ✅ Complete | B | [m33-social-sharing.md](m33-social-sharing.md) |
@@ -100,10 +100,9 @@ M1-M20 (Core Application Complete) ✅
 **Ready to implement** (dependencies satisfied):
 - **M26: Custom Domain** - Depends on M24 ✅
 - **M27: Spam Protection** - Depends on M25 ✅
-- **M30: Cross-Scene UI** - Depends on M29 ✅
 - **M34: Migration Infrastructure & Testing** - No dependencies (foundation for Track D)
 
-**Track B progress**: M29 (Cross-Scene API) complete. API deployed and working at https://scenius-seven.vercel.app/api/node-scenes.
+**Track B progress**: M30 (Cross-Scene UI) complete. Full cross-scene discovery experience deployed with visual indicators, progressive disclosure, and seamless navigation across datasets.
 
 **Track C complete**: M32 (New Homepage) completes the information architecture track.
 
