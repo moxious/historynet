@@ -1,0 +1,15 @@
+{
+  "Q22078899": {
+    "wikidataId": "Q22078899",
+    "wikipediaTitle": "Alex_Krizhevsky",
+    "canonicalTitle": "Alex Krizhevsky",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-alex-krizhevsky",
+        "nodeTitle": "Alex Krizhevsky"
+      }
+    ]
+  }
+}

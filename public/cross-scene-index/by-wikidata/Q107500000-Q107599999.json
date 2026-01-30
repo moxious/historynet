@@ -1,0 +1,15 @@
+{
+  "Q107588589": {
+    "wikidataId": "Q107588589",
+    "wikipediaTitle": "OpenAI_Codex",
+    "canonicalTitle": "Codex / GitHub Copilot",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-codex",
+        "nodeTitle": "Codex / GitHub Copilot"
+      }
+    ]
+  }
+}

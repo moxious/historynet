@@ -1,0 +1,15 @@
+{
+  "Q16520311": {
+    "wikidataId": "Q16520311",
+    "wikipediaTitle": "AlexNet",
+    "canonicalTitle": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-alexnet-paper",
+        "nodeTitle": "ImageNet Classification with Deep Convolutional Neural Networks"
+      }
+    ]
+  }
+}

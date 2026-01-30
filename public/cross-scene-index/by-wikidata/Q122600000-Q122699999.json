@@ -1,0 +1,27 @@
+{
+  "Q122645637": {
+    "wikidataId": "Q122645637",
+    "wikipediaTitle": "Grok_(chatbot)",
+    "canonicalTitle": "Grok",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-grok",
+        "nodeTitle": "Grok"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-grok2",
+        "nodeTitle": "Grok 2"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-grok3",
+        "nodeTitle": "Grok 3"
+      }
+    ]
+  }
+}

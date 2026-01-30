@@ -1,0 +1,93 @@
+{
+  "Q1608180": {
+    "wikidataId": "Q1608180",
+    "wikipediaTitle": "Herb_Deutsch",
+    "canonicalTitle": "Herb Deutsch",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-herb-deutsch",
+        "nodeTitle": "Herb Deutsch"
+      }
+    ]
+  },
+  "Q1611073": {
+    "wikidataId": "Q1611073",
+    "wikipediaTitle": "E.G._Records",
+    "canonicalTitle": "EG Records",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-eg-records",
+        "nodeTitle": "EG Records"
+      }
+    ]
+  },
+  "Q1650528": {
+    "wikidataId": "Q1650528",
+    "wikipediaTitle": "Moog_Music",
+    "canonicalTitle": "Moog Music",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-moog-music",
+        "nodeTitle": "Moog Music"
+      }
+    ]
+  },
+  "Q1672919": {
+    "wikidataId": "Q1672919",
+    "wikipediaTitle": "Philosophes",
+    "canonicalTitle": "French Philosophes",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-philosophes",
+        "nodeTitle": "French Philosophes"
+      }
+    ]
+  },
+  "Q1626866": {
+    "wikidataId": "Q1626866",
+    "wikipediaTitle": "Orphic_Hymns",
+    "canonicalTitle": "Orphic Hymns",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-orphic-hymns",
+        "nodeTitle": "Orphic Hymns"
+      }
+    ]
+  },
+  "Q1645505": {
+    "wikidataId": "Q1645505",
+    "wikipediaTitle": "English_Reformation",
+    "canonicalTitle": "English Reformation",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-english-reformation",
+        "nodeTitle": "English Reformation"
+      }
+    ]
+  },
+  "Q1696381": {
+    "wikidataId": "Q1696381",
+    "wikipediaTitle": "Johann_Theodor_de_Bry",
+    "canonicalTitle": "Johann Theodor de Bry Publishing House",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-de-bry-publishing",
+        "nodeTitle": "Johann Theodor de Bry Publishing House"
+      }
+    ]
+  }
+}

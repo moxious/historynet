@@ -1,0 +1,28 @@
+{
+  "Q25347847": {
+    "wikidataId": "Q25347847",
+    "wikipediaTitle": "Generative_adversarial_network",
+    "canonicalTitle": "Generative Adversarial Networks",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gan-paper",
+        "nodeTitle": "Generative Adversarial Networks"
+      }
+    ]
+  },
+  "Q25348086": {
+    "wikidataId": "Q25348086",
+    "wikipediaTitle": "Variational_autoencoder",
+    "canonicalTitle": "Auto-Encoding Variational Bayes",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-vae-paper",
+        "nodeTitle": "Auto-Encoding Variational Bayes"
+      }
+    ]
+  }
+}

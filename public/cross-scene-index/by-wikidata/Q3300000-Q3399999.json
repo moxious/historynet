@@ -1,0 +1,28 @@
+{
+  "Q3389945": {
+    "wikidataId": "Q3389945",
+    "wikipediaTitle": "Obscure_Records",
+    "canonicalTitle": "Obscure Records",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-obscure-records",
+        "nodeTitle": "Obscure Records"
+      }
+    ]
+  },
+  "Q3397209": {
+    "wikidataId": "Q3397209",
+    "wikipediaTitle": "Thomas_Vaughan_(philosopher)",
+    "canonicalTitle": "Thomas Vaughan",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-thomas-vaughan",
+        "nodeTitle": "Thomas Vaughan"
+      }
+    ]
+  }
+}

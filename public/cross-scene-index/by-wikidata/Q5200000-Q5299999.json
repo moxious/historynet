@@ -1,0 +1,54 @@
+{
+  "Q5250235": {
+    "wikidataId": "Q5250235",
+    "wikipediaTitle": "Deep_Listening_Band",
+    "canonicalTitle": "Deep Listening Band",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-deep-listening-band",
+        "nodeTitle": "Deep Listening Band"
+      }
+    ]
+  },
+  "Q5247052": {
+    "wikidataId": "Q5247052",
+    "wikipediaTitle": "De_harmonia_mundi",
+    "canonicalTitle": "De Harmonia Mundi totius cantica tria",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-de-harmonia-mundi",
+        "nodeTitle": "De Harmonia Mundi totius cantica tria"
+      }
+    ]
+  },
+  "Q5226156": {
+    "wikidataId": "Q5226156",
+    "wikipediaTitle": "Theory_of_Games_and_Economic_Behavior",
+    "canonicalTitle": "Theory of Games and Economic Behavior",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-game-theory-neumann-morgenstern",
+        "nodeTitle": "Theory of Games and Economic Behavior"
+      }
+    ]
+  },
+  "Q5244229": {
+    "wikidataId": "Q5244229",
+    "wikipediaTitle": "De_Arte_Cabalistica",
+    "canonicalTitle": "De arte cabalistica",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-de-arte-cabalistica",
+        "nodeTitle": "De arte cabalistica"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Q122968991": {
+    "wikidataId": "Q122968991",
+    "wikipediaTitle": "Mixtral",
+    "canonicalTitle": "Mixtral 8x22B",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-mixtral-8x22b",
+        "nodeTitle": "Mixtral 8x22B"
+      }
+    ]
+  }
+}

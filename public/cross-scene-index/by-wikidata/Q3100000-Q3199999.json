@@ -1,0 +1,67 @@
+{
+  "Q3155783": {
+    "wikidataId": "Q3155783",
+    "wikipediaTitle": "It's_Gonna_Rain",
+    "canonicalTitle": "It's Gonna Rain",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-reich-its-gonna-rain",
+        "nodeTitle": "It's Gonna Rain"
+      }
+    ]
+  },
+  "Q3153674": {
+    "wikidataId": "Q3153674",
+    "wikipediaTitle": "Intonarumori",
+    "canonicalTitle": "Intonarumori",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-intonarumori",
+        "nodeTitle": "Intonarumori"
+      }
+    ]
+  },
+  "Q3123640": {
+    "wikidataId": "Q3123640",
+    "wikipediaTitle": "Ray_Solomonoff",
+    "canonicalTitle": "Ray Solomonoff",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-ray-solomonoff",
+        "nodeTitle": "Ray Solomonoff"
+      }
+    ]
+  },
+  "Q3138032": {
+    "wikidataId": "Q3138032",
+    "wikipediaTitle": "Histoire_Naturelle",
+    "canonicalTitle": "Histoire naturelle",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-histoire-naturelle",
+        "nodeTitle": "Histoire naturelle"
+      }
+    ]
+  },
+  "Q3160845": {
+    "wikidataId": "Q3160845",
+    "wikipediaTitle": "James_Anderson_(Freemason)",
+    "canonicalTitle": "Rev. James Anderson",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-james-anderson",
+        "nodeTitle": "Rev. James Anderson"
+      }
+    ]
+  }
+}

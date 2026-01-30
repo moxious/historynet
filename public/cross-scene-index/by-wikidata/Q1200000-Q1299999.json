@@ -1,0 +1,119 @@
+{
+  "Q1238976": {
+    "wikidataId": "Q1238976",
+    "wikipediaTitle": "Don_Buchla",
+    "canonicalTitle": "Don Buchla",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-don-buchla",
+        "nodeTitle": "Don Buchla"
+      }
+    ]
+  },
+  "Q1273664": {
+    "wikidataId": "Q1273664",
+    "wikipediaTitle": "E2-E4",
+    "canonicalTitle": "E2-E4",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-gottsching-e2e4",
+        "nodeTitle": "E2-E4"
+      }
+    ]
+  },
+  "Q1211539": {
+    "wikidataId": "Q1211539",
+    "wikipediaTitle": "Monadology",
+    "canonicalTitle": "Monadology",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-monadology",
+        "nodeTitle": "Monadology"
+      }
+    ]
+  },
+  "Q1210631": {
+    "wikidataId": "Q1210631",
+    "wikipediaTitle": "Platonic_Academy_(Florence)",
+    "canonicalTitle": "Platonic Academy of Florence",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "entity-platonic-academy",
+        "nodeTitle": "Platonic Academy of Florence"
+      }
+    ]
+  },
+  "Q1237075": {
+    "wikidataId": "Q1237075",
+    "wikipediaTitle": "Robert_Barnes_(martyr)",
+    "canonicalTitle": "Robert Barnes",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-robert-barnes",
+        "nodeTitle": "Robert Barnes"
+      }
+    ]
+  },
+  "Q1236187": {
+    "wikidataId": "Q1236187",
+    "wikipediaTitle": "Gasparino_Barzizza",
+    "canonicalTitle": "Gasparino Barzizza",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-gasparino-barzizza",
+        "nodeTitle": "Gasparino Barzizza"
+      }
+    ]
+  },
+  "Q1229872": {
+    "wikidataId": "Q1229872",
+    "wikipediaTitle": "Matteo_Palmieri",
+    "canonicalTitle": "Matteo Palmieri",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-matteo-palmieri",
+        "nodeTitle": "Matteo Palmieri"
+      }
+    ]
+  },
+  "Q1234681": {
+    "wikidataId": "Q1234681",
+    "wikipediaTitle": "Giannozzo_Manetti",
+    "canonicalTitle": "Giannozzo Manetti",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-giannozzo-manetti",
+        "nodeTitle": "Giannozzo Manetti"
+      }
+    ]
+  },
+  "Q1243904": {
+    "wikidataId": "Q1243904",
+    "wikipediaTitle": "University_of_Alcalá",
+    "canonicalTitle": "University of Alcalá de Henares",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-university-alcala",
+        "nodeTitle": "University of Alcalá de Henares"
+      }
+    ]
+  }
+}

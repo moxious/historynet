@@ -1,0 +1,80 @@
+{
+  "Q7841039": {
+    "wikidataId": "Q7841039",
+    "wikipediaTitle": "Geoffrey_Hinton",
+    "canonicalTitle": "Geoffrey Hinton",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-geoffrey-hinton",
+        "nodeTitle": "Geoffrey Hinton"
+      }
+    ]
+  },
+  "Q7838396": {
+    "wikidataId": "Q7838396",
+    "wikipediaTitle": "Trevor_Blackwell",
+    "canonicalTitle": "Trevor Blackwell",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-trevor-blackwell",
+        "nodeTitle": "Trevor Blackwell"
+      }
+    ]
+  },
+  "Q7831590": {
+    "wikidataId": "Q7831590",
+    "wikipediaTitle": "Tracks_and_Traces",
+    "canonicalTitle": "Tracks and Traces",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-harmonia-tracks-traces",
+        "nodeTitle": "Tracks and Traces"
+      }
+    ]
+  },
+  "Q7854954": {
+    "wikidataId": "Q7854954",
+    "wikipediaTitle": "On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem",
+    "canonicalTitle": "On Computable Numbers, with an Application to the Entscheidungsproblem",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-computable-numbers-turing",
+        "nodeTitle": "On Computable Numbers, with an Application to the Entscheidungsproblem"
+      }
+    ]
+  },
+  "Q7884967": {
+    "wikidataId": "Q7884967",
+    "wikipediaTitle": "Unified_Theories_of_Cognition",
+    "canonicalTitle": "Unified Theories of Cognition",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-unified-theories-newell",
+        "nodeTitle": "Unified Theories of Cognition"
+      }
+    ]
+  },
+  "Q7899795": {
+    "wikidataId": "Q7899795",
+    "wikipediaTitle": "Urania_propitia",
+    "canonicalTitle": "Urania Propitia",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-urania-propitia",
+        "nodeTitle": "Urania Propitia"
+      }
+    ]
+  }
+}

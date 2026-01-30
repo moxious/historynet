@@ -1,0 +1,47 @@
+{
+  "Q3471440": {
+    "wikidataId": "Q3471440",
+    "wikipediaTitle": "San_Francisco_Tape_Music_Center",
+    "canonicalTitle": "San Francisco Tape Music Center",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-sftmc",
+        "nodeTitle": "San Francisco Tape Music Center"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-sftmc-org",
+        "nodeTitle": "San Francisco Tape Music Center"
+      }
+    ]
+  },
+  "Q3496301": {
+    "wikidataId": "Q3496301",
+    "wikipediaTitle": "Theatre_of_Eternal_Music",
+    "canonicalTitle": "Theatre of Eternal Music",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-theatre-eternal-music",
+        "nodeTitle": "Theatre of Eternal Music"
+      }
+    ]
+  },
+  "Q3420069": {
+    "wikidataId": "Q3420069",
+    "wikipediaTitle": "Ratio_Club",
+    "canonicalTitle": "Ratio Club",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-ratio-club",
+        "nodeTitle": "Ratio Club"
+      }
+    ]
+  }
+}

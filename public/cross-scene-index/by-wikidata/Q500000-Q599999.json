@@ -1,0 +1,463 @@
+{
+  "Q544469": {
+    "wikidataId": "Q544469",
+    "wikipediaTitle": "Pierre_Henry",
+    "canonicalTitle": "Pierre Henry",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-pierre-henry",
+        "nodeTitle": "Pierre Henry"
+      }
+    ]
+  },
+  "Q505957": {
+    "wikidataId": "Q505957",
+    "wikipediaTitle": "Edgar_Froese",
+    "canonicalTitle": "Edgar Froese",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-edgar-froese",
+        "nodeTitle": "Edgar Froese"
+      }
+    ]
+  },
+  "Q571477": {
+    "wikidataId": "Q571477",
+    "wikipediaTitle": "Conrad_Schnitzler",
+    "canonicalTitle": "Conrad Schnitzler",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-conrad-schnitzler",
+        "nodeTitle": "Conrad Schnitzler"
+      }
+    ]
+  },
+  "Q569003": {
+    "wikidataId": "Q569003",
+    "wikipediaTitle": "Brian_Eno",
+    "canonicalTitle": "Brian Eno",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-brian-eno",
+        "nodeTitle": "Brian Eno"
+      }
+    ]
+  },
+  "Q544099": {
+    "wikidataId": "Q544099",
+    "wikipediaTitle": "Autobahn_(album)",
+    "canonicalTitle": "Autobahn",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-kraftwerk-autobahn",
+        "nodeTitle": "Autobahn"
+      }
+    ]
+  },
+  "Q514109": {
+    "wikidataId": "Q514109",
+    "wikipediaTitle": "EMS_VCS_3",
+    "canonicalTitle": "VCS3 (Putney)",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-ems-vcs3",
+        "nodeTitle": "VCS3 (Putney)"
+      }
+    ]
+  },
+  "Q568238": {
+    "wikidataId": "Q568238",
+    "wikipediaTitle": "Harmonia_(band)",
+    "canonicalTitle": "Harmonia",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-harmonia",
+        "nodeTitle": "Harmonia"
+      }
+    ]
+  },
+  "Q572901": {
+    "wikidataId": "Q572901",
+    "wikipediaTitle": "Minimal_music",
+    "canonicalTitle": "Minimalism",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-minimalism",
+        "nodeTitle": "Minimalism"
+      }
+    ]
+  },
+  "Q569604": {
+    "wikidataId": "Q569604",
+    "wikipediaTitle": "Sponheim_Abbey",
+    "canonicalTitle": "Sponheim Abbey",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-sponheim-abbey",
+        "nodeTitle": "Sponheim Abbey"
+      }
+    ]
+  },
+  "Q540500": {
+    "wikidataId": "Q540500",
+    "wikipediaTitle": "Charles_de_Bovelles",
+    "canonicalTitle": "Charles de Bovelles",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-charles-de-bovelles",
+        "nodeTitle": "Charles de Bovelles"
+      }
+    ]
+  },
+  "Q510591": {
+    "wikidataId": "Q510591",
+    "wikipediaTitle": "Warren_Weaver",
+    "canonicalTitle": "Warren Weaver",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-warren-weaver",
+        "nodeTitle": "Warren Weaver"
+      }
+    ]
+  },
+  "Q529886": {
+    "wikidataId": "Q529886",
+    "wikipediaTitle": "Ralph_Hartley",
+    "canonicalTitle": "Ralph Hartley",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-ralph-hartley",
+        "nodeTitle": "Ralph Hartley"
+      }
+    ]
+  },
+  "Q522162": {
+    "wikidataId": "Q522162",
+    "wikipediaTitle": "John_Mauchly",
+    "canonicalTitle": "John Mauchly",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-john-mauchly",
+        "nodeTitle": "John Mauchly"
+      }
+    ]
+  },
+  "Q505520": {
+    "wikidataId": "Q505520",
+    "wikipediaTitle": "Kenneth_E._Boulding",
+    "canonicalTitle": "Kenneth Boulding",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-kenneth-boulding",
+        "nodeTitle": "Kenneth Boulding"
+      }
+    ]
+  },
+  "Q503806": {
+    "wikidataId": "Q503806",
+    "wikipediaTitle": "Peter_Checkland",
+    "canonicalTitle": "Peter Checkland",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-peter-checkland",
+        "nodeTitle": "Peter Checkland"
+      }
+    ]
+  },
+  "Q503192": {
+    "wikidataId": "Q503192",
+    "wikipediaTitle": "Walter_Bradford_Cannon",
+    "canonicalTitle": "Walter Cannon",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-walter-cannon",
+        "nodeTitle": "Walter Cannon"
+      }
+    ]
+  },
+  "Q598451": {
+    "wikidataId": "Q598451",
+    "wikipediaTitle": "System_dynamics",
+    "canonicalTitle": "System Dynamics",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-system-dynamics",
+        "nodeTitle": "System Dynamics"
+      }
+    ]
+  },
+  "Q599967": {
+    "wikidataId": "Q599967",
+    "wikipediaTitle": "Autopoiesis",
+    "canonicalTitle": "Autopoiesis",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-autopoiesis",
+        "nodeTitle": "Autopoiesis"
+      }
+    ]
+  },
+  "Q584990": {
+    "wikidataId": "Q584990",
+    "wikipediaTitle": "Louis_de_Jaucourt",
+    "canonicalTitle": "Louis de Jaucourt",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-jaucourt",
+        "nodeTitle": "Louis de Jaucourt"
+      }
+    ]
+  },
+  "Q514727": {
+    "wikidataId": "Q514727",
+    "wikipediaTitle": "The_Spirit_of_the_Laws",
+    "canonicalTitle": "The Spirit of the Laws",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-spirit-laws",
+        "nodeTitle": "The Spirit of the Laws"
+      }
+    ]
+  },
+  "Q560436": {
+    "wikidataId": "Q560436",
+    "wikipediaTitle": "Cristoforo_Landino",
+    "canonicalTitle": "Cristoforo Landino",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-cristoforo-landino",
+        "nodeTitle": "Cristoforo Landino"
+      }
+    ]
+  },
+  "Q561458": {
+    "wikidataId": "Q561458",
+    "wikipediaTitle": "Demetrios_Chalkokondyles",
+    "canonicalTitle": "Demetrios Chalkokondyles",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-demetrios-chalkokondyles",
+        "nodeTitle": "Demetrios Chalkokondyles"
+      }
+    ]
+  },
+  "Q502592": {
+    "wikidataId": "Q502592",
+    "wikipediaTitle": "Hermes_Trismegistus",
+    "canonicalTitle": "Hermes Trismegistus",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-hermes-trismegistus",
+        "nodeTitle": "Hermes Trismegistus"
+      }
+    ]
+  },
+  "Q579476": {
+    "wikidataId": "Q579476",
+    "wikipediaTitle": "Villa_Medici_at_Careggi",
+    "canonicalTitle": "Villa Medici at Careggi",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "location-villa-careggi",
+        "nodeTitle": "Villa Medici at Careggi"
+      }
+    ]
+  },
+  "Q506182": {
+    "wikidataId": "Q506182",
+    "wikipediaTitle": "John_Frederick_I,_Elector_of_Saxony",
+    "canonicalTitle": "John Frederick I",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-frederick-i",
+        "nodeTitle": "John Frederick I"
+      }
+    ]
+  },
+  "Q569330": {
+    "wikidataId": "Q569330",
+    "wikipediaTitle": "On_the_Freedom_of_a_Christian",
+    "canonicalTitle": "On the Freedom of a Christian",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-freedom-christian",
+        "nodeTitle": "On the Freedom of a Christian"
+      }
+    ]
+  },
+  "Q503473": {
+    "wikidataId": "Q503473",
+    "wikipediaTitle": "University_of_Geneva",
+    "canonicalTitle": "Geneva Academy",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-geneva-academy",
+        "nodeTitle": "Geneva Academy"
+      }
+    ]
+  },
+  "Q536822": {
+    "wikidataId": "Q536822",
+    "wikipediaTitle": "Diet_of_Worms",
+    "canonicalTitle": "Diet of Worms (1521)",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-diet-of-worms",
+        "nodeTitle": "Diet of Worms (1521)"
+      }
+    ]
+  },
+  "Q510621": {
+    "wikidataId": "Q510621",
+    "wikipediaTitle": "Jacopo_Sannazaro",
+    "canonicalTitle": "Jacopo Sannazaro",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-jacopo-sannazaro",
+        "nodeTitle": "Jacopo Sannazaro"
+      }
+    ]
+  },
+  "Q539577": {
+    "wikidataId": "Q539577",
+    "wikipediaTitle": "Guarino_da_Verona",
+    "canonicalTitle": "Guarino da Verona",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-guarino-da-verona",
+        "nodeTitle": "Guarino da Verona"
+      }
+    ]
+  },
+  "Q533514": {
+    "wikidataId": "Q533514",
+    "wikipediaTitle": "George_of_Trebizond",
+    "canonicalTitle": "George of Trebizond",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-george-of-trebizond",
+        "nodeTitle": "George of Trebizond"
+      }
+    ]
+  },
+  "Q569869": {
+    "wikidataId": "Q569869",
+    "wikipediaTitle": "In_Praise_of_Folly",
+    "canonicalTitle": "Moriae encomium (Praise of Folly)",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-praise-of-folly",
+        "nodeTitle": "Moriae encomium (Praise of Folly)"
+      }
+    ]
+  },
+  "Q567488": {
+    "wikidataId": "Q567488",
+    "wikipediaTitle": "Aldine_Press",
+    "canonicalTitle": "Aldine Press",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-aldine-press",
+        "nodeTitle": "Aldine Press"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "entity-aldine-press",
+        "nodeTitle": "Aldine Press"
+      }
+    ]
+  },
+  "Q551420": {
+    "wikidataId": "Q551420",
+    "wikipediaTitle": "Maurice,_Landgrave_of_Hesse-Kassel",
+    "canonicalTitle": "Moritz of Hesse-Kassel",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-moritz-hesse-kassel",
+        "nodeTitle": "Moritz of Hesse-Kassel"
+      }
+    ]
+  },
+  "Q557652": {
+    "wikidataId": "Q557652",
+    "wikipediaTitle": "John_Wilkins",
+    "canonicalTitle": "John Wilkins",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-john-wilkins",
+        "nodeTitle": "John Wilkins"
+      }
+    ]
+  }
+}

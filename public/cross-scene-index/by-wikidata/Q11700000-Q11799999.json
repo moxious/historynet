@@ -1,0 +1,15 @@
+{
+  "Q11772588": {
+    "wikidataId": "Q11772588",
+    "wikipediaTitle": "John_Frith",
+    "canonicalTitle": "John Frith",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-frith",
+        "nodeTitle": "John Frith"
+      }
+    ]
+  }
+}

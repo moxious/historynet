@@ -1,0 +1,54 @@
+{
+  "Q6942662": {
+    "wikidataId": "Q6942662",
+    "wikipediaTitle": "Musik_von_Harmonia",
+    "canonicalTitle": "Musik von Harmonia",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-harmonia-musik",
+        "nodeTitle": "Musik von Harmonia"
+      }
+    ]
+  },
+  "Q6969830": {
+    "wikidataId": "Q6969830",
+    "wikipediaTitle": "Nathaniel_Rochester_(computer_scientist)",
+    "canonicalTitle": "Nathaniel Rochester",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-nathaniel-rochester",
+        "nodeTitle": "Nathaniel Rochester"
+      }
+    ]
+  },
+  "Q6908229": {
+    "wikidataId": "Q6908229",
+    "wikipediaTitle": "Moore_School_of_Electrical_Engineering",
+    "canonicalTitle": "Moore School of Electrical Engineering",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-moore-school",
+        "nodeTitle": "Moore School of Electrical Engineering"
+      }
+    ]
+  },
+  "Q6948791": {
+    "wikidataId": "Q6948791",
+    "wikipediaTitle": "Mysterium_Magnum",
+    "canonicalTitle": "Mysterium Magnum",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-mysterium-magnum",
+        "nodeTitle": "Mysterium Magnum"
+      }
+    ]
+  }
+}

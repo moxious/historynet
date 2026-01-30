@@ -1,0 +1,80 @@
+{
+  "Q57430008": {
+    "wikidataId": "Q57430008",
+    "wikipediaTitle": "Łukasz_Kaiser",
+    "canonicalTitle": "Łukasz Kaiser",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-lukasz-kaiser",
+        "nodeTitle": "Łukasz Kaiser"
+      }
+    ]
+  },
+  "Q57431260": {
+    "wikidataId": "Q57431260",
+    "wikipediaTitle": "Noam_Shazeer",
+    "canonicalTitle": "Noam Shazeer",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-noam-shazeer",
+        "nodeTitle": "Noam Shazeer"
+      }
+    ]
+  },
+  "Q57430055": {
+    "wikidataId": "Q57430055",
+    "wikipediaTitle": "Jakob_Uszkoreit",
+    "canonicalTitle": "Jakob Uszkoreit",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-jakob-uszkoreit",
+        "nodeTitle": "Jakob Uszkoreit"
+      }
+    ]
+  },
+  "Q57430117": {
+    "wikidataId": "Q57430117",
+    "wikipediaTitle": "Llion_Jones",
+    "canonicalTitle": "Llion Jones",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-llion-jones",
+        "nodeTitle": "Llion Jones"
+      }
+    ]
+  },
+  "Q57430148": {
+    "wikidataId": "Q57430148",
+    "wikipediaTitle": "Aidan_Gomez",
+    "canonicalTitle": "Aidan Gomez",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-aidan-gomez",
+        "nodeTitle": "Aidan Gomez"
+      }
+    ]
+  },
+  "Q57430190": {
+    "wikidataId": "Q57430190",
+    "wikipediaTitle": "Illia_Polosukhin",
+    "canonicalTitle": "Illia Polosukhin",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-illia-polosukhin",
+        "nodeTitle": "Illia Polosukhin"
+      }
+    ]
+  }
+}

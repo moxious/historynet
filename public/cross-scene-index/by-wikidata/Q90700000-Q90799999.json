@@ -1,0 +1,15 @@
+{
+  "Q90727997": {
+    "wikidataId": "Q90727997",
+    "wikipediaTitle": "Hugging_Face",
+    "canonicalTitle": "Hugging Face",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-huggingface",
+        "nodeTitle": "Hugging Face"
+      }
+    ]
+  }
+}

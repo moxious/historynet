@@ -1,0 +1,15 @@
+{
+  "Q97252119": {
+    "wikidataId": "Q97252119",
+    "wikipediaTitle": "GPT-3",
+    "canonicalTitle": "GPT-3",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gpt3",
+        "nodeTitle": "GPT-3"
+      }
+    ]
+  }
+}

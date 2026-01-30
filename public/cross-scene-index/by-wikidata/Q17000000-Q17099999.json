@@ -1,0 +1,15 @@
+{
+  "Q17033033": {
+    "wikidataId": "Q17033033",
+    "wikipediaTitle": "Académie_de_Bordeaux",
+    "canonicalTitle": "Académie de Bordeaux",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-academie-bordeaux",
+        "nodeTitle": "Académie de Bordeaux"
+      }
+    ]
+  }
+}

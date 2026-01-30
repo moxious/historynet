@@ -1,0 +1,41 @@
+{
+  "Q16928269": {
+    "wikidataId": "Q16928269",
+    "wikipediaTitle": "Evening_Star_(album)",
+    "canonicalTitle": "Evening Star",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-fripp-eno-evening-star",
+        "nodeTitle": "Evening Star"
+      }
+    ]
+  },
+  "Q16953441": {
+    "wikidataId": "Q16953441",
+    "wikipediaTitle": "Cybernetics:_Or_Control_and_Communication_in_the_Animal_and_the_Machine",
+    "canonicalTitle": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-cybernetics-wiener",
+        "nodeTitle": "Cybernetics: Or Control and Communication in the Animal and the Machine"
+      }
+    ]
+  },
+  "Q16950662": {
+    "wikidataId": "Q16950662",
+    "wikipediaTitle": "Venerable_Company_of_Pastors",
+    "canonicalTitle": "Company of Pastors",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-company-of-pastors",
+        "nodeTitle": "Company of Pastors"
+      }
+    ]
+  }
+}

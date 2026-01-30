@@ -1,0 +1,15 @@
+{
+  "Q104831864": {
+    "wikidataId": "Q104831864",
+    "wikipediaTitle": "DALL-E",
+    "canonicalTitle": "DALL-E",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-dalle",
+        "nodeTitle": "DALL-E"
+      }
+    ]
+  }
+}

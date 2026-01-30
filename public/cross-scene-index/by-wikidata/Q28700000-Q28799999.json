@@ -1,0 +1,28 @@
+{
+  "Q28738478": {
+    "wikidataId": "Q28738478",
+    "wikipediaTitle": "Ilya_Sutskever",
+    "canonicalTitle": "Ilya Sutskever",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-ilya-sutskever",
+        "nodeTitle": "Ilya Sutskever"
+      }
+    ]
+  },
+  "Q28733656": {
+    "wikidataId": "Q28733656",
+    "wikipediaTitle": "Greg_Brockman",
+    "canonicalTitle": "Greg Brockman",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-greg-brockman",
+        "nodeTitle": "Greg Brockman"
+      }
+    ]
+  }
+}

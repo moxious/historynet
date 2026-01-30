@@ -1,0 +1,15 @@
+{
+  "Q4120832": {
+    "wikidataId": "Q4120832",
+    "wikipediaTitle": "Königsberg",
+    "canonicalTitle": "Königsberg",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-konigsberg",
+        "nodeTitle": "Königsberg"
+      }
+    ]
+  }
+}

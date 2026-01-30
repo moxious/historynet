@@ -1,0 +1,249 @@
+{
+  "Q862501": {
+    "wikidataId": "Q862501",
+    "wikipediaTitle": "Ondes_Martenot",
+    "canonicalTitle": "Ondes Martenot",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-ondes-martenot",
+        "nodeTitle": "Ondes Martenot"
+      }
+    ]
+  },
+  "Q854590": {
+    "wikidataId": "Q854590",
+    "wikipediaTitle": "Yellow_Magic_Orchestra",
+    "canonicalTitle": "Yellow Magic Orchestra",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-ymo",
+        "nodeTitle": "Yellow Magic Orchestra"
+      }
+    ]
+  },
+  "Q823560": {
+    "wikidataId": "Q823560",
+    "wikipediaTitle": "Musique_concrète",
+    "canonicalTitle": "Musique Concrète",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-musique-concrete",
+        "nodeTitle": "Musique Concrète"
+      }
+    ]
+  },
+  "Q862087": {
+    "wikidataId": "Q862087",
+    "wikipediaTitle": "Corpus_Hermeticum",
+    "canonicalTitle": "Corpus Hermeticum (Latin translation)",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-corpus-hermeticum-translation",
+        "nodeTitle": "Corpus Hermeticum (Latin translation)"
+      }
+    ]
+  },
+  "Q863565": {
+    "wikidataId": "Q863565",
+    "wikipediaTitle": "EDSAC",
+    "canonicalTitle": "EDSAC",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-edsac",
+        "nodeTitle": "EDSAC"
+      }
+    ]
+  },
+  "Q861141": {
+    "wikidataId": "Q861141",
+    "wikipediaTitle": "RAND_Corporation",
+    "canonicalTitle": "RAND Corporation",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-rand",
+        "nodeTitle": "RAND Corporation"
+      }
+    ]
+  },
+  "Q862034": {
+    "wikidataId": "Q862034",
+    "wikipediaTitle": "Rockefeller_Foundation",
+    "canonicalTitle": "Rockefeller Foundation",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-rockefeller-foundation",
+        "nodeTitle": "Rockefeller Foundation"
+      }
+    ]
+  },
+  "Q870851": {
+    "wikidataId": "Q870851",
+    "wikipediaTitle": "Critique_of_Practical_Reason",
+    "canonicalTitle": "Critique of Practical Reason",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-critique-practical-reason",
+        "nodeTitle": "Critique of Practical Reason"
+      }
+    ]
+  },
+  "Q843940": {
+    "wikidataId": "Q843940",
+    "wikipediaTitle": "Common_Sense",
+    "canonicalTitle": "Common Sense",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-common-sense",
+        "nodeTitle": "Common Sense"
+      }
+    ]
+  },
+  "Q858036": {
+    "wikidataId": "Q858036",
+    "wikipediaTitle": "The_Federalist_Papers",
+    "canonicalTitle": "The Federalist Papers",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-federalist-papers",
+        "nodeTitle": "The Federalist Papers"
+      }
+    ]
+  },
+  "Q821914": {
+    "wikidataId": "Q821914",
+    "wikipediaTitle": "Berlinische_Monatsschrift",
+    "canonicalTitle": "Berlinische Monatsschrift",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-berlinische-monatsschrift",
+        "nodeTitle": "Berlinische Monatsschrift"
+      }
+    ]
+  },
+  "Q846306": {
+    "wikidataId": "Q846306",
+    "wikipediaTitle": "De_libero_arbitrio_diatribe_sive_collatio",
+    "canonicalTitle": "On Free Will",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-free-will-erasmus",
+        "nodeTitle": "On Free Will"
+      }
+    ]
+  },
+  "Q855575": {
+    "wikidataId": "Q855575",
+    "wikipediaTitle": "A_Mighty_Fortress_Is_Our_God",
+    "canonicalTitle": "Luther's Hymns",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-luther-hymns",
+        "nodeTitle": "Luther's Hymns"
+      }
+    ]
+  },
+  "Q828750": {
+    "wikidataId": "Q828750",
+    "wikipediaTitle": "Diet_of_Augsburg",
+    "canonicalTitle": "Diet of Augsburg (1530)",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-diet-of-augsburg",
+        "nodeTitle": "Diet of Augsburg (1530)"
+      }
+    ]
+  },
+  "Q810966": {
+    "wikidataId": "Q810966",
+    "wikipediaTitle": "Battista_Guarino",
+    "canonicalTitle": "Battista Guarino",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-battista-guarino",
+        "nodeTitle": "Battista Guarino"
+      }
+    ]
+  },
+  "Q820887": {
+    "wikidataId": "Q820887",
+    "wikipediaTitle": "University_of_Florence",
+    "canonicalTitle": "University of Florence (Studio Fiorentino)",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-studio-fiorentino",
+        "nodeTitle": "University of Florence (Studio Fiorentino)"
+      }
+    ]
+  },
+  "Q899007": {
+    "wikidataId": "Q899007",
+    "wikipediaTitle": "Oswald_Croll",
+    "canonicalTitle": "Oswald Croll",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-oswald-croll",
+        "nodeTitle": "Oswald Croll"
+      }
+    ]
+  },
+  "Q841173": {
+    "wikidataId": "Q841173",
+    "wikipediaTitle": "Christian_Rosenkreuz",
+    "canonicalTitle": "Christian Rosenkreutz",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-christian-rosenkreutz",
+        "nodeTitle": "Christian Rosenkreutz"
+      }
+    ]
+  },
+  "Q896313": {
+    "wikidataId": "Q896313",
+    "wikipediaTitle": "Göttingen_Observatory",
+    "canonicalTitle": "Göttingen Observatory",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "location-gottingen-observatory",
+        "nodeTitle": "Göttingen Observatory"
+      }
+    ]
+  }
+}

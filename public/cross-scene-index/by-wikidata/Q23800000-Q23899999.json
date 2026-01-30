@@ -1,0 +1,28 @@
+{
+  "Q23831774": {
+    "wikidataId": "Q23831774",
+    "wikipediaTitle": "David_Silver_(computer_scientist)",
+    "canonicalTitle": "David Silver",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-david-silver",
+        "nodeTitle": "David Silver"
+      }
+    ]
+  },
+  "Q23831959": {
+    "wikidataId": "Q23831959",
+    "wikipediaTitle": "Aja_Huang",
+    "canonicalTitle": "Aja Huang",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-aja-huang",
+        "nodeTitle": "Aja Huang"
+      }
+    ]
+  }
+}

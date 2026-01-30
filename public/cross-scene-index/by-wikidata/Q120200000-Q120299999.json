@@ -1,0 +1,28 @@
+{
+  "Q120206584": {
+    "wikidataId": "Q120206584",
+    "wikipediaTitle": "CLIP_(language_model)",
+    "canonicalTitle": "CLIP",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-clip",
+        "nodeTitle": "CLIP"
+      }
+    ]
+  },
+  "Q120201695": {
+    "wikidataId": "Q120201695",
+    "wikipediaTitle": "Constitutional_AI",
+    "canonicalTitle": "Constitutional AI Paper",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-constitutional-ai",
+        "nodeTitle": "Constitutional AI Paper"
+      }
+    ]
+  }
+}

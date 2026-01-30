@@ -1,0 +1,216 @@
+{
+  "Q1176914": {
+    "wikidataId": "Q1176914",
+    "wikipediaTitle": "David_Tudor",
+    "canonicalTitle": "David Tudor",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-david-tudor",
+        "nodeTitle": "David Tudor"
+      }
+    ]
+  },
+  "Q1129735": {
+    "wikidataId": "Q1129735",
+    "wikipediaTitle": "Gesang_der_Jünglinge",
+    "canonicalTitle": "Gesang der Jünglinge",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-stockhausen-gesang",
+        "nodeTitle": "Gesang der Jünglinge"
+      }
+    ]
+  },
+  "Q1180147": {
+    "wikidataId": "Q1180147",
+    "wikipediaTitle": "De_Arte_Cabalistica",
+    "canonicalTitle": "De Arte Cabalistica",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-de-arte-cabalistica",
+        "nodeTitle": "De Arte Cabalistica"
+      }
+    ]
+  },
+  "Q1180145": {
+    "wikidataId": "Q1180145",
+    "wikipediaTitle": "De_verbo_mirifico",
+    "canonicalTitle": "De Verbo Mirifico",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-de-verbo-mirifico",
+        "nodeTitle": "De Verbo Mirifico"
+      }
+    ]
+  },
+  "Q1182689": {
+    "wikidataId": "Q1182689",
+    "wikipediaTitle": "De_incertitudine_et_vanitate_scientiarum_et_artium",
+    "canonicalTitle": "De incertitudine et vanitate scientiarum",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-de-vanitate-scientiarum",
+        "nodeTitle": "De incertitudine et vanitate scientiarum"
+      }
+    ]
+  },
+  "Q1181428": {
+    "wikidataId": "Q1181428",
+    "wikipediaTitle": "De_vita_libri_tres",
+    "canonicalTitle": "De vita libri tres",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-de-vita-libri-tres",
+        "nodeTitle": "De vita libri tres"
+      }
+    ]
+  },
+  "Q1147211": {
+    "wikidataId": "Q1147211",
+    "wikipediaTitle": "Project_Cybersyn",
+    "canonicalTitle": "OPSROOM (Cybersyn)",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-opsroom-chile",
+        "nodeTitle": "OPSROOM (Cybersyn)"
+      },
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-cybersyn",
+        "nodeTitle": "Cybersyn (Project Synco)"
+      }
+    ]
+  },
+  "Q1113461": {
+    "wikidataId": "Q1113461",
+    "wikipediaTitle": "William_Robertson_(historian)",
+    "canonicalTitle": "William Robertson",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-william-robertson",
+        "nodeTitle": "William Robertson"
+      }
+    ]
+  },
+  "Q1171104": {
+    "wikidataId": "Q1171104",
+    "wikipediaTitle": "The_Fable_of_the_Bees",
+    "canonicalTitle": "The Fable of the Bees",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-fable-bees",
+        "nodeTitle": "The Fable of the Bees"
+      }
+    ]
+  },
+  "Q1111930": {
+    "wikidataId": "Q1111930",
+    "wikipediaTitle": "The_System_of_Nature",
+    "canonicalTitle": "The System of Nature",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-system-nature",
+        "nodeTitle": "The System of Nature"
+      }
+    ]
+  },
+  "Q1116026": {
+    "wikidataId": "Q1116026",
+    "wikipediaTitle": "Scottish_common_sense_realism",
+    "canonicalTitle": "Common Sense Philosophy",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-common-sense-philosophy",
+        "nodeTitle": "Common Sense Philosophy"
+      }
+    ]
+  },
+  "Q1180745": {
+    "wikidataId": "Q1180745",
+    "wikipediaTitle": "On_the_Bondage_of_the_Will",
+    "canonicalTitle": "The Bondage of the Will",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-bondage-of-will",
+        "nodeTitle": "The Bondage of the Will"
+      }
+    ]
+  },
+  "Q1138103": {
+    "wikidataId": "Q1138103",
+    "wikipediaTitle": "Coverdale_Bible",
+    "canonicalTitle": "Coverdale Bible",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-coverdale-bible",
+        "nodeTitle": "Coverdale Bible"
+      }
+    ]
+  },
+  "Q1125192": {
+    "wikidataId": "Q1125192",
+    "wikipediaTitle": "Scots_Confession",
+    "canonicalTitle": "Scots Confession",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-scots-confession",
+        "nodeTitle": "Scots Confession"
+      }
+    ]
+  },
+  "Q1121746": {
+    "wikidataId": "Q1121746",
+    "wikipediaTitle": "Complutensian_Polyglot_Bible",
+    "canonicalTitle": "Complutensian Polyglot Bible",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-complutensian-polyglot",
+        "nodeTitle": "Complutensian Polyglot Bible"
+      }
+    ]
+  },
+  "Q1126858": {
+    "wikidataId": "Q1126858",
+    "wikipediaTitle": "Conrad_Khunrath",
+    "canonicalTitle": "Conrad Khunrath",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-conrad-khunrath",
+        "nodeTitle": "Conrad Khunrath"
+      }
+    ]
+  }
+}

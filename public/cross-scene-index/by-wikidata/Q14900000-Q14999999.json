@@ -1,0 +1,15 @@
+{
+  "Q14941935": {
+    "wikidataId": "Q14941935",
+    "wikipediaTitle": "Hermetica",
+    "canonicalTitle": "Corpus Hermeticum Translation",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-corpus-hermeticum",
+        "nodeTitle": "Corpus Hermeticum Translation"
+      }
+    ]
+  }
+}

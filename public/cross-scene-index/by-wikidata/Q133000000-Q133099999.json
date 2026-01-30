@@ -1,0 +1,15 @@
+{
+  "Q133034217": {
+    "wikidataId": "Q133034217",
+    "wikipediaTitle": "OpenAI_o3",
+    "canonicalTitle": "o3",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-o3",
+        "nodeTitle": "o3"
+      }
+    ]
+  }
+}

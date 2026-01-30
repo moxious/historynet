@@ -1,0 +1,41 @@
+{
+  "Q4359403": {
+    "wikidataId": "Q4359403",
+    "wikipediaTitle": "Perceptrons_(book)",
+    "canonicalTitle": "Perceptrons: An Introduction to Computational Geometry",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-perceptrons-minsky-papert",
+        "nodeTitle": "Perceptrons: An Introduction to Computational Geometry"
+      }
+    ]
+  },
+  "Q4330297": {
+    "wikidataId": "Q4330297",
+    "wikipediaTitle": "International_Society_for_the_Systems_Sciences",
+    "canonicalTitle": "Society for General Systems Research",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-sgsr",
+        "nodeTitle": "Society for General Systems Research"
+      }
+    ]
+  },
+  "Q4356652": {
+    "wikidataId": "Q4356652",
+    "wikipediaTitle": "Theatrum_Chemicum_Britannicum",
+    "canonicalTitle": "Theatrum Chemicum Britannicum",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-theatrum-chemicum-britannicum",
+        "nodeTitle": "Theatrum Chemicum Britannicum"
+      }
+    ]
+  }
+}

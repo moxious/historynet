@@ -1,0 +1,15 @@
+{
+  "Q15989807": {
+    "wikidataId": "Q15989807",
+    "wikipediaTitle": "Theoria_motus_corporum_coelestium_in_sectionibus_conicis_solem_ambientium",
+    "canonicalTitle": "Theoria motus corporum coelestium",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-theoria-motus",
+        "nodeTitle": "Theoria motus corporum coelestium"
+      }
+    ]
+  }
+}

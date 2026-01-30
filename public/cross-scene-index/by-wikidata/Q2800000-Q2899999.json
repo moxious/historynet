@@ -1,0 +1,67 @@
+{
+  "Q2819874": {
+    "wikidataId": "Q2819874",
+    "wikipediaTitle": "A_Rainbow_in_Curved_Air",
+    "canonicalTitle": "A Rainbow in Curved Air",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-riley-rainbow",
+        "nodeTitle": "A Rainbow in Curved Air"
+      }
+    ]
+  },
+  "Q2842051": {
+    "wikidataId": "Q2842051",
+    "wikipediaTitle": "Ambient_2:_The_Plateaux_of_Mirror",
+    "canonicalTitle": "Ambient 2: The Plateaux of Mirror",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-eno-budd-plateaux",
+        "nodeTitle": "Ambient 2: The Plateaux of Mirror"
+      }
+    ]
+  },
+  "Q2842048": {
+    "wikidataId": "Q2842048",
+    "wikipediaTitle": "Ambient_3:_Day_of_Radiance",
+    "canonicalTitle": "Ambient 3: Day of Radiance",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-laraaji-day-of-radiance",
+        "nodeTitle": "Ambient 3: Day of Radiance"
+      }
+    ]
+  },
+  "Q2823426": {
+    "wikidataId": "Q2823426",
+    "wikipediaTitle": "Acousmonium",
+    "canonicalTitle": "Acousmonium",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-acousmonium",
+        "nodeTitle": "Acousmonium"
+      }
+    ]
+  },
+  "Q2847710": {
+    "wikidataId": "Q2847710",
+    "wikipediaTitle": "André-Michel_Guerry",
+    "canonicalTitle": "André-Michel Guerry",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-andre-michel-guerry",
+        "nodeTitle": "André-Michel Guerry"
+      }
+    ]
+  }
+}

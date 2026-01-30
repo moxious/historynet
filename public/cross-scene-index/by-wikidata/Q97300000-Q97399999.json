@@ -1,0 +1,15 @@
+{
+  "Q97359298": {
+    "wikidataId": "Q97359298",
+    "wikipediaTitle": "An_Introduction_to_Cybernetics",
+    "canonicalTitle": "An Introduction to Cybernetics",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-intro-cybernetics-ashby",
+        "nodeTitle": "An Introduction to Cybernetics"
+      }
+    ]
+  }
+}

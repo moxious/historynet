@@ -1,0 +1,15 @@
+{
+  "Q6030770": {
+    "wikidataId": "Q6030770",
+    "wikipediaTitle": "Information_Processing_Techniques_Office",
+    "canonicalTitle": "ARPA Information Processing Techniques Office",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-arpa-ipto",
+        "nodeTitle": "ARPA Information Processing Techniques Office"
+      }
+    ]
+  }
+}

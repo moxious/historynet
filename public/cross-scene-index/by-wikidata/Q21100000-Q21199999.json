@@ -1,0 +1,15 @@
+{
+  "Q21167448": {
+    "wikidataId": "Q21167448",
+    "wikipediaTitle": "Christian_Szegedy",
+    "canonicalTitle": "Christian Szegedy",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-christian-szegedy",
+        "nodeTitle": "Christian Szegedy"
+      }
+    ]
+  }
+}

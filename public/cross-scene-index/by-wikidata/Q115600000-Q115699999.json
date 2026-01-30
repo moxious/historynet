@@ -1,0 +1,28 @@
+{
+  "Q115667430": {
+    "wikidataId": "Q115667430",
+    "wikipediaTitle": "John_Jumper",
+    "canonicalTitle": "John Jumper",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-john-jumper",
+        "nodeTitle": "John Jumper"
+      }
+    ]
+  },
+  "Q115646799": {
+    "wikidataId": "Q115646799",
+    "wikipediaTitle": "GPT-1",
+    "canonicalTitle": "GPT-1",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gpt1",
+        "nodeTitle": "GPT-1"
+      }
+    ]
+  }
+}

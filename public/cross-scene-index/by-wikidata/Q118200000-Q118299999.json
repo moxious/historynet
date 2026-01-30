@@ -1,0 +1,28 @@
+{
+  "Q118283055": {
+    "wikidataId": "Q118283055",
+    "wikipediaTitle": "Guillaume_Lample",
+    "canonicalTitle": "Guillaume Lample",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-guillaume-lample",
+        "nodeTitle": "Guillaume Lample"
+      }
+    ]
+  },
+  "Q118282911": {
+    "wikidataId": "Q118282911",
+    "wikipediaTitle": "Arthur_Mensch",
+    "canonicalTitle": "Arthur Mensch",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-arthur-mensch",
+        "nodeTitle": "Arthur Mensch"
+      }
+    ]
+  }
+}

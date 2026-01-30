@@ -1,0 +1,41 @@
+{
+  "Q2746944": {
+    "wikidataId": "Q2746944",
+    "wikipediaTitle": "The_Art_of_Noises",
+    "canonicalTitle": "The Art of Noises (L'arte dei Rumori)",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-russolo-art-of-noises",
+        "nodeTitle": "The Art of Noises (L'arte dei Rumori)"
+      }
+    ]
+  },
+  "Q2714697": {
+    "wikidataId": "Q2714697",
+    "wikipediaTitle": "Music_for_18_Musicians",
+    "canonicalTitle": "Music for 18 Musicians",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-reich-music-for-18",
+        "nodeTitle": "Music for 18 Musicians"
+      }
+    ]
+  },
+  "Q2755269": {
+    "wikidataId": "Q2755269",
+    "wikipediaTitle": "On_Crimes_and_Punishments",
+    "canonicalTitle": "On Crimes and Punishments",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-crimes-punishments",
+        "nodeTitle": "On Crimes and Punishments"
+      }
+    ]
+  }
+}

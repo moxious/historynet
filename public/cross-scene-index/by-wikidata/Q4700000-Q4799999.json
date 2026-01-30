@@ -1,0 +1,54 @@
+{
+  "Q4717608": {
+    "wikidataId": "Q4717608",
+    "wikipediaTitle": "Alex_Paterson",
+    "canonicalTitle": "Alex Paterson (The Orb)",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-alex-paterson",
+        "nodeTitle": "Alex Paterson (The Orb)"
+      }
+    ]
+  },
+  "Q4745015": {
+    "wikidataId": "Q4745015",
+    "wikipediaTitle": "American_Society_for_Cybernetics",
+    "canonicalTitle": "American Society for Cybernetics",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-american-cybernetics",
+        "nodeTitle": "American Society for Cybernetics"
+      }
+    ]
+  },
+  "Q4749931": {
+    "wikidataId": "Q4749931",
+    "wikipediaTitle": "An_Essay_on_the_History_of_Civil_Society",
+    "canonicalTitle": "Essay on the History of Civil Society",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-essay-civil-society",
+        "nodeTitle": "Essay on the History of Civil Society"
+      }
+    ]
+  },
+  "Q4749933": {
+    "wikidataId": "Q4749933",
+    "wikipediaTitle": "An_Essay_towards_solving_a_Problem_in_the_Doctrine_of_Chances",
+    "canonicalTitle": "An Essay towards solving a Problem in the Doctrine of Chances",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-essay-towards-solving-a-problem",
+        "nodeTitle": "An Essay towards solving a Problem in the Doctrine of Chances"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Q110894704": {
+    "wikidataId": "Q110894704",
+    "wikipediaTitle": "Inflection_AI",
+    "canonicalTitle": "Inflection AI",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-inflection",
+        "nodeTitle": "Inflection AI"
+      }
+    ]
+  },
+  "Q110891631": {
+    "wikidataId": "Q110891631",
+    "wikipediaTitle": "Character.ai",
+    "canonicalTitle": "Character.AI",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-character-ai",
+        "nodeTitle": "Character.AI"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Q27311979": {
+    "wikidataId": "Q27311979",
+    "wikipediaTitle": "Ian_Goodfellow",
+    "canonicalTitle": "Ian Goodfellow",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-ian-goodfellow",
+        "nodeTitle": "Ian Goodfellow"
+      }
+    ]
+  },
+  "Q27312191": {
+    "wikidataId": "Q27312191",
+    "wikipediaTitle": "Aaron_Courville",
+    "canonicalTitle": "Aaron Courville",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-aaron-courville",
+        "nodeTitle": "Aaron Courville"
+      }
+    ]
+  }
+}

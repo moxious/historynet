@@ -1,0 +1,15 @@
+{
+  "Q21708200": {
+    "wikidataId": "Q21708200",
+    "wikipediaTitle": "OpenAI",
+    "canonicalTitle": "OpenAI",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-openai",
+        "nodeTitle": "OpenAI"
+      }
+    ]
+  }
+}

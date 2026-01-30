@@ -1,0 +1,54 @@
+{
+  "Q3717397": {
+    "wikidataId": "Q3717397",
+    "wikipediaTitle": "EMS_Synthi_AKS",
+    "canonicalTitle": "Synthi AKS",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-ems-synthi-aks",
+        "nodeTitle": "Synthi AKS"
+      }
+    ]
+  },
+  "Q3765911": {
+    "wikidataId": "Q3765911",
+    "wikipediaTitle": "Girolamo_Benivieni",
+    "canonicalTitle": "Girolamo Benivieni",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-girolamo-benivieni",
+        "nodeTitle": "Girolamo Benivieni"
+      }
+    ]
+  },
+  "Q3749759": {
+    "wikidataId": "Q3749759",
+    "wikipediaTitle": "Francesco_Cattani_da_Diacceto",
+    "canonicalTitle": "Francesco Cattani da Diacceto",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-francesco-diacceto",
+        "nodeTitle": "Francesco Cattani da Diacceto"
+      }
+    ]
+  },
+  "Q3759459": {
+    "wikidataId": "Q3759459",
+    "wikipediaTitle": "Genealogia_Deorum_Gentilium",
+    "canonicalTitle": "Genealogia deorum gentilium",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-genealogia-deorum",
+        "nodeTitle": "Genealogia deorum gentilium"
+      }
+    ]
+  }
+}

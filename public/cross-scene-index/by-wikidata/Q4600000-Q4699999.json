@@ -1,0 +1,47 @@
+{
+  "Q4690656": {
+    "wikidataId": "Q4690656",
+    "wikipediaTitle": "After_the_Heat",
+    "canonicalTitle": "After the Heat",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-after-the-heat",
+        "nodeTitle": "After the Heat"
+      }
+    ]
+  },
+  "Q4676716": {
+    "wikidataId": "Q4676716",
+    "wikipediaTitle": "Buchla_Electronic_Musical_Instruments",
+    "canonicalTitle": "Buchla 100 Series",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-buchla-100",
+        "nodeTitle": "Buchla 100 Series"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-buchla",
+        "nodeTitle": "Buchla and Associates"
+      }
+    ]
+  },
+  "Q4679195": {
+    "wikidataId": "Q4679195",
+    "wikipediaTitle": "Adam_Haslmayr",
+    "canonicalTitle": "Adam Haslmayr",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-adam-haslmayr",
+        "nodeTitle": "Adam Haslmayr"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Q3036050": {
+    "wikidataId": "Q3036050",
+    "wikipediaTitle": "Donald_MacCrimmon_MacKay",
+    "canonicalTitle": "Donald MacKay",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-donald-mackay",
+        "nodeTitle": "Donald MacKay"
+      }
+    ]
+  },
+  "Q3030210": {
+    "wikidataId": "Q3030210",
+    "wikipediaTitle": "Preliminary_Discourse_to_the_Encyclopedia_of_Diderot",
+    "canonicalTitle": "Preliminary Discourse to the Encyclopedia",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-preliminary-discourse",
+        "nodeTitle": "Preliminary Discourse to the Encyclopedia"
+      }
+    ]
+  },
+  "Q3030191": {
+    "wikidataId": "Q3030191",
+    "wikipediaTitle": "Discourse_on_Voluntary_Servitude",
+    "canonicalTitle": "Discours de la servitude volontaire",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-servitude-volontaire",
+        "nodeTitle": "Discours de la servitude volontaire"
+      }
+    ]
+  },
+  "Q3020472": {
+    "wikidataId": "Q3020472",
+    "wikipediaTitle": "De_pictura",
+    "canonicalTitle": "De pictura",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-de-pictura",
+        "nodeTitle": "De pictura"
+      }
+    ]
+  },
+  "Q3062451": {
+    "wikidataId": "Q3062451",
+    "wikipediaTitle": "John_Montagu,_2nd_Duke_of_Montagu",
+    "canonicalTitle": "John Montagu, 2nd Duke of Montagu",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-john-montagu",
+        "nodeTitle": "John Montagu, 2nd Duke of Montagu"
+      }
+    ]
+  }
+}

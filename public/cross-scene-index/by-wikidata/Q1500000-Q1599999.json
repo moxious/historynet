@@ -1,0 +1,177 @@
+{
+  "Q1500990": {
+    "wikidataId": "Q1500990",
+    "wikipediaTitle": "In_C",
+    "canonicalTitle": "In C",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-riley-in-c",
+        "nodeTitle": "In C"
+      }
+    ]
+  },
+  "Q1566338": {
+    "wikidataId": "Q1566338",
+    "wikipediaTitle": "Neu!_(album)",
+    "canonicalTitle": "Neu!",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-neu-1",
+        "nodeTitle": "Neu!"
+      }
+    ]
+  },
+  "Q1518623": {
+    "wikidataId": "Q1518623",
+    "wikipediaTitle": "Ohr_(record_label)",
+    "canonicalTitle": "Ohr Records",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-ohr",
+        "nodeTitle": "Ohr Records"
+      }
+    ]
+  },
+  "Q1544281": {
+    "wikidataId": "Q1544281",
+    "wikipediaTitle": "Management_cybernetics",
+    "canonicalTitle": "Management Cybernetics",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-management-cybernetics",
+        "nodeTitle": "Management Cybernetics"
+      }
+    ]
+  },
+  "Q1543820": {
+    "wikidataId": "Q1543820",
+    "wikipediaTitle": "900_Theses",
+    "canonicalTitle": "900 Theses (Conclusiones)",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-900-theses",
+        "nodeTitle": "900 Theses (Conclusiones)"
+      }
+    ]
+  },
+  "Q1571095": {
+    "wikidataId": "Q1571095",
+    "wikipediaTitle": "Luther_Bible",
+    "canonicalTitle": "Luther's German Bible",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-luther-bible",
+        "nodeTitle": "Luther's German Bible"
+      }
+    ]
+  },
+  "Q1526516": {
+    "wikidataId": "Q1526516",
+    "wikipediaTitle": "Novum_Instrumentum_omne",
+    "canonicalTitle": "Erasmus's Greek New Testament",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-novum-instrumentum",
+        "nodeTitle": "Erasmus's Greek New Testament"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-novum-instrumentum",
+        "nodeTitle": "Novum Instrumentum (Greek New Testament)"
+      }
+    ]
+  },
+  "Q1544227": {
+    "wikidataId": "Q1544227",
+    "wikipediaTitle": "Great_Bible",
+    "canonicalTitle": "Great Bible",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-great-bible",
+        "nodeTitle": "Great Bible"
+      }
+    ]
+  },
+  "Q1502139": {
+    "wikidataId": "Q1502139",
+    "wikipediaTitle": "Geneva_Bible",
+    "canonicalTitle": "Geneva Bible",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-geneva-bible",
+        "nodeTitle": "Geneva Bible"
+      }
+    ]
+  },
+  "Q1525570": {
+    "wikidataId": "Q1525570",
+    "wikipediaTitle": "Giorgio_Valla",
+    "canonicalTitle": "Giorgio Valla",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-giorgio-valla",
+        "nodeTitle": "Giorgio Valla"
+      }
+    ]
+  },
+  "Q1517519": {
+    "wikidataId": "Q1517519",
+    "wikipediaTitle": "The_Book_of_the_Courtier",
+    "canonicalTitle": "Il libro del cortegiano (The Book of the Courtier)",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-book-courtier",
+        "nodeTitle": "Il libro del cortegiano (The Book of the Courtier)"
+      }
+    ]
+  },
+  "Q1508044": {
+    "wikidataId": "Q1508044",
+    "wikipediaTitle": "George_Payne_(Freemason)",
+    "canonicalTitle": "George Payne",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-george-payne",
+        "nodeTitle": "George Payne"
+      }
+    ]
+  },
+  "Q1573240": {
+    "wikidataId": "Q1573240",
+    "wikipediaTitle": "W._F._R._Weldon",
+    "canonicalTitle": "W.F.R. Weldon",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-walter-frank-raphael-weldon",
+        "nodeTitle": "W.F.R. Weldon"
+      }
+    ]
+  }
+}

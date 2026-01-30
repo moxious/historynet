@@ -1,0 +1,15 @@
+{
+  "Q26903314": {
+    "wikidataId": "Q26903314",
+    "wikipediaTitle": "Dropout_(neural_networks)",
+    "canonicalTitle": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-dropout-paper",
+        "nodeTitle": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting"
+      }
+    ]
+  }
+}

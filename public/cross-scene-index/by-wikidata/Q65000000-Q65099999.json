@@ -1,0 +1,28 @@
+{
+  "Q65089522": {
+    "wikidataId": "Q65089522",
+    "wikipediaTitle": "GPT-2",
+    "canonicalTitle": "GPT-2",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gpt2",
+        "nodeTitle": "GPT-2"
+      }
+    ]
+  },
+  "Q65048378": {
+    "wikidataId": "Q65048378",
+    "wikipediaTitle": "Albert_Uttley",
+    "canonicalTitle": "Albert Uttley",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-albert-uttley",
+        "nodeTitle": "Albert Uttley"
+      }
+    ]
+  }
+}

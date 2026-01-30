@@ -1,0 +1,15 @@
+{
+  "Q18685271": {
+    "wikidataId": "Q18685271",
+    "wikipediaTitle": "Word2vec",
+    "canonicalTitle": "Word2Vec",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-word2vec",
+        "nodeTitle": "Word2Vec"
+      }
+    ]
+  }
+}

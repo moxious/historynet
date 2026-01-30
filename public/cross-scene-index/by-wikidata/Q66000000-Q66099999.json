@@ -1,0 +1,15 @@
+{
+  "Q66091709": {
+    "wikidataId": "Q66091709",
+    "wikipediaTitle": "AlphaFold",
+    "canonicalTitle": "AlphaFold 2",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-alphafold2",
+        "nodeTitle": "AlphaFold 2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Q118473029": {
+    "wikidataId": "Q118473029",
+    "wikipediaTitle": "Mistral_AI#Models",
+    "canonicalTitle": "Mistral 7B",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-mistral-7b",
+        "nodeTitle": "Mistral 7B"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-mistral",
+        "nodeTitle": "Mistral AI"
+      }
+    ]
+  }
+}

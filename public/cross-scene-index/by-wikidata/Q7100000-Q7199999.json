@@ -1,0 +1,41 @@
+{
+  "Q7193306": {
+    "wikidataId": "Q7193306",
+    "wikipediaTitle": "Pieter_Abbeel",
+    "canonicalTitle": "Pieter Abbeel",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-pieter-abbeel",
+        "nodeTitle": "Pieter Abbeel"
+      }
+    ]
+  },
+  "Q7177851": {
+    "wikidataId": "Q7177851",
+    "wikipediaTitle": "Peter_Zinovieff",
+    "canonicalTitle": "Peter Zinovieff",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-peter-zinovieff",
+        "nodeTitle": "Peter Zinovieff"
+      }
+    ]
+  },
+  "Q7133818": {
+    "wikidataId": "Q7133818",
+    "wikipediaTitle": "Paracelsianism",
+    "canonicalTitle": "Paracelsianism",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-paracelsianism",
+        "nodeTitle": "Paracelsianism"
+      }
+    ]
+  }
+}

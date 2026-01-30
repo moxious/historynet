@@ -1,0 +1,28 @@
+{
+  "Q7514348": {
+    "wikidataId": "Q7514348",
+    "wikipediaTitle": "Silence:_Lectures_and_Writings",
+    "canonicalTitle": "Silence",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-cage-silence",
+        "nodeTitle": "Silence"
+      }
+    ]
+  },
+  "Q7534728": {
+    "wikidataId": "Q7534728",
+    "wikipediaTitle": "Sketch_for_a_Historical_Picture_of_the_Progress_of_the_Human_Mind",
+    "canonicalTitle": "Sketch for a Historical Picture of the Progress of the Human Mind",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-sketch-progress",
+        "nodeTitle": "Sketch for a Historical Picture of the Progress of the Human Mind"
+      }
+    ]
+  }
+}

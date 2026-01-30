@@ -1,0 +1,54 @@
+{
+  "Q6176204": {
+    "wikidataId": "Q6176204",
+    "wikipediaTitle": "Jeff_Dean",
+    "canonicalTitle": "Jeff Dean",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-jeff-dean",
+        "nodeTitle": "Jeff Dean"
+      }
+    ]
+  },
+  "Q6181986": {
+    "wikidataId": "Q6181986",
+    "wikipediaTitle": "Jerome_Pesenti",
+    "canonicalTitle": "Jerome Pesenti",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-jerome-pesenti",
+        "nodeTitle": "Jerome Pesenti"
+      }
+    ]
+  },
+  "Q6188046": {
+    "wikidataId": "Q6188046",
+    "wikipediaTitle": "Jesus'_Blood_Never_Failed_Me_Yet",
+    "canonicalTitle": "Jesus' Blood Never Failed Me Yet",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-bryars-jesus-blood",
+        "nodeTitle": "Jesus' Blood Never Failed Me Yet"
+      }
+    ]
+  },
+  "Q6182818": {
+    "wikidataId": "Q6182818",
+    "wikipediaTitle": "Jerome_Lettvin",
+    "canonicalTitle": "Jerome Lettvin",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-jerome-lettvin",
+        "nodeTitle": "Jerome Lettvin"
+      }
+    ]
+  }
+}

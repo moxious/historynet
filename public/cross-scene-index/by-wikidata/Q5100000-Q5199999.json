@@ -1,0 +1,28 @@
+{
+  "Q5154756": {
+    "wikidataId": "Q5154756",
+    "wikipediaTitle": "Commentary_on_Plato%27s_Symposium_on_Love",
+    "canonicalTitle": "De Amore (Commentary on Plato's Symposium)",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-de-amore",
+        "nodeTitle": "De Amore (Commentary on Plato's Symposium)"
+      }
+    ]
+  },
+  "Q5128354": {
+    "wikidataId": "Q5128354",
+    "wikipediaTitle": "Civic_humanism",
+    "canonicalTitle": "Civic Humanism",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "entity-civic-humanism",
+        "nodeTitle": "Civic Humanism"
+      }
+    ]
+  }
+}

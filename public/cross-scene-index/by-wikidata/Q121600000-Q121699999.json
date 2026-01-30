@@ -1,0 +1,15 @@
+{
+  "Q121668234": {
+    "wikidataId": "Q121668234",
+    "wikipediaTitle": "Sakana_AI",
+    "canonicalTitle": "Sakana AI",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-sakana",
+        "nodeTitle": "Sakana AI"
+      }
+    ]
+  }
+}

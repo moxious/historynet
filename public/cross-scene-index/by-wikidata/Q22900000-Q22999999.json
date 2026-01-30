@@ -1,0 +1,15 @@
+{
+  "Q22908016": {
+    "wikidataId": "Q22908016",
+    "wikipediaTitle": "Quoc_Viet_Le",
+    "canonicalTitle": "Quoc V. Le",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-quoc-le",
+        "nodeTitle": "Quoc V. Le"
+      }
+    ]
+  }
+}

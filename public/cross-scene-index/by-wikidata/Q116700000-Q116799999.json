@@ -1,0 +1,15 @@
+{
+  "Q116709893": {
+    "wikidataId": "Q116709893",
+    "wikipediaTitle": "GPT-4",
+    "canonicalTitle": "GPT-4",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gpt4",
+        "nodeTitle": "GPT-4"
+      }
+    ]
+  }
+}

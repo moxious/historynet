@@ -1,0 +1,15 @@
+{
+  "Q6795393": {
+    "wikidataId": "Q6795393",
+    "wikipediaTitle": "Max_Welling",
+    "canonicalTitle": "Max Welling",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-max-welling",
+        "nodeTitle": "Max Welling"
+      }
+    ]
+  }
+}

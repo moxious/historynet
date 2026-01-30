@@ -1,0 +1,28 @@
+{
+  "Q56034965": {
+    "wikidataId": "Q56034965",
+    "wikipediaTitle": "Diederik_P._Kingma",
+    "canonicalTitle": "Durk Kingma",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-durk-kingma",
+        "nodeTitle": "Durk Kingma"
+      }
+    ]
+  },
+  "Q56062424": {
+    "wikidataId": "Q56062424",
+    "wikipediaTitle": "Ashish_Vaswani",
+    "canonicalTitle": "Ashish Vaswani",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-ashish-vaswani",
+        "nodeTitle": "Ashish Vaswani"
+      }
+    ]
+  }
+}

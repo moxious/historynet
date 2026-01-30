@@ -1,0 +1,28 @@
+{
+  "Q8050866": {
+    "wikidataId": "Q8050866",
+    "wikipediaTitle": "Yee-Whye_Teh",
+    "canonicalTitle": "Yee-Whye Teh",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-yee-whye-teh",
+        "nodeTitle": "Yee-Whye Teh"
+      }
+    ]
+  },
+  "Q8004902": {
+    "wikidataId": "Q8004902",
+    "wikipediaTitle": "William_Backhouse",
+    "canonicalTitle": "William Backhouse",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-william-backhouse",
+        "nodeTitle": "William Backhouse"
+      }
+    ]
+  }
+}

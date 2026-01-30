@@ -1,0 +1,15 @@
+{
+  "Q35064943": {
+    "wikidataId": "Q35064943",
+    "wikipediaTitle": "Oriol_Vinyals",
+    "canonicalTitle": "Oriol Vinyals",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-oriol-vinyals",
+        "nodeTitle": "Oriol Vinyals"
+      }
+    ]
+  }
+}

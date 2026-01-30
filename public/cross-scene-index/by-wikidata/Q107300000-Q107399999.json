@@ -1,0 +1,15 @@
+{
+  "Q107388794": {
+    "wikidataId": "Q107388794",
+    "wikipediaTitle": "Green_(Hiroshi_Yoshimura_album)",
+    "canonicalTitle": "Green",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-yoshimura-green",
+        "nodeTitle": "Green"
+      }
+    ]
+  }
+}

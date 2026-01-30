@@ -1,0 +1,15 @@
+{
+  "Q26884227": {
+    "wikidataId": "Q26884227",
+    "wikipediaTitle": "Andrej_Karpathy",
+    "canonicalTitle": "Andrej Karpathy",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-andrej-karpathy",
+        "nodeTitle": "Andrej Karpathy"
+      }
+    ]
+  }
+}

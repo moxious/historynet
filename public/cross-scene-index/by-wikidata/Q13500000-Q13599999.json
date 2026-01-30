@@ -1,0 +1,28 @@
+{
+  "Q13583325": {
+    "wikidataId": "Q13583325",
+    "wikipediaTitle": "Laraaji",
+    "canonicalTitle": "Laraaji",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-laraaji",
+        "nodeTitle": "Laraaji"
+      }
+    ]
+  },
+  "Q13570719": {
+    "wikidataId": "Q13570719",
+    "wikipediaTitle": "Horace_Barlow",
+    "canonicalTitle": "Horace Barlow",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-horace-barlow",
+        "nodeTitle": "Horace Barlow"
+      }
+    ]
+  }
+}

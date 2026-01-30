@@ -1,0 +1,15 @@
+{
+  "Q126330684": {
+    "wikidataId": "Q126330684",
+    "wikipediaTitle": "David_Ha_(computer_scientist)",
+    "canonicalTitle": "David Ha",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-david-ha",
+        "nodeTitle": "David Ha"
+      }
+    ]
+  }
+}

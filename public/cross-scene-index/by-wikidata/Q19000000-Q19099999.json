@@ -1,0 +1,28 @@
+{
+  "Q19041209": {
+    "wikidataId": "Q19041209",
+    "wikipediaTitle": "An_Introduction_to_the_Principles_of_Morals_and_Legislation",
+    "canonicalTitle": "Introduction to the Principles of Morals and Legislation",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-principles-morals-legislation",
+        "nodeTitle": "Introduction to the Principles of Morals and Legislation"
+      }
+    ]
+  },
+  "Q19020085": {
+    "wikidataId": "Q19020085",
+    "wikipediaTitle": "Colloquies",
+    "canonicalTitle": "Colloquia familiaria",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-colloquia",
+        "nodeTitle": "Colloquia familiaria"
+      }
+    ]
+  }
+}

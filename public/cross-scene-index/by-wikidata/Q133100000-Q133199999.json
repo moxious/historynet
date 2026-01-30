@@ -1,0 +1,21 @@
+{
+  "Q133138199": {
+    "wikidataId": "Q133138199",
+    "wikipediaTitle": "Amazon_Nova",
+    "canonicalTitle": "Amazon Nova",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-nova",
+        "nodeTitle": "Amazon Nova"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-nova-premier",
+        "nodeTitle": "Nova Premier"
+      }
+    ]
+  }
+}

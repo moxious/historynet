@@ -1,0 +1,47 @@
+{
+  "Q2358704": {
+    "wikidataId": "Q2358704",
+    "wikipediaTitle": "Studio_for_Electronic_Music_(WDR)",
+    "canonicalTitle": "WDR Studio for Electronic Music",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-wdr-studio",
+        "nodeTitle": "WDR Studio for Electronic Music"
+      }
+    ]
+  },
+  "Q2327432": {
+    "wikidataId": "Q2327432",
+    "wikipediaTitle": "Christian_humanism",
+    "canonicalTitle": "Christian Humanism",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-christian-humanism",
+        "nodeTitle": "Christian Humanism"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "entity-northern-humanism",
+        "nodeTitle": "Northern (Christian) Humanism"
+      }
+    ]
+  },
+  "Q2306608": {
+    "wikidataId": "Q2306608",
+    "wikipediaTitle": "Philosophical_Transactions_of_the_Royal_Society",
+    "canonicalTitle": "Philosophical Transactions of the Royal Society",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-philosophical-transactions",
+        "nodeTitle": "Philosophical Transactions of the Royal Society"
+      }
+    ]
+  }
+}

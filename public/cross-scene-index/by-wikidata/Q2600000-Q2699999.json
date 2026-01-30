@@ -1,0 +1,54 @@
+{
+  "Q2655756": {
+    "wikidataId": "Q2655756",
+    "wikipediaTitle": "Hans-Joachim_Roedelius",
+    "canonicalTitle": "Hans-Joachim Roedelius",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-hans-joachim-roedelius",
+        "nodeTitle": "Hans-Joachim Roedelius"
+      }
+    ]
+  },
+  "Q2674076": {
+    "wikidataId": "Q2674076",
+    "wikipediaTitle": "900_Theses",
+    "canonicalTitle": "Conclusiones philosophicae, cabalisticae et theologicae",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-900-theses",
+        "nodeTitle": "Conclusiones philosophicae, cabalisticae et theologicae"
+      }
+    ]
+  },
+  "Q2651957": {
+    "wikidataId": "Q2651957",
+    "wikipediaTitle": "Oliver_Selfridge",
+    "canonicalTitle": "Oliver Selfridge",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-oliver-selfridge",
+        "nodeTitle": "Oliver Selfridge"
+      }
+    ]
+  },
+  "Q2657053": {
+    "wikidataId": "Q2657053",
+    "wikipediaTitle": "Novum_Organum",
+    "canonicalTitle": "Novum Organum",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-novum-organum",
+        "nodeTitle": "Novum Organum"
+      }
+    ]
+  }
+}

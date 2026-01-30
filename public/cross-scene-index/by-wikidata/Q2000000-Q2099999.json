@@ -1,0 +1,93 @@
+{
+  "Q2016462": {
+    "wikidataId": "Q2016462",
+    "wikipediaTitle": "Conference_on_Neural_Information_Processing_Systems",
+    "canonicalTitle": "NeurIPS",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-neurips",
+        "nodeTitle": "NeurIPS"
+      }
+    ]
+  },
+  "Q2058212": {
+    "wikidataId": "Q2058212",
+    "wikipediaTitle": "Discreet_Music",
+    "canonicalTitle": "Discreet Music",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-eno-discreet-music",
+        "nodeTitle": "Discreet Music"
+      }
+    ]
+  },
+  "Q2021193": {
+    "wikidataId": "Q2021193",
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
+    "canonicalTitle": "Oration on the Dignity of Man",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-oration-dignity-man",
+        "nodeTitle": "Oration on the Dignity of Man"
+      }
+    ]
+  },
+  "Q2046693": {
+    "wikidataId": "Q2046693",
+    "wikipediaTitle": "Platonic_Academy_(Florence)",
+    "canonicalTitle": "Platonic Academy of Florence",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "entity-platonic-academy-florence",
+        "nodeTitle": "Platonic Academy of Florence"
+      }
+    ]
+  },
+  "Q2085760": {
+    "wikidataId": "Q2085760",
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
+    "canonicalTitle": "Oratio de hominis dignitate",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-oration-dignity-man",
+        "nodeTitle": "Oratio de hominis dignitate"
+      }
+    ]
+  },
+  "Q2063476": {
+    "wikidataId": "Q2063476",
+    "wikipediaTitle": "The_Sceptical_Chymist",
+    "canonicalTitle": "The Sceptical Chymist",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-sceptical-chymist",
+        "nodeTitle": "The Sceptical Chymist"
+      }
+    ]
+  },
+  "Q2088170": {
+    "wikidataId": "Q2088170",
+    "wikipediaTitle": "Suicide_(Durkheim_book)",
+    "canonicalTitle": "Le Suicide",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-le-suicide",
+        "nodeTitle": "Le Suicide"
+      }
+    ]
+  }
+}

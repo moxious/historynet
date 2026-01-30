@@ -1,0 +1,64 @@
+{
+  "Q117270377": {
+    "wikidataId": "Q117270377",
+    "wikipediaTitle": "Clem_Delangue",
+    "canonicalTitle": "Clément Delangue",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-clement-delangue",
+        "nodeTitle": "Clément Delangue"
+      }
+    ]
+  },
+  "Q117276906": {
+    "wikidataId": "Q117276906",
+    "wikipediaTitle": "Llama_(language_model)",
+    "canonicalTitle": "LLaMA",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama",
+        "nodeTitle": "LLaMA"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama2",
+        "nodeTitle": "LLaMA 2"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama3",
+        "nodeTitle": "LLaMA 3"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama31",
+        "nodeTitle": "LLaMA 3.1"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama32",
+        "nodeTitle": "LLaMA 3.2"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama33",
+        "nodeTitle": "LLaMA 3.3"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-llama4",
+        "nodeTitle": "LLaMA 4"
+      }
+    ]
+  }
+}

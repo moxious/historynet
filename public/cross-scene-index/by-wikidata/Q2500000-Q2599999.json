@@ -1,0 +1,28 @@
+{
+  "Q2574388": {
+    "wikidataId": "Q2574388",
+    "wikipediaTitle": "Jeanne_Loriod",
+    "canonicalTitle": "Jeanne Loriod",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-jeanne-loriod",
+        "nodeTitle": "Jeanne Loriod"
+      }
+    ]
+  },
+  "Q2551373": {
+    "wikidataId": "Q2551373",
+    "wikipediaTitle": "Letters_on_the_English",
+    "canonicalTitle": "Letters on the English",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-letters-english",
+        "nodeTitle": "Letters on the English"
+      }
+    ]
+  }
+}

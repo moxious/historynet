@@ -1,0 +1,54 @@
+{
+  "Q60740282": {
+    "wikidataId": "Q60740282",
+    "wikipediaTitle": "Samy_Bengio",
+    "canonicalTitle": "Samy Bengio",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-samy-bengio",
+        "nodeTitle": "Samy Bengio"
+      }
+    ]
+  },
+  "Q60740345": {
+    "wikidataId": "Q60740345",
+    "wikipediaTitle": "Kyunghyun_Cho",
+    "canonicalTitle": "Kyunghyun Cho",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-kyunghyun-cho",
+        "nodeTitle": "Kyunghyun Cho"
+      }
+    ]
+  },
+  "Q60751127": {
+    "wikidataId": "Q60751127",
+    "wikipediaTitle": "BERT_(language_model)",
+    "canonicalTitle": "BERT",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-bert",
+        "nodeTitle": "BERT"
+      }
+    ]
+  },
+  "Q60767453": {
+    "wikidataId": "Q60767453",
+    "wikipediaTitle": "Theologia_Platonica",
+    "canonicalTitle": "Theologia Platonica (Platonic Theology)",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-theologia-platonica",
+        "nodeTitle": "Theologia Platonica (Platonic Theology)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Q29039302": {
+    "wikidataId": "Q29039302",
+    "wikipediaTitle": "Doina_Precup",
+    "canonicalTitle": "Doina Precup",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-doina-precup",
+        "nodeTitle": "Doina Precup"
+      }
+    ]
+  },
+  "Q29056997": {
+    "wikidataId": "Q29056997",
+    "wikipediaTitle": "Mila_(research_institute)",
+    "canonicalTitle": "MILA",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-mila",
+        "nodeTitle": "MILA"
+      }
+    ]
+  }
+}

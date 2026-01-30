@@ -1,0 +1,41 @@
+{
+  "Q5486704": {
+    "wikidataId": "Q5486704",
+    "wikipediaTitle": "Frank_Fremont-Smith",
+    "canonicalTitle": "Frank Fremont-Smith",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-frank-fremont-smith",
+        "nodeTitle": "Frank Fremont-Smith"
+      }
+    ]
+  },
+  "Q5452926": {
+    "wikidataId": "Q5452926",
+    "wikipediaTitle": "First_Draft_of_a_Report_on_the_EDVAC",
+    "canonicalTitle": "First Draft of a Report on the EDVAC",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-edvac-report-neumann",
+        "nodeTitle": "First Draft of a Report on the EDVAC"
+      }
+    ]
+  },
+  "Q5407573": {
+    "wikidataId": "Q5407573",
+    "wikipediaTitle": "Eugenics_Society",
+    "canonicalTitle": "Eugenics Education Society",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "entity-eugenics-education-society",
+        "nodeTitle": "Eugenics Education Society"
+      }
+    ]
+  }
+}

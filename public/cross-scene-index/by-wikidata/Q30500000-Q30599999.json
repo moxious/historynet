@@ -1,0 +1,15 @@
+{
+  "Q30593017": {
+    "wikidataId": "Q30593017",
+    "wikipediaTitle": "Mustafa_Suleyman",
+    "canonicalTitle": "Mustafa Suleyman",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-mustafa-suleyman",
+        "nodeTitle": "Mustafa Suleyman"
+      }
+    ]
+  }
+}

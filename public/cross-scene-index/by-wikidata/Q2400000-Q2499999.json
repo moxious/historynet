@@ -1,0 +1,92 @@
+{
+  "Q2453355": {
+    "wikidataId": "Q2453355",
+    "wikipediaTitle": "Dartmouth_workshop",
+    "canonicalTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-dartmouth-proposal",
+        "nodeTitle": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence"
+      },
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-dartmouth-conference",
+        "nodeTitle": "Dartmouth Conference"
+      }
+    ]
+  },
+  "Q2414313": {
+    "wikidataId": "Q2414313",
+    "wikipediaTitle": "The_Society_of_Mind",
+    "canonicalTitle": "The Society of Mind",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-society-mind-minsky",
+        "nodeTitle": "The Society of Mind"
+      }
+    ]
+  },
+  "Q2451675": {
+    "wikidataId": "Q2451675",
+    "wikipediaTitle": "A_Treatise_of_Human_Nature",
+    "canonicalTitle": "A Treatise of Human Nature",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-treatise-human-nature",
+        "nodeTitle": "A Treatise of Human Nature"
+      }
+    ]
+  },
+  "Q2492149": {
+    "wikidataId": "Q2492149",
+    "wikipediaTitle": "To_the_Christian_Nobility_of_the_German_Nation",
+    "canonicalTitle": "Address to the Christian Nobility of the German Nation",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-address-christian-nobility",
+        "nodeTitle": "Address to the Christian Nobility of the German Nation"
+      }
+    ]
+  },
+  "Q2462802": {
+    "wikidataId": "Q2462802",
+    "wikipediaTitle": "Tyndale_Bible",
+    "canonicalTitle": "Tyndale's New Testament",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-tyndale-nt",
+        "nodeTitle": "Tyndale's New Testament"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-tyndale-pentateuch",
+        "nodeTitle": "Tyndale's Pentateuch"
+      }
+    ]
+  },
+  "Q2456034": {
+    "wikidataId": "Q2456034",
+    "wikipediaTitle": "Chymical_Wedding_of_Christian_Rosenkreutz",
+    "canonicalTitle": "Chymical Wedding of Christian Rosenkreutz",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-chymical-wedding",
+        "nodeTitle": "Chymical Wedding of Christian Rosenkreutz"
+      }
+    ]
+  }
+}

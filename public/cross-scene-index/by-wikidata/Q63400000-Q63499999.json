@@ -1,0 +1,15 @@
+{
+  "Q63405023": {
+    "wikidataId": "Q63405023",
+    "wikipediaTitle": "Distill_(journal)",
+    "canonicalTitle": "Distill.pub",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-distill",
+        "nodeTitle": "Distill.pub"
+      }
+    ]
+  }
+}

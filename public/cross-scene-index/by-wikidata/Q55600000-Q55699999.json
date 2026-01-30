@@ -1,0 +1,41 @@
+{
+  "Q55609966": {
+    "wikidataId": "Q55609966",
+    "wikipediaTitle": "Wojciech_Zaremba",
+    "canonicalTitle": "Wojciech Zaremba",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-wojciech-zaremba",
+        "nodeTitle": "Wojciech Zaremba"
+      }
+    ]
+  },
+  "Q55641992": {
+    "wikidataId": "Q55641992",
+    "wikipediaTitle": "Pushmeet_Kohli",
+    "canonicalTitle": "Pushmeet Kohli",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-pushmeet-kohli",
+        "nodeTitle": "Pushmeet Kohli"
+      }
+    ]
+  },
+  "Q55635660": {
+    "wikidataId": "Q55635660",
+    "wikipediaTitle": "Christian_theosophy",
+    "canonicalTitle": "Christian Theosophy",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-christian-theosophy",
+        "nodeTitle": "Christian Theosophy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Q120303340": {
+    "wikidataId": "Q120303340",
+    "wikipediaTitle": "XAI_(company)",
+    "canonicalTitle": "xAI",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-xai",
+        "nodeTitle": "xAI"
+      }
+    ]
+  }
+}
