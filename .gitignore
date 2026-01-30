@@ -44,3 +44,6 @@ coverage
 # Vercel
 .vercel
 .env*.local
+
+# Don't check in plans
+.cursor/plans/*
