@@ -39,6 +39,11 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
 | M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
 | M33 | Social Sharing & Dynamic OG | ✅ Complete | B | [m33-social-sharing.md](m33-social-sharing.md) |
+| M34 | Migration Infrastructure & Testing | 🔲 Future | D | [m34-migration-infrastructure.md](m34-migration-infrastructure.md) |
+| M35 | Research Tooling for Atomic Architecture | 🔲 Future | D | [m35-research-tooling.md](m35-research-tooling.md) |
+| M36 | Atomic Architecture - Persons Only | 🔲 Future | D | [m36-atomic-persons.md](m36-atomic-persons.md) |
+| M37 | Full POLE Atomization | 🔲 Future | D | [m37-full-pole-atomization.md](m37-full-pole-atomization.md) |
+| M38 | Inter-Dataset Research Capabilities | 🔲 Future | D | [m38-inter-dataset-research.md](m38-inter-dataset-research.md) |
 
 > **Note**: M12 and M17 were originally reserved for features that have been renumbered to M24 and M21 respectively.
 
@@ -51,6 +56,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | **A: Independent Features** | No dependencies, can be done in any order | M21 ✅, M23 ✅ |
 | **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 ✅ → M27, M24 → M26, M24 → M29 → M30, M24 → M33 |
 | **C: Information Architecture** | App navigation restructuring | M31 ✅ → M32 ✅ |
+| **D: Atomic Architecture** | Data architecture transformation for efficient cross-dataset features | M34 → M35, M34 → M36 → M37 → M38 |
 
 ---
 
@@ -59,27 +65,32 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 ```
 M1-M20 (Core Application Complete) ✅
     │
-    ├───────────────────────────────────────────┬──────────────────────────┐
-    │                                           │                          │
-    │  TRACK A: Independent Features            │  TRACK B: Infrastructure │  TRACK C: Info Architecture
-    │  (Complete)                               │  (Sequential)            │  (Complete)
-    │                                           │                          │
-    ├──────────────┬────────────────┐           │                          │
-    ▼              ▼                │           ▼                          ▼
-   M21            M23               │          M24                        M31 ✅
-   (Dataset      (Wikimedia        │         (Vercel) ✅                    │
-   Search) ✅    Sourcing) ✅      │            │                          ▼
-                                   │            ├────────┬────────┬────────M32 ✅
-                                   │            ▼        ▼        ▼        ▼
-                                   │           M25      M26      M29      M33 ✅
-                                   │        (Feedback)(Domain)(Cross- (Social
-                                   │            ✅              Scene  Sharing)
-                                   │            │               API)
-                                   │            ▼                │
-                                   │           M27               ▼
-                                   │        (Spam)              M30
-                                   │                         (Cross-
-                                   │                         Scene UI)
+    ├───────────────────────────────────────────┬──────────────────────────┬──────────────────────────┐
+    │                                           │                          │                          │
+    │  TRACK A: Independent Features            │  TRACK B: Infrastructure │  TRACK C: Info Arch      │  TRACK D: Atomic Architecture
+    │  (Complete)                               │  (Sequential)            │  (Complete)              │  (Sequential)
+    │                                           │                          │                          │
+    ├──────────────┬────────────────┐           │                          │                          │
+    ▼              ▼                │           ▼                          ▼                          ▼
+   M21            M23               │          M24                        M31 ✅                    M34
+   (Dataset      (Wikimedia        │         (Vercel) ✅                    │                   (Migration
+   Search) ✅    Sourcing) ✅      │            │                          ▼                  Infrastructure)
+                                   │            ├────────┬────────┬────────M32 ✅                    │
+                                   │            ▼        ▼        ▼        ▼                    ├────────┐
+                                   │           M25      M26      M29      M33 ✅                ▼        ▼
+                                   │        (Feedback)(Domain)(Cross- (Social                  M35      M36
+                                   │            ✅              Scene  Sharing)              (Research  (Atomic
+                                   │            │               API)                         Tooling)  Persons)
+                                   │            ▼                │                                      │
+                                   │           M27               ▼                                      ▼
+                                   │        (Spam)              M30                                    M37
+                                   │                         (Cross-                                  (Full POLE
+                                   │                         Scene UI)                               Atomization)
+                                   │                                                                     │
+                                   │                                                                     ▼
+                                   │                                                                    M38
+                                   │                                                               (Inter-Dataset
+                                   │                                                                 Research)
 ```
 
 ---
@@ -90,7 +101,10 @@ M1-M20 (Core Application Complete) ✅
 - **M26: Custom Domain** - Depends on M24 ✅
 - **M27: Spam Protection** - Depends on M25 ✅
 - **M29: Cross-Scene API** - Depends on M24 ✅
+- **M34: Migration Infrastructure & Testing** - No dependencies (foundation for Track D)
 
 **Track B progress**: M33 (Social Sharing) complete. Now using BrowserRouter with clean URLs and dynamic OG images.
 
 **Track C complete**: M32 (New Homepage) completes the information architecture track.
+
+**Track D (Atomic Architecture)**: New track for data architecture transformation. Enables efficient cross-dataset features, token-efficient research workflow, and atomic entity management. Start with M34 to build migration infrastructure and testing framework.
