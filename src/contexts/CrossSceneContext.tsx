@@ -211,8 +211,11 @@ export function CrossSceneProvider({
           params.append('nodeIds', nodeIds.join(','));
         }
 
-        // Fetch from API
-        const response = await fetch(`/api/node-scenes?${params.toString()}`);
+        // Fetch from API (use production endpoint in development if local API not available)
+        const apiUrl = import.meta.env.DEV && window.location.hostname === 'localhost'
+          ? `https://scenius-seven.vercel.app/api/node-scenes?${params.toString()}`
+          : `/api/node-scenes?${params.toString()}`;
+        const response = await fetch(apiUrl);
 
         if (!response.ok) {
           throw new Error(`API returned ${response.status}`);
