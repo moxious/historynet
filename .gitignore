@@ -47,3 +47,6 @@ coverage
 
 # Don't check in plans
 .cursor/plans/*
+
+# Playwright/e2e
+playwright-report/
