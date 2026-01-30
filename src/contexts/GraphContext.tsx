@@ -3,6 +3,7 @@
  */
 
 import { createContext, useContext, useEffect, useMemo, useState, useCallback, useRef, type ReactNode } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { useGraphData } from '@hooks/useGraphData';
 import { useSelectedItem, getSelectedItem } from '@hooks/useSelectedItem';
 import { useUrlState } from '@hooks/useUrlState';
@@ -20,6 +21,7 @@ import type {
   NodeType,
 } from '@types';
 import { DEFAULT_DATASET_ID, isValidDatasetId, filterGraphData, getFilterStats, getGraphDateRange, getNodeTypeCounts, getRelationshipTypeCounts } from '@utils';
+import { buildExploreUrl } from '@utils/urlBuilder';
 
 interface GraphContextValue {
   // Dataset state
@@ -78,6 +80,9 @@ interface GraphProviderProps {
  * Provider component that manages and shares graph state
  */
 export function GraphProvider({ children }: GraphProviderProps) {
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const {
     dataset,
     graphData,
@@ -99,9 +104,6 @@ export function GraphProvider({ children }: GraphProviderProps) {
   } = useSelectedItem();
 
   const {
-    datasetId: urlDatasetId,
-    setDatasetId: setUrlDatasetId,
-    setDatasetIdAndClearSelection,
     setSelected: setUrlSelected,
     clearSelected: clearUrlSelected,
     selectedId: urlSelectedId,
@@ -124,8 +126,14 @@ export function GraphProvider({ children }: GraphProviderProps) {
     [setUrlLayout]
   );
 
+  // Parse dataset ID from path (e.g., /christian-kabbalah/explore -> christian-kabbalah)
+  const pathDatasetId = useMemo(() => {
+    const match = location.pathname.match(/^\/([^\/]+)/);
+    return match ? match[1] : null;
+  }, [location.pathname]);
+
   // Determine effective dataset ID
-  const effectiveDatasetId = urlDatasetId || DEFAULT_DATASET_ID;
+  const effectiveDatasetId = pathDatasetId || DEFAULT_DATASET_ID;
 
   // Load dataset on mount and when URL changes
   useEffect(() => {
@@ -135,9 +143,9 @@ export function GraphProvider({ children }: GraphProviderProps) {
       }
     } else if (effectiveDatasetId && !isValidDatasetId(effectiveDatasetId)) {
       console.warn(`Invalid dataset ID: ${effectiveDatasetId}, loading default`);
-      setUrlDatasetId(DEFAULT_DATASET_ID);
+      // Invalid dataset will be handled by route-level validation
     }
-  }, [effectiveDatasetId, dataset, load, setUrlDatasetId]);
+  }, [effectiveDatasetId, dataset, load]);
 
   // Sync URL selection to local selection state
   // Guard prevents race condition when click handler already set both local + URL state
@@ -208,18 +216,22 @@ export function GraphProvider({ children }: GraphProviderProps) {
       : undefined;
 
   // Switch dataset (also updates URL)
-  // Uses atomic URL update to avoid race condition between setDatasetId and clearSelection
+  // Navigate to the new dataset's explore page with current layout preserved
   // REACT: memoized for stable reference (R12)
   const switchDataset = useCallback(
     (newDatasetId: string) => {
       if (isValidDatasetId(newDatasetId)) {
-        setDatasetIdAndClearSelection(newDatasetId); // Single atomic URL update
-        clearSelectionBase(); // Clear local state only (URL already cleared above)
+        // Navigate to the new dataset's explore page with current layout preserved
+        const exploreUrl = buildExploreUrl(newDatasetId, {
+          layout: (urlLayout as 'graph' | 'timeline' | 'radial') || undefined,
+        });
+        navigate(exploreUrl);
+        clearSelectionBase(); // Clear local selection state
       } else {
         console.error(`Cannot switch to invalid dataset: ${newDatasetId}`);
       }
     },
-    [setDatasetIdAndClearSelection, clearSelectionBase]
+    [navigate, urlLayout, clearSelectionBase]
   );
 
   // Reload current dataset
