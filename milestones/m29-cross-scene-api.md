@@ -3,6 +3,54 @@
 **Status**: 🔲 Future
 **Track**: B (Infrastructure & Backend)
 **Depends on**: M24 (Vercel Migration) ✅
+**Blocks**: M30 (Cross-Scene UI) - M30 requires this API to be complete
+
+## Integration Context
+
+### Existing Codebase Structure
+
+**API Routes** (`/api/`):
+- Vercel serverless functions using `@vercel/node`
+- Examples: `/api/submit-feedback.ts`, `/api/health.ts`, `/api/og.tsx`
+- Pattern: Export default function with `VercelRequest` and `VercelResponse` types
+- New endpoint will be: `/api/node-scenes.ts`
+
+**Dataset Structure** (`public/datasets/`):
+- 12 datasets total
+- Each has: `manifest.json`, `nodes.json`, `edges.json`
+- Nodes have optional fields: `wikidataId`, `wikipediaTitle`, `id` (nodeId)
+- **Coverage**: 79% have `wikidataId`, 88% have `wikipediaTitle`, 11.5% have neither
+
+**Build Process**:
+- Build scripts in `scripts/` directory
+- Scripts run during deployment (see `.github/workflows/` or `vercel.json`)
+- Index should be generated pre-deployment and committed to git
+
+**Cross-Dataset Coverage** (from COVERAGE_REPORT.md):
+- 44 entities appear in multiple datasets
+- Top entity: London (Q84) in 8 datasets
+- 118 potential cross-dataset links
+- Best coverage: scientific-revolution (100%), statistics-social-physics (98%)
+- Worst coverage: renaissance-humanism (61%), speculative-freemasonry (63%)
+
+### Testing Strategy
+
+**Test with all 12 datasets**:
+1. scientific-revolution (100% coverage) - best case
+2. statistics-social-physics (98% coverage) - nearly complete
+3. florentine-academy (92% coverage) - excellent
+4. All other datasets (61-88% coverage) - realistic cases
+
+**Focus test entities**:
+- London (Q84) - appears in 8 datasets
+- Paris (Q90) - appears in 7 datasets
+- Isaac Newton (Q935) - person appearing in 3 datasets
+- Entities without wikidataId - fallback to wikipediaTitle/nodeId
+
+**Known limitations**:
+- ~11.5% of nodes lack both wikidataId and wikipediaTitle
+- These nodes will not appear in cross-dataset index
+- This is acceptable for MVP (79% coverage is strong)
 
 ## Goal
 
@@ -158,6 +206,27 @@ Batch parameters can be combined to look up mixed identifier types in one reques
 
 ## Notes
 
+- **M30 depends on this milestone** - Complete and deploy M29 before starting M30
 - Batch API is critical for M30 performance — allows pre-fetching all nodes in a dataset with one request
 - Index files are static JSON, loaded on-demand by the serverless function
 - Sharding by wikidataId prefix keeps individual shard files small for fast loading
+- ~21% of nodes lack identifiers - acceptable limitation for MVP
+
+## Implementation Order
+
+1. **CS1-CS9**: Build index (can be done locally, test output)
+2. **CS10-CS15**: Build API endpoint (test with local index)
+3. **CS16-CS18**: CI integration (ensures index rebuilds on deployment)
+
+## Validation Checklist
+
+Before marking milestone complete:
+- [ ] Index generated successfully for all 12 datasets
+- [ ] API returns correct results for London (Q84) - should show 8 datasets
+- [ ] API returns correct results for Paris (Q90) - should show 7 datasets
+- [ ] API returns correct results for Isaac Newton (Q935) - should show 3 datasets
+- [ ] API handles missing wikidataId gracefully (returns empty appearances)
+- [ ] Batch API works with 10+ node IDs in single request
+- [ ] Index rebuilds automatically on deployment
+- [ ] API response time < 200ms for single lookup
+- [ ] API response time < 500ms for batch lookup (50 nodes)

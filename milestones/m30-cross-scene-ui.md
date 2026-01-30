@@ -2,7 +2,90 @@
 
 **Status**: 🔲 Future
 **Track**: B (Infrastructure & Backend)
-**Depends on**: M29 (Cross-Scene API)
+**Depends on**: M29 (Cross-Scene API) - **MUST complete M29 before starting M30**
+
+## Integration Context
+
+### Existing Component Structure
+
+**Layouts** (`src/layouts/`):
+- `ForceGraphLayout.tsx` - D3 force-directed graph (uses SVG circles for nodes)
+- `RadialLayout.tsx` - Radial tree layout
+- `TimelineLayout.tsx` - Chronological timeline view
+- All layouts accept `LayoutComponentProps` interface
+- Node rendering happens in each layout's rendering logic
+- Node colors determined by `getNodeColor(node.type)` utility
+
+**Node Detail Page** (`src/pages/NodeDetailPage.tsx`):
+- Standalone page at route `/:datasetId/node/:nodeId`
+- Loads full dataset, finds specific node
+- Renders type-specific fields (Person, Object, Location, Entity)
+- Uses `useResourceParams` hook for URL params
+- Displays external links section near bottom of page
+
+**Node Infobox** (`src/components/NodeInfobox.tsx`):
+- Drawer/panel showing selected node details
+- Props: `node`, `edges`, `onNodeLinkClick`, `getNode`
+- Renders relationships section (edges connected to node)
+- Renders external links section
+- Uses `useNodeEnrichedData` for Wikipedia enrichment
+
+**Context & Hooks** (`src/contexts/`, `src/hooks/`):
+- `GraphContext.tsx` - Global graph state management
+- `useUrlState.ts` - Syncs state with URL query params
+- `useNodeEnrichedData.ts` - Wikipedia data fetching
+- Pattern: Create new context for cross-scene data (similar to GraphContext)
+
+**Routing**:
+- React Router 7 with BrowserRouter
+- Current route for node detail: `/:datasetId/node/:nodeId`
+- Use `buildFullNodeUrl(datasetId, nodeId)` utility from `useResourceParams.ts`
+
+### Data Flow Pattern
+
+1. User loads dataset → GraphContext loads graph data
+2. User selects node → URL updates, infobox opens
+3. **NEW**: On dataset load, fetch cross-scene data for all nodes (batch API call)
+4. **NEW**: Store in CrossSceneContext, components read from context
+5. **NEW**: Async update - doesn't block initial render
+
+### Visual Design Tokens
+
+**Node Colors** (from `utils/getNodeColor.ts`):
+- Person: blue (#3b82f6)
+- Object: purple (#a855f7)
+- Location: green (#10b981)
+- Entity: orange (#f59e0b)
+
+**Multi-scene indicator**: 20% darker than base color
+- Person multi-scene: darker blue (~#2563eb)
+- Object multi-scene: darker purple (~#7c3aed)
+- Location multi-scene: darker green (~#059669)
+- Entity multi-scene: darker orange (~#d97706)
+
+**Theme Support**:
+- Light and dark themes via ThemeContext
+- Test indicators in both themes
+- Ensure contrast sufficient for accessibility
+
+### Testing Strategy
+
+**Test all 12 datasets**:
+- Focus on entities with known cross-dataset presence (see COVERAGE_REPORT.md)
+- Test London (Q84) - 8 datasets
+- Test Paris (Q90) - 7 datasets
+- Test Isaac Newton (Q935) - 3 datasets (person type)
+
+**Test scenarios**:
+1. Node in 3+ datasets - full experience
+2. Node in exactly 2 datasets (current + 1 other)
+3. Node in only 1 dataset - no indicators shown
+4. Node without wikidataId/wikipediaTitle - graceful no-op
+
+**Coverage awareness**:
+- ~79% of nodes will have cross-scene indicators (have wikidataId)
+- ~21% won't (missing identifiers) - this is acceptable
+- Don't treat missing indicators as bugs
 
 ## Goal
 
@@ -332,6 +415,38 @@ Use discovery-oriented language throughout:
 - Cross-scene navigation events indicate feature is being discovered and used
 - Time on site increases when users discover cross-scene connections
 - Qualitative: users report "I didn't know X was connected to Y" moments
+
+## Implementation Order
+
+**CRITICAL**: M29 must be complete and deployed before starting M30.
+
+1. **Phase 1 (CS-UI-01 to CS-UI-04)**: Data layer - fetch from M29 API
+2. **Phase 2 (CS-UI-05 to CS-UI-09)**: Graph indicators in all layouts
+3. **Phase 3 (CS-UI-10 to CS-UI-11)**: Infobox teaser
+4. **Phase 4 (CS-UI-12 to CS-UI-14)**: Detail page full section
+5. **Phase 5 (CS-UI-15 to CS-UI-18)**: Polish and edge cases
+6. **Phase 6 (CS-UI-19 to CS-UI-26)**: Testing
+
+## Validation Checklist
+
+Before marking milestone complete:
+- [ ] M29 API deployed and tested ✅
+- [ ] Cross-scene data fetches on dataset load (non-blocking)
+- [ ] London (Q84) shows indicator in all 8 datasets where it appears
+- [ ] Paris (Q90) shows indicator in all 7 datasets where it appears
+- [ ] Isaac Newton (Q935) shows indicator in 3 datasets (scientific-revolution, enlightenment, speculative-freemasonry)
+- [ ] Indicators visible in force, radial, and timeline layouts
+- [ ] Tooltip shows "Entity Name · In N networks"
+- [ ] Infobox teaser links to node detail page
+- [ ] Detail page shows list of other networks with descriptions
+- [ ] Navigation to other dataset works (preserves layout, clears filters)
+- [ ] Nodes without identifiers show no indicators (graceful)
+- [ ] Visual hierarchy: selection > search > multi-scene indicator
+- [ ] Works in both light and dark themes
+- [ ] Mobile: compact teaser in bottom sheet
+- [ ] Desktop: full teaser in drawer
+- [ ] No console errors
+- [ ] No layout shift when cross-scene data loads
 
 ## Out of Scope (Future Enhancements)
 
