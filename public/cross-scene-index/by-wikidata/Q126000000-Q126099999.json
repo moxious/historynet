@@ -1,0 +1,34 @@
+{
+  "Q126055790": {
+    "wikidataId": "Q126055790",
+    "wikipediaTitle": "Safe_Superintelligence_Inc.",
+    "canonicalTitle": "Safe Superintelligence Inc.",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-ssi",
+        "nodeTitle": "Safe Superintelligence Inc."
+      }
+    ]
+  },
+  "Q126055869": {
+    "wikidataId": "Q126055869",
+    "wikipediaTitle": "GPT-4o",
+    "canonicalTitle": "GPT-4o",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gpt4o",
+        "nodeTitle": "GPT-4o"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gpt4o-mini",
+        "nodeTitle": "GPT-4o mini"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Q5753247": {
+    "wikidataId": "Q5753247",
+    "wikipediaTitle": "Three_Books_on_Life",
+    "canonicalTitle": "De Vita Libri Tres (Three Books on Life)",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-de-vita-libri-tres",
+        "nodeTitle": "De Vita Libri Tres (Three Books on Life)"
+      }
+    ]
+  },
+  "Q5732857": {
+    "wikidataId": "Q5732857",
+    "wikipediaTitle": "Heptaplus",
+    "canonicalTitle": "Heptaplus",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-heptaplus",
+        "nodeTitle": "Heptaplus"
+      }
+    ]
+  },
+  "Q5700295": {
+    "wikidataId": "Q5700295",
+    "wikipediaTitle": "Heinrich_Petraeus",
+    "canonicalTitle": "Heinrich Petraeus",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-heinrich-petraeus",
+        "nodeTitle": "Heinrich Petraeus"
+      }
+    ]
+  },
+  "Q5734888": {
+    "wikidataId": "Q5734888",
+    "wikipediaTitle": "Hereditary_Genius",
+    "canonicalTitle": "Hereditary Genius",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-hereditary-genius",
+        "nodeTitle": "Hereditary Genius"
+      }
+    ]
+  }
+}

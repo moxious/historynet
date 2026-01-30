@@ -1,0 +1,15 @@
+{
+  "Q47488089": {
+    "wikidataId": "Q47488089",
+    "wikipediaTitle": "Timnit_Gebru",
+    "canonicalTitle": "Timnit Gebru",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-timnit-gebru",
+        "nodeTitle": "Timnit Gebru"
+      }
+    ]
+  }
+}

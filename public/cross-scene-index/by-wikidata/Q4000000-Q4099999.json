@@ -1,0 +1,15 @@
+{
+  "Q4086736": {
+    "wikidataId": "Q4086736",
+    "wikipediaTitle": "Virginia_Statute_for_Religious_Freedom",
+    "canonicalTitle": "Virginia Statute for Religious Freedom",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-virginia-statute",
+        "nodeTitle": "Virginia Statute for Religious Freedom"
+      }
+    ]
+  }
+}

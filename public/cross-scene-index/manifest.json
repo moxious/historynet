@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-01-30T13:24:55.867Z",
+  "datasetCount": 12,
+  "datasets": [
+    {
+      "id": "ai-llm-research",
+      "name": "AI & LLM Research Network"
+    },
+    {
+      "id": "ambient-music",
+      "name": "Ambient Music Network"
+    },
+    {
+      "id": "christian-kabbalah",
+      "name": "Christian Kabbalist Network"
+    },
+    {
+      "id": "cybernetics-information-theory",
+      "name": "Cybernetics & Information Theory"
+    },
+    {
+      "id": "enlightenment",
+      "name": "Enlightenment Intellectual Network"
+    },
+    {
+      "id": "florentine-academy",
+      "name": "Florentine Academy"
+    },
+    {
+      "id": "protestant-reformation",
+      "name": "Protestant Reformation Network"
+    },
+    {
+      "id": "renaissance-humanism",
+      "name": "Renaissance Humanism"
+    },
+    {
+      "id": "rosicrucian-network",
+      "name": "Rosicrucian-Paracelsian Network"
+    },
+    {
+      "id": "scientific-revolution",
+      "name": "Scientific Revolution"
+    },
+    {
+      "id": "speculative-freemasonry",
+      "name": "Origins of Speculative Freemasonry"
+    },
+    {
+      "id": "statistics-social-physics",
+      "name": "Measurement, Statistics & the Calculus of Society"
+    }
+  ],
+  "indexes": {
+    "wikidata": {
+      "totalEntities": 1088,
+      "shardCount": 167
+    },
+    "wikipedia": {
+      "totalEntities": 1200
+    },
+    "nodeid": {
+      "totalEntities": 1434
+    }
+  }
+}

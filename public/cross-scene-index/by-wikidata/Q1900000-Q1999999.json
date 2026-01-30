@@ -1,0 +1,93 @@
+{
+  "Q1927926": {
+    "wikidataId": "Q1927926",
+    "wikipediaTitle": "Michael_I._Jordan",
+    "canonicalTitle": "Michael I. Jordan",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-michael-jordan",
+        "nodeTitle": "Michael I. Jordan"
+      }
+    ]
+  },
+  "Q1933643": {
+    "wikidataId": "Q1933643",
+    "wikipediaTitle": "Timewind",
+    "canonicalTitle": "Timewind",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-schulze-timewind",
+        "nodeTitle": "Timewind"
+      }
+    ]
+  },
+  "Q1972942": {
+    "wikidataId": "Q1972942",
+    "wikipediaTitle": "New_York_School_(art)",
+    "canonicalTitle": "New York School",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-new-york-school",
+        "nodeTitle": "New York School"
+      }
+    ]
+  },
+  "Q1933629": {
+    "wikidataId": "Q1933629",
+    "wikipediaTitle": "Selected_Ambient_Works_Volume_II",
+    "canonicalTitle": "Selected Ambient Works Volume II",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-aphex-saw-ii",
+        "nodeTitle": "Selected Ambient Works Volume II"
+      }
+    ]
+  },
+  "Q1970551": {
+    "wikidataId": "Q1970551",
+    "wikipediaTitle": "Steps_to_an_Ecology_of_Mind",
+    "canonicalTitle": "Steps to an Ecology of Mind",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-steps-ecology-mind-bateson",
+        "nodeTitle": "Steps to an Ecology of Mind"
+      }
+    ]
+  },
+  "Q1967606": {
+    "wikidataId": "Q1967606",
+    "wikipediaTitle": "National_Physical_Laboratory_(United_Kingdom)",
+    "canonicalTitle": "National Physical Laboratory",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-npl",
+        "nodeTitle": "National Physical Laboratory"
+      }
+    ]
+  },
+  "Q1983019": {
+    "wikidataId": "Q1983019",
+    "wikipediaTitle": "The_Age_of_Reason",
+    "canonicalTitle": "The Age of Reason",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-age-reason",
+        "nodeTitle": "The Age of Reason"
+      }
+    ]
+  }
+}

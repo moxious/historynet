@@ -1,0 +1,15 @@
+{
+  "Q28153721": {
+    "wikidataId": "Q28153721",
+    "wikipediaTitle": "Deep_Learning_(book)",
+    "canonicalTitle": "Deep Learning Textbook",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-deep-learning-book",
+        "nodeTitle": "Deep Learning Textbook"
+      }
+    ]
+  }
+}

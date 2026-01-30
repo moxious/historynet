@@ -1,0 +1,39 @@
+{
+  "Q116965708": {
+    "wikidataId": "Q116965708",
+    "wikipediaTitle": "Claude_(language_model)",
+    "canonicalTitle": "Claude",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-claude",
+        "nodeTitle": "Claude"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-claude3",
+        "nodeTitle": "Claude 3"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-claude35-sonnet",
+        "nodeTitle": "Claude 3.5 Sonnet"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-claude4",
+        "nodeTitle": "Claude 4"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-claude45",
+        "nodeTitle": "Claude 4.5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "Q3282479": {
+    "wikidataId": "Q3282479",
+    "wikipediaTitle": "Apollo:_Atmospheres_&_Soundtracks",
+    "canonicalTitle": "Apollo: Atmospheres & Soundtracks",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-apollo",
+        "nodeTitle": "Apollo: Atmospheres & Soundtracks"
+      }
+    ]
+  },
+  "Q3283363": {
+    "wikidataId": "Q3283363",
+    "wikipediaTitle": "Switched-On_Bach",
+    "canonicalTitle": "Switched-On Bach",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-carlos-switched-on",
+        "nodeTitle": "Switched-On Bach"
+      }
+    ]
+  },
+  "Q3203583": {
+    "wikidataId": "Q3203583",
+    "wikipediaTitle": "Man_a_Machine",
+    "canonicalTitle": "Man a Machine",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-homme-machine",
+        "nodeTitle": "Man a Machine"
+      }
+    ]
+  },
+  "Q3267928": {
+    "wikidataId": "Q3267928",
+    "wikipediaTitle": "A_Treatise_Concerning_the_Principles_of_Human_Knowledge",
+    "canonicalTitle": "A Treatise Concerning the Principles of Human Knowledge",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-principles-human-knowledge",
+        "nodeTitle": "A Treatise Concerning the Principles of Human Knowledge"
+      }
+    ]
+  }
+}

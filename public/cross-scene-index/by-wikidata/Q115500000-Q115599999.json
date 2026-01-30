@@ -1,0 +1,15 @@
+{
+  "Q115591629": {
+    "wikidataId": "Q115591629",
+    "wikipediaTitle": "Jimmy_Ba",
+    "canonicalTitle": "Jimmy Ba",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-jimmy-ba",
+        "nodeTitle": "Jimmy Ba"
+      }
+    ]
+  }
+}

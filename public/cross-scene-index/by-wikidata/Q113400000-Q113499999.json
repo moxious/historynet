@@ -1,0 +1,34 @@
+{
+  "Q113414756": {
+    "wikidataId": "Q113414756",
+    "wikipediaTitle": "Emad_Mostaque",
+    "canonicalTitle": "Emad Mostaque",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-emad-mostaque",
+        "nodeTitle": "Emad Mostaque"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-stability",
+        "nodeTitle": "Stability AI"
+      }
+    ]
+  },
+  "Q113414728": {
+    "wikidataId": "Q113414728",
+    "wikipediaTitle": "Stable_Diffusion",
+    "canonicalTitle": "Stable Diffusion",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-stable-diffusion",
+        "nodeTitle": "Stable Diffusion"
+      }
+    ]
+  }
+}

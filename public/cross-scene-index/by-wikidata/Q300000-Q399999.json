@@ -1,0 +1,891 @@
+{
+  "Q317521": {
+    "wikidataId": "Q317521",
+    "wikipediaTitle": "Elon_Musk",
+    "canonicalTitle": "Elon Musk",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-elon-musk",
+        "nodeTitle": "Elon Musk"
+      }
+    ]
+  },
+  "Q392189": {
+    "wikidataId": "Q392189",
+    "wikipediaTitle": "Université_de_Montréal",
+    "canonicalTitle": "Université de Montréal",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-umontreal",
+        "nodeTitle": "Université de Montréal"
+      }
+    ]
+  },
+  "Q316427": {
+    "wikidataId": "Q316427",
+    "wikipediaTitle": "Morton_Feldman",
+    "canonicalTitle": "Morton Feldman",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-morton-feldman",
+        "nodeTitle": "Morton Feldman"
+      }
+    ]
+  },
+  "Q315744": {
+    "wikidataId": "Q315744",
+    "wikipediaTitle": "Pierre_Schaeffer",
+    "canonicalTitle": "Pierre Schaeffer",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-pierre-schaeffer",
+        "nodeTitle": "Pierre Schaeffer"
+      }
+    ]
+  },
+  "Q333265": {
+    "wikidataId": "Q333265",
+    "wikipediaTitle": "Léon_Theremin",
+    "canonicalTitle": "Leon Theremin",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-leon-theremin",
+        "nodeTitle": "Leon Theremin"
+      }
+    ]
+  },
+  "Q364835": {
+    "wikidataId": "Q364835",
+    "wikipediaTitle": "Tristram_Cary",
+    "canonicalTitle": "Tristram Cary",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-tristram-cary",
+        "nodeTitle": "Tristram Cary"
+      }
+    ]
+  },
+  "Q391625": {
+    "wikidataId": "Q391625",
+    "wikipediaTitle": "Suzanne_Ciani",
+    "canonicalTitle": "Suzanne Ciani",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-suzanne-ciani",
+        "nodeTitle": "Suzanne Ciani"
+      }
+    ]
+  },
+  "Q372438": {
+    "wikidataId": "Q372438",
+    "wikipediaTitle": "Ralf_Hütter",
+    "canonicalTitle": "Ralf Hütter",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-ralf-hutter",
+        "nodeTitle": "Ralf Hütter"
+      }
+    ]
+  },
+  "Q313639": {
+    "wikidataId": "Q313639",
+    "wikipediaTitle": "Michael_Nyman",
+    "canonicalTitle": "Michael Nyman",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-michael-nyman",
+        "nodeTitle": "Michael Nyman"
+      }
+    ]
+  },
+  "Q365243": {
+    "wikidataId": "Q365243",
+    "wikipediaTitle": "Terry_Riley",
+    "canonicalTitle": "Terry Riley",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-terry-riley",
+        "nodeTitle": "Terry Riley"
+      }
+    ]
+  },
+  "Q369916": {
+    "wikidataId": "Q369916",
+    "wikipediaTitle": "Charlemagne_Palestine",
+    "canonicalTitle": "Charlemagne Palestine",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-charlemagne-palestine",
+        "nodeTitle": "Charlemagne Palestine"
+      }
+    ]
+  },
+  "Q315417": {
+    "wikidataId": "Q315417",
+    "wikipediaTitle": "Lee_\"Scratch\"_Perry",
+    "canonicalTitle": "Lee \"Scratch\" Perry",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-lee-scratch-perry",
+        "nodeTitle": "Lee \"Scratch\" Perry"
+      }
+    ]
+  },
+  "Q345494": {
+    "wikidataId": "Q345494",
+    "wikipediaTitle": "Ryuichi_Sakamoto",
+    "canonicalTitle": "Ryuichi Sakamoto",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-ryuichi-sakamoto",
+        "nodeTitle": "Ryuichi Sakamoto"
+      }
+    ]
+  },
+  "Q334648": {
+    "wikidataId": "Q334648",
+    "wikipediaTitle": "Roxy_Music",
+    "canonicalTitle": "Roxy Music",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-roxy-music",
+        "nodeTitle": "Roxy Music"
+      }
+    ]
+  },
+  "Q320592": {
+    "wikidataId": "Q320592",
+    "wikipediaTitle": "Krautrock",
+    "canonicalTitle": "Krautrock",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-krautrock",
+        "nodeTitle": "Krautrock"
+      }
+    ]
+  },
+  "Q355395": {
+    "wikidataId": "Q355395",
+    "wikipediaTitle": "Chill_Out_(The_KLF_album)",
+    "canonicalTitle": "Chill Out",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-klf-chill-out",
+        "nodeTitle": "Chill Out"
+      }
+    ]
+  },
+  "Q332616": {
+    "wikidataId": "Q332616",
+    "wikipediaTitle": "Jacques_Lefèvre_d'Étaples",
+    "canonicalTitle": "Jacques Lefèvre d'Étaples",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-jacques-lefevre-detaples",
+        "nodeTitle": "Jacques Lefèvre d'Étaples"
+      }
+    ]
+  },
+  "Q328741": {
+    "wikidataId": "Q328741",
+    "wikipediaTitle": "Three_Books_of_Occult_Philosophy",
+    "canonicalTitle": "De Occulta Philosophia libri tres",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-de-occulta-philosophia",
+        "nodeTitle": "De Occulta Philosophia libri tres"
+      }
+    ]
+  },
+  "Q314252": {
+    "wikidataId": "Q314252",
+    "wikipediaTitle": "Gregory_Bateson",
+    "canonicalTitle": "Gregory Bateson",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-gregory-bateson",
+        "nodeTitle": "Gregory Bateson"
+      }
+    ]
+  },
+  "Q382207": {
+    "wikidataId": "Q382207",
+    "wikipediaTitle": "John_Tukey",
+    "canonicalTitle": "John Tukey",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-john-tukey",
+        "nodeTitle": "John Tukey"
+      }
+    ]
+  },
+  "Q316022": {
+    "wikidataId": "Q316022",
+    "wikipediaTitle": "Harry_Nyquist",
+    "canonicalTitle": "Harry Nyquist",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-harry-nyquist",
+        "nodeTitle": "Harry Nyquist"
+      }
+    ]
+  },
+  "Q328632": {
+    "wikidataId": "Q328632",
+    "wikipediaTitle": "Julian_Bigelow",
+    "canonicalTitle": "Julian Bigelow",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-julian-bigelow",
+        "nodeTitle": "Julian Bigelow"
+      }
+    ]
+  },
+  "Q370461": {
+    "wikidataId": "Q370461",
+    "wikipediaTitle": "Gordon_Pask",
+    "canonicalTitle": "Gordon Pask",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-gordon-pask",
+        "nodeTitle": "Gordon Pask"
+      }
+    ]
+  },
+  "Q376452": {
+    "wikidataId": "Q376452",
+    "wikipediaTitle": "Humberto_Maturana",
+    "canonicalTitle": "Humberto Maturana",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-humberto-maturana",
+        "nodeTitle": "Humberto Maturana"
+      }
+    ]
+  },
+  "Q335027": {
+    "wikidataId": "Q335027",
+    "wikipediaTitle": "Seymour_Papert",
+    "canonicalTitle": "Seymour Papert",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-seymour-papert",
+        "nodeTitle": "Seymour Papert"
+      }
+    ]
+  },
+  "Q379848": {
+    "wikidataId": "Q379848",
+    "wikipediaTitle": "Los_Alamos_National_Laboratory",
+    "canonicalTitle": "Los Alamos National Laboratory",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-los-alamos",
+        "nodeTitle": "Los Alamos National Laboratory"
+      }
+    ]
+  },
+  "Q358532": {
+    "wikidataId": "Q358532",
+    "wikipediaTitle": "Second-order_cybernetics",
+    "canonicalTitle": "Second-Order Cybernetics",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-second-order-cybernetics",
+        "nodeTitle": "Second-Order Cybernetics"
+      }
+    ]
+  },
+  "Q316367": {
+    "wikidataId": "Q316367",
+    "wikipediaTitle": "Francis_Hutcheson_(philosopher)",
+    "canonicalTitle": "Francis Hutcheson",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-hutcheson",
+        "nodeTitle": "Francis Hutcheson"
+      }
+    ]
+  },
+  "Q316347": {
+    "wikidataId": "Q316347",
+    "wikipediaTitle": "Thomas_Reid",
+    "canonicalTitle": "Thomas Reid",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-thomas-reid",
+        "nodeTitle": "Thomas Reid"
+      }
+    ]
+  },
+  "Q335112": {
+    "wikidataId": "Q335112",
+    "wikipediaTitle": "Anthony_Ashley-Cooper,_3rd_Earl_of_Shaftesbury",
+    "canonicalTitle": "Anthony Ashley Cooper, 3rd Earl of Shaftesbury",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-shaftesbury",
+        "nodeTitle": "Anthony Ashley Cooper, 3rd Earl of Shaftesbury"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-characteristics",
+        "nodeTitle": "Characteristics of Men, Manners, Opinions, Times"
+      }
+    ]
+  },
+  "Q379912": {
+    "wikidataId": "Q379912",
+    "wikipediaTitle": "Bernard_Mandeville",
+    "canonicalTitle": "Bernard Mandeville",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-mandeville",
+        "nodeTitle": "Bernard Mandeville"
+      }
+    ]
+  },
+  "Q329464": {
+    "wikidataId": "Q329464",
+    "wikipediaTitle": "Prussian_Academy_of_Sciences",
+    "canonicalTitle": "Berlin Academy",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-berlin-academy",
+        "nodeTitle": "Berlin Academy"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-berlin-academy",
+        "nodeTitle": "Berlin Academy (Institution)"
+      }
+    ]
+  },
+  "Q313587": {
+    "wikidataId": "Q313587",
+    "wikipediaTitle": "Piero_di_Cosimo_de'_Medici",
+    "canonicalTitle": "Piero di Cosimo de' Medici",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-piero-di-cosimo-de-medici",
+        "nodeTitle": "Piero di Cosimo de' Medici"
+      }
+    ]
+  },
+  "Q316650": {
+    "wikidataId": "Q316650",
+    "wikipediaTitle": "Giuliano_de'_Medici",
+    "canonicalTitle": "Giuliano de' Medici",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-giuliano-de-medici",
+        "nodeTitle": "Giuliano de' Medici"
+      }
+    ]
+  },
+  "Q310405": {
+    "wikidataId": "Q310405",
+    "wikipediaTitle": "Piero_di_Lorenzo_de'_Medici",
+    "canonicalTitle": "Piero de' Medici",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-piero-de-medici-the-unfortunate",
+        "nodeTitle": "Piero de' Medici"
+      }
+    ]
+  },
+  "Q310318": {
+    "wikidataId": "Q310318",
+    "wikipediaTitle": "Gemistus_Pletho",
+    "canonicalTitle": "Gemistus Pletho",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-gemistus-pletho",
+        "nodeTitle": "Gemistus Pletho"
+      }
+    ]
+  },
+  "Q352619": {
+    "wikidataId": "Q352619",
+    "wikipediaTitle": "Basilios_Bessarion",
+    "canonicalTitle": "Cardinal Bessarion",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-bessarion",
+        "nodeTitle": "Cardinal Bessarion"
+      }
+    ]
+  },
+  "Q380417": {
+    "wikidataId": "Q380417",
+    "wikipediaTitle": "Manuel_Chrysoloras",
+    "canonicalTitle": "Manuel Chrysoloras",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-manuel-chrysoloras",
+        "nodeTitle": "Manuel Chrysoloras"
+      }
+    ]
+  },
+  "Q315466": {
+    "wikidataId": "Q315466",
+    "wikipediaTitle": "Heinrich_Cornelius_Agrippa",
+    "canonicalTitle": "Heinrich Cornelius Agrippa",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-cornelius-agrippa",
+        "nodeTitle": "Heinrich Cornelius Agrippa"
+      }
+    ]
+  },
+  "Q364945": {
+    "wikidataId": "Q364945",
+    "wikipediaTitle": "Francesco_Patrizi_(philosopher)",
+    "canonicalTitle": "Francesco Patrizi",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-francesco-patrizi",
+        "nodeTitle": "Francesco Patrizi"
+      }
+    ]
+  },
+  "Q314981": {
+    "wikidataId": "Q314981",
+    "wikipediaTitle": "Theodore_Beza",
+    "canonicalTitle": "Theodore Beza",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-theodore-beza",
+        "nodeTitle": "Theodore Beza"
+      }
+    ]
+  },
+  "Q318622": {
+    "wikidataId": "Q318622",
+    "wikipediaTitle": "Martin_Bucer",
+    "canonicalTitle": "Martin Bucer",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-martin-bucer",
+        "nodeTitle": "Martin Bucer"
+      }
+    ]
+  },
+  "Q380961": {
+    "wikidataId": "Q380961",
+    "wikipediaTitle": "John_Foxe",
+    "canonicalTitle": "John Foxe",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-foxe",
+        "nodeTitle": "John Foxe"
+      }
+    ]
+  },
+  "Q335171": {
+    "wikidataId": "Q335171",
+    "wikipediaTitle": "Menno_Simons",
+    "canonicalTitle": "Menno Simons",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-menno-simons",
+        "nodeTitle": "Menno Simons"
+      }
+    ]
+  },
+  "Q388199": {
+    "wikidataId": "Q388199",
+    "wikipediaTitle": "Antoine_Froment",
+    "canonicalTitle": "Antoine Froment",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-antoine-froment",
+        "nodeTitle": "Antoine Froment"
+      }
+    ]
+  },
+  "Q371558": {
+    "wikidataId": "Q371558",
+    "wikipediaTitle": "Institutes_of_the_Christian_Religion",
+    "canonicalTitle": "Institutes of the Christian Religion",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-institutes",
+        "nodeTitle": "Institutes of the Christian Religion"
+      }
+    ]
+  },
+  "Q319300": {
+    "wikidataId": "Q319300",
+    "wikipediaTitle": "Tetrapolitan_Confession",
+    "canonicalTitle": "Tetrapolitan Confession",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-tetrapolitan-confession",
+        "nodeTitle": "Tetrapolitan Confession"
+      }
+    ]
+  },
+  "Q327152": {
+    "wikidataId": "Q327152",
+    "wikipediaTitle": "Heidelberg_Catechism",
+    "canonicalTitle": "Heidelberg Catechism",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-heidelberg-catechism",
+        "nodeTitle": "Heidelberg Catechism"
+      }
+    ]
+  },
+  "Q372608": {
+    "wikidataId": "Q372608",
+    "wikipediaTitle": "University_of_Basel",
+    "canonicalTitle": "University of Basel",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-basel-university",
+        "nodeTitle": "University of Basel"
+      }
+    ]
+  },
+  "Q318418": {
+    "wikidataId": "Q318418",
+    "wikipediaTitle": "Vilvoorde",
+    "canonicalTitle": "Vilvoorde",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-vilvoorde",
+        "nodeTitle": "Vilvoorde"
+      }
+    ]
+  },
+  "Q314488": {
+    "wikidataId": "Q314488",
+    "wikipediaTitle": "Leonardo_Bruni",
+    "canonicalTitle": "Leonardo Bruni",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-leonardo-bruni",
+        "nodeTitle": "Leonardo Bruni"
+      }
+    ]
+  },
+  "Q318254": {
+    "wikidataId": "Q318254",
+    "wikipediaTitle": "Poggio_Bracciolini",
+    "canonicalTitle": "Poggio Bracciolini",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-poggio-bracciolini",
+        "nodeTitle": "Poggio Bracciolini"
+      }
+    ]
+  },
+  "Q334188": {
+    "wikidataId": "Q334188",
+    "wikipediaTitle": "Pietro_Bembo",
+    "canonicalTitle": "Pietro Bembo",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-pietro-bembo",
+        "nodeTitle": "Pietro Bembo"
+      }
+    ]
+  },
+  "Q318787": {
+    "wikidataId": "Q318787",
+    "wikipediaTitle": "Pietro_Pomponazzi",
+    "canonicalTitle": "Pietro Pomponazzi",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-pietro-pomponazzi",
+        "nodeTitle": "Pietro Pomponazzi"
+      }
+    ]
+  },
+  "Q316357": {
+    "wikidataId": "Q316357",
+    "wikipediaTitle": "Juan_Luis_Vives",
+    "canonicalTitle": "Juan Luis Vives",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-juan-luis-vives",
+        "nodeTitle": "Juan Luis Vives"
+      }
+    ]
+  },
+  "Q353668": {
+    "wikidataId": "Q353668",
+    "wikipediaTitle": "Guillaume_Budé",
+    "canonicalTitle": "Guillaume Budé",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-guillaume-bude",
+        "nodeTitle": "Guillaume Budé"
+      }
+    ]
+  },
+  "Q380804": {
+    "wikidataId": "Q380804",
+    "wikipediaTitle": "Antonio_de_Nebrija",
+    "canonicalTitle": "Antonio de Nebrija",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-antonio-nebrija",
+        "nodeTitle": "Antonio de Nebrija"
+      }
+    ]
+  },
+  "Q342392": {
+    "wikidataId": "Q342392",
+    "wikipediaTitle": "Francisco_Jiménez_de_Cisneros",
+    "canonicalTitle": "Cardinal Francisco Jiménez de Cisneros",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-cardinal-cisneros",
+        "nodeTitle": "Cardinal Francisco Jiménez de Cisneros"
+      }
+    ]
+  },
+  "Q346677": {
+    "wikidataId": "Q346677",
+    "wikipediaTitle": "Adagia",
+    "canonicalTitle": "Adagiorum chiliades (Adages)",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-adages",
+        "nodeTitle": "Adagiorum chiliades (Adages)"
+      }
+    ]
+  },
+  "Q368346": {
+    "wikidataId": "Q368346",
+    "wikipediaTitle": "Villa_Medici_at_Careggi",
+    "canonicalTitle": "Medici Villa at Careggi",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-villa-careggi",
+        "nodeTitle": "Medici Villa at Careggi"
+      }
+    ]
+  },
+  "Q385092": {
+    "wikidataId": "Q385092",
+    "wikipediaTitle": "Salomon_de_Caus",
+    "canonicalTitle": "Salomon de Caus",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-salomon-de-caus",
+        "nodeTitle": "Salomon de Caus"
+      }
+    ]
+  },
+  "Q328441": {
+    "wikidataId": "Q328441",
+    "wikipediaTitle": "Giovanni_Alfonso_Borelli",
+    "canonicalTitle": "Giovanni Alfonso Borelli",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-giovanni-borelli",
+        "nodeTitle": "Giovanni Alfonso Borelli"
+      }
+    ]
+  },
+  "Q333527": {
+    "wikidataId": "Q333527",
+    "wikipediaTitle": "Philip_Wharton,_1st_Duke_of_Wharton",
+    "canonicalTitle": "Philip Wharton, 1st Duke of Wharton",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-philip-wharton",
+        "nodeTitle": "Philip Wharton, 1st Duke of Wharton"
+      }
+    ]
+  },
+  "Q318630": {
+    "wikidataId": "Q318630",
+    "wikipediaTitle": "Thomas_Bayes",
+    "canonicalTitle": "Thomas Bayes",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-thomas-bayes",
+        "nodeTitle": "Thomas Bayes"
+      }
+    ]
+  },
+  "Q310551": {
+    "wikidataId": "Q310551",
+    "wikipediaTitle": "Abraham_de_Moivre",
+    "canonicalTitle": "Abraham de Moivre",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-abraham-de-moivre",
+        "nodeTitle": "Abraham de Moivre"
+      }
+    ]
+  },
+  "Q317584": {
+    "wikidataId": "Q317584",
+    "wikipediaTitle": "William_Sealy_Gosset",
+    "canonicalTitle": "William Sealy Gosset",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-william-sealy-gosset",
+        "nodeTitle": "William Sealy Gosset"
+      },
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-william-farr",
+        "nodeTitle": "William Farr"
+      }
+    ]
+  },
+  "Q355607": {
+    "wikidataId": "Q355607",
+    "wikipediaTitle": "Francis_Ysidro_Edgeworth",
+    "canonicalTitle": "Francis Ysidro Edgeworth",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-francis-ysidro-edgeworth",
+        "nodeTitle": "Francis Ysidro Edgeworth"
+      }
+    ]
+  }
+}

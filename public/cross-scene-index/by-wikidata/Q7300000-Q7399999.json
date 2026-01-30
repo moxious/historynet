@@ -1,0 +1,41 @@
+{
+  "Q7381579": {
+    "wikidataId": "Q7381579",
+    "wikipediaTitle": "Russ_Salakhutdinov",
+    "canonicalTitle": "Ruslan Salakhutdinov",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-ruslan-salakhutdinov",
+        "nodeTitle": "Ruslan Salakhutdinov"
+      }
+    ]
+  },
+  "Q7330296": {
+    "wikidataId": "Q7330296",
+    "wikipediaTitle": "Richard_S._Sutton",
+    "canonicalTitle": "Richard Sutton",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-richard-sutton",
+        "nodeTitle": "Richard Sutton"
+      }
+    ]
+  },
+  "Q7310217": {
+    "wikidataId": "Q7310217",
+    "wikipediaTitle": "Reinforcement_Learning:_An_Introduction",
+    "canonicalTitle": "Reinforcement Learning: An Introduction",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-rl-book",
+        "nodeTitle": "Reinforcement Learning: An Introduction"
+      }
+    ]
+  }
+}

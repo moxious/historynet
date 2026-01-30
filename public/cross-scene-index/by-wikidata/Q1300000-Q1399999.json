@@ -1,0 +1,216 @@
+{
+  "Q1371324": {
+    "wikidataId": "Q1371324",
+    "wikipediaTitle": "Yann_LeCun",
+    "canonicalTitle": "Yann LeCun",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-yann-lecun",
+        "nodeTitle": "Yann LeCun"
+      }
+    ]
+  },
+  "Q1334617": {
+    "wikidataId": "Q1334617",
+    "wikipediaTitle": "Raymond_Scott",
+    "canonicalTitle": "Raymond Scott",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-raymond-scott",
+        "nodeTitle": "Raymond Scott"
+      }
+    ]
+  },
+  "Q1333326": {
+    "wikidataId": "Q1333326",
+    "wikipediaTitle": "Maurice_Martenot",
+    "canonicalTitle": "Maurice Martenot",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-maurice-martenot",
+        "nodeTitle": "Maurice Martenot"
+      }
+    ]
+  },
+  "Q1351281": {
+    "wikidataId": "Q1351281",
+    "wikipediaTitle": "Roger_Eno",
+    "canonicalTitle": "Roger Eno",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-roger-eno",
+        "nodeTitle": "Roger Eno"
+      }
+    ]
+  },
+  "Q1326103": {
+    "wikidataId": "Q1326103",
+    "wikipediaTitle": "Electronic_Music_Studios",
+    "canonicalTitle": "EMS (Electronic Music Studios)",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-ems",
+        "nodeTitle": "EMS (Electronic Music Studios)"
+      }
+    ]
+  },
+  "Q1384845": {
+    "wikidataId": "Q1384845",
+    "wikipediaTitle": "Francesco_Giorgio_Veneto",
+    "canonicalTitle": "Francesco Giorgi",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-francesco-giorgi",
+        "nodeTitle": "Francesco Giorgi"
+      }
+    ]
+  },
+  "Q1340677": {
+    "wikidataId": "Q1340677",
+    "wikipediaTitle": "John_R._Pierce",
+    "canonicalTitle": "John R. Pierce",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-john-pierce",
+        "nodeTitle": "John R. Pierce"
+      }
+    ]
+  },
+  "Q1359845": {
+    "wikidataId": "Q1359845",
+    "wikipediaTitle": "William_Grey_Walter",
+    "canonicalTitle": "W. Grey Walter",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-grey-walter",
+        "nodeTitle": "W. Grey Walter"
+      }
+    ]
+  },
+  "Q1354917": {
+    "wikidataId": "Q1354917",
+    "wikipediaTitle": "MIT_Computer_Science_and_Artificial_Intelligence_Laboratory",
+    "canonicalTitle": "MIT Artificial Intelligence Laboratory",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-mit-ai-lab",
+        "nodeTitle": "MIT Artificial Intelligence Laboratory"
+      },
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-project-mac",
+        "nodeTitle": "Project MAC"
+      }
+    ]
+  },
+  "Q1341370": {
+    "wikidataId": "Q1341370",
+    "wikipediaTitle": "Henry_Home,_Lord_Kames",
+    "canonicalTitle": "Henry Home, Lord Kames",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-lord-kames",
+        "nodeTitle": "Henry Home, Lord Kames"
+      }
+    ]
+  },
+  "Q1306656": {
+    "wikidataId": "Q1306656",
+    "wikipediaTitle": "An_Enquiry_Concerning_Human_Understanding",
+    "canonicalTitle": "An Enquiry Concerning Human Understanding",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-enquiry-human-understanding",
+        "nodeTitle": "An Enquiry Concerning Human Understanding"
+      }
+    ]
+  },
+  "Q1345599": {
+    "wikidataId": "Q1345599",
+    "wikipediaTitle": "Leo_Jud",
+    "canonicalTitle": "Leo Jud",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-leo-jud",
+        "nodeTitle": "Leo Jud"
+      }
+    ]
+  },
+  "Q1368362": {
+    "wikidataId": "Q1368362",
+    "wikipediaTitle": "Wolfgang_Capito",
+    "canonicalTitle": "Wolfgang Capito",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-wolfgang-capito",
+        "nodeTitle": "Wolfgang Capito"
+      }
+    ]
+  },
+  "Q1367426": {
+    "wikidataId": "Q1367426",
+    "wikipediaTitle": "George_Wishart",
+    "canonicalTitle": "George Wishart",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-george-wishart",
+        "nodeTitle": "George Wishart"
+      }
+    ]
+  },
+  "Q1381018": {
+    "wikidataId": "Q1381018",
+    "wikipediaTitle": "William_Stukeley",
+    "canonicalTitle": "William Stukeley",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-william-stukeley",
+        "nodeTitle": "William Stukeley"
+      }
+    ]
+  },
+  "Q1302219": {
+    "wikidataId": "Q1302219",
+    "wikipediaTitle": "Egon_Pearson",
+    "canonicalTitle": "Egon Pearson",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-egon-pearson",
+        "nodeTitle": "Egon Pearson"
+      }
+    ]
+  }
+}

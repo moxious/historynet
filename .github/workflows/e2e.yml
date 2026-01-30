@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build cross-scene index
+        run: npm run build:cross-scene-index
+
       - name: Cache Playwright browsers
         uses: actions/cache@v4
         id: playwright-cache

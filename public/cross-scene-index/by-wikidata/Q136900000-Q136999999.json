@@ -1,0 +1,15 @@
+{
+  "Q136953442": {
+    "wikidataId": "Q136953442",
+    "wikipediaTitle": "The_Living_Brain",
+    "canonicalTitle": "The Living Brain",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-living-brain-walter",
+        "nodeTitle": "The Living Brain"
+      }
+    ]
+  }
+}

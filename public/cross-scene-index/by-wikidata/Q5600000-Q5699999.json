@@ -1,0 +1,28 @@
+{
+  "Q5605106": {
+    "wikidataId": "Q5605106",
+    "wikipediaTitle": "Jimmy_Cauty",
+    "canonicalTitle": "Jimmy Cauty",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-jimmy-cauty",
+        "nodeTitle": "Jimmy Cauty"
+      }
+    ]
+  },
+  "Q5676046": {
+    "wikidataId": "Q5676046",
+    "wikipediaTitle": "Hartlib_Circle",
+    "canonicalTitle": "Hartlib Circle",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "entity-hartlib-circle",
+        "nodeTitle": "Hartlib Circle"
+      }
+    ]
+  }
+}

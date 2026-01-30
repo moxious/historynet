@@ -1,0 +1,15 @@
+{
+  "Q5514059": {
+    "wikidataId": "Q5514059",
+    "wikipediaTitle": "Symbolic_artificial_intelligence",
+    "canonicalTitle": "Symbolic AI / GOFAI",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-symbolic-ai",
+        "nodeTitle": "Symbolic AI / GOFAI"
+      }
+    ]
+  }
+}

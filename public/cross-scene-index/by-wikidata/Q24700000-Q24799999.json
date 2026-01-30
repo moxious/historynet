@@ -1,0 +1,15 @@
+{
+  "Q24709116": {
+    "wikidataId": "Q24709116",
+    "wikipediaTitle": "Greg_Corrado",
+    "canonicalTitle": "Greg Corrado",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-greg-corrado",
+        "nodeTitle": "Greg Corrado"
+      }
+    ]
+  }
+}

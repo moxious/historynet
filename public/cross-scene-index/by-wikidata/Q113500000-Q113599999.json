@@ -1,0 +1,41 @@
+{
+  "Q113500048": {
+    "wikidataId": "Q113500048",
+    "wikipediaTitle": "Robin_Rombach",
+    "canonicalTitle": "Robin Rombach",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-robin-rombach",
+        "nodeTitle": "Robin Rombach"
+      }
+    ]
+  },
+  "Q113503106": {
+    "wikidataId": "Q113503106",
+    "wikipediaTitle": "Proximal_policy_optimization",
+    "canonicalTitle": "Proximal Policy Optimization Algorithms",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-ppo-paper",
+        "nodeTitle": "Proximal Policy Optimization Algorithms"
+      }
+    ]
+  },
+  "Q113503095": {
+    "wikidataId": "Q113503095",
+    "wikipediaTitle": "Trust_region_policy_optimization",
+    "canonicalTitle": "Trust Region Policy Optimization",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-trpo-paper",
+        "nodeTitle": "Trust Region Policy Optimization"
+      }
+    ]
+  }
+}

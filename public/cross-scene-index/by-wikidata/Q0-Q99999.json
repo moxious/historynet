@@ -1,0 +1,3348 @@
+{
+  "Q60": {
+    "wikidataId": "Q60",
+    "wikipediaTitle": "New_York_City",
+    "canonicalTitle": "New York City, New York",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-new-york",
+        "nodeTitle": "New York City, New York"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-new-york",
+        "nodeTitle": "New York City"
+      }
+    ]
+  },
+  "Q49210": {
+    "wikidataId": "Q49210",
+    "wikipediaTitle": "New_York_University",
+    "canonicalTitle": "New York University",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-nyu",
+        "nodeTitle": "New York University"
+      }
+    ]
+  },
+  "Q62": {
+    "wikidataId": "Q62",
+    "wikipediaTitle": "San_Francisco",
+    "canonicalTitle": "San Francisco, California",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-san-francisco",
+        "nodeTitle": "San Francisco, California"
+      }
+    ]
+  },
+  "Q84": {
+    "wikidataId": "Q84",
+    "wikipediaTitle": "London",
+    "canonicalTitle": "London, United Kingdom",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-london",
+        "nodeTitle": "London, United Kingdom"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-london",
+        "nodeTitle": "London"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-london",
+        "nodeTitle": "London"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-london",
+        "nodeTitle": "London"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-london",
+        "nodeTitle": "London"
+      },
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-london",
+        "nodeTitle": "London"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "location-london",
+        "nodeTitle": "London"
+      },
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "loc-london",
+        "nodeTitle": "London"
+      }
+    ]
+  },
+  "Q90": {
+    "wikidataId": "Q90",
+    "wikipediaTitle": "Paris",
+    "canonicalTitle": "Paris, France",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-paris",
+        "nodeTitle": "Paris, France"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-paris",
+        "nodeTitle": "Paris"
+      },
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-paris",
+        "nodeTitle": "Paris"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-paris",
+        "nodeTitle": "Paris"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-paris",
+        "nodeTitle": "Paris"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-paris",
+        "nodeTitle": "Paris"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "location-paris",
+        "nodeTitle": "Paris"
+      }
+    ]
+  },
+  "Q172": {
+    "wikidataId": "Q172",
+    "wikipediaTitle": "Toronto",
+    "canonicalTitle": "Toronto, Canada",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-toronto",
+        "nodeTitle": "Toronto, Canada"
+      }
+    ]
+  },
+  "Q340": {
+    "wikidataId": "Q340",
+    "wikipediaTitle": "Montreal",
+    "canonicalTitle": "Montreal, Canada",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-montreal",
+        "nodeTitle": "Montreal, Canada"
+      }
+    ]
+  },
+  "Q41506": {
+    "wikidataId": "Q41506",
+    "wikipediaTitle": "Stanford_University",
+    "canonicalTitle": "Stanford University",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-stanford",
+        "nodeTitle": "Stanford University"
+      },
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-stanford",
+        "nodeTitle": "Stanford University"
+      }
+    ]
+  },
+  "Q1490": {
+    "wikidataId": "Q1490",
+    "wikipediaTitle": "Tokyo",
+    "canonicalTitle": "Tokyo, Japan",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-tokyo",
+        "nodeTitle": "Tokyo, Japan"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-tokyo",
+        "nodeTitle": "Tokyo"
+      }
+    ]
+  },
+  "Q2096": {
+    "wikidataId": "Q2096",
+    "wikipediaTitle": "Edmonton",
+    "canonicalTitle": "Edmonton, Canada",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-edmonton",
+        "nodeTitle": "Edmonton, Canada"
+      }
+    ]
+  },
+  "Q38948": {
+    "wikidataId": "Q38948",
+    "wikipediaTitle": "University_of_Alberta",
+    "canonicalTitle": "University of Alberta",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-ualberta",
+        "nodeTitle": "University of Alberta"
+      }
+    ]
+  },
+  "Q5083": {
+    "wikidataId": "Q5083",
+    "wikipediaTitle": "Seattle",
+    "canonicalTitle": "Seattle, Washington",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-seattle",
+        "nodeTitle": "Seattle, Washington"
+      }
+    ]
+  },
+  "Q29544": {
+    "wikidataId": "Q29544",
+    "wikipediaTitle": "Delia_Derbyshire",
+    "canonicalTitle": "Delia Derbyshire",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-delia-derbyshire",
+        "nodeTitle": "Delia Derbyshire"
+      }
+    ]
+  },
+  "Q61428": {
+    "wikidataId": "Q61428",
+    "wikipediaTitle": "Conny_Plank",
+    "canonicalTitle": "Conny Plank",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-conny-plank",
+        "nodeTitle": "Conny Plank"
+      },
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-conny-studio",
+        "nodeTitle": "Conny Plank's Studio"
+      }
+    ]
+  },
+  "Q61272": {
+    "wikidataId": "Q61272",
+    "wikipediaTitle": "Christopher_Franke",
+    "canonicalTitle": "Christopher Franke",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-christopher-franke",
+        "nodeTitle": "Christopher Franke"
+      }
+    ]
+  },
+  "Q44641": {
+    "wikidataId": "Q44641",
+    "wikipediaTitle": "Wendy_Carlos",
+    "canonicalTitle": "Wendy Carlos",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-wendy-carlos",
+        "nodeTitle": "Wendy Carlos"
+      }
+    ]
+  },
+  "Q12030": {
+    "wikidataId": "Q12030",
+    "wikipediaTitle": "4′33″",
+    "canonicalTitle": "4'33\"",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-cage-433",
+        "nodeTitle": "4'33\""
+      }
+    ]
+  },
+  "Q31595": {
+    "wikidataId": "Q31595",
+    "wikipediaTitle": "Zuckerzeit",
+    "canonicalTitle": "Zuckerzeit",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-cluster-zuckerzeit",
+        "nodeTitle": "Zuckerzeit"
+      }
+    ]
+  },
+  "Q31512": {
+    "wikidataId": "Q31512",
+    "wikipediaTitle": "Sowiesoso",
+    "canonicalTitle": "Sowiesoso",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-cluster-sowiesoso",
+        "nodeTitle": "Sowiesoso"
+      }
+    ]
+  },
+  "Q64": {
+    "wikidataId": "Q64",
+    "wikipediaTitle": "Berlin",
+    "canonicalTitle": "Berlin",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-berlin",
+        "nodeTitle": "Berlin"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-berlin",
+        "nodeTitle": "Berlin"
+      }
+    ]
+  },
+  "Q1718": {
+    "wikidataId": "Q1718",
+    "wikipediaTitle": "Düsseldorf",
+    "canonicalTitle": "Düsseldorf",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-dusseldorf",
+        "nodeTitle": "Düsseldorf"
+      }
+    ]
+  },
+  "Q365": {
+    "wikidataId": "Q365",
+    "wikipediaTitle": "Cologne",
+    "canonicalTitle": "Cologne",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-cologne",
+        "nodeTitle": "Cologne"
+      },
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-cologne",
+        "nodeTitle": "Cologne"
+      }
+    ]
+  },
+  "Q34692": {
+    "wikidataId": "Q34692",
+    "wikipediaTitle": "Kingston,_Jamaica",
+    "canonicalTitle": "Kingston",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-kingston",
+        "nodeTitle": "Kingston"
+      }
+    ]
+  },
+  "Q490": {
+    "wikidataId": "Q490",
+    "wikipediaTitle": "Milan",
+    "canonicalTitle": "Milan",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-milan",
+        "nodeTitle": "Milan"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-milan",
+        "nodeTitle": "Milan"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-milan",
+        "nodeTitle": "Milan"
+      }
+    ]
+  },
+  "Q44892": {
+    "wikidataId": "Q44892",
+    "wikipediaTitle": "Kraftwerk",
+    "canonicalTitle": "Kraftwerk",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-kraftwerk",
+        "nodeTitle": "Kraftwerk"
+      }
+    ]
+  },
+  "Q60637": {
+    "wikidataId": "Q60637",
+    "wikipediaTitle": "Johann_Reuchlin",
+    "canonicalTitle": "Johannes Reuchlin",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-johannes-reuchlin",
+        "nodeTitle": "Johannes Reuchlin"
+      }
+    ]
+  },
+  "Q60305": {
+    "wikidataId": "Q60305",
+    "wikipediaTitle": "Heinrich_Cornelius_Agrippa",
+    "canonicalTitle": "Heinrich Cornelius Agrippa",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-heinrich-cornelius-agrippa",
+        "nodeTitle": "Heinrich Cornelius Agrippa"
+      }
+    ]
+  },
+  "Q60373": {
+    "wikidataId": "Q60373",
+    "wikipediaTitle": "Johannes_Trithemius",
+    "canonicalTitle": "Johannes Trithemius",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-johannes-trithemius",
+        "nodeTitle": "Johannes Trithemius"
+      }
+    ]
+  },
+  "Q83428": {
+    "wikidataId": "Q83428",
+    "wikipediaTitle": "Paracelsus",
+    "canonicalTitle": "Paracelsus",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-paracelsus",
+        "nodeTitle": "Paracelsus"
+      },
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-paracelsus",
+        "nodeTitle": "Paracelsus"
+      }
+    ]
+  },
+  "Q63203": {
+    "wikidataId": "Q63203",
+    "wikipediaTitle": "Johannes_Pfefferkorn",
+    "canonicalTitle": "Johannes Pfefferkorn",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-johannes-pfefferkorn",
+        "nodeTitle": "Johannes Pfefferkorn"
+      }
+    ]
+  },
+  "Q2044": {
+    "wikidataId": "Q2044",
+    "wikipediaTitle": "Florence",
+    "canonicalTitle": "Florence",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-florence",
+        "nodeTitle": "Florence"
+      },
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "location-florence",
+        "nodeTitle": "Florence"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-florence",
+        "nodeTitle": "Florence"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "location-florence",
+        "nodeTitle": "Florence"
+      }
+    ]
+  },
+  "Q641": {
+    "wikidataId": "Q641",
+    "wikipediaTitle": "Venice",
+    "canonicalTitle": "Venice",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-venice",
+        "nodeTitle": "Venice"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-venice",
+        "nodeTitle": "Venice"
+      }
+    ]
+  },
+  "Q220": {
+    "wikidataId": "Q220",
+    "wikipediaTitle": "Rome",
+    "canonicalTitle": "Rome",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-rome",
+        "nodeTitle": "Rome"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-rome",
+        "nodeTitle": "Rome"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-rome",
+        "nodeTitle": "Rome"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "location-rome",
+        "nodeTitle": "Rome"
+      }
+    ]
+  },
+  "Q1728": {
+    "wikidataId": "Q1728",
+    "wikipediaTitle": "Würzburg",
+    "canonicalTitle": "Würzburg",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "location-wuerzburg",
+        "nodeTitle": "Würzburg"
+      }
+    ]
+  },
+  "Q81520": {
+    "wikidataId": "Q81520",
+    "wikipediaTitle": "Pope_Leo_X",
+    "canonicalTitle": "Pope Leo X",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-pope-leo-x",
+        "nodeTitle": "Pope Leo X"
+      }
+    ]
+  },
+  "Q77107": {
+    "wikidataId": "Q77107",
+    "wikipediaTitle": "Ulrich_von_Hutten",
+    "canonicalTitle": "Ulrich von Hutten",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-ulrich-von-hutten",
+        "nodeTitle": "Ulrich von Hutten"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-ulrich-von-hutten",
+        "nodeTitle": "Ulrich von Hutten"
+      }
+    ]
+  },
+  "Q65521": {
+    "wikidataId": "Q65521",
+    "wikipediaTitle": "Crotus_Rubeanus",
+    "canonicalTitle": "Crotus Rubeanus",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-crotus-rubeanus",
+        "nodeTitle": "Crotus Rubeanus"
+      }
+    ]
+  },
+  "Q92760": {
+    "wikidataId": "Q92760",
+    "wikipediaTitle": "Claude_Shannon",
+    "canonicalTitle": "Claude Shannon",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-claude-shannon",
+        "nodeTitle": "Claude Shannon"
+      }
+    ]
+  },
+  "Q7251": {
+    "wikidataId": "Q7251",
+    "wikipediaTitle": "Alan_Turing",
+    "canonicalTitle": "Alan Turing",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-alan-turing",
+        "nodeTitle": "Alan Turing"
+      }
+    ]
+  },
+  "Q17455": {
+    "wikidataId": "Q17455",
+    "wikipediaTitle": "John_von_Neumann",
+    "canonicalTitle": "John von Neumann",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-john-von-neumann",
+        "nodeTitle": "John von Neumann"
+      }
+    ]
+  },
+  "Q92619": {
+    "wikidataId": "Q92619",
+    "wikipediaTitle": "Richard_Hamming",
+    "canonicalTitle": "Richard Hamming",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-richard-hamming",
+        "nodeTitle": "Richard Hamming"
+      }
+    ]
+  },
+  "Q92784": {
+    "wikidataId": "Q92784",
+    "wikipediaTitle": "David_A._Huffman",
+    "canonicalTitle": "David Huffman",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-david-huffman",
+        "nodeTitle": "David Huffman"
+      }
+    ]
+  },
+  "Q93052": {
+    "wikidataId": "Q93052",
+    "wikipediaTitle": "Robert_Fano",
+    "canonicalTitle": "Robert Fano",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-robert-fano",
+        "nodeTitle": "Robert Fano"
+      }
+    ]
+  },
+  "Q93005": {
+    "wikidataId": "Q93005",
+    "wikipediaTitle": "Herman_Goldstine",
+    "canonicalTitle": "Herman Goldstine",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-herman-goldstine",
+        "nodeTitle": "Herman Goldstine"
+      }
+    ]
+  },
+  "Q62857": {
+    "wikidataId": "Q62857",
+    "wikipediaTitle": "Maurice_Wilkes",
+    "canonicalTitle": "Maurice Wilkes",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-maurice-wilkes",
+        "nodeTitle": "Maurice Wilkes"
+      }
+    ]
+  },
+  "Q60093": {
+    "wikidataId": "Q60093",
+    "wikipediaTitle": "Konrad_Zuse",
+    "canonicalTitle": "Konrad Zuse",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-konrad-zuse",
+        "nodeTitle": "Konrad Zuse"
+      }
+    ]
+  },
+  "Q74829": {
+    "wikidataId": "Q74829",
+    "wikipediaTitle": "Heinrich_Klüver",
+    "canonicalTitle": "Heinrich Klüver",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-heinrich-kluver",
+        "nodeTitle": "Heinrich Klüver"
+      }
+    ]
+  },
+  "Q77106": {
+    "wikidataId": "Q77106",
+    "wikipediaTitle": "Kurt_Lewin",
+    "canonicalTitle": "Kurt Lewin",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-kurt-lewin",
+        "nodeTitle": "Kurt Lewin"
+      }
+    ]
+  },
+  "Q93018": {
+    "wikidataId": "Q93018",
+    "wikipediaTitle": "Frank_Rosenblatt",
+    "canonicalTitle": "Frank Rosenblatt",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-frank-rosenblatt",
+        "nodeTitle": "Frank Rosenblatt"
+      }
+    ]
+  },
+  "Q84345": {
+    "wikidataId": "Q84345",
+    "wikipediaTitle": "Ludwig_von_Bertalanffy",
+    "canonicalTitle": "Ludwig von Bertalanffy",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-ludwig-von-bertalanffy",
+        "nodeTitle": "Ludwig von Bertalanffy"
+      }
+    ]
+  },
+  "Q92763": {
+    "wikidataId": "Q92763",
+    "wikipediaTitle": "Jay_Wright_Forrester",
+    "canonicalTitle": "Jay Forrester",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-jay-forrester",
+        "nodeTitle": "Jay Forrester"
+      }
+    ]
+  },
+  "Q78688": {
+    "wikidataId": "Q78688",
+    "wikipediaTitle": "Heinz_von_Foerster",
+    "canonicalTitle": "Heinz von Foerster",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-heinz-von-foerster",
+        "nodeTitle": "Heinz von Foerster"
+      }
+    ]
+  },
+  "Q92739": {
+    "wikidataId": "Q92739",
+    "wikipediaTitle": "John_McCarthy_(computer_scientist)",
+    "canonicalTitle": "John McCarthy",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-john-mccarthy",
+        "nodeTitle": "John McCarthy"
+      }
+    ]
+  },
+  "Q92778": {
+    "wikidataId": "Q92778",
+    "wikipediaTitle": "J._C._R._Licklider",
+    "canonicalTitle": "J.C.R. Licklider",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-j-c-r-licklider",
+        "nodeTitle": "J.C.R. Licklider"
+      }
+    ]
+  },
+  "Q92614": {
+    "wikidataId": "Q92614",
+    "wikipediaTitle": "Douglas_Engelbart",
+    "canonicalTitle": "Douglas Engelbart",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-douglas-engelbart",
+        "nodeTitle": "Douglas Engelbart"
+      }
+    ]
+  },
+  "Q33760": {
+    "wikidataId": "Q33760",
+    "wikipediaTitle": "Bertrand_Russell",
+    "canonicalTitle": "Bertrand Russell",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-bertrand-russell",
+        "nodeTitle": "Bertrand Russell"
+      }
+    ]
+  },
+  "Q92741": {
+    "wikidataId": "Q92741",
+    "wikipediaTitle": "Alonzo_Church",
+    "canonicalTitle": "Alonzo Church",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-alonzo-church",
+        "nodeTitle": "Alonzo Church"
+      }
+    ]
+  },
+  "Q41390": {
+    "wikidataId": "Q41390",
+    "wikipediaTitle": "Kurt_Gödel",
+    "canonicalTitle": "Kurt Gödel",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-kurt-godel",
+        "nodeTitle": "Kurt Gödel"
+      }
+    ]
+  },
+  "Q84296": {
+    "wikidataId": "Q84296",
+    "wikipediaTitle": "Ludwig_Boltzmann",
+    "canonicalTitle": "Ludwig Boltzmann",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-ludwig-boltzmann",
+        "nodeTitle": "Ludwig Boltzmann"
+      }
+    ]
+  },
+  "Q94028": {
+    "wikidataId": "Q94028",
+    "wikipediaTitle": "Oskar_Morgenstern",
+    "canonicalTitle": "Oskar Morgenstern",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-oskar-morgenstern",
+        "nodeTitle": "Oskar Morgenstern"
+      }
+    ]
+  },
+  "Q49108": {
+    "wikidataId": "Q49108",
+    "wikipediaTitle": "Massachusetts_Institute_of_Technology",
+    "canonicalTitle": "Massachusetts Institute of Technology",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-mit",
+        "nodeTitle": "Massachusetts Institute of Technology"
+      }
+    ]
+  },
+  "Q35794": {
+    "wikidataId": "Q35794",
+    "wikipediaTitle": "University_of_Cambridge",
+    "canonicalTitle": "Cambridge University",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-cambridge",
+        "nodeTitle": "Cambridge University"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-cambridge",
+        "nodeTitle": "University of Cambridge"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-cambridge-university",
+        "nodeTitle": "University of Cambridge"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-university-cambridge",
+        "nodeTitle": "University of Cambridge"
+      }
+    ]
+  },
+  "Q49116": {
+    "wikidataId": "Q49116",
+    "wikipediaTitle": "Dartmouth_College",
+    "canonicalTitle": "Dartmouth College",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-dartmouth",
+        "nodeTitle": "Dartmouth College"
+      }
+    ]
+  },
+  "Q1741": {
+    "wikidataId": "Q1741",
+    "wikipediaTitle": "Vienna",
+    "canonicalTitle": "Vienna",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-vienna",
+        "nodeTitle": "Vienna"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-vienna",
+        "nodeTitle": "Vienna"
+      }
+    ]
+  },
+  "Q13371": {
+    "wikidataId": "Q13371",
+    "wikipediaTitle": "Harvard_University",
+    "canonicalTitle": "Harvard University",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-harvard",
+        "nodeTitle": "Harvard University"
+      }
+    ]
+  },
+  "Q9353": {
+    "wikidataId": "Q9353",
+    "wikipediaTitle": "John_Locke",
+    "canonicalTitle": "John Locke",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-john-locke",
+        "nodeTitle": "John Locke"
+      }
+    ]
+  },
+  "Q935": {
+    "wikidataId": "Q935",
+    "wikipediaTitle": "Isaac_Newton",
+    "canonicalTitle": "Isaac Newton",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-isaac-newton",
+        "nodeTitle": "Isaac Newton"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-isaac-newton",
+        "nodeTitle": "Isaac Newton"
+      },
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-isaac-newton",
+        "nodeTitle": "Sir Isaac Newton"
+      }
+    ]
+  },
+  "Q9047": {
+    "wikidataId": "Q9047",
+    "wikipediaTitle": "Gottfried_Wilhelm_Leibniz",
+    "canonicalTitle": "Gottfried Wilhelm Leibniz",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-leibniz",
+        "nodeTitle": "Gottfried Wilhelm Leibniz"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-gottfried-leibniz",
+        "nodeTitle": "Gottfried Wilhelm Leibniz"
+      }
+    ]
+  },
+  "Q9068": {
+    "wikidataId": "Q9068",
+    "wikipediaTitle": "Voltaire",
+    "canonicalTitle": "Voltaire",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-voltaire",
+        "nodeTitle": "Voltaire"
+      }
+    ]
+  },
+  "Q448": {
+    "wikidataId": "Q448",
+    "wikipediaTitle": "Denis_Diderot",
+    "canonicalTitle": "Denis Diderot",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-diderot",
+        "nodeTitle": "Denis Diderot"
+      }
+    ]
+  },
+  "Q15975": {
+    "wikidataId": "Q15975",
+    "wikipediaTitle": "Montesquieu",
+    "canonicalTitle": "Montesquieu",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-montesquieu",
+        "nodeTitle": "Montesquieu"
+      }
+    ]
+  },
+  "Q6527": {
+    "wikidataId": "Q6527",
+    "wikipediaTitle": "Jean-Jacques_Rousseau",
+    "canonicalTitle": "Jean-Jacques Rousseau",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-rousseau",
+        "nodeTitle": "Jean-Jacques Rousseau"
+      }
+    ]
+  },
+  "Q7104": {
+    "wikidataId": "Q7104",
+    "wikipediaTitle": "Baron_d'Holbach",
+    "canonicalTitle": "Baron d'Holbach",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-dholbach",
+        "nodeTitle": "Baron d'Holbach"
+      }
+    ]
+  },
+  "Q7068": {
+    "wikidataId": "Q7068",
+    "wikipediaTitle": "Julien_Offray_de_La_Mettrie",
+    "canonicalTitle": "Julien Offray de La Mettrie",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-la-mettrie",
+        "nodeTitle": "Julien Offray de La Mettrie"
+      }
+    ]
+  },
+  "Q37160": {
+    "wikidataId": "Q37160",
+    "wikipediaTitle": "David_Hume",
+    "canonicalTitle": "David Hume",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-david-hume",
+        "nodeTitle": "David Hume"
+      }
+    ]
+  },
+  "Q9381": {
+    "wikidataId": "Q9381",
+    "wikipediaTitle": "Adam_Smith",
+    "canonicalTitle": "Adam Smith",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-adam-smith",
+        "nodeTitle": "Adam Smith"
+      }
+    ]
+  },
+  "Q9312": {
+    "wikidataId": "Q9312",
+    "wikipediaTitle": "Immanuel_Kant",
+    "canonicalTitle": "Immanuel Kant",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-immanuel-kant",
+        "nodeTitle": "Immanuel Kant"
+      }
+    ]
+  },
+  "Q76510": {
+    "wikidataId": "Q76510",
+    "wikipediaTitle": "Christian_Wolff_(philosopher)",
+    "canonicalTitle": "Christian Wolff",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-christian-wolff",
+        "nodeTitle": "Christian Wolff"
+      }
+    ]
+  },
+  "Q76997": {
+    "wikidataId": "Q76997",
+    "wikipediaTitle": "Moses_Mendelssohn",
+    "canonicalTitle": "Moses Mendelssohn",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-moses-mendelssohn",
+        "nodeTitle": "Moses Mendelssohn"
+      }
+    ]
+  },
+  "Q34628": {
+    "wikidataId": "Q34628",
+    "wikipediaTitle": "Gotthold_Ephraim_Lessing",
+    "canonicalTitle": "Gotthold Ephraim Lessing",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-gotthold-lessing",
+        "nodeTitle": "Gotthold Ephraim Lessing"
+      }
+    ]
+  },
+  "Q76517": {
+    "wikidataId": "Q76517",
+    "wikipediaTitle": "Alexander_Gottlieb_Baumgarten",
+    "canonicalTitle": "Alexander Gottlieb Baumgarten",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-baumgarten",
+        "nodeTitle": "Alexander Gottlieb Baumgarten"
+      }
+    ]
+  },
+  "Q5879": {
+    "wikidataId": "Q5879",
+    "wikipediaTitle": "Johann_Wolfgang_von_Goethe",
+    "canonicalTitle": "Johann Wolfgang von Goethe",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-goethe",
+        "nodeTitle": "Johann Wolfgang von Goethe"
+      }
+    ]
+  },
+  "Q82049": {
+    "wikidataId": "Q82049",
+    "wikipediaTitle": "George_Berkeley",
+    "canonicalTitle": "George Berkeley",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-george-berkeley",
+        "nodeTitle": "George Berkeley"
+      }
+    ]
+  },
+  "Q60887": {
+    "wikidataId": "Q60887",
+    "wikipediaTitle": "Jeremy_Bentham",
+    "canonicalTitle": "Jeremy Bentham",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-jeremy-bentham",
+        "nodeTitle": "Jeremy Bentham"
+      }
+    ]
+  },
+  "Q13575": {
+    "wikidataId": "Q13575",
+    "wikipediaTitle": "François_Quesnay",
+    "canonicalTitle": "François Quesnay",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-francois-quesnay",
+        "nodeTitle": "François Quesnay"
+      }
+    ]
+  },
+  "Q34969": {
+    "wikidataId": "Q34969",
+    "wikipediaTitle": "Benjamin_Franklin",
+    "canonicalTitle": "Benjamin Franklin",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-benjamin-franklin",
+        "nodeTitle": "Benjamin Franklin"
+      }
+    ]
+  },
+  "Q11812": {
+    "wikidataId": "Q11812",
+    "wikipediaTitle": "Thomas_Jefferson",
+    "canonicalTitle": "Thomas Jefferson",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-thomas-jefferson",
+        "nodeTitle": "Thomas Jefferson"
+      }
+    ]
+  },
+  "Q11813": {
+    "wikidataId": "Q11813",
+    "wikipediaTitle": "James_Madison",
+    "canonicalTitle": "James Madison",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-james-madison",
+        "nodeTitle": "James Madison"
+      }
+    ]
+  },
+  "Q11806": {
+    "wikidataId": "Q11806",
+    "wikipediaTitle": "John_Adams",
+    "canonicalTitle": "John Adams",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-john-adams",
+        "nodeTitle": "John Adams"
+      }
+    ]
+  },
+  "Q7604": {
+    "wikidataId": "Q7604",
+    "wikipediaTitle": "Leonhard_Euler",
+    "canonicalTitle": "Leonhard Euler",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-leonhard-euler",
+        "nodeTitle": "Leonhard Euler"
+      }
+    ]
+  },
+  "Q44481": {
+    "wikidataId": "Q44481",
+    "wikipediaTitle": "Pierre-Simon_Laplace",
+    "canonicalTitle": "Pierre-Simon Laplace",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-laplace",
+        "nodeTitle": "Pierre-Simon Laplace"
+      }
+    ]
+  },
+  "Q39607": {
+    "wikidataId": "Q39607",
+    "wikipediaTitle": "Antoine_Lavoisier",
+    "canonicalTitle": "Antoine Lavoisier",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-lavoisier",
+        "nodeTitle": "Antoine Lavoisier"
+      }
+    ]
+  },
+  "Q7286": {
+    "wikidataId": "Q7286",
+    "wikipediaTitle": "Émilie_du_Châtelet",
+    "canonicalTitle": "Émilie du Châtelet",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-emilie-du-chatelet",
+        "nodeTitle": "Émilie du Châtelet"
+      }
+    ]
+  },
+  "Q80222": {
+    "wikidataId": "Q80222",
+    "wikipediaTitle": "Joseph-Louis_Lagrange",
+    "canonicalTitle": "Joseph-Louis Lagrange",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-lagrange",
+        "nodeTitle": "Joseph-Louis Lagrange"
+      }
+    ]
+  },
+  "Q33550": {
+    "wikidataId": "Q33550",
+    "wikipediaTitle": "Frederick_the_Great",
+    "canonicalTitle": "Frederick II of Prussia",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-frederick-great",
+        "nodeTitle": "Frederick II of Prussia"
+      }
+    ]
+  },
+  "Q36450": {
+    "wikidataId": "Q36450",
+    "wikipediaTitle": "Catherine_the_Great",
+    "canonicalTitle": "Catherine II of Russia",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-catherine-great",
+        "nodeTitle": "Catherine II of Russia"
+      }
+    ]
+  },
+  "Q74263": {
+    "wikidataId": "Q74263",
+    "wikipediaTitle": "Opticks",
+    "canonicalTitle": "Opticks",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-opticks",
+        "nodeTitle": "Opticks"
+      }
+    ]
+  },
+  "Q447": {
+    "wikidataId": "Q447",
+    "wikipediaTitle": "Encyclopédie",
+    "canonicalTitle": "Encyclopédie",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-encyclopedie",
+        "nodeTitle": "Encyclopédie"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-encyclopedie-project",
+        "nodeTitle": "Encyclopédie Project"
+      }
+    ]
+  },
+  "Q23436": {
+    "wikidataId": "Q23436",
+    "wikipediaTitle": "Edinburgh",
+    "canonicalTitle": "Edinburgh",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-edinburgh",
+        "nodeTitle": "Edinburgh"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-edinburgh",
+        "nodeTitle": "Edinburgh"
+      },
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "loc-edinburgh",
+        "nodeTitle": "Edinburgh"
+      }
+    ]
+  },
+  "Q71": {
+    "wikidataId": "Q71",
+    "wikipediaTitle": "Geneva",
+    "canonicalTitle": "Geneva",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-geneva",
+        "nodeTitle": "Geneva"
+      },
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-geneva",
+        "nodeTitle": "Geneva"
+      }
+    ]
+  },
+  "Q727": {
+    "wikidataId": "Q727",
+    "wikipediaTitle": "Amsterdam",
+    "canonicalTitle": "Amsterdam",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-amsterdam",
+        "nodeTitle": "Amsterdam"
+      },
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-amsterdam",
+        "nodeTitle": "Amsterdam"
+      }
+    ]
+  },
+  "Q4093": {
+    "wikidataId": "Q4093",
+    "wikipediaTitle": "Glasgow",
+    "canonicalTitle": "Glasgow",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-glasgow",
+        "nodeTitle": "Glasgow"
+      }
+    ]
+  },
+  "Q1345": {
+    "wikidataId": "Q1345",
+    "wikipediaTitle": "Philadelphia",
+    "canonicalTitle": "Philadelphia",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-philadelphia",
+        "nodeTitle": "Philadelphia"
+      }
+    ]
+  },
+  "Q656": {
+    "wikidataId": "Q656",
+    "wikipediaTitle": "Saint_Petersburg",
+    "canonicalTitle": "St. Petersburg",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-st-petersburg",
+        "nodeTitle": "St. Petersburg"
+      }
+    ]
+  },
+  "Q2946": {
+    "wikidataId": "Q2946",
+    "wikipediaTitle": "Palace_of_Versailles",
+    "canonicalTitle": "Versailles",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-versailles",
+        "nodeTitle": "Versailles"
+      }
+    ]
+  },
+  "Q83368": {
+    "wikidataId": "Q83368",
+    "wikipediaTitle": "Empiricism",
+    "canonicalTitle": "British Empiricism",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-british-empiricism",
+        "nodeTitle": "British Empiricism"
+      }
+    ]
+  },
+  "Q30": {
+    "wikidataId": "Q30",
+    "wikipediaTitle": "United_States",
+    "canonicalTitle": "United States of America",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-united-states",
+        "nodeTitle": "United States of America"
+      }
+    ]
+  },
+  "Q6534": {
+    "wikidataId": "Q6534",
+    "wikipediaTitle": "French_Revolution",
+    "canonicalTitle": "French Revolution",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-french-revolution",
+        "nodeTitle": "French Revolution"
+      }
+    ]
+  },
+  "Q81994": {
+    "wikidataId": "Q81994",
+    "wikipediaTitle": "Pope_Leo_X",
+    "canonicalTitle": "Giovanni de' Medici (Pope Leo X)",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-giovanni-de-medici-pope-leo-x",
+        "nodeTitle": "Giovanni de' Medici (Pope Leo X)"
+      }
+    ]
+  },
+  "Q859": {
+    "wikidataId": "Q859",
+    "wikipediaTitle": "Plato",
+    "canonicalTitle": "Plato",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-plato",
+        "nodeTitle": "Plato"
+      }
+    ]
+  },
+  "Q44032": {
+    "wikidataId": "Q44032",
+    "wikipediaTitle": "Plotinus",
+    "canonicalTitle": "Plotinus",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-plotinus",
+        "nodeTitle": "Plotinus"
+      }
+    ]
+  },
+  "Q42247": {
+    "wikidataId": "Q42247",
+    "wikipediaTitle": "Iamblichus",
+    "canonicalTitle": "Iamblichus",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-iamblichus",
+        "nodeTitle": "Iamblichus"
+      }
+    ]
+  },
+  "Q43395": {
+    "wikidataId": "Q43395",
+    "wikipediaTitle": "Orpheus",
+    "canonicalTitle": "Orpheus",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-orpheus",
+        "nodeTitle": "Orpheus"
+      }
+    ]
+  },
+  "Q4848": {
+    "wikidataId": "Q4848",
+    "wikipediaTitle": "Zoroaster",
+    "canonicalTitle": "Zoroaster",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-zoroaster",
+        "nodeTitle": "Zoroaster"
+      }
+    ]
+  },
+  "Q10261": {
+    "wikidataId": "Q10261",
+    "wikipediaTitle": "Pythagoras",
+    "canonicalTitle": "Pythagoras",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-pythagoras",
+        "nodeTitle": "Pythagoras"
+      }
+    ]
+  },
+  "Q36330": {
+    "wikidataId": "Q36330",
+    "wikipediaTitle": "Giordano_Bruno",
+    "canonicalTitle": "Giordano Bruno",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-giordano-bruno",
+        "nodeTitle": "Giordano Bruno"
+      }
+    ]
+  },
+  "Q45027": {
+    "wikidataId": "Q45027",
+    "wikipediaTitle": "Girolamo_Savonarola",
+    "canonicalTitle": "Girolamo Savonarola",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-girolamo-savonarola",
+        "nodeTitle": "Girolamo Savonarola"
+      }
+    ]
+  },
+  "Q83017": {
+    "wikidataId": "Q83017",
+    "wikipediaTitle": "Council_of_Florence",
+    "canonicalTitle": "Council of Florence",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "location-council-of-florence",
+        "nodeTitle": "Council of Florence"
+      }
+    ]
+  },
+  "Q9554": {
+    "wikidataId": "Q9554",
+    "wikipediaTitle": "Martin_Luther",
+    "canonicalTitle": "Martin Luther",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-martin-luther",
+        "nodeTitle": "Martin Luther"
+      }
+    ]
+  },
+  "Q37577": {
+    "wikidataId": "Q37577",
+    "wikipediaTitle": "John_Calvin",
+    "canonicalTitle": "John Calvin",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-calvin",
+        "nodeTitle": "John Calvin"
+      }
+    ]
+  },
+  "Q43499": {
+    "wikidataId": "Q43499",
+    "wikipediaTitle": "Erasmus",
+    "canonicalTitle": "Erasmus of Rotterdam",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-erasmus-of-rotterdam",
+        "nodeTitle": "Erasmus of Rotterdam"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-desiderius-erasmus",
+        "nodeTitle": "Desiderius Erasmus of Rotterdam"
+      }
+    ]
+  },
+  "Q76325": {
+    "wikidataId": "Q76325",
+    "wikipediaTitle": "Philip_Melanchthon",
+    "canonicalTitle": "Philip Melanchthon",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-philip-melanchthon",
+        "nodeTitle": "Philip Melanchthon"
+      }
+    ]
+  },
+  "Q77260": {
+    "wikidataId": "Q77260",
+    "wikipediaTitle": "Johannes_Bugenhagen",
+    "canonicalTitle": "Johannes Bugenhagen",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-johannes-bugenhagen",
+        "nodeTitle": "Johannes Bugenhagen"
+      }
+    ]
+  },
+  "Q38294": {
+    "wikidataId": "Q38294",
+    "wikipediaTitle": "Justus_Jonas",
+    "canonicalTitle": "Justus Jonas",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-justus-jonas",
+        "nodeTitle": "Justus Jonas"
+      }
+    ]
+  },
+  "Q60589": {
+    "wikidataId": "Q60589",
+    "wikipediaTitle": "Andreas_Karlstadt",
+    "canonicalTitle": "Andreas Karlstadt",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-andreas-karlstadt",
+        "nodeTitle": "Andreas Karlstadt"
+      }
+    ]
+  },
+  "Q77239": {
+    "wikidataId": "Q77239",
+    "wikipediaTitle": "Katharina_von_Bora",
+    "canonicalTitle": "Katharina von Bora",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-katharina-von-bora",
+        "nodeTitle": "Katharina von Bora"
+      }
+    ]
+  },
+  "Q85810": {
+    "wikidataId": "Q85810",
+    "wikipediaTitle": "Matthew_Zell",
+    "canonicalTitle": "Matthew Zell",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-matthew-zell",
+        "nodeTitle": "Matthew Zell"
+      }
+    ]
+  },
+  "Q61067": {
+    "wikidataId": "Q61067",
+    "wikipediaTitle": "Johann_Reuchlin",
+    "canonicalTitle": "Johannes Reuchlin",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-johannes-reuchlin",
+        "nodeTitle": "Johannes Reuchlin"
+      }
+    ]
+  },
+  "Q42544": {
+    "wikidataId": "Q42544",
+    "wikipediaTitle": "Thomas_More",
+    "canonicalTitle": "Thomas More",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-thomas-more",
+        "nodeTitle": "Thomas More"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-thomas-more",
+        "nodeTitle": "Thomas More"
+      }
+    ]
+  },
+  "Q62532": {
+    "wikidataId": "Q62532",
+    "wikipediaTitle": "Balthasar_Hubmaier",
+    "canonicalTitle": "Balthasar Hubmaier",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-balthasar-hubmaier",
+        "nodeTitle": "Balthasar Hubmaier"
+      }
+    ]
+  },
+  "Q77233": {
+    "wikidataId": "Q77233",
+    "wikipediaTitle": "Frederick_III,_Elector_of_Saxony",
+    "canonicalTitle": "Frederick the Wise",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-frederick-the-wise",
+        "nodeTitle": "Frederick the Wise"
+      }
+    ]
+  },
+  "Q61277": {
+    "wikidataId": "Q61277",
+    "wikipediaTitle": "John,_Elector_of_Saxony",
+    "canonicalTitle": "John the Steadfast",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-the-steadfast",
+        "nodeTitle": "John the Steadfast"
+      }
+    ]
+  },
+  "Q38370": {
+    "wikidataId": "Q38370",
+    "wikipediaTitle": "Henry_VIII",
+    "canonicalTitle": "Henry VIII",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-henry-viii",
+        "nodeTitle": "Henry VIII"
+      }
+    ]
+  },
+  "Q32500": {
+    "wikidataId": "Q32500",
+    "wikipediaTitle": "Charles_V,_Holy_Roman_Emperor",
+    "canonicalTitle": "Charles V",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-charles-v",
+        "nodeTitle": "Charles V"
+      }
+    ]
+  },
+  "Q60298": {
+    "wikidataId": "Q60298",
+    "wikipediaTitle": "Johann_Eck",
+    "canonicalTitle": "Johann Eck",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-johann-eck",
+        "nodeTitle": "Johann Eck"
+      }
+    ]
+  },
+  "Q6837": {
+    "wikidataId": "Q6837",
+    "wikipediaTitle": "Wittenberg",
+    "canonicalTitle": "Wittenberg",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-wittenberg",
+        "nodeTitle": "Wittenberg"
+      }
+    ]
+  },
+  "Q3852": {
+    "wikidataId": "Q3852",
+    "wikipediaTitle": "Worms,_Germany",
+    "canonicalTitle": "Worms",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-worms",
+        "nodeTitle": "Worms"
+      }
+    ]
+  },
+  "Q2749": {
+    "wikidataId": "Q2749",
+    "wikipediaTitle": "Augsburg",
+    "canonicalTitle": "Augsburg",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-augsburg",
+        "nodeTitle": "Augsburg"
+      },
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-augsburg",
+        "nodeTitle": "Augsburg"
+      }
+    ]
+  },
+  "Q3869": {
+    "wikidataId": "Q3869",
+    "wikipediaTitle": "Marburg",
+    "canonicalTitle": "Marburg",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-marburg",
+        "nodeTitle": "Marburg"
+      },
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-marburg",
+        "nodeTitle": "Marburg"
+      }
+    ]
+  },
+  "Q2090": {
+    "wikidataId": "Q2090",
+    "wikipediaTitle": "Nuremberg",
+    "canonicalTitle": "Nuremberg",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-nuremberg",
+        "nodeTitle": "Nuremberg"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-nuremberg",
+        "nodeTitle": "Nuremberg"
+      }
+    ]
+  },
+  "Q1729": {
+    "wikidataId": "Q1729",
+    "wikipediaTitle": "Erfurt",
+    "canonicalTitle": "Erfurt",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-erfurt",
+        "nodeTitle": "Erfurt"
+      }
+    ]
+  },
+  "Q14925": {
+    "wikidataId": "Q14925",
+    "wikipediaTitle": "Mühlhausen",
+    "canonicalTitle": "Mühlhausen",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-muhlhausen",
+        "nodeTitle": "Mühlhausen"
+      }
+    ]
+  },
+  "Q78": {
+    "wikidataId": "Q78",
+    "wikipediaTitle": "Basel",
+    "canonicalTitle": "Basel",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-basel",
+        "nodeTitle": "Basel"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-basel",
+        "nodeTitle": "Basel"
+      },
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-basel",
+        "nodeTitle": "Basel"
+      }
+    ]
+  },
+  "Q70": {
+    "wikidataId": "Q70",
+    "wikipediaTitle": "Bern",
+    "canonicalTitle": "Bern",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-bern",
+        "nodeTitle": "Bern"
+      }
+    ]
+  },
+  "Q807": {
+    "wikidataId": "Q807",
+    "wikipediaTitle": "Lausanne",
+    "canonicalTitle": "Lausanne",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-lausanne",
+        "nodeTitle": "Lausanne"
+      }
+    ]
+  },
+  "Q6602": {
+    "wikidataId": "Q6602",
+    "wikipediaTitle": "Strasbourg",
+    "canonicalTitle": "Strasbourg",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-strasbourg",
+        "nodeTitle": "Strasbourg"
+      }
+    ]
+  },
+  "Q29303": {
+    "wikidataId": "Q29303",
+    "wikipediaTitle": "Canterbury",
+    "canonicalTitle": "Canterbury",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-canterbury",
+        "nodeTitle": "Canterbury"
+      }
+    ]
+  },
+  "Q34217": {
+    "wikidataId": "Q34217",
+    "wikipediaTitle": "Oxford",
+    "canonicalTitle": "Oxford",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-oxford",
+        "nodeTitle": "Oxford"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "location-oxford",
+        "nodeTitle": "Oxford"
+      }
+    ]
+  },
+  "Q34433": {
+    "wikidataId": "Q34433",
+    "wikipediaTitle": "University_of_Oxford",
+    "canonicalTitle": "University of Oxford",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-oxford-university",
+        "nodeTitle": "University of Oxford"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-university-oxford",
+        "nodeTitle": "University of Oxford"
+      }
+    ]
+  },
+  "Q350": {
+    "wikidataId": "Q350",
+    "wikipediaTitle": "Cambridge",
+    "canonicalTitle": "Cambridge",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-cambridge",
+        "nodeTitle": "Cambridge"
+      }
+    ]
+  },
+  "Q12892": {
+    "wikidataId": "Q12892",
+    "wikipediaTitle": "Antwerp",
+    "canonicalTitle": "Antwerp",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-antwerp",
+        "nodeTitle": "Antwerp"
+      }
+    ]
+  },
+  "Q3004": {
+    "wikidataId": "Q3004",
+    "wikipediaTitle": "Ingolstadt",
+    "canonicalTitle": "Ingolstadt",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-ingolstadt",
+        "nodeTitle": "Ingolstadt"
+      }
+    ]
+  },
+  "Q69111": {
+    "wikidataId": "Q69111",
+    "wikipediaTitle": "Schleitheim",
+    "canonicalTitle": "Schleitheim",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-schleitheim",
+        "nodeTitle": "Schleitheim"
+      }
+    ]
+  },
+  "Q75809": {
+    "wikidataId": "Q75809",
+    "wikipediaTitle": "Lutheranism",
+    "canonicalTitle": "Lutheran Territorial Churches",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-lutheran-churches",
+        "nodeTitle": "Lutheran Territorial Churches"
+      }
+    ]
+  },
+  "Q82708": {
+    "wikidataId": "Q82708",
+    "wikipediaTitle": "Church_of_England",
+    "canonicalTitle": "Church of England",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-church-of-england",
+        "nodeTitle": "Church of England"
+      }
+    ]
+  },
+  "Q12562": {
+    "wikidataId": "Q12562",
+    "wikipediaTitle": "Reformation",
+    "canonicalTitle": "Lutheran Reformation",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-lutheran-reformation",
+        "nodeTitle": "Lutheran Reformation"
+      }
+    ]
+  },
+  "Q29075": {
+    "wikidataId": "Q29075",
+    "wikipediaTitle": "Order_of_Saint_Augustine",
+    "canonicalTitle": "Augustinian Order",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-augustinian-order",
+        "nodeTitle": "Augustinian Order"
+      }
+    ]
+  },
+  "Q1401": {
+    "wikidataId": "Q1401",
+    "wikipediaTitle": "Petrarch",
+    "canonicalTitle": "Francesco Petrarca (Petrarch)",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-francesco-petrarca",
+        "nodeTitle": "Francesco Petrarca (Petrarch)"
+      }
+    ]
+  },
+  "Q1402": {
+    "wikidataId": "Q1402",
+    "wikipediaTitle": "Giovanni_Boccaccio",
+    "canonicalTitle": "Giovanni Boccaccio",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-giovanni-boccaccio",
+        "nodeTitle": "Giovanni Boccaccio"
+      }
+    ]
+  },
+  "Q93113": {
+    "wikidataId": "Q93113",
+    "wikipediaTitle": "Coluccio_Salutati",
+    "canonicalTitle": "Coluccio Salutati",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-coluccio-salutati",
+        "nodeTitle": "Coluccio Salutati"
+      }
+    ]
+  },
+  "Q1399": {
+    "wikidataId": "Q1399",
+    "wikipediaTitle": "Niccolò_Machiavelli",
+    "canonicalTitle": "Niccolò Machiavelli",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-niccolo-machiavelli",
+        "nodeTitle": "Niccolò Machiavelli"
+      }
+    ]
+  },
+  "Q44601": {
+    "wikidataId": "Q44601",
+    "wikipediaTitle": "Francesco_Guicciardini",
+    "canonicalTitle": "Francesco Guicciardini",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-francesco-guicciardini",
+        "nodeTitle": "Francesco Guicciardini"
+      }
+    ]
+  },
+  "Q60625": {
+    "wikidataId": "Q60625",
+    "wikipediaTitle": "Conrad_Celtes",
+    "canonicalTitle": "Conrad Celtis",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-conrad-celtis",
+        "nodeTitle": "Conrad Celtis"
+      }
+    ]
+  },
+  "Q62663": {
+    "wikidataId": "Q62663",
+    "wikipediaTitle": "Willibald_Pirckheimer",
+    "canonicalTitle": "Willibald Pirckheimer",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-willibald-pirckheimer",
+        "nodeTitle": "Willibald Pirckheimer"
+      }
+    ]
+  },
+  "Q71848": {
+    "wikidataId": "Q71848",
+    "wikipediaTitle": "Jakob_Wimpfeling",
+    "canonicalTitle": "Jakob Wimpfeling",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-jakob-wimpfeling",
+        "nodeTitle": "Jakob Wimpfeling"
+      }
+    ]
+  },
+  "Q41568": {
+    "wikidataId": "Q41568",
+    "wikipediaTitle": "Michel_de_Montaigne",
+    "canonicalTitle": "Michel de Montaigne",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-michel-de-montaigne",
+        "nodeTitle": "Michel de Montaigne"
+      }
+    ]
+  },
+  "Q66382": {
+    "wikidataId": "Q66382",
+    "wikipediaTitle": "Johannes_Sturm",
+    "canonicalTitle": "Johannes Sturm",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-johannes-sturm",
+        "nodeTitle": "Johannes Sturm"
+      }
+    ]
+  },
+  "Q26648": {
+    "wikidataId": "Q26648",
+    "wikipediaTitle": "John_Argyropoulos",
+    "canonicalTitle": "Johannes Argyropoulos",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-johannes-argyropoulos",
+        "nodeTitle": "Johannes Argyropoulos"
+      }
+    ]
+  },
+  "Q4622": {
+    "wikidataId": "Q4622",
+    "wikipediaTitle": "Francesco_Filelfo",
+    "canonicalTitle": "Francesco Filelfo",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-francesco-filelfo",
+        "nodeTitle": "Francesco Filelfo"
+      }
+    ]
+  },
+  "Q16438": {
+    "wikidataId": "Q16438",
+    "wikipediaTitle": "The_Decameron",
+    "canonicalTitle": "Decameron",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-decameron",
+        "nodeTitle": "Decameron"
+      }
+    ]
+  },
+  "Q2634": {
+    "wikidataId": "Q2634",
+    "wikipediaTitle": "Naples",
+    "canonicalTitle": "Naples",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-naples",
+        "nodeTitle": "Naples"
+      }
+    ]
+  },
+  "Q13362": {
+    "wikidataId": "Q13362",
+    "wikipediaTitle": "Ferrara",
+    "canonicalTitle": "Ferrara",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-ferrara",
+        "nodeTitle": "Ferrara"
+      }
+    ]
+  },
+  "Q617": {
+    "wikidataId": "Q617",
+    "wikipediaTitle": "Padua",
+    "canonicalTitle": "Padua",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-padua",
+        "nodeTitle": "Padua"
+      }
+    ]
+  },
+  "Q6247": {
+    "wikidataId": "Q6247",
+    "wikipediaTitle": "Mantua",
+    "canonicalTitle": "Mantua",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-mantua",
+        "nodeTitle": "Mantua"
+      }
+    ]
+  },
+  "Q2759": {
+    "wikidataId": "Q2759",
+    "wikipediaTitle": "Urbino",
+    "canonicalTitle": "Urbino",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-urbino",
+        "nodeTitle": "Urbino"
+      }
+    ]
+  },
+  "Q12994": {
+    "wikidataId": "Q12994",
+    "wikipediaTitle": "Bruges",
+    "canonicalTitle": "Bruges",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-bruges",
+        "nodeTitle": "Bruges"
+      }
+    ]
+  },
+  "Q34370": {
+    "wikidataId": "Q34370",
+    "wikipediaTitle": "Rotterdam",
+    "canonicalTitle": "Rotterdam",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "location-rotterdam",
+        "nodeTitle": "Rotterdam"
+      }
+    ]
+  },
+  "Q77017": {
+    "wikidataId": "Q77017",
+    "wikipediaTitle": "Jakob_Böhme",
+    "canonicalTitle": "Jacob Boehme",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-jacob-boehme",
+        "nodeTitle": "Jacob Boehme"
+      }
+    ]
+  },
+  "Q60854": {
+    "wikidataId": "Q60854",
+    "wikipediaTitle": "Johann_Valentin_Andreae",
+    "canonicalTitle": "Johann Valentin Andreae",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-jv-andreae",
+        "nodeTitle": "Johann Valentin Andreae"
+      }
+    ]
+  },
+  "Q99371": {
+    "wikidataId": "Q99371",
+    "wikipediaTitle": "Christopher_Besoldus",
+    "canonicalTitle": "Christoph Besold",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-christoph-besold",
+        "nodeTitle": "Christoph Besold"
+      }
+    ]
+  },
+  "Q61359": {
+    "wikidataId": "Q61359",
+    "wikipediaTitle": "Johann_Arndt",
+    "canonicalTitle": "Johann Arndt",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-johann-arndt",
+        "nodeTitle": "Johann Arndt"
+      }
+    ]
+  },
+  "Q77397": {
+    "wikidataId": "Q77397",
+    "wikipediaTitle": "Valentin_Weigel",
+    "canonicalTitle": "Valentin Weigel",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-valentin-weigel",
+        "nodeTitle": "Valentin Weigel"
+      }
+    ]
+  },
+  "Q63170": {
+    "wikidataId": "Q63170",
+    "wikipediaTitle": "Sebastian_Franck",
+    "canonicalTitle": "Sebastian Franck",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-sebastian-franck",
+        "nodeTitle": "Sebastian Franck"
+      }
+    ]
+  },
+  "Q64137": {
+    "wikidataId": "Q64137",
+    "wikipediaTitle": "Caspar_Schwenckfeld",
+    "canonicalTitle": "Caspar Schwenckfeld",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-caspar-schwenckfeld",
+        "nodeTitle": "Caspar Schwenckfeld"
+      }
+    ]
+  },
+  "Q75093": {
+    "wikidataId": "Q75093",
+    "wikipediaTitle": "Johann_Georg_Gichtel",
+    "canonicalTitle": "Johann Georg Gichtel",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-jg-gichtel",
+        "nodeTitle": "Johann Georg Gichtel"
+      }
+    ]
+  },
+  "Q91466": {
+    "wikidataId": "Q91466",
+    "wikipediaTitle": "Adam_von_Bodenstein",
+    "canonicalTitle": "Adam von Bodenstein",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-adam-bodenstein",
+        "nodeTitle": "Adam von Bodenstein"
+      }
+    ]
+  },
+  "Q73366": {
+    "wikidataId": "Q73366",
+    "wikipediaTitle": "Heinrich_Khunrath",
+    "canonicalTitle": "Heinrich Khunrath",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-heinrich-khunrath",
+        "nodeTitle": "Heinrich Khunrath"
+      }
+    ]
+  },
+  "Q31161": {
+    "wikidataId": "Q31161",
+    "wikipediaTitle": "Andreas_Libavius",
+    "canonicalTitle": "Andreas Libavius",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-andreas-libavius",
+        "nodeTitle": "Andreas Libavius"
+      }
+    ]
+  },
+  "Q75164": {
+    "wikidataId": "Q75164",
+    "wikipediaTitle": "Daniel_Sennert",
+    "canonicalTitle": "Daniel Sennert",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-daniel-sennert",
+        "nodeTitle": "Daniel Sennert"
+      }
+    ]
+  },
+  "Q36620": {
+    "wikidataId": "Q36620",
+    "wikipediaTitle": "Tycho_Brahe",
+    "canonicalTitle": "Tycho Brahe",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-tycho-brahe",
+        "nodeTitle": "Tycho Brahe"
+      }
+    ]
+  },
+  "Q8963": {
+    "wikidataId": "Q8963",
+    "wikipediaTitle": "Johannes_Kepler",
+    "canonicalTitle": "Johannes Kepler",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-johannes-kepler",
+        "nodeTitle": "Johannes Kepler"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-johannes-kepler",
+        "nodeTitle": "Johannes Kepler"
+      }
+    ]
+  },
+  "Q37388": {
+    "wikidataId": "Q37388",
+    "wikipediaTitle": "Francis_Bacon",
+    "canonicalTitle": "Francis Bacon",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-francis-bacon",
+        "nodeTitle": "Francis Bacon"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-francis-bacon",
+        "nodeTitle": "Francis Bacon"
+      }
+    ]
+  },
+  "Q57195": {
+    "wikidataId": "Q57195",
+    "wikipediaTitle": "Frederick_V_of_the_Palatinate",
+    "canonicalTitle": "Frederick V, Elector Palatine",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-frederick-v",
+        "nodeTitle": "Frederick V, Elector Palatine"
+      }
+    ]
+  },
+  "Q3806": {
+    "wikidataId": "Q3806",
+    "wikipediaTitle": "Tübingen",
+    "canonicalTitle": "Tübingen",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-tubingen",
+        "nodeTitle": "Tübingen"
+      }
+    ]
+  },
+  "Q1085": {
+    "wikidataId": "Q1085",
+    "wikipediaTitle": "Prague",
+    "canonicalTitle": "Prague",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-prague",
+        "nodeTitle": "Prague"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "location-prague",
+        "nodeTitle": "Prague"
+      }
+    ]
+  },
+  "Q2966": {
+    "wikidataId": "Q2966",
+    "wikipediaTitle": "Heidelberg",
+    "canonicalTitle": "Heidelberg",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-heidelberg",
+        "nodeTitle": "Heidelberg"
+      }
+    ]
+  },
+  "Q4077": {
+    "wikidataId": "Q4077",
+    "wikipediaTitle": "Görlitz",
+    "canonicalTitle": "Görlitz",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-gorlitz",
+        "nodeTitle": "Görlitz"
+      }
+    ]
+  },
+  "Q2865": {
+    "wikidataId": "Q2865",
+    "wikipediaTitle": "Kassel",
+    "canonicalTitle": "Kassel",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-kassel",
+        "nodeTitle": "Kassel"
+      }
+    ]
+  },
+  "Q36600": {
+    "wikidataId": "Q36600",
+    "wikipediaTitle": "The_Hague",
+    "canonicalTitle": "The Hague",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-the-hague",
+        "nodeTitle": "The Hague"
+      }
+    ]
+  },
+  "Q95479": {
+    "wikidataId": "Q95479",
+    "wikipediaTitle": "Daniel_Cramer",
+    "canonicalTitle": "Daniel Cramer",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-daniel-cramer",
+        "nodeTitle": "Daniel Cramer"
+      }
+    ]
+  },
+  "Q12735": {
+    "wikidataId": "Q12735",
+    "wikipediaTitle": "John_Amos_Comenius",
+    "canonicalTitle": "Jan Amos Comenius",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-jan-amos-comenius",
+        "nodeTitle": "Jan Amos Comenius"
+      }
+    ]
+  },
+  "Q71033": {
+    "wikidataId": "Q71033",
+    "wikipediaTitle": "Samuel_Hartlib",
+    "canonicalTitle": "Samuel Hartlib",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-samuel-hartlib",
+        "nodeTitle": "Samuel Hartlib"
+      }
+    ]
+  },
+  "Q619": {
+    "wikidataId": "Q619",
+    "wikipediaTitle": "Nicolaus_Copernicus",
+    "canonicalTitle": "Nicolaus Copernicus",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-nicolaus-copernicus",
+        "nodeTitle": "Nicolaus Copernicus"
+      }
+    ]
+  },
+  "Q36866": {
+    "wikidataId": "Q36866",
+    "wikipediaTitle": "Tycho_Brahe",
+    "canonicalTitle": "Tycho Brahe",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-tycho-brahe",
+        "nodeTitle": "Tycho Brahe"
+      }
+    ]
+  },
+  "Q307": {
+    "wikidataId": "Q307",
+    "wikipediaTitle": "Galileo_Galilei",
+    "canonicalTitle": "Galileo Galilei",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-galileo-galilei",
+        "nodeTitle": "Galileo Galilei"
+      }
+    ]
+  },
+  "Q43393": {
+    "wikidataId": "Q43393",
+    "wikipediaTitle": "Robert_Boyle",
+    "canonicalTitle": "Robert Boyle",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-robert-boyle",
+        "nodeTitle": "Robert Boyle"
+      }
+    ]
+  },
+  "Q47081": {
+    "wikidataId": "Q47081",
+    "wikipediaTitle": "Robert_Hooke",
+    "canonicalTitle": "Robert Hooke",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-robert-hooke",
+        "nodeTitle": "Robert Hooke"
+      }
+    ]
+  },
+  "Q41790": {
+    "wikidataId": "Q41790",
+    "wikipediaTitle": "Edmond_Halley",
+    "canonicalTitle": "Edmond Halley",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-edmond-halley",
+        "nodeTitle": "Edmond Halley"
+      }
+    ]
+  },
+  "Q39599": {
+    "wikidataId": "Q39599",
+    "wikipediaTitle": "Christiaan_Huygens",
+    "canonicalTitle": "Christiaan Huygens",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-christiaan-huygens",
+        "nodeTitle": "Christiaan Huygens"
+      }
+    ]
+  },
+  "Q62821": {
+    "wikidataId": "Q62821",
+    "wikipediaTitle": "Samuel_Hartlib",
+    "canonicalTitle": "Samuel Hartlib",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-samuel-hartlib",
+        "nodeTitle": "Samuel Hartlib"
+      }
+    ]
+  },
+  "Q72429": {
+    "wikidataId": "Q72429",
+    "wikipediaTitle": "Maria_Cunitz",
+    "canonicalTitle": "Maria Cunitz",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-maria-cunitz",
+        "nodeTitle": "Maria Cunitz"
+      }
+    ]
+  },
+  "Q5765": {
+    "wikidataId": "Q5765",
+    "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
+    "canonicalTitle": "Rudolf II",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-rudolf-ii",
+        "nodeTitle": "Rudolf II"
+      },
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "entity-habsburg-court",
+        "nodeTitle": "Habsburg Court (Prague)"
+      }
+    ]
+  },
+  "Q37317": {
+    "wikidataId": "Q37317",
+    "wikipediaTitle": "House_of_Medici",
+    "canonicalTitle": "Medici Court",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "entity-medici-court",
+        "nodeTitle": "Medici Court"
+      }
+    ]
+  },
+  "Q9191": {
+    "wikidataId": "Q9191",
+    "wikipediaTitle": "René_Descartes",
+    "canonicalTitle": "René Descartes",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-rene-descartes",
+        "nodeTitle": "René Descartes"
+      }
+    ]
+  },
+  "Q41279": {
+    "wikidataId": "Q41279",
+    "wikipediaTitle": "Christopher_Wren",
+    "canonicalTitle": "Christopher Wren",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-christopher-wren",
+        "nodeTitle": "Christopher Wren"
+      }
+    ]
+  },
+  "Q60017": {
+    "wikidataId": "Q60017",
+    "wikipediaTitle": "Henry_Oldenburg",
+    "canonicalTitle": "Henry Oldenburg",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-henry-oldenburg",
+        "nodeTitle": "Henry Oldenburg"
+      }
+    ]
+  },
+  "Q47159": {
+    "wikidataId": "Q47159",
+    "wikipediaTitle": "Evangelista_Torricelli",
+    "canonicalTitle": "Evangelista Torricelli",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-evangelista-torricelli",
+        "nodeTitle": "Evangelista Torricelli"
+      }
+    ]
+  },
+  "Q1290": {
+    "wikidataId": "Q1290",
+    "wikipediaTitle": "Blaise_Pascal",
+    "canonicalTitle": "Blaise Pascal",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-blaise-pascal",
+        "nodeTitle": "Blaise Pascal"
+      }
+    ]
+  },
+  "Q60025": {
+    "wikidataId": "Q60025",
+    "wikipediaTitle": "Otto_von_Guericke",
+    "canonicalTitle": "Otto von Guericke",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-otto-von-guericke",
+        "nodeTitle": "Otto von Guericke"
+      }
+    ]
+  },
+  "Q83371": {
+    "wikidataId": "Q83371",
+    "wikipediaTitle": "Ole_Rømer",
+    "canonicalTitle": "Ole Rømer",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "person-ole-romer",
+        "nodeTitle": "Ole Rømer"
+      }
+    ]
+  },
+  "Q76584": {
+    "wikidataId": "Q76584",
+    "wikipediaTitle": "Adolphe_Quetelet",
+    "canonicalTitle": "Adolphe Quetelet",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-adolphe-quetelet",
+        "nodeTitle": "Adolphe Quetelet"
+      }
+    ]
+  },
+  "Q6722": {
+    "wikidataId": "Q6722",
+    "wikipediaTitle": "Carl_Friedrich_Gauss",
+    "canonicalTitle": "Carl Friedrich Gauss",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-carl-friedrich-gauss",
+        "nodeTitle": "Carl Friedrich Gauss"
+      }
+    ]
+  },
+  "Q37979": {
+    "wikidataId": "Q37979",
+    "wikipediaTitle": "Marquis_de_Condorcet",
+    "canonicalTitle": "Marquis de Condorcet",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-marquis-de-condorcet",
+        "nodeTitle": "Marquis de Condorcet"
+      }
+    ]
+  },
+  "Q49767": {
+    "wikidataId": "Q49767",
+    "wikipediaTitle": "Siméon_Denis_Poisson",
+    "canonicalTitle": "Siméon Denis Poisson",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-simeon-denis-poisson",
+        "nodeTitle": "Siméon Denis Poisson"
+      }
+    ]
+  },
+  "Q38348": {
+    "wikidataId": "Q38348",
+    "wikipediaTitle": "Florence_Nightingale",
+    "canonicalTitle": "Florence Nightingale",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-florence-nightingale",
+        "nodeTitle": "Florence Nightingale"
+      }
+    ]
+  },
+  "Q1035": {
+    "wikidataId": "Q1035",
+    "wikipediaTitle": "Charles_Darwin",
+    "canonicalTitle": "Charles Darwin",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-charles-darwin",
+        "nodeTitle": "Charles Darwin"
+      }
+    ]
+  },
+  "Q44279": {
+    "wikidataId": "Q44279",
+    "wikipediaTitle": "Émile_Durkheim",
+    "canonicalTitle": "Émile Durkheim",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-emile-durkheim",
+        "nodeTitle": "Émile Durkheim"
+      }
+    ]
+  },
+  "Q76610": {
+    "wikidataId": "Q76610",
+    "wikipediaTitle": "Johann_Heinrich_Lambert",
+    "canonicalTitle": "Johann Heinrich Lambert",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-johann-heinrich-lambert",
+        "nodeTitle": "Johann Heinrich Lambert"
+      }
+    ]
+  },
+  "Q78247": {
+    "wikidataId": "Q78247",
+    "wikipediaTitle": "Friedrich_Bessel",
+    "canonicalTitle": "Friedrich Wilhelm Bessel",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-friedrich-bessel",
+        "nodeTitle": "Friedrich Wilhelm Bessel"
+      }
+    ]
+  },
+  "Q57330": {
+    "wikidataId": "Q57330",
+    "wikipediaTitle": "Johann_Franz_Encke",
+    "canonicalTitle": "Johann Franz Encke",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-johann-franz-encke",
+        "nodeTitle": "Johann Franz Encke"
+      }
+    ]
+  },
+  "Q61071": {
+    "wikidataId": "Q61071",
+    "wikipediaTitle": "Tobias_Mayer",
+    "canonicalTitle": "Tobias Mayer",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-tobias-mayer",
+        "nodeTitle": "Tobias Mayer"
+      }
+    ]
+  },
+  "Q64383": {
+    "wikidataId": "Q64383",
+    "wikipediaTitle": "Wilhelm_Lexis",
+    "canonicalTitle": "Wilhelm Lexis",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-wilhelm-lexis",
+        "nodeTitle": "Wilhelm Lexis"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Q3606120": {
+    "wikidataId": "Q3606120",
+    "wikipediaTitle": "Aesthetica",
+    "canonicalTitle": "Aesthetica",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-aesthetica",
+        "nodeTitle": "Aesthetica"
+      }
+    ]
+  },
+  "Q3643696": {
+    "wikidataId": "Q3643696",
+    "wikipediaTitle": "Fama_Fraternitatis",
+    "canonicalTitle": "Fama Fraternitatis",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-fama-fraternitatis",
+        "nodeTitle": "Fama Fraternitatis"
+      }
+    ]
+  },
+  "Q3643674": {
+    "wikidataId": "Q3643674",
+    "wikipediaTitle": "Confessio_Fraternitatis",
+    "canonicalTitle": "Confessio Fraternitatis",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-confessio-fraternitatis",
+        "nodeTitle": "Confessio Fraternitatis"
+      }
+    ]
+  },
+  "Q3627850": {
+    "wikidataId": "Q3627850",
+    "wikipediaTitle": "Atalanta_Fugiens",
+    "canonicalTitle": "Atalanta Fugiens",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-atalanta-fugiens",
+        "nodeTitle": "Atalanta Fugiens"
+      }
+    ]
+  },
+  "Q3618535": {
+    "wikidataId": "Q3618535",
+    "wikipediaTitle": "Anthony_Sayer",
+    "canonicalTitle": "Anthony Sayer",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-anthony-sayer",
+        "nodeTitle": "Anthony Sayer"
+      }
+    ]
+  }
+}

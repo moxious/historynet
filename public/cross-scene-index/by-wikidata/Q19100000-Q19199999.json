@@ -1,0 +1,28 @@
+{
+  "Q19108828": {
+    "wikidataId": "Q19108828",
+    "wikipediaTitle": "Experiments_and_Observations_on_Electricity",
+    "canonicalTitle": "Experiments and Observations on Electricity",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-experiments-electricity",
+        "nodeTitle": "Experiments and Observations on Electricity"
+      }
+    ]
+  },
+  "Q19169639": {
+    "wikidataId": "Q19169639",
+    "wikipediaTitle": "A_Philosophical_Essay_on_Probabilities",
+    "canonicalTitle": "Essai philosophique sur les probabilités",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-essai-philosophique-sur-les-probabilites",
+        "nodeTitle": "Essai philosophique sur les probabilités"
+      }
+    ]
+  }
+}

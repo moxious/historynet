@@ -1,0 +1,145 @@
+{
+  "Q7755273": {
+    "wikidataId": "Q7755273",
+    "wikipediaTitle": "The_Orb's_Adventures_Beyond_the_Ultraworld",
+    "canonicalTitle": "The Orb's Adventures Beyond the Ultraworld",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-orb-ultraworld",
+        "nodeTitle": "The Orb's Adventures Beyond the Ultraworld"
+      }
+    ]
+  },
+  "Q7781428": {
+    "wikidataId": "Q7781428",
+    "wikipediaTitle": "Theologia_Platonica",
+    "canonicalTitle": "Theologia Platonica",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-theologia-platonica",
+        "nodeTitle": "Theologia Platonica"
+      }
+    ]
+  },
+  "Q7740888": {
+    "wikidataId": "Q7740888",
+    "wikipediaTitle": "The_Human_Use_of_Human_Beings",
+    "canonicalTitle": "The Human Use of Human Beings",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-human-use-wiener",
+        "nodeTitle": "The Human Use of Human Beings"
+      }
+    ]
+  },
+  "Q7727248": {
+    "wikidataId": "Q7727248",
+    "wikipediaTitle": "The_Computer_and_the_Brain",
+    "canonicalTitle": "The Computer and the Brain",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-computer-brain-neumann",
+        "nodeTitle": "The Computer and the Brain"
+      }
+    ]
+  },
+  "Q7739783": {
+    "wikidataId": "Q7739783",
+    "wikipediaTitle": "The_History_of_England_(Hume)",
+    "canonicalTitle": "History of England",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-history-england",
+        "nodeTitle": "History of England"
+      }
+    ]
+  },
+  "Q7757623": {
+    "wikidataId": "Q7757623",
+    "wikipediaTitle": "The_Poker_Club",
+    "canonicalTitle": "Poker Club",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-poker-club",
+        "nodeTitle": "Poker Club"
+      }
+    ]
+  },
+  "Q7754622": {
+    "wikidataId": "Q7754622",
+    "wikipediaTitle": "The_Obedience_of_a_Christian_Man",
+    "canonicalTitle": "The Obedience of a Christian Man",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-obedience-christian-man",
+        "nodeTitle": "The Obedience of a Christian Man"
+      }
+    ]
+  },
+  "Q7777000": {
+    "wikidataId": "Q7777000",
+    "wikipediaTitle": "The_First_Blast_of_the_Trumpet_Against_the_Monstrous_Regiment_of_Women",
+    "canonicalTitle": "First Blast of the Trumpet",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-first-blast",
+        "nodeTitle": "First Blast of the Trumpet"
+      }
+    ]
+  },
+  "Q7790627": {
+    "wikidataId": "Q7790627",
+    "wikipediaTitle": "Thomas_Henshaw_(alchemist)",
+    "canonicalTitle": "Thomas Henshaw",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-thomas-henshaw",
+        "nodeTitle": "Thomas Henshaw"
+      }
+    ]
+  },
+  "Q7726887": {
+    "wikidataId": "Q7726887",
+    "wikipediaTitle": "The_Design_of_Experiments",
+    "canonicalTitle": "The Design of Experiments",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-design-of-experiments",
+        "nodeTitle": "The Design of Experiments"
+      }
+    ]
+  },
+  "Q7734628": {
+    "wikidataId": "Q7734628",
+    "wikipediaTitle": "The_Grammar_of_Science",
+    "canonicalTitle": "The Grammar of Science",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-grammar-of-science",
+        "nodeTitle": "The Grammar of Science"
+      }
+    ]
+  }
+}

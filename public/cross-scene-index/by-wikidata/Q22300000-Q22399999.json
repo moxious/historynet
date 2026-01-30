@@ -1,0 +1,28 @@
+{
+  "Q22341183": {
+    "wikidataId": "Q22341183",
+    "wikipediaTitle": "Midori_Takada",
+    "canonicalTitle": "Midori Takada",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-midori-takada",
+        "nodeTitle": "Midori Takada"
+      }
+    ]
+  },
+  "Q22337370": {
+    "wikidataId": "Q22337370",
+    "wikipediaTitle": "A_Logical_Calculus_of_the_Ideas_Immanent_in_Nervous_Activity",
+    "canonicalTitle": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-logical-calculus-mcculloch-pitts",
+        "nodeTitle": "A Logical Calculus of the Ideas Immanent in Nervous Activity"
+      }
+    ]
+  }
+}

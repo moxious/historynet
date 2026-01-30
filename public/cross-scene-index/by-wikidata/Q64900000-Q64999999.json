@@ -1,0 +1,15 @@
+{
+  "Q64944657": {
+    "wikidataId": "Q64944657",
+    "wikipediaTitle": "John_Schulman_(computer_scientist)",
+    "canonicalTitle": "John Schulman",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-john-schulman",
+        "nodeTitle": "John Schulman"
+      }
+    ]
+  }
+}

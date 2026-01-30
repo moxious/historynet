@@ -1,0 +1,28 @@
+{
+  "Q106409817": {
+    "wikidataId": "Q106409817",
+    "wikipediaTitle": "Margaret_Mitchell_(scientist)",
+    "canonicalTitle": "Margaret Mitchell",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-margaret-mitchell",
+        "nodeTitle": "Margaret Mitchell"
+      }
+    ]
+  },
+  "Q106481889": {
+    "wikidataId": "Q106481889",
+    "wikipediaTitle": "Stanford_Institute_for_Human-Centered_AI",
+    "canonicalTitle": "Stanford HAI",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-stanford-hai",
+        "nodeTitle": "Stanford HAI"
+      }
+    ]
+  }
+}

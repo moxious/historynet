@@ -1,0 +1,508 @@
+{
+  "Q450599": {
+    "wikidataId": "Q450599",
+    "wikipediaTitle": "Daphne_Koller",
+    "canonicalTitle": "Daphne Koller",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-daphne-koller",
+        "nodeTitle": "Daphne Koller"
+      }
+    ]
+  },
+  "Q486860": {
+    "wikidataId": "Q486860",
+    "wikipediaTitle": "Mountain_View,_California",
+    "canonicalTitle": "Mountain View, California",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "location-mountain-view",
+        "nodeTitle": "Mountain View, California"
+      }
+    ]
+  },
+  "Q456157": {
+    "wikidataId": "Q456157",
+    "wikipediaTitle": "Amazon_Web_Services",
+    "canonicalTitle": "Amazon AI / AWS",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-amazon-ai",
+        "nodeTitle": "Amazon AI / AWS"
+      }
+    ]
+  },
+  "Q434916": {
+    "wikidataId": "Q434916",
+    "wikipediaTitle": "Luigi_Russolo",
+    "canonicalTitle": "Luigi Russolo",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-luigi-russolo",
+        "nodeTitle": "Luigi Russolo"
+      }
+    ]
+  },
+  "Q432822": {
+    "wikidataId": "Q432822",
+    "wikipediaTitle": "La_Monte_Young",
+    "canonicalTitle": "La Monte Young",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-la-monte-young",
+        "nodeTitle": "La Monte Young"
+      }
+    ]
+  },
+  "Q444857": {
+    "wikidataId": "Q444857",
+    "wikipediaTitle": "Pauline_Oliveros",
+    "canonicalTitle": "Pauline Oliveros",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-pauline-oliveros",
+        "nodeTitle": "Pauline Oliveros"
+      }
+    ]
+  },
+  "Q481477": {
+    "wikidataId": "Q481477",
+    "wikipediaTitle": "Tony_Conrad",
+    "canonicalTitle": "Tony Conrad",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-tony-conrad",
+        "nodeTitle": "Tony Conrad"
+      }
+    ]
+  },
+  "Q427429": {
+    "wikidataId": "Q427429",
+    "wikipediaTitle": "Manuel_Göttsching",
+    "canonicalTitle": "Manuel Göttsching",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-manuel-gottsching",
+        "nodeTitle": "Manuel Göttsching"
+      }
+    ]
+  },
+  "Q435744": {
+    "wikidataId": "Q435744",
+    "wikipediaTitle": "Florian_Schneider",
+    "canonicalTitle": "Florian Schneider",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-florian-schneider",
+        "nodeTitle": "Florian Schneider"
+      }
+    ]
+  },
+  "Q451858": {
+    "wikidataId": "Q451858",
+    "wikipediaTitle": "King_Tubby",
+    "canonicalTitle": "King Tubby",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-king-tubby",
+        "nodeTitle": "King Tubby"
+      }
+    ]
+  },
+  "Q426035": {
+    "wikidataId": "Q426035",
+    "wikipediaTitle": "Moog_synthesizer",
+    "canonicalTitle": "Moog Modular Synthesizer",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-moog-modular",
+        "nodeTitle": "Moog Modular Synthesizer"
+      }
+    ]
+  },
+  "Q453595": {
+    "wikidataId": "Q453595",
+    "wikipediaTitle": "Giles_of_Viterbo",
+    "canonicalTitle": "Egidio da Viterbo",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-egidio-da-viterbo",
+        "nodeTitle": "Egidio da Viterbo"
+      }
+    ]
+  },
+  "Q457906": {
+    "wikidataId": "Q457906",
+    "wikipediaTitle": "J._Presper_Eckert",
+    "canonicalTitle": "J. Presper Eckert",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-presper-eckert",
+        "nodeTitle": "J. Presper Eckert"
+      }
+    ]
+  },
+  "Q487453": {
+    "wikidataId": "Q487453",
+    "wikipediaTitle": "Anatol_Rapoport",
+    "canonicalTitle": "Anatol Rapoport",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-anatol-rapoport",
+        "nodeTitle": "Anatol Rapoport"
+      }
+    ]
+  },
+  "Q439245": {
+    "wikidataId": "Q439245",
+    "wikipediaTitle": "Allen_Newell",
+    "canonicalTitle": "Allen Newell",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-allen-newell",
+        "nodeTitle": "Allen Newell"
+      }
+    ]
+  },
+  "Q450354": {
+    "wikidataId": "Q450354",
+    "wikipediaTitle": "Julie_de_Lespinasse",
+    "canonicalTitle": "Julie de Lespinasse",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-julie-de-lespinasse",
+        "nodeTitle": "Julie de Lespinasse"
+      }
+    ]
+  },
+  "Q461961": {
+    "wikidataId": "Q461961",
+    "wikipediaTitle": "Anne-Catherine_de_Ligniville",
+    "canonicalTitle": "Anne-Catherine de Ligniville",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-madame-helvetius",
+        "nodeTitle": "Anne-Catherine de Ligniville"
+      }
+    ]
+  },
+  "Q482438": {
+    "wikidataId": "Q482438",
+    "wikipediaTitle": "An_Essay_Concerning_Human_Understanding",
+    "canonicalTitle": "Essay Concerning Human Understanding",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-essay-human-understanding",
+        "nodeTitle": "Essay Concerning Human Understanding"
+      }
+    ]
+  },
+  "Q466089": {
+    "wikidataId": "Q466089",
+    "wikipediaTitle": "American_Philosophical_Society",
+    "canonicalTitle": "American Philosophical Society",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-amer-phil-society",
+        "nodeTitle": "American Philosophical Society"
+      },
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-amer-phil-society",
+        "nodeTitle": "American Philosophical Society (Institution)"
+      }
+    ]
+  },
+  "Q472670": {
+    "wikidataId": "Q472670",
+    "wikipediaTitle": "Haskalah",
+    "canonicalTitle": "Haskalah (Jewish Enlightenment)",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-haskalah",
+        "nodeTitle": "Haskalah (Jewish Enlightenment)"
+      }
+    ]
+  },
+  "Q483024": {
+    "wikidataId": "Q483024",
+    "wikipediaTitle": "Rationalism",
+    "canonicalTitle": "Continental Rationalism",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-continental-rationalism",
+        "nodeTitle": "Continental Rationalism"
+      }
+    ]
+  },
+  "Q499851": {
+    "wikidataId": "Q499851",
+    "wikipediaTitle": "Corpus_Hermeticum",
+    "canonicalTitle": "Corpus Hermeticum",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-corpus-hermeticum",
+        "nodeTitle": "Corpus Hermeticum"
+      }
+    ]
+  },
+  "Q435456": {
+    "wikidataId": "Q435456",
+    "wikipediaTitle": "William_Farel",
+    "canonicalTitle": "Guillaume Farel",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-guillaume-farel",
+        "nodeTitle": "Guillaume Farel"
+      }
+    ]
+  },
+  "Q447170": {
+    "wikidataId": "Q447170",
+    "wikipediaTitle": "Marie_Dentière",
+    "canonicalTitle": "Marie Dentière",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-marie-dentiere",
+        "nodeTitle": "Marie Dentière"
+      }
+    ]
+  },
+  "Q435853": {
+    "wikidataId": "Q435853",
+    "wikipediaTitle": "Thomas_Cajetan",
+    "canonicalTitle": "Cardinal Thomas Cajetan",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-cardinal-thomas-cajetan",
+        "nodeTitle": "Cardinal Thomas Cajetan"
+      }
+    ]
+  },
+  "Q493726": {
+    "wikidataId": "Q493726",
+    "wikipediaTitle": "Genevan_Psalter",
+    "canonicalTitle": "Genevan Psalter",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-genevan-psalter",
+        "nodeTitle": "Genevan Psalter"
+      }
+    ]
+  },
+  "Q484870": {
+    "wikidataId": "Q484870",
+    "wikipediaTitle": "Eisleben",
+    "canonicalTitle": "Eisleben",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-eisleben",
+        "nodeTitle": "Eisleben"
+      }
+    ]
+  },
+  "Q474889": {
+    "wikidataId": "Q474889",
+    "wikipediaTitle": "Swiss_Brethren",
+    "canonicalTitle": "Swiss Brethren",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-swiss-brethren",
+        "nodeTitle": "Swiss Brethren"
+      }
+    ]
+  },
+  "Q435583": {
+    "wikidataId": "Q435583",
+    "wikipediaTitle": "Old_Swiss_Confederacy",
+    "canonicalTitle": "Swiss Confederacy",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-swiss-confederacy",
+        "nodeTitle": "Swiss Confederacy"
+      }
+    ]
+  },
+  "Q434356": {
+    "wikidataId": "Q434356",
+    "wikipediaTitle": "Manuel_Chrysoloras",
+    "canonicalTitle": "Manuel Chrysoloras",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-manuel-chrysoloras",
+        "nodeTitle": "Manuel Chrysoloras"
+      }
+    ]
+  },
+  "Q434834": {
+    "wikidataId": "Q434834",
+    "wikipediaTitle": "Flavio_Biondo",
+    "canonicalTitle": "Flavio Biondo",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-flavio-biondo",
+        "nodeTitle": "Flavio Biondo"
+      }
+    ]
+  },
+  "Q455140": {
+    "wikidataId": "Q455140",
+    "wikipediaTitle": "Bartolomeo_Platina",
+    "canonicalTitle": "Bartolomeo Platina",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-bartolomeo-platina",
+        "nodeTitle": "Bartolomeo Platina"
+      }
+    ]
+  },
+  "Q437543": {
+    "wikidataId": "Q437543",
+    "wikipediaTitle": "Paolo_Giovio",
+    "canonicalTitle": "Paolo Giovio",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-paolo-giovio",
+        "nodeTitle": "Paolo Giovio"
+      }
+    ]
+  },
+  "Q425606": {
+    "wikidataId": "Q425606",
+    "wikipediaTitle": "De_viris_illustribus_(Petrarch)",
+    "canonicalTitle": "De viris illustribus",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-de-viris-illustribus",
+        "nodeTitle": "De viris illustribus"
+      }
+    ]
+  },
+  "Q404158": {
+    "wikidataId": "Q404158",
+    "wikipediaTitle": "Utopia_(book)",
+    "canonicalTitle": "Utopia",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-utopia",
+        "nodeTitle": "Utopia"
+      }
+    ]
+  },
+  "Q453697": {
+    "wikidataId": "Q453697",
+    "wikipediaTitle": "Robert_Fludd",
+    "canonicalTitle": "Robert Fludd",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-robert-fludd",
+        "nodeTitle": "Robert Fludd"
+      }
+    ]
+  },
+  "Q471406": {
+    "wikidataId": "Q471406",
+    "wikipediaTitle": "Elias_Ashmole",
+    "canonicalTitle": "Elias Ashmole",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-elias-ashmole",
+        "nodeTitle": "Elias Ashmole"
+      },
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-elias-ashmole",
+        "nodeTitle": "Elias Ashmole"
+      }
+    ]
+  },
+  "Q440568": {
+    "wikidataId": "Q440568",
+    "wikipediaTitle": "Jerzy_Neyman",
+    "canonicalTitle": "Jerzy Neyman",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-jerzy-neyman",
+        "nodeTitle": "Jerzy Neyman"
+      }
+    ]
+  }
+}

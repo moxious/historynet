@@ -1,0 +1,15 @@
+{
+  "Q4908833": {
+    "wikidataId": "Q4908833",
+    "wikipediaTitle": "Bill_Drummond",
+    "canonicalTitle": "Bill Drummond",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-bill-drummond",
+        "nodeTitle": "Bill Drummond"
+      }
+    ]
+  }
+}

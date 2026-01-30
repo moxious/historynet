@@ -1,0 +1,106 @@
+{
+  "Q3507883": {
+    "wikidataId": "Q3507883",
+    "wikipediaTitle": "Symphonie_pour_un_homme_seul",
+    "canonicalTitle": "Symphonie pour un homme seul",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-schaeffer-henry-symphonie",
+        "nodeTitle": "Symphonie pour un homme seul"
+      }
+    ]
+  },
+  "Q3523344": {
+    "wikidataId": "Q3523344",
+    "wikipediaTitle": "The_Well-Tuned_Piano",
+    "canonicalTitle": "The Well-Tuned Piano",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-young-well-tuned-piano",
+        "nodeTitle": "The Well-Tuned Piano"
+      }
+    ]
+  },
+  "Q3522197": {
+    "wikidataId": "Q3522197",
+    "wikipediaTitle": "The_Pearl_(album)",
+    "canonicalTitle": "The Pearl",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-eno-budd-pearl",
+        "nodeTitle": "The Pearl"
+      }
+    ]
+  },
+  "Q3522191": {
+    "wikidataId": "Q3522191",
+    "wikipediaTitle": "The_Pavilion_of_Dreams",
+    "canonicalTitle": "The Pavilion of Dreams",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-budd-pavilion",
+        "nodeTitle": "The Pavilion of Dreams"
+      }
+    ]
+  },
+  "Q3532550": {
+    "wikidataId": "Q3532550",
+    "wikipediaTitle": "Turtle_(robot)",
+    "canonicalTitle": "Tortoise Robots (Elmer and Elsie)",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-tortoise-robots-walter",
+        "nodeTitle": "Tortoise Robots (Elmer and Elsie)"
+      }
+    ]
+  },
+  "Q3592308": {
+    "wikidataId": "Q3592308",
+    "wikipediaTitle": "Étienne_Noël_Damilaville",
+    "canonicalTitle": "Étienne Noël Damilaville",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-damilaville",
+        "nodeTitle": "Étienne Noël Damilaville"
+      }
+    ]
+  },
+  "Q3530141": {
+    "wikidataId": "Q3530141",
+    "wikipediaTitle": "Tobias_Hess",
+    "canonicalTitle": "Tobias Hess",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-tobias-hess",
+        "nodeTitle": "Tobias Hess"
+      }
+    ]
+  },
+  "Q3527157": {
+    "wikidataId": "Q3527157",
+    "wikipediaTitle": "Théorie_analytique_des_probabilités",
+    "canonicalTitle": "Théorie analytique des probabilités",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-theorie-analytique-des-probabilites",
+        "nodeTitle": "Théorie analytique des probabilités"
+      }
+    ]
+  }
+}

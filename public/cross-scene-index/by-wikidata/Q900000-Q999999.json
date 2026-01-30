@@ -1,0 +1,411 @@
+{
+  "Q973580": {
+    "wikidataId": "Q973580",
+    "wikipediaTitle": "Dieter_Moebius",
+    "canonicalTitle": "Dieter Moebius",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-dieter-moebius",
+        "nodeTitle": "Dieter Moebius"
+      }
+    ]
+  },
+  "Q935369": {
+    "wikidataId": "Q935369",
+    "wikipediaTitle": "Daniel_Lanois",
+    "canonicalTitle": "Daniel Lanois",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-daniel-lanois",
+        "nodeTitle": "Daniel Lanois"
+      }
+    ]
+  },
+  "Q912383": {
+    "wikidataId": "Q912383",
+    "wikipediaTitle": "Furniture_music",
+    "canonicalTitle": "Musique d'ameublement (Furniture Music)",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-satie-furniture-music",
+        "nodeTitle": "Musique d'ameublement (Furniture Music)"
+      }
+    ]
+  },
+  "Q958618": {
+    "wikidataId": "Q958618",
+    "wikipediaTitle": "Ambient_4:_On_Land",
+    "canonicalTitle": "Ambient 4: On Land",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-eno-on-land",
+        "nodeTitle": "Ambient 4: On Land"
+      }
+    ]
+  },
+  "Q909592": {
+    "wikidataId": "Q909592",
+    "wikipediaTitle": "Washington_Square_Park",
+    "canonicalTitle": "Washington Square Park",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-washington-square",
+        "nodeTitle": "Washington Square Park"
+      }
+    ]
+  },
+  "Q962366": {
+    "wikidataId": "Q962366",
+    "wikipediaTitle": "Morton_Subotnick",
+    "canonicalTitle": "Morton Subotnick",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-morton-subotnick",
+        "nodeTitle": "Morton Subotnick"
+      }
+    ]
+  },
+  "Q970352": {
+    "wikidataId": "Q970352",
+    "wikipediaTitle": "Selected_Ambient_Works_85–92",
+    "canonicalTitle": "Selected Ambient Works 85-92",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-aphex-saw-85-92",
+        "nodeTitle": "Selected Ambient Works 85-92"
+      }
+    ]
+  },
+  "Q924993": {
+    "wikidataId": "Q924993",
+    "wikipediaTitle": "The_Orb",
+    "canonicalTitle": "The Orb",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-the-orb",
+        "nodeTitle": "The Orb"
+      }
+    ]
+  },
+  "Q954437": {
+    "wikidataId": "Q954437",
+    "wikipediaTitle": "Tommy_Flowers",
+    "canonicalTitle": "Tommy Flowers",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-tommy-flowers",
+        "nodeTitle": "Tommy Flowers"
+      }
+    ]
+  },
+  "Q962174": {
+    "wikidataId": "Q962174",
+    "wikipediaTitle": "Warren_Sturgis_McCulloch",
+    "canonicalTitle": "Warren McCulloch",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-warren-mcculloch",
+        "nodeTitle": "Warren McCulloch"
+      }
+    ]
+  },
+  "Q959763": {
+    "wikidataId": "Q959763",
+    "wikipediaTitle": "C._West_Churchman",
+    "canonicalTitle": "C. West Churchman",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-c-west-churchman",
+        "nodeTitle": "C. West Churchman"
+      }
+    ]
+  },
+  "Q923582": {
+    "wikidataId": "Q923582",
+    "wikipediaTitle": "Francisco_Varela",
+    "canonicalTitle": "Francisco Varela",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-francisco-varela",
+        "nodeTitle": "Francisco Varela"
+      }
+    ]
+  },
+  "Q947485": {
+    "wikidataId": "Q947485",
+    "wikipediaTitle": "Victor_de_Riqueti,_marquis_de_Mirabeau",
+    "canonicalTitle": "Victor de Riqueti, Marquis de Mirabeau",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "person-mirabeau-elder",
+        "nodeTitle": "Victor de Riqueti, Marquis de Mirabeau"
+      }
+    ]
+  },
+  "Q914139": {
+    "wikidataId": "Q914139",
+    "wikipediaTitle": "A_Letter_Concerning_Toleration",
+    "canonicalTitle": "A Letter Concerning Toleration",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-letter-toleration",
+        "nodeTitle": "A Letter Concerning Toleration"
+      }
+    ]
+  },
+  "Q913599": {
+    "wikidataId": "Q913599",
+    "wikipediaTitle": "Emile,_or_On_Education",
+    "canonicalTitle": "Emile, or On Education",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-emile",
+        "nodeTitle": "Emile, or On Education"
+      }
+    ]
+  },
+  "Q947972": {
+    "wikidataId": "Q947972",
+    "wikipediaTitle": "A_Philosophical_Enquiry_into_the_Origin_of_Our_Ideas_of_the_Sublime_and_Beautiful",
+    "canonicalTitle": "A Philosophical Enquiry into the Sublime and Beautiful",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-sublime-beautiful",
+        "nodeTitle": "A Philosophical Enquiry into the Sublime and Beautiful"
+      }
+    ]
+  },
+  "Q965564": {
+    "wikidataId": "Q965564",
+    "wikipediaTitle": "Dialogues_Concerning_Natural_Religion",
+    "canonicalTitle": "Dialogues Concerning Natural Religion",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-dialogues-natural-religion",
+        "nodeTitle": "Dialogues Concerning Natural Religion"
+      }
+    ]
+  },
+  "Q979108": {
+    "wikidataId": "Q979108",
+    "wikipediaTitle": "Rights_of_Man",
+    "canonicalTitle": "Rights of Man",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-rights-man",
+        "nodeTitle": "Rights of Man"
+      }
+    ]
+  },
+  "Q927072": {
+    "wikidataId": "Q927072",
+    "wikipediaTitle": "Journal_des_sçavans",
+    "canonicalTitle": "Journal des savants",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-journal-savants",
+        "nodeTitle": "Journal des savants"
+      }
+    ]
+  },
+  "Q944027": {
+    "wikidataId": "Q944027",
+    "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
+    "canonicalTitle": "Oration on the Dignity of Man",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-oration-dignity-of-man",
+        "nodeTitle": "Oration on the Dignity of Man"
+      }
+    ]
+  },
+  "Q921618": {
+    "wikidataId": "Q921618",
+    "wikipediaTitle": "Poimandres",
+    "canonicalTitle": "Pimander",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-pimander",
+        "nodeTitle": "Pimander"
+      }
+    ]
+  },
+  "Q957527": {
+    "wikidataId": "Q957527",
+    "wikipediaTitle": "John_Colet",
+    "canonicalTitle": "John Colet",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-colet",
+        "nodeTitle": "John Colet"
+      },
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-john-colet",
+        "nodeTitle": "John Colet"
+      }
+    ]
+  },
+  "Q967700": {
+    "wikidataId": "Q967700",
+    "wikipediaTitle": "Guillaume_Briçonnet_(cardinal)",
+    "canonicalTitle": "Guillaume Briçonnet",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-guillaume-briconnet",
+        "nodeTitle": "Guillaume Briçonnet"
+      }
+    ]
+  },
+  "Q937617": {
+    "wikidataId": "Q937617",
+    "wikipediaTitle": "Thirty-nine_Articles",
+    "canonicalTitle": "Thirty-Nine Articles",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-thirty-nine-articles",
+        "nodeTitle": "Thirty-Nine Articles"
+      }
+    ]
+  },
+  "Q922480": {
+    "wikidataId": "Q922480",
+    "wikipediaTitle": "Church_of_Scotland",
+    "canonicalTitle": "Church of Scotland (The Kirk)",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-church-of-scotland",
+        "nodeTitle": "Church of Scotland (The Kirk)"
+      }
+    ]
+  },
+  "Q948156": {
+    "wikidataId": "Q948156",
+    "wikipediaTitle": "Guillaume_Postel",
+    "canonicalTitle": "Guillaume Postel",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-guillaume-postel",
+        "nodeTitle": "Guillaume Postel"
+      }
+    ]
+  },
+  "Q995950": {
+    "wikidataId": "Q995950",
+    "wikipediaTitle": "Epistolae_familiares",
+    "canonicalTitle": "Epistolae familiares",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-epistolae-familiares",
+        "nodeTitle": "Epistolae familiares"
+      }
+    ]
+  },
+  "Q924424": {
+    "wikidataId": "Q924424",
+    "wikipediaTitle": "Discourses_on_Livy",
+    "canonicalTitle": "Discorsi sopra la prima deca di Tito Livio",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-discorsi-livy",
+        "nodeTitle": "Discorsi sopra la prima deca di Tito Livio"
+      }
+    ]
+  },
+  "Q901303": {
+    "wikidataId": "Q901303",
+    "wikipediaTitle": "Michael_Maier",
+    "canonicalTitle": "Michael Maier",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-michael-maier",
+        "nodeTitle": "Michael Maier"
+      }
+    ]
+  },
+  "Q908061": {
+    "wikidataId": "Q908061",
+    "wikipediaTitle": "Monas_Hieroglyphica",
+    "canonicalTitle": "Monas Hieroglyphica",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-monas-hieroglyphica",
+        "nodeTitle": "Monas Hieroglyphica"
+      }
+    ]
+  },
+  "Q991476": {
+    "wikidataId": "Q991476",
+    "wikipediaTitle": "Udny_Yule",
+    "canonicalTitle": "George Udny Yule",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "person-george-udny-yule",
+        "nodeTitle": "George Udny Yule"
+      }
+    ]
+  }
+}

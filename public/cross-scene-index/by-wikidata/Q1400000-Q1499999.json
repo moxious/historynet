@@ -1,0 +1,119 @@
+{
+  "Q1450908": {
+    "wikidataId": "Q1450908",
+    "wikipediaTitle": "François_Bayle",
+    "canonicalTitle": "François Bayle",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-francois-bayle",
+        "nodeTitle": "François Bayle"
+      }
+    ]
+  },
+  "Q1426689": {
+    "wikidataId": "Q1426689",
+    "wikipediaTitle": "Flavius_Mithridates",
+    "canonicalTitle": "Flavius Mithridates",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-flavius-mithridates",
+        "nodeTitle": "Flavius Mithridates"
+      }
+    ]
+  },
+  "Q1431186": {
+    "wikidataId": "Q1431186",
+    "wikipediaTitle": "Russell_L._Ackoff",
+    "canonicalTitle": "Russell Ackoff",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-russell-ackoff",
+        "nodeTitle": "Russell Ackoff"
+      }
+    ]
+  },
+  "Q1494101": {
+    "wikidataId": "Q1494101",
+    "wikipediaTitle": "Ranulph_Glanville",
+    "canonicalTitle": "Ranulph Glanville",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-ranulph-glanville",
+        "nodeTitle": "Ranulph Glanville"
+      }
+    ]
+  },
+  "Q1413683": {
+    "wikidataId": "Q1413683",
+    "wikipediaTitle": "Whirlwind_I",
+    "canonicalTitle": "Whirlwind / SAGE",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-whirlwind",
+        "nodeTitle": "Whirlwind / SAGE"
+      }
+    ]
+  },
+  "Q1438448": {
+    "wikidataId": "Q1438448",
+    "wikipediaTitle": "The_Theory_of_Moral_Sentiments",
+    "canonicalTitle": "The Theory of Moral Sentiments",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-theory-moral-sentiments",
+        "nodeTitle": "The Theory of Moral Sentiments"
+      }
+    ]
+  },
+  "Q1440694": {
+    "wikidataId": "Q1440694",
+    "wikipediaTitle": "Francesco_Cattani_da_Diacceto",
+    "canonicalTitle": "Francesco Cattani da Diacceto",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-francesco-cattani-da-diacceto",
+        "nodeTitle": "Francesco Cattani da Diacceto"
+      }
+    ]
+  },
+  "Q1425428": {
+    "wikidataId": "Q1425428",
+    "wikipediaTitle": "Newcastle_upon_Tyne",
+    "canonicalTitle": "Newcastle upon Tyne",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "loc-newcastle-upon-tyne",
+        "nodeTitle": "Newcastle upon Tyne"
+      }
+    ]
+  },
+  "Q1423882": {
+    "wikidataId": "Q1423882",
+    "wikipediaTitle": "Royal_Statistical_Society",
+    "canonicalTitle": "Royal Statistical Society",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "entity-royal-statistical-society",
+        "nodeTitle": "Royal Statistical Society"
+      }
+    ]
+  }
+}

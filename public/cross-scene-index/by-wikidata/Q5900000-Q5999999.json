@@ -1,0 +1,15 @@
+{
+  "Q5987936": {
+    "wikidataId": "Q5987936",
+    "wikipediaTitle": "Yoshua_Bengio",
+    "canonicalTitle": "Yoshua Bengio",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-yoshua-bengio",
+        "nodeTitle": "Yoshua Bengio"
+      }
+    ]
+  }
+}

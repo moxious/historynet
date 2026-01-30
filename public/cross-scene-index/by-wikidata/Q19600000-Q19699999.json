@@ -1,0 +1,15 @@
+{
+  "Q19600170": {
+    "wikidataId": "Q19600170",
+    "wikipediaTitle": "Meta_AI",
+    "canonicalTitle": "Meta AI / FAIR",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-meta-ai",
+        "nodeTitle": "Meta AI / FAIR"
+      }
+    ]
+  }
+}

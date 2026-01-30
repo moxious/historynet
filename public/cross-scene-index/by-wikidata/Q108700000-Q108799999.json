@@ -1,0 +1,93 @@
+{
+  "Q108741568": {
+    "wikidataId": "Q108741568",
+    "wikipediaTitle": "Dario_Amodei",
+    "canonicalTitle": "Dario Amodei",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-dario-amodei",
+        "nodeTitle": "Dario Amodei"
+      }
+    ]
+  },
+  "Q108743009": {
+    "wikidataId": "Q108743009",
+    "wikipediaTitle": "Daniela_Amodei",
+    "canonicalTitle": "Daniela Amodei",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-daniela-amodei",
+        "nodeTitle": "Daniela Amodei"
+      }
+    ]
+  },
+  "Q108742236": {
+    "wikidataId": "Q108742236",
+    "wikipediaTitle": "Jared_Kaplan_(physicist)",
+    "canonicalTitle": "Jared Kaplan",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-jared-kaplan",
+        "nodeTitle": "Jared Kaplan"
+      }
+    ]
+  },
+  "Q108742779": {
+    "wikidataId": "Q108742779",
+    "wikipediaTitle": "Jack_Clark_(AI_researcher)",
+    "canonicalTitle": "Jack Clark",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-jack-clark",
+        "nodeTitle": "Jack Clark"
+      }
+    ]
+  },
+  "Q108741880": {
+    "wikidataId": "Q108741880",
+    "wikipediaTitle": "Tom_Brown_(AI_researcher)",
+    "canonicalTitle": "Tom Brown",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-tom-brown",
+        "nodeTitle": "Tom Brown"
+      }
+    ]
+  },
+  "Q108742500": {
+    "wikidataId": "Q108742500",
+    "wikipediaTitle": "Christopher_Olah",
+    "canonicalTitle": "Chris Olah",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-chris-olah",
+        "nodeTitle": "Chris Olah"
+      }
+    ]
+  },
+  "Q108765213": {
+    "wikidataId": "Q108765213",
+    "wikipediaTitle": "Attention_Is_All_You_Need",
+    "canonicalTitle": "Attention Is All You Need",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-transformer-paper",
+        "nodeTitle": "Attention Is All You Need"
+      }
+    ]
+  }
+}

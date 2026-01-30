@@ -1,0 +1,28 @@
+{
+  "Q110560178": {
+    "wikidataId": "Q110560178",
+    "wikipediaTitle": "Mira_Murati",
+    "canonicalTitle": "Mira Murati",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-mira-murati",
+        "nodeTitle": "Mira Murati"
+      }
+    ]
+  },
+  "Q110561437": {
+    "wikidataId": "Q110561437",
+    "wikipediaTitle": "Neural_scaling_law",
+    "canonicalTitle": "Scaling Laws for Neural Language Models",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-scaling-laws",
+        "nodeTitle": "Scaling Laws for Neural Language Models"
+      }
+    ]
+  }
+}

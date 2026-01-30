@@ -1,0 +1,606 @@
+{
+  "Q729390": {
+    "wikidataId": "Q729390",
+    "wikipediaTitle": "Michael_Rother",
+    "canonicalTitle": "Michael Rother",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-michael-rother",
+        "nodeTitle": "Michael Rother"
+      }
+    ]
+  },
+  "Q728029": {
+    "wikidataId": "Q728029",
+    "wikipediaTitle": "Harold_Budd",
+    "canonicalTitle": "Harold Budd",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-harold-budd",
+        "nodeTitle": "Harold Budd"
+      }
+    ]
+  },
+  "Q713939": {
+    "wikidataId": "Q713939",
+    "wikipediaTitle": "Gavin_Bryars",
+    "canonicalTitle": "Gavin Bryars",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-gavin-bryars",
+        "nodeTitle": "Gavin Bryars"
+      }
+    ]
+  },
+  "Q782528": {
+    "wikidataId": "Q782528",
+    "wikipediaTitle": "Jon_Hassell",
+    "canonicalTitle": "Jon Hassell",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-jon-hassell",
+        "nodeTitle": "Jon Hassell"
+      }
+    ]
+  },
+  "Q705221": {
+    "wikidataId": "Q705221",
+    "wikipediaTitle": "Haruomi_Hosono",
+    "canonicalTitle": "Haruomi Hosono",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-haruomi-hosono",
+        "nodeTitle": "Haruomi Hosono"
+      }
+    ]
+  },
+  "Q729361": {
+    "wikidataId": "Q729361",
+    "wikipediaTitle": "Rubycon_(album)",
+    "canonicalTitle": "Rubycon",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-td-rubycon",
+        "nodeTitle": "Rubycon"
+      }
+    ]
+  },
+  "Q771427": {
+    "wikidataId": "Q771427",
+    "wikipediaTitle": "Another_Green_World",
+    "canonicalTitle": "Another Green World",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-eno-another-green-world",
+        "nodeTitle": "Another Green World"
+      }
+    ]
+  },
+  "Q719189": {
+    "wikidataId": "Q719189",
+    "wikipediaTitle": "Super_Ape",
+    "canonicalTitle": "Super Ape",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-perry-super-ape",
+        "nodeTitle": "Super Ape"
+      }
+    ]
+  },
+  "Q734687": {
+    "wikidataId": "Q734687",
+    "wikipediaTitle": "Minimoog",
+    "canonicalTitle": "Minimoog",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-minimoog",
+        "nodeTitle": "Minimoog"
+      }
+    ]
+  },
+  "Q705382": {
+    "wikidataId": "Q705382",
+    "wikipediaTitle": "Cluster_(band)",
+    "canonicalTitle": "Cluster",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-cluster",
+        "nodeTitle": "Cluster"
+      }
+    ]
+  },
+  "Q700817": {
+    "wikidataId": "Q700817",
+    "wikipediaTitle": "Ash_Ra_Tempel",
+    "canonicalTitle": "Ash Ra Tempel",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-ash-ra-tempel",
+        "nodeTitle": "Ash Ra Tempel"
+      }
+    ]
+  },
+  "Q741316": {
+    "wikidataId": "Q741316",
+    "wikipediaTitle": "The_KLF",
+    "canonicalTitle": "The KLF",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-klf",
+        "nodeTitle": "The KLF"
+      }
+    ]
+  },
+  "Q723036": {
+    "wikidataId": "Q723036",
+    "wikipediaTitle": "Guillaume_Postel",
+    "canonicalTitle": "Guillaume Postel",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-guillaume-postel",
+        "nodeTitle": "Guillaume Postel"
+      }
+    ]
+  },
+  "Q702058": {
+    "wikidataId": "Q702058",
+    "wikipediaTitle": "Jakob_van_Hoogstraten",
+    "canonicalTitle": "Jakob van Hoogstraten",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-jakob-hoogstraten",
+        "nodeTitle": "Jakob van Hoogstraten"
+      }
+    ]
+  },
+  "Q711172": {
+    "wikidataId": "Q711172",
+    "wikipediaTitle": "W._Ross_Ashby",
+    "canonicalTitle": "W. Ross Ashby",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-ross-ashby",
+        "nodeTitle": "W. Ross Ashby"
+      }
+    ]
+  },
+  "Q796226": {
+    "wikidataId": "Q796226",
+    "wikipediaTitle": "Stafford_Beer",
+    "canonicalTitle": "Stafford Beer",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-stafford-beer",
+        "nodeTitle": "Stafford Beer"
+      }
+    ]
+  },
+  "Q714462": {
+    "wikidataId": "Q714462",
+    "wikipediaTitle": "Hendrik_Wade_Bode",
+    "canonicalTitle": "Hendrik Bode",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-hendrik-bode",
+        "nodeTitle": "Hendrik Bode"
+      }
+    ]
+  },
+  "Q707155": {
+    "wikidataId": "Q707155",
+    "wikipediaTitle": "Max_Newman",
+    "canonicalTitle": "Max Newman",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-max-newman",
+        "nodeTitle": "Max Newman"
+      }
+    ]
+  },
+  "Q705010": {
+    "wikidataId": "Q705010",
+    "wikipediaTitle": "Walter_Pitts",
+    "canonicalTitle": "Walter Pitts",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-walter-pitts",
+        "nodeTitle": "Walter Pitts"
+      }
+    ]
+  },
+  "Q710266": {
+    "wikidataId": "Q710266",
+    "wikipediaTitle": "Arthur_Samuel_(computer_scientist)",
+    "canonicalTitle": "Arthur Samuel",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-arthur-samuel",
+        "nodeTitle": "Arthur Samuel"
+      }
+    ]
+  },
+  "Q724029": {
+    "wikidataId": "Q724029",
+    "wikipediaTitle": "A_Mathematical_Theory_of_Communication",
+    "canonicalTitle": "A Mathematical Theory of Communication",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-information-theory-shannon",
+        "nodeTitle": "A Mathematical Theory of Communication"
+      },
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-math-theory-communication-book",
+        "nodeTitle": "The Mathematical Theory of Communication (book)"
+      }
+    ]
+  },
+  "Q772056": {
+    "wikidataId": "Q772056",
+    "wikipediaTitle": "Computing_Machinery_and_Intelligence",
+    "canonicalTitle": "Computing Machinery and Intelligence",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-computing-machinery-turing",
+        "nodeTitle": "Computing Machinery and Intelligence"
+      }
+    ]
+  },
+  "Q770597": {
+    "wikidataId": "Q770597",
+    "wikipediaTitle": "Colossus_computer",
+    "canonicalTitle": "Colossus",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-colossus",
+        "nodeTitle": "Colossus"
+      }
+    ]
+  },
+  "Q751293": {
+    "wikidataId": "Q751293",
+    "wikipediaTitle": "Café_Procope",
+    "canonicalTitle": "Café Procope",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-cafe-procope",
+        "nodeTitle": "Café Procope"
+      }
+    ]
+  },
+  "Q720932": {
+    "wikidataId": "Q720932",
+    "wikipediaTitle": "John_Argyropoulos",
+    "canonicalTitle": "John Argyropoulos",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "person-john-argyropoulos",
+        "nodeTitle": "John Argyropoulos"
+      }
+    ]
+  },
+  "Q787046": {
+    "wikidataId": "Q787046",
+    "wikipediaTitle": "Asclepius_(treatise)",
+    "canonicalTitle": "Asclepius",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-asclepius",
+        "nodeTitle": "Asclepius"
+      }
+    ]
+  },
+  "Q710046": {
+    "wikidataId": "Q710046",
+    "wikipediaTitle": "Hugh_Latimer",
+    "canonicalTitle": "Hugh Latimer",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-hugh-latimer",
+        "nodeTitle": "Hugh Latimer"
+      }
+    ]
+  },
+  "Q741030": {
+    "wikidataId": "Q741030",
+    "wikipediaTitle": "Nicholas_Ridley_(martyr)",
+    "canonicalTitle": "Nicholas Ridley",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-nicholas-ridley",
+        "nodeTitle": "Nicholas Ridley"
+      }
+    ]
+  },
+  "Q711332": {
+    "wikidataId": "Q711332",
+    "wikipediaTitle": "Matthew_Parker",
+    "canonicalTitle": "Matthew Parker",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-matthew-parker",
+        "nodeTitle": "Matthew Parker"
+      }
+    ]
+  },
+  "Q708980": {
+    "wikidataId": "Q708980",
+    "wikipediaTitle": "Patrick_Hamilton_(martyr)",
+    "canonicalTitle": "Patrick Hamilton",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-patrick-hamilton",
+        "nodeTitle": "Patrick Hamilton"
+      }
+    ]
+  },
+  "Q703363": {
+    "wikidataId": "Q703363",
+    "wikipediaTitle": "Battle_of_Frankenhausen",
+    "canonicalTitle": "Frankenhausen",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-frankenhausen",
+        "nodeTitle": "Frankenhausen"
+      }
+    ]
+  },
+  "Q730505": {
+    "wikidataId": "Q730505",
+    "wikipediaTitle": "Niccolò_Niccoli",
+    "canonicalTitle": "Niccolò Niccoli",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-niccolo-niccoli",
+        "nodeTitle": "Niccolò Niccoli"
+      }
+    ]
+  },
+  "Q770787": {
+    "wikidataId": "Q770787",
+    "wikipediaTitle": "Giovanni_Aurispa",
+    "canonicalTitle": "Giovanni Aurispa",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-giovanni-aurispa",
+        "nodeTitle": "Giovanni Aurispa"
+      }
+    ]
+  },
+  "Q711964": {
+    "wikidataId": "Q711964",
+    "wikipediaTitle": "Cristoforo_Landino",
+    "canonicalTitle": "Cristoforo Landino",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-cristoforo-landino",
+        "nodeTitle": "Cristoforo Landino"
+      }
+    ]
+  },
+  "Q714946": {
+    "wikidataId": "Q714946",
+    "wikipediaTitle": "Giovanni_Pontano",
+    "canonicalTitle": "Giovanni Pontano",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-giovanni-pontano",
+        "nodeTitle": "Giovanni Pontano"
+      }
+    ]
+  },
+  "Q731879": {
+    "wikidataId": "Q731879",
+    "wikipediaTitle": "William_Grocyn",
+    "canonicalTitle": "William Grocyn",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-william-grocyn",
+        "nodeTitle": "William Grocyn"
+      }
+    ]
+  },
+  "Q730540": {
+    "wikidataId": "Q730540",
+    "wikipediaTitle": "Thomas_Linacre",
+    "canonicalTitle": "Thomas Linacre",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-thomas-linacre",
+        "nodeTitle": "Thomas Linacre"
+      }
+    ]
+  },
+  "Q725592": {
+    "wikidataId": "Q725592",
+    "wikipediaTitle": "Cuthbert_Tunstall",
+    "canonicalTitle": "Cuthbert Tunstall",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-cuthbert-tunstall",
+        "nodeTitle": "Cuthbert Tunstall"
+      }
+    ]
+  },
+  "Q706796": {
+    "wikidataId": "Q706796",
+    "wikipediaTitle": "Alexander_Hegius",
+    "canonicalTitle": "Alexander Hegius",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-alexander-hegius",
+        "nodeTitle": "Alexander Hegius"
+      }
+    ]
+  },
+  "Q725843": {
+    "wikidataId": "Q725843",
+    "wikipediaTitle": "Vittorino_da_Feltre",
+    "canonicalTitle": "Vittorino da Feltre",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-vittorino-da-feltre",
+        "nodeTitle": "Vittorino da Feltre"
+      }
+    ]
+  },
+  "Q756170": {
+    "wikidataId": "Q756170",
+    "wikipediaTitle": "Devotio_Moderna",
+    "canonicalTitle": "Devotio Moderna",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "entity-devotio-moderna",
+        "nodeTitle": "Devotio Moderna"
+      }
+    ]
+  },
+  "Q773312": {
+    "wikidataId": "Q773312",
+    "wikipediaTitle": "Třeboň",
+    "canonicalTitle": "Třeboň",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "loc-trebon",
+        "nodeTitle": "Třeboň"
+      }
+    ]
+  },
+  "Q710665": {
+    "wikidataId": "Q710665",
+    "wikipediaTitle": "John_Dury",
+    "canonicalTitle": "John Dury",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-john-dury",
+        "nodeTitle": "John Dury"
+      }
+    ]
+  },
+  "Q771349": {
+    "wikidataId": "Q771349",
+    "wikipediaTitle": "Pansophism",
+    "canonicalTitle": "Pansophiae Prodromus",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "object-pansophiae-prodromus",
+        "nodeTitle": "Pansophiae Prodromus"
+      }
+    ]
+  },
+  "Q720120": {
+    "wikidataId": "Q720120",
+    "wikipediaTitle": "Astronomia_nova",
+    "canonicalTitle": "Astronomia nova",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-astronomia-nova",
+        "nodeTitle": "Astronomia nova"
+      }
+    ]
+  },
+  "Q719623": {
+    "wikidataId": "Q719623",
+    "wikipediaTitle": "Robert_Moray",
+    "canonicalTitle": "Sir Robert Moray",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-robert-moray",
+        "nodeTitle": "Sir Robert Moray"
+      }
+    ]
+  }
+}

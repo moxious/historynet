@@ -1,0 +1,15 @@
+{
+  "Q42378114": {
+    "wikidataId": "Q42378114",
+    "wikipediaTitle": "Karl_Widemann",
+    "canonicalTitle": "Karl Widemann",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-karl-widemann",
+        "nodeTitle": "Karl Widemann"
+      }
+    ]
+  }
+}

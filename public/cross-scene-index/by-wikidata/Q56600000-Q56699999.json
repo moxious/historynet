@@ -1,0 +1,28 @@
+{
+  "Q56603936": {
+    "wikidataId": "Q56603936",
+    "wikipediaTitle": "Joelle_Pineau",
+    "canonicalTitle": "Joelle Pineau",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-joelle-pineau",
+        "nodeTitle": "Joelle Pineau"
+      }
+    ]
+  },
+  "Q56677851": {
+    "wikidataId": "Q56677851",
+    "wikipediaTitle": "Percy_Liang",
+    "canonicalTitle": "Percy Liang",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-percy-liang",
+        "nodeTitle": "Percy Liang"
+      }
+    ]
+  }
+}

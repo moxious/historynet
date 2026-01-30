@@ -1,0 +1,46 @@
+{
+  "Q118389636": {
+    "wikidataId": "Q118389636",
+    "wikipediaTitle": "Gemini_(chatbot)",
+    "canonicalTitle": "Gemini",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gemini",
+        "nodeTitle": "Gemini"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gemini15",
+        "nodeTitle": "Gemini 1.5 Pro"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gemini20",
+        "nodeTitle": "Gemini 2.0"
+      },
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-gemini25",
+        "nodeTitle": "Gemini 2.5"
+      }
+    ]
+  },
+  "Q118358654": {
+    "wikidataId": "Q118358654",
+    "wikipediaTitle": "Google_DeepMind",
+    "canonicalTitle": "Google DeepMind",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-google-deepmind",
+        "nodeTitle": "Google DeepMind"
+      }
+    ]
+  }
+}

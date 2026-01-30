@@ -1,0 +1,28 @@
+{
+  "Q6290556": {
+    "wikidataId": "Q6290556",
+    "wikipediaTitle": "Josiah_Macy_Jr._Foundation",
+    "canonicalTitle": "Josiah Macy Jr. Foundation",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-macy-foundation",
+        "nodeTitle": "Josiah Macy Jr. Foundation"
+      }
+    ]
+  },
+  "Q6252938": {
+    "wikidataId": "Q6252938",
+    "wikipediaTitle": "John_Pine",
+    "canonicalTitle": "John Pine",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-john-pine",
+        "nodeTitle": "John Pine"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Q2296309": {
+    "wikidataId": "Q2296309",
+    "wikipediaTitle": "Electronic_Meditation",
+    "canonicalTitle": "Electronic Meditation",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-td-electronic-meditation",
+        "nodeTitle": "Electronic Meditation"
+      }
+    ]
+  },
+  "Q2287584": {
+    "wikidataId": "Q2287584",
+    "wikipediaTitle": "Reflections_on_the_Revolution_in_France",
+    "canonicalTitle": "Reflections on the Revolution in France",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-reflections-revolution",
+        "nodeTitle": "Reflections on the Revolution in France"
+      }
+    ]
+  },
+  "Q2240551": {
+    "wikidataId": "Q2240551",
+    "wikipediaTitle": "Château_de_Cirey",
+    "canonicalTitle": "Cirey",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-cirey",
+        "nodeTitle": "Cirey"
+      }
+    ]
+  }
+}

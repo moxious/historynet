@@ -1,0 +1,15 @@
+{
+  "Q136274201": {
+    "wikidataId": "Q136274201",
+    "wikipediaTitle": "Aufklärung",
+    "canonicalTitle": "German Aufklärung",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-aufklarung",
+        "nodeTitle": "German Aufklärung"
+      }
+    ]
+  }
+}

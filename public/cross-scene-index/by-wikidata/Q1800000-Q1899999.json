@@ -1,0 +1,41 @@
+{
+  "Q1815536": {
+    "wikidataId": "Q1815536",
+    "wikipediaTitle": "(No_Pussyfooting)",
+    "canonicalTitle": "(No Pussyfooting)",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-fripp-eno-no-pussyfooting",
+        "nodeTitle": "(No Pussyfooting)"
+      }
+    ]
+  },
+  "Q1899088": {
+    "wikidataId": "Q1899088",
+    "wikipediaTitle": "Masoret_HaMasoret",
+    "canonicalTitle": "Masoret ha-Masoret",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-masoret-ha-masoret",
+        "nodeTitle": "Masoret ha-Masoret"
+      }
+    ]
+  },
+  "Q1873081": {
+    "wikidataId": "Q1873081",
+    "wikipediaTitle": "Lucas_Jennis",
+    "canonicalTitle": "Lucas Jennis Publishing House",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-lucas-jennis",
+        "nodeTitle": "Lucas Jennis Publishing House"
+      }
+    ]
+  }
+}

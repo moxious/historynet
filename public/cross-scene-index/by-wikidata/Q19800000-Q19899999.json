@@ -1,0 +1,28 @@
+{
+  "Q19845246": {
+    "wikidataId": "Q19845246",
+    "wikipediaTitle": "Demis_Hassabis",
+    "canonicalTitle": "Demis Hassabis",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-demis-hassabis",
+        "nodeTitle": "Demis Hassabis"
+      }
+    ]
+  },
+  "Q19829553": {
+    "wikidataId": "Q19829553",
+    "wikipediaTitle": "AlphaGo",
+    "canonicalTitle": "AlphaGo",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-alphago",
+        "nodeTitle": "AlphaGo"
+      }
+    ]
+  }
+}

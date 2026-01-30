@@ -1,0 +1,54 @@
+{
+  "Q2101507": {
+    "wikidataId": "Q2101507",
+    "wikipediaTitle": "Polygraphia_(book)",
+    "canonicalTitle": "Polygraphia",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-polygraphia",
+        "nodeTitle": "Polygraphia"
+      }
+    ]
+  },
+  "Q2166858": {
+    "wikidataId": "Q2166858",
+    "wikipediaTitle": "Théodicée",
+    "canonicalTitle": "Theodicy",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-theodicy",
+        "nodeTitle": "Theodicy"
+      }
+    ]
+  },
+  "Q2163561": {
+    "wikidataId": "Q2163561",
+    "wikipediaTitle": "Traité_Élémentaire_de_Chimie",
+    "canonicalTitle": "Elements of Chemistry",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-elements-chemistry",
+        "nodeTitle": "Elements of Chemistry"
+      }
+    ]
+  },
+  "Q2157227": {
+    "wikidataId": "Q2157227",
+    "wikipediaTitle": "Rothamsted_Research",
+    "canonicalTitle": "Rothamsted Experimental Station",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "location-rothamsted-experimental-station",
+        "nodeTitle": "Rothamsted Experimental Station"
+      }
+    ]
+  }
+}

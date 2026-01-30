@@ -1,0 +1,158 @@
+{
+  "Q1065671": {
+    "wikidataId": "Q1065671",
+    "wikipediaTitle": "Neu!_'75",
+    "canonicalTitle": "Neu! 75",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-neu-75",
+        "nodeTitle": "Neu! 75"
+      }
+    ]
+  },
+  "Q1054058": {
+    "wikidataId": "Q1054058",
+    "wikipediaTitle": "Frippertronics",
+    "canonicalTitle": "Frippertronics System",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-frippertronics",
+        "nodeTitle": "Frippertronics System"
+      }
+    ]
+  },
+  "Q1048881": {
+    "wikidataId": "Q1048881",
+    "wikipediaTitle": "Homeostat",
+    "canonicalTitle": "The Homeostat",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-homeostat-ashby",
+        "nodeTitle": "The Homeostat"
+      }
+    ]
+  },
+  "Q1050365": {
+    "wikidataId": "Q1050365",
+    "wikipediaTitle": "NLS_(computer_system)",
+    "canonicalTitle": "NLS/Augment System & Mouse",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-nls-engelbart",
+        "nodeTitle": "NLS/Augment System & Mouse"
+      }
+    ]
+  },
+  "Q1063818": {
+    "wikidataId": "Q1063818",
+    "wikipediaTitle": "Office_of_Naval_Research",
+    "canonicalTitle": "Office of Naval Research",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "entity-onr",
+        "nodeTitle": "Office of Naval Research"
+      }
+    ]
+  },
+  "Q1050479": {
+    "wikidataId": "Q1050479",
+    "wikipediaTitle": "Persian_Letters",
+    "canonicalTitle": "Persian Letters",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-persian-letters",
+        "nodeTitle": "Persian Letters"
+      }
+    ]
+  },
+  "Q1056332": {
+    "wikidataId": "Q1056332",
+    "wikipediaTitle": "Critique_of_Judgment",
+    "canonicalTitle": "Critique of Judgment",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-critique-judgment",
+        "nodeTitle": "Critique of Judgment"
+      }
+    ]
+  },
+  "Q1063038": {
+    "wikidataId": "Q1063038",
+    "wikipediaTitle": "Scottish_Enlightenment",
+    "canonicalTitle": "Scottish Enlightenment",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-scottish-enlightenment",
+        "nodeTitle": "Scottish Enlightenment"
+      }
+    ]
+  },
+  "Q1077624": {
+    "wikidataId": "Q1077624",
+    "wikipediaTitle": "De_re_aedificatoria",
+    "canonicalTitle": "De re aedificatoria",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-de-re-aedificatoria",
+        "nodeTitle": "De re aedificatoria"
+      }
+    ]
+  },
+  "Q1084061": {
+    "wikidataId": "Q1084061",
+    "wikipediaTitle": "Christian_Kabbalah",
+    "canonicalTitle": "Christian Kabbalah",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "entity-christian-kabbalah",
+        "nodeTitle": "Christian Kabbalah"
+      }
+    ]
+  },
+  "Q1017439": {
+    "wikidataId": "Q1017439",
+    "wikipediaTitle": "Dialogue_Concerning_the_Two_Chief_World_Systems",
+    "canonicalTitle": "Dialogue Concerning the Two Chief World Systems",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-dialogo",
+        "nodeTitle": "Dialogue Concerning the Two Chief World Systems"
+      }
+    ]
+  },
+  "Q1046250": {
+    "wikidataId": "Q1046250",
+    "wikipediaTitle": "Roman_Inquisition",
+    "canonicalTitle": "Roman Inquisition",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "entity-roman-inquisition",
+        "nodeTitle": "Roman Inquisition"
+      }
+    ]
+  }
+}

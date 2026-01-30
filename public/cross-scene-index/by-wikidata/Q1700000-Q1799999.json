@@ -1,0 +1,106 @@
+{
+  "Q1778799": {
+    "wikidataId": "Q1778799",
+    "wikipediaTitle": "BBC_Radiophonic_Workshop",
+    "canonicalTitle": "BBC Radiophonic Workshop",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-bbc-radiophonic",
+        "nodeTitle": "BBC Radiophonic Workshop"
+      }
+    ]
+  },
+  "Q1747160": {
+    "wikidataId": "Q1747160",
+    "wikipediaTitle": "Tableau_économique",
+    "canonicalTitle": "Tableau économique",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-tableau-economique",
+        "nodeTitle": "Tableau économique"
+      }
+    ]
+  },
+  "Q1735077": {
+    "wikidataId": "Q1735077",
+    "wikipediaTitle": "Kaspar_Megander",
+    "canonicalTitle": "Kaspar Megander",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-kaspar-megander",
+        "nodeTitle": "Kaspar Megander"
+      }
+    ]
+  },
+  "Q1756294": {
+    "wikidataId": "Q1756294",
+    "wikipediaTitle": "Thomas_Bilney",
+    "canonicalTitle": "Thomas Bilney",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-thomas-bilney",
+        "nodeTitle": "Thomas Bilney"
+      }
+    ]
+  },
+  "Q1786655": {
+    "wikidataId": "Q1786655",
+    "wikipediaTitle": "Radical_Reformation",
+    "canonicalTitle": "Radical Reformation",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-radical-reformation",
+        "nodeTitle": "Radical Reformation"
+      }
+    ]
+  },
+  "Q1700457": {
+    "wikidataId": "Q1700457",
+    "wikipediaTitle": "John_Heydon_(astrologer)",
+    "canonicalTitle": "John Heydon",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "person-john-heydon",
+        "nodeTitle": "John Heydon"
+      }
+    ]
+  },
+  "Q1757843": {
+    "wikidataId": "Q1757843",
+    "wikipediaTitle": "The_Doctrine_of_Chances",
+    "canonicalTitle": "The Doctrine of Chances",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-doctrine-of-chances",
+        "nodeTitle": "The Doctrine of Chances"
+      }
+    ]
+  },
+  "Q1796310": {
+    "wikidataId": "Q1796310",
+    "wikipediaTitle": "Königsberg_Observatory",
+    "canonicalTitle": "Königsberg Observatory",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "location-konigsberg-observatory",
+        "nodeTitle": "Königsberg Observatory"
+      }
+    ]
+  }
+}

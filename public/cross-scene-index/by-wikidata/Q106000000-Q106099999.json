@@ -1,0 +1,15 @@
+{
+  "Q106006054": {
+    "wikidataId": "Q106006054",
+    "wikipediaTitle": "Anthropic",
+    "canonicalTitle": "Anthropic",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-anthropic",
+        "nodeTitle": "Anthropic"
+      }
+    ]
+  }
+}

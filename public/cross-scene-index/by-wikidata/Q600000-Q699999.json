@@ -1,0 +1,496 @@
+{
+  "Q690282": {
+    "wikidataId": "Q690282",
+    "wikipediaTitle": "Klaus_Dinger",
+    "canonicalTitle": "Klaus Dinger",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-klaus-dinger",
+        "nodeTitle": "Klaus Dinger"
+      }
+    ]
+  },
+  "Q642815": {
+    "wikidataId": "Q642815",
+    "wikipediaTitle": "Phaedra_(album)",
+    "canonicalTitle": "Phaedra",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-td-phaedra",
+        "nodeTitle": "Phaedra"
+      }
+    ]
+  },
+  "Q656796": {
+    "wikidataId": "Q656796",
+    "wikipediaTitle": "New_Age_of_Earth",
+    "canonicalTitle": "New Age of Earth",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "object-gottsching-new-age",
+        "nodeTitle": "New Age of Earth"
+      }
+    ]
+  },
+  "Q667023": {
+    "wikidataId": "Q667023",
+    "wikipediaTitle": "Hansa_Tonstudio",
+    "canonicalTitle": "Hansa Studio",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-hansa",
+        "nodeTitle": "Hansa Studio"
+      }
+    ]
+  },
+  "Q638859": {
+    "wikidataId": "Q638859",
+    "wikipediaTitle": "Mills_College",
+    "canonicalTitle": "Mills College",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-mills",
+        "nodeTitle": "Mills College"
+      }
+    ]
+  },
+  "Q662355": {
+    "wikidataId": "Q662355",
+    "wikipediaTitle": "Kunstakademie_Düsseldorf",
+    "canonicalTitle": "Düsseldorf Art Academy",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "loc-dusseldorf-academy",
+        "nodeTitle": "Düsseldorf Art Academy"
+      }
+    ]
+  },
+  "Q679697": {
+    "wikidataId": "Q679697",
+    "wikipediaTitle": "Faust_(band)",
+    "canonicalTitle": "Faust",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "entity-faust",
+        "nodeTitle": "Faust"
+      }
+    ]
+  },
+  "Q699355": {
+    "wikidataId": "Q699355",
+    "wikipediaTitle": "Holger_Czukay",
+    "canonicalTitle": "Holger Czukay",
+    "appearances": [
+      {
+        "datasetId": "ambient-music",
+        "datasetName": "Ambient Music Network",
+        "nodeId": "person-holger-czukay",
+        "nodeTitle": "Holger Czukay"
+      }
+    ]
+  },
+  "Q699096": {
+    "wikidataId": "Q699096",
+    "wikipediaTitle": "Elijah_Levita",
+    "canonicalTitle": "Elijah Levita",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "person-elijah-levita",
+        "nodeTitle": "Elijah Levita"
+      }
+    ]
+  },
+  "Q646795": {
+    "wikidataId": "Q646795",
+    "wikipediaTitle": "Steganographia",
+    "canonicalTitle": "Steganographia",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-steganographia",
+        "nodeTitle": "Steganographia"
+      }
+    ]
+  },
+  "Q672269": {
+    "wikidataId": "Q672269",
+    "wikipediaTitle": "Letters_of_Obscure_Men",
+    "canonicalTitle": "Epistolae Obscurorum Virorum",
+    "appearances": [
+      {
+        "datasetId": "christian-kabbalah",
+        "datasetName": "Christian Kabbalist Network",
+        "nodeId": "object-letters-obscure-men",
+        "nodeTitle": "Epistolae Obscurorum Virorum"
+      }
+    ]
+  },
+  "Q683246": {
+    "wikidataId": "Q683246",
+    "wikipediaTitle": "Donald_O._Hebb",
+    "canonicalTitle": "Donald Hebb",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "person-donald-hebb",
+        "nodeTitle": "Donald Hebb"
+      }
+    ]
+  },
+  "Q690207": {
+    "wikidataId": "Q690207",
+    "wikipediaTitle": "Perceptron",
+    "canonicalTitle": "Mark I Perceptron",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "object-perceptron-hardware",
+        "nodeTitle": "Mark I Perceptron"
+      }
+    ]
+  },
+  "Q635642": {
+    "wikidataId": "Q635642",
+    "wikipediaTitle": "Institute_for_Advanced_Study",
+    "canonicalTitle": "Institute for Advanced Study",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-ias-princeton",
+        "nodeTitle": "Institute for Advanced Study"
+      }
+    ]
+  },
+  "Q604924": {
+    "wikidataId": "Q604924",
+    "wikipediaTitle": "SRI_International",
+    "canonicalTitle": "Stanford Research Institute (SRI)",
+    "appearances": [
+      {
+        "datasetId": "cybernetics-information-theory",
+        "datasetName": "Cybernetics & Information Theory",
+        "nodeId": "location-sri",
+        "nodeTitle": "Stanford Research Institute (SRI)"
+      }
+    ]
+  },
+  "Q656976": {
+    "wikidataId": "Q656976",
+    "wikipediaTitle": "Dictionnaire_philosophique",
+    "canonicalTitle": "Philosophical Dictionary",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "object-philosophical-dictionary",
+        "nodeTitle": "Philosophical Dictionary"
+      }
+    ]
+  },
+  "Q672420": {
+    "wikidataId": "Q672420",
+    "wikipediaTitle": "University_of_Königsberg",
+    "canonicalTitle": "University of Königsberg",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "location-univ-konigsberg",
+        "nodeTitle": "University of Königsberg"
+      }
+    ]
+  },
+  "Q620629": {
+    "wikidataId": "Q620629",
+    "wikipediaTitle": "Deism",
+    "canonicalTitle": "Deism",
+    "appearances": [
+      {
+        "datasetId": "enlightenment",
+        "datasetName": "Enlightenment Intellectual Network",
+        "nodeId": "entity-deism",
+        "nodeTitle": "Deism"
+      }
+    ]
+  },
+  "Q606879": {
+    "wikidataId": "Q606879",
+    "wikipediaTitle": "Enneads",
+    "canonicalTitle": "Enneads",
+    "appearances": [
+      {
+        "datasetId": "florentine-academy",
+        "datasetName": "Florentine Academy",
+        "nodeId": "object-enneads",
+        "nodeTitle": "Enneads"
+      }
+    ]
+  },
+  "Q647264": {
+    "wikidataId": "Q647264",
+    "wikipediaTitle": "John_Hooper_(bishop)",
+    "canonicalTitle": "John Hooper",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "person-john-hooper",
+        "nodeTitle": "John Hooper"
+      }
+    ]
+  },
+  "Q619586": {
+    "wikidataId": "Q619586",
+    "wikipediaTitle": "Apology_of_the_Augsburg_Confession",
+    "canonicalTitle": "Apology of the Augsburg Confession",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-apology-augsburg",
+        "nodeTitle": "Apology of the Augsburg Confession"
+      }
+    ]
+  },
+  "Q676162": {
+    "wikidataId": "Q676162",
+    "wikipediaTitle": "Second_Helvetic_Confession",
+    "canonicalTitle": "Second Helvetic Confession",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "object-second-helvetic-confession",
+        "nodeTitle": "Second Helvetic Confession"
+      }
+    ]
+  },
+  "Q684948": {
+    "wikidataId": "Q684948",
+    "wikipediaTitle": "Grossmünster",
+    "canonicalTitle": "Grossmünster",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "location-grossmunster",
+        "nodeTitle": "Grossmünster"
+      }
+    ]
+  },
+  "Q672138": {
+    "wikidataId": "Q672138",
+    "wikipediaTitle": "Marburg_Colloquy",
+    "canonicalTitle": "Marburg Colloquy",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-marburg-colloquy",
+        "nodeTitle": "Marburg Colloquy"
+      }
+    ]
+  },
+  "Q688998": {
+    "wikidataId": "Q688998",
+    "wikipediaTitle": "Leipzig_Debate",
+    "canonicalTitle": "Leipzig Debate",
+    "appearances": [
+      {
+        "datasetId": "protestant-reformation",
+        "datasetName": "Protestant Reformation Network",
+        "nodeId": "entity-leipzig-debate",
+        "nodeTitle": "Leipzig Debate"
+      }
+    ]
+  },
+  "Q668134": {
+    "wikidataId": "Q668134",
+    "wikipediaTitle": "Pier_Paolo_Vergerio",
+    "canonicalTitle": "Pier Paolo Vergerio the Elder",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-pier-paolo-vergerio",
+        "nodeTitle": "Pier Paolo Vergerio the Elder"
+      }
+    ]
+  },
+  "Q646092": {
+    "wikidataId": "Q646092",
+    "wikipediaTitle": "Beatus_Rhenanus",
+    "canonicalTitle": "Beatus Rhenanus",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-beatus-rhenanus",
+        "nodeTitle": "Beatus Rhenanus"
+      }
+    ]
+  },
+  "Q666687": {
+    "wikidataId": "Q666687",
+    "wikipediaTitle": "Juan_de_Valdés",
+    "canonicalTitle": "Juan de Valdés",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "person-juan-de-valdes",
+        "nodeTitle": "Juan de Valdés"
+      }
+    ]
+  },
+  "Q691766": {
+    "wikidataId": "Q691766",
+    "wikipediaTitle": "Florentine_Histories",
+    "canonicalTitle": "Istorie fiorentine",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-istorie-fiorentine",
+        "nodeTitle": "Istorie fiorentine"
+      }
+    ]
+  },
+  "Q624852": {
+    "wikidataId": "Q624852",
+    "wikipediaTitle": "Essays_(Montaigne)",
+    "canonicalTitle": "Essais",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "object-essais",
+        "nodeTitle": "Essais"
+      }
+    ]
+  },
+  "Q677173": {
+    "wikidataId": "Q677173",
+    "wikipediaTitle": "House_of_Este",
+    "canonicalTitle": "Este Patronage (Ferrara)",
+    "appearances": [
+      {
+        "datasetId": "renaissance-humanism",
+        "datasetName": "Renaissance Humanism",
+        "nodeId": "entity-este-patronage",
+        "nodeTitle": "Este Patronage (Ferrara)"
+      }
+    ]
+  },
+  "Q672023": {
+    "wikidataId": "Q672023",
+    "wikipediaTitle": "Schwenkfelder_Church",
+    "canonicalTitle": "Schwenckfelder Movement",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-schwenckfelder-movement",
+        "nodeTitle": "Schwenckfelder Movement"
+      }
+    ]
+  },
+  "Q604837": {
+    "wikidataId": "Q604837",
+    "wikipediaTitle": "Hartlib_Circle",
+    "canonicalTitle": "Hartlib Circle",
+    "appearances": [
+      {
+        "datasetId": "rosicrucian-network",
+        "datasetName": "Rosicrucian-Paracelsian Network",
+        "nodeId": "entity-hartlib-circle",
+        "nodeTitle": "Hartlib Circle"
+      }
+    ]
+  },
+  "Q652054": {
+    "wikidataId": "Q652054",
+    "wikipediaTitle": "Sidereus_Nuncius",
+    "canonicalTitle": "Sidereus Nuncius",
+    "appearances": [
+      {
+        "datasetId": "scientific-revolution",
+        "datasetName": "Scientific Revolution",
+        "nodeId": "object-sidereus-nuncius",
+        "nodeTitle": "Sidereus Nuncius"
+      }
+    ]
+  },
+  "Q658008": {
+    "wikidataId": "Q658008",
+    "wikipediaTitle": "John_Theophilus_Desaguliers",
+    "canonicalTitle": "John Theophilus Desaguliers",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "person-john-desaguliers",
+        "nodeTitle": "John Theophilus Desaguliers"
+      }
+    ]
+  },
+  "Q653553": {
+    "wikidataId": "Q653553",
+    "wikipediaTitle": "Society_of_Antiquaries_of_London",
+    "canonicalTitle": "Society of Antiquaries of London",
+    "appearances": [
+      {
+        "datasetId": "speculative-freemasonry",
+        "datasetName": "Origins of Speculative Freemasonry",
+        "nodeId": "entity-society-antiquaries",
+        "nodeTitle": "Society of Antiquaries of London"
+      }
+    ]
+  },
+  "Q623586": {
+    "wikidataId": "Q623586",
+    "wikipediaTitle": "Ars_Conjectandi",
+    "canonicalTitle": "Ars Conjectandi",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "object-ars-conjectandi",
+        "nodeTitle": "Ars Conjectandi"
+      }
+    ]
+  },
+  "Q673175": {
+    "wikidataId": "Q673175",
+    "wikipediaTitle": "Biometrika",
+    "canonicalTitle": "Biometrika",
+    "appearances": [
+      {
+        "datasetId": "statistics-social-physics",
+        "datasetName": "Measurement, Statistics & the Calculus of Society",
+        "nodeId": "entity-biometrika",
+        "nodeTitle": "Biometrika"
+      }
+    ]
+  }
+}

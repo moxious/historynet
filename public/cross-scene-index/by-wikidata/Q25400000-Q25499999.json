@@ -1,0 +1,15 @@
+{
+  "Q25460599": {
+    "wikidataId": "Q25460599",
+    "wikipediaTitle": "Richard_Socher",
+    "canonicalTitle": "Richard Socher",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-richard-socher",
+        "nodeTitle": "Richard Socher"
+      }
+    ]
+  }
+}

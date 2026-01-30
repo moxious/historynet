@@ -1,0 +1,15 @@
+{
+  "Q15733006": {
+    "wikidataId": "Q15733006",
+    "wikipediaTitle": "Google_DeepMind",
+    "canonicalTitle": "DeepMind",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "entity-deepmind",
+        "nodeTitle": "DeepMind"
+      }
+    ]
+  }
+}

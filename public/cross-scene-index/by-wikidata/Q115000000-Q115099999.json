@@ -1,0 +1,15 @@
+{
+  "Q115035180": {
+    "wikidataId": "Q115035180",
+    "wikipediaTitle": "ChatGPT",
+    "canonicalTitle": "ChatGPT",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "object-chatgpt",
+        "nodeTitle": "ChatGPT"
+      }
+    ]
+  }
+}

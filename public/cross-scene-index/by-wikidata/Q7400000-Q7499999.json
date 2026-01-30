@@ -1,0 +1,28 @@
+{
+  "Q7407929": {
+    "wikidataId": "Q7407929",
+    "wikipediaTitle": "Sam_Altman",
+    "canonicalTitle": "Sam Altman",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-sam-altman",
+        "nodeTitle": "Sam Altman"
+      }
+    ]
+  },
+  "Q7489091": {
+    "wikidataId": "Q7489091",
+    "wikipediaTitle": "Shane_Legg",
+    "canonicalTitle": "Shane Legg",
+    "appearances": [
+      {
+        "datasetId": "ai-llm-research",
+        "datasetName": "AI & LLM Research Network",
+        "nodeId": "person-shane-legg",
+        "nodeTitle": "Shane Legg"
+      }
+    ]
+  }
+}
