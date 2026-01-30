@@ -9,8 +9,9 @@ import * as d3 from 'd3';
 import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
 import { isPersonNode } from '@types';
-import { getNodeColor, getEdgeColor, getNodeTypeEmoji, parseYear, createSegmentedScale, getTickGranularity, generateTicks } from '@utils';
+import { getNodeColorWithMultiScene, getEdgeColor, getNodeTypeEmoji, parseYear, createSegmentedScale, getTickGranularity, generateTicks } from '@utils';
 import type { SegmentedScale, TickGranularity } from '@utils';
+import { useCrossSceneData } from '@contexts';
 import './TimelineLayout.css';
 
 /**
@@ -46,6 +47,10 @@ interface TimelineEvent {
   isLeft?: boolean;
   /** Stacking offset for events at the same date */
   stackOffset?: number;
+  /** Cross-scene discovery indicator */
+  isMultiScene: boolean;
+  /** Total number of datasets this node appears in */
+  totalDatasets: number;
 }
 
 /**
@@ -123,11 +128,11 @@ function getEventTypeLabel(type: EventType): string {
 }
 
 /**
- * Get event color based on event type
+ * Get event color based on event type and multi-scene status
  */
-function getEventColor(type: EventType, nodeType: NodeType): string {
-  // Use the node's base color but vary by event type
-  const baseColor = getNodeColor(nodeType);
+function getEventColor(type: EventType, nodeType: NodeType, isMultiScene: boolean = false): string {
+  // Use the node's base color (darkened for multi-scene nodes)
+  const baseColor = getNodeColorWithMultiScene(nodeType, isMultiScene);
   if (type === 'death') {
     // Slightly darker/muted for death events
     return baseColor;
@@ -244,6 +249,9 @@ export function TimelineLayout({
   const [currentZoomScale, setCurrentZoomScale] = useState(ZOOM_BREAKPOINTS.desktop.scale);
   const [currentGranularity, setCurrentGranularity] = useState<TickGranularity>('decade');
 
+  // Get cross-scene data context for multi-scene indicators
+  const { getCrossSceneData } = useCrossSceneData();
+
   // Process nodes into discrete events
   const { events, timelineEdges, yearRange, undatedNodes, datedYears, nodeEventMap, eventsPerYear } = useMemo(() => {
     const allEvents: TimelineEvent[] = [];
@@ -256,6 +264,12 @@ export function TimelineLayout({
     for (const node of data.nodes) {
       const startYear = parseYear(node.dateStart);
       const endYear = parseYear(node.dateEnd);
+
+      // Get cross-scene data for multi-scene indicators
+      const crossSceneData = getCrossSceneData(node);
+      const totalAppearances = crossSceneData.data?.totalAppearances ?? 0;
+      const isMultiScene = totalAppearances >= 2;
+      const totalDatasets = totalAppearances;
 
       // Track for edges
       const eventMap: NodeEventMap = { nodeId: node.id };
@@ -271,6 +285,8 @@ export function TimelineLayout({
             nodeType: node.type,
             title: node.title,
             originalNode: node,
+            isMultiScene,
+            totalDatasets,
           };
           allEvents.push(birthEvent);
           eventMap.birthEvent = birthEvent;
@@ -288,6 +304,8 @@ export function TimelineLayout({
             nodeType: node.type,
             title: node.title,
             originalNode: node,
+            isMultiScene,
+            totalDatasets,
           };
           allEvents.push(deathEvent);
           eventMap.deathEvent = deathEvent;
@@ -310,6 +328,8 @@ export function TimelineLayout({
             nodeType: node.type,
             title: node.title,
             originalNode: node,
+            isMultiScene,
+            totalDatasets,
           };
           allEvents.push(event);
           eventMap.primaryEvent = event;
@@ -374,7 +394,7 @@ export function TimelineLayout({
       nodeEventMap: nodeToEvents,
       eventsPerYear,
     };
-  }, [data]);
+  }, [data, getCrossSceneData]);
 
   // Create segmented scale that compresses large gaps in the timeline
   const segmentedScaleRef = useRef<SegmentedScale | null>(null);
@@ -616,6 +636,14 @@ export function TimelineLayout({
         }
       });
 
+    // Add tooltips - show network count for multi-scene nodes
+    eventElements.append('title').text((d) => {
+      if (d.isMultiScene && d.totalDatasets > 1) {
+        return `${d.title} · In ${d.totalDatasets} networks`;
+      }
+      return d.title;
+    });
+
     // Get theme-aware colors from CSS custom properties
     const computedStyle = getComputedStyle(document.documentElement);
     const nodeStrokeColor = computedStyle.getPropertyValue('--color-graph-node-stroke').trim() || '#ffffff';
@@ -624,11 +652,12 @@ export function TimelineLayout({
     const textMutedColor = computedStyle.getPropertyValue('--color-text-muted').trim() || '#64748b';
 
     // Add event markers on the axis
+    // Multi-scene nodes get a 20% darker color
     eventElements
       .append('circle')
       .attr('class', 'timeline-event-marker')
       .attr('r', EVENT_MARKER_SIZE / 2)
-      .attr('fill', (d) => getEventColor(d.type, d.nodeType))
+      .attr('fill', (d) => getEventColor(d.type, d.nodeType, d.isMultiScene))
       .attr('stroke', nodeStrokeColor)
       .attr('stroke-width', 2);
 
@@ -688,11 +717,12 @@ export function TimelineLayout({
       });
 
     // Add special marker for death events (hollow circle)
+    // Multi-scene nodes get a 20% darker stroke color
     eventElements
       .filter((d) => d.type === 'death')
       .select('.timeline-event-marker')
       .attr('fill', computedStyle.getPropertyValue('--color-surface').trim() || '#fff')
-      .attr('stroke', (d) => getEventColor(d.type, d.nodeType))
+      .attr('stroke', (d) => getEventColor(d.type, d.nodeType, d.isMultiScene))
       .attr('stroke-width', 3);
 
     // Draw undated section if there are undated nodes
@@ -741,14 +771,35 @@ export function TimelineLayout({
           }
         });
 
+      // Add tooltips - show network count for multi-scene nodes
+      undatedElements.append('title').text((d) => {
+        const crossSceneData = getCrossSceneData(d);
+        const totalDatasets = crossSceneData.data?.totalAppearances ?? 0;
+        if (totalDatasets > 1) {
+          return `${d.title} · In ${totalDatasets} networks`;
+        }
+        return d.title;
+      });
+
       // Add circular background for undated nodes
+      // Multi-scene nodes get a 20% darker color
       undatedElements
         .append('circle')
         .attr('class', 'timeline-undated-background')
         .attr('r', 16)
-        .attr('fill', (d) => getNodeColor(d.type))
+        .attr('fill', (d) => {
+          const crossSceneData = getCrossSceneData(d);
+          const totalAppearances = crossSceneData.data?.totalAppearances ?? 0;
+          const isMultiScene = totalAppearances >= 2;
+          return getNodeColorWithMultiScene(d.type, isMultiScene);
+        })
         .attr('fill-opacity', 0.2)
-        .attr('stroke', (d) => getNodeColor(d.type))
+        .attr('stroke', (d) => {
+          const crossSceneData = getCrossSceneData(d);
+          const totalAppearances = crossSceneData.data?.totalAppearances ?? 0;
+          const isMultiScene = totalAppearances >= 2;
+          return getNodeColorWithMultiScene(d.type, isMultiScene);
+        })
         .attr('stroke-width', 2);
 
       // Add emoji for undated nodes
@@ -844,6 +895,7 @@ export function TimelineLayout({
     eventsPerYear,
     onNodeClick,
     onEdgeClick,
+    getCrossSceneData,
   ]);
 
   // Update edges when selection changes (without re-rendering the whole timeline)

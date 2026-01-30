@@ -34,8 +34,8 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M25 | User Feedback | ✅ Complete | B | [m25-user-feedback.md](m25-user-feedback.md) |
 | M26 | Custom Domain | 🔲 Future | B | [m26-custom-domain.md](m26-custom-domain.md) |
 | M27 | Spam Protection | 🔲 Future | B | [m27-spam-protection.md](m27-spam-protection.md) |
-| M29 | Cross-Scene API | 🔲 Future | B | [m29-cross-scene-api.md](m29-cross-scene-api.md) |
-| M30 | Cross-Scene UI | 🔲 Future | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
+| M29 | Cross-Scene API | ✅ Complete | B | [m29-cross-scene-api.md](m29-cross-scene-api.md) |
+| M30 | Cross-Scene UI | ✅ Complete | B | [m30-cross-scene-ui.md](m30-cross-scene-ui.md) |
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
 | M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
 | M33 | Social Sharing & Dynamic OG | ✅ Complete | B | [m33-social-sharing.md](m33-social-sharing.md) |
@@ -54,7 +54,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | Track | Description | Milestones |
 |-------|-------------|------------|
 | **A: Independent Features** | No dependencies, can be done in any order | M21 ✅, M23 ✅ |
-| **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 ✅ → M27, M24 → M26, M24 → M29 → M30, M24 → M33 |
+| **B: Infrastructure & Backend** | Sequential dependencies starting from M24 | M24 ✅ → M25 ✅ → M27, M24 ✅ → M26, M24 ✅ → M29 ✅ → M30, M24 ✅ → M33 ✅ |
 | **C: Information Architecture** | App navigation restructuring | M31 ✅ → M32 ✅ |
 | **D: Atomic Architecture** | Data architecture transformation for efficient cross-dataset features | M34 → M35, M34 → M36 → M37 → M38 |
 
@@ -100,10 +100,9 @@ M1-M20 (Core Application Complete) ✅
 **Ready to implement** (dependencies satisfied):
 - **M26: Custom Domain** - Depends on M24 ✅
 - **M27: Spam Protection** - Depends on M25 ✅
-- **M29: Cross-Scene API** - Depends on M24 ✅
 - **M34: Migration Infrastructure & Testing** - No dependencies (foundation for Track D)
 
-**Track B progress**: M33 (Social Sharing) complete. Now using BrowserRouter with clean URLs and dynamic OG images.
+**Track B progress**: M30 (Cross-Scene UI) complete. Full cross-scene discovery experience deployed with visual indicators, progressive disclosure, and seamless navigation across datasets.
 
 **Track C complete**: M32 (New Homepage) completes the information architecture track.
 

@@ -1,8 +1,8 @@
 # M29 & M30 Implementation Handoff
 
 **Date**: 2026-01-30
-**Status**: Ready for implementation
-**Agent Instructions**: Complete M29 fully before starting M30
+**Status**: M29 Complete ✅ | M30 Ready for implementation
+**Agent Instructions**: M29 is deployed and working. Ready to start M30.
 
 ---
 
@@ -115,13 +115,13 @@ See [m29-cross-scene-api.md](./m29-cross-scene-api.md) for full task list:
 
 ### Validation Before Moving to M30
 
-- [ ] Index generated for all 12 datasets
-- [ ] API returns London (Q84) in 8 datasets
-- [ ] API returns Paris (Q90) in 7 datasets
-- [ ] API returns Isaac Newton (Q935) in 3 datasets
-- [ ] Batch API works (50 nodes in one request)
-- [ ] Response times: single < 200ms, batch < 500ms
-- [ ] Deployed to Vercel and accessible
+- [x] Index generated for all 12 datasets ✅
+- [x] API returns London (Q84) in 8 datasets ✅ (verified: https://scenius-seven.vercel.app/api/node-scenes?wikidataId=Q84)
+- [x] API returns Paris (Q90) in 7 datasets ✅ (verified: https://scenius-seven.vercel.app/api/node-scenes?wikidataId=Q90)
+- [x] API returns Isaac Newton (Q935) in 3 datasets ✅ (verified: https://scenius-seven.vercel.app/api/node-scenes?wikidataId=Q935)
+- [x] Batch API works (50 nodes in one request) ✅
+- [x] Response times: single < 200ms, batch < 500ms ✅
+- [x] Deployed to Vercel and accessible ✅
 
 ---
 
@@ -190,11 +190,14 @@ See [m30-cross-scene-ui.md](./m30-cross-scene-ui.md) for full task list:
 ## Definition of Done
 
 ### M29 Complete When:
-- Index builds successfully
-- API returns correct data for test entities
-- Deployed to Vercel
-- CI rebuilds index on changes
-- Performance targets met (< 200ms single, < 500ms batch)
+- [x] Index builds successfully ✅
+- [x] API returns correct data for test entities ✅
+- [x] Deployed to Vercel ✅
+- [x] CI rebuilds index on changes ✅ (vercel.json buildCommand)
+- [x] Performance targets met (< 200ms single, < 500ms batch) ✅
+
+**M29 Status: COMPLETE (2026-01-30)**
+**Live API**: https://scenius-seven.vercel.app/api/node-scenes
 
 ### M30 Complete When:
 - All 26 tasks checked off
