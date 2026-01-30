@@ -7,7 +7,8 @@ import { useEffect, useRef, useCallback, useState, useMemo } from 'react';
 import * as d3 from 'd3';
 import type { GraphNode, NodeType, GraphEdge } from '@types';
 import type { LayoutComponentProps } from './types';
-import { getNodeColor, getEdgeColor, getNodeTypeEmoji } from '@utils';
+import { getNodeColorWithMultiScene, getEdgeColor, getNodeTypeEmoji } from '@utils';
+import { useCrossSceneData } from '@contexts';
 import './RadialLayout.css';
 
 /**
@@ -21,6 +22,9 @@ interface RadialNode {
   x: number;
   y: number;
   isCenter: boolean;
+  // Cross-scene discovery indicator
+  isMultiScene: boolean;
+  totalDatasets: number;
 }
 
 /**
@@ -70,6 +74,9 @@ export function RadialLayout({
   const svgRef = useRef<SVGSVGElement>(null);
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+
+  // Get cross-scene data context for multi-scene indicators
+  const { getCrossSceneData } = useCrossSceneData();
 
   // Handle container resize
   useEffect(() => {
@@ -162,6 +169,8 @@ export function RadialLayout({
     const radialNodes: RadialNode[] = [];
 
     // Center node
+    const centerCrossSceneData = getCrossSceneData(centerNode);
+    const centerTotalAppearances = centerCrossSceneData.data?.totalAppearances ?? 0;
     const centerRadialNode: RadialNode = {
       id: centerNode.id,
       type: centerNode.type,
@@ -170,6 +179,8 @@ export function RadialLayout({
       x: centerX,
       y: centerY,
       isCenter: true,
+      isMultiScene: centerTotalAppearances >= 2,
+      totalDatasets: centerTotalAppearances,
     };
     radialNodes.push(centerRadialNode);
 
@@ -179,6 +190,8 @@ export function RadialLayout({
 
     connectedNodes.forEach((node, index) => {
       const angle = startAngle + index * angleStep;
+      const crossSceneData = getCrossSceneData(node);
+      const totalAppearances = crossSceneData.data?.totalAppearances ?? 0;
       radialNodes.push({
         id: node.id,
         type: node.type,
@@ -187,6 +200,8 @@ export function RadialLayout({
         x: centerX + radius * Math.cos(angle),
         y: centerY + radius * Math.sin(angle),
         isCenter: false,
+        isMultiScene: totalAppearances >= 2,
+        totalDatasets: totalAppearances,
       });
     });
 
@@ -258,13 +273,22 @@ export function RadialLayout({
         }
       });
 
+    // Add tooltips - show network count for multi-scene nodes
+    nodeElements.append('title').text((d) => {
+      if (d.isMultiScene && d.totalDatasets > 1) {
+        return `${d.title} · In ${d.totalDatasets} networks`;
+      }
+      return d.title;
+    });
+
     // Add circular background for each node
+    // Multi-scene nodes get a 20% darker background color
     nodeElements
       .append('circle')
       .attr('r', (d) => (d.isCenter ? CENTER_NODE_RADIUS : NODE_RADIUS))
-      .attr('fill', (d) => getNodeColor(d.type))
+      .attr('fill', (d) => getNodeColorWithMultiScene(d.type, d.isMultiScene))
       .attr('fill-opacity', 0.2)
-      .attr('stroke', (d) => getNodeColor(d.type))
+      .attr('stroke', (d) => getNodeColorWithMultiScene(d.type, d.isMultiScene))
       .attr('stroke-width', (d) => (d.isCenter ? 3 : 2))
       .attr('class', 'node-background');
 

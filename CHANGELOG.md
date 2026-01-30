@@ -9,6 +9,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
+- **M29: Cross-Scene Node Index API** - Build-time index enabling cross-dataset entity discovery
+  - **Index Builder**: `scripts/build-cross-scene-index/index.ts` generates lookup indexes
+    - Scans all 12 datasets in `public/datasets/`
+    - Builds three parallel indexes: by-wikidata (sharded by QID range), by-wikipedia (titles), by-nodeid
+    - Supports entity matching on `wikidataId`, `wikipediaTitle`, or `nodeId`
+    - Memory-efficient streaming (processes one dataset at a time)
+  - **Index Output**: `public/cross-scene-index/` with manifest and lookup files
+    - `manifest.json`: Generation timestamp, dataset list, index stats
+    - `by-wikidata/Q{start}-Q{end}.json`: Sharded by 100k QID ranges (e.g., Q0-Q99999)
+    - `by-wikipedia/titles.json`: Keyed by Wikipedia page title
+    - `by-nodeid/nodeids.json`: Keyed by exact node ID
+  - **Serverless API**: `/api/node-scenes` endpoint for single and batch lookups
+    - Single lookup: `?wikidataId=Q84` or `?wikipediaTitle=London` or `?nodeId=location-london`
+    - Batch lookup: `?wikidataIds=Q84,Q90,Q935` (comma-separated, supports mixed types)
+    - Returns entity identity and list of datasets where entity appears
+    - Shard selection for efficient loading (only loads relevant index files)
+    - CORS enabled for cross-origin requests
+    - Graceful handling of not-found cases (empty appearances, not 404)
+  - **CI Integration**: Index rebuilds automatically on deployment
+    - `vercel.json` buildCommand: `npm run build:cross-scene-index && npm run build`
+    - npm script: `build:cross-scene-index` runs index generator
+  - **Verified Coverage**:
+    - London (Q84): Appears in 8 datasets ✅
+    - Paris (Q90): Appears in 7 datasets ✅
+    - Isaac Newton (Q935): Appears in 3 datasets ✅
+    - Batch API tested with multiple identifiers ✅
+  - **Live API**: https://scenius-seven.vercel.app/api/node-scenes
+  - **Blocks**: M30 (Cross-Scene UI) - M30 requires this API to be complete
+
 - **M33: Social Sharing & Dynamic OG Images** - Clean URLs and rich social previews
   - **Router Migration**: Replaced HashRouter with BrowserRouter for crawler-friendly URLs
     - URLs now use clean paths (e.g., `/ai-llm-research/node/person-geoffrey-hinton`)

@@ -27,8 +27,10 @@ import {
   isEntityNode,
 } from '@types';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
-import { useNodeEnrichedData } from '@hooks';
+import { useNodeEnrichedData, useCrossSceneAppearances } from '@hooks';
+import { useGraph } from '@contexts';
 import WikipediaAttribution from './WikipediaAttribution';
+import { CrossSceneTeaser, CrossSceneTeaserSkeleton } from './CrossSceneTeaser';
 
 interface NodeInfoboxProps {
   /** The node to display */
@@ -663,6 +665,14 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
   // Use enriched data with Wikipedia fallback
   const { enrichedData, handleImageError } = useNodeEnrichedData(node);
 
+  // Get cross-scene data for this node
+  const { currentDatasetId } = useGraph();
+  const {
+    appearances,
+    isLoading: crossSceneLoading,
+    error: crossSceneError,
+  } = useCrossSceneAppearances(node, currentDatasetId);
+
   // Track image loading state for spinner display
   const [imageLoading, setImageLoading] = useState(true);
 
@@ -792,6 +802,18 @@ function NodeInfobox({ node, edges, onNodeLinkClick, getNode }: NodeInfoboxProps
           edges={edges}
           getNode={getNode}
           onNodeLinkClick={onNodeLinkClick}
+        />
+      )}
+
+      {/* Cross-Scene Teaser */}
+      {crossSceneLoading && currentDatasetId && (
+        <CrossSceneTeaserSkeleton />
+      )}
+      {!crossSceneLoading && !crossSceneError && appearances.length > 0 && currentDatasetId && (
+        <CrossSceneTeaser
+          otherNetworksCount={appearances.length}
+          datasetId={currentDatasetId}
+          nodeId={node.id}
         />
       )}
 

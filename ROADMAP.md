@@ -30,12 +30,12 @@ This document outlines the future direction for Scenius.
 
 ### Track B: Infrastructure & Backend
 
-| # | Milestone | Description | Dependencies |
-|---|-----------|-------------|--------------|
-| M26 | Custom Domain | Configure custom domain on Vercel | M24 ✅ |
-| M27 | Feedback Spam Protection | Rate limiting and honeypot fields | M25 ✅ |
-| M29 | Cross-Scene Node Index API | Build-time index for cross-dataset node discovery | M24 ✅ |
-| M30 | Cross-Scene Navigation UI | UI to discover same person/entity across datasets | M29 |
+| # | Milestone | Description | Dependencies | Status |
+|---|-----------|-------------|--------------|--------|
+| M26 | Custom Domain | Configure custom domain on Vercel | M24 ✅ | 🔲 Future |
+| M27 | Feedback Spam Protection | Rate limiting and honeypot fields | M25 ✅ | 🔲 Future |
+| M29 | Cross-Scene Node Index API | Build-time index for cross-dataset node discovery | M24 ✅ | ✅ Complete |
+| M30 | Cross-Scene Navigation UI | UI to discover same person/entity across datasets | M29 ✅ | 🔲 Ready |
 
 ### Track D: Atomic Architecture
 

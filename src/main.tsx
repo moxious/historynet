@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { GraphProvider, ThemeProvider } from '@contexts';
+import { CrossSceneProviderWrapper } from '@components/CrossSceneProviderWrapper';
 import { initGA } from '@utils';
 import './index.css';
 import App from './App';
@@ -24,7 +25,9 @@ createRoot(document.getElementById('root')!).render(
       <HelmetProvider>
         <ThemeProvider>
           <GraphProvider>
-            <App />
+            <CrossSceneProviderWrapper>
+              <App />
+            </CrossSceneProviderWrapper>
           </GraphProvider>
         </ThemeProvider>
       </HelmetProvider>

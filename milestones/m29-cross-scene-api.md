@@ -1,6 +1,6 @@
 # M29: Cross-Scene Node Index API
 
-**Status**: 🔲 Future
+**Status**: ✅ Complete (2026-01-30)
 **Track**: B (Infrastructure & Backend)
 **Depends on**: M24 (Vercel Migration) ✅
 **Blocks**: M30 (Cross-Scene UI) - M30 requires this API to be complete
@@ -169,33 +169,33 @@ Batch parameters can be combined to look up mixed identifier types in one reques
 
 ### Index Build Script
 
-- [ ] **CS1** - Create `scripts/build-cross-scene-index/` directory
-- [ ] **CS2** - Implement dataset streaming (one at a time)
-- [ ] **CS3** - Build entity registry: merge nodes matching on any identifier
-- [ ] **CS4** - Add npm script: `npm run build:cross-scene-index`
+- [x] **CS1** - Create `scripts/build-cross-scene-index/` directory
+- [x] **CS2** - Implement dataset streaming (one at a time)
+- [x] **CS3** - Build entity registry: merge nodes matching on any identifier
+- [x] **CS4** - Add npm script: `npm run build:cross-scene-index`
 
 ### Index Output
 
-- [ ] **CS5** - Create `public/cross-scene-index/` directory structure
-- [ ] **CS6** - Generate `manifest.json` with index metadata and dataset list
-- [ ] **CS7** - Generate `by-wikidata/` sharded index files (Q-prefix ranges)
-- [ ] **CS8** - Generate `by-wikipedia/titles.json` index
-- [ ] **CS9** - Generate `by-nodeid/nodeids.json` index
+- [x] **CS5** - Create `public/cross-scene-index/` directory structure
+- [x] **CS6** - Generate `manifest.json` with index metadata and dataset list
+- [x] **CS7** - Generate `by-wikidata/` sharded index files (Q-prefix ranges)
+- [x] **CS8** - Generate `by-wikipedia/titles.json` index
+- [x] **CS9** - Generate `by-nodeid/nodeids.json` index
 
 ### Serverless Endpoint
 
-- [ ] **CS10** - Create `/api/node-scenes.ts` serverless function
-- [ ] **CS11** - Implement single-lookup: `?wikidataId=`, `?wikipediaTitle=`, `?nodeId=`
-- [ ] **CS12** - Implement batch-lookup: `?wikidataIds=`, `?wikipediaTitles=`, `?nodeIds=`
-- [ ] **CS13** - Load only relevant index files (shard selection)
-- [ ] **CS14** - Return appearances array (single) or results map (batch)
-- [ ] **CS15** - Handle not-found cases gracefully (empty appearances, not 404)
+- [x] **CS10** - Create `/api/node-scenes.ts` serverless function
+- [x] **CS11** - Implement single-lookup: `?wikidataId=`, `?wikipediaTitle=`, `?nodeId=`
+- [x] **CS12** - Implement batch-lookup: `?wikidataIds=`, `?wikipediaTitles=`, `?nodeIds=`
+- [x] **CS13** - Load only relevant index files (shard selection)
+- [x] **CS14** - Return appearances array (single) or results map (batch)
+- [x] **CS15** - Handle not-found cases gracefully (empty appearances, not 404)
 
 ### CI Integration
 
-- [ ] **CS16** - Add index rebuild to deployment workflow
-- [ ] **CS17** - Validate index generation with all datasets
-- [ ] **CS18** - Ensure index is included in Vercel deployment
+- [x] **CS16** - Add index rebuild to deployment workflow
+- [x] **CS17** - Validate index generation with all datasets
+- [x] **CS18** - Ensure index is included in Vercel deployment
 
 ## Key Deliverables
 
@@ -221,12 +221,29 @@ Batch parameters can be combined to look up mixed identifier types in one reques
 ## Validation Checklist
 
 Before marking milestone complete:
-- [ ] Index generated successfully for all 12 datasets
-- [ ] API returns correct results for London (Q84) - should show 8 datasets
-- [ ] API returns correct results for Paris (Q90) - should show 7 datasets
-- [ ] API returns correct results for Isaac Newton (Q935) - should show 3 datasets
-- [ ] API handles missing wikidataId gracefully (returns empty appearances)
-- [ ] Batch API works with 10+ node IDs in single request
-- [ ] Index rebuilds automatically on deployment
-- [ ] API response time < 200ms for single lookup
-- [ ] API response time < 500ms for batch lookup (50 nodes)
+- [x] Index generated successfully for all 12 datasets
+- [x] API returns correct results for London (Q84) - shows 8 datasets ✅
+- [x] API returns correct results for Paris (Q90) - shows 7 datasets ✅
+- [x] API returns correct results for Isaac Newton (Q935) - shows 3 datasets ✅
+- [x] API handles missing wikidataId gracefully (returns empty appearances)
+- [x] Batch API works with 10+ node IDs in single request
+- [x] Index rebuilds automatically on deployment (vercel.json buildCommand)
+- [x] API response time < 200ms for single lookup
+- [x] API response time < 500ms for batch lookup (50 nodes)
+
+## Implementation Details
+
+**Completed**: 2026-01-30
+
+**Files**:
+- `/api/node-scenes.ts` - Serverless API endpoint (365 lines)
+- `scripts/build-cross-scene-index/index.ts` - Index builder (331 lines)
+- `public/cross-scene-index/` - Generated index files
+- `vercel.json` - CI integration (line 4: `buildCommand`)
+
+**Live API**: https://scenius-seven.vercel.app/api/node-scenes
+
+**Example Queries**:
+- London: `?wikidataId=Q84` → 8 datasets
+- Isaac Newton: `?wikidataId=Q935` → 3 datasets
+- Paris: `?wikidataId=Q90` → 7 datasets

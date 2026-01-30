@@ -1,0 +1,114 @@
+/**
+ * CrossSceneTeaser Styles
+ */
+
+.cross-scene-teaser {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  color: var(--color-text-primary);
+  transition: all 0.2s ease;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cross-scene-teaser:hover {
+  background-color: var(--color-bg-tertiary);
+  border-color: var(--color-primary);
+}
+
+/* Desktop variant */
+.cross-scene-teaser--desktop {
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.cross-scene-teaser__content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+
+.cross-scene-teaser__icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.cross-scene-teaser__text {
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.cross-scene-teaser__link {
+  color: var(--color-primary);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Mobile variant */
+.cross-scene-teaser--mobile {
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 10px 12px;
+}
+
+.cross-scene-teaser--mobile .cross-scene-teaser__text {
+  flex: 1;
+}
+
+.cross-scene-teaser__arrow {
+  color: var(--color-primary);
+  font-weight: bold;
+  margin-left: auto;
+}
+
+/* Loading skeleton */
+.cross-scene-teaser--loading {
+  cursor: default;
+  pointer-events: none;
+}
+
+.cross-scene-teaser--loading:hover {
+  background-color: var(--color-bg-secondary);
+  border-color: var(--color-border);
+}
+
+.cross-scene-teaser__skeleton {
+  height: 16px;
+  background: linear-gradient(
+    90deg,
+    var(--color-bg-tertiary) 25%,
+    var(--color-bg-secondary) 50%,
+    var(--color-bg-tertiary) 75%
+  );
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s ease-in-out infinite;
+  border-radius: 4px;
+  flex: 1;
+  max-width: 200px;
+}
+
+.cross-scene-teaser--mobile .cross-scene-teaser__skeleton {
+  max-width: 120px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .cross-scene-teaser:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}

@@ -20,3 +20,5 @@ export type { EnrichedNodeData, DataSource, UseNodeEnrichedDataResult } from './
 export { useTopConnectedNodes, getTypeLabel, getTypeIcon } from './useTopConnectedNodes';
 export type { NodeWithDegree, TopConnectedByType } from './useTopConnectedNodes';
 export { usePageTracking } from './usePageTracking';
+export { useCrossSceneAppearances } from './useCrossSceneAppearances';
+export type { CrossSceneAppearancesResult } from './useCrossSceneAppearances';

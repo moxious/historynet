@@ -6,8 +6,9 @@ import { useEffect, useRef, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import type { GraphNode, NodeType } from '@types';
 import type { LayoutComponentProps } from './types';
-import { getNodeColor, getEdgeColor, getNodeTypeEmoji } from '@utils';
+import { getNodeColorWithMultiScene, getEdgeColor, getNodeTypeEmoji } from '@utils';
 import { GraphLegend } from '@components';
+import { useCrossSceneData } from '@contexts';
 import './ForceGraphLayout.css';
 
 /**
@@ -26,6 +27,9 @@ interface SimulationNode extends d3.SimulationNodeDatum {
   fy?: number | null;
   vx?: number;
   vy?: number;
+  // Cross-scene discovery indicator
+  isMultiScene: boolean;
+  totalDatasets: number;
   // Original node reference for accessing all properties
   originalNode: GraphNode;
 }
@@ -65,6 +69,9 @@ export function ForceGraphLayout({
   const simulationRef = useRef<d3.Simulation<SimulationNode, SimulationLink> | null>(null);
   const zoomRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+
+  // Get cross-scene data context for multi-scene indicators
+  const { getCrossSceneData } = useCrossSceneData();
 
   // Handle container resize
   useEffect(() => {
@@ -119,13 +126,20 @@ export function ForceGraphLayout({
     const labelGroup = g.append('g').attr('class', 'labels');
 
     // Prepare data for simulation - create SimulationNode wrappers
-    const nodes: SimulationNode[] = data.nodes.map((n) => ({
-      id: n.id,
-      type: n.type,
-      title: n.title,
-      shortDescription: n.shortDescription,
-      originalNode: n,
-    }));
+    // Include cross-scene data for visual indicators
+    const nodes: SimulationNode[] = data.nodes.map((n) => {
+      const crossSceneData = getCrossSceneData(n);
+      const totalAppearances = crossSceneData.data?.totalAppearances ?? 0;
+      return {
+        id: n.id,
+        type: n.type,
+        title: n.title,
+        shortDescription: n.shortDescription,
+        isMultiScene: totalAppearances >= 2,
+        totalDatasets: totalAppearances,
+        originalNode: n,
+      };
+    });
     const nodeMap = new Map(nodes.map((n) => [n.id, n]));
 
     const links: SimulationLink[] = [];
@@ -192,7 +206,7 @@ export function ForceGraphLayout({
         d3.select(this).attr('stroke-opacity', 0.6).attr('stroke-width', 2);
       });
 
-    // Create node groups
+    // Create node groups with tooltips
     const nodeElements = nodeGroup
       .selectAll<SVGGElement, SimulationNode>('g')
       .data(nodes)
@@ -226,18 +240,27 @@ export function ForceGraphLayout({
         }
       });
 
+    // Add tooltips - show network count for multi-scene nodes
+    nodeElements.append('title').text((d) => {
+      if (d.isMultiScene && d.totalDatasets > 1) {
+        return `${d.title} · In ${d.totalDatasets} networks`;
+      }
+      return d.title;
+    });
+
     // Add node backgrounds and emoji
     // Get theme-aware colors from CSS custom properties
     const computedStyle = getComputedStyle(document.documentElement);
     const graphTextColor = computedStyle.getPropertyValue('--color-graph-text').trim() || '#374151';
 
     // Add circular background for each node
+    // Multi-scene nodes get a 20% darker background color
     nodeElements
       .append('circle')
       .attr('r', NODE_RADIUS)
-      .attr('fill', (d) => getNodeColor(d.type))
+      .attr('fill', (d) => getNodeColorWithMultiScene(d.type, d.isMultiScene))
       .attr('fill-opacity', 0.2)
-      .attr('stroke', (d) => getNodeColor(d.type))
+      .attr('stroke', (d) => getNodeColorWithMultiScene(d.type, d.isMultiScene))
       .attr('stroke-width', 2)
       .attr('class', 'node-background');
 

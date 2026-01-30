@@ -15,9 +15,11 @@ import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl, getNodeTypeEmoji } from '@utils';
 import { useResourceParams, buildFullNodeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
 import { useNodeEnrichedData } from '@hooks';
+import { useCrossSceneAppearances } from '@hooks/useCrossSceneAppearances';
 import ResourceMeta, { buildNodeOgImageUrl } from '@components/ResourceMeta';
 import SchemaOrg from '@components/SchemaOrg';
 import WikipediaAttribution from '@components/WikipediaAttribution';
+import { CrossSceneSection } from '@components/CrossSceneSection';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
 
@@ -127,6 +129,12 @@ function NodeDetailPage() {
   // REACT: Hook called unconditionally; uses stub when node is null (R8)
   const stubNode: GraphNode = node ?? { id: '', type: 'person', title: '' };
   const { enrichedData, handleImageError } = useNodeEnrichedData(stubNode);
+
+  // Get cross-scene appearances for this node
+  const { appearances, isLoading: crossSceneLoading, error: crossSceneError } = useCrossSceneAppearances(
+    node,
+    datasetId
+  );
 
   // Track image loading state
   const [imageLoading, setImageLoading] = useState(true);
@@ -447,7 +455,7 @@ function NodeDetailPage() {
                   {node.foundedBy.map((founder, index) => (
                     <li key={typeof founder === 'string' ? founder : index}>
                       {typeof founder === 'string' && getNode(founder) ? (
-                        <button 
+                        <button
                           className="resource-detail__node-link"
                           onClick={() => handleNodeLinkClick(founder)}
                         >
@@ -466,7 +474,7 @@ function NodeDetailPage() {
                 <h2 className="resource-detail__section-title">Headquarters</h2>
                 <p className="resource-detail__text">
                   {typeof node.headquarters === 'string' && getNode(node.headquarters) ? (
-                    <button 
+                    <button
                       className="resource-detail__node-link"
                       onClick={() => handleNodeLinkClick(node.headquarters as string)}
                     >
@@ -485,7 +493,7 @@ function NodeDetailPage() {
                   {node.members.map((member, index) => (
                     <li key={typeof member === 'string' ? member : index}>
                       {typeof member === 'string' && getNode(member) ? (
-                        <button 
+                        <button
                           className="resource-detail__node-link"
                           onClick={() => handleNodeLinkClick(member)}
                         >
@@ -501,6 +509,14 @@ function NodeDetailPage() {
             )}
           </>
         )}
+
+        {/* Cross-Scene Section - Shows other networks where this entity appears */}
+        <CrossSceneSection
+          appearances={appearances}
+          isLoading={crossSceneLoading}
+          error={crossSceneError}
+          sourceDatasetId={datasetId}
+        />
 
         {/* External Links */}
         {node.externalLinks && node.externalLinks.length > 0 && (

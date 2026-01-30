@@ -45,6 +45,55 @@ export function getNodeColor(type: NodeType): string {
 }
 
 /**
+ * Darken a hex color by a given percentage
+ *
+ * @param hex - Hex color string (e.g., '#3b82f6')
+ * @param percent - Percentage to darken (0-100, default 20)
+ * @returns Darkened hex color
+ *
+ * @example
+ * darkenColor('#3b82f6', 20) // Returns darker blue
+ */
+export function darkenColor(hex: string, percent: number = 20): string {
+  // Remove # if present
+  const color = hex.replace('#', '');
+
+  // Parse RGB values
+  const r = parseInt(color.substring(0, 2), 16);
+  const g = parseInt(color.substring(2, 4), 16);
+  const b = parseInt(color.substring(4, 6), 16);
+
+  // Calculate darkened values (multiply by (100 - percent) / 100)
+  const factor = (100 - percent) / 100;
+  const newR = Math.round(r * factor);
+  const newG = Math.round(g * factor);
+  const newB = Math.round(b * factor);
+
+  // Convert back to hex
+  const toHex = (n: number) => {
+    const hex = n.toString(16);
+    return hex.length === 1 ? '0' + hex : hex;
+  };
+
+  return `#${toHex(newR)}${toHex(newG)}${toHex(newB)}`;
+}
+
+/**
+ * Get node color, optionally darkened for multi-scene nodes
+ *
+ * @param type - Node type
+ * @param isMultiScene - Whether the node appears in multiple datasets
+ * @returns Hex color string
+ */
+export function getNodeColorWithMultiScene(
+  type: NodeType,
+  isMultiScene: boolean = false
+): string {
+  const baseColor = getNodeColor(type);
+  return isMultiScene ? darkenColor(baseColor, 20) : baseColor;
+}
+
+/**
  * Get edge color based on relationship type
  */
 export function getEdgeColor(relationship: string): string {
