@@ -57,3 +57,34 @@ jobs:
           md += '\n_A few "wrong" per dataset are usually matcher false positives (renames, book→author links). A ⚠️ high rate indicates likely ID corruption — inspect with_ `npm run verify-ids -- --dataset <id>` _and remediate with_ `npm run verify-ids:fix -- --dataset <id> --clear-unverifiable`.';
           console.log(md);
           EOF
+
+      - name: Check evidence links (report only)
+        if: always()
+        run: npm run check-evidence --silent -- --json > check-evidence-report.json || true
+
+      - name: Publish evidence summary
+        if: always()
+        run: |
+          node <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require('fs');
+          let rows;
+          try {
+            rows = JSON.parse(fs.readFileSync('check-evidence-report.json', 'utf8'));
+          } catch {
+            console.log('\n## Evidence Link Check\n\n_Report unavailable — check-evidence produced no parseable output._');
+            process.exit(0);
+          }
+          const problems = rows.filter((d) => d.dead > 0 || d.missingEvidence > 0);
+          let md = '\n## Evidence Link Check\n\n';
+          if (problems.length === 0) {
+            md += '✅ No dead links or missing evidence across all datasets.';
+          } else {
+            md += '| Dataset | dead | missing-evidence | dead URLs |\n|---|--:|--:|:--|\n';
+            for (const d of problems) {
+              const urls = (d.deadLinks || []).map((l) => l.url).join('<br>') || '—';
+              md += `| ${d.datasetId} | ${d.dead} | ${d.missingEvidence} | ${urls} |\n`;
+            }
+            md += '\n_Fix dead links / add evidence, then re-check with_ `npm run check-evidence -- --dataset <id>`.';
+          }
+          console.log(md);
+          EOF
