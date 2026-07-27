@@ -38,24 +38,6 @@ function getTemporalRange(manifest: DatasetManifest): string | null {
   return null;
 }
 
-/**
- * Get the start year for sorting
- * Returns Infinity for datasets without a start year (places them at the end)
- */
-export function getStartYear(manifest: DatasetManifest): number {
-  if (manifest.scope?.startYear) {
-    return manifest.scope.startYear;
-  }
-  // Try to parse from temporalScope
-  if (manifest.temporalScope) {
-    const match = manifest.temporalScope.match(/^(\d{4})/);
-    if (match) {
-      return parseInt(match[1], 10);
-    }
-  }
-  return Infinity;
-}
-
 function DatasetTile({ manifest, className = '' }: DatasetTileProps) {
   const bannerEmoji = manifest.bannerEmoji || '❓';
   const temporalRange = getTemporalRange(manifest);

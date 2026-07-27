@@ -14,7 +14,8 @@ import { hasEvidence } from '@types';
 import { loadDataset, isValidDatasetId } from '@utils/dataLoader';
 import { sanitizeUrl, isValidImageUrl } from '@utils';
 import { useResourceParams, buildFullEdgeUrl, buildGraphViewUrl } from '@hooks/useResourceParams';
-import ResourceMeta, { buildEdgeOgImageUrl } from '@components/ResourceMeta';
+import ResourceMeta from '@components/ResourceMeta';
+import { buildEdgeOgImageUrl } from '@components/ResourceMeta.utils';
 import NotFoundPage from './NotFoundPage';
 import './ResourceDetailPage.css';
 

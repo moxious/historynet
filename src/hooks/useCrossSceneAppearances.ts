@@ -19,7 +19,7 @@ import type { GraphNode } from '@types';
 import {
   useCrossSceneData,
   type CrossSceneAppearance,
-} from '@contexts/CrossSceneContext';
+} from '@contexts/crossSceneContextCore';
 
 export interface CrossSceneAppearancesResult {
   /**

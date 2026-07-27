@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect, useCallback } from 'react';
 import { buildCrossSceneNodeUrl } from '@utils/crossScene';
 import { trackEvent } from '@utils/analytics';
-import type { CrossSceneAppearance } from '@contexts/CrossSceneContext';
+import type { CrossSceneAppearance } from '@contexts/crossSceneContextCore';
 import './CrossSceneNetworkCard.css';
 
 interface CrossSceneNetworkCardProps {
