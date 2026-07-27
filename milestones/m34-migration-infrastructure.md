@@ -1,8 +1,17 @@
 # M34: Migration Infrastructure & Testing
 
-**Status**: 🔄 In Progress (Phase 1 & 2 Complete)
+**Status**: ⏸ Paused / Deferred (Phases 1 & 2 landed via PR #36; Phases 3–5 + blockers B1–B4 deferred)
 **Track**: D (Atomic Architecture)
 **Depends on**: None (foundation for atomic architecture)
+
+> **Deferral note (2026-07-27)**: Phases 3–5 (atomic loader, runtime support,
+> migration execution) and the P0 review blockers B1–B4 below are a *conscious*
+> pause behind **Thread 2A** (format-agnostic pipeline scripting — see
+> `milestones/thread2-pipeline-optimization.md`). 2A (`enrich`, `sync-manifest`)
+> delivers pipeline ROI on the current format with zero migration risk and pays
+> off regardless of whether the atomic migration ships. Resume M34 deliberately
+> once 2A is in hand; the dry-run-only tooling from Phases 1–2 does not rot while
+> parked. Nothing here is abandoned — it is sequenced.
 
 ## Goal
 
