@@ -1,0 +1,2023 @@
+[
+  {
+    "nodeId": "person-geoffrey-hinton",
+    "title": "Geoffrey Hinton",
+    "type": "person",
+    "previousId": "Q7841039",
+    "previousResolvedTo": "Category:Works Progress Administration in Georgia (U.S. state)",
+    "candidates": [
+      {
+        "wikidataId": "Q92894",
+        "label": "Geoffrey Hinton",
+        "description": "British-Canadian computer scientist and psychologist"
+      },
+      {
+        "wikidataId": "Q75295861",
+        "label": "Geoffrey Hinton",
+        "description": "Peerage person ID=45209"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-jack-clark",
+    "title": "Jack Clark",
+    "type": "person",
+    "previousId": "Q108742779",
+    "previousResolvedTo": "Zygorhynchus exponens var. exponens",
+    "candidates": [
+      {
+        "wikidataId": "Q135111322",
+        "label": "Jack Clark",
+        "description": "AI policy expert"
+      },
+      {
+        "wikidataId": "Q42675274",
+        "label": "Jack A Clark",
+        "description": "researcher"
+      },
+      {
+        "wikidataId": "Q113364803",
+        "label": "Jack Clark",
+        "description": "Scottish cricketer"
+      },
+      {
+        "wikidataId": "Q130818000",
+        "label": "Jack Clark",
+        "description": "researcher (ORCID 0000-0003-3886-7657)"
+      },
+      {
+        "wikidataId": "Q3805601",
+        "label": "Jack J. Clark",
+        "description": "American actor and filmmaker (1879-1947)"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-tom-brown",
+    "title": "Tom Brown",
+    "type": "person",
+    "previousId": "Q108741880",
+    "previousResolvedTo": "Portrait of Annie Miller",
+    "candidates": [
+      {
+        "wikidataId": "Q7815096",
+        "label": "Tom Brown",
+        "description": "Scottish footballer (born 1919)"
+      },
+      {
+        "wikidataId": "Q114052496",
+        "label": "Tom Brown",
+        "description": "data scientist"
+      },
+      {
+        "wikidataId": "Q114053706",
+        "label": "Tom Brown",
+        "description": "Scottish journalist & political commentator"
+      },
+      {
+        "wikidataId": "Q121947216",
+        "label": "Tom Brown",
+        "description": "professional Australian rules footballer"
+      },
+      {
+        "wikidataId": "Q7815091",
+        "label": "Tom Brown",
+        "description": "British Army soldier"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-mustafa-suleyman",
+    "title": "Mustafa Suleyman",
+    "type": "person",
+    "previousId": "Q30593017",
+    "previousResolvedTo": "1952 in Cape Verde",
+    "candidates": [
+      {
+        "wikidataId": "Q16847797",
+        "label": "Mustafa Süleyman",
+        "description": "British entrepreneur (born 1984)"
+      },
+      {
+        "wikidataId": "Q85989386",
+        "label": "Mustafa Suleymanov",
+        "description": "Azerbaijani actor"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-john-jumper",
+    "title": "John Jumper",
+    "type": "person",
+    "previousId": "Q115667430",
+    "previousResolvedTo": "Sarah Root",
+    "candidates": [
+      {
+        "wikidataId": "Q89620738",
+        "label": "John Michael Jumper",
+        "description": "American chemist and AI expert"
+      },
+      {
+        "wikidataId": "Q6242326",
+        "label": "John Jumper",
+        "description": "Principle Chief of the Seminole Nation"
+      },
+      {
+        "wikidataId": "Q111109468",
+        "label": "John Jumper",
+        "description": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-david-silver",
+    "title": "David Silver",
+    "type": "person",
+    "previousId": "Q23831774",
+    "previousResolvedTo": "Koudiet Benabid",
+    "candidates": [
+      {
+        "wikidataId": "Q119102257",
+        "label": "David Silver",
+        "description": "American politician (1919–1990)"
+      },
+      {
+        "wikidataId": "Q133265134",
+        "label": "David Silver",
+        "description": "professor of environmental studies and urban agriculture"
+      },
+      {
+        "wikidataId": "Q919608",
+        "label": "David Silverman",
+        "description": "American animator and director"
+      },
+      {
+        "wikidataId": "Q25208036",
+        "label": "David Silver",
+        "description": "AI researcher"
+      },
+      {
+        "wikidataId": "Q41928167",
+        "label": "David L. Silver",
+        "description": "researcher"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-oriol-vinyals",
+    "title": "Oriol Vinyals",
+    "type": "person",
+    "previousId": "Q35064943",
+    "previousResolvedTo": "Defining the role of polyamines in colon carcinogenesis using mouse models",
+    "candidates": [
+      {
+        "wikidataId": "Q47030267",
+        "label": "Oriol Vinyals",
+        "description": "machine learning researcher"
+      },
+      {
+        "wikidataId": "Q125890181",
+        "label": "Oriol Vinyals"
+      },
+      {
+        "wikidataId": "Q110189146",
+        "label": "Lex Fridman Podcast Oriol Vinyals: DeepMind AlphaStar, StarCraft, Language, and Sequences",
+        "description": "podcast episode of the Lex Fridman Podcast"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-jeff-dean",
+    "title": "Jeff Dean",
+    "type": "person",
+    "previousId": "Q6176204",
+    "previousResolvedTo": "Jeffrey P. von Arx",
+    "candidates": [
+      {
+        "wikidataId": "Q6173703",
+        "label": "Jeff Dean",
+        "description": "American computer scientist"
+      },
+      {
+        "wikidataId": "Q6173702",
+        "label": "Jeff Dean",
+        "description": "musician"
+      },
+      {
+        "wikidataId": "Q133760966",
+        "label": "Jeff Dean"
+      },
+      {
+        "wikidataId": "Q32751368",
+        "label": "Jeff Dean",
+        "description": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-andrew-ng",
+    "title": "Andrew Ng",
+    "type": "person",
+    "previousId": "Q9381540",
+    "previousResolvedTo": "(non-human entity)",
+    "candidates": [
+      {
+        "wikidataId": "Q2846695",
+        "label": "Andrew Y. Ng",
+        "description": "American artificial intelligence researcher"
+      },
+      {
+        "wikidataId": "Q96647693",
+        "label": "Andrew Ng",
+        "description": "researcher"
+      },
+      {
+        "wikidataId": "Q96315704",
+        "label": "Andrew Ng",
+        "description": "physicist"
+      },
+      {
+        "wikidataId": "Q114369540",
+        "label": "Andrew Ngwira",
+        "description": "researcher"
+      },
+      {
+        "wikidataId": "Q136205138",
+        "label": "Andrew Ng",
+        "description": "lacrosse official"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-greg-corrado",
+    "title": "Greg Corrado",
+    "type": "person",
+    "previousId": "Q24709116",
+    "previousResolvedTo": "Category:Ling Tosite Sigure EPs",
+    "candidates": [
+      {
+        "wikidataId": "Q24803072",
+        "label": "Greg S. Corrado",
+        "description": "machine learning scientist"
+      },
+      {
+        "wikidataId": "Q135970985",
+        "label": "Greg Corrado",
+        "description": "American computer scientist"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-llion-jones",
+    "title": "Llion Jones",
+    "type": "person",
+    "previousId": "Q57430117",
+    "previousResolvedTo": "Guest Editorial Special Section on Networked Energy Systems: Architectures, Communication, and Management",
+    "candidates": [
+      {
+        "wikidataId": "Q136444778",
+        "label": "Llion Jones",
+        "description": "Welsh poet and musician"
+      },
+      {
+        "wikidataId": "Q47126264",
+        "label": "Llion Jones",
+        "description": "Welsh poet and academic"
+      },
+      {
+        "wikidataId": "Q130238722",
+        "label": "Llion Jones",
+        "description": "Welsh computer scientist"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-ruslan-salakhutdinov",
+    "title": "Ruslan Salakhutdinov",
+    "type": "person",
+    "previousId": "Q7381579",
+    "previousResolvedTo": "(non-human entity)",
+    "candidates": [
+      {
+        "wikidataId": "Q28016131",
+        "label": "Ruslan Salakhutdinov",
+        "description": "computer scientist"
+      },
+      {
+        "wikidataId": "Q18217950",
+        "label": "Ruslan Salakhutdinov",
+        "description": "football player"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-ian-goodfellow",
+    "title": "Ian Goodfellow",
+    "type": "person",
+    "previousId": "Q27311979",
+    "previousResolvedTo": "Jindungsan",
+    "candidates": [
+      {
+        "wikidataId": "Q28379682",
+        "label": "Ian Goodfellow",
+        "description": "researcher and virologist"
+      },
+      {
+        "wikidataId": "Q26703063",
+        "label": "Ian J. Goodfellow",
+        "description": "American computer scientist (born 1987)"
+      },
+      {
+        "wikidataId": "Q110189147",
+        "label": "Lex Fridman Podcast Ian Goodfellow: Generative Adversarial Networks (GANs)",
+        "description": "podcast episode of the Lex Fridman Podcast"
+      },
+      {
+        "wikidataId": "Q130466682",
+        "label": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
+        "description": "scientific article published on 29 October 2017"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-fei-fei-li",
+    "title": "Fei-Fei Li",
+    "type": "person",
+    "previousId": "Q8991031",
+    "previousResolvedTo": "Category:Culture of the Grisons",
+    "candidates": [
+      {
+        "wikidataId": "Q112239642",
+        "label": "Fei-Fei Li"
+      },
+      {
+        "wikidataId": "Q18686107",
+        "label": "Fei-Fei Li",
+        "description": "American computer scientist"
+      },
+      {
+        "wikidataId": "Q33681041",
+        "label": "Fei-Fei Li",
+        "description": "Chinese botanist"
+      },
+      {
+        "wikidataId": "Q89242400",
+        "label": "Fei-Fei Li",
+        "description": "researcher (ORCID 0000-0001-5629-267X)"
+      },
+      {
+        "wikidataId": "Q38641729",
+        "label": "Fei-Fei Liu",
+        "description": "researcher"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-olga-russakovsky",
+    "title": "Olga Russakovsky",
+    "type": "person",
+    "previousId": "Q21545259",
+    "previousResolvedTo": "Sjouke Steenwijk",
+    "candidates": [
+      {
+        "wikidataId": "Q130841687",
+        "label": "Olga Russakovsky",
+        "description": "researcher (ORCID 0000-0001-5272-3241)"
+      },
+      {
+        "wikidataId": "Q76434485",
+        "label": "Olga Russakovsky",
+        "description": "Russian computer scientist"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-jimmy-ba",
+    "title": "Jimmy Ba",
+    "type": "person",
+    "previousId": "Q115591629",
+    "previousResolvedTo": "K. Gowindasamy",
+    "candidates": [
+      {
+        "wikidataId": "Q130802831",
+        "label": "Jimmy Ba",
+        "description": "researcher (ORCID 0009-0000-9062-4180)"
+      },
+      {
+        "wikidataId": "Q50380592",
+        "label": "Jimmy Ba",
+        "description": "Canadian machine learning scientist"
+      },
+      {
+        "wikidataId": "Q552061",
+        "label": "Jimmy Bain",
+        "description": "Scottish bassist (1947–2016)"
+      },
+      {
+        "wikidataId": "Q12858641",
+        "label": "Jimmy Baker",
+        "description": "Australian painter (1915-2010)"
+      },
+      {
+        "wikidataId": "Q345736",
+        "label": "Jimmy Banks",
+        "description": "American soccer player (1964-2019)"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-margaret-mitchell",
+    "title": "Margaret Mitchell",
+    "type": "person",
+    "previousId": "Q106409817",
+    "previousResolvedTo": "(non-human entity)",
+    "candidates": [
+      {
+        "wikidataId": "Q50346871",
+        "label": "Margaret Mitchell",
+        "description": "researcher, natural language processing"
+      },
+      {
+        "wikidataId": "Q102299899",
+        "label": "Margaret Mitchell",
+        "description": "Ph.D. Macquarie University 2005"
+      },
+      {
+        "wikidataId": "Q173540",
+        "label": "Margaret Mitchell",
+        "description": "American author and journalist (1900–1949)"
+      },
+      {
+        "wikidataId": "Q113179428",
+        "label": "Margaret Mitchell",
+        "description": "American chief executive officer of YWCA USA"
+      },
+      {
+        "wikidataId": "Q104665647",
+        "label": "Margaret Mitchell",
+        "description": "American artist, 1784-1867"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-richard-sutton",
+    "title": "Richard Sutton",
+    "type": "person",
+    "previousId": "Q7330296",
+    "previousResolvedTo": "Richards Mansion",
+    "candidates": [
+      {
+        "wikidataId": "Q19563443",
+        "label": "Richard Sutton",
+        "description": "English general and politician"
+      },
+      {
+        "wikidataId": "Q107369759",
+        "label": "Richard Sutton",
+        "description": "British QC"
+      },
+      {
+        "wikidataId": "Q112374694",
+        "label": "Richard Sutton",
+        "description": "cardiologist (1940-)"
+      },
+      {
+        "wikidataId": "Q112399775",
+        "label": "Richard Sutton"
+      },
+      {
+        "wikidataId": "Q121126665",
+        "label": "Richard Sutton"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-david-ha",
+    "title": "David Ha",
+    "type": "person",
+    "previousId": "Q126330684",
+    "previousResolvedTo": "Molecular Interactions and Activity in Proteins. Ciba Foundation Symposium 60 (New Series). R. Porter and D. W. Fitzsimons, Eds., Excerpta Medica, Amsterdam, The Netherlands, Pub. Dec. 1978. vii + 279 pp, $28.50",
+    "candidates": [
+      {
+        "wikidataId": "Q472547",
+        "label": "David Souter",
+        "description": "American lawyer and jurist (1939–2025)"
+      },
+      {
+        "wikidataId": "Q391359",
+        "label": "David Harbour",
+        "description": "American actor (born 1975)"
+      },
+      {
+        "wikidataId": "Q1174676",
+        "label": "David Hare",
+        "description": "British playwright, screenwriter and theatre and film director (1947- )"
+      },
+      {
+        "wikidataId": "Q478248",
+        "label": "David Hanson",
+        "description": "British politician (born 1957)"
+      },
+      {
+        "wikidataId": "Q722660",
+        "label": "David Hallyday",
+        "description": "French musician and racing driver, Johnny Hallyday's son"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gan-paper",
+    "title": "Generative Adversarial Networks",
+    "type": "object",
+    "previousId": "Q25347847",
+    "previousResolvedTo": "Category:Use Indian English from December 2014",
+    "candidates": [
+      {
+        "wikidataId": "Q25104379",
+        "label": "generative adversarial network",
+        "description": "deep learning method in which two neural networks compete with each other in a game, learning to generate new data with the same statistics as the training set"
+      },
+      {
+        "wikidataId": "Q27990103",
+        "label": "Generative Adversarial Nets",
+        "description": "paper introducing GANs"
+      },
+      {
+        "wikidataId": "Q131934550",
+        "label": "Generative adversarial networks for sequential learning",
+        "description": "doctoral thesis by Tianlin Xu"
+      },
+      {
+        "wikidataId": "Q52940989",
+        "label": "Generative Adversarial Networks for Noise Reduction in Low-Dose CT.",
+        "description": "scientific article published on 26 May 2017"
+      },
+      {
+        "wikidataId": "Q131163472",
+        "label": "Generative adversarial networks",
+        "description": "scientific article published on 22 October 2020"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gpt1",
+    "title": "GPT-1",
+    "type": "object",
+    "previousId": "Q115646799",
+    "previousResolvedTo": "Category:Huichol entry maintenance",
+    "candidates": [
+      {
+        "wikidataId": "Q95726718",
+        "label": "GPT-1",
+        "description": "generative pre-trained transformer-based language model from 2018"
+      },
+      {
+        "wikidataId": "Q305481",
+        "label": "glutamic-pyruvic transaminase",
+        "description": "mammalian protein found in Homo sapiens"
+      },
+      {
+        "wikidataId": "Q18267957",
+        "label": "Gpt",
+        "description": "protein-coding gene in the species Mus musculus"
+      },
+      {
+        "wikidataId": "Q21493854",
+        "label": "Glutamic pyruvic transaminase, soluble",
+        "description": "mammalian protein found in Mus musculus"
+      },
+      {
+        "wikidataId": "Q28557720",
+        "label": "Glutamic--pyruvic transaminase",
+        "description": "mammalian protein found in Rattus norvegicus"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gpt2",
+    "title": "GPT-2",
+    "type": "object",
+    "previousId": "Q65089522",
+    "previousResolvedTo": "Georgia Tech Yellow Jackets softball",
+    "candidates": [
+      {
+        "wikidataId": "Q95726727",
+        "label": "GPT-2",
+        "description": "2019 text-generating large language model"
+      },
+      {
+        "wikidataId": "Q18047743",
+        "label": "GPT2",
+        "description": "protein-coding gene in the species Homo sapiens"
+      },
+      {
+        "wikidataId": "Q21097167",
+        "label": "Glutamic--pyruvic transaminase 2",
+        "description": "mammalian protein found in Homo sapiens"
+      },
+      {
+        "wikidataId": "Q21493850",
+        "label": "Glutamic pyruvate transaminase (alanine aminotransferase) 2",
+        "description": "mammalian protein found in Mus musculus"
+      },
+      {
+        "wikidataId": "Q29824217",
+        "label": "Glutamic--pyruvic transaminase",
+        "description": "protein found in Danio rerio"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gpt3",
+    "title": "GPT-3",
+    "type": "object",
+    "previousId": "Q97252119",
+    "previousResolvedTo": "Akpınar",
+    "candidates": [
+      {
+        "wikidataId": "Q95726734",
+        "label": "GPT-3",
+        "description": "2020 transformer-based large language model"
+      },
+      {
+        "wikidataId": "Q126884944",
+        "label": "GPT-3.5 Turbo",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q123013819",
+        "label": "GPT-3.5",
+        "description": "version of Codex, a GPT-3-based code-generation model"
+      },
+      {
+        "wikidataId": "Q96237091",
+        "label": "OpenAI API",
+        "description": "various AI APIs, products of OpenAI"
+      },
+      {
+        "wikidataId": "Q130802328",
+        "label": "GPT-3 vs Object Oriented Programming Assignments: An Experience Report",
+        "description": "scientific article published on 30 June 2023"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-dalle",
+    "title": "DALL-E",
+    "type": "object",
+    "previousId": "Q104831864",
+    "previousResolvedTo": "Todd C. Ream",
+    "candidates": [
+      {
+        "wikidataId": "Q105078662",
+        "label": "DALL-E",
+        "description": "image-generating deep-learning model"
+      },
+      {
+        "wikidataId": "Q100520927",
+        "label": "Dall'Era",
+        "description": "family name"
+      },
+      {
+        "wikidataId": "Q112663567",
+        "label": "Craiyon",
+        "description": "text-to-image AI"
+      },
+      {
+        "wikidataId": "Q56563445",
+        "label": "Dall’esilio",
+        "description": "edition part of the Piccola Biblioteca collection by Adelphi"
+      },
+      {
+        "wikidataId": "Q56563121",
+        "label": "Dall’Ellade a Bisanzio",
+        "description": "edition part of the Piccola Biblioteca collection by Adelphi"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-clip",
+    "title": "CLIP",
+    "type": "object",
+    "previousId": "Q120206584",
+    "previousResolvedTo": "A001 * Barriers of warfarin use for atrial fibrillation patients in Hong Kong",
+    "candidates": [
+      {
+        "wikidataId": "Q148958",
+        "label": "magazine",
+        "description": "ammunition storage and feeding device of a firearm"
+      },
+      {
+        "wikidataId": "Q18031333",
+        "label": "CLIP1",
+        "description": "protein-coding gene in the species Homo sapiens"
+      },
+      {
+        "wikidataId": "Q29544539",
+        "label": "clip",
+        "description": "piece of jewellery, similar in appearance to a brooch, but attached to a garment with a spring fastening"
+      },
+      {
+        "wikidataId": "Q742157",
+        "label": "clipping",
+        "description": "cut-out article from a paper publication"
+      },
+      {
+        "wikidataId": "Q161258",
+        "label": "Clipperton Island",
+        "description": "French atoll in the Pacific Ocean"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-codex",
+    "title": "Codex / GitHub Copilot",
+    "type": "object",
+    "previousId": "Q107588589",
+    "previousResolvedTo": "Brimmond Court",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-claude",
+    "title": "Claude",
+    "type": "object",
+    "previousId": "Q116965708",
+    "previousResolvedTo": "You Didn't",
+    "candidates": [
+      {
+        "wikidataId": "Q17523984",
+        "label": "Claude",
+        "description": "unisex given name"
+      },
+      {
+        "wikidataId": "Q14649317",
+        "label": "Claude",
+        "description": "family name"
+      },
+      {
+        "wikidataId": "Q979959",
+        "label": "Claude",
+        "description": "city in and county seat of Armstrong County, Texas, United States"
+      },
+      {
+        "wikidataId": "Q296",
+        "label": "Claude Monet",
+        "description": "French painter (1840–1926)"
+      },
+      {
+        "wikidataId": "Q214074",
+        "label": "Claude Lorrain",
+        "description": "French painter, draughtsman and etcher (1600—1682)"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-constitutional-ai",
+    "title": "Constitutional AI Paper",
+    "type": "object",
+    "previousId": "Q120201695",
+    "previousResolvedTo": "Symbiont diversity in the eukaryotic microbiomes of marine crustacean zooplankton",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-llama",
+    "title": "LLaMA",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q37126053",
+        "label": "Llama",
+        "description": "family name"
+      },
+      {
+        "wikidataId": "Q42569",
+        "label": "llama",
+        "description": "species of mammal"
+      },
+      {
+        "wikidataId": "Q116894231",
+        "label": "LLaMA",
+        "description": "large language model by Meta AI"
+      },
+      {
+        "wikidataId": "Q42885514",
+        "label": "Llamazares",
+        "description": "family name"
+      },
+      {
+        "wikidataId": "Q5015078",
+        "label": "Large Latin American Millimeter Array",
+        "description": "astronomical radio observatory"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-llama2",
+    "title": "LLaMA 2",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q120847029",
+        "label": "Llama 2",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q123561541",
+        "label": "Llama 2 Community License Agreement"
+      },
+      {
+        "wikidataId": "Q131939104",
+        "label": "Llama 2 Community License",
+        "description": "license for Meta Llama 2 large language models"
+      },
+      {
+        "wikidataId": "Q121298347",
+        "label": "Llama 2: Open Foundation and Fine-Tuned Chat Models"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gemini",
+    "title": "Gemini",
+    "type": "object",
+    "previousId": "Q118389636",
+    "previousResolvedTo": "Joint slip resistance performance of fasteners in steel pipe formwork supports",
+    "candidates": [
+      {
+        "wikidataId": "Q8923",
+        "label": "Gemini",
+        "description": "zodiac constellation in the northern hemisphere"
+      },
+      {
+        "wikidataId": "Q94638515",
+        "label": "Gemini",
+        "description": "internet protocol"
+      },
+      {
+        "wikidataId": "Q851834",
+        "label": "Gemini",
+        "description": "Swedish pop duo"
+      },
+      {
+        "wikidataId": "Q55230403",
+        "label": "Gemini",
+        "description": "novel by Mike W. Barr"
+      },
+      {
+        "wikidataId": "Q116698014",
+        "label": "Gemini",
+        "description": "artificial intelligence chatbot developed by Google"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-tensorflow",
+    "title": "TensorFlow",
+    "type": "object",
+    "previousId": "Q21447974",
+    "previousResolvedTo": "Zwick",
+    "candidates": [
+      {
+        "wikidataId": "Q21447895",
+        "label": "TensorFlow",
+        "description": "machine learning software framework"
+      },
+      {
+        "wikidataId": "Q107382156",
+        "label": "tensorflow-metadata",
+        "description": "Python library"
+      },
+      {
+        "wikidataId": "Q107381458",
+        "label": "tensorflow-estimator",
+        "description": "Python library"
+      },
+      {
+        "wikidataId": "Q107382184",
+        "label": "tensorflow-datasets",
+        "description": "Python library"
+      },
+      {
+        "wikidataId": "Q107384101",
+        "label": "tensorflow-probability",
+        "description": "Python library"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-bert",
+    "title": "BERT",
+    "type": "object",
+    "previousId": "Q60751127",
+    "previousResolvedTo": "Frederick Hanson",
+    "candidates": [
+      {
+        "wikidataId": "Q613014",
+        "label": "Bert",
+        "description": "male given name"
+      },
+      {
+        "wikidataId": "Q61726893",
+        "label": "bidirectional encoder representations from transformers",
+        "description": "deep learning artificial neural network language model"
+      },
+      {
+        "wikidataId": "Q601071",
+        "label": "Bert",
+        "description": "commune in Allier, France"
+      },
+      {
+        "wikidataId": "Q4092653",
+        "label": "Berta",
+        "description": "female given name"
+      },
+      {
+        "wikidataId": "Q16420820",
+        "label": "Bertha",
+        "description": "female given name"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-word2vec",
+    "title": "Word2Vec",
+    "type": "object",
+    "previousId": "Q18685271",
+    "previousResolvedTo": "Pyeongtaek Do-gok Elementary School",
+    "candidates": [
+      {
+        "wikidataId": "Q22673982",
+        "label": "Word2vec",
+        "description": "group of related models that are used to produce word embeddings"
+      },
+      {
+        "wikidataId": "Q113506666",
+        "label": "Word2Vec",
+        "description": "scientific article published on 16 December 2016"
+      },
+      {
+        "wikidataId": "Q38371817",
+        "label": "Word2Vec inversion and traditional text classifiers for phenotyping lupus.",
+        "description": "scientific article"
+      },
+      {
+        "wikidataId": "Q47450549",
+        "label": "word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method",
+        "description": "scientific article published on 15 February 2014"
+      },
+      {
+        "wikidataId": "Q92772786",
+        "label": "Word2vec convolutional neural networks for classification of news articles and tweets",
+        "description": "scientific article published on 22 August 2019"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-deep-learning-book",
+    "title": "Deep Learning Textbook",
+    "type": "object",
+    "previousId": "Q28153721",
+    "previousResolvedTo": "Haldia International Sports City",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-distill",
+    "title": "Distill.pub",
+    "type": "object",
+    "previousId": "Q63405023",
+    "previousResolvedTo": "Time-Restricted Feeding Plus Resistance Training in Active Females",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-ualberta",
+    "title": "University of Alberta",
+    "type": "location",
+    "previousId": "Q38948",
+    "previousResolvedTo": "Kunming wolfdog",
+    "candidates": [
+      {
+        "wikidataId": "Q640694",
+        "label": "University of Alberta",
+        "description": "public research university in Edmonton, Alberta, Canada"
+      },
+      {
+        "wikidataId": "Q55178059",
+        "label": "University of Alberta Faculty of Science",
+        "description": "Canadian university faculty"
+      },
+      {
+        "wikidataId": "Q7895043",
+        "label": "University of Alberta Faculty of Law",
+        "description": "Public law school in Edmonton, Alberta, Canada"
+      },
+      {
+        "wikidataId": "Q7895046",
+        "label": "University of Alberta Hospital",
+        "description": "hospital in Alberta, Canada"
+      },
+      {
+        "wikidataId": "Q4711640",
+        "label": "Alberta Golden Bears and Pandas",
+        "description": "intercollegiate sports teams of the University of Alberta"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-anthropic",
+    "title": "Anthropic",
+    "type": "entity",
+    "previousId": "Q106006054",
+    "previousResolvedTo": "Worthington, Charles John",
+    "candidates": [
+      {
+        "wikidataId": "Q116758847",
+        "label": "Anthropic",
+        "description": "American artificial intelligence corporation"
+      },
+      {
+        "wikidataId": "Q118876059",
+        "label": "Claude",
+        "description": "large language model family developed by Anthropic"
+      },
+      {
+        "wikidataId": "Q240581",
+        "label": "anthropic principle",
+        "description": "philosophical consideration that observations of the Universe must be compatible with the conscious and sapient life that observes it"
+      },
+      {
+        "wikidataId": "Q120549613",
+        "label": "anthropic",
+        "description": "Python library"
+      },
+      {
+        "wikidataId": "Q21322488",
+        "label": "Anthropic Bias: Observation Selection Effects in Science and Philosophy",
+        "description": "2002 book by Nick Bostrom"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-google-deepmind",
+    "title": "Google DeepMind",
+    "type": "entity",
+    "previousId": "Q118358654",
+    "previousResolvedTo": "Research on Verifiable Blockchain Ledger Redaction Method for Trusted Consortium",
+    "candidates": [
+      {
+        "wikidataId": "Q15733006",
+        "label": "Google DeepMind",
+        "description": "artificial intelligence company owned by Google"
+      },
+      {
+        "wikidataId": "Q22329209",
+        "label": "AlphaGo",
+        "description": "computer program developed by Google DeepMind to play the board game Go"
+      },
+      {
+        "wikidataId": "Q23016184",
+        "label": "AlphaGo versus Lee Sedol",
+        "description": "Go match between AlphaGo and Lee Sedol"
+      },
+      {
+        "wikidataId": "Q134404957",
+        "label": "Google DeepMind: The Podcast",
+        "description": "podcast from Google DeepMind, presented by Professor Hannah Fry"
+      },
+      {
+        "wikidataId": "Q47175233",
+        "label": "Google DeepMind and healthcare in an age of algorithms.",
+        "description": "scientific article published on 16 March 2017"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-meta-ai",
+    "title": "Meta AI / FAIR",
+    "type": "entity",
+    "previousId": "Q19600170",
+    "previousResolvedTo": "Unnimaya",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-huggingface",
+    "title": "Hugging Face",
+    "type": "entity",
+    "previousId": "Q90727997",
+    "previousResolvedTo": "Evaluating Mismatch Repair/Microsatellite Instability Status Using Cytology Effusion Specimens to Determine Eligibility for Immunotherapy",
+    "candidates": [
+      {
+        "wikidataId": "Q108943604",
+        "label": "Hugging Face",
+        "description": "American company"
+      },
+      {
+        "wikidataId": "Q87583026",
+        "label": "🤗",
+        "description": "Unicode character"
+      },
+      {
+        "wikidataId": "Q118182434",
+        "label": "Hugging Face SAS"
+      },
+      {
+        "wikidataId": "Q138813487",
+        "label": "LeRobot",
+        "description": "open-source robotics machine learning framework developed by Hugging Face"
+      },
+      {
+        "wikidataId": "Q124039484",
+        "label": "Hugging Face model",
+        "description": "model hosted by Hugging Face"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-stability",
+    "title": "Stability AI",
+    "type": "entity",
+    "previousId": "Q113414756",
+    "previousResolvedTo": "Analysis of the Literature on Practice Guidelines: A Bibliometric Study Using MEDLINE.",
+    "candidates": [
+      {
+        "wikidataId": "Q123592234",
+        "label": "Stability AI",
+        "description": "British multinational artificial intelligence company"
+      },
+      {
+        "wikidataId": "Q130616410",
+        "label": "Stability AI Community License",
+        "description": "license"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-mila",
+    "title": "MILA",
+    "type": "entity",
+    "previousId": "Q29056997",
+    "previousResolvedTo": "Théo Mendy",
+    "candidates": [
+      {
+        "wikidataId": "Q490",
+        "label": "Milan",
+        "description": "Italian commune and capital city of Lombardy"
+      },
+      {
+        "wikidataId": "Q3217317",
+        "label": "Mila",
+        "description": "unisex given Name"
+      },
+      {
+        "wikidataId": "Q9384879",
+        "label": "Mila",
+        "description": "district in Pidie Regency, Aceh Province, Indonesia"
+      },
+      {
+        "wikidataId": "Q8180071",
+        "label": "Mila",
+        "description": "genus of plants"
+      },
+      {
+        "wikidataId": "Q1076681",
+        "label": "Milan",
+        "description": "male given name"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-neurips",
+    "title": "NeurIPS",
+    "type": "entity",
+    "previousId": "Q2016462",
+    "previousResolvedTo": "Ohl",
+    "candidates": [
+      {
+        "wikidataId": "Q1961016",
+        "label": "Conference on Neural Information Processing Systems",
+        "description": "NeurIPS/NIPS conference series on machine learning and related topics"
+      },
+      {
+        "wikidataId": "Q15767446",
+        "label": "Advances in Neural Information Processing Systems",
+        "description": "conference proceedings series"
+      },
+      {
+        "wikidataId": "Q100913796",
+        "label": "Advances in Neural Information Processing Systems 33",
+        "description": "NeurIPS 2020 proceedings"
+      },
+      {
+        "wikidataId": "Q68600639",
+        "label": "Advances in Neural Information Processing Systems 32",
+        "description": "NeurIPS 2019 proceedings"
+      },
+      {
+        "wikidataId": "Q136378626",
+        "label": "NeurIPS 2025",
+        "description": "NeurIPS 2025 proceedings"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-iclr",
+    "title": "ICLR",
+    "type": "entity",
+    "previousId": "Q57085111",
+    "previousResolvedTo": "Unstable behavior of segmental ring under various pressures and its discrete element simulation",
+    "candidates": [
+      {
+        "wikidataId": "Q30108190",
+        "label": "International Conference on Learning Representations",
+        "description": "annual conference series on feature learning"
+      },
+      {
+        "wikidataId": "Q24113033",
+        "label": "IclR family transcriptional regulator SM_b20682",
+        "description": "microbial protein found in Sinorhizobium meliloti 1021"
+      },
+      {
+        "wikidataId": "Q23560254",
+        "label": "Transcriptional regulator IclR STM4187",
+        "description": "microbial protein found in Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
+      },
+      {
+        "wikidataId": "Q23139835",
+        "label": "DNA-binding transcriptional repressor ECUMN_4544",
+        "description": "microbial gene found in Escherichia coli UMN026"
+      },
+      {
+        "wikidataId": "Q24146201",
+        "label": "DNA-binding transcriptional repressor ECUMN_4544",
+        "description": "microbial protein found in Escherichia coli UMN026"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-vae-paper",
+    "title": "Auto-Encoding Variational Bayes",
+    "type": "object",
+    "previousId": "Q25348086",
+    "previousResolvedTo": "Category:Articles with failed verification from July 2013",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-claude3",
+    "title": "Claude 3",
+    "type": "object",
+    "previousId": "Q116965708",
+    "previousResolvedTo": "You Didn't",
+    "candidates": [
+      {
+        "wikidataId": "Q134885164",
+        "label": "Claude 3",
+        "description": "large language model family"
+      },
+      {
+        "wikidataId": "Q126772889",
+        "label": "Claude 3.5 Sonnet",
+        "description": "multimodal large language model"
+      },
+      {
+        "wikidataId": "Q124848765",
+        "label": "Claude 3 Opus",
+        "description": "multimodal large language model"
+      },
+      {
+        "wikidataId": "Q124848755",
+        "label": "Claude 3 Sonnet",
+        "description": "multimodal large language model"
+      },
+      {
+        "wikidataId": "Q124848713",
+        "label": "Claude 3 Haiku",
+        "description": "multimodal large language model"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-llama3",
+    "title": "LLaMA 3",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q125522232",
+        "label": "Llama 3",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q131938896",
+        "label": "Llama 3.3 70B Instruct",
+        "description": "transformer large language model by Meta"
+      },
+      {
+        "wikidataId": "Q131939124",
+        "label": "Llama 3.3 Community License"
+      },
+      {
+        "wikidataId": "Q131938964",
+        "label": "Llama 3.2 1B",
+        "description": "large language model by Meta"
+      },
+      {
+        "wikidataId": "Q127726799",
+        "label": "Llama 3.1",
+        "description": "large language model"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gpt4o",
+    "title": "GPT-4o",
+    "type": "object",
+    "previousId": "Q126055869",
+    "previousResolvedTo": "Fuente del Morato",
+    "candidates": [
+      {
+        "wikidataId": "Q125919502",
+        "label": "GPT-4o",
+        "description": "large multimodal model from OpenAI"
+      },
+      {
+        "wikidataId": "Q127602360",
+        "label": "GPT-4o mini",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q133733394",
+        "label": "Studio Ghibli AI Generator",
+        "description": "meme in which mass AI images are generated in the “Studio Ghibli” drawing style"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-claude4",
+    "title": "Claude 4",
+    "type": "object",
+    "previousId": "Q116965708",
+    "previousResolvedTo": "You Didn't",
+    "candidates": [
+      {
+        "wikidataId": "Q134885233",
+        "label": "Claude 4",
+        "description": "large language model family"
+      },
+      {
+        "wikidataId": "Q134885159",
+        "label": "Claude Opus 4",
+        "description": "large language model"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-claude45",
+    "title": "Claude 4.5",
+    "type": "object",
+    "previousId": "Q116965708",
+    "previousResolvedTo": "You Didn't",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-gemini20",
+    "title": "Gemini 2.0",
+    "type": "object",
+    "previousId": "Q118389636",
+    "previousResolvedTo": "Joint slip resistance performance of fasteners in steel pipe formwork supports",
+    "candidates": [
+      {
+        "wikidataId": "Q131434023",
+        "label": "Gemini 2.0",
+        "description": "foundational model family developed by Google"
+      },
+      {
+        "wikidataId": "Q131433984",
+        "label": "Gemini 2.0 Flash",
+        "description": "multimodal foundational model developed by Google"
+      },
+      {
+        "wikidataId": "Q131442943",
+        "label": "Gemini 2.0 Flash Experimental"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gemini25",
+    "title": "Gemini 2.5",
+    "type": "object",
+    "previousId": "Q118389636",
+    "previousResolvedTo": "Joint slip resistance performance of fasteners in steel pipe formwork supports",
+    "candidates": [
+      {
+        "wikidataId": "Q134442418",
+        "label": "Gemini 2.5 Pro",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q135089947",
+        "label": "Gemini 2.5 Flash",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q136095187",
+        "label": "Gemini 2.5 Flash-Lite",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q136327856",
+        "label": "Nano Banana",
+        "description": "artificial intelligence image generating and editing tool created by Google"
+      },
+      {
+        "wikidataId": "Q135318266",
+        "label": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+        "description": "scientific article published on 7 July 2025"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-llama31",
+    "title": "LLaMA 3.1",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q127726799",
+        "label": "Llama 3.1",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q131939065",
+        "label": "Llama 3.1 Community License",
+        "description": "license for Meta Llama 3.1 large language models"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-llama32",
+    "title": "LLaMA 3.2",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q131938944",
+        "label": "Llama 3.2",
+        "description": "collection of large language models by Meta"
+      },
+      {
+        "wikidataId": "Q131938964",
+        "label": "Llama 3.2 1B",
+        "description": "large language model by Meta"
+      },
+      {
+        "wikidataId": "Q131939054",
+        "label": "Llama 3.2 Community License",
+        "description": "license for Meta Llama 3.2 large language models"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-llama33",
+    "title": "LLaMA 3.3",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q131938915",
+        "label": "Llama 3.3",
+        "description": "collection of large language models by Meta"
+      },
+      {
+        "wikidataId": "Q131938896",
+        "label": "Llama 3.3 70B Instruct",
+        "description": "transformer large language model by Meta"
+      },
+      {
+        "wikidataId": "Q131939124",
+        "label": "Llama 3.3 Community License"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-llama4",
+    "title": "LLaMA 4",
+    "type": "object",
+    "previousId": "Q117276906",
+    "previousResolvedTo": "Maria Dolores Pilloni",
+    "candidates": [
+      {
+        "wikidataId": "Q137392462",
+        "label": "Llama 4",
+        "description": "large language model family by Meta"
+      },
+      {
+        "wikidataId": "Q137393554",
+        "label": "Llama 4 Scout Instruct Original",
+        "description": "large language model by Meta"
+      },
+      {
+        "wikidataId": "Q137393269",
+        "label": "Llama 4 Scout Instruct",
+        "description": "large language model by Meta"
+      },
+      {
+        "wikidataId": "Q137392482",
+        "label": "Llama 4 Scout",
+        "description": "large language model by Meta"
+      },
+      {
+        "wikidataId": "Q137393299",
+        "label": "Llama 4 Scout Original",
+        "description": "large language model by Meta"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-alexnet-paper",
+    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "type": "object",
+    "previousId": "Q16520311",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q59445836",
+        "label": "ImageNet classification with deep convolutional neural networks",
+        "description": "scientific article published in Communications of the ACM in 2017"
+      },
+      {
+        "wikidataId": "Q30077834",
+        "label": "Imagenet classification with deep convolutional neural networks",
+        "description": "scholarly article from the NIPS conference"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-gpt4",
+    "title": "GPT-4",
+    "type": "object",
+    "previousId": "Q116709893",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q116709136",
+        "label": "GPT-4",
+        "description": "OpenAI multimodal large language model"
+      },
+      {
+        "wikidataId": "Q125919502",
+        "label": "GPT-4o",
+        "description": "large multimodal model from OpenAI"
+      },
+      {
+        "wikidataId": "Q133893610",
+        "label": "GPT-4.1",
+        "description": "large language model within OpenAI's GPT series"
+      },
+      {
+        "wikidataId": "Q134390865",
+        "label": "GPT-4.1 nano",
+        "description": "foundation model developed by OpenAI"
+      },
+      {
+        "wikidataId": "Q127602360",
+        "label": "GPT-4o mini",
+        "description": "large language model"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-chatgpt",
+    "title": "ChatGPT",
+    "type": "object",
+    "previousId": "Q115035180",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q115564437",
+        "label": "ChatGPT",
+        "description": "artificial intelligence chatbot developed by OpenAI"
+      },
+      {
+        "wikidataId": "Q125764297",
+        "label": "ChatGPT",
+        "description": "iOS app"
+      },
+      {
+        "wikidataId": "Q125774522",
+        "label": "ChatGPT",
+        "description": "official Android app developed by OpenAI"
+      },
+      {
+        "wikidataId": "Q117303591",
+        "label": "ChatGPT Plus",
+        "description": "subscription plan for ChatGPT"
+      },
+      {
+        "wikidataId": "Q136671119",
+        "label": "ChatGPT Vision Circle",
+        "description": "online community"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-code-llama",
+    "title": "Code Llama",
+    "type": "object",
+    "previousId": "Q120696689",
+    "previousResolvedTo": "(no English label)",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-alphago",
+    "title": "AlphaGo",
+    "type": "object",
+    "previousId": "Q19829553",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q40415503",
+        "label": "AlphaGo",
+        "description": "2017 documentary film about AlphaGo"
+      },
+      {
+        "wikidataId": "Q22329209",
+        "label": "AlphaGo",
+        "description": "computer program developed by Google DeepMind to play the board game Go"
+      },
+      {
+        "wikidataId": "Q16002662",
+        "label": "Alphagov",
+        "description": "development version of the GOV.UK website"
+      },
+      {
+        "wikidataId": "Q23016184",
+        "label": "AlphaGo versus Lee Sedol",
+        "description": "Go match between AlphaGo and Lee Sedol"
+      },
+      {
+        "wikidataId": "Q42259287",
+        "label": "AlphaGo Zero",
+        "description": "version of AlphaGo without human data"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-alphafold2",
+    "title": "AlphaFold 2",
+    "type": "object",
+    "previousId": "Q66091709",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q60827595",
+        "label": "AlphaFold",
+        "description": "software by DeepMind that has predicated how every protein folds"
+      },
+      {
+        "wikidataId": "Q107711739",
+        "label": "AlphaFold2",
+        "description": "computer software to predict 3D protein structures"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-mistral-7b",
+    "title": "Mistral 7B",
+    "type": "object",
+    "previousId": "Q118473029",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q126093447",
+        "label": "Mistral 7B",
+        "description": "large language model developed by Mistral AI"
+      },
+      {
+        "wikidataId": "Q126093505",
+        "label": "Mistral 7B",
+        "description": "scientific article"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-stable-diffusion",
+    "title": "Stable Diffusion",
+    "type": "object",
+    "previousId": "Q113414728",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q113660857",
+        "label": "Stable Diffusion",
+        "description": "image-generating machine learning model"
+      },
+      {
+        "wikidataId": "Q124789431",
+        "label": "Stable Diffusion image seeds",
+        "description": "parameter of stable diffusion"
+      },
+      {
+        "wikidataId": "Q137259835",
+        "label": "Stable Diffusion in the Classroom: Deploying interactive GPU-enabled ML workloads with Open OnDemand and Kubernetes"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-grok",
+    "title": "Grok",
+    "type": "object",
+    "previousId": "Q122645637",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q123361035",
+        "label": "Grok",
+        "description": "chatbot developed by SpaceXAI"
+      },
+      {
+        "wikidataId": "Q5610141",
+        "label": "Grok",
+        "description": "web application framework for Python developers"
+      },
+      {
+        "wikidataId": "Q2599246",
+        "label": "grok",
+        "description": "neologism coined by American writer Robert A. Heinlein"
+      },
+      {
+        "wikidataId": "Q39071724",
+        "label": "Grok",
+        "description": "JPEG 2000 image encoder and decoder"
+      },
+      {
+        "wikidataId": "Q16972710",
+        "label": "Grok",
+        "description": "website"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-xai",
+    "title": "xAI",
+    "type": "entity",
+    "previousId": "Q120303340",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q40890078",
+        "label": "explainable AI",
+        "description": "AI whose processes can be understood by humans"
+      },
+      {
+        "wikidataId": "Q109778862",
+        "label": "Xai",
+        "description": "person identified in the Museu da Pessoa collection"
+      },
+      {
+        "wikidataId": "Q120599684",
+        "label": "SpaceXAI",
+        "description": "American artificial intelligence and social media division of SpaceX"
+      },
+      {
+        "wikidataId": "Q214405",
+        "label": "Xaintrailles",
+        "description": "commune in Lot-et-Garonne, France"
+      },
+      {
+        "wikidataId": "Q191126",
+        "label": "Saintes",
+        "description": "commune in Charente-Maritime, France"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-mistral",
+    "title": "Mistral AI",
+    "type": "entity",
+    "previousId": "Q118473029",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q119718658",
+        "label": "Mistral AI",
+        "description": "French AI company"
+      },
+      {
+        "wikidataId": "Q1939338",
+        "label": "Poste Air Cargo",
+        "description": "Italian cargo and former passenger airline headquartered in Rome, Italy which is a wholly owned subsidiary of Poste Italiane"
+      },
+      {
+        "wikidataId": "Q131806057",
+        "label": "Mistral Air Clim"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-cohere",
+    "title": "Cohere",
+    "type": "entity",
+    "previousId": "Q117181040",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q110363143",
+        "label": "Cohere",
+        "description": "Canadian artificial intelligence company building foundational models"
+      },
+      {
+        "wikidataId": "Q69197847",
+        "label": "coherent SI unit",
+        "description": "product of powers of SI base units"
+      },
+      {
+        "wikidataId": "Q51885271",
+        "label": "Coheres (Pauly-Wissowa)",
+        "description": "encyclopedic article in Paulys Realencyclopädie der classischen Altertumswissenschaft (RE)"
+      },
+      {
+        "wikidataId": "Q193147",
+        "label": "coherence",
+        "description": "ideal property of waves that enables stationary (i.e. temporally and spatially constant) interference"
+      },
+      {
+        "wikidataId": "Q120549617",
+        "label": "cohere",
+        "description": "Python library"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-vector-institute",
+    "title": "Vector Institute",
+    "type": "entity",
+    "previousId": "Q39076395",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q4106097",
+        "label": "State Research Center of Virology and Biotechnology VECTOR",
+        "description": "biology reseach institution in Russia"
+      },
+      {
+        "wikidataId": "Q47462249",
+        "label": "Vector Institute",
+        "description": "research institute for artificial intelligence, based in Toronto Canada"
+      },
+      {
+        "wikidataId": "Q64447053",
+        "label": "Vector Institute",
+        "description": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-microsoft-ai",
+    "title": "Microsoft AI",
+    "type": "entity",
+    "previousId": "Q111449379",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q125891217",
+        "label": "Microsoft AI",
+        "description": "division of Microsoft"
+      },
+      {
+        "wikidataId": "Q100301837",
+        "label": "Microsoft AI for Health Grant"
+      },
+      {
+        "wikidataId": "Q119999093",
+        "label": "Microsoft AI for Earth"
+      },
+      {
+        "wikidataId": "Q135235332",
+        "label": "Microsoft Security Copilot",
+        "description": "Generative AI–powered cybersecurity assistant developed by Microsoft"
+      },
+      {
+        "wikidataId": "Q2018814",
+        "label": "Microsoft Family Safety",
+        "description": "Features in Windows 10"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-o1",
+    "title": "o1",
+    "type": "object",
+    "previousId": "Q131065549",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q28452616",
+        "label": "o1",
+        "description": "first studio album by Hiroyuki Sawano’s Vocal Project “SawanoHiroyuki[nZk]”"
+      },
+      {
+        "wikidataId": "Q21102930",
+        "label": "Escherichia coli O157:H7 str. Sakai",
+        "description": "bacterial strain"
+      },
+      {
+        "wikidataId": "Q21102937",
+        "label": "Escherichia coli O104:H4 str. 2011C-3493",
+        "description": "bacterial strain"
+      },
+      {
+        "wikidataId": "Q541116",
+        "label": "Cessna O-1 Bird Dog",
+        "description": "1950 reconnaissance aircraft family by Cessna"
+      },
+      {
+        "wikidataId": "Q130288245",
+        "label": "OpenAI o1",
+        "description": "2024 AI model from OpenAI"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-o3",
+    "title": "o3",
+    "type": "object",
+    "previousId": "Q133034217",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q36933",
+        "label": "ozone",
+        "description": "chemical compound"
+      },
+      {
+        "wikidataId": "Q250923",
+        "label": "Hitradio Ö3",
+        "description": "third radio programme of the Austrian Broadcasting Corporation (ORF) and its nationwide pop station"
+      },
+      {
+        "wikidataId": "Q5036511",
+        "label": "captain",
+        "description": "military rank of the United States ground forces and air forces"
+      },
+      {
+        "wikidataId": "Q131535482",
+        "label": "OpenAI o3",
+        "description": "large language model developed by OpenAI"
+      },
+      {
+        "wikidataId": "Q632886",
+        "label": "P-3",
+        "description": "1953 trainer aircraft model by Pilatus"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-grok2",
+    "title": "Grok 2",
+    "type": "object",
+    "previousId": "Q122645637",
+    "previousResolvedTo": "(no English label)",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-nova",
+    "title": "Amazon Nova",
+    "type": "object",
+    "previousId": "Q133138199",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q131398296",
+        "label": "Amazon Nova",
+        "description": "foundational model family"
+      },
+      {
+        "wikidataId": "Q131399006",
+        "label": "Amazon Nova Micro",
+        "description": "large language model"
+      },
+      {
+        "wikidataId": "Q131399014",
+        "label": "Amazon Nova Lite",
+        "description": "large multimodal model"
+      },
+      {
+        "wikidataId": "Q131399019",
+        "label": "Amazon Nova Pro",
+        "description": "large multimodal model"
+      },
+      {
+        "wikidataId": "Q136700401",
+        "label": "Amazon Nova Multimodal Embeddings",
+        "description": "embedding model developed by Amazon"
+      }
+    ]
+  }
+]
