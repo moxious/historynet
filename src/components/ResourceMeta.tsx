@@ -15,6 +15,7 @@
  */
 
 import { Helmet } from 'react-helmet-async';
+import { PRODUCTION_BASE_URL } from './ResourceMeta.utils';
 
 interface ResourceMetaProps {
   /** Page title (will be formatted as "{title} | {datasetName} | Scenius") */
@@ -38,42 +39,8 @@ interface ResourceMetaProps {
   publishedDate?: string;
 }
 
-const PRODUCTION_BASE_URL = 'https://scenius-seven.vercel.app';
 const DEFAULT_OG_IMAGE = `${PRODUCTION_BASE_URL}/api/og`;
 const APP_NAME = 'Scenius';
-
-/**
- * Build dynamic OG image URL for a dataset
- */
-export function buildDatasetOgImageUrl(datasetId: string): string {
-  // SECURITY: constructed URL with URL API (F3)
-  const url = new URL('/api/og', PRODUCTION_BASE_URL);
-  url.searchParams.set('dataset', datasetId);
-  return url.toString();
-}
-
-/**
- * Build dynamic OG image URL for a node
- */
-export function buildNodeOgImageUrl(datasetId: string, nodeId: string): string {
-  // SECURITY: constructed URL with URL API (F3)
-  const url = new URL('/api/og', PRODUCTION_BASE_URL);
-  url.searchParams.set('dataset', datasetId);
-  url.searchParams.set('node', nodeId);
-  return url.toString();
-}
-
-/**
- * Build dynamic OG image URL for an edge
- */
-export function buildEdgeOgImageUrl(datasetId: string, sourceId: string, targetId: string): string {
-  // SECURITY: constructed URL with URL API (F3)
-  const url = new URL('/api/og', PRODUCTION_BASE_URL);
-  url.searchParams.set('dataset', datasetId);
-  url.searchParams.set('sourceId', sourceId);
-  url.searchParams.set('targetId', targetId);
-  return url.toString();
-}
 
 /**
  * Ensure image URL is absolute for social sharing

@@ -52,17 +52,17 @@ export function CrossSceneTeaser({
 }: CrossSceneTeaserProps) {
   const isMobile = useMediaQuery('(max-width: 768px)');
 
+  // Track teaser clicks
+  const handleClick = useCallback(() => {
+    trackEvent('CrossScene', 'teaser_click', datasetId);
+  }, [datasetId]);
+
   // Don't render if no other networks
   if (otherNetworksCount === 0) {
     return null;
   }
 
   const nodeDetailUrl = buildNodeUrl(datasetId, nodeId);
-
-  // Track teaser clicks
-  const handleClick = useCallback(() => {
-    trackEvent('CrossScene', 'teaser_click', datasetId);
-  }, [datasetId]);
 
   // Mobile: compact format
   if (isMobile) {

@@ -10,7 +10,8 @@
  */
 
 import { useCallback } from 'react';
-import Toast, { useToast } from './Toast';
+import Toast from './Toast';
+import { useToast } from './useToast';
 import './HeaderShareButtons.css';
 
 function HeaderShareButtons() {
