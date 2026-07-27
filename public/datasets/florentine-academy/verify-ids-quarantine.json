@@ -3,8 +3,8 @@
     "nodeId": "person-giovanni-pico-della-mirandola",
     "title": "Giovanni Pico della Mirandola",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Giovanni Pico della Mirandola\"",
+    "previousId": "Q189798",
+    "previousResolvedTo": "(non-human entity)",
     "candidates": [
       {
         "wikidataId": "Q182128",
@@ -37,8 +37,8 @@
     "nodeId": "person-cosimo-de-medici",
     "title": "Cosimo de' Medici",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Cosimo de' Medici\"",
+    "previousId": "Q167696",
+    "previousResolvedTo": "Nicole Scherzinger",
     "candidates": [
       {
         "wikidataId": "Q48547",
@@ -68,45 +68,11 @@
     ]
   },
   {
-    "nodeId": "person-giovanni-cavalcanti",
-    "title": "Giovanni Cavalcanti",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Giovanni Cavalcanti\"",
-    "candidates": [
-      {
-        "wikidataId": "Q104355656",
-        "label": "Giovanni Cavalcanti",
-        "description": "Florentine humanist"
-      },
-      {
-        "wikidataId": "Q3107131",
-        "label": "Giovanni Cavalcanti",
-        "description": "Italian bicycle racer"
-      },
-      {
-        "wikidataId": "Q3766991",
-        "label": "Giovanni Cavalcanti",
-        "description": "Florentine historian"
-      },
-      {
-        "wikidataId": "Q61704529",
-        "label": "Giovanni Cavalcanti",
-        "description": "1370-"
-      },
-      {
-        "wikidataId": "Q11752082",
-        "label": "Giovanni Cavalcanti",
-        "description": "Wikimedia disambiguation page"
-      }
-    ]
-  },
-  {
     "nodeId": "person-francesco-cattani-da-diacceto",
     "title": "Francesco Cattani da Diacceto",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Francesco Cattani da Diacceto\"",
+    "previousId": "Q1440694",
+    "previousResolvedTo": "Gundihausen",
     "candidates": [
       {
         "wikidataId": "Q3749759",
@@ -121,45 +87,11 @@
     ]
   },
   {
-    "nodeId": "person-giovanni-corsi",
-    "title": "Giovanni Corsi",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Giovanni Corsi\"",
-    "candidates": [
-      {
-        "wikidataId": "Q110386394",
-        "label": "Giovanni Corsi",
-        "description": "1519-1570"
-      },
-      {
-        "wikidataId": "Q5564033",
-        "label": "Giovanni di Bardo Corsi",
-        "description": "politician"
-      },
-      {
-        "wikidataId": "Q4234319",
-        "label": "Giovanni Corsi",
-        "description": "Italian singer and opera singer (1822–1890)"
-      },
-      {
-        "wikidataId": "Q21670076",
-        "label": "Giovanni Corsi",
-        "description": "Italian politician (1867-1953)"
-      },
-      {
-        "wikidataId": "Q106972004",
-        "label": "Giovanni Corsi",
-        "description": "Italian nobleman"
-      }
-    ]
-  },
-  {
     "nodeId": "person-giuliano-de-medici",
     "title": "Giuliano de' Medici",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Giuliano de' Medici\"",
+    "previousId": "Q316650",
+    "previousResolvedTo": "SnakeSkin",
     "candidates": [
       {
         "wikidataId": "Q3769454",
@@ -192,16 +124,16 @@
     "nodeId": "person-giovanni-de-medici-pope-leo-x",
     "title": "Giovanni de' Medici (Pope Leo X)",
     "type": "person",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"Giovanni de' Medici (Pope Leo X)\"",
+    "previousId": "Q81994",
+    "previousResolvedTo": "Satteldorf",
     "candidates": []
   },
   {
     "nodeId": "person-hermes-trismegistus",
     "title": "Hermes Trismegistus",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Hermes Trismegistus\"",
+    "previousId": "Q502592",
+    "previousResolvedTo": "Oxford County",
     "candidates": [
       {
         "wikidataId": "Q192358",
@@ -219,8 +151,8 @@
     "nodeId": "person-proclus",
     "title": "Proclus",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Proclus\"",
+    "previousId": "Q188847",
+    "previousResolvedTo": "environmental science",
     "candidates": [
       {
         "wikidataId": "Q271809",
@@ -252,8 +184,8 @@
     "nodeId": "person-iamblichus",
     "title": "Iamblichus",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Iamblichus\"",
+    "previousId": "Q42247",
+    "previousResolvedTo": "Sully Prudhomme",
     "candidates": [
       {
         "wikidataId": "Q310916",
@@ -286,8 +218,8 @@
     "nodeId": "person-orpheus",
     "title": "Orpheus",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Orpheus\"",
+    "previousId": "Q43395",
+    "previousResolvedTo": "Phylliroidae",
     "candidates": [
       {
         "wikidataId": "Q51883612",
@@ -319,8 +251,8 @@
     "nodeId": "object-corpus-hermeticum",
     "title": "Corpus Hermeticum",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Corpus Hermeticum\"",
+    "previousId": "Q499851",
+    "previousResolvedTo": "Now You See Me",
     "candidates": [
       {
         "wikidataId": "Q100733133",
@@ -350,51 +282,27 @@
     ]
   },
   {
-    "nodeId": "object-platonis-opera-omnia",
-    "title": "Platonis Opera Omnia (Complete Works of Plato)",
-    "type": "object",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"Platonis Opera Omnia (Complete Works of Plato)\"",
-    "candidates": []
-  },
-  {
     "nodeId": "object-theologia-platonica",
     "title": "Theologia Platonica (Platonic Theology)",
     "type": "object",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"Theologia Platonica (Platonic Theology)\"",
+    "previousId": "Q60767453",
+    "previousResolvedTo": "Category:Outsourcing in the United States",
     "candidates": []
   },
   {
     "nodeId": "object-de-vita-libri-tres",
     "title": "De Vita Libri Tres (Three Books on Life)",
     "type": "object",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"De Vita Libri Tres (Three Books on Life)\"",
-    "candidates": []
-  },
-  {
-    "nodeId": "object-de-amore",
-    "title": "De Amore (Commentary on Plato's Symposium)",
-    "type": "object",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"De Amore (Commentary on Plato's Symposium)\"",
-    "candidates": []
-  },
-  {
-    "nodeId": "object-900-theses",
-    "title": "900 Theses (Conclusiones)",
-    "type": "object",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"900 Theses (Conclusiones)\"",
+    "previousId": "Q5753247",
+    "previousResolvedTo": "Daghan Qanat",
     "candidates": []
   },
   {
     "nodeId": "object-asclepius",
     "title": "Asclepius",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Asclepius\"",
+    "previousId": "Q787046",
+    "previousResolvedTo": "1978 IAAF World Cross Country Championships",
     "candidates": [
       {
         "wikidataId": "Q83223",
@@ -423,19 +331,11 @@
     ]
   },
   {
-    "nodeId": "object-comento-sopra-divina-commedia",
-    "title": "Comento sopra la Divina Commedia",
-    "type": "object",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"Comento sopra la Divina Commedia\"",
-    "candidates": []
-  },
-  {
     "nodeId": "person-francesco-patrizi",
     "title": "Francesco Patrizi",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Francesco Patrizi\"",
+    "previousId": "Q364945",
+    "previousResolvedTo": "Harris Flanagin",
     "candidates": [
       {
         "wikidataId": "Q435300",
@@ -468,8 +368,24 @@
     "nodeId": "entity-platonic-academy",
     "title": "Platonic Academy of Florence",
     "type": "entity",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"Platonic Academy of Florence\"",
+    "previousId": "Q1210631",
+    "previousResolvedTo": "Paucartambo",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-amore",
+    "title": "De Amore (Commentary on Plato's Symposium)",
+    "type": "object",
+    "previousId": "Q5154756",
+    "previousResolvedTo": "(no English label)",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-900-theses",
+    "title": "900 Theses (Conclusiones)",
+    "type": "object",
+    "previousId": "Q1543820",
+    "previousResolvedTo": "(no English label)",
     "candidates": []
   }
 ]

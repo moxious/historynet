@@ -37,8 +37,8 @@
       "astronomer",
       "nobleman"
     ],
-    "wikipediaTitle": "Tycho_Brahe",
-    "wikidataId": "Q36866"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-johannes-kepler",
@@ -128,8 +128,8 @@
       "architect",
       "polymath"
     ],
-    "wikipediaTitle": "Robert_Hooke",
-    "wikidataId": "Q47081"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-isaac-newton",
@@ -184,7 +184,7 @@
       "geophysicist"
     ],
     "wikipediaTitle": "Edmond_Halley",
-    "wikidataId": "Q41790"
+    "wikidataId": "Q47434"
   },
   {
     "id": "person-christiaan-huygens",
@@ -223,7 +223,7 @@
       "polymath"
     ],
     "wikipediaTitle": "Samuel_Hartlib",
-    "wikidataId": "Q62821"
+    "wikidataId": "Q71033"
   },
   {
     "id": "person-john-wilkins",
@@ -240,8 +240,8 @@
       "natural philosopher",
       "author"
     ],
-    "wikipediaTitle": "John_Wilkins",
-    "wikidataId": "Q557652"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-robert-bellarmine",
@@ -262,8 +262,8 @@
       "theologian",
       "inquisitor"
     ],
-    "wikipediaTitle": "Robert_Bellarmine",
-    "wikidataId": "Q298908"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-urban-viii",
@@ -284,7 +284,7 @@
       "patron"
     ],
     "wikipediaTitle": "Pope_Urban_VIII",
-    "wikidataId": "Q134556"
+    "wikidataId": "Q131579"
   },
   {
     "id": "person-maria-cunitz",
@@ -304,7 +304,7 @@
       "mathematician"
     ],
     "wikipediaTitle": "Maria_Cunitz",
-    "wikidataId": "Q72429"
+    "wikidataId": "Q63232"
   },
   {
     "id": "person-margaret-cavendish",
@@ -324,8 +324,8 @@
       "author",
       "playwright"
     ],
-    "wikipediaTitle": "Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne",
-    "wikidataId": "Q234858"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-rudolf-ii",
@@ -345,8 +345,8 @@
       "patron",
       "collector"
     ],
-    "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
-    "wikidataId": "Q5765"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-revolutionibus",
@@ -360,8 +360,8 @@
     ],
     "language": "Latin",
     "subject": "astronomy",
-    "wikipediaTitle": "De_revolutionibus_orbium_coelestium",
-    "wikidataId": "Q211423"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-astronomia-nova",
@@ -375,8 +375,8 @@
     ],
     "language": "Latin",
     "subject": "astronomy",
-    "wikipediaTitle": "Astronomia_nova",
-    "wikidataId": "Q720120"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-sidereus-nuncius",
@@ -390,8 +390,8 @@
     ],
     "language": "Latin",
     "subject": "astronomy",
-    "wikipediaTitle": "Sidereus_Nuncius",
-    "wikidataId": "Q652054"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-dialogo",
@@ -408,8 +408,8 @@
     ],
     "language": "Italian",
     "subject": "astronomy",
-    "wikipediaTitle": "Dialogue_Concerning_the_Two_Chief_World_Systems",
-    "wikidataId": "Q1017439"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-novum-organum",
@@ -423,8 +423,8 @@
     ],
     "language": "Latin",
     "subject": "philosophy of science",
-    "wikipediaTitle": "Novum_Organum",
-    "wikidataId": "Q2657053"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-sceptical-chymist",
@@ -439,7 +439,7 @@
     "language": "English",
     "subject": "chemistry",
     "wikipediaTitle": "The_Sceptical_Chymist",
-    "wikidataId": "Q2063476"
+    "wikidataId": "Q60161"
   },
   {
     "id": "object-principia",
@@ -457,8 +457,8 @@
     ],
     "language": "Latin",
     "subject": "physics",
-    "wikipediaTitle": "Philosophiæ_Naturalis_Principia_Mathematica",
-    "wikidataId": "Q205934"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-philosophical-transactions",
@@ -469,8 +469,8 @@
     "shortDescription": "First scientific journal; institutionalized publication of experimental philosophy",
     "language": "English",
     "subject": "natural philosophy",
-    "wikipediaTitle": "Philosophical_Transactions_of_the_Royal_Society",
-    "wikidataId": "Q2306608"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-urania-propitia",
@@ -484,8 +484,8 @@
     ],
     "language": "Latin",
     "subject": "astronomy",
-    "wikipediaTitle": "Urania_propitia",
-    "wikidataId": "Q7899795"
+    "wikipediaTitle": "Urania_Propitia",
+    "wikidataId": "Q17144224"
   },
   {
     "id": "location-florence",
@@ -579,8 +579,8 @@
     "dateStart": "1542",
     "shortDescription": "Counter-Reformation tribunal; conducted Galileo's trial",
     "headquarters": "location-rome",
-    "wikipediaTitle": "Roman_Inquisition",
-    "wikidataId": "Q1046250"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-hartlib-circle",
@@ -595,7 +595,7 @@
     "shortDescription": "Correspondence network centered on Samuel Hartlib; precursor to Royal Society",
     "headquarters": "location-london",
     "wikipediaTitle": "Hartlib_Circle",
-    "wikidataId": "Q5676046"
+    "wikidataId": "Q604837"
   },
   {
     "id": "entity-medici-court",
@@ -608,8 +608,8 @@
     "entityType": "court",
     "shortDescription": "Florentine ruling family; Galileo's patrons",
     "headquarters": "location-florence",
-    "wikipediaTitle": "House_of_Medici",
-    "wikidataId": "Q37317"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-habsburg-court",
@@ -621,8 +621,8 @@
     "entityType": "court",
     "shortDescription": "Rudolf II's imperial court; patronage center for Tycho and Kepler",
     "headquarters": "location-prague",
-    "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
-    "wikidataId": "Q5765"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-academie-des-sciences",
@@ -675,7 +675,7 @@
       "mathematician"
     ],
     "wikipediaTitle": "Marin_Mersenne",
-    "wikidataId": "Q101072"
+    "wikidataId": "Q188663"
   },
   {
     "id": "person-christopher-wren",
@@ -692,8 +692,8 @@
       "astronomer",
       "mathematician"
     ],
-    "wikipediaTitle": "Christopher_Wren",
-    "wikidataId": "Q41279"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-henry-oldenburg",
@@ -714,7 +714,7 @@
       "editor"
     ],
     "wikipediaTitle": "Henry_Oldenburg",
-    "wikidataId": "Q60017"
+    "wikidataId": "Q700422"
   },
   {
     "id": "person-evangelista-torricelli",
@@ -731,7 +731,7 @@
       "mathematician"
     ],
     "wikipediaTitle": "Evangelista_Torricelli",
-    "wikidataId": "Q47159"
+    "wikidataId": "Q102490"
   },
   {
     "id": "person-blaise-pascal",
@@ -767,8 +767,8 @@
       "inventor",
       "politician"
     ],
-    "wikipediaTitle": "Otto_von_Guericke",
-    "wikidataId": "Q60025"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-william-gilbert",
@@ -784,8 +784,8 @@
       "physician",
       "natural philosopher"
     ],
-    "wikipediaTitle": "William_Gilbert_(physician)",
-    "wikidataId": "Q192330"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-andreas-vesalius",
@@ -802,7 +802,7 @@
       "physician"
     ],
     "wikipediaTitle": "Andreas_Vesalius",
-    "wikidataId": "Q142862"
+    "wikidataId": "Q170267"
   },
   {
     "id": "person-giovanni-borelli",
@@ -820,7 +820,7 @@
       "mathematician"
     ],
     "wikipediaTitle": "Giovanni_Alfonso_Borelli",
-    "wikidataId": "Q328441"
+    "wikidataId": "Q311814"
   },
   {
     "id": "person-ole-romer",
@@ -839,8 +839,8 @@
       "astronomer",
       "instrument maker"
     ],
-    "wikipediaTitle": "Ole_Rømer",
-    "wikidataId": "Q83371"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-marcello-malpighi",
@@ -858,6 +858,6 @@
       "anatomist"
     ],
     "wikipediaTitle": "Marcello_Malpighi",
-    "wikidataId": "Q185092"
+    "wikidataId": "Q232583"
   }
 ]

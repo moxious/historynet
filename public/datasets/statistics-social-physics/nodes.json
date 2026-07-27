@@ -15,7 +15,7 @@
       "physicist"
     ],
     "wikipediaTitle": "Pierre-Simon_Laplace",
-    "wikidataId": "Q186596"
+    "wikidataId": "Q44481"
   },
   {
     "id": "person-adolphe-quetelet",
@@ -34,7 +34,7 @@
       "sociologist"
     ],
     "wikipediaTitle": "Adolphe_Quetelet",
-    "wikidataId": "Q76584"
+    "wikidataId": "Q20012"
   },
   {
     "id": "person-ronald-fisher",
@@ -99,7 +99,7 @@
       "political scientist"
     ],
     "wikipediaTitle": "Marquis_de_Condorcet",
-    "wikidataId": "Q37979"
+    "wikidataId": "Q201477"
   },
   {
     "id": "person-simeon-denis-poisson",
@@ -116,7 +116,7 @@
       "physicist"
     ],
     "wikipediaTitle": "Siméon_Denis_Poisson",
-    "wikidataId": "Q49767"
+    "wikidataId": "Q190772"
   },
   {
     "id": "person-thomas-bayes",
@@ -134,7 +134,7 @@
       "Presbyterian minister"
     ],
     "wikipediaTitle": "Thomas_Bayes",
-    "wikidataId": "Q318630"
+    "wikidataId": "Q208452"
   },
   {
     "id": "person-abraham-de-moivre",
@@ -150,7 +150,7 @@
       "mathematician"
     ],
     "wikipediaTitle": "Abraham_de_Moivre",
-    "wikidataId": "Q310551"
+    "wikidataId": "Q200397"
   },
   {
     "id": "person-francis-galton",
@@ -172,7 +172,7 @@
       "eugenicist"
     ],
     "wikipediaTitle": "Francis_Galton",
-    "wikidataId": "Q131566"
+    "wikidataId": "Q191026"
   },
   {
     "id": "person-karl-pearson",
@@ -190,8 +190,8 @@
       "biostatistician",
       "eugenicist"
     ],
-    "wikipediaTitle": "Karl_Pearson",
-    "wikidataId": "Q180850"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-florence-nightingale",
@@ -208,8 +208,8 @@
       "statistician",
       "social reformer"
     ],
-    "wikipediaTitle": "Florence_Nightingale",
-    "wikidataId": "Q38348"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-jerzy-neyman",
@@ -226,7 +226,7 @@
       "statistician"
     ],
     "wikipediaTitle": "Jerzy_Neyman",
-    "wikidataId": "Q440568"
+    "wikidataId": "Q539544"
   },
   {
     "id": "person-egon-pearson",
@@ -242,7 +242,7 @@
       "statistician"
     ],
     "wikipediaTitle": "Egon_Pearson",
-    "wikidataId": "Q1302219"
+    "wikidataId": "Q1298830"
   },
   {
     "id": "person-adrien-marie-legendre",
@@ -258,7 +258,7 @@
       "mathematician"
     ],
     "wikipediaTitle": "Adrien-Marie_Legendre",
-    "wikidataId": "Q191799"
+    "wikidataId": "Q191021"
   },
   {
     "id": "person-jacob-bernoulli",
@@ -277,8 +277,8 @@
     "occupations": [
       "mathematician"
     ],
-    "wikipediaTitle": "Jacob_Bernoulli",
-    "wikidataId": "Q122420"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-william-sealy-gosset",
@@ -298,7 +298,7 @@
       "chemist"
     ],
     "wikipediaTitle": "William_Sealy_Gosset",
-    "wikidataId": "Q317584"
+    "wikidataId": "Q334375"
   },
   {
     "id": "person-andre-michel-guerry",
@@ -315,7 +315,7 @@
       "statistician"
     ],
     "wikipediaTitle": "André-Michel_Guerry",
-    "wikidataId": "Q2847710"
+    "wikidataId": "Q441271"
   },
   {
     "id": "person-william-farr",
@@ -332,8 +332,8 @@
       "statistician",
       "physician"
     ],
-    "wikipediaTitle": "William_Farr",
-    "wikidataId": "Q317584"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-charles-darwin",
@@ -366,8 +366,8 @@
     "occupations": [
       "mathematician"
     ],
-    "wikipediaTitle": "Andrey_Markov",
-    "wikidataId": "Q140282"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-emile-durkheim",
@@ -384,7 +384,7 @@
       "philosopher"
     ],
     "wikipediaTitle": "Émile_Durkheim",
-    "wikidataId": "Q44279"
+    "wikidataId": "Q15948"
   },
   {
     "id": "object-theorie-analytique-des-probabilites",
@@ -397,8 +397,8 @@
     "creators": [
       "person-pierre-simon-laplace"
     ],
-    "wikipediaTitle": "Théorie_analytique_des_probabilités",
-    "wikidataId": "Q3527157"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-essai-philosophique-sur-les-probabilites",
@@ -442,8 +442,8 @@
     "creators": [
       "person-ronald-fisher"
     ],
-    "wikipediaTitle": "Statistical_Methods_for_Research_Workers",
-    "wikidataId": "Q25927621"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-design-of-experiments",
@@ -456,8 +456,8 @@
     "creators": [
       "person-ronald-fisher"
     ],
-    "wikipediaTitle": "The_Design_of_Experiments",
-    "wikidataId": "Q7726887"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-essay-towards-solving-a-problem",
@@ -485,7 +485,7 @@
       "person-jacob-bernoulli"
     ],
     "wikipediaTitle": "Ars_Conjectandi",
-    "wikidataId": "Q623586"
+    "wikidataId": "Q1824330"
   },
   {
     "id": "object-doctrine-of-chances",
@@ -498,8 +498,8 @@
     "creators": [
       "person-abraham-de-moivre"
     ],
-    "wikipediaTitle": "The_Doctrine_of_Chances",
-    "wikidataId": "Q1757843"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-hereditary-genius",
@@ -512,8 +512,8 @@
     "creators": [
       "person-francis-galton"
     ],
-    "wikipediaTitle": "Hereditary_Genius",
-    "wikidataId": "Q5734888"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-natural-inheritance",
@@ -540,8 +540,8 @@
     "creators": [
       "person-karl-pearson"
     ],
-    "wikipediaTitle": "The_Grammar_of_Science",
-    "wikidataId": "Q7734628"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-le-suicide",
@@ -554,8 +554,8 @@
     "creators": [
       "person-emile-durkheim"
     ],
-    "wikipediaTitle": "Suicide_(Durkheim_book)",
-    "wikidataId": "Q2088170"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-ecole-polytechnique",
@@ -587,8 +587,8 @@
     "shortDescription": "Agricultural research station where Fisher developed ANOVA and modern experimental design methods",
     "country": "United Kingdom",
     "dateStart": "1843",
-    "wikipediaTitle": "Rothamsted_Research",
-    "wikidataId": "Q2157227"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-biometrika",
@@ -601,8 +601,8 @@
       "person-karl-pearson",
       "person-francis-galton"
     ],
-    "wikipediaTitle": "Biometrika",
-    "wikidataId": "Q673175"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-royal-statistical-society",
@@ -612,8 +612,8 @@
     "shortDescription": "British learned society for statistics founded in 1834, Florence Nightingale was its first female fellow",
     "dateStart": "1834",
     "country": "United Kingdom",
-    "wikipediaTitle": "Royal_Statistical_Society",
-    "wikidataId": "Q1423882"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-eugenics-education-society",
@@ -625,8 +625,8 @@
     "dateEnd": "1989",
     "country": "United Kingdom",
     "foundedBy": [],
-    "wikipediaTitle": "Eugenics_Society",
-    "wikidataId": "Q5407573"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-johann-heinrich-lambert",
@@ -645,7 +645,7 @@
       "philosopher"
     ],
     "wikipediaTitle": "Johann_Heinrich_Lambert",
-    "wikidataId": "Q76610"
+    "wikidataId": "Q122999"
   },
   {
     "id": "person-friedrich-bessel",
@@ -661,8 +661,8 @@
       "astronomer",
       "mathematician"
     ],
-    "wikipediaTitle": "Friedrich_Bessel",
-    "wikidataId": "Q78247"
+    "wikipediaTitle": "Friedrich_Wilhelm_Bessel",
+    "wikidataId": "Q75845"
   },
   {
     "id": "person-johann-franz-encke",
@@ -678,7 +678,7 @@
       "astronomer"
     ],
     "wikipediaTitle": "Johann_Franz_Encke",
-    "wikidataId": "Q57330"
+    "wikidataId": "Q57294"
   },
   {
     "id": "person-tobias-mayer",
@@ -694,8 +694,8 @@
       "astronomer",
       "cartographer"
     ],
-    "wikipediaTitle": "Tobias_Mayer",
-    "wikidataId": "Q61071"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-theoria-motus",
@@ -711,8 +711,8 @@
     "creators": [
       "person-carl-friedrich-gauss"
     ],
-    "wikipediaTitle": "Theoria_motus_corporum_coelestium_in_sectionibus_conicis_solem_ambientium",
-    "wikidataId": "Q15989807"
+    "wikipediaTitle": null,
+    "wikidataId": "Q139933668"
   },
   {
     "id": "location-gottingen-observatory",
@@ -723,7 +723,7 @@
     "country": "Germany",
     "dateStart": "1751",
     "wikipediaTitle": "Göttingen_Observatory",
-    "wikidataId": "Q896313"
+    "wikidataId": "Q177848"
   },
   {
     "id": "location-konigsberg-observatory",
@@ -733,8 +733,8 @@
     "shortDescription": "Observatory where Bessel served as director and made pioneering measurements including the first stellar parallax",
     "country": "Germany",
     "dateStart": "1813",
-    "wikipediaTitle": "Königsberg_Observatory",
-    "wikidataId": "Q1796310"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-pafnuty-chebyshev",

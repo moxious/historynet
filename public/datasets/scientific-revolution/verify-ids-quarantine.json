@@ -1,0 +1,575 @@
+[
+  {
+    "nodeId": "person-tycho-brahe",
+    "title": "Tycho Brahe",
+    "type": "person",
+    "previousId": "Q36866",
+    "previousResolvedTo": "Bình Dương",
+    "candidates": [
+      {
+        "wikidataId": "Q36620",
+        "label": "Tycho Brahe",
+        "description": "Danish astronomer and alchemist, 1546–1601"
+      },
+      {
+        "wikidataId": "Q142232",
+        "label": "1677 Tycho Brahe",
+        "description": "asteroid"
+      },
+      {
+        "wikidataId": "Q15077926",
+        "label": "Jerry Holkins",
+        "description": "American writer"
+      },
+      {
+        "wikidataId": "Q744672",
+        "label": "Tycho Brahe",
+        "description": "crater on Mars"
+      },
+      {
+        "wikidataId": "Q6715664",
+        "label": "MF Tycho Brahe",
+        "description": "Electric Ro-Ro Ferry"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-robert-hooke",
+    "title": "Robert Hooke",
+    "type": "person",
+    "previousId": "Q47081",
+    "previousResolvedTo": "Segusino",
+    "candidates": [
+      {
+        "wikidataId": "Q46830",
+        "label": "Robert Hooke",
+        "description": "English natural philosopher, architect and polymath (1635 — 1703)"
+      },
+      {
+        "wikidataId": "Q102198851",
+        "label": "Robert Hooke",
+        "description": "Ph.D. Princeton University 1942"
+      },
+      {
+        "wikidataId": "Q116026987",
+        "label": "Robert Hooker",
+        "description": "- 1537"
+      },
+      {
+        "wikidataId": "Q102226402",
+        "label": "Robert Hooker Laprade, Jr",
+        "description": "Ph.D. Brown University 1983"
+      },
+      {
+        "wikidataId": "Q87280611",
+        "label": "Robert Hooke",
+        "description": "episode of In Our Time"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-john-wilkins",
+    "title": "John Wilkins",
+    "type": "person",
+    "previousId": "Q557652",
+    "previousResolvedTo": "Halis Öztürk",
+    "candidates": [
+      {
+        "wikidataId": "Q381039",
+        "label": "John Wilkins",
+        "description": "Secretary of the Royal Society and Bishop of Chester"
+      },
+      {
+        "wikidataId": "Q78891162",
+        "label": "John W. Wilkins",
+        "description": "American physicist (1936-2019)"
+      },
+      {
+        "wikidataId": "Q104037345",
+        "label": "John Wilkins",
+        "description": "British historian and hellenist (1954-)"
+      },
+      {
+        "wikidataId": "Q124866861",
+        "label": "John Wilkins",
+        "description": "Australian architect"
+      },
+      {
+        "wikidataId": "Q133593543",
+        "label": "John Wilkins",
+        "description": "British journalist (1936-2022)"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-robert-bellarmine",
+    "title": "Robert Bellarmine",
+    "type": "person",
+    "previousId": "Q298908",
+    "previousResolvedTo": "Patrick McGoohan",
+    "candidates": [
+      {
+        "wikidataId": "Q298664",
+        "label": "Robert Bellarmine",
+        "description": "Catholic cardinal, saint, and Doctor of the Church"
+      },
+      {
+        "wikidataId": "Q4932983",
+        "label": "Bob Katter",
+        "description": "Australian politician (born 1945)"
+      },
+      {
+        "wikidataId": "Q7342561",
+        "label": "Robert Byrne",
+        "description": "American songwriter (1954-2005)"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-margaret-cavendish",
+    "title": "Margaret Cavendish",
+    "type": "person",
+    "previousId": "Q234858",
+    "previousResolvedTo": "Panzer Division Clausewitz",
+    "candidates": [
+      {
+        "wikidataId": "Q242640",
+        "label": "Margaret Cavendish, Duchess of Newcastle-upon-Tyne",
+        "description": "English aristocrat, prolific writer, and scientist"
+      },
+      {
+        "wikidataId": "Q123509787",
+        "label": "Margaret Cavendish",
+        "description": "first wife of Robert Dudley, a sister (or a cousin) of Thomas Cavendish"
+      },
+      {
+        "wikidataId": "Q75627392",
+        "label": "Margaret Cavendish",
+        "description": "(1907-2010)"
+      },
+      {
+        "wikidataId": "Q75577417",
+        "label": "Margaret Savage Alcock",
+        "description": "(1922-1961)"
+      },
+      {
+        "wikidataId": "Q75627203",
+        "label": "Margaret Cavendish",
+        "description": "Peerage person ID=255096"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-rudolf-ii",
+    "title": "Rudolf II",
+    "type": "person",
+    "previousId": "Q5765",
+    "previousResolvedTo": "Balearic Islands",
+    "candidates": [
+      {
+        "wikidataId": "Q150586",
+        "label": "Emperor Rudolf II",
+        "description": "Holy Roman Emperor, King of Hungary and Croatia, King of Bohemia and Archduke of Austria (1552-1612)"
+      },
+      {
+        "wikidataId": "Q314001",
+        "label": "Rudolf II, Duke of Austria",
+        "description": "13th-century member of the House of Habsburg"
+      },
+      {
+        "wikidataId": "Q566714",
+        "label": "Rudolf II",
+        "description": "Elector of Saxony and Duke of Saxe-Wittenberg"
+      },
+      {
+        "wikidataId": "Q2173031",
+        "label": "Rudolf II",
+        "description": "Peerage person ID=649015"
+      },
+      {
+        "wikidataId": "Q408595",
+        "label": "Rudolph II",
+        "description": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-de-revolutionibus",
+    "title": "De revolutionibus orbium coelestium",
+    "type": "object",
+    "previousId": "Q211423",
+    "previousResolvedTo": "goldsmith",
+    "candidates": [
+      {
+        "wikidataId": "Q845981",
+        "label": "De revolutionibus orbium coelestium",
+        "description": "book by Copernicus"
+      },
+      {
+        "wikidataId": "Q20951088",
+        "label": "De revolutionibus orbium coelestium",
+        "description": "1st edition in Latin, Nuremberg"
+      },
+      {
+        "wikidataId": "Q9162544",
+        "label": "De revolutionibus orbium coelestium",
+        "description": "Manuscript by Nicolaus Copernicus looted by Nazists from Toruń Museum."
+      },
+      {
+        "wikidataId": "Q42188607",
+        "label": "De revolutionibus orbium coelestium libri VI"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-astronomia-nova",
+    "title": "Astronomia nova",
+    "type": "object",
+    "previousId": "Q720120",
+    "previousResolvedTo": "Asa Hodges",
+    "candidates": [
+      {
+        "wikidataId": "Q779311",
+        "label": "Astronomia nova",
+        "description": "book by Johannes Kepler"
+      },
+      {
+        "wikidataId": "Q48386623",
+        "label": "Astronomia nova to human brain mapping",
+        "description": "scientific article published on 25 October 2006"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-sidereus-nuncius",
+    "title": "Sidereus Nuncius",
+    "type": "object",
+    "previousId": "Q652054",
+    "previousResolvedTo": "Saint-Jean-le-Blanc",
+    "candidates": [
+      {
+        "wikidataId": "Q1457297",
+        "label": "Sidereus Nuncius",
+        "description": "astronomical treatise of Galileo"
+      },
+      {
+        "wikidataId": "Q111311206",
+        "label": "Sidereus Nuncius",
+        "description": "1610 first edition of the work by Galileo"
+      },
+      {
+        "wikidataId": "Q121074474",
+        "label": "Syderevs nvncivs",
+        "description": "1655 Latin edition of the work by Galileo"
+      },
+      {
+        "wikidataId": "Q138036994",
+        "label": "Sidereus Nuncius, or The Sidereal Messenger",
+        "description": "book published in 1989"
+      },
+      {
+        "wikidataId": "Q138038205",
+        "label": "Sidereus Nuncius, or The Sidereal Messenger",
+        "description": "book published in 2015"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-dialogo",
+    "title": "Dialogue Concerning the Two Chief World Systems",
+    "type": "object",
+    "previousId": "Q1017439",
+    "previousResolvedTo": "list of minor planets/49801–49900",
+    "candidates": [
+      {
+        "wikidataId": "Q140220379",
+        "label": "Dialogue Concerning the Two Chief World Systems",
+        "description": "edited book published by University of California Press (1967)"
+      },
+      {
+        "wikidataId": "Q1768303",
+        "label": "Dialogue Concerning the Two Chief World Systems",
+        "description": "1632 book by Galileo Galilei"
+      },
+      {
+        "wikidataId": "Q138561922",
+        "label": "Dialogue Concerning the Two Chief World Systems",
+        "description": "2001 paperback edition"
+      },
+      {
+        "wikidataId": "Q136182032",
+        "label": "Dialogue Concerning the Two Chief World Systems, Ptolemaic and Copernican, Second Revised edition",
+        "description": "book 1967"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-novum-organum",
+    "title": "Novum Organum",
+    "type": "object",
+    "previousId": "Q2657053",
+    "previousResolvedTo": "Breite Straße",
+    "candidates": [
+      {
+        "wikidataId": "Q585046",
+        "label": "Novum Organum",
+        "description": "book by Francis Bacon"
+      },
+      {
+        "wikidataId": "Q51424561",
+        "label": "Novum Organum",
+        "description": "New York, Collier, 1902"
+      },
+      {
+        "wikidataId": "Q51512340",
+        "label": "Novum organum scientiarum",
+        "description": "Venetiis, Typis G. Girardi, 1762."
+      },
+      {
+        "wikidataId": "Q83156879",
+        "label": "Novum organum (1620)",
+        "description": "scientific article published on 01 November 2010"
+      },
+      {
+        "wikidataId": "Q58719100",
+        "label": "Novum Organum Medicorum; or, New Medical Logic"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-principia",
+    "title": "Philosophiæ Naturalis Principia Mathematica",
+    "type": "object",
+    "previousId": "Q205934",
+    "previousResolvedTo": "Circus Charles Knie",
+    "candidates": [
+      {
+        "wikidataId": "Q205921",
+        "label": "Philosophiæ Naturalis Principia Mathematica",
+        "description": "1687 work by Isaac Newton describing his laws of motion and gravitation"
+      },
+      {
+        "wikidataId": "Q20963633",
+        "label": "Philosophiae Naturalis Principia Mathematica",
+        "description": "third edition 1726"
+      },
+      {
+        "wikidataId": "Q20963630",
+        "label": "Philosophiae Naturalis Principia Mathematica",
+        "description": "second edition 1713"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-philosophical-transactions",
+    "title": "Philosophical Transactions of the Royal Society",
+    "type": "object",
+    "previousId": "Q2306608",
+    "previousResolvedTo": "Orectochilus conspicuus",
+    "candidates": [
+      {
+        "wikidataId": "Q913162",
+        "label": "Philosophical Transactions",
+        "description": "British scientific journal published by the Royal Society"
+      },
+      {
+        "wikidataId": "Q2153239",
+        "label": "Philosophical Transactions of the Royal Society B",
+        "description": "scientific journal"
+      },
+      {
+        "wikidataId": "Q2153230",
+        "label": "Philosophical Transactions of the Royal Society A",
+        "description": "academic journal"
+      },
+      {
+        "wikidataId": "Q15768326",
+        "label": "Transactions of the Royal Society of Edinburgh",
+        "description": "scientific journal"
+      },
+      {
+        "wikidataId": "Q46792372",
+        "label": "Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences",
+        "description": "scientific journal"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-roman-inquisition",
+    "title": "Roman Inquisition",
+    "type": "entity",
+    "previousId": "Q1046250",
+    "previousResolvedTo": "PZL TS-11 Iskra",
+    "candidates": [
+      {
+        "wikidataId": "Q625356",
+        "label": "Dicastery for the Doctrine of the Faith",
+        "description": "institution of the Roman Curia and successor to the Holy Office"
+      },
+      {
+        "wikidataId": "Q3286938",
+        "label": "Roman Inquisition",
+        "description": "(1542–1908) institution of the Roman Curia"
+      },
+      {
+        "wikidataId": "Q113468884",
+        "label": "Dicastery for the Doctrine of the Faith",
+        "description": "Catholic Church's central authority, successor to (or renamed from) the Congregation for the Doctrine of the Faith"
+      },
+      {
+        "wikidataId": "Q104289954",
+        "label": "Sacred Congregation of the Holy Office",
+        "description": "(1908-1965) institution of the Roman Curia and successor to the Roman Inquisition"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-habsburg-court",
+    "title": "Habsburg Court (Prague)",
+    "type": "entity",
+    "previousId": "Q5765",
+    "previousResolvedTo": "Balearic Islands",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-christopher-wren",
+    "title": "Christopher Wren",
+    "type": "person",
+    "previousId": "Q41279",
+    "previousResolvedTo": "Prayagraj division",
+    "candidates": [
+      {
+        "wikidataId": "Q170373",
+        "label": "Christopher Wren",
+        "description": "English architect (1632–1723)"
+      },
+      {
+        "wikidataId": "Q110083438",
+        "label": "Christopher Wren"
+      },
+      {
+        "wikidataId": "Q5113467",
+        "label": "Christopher Wren Jr",
+        "description": "English politician, Son of Sir Christopher Wren"
+      },
+      {
+        "wikidataId": "Q17424996",
+        "label": "Christopher Wren",
+        "description": "British priest (1589-1658)"
+      },
+      {
+        "wikidataId": "Q118985362",
+        "label": "Christopher Wren",
+        "description": "painting by Godfrey Kneller (1646–1723) (possibly), Sheldonian Theatre, University of Oxford"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-otto-von-guericke",
+    "title": "Otto von Guericke",
+    "type": "person",
+    "previousId": "Q60025",
+    "previousResolvedTo": "Hannah Arendt",
+    "candidates": [
+      {
+        "wikidataId": "Q60095",
+        "label": "Otto von Guericke",
+        "description": "German scientist, inventor, and politician (1602-1686)"
+      },
+      {
+        "wikidataId": "Q655866",
+        "label": "University of Magdeburg",
+        "description": "university in Germany"
+      },
+      {
+        "wikidataId": "Q18597766",
+        "label": "Otto von Guericke",
+        "description": "painting by unknown painter"
+      },
+      {
+        "wikidataId": "Q100479385",
+        "label": "Otto-von-Guericke-Straße",
+        "description": "street in Magdeburg, Saxony-Anhalt, Germany"
+      },
+      {
+        "wikidataId": "Q94792419",
+        "label": "Otto von Guericke"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-william-gilbert",
+    "title": "William Gilbert",
+    "type": "person",
+    "previousId": "Q192330",
+    "previousResolvedTo": "(non-human entity)",
+    "candidates": [
+      {
+        "wikidataId": "Q192706",
+        "label": "William Gilbert",
+        "description": "English physician, physicist and natural philosopher (1544-1603)"
+      },
+      {
+        "wikidataId": "Q4020025",
+        "label": "William Gilbert",
+        "description": "British writer and Royal Navy surgeon (1804–1890)"
+      },
+      {
+        "wikidataId": "Q110623310",
+        "label": "William Gilbert",
+        "description": "1540 - certain 4 Mar 1602"
+      },
+      {
+        "wikidataId": "Q111453222",
+        "label": "William Gilbert",
+        "description": "1780 - 1812"
+      },
+      {
+        "wikidataId": "Q348513",
+        "label": "W. S. Gilbert",
+        "description": "English dramatist, poet and illustrator (1836–1911)"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-ole-romer",
+    "title": "Ole Rømer",
+    "type": "person",
+    "previousId": "Q83371",
+    "previousResolvedTo": "seismology",
+    "candidates": [
+      {
+        "wikidataId": "Q160187",
+        "label": "Ole Rømer",
+        "description": "Danish astronomer (*1644 – †1710)"
+      },
+      {
+        "wikidataId": "Q106771729",
+        "label": "Ole Rømer"
+      },
+      {
+        "wikidataId": "Q4584829",
+        "label": "Ole Rømer Aagaard Sandberg",
+        "description": "Norwegian politician (1900–1985)"
+      },
+      {
+        "wikidataId": "Q1075902",
+        "label": "2897 Ole Römer",
+        "description": "asteroid"
+      },
+      {
+        "wikidataId": "Q16650274",
+        "label": "Ole Rømer Sandberg",
+        "description": "Norwegian politician"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-medici-court",
+    "title": "Medici Court",
+    "type": "entity",
+    "previousId": "Q37317",
+    "previousResolvedTo": "(no English label)",
+    "candidates": []
+  }
+]
