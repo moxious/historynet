@@ -38,3 +38,6 @@ jobs:
 
       - name: Validate datasets
         run: npm run validate:datasets
+
+      - name: Check manifest sync
+        run: npm run sync-manifest:check

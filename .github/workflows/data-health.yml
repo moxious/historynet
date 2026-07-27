@@ -1,0 +1,59 @@
+name: Data Health Check
+
+# Weekly Wikidata ID audit across all datasets. This hits the live Wikidata API
+# (~1,500 lookups) and a small number of "wrong" results are expected matcher
+# false positives, so it is intentionally NOT a PR gate: it reports to the run
+# summary and never fails the build. A sharp spike in the wrong-rate for a
+# dataset is the signal that its ID layer has been corrupted.
+
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-ids:
+    name: Wikidata ID health check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit Wikidata IDs (report only)
+        run: npm run verify-ids --silent -- --json > verify-ids-report.json || true
+
+      - name: Publish summary
+        if: always()
+        run: |
+          node <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require('fs');
+          let rows;
+          try {
+            rows = JSON.parse(fs.readFileSync('verify-ids-report.json', 'utf8'));
+          } catch {
+            console.log('## Wikidata ID Health Check\n\n_Report unavailable — verify-ids produced no parseable output, likely a transient Wikidata API issue. Re-run the workflow._');
+            process.exit(0);
+          }
+          let md = '## Wikidata ID Health Check\n\n| Dataset | checked | ok | wrong | rate |  |\n|---|--:|--:|--:|--:|:--|\n';
+          for (const d of rows) {
+            const rate = d.checked ? Math.round((100 * d.wrong) / d.checked) : 0;
+            const flag = rate >= 20 ? '⚠️ likely corruption' : '';
+            md += `| ${d.datasetId} | ${d.checked} | ${d.ok} | ${d.wrong} | ${rate}% | ${flag} |\n`;
+          }
+          md += '\n_A few "wrong" per dataset are usually matcher false positives (renames, book→author links). A ⚠️ high rate indicates likely ID corruption — inspect with_ `npm run verify-ids -- --dataset <id>` _and remediate with_ `npm run verify-ids:fix -- --dataset <id> --clear-unverifiable`.';
+          console.log(md);
+          EOF
