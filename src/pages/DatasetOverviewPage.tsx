@@ -10,7 +10,7 @@
 import { useEffect, useState, useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { buildDatasetOgImageUrl } from '@components/ResourceMeta';
+import { buildDatasetOgImageUrl } from '@components/ResourceMeta.utils';
 import type { DatasetManifest, GraphData } from '@types';
 import { loadDataset, isValidDatasetId, getPublicAssetUrl } from '@utils/dataLoader';
 import { buildExploreUrl, buildNodeUrl, buildFullDatasetUrl } from '@utils/urlBuilder';

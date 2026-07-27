@@ -13,7 +13,7 @@
  */
 
 import { CrossSceneNetworkCard, CrossSceneNetworkCardSkeleton } from './CrossSceneNetworkCard';
-import type { CrossSceneAppearance } from '@contexts/CrossSceneContext';
+import type { CrossSceneAppearance } from '@contexts/crossSceneContextCore';
 import './CrossSceneSection.css';
 
 interface CrossSceneSectionProps {

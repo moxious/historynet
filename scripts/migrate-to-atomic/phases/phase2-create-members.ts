@@ -11,16 +11,12 @@ import type {
   MembersFile,
   MemberReference,
   OverrideFields,
-  CanonicalFields,
 } from '../types.js';
 
 /**
  * Extract override fields from a node (fields that differ from canonical)
  */
-function extractOverrideFields(
-  node: GraphNode,
-  canonicalData: CanonicalFields
-): OverrideFields {
+function extractOverrideFields(node: GraphNode): OverrideFields {
   const overrides: OverrideFields = {};
 
   // Check all non-canonical fields
@@ -107,7 +103,7 @@ async function createMembersFile(
     }
 
     // Extract overrides
-    const overrides = extractOverrideFields(node, entity.canonicalData);
+    const overrides = extractOverrideFields(node);
 
     // Create member reference
     const member: MemberReference = {

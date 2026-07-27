@@ -62,7 +62,7 @@ function parseArgs(args: string[]): TestCLIOptions {
       case '--dataset':
         options.dataset = args[++i];
         break;
-      case '--format':
+      case '--format': {
         const format = args[++i];
         if (format !== 'current' && format !== 'atomic') {
           logError(`Invalid format: ${format}. Must be 'current' or 'atomic'`);
@@ -70,6 +70,7 @@ function parseArgs(args: string[]): TestCLIOptions {
         }
         options.format = format;
         break;
+      }
       case '--compare':
         options.compare = true;
         break;
