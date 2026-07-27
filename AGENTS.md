@@ -351,6 +351,7 @@ this order:
 |---------|---------|
 | `npm run verify-ids -- --dataset <id>` | Audit existing `wikidataId`s against the real Wikidata entities; flags IDs pointing at the wrong thing. Read-only; exits non-zero on findings. `verify-ids:fix` clears/re-resolves wrong IDs (`--clear-unverifiable` also nulls unresolvable ones). |
 | `npm run resolve-ids -- --dataset <id>` | Assign correct IDs to null-`wikidataId` nodes via date-aware disambiguation (only high-confidence matches). `resolve-ids:dry-run` previews. |
+| `npm run cross-dataset` | Report entities shared across datasets (by `wikidataId`) and flag divergent canonical fields, one-ID-two-entities collisions, and intra-dataset duplicates. Contextual fields (biographies) are ignored. Read-only; `--conflicts-only`, `--json`. |
 
 **Research & assets:**
 
@@ -359,9 +360,10 @@ this order:
 | `npm run suggest -- --dataset <id>` | Suggest people the dataset is missing, via cross-dataset gap detection (era overlap + edges linking a candidate to your existing members in another network). Report only. |
 | `npm run fetch-banner -- --dataset <id> --query "..."` | Find a themed banner on Wikimedia Commons and capture its license/attribution. **Dry-run by default** (prints the pick, writes nothing); pass `--download` to fetch the image + update the manifest. |
 
-> **Scheduled health checks**: `verify-ids` and `check-evidence` also run weekly
-> (non-blocking, report-only) via `.github/workflows/data-health.yml`, so
-> ID corruption or link rot surface even without a PR touching the data.
+> **Scheduled health checks**: `verify-ids`, `check-evidence`, and `cross-dataset`
+> also run weekly (non-blocking, report-only) via
+> `.github/workflows/data-health.yml`, so ID corruption, link rot, and
+> cross-dataset drift surface even without a PR touching the data.
 
 **Maintenance**: when you add a `scripts/<tool>/`, wire it into `package.json`,
 give it a `--help`, and add a row to this inventory.

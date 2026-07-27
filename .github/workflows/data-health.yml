@@ -88,3 +88,29 @@ jobs:
           }
           console.log(md);
           EOF
+
+      - name: Cross-dataset consistency (report only)
+        if: always()
+        run: npm run cross-dataset --silent -- --json > cross-dataset-report.json || true
+
+      - name: Publish cross-dataset summary
+        if: always()
+        run: |
+          node <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require('fs');
+          let r;
+          try {
+            r = JSON.parse(fs.readFileSync('cross-dataset-report.json', 'utf8'));
+          } catch {
+            console.log('\n## Cross-Dataset Consistency\n\n_Report unavailable._');
+            process.exit(0);
+          }
+          let md = '\n## Cross-Dataset Consistency\n\n';
+          md += `Shared/duplicated entities: ${r.sharedEntities} | canonical conflicts: ${r.withConflicts} | intra-dataset duplicates: ${r.intraDatasetDuplicates}\n`;
+          if (r.withConflicts === 0 && r.intraDatasetDuplicates === 0) {
+            md += '\n✅ No canonical conflicts or intra-dataset duplicates.';
+          } else {
+            md += '\n_Inspect with_ `npm run cross-dataset -- --conflicts-only`. These are the duplications the atomic architecture (M34–M37) would eliminate._';
+          }
+          console.log(md);
+          EOF
