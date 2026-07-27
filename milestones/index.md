@@ -39,7 +39,7 @@ This directory contains one file per milestone, replacing the monolithic `PROGRE
 | M31 | Dataset Pages | ✅ Complete | C | [m31-dataset-pages.md](m31-dataset-pages.md) |
 | M32 | New Homepage | ✅ Complete | C | [m32-new-homepage.md](m32-new-homepage.md) |
 | M33 | Social Sharing & Dynamic OG | ✅ Complete | B | [m33-social-sharing.md](m33-social-sharing.md) |
-| M34 | Migration Infrastructure & Testing | 🔲 Future | D | [m34-migration-infrastructure.md](m34-migration-infrastructure.md) |
+| M34 | Migration Infrastructure & Testing | ⏸ Paused (Phases 1–2 landed) | D | [m34-migration-infrastructure.md](m34-migration-infrastructure.md) |
 | M35 | Research Tooling for Atomic Architecture | 🔲 Future | D | [m35-research-tooling.md](m35-research-tooling.md) |
 | M36 | Atomic Architecture - Persons Only | 🔲 Future | D | [m36-atomic-persons.md](m36-atomic-persons.md) |
 | M37 | Full POLE Atomization | 🔲 Future | D | [m37-full-pole-atomization.md](m37-full-pole-atomization.md) |
@@ -97,10 +97,20 @@ M1-M20 (Core Application Complete) ✅
 
 ## Next Steps
 
+**Active direction (2026-07-27)**: **Thread 2A — pipeline scripting** (see
+`thread2-pipeline-optimization.md`). Format-agnostic scripts that speed up the
+"idea → dataset" pipeline on the *current* data format, no migration required.
+Shipped so far: `enrich` (Wikidata/Wikipedia field lookup) and `sync-manifest`
+(manifest count reconciliation + CI `--check`).
+
 **Ready to implement** (dependencies satisfied):
-- **M26: Custom Domain** - Depends on M24 ✅
+- **Thread 2A remainder**: `new-dataset`, `check-evidence`, `fetch-banner`, `suggest`
+- **M26: Custom Domain** - Depends on M24 ✅ (quick, unblocked)
 - **M27: Spam Protection** - Depends on M25 ✅
-- **M34: Migration Infrastructure & Testing** - No dependencies (foundation for Track D)
+
+**Paused**:
+- **M34: Migration Infrastructure** - Phases 1–2 landed (PR #36); Phases 3–5 +
+  blockers B1–B4 consciously deferred behind Thread 2A. Resume deliberately later.
 
 **Track B progress**: M30 (Cross-Scene UI) complete. Full cross-scene discovery experience deployed with visual indicators, progressive disclosure, and seamless navigation across datasets.
 

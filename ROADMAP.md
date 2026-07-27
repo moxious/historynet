@@ -41,7 +41,7 @@ This document outlines the future direction for Scenius.
 
 | # | Milestone | Description | Dependencies |
 |---|-----------|-------------|--------------|
-| M34 | Migration Infrastructure & Testing | Build migration tooling and comprehensive tests for atomic architecture transition | None |
+| M34 | Migration Infrastructure & Testing | Build migration tooling and comprehensive tests for atomic architecture transition ⏸ **Paused** — Phases 1–2 landed (PR #36); Phases 3–5 + blockers deferred behind Thread 2A | None |
 | M35 | Research Tooling | CLI tools for efficient entity management (find, create, edit, add-to-dataset) | M34 |
 | M36 | Atomic Architecture - Persons | Migrate Person entities to atomic files, prove architecture pattern | M34, M35 |
 | M37 | Full POLE Atomization | Extend atomization to Objects, Locations, Entities - complete architecture | M36 |
@@ -78,8 +78,13 @@ Completed Foundation
 ```
 
 **Recommended next**:
-- **Track B**: M26 (Custom Domain) or M29 (Cross-Scene API) - both are independent
-- **Track D**: M34 (Migration Infrastructure) - foundation for atomic architecture, no dependencies
+- **Thread 2A (active)**: Pipeline scripting on the current data format — no
+  migration required. `enrich` and `sync-manifest` shipped; `new-dataset`,
+  `check-evidence`, `fetch-banner`, `suggest` remain. See
+  `milestones/thread2-pipeline-optimization.md`.
+- **Track B**: M26 (Custom Domain) - independent, quick win
+- **Track D**: M34 is ⏸ **paused** behind Thread 2A — resume deliberately once
+  2A is in hand (Phases 3–5 + blockers B1–B4 still open).
 
 ---
 
