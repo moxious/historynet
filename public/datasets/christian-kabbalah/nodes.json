@@ -118,8 +118,8 @@
       "Franciscus Georgius",
       "Francesco Zorzi"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Francesco_Giorgi",
+    "wikidataId": "Q1987549",
     "biography": "Francesco Giorgi (also known as Francesco Giorgio Veneto or Zorzi) was a Venetian Franciscan friar and Christian Kabbalist. His magnum opus, De Harmonia Mundi totius cantica tria (1525), was an encyclopedic synthesis of Kabbalah, Neoplatonism, and Christian theology, presenting the universe as a harmonious system of correspondences. The work deeply influenced Renaissance cosmology and was consulted for the architectural proportions of churches. Giorgi studied Hebrew with Jewish scholars in Venice and had access to Kabbalistic manuscripts. His In Scripturam Sacram Problemata (1536) applied Kabbalistic methods to biblical interpretation. He also advised on the divorce of Henry VIII of England."
   },
   {
@@ -141,8 +141,8 @@
       "Pico",
       "Count of Mirandola"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Giovanni_Pico_della_Mirandola",
+    "wikidataId": "Q182128",
     "biography": "Giovanni Pico della Mirandola was an Italian Renaissance philosopher, often considered the founder of Christian Kabbalah. His famous Oration on the Dignity of Man (1486) is sometimes called the 'Manifesto of the Renaissance.' In his 900 Theses (1486), 47 were derived from Kabbalistic sources, making him the first Christian to systematically incorporate Jewish mysticism into Christian theology. He argued that Kabbalah provided ancient confirmation of Christian truths, especially the Trinity and the divinity of Christ. His work was condemned by Pope Innocent VIII, but he found protection in Florence under Lorenzo de' Medici. His premature death at 31 cut short a brilliant career, but his synthesis of Kabbalah, Neoplatonism, and Christianity influenced all subsequent Christian Kabbalists."
   },
   {
@@ -258,8 +258,8 @@
     "alternateNames": [
       "Johann Pfefferkorn"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Johannes_Pfefferkorn",
+    "wikidataId": "Q66486",
     "biography": "Johannes Pfefferkorn was a German Jewish convert to Christianity who became notorious for his campaign to confiscate and destroy Jewish books. After his conversion around 1504, he obtained an imperial mandate from Emperor Maximilian I to examine and potentially destroy Hebrew books that he claimed blasphemed Christianity. Reuchlin's opposition to this campaign sparked the 'Reuchlin Affair,' a major intellectual controversy that pitted humanists against scholastic theologians. Pfefferkorn and Reuchlin exchanged bitter polemics (Pfefferkorn's Handspiegel vs. Reuchlin's Augenspiegel), and the dispute became a proxy battle over humanist methods and the value of non-Christian learning."
   },
   {
@@ -389,8 +389,8 @@
     ],
     "language": "Latin",
     "subject": "cryptography",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Polygraphia_(book)",
+    "wikidataId": "Q9061532"
   },
   {
     "id": "object-de-septem-secundeis",
@@ -754,8 +754,8 @@
       "Cosimo the Elder",
       "Cosimo il Vecchio"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Cosimo_de'_Medici",
+    "wikidataId": "Q48544"
   },
   {
     "id": "person-maximilian-i",

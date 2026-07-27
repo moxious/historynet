@@ -1,91 +1,5 @@
 [
   {
-    "nodeId": "person-francesco-giorgi",
-    "title": "Francesco Giorgi",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Francesco Giorgi\"",
-    "candidates": [
-      {
-        "wikidataId": "Q112259235",
-        "label": "Francesco Giorgi",
-        "description": "Italian writer (born 1838)"
-      },
-      {
-        "wikidataId": "Q117443718",
-        "label": "Francesco Giorgi",
-        "description": "former assistant to Antonio Panzeri"
-      },
-      {
-        "wikidataId": "Q1987549",
-        "label": "Francesco Giorgi",
-        "description": "Italian religious, theologian and philosopher"
-      },
-      {
-        "wikidataId": "Q55361117",
-        "label": "Francesco Giorgi",
-        "description": "Italian judoka"
-      },
-      {
-        "wikidataId": "Q89634895",
-        "label": "Francesco Giorgi",
-        "description": "Italian neuroscience researcher"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-giovanni-pico-della-mirandola",
-    "title": "Giovanni Pico della Mirandola",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Giovanni Pico della Mirandola\"",
-    "candidates": [
-      {
-        "wikidataId": "Q182128",
-        "label": "Giovanni Pico della Mirandola",
-        "description": "Italian Renaissance philosopher (1463–1494)"
-      },
-      {
-        "wikidataId": "Q1338411",
-        "label": "Giovanni Francesco Pico della Mirandola",
-        "description": "Italian philosopher (1469–1533)"
-      },
-      {
-        "wikidataId": "Q63847889",
-        "label": "Giovanni Pico della Mirandola, 1463-1494, Philosopher and Poet [obverse]",
-        "description": "sculpture in the National Gallery of Art (NGA 44828)"
-      },
-      {
-        "wikidataId": "Q63851827",
-        "label": "Giovanni Pico della Mirandola, 1463-1494, Philosopher and Poet",
-        "description": "sculpture in the National Gallery of Art (NGA 45166)"
-      },
-      {
-        "wikidataId": "Q125797360",
-        "label": "Giovanni Pico della Mirandola (1463-1494) and Renaissance Philosophy",
-        "description": "scientific article published in 2014"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-johannes-pfefferkorn",
-    "title": "Johannes Pfefferkorn",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Johannes Pfefferkorn\"",
-    "candidates": [
-      {
-        "wikidataId": "Q66486",
-        "label": "Johannes Pfefferkorn",
-        "description": "German theologian"
-      },
-      {
-        "wikidataId": "Q94921904",
-        "label": "Johannes Pfefferkorn"
-      }
-    ]
-  },
-  {
     "nodeId": "object-de-arte-cabalistica",
     "title": "De Arte Cabalistica",
     "type": "object",
@@ -130,25 +44,6 @@
         "wikidataId": "Q64359819",
         "label": "Peniarth MS 423",
         "description": "manuscript"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-polygraphia",
-    "title": "Polygraphia",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Polygraphia\"",
-    "candidates": [
-      {
-        "wikidataId": "Q9061532",
-        "label": "Polygraphia",
-        "description": "book by Johannes Trithemius"
-      },
-      {
-        "wikidataId": "Q96399723",
-        "label": "Polygraphia Nova",
-        "description": "1663 work by Athanasius Kircher"
       }
     ]
   },
@@ -282,40 +177,6 @@
     "reason": "not-found",
     "note": "No Wikidata search results for \"Dominican Order (Cologne)\"",
     "candidates": []
-  },
-  {
-    "nodeId": "person-cosimo-de-medici",
-    "title": "Cosimo de' Medici",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Cosimo de' Medici\"",
-    "candidates": [
-      {
-        "wikidataId": "Q48547",
-        "label": "Cosimo I de' Medici, Grand Duke of Tuscany",
-        "description": "Duke of Florence (1519-1574)"
-      },
-      {
-        "wikidataId": "Q48544",
-        "label": "Cosimo de' Medici",
-        "description": "First ruler of the Medici political dynasty (1389–1464)"
-      },
-      {
-        "wikidataId": "Q117804091",
-        "label": "Cosimo de' Medici",
-        "description": "Italian noble"
-      },
-      {
-        "wikidataId": "Q1136073",
-        "label": "Cosimo de’ Medici",
-        "description": "Wikimedia disambiguation page"
-      },
-      {
-        "wikidataId": "Q3937502",
-        "label": "Portrait of Cosimo the Elder",
-        "description": "painting by Pontormo in the Uffizi"
-      }
-    ]
   },
   {
     "nodeId": "person-crotus-rubeanus",

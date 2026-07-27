@@ -37,8 +37,8 @@
       "astronomer",
       "nobleman"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Tycho_Brahe",
+    "wikidataId": "Q36620"
   },
   {
     "id": "person-johannes-kepler",
@@ -128,8 +128,8 @@
       "architect",
       "polymath"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Robert_Hooke",
+    "wikidataId": "Q46830"
   },
   {
     "id": "person-isaac-newton",
@@ -240,8 +240,8 @@
       "natural philosopher",
       "author"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "John_Wilkins",
+    "wikidataId": "Q381039"
   },
   {
     "id": "person-robert-bellarmine",
@@ -262,8 +262,8 @@
       "theologian",
       "inquisitor"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Robert_Bellarmine",
+    "wikidataId": "Q298664"
   },
   {
     "id": "person-urban-viii",
@@ -324,8 +324,8 @@
       "author",
       "playwright"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Margaret_Cavendish,_Duchess_of_Newcastle-upon-Tyne",
+    "wikidataId": "Q242640"
   },
   {
     "id": "person-rudolf-ii",
@@ -345,8 +345,8 @@
       "patron",
       "collector"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Rudolf_II,_Holy_Roman_Emperor",
+    "wikidataId": "Q150586"
   },
   {
     "id": "object-de-revolutionibus",
@@ -375,8 +375,8 @@
     ],
     "language": "Latin",
     "subject": "astronomy",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Astronomia_nova",
+    "wikidataId": "Q779311"
   },
   {
     "id": "object-sidereus-nuncius",
@@ -408,8 +408,8 @@
     ],
     "language": "Italian",
     "subject": "astronomy",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Dialogue_Concerning_the_Two_Chief_World_Systems",
+    "wikidataId": "Q1768303"
   },
   {
     "id": "object-novum-organum",
@@ -423,8 +423,8 @@
     ],
     "language": "Latin",
     "subject": "philosophy of science",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Novum_Organum",
+    "wikidataId": "Q585046"
   },
   {
     "id": "object-sceptical-chymist",
@@ -457,8 +457,8 @@
     ],
     "language": "Latin",
     "subject": "physics",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Philosophiæ_Naturalis_Principia_Mathematica",
+    "wikidataId": "Q205921"
   },
   {
     "id": "object-philosophical-transactions",
@@ -692,8 +692,8 @@
       "astronomer",
       "mathematician"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Christopher_Wren",
+    "wikidataId": "Q170373"
   },
   {
     "id": "person-henry-oldenburg",
@@ -767,8 +767,8 @@
       "inventor",
       "politician"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Otto_von_Guericke",
+    "wikidataId": "Q60095"
   },
   {
     "id": "person-william-gilbert",
@@ -784,8 +784,8 @@
       "physician",
       "natural philosopher"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "William_Gilbert_(physicist)",
+    "wikidataId": "Q192706"
   },
   {
     "id": "person-andreas-vesalius",
@@ -839,8 +839,8 @@
       "astronomer",
       "instrument maker"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Ole_Rømer",
+    "wikidataId": "Q160187"
   },
   {
     "id": "person-marcello-malpighi",
