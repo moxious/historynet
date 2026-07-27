@@ -1,0 +1,487 @@
+[
+  {
+    "id": "edge-davis-directed-cotton",
+    "source": "person-ossie-davis",
+    "target": "object-cotton-comes-to-harlem",
+    "relationship": "directed",
+    "dateStart": "1970",
+    "evidence": "Ossie Davis directed and co-wrote Cotton Comes to Harlem (1970), his feature directorial debut, adapting Chester Himes's novel.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Cotton_Comes_to_Harlem_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vanpeebles-directed-sweetback",
+    "source": "person-melvin-van-peebles",
+    "target": "object-sweet-sweetback",
+    "relationship": "directed",
+    "dateStart": "1971",
+    "evidence": "Melvin Van Peebles wrote, directed, produced, edited, scored, and starred in Sweet Sweetback's Baadasssss Song (1971), financing it largely himself.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-vanpeebles-starred-sweetback",
+    "source": "person-melvin-van-peebles",
+    "target": "object-sweet-sweetback",
+    "relationship": "starred_in",
+    "dateStart": "1971",
+    "evidence": "Van Peebles played the lead role of Sweetback in his own film.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parks-directed-shaft",
+    "source": "person-gordon-parks",
+    "target": "object-shaft",
+    "relationship": "directed",
+    "dateStart": "1971",
+    "evidence": "Gordon Parks directed Shaft (1971) for MGM, the genre's commercial breakthrough.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Shaft_(1971_film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-roundtree-starred-shaft",
+    "source": "person-richard-roundtree",
+    "target": "object-shaft",
+    "relationship": "starred_in",
+    "dateStart": "1971",
+    "evidence": "Richard Roundtree starred as private detective John Shaft, the role that made him an icon.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Shaft_(1971_film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hayes-scored-shaft",
+    "source": "person-isaac-hayes",
+    "target": "object-shaft",
+    "relationship": "scored",
+    "dateStart": "1971",
+    "evidence": "Isaac Hayes composed the score for Shaft; the Theme from Shaft won the 1972 Academy Award for Best Original Song.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hayes-authored-shaft-ost",
+    "source": "person-isaac-hayes",
+    "target": "object-shaft-soundtrack",
+    "relationship": "authored",
+    "dateStart": "1971",
+    "evidence": "The Shaft soundtrack album is Isaac Hayes's, released on Stax's Enterprise label in 1971.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-shaft-ost-soundtrack-of-shaft",
+    "source": "object-shaft-soundtrack",
+    "target": "object-shaft",
+    "relationship": "soundtrack_of",
+    "dateStart": "1971",
+    "evidence": "The album is the official soundtrack to the film Shaft.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mgm-distributed-shaft",
+    "source": "entity-mgm",
+    "target": "object-shaft",
+    "relationship": "distributed",
+    "dateStart": "1971",
+    "evidence": "MGM produced and distributed Shaft; its success is often credited with helping the studio's finances.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parksjr-directed-superfly",
+    "source": "person-gordon-parks-jr",
+    "target": "object-super-fly",
+    "relationship": "directed",
+    "dateStart": "1972",
+    "evidence": "Gordon Parks Jr. directed Super Fly (1972).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Super_Fly_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parksjr-related-parks",
+    "source": "person-gordon-parks-jr",
+    "target": "person-gordon-parks",
+    "relationship": "related_to",
+    "evidence": "Gordon Parks Jr. was the son of photographer-director Gordon Parks; both directed defining films of the genre.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-oneal-starred-superfly",
+    "source": "person-ron-oneal",
+    "target": "object-super-fly",
+    "relationship": "starred_in",
+    "dateStart": "1972",
+    "evidence": "Ron O'Neal starred as the cocaine dealer Youngblood Priest in Super Fly.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Super_Fly_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mayfield-scored-superfly",
+    "source": "person-curtis-mayfield",
+    "target": "object-super-fly",
+    "relationship": "scored",
+    "dateStart": "1972",
+    "evidence": "Curtis Mayfield wrote and produced the Super Fly soundtrack and appears performing in the film.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-mayfield-authored-superfly-ost",
+    "source": "person-curtis-mayfield",
+    "target": "object-super-fly-soundtrack",
+    "relationship": "authored",
+    "dateStart": "1972",
+    "evidence": "The Super Fly soundtrack album is Curtis Mayfield's, released in 1972.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-superfly-ost-soundtrack-of-superfly",
+    "source": "object-super-fly-soundtrack",
+    "target": "object-super-fly",
+    "relationship": "soundtrack_of",
+    "dateStart": "1972",
+    "evidence": "The album is the official soundtrack to the film Super Fly.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-warner-distributed-superfly",
+    "source": "entity-warner-bros",
+    "target": "object-super-fly",
+    "relationship": "distributed",
+    "dateStart": "1972",
+    "evidence": "Warner Bros. distributed Super Fly.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-crain-directed-blacula",
+    "source": "person-william-crain",
+    "target": "object-blacula",
+    "relationship": "directed",
+    "dateStart": "1972",
+    "evidence": "William Crain directed Blacula (1972) for American International Pictures.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Blacula",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-aip-distributed-blacula",
+    "source": "entity-american-international-pictures",
+    "target": "object-blacula",
+    "relationship": "distributed",
+    "dateStart": "1972",
+    "evidence": "Blacula was produced and released by American International Pictures.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dixon-directed-troubleman",
+    "source": "person-ivan-dixon",
+    "target": "object-trouble-man",
+    "relationship": "directed",
+    "dateStart": "1972",
+    "evidence": "Ivan Dixon directed Trouble Man (1972).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Trouble_Man_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-gaye-scored-troubleman",
+    "source": "person-marvin-gaye",
+    "target": "object-trouble-man",
+    "relationship": "scored",
+    "dateStart": "1972",
+    "evidence": "Marvin Gaye composed the score for Trouble Man, his only feature film soundtrack.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-kotto-starred-across110th",
+    "source": "person-yaphet-kotto",
+    "target": "object-across-110th-street",
+    "relationship": "starred_in",
+    "dateStart": "1972",
+    "evidence": "Yaphet Kotto co-starred in Across 110th Street (1972).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Across_110th_Street",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-womack-scored-across110th",
+    "source": "person-bobby-womack",
+    "target": "object-across-110th-street",
+    "relationship": "scored",
+    "dateStart": "1972",
+    "evidence": "Bobby Womack wrote and performed the title theme and contributed to the score of Across 110th Street.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cohen-directed-blackcaesar",
+    "source": "person-larry-cohen",
+    "target": "object-black-caesar",
+    "relationship": "directed",
+    "dateStart": "1973",
+    "evidence": "Larry Cohen wrote and directed Black Caesar (1973).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Black_Caesar_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-williamson-starred-blackcaesar",
+    "source": "person-fred-williamson",
+    "target": "object-black-caesar",
+    "relationship": "starred_in",
+    "dateStart": "1973",
+    "evidence": "Fred Williamson starred as gangster Tommy Gibbs in Black Caesar.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Black_Caesar_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jamesbrown-scored-blackcaesar",
+    "source": "person-james-brown",
+    "target": "object-black-caesar",
+    "relationship": "scored",
+    "dateStart": "1973",
+    "evidence": "James Brown composed and recorded the soundtrack for Black Caesar.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-aip-distributed-blackcaesar",
+    "source": "entity-american-international-pictures",
+    "target": "object-black-caesar",
+    "relationship": "distributed",
+    "dateStart": "1973",
+    "evidence": "Black Caesar was produced and released by American International Pictures.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hill-directed-coffy",
+    "source": "person-jack-hill",
+    "target": "object-coffy",
+    "relationship": "directed",
+    "dateStart": "1973",
+    "evidence": "Jack Hill wrote and directed Coffy (1973).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Coffy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grier-starred-coffy",
+    "source": "person-pam-grier",
+    "target": "object-coffy",
+    "relationship": "starred_in",
+    "dateStart": "1973",
+    "evidence": "Pam Grier starred as the avenging nurse Coffy, her star-making role.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Coffy",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-ayers-scored-coffy",
+    "source": "person-roy-ayers",
+    "target": "object-coffy",
+    "relationship": "scored",
+    "dateStart": "1973",
+    "evidence": "Roy Ayers composed the soundtrack for Coffy.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-aip-distributed-coffy",
+    "source": "entity-american-international-pictures",
+    "target": "object-coffy",
+    "relationship": "distributed",
+    "dateStart": "1973",
+    "evidence": "Coffy was produced and released by American International Pictures.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-starrett-directed-cleopatrajones",
+    "source": "person-jack-starrett",
+    "target": "object-cleopatra-jones",
+    "relationship": "directed",
+    "dateStart": "1973",
+    "evidence": "Jack Starrett directed Cleopatra Jones (1973).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Cleopatra_Jones",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-dobson-starred-cleopatrajones",
+    "source": "person-tamara-dobson",
+    "target": "object-cleopatra-jones",
+    "relationship": "starred_in",
+    "dateStart": "1973",
+    "evidence": "Tamara Dobson starred as the title government agent in Cleopatra Jones.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Cleopatra_Jones",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-julien-wrote-cleopatrajones",
+    "source": "person-max-julien",
+    "target": "object-cleopatra-jones",
+    "relationship": "authored",
+    "dateStart": "1973",
+    "evidence": "Max Julien wrote the story/screenplay for Cleopatra Jones.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-warner-distributed-cleopatrajones",
+    "source": "entity-warner-bros",
+    "target": "object-cleopatra-jones",
+    "relationship": "distributed",
+    "dateStart": "1973",
+    "evidence": "Warner Bros. distributed Cleopatra Jones.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-campus-directed-themack",
+    "source": "person-michael-campus",
+    "target": "object-the-mack",
+    "relationship": "directed",
+    "dateStart": "1973",
+    "evidence": "Michael Campus directed The Mack (1973), shot on location in Oakland.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/The_Mack",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-julien-starred-themack",
+    "source": "person-max-julien",
+    "target": "object-the-mack",
+    "relationship": "starred_in",
+    "dateStart": "1973",
+    "evidence": "Max Julien starred as the pimp Goldie in The Mack.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/The_Mack",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hill-directed-foxybrown",
+    "source": "person-jack-hill",
+    "target": "object-foxy-brown",
+    "relationship": "directed",
+    "dateStart": "1974",
+    "evidence": "Jack Hill wrote and directed Foxy Brown (1974).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Foxy_Brown_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-grier-starred-foxybrown",
+    "source": "person-pam-grier",
+    "target": "object-foxy-brown",
+    "relationship": "starred_in",
+    "dateStart": "1974",
+    "evidence": "Pam Grier starred as the title character in Foxy Brown.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Foxy_Brown_(film)",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-foxybrown-continuation-coffy",
+    "source": "object-foxy-brown",
+    "target": "object-coffy",
+    "relationship": "continuation_of",
+    "dateStart": "1974",
+    "evidence": "Foxy Brown was originally written as a sequel to Coffy before being reworked into a standalone film.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-aip-distributed-foxybrown",
+    "source": "entity-american-international-pictures",
+    "target": "object-foxy-brown",
+    "relationship": "distributed",
+    "dateStart": "1974",
+    "evidence": "Foxy Brown was produced and released by American International Pictures.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hayes-starred-truckturner",
+    "source": "person-isaac-hayes",
+    "target": "object-truck-turner",
+    "relationship": "starred_in",
+    "dateStart": "1974",
+    "evidence": "Isaac Hayes starred as the bounty hunter in Truck Turner (1974).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Truck_Turner",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-hayes-scored-truckturner",
+    "source": "person-isaac-hayes",
+    "target": "object-truck-turner",
+    "relationship": "scored",
+    "dateStart": "1974",
+    "evidence": "Isaac Hayes also composed the score for Truck Turner.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-aip-distributed-truckturner",
+    "source": "entity-american-international-pictures",
+    "target": "object-truck-turner",
+    "relationship": "distributed",
+    "dateStart": "1974",
+    "evidence": "Truck Turner was produced and released by American International Pictures.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-parksjr-directed-threehard",
+    "source": "person-gordon-parks-jr",
+    "target": "object-three-the-hard-way",
+    "relationship": "directed",
+    "dateStart": "1974",
+    "evidence": "Gordon Parks Jr. directed Three the Hard Way (1974).",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Three_the_Hard_Way",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-williamson-starred-threehard",
+    "source": "person-fred-williamson",
+    "target": "object-three-the-hard-way",
+    "relationship": "starred_in",
+    "dateStart": "1974",
+    "evidence": "Fred Williamson co-starred in Three the Hard Way.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jimbrown-starred-threehard",
+    "source": "person-jim-brown",
+    "target": "object-three-the-hard-way",
+    "relationship": "starred_in",
+    "dateStart": "1974",
+    "evidence": "Jim Brown co-starred in Three the Hard Way.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-jimkelly-starred-threehard",
+    "source": "person-jim-kelly",
+    "target": "object-three-the-hard-way",
+    "relationship": "starred_in",
+    "dateStart": "1974",
+    "evidence": "Jim Kelly co-starred in Three the Hard Way, teaming with Brown and Williamson.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudyraymoore-starred-dolemite",
+    "source": "person-rudy-ray-moore",
+    "target": "object-dolemite",
+    "relationship": "starred_in",
+    "dateStart": "1975",
+    "evidence": "Rudy Ray Moore starred as Dolemite in the film he self-produced from his comedy persona.",
+    "evidenceUrl": "https://en.wikipedia.org/wiki/Dolemite",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-rudyraymoore-produced-dolemite",
+    "source": "person-rudy-ray-moore",
+    "target": "object-dolemite",
+    "relationship": "produced",
+    "dateStart": "1975",
+    "evidence": "Rudy Ray Moore financed and produced Dolemite independently.",
+    "strength": "strong"
+  },
+  {
+    "id": "edge-cotton-influenced-sweetback",
+    "source": "object-cotton-comes-to-harlem",
+    "target": "object-sweet-sweetback",
+    "relationship": "influenced",
+    "evidence": "Cotton Comes to Harlem (1970) demonstrated the commercial appeal of Black-led crime cinema, helping set the stage for the wave Sweet Sweetback ignited.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-sweetback-influenced-superfly",
+    "source": "object-sweet-sweetback",
+    "target": "object-super-fly",
+    "relationship": "influenced",
+    "evidence": "Sweet Sweetback's independent success is widely credited with opening the door for films like Super Fly.",
+    "strength": "moderate"
+  },
+  {
+    "id": "edge-shaft-influenced-superfly",
+    "source": "object-shaft",
+    "target": "object-super-fly",
+    "relationship": "influenced",
+    "evidence": "Shaft's mainstream success established the commercial template that Super Fly followed the next year.",
+    "strength": "moderate"
+  }
+]

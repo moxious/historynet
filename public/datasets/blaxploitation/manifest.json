@@ -1,0 +1,99 @@
+{
+  "id": "blaxploitation",
+  "name": "Blaxploitation Cinema",
+  "description": "The blaxploitation film movement of the 1970s: the directors, actors, and funk/soul composers who defined a wave of Black-led American genre cinema, and the studios that distributed it. Spans the movement's ignition (Cotton Comes to Harlem, Sweet Sweetback's Baadasssss Song, Shaft) through its commercial peak and decline, including the era-defining soundtracks that outlasted the films.",
+  "bannerImage": "img/banners/blaxploitation.jpg",
+  "bannerEmoji": "🎬✊🏿",
+  "lastUpdated": "2026-07-27",
+  "version": "1.0.0",
+  "author": "HistoryNet Contributors",
+  "license": "CC-BY-4.0",
+  "defaultDataset": false,
+  "nodeCount": 46,
+  "edgeCount": 52,
+  "scope": {
+    "startYear": 1970,
+    "endYear": 1985,
+    "regions": [
+      "United States"
+    ],
+    "themes": [
+      "blaxploitation",
+      "independent Black cinema",
+      "funk and soul soundtracks",
+      "urban crime drama",
+      "Black empowerment"
+    ],
+    "seedFigures": [
+      "person-melvin-van-peebles",
+      "person-gordon-parks",
+      "person-pam-grier",
+      "person-isaac-hayes"
+    ],
+    "subgroups": [
+      {
+        "id": "directors",
+        "name": "Directors",
+        "description": "Filmmakers driving the movement"
+      },
+      {
+        "id": "actors",
+        "name": "Actors",
+        "description": "Leading performers and icons"
+      },
+      {
+        "id": "composers",
+        "name": "Composers & Musicians",
+        "description": "Funk/soul artists who scored the films"
+      },
+      {
+        "id": "studios",
+        "name": "Studios",
+        "description": "Production and distribution companies"
+      }
+    ],
+    "exclusionNotes": "Focus on the 1970s-early-80s US blaxploitation wave. Excludes later homages/parodies (e.g. 1988's I'm Gonna Git You Sucka, 1990s+ throwbacks) except as influence links."
+  },
+  "research": {
+    "status": "in-progress",
+    "completedBatches": [],
+    "pendingBatches": [
+      "core",
+      "periphery"
+    ],
+    "gaps": [],
+    "excludedFigures": []
+  },
+  "customRelationshipTypes": [
+    {
+      "type": "directed",
+      "description": "Person directed this film",
+      "directed": true
+    },
+    {
+      "type": "starred_in",
+      "description": "Person had a lead/major acting role in this film",
+      "directed": true
+    },
+    {
+      "type": "scored",
+      "description": "Musician composed or performed the film's score/soundtrack",
+      "directed": true
+    },
+    {
+      "type": "produced",
+      "description": "Person or company produced this film",
+      "directed": true
+    },
+    {
+      "type": "distributed",
+      "description": "Studio distributed or released this film",
+      "directed": true
+    },
+    {
+      "type": "soundtrack_of",
+      "description": "Album is the soundtrack of this film",
+      "directed": true
+    }
+  ]
+}
