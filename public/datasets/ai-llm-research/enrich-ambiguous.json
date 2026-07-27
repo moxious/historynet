@@ -1,24 +1,5 @@
 [
   {
-    "nodeId": "person-geoffrey-hinton",
-    "title": "Geoffrey Hinton",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Geoffrey Hinton\"",
-    "candidates": [
-      {
-        "wikidataId": "Q92894",
-        "label": "Geoffrey Hinton",
-        "description": "British-Canadian computer scientist and psychologist"
-      },
-      {
-        "wikidataId": "Q75295861",
-        "label": "Geoffrey Hinton",
-        "description": "Peerage person ID=45209"
-      }
-    ]
-  },
-  {
     "nodeId": "person-mark-chen",
     "title": "Mark Chen",
     "type": "person",
@@ -121,168 +102,6 @@
     ]
   },
   {
-    "nodeId": "person-mustafa-suleyman",
-    "title": "Mustafa Suleyman",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Mustafa Suleyman\"",
-    "candidates": [
-      {
-        "wikidataId": "Q16847797",
-        "label": "Mustafa Süleyman",
-        "description": "British entrepreneur (born 1984)"
-      },
-      {
-        "wikidataId": "Q85989386",
-        "label": "Mustafa Suleymanov",
-        "description": "Azerbaijani actor"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-john-jumper",
-    "title": "John Jumper",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "3 Wikidata candidates for \"John Jumper\"",
-    "candidates": [
-      {
-        "wikidataId": "Q89620738",
-        "label": "John Michael Jumper",
-        "description": "American chemist and AI expert"
-      },
-      {
-        "wikidataId": "Q6242326",
-        "label": "John Jumper",
-        "description": "Principle Chief of the Seminole Nation"
-      },
-      {
-        "wikidataId": "Q111109468",
-        "label": "John Jumper",
-        "description": "Wikimedia disambiguation page"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-david-silver",
-    "title": "David Silver",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"David Silver\"",
-    "candidates": [
-      {
-        "wikidataId": "Q119102257",
-        "label": "David Silver",
-        "description": "American politician (1919–1990)"
-      },
-      {
-        "wikidataId": "Q133265134",
-        "label": "David Silver",
-        "description": "professor of environmental studies and urban agriculture"
-      },
-      {
-        "wikidataId": "Q919608",
-        "label": "David Silverman",
-        "description": "American animator and director"
-      },
-      {
-        "wikidataId": "Q25208036",
-        "label": "David Silver",
-        "description": "AI researcher"
-      },
-      {
-        "wikidataId": "Q41928167",
-        "label": "David L. Silver",
-        "description": "researcher"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-oriol-vinyals",
-    "title": "Oriol Vinyals",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "3 Wikidata candidates for \"Oriol Vinyals\"",
-    "candidates": [
-      {
-        "wikidataId": "Q47030267",
-        "label": "Oriol Vinyals",
-        "description": "machine learning researcher"
-      },
-      {
-        "wikidataId": "Q125890181",
-        "label": "Oriol Vinyals"
-      },
-      {
-        "wikidataId": "Q110189146",
-        "label": "Lex Fridman Podcast Oriol Vinyals: DeepMind AlphaStar, StarCraft, Language, and Sequences",
-        "description": "podcast episode of the Lex Fridman Podcast"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-jeff-dean",
-    "title": "Jeff Dean",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "4 Wikidata candidates for \"Jeff Dean\"",
-    "candidates": [
-      {
-        "wikidataId": "Q6173703",
-        "label": "Jeff Dean",
-        "description": "American computer scientist"
-      },
-      {
-        "wikidataId": "Q6173702",
-        "label": "Jeff Dean",
-        "description": "musician"
-      },
-      {
-        "wikidataId": "Q133760966",
-        "label": "Jeff Dean"
-      },
-      {
-        "wikidataId": "Q32751368",
-        "label": "Jeff Dean",
-        "description": "Wikimedia disambiguation page"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-andrew-ng",
-    "title": "Andrew Ng",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Andrew Ng\"",
-    "candidates": [
-      {
-        "wikidataId": "Q2846695",
-        "label": "Andrew Y. Ng",
-        "description": "American artificial intelligence researcher"
-      },
-      {
-        "wikidataId": "Q96647693",
-        "label": "Andrew Ng",
-        "description": "researcher"
-      },
-      {
-        "wikidataId": "Q96315704",
-        "label": "Andrew Ng",
-        "description": "physicist"
-      },
-      {
-        "wikidataId": "Q114369540",
-        "label": "Andrew Ngwira",
-        "description": "researcher"
-      },
-      {
-        "wikidataId": "Q136205138",
-        "label": "Andrew Ng",
-        "description": "lacrosse official"
-      }
-    ]
-  },
-  {
     "nodeId": "person-greg-corrado",
     "title": "Greg Corrado",
     "type": "person",
@@ -378,35 +197,6 @@
     ]
   },
   {
-    "nodeId": "person-ian-goodfellow",
-    "title": "Ian Goodfellow",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "4 Wikidata candidates for \"Ian Goodfellow\"",
-    "candidates": [
-      {
-        "wikidataId": "Q28379682",
-        "label": "Ian Goodfellow",
-        "description": "researcher and virologist"
-      },
-      {
-        "wikidataId": "Q26703063",
-        "label": "Ian J. Goodfellow",
-        "description": "American computer scientist (born 1987)"
-      },
-      {
-        "wikidataId": "Q110189147",
-        "label": "Lex Fridman Podcast Ian Goodfellow: Generative Adversarial Networks (GANs)",
-        "description": "podcast episode of the Lex Fridman Podcast"
-      },
-      {
-        "wikidataId": "Q130466682",
-        "label": "Ian Goodfellow, Yoshua Bengio, and Aaron Courville: Deep learning",
-        "description": "scientific article published on 29 October 2017"
-      }
-    ]
-  },
-  {
     "nodeId": "person-pascal-vincent",
     "title": "Pascal Vincent",
     "type": "person",
@@ -436,39 +226,6 @@
         "wikidataId": "Q6378275",
         "label": "Pascal Vincent",
         "description": "Canadian ice hockey player and coach"
-      }
-    ]
-  },
-  {
-    "nodeId": "person-fei-fei-li",
-    "title": "Fei-Fei Li",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Fei-Fei Li\"",
-    "candidates": [
-      {
-        "wikidataId": "Q112239642",
-        "label": "Fei-Fei Li"
-      },
-      {
-        "wikidataId": "Q18686107",
-        "label": "Fei-Fei Li",
-        "description": "American computer scientist"
-      },
-      {
-        "wikidataId": "Q33681041",
-        "label": "Fei-Fei Li",
-        "description": "Chinese botanist"
-      },
-      {
-        "wikidataId": "Q89242400",
-        "label": "Fei-Fei Li",
-        "description": "researcher (ORCID 0000-0001-5629-267X)"
-      },
-      {
-        "wikidataId": "Q38641729",
-        "label": "Fei-Fei Liu",
-        "description": "researcher"
       }
     ]
   },
@@ -645,38 +402,6 @@
     "candidates": []
   },
   {
-    "nodeId": "person-richard-sutton",
-    "title": "Richard Sutton",
-    "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Richard Sutton\"",
-    "candidates": [
-      {
-        "wikidataId": "Q19563443",
-        "label": "Richard Sutton",
-        "description": "English general and politician"
-      },
-      {
-        "wikidataId": "Q107369759",
-        "label": "Richard Sutton",
-        "description": "British QC"
-      },
-      {
-        "wikidataId": "Q112374694",
-        "label": "Richard Sutton",
-        "description": "cardiologist (1940-)"
-      },
-      {
-        "wikidataId": "Q112399775",
-        "label": "Richard Sutton"
-      },
-      {
-        "wikidataId": "Q121126665",
-        "label": "Richard Sutton"
-      }
-    ]
-  },
-  {
     "nodeId": "person-david-ha",
     "title": "David Ha",
     "type": "person",
@@ -707,93 +432,6 @@
         "wikidataId": "Q722660",
         "label": "David Hallyday",
         "description": "French musician and racing driver, Johnny Hallyday's son"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-alexnet-paper",
-    "title": "ImageNet Classification with Deep Convolutional Neural Networks",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"ImageNet Classification with Deep Convolutional Neural Networks\"",
-    "candidates": [
-      {
-        "wikidataId": "Q59445836",
-        "label": "ImageNet classification with deep convolutional neural networks",
-        "description": "scientific article published in Communications of the ACM in 2017"
-      },
-      {
-        "wikidataId": "Q30077834",
-        "label": "Imagenet classification with deep convolutional neural networks",
-        "description": "scholarly article from the NIPS conference"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-gan-paper",
-    "title": "Generative Adversarial Networks",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Generative Adversarial Networks\"",
-    "candidates": [
-      {
-        "wikidataId": "Q25104379",
-        "label": "generative adversarial network",
-        "description": "deep learning method in which two neural networks compete with each other in a game, learning to generate new data with the same statistics as the training set"
-      },
-      {
-        "wikidataId": "Q27990103",
-        "label": "Generative Adversarial Nets",
-        "description": "paper introducing GANs"
-      },
-      {
-        "wikidataId": "Q131934550",
-        "label": "Generative adversarial networks for sequential learning",
-        "description": "doctoral thesis by Tianlin Xu"
-      },
-      {
-        "wikidataId": "Q52940989",
-        "label": "Generative Adversarial Networks for Noise Reduction in Low-Dose CT.",
-        "description": "scientific article published on 26 May 2017"
-      },
-      {
-        "wikidataId": "Q131163472",
-        "label": "Generative adversarial networks",
-        "description": "scientific article published on 22 October 2020"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-gpt1",
-    "title": "GPT-1",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"GPT-1\"",
-    "candidates": [
-      {
-        "wikidataId": "Q95726718",
-        "label": "GPT-1",
-        "description": "generative pre-trained transformer-based language model from 2018"
-      },
-      {
-        "wikidataId": "Q305481",
-        "label": "glutamic-pyruvic transaminase",
-        "description": "mammalian protein found in Homo sapiens"
-      },
-      {
-        "wikidataId": "Q18267957",
-        "label": "Gpt",
-        "description": "protein-coding gene in the species Mus musculus"
-      },
-      {
-        "wikidataId": "Q21493854",
-        "label": "Glutamic pyruvic transaminase, soluble",
-        "description": "mammalian protein found in Mus musculus"
-      },
-      {
-        "wikidataId": "Q28557720",
-        "label": "Glutamic--pyruvic transaminase",
-        "description": "mammalian protein found in Rattus norvegicus"
       }
     ]
   },
@@ -934,40 +572,6 @@
     ]
   },
   {
-    "nodeId": "object-dalle",
-    "title": "DALL-E",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"DALL-E\"",
-    "candidates": [
-      {
-        "wikidataId": "Q105078662",
-        "label": "DALL-E",
-        "description": "image-generating deep-learning model"
-      },
-      {
-        "wikidataId": "Q100520927",
-        "label": "Dall'Era",
-        "description": "family name"
-      },
-      {
-        "wikidataId": "Q112663567",
-        "label": "Craiyon",
-        "description": "text-to-image AI"
-      },
-      {
-        "wikidataId": "Q56563445",
-        "label": "Dall’esilio",
-        "description": "edition part of the Piccola Biblioteca collection by Adelphi"
-      },
-      {
-        "wikidataId": "Q56563121",
-        "label": "Dall’Ellade a Bisanzio",
-        "description": "edition part of the Piccola Biblioteca collection by Adelphi"
-      }
-    ]
-  },
-  {
     "nodeId": "object-clip",
     "title": "CLIP",
     "type": "object",
@@ -1050,67 +654,6 @@
     "reason": "not-found",
     "note": "No Wikidata search results for \"Constitutional AI Paper\"",
     "candidates": []
-  },
-  {
-    "nodeId": "object-llama",
-    "title": "LLaMA",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"LLaMA\"",
-    "candidates": [
-      {
-        "wikidataId": "Q37126053",
-        "label": "Llama",
-        "description": "family name"
-      },
-      {
-        "wikidataId": "Q42569",
-        "label": "llama",
-        "description": "species of mammal"
-      },
-      {
-        "wikidataId": "Q116894231",
-        "label": "LLaMA",
-        "description": "large language model by Meta AI"
-      },
-      {
-        "wikidataId": "Q42885514",
-        "label": "Llamazares",
-        "description": "family name"
-      },
-      {
-        "wikidataId": "Q5015078",
-        "label": "Large Latin American Millimeter Array",
-        "description": "astronomical radio observatory"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-llama2",
-    "title": "LLaMA 2",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "4 Wikidata candidates for \"LLaMA 2\"",
-    "candidates": [
-      {
-        "wikidataId": "Q120847029",
-        "label": "Llama 2",
-        "description": "large language model"
-      },
-      {
-        "wikidataId": "Q123561541",
-        "label": "Llama 2 Community License Agreement"
-      },
-      {
-        "wikidataId": "Q131939104",
-        "label": "Llama 2 Community License",
-        "description": "license for Meta Llama 2 large language models"
-      },
-      {
-        "wikidataId": "Q121298347",
-        "label": "Llama 2: Open Foundation and Fine-Tuned Chat Models"
-      }
-    ]
   },
   {
     "nodeId": "object-code-llama",
@@ -1208,40 +751,6 @@
     ]
   },
   {
-    "nodeId": "object-tensorflow",
-    "title": "TensorFlow",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"TensorFlow\"",
-    "candidates": [
-      {
-        "wikidataId": "Q21447895",
-        "label": "TensorFlow",
-        "description": "machine learning software framework"
-      },
-      {
-        "wikidataId": "Q107382156",
-        "label": "tensorflow-metadata",
-        "description": "Python library"
-      },
-      {
-        "wikidataId": "Q107381458",
-        "label": "tensorflow-estimator",
-        "description": "Python library"
-      },
-      {
-        "wikidataId": "Q107382184",
-        "label": "tensorflow-datasets",
-        "description": "Python library"
-      },
-      {
-        "wikidataId": "Q107384101",
-        "label": "tensorflow-probability",
-        "description": "Python library"
-      }
-    ]
-  },
-  {
     "nodeId": "object-bert",
     "title": "BERT",
     "type": "object",
@@ -1272,59 +781,6 @@
         "wikidataId": "Q16420820",
         "label": "Bertha",
         "description": "female given name"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-word2vec",
-    "title": "Word2Vec",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Word2Vec\"",
-    "candidates": [
-      {
-        "wikidataId": "Q22673982",
-        "label": "Word2vec",
-        "description": "group of related models that are used to produce word embeddings"
-      },
-      {
-        "wikidataId": "Q113506666",
-        "label": "Word2Vec",
-        "description": "scientific article published on 16 December 2016"
-      },
-      {
-        "wikidataId": "Q38371817",
-        "label": "Word2Vec inversion and traditional text classifiers for phenotyping lupus.",
-        "description": "scientific article"
-      },
-      {
-        "wikidataId": "Q47450549",
-        "label": "word2vec Explained: deriving Mikolov et al.'s negative-sampling word-embedding method",
-        "description": "scientific article published on 15 February 2014"
-      },
-      {
-        "wikidataId": "Q92772786",
-        "label": "Word2vec convolutional neural networks for classification of news articles and tweets",
-        "description": "scientific article published on 22 August 2019"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-mistral-7b",
-    "title": "Mistral 7B",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Mistral 7B\"",
-    "candidates": [
-      {
-        "wikidataId": "Q126093447",
-        "label": "Mistral 7B",
-        "description": "large language model developed by Mistral AI"
-      },
-      {
-        "wikidataId": "Q126093505",
-        "label": "Mistral 7B",
-        "description": "scientific article"
       }
     ]
   },
@@ -1570,115 +1026,6 @@
     ]
   },
   {
-    "nodeId": "entity-mistral",
-    "title": "Mistral AI",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "3 Wikidata candidates for \"Mistral AI\"",
-    "candidates": [
-      {
-        "wikidataId": "Q119718658",
-        "label": "Mistral AI",
-        "description": "French AI company"
-      },
-      {
-        "wikidataId": "Q1939338",
-        "label": "Poste Air Cargo",
-        "description": "Italian cargo and former passenger airline headquartered in Rome, Italy which is a wholly owned subsidiary of Poste Italiane"
-      },
-      {
-        "wikidataId": "Q131806057",
-        "label": "Mistral Air Clim"
-      }
-    ]
-  },
-  {
-    "nodeId": "entity-huggingface",
-    "title": "Hugging Face",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Hugging Face\"",
-    "candidates": [
-      {
-        "wikidataId": "Q108943604",
-        "label": "Hugging Face",
-        "description": "American company"
-      },
-      {
-        "wikidataId": "Q87583026",
-        "label": "🤗",
-        "description": "Unicode character"
-      },
-      {
-        "wikidataId": "Q118182434",
-        "label": "Hugging Face SAS"
-      },
-      {
-        "wikidataId": "Q138813487",
-        "label": "LeRobot",
-        "description": "open-source robotics machine learning framework developed by Hugging Face"
-      },
-      {
-        "wikidataId": "Q124039484",
-        "label": "Hugging Face model",
-        "description": "model hosted by Hugging Face"
-      }
-    ]
-  },
-  {
-    "nodeId": "entity-stability",
-    "title": "Stability AI",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Stability AI\"",
-    "candidates": [
-      {
-        "wikidataId": "Q123592234",
-        "label": "Stability AI",
-        "description": "British multinational artificial intelligence company"
-      },
-      {
-        "wikidataId": "Q130616410",
-        "label": "Stability AI Community License",
-        "description": "license"
-      }
-    ]
-  },
-  {
-    "nodeId": "entity-cohere",
-    "title": "Cohere",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Cohere\"",
-    "candidates": [
-      {
-        "wikidataId": "Q110363143",
-        "label": "Cohere",
-        "description": "Canadian artificial intelligence company building foundational models"
-      },
-      {
-        "wikidataId": "Q69197847",
-        "label": "coherent SI unit",
-        "description": "product of powers of SI base units"
-      },
-      {
-        "wikidataId": "Q51885271",
-        "label": "Coheres (Pauly-Wissowa)",
-        "description": "encyclopedic article in Paulys Realencyclopädie der classischen Altertumswissenschaft (RE)"
-      },
-      {
-        "wikidataId": "Q193147",
-        "label": "coherence",
-        "description": "ideal property of waves that enables stationary (i.e. temporally and spatially constant) interference"
-      },
-      {
-        "wikidataId": "Q120549617",
-        "label": "cohere",
-        "description": "Python library"
-      }
-    ]
-  },
-  {
     "nodeId": "entity-mila",
     "title": "MILA",
     "type": "entity",
@@ -1713,30 +1060,6 @@
     ]
   },
   {
-    "nodeId": "entity-vector-institute",
-    "title": "Vector Institute",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "3 Wikidata candidates for \"Vector Institute\"",
-    "candidates": [
-      {
-        "wikidataId": "Q4106097",
-        "label": "State Research Center of Virology and Biotechnology VECTOR",
-        "description": "biology reseach institution in Russia"
-      },
-      {
-        "wikidataId": "Q47462249",
-        "label": "Vector Institute",
-        "description": "research institute for artificial intelligence, based in Toronto Canada"
-      },
-      {
-        "wikidataId": "Q64447053",
-        "label": "Vector Institute",
-        "description": "Wikimedia disambiguation page"
-      }
-    ]
-  },
-  {
     "nodeId": "entity-bair",
     "title": "BAIR",
     "type": "entity",
@@ -1767,74 +1090,6 @@
         "wikidataId": "Q3923",
         "label": "Bayreuth",
         "description": "a medium-sized town in northern Bavaria, Germany, on the Red Main river in a valley between the Franconian Jura and the Fichtel Mountains"
-      }
-    ]
-  },
-  {
-    "nodeId": "entity-neurips",
-    "title": "NeurIPS",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"NeurIPS\"",
-    "candidates": [
-      {
-        "wikidataId": "Q1961016",
-        "label": "Conference on Neural Information Processing Systems",
-        "description": "NeurIPS/NIPS conference series on machine learning and related topics"
-      },
-      {
-        "wikidataId": "Q15767446",
-        "label": "Advances in Neural Information Processing Systems",
-        "description": "conference proceedings series"
-      },
-      {
-        "wikidataId": "Q100913796",
-        "label": "Advances in Neural Information Processing Systems 33",
-        "description": "NeurIPS 2020 proceedings"
-      },
-      {
-        "wikidataId": "Q68600639",
-        "label": "Advances in Neural Information Processing Systems 32",
-        "description": "NeurIPS 2019 proceedings"
-      },
-      {
-        "wikidataId": "Q136378626",
-        "label": "NeurIPS 2025",
-        "description": "NeurIPS 2025 proceedings"
-      }
-    ]
-  },
-  {
-    "nodeId": "entity-iclr",
-    "title": "ICLR",
-    "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"ICLR\"",
-    "candidates": [
-      {
-        "wikidataId": "Q30108190",
-        "label": "International Conference on Learning Representations",
-        "description": "annual conference series on feature learning"
-      },
-      {
-        "wikidataId": "Q24113033",
-        "label": "IclR family transcriptional regulator SM_b20682",
-        "description": "microbial protein found in Sinorhizobium meliloti 1021"
-      },
-      {
-        "wikidataId": "Q23560254",
-        "label": "Transcriptional regulator IclR STM4187",
-        "description": "microbial protein found in Salmonella enterica subsp. enterica serovar Typhimurium str. LT2"
-      },
-      {
-        "wikidataId": "Q23139835",
-        "label": "DNA-binding transcriptional repressor ECUMN_4544",
-        "description": "microbial gene found in Escherichia coli UMN026"
-      },
-      {
-        "wikidataId": "Q24146201",
-        "label": "DNA-binding transcriptional repressor ECUMN_4544",
-        "description": "microbial protein found in Escherichia coli UMN026"
       }
     ]
   },
@@ -1897,39 +1152,6 @@
     ]
   },
   {
-    "nodeId": "object-llama3",
-    "title": "LLaMA 3",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"LLaMA 3\"",
-    "candidates": [
-      {
-        "wikidataId": "Q125522232",
-        "label": "Llama 3",
-        "description": "large language model"
-      },
-      {
-        "wikidataId": "Q131938896",
-        "label": "Llama 3.3 70B Instruct",
-        "description": "transformer large language model by Meta"
-      },
-      {
-        "wikidataId": "Q131939124",
-        "label": "Llama 3.3 Community License"
-      },
-      {
-        "wikidataId": "Q131938964",
-        "label": "Llama 3.2 1B",
-        "description": "large language model by Meta"
-      },
-      {
-        "wikidataId": "Q127726799",
-        "label": "Llama 3.1",
-        "description": "large language model"
-      }
-    ]
-  },
-  {
     "nodeId": "entity-microsoft-ai",
     "title": "Microsoft AI",
     "type": "entity",
@@ -1958,64 +1180,6 @@
         "wikidataId": "Q2018814",
         "label": "Microsoft Family Safety",
         "description": "Features in Windows 10"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-gpt4o",
-    "title": "GPT-4o",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "3 Wikidata candidates for \"GPT-4o\"",
-    "candidates": [
-      {
-        "wikidataId": "Q125919502",
-        "label": "GPT-4o",
-        "description": "large multimodal model from OpenAI"
-      },
-      {
-        "wikidataId": "Q127602360",
-        "label": "GPT-4o mini",
-        "description": "large language model"
-      },
-      {
-        "wikidataId": "Q133733394",
-        "label": "Studio Ghibli AI Generator",
-        "description": "meme in which mass AI images are generated in the “Studio Ghibli” drawing style"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-o1",
-    "title": "o1",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"o1\"",
-    "candidates": [
-      {
-        "wikidataId": "Q28452616",
-        "label": "o1",
-        "description": "first studio album by Hiroyuki Sawano’s Vocal Project “SawanoHiroyuki[nZk]”"
-      },
-      {
-        "wikidataId": "Q21102930",
-        "label": "Escherichia coli O157:H7 str. Sakai",
-        "description": "bacterial strain"
-      },
-      {
-        "wikidataId": "Q21102937",
-        "label": "Escherichia coli O104:H4 str. 2011C-3493",
-        "description": "bacterial strain"
-      },
-      {
-        "wikidataId": "Q541116",
-        "label": "Cessna O-1 Bird Dog",
-        "description": "1950 reconnaissance aircraft family by Cessna"
-      },
-      {
-        "wikidataId": "Q130288245",
-        "label": "OpenAI o1",
-        "description": "2024 AI model from OpenAI"
       }
     ]
   },
@@ -2208,40 +1372,6 @@
       {
         "wikidataId": "Q131939124",
         "label": "Llama 3.3 Community License"
-      }
-    ]
-  },
-  {
-    "nodeId": "object-llama4",
-    "title": "LLaMA 4",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"LLaMA 4\"",
-    "candidates": [
-      {
-        "wikidataId": "Q137392462",
-        "label": "Llama 4",
-        "description": "large language model family by Meta"
-      },
-      {
-        "wikidataId": "Q137393554",
-        "label": "Llama 4 Scout Instruct Original",
-        "description": "large language model by Meta"
-      },
-      {
-        "wikidataId": "Q137393269",
-        "label": "Llama 4 Scout Instruct",
-        "description": "large language model by Meta"
-      },
-      {
-        "wikidataId": "Q137392482",
-        "label": "Llama 4 Scout",
-        "description": "large language model by Meta"
-      },
-      {
-        "wikidataId": "Q137393299",
-        "label": "Llama 4 Scout Original",
-        "description": "large language model by Meta"
       }
     ]
   },

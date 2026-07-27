@@ -190,8 +190,8 @@
       "biostatistician",
       "eugenicist"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Karl_Pearson",
+    "wikidataId": "Q310794"
   },
   {
     "id": "person-florence-nightingale",
@@ -208,8 +208,8 @@
       "statistician",
       "social reformer"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Florence_Nightingale",
+    "wikidataId": "Q37103"
   },
   {
     "id": "person-jerzy-neyman",
@@ -277,8 +277,8 @@
     "occupations": [
       "mathematician"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Jacob_Bernoulli",
+    "wikidataId": "Q122392"
   },
   {
     "id": "person-william-sealy-gosset",
@@ -332,8 +332,8 @@
       "statistician",
       "physician"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "William_Farr",
+    "wikidataId": "Q3043711"
   },
   {
     "id": "person-charles-darwin",
@@ -366,8 +366,8 @@
     "occupations": [
       "mathematician"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Andrey_Markov",
+    "wikidataId": "Q176659"
   },
   {
     "id": "person-emile-durkheim",
@@ -398,7 +398,7 @@
       "person-pierre-simon-laplace"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": "Q42187073"
   },
   {
     "id": "object-essai-philosophique-sur-les-probabilites",
@@ -428,8 +428,8 @@
     "creators": [
       "person-adolphe-quetelet"
     ],
-    "wikipediaTitle": "A_Treatise_on_Man_and_the_Development_of_His_Faculties",
-    "wikidataId": null
+    "wikipediaTitle": null,
+    "wikidataId": "Q42194254"
   },
   {
     "id": "object-statistical-methods-for-research-workers",
@@ -498,8 +498,8 @@
     "creators": [
       "person-abraham-de-moivre"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "The_Doctrine_of_Chances",
+    "wikidataId": "Q2007756"
   },
   {
     "id": "object-hereditary-genius",
@@ -554,8 +554,8 @@
     "creators": [
       "person-emile-durkheim"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Suicide_(Durkheim_book)",
+    "wikidataId": "Q384404"
   },
   {
     "id": "location-ecole-polytechnique",
@@ -587,8 +587,8 @@
     "shortDescription": "Agricultural research station where Fisher developed ANOVA and modern experimental design methods",
     "country": "United Kingdom",
     "dateStart": "1843",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Rothamsted_Research",
+    "wikidataId": "Q1326711"
   },
   {
     "id": "entity-biometrika",
@@ -601,8 +601,8 @@
       "person-karl-pearson",
       "person-francis-galton"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Biometrika",
+    "wikidataId": "Q864602"
   },
   {
     "id": "entity-royal-statistical-society",
@@ -612,8 +612,8 @@
     "shortDescription": "British learned society for statistics founded in 1834, Florence Nightingale was its first female fellow",
     "dateStart": "1834",
     "country": "United Kingdom",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Royal_Statistical_Society",
+    "wikidataId": "Q1692699"
   },
   {
     "id": "entity-eugenics-education-society",
@@ -625,8 +625,8 @@
     "dateEnd": "1989",
     "country": "United Kingdom",
     "foundedBy": [],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Adelphi_Genetics_Forum",
+    "wikidataId": "Q5519377"
   },
   {
     "id": "person-johann-heinrich-lambert",
@@ -694,8 +694,8 @@
       "astronomer",
       "cartographer"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Tobias_Mayer",
+    "wikidataId": "Q60406"
   },
   {
     "id": "object-theoria-motus",

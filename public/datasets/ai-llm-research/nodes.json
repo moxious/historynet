@@ -10,8 +10,8 @@
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%283x4_cropped%29.jpg/440px-Geoffrey_E._Hinton%2C_2024_Nobel_Prize_Laureate_in_Physics_%283x4_cropped%29.jpg",
     "biography": "Geoffrey Hinton is a pioneer of neural networks and deep learning, co-inventor of backpropagation, inventor of Boltzmann machines, and trained many key figures including Ilya Sutskever. He co-founded the Vector Institute and won the Turing Award in 2018. He resigned from Google in 2023 to speak freely about AI risks and won the Nobel Prize in Physics in 2024.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Geoffrey_Hinton",
+    "wikidataId": "Q92894",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Geoffrey_Hinton"}
     ]
@@ -461,8 +461,8 @@
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Mustafa_Suleyman_photo.jpg/440px-Mustafa_Suleyman_photo.jpg",
     "biography": "Mustafa Suleyman co-founded DeepMind in 2010. Left to found Inflection AI in 2022 (Pi chatbot). Joined Microsoft as EVP and CEO of Microsoft AI in 2024. Author of 'The Coming Wave' (2023).",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Mustafa_Suleyman",
+    "wikidataId": "Q16847797",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Mustafa_Suleyman"}
     ]
@@ -478,8 +478,8 @@
     "birthPlace": "Little Rock, Arkansas",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/John_Jumper%2C_2024_Nobel_Prize_Laureate_in_Chemistry_%283x4_cropped%29.jpg/440px-John_Jumper%2C_2024_Nobel_Prize_Laureate_in_Chemistry_%283x4_cropped%29.jpg",
     "biography": "John Jumper is a Director at Google DeepMind and led AlphaFold2 development, solving protein structure prediction. PhD in chemistry from University of Chicago. Won Nobel Prize in Chemistry (2024) with Hassabis.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "John_M._Jumper",
+    "wikidataId": "Q89620738",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/John_Jumper"}
     ]
@@ -495,7 +495,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/David_Silver.jpg/440px-David_Silver.jpg",
     "biography": "David Silver is Principal Research Scientist at DeepMind and led AlphaGo, AlphaZero, and AlphaStar projects. UCL professor. PhD under Richard Sutton. Key architect of game-playing AI systems.",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q41928167",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/David_Silver_(computer_scientist)"}
     ]
@@ -538,11 +538,12 @@
     "nationality": "Spanish",
     "occupations": ["AI researcher", "executive"],
     "biography": "Oriol Vinyals is VP of Research at Google DeepMind and Gemini co-lead. Key researcher on sequence-to-sequence learning, AlphaStar. Formerly at Google Brain.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Oriol_Vinyals",
+    "wikidataId": "Q47030267",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Oriol_Vinyals"}
-    ]
+    ],
+    "birthPlace": "Sabadell"
   },
   {
     "id": "person-jeff-dean",
@@ -554,11 +555,12 @@
     "occupations": ["computer scientist", "executive"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Jeff_Dean_in_2025_02.jpg/440px-Jeff_Dean_in_2025_02.jpg",
     "biography": "Jeff Dean is Chief Scientist at Google and Google DeepMind. Co-founded Google Brain with Andrew Ng and Greg Corrado. Built foundational Google infrastructure (MapReduce). Google employee #30. One of most influential engineers in history.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Jeff_Dean",
+    "wikidataId": "Q6173703",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jeff_Dean"}
-    ]
+    ],
+    "birthPlace": "Hawaii"
   },
   {
     "id": "person-andrew-ng",
@@ -571,8 +573,8 @@
     "birthPlace": "London, England",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg/440px-Andrew_Ng_at_TechCrunch_Disrupt_SF_2017.jpg",
     "biography": "Andrew Ng co-founded Google Brain with Jeff Dean. Stanford professor. Co-founded Coursera with Daphne Koller. Former Chief Scientist at Baidu (2014-2017). Founder of DeepLearning.AI. Popularized deep learning through massive open online courses.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Andrew_Ng",
+    "wikidataId": "Q2846695",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Andrew_Ng"}
     ]
@@ -787,11 +789,12 @@
     "occupations": ["AI researcher"],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ian_Goodfellow_%28cropped%29.jpg/440px-Ian_Goodfellow_%28cropped%29.jpg",
     "biography": "Ian Goodfellow invented Generative Adversarial Networks (GANs) in 2014. Co-authored the 'Deep Learning' textbook with Bengio and Courville. PhD under Bengio and Courville at Université de Montréal. Worked at Google Brain, OpenAI, Apple.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Ian_Goodfellow",
+    "wikidataId": "Q26703063",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ian_Goodfellow"}
-    ]
+    ],
+    "birthPlace": "United States"
   },
   {
     "id": "person-aaron-courville",
@@ -859,8 +862,8 @@
     "birthPlace": "Beijing, China",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Fei-Fei_Li_at_AI_for_Good_2017.jpg/440px-Fei-Fei_Li_at_AI_for_Good_2017.jpg",
     "biography": "Fei-Fei Li is Professor at Stanford and Co-director of Stanford HAI. Creator of ImageNet, which enabled the deep learning revolution in computer vision. Trained Andrej Karpathy, Timnit Gebru, and Olga Russakovsky. Founded AI4ALL.",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Fei-Fei_Li",
+    "wikidataId": "Q18686107",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Fei-Fei_Li"}
     ]
@@ -1231,7 +1234,7 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Richard_Sutton_-_Brains%40Bay_Meetup.jpg/440px-Richard_Sutton_-_Brains%40Bay_Meetup.jpg",
     "biography": "Richard Sutton is Professor at University of Alberta and 'father of reinforcement learning'. Inventor of temporal difference learning. Co-authored foundational RL textbook with Barto. Trained David Silver. His 'Bitter Lesson' essay highly influential in AI philosophy.",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q121126665",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Richard_S._Sutton"}
     ]
@@ -1305,7 +1308,7 @@
     "language": "English",
     "subject": "computer vision, deep learning",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q30077834",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/AlexNet"}
     ]
@@ -1321,7 +1324,7 @@
     "language": "English",
     "subject": "generative models, machine learning",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q27990103",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1406.2661"}
     ]
@@ -1367,8 +1370,8 @@
     "dateStart": "2018-06",
     "creators": ["person-alec-radford", "person-ilya-sutskever"],
     "subject": "language models",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "GPT-1",
+    "wikidataId": "Q95726718",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/GPT-1"}
     ]
@@ -1440,8 +1443,8 @@
     "dateStart": "2021-01",
     "creators": ["person-aditya-ramesh", "person-alec-radford", "person-mark-chen", "person-ilya-sutskever"],
     "subject": "image generation",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "DALL-E",
+    "wikidataId": "Q105078662",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/DALL-E"}
     ]
@@ -1528,8 +1531,8 @@
     "dateStart": "2023-02",
     "creators": ["person-hugo-touvron", "person-guillaume-lample"],
     "subject": "language models",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "Llama_(language_model)",
+    "wikidataId": "Q116894231",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/2302.13971"}
     ]
@@ -1544,7 +1547,7 @@
     "creators": ["person-hugo-touvron"],
     "subject": "language models",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": "Q121298347"
   },
   {
     "id": "object-code-llama",
@@ -1615,8 +1618,8 @@
     "dateStart": "2015-11",
     "creators": ["person-jeff-dean"],
     "subject": "machine learning",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "TensorFlow",
+    "wikidataId": "Q21447895",
     "externalLinks": [
       {"label": "Wikipedia", "url": "https://en.wikipedia.org/wiki/TensorFlow"}
     ]
@@ -1646,7 +1649,7 @@
     "creators": ["person-tomas-mikolov", "person-greg-corrado", "person-jeff-dean"],
     "subject": "natural language processing",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q47450549",
     "externalLinks": [
       {"label": "arXiv", "url": "https://arxiv.org/abs/1301.3781"}
     ]
@@ -1661,7 +1664,7 @@
     "creators": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
     "subject": "language models",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": "Q126093447"
   },
   {
     "id": "object-stable-diffusion",
@@ -2057,8 +2060,8 @@
     "dateStart": "2023-04",
     "foundedBy": ["person-arthur-mensch", "person-guillaume-lample", "person-timothee-lacroix"],
     "headquarters": "location-paris",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Mistral_AI",
+    "wikidataId": "Q119718658"
   },
   {
     "id": "entity-huggingface",
@@ -2069,8 +2072,8 @@
     "dateStart": "2016",
     "foundedBy": ["person-clement-delangue", "person-julien-chaumond", "person-thomas-wolf"],
     "headquarters": "location-new-york",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Hugging_Face",
+    "wikidataId": "Q108943604"
   },
   {
     "id": "entity-stability",
@@ -2081,8 +2084,8 @@
     "dateStart": "2019",
     "foundedBy": ["person-emad-mostaque"],
     "headquarters": "location-london",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Stability_AI",
+    "wikidataId": "Q123592234"
   },
   {
     "id": "entity-cohere",
@@ -2093,8 +2096,8 @@
     "dateStart": "2019",
     "foundedBy": ["person-aidan-gomez", "person-ivan-zhang", "person-nick-frosst"],
     "headquarters": "location-toronto",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Cohere",
+    "wikidataId": "Q110363143"
   },
   {
     "id": "entity-sakana",
@@ -2129,8 +2132,8 @@
     "dateStart": "2017",
     "foundedBy": ["person-geoffrey-hinton"],
     "headquarters": "location-toronto",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Vector_Institute_(Canada)",
+    "wikidataId": "Q47462249"
   },
   {
     "id": "entity-stanford-hai",
@@ -2161,8 +2164,8 @@
     "entityType": "academic conference",
     "shortDescription": "Premier machine learning conference",
     "dateStart": "1987",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Conference_on_Neural_Information_Processing_Systems",
+    "wikidataId": "Q1961016"
   },
   {
     "id": "entity-iclr",
@@ -2172,8 +2175,8 @@
     "shortDescription": "Conference focused on representation learning; founded by Bengio and LeCun",
     "dateStart": "2013",
     "foundedBy": ["person-yoshua-bengio", "person-yann-lecun"],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "International_Conference_on_Learning_Representations",
+    "wikidataId": "Q30108190"
   },
   {
     "id": "entity-ssi",
@@ -2329,7 +2332,7 @@
     "creators": ["person-hugo-touvron"],
     "subject": "language models",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q125522232",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/meta-llama-3/"}
     ]
@@ -2413,8 +2416,8 @@
     "shortDescription": "OpenAI's 'Omni' multimodal model; accepts text, image, and audio; faster and cheaper than GPT-4",
     "dateStart": "2024-05-13",
     "subject": "multimodal AI, language models",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "GPT-4o",
+    "wikidataId": "Q125919502",
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/index/hello-gpt-4o/"}
     ]
@@ -2441,8 +2444,8 @@
     "shortDescription": "OpenAI's first reasoning model; uses chain-of-thought to solve complex problems; preview in Sept 2024, full release Dec 2024",
     "dateStart": "2024-09-12",
     "subject": "reasoning AI, language models",
-    "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikipediaTitle": "OpenAI_o1",
+    "wikidataId": "Q130288245",
     "externalLinks": [
       {"label": "OpenAI", "url": "https://openai.com/index/introducing-openai-o1-preview/"}
     ]
@@ -2611,7 +2614,7 @@
     "dateStart": "2025-04-05",
     "subject": "language models, multimodal AI",
     "wikipediaTitle": null,
-    "wikidataId": null,
+    "wikidataId": "Q137392462",
     "externalLinks": [
       {"label": "Meta AI", "url": "https://ai.meta.com/blog/llama-4/"}
     ]

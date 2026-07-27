@@ -33,8 +33,8 @@
       "theologian",
       "humanist"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Giovanni_Pico_della_Mirandola",
+    "wikidataId": "Q182128"
   },
   {
     "id": "person-cosimo-de-medici",
@@ -55,8 +55,8 @@
       "statesman",
       "patron"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Cosimo_de'_Medici",
+    "wikidataId": "Q48544"
   },
   {
     "id": "person-angelo-poliziano",
@@ -136,8 +136,8 @@
       "humanist",
       "historian"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Giovanni_Cavalcanti_(poet)",
+    "wikidataId": "Q5563812"
   },
   {
     "id": "person-francesco-cattani-da-diacceto",
@@ -170,8 +170,8 @@
       "humanist",
       "biographer"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Giovanni_di_Bardo_Corsi",
+    "wikidataId": "Q5564033"
   },
   {
     "id": "person-girolamo-benivieni",
@@ -225,8 +225,8 @@
       "patron",
       "statesman"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Giuliano_de'_Medici",
+    "wikidataId": "Q298877"
   },
   {
     "id": "person-giovanni-de-medici-pope-leo-x",
@@ -247,8 +247,8 @@
       "cardinal",
       "patron"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Pope_Leo_X",
+    "wikidataId": "Q49237"
   },
   {
     "id": "person-piero-de-medici-the-unfortunate",
@@ -449,8 +449,8 @@
       "philosopher",
       "mathematician"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Proclus",
+    "wikidataId": "Q271809"
   },
   {
     "id": "person-iamblichus",
@@ -806,8 +806,8 @@
       "philosopher",
       "professor"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Franciscus_Patricius",
+    "wikidataId": "Q435300"
   },
   {
     "id": "person-girolamo-savonarola",
@@ -867,8 +867,8 @@
       "person-marsilio-ficino"
     ],
     "headquarters": "location-villa-careggi",
-    "wikipediaTitle": null,
-    "wikidataId": null
+    "wikipediaTitle": "Platonic_Academy_(Florence)",
+    "wikidataId": "Q4579791"
   },
   {
     "id": "location-council-of-florence",
