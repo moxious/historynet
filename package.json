@@ -22,6 +22,7 @@
     "sync-manifest:check": "npx tsx scripts/sync-manifest/index.ts --check",
     "check-evidence": "npx tsx scripts/check-evidence/index.ts",
     "new-dataset": "npx tsx scripts/new-dataset/index.ts",
+    "suggest": "npx tsx scripts/suggest-members/index.ts",
     "verify-ids": "npx tsx scripts/verify-ids/index.ts",
     "verify-ids:fix": "npx tsx scripts/verify-ids/index.ts --fix",
     "resolve-ids": "npx tsx scripts/resolve-ids/index.ts",
