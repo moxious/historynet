@@ -1,13 +1,24 @@
-# Thread 2: "Idea → Dataset" Pipeline Optimization (Plan)
+# Thread 2: "Idea → Dataset" Pipeline Optimization
 
-**Status**: 🟢 In progress — 2A-1 (`enrich`) and 2A-3 (`sync-manifest`) shipped 2026-07-27
+**Status**: ✅ **2A complete (2026-07)** — all six scripts shipped and merged.
 **Goal**: Make the "idea → validated dataset" pipeline faster and cheaper by
 converting *deterministic* steps from full-LLM work into scripts, leaving the
 LLM to do only what requires judgment.
 
-> Direction chosen 2026-07-27: **2A first**, Track D (M34 atomic migration)
-> paused behind it. It complements (does not replace) the atomic-architecture
-> milestones M35–M38.
+> **Outcome**: Sub-track 2A shipped in full: `new-dataset`, `enrich`,
+> `check-evidence`, `sync-manifest`, `suggest`, `fetch-banner` — plus two tools
+> that emerged when `enrich`/`verify-ids` uncovered systematic Wikidata-ID
+> corruption: `verify-ids` and `resolve-ids` (5 datasets remediated). See the
+> [Dataset Tooling inventory](../AGENTS.md#dataset-tooling) for usage.
+>
+> Sub-track 2B (Track D / M34–M38 atomic migration) remains paused. Because 2A
+> delivered token-efficient edits, cross-dataset identity, and gap detection on
+> the *current* format, the value case for the full atomic migration has shrunk —
+> see the "Track D reassessment" in `ROADMAP.md` before resuming it.
+
+> _(Historical note: direction chosen 2026-07-27 was "2A first, Track D paused
+> behind it." 2A is now done; the sections below are the original plan, kept for
+> reference — each PR-sized item shipped.)_
 
 ---
 
