@@ -32,6 +32,7 @@ import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { existsSync } from 'node:fs';
 import { enrichDataset } from './enricher.js';
+import { applyFills } from './write-nodes.js';
 import {
   ENRICHABLE_FIELDS,
   type AmbiguousEntry,
@@ -171,6 +172,16 @@ function collectAmbiguous(results: NodeEnrichmentResult[]): AmbiguousEntry[] {
         note: r.note,
         candidates: r.candidates ?? [],
       });
+    } else if (r.status === 'id-mismatch') {
+      entries.push({
+        nodeId: r.nodeId,
+        title: r.title,
+        type: r.type,
+        reason: 'id-mismatch',
+        note: r.note,
+        existingWikidataId: r.candidates?.[0]?.wikidataId,
+        candidates: r.candidates ?? [],
+      });
     } else if (r.status === 'not-found') {
       entries.push({
         nodeId: r.nodeId,
@@ -204,6 +215,7 @@ function summarize(
     ambiguous: count('ambiguous'),
     notFound: count('not-found'),
     typeMismatch: count('type-mismatch'),
+    idMismatch: count('id-mismatch'),
     errors: count('error'),
     fieldsFilled,
     results,
@@ -232,6 +244,8 @@ function printSummary(
         );
       } else if (r.status === 'type-mismatch') {
         console.log(`  ✗ ${r.title}: type mismatch (quarantined)`);
+      } else if (r.status === 'id-mismatch') {
+        console.log(`  ✗ ${r.title}: ${r.note} (quarantined)`);
       } else if (r.status === 'not-found') {
         console.log(`  – ${r.title}: no match (quarantined)`);
       } else if (r.status === 'error') {
@@ -243,8 +257,8 @@ function printSummary(
   console.log(
     `  ${summary.fieldsFilled} fields filled across ${summary.enriched} nodes | ` +
       `complete: ${summary.complete}, ambiguous: ${summary.ambiguous}, ` +
-      `type-mismatch: ${summary.typeMismatch}, not-found: ${summary.notFound}, ` +
-      `errors: ${summary.errors}`
+      `id-mismatch: ${summary.idMismatch}, type-mismatch: ${summary.typeMismatch}, ` +
+      `not-found: ${summary.notFound}, errors: ${summary.errors}`
   );
 }
 
@@ -269,7 +283,8 @@ async function main(): Promise<void> {
 
   for (const datasetId of datasets) {
     const nodesPath = join(datasetsPath, datasetId, 'nodes.json');
-    const nodes = JSON.parse(await readFile(nodesPath, 'utf-8')) as GraphNode[];
+    const originalText = await readFile(nodesPath, 'utf-8');
+    const nodes = JSON.parse(originalText) as GraphNode[];
 
     const results = await enrichDataset(nodes, options.fields, {
       dryRun: options.dryRun,
@@ -277,9 +292,10 @@ async function main(): Promise<void> {
     const summary = summarize(datasetId, nodes.length, results);
     summaries.push(summary);
 
-    // Persist enriched nodes (unless dry-run and nothing changed).
+    // Persist enriched nodes by splicing new fields into the original text,
+    // preserving the file's existing formatting (see write-nodes.ts).
     if (!options.dryRun && summary.fieldsFilled > 0) {
-      await writeFile(nodesPath, JSON.stringify(nodes, null, 2) + '\n', 'utf-8');
+      await writeFile(nodesPath, applyFills(originalText, results), 'utf-8');
     }
 
     // Write / clear the quarantine file for nodes needing human attention.
@@ -315,6 +331,7 @@ async function main(): Promise<void> {
       ambiguous: s.ambiguous,
       notFound: s.notFound,
       typeMismatch: s.typeMismatch,
+      idMismatch: s.idMismatch,
       errors: s.errors,
       fieldsFilled: s.fieldsFilled,
     }));

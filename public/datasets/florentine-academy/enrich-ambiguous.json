@@ -1,0 +1,86 @@
+[
+  {
+    "nodeId": "person-giovanni-cavalcanti",
+    "title": "Giovanni Cavalcanti",
+    "type": "person",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Giovanni Cavalcanti\"",
+    "candidates": [
+      {
+        "wikidataId": "Q104355656",
+        "label": "Giovanni Cavalcanti",
+        "description": "Florentine humanist"
+      },
+      {
+        "wikidataId": "Q3107131",
+        "label": "Giovanni Cavalcanti",
+        "description": "Italian bicycle racer"
+      },
+      {
+        "wikidataId": "Q3766991",
+        "label": "Giovanni Cavalcanti",
+        "description": "Florentine historian"
+      },
+      {
+        "wikidataId": "Q61704529",
+        "label": "Giovanni Cavalcanti",
+        "description": "1370-"
+      },
+      {
+        "wikidataId": "Q11752082",
+        "label": "Giovanni Cavalcanti",
+        "description": "Wikimedia disambiguation page"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-giovanni-corsi",
+    "title": "Giovanni Corsi",
+    "type": "person",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Giovanni Corsi\"",
+    "candidates": [
+      {
+        "wikidataId": "Q110386394",
+        "label": "Giovanni Corsi",
+        "description": "1519-1570"
+      },
+      {
+        "wikidataId": "Q5564033",
+        "label": "Giovanni di Bardo Corsi",
+        "description": "politician"
+      },
+      {
+        "wikidataId": "Q4234319",
+        "label": "Giovanni Corsi",
+        "description": "Italian singer and opera singer (1822–1890)"
+      },
+      {
+        "wikidataId": "Q21670076",
+        "label": "Giovanni Corsi",
+        "description": "Italian politician (1867-1953)"
+      },
+      {
+        "wikidataId": "Q106972004",
+        "label": "Giovanni Corsi",
+        "description": "Italian nobleman"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-platonis-opera-omnia",
+    "title": "Platonis Opera Omnia (Complete Works of Plato)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Platonis Opera Omnia (Complete Works of Plato)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-comento-sopra-divina-commedia",
+    "title": "Comento sopra la Divina Commedia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Comento sopra la Divina Commedia\"",
+    "candidates": []
+  }
+]

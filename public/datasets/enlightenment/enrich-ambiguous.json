@@ -1,0 +1,304 @@
+[
+  {
+    "nodeId": "object-traite-dynamique",
+    "title": "Traité de dynamique",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Traité_de_Dynamique\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-essay-origin-knowledge",
+    "title": "Essay on the Origin of Human Knowledge",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Essay_on_the_Origin_of_Human_Knowledge\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-natural-history-soul",
+    "title": "Natural History of the Soul",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Natural History of the Soul\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-treatise-sensations",
+    "title": "Treatise on Sensations",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Treatise_on_Sensations\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-reflections-wealth",
+    "title": "Reflections on the Formation and Distribution of Wealth",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Reflections_on_the_Formation_and_Distribution_of_Riches\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-inquiry-beauty-virtue",
+    "title": "Inquiry into the Original of Our Ideas of Beauty and Virtue",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"An_Inquiry_into_the_Original_of_Our_Ideas_of_Beauty_and_Virtue\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-essays-morality-religion",
+    "title": "Essays on the Principles of Morality and Natural Religion",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Essays on the Principles of Morality and Natural Religion\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-history-scotland",
+    "title": "History of Scotland",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"History_of_Scotland_(Robertson)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-elements-criticism",
+    "title": "Elements of Criticism",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Elements_of_Criticism\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-inquiry-common-sense",
+    "title": "Inquiry into the Human Mind on the Principles of Common Sense",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Inquiry_into_the_Human_Mind\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-german-logic",
+    "title": "Rational Thoughts on God, the World, and the Soul of Man",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Rational Thoughts on God, the World, and the Soul of Man\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-metaphysica",
+    "title": "Metaphysica",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Metaphysica\"",
+    "candidates": [
+      {
+        "wikidataId": "Q15761526",
+        "label": "Metaphysica",
+        "description": "journal"
+      },
+      {
+        "wikidataId": "Q753683",
+        "label": "metaphysical painting",
+        "description": "painting movement"
+      },
+      {
+        "wikidataId": "Q56000",
+        "label": "naturalism",
+        "description": "belief that only natural laws, entities and forces operate in the universe"
+      },
+      {
+        "wikidataId": "Q35277",
+        "label": "metaphysics",
+        "description": "branch of philosophy dealing with the nature, structure, components and fundamental principles of reality"
+      },
+      {
+        "wikidataId": "Q3551307",
+        "label": "universals",
+        "description": "in metaphysics, repeatable or recurrent qualities that can be instantiated or exemplified by many particular things"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-laocoon",
+    "title": "Laocoon: An Essay on the Limits of Painting and Poetry",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Laocoön_(essay)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-phadon",
+    "title": "Phädon",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Phädon\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-treatise-origin-language",
+    "title": "Treatise on the Origin of Language",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Treatise_on_the_Origin_of_Language\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-what-is-enlightenment",
+    "title": "What is Enlightenment?",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Answering_the_Question:_What_Is_Enlightenment%3F\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-ideas-philosophy-history",
+    "title": "Ideas for the Philosophy of History of Humanity",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Outlines_of_a_Philosophy_of_the_History_of_Man\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-institutions-physique",
+    "title": "Institutions de physique",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "2 Wikidata candidates for \"Institutions de physique\"",
+    "candidates": [
+      {
+        "wikidataId": "Q109039680",
+        "label": "Institutions de Physique",
+        "description": "Historical science text in French"
+      },
+      {
+        "wikidataId": "Q132188171",
+        "label": "Institutions de physique"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-principia-translation",
+    "title": "French Translation of Newton's Principia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"French Translation of Newton's Principia\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-salon-geoffrin",
+    "title": "Salon of Madame Geoffrin",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Salon of Madame Geoffrin\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-salon-holbach",
+    "title": "Salon of Baron d'Holbach",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Salon of Baron d'Holbach\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-salon-lespinasse",
+    "title": "Salon of Julie de Lespinasse",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Salon of Julie de Lespinasse\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-salon-deffand",
+    "title": "Salon of Madame du Deffand",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Salon of Madame du Deffand\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-salon-helvetius",
+    "title": "Salon of Madame Helvétius",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Salon of Madame Helvétius\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-amsterdam-publishing",
+    "title": "Amsterdam Publishing Houses",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Amsterdam Publishing Houses\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-london-publishing",
+    "title": "London Publishing (Fleet Street)",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"London Publishing (Fleet Street)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-geneva-publishing",
+    "title": "Geneva Publishing",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Geneva Publishing\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-holbach-circle",
+    "title": "D'Holbach's Circle",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"D'Holbach's Circle\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-edinburgh-literati",
+    "title": "Edinburgh Literati",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Edinburgh Literati\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-ephemerides",
+    "title": "Éphémérides du citoyen",
+    "type": "entity",
+    "reason": "multiple-candidates",
+    "note": "2 Wikidata candidates for \"Éphémérides du citoyen\"",
+    "candidates": [
+      {
+        "wikidataId": "Q17357427",
+        "label": "Éphémérides du citoyen",
+        "description": "newspaper"
+      },
+      {
+        "wikidataId": "Q19168338",
+        "label": "Éphémérides du Citoyen"
+      }
+    ]
+  },
+  {
+    "nodeId": "entity-criminal-justice-reform",
+    "title": "Criminal Justice Reform Movement",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Criminal Justice Reform Movement\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-enlightenment-atheism",
+    "title": "Enlightenment Atheism",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Enlightenment Atheism\"",
+    "candidates": []
+  }
+]

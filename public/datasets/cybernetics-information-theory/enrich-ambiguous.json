@@ -1,0 +1,198 @@
+[
+  {
+    "nodeId": "person-john-bates",
+    "title": "John Bates",
+    "type": "person",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"John Bates\"",
+    "candidates": [
+      {
+        "wikidataId": "Q106677495",
+        "label": "John Bates",
+        "description": "American football player"
+      },
+      {
+        "wikidataId": "Q110606569",
+        "label": "John Bates",
+        "description": "Abt 1753 - 16 Feb 1816"
+      },
+      {
+        "wikidataId": "Q115537304",
+        "label": "John Bates",
+        "description": "1521 - before 13 May 1580"
+      },
+      {
+        "wikidataId": "Q107310635",
+        "label": "John Bates",
+        "description": "(1722-1775)"
+      },
+      {
+        "wikidataId": "Q110606570",
+        "label": "John Bates"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-william-rushton",
+    "title": "William Rushton",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"William_A._H._Rushton\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-philip-woodward",
+    "title": "Philip Woodward",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Philip_M._Woodward\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-raul-espejo",
+    "title": "Raúl Espejo",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Raúl_Espejo\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-frogs-eye-lettvin",
+    "title": "What the Frog's Eye Tells the Frog's Brain",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"What_the_Frog's_Eye_Tells_the_Frog's_Brain\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-neurodynamics-rosenblatt",
+    "title": "Principles of Neurodynamics",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Principles of Neurodynamics\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-design-brain-ashby",
+    "title": "Design for a Brain",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Design_for_a_Brain\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-behavior-purpose-teleology",
+    "title": "Behavior, Purpose and Teleology",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Behavior,_Purpose_and_Teleology\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-cybernetics-management-beer",
+    "title": "Cybernetics and Management",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "2 Wikidata candidates for \"Cybernetics and Management\"",
+    "candidates": [
+      {
+        "wikidataId": "Q114785463",
+        "label": "Cybernetics and Management",
+        "description": "Anthony Stafford Beer's book where he addresses the connections between systems, ubiquity and feedback, as well as logical theory, biophysical theory and analogous theory of cybernetics on which the viable system model (VSM) is based"
+      },
+      {
+        "wikidataId": "Q58961875",
+        "label": "Cybernetics and Management",
+        "description": "Review published in Nature among the book \"Cybernetics and Management\" of Stafford Beer"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-industrial-dynamics-forrester",
+    "title": "Industrial Dynamics",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Industrial_Dynamics\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-autopoiesis-cognition",
+    "title": "Autopoiesis and Cognition: The Realization of the Living",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Autopoiesis_and_Cognition\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-observing-systems-foerster",
+    "title": "Observing Systems",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "3 Wikidata candidates for \"Observing Systems\"",
+    "candidates": [
+      {
+        "wikidataId": "Q7075490",
+        "label": "Observing Systems",
+        "description": "album by Tied & Tickled Trio"
+      },
+      {
+        "wikidataId": "Q63489290",
+        "label": "Observing Systems for Atmospheric Composition",
+        "description": "article"
+      },
+      {
+        "wikidataId": "Q114639604",
+        "label": "Observing systems and data sets related to the cryosphere in Canada: A contribution to planning for the global climate observing system",
+        "description": "scientific article published in 1995"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-programs-common-sense-mccarthy",
+    "title": "Programs with Common Sense",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Programs with Common Sense\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-macy-proceedings",
+    "title": "Cybernetics: Circular Causal and Feedback Mechanisms (Macy Proceedings)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Cybernetics: Circular Causal and Feedback Mechanisms (Macy Proceedings)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-beekman-hotel",
+    "title": "Beekman Hotel (Macy Conferences)",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Beekman Hotel (Macy Conferences)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-ratio-club-london",
+    "title": "Ratio Club Meeting Venues",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Ratio Club Meeting Venues\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-uk-cybernetics",
+    "title": "Cybernetics Society (UK)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Cybernetics Society (UK)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-mit-rle",
+    "title": "MIT Research Laboratory of Electronics",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"MIT_Research_Laboratory_of_Electronics\" has no linked Wikidata item",
+    "candidates": []
+  }
+]

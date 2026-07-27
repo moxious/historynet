@@ -268,7 +268,8 @@
     ],
     "nationality": "French",
     "wikipediaTitle": "Étienne_Noël_Damilaville",
-    "wikidataId": "Q3592308"
+    "wikidataId": "Q3592308",
+    "birthPlace": "Bordeaux"
   },
   {
     "id": "person-morellet",
@@ -1225,7 +1226,9 @@
     "language": "French",
     "subject": "Natural philosophy",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q3721351",
+    "wikipediaTitle": "Elements_of_the_Philosophy_of_Newton"
   },
   {
     "id": "object-traite-dynamique",
@@ -1402,7 +1405,8 @@
     "language": "French",
     "subject": "Moral philosophy",
     "wikipediaTitle": "De_l'esprit",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q190302"
   },
   {
     "id": "object-tableau-economique",
@@ -1456,7 +1460,9 @@
     "language": "French",
     "subject": "Religious criticism",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q1171098",
+    "wikipediaTitle": "Christianity_Unveiled"
   },
   {
     "id": "object-social-contract",
@@ -1588,7 +1594,8 @@
     "language": "English",
     "subject": "Philosophy",
     "wikipediaTitle": "Three_Dialogues_between_Hylas_and_Philonous",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q3110883"
   },
   {
     "id": "object-inquiry-beauty-virtue",
@@ -1951,7 +1958,8 @@
     "language": "German",
     "subject": "Political philosophy, Theology",
     "wikipediaTitle": "Jerusalem_(Mendelssohn)",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q6185071"
   },
   {
     "id": "object-what-is-enlightenment",
@@ -2209,7 +2217,8 @@
     "language": "French",
     "subject": "Mathematics, Political science",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q42189328"
   },
   {
     "id": "location-paris",
@@ -2219,7 +2228,8 @@
     "locationType": "city",
     "country": "France",
     "wikipediaTitle": "Paris",
-    "wikidataId": "Q90"
+    "wikidataId": "Q90",
+    "dateStart": "-300"
   },
   {
     "id": "location-edinburgh",
@@ -2229,7 +2239,8 @@
     "locationType": "city",
     "country": "Scotland",
     "wikipediaTitle": "Edinburgh",
-    "wikidataId": "Q23436"
+    "wikidataId": "Q23436",
+    "dateStart": "601"
   },
   {
     "id": "location-london",
@@ -2239,7 +2250,8 @@
     "locationType": "city",
     "country": "England",
     "wikipediaTitle": "London",
-    "wikidataId": "Q84"
+    "wikidataId": "Q84",
+    "dateStart": "47"
   },
   {
     "id": "location-berlin",
@@ -2249,7 +2261,8 @@
     "locationType": "city",
     "country": "Prussia",
     "wikipediaTitle": "Berlin",
-    "wikidataId": "Q64"
+    "wikidataId": "Q64",
+    "dateStart": "1244"
   },
   {
     "id": "location-geneva",
@@ -2269,7 +2282,8 @@
     "locationType": "city",
     "country": "Dutch Republic",
     "wikipediaTitle": "Amsterdam",
-    "wikidataId": "Q727"
+    "wikidataId": "Q727",
+    "dateStart": "1300"
   },
   {
     "id": "location-glasgow",
@@ -2289,7 +2303,8 @@
     "locationType": "city",
     "country": "United States",
     "wikipediaTitle": "Philadelphia",
-    "wikidataId": "Q1345"
+    "wikidataId": "Q1345",
+    "dateStart": "1682"
   },
   {
     "id": "location-konigsberg",
@@ -2299,7 +2314,8 @@
     "locationType": "city",
     "country": "Prussia",
     "wikipediaTitle": "Königsberg",
-    "wikidataId": "Q4120832"
+    "wikidataId": "Q4120832",
+    "dateStart": "1255"
   },
   {
     "id": "location-vienna",
@@ -2309,7 +2325,8 @@
     "locationType": "city",
     "country": "Habsburg Empire",
     "wikipediaTitle": "Vienna",
-    "wikidataId": "Q1741"
+    "wikidataId": "Q1741",
+    "dateStart": "-100"
   },
   {
     "id": "location-st-petersburg",
@@ -2319,7 +2336,8 @@
     "locationType": "city",
     "country": "Russia",
     "wikipediaTitle": "Saint_Petersburg",
-    "wikidataId": "Q656"
+    "wikidataId": "Q656",
+    "dateStart": "1703"
   },
   {
     "id": "location-milan",
@@ -2329,7 +2347,8 @@
     "locationType": "city",
     "country": "Habsburg Italy",
     "wikipediaTitle": "Milan",
-    "wikidataId": "Q490"
+    "wikidataId": "Q490",
+    "dateStart": "-600"
   },
   {
     "id": "location-univ-edinburgh",
@@ -2340,7 +2359,8 @@
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
     "wikipediaTitle": "University_of_Edinburgh",
-    "wikidataId": "Q160302"
+    "wikidataId": "Q160302",
+    "dateStart": "1583"
   },
   {
     "id": "location-univ-glasgow",
@@ -2351,7 +2371,8 @@
     "country": "Scotland",
     "parentLocation": "location-glasgow",
     "wikipediaTitle": "University_of_Glasgow",
-    "wikidataId": "Q192775"
+    "wikidataId": "Q192775",
+    "dateStart": "1451"
   },
   {
     "id": "location-cambridge",
@@ -2361,7 +2382,8 @@
     "locationType": "university",
     "country": "England",
     "wikipediaTitle": "University_of_Cambridge",
-    "wikidataId": "Q35794"
+    "wikidataId": "Q35794",
+    "dateStart": "1209"
   },
   {
     "id": "location-univ-halle",
@@ -2371,7 +2393,9 @@
     "locationType": "university",
     "country": "Prussia",
     "wikipediaTitle": "University_of_Halle",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q32120",
+    "dateStart": "1502"
   },
   {
     "id": "location-univ-konigsberg",
@@ -2382,7 +2406,8 @@
     "country": "Prussia",
     "parentLocation": "location-konigsberg",
     "wikipediaTitle": "University_of_Königsberg",
-    "wikidataId": "Q672420"
+    "wikidataId": "Q672420",
+    "dateStart": "1544"
   },
   {
     "id": "location-sorbonne",
@@ -2393,7 +2418,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "wikipediaTitle": "University_of_Paris",
-    "wikidataId": "Q209842"
+    "wikidataId": "Q209842",
+    "dateStart": "1150"
   },
   {
     "id": "location-academie-francaise",
@@ -2404,7 +2430,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "wikipediaTitle": "Académie_Française",
-    "wikidataId": "Q161806"
+    "wikidataId": "Q161806",
+    "dateStart": "1635"
   },
   {
     "id": "location-academie-sciences",
@@ -2415,7 +2442,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "wikipediaTitle": "French_Academy_of_Sciences",
-    "wikidataId": "Q188771"
+    "wikidataId": "Q188771",
+    "dateStart": "1666"
   },
   {
     "id": "location-berlin-academy",
@@ -2426,7 +2454,8 @@
     "country": "Prussia",
     "parentLocation": "location-berlin",
     "wikipediaTitle": "Prussian_Academy_of_Sciences",
-    "wikidataId": "Q329464"
+    "wikidataId": "Q329464",
+    "dateStart": "1700"
   },
   {
     "id": "location-royal-society",
@@ -2437,7 +2466,8 @@
     "country": "England",
     "parentLocation": "location-london",
     "wikipediaTitle": "Royal_Society",
-    "wikidataId": "Q123885"
+    "wikidataId": "Q123885",
+    "dateStart": "1660"
   },
   {
     "id": "location-amer-phil-society",
@@ -2448,7 +2478,8 @@
     "country": "United States",
     "parentLocation": "location-philadelphia",
     "wikipediaTitle": "American_Philosophical_Society",
-    "wikidataId": "Q466089"
+    "wikidataId": "Q466089",
+    "dateStart": "1743"
   },
   {
     "id": "location-academie-bordeaux",
@@ -2522,7 +2553,8 @@
     "locationType": "palace",
     "country": "Prussia",
     "wikipediaTitle": "Sanssouci",
-    "wikidataId": "Q151330"
+    "wikidataId": "Q151330",
+    "dateStart": "1745"
   },
   {
     "id": "location-versailles",
@@ -2532,7 +2564,8 @@
     "locationType": "palace",
     "country": "France",
     "wikipediaTitle": "Palace_of_Versailles",
-    "wikidataId": "Q2946"
+    "wikidataId": "Q2946",
+    "dateStart": "1661"
   },
   {
     "id": "location-ferney",
@@ -2563,7 +2596,8 @@
     "country": "Russia",
     "parentLocation": "location-st-petersburg",
     "wikipediaTitle": "Winter_Palace",
-    "wikidataId": "Q182147"
+    "wikidataId": "Q182147",
+    "dateStart": "1754"
   },
   {
     "id": "location-amsterdam-publishing",
@@ -2609,7 +2643,8 @@
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
     "wikipediaTitle": "Select_Society",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q10369531"
   },
   {
     "id": "location-poker-club",
@@ -2634,7 +2669,8 @@
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
     "wikipediaTitle": "Rankenian_Club",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q16931535"
   },
   {
     "id": "location-cafe-procope",
@@ -2645,7 +2681,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "wikipediaTitle": "Café_Procope",
-    "wikidataId": "Q751293"
+    "wikidataId": "Q751293",
+    "dateStart": "1686"
   },
   {
     "id": "entity-encyclopedie-project",
@@ -2786,7 +2823,8 @@
     "dateEnd": "1789",
     "entityType": "intellectual tendency",
     "wikipediaTitle": "Radical_Enlightenment",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q12539"
   },
   {
     "id": "entity-academie-francaise",
@@ -2933,7 +2971,8 @@
     "shortDescription": "Central Enlightenment cause",
     "entityType": "reform movement",
     "wikipediaTitle": "Religious_toleration",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q2086472"
   },
   {
     "id": "entity-criminal-justice-reform",
@@ -2986,7 +3025,8 @@
     "shortDescription": "Reconciling Christianity with Enlightenment values",
     "entityType": "religious tendency",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q119038249"
   },
   {
     "id": "entity-united-states",

@@ -1,0 +1,195 @@
+[
+  {
+    "nodeId": "person-caspar-cruciger",
+    "title": "Caspar Cruciger the Elder",
+    "type": "person",
+    "reason": "id-mismatch",
+    "note": "Resolved Q67132 (\"Caspar Creuziger\") does not match \"Caspar Cruciger the Elder\"",
+    "existingWikidataId": "Q67132",
+    "candidates": [
+      {
+        "wikidataId": "Q67132",
+        "label": "Caspar Creuziger",
+        "description": "German humanist"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-pierre-robert-olivetan",
+    "title": "Pierre Robert Olivétan",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Olivétan\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-jacques-lefevre-detaples",
+    "title": "Jacques Lefèvre d'Étaples",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Jacques_Lefèvre_d%27Étaples\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-sixty-seven-articles",
+    "title": "Sixty-Seven Articles",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Sixty-seven_Articles\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-true-false-religion",
+    "title": "Commentary on True and False Religion",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Commentary on True and False Religion\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-olivetan-bible",
+    "title": "Olivétan's French Bible",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Olivétan_Bible\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-small-catechism",
+    "title": "Small Catechism",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Luther%27s_Small_Catechism\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-large-catechism",
+    "title": "Large Catechism",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Luther%27s_Large_Catechism\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-strasbourg-liturgy",
+    "title": "Strasbourg Liturgy",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Strasbourg Liturgy\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-book-of-martyrs",
+    "title": "Actes and Monuments (Book of Martyrs)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Foxe%27s_Book_of_Martyrs\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-erasmus-correspondence",
+    "title": "Erasmus's Correspondence",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Erasmus's Correspondence\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-luther-correspondence",
+    "title": "Luther's Correspondence",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "2 Wikidata candidates for \"Luther's Correspondence\"",
+    "candidates": [
+      {
+        "wikidataId": "Q19104154",
+        "label": "Luther's correspondence and other contemporary letters"
+      },
+      {
+        "wikidataId": "Q107781362",
+        "label": "Luther's correspondence and other contemporary letters",
+        "description": "English translation of letters by Martin Luther and his contemporaries"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-bullinger-correspondence",
+    "title": "Bullinger's Correspondence",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Bullinger's Correspondence\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-castle-church-wittenberg",
+    "title": "Castle Church (Schlosskirche)",
+    "type": "location",
+    "reason": "not-found",
+    "note": "Wikipedia page \"All_Saints%27_Church,_Wittenberg\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-st-pierre-geneva",
+    "title": "St. Pierre Cathedral",
+    "type": "location",
+    "reason": "not-found",
+    "note": "Wikipedia page \"St._Pierre_Cathedral,_Geneva\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-st-giles-edinburgh",
+    "title": "St. Giles' Cathedral",
+    "type": "location",
+    "reason": "not-found",
+    "note": "Wikipedia page \"St_Giles%27_Cathedral\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-zurich-church",
+    "title": "Reformed Church of Zurich",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Reformed_Church_in_Zürich\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-geneva-church",
+    "title": "Genevan Reformed Church",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Genevan Reformed Church\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-meaux-circle",
+    "title": "Meaux Circle",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Circle_of_Meaux\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-zurich-disputation-1523",
+    "title": "First Zurich Disputation",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"First_Disputation_of_Zurich\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-wittenberg-printers",
+    "title": "Wittenberg Printing Network",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Wittenberg Printing Network\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-geneva-printers",
+    "title": "Geneva Printing Network",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Geneva Printing Network\"",
+    "candidates": []
+  }
+]

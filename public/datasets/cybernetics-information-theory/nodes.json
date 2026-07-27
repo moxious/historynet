@@ -144,7 +144,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q510591"
+    "wikidataId": "Q510591",
+    "birthPlace": "Reedsburg"
   },
   {
     "id": "person-richard-hamming",
@@ -160,7 +161,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q92619"
+    "wikidataId": "Q92619",
+    "birthPlace": "Chicago"
   },
   {
     "id": "person-john-tukey",
@@ -177,7 +179,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q382207"
+    "wikidataId": "Q382207",
+    "birthPlace": "New Bedford"
   },
   {
     "id": "person-john-pierce",
@@ -194,7 +197,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q1340677"
+    "wikidataId": "Q1340677",
+    "birthPlace": "Des Moines"
   },
   {
     "id": "person-hendrik-bode",
@@ -211,7 +215,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q714462"
+    "wikidataId": "Q714462",
+    "birthPlace": "Madison"
   },
   {
     "id": "person-harry-nyquist",
@@ -243,7 +248,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q529886"
+    "wikidataId": "Q529886",
+    "birthPlace": "Sprucemont"
   },
   {
     "id": "person-david-huffman",
@@ -259,7 +265,8 @@
     ],
     "nationality": "American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q92784"
+    "wikidataId": "Q92784",
+    "birthPlace": "Alliance"
   },
   {
     "id": "person-robert-fano",
@@ -276,7 +283,8 @@
     ],
     "nationality": "Italian-American",
     "subgroup": "Information Theory",
-    "wikidataId": "Q93052"
+    "wikidataId": "Q93052",
+    "birthPlace": "Turin"
   },
   {
     "id": "person-john-mauchly",
@@ -293,7 +301,8 @@
     ],
     "nationality": "American",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q522162"
+    "wikidataId": "Q522162",
+    "birthPlace": "Cincinnati"
   },
   {
     "id": "person-presper-eckert",
@@ -309,7 +318,8 @@
     ],
     "nationality": "American",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q457906"
+    "wikidataId": "Q457906",
+    "birthPlace": "Philadelphia"
   },
   {
     "id": "person-herman-goldstine",
@@ -326,7 +336,8 @@
     ],
     "nationality": "American",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q93005"
+    "wikidataId": "Q93005",
+    "birthPlace": "Chicago"
   },
   {
     "id": "person-maurice-wilkes",
@@ -342,7 +353,8 @@
     ],
     "nationality": "British",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q62857"
+    "wikidataId": "Q62857",
+    "birthPlace": "Dudley"
   },
   {
     "id": "person-konrad-zuse",
@@ -359,7 +371,8 @@
     ],
     "nationality": "German",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q60093"
+    "wikidataId": "Q60093",
+    "birthPlace": "Wilmersdorf"
   },
   {
     "id": "person-max-newman",
@@ -375,7 +388,8 @@
     ],
     "nationality": "British",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q707155"
+    "wikidataId": "Q707155",
+    "birthPlace": "London"
   },
   {
     "id": "person-tommy-flowers",
@@ -391,7 +405,8 @@
     ],
     "nationality": "British",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q954437"
+    "wikidataId": "Q954437",
+    "birthPlace": "Poplar"
   },
   {
     "id": "person-i-j-good",
@@ -408,7 +423,8 @@
     ],
     "nationality": "British",
     "subgroup": "Computing Pioneers",
-    "wikidataId": "Q224372"
+    "wikidataId": "Q224372",
+    "birthPlace": "London"
   },
   {
     "id": "person-warren-mcculloch",
@@ -425,7 +441,8 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q962174"
+    "wikidataId": "Q962174",
+    "birthPlace": "Orange"
   },
   {
     "id": "person-walter-pitts",
@@ -442,7 +459,8 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q705010"
+    "wikidataId": "Q705010",
+    "birthPlace": "Detroit"
   },
   {
     "id": "person-margaret-mead",
@@ -458,7 +476,8 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q180099"
+    "wikidataId": "Q180099",
+    "birthPlace": "Philadelphia"
   },
   {
     "id": "person-arturo-rosenblueth",
@@ -474,7 +493,8 @@
     ],
     "nationality": "Mexican",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q121729"
+    "wikidataId": "Q121729",
+    "birthPlace": "Chihuahua City"
   },
   {
     "id": "person-julian-bigelow",
@@ -490,7 +510,8 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q328632"
+    "wikidataId": "Q328632",
+    "birthPlace": "Nutley"
   },
   {
     "id": "person-lawrence-frank",
@@ -507,7 +528,8 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q15430706"
+    "wikidataId": "Q15430706",
+    "birthPlace": "Cincinnati"
   },
   {
     "id": "person-frank-fremont-smith",
@@ -540,7 +562,9 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q2406358",
+    "birthPlace": "Harvey"
   },
   {
     "id": "person-heinrich-kluver",
@@ -556,7 +580,8 @@
     ],
     "nationality": "German-American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q74829"
+    "wikidataId": "Q74829",
+    "birthPlace": "Holstein"
   },
   {
     "id": "person-kurt-lewin",
@@ -572,7 +597,8 @@
     ],
     "nationality": "German-American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": "Q77106"
+    "wikidataId": "Q77106",
+    "birthPlace": "Mogilno"
   },
   {
     "id": "person-jerome-lettvin",
@@ -588,7 +614,8 @@
     ],
     "nationality": "American",
     "subgroup": "Neurophysiology",
-    "wikidataId": "Q6182818"
+    "wikidataId": "Q6182818",
+    "birthPlace": "Chicago"
   },
   {
     "id": "person-donald-hebb",
@@ -605,7 +632,8 @@
     ],
     "nationality": "Canadian",
     "subgroup": "Neurophysiology",
-    "wikidataId": "Q683246"
+    "wikidataId": "Q683246",
+    "birthPlace": "Chester"
   },
   {
     "id": "person-frank-rosenblatt",
@@ -622,7 +650,8 @@
     ],
     "nationality": "American",
     "subgroup": "Neurophysiology",
-    "wikidataId": "Q93018"
+    "wikidataId": "Q93018",
+    "birthPlace": "New Rochelle"
   },
   {
     "id": "person-horace-barlow",
@@ -672,7 +701,8 @@
     ],
     "nationality": "British",
     "subgroup": "British Cybernetics",
-    "wikidataId": "Q1359845"
+    "wikidataId": "Q1359845",
+    "birthPlace": "Kansas City"
   },
   {
     "id": "person-gordon-pask",
@@ -689,7 +719,8 @@
     ],
     "nationality": "British",
     "subgroup": "British Cybernetics",
-    "wikidataId": "Q370461"
+    "wikidataId": "Q370461",
+    "birthPlace": "Derby"
   },
   {
     "id": "person-donald-mackay",
@@ -771,7 +802,8 @@
     ],
     "nationality": "Austrian-American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q84345"
+    "wikidataId": "Q84345",
+    "birthPlace": "Atzgersdorf"
   },
   {
     "id": "person-kenneth-boulding",
@@ -788,7 +820,8 @@
     ],
     "nationality": "British-American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q505520"
+    "wikidataId": "Q505520",
+    "birthPlace": "Liverpool"
   },
   {
     "id": "person-anatol-rapoport",
@@ -805,7 +838,8 @@
     ],
     "nationality": "Russian-American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q487453"
+    "wikidataId": "Q487453",
+    "birthPlace": "Lozova"
   },
   {
     "id": "person-jay-forrester",
@@ -822,7 +856,8 @@
     ],
     "nationality": "American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q92763"
+    "wikidataId": "Q92763",
+    "birthPlace": "Anselmo"
   },
   {
     "id": "person-donella-meadows",
@@ -839,7 +874,8 @@
     ],
     "nationality": "American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q271226"
+    "wikidataId": "Q271226",
+    "birthPlace": "Elgin"
   },
   {
     "id": "person-russell-ackoff",
@@ -856,7 +892,8 @@
     ],
     "nationality": "American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q1431186"
+    "wikidataId": "Q1431186",
+    "birthPlace": "Philadelphia"
   },
   {
     "id": "person-c-west-churchman",
@@ -873,7 +910,8 @@
     ],
     "nationality": "American",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q959763"
+    "wikidataId": "Q959763",
+    "birthPlace": "Philadelphia"
   },
   {
     "id": "person-peter-checkland",
@@ -889,7 +927,8 @@
     ],
     "nationality": "British",
     "subgroup": "Systems Theory",
-    "wikidataId": "Q503806"
+    "wikidataId": "Q503806",
+    "birthPlace": "Birmingham"
   },
   {
     "id": "person-raul-espejo",
@@ -922,7 +961,8 @@
     ],
     "nationality": "Austrian-American",
     "subgroup": "Second-Order Cybernetics",
-    "wikidataId": "Q78688"
+    "wikidataId": "Q78688",
+    "birthPlace": "Vienna"
   },
   {
     "id": "person-humberto-maturana",
@@ -939,7 +979,8 @@
     ],
     "nationality": "Chilean",
     "subgroup": "Second-Order Cybernetics",
-    "wikidataId": "Q376452"
+    "wikidataId": "Q376452",
+    "birthPlace": "Santiago"
   },
   {
     "id": "person-francisco-varela",
@@ -957,7 +998,8 @@
     ],
     "nationality": "Chilean-French",
     "subgroup": "Second-Order Cybernetics",
-    "wikidataId": "Q923582"
+    "wikidataId": "Q923582",
+    "birthPlace": "Talcahuano"
   },
   {
     "id": "person-ernst-von-glasersfeld",
@@ -974,7 +1016,8 @@
     ],
     "nationality": "Austrian-American",
     "subgroup": "Second-Order Cybernetics",
-    "wikidataId": "Q112176"
+    "wikidataId": "Q112176",
+    "birthPlace": "Munich"
   },
   {
     "id": "person-ranulph-glanville",
@@ -991,7 +1034,8 @@
     ],
     "nationality": "British",
     "subgroup": "Second-Order Cybernetics",
-    "wikidataId": "Q1494101"
+    "wikidataId": "Q1494101",
+    "birthPlace": "Greater London"
   },
   {
     "id": "person-marvin-minsky",
@@ -1008,7 +1052,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q204815"
+    "wikidataId": "Q204815",
+    "birthPlace": "New York City"
   },
   {
     "id": "person-john-mccarthy",
@@ -1024,7 +1069,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q92739"
+    "wikidataId": "Q92739",
+    "birthPlace": "Boston"
   },
   {
     "id": "person-allen-newell",
@@ -1041,7 +1087,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q439245"
+    "wikidataId": "Q439245",
+    "birthPlace": "San Francisco"
   },
   {
     "id": "person-herbert-simon",
@@ -1059,7 +1106,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q181529"
+    "wikidataId": "Q181529",
+    "birthPlace": "Milwaukee"
   },
   {
     "id": "person-seymour-papert",
@@ -1077,7 +1125,8 @@
     ],
     "nationality": "South African-American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q335027"
+    "wikidataId": "Q335027",
+    "birthPlace": "Pretoria"
   },
   {
     "id": "person-oliver-selfridge",
@@ -1093,7 +1142,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q2651957"
+    "wikidataId": "Q2651957",
+    "birthPlace": "London"
   },
   {
     "id": "person-nathaniel-rochester",
@@ -1109,7 +1159,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q6969830"
+    "wikidataId": "Q6969830",
+    "birthPlace": "Buffalo"
   },
   {
     "id": "person-ray-solomonoff",
@@ -1125,7 +1176,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q3123640"
+    "wikidataId": "Q3123640",
+    "birthPlace": "Cleveland"
   },
   {
     "id": "person-arthur-samuel",
@@ -1141,7 +1193,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q710266"
+    "wikidataId": "Q710266",
+    "birthPlace": "Emporia"
   },
   {
     "id": "person-j-c-r-licklider",
@@ -1158,7 +1211,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q92778"
+    "wikidataId": "Q92778",
+    "birthPlace": "St. Louis"
   },
   {
     "id": "person-douglas-engelbart",
@@ -1175,7 +1229,8 @@
     ],
     "nationality": "American",
     "subgroup": "AI & Cognitive Science",
-    "wikidataId": "Q92614"
+    "wikidataId": "Q92614",
+    "birthPlace": "Portland"
   },
   {
     "id": "person-alfred-whitehead",
@@ -1192,7 +1247,8 @@
     ],
     "nationality": "British-American",
     "subgroup": "Precursors",
-    "wikidataId": "Q183372"
+    "wikidataId": "Q183372",
+    "birthPlace": "Ramsgate"
   },
   {
     "id": "person-bertrand-russell",
@@ -1210,7 +1266,8 @@
     ],
     "nationality": "British",
     "subgroup": "Precursors",
-    "wikidataId": "Q33760"
+    "wikidataId": "Q33760",
+    "birthPlace": "Trellech"
   },
   {
     "id": "person-alonzo-church",
@@ -1227,7 +1284,8 @@
     ],
     "nationality": "American",
     "subgroup": "Precursors",
-    "wikidataId": "Q92741"
+    "wikidataId": "Q92741",
+    "birthPlace": "Washington, D.C."
   },
   {
     "id": "person-kurt-godel",
@@ -1244,7 +1302,8 @@
     ],
     "nationality": "Austrian-American",
     "subgroup": "Precursors",
-    "wikidataId": "Q41390"
+    "wikidataId": "Q41390",
+    "birthPlace": "Brno"
   },
   {
     "id": "person-walter-cannon",
@@ -1260,7 +1319,8 @@
     ],
     "nationality": "American",
     "subgroup": "Precursors",
-    "wikidataId": "Q503192"
+    "wikidataId": "Q503192",
+    "birthPlace": "Wisconsin"
   },
   {
     "id": "person-josiah-gibbs",
@@ -1278,7 +1338,8 @@
     ],
     "nationality": "American",
     "subgroup": "Precursors",
-    "wikidataId": "Q153243"
+    "wikidataId": "Q153243",
+    "birthPlace": "New Haven"
   },
   {
     "id": "person-ludwig-boltzmann",
@@ -1294,7 +1355,8 @@
     ],
     "nationality": "Austrian",
     "subgroup": "Precursors",
-    "wikidataId": "Q84296"
+    "wikidataId": "Q84296",
+    "birthPlace": "Vienna"
   },
   {
     "id": "person-vannevar-bush",
@@ -1311,7 +1373,8 @@
     ],
     "nationality": "American",
     "subgroup": "Precursors",
-    "wikidataId": "Q299595"
+    "wikidataId": "Q299595",
+    "birthPlace": "Everett"
   },
   {
     "id": "person-charles-peirce",
@@ -1328,7 +1391,8 @@
     ],
     "nationality": "American",
     "subgroup": "Precursors",
-    "wikidataId": "Q187520"
+    "wikidataId": "Q187520",
+    "birthPlace": "Cambridge"
   },
   {
     "id": "person-oskar-morgenstern",
@@ -1344,7 +1408,8 @@
     ],
     "nationality": "Austrian-American",
     "subgroup": "Precursors",
-    "wikidataId": "Q94028"
+    "wikidataId": "Q94028",
+    "birthPlace": "Görlitz"
   },
   {
     "id": "person-jean-piaget",
@@ -1361,7 +1426,8 @@
     ],
     "nationality": "Swiss",
     "subgroup": "Precursors",
-    "wikidataId": "Q123190"
+    "wikidataId": "Q123190",
+    "birthPlace": "Neuchâtel"
   },
   {
     "id": "object-cybernetics-wiener",
@@ -1557,7 +1623,8 @@
     "language": "English",
     "shortDescription": "Proposed Hebbian learning: 'neurons that fire together wire together'",
     "wikipediaTitle": "The_Organization_of_Behavior",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q7755339"
   },
   {
     "id": "object-design-brain-ashby",
@@ -1653,7 +1720,8 @@
     "language": "English",
     "shortDescription": "Foundational text for systems theory",
     "wikipediaTitle": "General_System_Theory",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q269699"
   },
   {
     "id": "object-cybernetics-management-beer",
@@ -1681,7 +1749,8 @@
     "language": "English",
     "shortDescription": "Presented the Viable System Model (VSM)",
     "wikipediaTitle": "Brain_of_the_Firm",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q140611064"
   },
   {
     "id": "object-industrial-dynamics-forrester",
@@ -1766,7 +1835,8 @@
     "language": "English",
     "shortDescription": "Proposed enaction—cognition as embodied action",
     "wikipediaTitle": "The_Embodied_Mind",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q1335050"
   },
   {
     "id": "object-edvac-report-neumann",
@@ -1833,7 +1903,8 @@
         "url": "https://en.wikipedia.org/wiki/I._J._Good"
       }
     ],
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q56594306"
   },
   {
     "id": "object-dartmouth-proposal",
@@ -1874,7 +1945,8 @@
         "url": "https://en.wikipedia.org/wiki/Man-Computer_Symbiosis"
       }
     ],
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q20650478"
   },
   {
     "id": "object-programs-common-sense-mccarthy",
@@ -2050,7 +2122,8 @@
     },
     "shortDescription": "Major center for cybernetics, information theory, and AI research",
     "wikipediaTitle": "Massachusetts_Institute_of_Technology",
-    "wikidataId": "Q49108"
+    "wikidataId": "Q49108",
+    "dateStart": "1861"
   },
   {
     "id": "location-bell-labs",
@@ -2064,7 +2137,8 @@
     },
     "shortDescription": "Birthplace of information theory",
     "wikipediaTitle": "Bell_Labs",
-    "wikidataId": "Q217365"
+    "wikidataId": "Q217365",
+    "dateStart": "1925"
   },
   {
     "id": "location-ias-princeton",
@@ -2078,7 +2152,8 @@
     },
     "shortDescription": "Where von Neumann built the IAS computer",
     "wikipediaTitle": "Institute_for_Advanced_Study",
-    "wikidataId": "Q635642"
+    "wikidataId": "Q635642",
+    "dateStart": "1930"
   },
   {
     "id": "location-bcl-illinois",
@@ -2108,7 +2183,8 @@
     },
     "shortDescription": "Home of the Newell-Simon AI collaboration",
     "wikipediaTitle": "Carnegie_Mellon_University",
-    "wikidataId": "Q190080"
+    "wikidataId": "Q190080",
+    "dateStart": "1900"
   },
   {
     "id": "location-stanford",
@@ -2122,7 +2198,8 @@
     },
     "shortDescription": "Home of Stanford AI Lab",
     "wikipediaTitle": "Stanford_University",
-    "wikidataId": "Q41506"
+    "wikidataId": "Q41506",
+    "dateStart": "1885"
   },
   {
     "id": "location-sri",
@@ -2136,7 +2213,8 @@
     },
     "shortDescription": "Where Engelbart developed the Mother of All Demos",
     "wikipediaTitle": "SRI_International",
-    "wikidataId": "Q604924"
+    "wikidataId": "Q604924",
+    "dateStart": "1946"
   },
   {
     "id": "location-cambridge",
@@ -2150,7 +2228,8 @@
     },
     "shortDescription": "Where Turing studied and Wilkes built EDSAC",
     "wikipediaTitle": "University_of_Cambridge",
-    "wikidataId": "Q35794"
+    "wikidataId": "Q35794",
+    "dateStart": "1209"
   },
   {
     "id": "location-manchester",
@@ -2164,7 +2243,8 @@
     },
     "shortDescription": "Where Turing worked on early computers",
     "wikipediaTitle": "University_of_Manchester",
-    "wikidataId": "Q230899"
+    "wikidataId": "Q230899",
+    "dateStart": "1824"
   },
   {
     "id": "location-bletchley-park",
@@ -2194,7 +2274,8 @@
     },
     "shortDescription": "Where Turing designed ACE computer",
     "wikipediaTitle": "National_Physical_Laboratory_(United_Kingdom)",
-    "wikidataId": "Q1967606"
+    "wikidataId": "Q1967606",
+    "dateStart": "1900"
   },
   {
     "id": "location-burden-institute",
@@ -2208,7 +2289,9 @@
     },
     "shortDescription": "Where Grey Walter built tortoise robots",
     "wikipediaTitle": "Burden_Neurological_Institute",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q7618485",
+    "dateStart": "1909"
   },
   {
     "id": "location-barnwood-house",
@@ -2224,7 +2307,9 @@
     },
     "shortDescription": "Where Ashby built the Homeostat",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q4862031",
+    "wikipediaTitle": "Barnwood_House_Hospital"
   },
   {
     "id": "location-beekman-hotel",
@@ -2254,7 +2339,8 @@
     },
     "shortDescription": "Site of the 1956 conference that launched AI",
     "wikipediaTitle": "Dartmouth_College",
-    "wikidataId": "Q49116"
+    "wikidataId": "Q49116",
+    "dateStart": "1769"
   },
   {
     "id": "location-ratio-club-london",
@@ -2284,7 +2370,8 @@
     },
     "shortDescription": "Where autopoiesis was developed",
     "wikipediaTitle": "University_of_Chile",
-    "wikidataId": "Q232141"
+    "wikidataId": "Q232141",
+    "dateStart": "1842"
   },
   {
     "id": "location-opsroom-chile",
@@ -2314,7 +2401,8 @@
     },
     "shortDescription": "Home of Boltzmann, von Bertalanffy, and precursor ideas",
     "wikipediaTitle": "Vienna",
-    "wikidataId": "Q1741"
+    "wikidataId": "Q1741",
+    "dateStart": "-100"
   },
   {
     "id": "location-mcgill",
@@ -2328,7 +2416,8 @@
     },
     "shortDescription": "Where Hebb developed his theory of neural learning",
     "wikipediaTitle": "McGill_University",
-    "wikidataId": "Q201492"
+    "wikidataId": "Q201492",
+    "dateStart": "1821"
   },
   {
     "id": "location-michigan",
@@ -2342,7 +2431,8 @@
     },
     "shortDescription": "Home of general systems theory founders",
     "wikipediaTitle": "University_of_Michigan",
-    "wikidataId": "Q230492"
+    "wikidataId": "Q230492",
+    "dateStart": "1817"
   },
   {
     "id": "location-moore-school",
@@ -2356,7 +2446,8 @@
     },
     "shortDescription": "Where ENIAC was built",
     "wikipediaTitle": "Moore_School_of_Electrical_Engineering",
-    "wikidataId": "Q6908229"
+    "wikidataId": "Q6908229",
+    "dateStart": "1923"
   },
   {
     "id": "location-rand",
@@ -2370,7 +2461,8 @@
     },
     "shortDescription": "Defense think tank where early AI work was conducted",
     "wikipediaTitle": "RAND_Corporation",
-    "wikidataId": "Q861141"
+    "wikidataId": "Q861141",
+    "dateStart": "1948"
   },
   {
     "id": "location-cornell-aero",
@@ -2386,7 +2478,8 @@
     },
     "shortDescription": "Where Rosenblatt developed the perceptron",
     "wikipediaTitle": "Cornell_Aeronautical_Laboratory",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q5023963"
   },
   {
     "id": "location-los-alamos",
@@ -2400,7 +2493,8 @@
     },
     "shortDescription": "Manhattan Project site where von Neumann contributed",
     "wikipediaTitle": "Los_Alamos_National_Laboratory",
-    "wikidataId": "Q379848"
+    "wikidataId": "Q379848",
+    "dateStart": "1943"
   },
   {
     "id": "location-harvard",
@@ -2414,7 +2508,8 @@
     },
     "shortDescription": "Where Cannon developed homeostasis; Wiener's PhD",
     "wikipediaTitle": "Harvard_University",
-    "wikidataId": "Q13371"
+    "wikidataId": "Q13371",
+    "dateStart": "1636"
   },
   {
     "id": "entity-macy-conferences",
@@ -2518,7 +2613,8 @@
     "dateStart": "1963",
     "shortDescription": "West Coast AI research center founded by McCarthy",
     "wikipediaTitle": "Stanford_Artificial_Intelligence_Laboratory",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q2931153"
   },
   {
     "id": "entity-bell-labs-research",

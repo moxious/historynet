@@ -329,7 +329,8 @@
     "language": "Latin/Hebrew",
     "subject": "Hebrew language",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q42188609"
   },
   {
     "id": "object-de-occulta-philosophia",
@@ -404,7 +405,8 @@
     "language": "Latin",
     "subject": "angel magic, philosophy of history",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q121991644"
   },
   {
     "id": "object-de-harmonia-mundi",
@@ -606,7 +608,8 @@
     "locationType": "city",
     "country": "Italy",
     "wikipediaTitle": "Venice",
-    "wikidataId": "Q641"
+    "wikidataId": "Q641",
+    "dateStart": "421"
   },
   {
     "id": "location-cologne",
@@ -626,7 +629,8 @@
     "locationType": "city",
     "country": "Italy",
     "wikipediaTitle": "Rome",
-    "wikidataId": "Q220"
+    "wikidataId": "Q220",
+    "dateStart": "-753"
   },
   {
     "id": "location-sponheim-abbey",
@@ -658,7 +662,8 @@
     "locationType": "city",
     "country": "France",
     "wikipediaTitle": "Paris",
-    "wikidataId": "Q90"
+    "wikidataId": "Q90",
+    "dateStart": "-300"
   },
   {
     "id": "entity-platonic-academy-florence",
@@ -704,7 +709,8 @@
     "shortDescription": "Mendicant order whose Cologne members led opposition to Reuchlin",
     "entityType": "religious order",
     "wikipediaTitle": "Dominican_Order",
-    "wikidataId": "Q192632"
+    "wikidataId": "Q192632",
+    "dateStart": "1952"
   },
   {
     "id": "person-lorenzo-de-medici",

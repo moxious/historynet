@@ -142,7 +142,8 @@
         "url": "https://www.britannica.com/biography/Johann-Arndt"
       }
     ],
-    "wikidataId": "Q61359"
+    "wikidataId": "Q61359",
+    "birthPlace": "Ballenstedt"
   },
   {
     "id": "person-michael-maier",
@@ -216,7 +217,8 @@
         "url": "https://en.wikipedia.org/wiki/Adam_Haslmayr"
       }
     ],
-    "wikidataId": "Q4679195"
+    "wikidataId": "Q4679195",
+    "birthPlace": "Bolzano"
   },
   {
     "id": "person-valentin-weigel",
@@ -240,7 +242,8 @@
         "url": "https://en.wikipedia.org/wiki/Valentin_Weigel"
       }
     ],
-    "wikidataId": "Q77397"
+    "wikidataId": "Q77397",
+    "birthPlace": "Großenhain"
   },
   {
     "id": "person-sebastian-franck",
@@ -263,7 +266,8 @@
         "url": "https://en.wikipedia.org/wiki/Sebastian_Franck"
       }
     ],
-    "wikidataId": "Q63170"
+    "wikidataId": "Q63170",
+    "birthPlace": "Donauwörth"
   },
   {
     "id": "person-caspar-schwenckfeld",
@@ -368,7 +372,8 @@
         "url": "https://en.wikipedia.org/wiki/Adam_von_Bodenstein"
       }
     ],
-    "wikidataId": "Q91466"
+    "wikidataId": "Q91466",
+    "birthPlace": "Karlstadt am Main"
   },
   {
     "id": "person-heinrich-khunrath",
@@ -392,7 +397,8 @@
         "url": "https://en.wikipedia.org/wiki/Heinrich_Khunrath"
       }
     ],
-    "wikidataId": "Q73366"
+    "wikidataId": "Q73366",
+    "birthPlace": "Leipzig"
   },
   {
     "id": "person-conrad-khunrath",
@@ -415,7 +421,8 @@
         "url": "https://en.wikipedia.org/wiki/Conrad_Khunrath"
       }
     ],
-    "wikidataId": "Q1126858"
+    "wikidataId": "Q1126858",
+    "birthPlace": "Leipzig"
   },
   {
     "id": "person-oswald-croll",
@@ -442,7 +449,8 @@
         "url": "https://en.wikipedia.org/wiki/Oswald_Croll"
       }
     ],
-    "wikidataId": "Q899007"
+    "wikidataId": "Q899007",
+    "birthPlace": "Wetter"
   },
   {
     "id": "person-andreas-libavius",
@@ -466,7 +474,8 @@
         "url": "https://en.wikipedia.org/wiki/Andreas_Libavius"
       }
     ],
-    "wikidataId": "Q31161"
+    "wikidataId": "Q31161",
+    "birthPlace": "Halle (Saale)"
   },
   {
     "id": "person-petrus-severinus",
@@ -767,7 +776,8 @@
         "url": "https://en.wikipedia.org/wiki/Michael_M%C3%A4stlin"
       }
     ],
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q75797"
   },
   {
     "id": "person-vilem-rozmberk",
@@ -1449,7 +1459,8 @@
         "url": "https://en.wikipedia.org/wiki/T%C3%BCbingen"
       }
     ],
-    "wikidataId": "Q3806"
+    "wikidataId": "Q3806",
+    "dateStart": "1078"
   },
   {
     "id": "loc-prague",
@@ -1470,7 +1481,8 @@
         "url": "https://en.wikipedia.org/wiki/Prague"
       }
     ],
-    "wikidataId": "Q1085"
+    "wikidataId": "Q1085",
+    "dateStart": "800"
   },
   {
     "id": "loc-heidelberg",
@@ -1512,7 +1524,8 @@
         "url": "https://en.wikipedia.org/wiki/Marburg"
       }
     ],
-    "wikidataId": "Q3869"
+    "wikidataId": "Q3869",
+    "dateStart": "1140"
   },
   {
     "id": "loc-gorlitz",
@@ -1554,7 +1567,8 @@
         "url": "https://en.wikipedia.org/wiki/Kassel"
       }
     ],
-    "wikidataId": "Q2865"
+    "wikidataId": "Q2865",
+    "dateStart": "1330"
   },
   {
     "id": "loc-london",
@@ -1575,7 +1589,8 @@
         "url": "https://en.wikipedia.org/wiki/London"
       }
     ],
-    "wikidataId": "Q84"
+    "wikidataId": "Q84",
+    "dateStart": "47"
   },
   {
     "id": "loc-basel",
@@ -1617,7 +1632,8 @@
         "url": "https://en.wikipedia.org/wiki/Augsburg"
       }
     ],
-    "wikidataId": "Q2749"
+    "wikidataId": "Q2749",
+    "dateStart": "-15"
   },
   {
     "id": "loc-the-hague",
@@ -1638,7 +1654,8 @@
         "url": "https://en.wikipedia.org/wiki/The_Hague"
       }
     ],
-    "wikidataId": "Q36600"
+    "wikidataId": "Q36600",
+    "dateStart": "1201"
   },
   {
     "id": "loc-trebon",
@@ -1676,7 +1693,9 @@
     ],
     "wikipediaTitle": null,
     "notes": "Biographical details sparse; dates approximate based on active period. German Wikipedia article available at de.wikipedia.org/wiki/Abraham_Hölzel",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q22969219",
+    "birthPlace": "Tyrol"
   },
   {
     "id": "person-wilhelm-von-wense",
@@ -1709,7 +1728,8 @@
       "physician"
     ],
     "wikipediaTitle": "Heinrich_Petraeus",
-    "wikidataId": "Q5700295"
+    "wikidataId": "Q5700295",
+    "birthPlace": "Brotterode"
   },
   {
     "id": "entity-tubingen-circle",
@@ -2010,7 +2030,8 @@
       "person-daniel-cramer"
     ],
     "wikipediaTitle": "University_of_Marburg",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q155354"
   },
   {
     "id": "entity-marburg-laboratory",
@@ -2497,7 +2518,8 @@
       }
     ],
     "notes": "Originally written in Czech, published in Latin in 1657. Proposes education for all regardless of birth, wealth, nation, or gender. Influenced the entire Hartlib Circle's educational agenda.",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q1210397"
   },
   {
     "id": "object-holy-guide",
@@ -2593,7 +2615,8 @@
         "url": "https://en.wikipedia.org/wiki/Elbl%C4%85g"
       }
     ],
-    "wikidataId": "Q104712"
+    "wikidataId": "Q104712",
+    "dateStart": "1237"
   },
   {
     "id": "loc-amsterdam",
@@ -2614,6 +2637,7 @@
         "url": "https://en.wikipedia.org/wiki/Amsterdam"
       }
     ],
-    "wikidataId": "Q727"
+    "wikidataId": "Q727",
+    "dateStart": "1300"
   }
 ]

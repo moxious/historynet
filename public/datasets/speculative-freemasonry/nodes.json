@@ -62,7 +62,8 @@
     "country": "England",
     "shortDescription": "City in North East England where Sir Robert Moray was initiated into the Lodge of Edinburgh in 1641.",
     "wikipediaTitle": "Newcastle_upon_Tyne",
-    "wikidataId": "Q1425428"
+    "wikidataId": "Q1425428",
+    "dateStart": "200"
   },
   {
     "id": "loc-london",
@@ -72,7 +73,8 @@
     "country": "England",
     "shortDescription": "Capital city of England, location of the Premier Grand Lodge of England (founded 1717) and numerous Masonic lodges.",
     "wikipediaTitle": "London",
-    "wikidataId": "Q84"
+    "wikidataId": "Q84",
+    "dateStart": "47"
   },
   {
     "id": "loc-edinburgh",
@@ -82,7 +84,8 @@
     "country": "Scotland",
     "shortDescription": "Capital city of Scotland, home to the Lodge of Edinburgh (Mary's Chapel) No. 1, the oldest Masonic lodge with continuous records.",
     "wikipediaTitle": "Edinburgh",
-    "wikidataId": "Q23436"
+    "wikidataId": "Q23436",
+    "dateStart": "601"
   },
   {
     "id": "entity-premier-grand-lodge-england",
@@ -93,7 +96,8 @@
     "dateEnd": "1813-12-27",
     "shortDescription": "The first Masonic Grand Lodge in the world, founded in 1717 in London. Also known as the 'Moderns' after 1751.",
     "headquarters": "loc-london",
-    "wikipediaTitle": "Premier_Grand_Lodge_of_England"
+    "wikipediaTitle": "Premier_Grand_Lodge_of_England",
+    "wikidataId": "Q1637868"
   },
   {
     "id": "entity-lodge-edinburgh",
@@ -102,7 +106,9 @@
     "entityType": "organization",
     "shortDescription": "The oldest Masonic lodge with continuous records, dating to 1599. Initiated Sir Robert Moray in Newcastle in 1641.",
     "headquarters": "loc-edinburgh",
-    "wikipediaTitle": "Lodge_of_Edinburgh_(Mary's_Chapel)_No._1"
+    "wikipediaTitle": "Lodge_of_Edinburgh_(Mary's_Chapel)_No._1",
+    "wikidataId": "Q3257879",
+    "dateStart": "1599"
   },
   {
     "id": "person-anthony-sayer",
@@ -118,7 +124,8 @@
       "freemason"
     ],
     "wikipediaTitle": "Anthony_Sayer",
-    "wikidataId": "Q3618535"
+    "wikidataId": "Q3618535",
+    "birthPlace": "London"
   },
   {
     "id": "person-george-payne",
@@ -276,7 +283,8 @@
       "designer"
     ],
     "wikipediaTitle": "John_Pine",
-    "wikidataId": "Q6252938"
+    "wikidataId": "Q6252938",
+    "birthPlace": "London"
   },
   {
     "id": "person-william-stukeley",

@@ -1,0 +1,246 @@
+[
+  {
+    "nodeId": "person-david-cockerell",
+    "title": "David Cockerell",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"David_Cockerell_(engineer)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-peter-baumann",
+    "title": "Peter Baumann",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Peter_Baumann_(musician)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-schaeffer-etude-chemins-de-fer",
+    "title": "Étude aux chemins de fer",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Études_de_bruits\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-young-dream-house",
+    "title": "Dream House",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Dream_House_(art_installation)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-bryars-titanic",
+    "title": "The Sinking of the Titanic",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"The_Sinking_of_the_Titanic_(album)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-tubby-dub-roots",
+    "title": "Dub from the Roots",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Dub from the Roots\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-eno-ambient-manifesto",
+    "title": "Music for Airports Liner Notes",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Music for Airports Liner Notes\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-schaeffer-traite",
+    "title": "Traité des objets musicaux",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Traité_des_objets_musicaux\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-nyman-experimental-music",
+    "title": "Experimental Music: Cage and Beyond",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Experimental_Music:_Cage_and_Beyond\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-buchla-easel",
+    "title": "Buchla Music Easel",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Buchla_Music_Easel\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-forst",
+    "title": "Forst",
+    "type": "location",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Forst\"",
+    "candidates": [
+      {
+        "wikidataId": "Q572545",
+        "label": "Forst (Lausitz)",
+        "description": "town in Spree-Neiße District, Brandenburg, Germany"
+      },
+      {
+        "wikidataId": "Q677078",
+        "label": "Forst",
+        "description": "place in Rhineland-Palatinate, Germany"
+      },
+      {
+        "wikidataId": "Q648840",
+        "label": "Forst",
+        "description": "municipality of Germany"
+      },
+      {
+        "wikidataId": "Q83947567",
+        "label": "Forst",
+        "description": "human settlement in Wiener Neustadt District"
+      },
+      {
+        "wikidataId": "Q17521245",
+        "label": "Forster",
+        "description": "family name"
+      }
+    ]
+  },
+  {
+    "nodeId": "loc-king-tubby-studio",
+    "title": "King Tubby's Studio",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"King Tubby's Studio\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-ems-studio",
+    "title": "EMS Studio",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"EMS Studio\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-british-art-schools",
+    "title": "Ipswich/Winchester Art Schools",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Ipswich/Winchester Art Schools\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-dream-house-install",
+    "title": "Dream House Installation",
+    "type": "location",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Dream_House_(art_installation)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-young-loft",
+    "title": "La Monte Young's Loft",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"La Monte Young's Loft\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-brain",
+    "title": "Brain Records",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Brain_(record_label)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-grm-editions",
+    "title": "GRM Editions",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"GRM Editions\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-berlin-school",
+    "title": "Berlin School",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Berlin_School_(electronic_music)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-kankyo-ongaku",
+    "title": "Kankyō Ongaku",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Kankyō_ongaku\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-czukay-canaxis",
+    "title": "Canaxis 5",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Canaxis\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-takada-looking-glass",
+    "title": "Through the Looking Glass",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Through_the_Looking_Glass_(Midori_Takada_album)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-ashikawa-still-way",
+    "title": "Still Way (Wave Notation 2)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Still Way (Wave Notation 2)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-sound-process",
+    "title": "Sound Process",
+    "type": "entity",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Sound Process\"",
+    "candidates": [
+      {
+        "wikidataId": "Q119498452",
+        "label": "Sound processing apparatus and sound processing system",
+        "description": "US patent 11146904"
+      },
+      {
+        "wikidataId": "Q119345023",
+        "label": "Sound processing device, sound processing method, and program",
+        "description": "US patent 11336999"
+      },
+      {
+        "wikidataId": "Q119352188",
+        "label": "Sound processing device, sound processing method, and program",
+        "description": "US patent 11297428"
+      },
+      {
+        "wikidataId": "Q123046424",
+        "label": "Sound processing method, remote conversation method, sound processing device, remote conversation device, headset, and remote conversation system",
+        "description": "US patent 11259116"
+      },
+      {
+        "wikidataId": "Q119362720",
+        "label": "Sound processing device, method and program",
+        "description": "US patent 11265647"
+      }
+    ]
+  }
+]
