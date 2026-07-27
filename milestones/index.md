@@ -104,16 +104,18 @@ data-integrity issue those tools uncovered (5 datasets remediated). See the
 [Dataset Tooling inventory](../AGENTS.md#dataset-tooling) and
 `thread2-pipeline-optimization.md`.
 
-**Recommended next**:
-- **Dogfood the pipeline** — create a new dataset end-to-end with the 2A tools.
-- **M26: Custom Domain** - Depends on M24 ✅ (quick, unblocked)
-- **M27: Spam Protection** - Depends on M25 ✅
+**Direction (2026-07): resume Track D, scoped to persons + places.** Dogfooding
+(the Blaxploitation dataset) confirmed 2A made creation cheap. The `cross-dataset`
+consistency report then showed 2A delivered identity *detection* but not
+*unification* — 91 entities are duplicated across datasets and drifting — which is
+the distinct value the atomic architecture provides. See the "Track D decision" in
+`../ROADMAP.md`.
 
-**Paused — reassess before resuming**:
-- **M34: Migration Infrastructure** - Phases 1–2 landed (PR #36); Phases 3–5 +
-  blockers B1–B4 open. Thread 2A delivered much of Track D's intended value on
-  the current format, so reconsider the atomic migration's scope — see the
-  "Track D reassessment" in `../ROADMAP.md`.
+**Next**:
+- **Track D**: clear M34 blockers B1–B4 (canonical merge on `type + wikidataId`;
+  intra-dataset dedup — the mechanics of collapsing the duplicates), then Phases
+  3–5 → M35 → M36 + locations.
+- **M26: Custom Domain** / **M27: Spam Protection** — independent quick wins.
 
 **Track B progress**: M30 (Cross-Scene UI) complete. Full cross-scene discovery experience deployed with visual indicators, progressive disclosure, and seamless navigation across datasets.
 
