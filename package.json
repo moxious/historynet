@@ -20,6 +20,8 @@
     "enrich:dry-run": "npx tsx scripts/enrich-dataset/index.ts --dry-run",
     "sync-manifest": "npx tsx scripts/sync-manifest/index.ts",
     "sync-manifest:check": "npx tsx scripts/sync-manifest/index.ts --check",
+    "verify-ids": "npx tsx scripts/verify-ids/index.ts",
+    "verify-ids:fix": "npx tsx scripts/verify-ids/index.ts --fix",
     "test:graph-equivalence": "npx tsx scripts/test-graph-equivalence/index.ts",
     "test:pre-migration": "npx tsx scripts/test-graph-equivalence/index.ts --all --format current --json",
     "test:post-migration": "npx tsx scripts/test-graph-equivalence/index.ts --all --format atomic --json",
