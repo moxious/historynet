@@ -18,6 +18,8 @@ import {
   claimItemIds,
   claimYear,
   entityDescription,
+  entityLabel,
+  entityNames,
   entitySitelinkTitle,
   isInstanceOf,
   type WikidataEntity,
@@ -43,6 +45,72 @@ interface ResolvedTarget {
   status?: NodeEnrichmentResult['status'];
   candidates?: MatchCandidate[];
   note?: string;
+}
+
+/** Trailing tokens that are honorifics/ordinals, not part of a surname. */
+const NAME_SUFFIXES = new Set([
+  'the',
+  'elder',
+  'younger',
+  'jr',
+  'sr',
+  'i',
+  'ii',
+  'iii',
+  'iv',
+  'v',
+]);
+
+/** Normalize a name to lowercase, accent-free, alphabetic tokens. Drops any
+ *  parenthetical disambiguator (e.g. "Alex Paterson (The Orb)"). */
+function nameTokens(s: string): string[] {
+  return s
+    .replace(/\s*\([^)]*\)/g, '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu, '')
+    .replace(/[^a-z ]/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+/** The last meaningful token, ignoring trailing honorifics/ordinals. */
+function surnameToken(tokens: string[]): string {
+  const t = [...tokens];
+  while (t.length > 1 && NAME_SUFFIXES.has(t[t.length - 1])) t.pop();
+  return t[t.length - 1];
+}
+
+/** Two name tokens match if equal or share a >=4-char common prefix
+ *  (tolerates transliteration variants like Chalcondyles/Chalkokondyles). */
+function tokensMatch(a: string, b: string): boolean {
+  if (a === b) return true;
+  if (a.length < 4 || b.length < 4) return false;
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  return i >= 4;
+}
+
+/**
+ * Does a resolved entity plausibly refer to the same *person* as the node?
+ * Guards against corrupt/stale wikidataIds that resolve to an unrelated entity
+ * (e.g. a node titled "Sam Altman" whose id points at a baseball player). The
+ * node's surname must fuzzily appear in the entity's label, an alias, or the
+ * Wikipedia sitelink. If the entity has no usable English name we cannot
+ * verify, so we trust rather than falsely quarantine.
+ */
+function personNameMatches(title: string, names: string[]): boolean {
+  const titleTokens = nameTokens(title);
+  if (titleTokens.length === 0) return true;
+  const surname = surnameToken(titleTokens);
+
+  const usable = names.map(nameTokens).filter((t) => t.length > 0);
+  if (usable.length === 0) return true; // nothing to check against
+
+  return usable.some((tokens) =>
+    tokens.some((token) => tokensMatch(token, surname))
+  );
 }
 
 /** Is a node field considered absent (and therefore fillable)? */
@@ -253,6 +321,28 @@ export async function enrichDataset(
         status: 'not-found',
         filled: {},
         note: `Wikidata entity ${target.qid} could not be fetched`,
+      });
+      continue;
+    }
+
+    // Identity guard: a person node's resolved entity must actually name that
+    // person. Catches corrupt/stale wikidataIds pointing at unrelated entities.
+    if (node.type === 'person' && !personNameMatches(node.title, entityNames(entity))) {
+      results.push({
+        ...base,
+        status: 'id-mismatch',
+        filled: {},
+        candidates: [
+          {
+            wikidataId: entity.id,
+            label: entityLabel(entity) ?? '(no label)',
+            description: entityDescription(entity),
+          },
+        ],
+        note:
+          target.provenance === 'id'
+            ? `Existing wikidataId ${entity.id} resolves to "${entityLabel(entity) ?? '?'}", not "${node.title}"`
+            : `Resolved ${entity.id} ("${entityLabel(entity) ?? '?'}") does not match "${node.title}"`,
       });
       continue;
     }

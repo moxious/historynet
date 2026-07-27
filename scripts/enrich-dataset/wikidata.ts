@@ -37,6 +37,7 @@ export interface WikidataEntity {
   id: string;
   labels?: Record<string, { value: string }>;
   descriptions?: Record<string, { value: string }>;
+  aliases?: Record<string, Array<{ value: string }>>;
   claims?: Record<string, WikidataClaim[]>;
   sitelinks?: Record<string, { title: string }>;
 }
@@ -139,7 +140,7 @@ export async function getEntities(
     const data = await apiGet(WIKIDATA_API, {
       action: 'wbgetentities',
       ids: batch.join('|'),
-      props: 'labels|descriptions|claims|sitelinks',
+      props: 'labels|descriptions|aliases|claims|sitelinks',
       languages: 'en',
     });
     const entities = (data.entities as
@@ -227,6 +228,19 @@ export function claimYear(
 /** English label for the entity itself. */
 export function entityLabel(entity: WikidataEntity): string | undefined {
   return entity.labels?.en?.value;
+}
+
+/** All English names for an entity: label + aliases + Wikipedia sitelink. */
+export function entityNames(entity: WikidataEntity): string[] {
+  const names: string[] = [];
+  const label = entity.labels?.en?.value;
+  if (label) names.push(label);
+  for (const alias of entity.aliases?.en ?? []) {
+    if (alias.value) names.push(alias.value);
+  }
+  const sitelink = entity.sitelinks?.enwiki?.title;
+  if (sitelink) names.push(sitelink);
+  return names;
 }
 
 /** English one-line description for the entity. */

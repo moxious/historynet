@@ -79,6 +79,7 @@ export interface NodeEnrichmentResult {
     | 'ambiguous' // multiple candidates - quarantined for human review
     | 'not-found' // no Wikidata match at all
     | 'type-mismatch' // best match's instance-of contradicts node.type
+    | 'id-mismatch' // existing wikidataId resolves to an unrelated entity
     | 'error'; // API/network failure
   /** Fields that were filled, with their resolved values. */
   filled: Partial<Record<EnrichableField, string | string[]>>;
@@ -93,7 +94,13 @@ export interface AmbiguousEntry {
   nodeId: string;
   title: string;
   type: NodeType;
-  reason: 'multiple-candidates' | 'type-mismatch' | 'not-found';
+  reason:
+    | 'multiple-candidates'
+    | 'type-mismatch'
+    | 'id-mismatch'
+    | 'not-found';
+  /** The existing (suspect) wikidataId, when reason is 'id-mismatch'. */
+  existingWikidataId?: string;
   note?: string;
   candidates: MatchCandidate[];
 }
@@ -121,6 +128,7 @@ export interface DatasetEnrichmentSummary {
   ambiguous: number;
   notFound: number;
   typeMismatch: number;
+  idMismatch: number;
   errors: number;
   /** Total number of individual fields filled across all nodes. */
   fieldsFilled: number;
