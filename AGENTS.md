@@ -326,6 +326,48 @@ Manual checklist for dataset review:
 
 ---
 
+## Dataset Tooling
+
+All dataset operations are CLI tools under `scripts/<tool>/`, exposed as `npm run`
+scripts. **Every tool supports `--help`** — run `npm run <tool> -- --help` for its
+full flags and usage rather than re-reading the source. (The `--` is required so
+npm forwards the flag to the tool.) Most accept `--dataset <id>` (default: all),
+and `--dry-run`/`--json`/`--quiet` where meaningful.
+
+These form an "idea → validated dataset" pipeline. Build a dataset roughly in
+this order:
+
+| Command | Purpose |
+|---------|---------|
+| `npm run new-dataset -- --id <slug>` | Scaffold a new dataset: `manifest.json` skeleton + empty `nodes.json`/`edges.json`. `--from-idea "..."` seeds a scope stub to refine. |
+| `npm run enrich -- --dataset <id>` | Fill *missing* mechanical node fields (`wikidataId`, `wikipediaTitle`, dates, `birthPlace`, `nationality`, `occupations`, `shortDescription`) from Wikidata/Wikipedia. Only-missing; never overwrites prose. `enrich:dry-run` previews. |
+| `npm run check-evidence -- --dataset <id>` | Flag dead `evidenceUrl` links and edges with no evidence at all. |
+| `npm run sync-manifest -- --dataset <id>` | Recompute `nodeCount`/`edgeCount`, bump `lastUpdated`. `sync-manifest:check` is the read-only CI gate (fails on drift). |
+| `npm run validate:datasets -- --dataset <id>` | Schema + referential-integrity validation (see the checks table above). `:strict` treats warnings as errors. |
+
+**Wikidata ID integrity** (IDs power Wikipedia links + cross-dataset identity):
+
+| Command | Purpose |
+|---------|---------|
+| `npm run verify-ids -- --dataset <id>` | Audit existing `wikidataId`s against the real Wikidata entities; flags IDs pointing at the wrong thing. Read-only; exits non-zero on findings. `verify-ids:fix` clears/re-resolves wrong IDs (`--clear-unverifiable` also nulls unresolvable ones). |
+| `npm run resolve-ids -- --dataset <id>` | Assign correct IDs to null-`wikidataId` nodes via date-aware disambiguation (only high-confidence matches). `resolve-ids:dry-run` previews. |
+
+**Research & assets:**
+
+| Command | Purpose |
+|---------|---------|
+| `npm run suggest -- --dataset <id>` | Suggest people the dataset is missing, via cross-dataset gap detection (era overlap + edges linking a candidate to your existing members in another network). Report only. |
+| `npm run fetch-banner -- --dataset <id> --query "..."` | Find a themed banner on Wikimedia Commons and capture its license/attribution. **Dry-run by default** (prints the pick, writes nothing); pass `--download` to fetch the image + update the manifest. |
+
+> **Scheduled health checks**: `verify-ids` and `check-evidence` also run weekly
+> (non-blocking, report-only) via `.github/workflows/data-health.yml`, so
+> ID corruption or link rot surface even without a PR touching the data.
+
+**Maintenance**: when you add a `scripts/<tool>/`, wire it into `package.json`,
+give it a `--help`, and add a row to this inventory.
+
+---
+
 ## Common Tasks by Type
 
 ### Frontend Implementation Tasks
@@ -343,6 +385,7 @@ Manual checklist for dataset review:
 - Creating new datasets in `public/datasets/`
 - Validating existing datasets
 - Adding evidence to edges
+- **Use the CLI tools** — see [Dataset Tooling](#dataset-tooling) for the full inventory (`new-dataset`, `enrich`, `verify-ids`, `resolve-ids`, `check-evidence`, `sync-manifest`, `suggest`, `fetch-banner`)
 
 ### Infrastructure Tasks
 - GitHub Actions workflow configuration
