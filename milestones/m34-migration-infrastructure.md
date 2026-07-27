@@ -80,6 +80,33 @@ Build comprehensive migration tooling and tests to enable safe transition from c
 - Manual validation checklist
 - Final migration report
 
+## ⚠️ Review Blockers (from PR #36 review, 2026-07-27)
+
+Independent review of the Phases 1-2 tooling (findings verified against the live
+`enlightenment` dataset). The tooling is **mergeable as-is** (dry-run only, touches
+no real data or app code), but the following **must be resolved before Phase 5
+executes the real migration**. See PR #36 for full detail.
+
+### P0 — block Phase 5 execution (migration correctness)
+
+- [ ] **B1 — `wikidataId` merge key ignores node `type`** (`phase1-extract-entities.ts:190-216`, `uuid-generator.ts:29`). Verified: in `enlightenment` a Person (Earl of Shaftesbury) and an Object (his book) both carry `Q335112` and collapse into one entity. Fix: key registry on `type + wikidataId`; treat same-dataset duplicate wikidataIds as a hard error.
+- [ ] **B2 — intra-dataset dedup breaks structural equivalence** (same root cause). Verified: `enlightenment` 204 nodes → 197 entities; `members.json` has 204 refs but only 197 unique entityIds. Migration cannot produce an equivalent graph until B1 is fixed. Add a pre-flight check: per-dataset node count == unique member entityId count.
+- [ ] **B3 — canonical-field conflicts dropped, not preserved as overrides** (`phase2-create-members.ts:26-40`). "First dataset wins" makes later datasets render the first's title/dates. Equivalence tests won't catch this (counts only). Fix: write differing canonical fields as per-dataset overrides.
+- [ ] **B4 — migration not idempotent, leaves stale `nodes.json`** (`phase3-update-edges.ts:29-58`). Re-running throws ("Source entity not found"). Fix: immutable source, atomic writes, remove/detect already-migrated `nodes.json`.
+
+### P1 — fix before merge (cheap, avoids confusion)
+
+- [ ] **B5 — misleading "cross-dataset" metric** (`phase4-generate-report.ts:66-76`): counts `appearances.length > 1`, so on a single-dataset run it counts intra-dataset duplicates (the "7 cross-dataset entities" figure is actually the B1 bug). Count distinct datasets instead.
+- [ ] **B6 — `test:post-migration` / `test:compare` non-functional until Phase 3** (`atomic-loader.ts:30` throws by design). Document so it isn't mistaken for a regression.
+
+### P2 — cleanups
+
+- [ ] **B7** — dead re-add of `shortDescription`/`imageUrl` (`phase2-create-members.ts:52-59`); remove.
+- [ ] **B8** — `--quiet` unused in `migrate-to-atomic`; `--dataset` not validated for existence (fails late).
+- [ ] **B9** — `graph-metrics.ts:16` comment says "Union-Find" but is recursive DFS; fix comment, consider iterative DFS for scale.
+- [ ] **B10** — equivalence metrics are aggregate (necessary but not sufficient); add a canonical edge-endpoint-set comparison (old ID → new) in Phase 3 for a true equivalence proof.
+- [ ] **B11** — `role` hard-coded `'core'` for every member (`phase1:184`, `phase2:111`); reintroduce role semantics before roles matter in the UI.
+
 ## Design Principles
 
 | Principle | Application |
