@@ -1,0 +1,323 @@
+[
+  {
+    "nodeId": "person-petrus-severinus",
+    "title": "Petrus Severinus",
+    "type": "person",
+    "reason": "id-mismatch",
+    "note": "Resolved Q430754 (\"Peder Soerensen\") does not match \"Petrus Severinus\"",
+    "existingWikidataId": "Q430754",
+    "candidates": [
+      {
+        "wikidataId": "Q430754",
+        "label": "Peder Soerensen",
+        "description": "Danish physician"
+      }
+    ]
+  },
+  {
+    "nodeId": "person-johannes-hartmann",
+    "title": "Johannes Hartmann",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Johannes_Hartmann_(chemist)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-raphael-eglin",
+    "title": "Raphael Eglin",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Raphael_Egli\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-vilem-rozmberk",
+    "title": "Vilém of Rožmberk",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Vilém_of_Rosenberg\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-aurora",
+    "title": "Aurora",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Aurora_(Boehme)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-true-christianity",
+    "title": "True Christianity",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"True_Christianity_(book)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-amphitheatrum",
+    "title": "Amphitheatrum Sapientiae Aeternae",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Amphitheatrum_Sapientiae_Aeternae\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-basilica-chymica",
+    "title": "Basilica Chymica",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Basilica_chymica\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-utriusque-cosmi",
+    "title": "Utriusque Cosmi Historia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Utriusque_Cosmi\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-apologia-compendiaria",
+    "title": "Apologia Compendiaria",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Apologia Compendiaria\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-alchymia",
+    "title": "Alchymia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Alchymia_(Libavius)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-analysis-confessionis",
+    "title": "Analysis Confessionis Fraternitatis de Rosea Cruce",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Analysis Confessionis Fraternitatis de Rosea Cruce\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-christianopolis",
+    "title": "Christianopolis",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Christianopolis\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-idea-medicinae",
+    "title": "Idea Medicinae Philosophicae",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Idea Medicinae Philosophicae\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-wilhelm-von-wense",
+    "title": "Wilhelm von Wense",
+    "type": "person",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Wilhelm von Wense\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-tubingen-circle",
+    "title": "Tübingen Circle",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Tübingen Circle\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-boehme-circle",
+    "title": "Boehme Circle (Görlitz)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Boehme Circle (Görlitz)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-manuscript-collector-network",
+    "title": "Manuscript Collector Network",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Manuscript Collector Network\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-heidelberg-circle",
+    "title": "Heidelberg Intellectual Circle",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Heidelberg Intellectual Circle\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-hague-exile-court",
+    "title": "The Hague Exile Court",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"The Hague Exile Court\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-weigelianism",
+    "title": "Weigelianism",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Weigelianism\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-severinian-school",
+    "title": "Severinian Paracelsianism",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Severinian Paracelsianism\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-rosicrucian-furor",
+    "title": "The Rosicrucian Furor",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"The Rosicrucian Furor\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-marburg-laboratory",
+    "title": "Marburg Chemical Laboratory",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Marburg Chemical Laboratory\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-court-rudolf-ii",
+    "title": "Court of Rudolf II",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Court of Rudolf II\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-court-moritz",
+    "title": "Court of Moritz of Hesse-Kassel",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Court of Moritz of Hesse-Kassel\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-court-frederick-v",
+    "title": "Palatine Court (Heidelberg)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Palatine Court (Heidelberg)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-rozmberk-court",
+    "title": "Rožmberk Court (Třeboň)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Rožmberk Court (Třeboň)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-leibarzt",
+    "title": "Imperial Court Physician",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Imperial Court Physician\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-professor-chymiatrie",
+    "title": "Professor of Chymiatrie",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Professor of Chymiatrie\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-rosicrucian-emblems-cramer",
+    "title": "The Rosicrucian Emblems of Daniel Cramer",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"The Rosicrucian Emblems of Daniel Cramer\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-via-lucis",
+    "title": "Via Lucis",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Via Lucis\"",
+    "candidates": [
+      {
+        "wikidataId": "Q60983044",
+        "label": "Via Lucis"
+      },
+      {
+        "wikidataId": "Q122121584",
+        "label": "Via lucis: Stanislav Libenský a Jaroslava Brychtová pro sakrální prostory v Čechách a na Moravě",
+        "description": "book edition published in 2021"
+      },
+      {
+        "wikidataId": "Q127033515",
+        "label": "VIA LUCIS (Prout)",
+        "description": "hymn tune"
+      },
+      {
+        "wikidataId": "Q127033513",
+        "label": "VIA LUCIS (Best)",
+        "description": "hymn tune"
+      },
+      {
+        "wikidataId": "Q127033514",
+        "label": "VIA LUCIS (Lomas)",
+        "description": "hymn tune"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-holy-guide",
+    "title": "The Holy Guide",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"The Holy Guide\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-reformed-school",
+    "title": "The Reformed School",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"The Reformed School\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-reformed-librarie-keeper",
+    "title": "The Reformed Librarie-Keeper",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "2 Wikidata candidates for \"The Reformed Librarie-Keeper\"",
+    "candidates": [
+      {
+        "wikidataId": "Q70677772",
+        "label": "The Reformed Librarie-Keeper"
+      },
+      {
+        "wikidataId": "Q58637906",
+        "label": "THE REFORMED LIBRARIE-KEEPER: OR Two Copies of Letters concerning the Place and Office of a Librarie-Keeper"
+      }
+    ]
+  }
+]

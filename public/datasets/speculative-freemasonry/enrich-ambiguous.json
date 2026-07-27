@@ -1,0 +1,66 @@
+[
+  {
+    "nodeId": "loc-goose-gridiron-tavern",
+    "title": "Goose and Gridiron Ale-house",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Goose and Gridiron Ale-house\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-apple-tree-tavern",
+    "title": "Apple Tree Tavern",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Apple Tree Tavern\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-lodge-antiquity",
+    "title": "Lodge of Antiquity No. 2",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Lodge of Antiquity No. 2\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-lodge-fortitude-cumberland",
+    "title": "Lodge of Fortitude and Old Cumberland No. 12",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Lodge of Fortitude and Old Cumberland No. 12\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-lodge-royal-somerset-inverness",
+    "title": "Royal Somerset House and Inverness Lodge No. 4",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Royal Somerset House and Inverness Lodge No. 4\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-constitutions-1723",
+    "title": "The Constitutions of the Free-Masons (1723)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"The Constitutions of the Free-Masons (1723)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-henry-mainwaring",
+    "title": "Colonel Henry Mainwaring",
+    "type": "person",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Colonel Henry Mainwaring\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "loc-rummer-grapes-tavern",
+    "title": "Rummer and Grapes Tavern",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Rummer and Grapes Tavern\"",
+    "candidates": []
+  }
+]

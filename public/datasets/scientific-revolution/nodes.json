@@ -505,7 +505,8 @@
     "shortDescription": "Seat of papal authority and the Roman Inquisition",
     "country": "Italy",
     "wikipediaTitle": "Rome",
-    "wikidataId": "Q220"
+    "wikidataId": "Q220",
+    "dateStart": "-753"
   },
   {
     "id": "location-prague",
@@ -515,7 +516,8 @@
     "shortDescription": "Habsburg imperial court; Tycho and Kepler's base under Rudolf II",
     "country": "Bohemia",
     "wikipediaTitle": "Prague",
-    "wikidataId": "Q1085"
+    "wikidataId": "Q1085",
+    "dateStart": "800"
   },
   {
     "id": "location-london",
@@ -525,7 +527,8 @@
     "shortDescription": "Royal Society headquarters; center of English scientific culture",
     "country": "England",
     "wikipediaTitle": "London",
-    "wikidataId": "Q84"
+    "wikidataId": "Q84",
+    "dateStart": "47"
   },
   {
     "id": "location-oxford",
@@ -535,7 +538,8 @@
     "shortDescription": "University town; Wilkins's group and experimental philosophy",
     "country": "England",
     "wikipediaTitle": "Oxford",
-    "wikidataId": "Q34217"
+    "wikidataId": "Q34217",
+    "dateStart": "1000"
   },
   {
     "id": "location-paris",
@@ -545,7 +549,8 @@
     "shortDescription": "Académie des Sciences; center of French scientific culture",
     "country": "France",
     "wikipediaTitle": "Paris",
-    "wikidataId": "Q90"
+    "wikidataId": "Q90",
+    "dateStart": "-300"
   },
   {
     "id": "entity-royal-society",

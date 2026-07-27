@@ -1,0 +1,499 @@
+[
+  {
+    "nodeId": "person-lorenzo-de-medici",
+    "title": "Lorenzo de' Medici",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Lorenzo_de%27_Medici\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-niccolo-leonico-tomeo",
+    "title": "Niccolò Leonico Tomeo",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Niccolò_Leonico_Tomeo\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-john-fisher",
+    "title": "John Fisher",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"John_Fisher_(cardinal)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-jacques-lefevre-detaples",
+    "title": "Jacques Lefèvre d'Étaples",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Jacques_Lefèvre_d%27Étaples\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-hernan-nunez",
+    "title": "Hernán Núñez de Toledo",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Hernán_Núñez_de_Toledo\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "person-cosimo-de-medici",
+    "title": "Cosimo de' Medici",
+    "type": "person",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Cosimo_de%27_Medici\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-elegantiae",
+    "title": "Elegantiae linguae Latinae",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Elegantiae_linguae_Latinae\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-donation-constantine",
+    "title": "De falso credita et ementita Constantini donatione",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Discourse_on_the_Forgery_of_the_Alleged_Donation_of_Constantine\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-erotemata",
+    "title": "Erotemata",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Erotemata\"",
+    "candidates": [
+      {
+        "wikidataId": "Q5395405",
+        "label": "Erotemata",
+        "description": "1471 book on Greek grammar by Manuel Chrysoloras"
+      },
+      {
+        "wikidataId": "Q62052501",
+        "label": "Erotemata",
+        "description": "Bodleian Library Auct. K 4.35"
+      },
+      {
+        "wikidataId": "Q62052502",
+        "label": "Erotemata",
+        "description": "Bodleian Library Auct. K 6.1"
+      },
+      {
+        "wikidataId": "Q124728024",
+        "label": "Erotemata",
+        "description": "work by Zacharias Calliergi"
+      },
+      {
+        "wikidataId": "Q124727927",
+        "label": "Erotemata"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-ficino-plato",
+    "title": "Complete Plato Translations",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Complete Plato Translations\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-theologia-platonica",
+    "title": "Theologia Platonica",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Theologia_Platonica\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-amore-ficino",
+    "title": "De amore",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Commentarium_in_Convivium_Platonis_de_Amore\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-900-theses",
+    "title": "900 Theses",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"900_Theses\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-ficino-plotinus",
+    "title": "Plotinus Translation (Enneads)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Plotinus Translation (Enneads)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-laudatio-florentinae",
+    "title": "Laudatio Florentinae urbis",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Laudatio_Florentinae_urbis\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-storia-italia",
+    "title": "Storia d'Italia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Storia_d%27Italia_(Guicciardini)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-ricordi",
+    "title": "Ricordi",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Ricordi_(Guicciardini)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-ordine-docendi",
+    "title": "De ordine docendi et studendi",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"De ordine docendi et studendi\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-inventione-dialectica",
+    "title": "De inventione dialectica",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"De_inventione_dialectica\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-tradendis",
+    "title": "De tradendis disciplinis",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"De tradendis disciplinis\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-copia",
+    "title": "De copia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"De_Copia\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-valla-annotations-nt",
+    "title": "Annotations on the New Testament",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Annotations on the New Testament\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-french-bible-lefevre",
+    "title": "French Bible Translation",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"French Bible Translation\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-arcadia",
+    "title": "Arcadia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Arcadia_(Sannazaro)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-stanze-giostra",
+    "title": "Stanze per la giostra",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Stanze_per_la_giostra\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-miscellanea",
+    "title": "Miscellanea",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Miscellanea\"",
+    "candidates": [
+      {
+        "wikidataId": "Q23768532",
+        "label": "Miscellanea",
+        "description": "genus of foraminifers"
+      },
+      {
+        "wikidataId": "Q92770553",
+        "label": "Miscellanea zoologica hungarica"
+      },
+      {
+        "wikidataId": "Q1295240",
+        "label": "miscellany",
+        "description": "publishing term; collection of various pieces of writing by different authors"
+      },
+      {
+        "wikidataId": "Q1780486",
+        "label": "miscellanea",
+        "description": "assembly of several literary genre"
+      },
+      {
+        "wikidataId": "Q112057554",
+        "label": "Miscellanea",
+        "description": "Czech book series"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-bruni-aristotle-ethics",
+    "title": "Aristotle's Ethics Translation",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Aristotle's Ethics Translation\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-bruni-aristotle-politics",
+    "title": "Aristotle's Politics Translation",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Aristotle's Politics Translation\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-homer-editio-princeps",
+    "title": "Homer's Iliad (editio princeps)",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Homer's Iliad (editio princeps)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-thesaurus-linguae-latinae",
+    "title": "Thesaurus linguae Latinae",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Thesaurus linguae Latinae\"",
+    "candidates": [
+      {
+        "wikidataId": "Q125350474",
+        "label": "Thesaurus Linguae Latinae",
+        "description": "work group"
+      },
+      {
+        "wikidataId": "Q647422",
+        "label": "Thesaurus Linguae Latinae",
+        "description": "monumental dictionary of Latin"
+      },
+      {
+        "wikidataId": "Q55151880",
+        "label": "Thesaurus Linguae Latinae Epigraphicae. A Dictionary of the Latin Inscriptions. By George N. Olcott, Ph.D. Vol. I, fascicules 1–21 (a-aser). 10½ × 7, 504 pp. Rome: Loescher & Co. 1904–1912"
+      },
+      {
+        "wikidataId": "Q59739307",
+        "label": "Thesaurus linguae Latinae epigraphicae. Leslie F. Smith , John H. McLean , Clinton W. Keyes"
+      },
+      {
+        "wikidataId": "Q59731101",
+        "label": "Thesaurus Linguae Latinae Epigraphicae: A Dictionary of the Latin Inscriptions. George N. Olcott"
+      }
+    ]
+  },
+  {
+    "nodeId": "object-della-famiglia",
+    "title": "Della famiglia",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"I_Libri_della_Famiglia\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-italia-illustrata",
+    "title": "Italia illustrata",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Italia_Illustrata\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-pius-commentarii",
+    "title": "Commentarii",
+    "type": "object",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Commentaries_(Pius_II)\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-erasmus-letters",
+    "title": "Opus Epistolarum Des. Erasmi",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Opus Epistolarum Des. Erasmi\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-st-pauls-school",
+    "title": "St. Paul's School (London)",
+    "type": "location",
+    "reason": "not-found",
+    "note": "Wikipedia page \"St_Paul%27s_School,_London\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-deventer-school",
+    "title": "Deventer School",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Deventer School\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-strasbourg-gymnasium",
+    "title": "Strasbourg Gymnasium",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Strasbourg Gymnasium\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-selestat-school",
+    "title": "Sélestat School",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Sélestat School\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-froben-press",
+    "title": "Froben Press",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Froben Press\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-estienne-press",
+    "title": "Estienne Press",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Estienne Press\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-court-francis-i",
+    "title": "Court of Francis I",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Court of Francis I\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "location-english-court",
+    "title": "English Court (Henry VIII)",
+    "type": "location",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"English Court (Henry VIII)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-aldine-academy",
+    "title": "Aldine Academy (New Academy)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Aldine Academy (New Academy)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-collegium-poetarum",
+    "title": "Collegium poetarum (Vienna)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Collegium poetarum (Vienna)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-german-sodalities",
+    "title": "German Humanist Sodalities",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"German Humanist Sodalities\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-philological-humanism",
+    "title": "Philological Humanism",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Philological Humanism\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-humanist-aristotelianism",
+    "title": "Humanist Aristotelianism",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Renaissance_Aristotelianism\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-froben-press",
+    "title": "Froben Press",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Froben Press\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-estienne-press",
+    "title": "Estienne Press",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "Wikipedia page \"Estienne_family\" has no linked Wikidata item",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-casa-giocosa",
+    "title": "Casa Giocosa (Mantua)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Casa Giocosa (Mantua)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-guarino-school-ferrara",
+    "title": "Guarino's School (Ferrara)",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Guarino's School (Ferrara)\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-papal-patronage",
+    "title": "Papal Patronage",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Papal Patronage\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "entity-french-royal-patronage",
+    "title": "French Royal Patronage",
+    "type": "entity",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"French Royal Patronage\"",
+    "candidates": []
+  }
+]

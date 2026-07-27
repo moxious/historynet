@@ -1,0 +1,59 @@
+[
+  {
+    "nodeId": "object-in-scripturam-sacram-problemata",
+    "title": "In Scripturam Sacram Problemata",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"In Scripturam Sacram Problemata\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-de-originibus",
+    "title": "De originibus seu de Hebraicae linguae et gentis antiquitate",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"De originibus seu de Hebraicae linguae et gentis antiquitate\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-absconditorum-clavis",
+    "title": "Absconditorum clavis",
+    "type": "object",
+    "reason": "not-found",
+    "note": "No Wikidata search results for \"Absconditorum clavis\"",
+    "candidates": []
+  },
+  {
+    "nodeId": "object-augenspiegel",
+    "title": "Augenspiegel",
+    "type": "object",
+    "reason": "multiple-candidates",
+    "note": "5 Wikidata candidates for \"Augenspiegel\"",
+    "candidates": [
+      {
+        "wikidataId": "Q837188",
+        "label": "ophthalmoscopy",
+        "description": "test that allows a health professional to see inside the fundus of the eye and other structures using an ophthalmoscope, crucial in determining the health of the retina, optic disc, and vitreous humor"
+      },
+      {
+        "wikidataId": "Q16583733",
+        "label": "ophthalmoscope",
+        "description": "instrument for examining the interior of the eye"
+      },
+      {
+        "wikidataId": "Q5689325",
+        "label": "head mirror",
+        "description": "simple diagnostic device"
+      },
+      {
+        "wikidataId": "Q29019832",
+        "label": "Augenspiegel"
+      },
+      {
+        "wikidataId": "Q28957634",
+        "label": "Augenspiegel",
+        "description": "Wikimedia disambiguation page"
+      }
+    ]
+  }
+]

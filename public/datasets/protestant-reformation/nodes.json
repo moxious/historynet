@@ -224,7 +224,8 @@
     "deathPlace": "Altenburg, Germany",
     "nationality": "German",
     "wikipediaTitle": "Georg_Spalatin",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q65368"
   },
   {
     "id": "person-andreas-karlstadt",
@@ -299,7 +300,8 @@
     "deathPlace": "Berlin, Germany",
     "nationality": "German",
     "wikipediaTitle": "Johann_Agricola",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q76554"
   },
   {
     "id": "person-thomas-muntzer",
@@ -638,7 +640,8 @@
     "deathPlace": "London, England",
     "nationality": "English",
     "wikipediaTitle": "Miles_Coverdale",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q778508"
   },
   {
     "id": "person-john-foxe",
@@ -1491,7 +1494,8 @@
       }
     ],
     "wikipediaTitle": "Loci_Communes",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q1542696"
   },
   {
     "id": "object-obedience-christian-man",
@@ -1647,7 +1651,8 @@
       "person-huldrych-zwingli"
     ],
     "wikipediaTitle": "Froschauer_Bible",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q248436"
   },
   {
     "id": "object-augsburg-confession",
@@ -1736,7 +1741,8 @@
       "person-leo-jud"
     ],
     "wikipediaTitle": "First_Helvetic_Confession",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q676162"
   },
   {
     "id": "object-second-helvetic-confession",
@@ -1764,7 +1770,8 @@
       "person-john-calvin"
     ],
     "wikipediaTitle": "Genevan_Catechism",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q189279"
   },
   {
     "id": "object-heidelberg-catechism",
@@ -1923,7 +1930,8 @@
       "person-erasmus-of-rotterdam"
     ],
     "wikipediaTitle": "The_Praise_of_Folly",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q569869"
   },
   {
     "id": "object-enchiridion",
@@ -1940,7 +1948,8 @@
       "person-erasmus-of-rotterdam"
     ],
     "wikipediaTitle": "Enchiridion_militis_Christiani",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q1340009"
   },
   {
     "id": "object-first-blast",
@@ -2025,7 +2034,8 @@
     "parentLocation": "location-wittenberg",
     "dateStart": "1502",
     "wikipediaTitle": "University_of_Wittenberg",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q32120"
   },
   {
     "id": "location-castle-church-wittenberg",
@@ -2050,7 +2060,8 @@
       "lng": 8.3507
     },
     "wikipediaTitle": "Worms,_Germany",
-    "wikidataId": "Q3852"
+    "wikidataId": "Q3852",
+    "dateStart": "-100"
   },
   {
     "id": "location-augsburg",
@@ -2064,7 +2075,8 @@
       "lng": 10.8978
     },
     "wikipediaTitle": "Augsburg",
-    "wikidataId": "Q2749"
+    "wikidataId": "Q2749",
+    "dateStart": "-15"
   },
   {
     "id": "location-marburg",
@@ -2078,7 +2090,8 @@
       "lng": 8.7670
     },
     "wikipediaTitle": "Marburg",
-    "wikidataId": "Q3869"
+    "wikidataId": "Q3869",
+    "dateStart": "1140"
   },
   {
     "id": "location-marburg-university",
@@ -2090,7 +2103,8 @@
     "parentLocation": "location-marburg",
     "dateStart": "1527",
     "wikipediaTitle": "University_of_Marburg",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q155354"
   },
   {
     "id": "location-nuremberg",
@@ -2132,7 +2146,8 @@
       "lng": 10.3067
     },
     "wikipediaTitle": "Wartburg",
-    "wikidataId": "Q151545"
+    "wikidataId": "Q151545",
+    "dateStart": "1067"
   },
   {
     "id": "location-erfurt",
@@ -2146,7 +2161,8 @@
       "lng": 11.0299
     },
     "wikipediaTitle": "Erfurt",
-    "wikidataId": "Q1729"
+    "wikidataId": "Q1729",
+    "dateStart": "742"
   },
   {
     "id": "location-muhlhausen",
@@ -2174,7 +2190,9 @@
       "lng": 8.5417
     },
     "wikipediaTitle": "Zürich",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q72",
+    "dateStart": "200"
   },
   {
     "id": "location-grossmunster",
@@ -2185,7 +2203,8 @@
     "country": "Switzerland",
     "parentLocation": "location-zurich",
     "wikipediaTitle": "Grossmünster",
-    "wikidataId": "Q684948"
+    "wikidataId": "Q684948",
+    "dateStart": "1201"
   },
   {
     "id": "location-geneva",
@@ -2262,7 +2281,8 @@
       "lng": 7.4474
     },
     "wikipediaTitle": "Bern",
-    "wikidataId": "Q70"
+    "wikidataId": "Q70",
+    "dateStart": "1191"
   },
   {
     "id": "location-lausanne",
@@ -2290,7 +2310,8 @@
       "lng": 7.7521
     },
     "wikipediaTitle": "Strasbourg",
-    "wikidataId": "Q6602"
+    "wikidataId": "Q6602",
+    "dateStart": "-12"
   },
   {
     "id": "location-london",
@@ -2304,7 +2325,8 @@
       "lng": 0.1278
     },
     "wikipediaTitle": "London",
-    "wikidataId": "Q84"
+    "wikidataId": "Q84",
+    "dateStart": "47"
   },
   {
     "id": "location-canterbury",
@@ -2332,7 +2354,8 @@
       "lng": -1.2577
     },
     "wikipediaTitle": "Oxford",
-    "wikidataId": "Q34217"
+    "wikidataId": "Q34217",
+    "dateStart": "1000"
   },
   {
     "id": "location-oxford-university",
@@ -2343,7 +2366,8 @@
     "country": "England",
     "parentLocation": "location-oxford",
     "wikipediaTitle": "University_of_Oxford",
-    "wikidataId": "Q34433"
+    "wikidataId": "Q34433",
+    "dateStart": "1096"
   },
   {
     "id": "location-cambridge",
@@ -2357,7 +2381,8 @@
       "lng": 0.1218
     },
     "wikipediaTitle": "Cambridge",
-    "wikidataId": "Q350"
+    "wikidataId": "Q350",
+    "dateStart": "1"
   },
   {
     "id": "location-cambridge-university",
@@ -2368,7 +2393,8 @@
     "country": "England",
     "parentLocation": "location-cambridge",
     "wikipediaTitle": "University_of_Cambridge",
-    "wikidataId": "Q35794"
+    "wikidataId": "Q35794",
+    "dateStart": "1209"
   },
   {
     "id": "location-white-horse-tavern",
@@ -2384,7 +2410,8 @@
     "dateStart": "1520",
     "dateEnd": "1530",
     "wikipediaTitle": "White_Horse_Inn,_Cambridge",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q15990356"
   },
   {
     "id": "location-antwerp",
@@ -2426,7 +2453,8 @@
       "lng": 2.3522
     },
     "wikipediaTitle": "Paris",
-    "wikidataId": "Q90"
+    "wikidataId": "Q90",
+    "dateStart": "-300"
   },
   {
     "id": "location-sorbonne",
@@ -2437,7 +2465,8 @@
     "country": "France",
     "parentLocation": "location-paris",
     "wikipediaTitle": "University_of_Paris",
-    "wikidataId": "Q209842"
+    "wikidataId": "Q209842",
+    "dateStart": "1150"
   },
   {
     "id": "location-meaux",
@@ -2465,7 +2494,8 @@
       "lng": 12.4964
     },
     "wikipediaTitle": "Rome",
-    "wikidataId": "Q220"
+    "wikidataId": "Q220",
+    "dateStart": "-753"
   },
   {
     "id": "location-ingolstadt",
@@ -2479,7 +2509,8 @@
       "lng": 11.4258
     },
     "wikipediaTitle": "Ingolstadt",
-    "wikidataId": "Q3004"
+    "wikidataId": "Q3004",
+    "dateStart": "1200"
   },
   {
     "id": "location-st-andrews",
@@ -2519,7 +2550,8 @@
       "lng": -3.1883
     },
     "wikipediaTitle": "Edinburgh",
-    "wikidataId": "Q23436"
+    "wikidataId": "Q23436",
+    "dateStart": "601"
   },
   {
     "id": "location-st-giles-edinburgh",
@@ -2544,7 +2576,8 @@
       "lng": 8.5333
     },
     "wikipediaTitle": "Battle_of_Kappel",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q233594"
   },
   {
     "id": "location-schleitheim",
@@ -2640,7 +2673,8 @@
     "dateStart": "1541",
     "headquarters": "location-geneva",
     "wikipediaTitle": "Consistory_of_Geneva",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q2994627"
   },
   {
     "id": "entity-church-of-scotland",
@@ -2672,7 +2706,8 @@
     "entityType": "movement",
     "dateStart": "1519",
     "wikipediaTitle": "Swiss_Reformed_Church",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q338309"
   },
   {
     "id": "entity-radical-reformation",
@@ -2764,7 +2799,8 @@
     "entityType": "political_alliance",
     "dateStart": "1291",
     "wikipediaTitle": "Old_Swiss_Confederacy",
-    "wikidataId": "Q435583"
+    "wikidataId": "Q435583",
+    "dateEnd": "1798"
   },
   {
     "id": "entity-augustinian-order",

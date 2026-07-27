@@ -1519,7 +1519,9 @@
       "person-michael-nyman"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q5248828",
+    "wikipediaTitle": "Decay_Music"
   },
   {
     "id": "object-yoshimura-postcards",
@@ -1558,7 +1560,8 @@
       "person-haruomi-hosono"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q11614996"
   },
   {
     "id": "object-sakamoto-async",
@@ -1831,7 +1834,8 @@
     "shortDescription": "Capital of Berlin School electronic music",
     "country": "Germany",
     "wikipediaTitle": "Berlin",
-    "wikidataId": "Q64"
+    "wikidataId": "Q64",
+    "dateStart": "1244"
   },
   {
     "id": "loc-dusseldorf",
@@ -1871,7 +1875,8 @@
     "shortDescription": "Birthplace of musique concrète and furniture music",
     "country": "France",
     "wikipediaTitle": "Paris",
-    "wikidataId": "Q90"
+    "wikidataId": "Q90",
+    "dateStart": "-300"
   },
   {
     "id": "loc-london",
@@ -1881,7 +1886,8 @@
     "shortDescription": "Home of BBC Radiophonic Workshop and British experimental scene",
     "country": "United Kingdom",
     "wikipediaTitle": "London",
-    "wikidataId": "Q84"
+    "wikidataId": "Q84",
+    "dateStart": "47"
   },
   {
     "id": "loc-new-york",
@@ -1891,7 +1897,8 @@
     "shortDescription": "Center of American avant-garde and minimalism",
     "country": "United States",
     "wikipediaTitle": "New_York_City",
-    "wikidataId": "Q60"
+    "wikidataId": "Q60",
+    "dateStart": "1624"
   },
   {
     "id": "loc-san-francisco",
@@ -1911,7 +1918,8 @@
     "shortDescription": "Birthplace of dub music",
     "country": "Jamaica",
     "wikipediaTitle": "Kingston,_Jamaica",
-    "wikidataId": "Q34692"
+    "wikidataId": "Q34692",
+    "dateStart": "1692"
   },
   {
     "id": "loc-tokyo",
@@ -1921,7 +1929,8 @@
     "shortDescription": "Center of Japanese electronic and environmental music",
     "country": "Japan",
     "wikipediaTitle": "Tokyo",
-    "wikidataId": "Q1490"
+    "wikidataId": "Q1490",
+    "dateStart": "1868"
   },
   {
     "id": "loc-milan",
@@ -1931,7 +1940,8 @@
     "shortDescription": "Base of Italian Futurism",
     "country": "Italy",
     "wikipediaTitle": "Milan",
-    "wikidataId": "Q490"
+    "wikidataId": "Q490",
+    "dateStart": "-600"
   },
   {
     "id": "loc-hamilton",
@@ -1941,7 +1951,8 @@
     "shortDescription": "Location of Daniel Lanois's Grant Avenue Studio",
     "country": "Canada",
     "wikipediaTitle": "Hamilton,_Ontario",
-    "wikidataId": "Q133116"
+    "wikidataId": "Q133116",
+    "dateStart": "1846"
   },
   {
     "id": "loc-conny-studio",
@@ -1963,7 +1974,9 @@
     "country": "France",
     "parentLocation": "loc-paris",
     "wikipediaTitle": "Groupe_de_recherches_musicales",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q823560",
+    "dateStart": "1948"
   },
   {
     "id": "loc-wdr-studio",
@@ -1974,7 +1987,8 @@
     "country": "Germany",
     "parentLocation": "loc-cologne",
     "wikipediaTitle": "Studio_for_Electronic_Music_(WDR)",
-    "wikidataId": "Q2358704"
+    "wikidataId": "Q2358704",
+    "dateStart": "1951"
   },
   {
     "id": "loc-bbc-radiophonic",
@@ -2011,7 +2025,8 @@
     "dateStart": "1973",
     "dateEnd": "1979",
     "wikipediaTitle": "Black_Ark",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q2331306"
   },
   {
     "id": "loc-kling-klang",
@@ -2033,7 +2048,8 @@
     "country": "Canada",
     "parentLocation": "loc-hamilton",
     "wikipediaTitle": "Grant_Avenue_Studio",
-    "wikidataId": "Q118898952"
+    "wikidataId": "Q118898952",
+    "dateStart": "1976"
   },
   {
     "id": "loc-ems-studio",
@@ -2055,7 +2071,8 @@
     "country": "Germany",
     "parentLocation": "loc-berlin",
     "wikipediaTitle": "Hansa_Tonstudio",
-    "wikidataId": "Q667023"
+    "wikidataId": "Q667023",
+    "dateStart": "1974"
   },
   {
     "id": "loc-sftmc",
@@ -2079,7 +2096,8 @@
     "country": "United States",
     "parentLocation": "loc-san-francisco",
     "wikipediaTitle": "Mills_College",
-    "wikidataId": "Q638859"
+    "wikidataId": "Q638859",
+    "dateStart": "1852"
   },
   {
     "id": "loc-darmstadt",
@@ -2089,7 +2107,9 @@
     "shortDescription": "International summer courses where avant-garde traditions met",
     "country": "Germany",
     "wikipediaTitle": "Darmstadt_International_Summer_Courses_for_New_Music",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q694704",
+    "dateStart": "1946"
   },
   {
     "id": "loc-zodiak",
@@ -2123,7 +2143,8 @@
     "country": "Germany",
     "parentLocation": "loc-dusseldorf",
     "wikipediaTitle": "Kunstakademie_Düsseldorf",
-    "wikidataId": "Q662355"
+    "wikidataId": "Q662355",
+    "dateStart": "1773"
   },
   {
     "id": "loc-kitchen",
@@ -2135,7 +2156,8 @@
     "parentLocation": "loc-new-york",
     "dateStart": "1971",
     "wikipediaTitle": "The_Kitchen",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q1743849"
   },
   {
     "id": "loc-washington-square",
@@ -2146,7 +2168,8 @@
     "country": "United States",
     "parentLocation": "loc-new-york",
     "wikipediaTitle": "Washington_Square_Park",
-    "wikidataId": "Q909592"
+    "wikidataId": "Q909592",
+    "dateStart": "1827"
   },
   {
     "id": "loc-dream-house-install",
@@ -2326,7 +2349,8 @@
     "dateStart": "1950",
     "headquarters": "loc-new-york",
     "wikipediaTitle": "New_York_School_(art)",
-    "wikidataId": "Q1972942"
+    "wikidataId": "Q1972942",
+    "dateEnd": "1960"
   },
   {
     "id": "entity-deep-listening-band",
@@ -2434,7 +2458,8 @@
     "dateStart": "1973",
     "headquarters": "loc-london",
     "wikipediaTitle": "E.G._Records",
-    "wikidataId": "Q1611073"
+    "wikidataId": "Q1611073",
+    "dateEnd": "1996"
   },
   {
     "id": "entity-editions-eg",
@@ -2445,7 +2470,8 @@
     "dateStart": "1981",
     "headquarters": "loc-london",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q118256298"
   },
   {
     "id": "entity-grm-editions",
@@ -2615,7 +2641,8 @@
     ],
     "headquarters": "loc-paris",
     "wikipediaTitle": "Groupe_de_recherches_musicales",
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q823560"
   },
   {
     "id": "entity-sftmc-org",
@@ -2716,7 +2743,9 @@
     "birthPlace": "Japan",
     "nationality": "Japanese",
     "wikipediaTitle": null,
-    "wikidataId": null
+    "wikidataId": null,
+    "wikidataId": "Q96187424",
+    "wikipediaTitle": "Satoshi_Ashikawa"
   },
   {
     "id": "person-richard-d-james",
