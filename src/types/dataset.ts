@@ -69,6 +69,12 @@ export interface DatasetManifest {
   bannerEmoji?: string;
   /** Path to banner image (relative to public/, e.g., "img/banners/enlightenment.jpg") */
   bannerImage?: string;
+  /** Short license name for the banner image, e.g. "CC BY-SA 4.0" or "Public domain" */
+  bannerImageLicense?: string;
+  /** Plain-text author/attribution for the banner image */
+  bannerImageAttribution?: string;
+  /** Source page for the banner image (e.g. Wikimedia Commons file page URL) */
+  bannerImageSource?: string;
   /** Structured scope information */
   scope?: DatasetScope;
   /** Legacy temporal scope string (e.g., "2012-2025") */
