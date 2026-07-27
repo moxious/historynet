@@ -20,6 +20,7 @@
     "enrich:dry-run": "npx tsx scripts/enrich-dataset/index.ts --dry-run",
     "sync-manifest": "npx tsx scripts/sync-manifest/index.ts",
     "sync-manifest:check": "npx tsx scripts/sync-manifest/index.ts --check",
+    "fetch-banner": "npx tsx scripts/fetch-banner/index.ts",
     "check-evidence": "npx tsx scripts/check-evidence/index.ts",
     "new-dataset": "npx tsx scripts/new-dataset/index.ts",
     "verify-ids": "npx tsx scripts/verify-ids/index.ts",
