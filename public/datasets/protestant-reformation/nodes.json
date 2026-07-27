@@ -224,7 +224,6 @@
     "deathPlace": "Altenburg, Germany",
     "nationality": "German",
     "wikipediaTitle": "Georg_Spalatin",
-    "wikidataId": null,
     "wikidataId": "Q65368"
   },
   {
@@ -300,7 +299,6 @@
     "deathPlace": "Berlin, Germany",
     "nationality": "German",
     "wikipediaTitle": "Johann_Agricola",
-    "wikidataId": null,
     "wikidataId": "Q76554"
   },
   {
@@ -640,7 +638,6 @@
     "deathPlace": "London, England",
     "nationality": "English",
     "wikipediaTitle": "Miles_Coverdale",
-    "wikidataId": null,
     "wikidataId": "Q778508"
   },
   {
@@ -1494,7 +1491,6 @@
       }
     ],
     "wikipediaTitle": "Loci_Communes",
-    "wikidataId": null,
     "wikidataId": "Q1542696"
   },
   {
@@ -1582,8 +1578,8 @@
     "creators": [
       "person-william-tyndale"
     ],
-    "wikipediaTitle": "Tyndale_Bible",
-    "wikidataId": "Q2462802"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-coverdale-bible",
@@ -1651,7 +1647,6 @@
       "person-huldrych-zwingli"
     ],
     "wikipediaTitle": "Froschauer_Bible",
-    "wikidataId": null,
     "wikidataId": "Q248436"
   },
   {
@@ -1740,9 +1735,8 @@
       "person-heinrich-bullinger",
       "person-leo-jud"
     ],
-    "wikipediaTitle": "First_Helvetic_Confession",
-    "wikidataId": null,
-    "wikidataId": "Q676162"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-second-helvetic-confession",
@@ -1755,8 +1749,8 @@
     "creators": [
       "person-heinrich-bullinger"
     ],
-    "wikipediaTitle": "Second_Helvetic_Confession",
-    "wikidataId": "Q676162"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-genevan-catechism",
@@ -1770,7 +1764,6 @@
       "person-john-calvin"
     ],
     "wikipediaTitle": "Genevan_Catechism",
-    "wikidataId": null,
     "wikidataId": "Q189279"
   },
   {
@@ -1930,7 +1923,6 @@
       "person-erasmus-of-rotterdam"
     ],
     "wikipediaTitle": "The_Praise_of_Folly",
-    "wikidataId": null,
     "wikidataId": "Q569869"
   },
   {
@@ -1948,7 +1940,6 @@
       "person-erasmus-of-rotterdam"
     ],
     "wikipediaTitle": "Enchiridion_militis_Christiani",
-    "wikidataId": null,
     "wikidataId": "Q1340009"
   },
   {
@@ -2033,9 +2024,8 @@
     "country": "Germany",
     "parentLocation": "location-wittenberg",
     "dateStart": "1502",
-    "wikipediaTitle": "University_of_Wittenberg",
-    "wikidataId": null,
-    "wikidataId": "Q32120"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-castle-church-wittenberg",
@@ -2103,7 +2093,6 @@
     "parentLocation": "location-marburg",
     "dateStart": "1527",
     "wikipediaTitle": "University_of_Marburg",
-    "wikidataId": null,
     "wikidataId": "Q155354"
   },
   {
@@ -2190,7 +2179,6 @@
       "lng": 8.5417
     },
     "wikipediaTitle": "Zürich",
-    "wikidataId": null,
     "wikidataId": "Q72",
     "dateStart": "200"
   },
@@ -2410,7 +2398,6 @@
     "dateStart": "1520",
     "dateEnd": "1530",
     "wikipediaTitle": "White_Horse_Inn,_Cambridge",
-    "wikidataId": null,
     "wikidataId": "Q15990356"
   },
   {
@@ -2576,7 +2563,6 @@
       "lng": 8.5333
     },
     "wikipediaTitle": "Battle_of_Kappel",
-    "wikidataId": null,
     "wikidataId": "Q233594"
   },
   {
@@ -2673,7 +2659,6 @@
     "dateStart": "1541",
     "headquarters": "location-geneva",
     "wikipediaTitle": "Consistory_of_Geneva",
-    "wikidataId": null,
     "wikidataId": "Q2994627"
   },
   {
@@ -2706,7 +2691,6 @@
     "entityType": "movement",
     "dateStart": "1519",
     "wikipediaTitle": "Swiss_Reformed_Church",
-    "wikidataId": null,
     "wikidataId": "Q338309"
   },
   {
@@ -2897,8 +2881,8 @@
     "dateStart": "1491",
     "dateEnd": "1527",
     "headquarters": "location-basel",
-    "wikipediaTitle": "Johann_Froben",
-    "wikidataId": "Q116611"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "entity-wittenberg-printers",

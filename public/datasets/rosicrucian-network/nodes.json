@@ -776,7 +776,6 @@
         "url": "https://en.wikipedia.org/wiki/Michael_M%C3%A4stlin"
       }
     ],
-    "wikidataId": null,
     "wikidataId": "Q75797"
   },
   {
@@ -1693,7 +1692,6 @@
     ],
     "wikipediaTitle": null,
     "notes": "Biographical details sparse; dates approximate based on active period. German Wikipedia article available at de.wikipedia.org/wiki/Abraham_Hölzel",
-    "wikidataId": null,
     "wikidataId": "Q22969219",
     "birthPlace": "Tyrol"
   },
@@ -2030,7 +2028,6 @@
       "person-daniel-cramer"
     ],
     "wikipediaTitle": "University_of_Marburg",
-    "wikidataId": null,
     "wikidataId": "Q155354"
   },
   {
@@ -2518,7 +2515,6 @@
       }
     ],
     "notes": "Originally written in Czech, published in Latin in 1657. Proposes education for all regardless of birth, wealth, nation, or gender. Influenced the entire Hartlib Circle's educational agenda.",
-    "wikidataId": null,
     "wikidataId": "Q1210397"
   },
   {

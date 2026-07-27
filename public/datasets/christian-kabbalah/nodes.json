@@ -329,7 +329,6 @@
     "language": "Latin/Hebrew",
     "subject": "Hebrew language",
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q42188609"
   },
   {
@@ -405,7 +404,6 @@
     "language": "Latin",
     "subject": "angel magic, philosophy of history",
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q121991644"
   },
   {
@@ -455,7 +453,6 @@
       "Conclusiones"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q42294258"
   },
   {
@@ -701,7 +698,7 @@
     "dateStart": "1388",
     "headquarters": "location-cologne",
     "wikipediaTitle": "University_of_Cologne",
-    "wikidataId": "Q151510"
+    "wikidataId": "Q54096"
   },
   {
     "id": "entity-dominican-order",

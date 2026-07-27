@@ -229,7 +229,6 @@
     "nationality": "American",
     "occupations": ["AI researcher"],
     "biography": "Alec Radford is a research scientist at OpenAI since its early days. Primary author on GPT-1, GPT-2, CLIP, and DALL-E papers. Rarely gives interviews but considered one of most impactful researchers in the field.",
-    "wikipediaTitle": null,
     "wikidataId": "Q29180956",
     "wikipediaTitle": "Alec_Radford"
   },
@@ -1130,7 +1129,6 @@
     "nationality": "French",
     "occupations": ["engineer", "executive"],
     "biography": "Julien Chaumond is co-founder and CTO of Hugging Face. Technical leadership of Hugging Face platform and infrastructure.",
-    "wikipediaTitle": null,
     "wikidataId": "Q140533344",
     "wikipediaTitle": "Julien_Chaumond"
   },
@@ -1215,7 +1213,6 @@
     "shortDescription": "Co-founder of Cohere; former Google Brain researcher; worked with Hinton on capsule networks",
     "occupations": ["AI researcher", "entrepreneur"],
     "biography": "Nick Frosst co-founded Cohere. Former Google Brain researcher who worked with Geoffrey Hinton on capsule networks. Bridged Hinton's research to commercial applications.",
-    "wikipediaTitle": null,
     "wikidataId": "Q133538772",
     "wikipediaTitle": "Nick_Frosst",
     "dateStart": "1993",
