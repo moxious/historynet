@@ -50,3 +50,5 @@ coverage
 
 # Playwright/e2e
 playwright-report/
+# Migration dry-run output (regenerable via npm run migrate:dry-run)
+migration-output/
