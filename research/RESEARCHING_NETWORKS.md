@@ -229,6 +229,17 @@ jq --argjson nc "$NODE_COUNT" --argjson ec "$EDGE_COUNT" \
 
 **Goal**: Set up the dataset structure with scope and metadata.
 
+**Fast path**: scaffold all three files from the template with one command:
+
+```bash
+npm run new-dataset -- --id vienna-circle \
+  --from-idea "logical positivism, Vienna, 1920s-30s" \
+  --start-year 1920 --end-year 1940 \
+  --regions "Austria,Germany" --themes "logical positivism,philosophy of science"
+```
+
+Then refine the generated `manifest.json` scope. Or do it by hand:
+
 **Tasks**:
 1. Create `public/datasets/{network-id}/manifest.json` with scope data
 2. Create `public/datasets/{network-id}/nodes.json` as empty array `[]`
