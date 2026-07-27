@@ -3,8 +3,8 @@
     "nodeId": "person-karl-pearson",
     "title": "Karl Pearson",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Karl Pearson\"",
+    "previousId": "Q180850",
+    "previousResolvedTo": "Tom Jones",
     "candidates": [
       {
         "wikidataId": "Q310794",
@@ -36,8 +36,8 @@
     "nodeId": "person-florence-nightingale",
     "title": "Florence Nightingale",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Florence Nightingale\"",
+    "previousId": "Q38348",
+    "previousResolvedTo": "phylum",
     "candidates": [
       {
         "wikidataId": "Q37103",
@@ -70,8 +70,8 @@
     "nodeId": "person-jacob-bernoulli",
     "title": "Jacob Bernoulli",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Jacob Bernoulli\"",
+    "previousId": "Q122420",
+    "previousResolvedTo": "Eduard Zacharias",
     "candidates": [
       {
         "wikidataId": "Q108733906",
@@ -102,8 +102,8 @@
     "nodeId": "person-william-farr",
     "title": "William Farr",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"William Farr\"",
+    "previousId": "Q317584",
+    "previousResolvedTo": "Winterfeldtplatz",
     "candidates": [
       {
         "wikidataId": "Q107224679",
@@ -136,8 +136,8 @@
     "nodeId": "person-andrey-markov",
     "title": "Andrey Markov",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Andrey Markov\"",
+    "previousId": "Q140282",
+    "previousResolvedTo": "Zaitsev's rule",
     "candidates": [
       {
         "wikidataId": "Q176659",
@@ -170,8 +170,8 @@
     "nodeId": "object-theorie-analytique-des-probabilites",
     "title": "Théorie analytique des probabilités",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Théorie analytique des probabilités\"",
+    "previousId": "Q3527157",
+    "previousResolvedTo": "Schmidt theorem",
     "candidates": [
       {
         "wikidataId": "Q42187073",
@@ -186,49 +186,11 @@
     ]
   },
   {
-    "nodeId": "object-sur-l-homme",
-    "title": "Sur l'homme et le développement de ses facultés",
-    "type": "object",
-    "reason": "not-found",
-    "note": "Wikipedia page \"A_Treatise_on_Man_and_the_Development_of_His_Faculties\" has no linked Wikidata item",
-    "candidates": []
-  },
-  {
-    "nodeId": "object-statistical-methods-for-research-workers",
-    "title": "Statistical Methods for Research Workers",
-    "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Statistical Methods for Research Workers\"",
-    "candidates": [
-      {
-        "wikidataId": "Q7604373",
-        "label": "Statistical Methods for Research Workers",
-        "description": "book by Ronald Fisher"
-      },
-      {
-        "wikidataId": "Q139933682",
-        "label": "Statistical Methods for Research Workers"
-      },
-      {
-        "wikidataId": "Q139933597",
-        "label": "Statistical Methods for Research Workers"
-      },
-      {
-        "wikidataId": "Q56445544",
-        "label": "Statistical Methods for Research Workers"
-      },
-      {
-        "wikidataId": "Q93625340",
-        "label": "Statistical Methods for Research Workers"
-      }
-    ]
-  },
-  {
     "nodeId": "object-design-of-experiments",
     "title": "The Design of Experiments",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"The Design of Experiments\"",
+    "previousId": "Q7726887",
+    "previousResolvedTo": "The Columbian Orator",
     "candidates": [
       {
         "wikidataId": "Q7729822",
@@ -259,8 +221,8 @@
     "nodeId": "object-doctrine-of-chances",
     "title": "The Doctrine of Chances",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"The Doctrine of Chances\"",
+    "previousId": "Q1757843",
+    "previousResolvedTo": "Brothers of Italy",
     "candidates": [
       {
         "wikidataId": "Q2007756",
@@ -277,8 +239,8 @@
     "nodeId": "object-hereditary-genius",
     "title": "Hereditary Genius",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Hereditary Genius\"",
+    "previousId": "Q5734888",
+    "previousResolvedTo": "Herbert Ladd Jones",
     "candidates": [
       {
         "wikidataId": "Q42190843",
@@ -310,8 +272,8 @@
     "nodeId": "object-grammar-of-science",
     "title": "The Grammar of Science",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"The Grammar of Science\"",
+    "previousId": "Q7734628",
+    "previousResolvedTo": "Enyalioides binzayedi",
     "candidates": [
       {
         "wikidataId": "Q139933701",
@@ -341,8 +303,8 @@
     "nodeId": "object-le-suicide",
     "title": "Le Suicide",
     "type": "object",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Le Suicide\"",
+    "previousId": "Q2088170",
+    "previousResolvedTo": "Battle of Tabouk",
     "candidates": [
       {
         "wikidataId": "Q3227448",
@@ -374,8 +336,8 @@
     "nodeId": "location-rothamsted-experimental-station",
     "title": "Rothamsted Experimental Station",
     "type": "location",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Rothamsted Experimental Station\"",
+    "previousId": "Q2157227",
+    "previousResolvedTo": "Trieces truncatus",
     "candidates": [
       {
         "wikidataId": "Q1326711",
@@ -408,8 +370,8 @@
     "nodeId": "entity-biometrika",
     "title": "Biometrika",
     "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Biometrika\"",
+    "previousId": "Q673175",
+    "previousResolvedTo": "French Wars of Religion",
     "candidates": [
       {
         "wikidataId": "Q864602",
@@ -441,8 +403,8 @@
     "nodeId": "entity-royal-statistical-society",
     "title": "Royal Statistical Society",
     "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Royal Statistical Society\"",
+    "previousId": "Q1423882",
+    "previousResolvedTo": "Henricus Pontanus",
     "candidates": [
       {
         "wikidataId": "Q1692699",
@@ -474,8 +436,8 @@
     "nodeId": "entity-eugenics-education-society",
     "title": "Eugenics Education Society",
     "type": "entity",
-    "reason": "multiple-candidates",
-    "note": "2 Wikidata candidates for \"Eugenics Education Society\"",
+    "previousId": "Q5407573",
+    "previousResolvedTo": "Eugene O'Callaghan",
     "candidates": [
       {
         "wikidataId": "Q5519377",
@@ -493,8 +455,8 @@
     "nodeId": "person-tobias-mayer",
     "title": "Tobias Mayer",
     "type": "person",
-    "reason": "multiple-candidates",
-    "note": "5 Wikidata candidates for \"Tobias Mayer\"",
+    "previousId": "Q61071",
+    "previousResolvedTo": "Walter Gropius",
     "candidates": [
       {
         "wikidataId": "Q60406",
@@ -520,11 +482,41 @@
     ]
   },
   {
+    "nodeId": "object-statistical-methods-for-research-workers",
+    "title": "Statistical Methods for Research Workers",
+    "type": "object",
+    "previousId": "Q25927621",
+    "previousResolvedTo": "(no English label)",
+    "candidates": [
+      {
+        "wikidataId": "Q7604373",
+        "label": "Statistical Methods for Research Workers",
+        "description": "book by Ronald Fisher"
+      },
+      {
+        "wikidataId": "Q139933682",
+        "label": "Statistical Methods for Research Workers"
+      },
+      {
+        "wikidataId": "Q139933597",
+        "label": "Statistical Methods for Research Workers"
+      },
+      {
+        "wikidataId": "Q56445544",
+        "label": "Statistical Methods for Research Workers"
+      },
+      {
+        "wikidataId": "Q93625340",
+        "label": "Statistical Methods for Research Workers"
+      }
+    ]
+  },
+  {
     "nodeId": "location-konigsberg-observatory",
     "title": "Königsberg Observatory",
     "type": "location",
-    "reason": "not-found",
-    "note": "No Wikidata search results for \"Königsberg Observatory\"",
+    "previousId": "Q1796310",
+    "previousResolvedTo": "(no English label)",
     "candidates": []
   }
 ]

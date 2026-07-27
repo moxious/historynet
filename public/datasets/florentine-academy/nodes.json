@@ -16,7 +16,7 @@
       "astrologer"
     ],
     "wikipediaTitle": "Marsilio_Ficino",
-    "wikidataId": "Q160239"
+    "wikidataId": "Q192374"
   },
   {
     "id": "person-giovanni-pico-della-mirandola",
@@ -33,8 +33,8 @@
       "theologian",
       "humanist"
     ],
-    "wikipediaTitle": "Giovanni_Pico_della_Mirandola",
-    "wikidataId": "Q189798"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-cosimo-de-medici",
@@ -55,8 +55,8 @@
       "statesman",
       "patron"
     ],
-    "wikipediaTitle": "Cosimo_de'_Medici",
-    "wikidataId": "Q167696"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-angelo-poliziano",
@@ -79,7 +79,7 @@
       "professor"
     ],
     "wikipediaTitle": "Poliziano",
-    "wikidataId": "Q166689"
+    "wikidataId": "Q250414"
   },
   {
     "id": "person-cristoforo-landino",
@@ -97,7 +97,7 @@
       "commentator"
     ],
     "wikipediaTitle": "Cristoforo_Landino",
-    "wikidataId": "Q560436"
+    "wikidataId": "Q711964"
   },
   {
     "id": "person-lorenzo-de-medici",
@@ -153,8 +153,8 @@
       "philosopher",
       "professor"
     ],
-    "wikipediaTitle": "Francesco_Cattani_da_Diacceto",
-    "wikidataId": "Q1440694"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-giovanni-corsi",
@@ -188,7 +188,7 @@
       "humanist"
     ],
     "wikipediaTitle": "Girolamo_Benivieni",
-    "wikidataId": "Q3765911"
+    "wikidataId": "Q328117"
   },
   {
     "id": "person-piero-di-cosimo-de-medici",
@@ -209,7 +209,7 @@
       "statesman"
     ],
     "wikipediaTitle": "Piero_di_Cosimo_de'_Medici",
-    "wikidataId": "Q313587"
+    "wikidataId": "Q299663"
   },
   {
     "id": "person-giuliano-de-medici",
@@ -225,8 +225,8 @@
       "patron",
       "statesman"
     ],
-    "wikipediaTitle": "Giuliano_de'_Medici",
-    "wikidataId": "Q316650"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-giovanni-de-medici-pope-leo-x",
@@ -247,8 +247,8 @@
       "cardinal",
       "patron"
     ],
-    "wikipediaTitle": "Pope_Leo_X",
-    "wikidataId": "Q81994"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-piero-de-medici-the-unfortunate",
@@ -268,8 +268,8 @@
       "statesman",
       "banker"
     ],
-    "wikipediaTitle": "Piero_di_Lorenzo_de'_Medici",
-    "wikidataId": "Q310405"
+    "wikipediaTitle": "Piero_the_Unfortunate",
+    "wikidataId": "Q262212"
   },
   {
     "id": "person-gemistus-pletho",
@@ -290,8 +290,8 @@
       "scholar",
       "statesman"
     ],
-    "wikipediaTitle": "Gemistus_Pletho",
-    "wikidataId": "Q310318"
+    "wikipediaTitle": "Gemistos_Plethon",
+    "wikidataId": "Q220313"
   },
   {
     "id": "person-bessarion",
@@ -312,8 +312,8 @@
       "scholar",
       "diplomat"
     ],
-    "wikipediaTitle": "Basilios_Bessarion",
-    "wikidataId": "Q352619"
+    "wikipediaTitle": "Bessarion",
+    "wikidataId": "Q299446"
   },
   {
     "id": "person-john-argyropoulos",
@@ -335,7 +335,7 @@
       "translator"
     ],
     "wikipediaTitle": "John_Argyropoulos",
-    "wikidataId": "Q720932"
+    "wikidataId": "Q26648"
   },
   {
     "id": "person-manuel-chrysoloras",
@@ -353,7 +353,7 @@
       "professor"
     ],
     "wikipediaTitle": "Manuel_Chrysoloras",
-    "wikidataId": "Q380417"
+    "wikidataId": "Q434356"
   },
   {
     "id": "person-demetrios-chalkokondyles",
@@ -374,7 +374,7 @@
       "editor"
     ],
     "wikipediaTitle": "Demetrios_Chalkokondyles",
-    "wikidataId": "Q561458"
+    "wikidataId": "Q983661"
   },
   {
     "id": "person-hermes-trismegistus",
@@ -393,8 +393,8 @@
       "priest",
       "philosopher"
     ],
-    "wikipediaTitle": "Hermes_Trismegistus",
-    "wikidataId": "Q502592",
+    "wikipediaTitle": null,
+    "wikidataId": null,
     "biography": "Hermes Trismegistus was the purported author of the Hermetic Corpus, a collection of mystical-philosophical texts. Renaissance scholars like Ficino believed he was an actual historical figure—an Egyptian priest contemporary with Moses—who had received divine revelation. Modern scholarship has dated these texts to the 2nd-3rd centuries CE, but their perceived antiquity made them enormously influential in Renaissance thought."
   },
   {
@@ -429,7 +429,7 @@
       "philosopher"
     ],
     "wikipediaTitle": "Plotinus",
-    "wikidataId": "Q44032"
+    "wikidataId": "Q134189"
   },
   {
     "id": "person-proclus",
@@ -449,8 +449,8 @@
       "philosopher",
       "mathematician"
     ],
-    "wikipediaTitle": "Proclus",
-    "wikidataId": "Q188847"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-iamblichus",
@@ -465,8 +465,8 @@
     "occupations": [
       "philosopher"
     ],
-    "wikipediaTitle": "Iamblichus",
-    "wikidataId": "Q42247"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-pseudo-dionysius",
@@ -485,7 +485,7 @@
       "mystic"
     ],
     "wikipediaTitle": "Pseudo-Dionysius_the_Areopagite",
-    "wikidataId": "Q179742"
+    "wikidataId": "Q312816"
   },
   {
     "id": "person-orpheus",
@@ -501,8 +501,8 @@
       "prophet",
       "musician"
     ],
-    "wikipediaTitle": "Orpheus",
-    "wikidataId": "Q43395",
+    "wikipediaTitle": null,
+    "wikidataId": null,
     "biography": "Orpheus was a legendary Greek poet, prophet, and musician whose hymns and theological writings (Orphica) were believed by Renaissance scholars to preserve ancient wisdom predating even Homer. Ficino translated the Orphic Hymns and placed Orpheus in the prisca theologia—the chain of ancient sages who received divine revelation."
   },
   {
@@ -522,7 +522,7 @@
       "philosopher"
     ],
     "wikipediaTitle": "Zoroaster",
-    "wikidataId": "Q4848"
+    "wikidataId": "Q35811"
   },
   {
     "id": "person-pythagoras",
@@ -551,8 +551,8 @@
     "dateEnd": "300",
     "language": "Greek (original), Latin (Ficino translation)",
     "subject": "Hermeticism, cosmology, theology",
-    "wikipediaTitle": "Corpus_Hermeticum",
-    "wikidataId": "Q499851"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-platonis-opera-omnia",
@@ -581,8 +581,8 @@
     "creators": [
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": "Theologia_Platonica",
-    "wikidataId": "Q60767453"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-vita-libri-tres",
@@ -596,8 +596,8 @@
     "creators": [
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": "Three_Books_on_Life",
-    "wikidataId": "Q5753247"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-de-amore",
@@ -611,8 +611,8 @@
     "creators": [
       "person-marsilio-ficino"
     ],
-    "wikipediaTitle": "Commentary_on_Plato%27s_Symposium_on_Love",
-    "wikidataId": "Q5154756"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-oration-dignity-of-man",
@@ -630,7 +630,7 @@
       "person-giovanni-pico-della-mirandola"
     ],
     "wikipediaTitle": "Oration_on_the_Dignity_of_Man",
-    "wikidataId": "Q944027"
+    "wikidataId": "Q2085760"
   },
   {
     "id": "object-900-theses",
@@ -644,8 +644,8 @@
     "creators": [
       "person-giovanni-pico-della-mirandola"
     ],
-    "wikipediaTitle": "900_Theses",
-    "wikidataId": "Q1543820"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-heptaplus",
@@ -659,8 +659,8 @@
     "creators": [
       "person-giovanni-pico-della-mirandola"
     ],
-    "wikipediaTitle": "Heptaplus",
-    "wikidataId": "Q5732857"
+    "wikipediaTitle": null,
+    "wikidataId": "Q42123614"
   },
   {
     "id": "object-enneads",
@@ -675,7 +675,7 @@
       "person-plotinus"
     ],
     "wikipediaTitle": "Enneads",
-    "wikidataId": "Q606879"
+    "wikidataId": "Q1156747"
   },
   {
     "id": "object-asclepius",
@@ -687,8 +687,8 @@
     "dateEnd": "300",
     "language": "Latin",
     "subject": "Hermeticism, theurgy, cosmology",
-    "wikipediaTitle": "Asclepius_(treatise)",
-    "wikidataId": "Q787046"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-pimander",
@@ -704,7 +704,7 @@
     "language": "Greek (original), Latin (Ficino translation)",
     "subject": "cosmogony, gnosis, divine revelation",
     "wikipediaTitle": "Poimandres",
-    "wikidataId": "Q921618"
+    "wikidataId": "Q570373"
   },
   {
     "id": "object-comento-sopra-divina-commedia",
@@ -732,7 +732,7 @@
     "language": "Greek (original), Latin (Ficino translation)",
     "subject": "Orphism, theology, ritual",
     "wikipediaTitle": "Orphic_Hymns",
-    "wikidataId": "Q1626866"
+    "wikidataId": "Q1313790"
   },
   {
     "id": "person-johannes-reuchlin",
@@ -750,7 +750,7 @@
       "jurist"
     ],
     "wikipediaTitle": "Johann_Reuchlin",
-    "wikidataId": "Q154537"
+    "wikidataId": "Q61067"
   },
   {
     "id": "person-cornelius-agrippa",
@@ -769,7 +769,7 @@
       "soldier"
     ],
     "wikipediaTitle": "Heinrich_Cornelius_Agrippa",
-    "wikidataId": "Q315466"
+    "wikidataId": "Q76568"
   },
   {
     "id": "person-giordano-bruno",
@@ -806,8 +806,8 @@
       "philosopher",
       "professor"
     ],
-    "wikipediaTitle": "Francesco_Patrizi_(philosopher)",
-    "wikidataId": "Q364945"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "person-girolamo-savonarola",
@@ -825,7 +825,7 @@
       "reformer"
     ],
     "wikipediaTitle": "Girolamo_Savonarola",
-    "wikidataId": "Q45027"
+    "wikidataId": "Q164823"
   },
   {
     "id": "location-villa-careggi",
@@ -836,7 +836,7 @@
     "country": "Italy",
     "parentLocation": "Florence",
     "wikipediaTitle": "Villa_Medici_at_Careggi",
-    "wikidataId": "Q579476",
+    "wikidataId": "Q368346",
     "dateStart": "1462",
     "dateEnd": "1520"
   },
@@ -867,8 +867,8 @@
       "person-marsilio-ficino"
     ],
     "headquarters": "location-villa-careggi",
-    "wikipediaTitle": "Platonic_Academy_(Florence)",
-    "wikidataId": "Q1210631"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-council-of-florence",
@@ -881,6 +881,6 @@
     "country": "Italy",
     "parentLocation": "Florence",
     "wikipediaTitle": "Council_of_Florence",
-    "wikidataId": "Q83017"
+    "wikidataId": "Q321032"
   }
 ]
