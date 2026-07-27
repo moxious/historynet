@@ -41,7 +41,7 @@ export function useDataset(): UseDatasetReturn {
 
   // Parse dataset ID from path (e.g., /christian-kabbalah/explore -> christian-kabbalah)
   const pathDatasetId = useMemo(() => {
-    const match = location.pathname.match(/^\/([^\/]+)/);
+    const match = location.pathname.match(/^\/([^/]+)/);
     return match ? match[1] : null;
   }, [location.pathname]);
 

@@ -9,13 +9,8 @@
  */
 
 import { useEffect, useState, useCallback } from 'react';
+import type { ToastMessage } from './useToast';
 import './Toast.css';
-
-export interface ToastMessage {
-  id: string;
-  message: string;
-  type?: 'success' | 'info';
-}
 
 interface ToastProps {
   /** Array of toast messages to display */
@@ -83,24 +78,6 @@ function ToastItem({ toast, onDismiss, duration }: ToastItemProps) {
       <span className="toast-item__message">{toast.message}</span>
     </div>
   );
-}
-
-/**
- * Hook for managing toast state
- */
-export function useToast() {
-  const [toasts, setToasts] = useState<ToastMessage[]>([]);
-
-  const showToast = useCallback((message: string, type: 'success' | 'info' = 'success') => {
-    const id = `toast-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
-    setToasts((prev) => [...prev, { id, message, type }]);
-  }, []);
-
-  const dismissToast = useCallback((id: string) => {
-    setToasts((prev) => prev.filter((t) => t.id !== id));
-  }, []);
-
-  return { toasts, showToast, dismissToast };
 }
 
 export default Toast;

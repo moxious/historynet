@@ -12,7 +12,7 @@
  * - Brand links to homepage for navigation
  */
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { Link, useMatch } from 'react-router-dom';
 import { useGraphOptional } from '@contexts';
 import { useIsMobile } from '@hooks';
@@ -34,7 +34,12 @@ function Header() {
   const switchDataset = graphContext?.switchDataset ?? (() => {});
   const loadingState = graphContext?.loadingState ?? 'idle';
   const searchTerm = graphContext?.searchTerm ?? '';
-  const setSearchTerm = graphContext?.setSearchTerm ?? (() => {});
+  // Wrap in useMemo so the noop fallback is stable across renders, keeping
+  // handleSearchChange's dependency stable (avoids the exhaustive-deps warning).
+  const setSearchTerm = useMemo(
+    () => graphContext?.setSearchTerm ?? (() => {}),
+    [graphContext?.setSearchTerm]
+  );
   const searchMatchCount = graphContext?.searchMatchCount ?? 0;
   const currentLayout = graphContext?.currentLayout ?? 'force-graph';
   const setCurrentLayout = graphContext?.setCurrentLayout ?? (() => {});

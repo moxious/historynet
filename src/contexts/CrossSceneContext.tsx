@@ -11,8 +11,6 @@
  */
 
 import {
-  createContext,
-  useContext,
   useEffect,
   useState,
   useCallback,
@@ -20,29 +18,12 @@ import {
   type ReactNode,
 } from 'react';
 import type { GraphNode } from '@types';
-
-/**
- * Entity appearance in a specific dataset
- */
-export interface CrossSceneAppearance {
-  datasetId: string;
-  datasetName: string;
-  nodeId: string;
-  nodeTitle: string;
-}
-
-/**
- * Cross-scene data for a single entity
- */
-export interface CrossSceneData {
-  identity: {
-    wikidataId?: string;
-    wikipediaTitle?: string;
-    canonicalTitle: string;
-  };
-  appearances: CrossSceneAppearance[];
-  totalAppearances: number;
-}
+import {
+  CrossSceneContext,
+  type CrossSceneData,
+  type CacheEntry,
+  type CrossSceneContextValue,
+} from './crossSceneContextCore';
 
 /**
  * API response format for batch lookups
@@ -51,34 +32,6 @@ interface BatchLookupResponse {
   results: Record<string, CrossSceneData>;
   notFound: string[];
 }
-
-/**
- * Cache entry tracking loading state
- */
-interface CacheEntry {
-  data: CrossSceneData | null;
-  isLoading: boolean;
-  error: Error | null;
-}
-
-/**
- * Context value provided to consumers
- */
-interface CrossSceneContextValue {
-  // Get cross-scene data for a node
-  getCrossSceneData: (node: GraphNode) => CacheEntry;
-
-  // Check if data is being fetched
-  isLoadingAny: boolean;
-
-  // Clear cache (useful when switching datasets)
-  clearCache: () => void;
-
-  // Prefetch data for multiple nodes
-  prefetchNodes: (nodes: GraphNode[]) => Promise<void>;
-}
-
-const CrossSceneContext = createContext<CrossSceneContextValue | null>(null);
 
 interface CrossSceneProviderProps {
   children: ReactNode;
@@ -343,24 +296,4 @@ export function CrossSceneProvider({
       {children}
     </CrossSceneContext.Provider>
   );
-}
-
-/**
- * Hook to access cross-scene context
- * Must be used within a CrossSceneProvider
- */
-export function useCrossSceneData(): CrossSceneContextValue {
-  const context = useContext(CrossSceneContext);
-  if (!context) {
-    throw new Error('useCrossSceneData must be used within a CrossSceneProvider');
-  }
-  return context;
-}
-
-/**
- * Optional hook to access cross-scene context
- * Returns null if used outside a CrossSceneProvider
- */
-export function useCrossSceneDataOptional(): CrossSceneContextValue | null {
-  return useContext(CrossSceneContext);
 }

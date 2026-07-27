@@ -324,6 +324,10 @@ export function ForceGraphLayout({
     // Note: selectedEdgeId and selectedNodeId are intentionally NOT in dependencies
     // because selection highlighting is handled by a separate useEffect.
     // Including them here would cause the graph to re-layout on every selection.
+    // getCrossSceneData is intentionally omitted: its identity changes whenever the
+    // cross-scene cache populates, and including it would force a full graph re-layout
+    // on every cache update. Cross-scene indicators are read as a best-effort snapshot.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, dimensions, onNodeClick, onEdgeClick]);
 
   // Update selection highlighting

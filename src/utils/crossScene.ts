@@ -7,7 +7,7 @@
  */
 
 import { buildNodeUrl, buildExploreUrl } from './urlBuilder';
-import type { CrossSceneAppearance } from '@contexts/CrossSceneContext';
+import type { CrossSceneAppearance } from '@contexts/crossSceneContextCore';
 
 /**
  * Build a URL for navigating to a node in another dataset

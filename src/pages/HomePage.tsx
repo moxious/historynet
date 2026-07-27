@@ -14,7 +14,8 @@ import { Helmet } from 'react-helmet-async';
 import type { DatasetManifest } from '@types';
 import { loadManifest, AVAILABLE_DATASETS } from '@utils/dataLoader';
 import { useDebounce } from '@hooks';
-import DatasetTile, { getStartYear } from '@components/DatasetTile';
+import DatasetTile from '@components/DatasetTile';
+import { getStartYear } from '@components/DatasetTile.utils';
 import './HomePage.css';
 
 interface DatasetWithManifest {
