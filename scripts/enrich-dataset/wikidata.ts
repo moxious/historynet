@@ -57,6 +57,9 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+/** Max attempts before giving up on a request that keeps being throttled. */
+const MAX_RETRIES = 7;
+
 async function apiGet(
   base: string,
   params: Record<string, string>
@@ -64,11 +67,34 @@ async function apiGet(
   const url = new URL(base);
   url.search = new URLSearchParams({ ...params, format: 'json' }).toString();
 
-  const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-  if (!res.ok) {
-    throw new Error(`${base} returned HTTP ${res.status} ${res.statusText}`);
+  let lastError = '';
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
+    let res: Response;
+    try {
+      res = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
+    } catch (err) {
+      lastError = (err as Error).message;
+      await sleep(1000 * 2 ** attempt); // network blip - back off and retry
+      continue;
+    }
+
+    if (res.status === 429 || res.status >= 500) {
+      lastError = `HTTP ${res.status} ${res.statusText}`;
+      // Honor Retry-After when present; otherwise exponential backoff.
+      const retryAfter = Number(res.headers.get('retry-after'));
+      const wait = Number.isFinite(retryAfter) && retryAfter > 0
+        ? retryAfter * 1000
+        : 1000 * 2 ** attempt;
+      await sleep(wait);
+      continue;
+    }
+    if (!res.ok) {
+      throw new Error(`${base} returned HTTP ${res.status} ${res.statusText}`);
+    }
+    return (await res.json()) as Record<string, unknown>;
   }
-  return (await res.json()) as Record<string, unknown>;
+
+  throw new Error(`${base} failed after ${MAX_RETRIES} retries: ${lastError}`);
 }
 
 /**

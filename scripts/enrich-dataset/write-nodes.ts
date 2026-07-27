@@ -14,7 +14,7 @@
 import type { EnrichableField, NodeEnrichmentResult } from './types.js';
 
 /** [start, end] char offsets of each top-level object (end = its `}`). */
-function topLevelObjectSpans(text: string): Array<[number, number]> {
+export function topLevelObjectSpans(text: string): Array<[number, number]> {
   const spans: Array<[number, number]> = [];
   let i = 0;
   const n = text.length;
