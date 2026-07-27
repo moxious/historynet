@@ -97,20 +97,23 @@ M1-M20 (Core Application Complete) ✅
 
 ## Next Steps
 
-**Active direction (2026-07-27)**: **Thread 2A — pipeline scripting** (see
-`thread2-pipeline-optimization.md`). Format-agnostic scripts that speed up the
-"idea → dataset" pipeline on the *current* data format, no migration required.
-Shipped so far: `enrich` (Wikidata/Wikipedia field lookup) and `sync-manifest`
-(manifest count reconciliation + CI `--check`).
+**✅ Done (2026-07)**: **Thread 2A — pipeline scripting** is complete. All six
+scripts shipped (`new-dataset`, `enrich`, `check-evidence`, `sync-manifest`,
+`suggest`, `fetch-banner`), plus `verify-ids`/`resolve-ids` which emerged from a
+data-integrity issue those tools uncovered (5 datasets remediated). See the
+[Dataset Tooling inventory](../AGENTS.md#dataset-tooling) and
+`thread2-pipeline-optimization.md`.
 
-**Ready to implement** (dependencies satisfied):
-- **Thread 2A remainder**: `new-dataset`, `check-evidence`, `fetch-banner`, `suggest`
+**Recommended next**:
+- **Dogfood the pipeline** — create a new dataset end-to-end with the 2A tools.
 - **M26: Custom Domain** - Depends on M24 ✅ (quick, unblocked)
 - **M27: Spam Protection** - Depends on M25 ✅
 
-**Paused**:
+**Paused — reassess before resuming**:
 - **M34: Migration Infrastructure** - Phases 1–2 landed (PR #36); Phases 3–5 +
-  blockers B1–B4 consciously deferred behind Thread 2A. Resume deliberately later.
+  blockers B1–B4 open. Thread 2A delivered much of Track D's intended value on
+  the current format, so reconsider the atomic migration's scope — see the
+  "Track D reassessment" in `../ROADMAP.md`.
 
 **Track B progress**: M30 (Cross-Scene UI) complete. Full cross-scene discovery experience deployed with visual indicators, progressive disclosure, and seamless navigation across datasets.
 

@@ -24,6 +24,29 @@ This document outlines the future direction for Scenius.
 
 **Shipped Datasets**: AI-LLM Research, Rosicrucian Network, Enlightenment, Ambient Music, Cybernetics, Protestant Reformation, Renaissance Humanism, Scientific Revolution, Florentine Academy, Christian Kabbalah, Statistics & Social Physics
 
+### Dataset Pipeline Tooling — Thread 2A ✅ Complete (2026-07)
+
+Converted the deterministic steps of the "idea → dataset" pipeline from full-LLM
+work into CLI tools (all under `scripts/`, all with `--help`; see the
+[Dataset Tooling inventory in AGENTS.md](AGENTS.md#dataset-tooling)):
+
+- `new-dataset` — scaffold a dataset skeleton
+- `enrich` — fill missing mechanical fields (IDs, dates, places, occupations) from Wikidata/Wikipedia
+- `check-evidence` — flag dead evidence links and unsupported edges
+- `sync-manifest` — reconcile node/edge counts (+ CI gate)
+- `suggest` — cross-dataset gap detection (down payment on M38)
+- `fetch-banner` — Wikimedia Commons banner + license capture
+
+### Data Integrity Remediation ✅ (2026-07)
+
+While building the pipeline, `verify-ids` surfaced systematic Wikidata-ID
+corruption (fabricated IDs pointing at unrelated entities) in **5 of 12
+datasets** — up to 88% wrong. All remediated:
+
+- `verify-ids` / `resolve-ids` — audit, clear, and date-aware re-resolution of IDs
+- 5 datasets corrected; ~146 wrong IDs cleared/restored, 72 recovered to the correct entity
+- Manifest drift fixed; guards added to CI (`sync-manifest:check` gate + weekly `data-health` report for `verify-ids` and `check-evidence`)
+
 ---
 
 ## Upcoming Milestones
@@ -41,7 +64,7 @@ This document outlines the future direction for Scenius.
 
 | # | Milestone | Description | Dependencies |
 |---|-----------|-------------|--------------|
-| M34 | Migration Infrastructure & Testing | Build migration tooling and comprehensive tests for atomic architecture transition ⏸ **Paused** — Phases 1–2 landed (PR #36); Phases 3–5 + blockers deferred behind Thread 2A | None |
+| M34 | Migration Infrastructure & Testing | Build migration tooling and comprehensive tests for atomic architecture transition ⏸ **Paused** — Phases 1–2 landed (PR #36); Phases 3–5 + P0 blockers B1–B4 open. **See Track D reassessment below before resuming.** | None |
 | M35 | Research Tooling | CLI tools for efficient entity management (find, create, edit, add-to-dataset) | M34 |
 | M36 | Atomic Architecture - Persons | Migrate Person entities to atomic files, prove architecture pattern | M34, M35 |
 | M37 | Full POLE Atomization | Extend atomization to Objects, Locations, Entities - complete architecture | M36 |
@@ -78,13 +101,31 @@ Completed Foundation
 ```
 
 **Recommended next**:
-- **Thread 2A (active)**: Pipeline scripting on the current data format — no
-  migration required. `enrich` and `sync-manifest` shipped; `new-dataset`,
-  `check-evidence`, `fetch-banner`, `suggest` remain. See
-  `milestones/thread2-pipeline-optimization.md`.
-- **Track B**: M26 (Custom Domain) - independent, quick win
-- **Track D**: M34 is ⏸ **paused** behind Thread 2A — resume deliberately once
-  2A is in hand (Phases 3–5 + blockers B1–B4 still open).
+- **Dogfood the pipeline**: build a brand-new dataset end-to-end
+  (`new-dataset → enrich → suggest → check-evidence → sync-manifest → validate:datasets`).
+  Validates that Thread 2A actually made dataset creation cheap, and grows content.
+- **Track B**: M26 (Custom Domain) — independent, quick win. M27 (Spam Protection).
+- **Track D (see reassessment below)**: M34 remains ⏸ paused (Phases 3–5 +
+  blockers B1–B4). Reconsider scope before resuming.
+
+### ⚠️ Track D reassessment (2026-07)
+
+Thread 2A was the "cheap high-ROI work first, then return to the atomic
+migration" detour. In doing it, **2A captured much of the value that originally
+motivated Track D (M34–M38)** on the *current* data format:
+
+| Original Track D goal | Delivered by Thread 2A on current format |
+|---|---|
+| Token-efficient entity edits | `enrich` turns per-node lookup into a command |
+| Cross-dataset entity identity | clean `wikidataId`s via `verify-ids`/`resolve-ids` (this was M34 blocker B1's concern) |
+| Inter-dataset research / gap detection | `suggest` (a working M38 down payment) |
+
+So the open decision is **not** "when to resume M34" but **"how much of the
+atomic migration is still worth doing"** now that its main benefits exist on the
+current format. Options: (a) resume M34–M38 as planned; (b) a lighter subset
+targeting only what 2A didn't cover; (c) keep it parked and invest in content
+(new datasets) and Track B. Decide deliberately with fresh evidence of pain that
+2A didn't already solve.
 
 ---
 
