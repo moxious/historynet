@@ -81,10 +81,24 @@ function serializeValue(value: string | string[], indent: string): string {
 }
 
 /**
+ * A field that is present but holds a "missing" value: null, "", or an empty
+ * array. enrich's isMissing treats these as fillable, so when it fills one we
+ * must REPLACE that value in place — appending would create a duplicate key
+ * (e.g. after nulling a wrong id and re-enriching).
+ */
+function missingValueRegExp(field: string): RegExp {
+  return new RegExp(`("${field}"\\s*:\\s*)(null|""|\\[\\s*\\])`);
+}
+
+/**
  * Apply enrichment fills to the original nodes.json text without disturbing the
  * formatting of untouched content. `results` must be in the same order as the
  * nodes in `originalText`; we additionally match on node id as a safety check
  * and throw rather than risk writing a corrupted file.
+ *
+ * For each filled field: if the node already carries the key with a missing
+ * value (null/""/[]), its value is replaced in place; otherwise the key is
+ * appended before the closing brace.
  */
 export function applyFills(
   originalText: string,
@@ -97,12 +111,8 @@ export function applyFills(
     );
   }
 
-  // Build the edits, then apply them back-to-front so earlier offsets stay valid.
-  interface Edit {
-    at: number;
-    insert: string;
-  }
-  const edits: Edit[] = [];
+  const pieces: string[] = [];
+  let cursor = 0;
 
   for (let i = 0; i < spans.length; i++) {
     const result = results[i];
@@ -110,7 +120,7 @@ export function applyFills(
     if (filledFields.length === 0) continue;
 
     const [start, end] = spans[i];
-    const objText = originalText.slice(start, end + 1);
+    let objText = originalText.slice(start, end + 1);
 
     const id = objectId(objText);
     if (id && id !== result.nodeId) {
@@ -120,32 +130,36 @@ export function applyFills(
     }
 
     const indent = propertyIndent(objText);
+    const toAppend: string[] = [];
 
-    // Insertion point: just after the object's last property value, which is
-    // the last non-whitespace character before the closing brace at `end`.
-    let insertAt = end - 1;
-    while (insertAt > start && /\s/.test(originalText[insertAt])) insertAt--;
-    insertAt += 1;
+    for (const field of filledFields) {
+      const value = result.filled[field];
+      if (value === undefined) continue;
+      if (Array.isArray(value) && value.length === 0) continue;
+      const serialized = serializeValue(value, indent);
 
-    const additions = filledFields
-      .map((field) => {
-        const value = result.filled[field];
-        if (value === undefined) return null;
-        return `,\n${indent}${JSON.stringify(field)}: ${serializeValue(
-          value,
-          indent
-        )}`;
-      })
-      .filter((s): s is string => s !== null)
-      .join('');
+      const existing = missingValueRegExp(field);
+      if (existing.test(objText)) {
+        // Replace the present-but-empty value in place (no duplicate key).
+        objText = objText.replace(existing, (_m, prefix: string) => `${prefix}${serialized}`);
+      } else {
+        toAppend.push(`,\n${indent}${JSON.stringify(field)}: ${serialized}`);
+      }
+    }
 
-    if (additions) edits.push({ at: insertAt, insert: additions });
+    if (toAppend.length > 0) {
+      // Insert after the object's last property value (before the closing brace).
+      let insertAt = objText.length - 2; // step past the closing '}'
+      while (insertAt > 0 && /\s/.test(objText[insertAt])) insertAt--;
+      insertAt += 1;
+      objText = objText.slice(0, insertAt) + toAppend.join('') + objText.slice(insertAt);
+    }
+
+    pieces.push(originalText.slice(cursor, start));
+    pieces.push(objText);
+    cursor = end + 1;
   }
 
-  edits.sort((a, b) => b.at - a.at);
-  let text = originalText;
-  for (const edit of edits) {
-    text = text.slice(0, edit.at) + edit.insert + text.slice(edit.at);
-  }
-  return text;
+  pieces.push(originalText.slice(cursor));
+  return pieces.join('');
 }
