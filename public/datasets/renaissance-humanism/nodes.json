@@ -233,7 +233,6 @@
     "birthPlace": "Montepulciano",
     "nationality": "Italian",
     "wikipediaTitle": "Angelo_Poliziano",
-    "wikidataId": null,
     "wikidataId": "Q250414"
   },
   {
@@ -395,7 +394,6 @@
     "birthPlace": "Florence",
     "nationality": "Italian",
     "wikipediaTitle": "Donato_Acciaiuoli",
-    "wikidataId": null,
     "wikidataId": "Q1240697"
   },
   {
@@ -465,7 +463,6 @@
     "birthPlace": "Rome",
     "nationality": "Italian",
     "wikipediaTitle": "Giulio_Pomponio_Leto",
-    "wikidataId": null,
     "wikidataId": "Q523923"
   },
   {
@@ -593,7 +590,6 @@
     "birthPlace": "Venice",
     "nationality": "Italian",
     "wikipediaTitle": "Ermolao_Barbaro_the_Younger",
-    "wikidataId": null,
     "wikidataId": "Q1236821"
   },
   {
@@ -855,7 +851,6 @@
     "birthPlace": "Groningen",
     "nationality": "Dutch/German",
     "wikipediaTitle": "Rudolf_Agricola",
-    "wikidataId": null,
     "wikidataId": "Q365557"
   },
   {
@@ -873,7 +868,6 @@
     "birthPlace": "Pforzheim",
     "nationality": "German",
     "wikipediaTitle": "Johannes_Reuchlin",
-    "wikidataId": null,
     "wikidataId": "Q61067"
   },
   {
@@ -1153,7 +1147,6 @@
     "birthPlace": "Limoges",
     "nationality": "French",
     "wikipediaTitle": "Jean_Dorat",
-    "wikidataId": null,
     "wikidataId": "Q714921"
   },
   {
@@ -1235,7 +1228,6 @@
     "birthPlace": "Athens",
     "nationality": "Byzantine",
     "wikipediaTitle": "Demetrius_Chalcondyles",
-    "wikidataId": null,
     "wikidataId": "Q983661"
   },
   {
@@ -1302,7 +1294,6 @@
     "birthPlace": "Thessalonica",
     "nationality": "Byzantine",
     "wikipediaTitle": "Theodore_Gaza",
-    "wikidataId": null,
     "wikidataId": "Q287485"
   },
   {
@@ -1647,7 +1638,6 @@
       }
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q138333085"
   },
   {
@@ -1701,7 +1691,6 @@
       "person-leonardo-bruni"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q127513869"
   },
   {
@@ -1855,7 +1844,6 @@
       }
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q136609481"
   },
   {
@@ -1880,7 +1868,6 @@
       }
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q135423802"
   },
   {
@@ -1905,7 +1892,6 @@
       }
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q42188494"
   },
   {
@@ -2064,7 +2050,6 @@
       }
     ],
     "wikipediaTitle": "Handbook_of_a_Christian_Knight",
-    "wikidataId": null,
     "wikidataId": "Q1340009"
   },
   {
@@ -2110,7 +2095,6 @@
       "person-johannes-reuchlin"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q42188609"
   },
   {
@@ -2342,7 +2326,6 @@
       "person-guillaume-bude"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q139584268"
   },
   {
@@ -2415,7 +2398,6 @@
       }
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q3704168"
   },
   {
@@ -2455,7 +2437,6 @@
       }
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q55599373"
   },
   {
@@ -2494,7 +2475,6 @@
       "person-beatus-rhenanus"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q37865627"
   },
   {
@@ -3082,7 +3062,6 @@
       "person-marsilio-ficino"
     ],
     "wikipediaTitle": "Florentine_Academy",
-    "wikidataId": null,
     "wikidataId": "Q4585397"
   },
   {
@@ -3098,7 +3077,6 @@
       "person-pomponio-leto"
     ],
     "wikipediaTitle": "Roman_Academy",
-    "wikidataId": null,
     "wikidataId": "Q7361569"
   },
   {
@@ -3181,7 +3159,6 @@
     "dateStart": "1462",
     "dateEnd": "1600",
     "wikipediaTitle": "Renaissance_Neoplatonism",
-    "wikidataId": null,
     "wikidataId": "Q7202435"
   },
   {
@@ -3314,7 +3291,6 @@
     "dateStart": "1434",
     "dateEnd": "1494",
     "wikipediaTitle": "Medici",
-    "wikidataId": null,
     "wikidataId": "Q170022"
   },
   {

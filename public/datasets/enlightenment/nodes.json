@@ -1135,7 +1135,7 @@
     "language": "English",
     "subject": "Moral philosophy",
     "wikipediaTitle": "Characteristics_of_Men,_Manners,_Opinions,_Times",
-    "wikidataId": "Q335112"
+    "wikidataId": "Q42187797"
   },
   {
     "id": "object-fable-bees",
@@ -1225,8 +1225,6 @@
     ],
     "language": "French",
     "subject": "Natural philosophy",
-    "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q3721351",
     "wikipediaTitle": "Elements_of_the_Philosophy_of_Newton"
   },
@@ -1404,9 +1402,8 @@
     ],
     "language": "French",
     "subject": "Moral philosophy",
-    "wikipediaTitle": "De_l'esprit",
-    "wikidataId": null,
-    "wikidataId": "Q190302"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-tableau-economique",
@@ -1459,8 +1456,6 @@
     ],
     "language": "French",
     "subject": "Religious criticism",
-    "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q1171098",
     "wikipediaTitle": "Christianity_Unveiled"
   },
@@ -1594,7 +1589,6 @@
     "language": "English",
     "subject": "Philosophy",
     "wikipediaTitle": "Three_Dialogues_between_Hylas_and_Philonous",
-    "wikidataId": null,
     "wikidataId": "Q3110883"
   },
   {
@@ -1958,7 +1952,6 @@
     "language": "German",
     "subject": "Political philosophy, Theology",
     "wikipediaTitle": "Jerusalem_(Mendelssohn)",
-    "wikidataId": null,
     "wikidataId": "Q6185071"
   },
   {
@@ -2217,7 +2210,6 @@
     "language": "French",
     "subject": "Mathematics, Political science",
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q42189328"
   },
   {
@@ -2393,7 +2385,6 @@
     "locationType": "university",
     "country": "Prussia",
     "wikipediaTitle": "University_of_Halle",
-    "wikidataId": null,
     "wikidataId": "Q32120",
     "dateStart": "1502"
   },
@@ -2643,7 +2634,6 @@
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
     "wikipediaTitle": "Select_Society",
-    "wikidataId": null,
     "wikidataId": "Q10369531"
   },
   {
@@ -2669,7 +2659,6 @@
     "country": "Scotland",
     "parentLocation": "location-edinburgh",
     "wikipediaTitle": "Rankenian_Club",
-    "wikidataId": null,
     "wikidataId": "Q16931535"
   },
   {
@@ -2823,7 +2812,6 @@
     "dateEnd": "1789",
     "entityType": "intellectual tendency",
     "wikipediaTitle": "Radical_Enlightenment",
-    "wikidataId": null,
     "wikidataId": "Q12539"
   },
   {
@@ -2971,7 +2959,6 @@
     "shortDescription": "Central Enlightenment cause",
     "entityType": "reform movement",
     "wikipediaTitle": "Religious_toleration",
-    "wikidataId": null,
     "wikidataId": "Q2086472"
   },
   {
@@ -3025,7 +3012,6 @@
     "shortDescription": "Reconciling Christianity with Enlightenment values",
     "entityType": "religious tendency",
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q119038249"
   },
   {

@@ -1518,8 +1518,6 @@
     "creators": [
       "person-michael-nyman"
     ],
-    "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q5248828",
     "wikipediaTitle": "Decay_Music"
   },
@@ -1560,7 +1558,6 @@
       "person-haruomi-hosono"
     ],
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q11614996"
   },
   {
@@ -1703,8 +1700,8 @@
     "creators": [
       "person-don-buchla"
     ],
-    "wikipediaTitle": "Buchla_Electronic_Musical_Instruments",
-    "wikidataId": "Q4676716"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-buchla-easel",
@@ -1962,8 +1959,8 @@
     "shortDescription": "Crucible of German electronic music and Eno collaborations",
     "country": "Germany",
     "parentLocation": "loc-cologne",
-    "wikipediaTitle": "Conny_Plank",
-    "wikidataId": "Q61428"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "loc-grm",
@@ -1974,8 +1971,7 @@
     "country": "France",
     "parentLocation": "loc-paris",
     "wikipediaTitle": "Groupe_de_recherches_musicales",
-    "wikidataId": null,
-    "wikidataId": "Q823560",
+    "wikidataId": "Q1780333",
     "dateStart": "1948"
   },
   {
@@ -2025,7 +2021,6 @@
     "dateStart": "1973",
     "dateEnd": "1979",
     "wikipediaTitle": "Black_Ark",
-    "wikidataId": null,
     "wikidataId": "Q2331306"
   },
   {
@@ -2107,7 +2102,6 @@
     "shortDescription": "International summer courses where avant-garde traditions met",
     "country": "Germany",
     "wikipediaTitle": "Darmstadt_International_Summer_Courses_for_New_Music",
-    "wikidataId": null,
     "wikidataId": "Q694704",
     "dateStart": "1946"
   },
@@ -2156,7 +2150,6 @@
     "parentLocation": "loc-new-york",
     "dateStart": "1971",
     "wikipediaTitle": "The_Kitchen",
-    "wikidataId": null,
     "wikidataId": "Q1743849"
   },
   {
@@ -2470,7 +2463,6 @@
     "dateStart": "1981",
     "headquarters": "loc-london",
     "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q118256298"
   },
   {
@@ -2641,8 +2633,7 @@
     ],
     "headquarters": "loc-paris",
     "wikipediaTitle": "Groupe_de_recherches_musicales",
-    "wikidataId": null,
-    "wikidataId": "Q823560"
+    "wikidataId": "Q1780333"
   },
   {
     "id": "entity-sftmc-org",
@@ -2742,8 +2733,6 @@
     ],
     "birthPlace": "Japan",
     "nationality": "Japanese",
-    "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q96187424",
     "wikipediaTitle": "Satoshi_Ashikawa"
   },

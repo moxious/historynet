@@ -45,7 +45,8 @@ datasets** — up to 88% wrong. All remediated:
 
 - `verify-ids` / `resolve-ids` — audit, clear, and date-aware re-resolution of IDs
 - 5 datasets corrected; ~146 wrong IDs cleared/restored, 72 recovered to the correct entity
-- Manifest drift fixed; guards added to CI (`sync-manifest:check` gate + weekly `data-health` report for `verify-ids` and `check-evidence`)
+- Manifest drift fixed; guards added to CI (`sync-manifest:check` gate + weekly `data-health` report for `verify-ids`, `check-evidence`, and `cross-dataset`)
+- `cross-dataset` — cross-dataset entity consistency report (groundwork for the atomic decision below); repaired 82 nodes with duplicate JSON keys (leftover from an enrich bug) and fixed genuine two-entity id collisions
 
 ---
 
@@ -64,7 +65,7 @@ datasets** — up to 88% wrong. All remediated:
 
 | # | Milestone | Description | Dependencies |
 |---|-----------|-------------|--------------|
-| M34 | Migration Infrastructure & Testing | Build migration tooling and comprehensive tests for atomic architecture transition ⏸ **Paused** — Phases 1–2 landed (PR #36); Phases 3–5 + P0 blockers B1–B4 open. **See Track D reassessment below before resuming.** | None |
+| M34 | Migration Infrastructure & Testing | Build migration tooling and comprehensive tests for atomic architecture transition. Phases 1–2 landed (PR #36). **Decision (2026-07): resume, scoped to persons + places — see Track D decision below.** Next: clear P0 blockers B1–B4, then Phases 3–5. | None |
 | M35 | Research Tooling | CLI tools for efficient entity management (find, create, edit, add-to-dataset) | M34 |
 | M36 | Atomic Architecture - Persons | Migrate Person entities to atomic files, prove architecture pattern | M34, M35 |
 | M37 | Full POLE Atomization | Extend atomization to Objects, Locations, Entities - complete architecture | M36 |
@@ -100,32 +101,43 @@ Completed Foundation
                                                                   Research)
 ```
 
-**Recommended next**:
-- **Dogfood the pipeline**: build a brand-new dataset end-to-end
-  (`new-dataset → enrich → suggest → check-evidence → sync-manifest → validate:datasets`).
-  Validates that Thread 2A actually made dataset creation cheap, and grows content.
-- **Track B**: M26 (Custom Domain) — independent, quick win. M27 (Spam Protection).
-- **Track D (see reassessment below)**: M34 remains ⏸ paused (Phases 3–5 +
-  blockers B1–B4). Reconsider scope before resuming.
+**Recommended next**: proceed with **Track D (scoped)** — see the decision below.
+Track B quick wins (M26 Custom Domain, M27 Spam Protection) remain available as
+independent side quests.
 
-### ⚠️ Track D reassessment (2026-07)
+### ✅ Track D decision (2026-07): proceed, scoped to persons + places
 
-Thread 2A was the "cheap high-ROI work first, then return to the atomic
-migration" detour. In doing it, **2A captured much of the value that originally
-motivated Track D (M34–M38)** on the *current* data format:
+The Track D reassessment asked whether the atomic migration was still worth doing
+after Thread 2A. **Decision: yes — do it, scoped.** The reasoning corrected an
+error in the earlier reassessment:
 
-| Original Track D goal | Delivered by Thread 2A on current format |
-|---|---|
-| Token-efficient entity edits | `enrich` turns per-node lookup into a command |
-| Cross-dataset entity identity | clean `wikidataId`s via `verify-ids`/`resolve-ids` (this was M34 blocker B1's concern) |
-| Inter-dataset research / gap detection | `suggest` (a working M38 down payment) |
+**2A delivered identity *detection*, not identity *unification*.** 2A made it
+possible to *know* two nodes are the same entity (shared `wikidataId`), and that
+powers `suggest`, cross-scene discovery, and cheap enrichment. But it left the
+underlying duplication in place: the same entity still exists as **independent,
+drifting copies** per dataset. That single-canonical-record + contextual-override
+model is the distinct thing only the atomic architecture provides — and it's the
+real reason to do Track D.
 
-So the open decision is **not** "when to resume M34" but **"how much of the
-atomic migration is still worth doing"** now that its main benefits exist on the
-current format. Options: (a) resume M34–M38 as planned; (b) a lighter subset
-targeting only what 2A didn't cover; (c) keep it parked and invest in content
-(new datasets) and Track B. Decide deliberately with fresh evidence of pain that
-2A didn't already solve.
+**The evidence is measurable now** (`npm run cross-dataset`): **91 entities are
+shared/duplicated across datasets**, with real drift — London dated 47 vs 1490,
+Reuchlin's biography differing across 4 datasets, and one-`wikidataId`-two-entities
+collisions (a person and their book sharing an id). Every new overlapping dataset
+makes it worse.
+
+**Scope**: persons and locations are where reuse concentrates (33 persons, 39
+locations shared), so target **M36 + the locations half of M37**. Objects/full
+POLE (M37 remainder) and M38 can follow or be deferred.
+
+**Sequence**:
+1. **Cross-dataset consistency tooling + collision cleanup** — *done* (`cross-dataset`
+   report; 82 duplicate-key nodes repaired; genuine two-entity id collisions
+   fixed). Shrinks the problem and de-risks the migration.
+2. **M34 blockers B1–B4** — B1 (key canonical merge on `type + wikidataId`) and B2
+   (intra-dataset dedup) are exactly the mechanics of collapsing the duplicates
+   into canonical records. Then M34 Phases 3–5.
+3. **M35** — entity CLI.
+4. **M36 + locations** — atomic persons and places, with per-dataset overrides.
 
 ---
 

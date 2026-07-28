@@ -562,7 +562,6 @@
     ],
     "nationality": "American",
     "subgroup": "Macy Conference Core",
-    "wikidataId": null,
     "wikidataId": "Q2406358",
     "birthPlace": "Harvey"
   },
@@ -1479,8 +1478,8 @@
     ],
     "language": "English",
     "shortDescription": "Book version with Shannon's paper and Weaver's accessible introduction",
-    "wikipediaTitle": "A_Mathematical_Theory_of_Communication",
-    "wikidataId": "Q724029"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-computable-numbers-turing",
@@ -1623,7 +1622,6 @@
     "language": "English",
     "shortDescription": "Proposed Hebbian learning: 'neurons that fire together wire together'",
     "wikipediaTitle": "The_Organization_of_Behavior",
-    "wikidataId": null,
     "wikidataId": "Q7755339"
   },
   {
@@ -1719,9 +1717,8 @@
     ],
     "language": "English",
     "shortDescription": "Foundational text for systems theory",
-    "wikipediaTitle": "General_System_Theory",
-    "wikidataId": null,
-    "wikidataId": "Q269699"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-cybernetics-management-beer",
@@ -1749,7 +1746,6 @@
     "language": "English",
     "shortDescription": "Presented the Viable System Model (VSM)",
     "wikipediaTitle": "Brain_of_the_Firm",
-    "wikidataId": null,
     "wikidataId": "Q140611064"
   },
   {
@@ -1835,7 +1831,6 @@
     "language": "English",
     "shortDescription": "Proposed enaction—cognition as embodied action",
     "wikipediaTitle": "The_Embodied_Mind",
-    "wikidataId": null,
     "wikidataId": "Q1335050"
   },
   {
@@ -1903,7 +1898,6 @@
         "url": "https://en.wikipedia.org/wiki/I._J._Good"
       }
     ],
-    "wikidataId": null,
     "wikidataId": "Q56594306"
   },
   {
@@ -1920,8 +1914,8 @@
     ],
     "language": "English",
     "shortDescription": "Coined 'artificial intelligence' and launched AI as a field",
-    "wikipediaTitle": "Dartmouth_workshop",
-    "wikidataId": "Q2453355"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "object-man-computer-symbiosis-licklider",
@@ -1945,7 +1939,6 @@
         "url": "https://en.wikipedia.org/wiki/Man-Computer_Symbiosis"
       }
     ],
-    "wikidataId": null,
     "wikidataId": "Q20650478"
   },
   {
@@ -2289,7 +2282,6 @@
     },
     "shortDescription": "Where Grey Walter built tortoise robots",
     "wikipediaTitle": "Burden_Neurological_Institute",
-    "wikidataId": null,
     "wikidataId": "Q7618485",
     "dateStart": "1909"
   },
@@ -2306,8 +2298,6 @@
       "lng": -2.1976
     },
     "shortDescription": "Where Ashby built the Homeostat",
-    "wikipediaTitle": null,
-    "wikidataId": null,
     "wikidataId": "Q4862031",
     "wikipediaTitle": "Barnwood_House_Hospital"
   },
@@ -2386,8 +2376,8 @@
       "lng": -70.6541
     },
     "shortDescription": "Cybersyn control room for economic management",
-    "wikipediaTitle": "Project_Cybersyn",
-    "wikidataId": "Q1147211"
+    "wikipediaTitle": null,
+    "wikidataId": null
   },
   {
     "id": "location-vienna",
@@ -2478,7 +2468,6 @@
     },
     "shortDescription": "Where Rosenblatt developed the perceptron",
     "wikipediaTitle": "Cornell_Aeronautical_Laboratory",
-    "wikidataId": null,
     "wikidataId": "Q5023963"
   },
   {
@@ -2591,8 +2580,8 @@
     "entityType": "research_laboratory",
     "dateStart": "1959",
     "shortDescription": "Premier AI research laboratory",
-    "wikipediaTitle": "MIT_Computer_Science_and_Artificial_Intelligence_Laboratory",
-    "wikidataId": "Q1354917"
+    "wikipediaTitle": "MIT_Artificial_Intelligence_Laboratory",
+    "wikidataId": "Q4584054"
   },
   {
     "id": "entity-bcl",
@@ -2613,7 +2602,6 @@
     "dateStart": "1963",
     "shortDescription": "West Coast AI research center founded by McCarthy",
     "wikipediaTitle": "Stanford_Artificial_Intelligence_Laboratory",
-    "wikidataId": null,
     "wikidataId": "Q2931153"
   },
   {
@@ -2776,7 +2764,7 @@
     "dateStart": "1963",
     "shortDescription": "MIT project for time-sharing and AI",
     "wikipediaTitle": "Project_MAC",
-    "wikidataId": "Q1354917"
+    "wikidataId": "Q1053094"
   },
   {
     "id": "entity-arpanet",
